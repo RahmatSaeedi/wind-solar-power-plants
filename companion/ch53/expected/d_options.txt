@@ -1,0 +1,8 @@
+decision: the twelve main gearboxes at year 18 (each run 146,642 h)
+  Weibull k 2.5, c 150,000 h (fitted fleet data, ch 37/52)
+  A repair on failure   380 k u, 900 h down, restores 60% of life
+  B replace on failure  620 k u, 900 h down
+  C replace now         620 k u, 700 h down in June
+  energy lost per down hour: mean 1.84 MW, June 0.94 MW;
+  70 u/MWh to year 20, 45 after; discount 7.5%
+  disposal of each old gearbox: steel credit and oil -6 k u

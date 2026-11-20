@@ -1,0 +1,8 @@
+degraded mode: the meter channel updates once a second (one-cycle lag)
+  gains            overshoot %   settled (2 %) s
+  normal 1.5 / 0.8        21.6                50
+  degraded 0.8 / 0.3         0.0                19
+  the normal gains on a once-a-second measurement overshoot
+  (lesson B); the degraded mode trades speed for a calm
+  response until the transducer is back - written in the
+  control narrative and proved in the same test case

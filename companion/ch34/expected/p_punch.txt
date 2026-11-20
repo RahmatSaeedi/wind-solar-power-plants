@@ -1,0 +1,10 @@
+the punch list at the end of the factory test (synthetic)
+  category                      open
+  A (blocks shipment)              2
+  B (close before SAT)             6
+  C (close before handover)        4
+  A and B items: 8; at 3 closed a week: 2.7 weeks
+  the panel ships when the A items are closed and re-tested;
+  B items travel with the panel and are closed and signed
+  before the site test; each item names who closes it and
+  which test proves it closed (ch 40, ch 50)

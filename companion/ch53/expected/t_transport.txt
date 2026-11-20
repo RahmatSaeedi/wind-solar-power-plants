@@ -1,0 +1,4 @@
+decommissioning transport: 19,670 t x 180 km to receivers = 3.5 million t km
+  at 0.09 kg CO2e per t km (teaching): 319 t CO2e
+  small against the materials themselves, but inside the
+  boundary of every option that removes equipment (lesson I)

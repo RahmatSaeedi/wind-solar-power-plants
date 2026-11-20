@@ -1,0 +1,7 @@
+calibration and the test uncertainty ratio (TUR)
+  joint torque spec 70 +/- 7 N m; wrench +/- 2.8 N m (95 %)
+  TUR = 7.0 / 2.8 = 2.5  (a common aim is 4 or more)
+  guard-banded acceptance: 65.8 to 74.2 N m
+  a better wrench (+/- 1 %) gives TUR 10 and the full band
+  calibration says the tool was right on the day of its
+  check; the daily check on an analyser says it still is

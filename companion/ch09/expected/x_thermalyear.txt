@@ -1,0 +1,7 @@
+daily junction-temperature swing of one module, data-pack year (A-170):
+  largest swing 78 K, median 59 K, smallest 22 K
+  damage (swing/40 K)^5 summed: 3,243 equivalent 40 K cycles per year
+  damage share by month (%): 1 3 8 13 16 18 16 11 7 4 1 1
+  the clear days of spring and summer, with air hot in the day
+  and cool at night, do most of the damage: cooling that also
+  holds the coolant warmer at night cuts the swing

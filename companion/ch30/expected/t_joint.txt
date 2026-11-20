@@ -1,0 +1,13 @@
+why preload protects an anchor bolt from fatigue (joint diagram)
+  load factor phi = kb/(kb+kc) = 0.14; preload 1,250 kN
+  external pull kN   bolt force (preloaded)   bolt force (lost preload)
+                 0                     1250                           0
+               200                     1279                         200
+               400                     1307                         400
+               600                     1336                         600
+               800                     1364                         800
+              1036                     1398                        1036
+  a fatigue cycle of 400 kN gives the tight bolt 57 kN of range,
+  the slack bolt the full 400 kN - seven times more, and
+  with slope 3 about 343 times the damage: the re-tensioning
+  of lesson C is a fatigue measure as much as a strength one

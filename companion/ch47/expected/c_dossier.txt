@@ -1,0 +1,10 @@
+tower section 1 dossier: 8 of 12 documents complete
+  missing or incomplete, and why:
+    welder qualifications on the weld dates: b_welders (3 joints)
+    NDT reports to the plan: b_ndt (attachments 4 %)
+    NCR register with closures: c_ncr (5 open)
+    release note signed by the buyer's inspector: waits for the rest
+  the release note is the last line for a reason: it may be
+  signed only when every line above it is complete; a section
+  shipped on a signed note with open lines carries its holes
+  to site, where they cost a crane day each (ch 31)

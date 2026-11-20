@@ -1,0 +1,7 @@
+monthly diesel test runs, load against a 100 kW rating (teaching)
+   12  15  60  10  14  70  13  12  65  11  16  62  kW
+  8 runs below 30% load: unburnt fuel builds up when the
+  engine never warms (teaching rule: a loaded run each quarter)
+  quarters with a run at half load or more: 4 of 4
+  the light runs prove the engine starts; the loaded runs
+  prove it carries the station - both are in the record

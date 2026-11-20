@@ -1,0 +1,18 @@
+water management plan: metering and the uncertainty register
+  meter 1: W-1 and W-2 abstraction (permit reporting)
+  meter 2: tank level with a low alarm above the fire reserve
+  meter 3: RO feed and permeate (recovery)
+  meter 4: brine to the pond
+  meter 5: truck filling point
+  meter 6: staff and building use
+  meter 7: construction draw-off (temporary)
+  meter 8: rain gauge at the soiling station
+  uncertainty                     closed by                        owner
+  well yield in a drought         pumping test, 2-year records     plant
+  soiling rate                    two soiling stations (D-014)     O&M
+  water right volume              permit (U-104)                   developer
+  RO recovery and brine           supplier test, pond records      O&M
+  fire reserve volume             fire strategy (U-105)            fire eng.
+  the plan is reviewed after the first dry season with the
+  metered data; the choice of cleaning method is revisited
+  if water or soiling differ from the assumptions

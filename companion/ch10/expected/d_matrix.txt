@@ -1,0 +1,7 @@
+cleaning decision matrix (A-209), robot capital 400 u each, water weight 0.20:
+  option                 cost u/yr  cost  water warr. safety robust  score
+  no cleaning              478,247   1.0      5     5      5      1   3.00
+  truck every 30 d         340,745   3.8      2     4      2      4   3.23
+  truck at 4 % trigger     310,025   4.4      2     4      3      4   3.60
+  robot every 12 d         282,210   5.0      5     3      4      2   4.10
+  highest score: robot every 12 d (4.10)

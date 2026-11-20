@@ -1,0 +1,10 @@
+burden of a CT secondary run of 150 m in 2.5 mm2 copper
+  loop resistance 2 x 150 m: 2.10 ohm
+  1 A secondary: leads   2.1 VA + devices 1.0 VA =   3.1 VA
+  5 A secondary: leads  52.5 VA + devices 1.0 VA =  53.5 VA
+  against a rated burden of 5 VA, the 1 A secondary fits
+  and the 5 A one needs ten times the copper; the leads are
+  part of the burden, and the class holds only over the
+  burden range the maker states - too little burden can
+  matter too, so the real burden is calculated and written
+  on the CT schedule

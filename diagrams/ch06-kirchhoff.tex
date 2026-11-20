@@ -1,0 +1,22 @@
+% Chapter 6 — Kirchhoff's current law at a node and voltage law around a loop.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % KCL
+  \fill[cInk] (0,0) circle (0.09);
+  \draw[flow] (-2.6,0.9) -- (-0.15,0.05) node[note, text=cInk, pos=0.4, above] {$I_1$};
+  \draw[flow] (-2.6,-0.9) -- (-0.15,-0.05) node[note, text=cInk, pos=0.4, below] {$I_2$};
+  \draw[flow] (0.15,0) -- (2.6,0) node[note, text=cInk, midway, above] {$I_3$};
+  \node[note, text=cInk, anchor=north, align=center] at (0,-1.4)
+       {قانونِ جریان: آنچه به گره می‌رسد، از آن می‌رود\\$I_1 + I_2 = I_3$};
+  % KVL
+  \begin{scope}[shift={(7.5,-1.5)}]
+    \draw (0,0) to[battery1, l={$V_\text{s}$}, invert] (0,3)
+          to[R, l={$R_1$}, v={$V_1$}] (3.2,3)
+          to[R, l={$R_2$}, v={$V_2$}] (3.2,0) -- (0,0);
+    \draw[-{Stealth[length=2mm]}, cInkB, line width=0.6pt] (1.0,1.0) arc (-130:130:0.55);
+    \node[note, anchor=north, align=center, text=cInk] at (1.6,-0.4)
+         {قانونِ ولتاژ: جمعِ ولتاژها دورِ حلقه صفر است\\$V_\text{s} - V_1 - V_2 = 0$};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+SW-T05: the running configuration against its last backup
+  -interface 4 vlan 30
+  -interface 8 shutdown
+  +interface 4 vlan 20
+  +interface 8 vlan 1
+  two changes nobody recorded: port 4 moved the CMS into the
+  control VLAN and port 8 was opened in the default VLAN - the
+  very findings of lesson B, here seen in the files themselves;
+  a diff is the shortest record of what changed

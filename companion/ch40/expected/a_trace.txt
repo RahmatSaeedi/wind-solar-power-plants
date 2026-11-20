@@ -1,0 +1,9 @@
+traceability levels of one skid
+  serial           4 links  transformer, inverter, RMU, panel
+  lot              3 links  lugs, fasteners, busbar copper
+  batch            2 links  paint, sealant
+  tool and person  3 links  torque wrench, crimp die, jointer
+  record           3 links  traveler, test dossier, concessions
+  15 links a skid, 150 for the plant; a link that is
+  missing makes a recall cover every skid instead of three
+  (lesson C shows the query)

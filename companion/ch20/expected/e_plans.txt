@@ -1,0 +1,11 @@
+a year of battery plans executed by the controller (S1):
+  export revenue without the battery 13,781 k u
+  plan made from          battery adds k u   share %   curtailed   alarms
+  perfect foresight                   471     100.0         390       41
+  day-ahead forecast                  469      99.5         390       77
+  intraday forecast                   469      99.5         390       74
+  plans from the forecasts keep almost all of the value:
+  shifting is decided by prices known a day ahead, and the
+  controller fills the battery from curtailment whatever the
+  plan says; the mismatches show as alarms (charge or
+  discharge limited) that the operator must read

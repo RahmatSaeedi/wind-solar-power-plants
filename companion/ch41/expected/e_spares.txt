@@ -1,0 +1,11 @@
+one module replaced in a string of 26 x 550 W (14,303 W)
+  replacement                  string W   change W
+  same class 550 W               14,303       +0.0
+  higher class 560 W             14,312       +9.7
+  lower class 540 W              14,292      -10.4
+  aged 520 W                     14,268      -34.5
+  a 560 W spare returns 97% of its extra 10 W, a 540 W
+  one costs 10.4 W for its 10 W short, an aged 520 W one
+  34.5 W for 30 W: the weak module sets the string's
+  current - spares of the same class, connector and clamping
+  zones (ch 39 stock)

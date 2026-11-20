@@ -1,0 +1,9 @@
+CT burden of the secondary leads (200 m route, 4 mm2 Cu):
+  loop resistance 1.84 ohm
+  secondary   lead VA   relay VA   total VA
+       1 A        1.8        0.5        2.3
+       5 A       46.0        0.5       46.5
+  the 5 A secondary puts 25 times the burden on the CT: on long
+  substation routes 1 A secondaries keep the CT out of
+  saturation (the knee point of lesson A) - a choice made in the CT
+  specification, proved by the CT's test (ch 43)

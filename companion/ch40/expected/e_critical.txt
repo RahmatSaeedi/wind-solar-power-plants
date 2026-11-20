@@ -1,0 +1,10 @@
+critical characteristics drawn from the FMEA
+  (severity 9-10, or 7-8 with occurrence 3 or more)
+  OP40  LV joint under-torqued: hot joint, trip, fire risk
+  OP40  lug crimped with wrong die: hot lug
+  OP50  MV stress cone misplaced: MV fault
+  OP70  earth bond missing: touch voltage
+  4 of 8 modes become critical: each gets a
+  control-plan row, a record in the traveler and a place in
+  the FAT, because each leads to a field failure mechanism
+  (heat, insulation breakdown, touch voltage)

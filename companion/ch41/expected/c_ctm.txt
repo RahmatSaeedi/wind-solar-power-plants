@@ -1,0 +1,11 @@
+cell-to-module: from 72 x 7.71 W to the module
+  step                                              factor   power W
+  cell power, 72 cells x 7.71 W                         -     555.1
+  glass and encapsulant absorption and reflection   0.9850     546.8
+  light from the gaps returned by the backsheet     1.0150     555.0
+  interconnect resistance (half-cut, ch 10)         0.9955     552.5
+  cell mismatch within the module                   0.9980     551.4
+  junction box and cables                           0.9990     550.8
+  cell-to-module ratio 0.992; the lot of lesson D averages 552.7 W
+  a ratio near 1 is not free: it needs AR glass, reflective
+  backsheet and low-loss joints, each a BOM choice

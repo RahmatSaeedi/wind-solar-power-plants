@@ -1,0 +1,33 @@
+% Chapter 32 - the teaching 5 x 5 risk matrix (score = likelihood x severity) with the fire
+% scenarios F01-F09 of lab C placed in their cells (companion/ch32/lab_c.py, c_register).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\footnotesize, x=14mm, y=10mm]
+  \foreach \l in {1,...,5} {
+    \foreach \s in {1,...,5} {
+      \pgfmathtruncatemacro{\sc}{\l*\s}
+      \ifnum\sc>16 \def\cc{cLoss!55}\else\ifnum\sc>9 \def\cc{cLoss!25}\else
+        \ifnum\sc>4 \def\cc{cPV!22}\else\def\cc{cBESS!18}\fi\fi\fi
+      \fill[\cc] (\s-1,\l-1) rectangle (\s,\l);
+      \node[text=cInkB, font=\scriptsize] at (\s-0.84,\l-0.2) {$\sc$};
+    }
+  }
+  \draw[cRule, xstep=14mm, ystep=10mm] (0,0) grid (5,5);
+  \foreach \k in {1,...,5} {
+    \node[text=cInkB] at (\k-0.5,-0.3) {$\k$};
+    \node[text=cInkB] at (-0.25,\k-0.5) {$\k$};
+  }
+  \node[text=cInkB] at (2.5,-0.75) {شدت};
+  \node[text=cInkB, rotate=90] at (-0.7,2.5) {احتمال};
+  \node[align=center] at (4.5,1.5) {$\mathrm{F01}$};
+  \node[align=center] at (2.5,2.5) {$\mathrm{F09}$};
+  \node[align=center] at (3.5,1.5) {$\mathrm{F05}$\\$\mathrm{F08}$};
+  \node[align=center] at (1.5,2.5) {$\mathrm{F02}$};
+  \node[align=center] at (2.5,1.5) {$\mathrm{F03}$\\$\mathrm{F04}$};
+  \node[align=center] at (4.5,0.5) {$\mathrm{F06}$\\$\mathrm{F07}$};
+  \foreach \c/\t [count=\i] in {cBESS!18/کم, cPV!22/متوسط, cLoss!25/زیاد, cLoss!55/بسیار زیاد} {
+    \fill[\c] (5.35,5.0-0.55*\i) rectangle ++(0.3,0.35);
+    \node[anchor=west] at (5.7,5.17-0.55*\i) {\t};
+  }
+\end{tikzpicture}}
+\end{document}

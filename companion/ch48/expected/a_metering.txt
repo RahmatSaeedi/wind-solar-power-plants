@@ -1,0 +1,11 @@
+revenue metering at the POC: CT 0.2 %, VT 0.2 %, meter 0.2 % (class errors)
+  combined: RSS 0.35 %, worst case 0.60 %
+  site test of the meter (error at a share of rated load):
+      5 %   +0.46 %   limit 0.4 %   OVER
+     20 %   +0.18 %   limit 0.2 %   ok
+    100 %   +0.12 %   limit 0.2 %   ok
+  at 5 % load the meter is outside its class: the plant
+  exports at low load for hours every morning and evening - the
+  0.35 % chain error on 295 GWh is about 1.0 GWh a year;
+  the meter's own test record belongs to the settlement
+  dossier, witnessed by the grid operator (ch 34, ch 37)

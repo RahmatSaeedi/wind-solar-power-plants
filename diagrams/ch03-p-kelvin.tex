@@ -1,0 +1,23 @@
+% Chapter 3 — economic cable sizing (Kelvin's law): capital cost rising with area, present value
+% of losses falling as 1/area, and their sum, with standard sizes marked and the continuous
+% optimum. Fictional money units (A-038). Data: diagrams/data/ch03-p-kelvin.csv,
+% ch03-p-kelvin-pts.csv (companion/ch03/examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=66mm,
+      xlabel={سطحِ مقطعِ هادی ($\text{mm}^2$)}, ylabel={میلیون واحدِ پولِ ساختگی},
+      xmin=150, xmax=800, ymin=0, ymax=2.6, xtick={150,240,300,400,500,630,800},
+      ytick={0,0.5,...,2.5}, legend pos=north east]
+    \addplot[sLoad] table[x=area, y=total, col sep=comma] {data/ch03-p-kelvin.csv};
+    \addlegendentry{جمع}
+    \addplot[sInk] table[x=area, y=capex, col sep=comma] {data/ch03-p-kelvin.csv};
+    \addlegendentry{هزینهٔ سرمایه‌ای}
+    \addplot[sLoss] table[x=area, y=losses, col sep=comma] {data/ch03-p-kelvin.csv};
+    \addlegendentry{ارزشِ فعلیِ تلفات}
+    \addplot[only marks, mark=*, mark size=1.6pt, color=cLoad, forget plot] table[x=area, y=total, col sep=comma] {data/ch03-p-kelvin-pts.csv};
+    \draw[cInkB, densely dotted] (axis cs:411,0) -- (axis cs:411,1.53);
+    \node[note, anchor=north west] at (axis cs:415,0.3) {بهینهٔ پیوسته $411\,\text{mm}^2$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+inverter availability from failure and repair times (teaching)
+  response h   repair h   availability   meets 98.0 %?
+          72         24        95.42 %   NO
+          48         12        97.09 %   NO
+          24          8        98.43 %   yes
+           8          4        99.40 %   yes
+  the response time - spares, travel, access - matters more
+  than the repair itself; the service contract states both,
+  with the spares held on site that make them possible

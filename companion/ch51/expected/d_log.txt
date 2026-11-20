@@ -1,0 +1,19 @@
+shift log of strategy B (hour, event, decision, who was told, by whom)
+  06:00 handover: SOC 30 MWh (near 36), DA plan, no open permits
+        -> accept plan; watch SOC; told: -; by shift lead
+  09:00 intraday forecast +20 MW at 11-14
+        -> discharge 12 MW 09-11 to make room; told: trading desk; by operator
+  10:00 grid operator: export cap 80 MW 11:00-15:00
+        -> acknowledge; set the cap; re-declare; told: trading desk; by shift
+    lead
+  11:00 cap active; battery absorbing up to 20 MW
+        -> hold; told: MISSING; by operator
+  15:00 cap lifted
+        -> return to plan; told: grid operator; by operator
+  18:00 service window opens; SOC checked above the floor
+        -> service available; told: grid operator; by operator
+  entries missing a field: 11:00 told
+  the 11:00 entry does not say who was told the battery was
+  absorbing the spill: the controller did it, but the trading
+  desk's imbalance estimate needed it - a log is written for
+  the next reader, not for the writer

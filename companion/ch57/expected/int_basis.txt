@@ -1,0 +1,15 @@
+Tajikistan dossier basis of Plant P (D-061):
+  1 61 statements TJ-01..TJ-61: 28 verified,
+    1 project-dependent, 32 to-confirm
+  2 route: competitive procedure, investment agreement, PPA with
+    the single buyer (>= 15 years), technical conditions, SIB
+  3 connection rules of Resolution 449 designed in: SCADA, remote
+    curtailment, hourly forecasts, class 0.5S metering
+  4 connection level 220 kV as named in the technical conditions
+  5 equipment qualified to the site's seismic zone; transformer
+    anchors re-checked above the ch 30 basis
+  6 base case: summer curtailment uncompensated beyond the
+    permitted value until IN-02 is answered; no service revenue
+  7 two expertises (ecological, energy) on the critical path
+  8 review by engineers and regulatory specialists familiar with
+    current practice in Tajikistan before any use or publication

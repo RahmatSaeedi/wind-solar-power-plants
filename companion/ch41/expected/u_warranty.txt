@@ -1,0 +1,12 @@
+re-flashing modules after some years: smallest shortfall shown
+  (5 % risk, 90 % power; teaching uncertainties from lesson B)
+  measurement                      n = 5   n = 20   n = 100
+  another lab, new reference       3.43 %   3.22 %   3.17 %
+  same lab, kept control modules   1.61 %   1.11 %   0.93 %
+  more modules shrink only the random part; the reference
+  chain stays: a breach of about 1 % is never proven by a
+  different lab, however many modules - only a relative
+  measurement against control modules kept in the dark
+  since delivery (same lab, same reference) shows it, with
+  about 100 modules; the contract names this method before
+  the first claim

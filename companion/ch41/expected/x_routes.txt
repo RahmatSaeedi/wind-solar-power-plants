@@ -1,0 +1,10 @@
+wafer routes through their lifetime spread (surfaces S = 10 cm/s)
+  route              median tau   mean iVoc   sd iVoc   5th pct
+  pulled mono (Cz)       1500 us       0.725     4.6 mV    0.717
+  cast mono               600 us       0.712    10.1 mV    0.695
+  multi (cast)            150 us       0.681    18.9 mV    0.647
+  pulled mono leads by 44 mV on average and its spread is narrower:
+  grain boundaries and impurities shorten and scatter the
+  lifetime of cast wafers; the cheaper route costs voltage
+  and a wider bin ladder - the route is chosen upstream and
+  shows only in the cells' data (lesson B, binning)

@@ -1,0 +1,24 @@
+% Chapter 34 - ratio-error limits of an ordinary and an extended-range measuring class against the share
+% of rated current, with the operating points of Plant P on a 600/1 A core (examples_q,
+% diagrams/data/ch34-ct.csv; teaching shape, limits from the CT standard).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmode=log, xmin=1, xmax=120, ymin=0, ymax=0.9,
+      unbounded coords=jump, xtick={1,2,5,10,20,50,100}, xticklabels={1,2,5,10,20,50,100},
+      xlabel={جریان، درصدِ جریانِ نامی}, ylabel={حدِ خطای نسبت (درصد)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sLoss, mark=*, mark size=1.5pt] table[x=pct, y=c02, col sep=comma] {data/ch34-ct.csv};
+    \addplot[sWind, mark=square*, mark size=1.5pt] table[x=pct, y=c02s, col sep=comma] {data/ch34-ct.csv};
+    \legend{کلاسِ $0.2$, کلاسِ $0.2\mathrm{S}$}
+    \draw[sLimit] (axis cs:1.5,0) -- (axis cs:1.5,0.82);
+    \draw[sLimit] (axis cs:3.6,0) -- (axis cs:3.6,0.82);
+    \draw[sLimit] (axis cs:14.6,0) -- (axis cs:14.6,0.82);
+    \draw[sLimit] (axis cs:72.9,0) -- (axis cs:72.9,0.82);
+    \node[note, anchor=south] at (axis cs:1.5,0.82) {شب};
+    \node[note, anchor=south] at (axis cs:3.6,0.82) {$5\,\mathrm{MW}$};
+    \node[note, anchor=south] at (axis cs:14.6,0.82) {$20\,\mathrm{MW}$};
+    \node[note, anchor=south] at (axis cs:72.9,0.82) {$100\,\mathrm{MW}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

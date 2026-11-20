@@ -1,0 +1,7 @@
+E01 two equal sources of 40 dB(A): 43.0 dB(A)
+E02 one turbine (106) at 1,000 m: 33.0 dB(A)
+E03 collisions, 500 passages, p 0.08, avoidance 0.98: 0.80 a year
+E04 livelihood, 100 ha x 0.8 animals/ha x 0.12 k u: 9.6 k u a year
+E05 footprint, 1,000 t over 100 GWh: 10.0 g/kWh
+E06 indicator 88 % vs target 90 %, tolerance 5: amber
+E07 probability of 1 % rain event in 25 yr: 22 %

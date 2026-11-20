@@ -1,0 +1,5 @@
+a delivery guarantee at the one-year P90 (275.9 GWh), shortfall at 100 u/MWh:
+  years short: 10.0 %; mean shortfall in those years 7.11 GWh
+  expected cost 71 k u a year; worst 1 % of years 1,561 k u
+  a P90 is not a promise: one year in ten falls short, and the
+  contract decides who pays

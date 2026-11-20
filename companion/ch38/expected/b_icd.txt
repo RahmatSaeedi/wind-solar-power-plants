@@ -1,0 +1,13 @@
+interface-control sheet of the PV inverter skid: values computed
+  LV current at 5.0 MVA, 0.6 kV: 4,811 A; 8 cables of 620 A per phase
+  heat rejected at 98.5 % efficiency: 75 kW (with auxiliaries more)
+  short-circuit current at the skid's RMU: 8.3 kA
+    (33 kV bus 500 MVA and 0.12 ohm of cable, teaching)
+  unit transformer impedance seen from 33 kV: 13.6 ohm
+  items still open on the sheet: 3 of 12
+    electrical short-circuit level at the RMU                owner B
+    thermal    heat rejected at full load, 45 C              owner A
+    grid       fault ride-through and reactive capability    owner A
+  an interface is closed when both owners sign one value;
+  until then the item is open, and the drawing that needs
+  it carries a hold (ch 18, interface register)

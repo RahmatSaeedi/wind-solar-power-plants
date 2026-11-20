@@ -1,0 +1,15 @@
+% Chapter 45 - expected capacity a module string loses to its weakest cell over 20 years, with cells
+% matched at assembly and without (companion/ch45/examples_t.py, matching_decay ->
+% diagrams/data/ch45-decay.csv; teaching growth of the spread with the square root of age).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=54mm, xmin=0, xmax=20, ymin=0, ymax=9,
+      xlabel={سال}, ylabel={کمبودِ رشته (آمپرساعت)}, xtick={0,5,...,20}]
+    \addplot[sLoss] table[x=y, y=unsorted, col sep=comma] {data/ch45-decay.csv};
+    \addplot[sBESS] table[x=y, y=sorted, col sep=comma] {data/ch45-decay.csv};
+    \node[note, anchor=south, text=cLoss] at (axis cs:4,5.2) {بی‌هم‌گروه‌سازی};
+    \node[note, anchor=north, text=cBESS] at (axis cs:8,3.4) {هم‌گروه‌شده};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

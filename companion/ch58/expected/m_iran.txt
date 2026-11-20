@@ -1,0 +1,22 @@
+Iran: mandatory national standards (ch 55) beside the register
+  power transformers
+      register: IEC 60076-1:2011, IEC 60076-2:2011
+      IR-30 (verified): mandatory: power transformers INSO 2620-1, MV cables
+    3569
+  MV cables
+      register: IEC 60502-2:2014+AMD1:2024
+      IR-30 (verified): mandatory: power transformers INSO 2620-1, MV cables
+    3569
+  stationary VRLA and lithium cells
+      register: IEC 62619:2022
+      IR-49 (verified): mandatory: stationary VRLA (4868-22), lithium cells
+    (6618-3)
+  PV inverters up to 5 kW (import list)
+      register: IEC 62109-1:2010
+      IR-28 (verified): mandatory import list: solar inverters up to 5 kW
+  PV modules, wind turbines
+      register: IEC 61215-2:2021, IEC 61400-1:2019
+      IR-29 (verified): mandatory list: no PV module or wind turbine entry
+  where a national standard is mandatory, an IEC certificate is
+  not enough: the national certificate is a second, separate
+  piece of evidence in the order (ch 39, ch 55)

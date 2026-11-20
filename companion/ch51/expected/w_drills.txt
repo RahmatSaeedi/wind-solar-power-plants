@@ -1,0 +1,6 @@
+fire-service arrival in four drills (min), against the plan of 53
+    68    61    57    52
+  plan met first in drill 4; the gain came from a staging
+  point at the gate and keys held by the guard (no change in
+  the service's own time) - each drill's record names what
+  changed, so the gain is kept when people change

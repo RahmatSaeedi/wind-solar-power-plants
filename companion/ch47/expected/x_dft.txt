@@ -1,0 +1,12 @@
+outer coating DFT by section, 30 readings each (teaching rule:
+  mean >= 320 um, none below 80 % = 256 um)
+  section   mean um   lowest um   verdict
+        1       342         283   ok
+        2       343         266   ok
+        3       304         234   REPAIR (NCR-203)
+        4       351         292   ok
+  section 3 fails on its mean and its lowest reading:
+  thin all over - a paint line run thin, not a spot; the whole
+  section is re-coated to the coating maker's procedure, then
+  measured again; a spot repair would leave the rest thin
+  (ch 30)

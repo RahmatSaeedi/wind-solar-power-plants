@@ -1,0 +1,12 @@
+width of the 90 % interval of the degradation rate (synthetic,
+  median over 100 plants with a true rate of -0.50 %/yr)
+  years of monthly PR   median %/yr   90 % interval width
+                   2         -0.55                  1.04
+                   3         -0.50                  0.79
+                   4         -0.48                  0.64
+                   5         -0.50                  0.57
+                   6         -0.49                  0.51
+  the interval narrows with every year of data; a claim
+  that the rate exceeds a warranty limit of 0.7 %/yr is
+  only possible once the interval is narrower than the
+  gap between the measured rate and the limit

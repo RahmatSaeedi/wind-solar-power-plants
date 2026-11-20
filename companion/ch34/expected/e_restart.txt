@@ -1,0 +1,16 @@
+restart sequence after a total blackout (teaching durations)
+  step                                       start s   end s
+  DC and protection healthy (on battery)           0       0
+  diesel generator start and supply                0      15
+  UPS back on mains, essential AC                 15      20
+  network switches and time server boot           20      80
+  PLC pair boot and self-test                     20     110
+  PPC and SCADA servers boot                      20     200
+  I/O quality good, permissives evaluated        110     140
+  operator checks, grid operator called          200     800
+  energisation stages S0-S4 (ch 23)              800    2600
+  back to export after about 43 minutes, most of it
+  people and checks, not machines: the sequence is written
+  down, each step has a 'ready' signal, and the plant
+  cannot be energised before the PPC and protection say
+  they are healthy

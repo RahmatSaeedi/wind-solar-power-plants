@@ -1,0 +1,9 @@
+access road km 4: two delays on the same critical activity
+  wadi consent (owner's risk):    days 60-75
+  crew shortage (contractor's):   days 68-80
+  owner's alone 8 days; both at once 7 days; contractor's alone 5 days
+  a common teaching split: time for the owner's 8 + 7 days, money for
+  the owner's 8 days only - each party bears its own days of the overlap
+  the split is the contract's to set; what the analysis needs
+  is the daily record of both causes - without it the overlap
+  is argued, not counted

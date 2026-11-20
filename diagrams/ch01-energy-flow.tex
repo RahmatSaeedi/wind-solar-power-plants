@@ -1,0 +1,56 @@
+% Chapter 1 — energy-flow block diagram of Plant P (scenarios S0 and S1).
+% Technical diagrams follow the international convention: sources on the left,
+% grid on the right.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    b/.style={blk, minimum width=24mm, minimum height=11mm, inner sep=2pt},
+    lab/.style={note, font=\scriptsize}]
+
+  % ---- sources --------------------------------------------------------------
+  \node[b, blkPV]   (pv)   at (0, 3.2) {آرایهٔ خورشیدی\\$60\,\text{MWp}$ (DC)};
+  \node[b, blkPV]   (inv)  at (3.3, 3.2) {اینورترها\\$50\,\text{MW}$ (AC)};
+  \node[b, blkWind] (wt)   at (0, 0.9) {۱۲ توربینِ بادی\\$12\times 5\,\text{MW}$};
+  \node[b, blkWind] (wtx)  at (3.3, 0.9) {مبدل و ترانسفورماتورِ\\هر توربین};
+  \node[b, blkBESS, dash pattern=on 4pt off 2pt] (bess) at (0,-1.6) {باتری\\$20\,\text{MW}$ / $40\,\text{MWh}$};
+  \node[b, blkBESS, dash pattern=on 4pt off 2pt] (pcs)  at (3.3,-1.6) {مبدلِ دوسویهٔ\\ذخیره‌ساز};
+
+  % ---- collector bus ---------------------------------------------------------
+  \draw[bus] (5.7,3.9) -- (5.7,-3.9);
+  \node[lab, anchor=south] at (5.7,3.95) {شینهٔ جمع‌آوری $33\,\text{kV}$};
+
+  \draw[flow] (pv) -- node[lab, above] {DC} (inv);
+  \draw[flow] (inv.east) -- (5.7,3.2);
+  \draw[flow] (wt) -- (wtx);
+  \draw[flow] (wtx.east) -- (5.7,0.9);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (bess) -- (pcs);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (pcs.east) -- (5.7,-1.6);
+  \node[lab, anchor=north] at (1.65,-2.25) {فقط در سناریوی S1};
+
+  % ---- auxiliaries -----------------------------------------------------------
+  \node[b] (aux) at (3.3,-3.5) {مصرفِ داخلی و\\خدماتِ کمکی};
+  \draw[flow] (5.7,-3.5) -- (aux.east);
+
+  % ---- export path -----------------------------------------------------------
+  \node[b] (tr)  at (8.2, 0.9) {ترانسفورماتورِ اصلی\\$33/132\,\text{kV}$};
+  \node[b] (ln)  at (11.2, 0.9) {خطِ خروجی\\$132\,\text{kV}$};
+  \node[b, blkLoad] (grid) at (14.6, 0.9) {شبکهٔ برق};
+  \draw[flow] (5.7,0.9) -- (tr.west);
+  \draw[flow] (tr) -- (ln);
+  \draw[flow] (ln) -- (grid);
+
+  % point of connection with the revenue meter
+  \node[circle, draw=cInk, fill=white, line width=0.7pt, inner sep=1.2pt, font=\scriptsize\bfseries]
+        (m) at (12.9,0.9) {M};
+  \draw[cLoss, line width=0.9pt, dash pattern=on 3pt off 2pt] (12.9,2.5) -- (12.9,1.22);
+  \node[lab, anchor=south, text=cInk] at (12.9,2.5) {نقطهٔ اتصال\\سقف $100\,\text{MW}$};
+
+  % ---- control (information, not energy) --------------------------------------
+  \node[b, minimum width=56mm] (ctl) at (10.4,-2.6) {کنترل‌گرِ نیروگاه، اسکادا و اتاقِ کنترل};
+  \draw[flowinfo] (ctl.west) -- node[lab, above] {همهٔ واحدها} (5.85,-2.6);
+  \draw[flowinfo] ($(ctl.north)+(-2.2,0)$) -- (tr.south);
+  \draw[flowinfo] ($(ctl.north)+(2.5,0)$) -- (m.south);
+  \node[lab, anchor=north] at (10.4,-3.25) {خط‌چین: اطلاعات و فرمان — خطِ پُر: انرژی};
+
+\end{tikzpicture}}
+\end{document}

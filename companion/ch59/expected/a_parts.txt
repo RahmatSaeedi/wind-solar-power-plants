@@ -1,0 +1,14 @@
+documents, unknowns and decisions by Part of the book
+  Part   chapters  docs unknowns decisions
+  I           1-5    18       16         7
+  II         6-11    23       23         8
+  III       12-16    16       23         5
+  IV        17-22    24       24         6
+  V         23-28    33       15         6
+  VI        29-33    29       11         5
+  VII       34-37    24        4         4
+  VIII      38-50    63       14        13
+  IX        51-53    16        3         3
+  X         54-59    20        6         5
+  documents per chapter highest in Part VII (6.0);
+  a document named in two Parts is counted in each

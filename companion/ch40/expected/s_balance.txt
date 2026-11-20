@@ -1,0 +1,14 @@
+tasks of OP40-OP70: 36 h a skid; minimum stations at a 16 h takt:
+  ceil(36/16) = 3
+  cycle 16 h: 3 stations, efficiency 75%
+    1  14.0 h  aux wiring, MV termination
+    2  15.0 h  earth bonds, control cables, busbar supports, LV busbars
+    3   7.0 h  LV cables, torque joints
+  cycle 12 h: 4 stations, efficiency 75%
+    1  12.0 h  aux wiring, earth bonds
+    2  10.0 h  MV termination, control cables
+    3  11.0 h  busbar supports, LV busbars, LV cables
+    4   3.0 h  torque joints
+  precedence keeps the torque after the busbars are fitted;
+  a faster cycle needs more stations and loses efficiency -
+  the rule is a heuristic, a check by hand is still needed

@@ -1,0 +1,13 @@
+traveler of T1: 13 stages, 5 with a gap
+  stage                gap
+  core cutting         batch 8 missing
+  HV winding           11 mm shorter than LV
+  drying               end point not shown
+  oil                  over the 10 ppm limit
+  preservation         recorder missing
+  the windings' heights differ by 11 mm: their magnetic
+  centres by 5.5 mm, which turns a short circuit into an
+  axial force the clamps must carry - the designer confirms
+  it is inside the design allowance; the wet oil, the
+  missing drying end point and the missing impact recorder
+  are NCRs before shipment, not after

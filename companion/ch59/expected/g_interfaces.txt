@@ -1,0 +1,12 @@
+interface register (ch 18): 10 interfaces
+  by kind: electrical 4, mechanical 1, thermal 1, comms 1, protection 1, civil
+    1, water 1
+  mismatches found by the check: 4
+    IF-001: 0.6 against 0.69 (tol 2 %)
+    IF-005: type MC-B not in ['type MC-A']
+    IF-006: 120.0 against 100.0 (tol 5 %)
+    IF-007: Modbus TCP not in ['IEC 60870-5-104', 'IEC 61850']
+  the ch 18 register keeps its planted mismatches as data; the
+  dossier lists the decision that answers each (D-012 inverter
+  voltage, ch 41 connector type, D-023 battery HVAC, D-039
+  protocols) and reruns the check at each design revision

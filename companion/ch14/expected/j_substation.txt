@@ -1,0 +1,9 @@
+site substation position: weighted cable and line length (A-266):
+  position           strings km  PV feeders km  export km  weighted
+  chosen (6.5, 3.5)     13.26        2.69         7.03      27.20
+  best (7.00, 2.75)    13.55        1.20         6.45      25.07
+  the search saves 7.8 % of the weighted length by moving
+  the substation to the west edge of the PV block, nearer the
+  PV and the grid; the weights decide where the
+  optimum lies, and the export corridor, ground, access and land
+  users decide whether it can go there

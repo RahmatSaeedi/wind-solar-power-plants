@@ -1,0 +1,9 @@
+photon energy E = h c / lambda:
+    400 nm: 3.10 eV
+    550 nm: 2.25 eV
+    700 nm: 1.77 eV
+   1107 nm: 1.12 eV
+silicon band gap 1.12 eV -> photons longer than 1107 nm pass through unused
+blackbody sun (5778 K): power in photons above 1.12 eV 0.769
+  'ultimate' efficiency (each photon gives exactly 1.12 eV): 0.438
+  best gap for this limit: 1.10 eV (0.439)

@@ -1,0 +1,28 @@
+% Chapter 38 - the allowed status changes of a document in the scheme of chapter 2; any status may
+% go to SUP (superseded). Read right to left (docctl.ALLOWED).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=14mm, minimum height=9mm, text width=13mm}]
+  \node[s, blkLoad] (wip) at (0,0) {WIP\\در دستِ کار};
+  \node[s, blkLoad] (ifr) at (-2.4,0) {IFR\\بازبینی};
+  \node[s, blkPV] (ifa) at (-4.8,0) {IFA\\برای تأیید};
+  \node[s, blkPV] (app) at (-7.2,0) {APP\\تأییدشده};
+  \node[s, blkWind] (ifc) at (-9.6,0) {IFC\\برای اجرا};
+  \node[s, blkWind] (asb) at (-12.0,0) {ASB\\چون‌ساخت};
+  \node[s, blkLoad] (ifi) at (-2.4,-2.2) {IFI\\برای اطلاع};
+  \node[s, blkWarn] (sup) at (-7.2,-2.4) {SUP\\جایگزین‌شده};
+  \draw[flow] (wip) -- (ifr);
+  \draw[flow] (ifr) -- (ifa);
+  \draw[flow] (ifa) -- (app);
+  \draw[flow] (app) -- (ifc);
+  \draw[flow] (ifc) -- (asb);
+  \draw[flow] (wip.south) -- ++(0,-0.5) -| (ifi.north east);
+  \draw[flow] (ifi.north) -- (ifr.south);
+  \draw[flowinfo] (ifa.north) -- ++(0,0.6) -| (wip.north);
+  \draw[flowinfo] (ifc.north) .. controls (-9.6,1.6) and (0,1.6) .. (wip.north);
+  \node[note, anchor=south] at (-4.8,1.25) {برگشت با بازنگریِ تازه};
+  \node[note, text width=34mm, anchor=north] at (-7.2,-3.0) {هر وضعیتی می‌تواند جایگزین شود};
+  \node[note, text width=30mm, anchor=north] at (-11.0,-1.2) {از IFR یا IFI مستقیم به IFC ممنوع};
+\end{tikzpicture}
+\end{document}

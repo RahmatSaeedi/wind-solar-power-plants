@@ -1,0 +1,13 @@
+turn-off overshoot of 960 outer switches, di/dt 5 kA/us, 650 V blocked
+  loop = 35 nH fixed + 25 nH x layer spacing / 1 mm
+  (spacing sd 0.12 mm, teaching)
+  designed loop 60 nH: overshoot 300 V, device sees 950 V (ratio 0.79)
+  spread: ratio mean 0.792, highest 0.862
+  switches over the 0.80 rule: 248 of 960 (25.8%)
+  the rule is crossed at a loop of 62 nH, a spacing of 1.08 mm:
+  the design sits so close to the rule that a quarter of the
+  switches cross it; the 2 switches with a spacer left out
+  (+15 nH) are the highest. The IGBT sat on its rule (lesson
+  B): either the design gains margin (a tighter loop, slower
+  switching) or the spacing becomes a critical characteristic
+  with its own control

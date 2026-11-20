@@ -1,0 +1,8 @@
+path from the control zone to the DMZ (teaching availabilities)
+  with one firewall: A = 0.999300, 6.1 h a year
+  with a firewall pair: A = 0.999800, 1.8 h a year
+  single points of failure with one firewall: firewall, control-zone switch
+  the DMZ path carries historian copies and supervised support,
+  not control: the plant runs if it fails - which is why a
+  single firewall may be accepted here, while the paths
+  inside the control zone are redundant

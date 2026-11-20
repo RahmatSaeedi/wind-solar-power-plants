@@ -1,0 +1,10 @@
+yield statement, Plant P, scenario S0 (PLP-GEN-REP-0009, draft):
+  P50 net at the POC, first year: 295 GWh (model 15.1, D-019)
+  one-year sigma 15 GWh (5.1 %); ten-year 12 GWh
+  P90 one year about 276 GWh; P99 one year about 260 GWh;
+    P90 ten years about 280 GWh
+  largest contributors: year-to-year wind, wind long-term
+    correction, wind measurement, cross-prediction, power curve
+  limits: synthetic data; teaching sigmas (A-277..A-279); no
+    climate trend; degradation and lifetime series in ch 15;
+    not a guarantee and not a complete risk assessment

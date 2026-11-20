@@ -1,0 +1,28 @@
+P01 score L3 S5: 15 (high)
+P02 score L2 S2: 4 (low)
+P03 lost-time rate, 3 in 1,050,000 h: 0.57 (0.16-1.48)
+P04 zero in 52,000 h, upper 90 % bound: 11.52
+P05 near misses per recordable, 164 / 11: 14.9
+P06 clearance, lanyard 1.8, deceleration 1.75: 6.35 m
+P07 clearance, retracting 0.3 + 0.6: 3.70 m
+P08 air changes, 30 m3 at 300 m3/h: 10
+P09 purge to 1 % at 10 changes an hour: 27.6 min
+P10 dilution, 2 m3/h kept at 1 %, mixing 3: 600 m3/h
+P11 stopping at 30 km/h: 20.4 m
+P12 stopping at 60 km/h: 56.5 m
+P13 noise of the day (98/1, 90/2, 80/4, 65/1): 90.4 dB(A)
+P14 noise, 98 dB(A) for 1 h alone: 89.0 dB(A)
+P15 autonomy, 180 m3 at 3,000 L/min: 60 min
+P16 autonomy, 180 m3 at 1,500 L/min: 120 min
+P17 refill 180 m3 with 39 L/min: 77 h
+P18 oil-pool heat release, 140 m2 x 0.039 x 46,000: 251 MW
+P19 flux at 20 m from 251 MW, radiant 0.3: 15.0 kW/m2
+P20 distance for 12.5 kW/m2 from 251 MW: 21.9 m
+P21 PFD one detector, 0.02/yr, 6 months: 0.0050
+P22 PFD two detectors, same: 0.000033
+P23 rescue time by night (2+1+35+12+15+10): 75 min
+P24 ambulance, 10 + 35 km at 60 km/h + 10: 55 min
+P25 camp water, 270 x 70 x 1.8: 34.0 m3/day
+P26 coverage, arrivals 50, 55, 62, 70 within 60: 50 %
+P27 battery container at 50 %, 5,016 kWh: 9,029 MJ
+P28 JHA sum of scores before / after: 91 / 39 (57 % lower)

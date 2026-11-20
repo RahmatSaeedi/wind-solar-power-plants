@@ -1,0 +1,10 @@
+temperature rise of the incomer from a type test at 1250 A (55 K)
+  rise grows as I^n; teaching joint limit 65 K
+  exponent n   rise at 1600 A K   current at the limit A
+         1.6                 82                    1388
+         1.8                 86                    1372
+         2.0                 90                    1359
+  whatever the exponent, the tested design runs too hot at
+  1,600 A: the higher rating needs a larger busbar or contact
+  system and its own test - an extrapolation is a reason to
+  ask, never a substitute for the report (lesson B)

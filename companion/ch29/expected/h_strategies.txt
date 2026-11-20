@@ -1,0 +1,20 @@
+cleaning strategies against water and the other criteria (worked case)
+  strategy       loss %   energy gained MWh   cost k u/yr   raw water m3
+  none             8.47                   0           478              0
+  truck, wet       1.43               7,951           310          2,548
+  manual, dry      1.08               8,340           533              0
+  robot, dry       1.18               8,235           282              0
+
+  strategy       brine m3   truck-days   person-h among arrays   diesel m3
+  none                  0            0                       0         0.0
+  truck, wet        1,019          157                   2,509         2.5
+  manual, dry           0            0                  20,966         0.0
+  robot, dry            0            0                   2,100         0.0
+  (raw water at 60 % RO recovery; a wash is 109 m3 treated;
+  a two-wash month needs 364 m3 raw against 402 m3 from W-1 in summer)
+  manual brushing gains the most energy but costs the most
+  of the three and puts people among the live arrays for
+  thousands of hours; the truck needs the scarce summer
+  water and makes brine; the robots are cheapest, use no
+  water and need the fewest hours - but only if the module
+  maker accepts them in the warranty (ch 10, D-014)

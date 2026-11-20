@@ -1,0 +1,7 @@
+true position = 2 sqrt(dx^2 + dy^2), tolerance diameter 0.5 mm:
+  hole 1: dx +0.10, dy +0.12 mm -> 0.312 mm accept
+  hole 2: dx +0.18, dy -0.20 mm -> 0.538 mm reject
+  hole 3: dx -0.05, dy +0.22 mm -> 0.451 mm accept
+  hole 4: dx +0.21, dy +0.17 mm -> 0.540 mm reject
+  hole 4 fails though each coordinate is within +-0.25: position is a circle,
+    not a square, around the true location

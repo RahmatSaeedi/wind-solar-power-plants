@@ -1,0 +1,11 @@
+the main SCADA server fails: the standby takes over (teaching)
+  failure detected after 3 s, take-over 2 s: 5 s without
+    a live screen
+  data in that gap: kept in the devices' and gateways'
+    buffers and sent when the standby asks
+  commands in that gap: refused, not queued - an old
+    command must not run five seconds late
+  switch-over is tested in the site test by stopping the
+  main server, with a recorded event before, during and
+  after; the alarm list, shelving and operator logins
+  must come across, not only the values

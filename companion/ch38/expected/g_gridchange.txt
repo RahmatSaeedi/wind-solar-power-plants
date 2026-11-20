@@ -1,0 +1,13 @@
+a change in the grid operator's bay that reaches the plant
+  change: grid bay CT ratio 600/1 -> 800/1 (teaching)
+  plant documents and tests touched: 6
+    line differential settings
+    plant-end protection study
+    intertrip scheme test
+    relay settings file
+    one-line diagram
+    FAT procedure
+  the operator owns the bay, the plant owns what depends on
+  it; the interface schedule names both, and a change on
+  either side is notified to the other before it is
+  issued (ch 28, line differential and intertrip)

@@ -1,0 +1,36 @@
+% Chapter 10 - module assembly line with its quality gates and traceability (section B); the
+% factory-level process control is taught in chapters 41-48.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{st/.style={blk, minimum width=22mm, minimum height=10mm, text width=20mm},
+           gate/.style={blkWarn, diamond, aspect=1.6, inner sep=1pt, text width=13mm, font=\scriptsize}}
+  % row 1, left to right
+  \node[st] (a1) at (0,0) {بازرسیِ ورودیِ مواد};
+  \node[st] (a2) at (2.9,0) {برشِ سلول به نیم‌سلول};
+  \node[st] (a3) at (5.8,0) {لحیمِ رشته‌ها};
+  \node[st] (a4) at (8.7,0) {چیدمانِ لایه‌ها و شینه‌ها};
+  \node[gate] (g1) at (11.6,0) {تصویرِ پیش از پرس};
+  % row 2, right to left
+  \node[st] (b1) at (11.6,-2.6) {پرسِ گرم};
+  \node[st] (b2) at (8.7,-2.6) {لبه‌گیری، قاب، جعبه‌تقسیم};
+  \node[st] (b3) at (5.8,-2.6) {پخت و خنک‌سازی};
+  \node[gate] (g2) at (2.9,-2.6) {فلش و رده‌بندی};
+  \node[gate] (g3) at (0,-2.6) {تصویرِ پس از پرس};
+  % row 3, left to right
+  \node[gate] (g4) at (0,-5.2) {عایق و پیوستگیِ زمین};
+  \node[gate] (g5) at (2.9,-5.2) {بازرسیِ چشمی};
+  \node[st] (c1) at (5.8,-5.2) {برچسب و بسته‌بندی};
+  \node[blkLoad, minimum width=22mm, minimum height=10mm, text width=20mm] (c2) at (8.7,-5.2) {انبار و ارسال};
+  \draw[flow] (a1) -- (a2); \draw[flow] (a2) -- (a3); \draw[flow] (a3) -- (a4); \draw[flow] (a4) -- (g1);
+  \draw[flow] (g1) -- (b1); \draw[flow] (b1) -- (b2); \draw[flow] (b2) -- (b3); \draw[flow] (b3) -- (g2);
+  \draw[flow] (g2) -- (g3); \draw[flow] (g3) -- (g4); \draw[flow] (g4) -- (g5); \draw[flow] (g5) -- (c1);
+  \draw[flow] (c1) -- (c2);
+  % rework loop
+  \draw[flowinfo] (g1.east) -- ++(0.5,0) -- ++(0,1.15) -| node[note, anchor=south, pos=0.25] {تعمیرِ پیش از پرس} (a4.north);
+  \node[note, text width=40mm, anchor=north west] at (11.0,-4.4) {لوزی‌ها دروازه‌های کیفیت‌اند: ماژولِ ردشده تعمیر یا اسقاط می‌شود؛ پس از پرس، تعمیر عملاً ممکن نیست};
+  % traceability band
+  \draw[cRule, line width=0.6pt] (-1.2,-6.6) -- (12.8,-6.6);
+  \node[note, text=cInk, anchor=north] at (5.8,-6.7) {ردیابی: شمارهٔ سریال، رده، داده‌های فلش و تصویرِ هر ماژول به سوابقِ پروژه می‌رود};
+\end{tikzpicture}}
+\end{document}

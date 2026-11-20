@@ -1,0 +1,13 @@
+sign of the 5th-harmonic power P5 = V5 I5 cos(theta) under a
+  +/- 10 deg phase error of the transducers at the 5th (teaching):
+  true theta deg   P5 sign   sign with errors   conclusive?
+              30         +                  +           yes
+              60         +                  +           yes
+              80         +                  +           yes
+              88         +             + or -            NO
+              95         -             + or -            NO
+  near 90 degrees a small phase error flips the sign: the
+  'direction of harmonic power' points the finger only when
+  the angle is far from 90 degrees and the transducers are
+  known at the 5th; otherwise it is one clue among several,
+  never the verdict

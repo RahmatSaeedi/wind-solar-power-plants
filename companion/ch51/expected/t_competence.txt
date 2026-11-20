@@ -1,0 +1,10 @@
+competence records on day 365: expired and expiring within 30 days
+  expired: AP-3 first aid
+  expired: lead A first aid
+  expires day 380: AP-1 HV authorisation
+  expires day 372: AP-3 HV authorisation
+  expires day 390: lead A switching
+  expires day 388: lead D switching
+  authorised persons still valid next month: 2 of 4 (AP-2, AP-4)
+  four shifts cannot each have one: the renewals are booked
+  now, or the roster of next month already has a hole

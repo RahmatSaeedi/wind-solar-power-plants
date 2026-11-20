@@ -1,0 +1,10 @@
+water-use permit request: raw water a year (teaching, A-352)
+  one wash: 109.2 m3 treated = 182.0 m3 raw (RO 60%)
+  staff: 438 m3 a year
+  policy                          raw m3/yr  peak month m3
+  ch 10 trigger (14 washes)           2,986            400
+  dusty year (24 washes)              4,806            583
+  drought: robots + 4 washes          1,166            218
+  the request states a range (1,166-4,806 m3 a year) and the
+  drought policy; the rule's conditions (aquifer balance, no harm
+  to residents) need a hydrogeological study (ch 29, AF-17, AF-18)

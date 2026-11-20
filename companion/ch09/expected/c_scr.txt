@@ -1,0 +1,10 @@
+voltage change at the point of connection for a 100 MW swing:
+  S_sc MVA  SCR   z pu (100 MVA)   dV for dP 1 pu   dV for dQ 0.33 pu
+     1000  10.0       0.100            1.00 %            3.28 %
+      500   5.0       0.200            1.99 %            6.57 %
+      300   3.0       0.333            3.32 %           10.95 %
+      200   2.0       0.500            4.98 %           16.42 %
+  X/R 10 (A-109): active power hardly moves the voltage, reactive
+  power does; in a weak grid (SCR below about 3) the same current
+  moves the voltage and angle much more, and grid-following
+  control can become unstable: check the maker's minimum SCR

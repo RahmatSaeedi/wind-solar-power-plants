@@ -1,0 +1,7 @@
+station battery capacity tests by quarter (% of rated), replace at 80 %
+  quarter     0      1      2      3      4
+  cap %   100.0   99.0   97.6   96.6   95.2
+  slope -1.20 %/quarter: reaches 80 % after 16.7 quarters (4.2 years)
+  far short of the design life: a fade this fast points at
+  the room temperature (the battery-room fan of ch 50) before
+  the battery - the trend is the evidence that finds it

@@ -1,0 +1,17 @@
+commissioning pack of the converter block =PVF1-3: 9 steps, 6 fields each
+  C01 documents and certificates         by owner's engineer
+  C02 visual and mechanical              by test team
+  C03 string polarity, Voc, Isc          by test team
+  C04 insulation resistance              by test team
+  C05 inverter pre-energisation checks   by maker's engineer
+  C06 MV energisation of the unit transformer by authorised person
+  C07 inverter start, functional tests   by maker's engineer + test team
+  C08 SCADA and controller points        by SCADA integrator
+  C09 block performance check            by owner's engineer
+  fields left empty:
+    C05 inverter pre-energisation checks: boundary
+    C07 inverter start, functional tests: evidence
+    C09 block performance check: fails
+  3 gaps: C05 has no safety boundary, C07 no evidence,
+  C09 no disposition - a step without a boundary is a step
+  without a permit, and a step without evidence cannot pass

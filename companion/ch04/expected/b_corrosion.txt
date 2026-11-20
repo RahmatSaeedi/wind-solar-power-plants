@@ -1,0 +1,12 @@
+Faraday's law: thickness loss = i M t / (n F rho)
+  0.1 A/m2 (10 microamp/cm2): zinc 149.7, steel 116.1, aluminium 108.9
+    micrometre/yr
+hot-dip galvanised coating 85 micrometre (A-058); zinc loss rates assumed:
+  dry inland   0.7 um/yr -> about   121 years to the steel
+  industrial   2.0 um/yr -> about    42 years to the steel
+  coastal      4.0 um/yr -> about    21 years to the steel
+  the real rates come from measured corrosivity of the site (chapter 29)
+galvanic couple: the cathodic current is collected by the anode area,
+  so the anode current density scales with the cathode/anode area ratio:
+  ratio 0.1 -> x 0.1; ratio 1 -> x 1; ratio 10 -> x 10 (small anode, large
+  cathode is the dangerous case: a steel bolt in a copper plate)

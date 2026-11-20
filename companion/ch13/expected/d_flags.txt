@@ -1,0 +1,19 @@
+quality flags and data recovery of the mast year:
+  month   100 m    80 m    60 m
+  Jan      97.0    91.3   100.0
+  Feb      99.7    52.7   100.0
+  Mar     100.0    70.4   100.0
+  Apr     100.0    80.2   100.0
+  May      87.1    63.2    87.1
+  Jun     100.0    84.1   100.0
+  Jul     100.0     0.0   100.0
+  Aug     100.0     0.0   100.0
+  Sep     100.0     0.0   100.0
+  Oct     100.0     0.0   100.0
+  Nov     100.0     0.0   100.0
+  Dec     100.0     0.0   100.0
+  year:    98.6    36.9    98.9  (%)
+  flags: outage 576 records, icing at 100 m 147, shadow at 80 m 11664
+  injected icing 288 records: found 147, false alarms 0
+  80 m data after June are excluded for shear work: recovery
+  is a property of each sensor, not of the mast

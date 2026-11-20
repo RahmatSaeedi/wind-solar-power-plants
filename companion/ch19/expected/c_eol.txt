@@ -1,0 +1,8 @@
+end of life of the S1 battery (teaching masses, A-294):
+  cells 220 t; with modules, racks and containers about 395 t
+  trucks of 20 t for the cells: 11
+  routes: second use (if health and records allow), then
+  recycling by a licensed recycler; spent cells travel as
+  dangerous goods with their own test and packing rules
+  the end-of-life plan and its cost belong in the design basis
+  and the decommissioning fund (chapter 53)

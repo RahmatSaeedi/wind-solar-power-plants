@@ -1,0 +1,6 @@
+clamp positions measured on 200 clamps (zone 400-550 mm, teaching)
+  mean 461 mm, sd 40 mm; outside the zone: 20
+  19 of them come from one crew's 20 tables: a template
+  set wrong, not random error - the crew's tables are
+  re-clamped and the template checked; the sample is taken
+  by crew and by day, so a habit shows as a group

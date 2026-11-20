@@ -1,0 +1,19 @@
+% Chapter 26 - worked example: a hypothetical fault on =WS1-W3 traced from network data to the
+% approved settings and records (companion/ch26/lab_d.py trace()); seven steps, right to left in
+% two rows for RTL readers, each with its record.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    st/.style={blk, minimum width=30mm, minimum height=14mm, text width=29mm, font=\footnotesize}]
+  \node[st] (s1) at (12.6,0) {۱ دادهٔ شبکه\\$Z_1$ تا محلِ خطا};
+  \node[st] (s2) at (8.4,0) {۲ مطالعه\\$5.64$ و $4.89\,\text{kA}$، $397\,\text{A}$};
+  \node[st] (s3) at (4.2,0) {۳ گزارشِ هماهنگی\\$0.29$ و $0.68\,\text{s}$};
+  \node[st] (s4) at (0,0) {۴ منطقِ رله\\51، 51N، 50BF};
+  \node[st] (s5) at (0,-2.6) {۵ سیم‌کشیِ تابلو\\CT، دو بوبین، DC};
+  \node[st] (s6) at (4.2,-2.6) {۶ آزمون‌ها\\FAT، تزریقِ ثانویه، سربه‌سر};
+  \node[st, draw=cWind, fill=cWind!9] (s7) at (8.4,-2.6) {۷ تأیید\\فایل، چک‌سام، سوابق};
+  \draw[flow] (s1.west) -- (s2.east); \draw[flow] (s2.west) -- (s3.east); \draw[flow] (s3.west) -- (s4.east);
+  \draw[flow] (s4.south) -- (s5.north); \draw[flow] (s5.east) -- (s6.west); \draw[flow] (s6.east) -- (s7.west);
+  \node[note, text width=55mm, align=right] at (13.0,-2.6) {هر گام سندِ خودش را دارد؛ تنظیمِ نهایی را مطالعهٔ پروژه و تأییدِ بهره‌بردار می‌سازد};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,6 @@
+sound of T1: 68 dB(A) mean pressure on a contour of 24 m, height 3.5 m
+  radiating area 84 m2: L_WA = 68 + 10 log10(84) = 87.2 dB(A)
+  guarantee 88 dB(A): margin 0.8 dB
+  the power, not the pressure at one place, is what the
+  village calculation of ch 33 starts from; the measurement
+  distance and area follow the sound standard (STD-176)

@@ -1,0 +1,7 @@
+synthetic 10-min blade-root flap moment at 9 m/s (seed 53, A-215):
+  mean 12.6 MN m, std 2.81; 1409 rainflow cycles, largest 15.3 MN m
+  damage-equivalent load, 600 cycles: m = 10 (composite) 7.94 MN m;
+    m = 4 (welded steel) 3.56 MN m
+  the high S-N exponent of composites lets the few large cycles
+  dominate; steel details feel the many small cycles too
+  a design sums such signals over all wind speeds and the life

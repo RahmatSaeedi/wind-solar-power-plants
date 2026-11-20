@@ -1,0 +1,6 @@
+aluminium instead of copper for the same resistance per metre:
+  area x 1.64, diameter x 1.28, mass x 0.494
+  metal cost x 0.14 (prices 9.0 and 2.6 units/kg, A-060)
+  but: a fatter conductor needs more insulation, screen and sheath; aluminium
+    creeps under bolts and grows an oxide skin, so terminations need care
+  a 240 mm2 Al conductor matches about 146 mm2 of copper

@@ -1,0 +1,12 @@
+radiation from an oil pool fire (point-source physics, teaching):
+  pool 50 m2, burning 0.039 kg/(m2 s), 46 MJ/kg: 90 MW; radiated share 0.3
+  distance m   flux kW/m2
+           8         33.5
+          12         14.9
+          16          8.4
+          24          3.7
+  the flux falls with the square of the distance: either
+  distance or a wall keeps a neighbouring transformer and the
+  buildings below the level they can stand - which level,
+  which model and which measure are the fire engineer's and
+  the authority's decisions (ch 31); this is only the physics

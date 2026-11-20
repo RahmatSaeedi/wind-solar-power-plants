@@ -1,0 +1,24 @@
+P01 turns for 19,053 V at 150 V/turn: 127
+P02 V/turn at 1.6 T, 0.40 m2: 142.1 V
+P03 section for 636 A at 2.5 A/mm2: 254 mm2
+P04 r of 40 MVA, Pk 200 kW: 0.0050 pu
+P05 x for uk 10 %, r 0.005: 0.09987 pu
+P06 regulation r 0.005, x 0.10, full load, pf 0.9: 5.19 %
+P07 efficiency 63 MVA at half load, pf 0.95: 99.675 %
+P08 load of best efficiency, P0 28, Pk 215: 0.36 pu
+P09 A and B at 70 u/MWh, 25 y, 7.5 %, LLF 0.128: 6.84, 0.87 k u/kW
+P10 loss PV of 40 kW P0 and 300 kW Pk: 536 k u
+P11 same at 100 u/MWh: 766 k u
+P12 hot spot at k 0.8, 35 C: 91.9 C
+P13 ageing rate at 110 C: 4.0
+P14 ageing rate at 86 C: 0.25
+P15 90 MVA on 63 MVA units of 12 % and 14 %: 48.5, 41.5 MVA
+P16 fault current through 40 MVA, z 0.10, at 33 kV: 7.00 kA
+P17 force ratio at z 0.08: 156
+P18 three sources of 70 dB: 74.8 dB
+P19 75 dB at 2 m, at 100 m: 41.0 dB
+P20 bund for 30 m3 oil, 60 mm rain on 80 m2: 37.8 m3
+P21 tap +5 % on 132 kV: 138.6 kV
+P22 rated current of 63 MVA at 132 kV: 276 A
+P23 LV delta winding current, 63 MVA, 33 kV: 636 A
+P24 ONAN hours: load above 50 MVA as pu of 63: 0.794 pu threshold

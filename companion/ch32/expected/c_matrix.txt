@@ -1,0 +1,53 @@
+concept protection matrix by area (questions and owners, not designs)
+  BESS containers
+    prevent  cell monitoring, BMS limits, maker's commissioning tests
+    passive  spacing or barriers from the product test (strategy)
+    detect   off-gas, smoke, BMS temperature (layers, ch 19)
+    isolate  PCS stop and DC contactors open, with feedback
+    act      explosion control and water use: strategy and tests decide
+    access   approach routes, stand-off, responder information
+  PV array
+    prevent  connector quality, cable support, vegetation control
+    passive  firebreaks around and through the array
+    detect   inverter arc and insulation alarms, patrols
+    isolate  inverter stop; array stays energised in daylight
+    act      grass fire tactics with the fire service; no DC contact
+    access   perimeter road and gates as firebreaks
+  inverter stations
+    prevent  cooling, cleaning, torque checks, thermography
+    passive  separation of the oil unit transformer (strategy)
+    detect   station smoke and temperature alarms
+    isolate  MV switch open, inverter stop, with feedback
+    act      by the strategy; exposure protection if specified
+    access   hard standing by each station
+  nacelles
+    prevent  maintenance of brakes, bearings, converters; housekeeping
+    passive  materials of low flammability (maker)
+    detect   nacelle smoke and heat, SCADA alarm
+    isolate  turbine stop and MV switch open
+    act      maker's system if fitted; ground: exclusion zone
+    access   evacuation devices for people at height
+  main transformers
+    prevent  protection, oil tests, bushing checks (ch 25, 26)
+    passive  bund, fire walls or separation (standard, strategy)
+    detect   protection trip, temperature, fire detection if fitted
+    isolate  breakers on both sides open by protection
+    act      by the strategy; firewater only if specified (D)
+    access   hydrant or tanker point if specified; drainage (D)
+  control and MV buildings
+    prevent  cable segregation, housekeeping, no storage
+    passive  fire stopping of every cable penetration
+    detect   aspirating smoke detection, manual call points
+    isolate  HVAC stop, local isolation by the strategy
+    act      by the strategy; portable extinguishers for trained staff
+    access   two exits, signs, emergency lighting
+  construction areas
+    prevent  hot-work permits, fuel storage rules, waste removal
+    passive  separation of fuel, gas bottles and laydown
+    detect   fire watch during and after hot work
+    isolate  permit control of temporary supplies
+    act      extinguishers and trained staff; call the fire service
+    access   kept-clear routes on the traffic plan
+  each line names what must be decided and who decides it;
+  a method appears only where it is the same everywhere
+  (fire stopping, detection layers, isolation with feedback)

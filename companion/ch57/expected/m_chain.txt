@@ -1,0 +1,8 @@
+metering chain: class limits combined (ch 48 helper, teaching)
+  chain                           RSS %  worst %  RSS k u/yr
+  CT 0.2S, VT 0.2, meter 0.5S      0.57     0.90         119
+  CT 0.5, VT 0.5, meter 1.0        1.22     2.00         253
+  CT 0.2S, VT 0.2, meter 0.2S      0.35     0.60          72
+  the class-1.0 chain allowed by the rule spans 2.1 times the
+  0.5S chain: Resolution 449 names the meter class only; the
+  CT and VT classes come from the network company's conditions

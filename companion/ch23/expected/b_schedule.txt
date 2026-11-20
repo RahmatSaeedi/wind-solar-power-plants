@@ -1,0 +1,9 @@
+transformer schedule (grouped; open items flagged):
+  group                 n   rating                           open
+  main                 2   63 MVA 132/33 kV z 0.12        z_pu, vector, tap
+  station service      2   250 kVA 33/0.4 kV z 0.045      kva
+  WS unit             12   5.6 MVA 33/0.69 kV z 0.07      z_pu
+  PV unit             10   5.5 MVA 33/0.6 kV z 0.06       z_pu
+  BESS unit            4   5.5 MVA 33/0.69 kV z 0.06      z_pu
+  30 transformers; every impedance is provisional until
+  the makers' offers and the fault study (ch 25, 26)

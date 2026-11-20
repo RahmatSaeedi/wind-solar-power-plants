@@ -1,0 +1,23 @@
+% Chapter 29 - ground profile from the wadi line to the site substation (chapter 14 terrain):
+% the channel bed 100 m from the line, the water levels of lesson P's placeholder flows, the
+% ridge that holds them back, and the substation 1.8 m above the bed
+% (diagrams/data/ch29-flood.csv, companion/ch29/examples_p.py, p_flood).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=58mm, xmin=0, xmax=2300, ymin=1200, ymax=1212,
+      xlabel={فاصله از خطِ وادی $(\text{m})$}, ylabel={تراز $(\text{m})$},
+      xmajorgrids=true, scaled x ticks=false, xtick={0,500,...,2000},
+      xticklabel style={/pgf/number format/1000 sep={}},
+      yticklabel style={/pgf/number format/1000 sep={}}]
+    \addplot[sInk] table[x=d, y=z, col sep=comma] {data/ch29-flood.csv};
+    \draw[sWind] (axis cs:60,1203.06) -- (axis cs:150,1203.06);
+    \draw[sWind] (axis cs:40,1203.82) -- (axis cs:160,1203.82);
+    \draw[densely dotted, draw=cWind] (axis cs:160,1203.82) -- (axis cs:2300,1203.82);
+    \node[note, anchor=south] at (axis cs:1000,1203.9) {هم‌ترازِ آب در $300\,\text{m}^3/\text{s}$ (پشته آب را نگه می‌دارد)};
+    \node[note, anchor=south] at (axis cs:850,1210.6) {پشته};
+    \node[note, anchor=north east] at (axis cs:2290,1203.3) {پست};
+    \node[note, anchor=north] at (axis cs:100,1201.5) {بسترِ آبراهه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+holding a 100 MW export limit through a gust (2 MW/s, teaching)
+  set-point MW   peak export MW   above 100.05 for s   margin MWh/yr
+           100            103.4                  3.8               0
+            99            102.5                  1.9              86
+            98            101.5                  1.1             190
+  acting on a measurement one second old, a controller set
+  at the limit itself overshoots it by 3.4 MW for about 4 s
+  of the gust; one or two MW lower cuts that to one or two
+  seconds, at 86-190 MWh a year - the study states the
+  overshoot, the margin and its cost, and the operator
+  says whether a short overshoot is acceptable (REQ-G16)

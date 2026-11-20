@@ -1,0 +1,9 @@
+blade leading edges from the drone survey (12 turbines, AEP 16,100 MWh each)
+  category                    turbines  AEP loss  MWh/yr   u/yr   repair pays
+  cat 1 (coating)                    5      0.0%       0        0   no
+  cat 2 (laminate exposed)           4      0.4%     258   18,032   no
+  cat 3 (leading edge open)          2      1.5%     483   33,810   yes
+  a repair costs 9,000 u a turbine: category 3 pays in one year,
+  category 2 after 2.0 years - but erosion grows, so
+  category 2 is repaired in the next low-wind window before
+  it becomes 3 (ch 11 erosion, ch 42 repair)

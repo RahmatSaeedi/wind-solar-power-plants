@@ -1,0 +1,15 @@
+% Chapter 36 - mean days an unusual event goes unseen against how often the logs are read
+% (examples_m; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=50mm, xbar, bar width=4.5mm, xmode=log, xmin=0.2, xmax=300,
+      log origin=infty, ymin=0.4, ymax=4.6, ytick={1,...,4}, y dir=reverse,
+      yticklabels={هر روز, هر هفته, هر ماه, فقط پس از خرابی},
+      xlabel={میانگینِ روزهای دیده‌نشدن}, xmajorgrids=true, ymajorgrids=false,
+      nodes near coords={\pgfmathprintnumber[fixed, precision=1]{\pgfplotspointmeta}},
+      nodes near coords style={font=\scriptsize, text=cInkB, anchor=west}, point meta=rawx]
+    \addplot[fill=cLoss!35, draw=cLoss] coordinates {(0.5,1) (3.5,2) (15,3) (90,4)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

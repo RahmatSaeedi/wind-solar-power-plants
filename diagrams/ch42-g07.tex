@@ -1,0 +1,14 @@
+% Chapter 42 - low-frequency amplitude spectrum of gearbox G07 on the run-in bench: a strong line
+% at the shaft frequency (1x, 19.25 Hz) marks an imbalance; the 2x line stays small
+% (diagrams/data/ch42-g07.csv from companion/ch42/lab_d.py, d_runin; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=50mm, xmin=0, xmax=120, ymin=0, ymax=2.1,
+      xlabel={بسامد (هرتز)}, ylabel={دامنه}]
+    \addplot[cLoss, semithick] table[x=f, y=a, col sep=comma] {data/ch42-g07.csv};
+    \node[note, anchor=south west] at (axis cs:21,1.75) {یک‌برابرِ دور: نابالانسی};
+    \node[note, anchor=south west] at (axis cs:40,0.2) {دوبرابرِ دور};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

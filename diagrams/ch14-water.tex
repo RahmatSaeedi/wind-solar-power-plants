@@ -1,0 +1,19 @@
+% Chapter 14 - monthly spring flow against the existing uses (village, herders, farm irrigation),
+% teaching values A-261. Data: diagrams/data/ch14-water.csv (companion/ch14/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0.4, xmax=12.6, ymin=0, ymax=7,
+      xlabel={ماه}, ylabel={دبی، لیتر بر ثانیه}, xtick={1,...,12}, ytick={0,1,...,7},
+      ybar=0.5pt, bar width=3.2mm, legend style={at={(0.5,1.03)}, anchor=south},
+      legend columns=2]
+    \addplot[draw=cWind, fill=cWind!60] table[x=m, y=flow, col sep=comma] {data/ch14-water.csv};
+    \addlegendentry{دبیِ چشمه}
+    \addplot[draw=cLoss, fill=cLoss!45] table[x=m, y=uses, col sep=comma] {data/ch14-water.csv};
+    \addlegendentry{مصرف‌های موجود}
+    \draw[cRule, densely dashed] (axis cs:5.5,0) -- (axis cs:5.5,6.7);
+    \draw[cRule, densely dashed] (axis cs:9.5,0) -- (axis cs:9.5,6.7);
+    \node[note, fill=white] at (axis cs:7.5,6.2) {ژوئن تا سپتامبر: آبی نمی‌ماند};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

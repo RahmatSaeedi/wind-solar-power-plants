@@ -1,0 +1,37 @@
+% Chapter 24 - teaching cross-section of one core of a 33 kV Al XLPE cable (radii from
+% companion/ch24/examples_b.py layers(), scaled) and the three-core cable with bedding and sheath.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    lab/.style={note, anchor=west, text width=42mm}]
+  % one core, radii in mm x 0.06 cm
+  \fill[cInkB!35] (0,0) circle (0.714);
+  \foreach \r in {0.12,0.24,0.36,0.48,0.60} \draw[cInkB!60, line width=0.3pt] (0,0) circle (\r);
+  \draw[fill=black!70, even odd rule] (0,0) circle (0.762) (0,0) circle (0.714);
+  \draw[fill=cPV!15, even odd rule] (0,0) circle (1.242) (0,0) circle (0.762);
+  \draw[fill=black!70, even odd rule] (0,0) circle (1.29) (0,0) circle (1.242);
+  \draw[fill=cLoss!60, even odd rule] (0,0) circle (1.326) (0,0) circle (1.29);
+  \foreach \i/\t in {1/{رسانا (آلومینیوم)}, 2/{پردهٔ رسانا}, 3/{عایق $\mathrm{XLPE}$}, 4/{پردهٔ عایق}, 5/{پردهٔ فلزی (مس)}} {
+    \node[lab] (l\i) at (2.4,1.6-0.65*\i) {\t};
+  }
+  \draw[cInkB] (0.3,0.1) -- (l1.west);
+  \draw[cInkB] (0.74,0.0) -- (l2.west);
+  \draw[cInkB] (1.0,-0.2) -- (l3.west);
+  \draw[cInkB] (1.27,-0.5) -- (l4.west);
+  \draw[cInkB] (1.31,-0.75) -- (l5.west);
+  \node[note] at (0,-1.9) {یک رشته: حدودِ $44\,\mathrm{mm}$};
+  % three-core cable
+  \begin{scope}[shift={(-5.6,0)}, scale=0.5]
+    \draw[fill=cFill, line width=0.6pt] (0,0) circle (3.2);
+    \draw[fill=cInkB!15] (0,0) circle (2.95);
+    \foreach \a in {90,210,330} {
+      \begin{scope}[shift={(\a:1.53)}]
+        \fill[cInkB!35] (0,0) circle (0.714);
+        \draw[fill=cPV!15, even odd rule] (0,0) circle (1.242) (0,0) circle (0.762);
+        \draw[cLoss!70, line width=0.8pt] (0,0) circle (1.31);
+      \end{scope}
+    }
+  \end{scope}
+  \node[note, text width=40mm] at (-5.6,-1.9) {سه رشته با بستر و غلافِ $\mathrm{PE}$\\قطرِ کل حدودِ $106\,\mathrm{mm}$};
+\end{tikzpicture}
+\end{document}

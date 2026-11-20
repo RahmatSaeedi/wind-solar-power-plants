@@ -1,0 +1,11 @@
+incoming inspection and cleaning acceptance basis (A-199):
+  109,200 modules in 3,523 pallets and 177 containers
+  every container: seals, shock indicators, pallet damage,
+    documents against the packing list (serials, bins)
+  electroluminescence on 1 pallet per container: 5,487 modules (5.0 %)
+  laboratory flash on 12 modules per 10 MWp: 72 modules,
+    judged by the decision rule of the contract
+  cleaning robot acceptance: one table row per robot model run
+    for a month: removal ratio from paired soiling cells, glass
+    coating checked by the module maker's method, no cracks
+    under electroluminescence before and after

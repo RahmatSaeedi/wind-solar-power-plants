@@ -1,0 +1,22 @@
+who designs and who checks the structural package (teaching)
+  design basis and load set
+      designed by turbine maker; checked by certification body
+  tower (strength, buckling, fatigue)
+      designed by maker's engineer; checked by certification body
+  foundation (geotechnical)
+      designed by geotechnical engineer; checked by independent checker
+  foundation (structural)
+      designed by structural engineer; checked by independent checker
+  anchor cage and grout
+      designed by maker / engineer; checked by independent checker
+  PV structures and piles
+      designed by PV structure supplier; checked by owner's engineer + tests
+  line towers and foundations
+      designed by line designer; checked by network operator / checker
+  substation structures
+      designed by substation designer; checked by owner's engineer
+  the checker is independent of the designer and checks
+  with its own calculation, not by reading the designer's;
+  site-specific foundations of type-certified turbines are
+  part of the site assessment (ch 11) - the owner's
+  engineer only follows the findings to closure

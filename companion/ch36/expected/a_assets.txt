@@ -1,0 +1,11 @@
+what there is to protect at Plant P and what its loss costs (teaching)
+  system              at stake             cost of a loss
+  protection relays   safety, equipment    none: they trip alone
+  plant controller    compliance, energy   842 u an hour at 50 % fallback
+  SCADA servers       sight, command       no view; the PPC runs on
+  historian           evidence, warranty   a hole in the record
+  fire interface      life safety          the panel works alone
+  CMMS, reports       business             late work orders
+  mean export 33.7 MWh an hour at 50 u/MWh: the money is in
+  availability; the protection relays and the fire panel
+  are designed to stay safe whatever happens to the network

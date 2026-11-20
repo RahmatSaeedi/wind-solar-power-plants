@@ -1,0 +1,10 @@
+bias of the corrected day-ahead forecast by month (fit Jan-Aug):
+  month   bias MW
+  Sep      -0.69
+  Oct      -0.64
+  Nov      +1.41
+  Dec      -0.39
+  the bias of a correction learned in one season changes from
+  month to month in the next (here by about a megawatt, with
+  changing sign): the validation reports the error by month and
+  the model is retrained on a rolling window

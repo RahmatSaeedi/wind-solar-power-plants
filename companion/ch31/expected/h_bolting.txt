@@ -1,0 +1,10 @@
+time to tension a tower flange (teaching rates)
+  tools   min a bolt (2 passes)   hours a flange
+      1                      6             12.0
+      2                      6              6.0
+      4                      6              3.0
+  with one tool a flange takes about 12 hours: the top
+  section, its bolting and the nacelle in one day need
+  four tools and a crew for each - or the bare tower stands
+  overnight in the vortex wind (ch 30), within the maker's
+  procedure and its wind limit

@@ -1,0 +1,16 @@
+reactive current during a voltage dip, k 2, limit 1.1 pu (A-162):
+  V pu   I_q pu   I_p pu   S pu (V x I)
+  0.95     0.00     1.00     0.95
+  0.85     0.30     1.00     0.89
+  0.70     0.60     0.92     0.77
+  0.50     1.00     0.46     0.55
+  0.20     1.10     0.00     0.22
+  0.05     1.10     0.00     0.06
+  fault current of 10 PV inverters at 33 kV: 1,058 A
+  ten synchronous machines of the same rating (~7 pu, chapter 8): 6,736 A
+  converter plants feed little fault current: protection that
+  relies on large currents must be checked (chapter 26)
+  unbalanced dip, negative-sequence voltage 0.3 pu, only
+    positive-sequence current: DC-link power ripple 0.3 pu at 100 Hz,
+    voltage ripple about 55 V on 12 mF; controlling the
+    negative-sequence current too removes it

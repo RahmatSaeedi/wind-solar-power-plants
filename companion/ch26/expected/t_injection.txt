@@ -1,0 +1,12 @@
+secondary injection of the feeder relay (SI, TMS 0.10, pickup 0.8 A):
+  relay tolerance: 5 % or 30 ms, whichever is larger; test set 1 %
+  multiple   expected s   band s            measured s   result
+         2        1.003    0.943 -  1.063        1.040   pass
+         5        0.428    0.394 -  0.462        0.455   pass
+        10        0.297    0.264 -  0.330        0.335   FAIL
+        20        0.227    0.194 -  0.259        0.198   pass
+  a reading is judged against a band, not the bare number:
+  the relay's stated accuracy plus the test set's; one point
+  outside the band (here at 10 x) is investigated before
+  anyone touches the setting - wrong multiple injected, a
+  test lead, or a relay fault; the record keeps all points

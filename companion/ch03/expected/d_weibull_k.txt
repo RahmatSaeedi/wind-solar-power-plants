@@ -1,0 +1,3 @@
+method of moments: Gamma(1+2/k)/Gamma(1+1/k)^2 - 1 = (s/mean)^2 = 0.24683
+  bisection on [0.5, 20]: k = 2.116341 after 31 steps
+  first iterates: 10.250, 5.375, 2.938, 1.719, 2.328, 2.023, 2.176, 2.100

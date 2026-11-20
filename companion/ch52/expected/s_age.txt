@@ -1,0 +1,6 @@
+pitch batteries: Weibull shape 3.0, scale 6.0 years; a planned change
+  costs 1, a failure in service 4 (turbine stop, call-out)
+  best replacement age 3.25 years: 0.461 cost units a year
+  run to failure: 0.747 a year (62% more)
+  wear-out (shape > 1) and a dear failure make planned
+  replacement pay; with a constant rate it never would

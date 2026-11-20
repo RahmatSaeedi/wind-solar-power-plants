@@ -1,0 +1,32 @@
+% Chapter 51 - the shift of day 34: actual availability, day-ahead and intraday forecasts, the export
+% cap and the export of strategy B (top); the battery SOC of strategies A and B (bottom). Two
+% panels, one quantity each (companion/ch51/lab_d.py -> diagrams/data/ch51-shift.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, name=top, width=108mm, height=56mm, xmin=0, xmax=23, ymin=0, ymax=110,
+      ylabel={توان (MW)}, xtick={0,3,...,24}, xticklabels={},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sLoad, line width=1pt] table[x=h, y=da, col sep=comma] {data/ch51-shift.csv};
+    \addlegendentry{پیش‌بینیِ روزِ بعد}
+    \addplot[sWind, line width=1pt] table[x=h, y=intra, col sep=comma] {data/ch51-shift.csv};
+    \addlegendentry{پیش‌بینیِ درون‌روز}
+    \addplot[cInk, line width=1.2pt] table[x=h, y=act, col sep=comma] {data/ch51-shift.csv};
+    \addlegendentry{در دسترس}
+    \addplot[sPV, line width=1.4pt] table[x=h, y=exp_b, col sep=comma] {data/ch51-shift.csv};
+    \addlegendentry{صادرات (ب)}
+    \addplot[cLoss, line width=1pt, dash pattern=on 3pt off 2pt, const plot]
+      table[x=h, y=cap, col sep=comma] {data/ch51-shift.csv};
+    \addlegendentry{سقف}
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south)}, anchor=north, yshift=-4mm, width=108mm, height=40mm,
+      xmin=0, xmax=23, ymin=0, ymax=40, xlabel={ساعت}, ylabel={انرژیِ باتری (MWh)},
+      xtick={0,3,...,24}, legend pos=south west, legend cell align=right]
+    \addplot[sLoad, line width=1.1pt] table[x=h, y=soc_a, col sep=comma] {data/ch51-shift.csv};
+    \addlegendentry{الف}
+    \addplot[sPV, line width=1.3pt] table[x=h, y=soc_b, col sep=comma] {data/ch51-shift.csv};
+    \addlegendentry{ب}
+    \draw[cInk!60, dashed] (axis cs:0,36) -- (axis cs:23,36);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

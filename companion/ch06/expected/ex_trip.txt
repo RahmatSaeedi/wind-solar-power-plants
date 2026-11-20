@@ -1,0 +1,5 @@
+110 V DC system: battery at end of discharge 93.5 V, coil 5 A, needs >= 77 V,
+    route 250 m one way, copper at 30 C (all assumed)
+2.5 mm2: loop R 3.575 ohm, drop 17.88 V, coil sees 75.62 V TOO LOW
+4.0 mm2: loop R 2.234 ohm, drop 11.17 V, coil sees 82.33 V OK
+6.0 mm2: loop R 1.490 ohm, drop  7.45 V, coil sees 86.05 V OK

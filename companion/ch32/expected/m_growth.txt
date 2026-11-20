@@ -1,0 +1,11 @@
+fire growth Q = alpha t^2 (teaching growth classes)
+  class        alpha kW/s2   100 kW at   1 MW at   5 MW at
+  slow              0.0029       185 s     584 s    1306 s
+  medium            0.0117        92 s     292 s     653 s
+  fast              0.0469        46 s     146 s     327 s
+  ultra-fast        0.1876        23 s      73 s     163 s
+  a fast cable or panel fire reaches 1 MW in about 2.5
+  minutes: detection that responds near 100 kW (under a
+  minute) leaves time to alarm, isolate and leave; detection
+  that waits for 1 MW leaves almost none - which is why the
+  building uses aspirating detection (lesson C)

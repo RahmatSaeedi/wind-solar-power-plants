@@ -1,0 +1,12 @@
+worked example 2: the measurements needed before any conclusion
+  - harmonic CURRENTS at the POC and at the units, not only voltages
+  - a planned on/off (or step) test at a fixed hour and a fixed
+  - network state, agreed with the operator
+  - the switching log of the network (capacitor banks, lines)
+  - the neighbour's own load and capacitor status
+  - transducer data at the 5th and 7th (lesson A)
+  - a longer period covering weekdays, weekends and seasons
+  the week shows a correlation inside fixed hours, which is
+  a lead, not a proof; the report says 'consistent with a
+  plant contribution growing with output, to be confirmed',
+  and lists these items as its next steps

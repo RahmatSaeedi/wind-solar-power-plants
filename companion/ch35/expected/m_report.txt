@@ -1,0 +1,12 @@
+daily energy of a partly cloudy day from a historian with gaps
+  (synthetic minutes)
+  true energy 674.8 MWh
+  gap                         skipped MWh   interpolated MWh
+  2 % of minutes at random          663.8              674.8
+  30 minutes at midday              653.3              680.6
+  skipping a gap understates energy by the share missing;
+  interpolating repairs short random gaps almost exactly
+  but draws a straight line across the cloud hidden in the
+  long gap and overstates by 5.7 MWh - a report states its
+  data completeness and how each gap was filled, and
+  settlement uses the meter, not the historian (ch 37)

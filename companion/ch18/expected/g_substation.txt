@@ -1,0 +1,9 @@
+substation arrangements: energy lost in one event (MWh)
+  arrangement                    transformer   busbar   units
+  single bus, one transformer       147,891    1,621       1
+  single bus, two transformers        8,912    1,621       2
+  split bus, two transformers         8,912      810       2
+  the split (sectionalised) 33 kV bus with a bus-section
+  breaker keeps half the plant on a busbar fault; the second
+  transformer covers the long transformer outage; both add
+  bays, protection and space (chapters 26-27)

@@ -1,0 +1,13 @@
+tariff paid in local currency, debt in another; the local currency
+weakens each year and the tariff is not indexed to it (revenue
+converted at the year's rate, debt service as fixed at close,
+lost revenue after 25 % tax; costs left alone - teaching case)
+  case            min DSCR  years < 1.10  first  equity IRR
+  base                1.20             0      -       10.2%
+  weakens 2%          0.86             7      9        5.5%
+  weakens 4%          0.56            10      6        none
+  even 2 % a year leaves cash short of debt service from year 12:
+  a currency clause is a debt question, not a footnote
+  what to verify: the PPA's currency and indexation clause, the
+  convertibility rule and who carries the risk - sources, not
+  a forecast of the rate

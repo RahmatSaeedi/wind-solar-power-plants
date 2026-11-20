@@ -1,0 +1,7 @@
+cup anemometer: tunnel calibration true = 1.012 x reading + 0.08 m/s,
+  against the maker's default (true = reading)
+  at the mast's mean 7.4 m/s the default under-reads by 2.3%
+  with ch 16's energy sensitivity of 1.82, the farm's energy is
+  underestimated by about 4.2% - a calibration that
+  moves the P50 by 4% is worth its certificate; the
+  individual calibration, not the type's default, goes into ch 13

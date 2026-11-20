@@ -1,0 +1,14 @@
+frequency scan of the 33 kV bus (grid 365 MVA, X/R 10, cables 1.77 Mvar;
+  no load damping in this teaching model, so the peaks are sharp):
+  case                         resonances at h   at 5th ohm   at 7th ohm
+  cables only                             14.4         16.9         27.2
+  plus 5 Mvar capacitor bank               7.4         27.6        215.3
+  plus 5 Mvar filter at 4.7th        4.1, 16.7          4.2         15.5
+  the grid alone would show 2.98 ohm x h; cable capacitance makes a
+  parallel resonance near h = sqrt(365/1.77) = 14.4;
+  a plain capacitor bank for power factor pulls it down to the
+  7th, where the units emit: a 5th or 7th current there sees
+  many times the grid impedance - the classic trap; a filter
+  tuned below the 5th gives the same Mvar and a low impedance
+  at 5 and 7; it creates a new resonance below its tuning,
+  where the units emit little, and pushes the cable one up

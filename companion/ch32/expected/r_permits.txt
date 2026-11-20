@@ -1,0 +1,9 @@
+what an audit sample says about all permits (exact binomial, 90 %)
+  sample   found correct   share   interval
+      20              18     90 %    72- 98 %
+      20              20    100 %    86-100 %
+      60              54     90 %    81- 96 %
+  20 of 20 correct still leaves room for one permit in ten
+  to be wrong: a clean sample is reassuring, not proof - a
+  larger sample, or auditing the riskiest permits first,
+  narrows what the audit can say

@@ -1,0 +1,12 @@
+devices that hold data when retired (synthetic)
+  device                 count   holds
+  SCADA servers              2   disks
+  HMIs                       6   disks
+  historian                  1   disks
+  switches                  34   flash: configuration
+  controllers                2   flash: logic
+  engineering laptops        3   disks
+  48 devices to wipe or destroy, each with a certificate,
+  when replaced, sold or scrapped; a switch sent back under
+  warranty with its configuration still on it gives away
+  the plant's network to whoever opens it

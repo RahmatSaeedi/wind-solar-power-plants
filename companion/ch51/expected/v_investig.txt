@@ -1,0 +1,10 @@
+incident investigations: days to the report (target 30) and actions
+  near miss: crane over live line route   12 d  actions 3, closed 3
+  trip of WS2 on a wrong setting          41 d  actions 4, closed 2
+  first-aid case: heat                     9 d  actions 2, closed 2
+  BESS container door found open          33 d  actions 3, closed 1
+  diesel failed to start in test          25 d  actions 2, closed 0
+  2 late; actions closed 8 of 14 (57%)
+  a report on time with its actions open has not yet changed
+  anything: the register tracks actions to their evidence
+  (ch 32 lessons), not reports to their date

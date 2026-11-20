@@ -1,0 +1,24 @@
+% Chapter 15 - cleaning policies inside the energy model: soiling loss (top) and net benefit against
+% no cleaning (bottom; recovered energy at 50 u/MWh minus cleaning cost, robot capital excluded).
+% Data: diagrams/data/ch15-cleaning.csv (companion/ch15/lab_f.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\scriptsize]
+  \begin{axis}[plantp, name=top, width=112mm, height=46mm, xmin=-0.6, xmax=5.6, ymin=0, ymax=10,
+      ylabel={تلفِ گرد و غبار، درصد}, xtick={0,...,5}, xticklabels={}, ytick={0,2,...,10},
+      ybar, bar width=8mm, nodes near coords, every node near coord/.append style={font=\tiny, text=cInk},
+      nodes near coords style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[draw=cPV, fill=cPV!45] table[x expr=\coordindex, y=loss, col sep=comma]
+      {data/ch15-cleaning.csv};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south west)}, anchor=north west, yshift=-4mm, width=112mm,
+      height=46mm, xmin=-0.6, xmax=5.6, ymin=-50, ymax=400, ylabel={سودِ خالص، هزار واحد},
+      xtick={0,...,5}, ytick={0,100,...,400},
+      xticklabels={بی‌شست‌وشو, کامیون ۳۰ روز, کامیون ۱۴ روز, خشکِ دستی ۱۰ روز, ربات ۱۲ روز, کامیون با آستانه},
+      xticklabel style={font=\tiny},
+      ybar, bar width=8mm, nodes near coords, every node near coord/.append style={font=\tiny, text=cInk}]
+    \addplot[draw=cBESS, fill=cBESS!45] table[x expr=\coordindex, y=net, col sep=comma]
+      {data/ch15-cleaning.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,6 @@
+unbalanced dip: V+ 0.7 pu, V- 0.3 pu, current limit 1.1 pu (A-181):
+  positive only     I+ 1.00, I- 0.00, P 0.70 pu, 100 Hz ripple 0.30 pu
+  ripple cancelled  I+ 0.77, I- 0.33, P 0.44 pu, 100 Hz ripple 0.00 pu
+  cancelling the ripple protects the DC link but unbalances the
+  phase currents: the current limit then cuts the active power;
+  the grid code says which sequence currents it wants in a dip

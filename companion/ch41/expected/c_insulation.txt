@@ -1,0 +1,10 @@
+insulation of one PV block: 10,920 modules in parallel to earth
+  module (teaching)   block resistance   leakage at 545 V
+  dry 400 MOhm                36.6 kOhm           15 mA
+  dew 40 MOhm                  3.7 kOhm          149 mA
+  each module passes its own insulation test by a wide margin,
+  yet ten thousand in parallel look like a few kilohms on a
+  dew morning: the inverter's insulation check may delay the
+  start until the array dries (energy lost at sunrise) - the
+  threshold is a setting agreed with the inverter maker, and
+  a falling trend points at a damaged cable or connector

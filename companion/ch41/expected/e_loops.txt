@@ -1,0 +1,8 @@
+voltage induced in a string loop by a strike 50 m away (10 kA/us, teaching)
+  routing                              loop m2   volts
+  return beside the outgoing cable         0.2        7
+  return along the far table edge         67.8     2713
+  the loop area, not the cable size, decides the surge: the
+  return conductor runs beside the outgoing one along the
+  table - a routing rule on the drawings, checked at the
+  site, that costs nothing when planned

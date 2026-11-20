@@ -1,0 +1,7 @@
+extend to year 30 or retire at 25 (seen from year 18, teaching)
+  extension capex 9,000 k u; years 26-30: energy value 10,786 k u
+  a year at 45 u/MWh, opex 4,400 k u a year
+  NPV of the extension today: +10,150 k u
+  the decommissioning cost is the same, only later (a deferral
+  worth something at 7.5 %) - the extension is decided with the
+  tower fatigue, the permits and the price after the PPA

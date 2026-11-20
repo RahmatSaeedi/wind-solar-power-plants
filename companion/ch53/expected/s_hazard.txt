@@ -1,0 +1,11 @@
+hazardous inventory at closure (from the asset register)
+  SF6 in 33 kV switchgear (kg)              66.0
+  SF6 in 132 kV breakers (kg)               27.0
+  transformer oil (t)                       85.0
+  battery modules (t)                      240.0
+  lead-acid UPS and DC batteries (t)         4.2
+  refrigerants in HVAC (kg)                 96.0
+  SF6 93 kg: about 2,232 t CO2e if released (GWP ~24,000,
+  approximate, ch 24) - recovered by certified handlers, with
+  the recovery record as closure evidence; the inventory comes
+  from the register, so its completeness is lesson H's question

@@ -1,0 +1,17 @@
+evidence Plant P asks for, by equipment (chapters 40-50)
+  equipment                           T  R  S  F
+  PV modules (ch 41)                  x  x  x  x
+  PV inverters (ch 44)                x  x  .  x
+  wind turbines (ch 42)               x  .  .  x
+  main transformers (ch 43)           x  x  .  x
+  PV unit transformers (ch 39, 43)    x  x  x  .
+  MV switchgear (ch 46)               x  x  .  x
+  MV cables (ch 46)                   x  x  x  x
+  battery containers (ch 45)          x  x  x  x
+  protection relays (ch 26, 46)       x  x  .  x
+  revenue meters (ch 48)              x  x  .  x
+  T type test / certificate; R routine test, every unit; S sample test; F site
+    test
+  type 10, routine 9, sample 4, site 9 of 10
+  a type test shows the design; only routine and site tests
+  speak for the unit delivered

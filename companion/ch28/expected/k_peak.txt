@@ -1,0 +1,7 @@
+peak (first-cycle) fault current against the making rating
+  bus     I_k kA   X/R    kappa   i_p kA   making rating kA
+  POC       7.79    8.0    1.69     18.7               80.0
+  MV-A      8.54   14.0    1.81     21.9               63.0
+  kappa from the usual approximation 1.02 + 0.98 exp(-3 R/X);
+  a breaker must close onto the peak, not only break the rms
+  value - both are far inside the teaching ratings here

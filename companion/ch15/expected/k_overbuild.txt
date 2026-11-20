@@ -1,0 +1,13 @@
+PV block size at the 100 MW export limit (same hourly shape,
+  before grid outages):
+  PV MW AC   delivered GWh   curtailed GWh   curtailed %   marginal
+      50         295.63            0.23        0.08
+      60         315.63            1.46        0.46         92 %
+      70         334.74            3.54        1.05         88 %
+      80         352.81            6.60        1.84         83 %
+      90         369.92           10.59        2.78         79 %
+     100         385.61           15.93        3.97         72 %
+  marginal: share of each added block's energy that reaches the
+  grid; the shared connection is the hybrid's saving, and its
+  curtailment is the price; a battery, a contract for curtailed
+  energy or a larger limit changes the balance (chapters 17-19)

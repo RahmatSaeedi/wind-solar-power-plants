@@ -1,0 +1,8 @@
+alarms turned into work requests (synthetic hour of ch 35 lesson C)
+  one work request per alarm: 358 requests in an hour
+  one open request per asset and alarm type, updated while
+  open: 1 request
+  a maintenance system flooded by chattering alarms is
+  ignored like an alarm list; the rule lives in the
+  interface specification and is tested with a chattering
+  series

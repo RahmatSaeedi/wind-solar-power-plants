@@ -1,0 +1,6 @@
+main gearboxes: Weibull k 2.5, c 150,000 h; each has run 146,642 h
+  median remaining life 36,096 h (4.4 years of running)
+  chance one survives the 7 years to year 25: 30%
+  expected failures in the fleet of 12 by year 25: 8.4
+  remaining life is a conditional question: an 18-year-old
+  gearbox has less left than a new one's mean life suggests

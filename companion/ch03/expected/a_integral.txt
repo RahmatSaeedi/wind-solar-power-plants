@@ -1,0 +1,5 @@
+summer day: PV (unclipped AC) from hour 5 to 20, peak 51.86 MW
+half-sine model: E = integral of Pmax sin(pi (t - t_r)/L) dt = 2 Pmax L / pi =
+     495.3 MWh
+hourly data, unclipped: 439.6 MWh (+12.7 %)
+hourly data, with the 50 MW inverter limit: 436.3 MWh

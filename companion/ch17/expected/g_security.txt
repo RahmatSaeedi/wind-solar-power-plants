@@ -1,0 +1,7 @@
+local energy-security indicators for the regional load:
+  share of the regional energy met by Plant P in the same hour 73.0 %
+  hours in which the plant alone covers the region 4652 of 8760
+  longest run of hours not covered 63 h
+  these say how much the region could lean on the plant; they do
+  not make the plant a backup: without the grid it cannot run
+  (grid-following units, section A of chapter 18)

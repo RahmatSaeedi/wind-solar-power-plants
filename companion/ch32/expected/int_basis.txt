@@ -1,0 +1,31 @@
+D-036 safety, fire and emergency basis of Plant P (teaching)
+  1 safety management: teaching 5 x 5 matrix, hierarchy of
+    controls, permit office with shared isolation points,
+    prequalification with a minimum on every criterion
+  2 hazards: PV DC treated as energised in daylight; restraint
+    or retracting devices where clearance is short; summer
+    early shifts; wind chill on nacelle roofs; site speeds
+  3 fire: register F01-F09, matrix by area, C&E rules (alarm
+    for every input, own location, position feedback);
+    methods, rates and separations from the fire strategy
+    and the authority (U-105, U-110)
+  4 water: 180 m3 reserve lasts 60 min at the placeholder
+    rate; the fire service arrives after it in about 31 %
+    of draws - tankers and meeting point agreed in advance
+  5 lifecycle: evidence ladder, test intervals by PFD,
+    impairment register, management of change, restore
+  6 welfare: town housing or a camp with its own water (a
+    camp would use 61 % of the wells); buses; school hours
+  7 emergency: 12 scenarios with levels; two rescuers on
+    every crew; night work only with the team on site;
+    satellite phones in duty vehicles; exercise programme
+  8 findings of the later lessons: the control building as
+    drawn loses the race with smoke (second exit, drilled
+    'leave now'); AEDs in every vehicle; gates too tight for
+    a fire appliance (familiarisation drive); the erection
+    contractor's rate above its funnel band; 4 barriers to a
+    container explosion leave the teaching target missed
+  open: fire strategy and authority acceptance (U-105,
+    U-110); medical provider's response times (U-111);
+    findings: ch 29 construction water rises to 87,460 m3
+    with ch 22's workforce (corrected there)

@@ -1,0 +1,12 @@
+ten skids need 194.5 h; the window has 160 h (gap 34.5 h)
+  option                       hours  cost k u  gap  note
+  start a week early              40       6.5  yes  parts a week sooner
+  overtime 10 h/week, 4 weeks     40       7.2  yes  fatigue, errors
+  second shift in week 1          40       3.6  yes  second trained crew
+  overtime at the bottleneck       0       0.0  no   fill time unchanged
+  the gap is the time to fill the line (66 h),
+  not its pace: speeding the bottleneck does nothing;
+  cheapest: second shift in week 1 - only if a second
+  qualified crew exists, and OP50 has one jointer (lesson
+  A); the early start then wins: no fatigue, no new crew,
+  if bought parts come a week sooner (a ch 39 question)

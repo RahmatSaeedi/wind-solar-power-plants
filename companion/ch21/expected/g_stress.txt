@@ -1,0 +1,22 @@
+stress cases with the debt fixed at close (k u, nominal):
+  case                        min DSCR  min LLCR  lock-up  equity IRR %
+  base                            1.20      1.23        0         10.22
+  delay 1 year                    1.20      1.23        0          8.70
+  capex +10 %                     1.22      1.25        0          8.10
+  energy P90 1-yr every year      1.12      1.14        0          8.47
+  energy P99 1-yr every year      1.03 *    1.06        4          6.94
+  tariff -10 %                    1.06      1.09        3          7.48
+  buyer pays 6 months late        0.47 *    1.23        1         10.09
+  currency -10 % on capex         1.22      1.25        0          8.51
+  rate +2 points (unhedged)       1.01 *    1.24        1          8.14
+  replacements x 2                1.18      1.23        0          9.89
+  water shortage (PV -1 %)        1.20      1.23        0         10.12
+  curtailment +4 %                1.15      1.18        0          9.14
+  (* below the illustrative default level 1.05; lock-up = years
+  below 1.10)
+  a P90 resource in every year keeps the cover above lock-up;
+  a P99 resource every year, a 10 % lower tariff or an
+  unhedged rate rise push it into lock-up; a buyer six months
+  late drops the year's cover below 0.5 - the six-month DSRA is
+  what pays the lenders that year; capex, currency and delay
+  hit the owners first because they are paid with equity

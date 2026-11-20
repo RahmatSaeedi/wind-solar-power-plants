@@ -1,0 +1,8 @@
+lag-1 autocorrelation of the 20 annual wind energies: -0.21
+  effective years in a 10-year mean, n (1 - r1) / (1 + r1):
+    r1 -0.21: 15.31 years; year-to-year part of the mean 1.15 % (not 1.43 %)
+    r1 +0.20:  6.67 years; year-to-year part of the mean 1.75 % (not 1.43 %)
+    r1 +0.40:  4.29 years; year-to-year part of the mean 2.18 % (not 1.43 %)
+  20 values give a very rough r1; if good and bad years come in
+  runs (r1 > 0), averaging helps less than the square root of n;
+  a long reference series is the evidence

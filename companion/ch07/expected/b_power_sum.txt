@@ -1,0 +1,5 @@
+230 V, 100 A RMS per phase, current 30 deg behind the voltage:
+  one phase: p(t) swings from -3.1 to 42.9 kW (mean 19.92 kW) at 100 Hz
+  three phases: p(t) = 59.756 .. 59.756 kW (constant)
+  3 V I cos(phi) = 59.756 kW
+a constant total power means a constant torque on a generator shaft

@@ -1,0 +1,6 @@
+static against dynamic export limit (upstream 50 MW, teaching):
+  static limit (50 MW + lowest load 16.4 MW) = 66.4 MW: 12.32 GWh curtailed
+  dynamic limit (50 MW + the hour's load): 4.50 GWh curtailed
+  following the load needs measured flows, a fast plant controller
+  and the operator's agreement (chapters 20 and 28); the static
+  limit is simpler and costs the difference every year

@@ -1,0 +1,7 @@
+economics of Plant P (ch 21 model, teaching terms A-304 to A-310)
+  capex 156,450 k u; debt 121,025 k u (71%)
+  equity IRR 10.2%; project IRR 7.8%; NPV at WACC 5,159 k u
+  min DSCR 1.20; min LLCR 1.23
+  LCOE at WACC 7.5%: 68.0 u/MWh against a PPA of 70 u/MWh
+  the plant clears its debt case at P90 and returns a modest
+  equity margin: the decision in D-025 and D-026 stands

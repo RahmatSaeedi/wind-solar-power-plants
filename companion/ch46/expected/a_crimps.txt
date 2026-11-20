@@ -1,0 +1,7 @@
+pull test of 12 lugs on 240 mm2 Al, minimum 4.5 kN (teaching)
+  forces kN: 5.6, 5.9, 5.4, 5.8, 6.0, 5.7, 3.1, 5.5, 5.9, 5.6, 3.4, 5.8
+  below the minimum: no 7 3.1 kN (tool B); no 11 3.4 kN (tool B)
+  both low pulls come from tool B: the crimp tool, not the lug,
+  is the suspect - every lug made with tool B since its last
+  check is traced and re-made, and the tool goes to calibration
+  (ch 40 crimp capability, ch 24 terminations)

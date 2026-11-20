@@ -1,0 +1,10 @@
+contaminated runoff from a battery-yard fire (teaching)
+  water applied (placeholder case)                    180 m3
+  share reaching the drains (60 %)                    108 m3
+  rain on the BESS yard, 10-year hour (22 mm)          52 m3
+  volume to hold for testing                          160 m3
+  firewater from a battery or an oil fire carries metals,
+  fluorides or oil: the drains of the yard lead to a
+  closable pond, the outlet stays shut until the water is
+  tested, and disposal follows the environmental permit
+  (ch 29, 33) - it never runs to the wadi

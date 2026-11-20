@@ -1,0 +1,7 @@
+the physical view against the logical view: is every device in both?
+  in the physical view only: HMI-3
+  in the logical view only:  HIST-2
+  HMI-3 is cabled but in no VLAN of the design - a screen that
+  works because the port is in a default VLAN; HIST-2 is in the
+  design but nowhere on a switch - a historian that was never
+  installed; two views that agree are the as-built record

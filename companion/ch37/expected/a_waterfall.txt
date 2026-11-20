@@ -1,0 +1,10 @@
+loss waterfall of the operating year (MWh, synthetic)
+  model 15.1 (PV + wind at MV)      301,494
+  soiling (April)                      -314
+  inverter outage (June)               -339
+  curtailment                          -609
+  other and noise                       -20
+  actual                            300,212
+  actual is 99.57 % of the model; each loss has a
+  cause, an owner and a fix: cleaning (ch 10), the inverter
+  maker's response time, the grid operator's limits

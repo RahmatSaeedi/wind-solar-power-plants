@@ -1,0 +1,13 @@
+hazardous materials on site at the peak of construction (teaching)
+  material                               basis                 amount
+  transformer oil (2 main + 26 unit)     22 x 2 + 3 x 26 m3    122.0 m3
+  SF6 in 132 kV and 33 kV switchgear     teaching                0.6 t
+  battery electrolyte (in cells)         8 containers           40.0 t
+  diesel (crane campaign store)          ch 31                  60.0 m3
+  lubricants and greases                 turbines, cranes        8.0 m3
+  paints and solvents                    construction            3.0 m3
+  each has a safety data sheet, a storage rule (bund, cover,
+  separation), a spill response and a waste route; whether
+  an amount triggers a permit or a major-hazard regime is
+  local law (ch 33, 55-57) - the inventory is kept current
+  because the fire service and the permit both ask for it

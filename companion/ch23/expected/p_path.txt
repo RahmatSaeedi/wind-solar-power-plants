@@ -1,0 +1,18 @@
+fault level along the energy path, grid to the farthest turbine
+  (reactances on 100 MVA, coupler open, grid part only):
+  after branch      kind           x pu    total pu    fault MVA
+  =E1-W1            line         0.0169     0.0836        1196
+  =E1-Q1            breaker      0.0000     0.0836        1196
+  =T1               transformer  0.1905     0.2741         365
+  =T1-Q2            breaker      0.0000     0.2741         365
+  =WS1-Q1           breaker      0.0000     0.2741         365
+  =WS1-W1           cable        0.0117     0.2858         350
+  =WS1-W2           cable        0.0117     0.2975         336
+  =WS1-W3           cable        0.0117     0.3092         323
+  =WS1-W4           cable        0.0117     0.3209         312
+  =WS1-4-T1         transformer  1.2500     1.5709          64
+  the fault level falls step by step away from the grid; the
+  unit transformer is the largest single step (1.25 pu): the
+  turbine's terminals see about 64 MVA from the grid, which
+  is also a measure of how stiff the grid looks to the
+  turbine's controls (ch 20, ch 28)

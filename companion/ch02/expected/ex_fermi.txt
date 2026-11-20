@@ -1,0 +1,6 @@
+order-of-magnitude estimate before any model:
+  PV:   60 MWp x 1600 kWh/kWp       = 96 GWh
+  wind: 60 MW x 8760 h x 0.35       = 184 GWh
+  sum                               ~ 280 GWh
+  upper bound: 100 MW x 8760 h      = 876 GWh (export limit all year)
+screening model of chapter 1: 289.8 GWh (+4 % from the estimate)

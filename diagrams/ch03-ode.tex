@@ -1,0 +1,20 @@
+% Chapter 3 — cable temperature rise after a load step (tau = 1800 s, final rise 40 K):
+% exact solution and Euler / RK4 with dt = 600 s. Data: diagrams/data/ch03-ode*.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=122mm, height=66mm,
+      xlabel={زمان (s)}, ylabel={افزایشِ دما (K)},
+      xmin=0, xmax=7200, ymin=0, ymax=45, xtick={0,1800,...,7200}, ytick={0,10,...,40}]
+    \addplot[sInk] table[x=t, y=exact, col sep=comma] {data/ch03-ode.csv};
+    \addlegendentry{پاسخِ دقیق}
+    \addplot[sLoss, mark=square*, mark size=1.6pt, mark options={solid}] table[x=t, y=euler, col sep=comma] {data/ch03-ode-steps.csv};
+    \addlegendentry{اویلر، $\Delta t = 600\ \text{s}$}
+    \addplot[sWind, mark=*, mark size=1.6pt, mark options={solid}] table[x=t, y=rk4, col sep=comma] {data/ch03-ode-steps.csv};
+    \addlegendentry{رونگه-کوتا ۴}
+    \addplot[sLimit, domain=0:7200, samples=2] {40};
+    \addlegendentry{مقدارِ نهایی}
+    \node[font=\footnotesize, text=cInk, anchor=north west] at (axis cs:1850,22) {$t = \tau$: $63\,\%$ مقدارِ نهایی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

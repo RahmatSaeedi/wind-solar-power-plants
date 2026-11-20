@@ -1,0 +1,14 @@
+energy lost a year: change when one input of one class rises 50 % (MWh)
+  wind turbine (major)           rate      +971
+  wind turbine (major)           delay     +809
+  wind turbine (minor)           rate      +787
+  wind turbine (minor)           delay     +449
+  wind turbine (minor)           MTTR      +337
+  PV inverter                    rate      +225
+  wind turbine (major)           MTTR      +162
+  PV inverter                    delay     +150
+  132 kV line (permanent fault)  rate      +142
+  132 kV line (permanent fault)  MTTR      +142
+  PV inverter                    MTTR       +75
+  the largest: wind turbine (major) rate; the data effort
+  goes where the result is most sensitive, not evenly

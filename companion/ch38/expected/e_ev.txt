@@ -1,0 +1,9 @@
+earned value of the engineering at week 40 (hours, synthetic)
+  budget at completion 7,342 h; planned value 4,451 h
+  earned value 3,012 h (credit by status: IFR 30 %, IFA 60 %, IFC 90 %)
+  actual hours 3,553 h
+  SPI 0.68, CPI 0.85; estimate at completion 8,661 h
+  the design is behind its plan and costs more than planned
+  for what it has earned; credit only by status keeps the
+  progress honest - a drawing 'nearly finished' earns
+  nothing more until it is issued

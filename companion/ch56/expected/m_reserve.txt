@@ -1,0 +1,10 @@
+reserve needed against late payment in year 3 (ch 21 model, teaching)
+  debt service in year 3: 11,891 k u
+  months late   CFADS k u  shortfall k u  reserve months
+             3     10,936            954             1.0
+             6      5,635          6,255             6.3
+             9        334         11,556            11.7
+            12     -4,967         16,857            17.0
+  a six-month reserve covers up to 3 months late in one year;
+  longer delays need a payment guarantee or a liquidity facility
+  (ch 21 F; teaching values, not advice)

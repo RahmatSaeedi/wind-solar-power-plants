@@ -1,0 +1,30 @@
+% Chapter 7 - R, L and C on a sinusoidal voltage: waveforms (top) and phasors (bottom).
+% Voltage solid ink, current dotted (load colour); the voltage phasor is the reference.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \foreach \col/\sh/\name/\ang in {0/0/{مقاومت: هم‌فاز}/0, 1/-90/{سلف: جریان $90^\circ$ پس‌فاز}/-90,
+                                   2/90/{خازن: جریان $90^\circ$ پیش‌فاز}/90}{
+    \begin{scope}[xshift={(2-\col)*5.2cm}]
+      \node[note, text=cInk, font=\small\bfseries] at (2.0,1.75) {\name};
+      \draw[cRule, line width=0.4pt, ->] (0,0) -- (4.2,0);
+      \draw[cRule, line width=0.4pt] (0,-1.2) -- (0,1.2);
+      \draw[sInk] plot[domain=0:360, samples=80] ({\x/90}, {sin(\x)});
+      \draw[sLoad] plot[domain=0:360, samples=80] ({\x/90}, {0.65*sin(\x+\sh)});
+      % phasors
+      \draw[cRule, line width=0.4pt] (0.4,-3.0) -- (3.6,-3.0);
+      \draw[cRule, line width=0.4pt] (2.0,-4.4) -- (2.0,-1.6);
+      \draw[line width=1.2pt, cInk, ->] (2.0,-3.0) -- (3.5,-3.0);
+      \node[note, text=cInk, anchor=north] at (3.35,-3.05) {$\mathbf{V}$};
+      \draw[line width=1.2pt, cLoad, ->] (2.0,-3.0) -- ++(\ang:1.0);
+    \end{scope}
+  }
+  \node[note, text=cInk, anchor=south] at (12.4,-2.95) {$\mathbf{I}$};
+  \node[note, text=cInk, anchor=west] at (7.25,-4.05) {$\mathbf{I}$};
+  \node[note, text=cInk, anchor=west] at (2.05,-1.95) {$\mathbf{I}$};
+  \draw[sInk] (4.6,-5.0) -- (5.4,-5.0);
+  \node[note, text=cInk, anchor=east] at (4.5,-5.0) {ولتاژ};
+  \draw[sLoad] (8.6,-5.0) -- (9.4,-5.0);
+  \node[note, text=cInk, anchor=east] at (8.5,-5.0) {جریان};
+\end{tikzpicture}}
+\end{document}

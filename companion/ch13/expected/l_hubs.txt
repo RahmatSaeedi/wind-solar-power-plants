@@ -1,0 +1,16 @@
+hub height study of the twelve turbines (long term, D-017):
+  shear by hour from 60/100 m: night 0.323, midday 0.124
+  lidar against the extrapolated mast: 120 m +0.00 %, 150 m -0.00 %
+    (synthetic data agree closely; a real site differs more)
+  hub m  mean m/s   farm GWh   u(E) mast  u(E) lidar   P90 lidar
+   100    7.248     191.87      4.1 %       4.1 %      181.8
+   120    7.569     205.52      4.2 %       4.3 %      194.2
+   150    7.983     222.11      4.6 %       4.3 %      209.9
+  extra P90 energy against 100 m and the most a taller tower
+  may cost for it (20 years, 50 u/MWh, no discounting):
+    120 m: +12.41 GWh a year; up to 52 k u per metre per turbine
+    150 m: +28.09 GWh a year; up to 47 k u per metre per turbine
+  a taller hub gains energy from the shear and loses a little
+  density; the lidar keeps its uncertainty close to a hub-height
+  mast; the cost side (tower, foundation, crane, loads) belongs
+  to chapters 11, 21, 30 and 31, and discounting lowers the limit

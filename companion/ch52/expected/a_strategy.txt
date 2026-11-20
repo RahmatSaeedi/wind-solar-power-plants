@@ -1,0 +1,16 @@
+a strategy for each class from consequence and failures a year (teaching rule)
+  PV inverter                    preventive (time-based)
+  PV unit transformer            preventive + critical spare
+  PV combiner box                run to failure, spares on the shelf
+  wind turbine (minor)           run to failure, spares on the shelf
+  wind turbine (major)           condition-based + planned overhaul
+  BESS PCS                       preventive (time-based)
+  BESS container                 preventive (time-based)
+  main transformer               condition-based + planned overhaul
+  132 kV line (permanent fault)  condition-based + planned overhaul
+  33 kV collector cable (per km) preventive (time-based)
+  PPC                            condition-based + planned overhaul
+  consequence 4-5: watch the condition and plan the overhaul;
+  frequent, cheap failures: let them fail, keep the part; long
+  waits for parts: buy the spare - the rule is a start, each
+  line is then checked against the class's failure pattern

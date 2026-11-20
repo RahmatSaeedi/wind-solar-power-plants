@@ -1,0 +1,11 @@
+lashing the nacelle on its trailer (teaching accelerations)
+  design accelerations: 0.8 g forward, 0.5 g sideways, 0.5 g back
+  direction   force kN   friction 0.3 kN   lashings to hold (100 kN each)
+  forward         1256               471                 10
+  sideways         785               471                  4
+  backward         785               471                  4
+  braking hard loads the lashings most: friction alone holds
+  less than half - the maker's lashing points, chain or
+  bolted fixtures and a check after the first kilometres
+  belong to the transport plan, with the accelerations of
+  the applicable load-securing rules

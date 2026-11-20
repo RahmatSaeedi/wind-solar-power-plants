@@ -1,0 +1,77 @@
+% Chapter 23 - teaching single-line diagram of Plant P, revision A (provisional; D-027, A-316):
+% grid bay and 132 kV line at the top, plant 132 kV bus, two 63 MVA transformers with 33 kV incomers,
+% split 33 kV bus (coupler normally open), feeders WS1-3, PVF1-3, BESS-A/B, station service and
+% earthing transformers. Ownership boundaries dashed. Not a design drawing.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    brk/.style={draw=cInk, fill=white, minimum size=2.8mm, inner sep=0pt},
+    tr/.style={draw=cInk, line width=0.7pt},
+    fd/.style={blk, minimum width=12.5mm, minimum height=11mm, text width=12mm, font=\scriptsize},
+    mtr/.style={draw=cInk, fill=white, circle, inner sep=1pt, font=\scriptsize},
+    fW/.style={draw=cWind, fill=cWind!9}, fP/.style={draw=cPV, fill=cPV!9},
+    fB/.style={draw=cBESS, fill=cBESS!10}, fN/.style={}]
+  % ---- grid and line (top)
+  \draw[bus] (6.0,12.2) -- (10.0,12.2);
+  \node[note] at (8.0,12.65) {شینهٔ شبکه $132\,\text{kV}$ (بهره‌بردارِ شبکه)};
+  \draw (8,12.2) -- (8,11.75); \node[brk] at (8,11.6) {}; \draw (8,11.45) -- (8,11.15);
+  \node[mtr] at (8.55,11.6) {B};
+  \draw (8,11.15) -- (8.25,10.85); \draw (8,10.8) -- (8,10.5);
+  \node[note, anchor=west] at (8.4,11.0) {$\texttt{=G1-Q9}$};
+  \node[note, anchor=west] at (8.9,11.6) {$\texttt{=G1-Q1}$، کنتورِ گزینهٔ B};
+  \draw[boundary] (4.5,10.35) -- (11.5,10.35);
+  \node[note, anchor=east] at (4.4,10.35) {مرزِ مالکیت};
+  \draw (8,10.5) -- (8,9.2);
+  \draw (7.85,10.0) -- (8.15,9.8) (7.85,9.6) -- (8.15,9.4);
+  \node[note, anchor=west] at (8.3,9.75) {خطِ هوایی $132\,\text{kV}$، $7.06\,\text{km}$، مالک: باز ($\text{U-065}$)};
+  \draw[boundary] (4.5,9.05) -- (11.5,9.05);
+  \node[note, anchor=east] at (4.4,9.05) {مرزِ مالکیت};
+  \draw (8,9.2) -- (8,8.9); \draw (8,8.9) -- (8.25,8.6); \draw (8,8.55) -- (8,8.3);
+  \node[note, anchor=west] at (8.4,8.75) {$\texttt{=E1-Q9}$};
+  \node[brk] at (8,8.15) {}; \draw (8,8.0) -- (8,7.6);
+  \node[mtr] at (8.55,8.15) {A};
+  \node[note, anchor=west] at (8.9,8.15) {$\texttt{=E1-Q1}$، کنتورِ گزینهٔ A};
+  % ---- plant 132 kV bus
+  \draw[bus] (4.0,7.6) -- (12.0,7.6);
+  \node[note, anchor=east] at (3.9,7.6) {شینهٔ $132\,\text{kV}$};
+  % ---- transformers
+  \foreach \x/\k in {5.5/1, 10.5/2} {
+    \draw (\x,7.6) -- (\x,7.25); \node[brk] at (\x,7.1) {}; \draw (\x,6.95) -- (\x,6.65);
+    \draw[tr] (\x,6.4) circle (0.3) (\x,5.95) circle (0.3);
+    \draw (\x,5.65) -- (\x,5.3); \node[brk] at (\x,5.15) {}; \draw (\x,5.0) -- (\x,4.6);
+  }
+  \node[note, anchor=east] at (5.05,6.2) {$\texttt{=T1}$};
+  \node[note, anchor=west] at (10.95,6.2) {$\texttt{=T2}$};
+  \node[note, text width=34mm] at (8.0,6.2) {$63\,\text{MVA}$، $132/33\,\text{kV}$\\$\mathrm{YNd11}$\\$z = 0.12$ (موقت)};
+  % ---- split 33 kV bus
+  \draw[bus] (0.3,4.6) -- (7.65,4.6);
+  \draw[bus] (8.35,4.6) -- (15.7,4.6);
+  \draw (7.65,4.6) -- (7.85,4.6); \node[brk] at (8.0,4.6) {}; \draw (8.15,4.6) -- (8.35,4.6);
+  \node[note] at (8.0,5.0) {عادیِ باز};
+  \node[note] at (0.8,5.0) {$\text{MV-A}$};
+  \node[note] at (15.2,5.0) {$\text{MV-B}$};
+  % ---- feeders
+  \foreach \x/\lab/\sty in {
+      0.9/{$\text{WS1}$\\$4\times 5\,\text{MW}$}/fW,
+      2.3/{$\text{WS2}$\\$4\times 5\,\text{MW}$}/fW,
+      3.7/{$\text{PVF3}$\\$3\times 5\,\text{MW}$}/fP,
+      5.1/{$\text{BESS-A}$\\$2\times 5\,\text{MW}$}/fB,
+      6.5/{$\text{A1}$\\$250\,\text{kVA}$}/fN,
+      9.5/{$\text{A2}$\\$250\,\text{kVA}$}/fN,
+      10.9/{$\text{BESS-B}$\\$2\times 5\,\text{MW}$}/fB,
+      12.3/{$\text{PVF2}$\\$3\times 5\,\text{MW}$}/fP,
+      13.7/{$\text{PVF1}$\\$4\times 5\,\text{MW}$}/fP,
+      15.1/{$\text{WS3}$\\$4\times 5\,\text{MW}$}/fW} {
+    \draw (\x,4.6) -- (\x,4.25); \node[brk] at (\x,4.1) {}; \draw (\x,3.95) -- (\x,3.4);
+    \node[fd, \sty] at (\x,2.85) {\lab};
+  }
+  % earthing transformers with resistors
+  \foreach \x in {7.4, 8.6} {
+    \draw (\x,4.6) -- (\x,4.05); \draw[tr] (\x,3.82) circle (0.2);
+    \draw (\x,3.62) -- (\x,3.4); \draw (\x-0.09,3.4) rectangle (\x+0.09,3.05); \draw (\x,3.05) -- (\x,2.8);
+    \draw (\x-0.2,2.8) -- (\x+0.2,2.8) (\x-0.12,2.71) -- (\x+0.12,2.71);
+  }
+  \node[note, text width=26mm] at (8.0,2.05) {ترانسفورماتورِ زمین\\و مقاومتِ $400\,\text{A}$};
+  \node[note, text width=150mm] at (8.0,1.05) {$\text{WS}$ رشتهٔ بادی، $\text{PVF}$ فیدرِ خورشیدی، $\text{BESS}$ بلوک‌های باتری، $\text{A1}$ و $\text{A2}$ خدماتِ ایستگاه؛ کلیدها: فیدرها $630\,\text{A}$، ورودی‌ها $1{,}250\,\text{A}$، شینه $25\,\text{kA}$ (موقت)؛ کنترل‌گرِ نیروگاه هر ترانسفورماتور را محدود می‌کند (هر بخش تا $68\,\text{MVA}$)};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,8 @@
+E01 Q at 60 MW for pf 0.95: 19.72 Mvar
+E02 tan phi for pf 0.90: 0.484
+E03 days CQ-04 has waited on 2027-03-01: 106
+E04 chance of a change within 2 years at 0.5 a year: 63%
+E05 PV of 65 k u a year for 20 years at 7.5 %: 663 k u
+E06 clause 7.1 in force on 2027-01-01: A2
+E07 interest grossed up for 10 % withholding: 6.67%
+E08 strictest of noise limits 40, 45, 48 dB(A): 40 dB(A)

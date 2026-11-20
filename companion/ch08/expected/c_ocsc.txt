@@ -1,0 +1,7 @@
+backup generator, open- and short-circuit tests (A-121):
+  open circuit: rated 400 V at field current 32 A
+  short circuit at the same field current: 116 A
+  X_s = (V/sqrt3) / I_sc = 1.99 ohm = 2.49 pu (Z_base 0.80 ohm)
+  rated current 288.7 A needs 79.6 A of field in short circuit;
+  short-circuit ratio 0.40 = 1 / x_d (unsaturated)
+  a test confirms (or not) the design value x_d 2.5 pu of A-113

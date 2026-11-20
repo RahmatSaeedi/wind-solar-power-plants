@@ -1,0 +1,10 @@
+control layers of Plant P and their time scales (teaching):
+  layer                   decides                         every
+  device (inverter, WTG)  current, pitch, torque          ms
+  subsystem (park, BMS)   unit set points, limits         100 ms-1 s
+  plant controller (PPC)  P, Q at the POC, ramps          100 ms-1 s
+  energy management       battery plan, curtailment       1-15 min
+  scheduling              day-ahead, intraday plans       hours
+  each layer follows the one above within its own limits and
+  reports what it can do; a slower layer never asks a faster
+  one for more than its capability (chapters 9, 11, 19)

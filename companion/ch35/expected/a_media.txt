@@ -1,0 +1,13 @@
+media for the plant network and how far each reaches (teaching)
+  medium                          reach                use at Plant P
+  copper Ethernet (twisted pair)  100 m                inside buildings,
+    cabinets
+  multimode fibre                 about 0.5-2 km       inside the substation
+  single-mode fibre               10-40 km and more    turbine rings, line
+  radio link                      line of sight        backup, remote met mast
+  serial RS-485 (copper)          about 1 km           legacy meters, slow
+  the farthest turbine is about 4.2 km of cable route away:
+  single-mode fibre, laid in the collector-cable trench,
+  immune to the fields of a 33 kV fault next to it - copper
+  between buildings would carry the earth-potential rise
+  of a fault from one earth mat to another (ch 26)

@@ -1,0 +1,21 @@
+% Chapter 37 - one turbine trip and the boundaries of its downtime: waiting, repair and restart
+% checks (examples_d; teaching times).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\footnotesize, x=16mm]
+  \draw[-{Stealth[length=2mm]}, cInkB, line width=0.6pt] (9.6,0) -- (17,0);
+  \foreach \t in {10,11,...,16} {\draw[cRule] (\t,-0.08) -- (\t,0.08);
+    \node[note, anchor=north] at (\t,-0.12) {$\t{:}00$};}
+  \fill[cLoss!25] (10,0.25) rectangle (14,0.75);
+  \fill[cWind!35] (14,0.25) rectangle (16,0.75);
+  \fill[cPV!35] (16,0.25) rectangle (16.33,0.75);
+  \node[note] at (12,0.5) {انتظار: $4\,\text{h}$};
+  \node[note] at (15,0.5) {تعمیر: $2\,\text{h}$};
+  \node[note, anchor=south] at (16.17,0.8) {بررسیِ راه‌اندازی};
+  \draw[dimline] (10,1.5) -- (16.33,1.5);
+  \node[note, anchor=south] at (13.17,1.55) {زمانِ ازکارافتادگی: $6.33\,\text{h}$};
+  \node[note, anchor=north, text width=18mm] at (10,-0.6) {قطع (تریپ)};
+  \node[note, anchor=north, text width=18mm] at (14,-0.6) {رسیدنِ تکنسین};
+  \node[note, anchor=north, text width=18mm] at (16.2,-0.6) {بازگشت به کار};
+\end{tikzpicture}}
+\end{document}

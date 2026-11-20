@@ -1,0 +1,19 @@
+% Chapter 56 - frequency after Plant P (100 MW) trips in islands of 300, 600 and 1,200 MW load
+% (teaching sizes, A-561; ch 28 aggregated model, H 3 s, governors 5 % droop on 20 % of the
+% system, no load shedding). Data: diagrams/data/ch56-island.csv (companion/ch56/more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=66mm, xmin=0, xmax=20, ymin=43, ymax=50.4,
+      xlabel={زمان $(\text{s})$}, ylabel={بسامد $(\text{Hz})$},
+      xtick={0,5,...,20}, ytick={43,44,...,50}, legend columns=1,
+      legend style={at={(0.97,0.06)}, anchor=south east, font=\footnotesize}]
+    \addplot[draw=cLoss, thick] table[x=t, y=f300, col sep=comma] {data/ch56-island.csv};
+    \addplot[draw=cWind, thick, dashed] table[x=t, y=f600, col sep=comma] {data/ch56-island.csv};
+    \addplot[draw=cBESS, thick, dash dot] table[x=t, y=f1200, col sep=comma] {data/ch56-island.csv};
+    \legend{بخشِ $300\,\text{MW}$, بخشِ $600\,\text{MW}$, بخشِ $1200\,\text{MW}$}
+    \draw[cMuted, densely dotted] (axis cs:0,49) -- (axis cs:20,49);
+    \node[font=\footnotesize, text=cMuted, anchor=south west] at (axis cs:7.0,49.55) {حدِ آموزشیِ $49\,\text{Hz}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

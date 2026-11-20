@@ -1,0 +1,21 @@
+D-042 detailed design and information basis of Plant P (teaching)
+  1 numbering, revisions and statuses of ch 2, enforced by the
+    CDE workflow; register checked every week
+  2 one source of truth per value: ratings in the approved
+    one-line, CT data from the switchgear data sheets, lengths
+    from the route survey; every link carries its revision
+  3 requirements traced to design, verification method and
+    evidence; none issued for construction without the first
+    two
+  4 an ICD per major skid; release for manufacture only with
+    all items closed and the FAT procedure approved
+  5 engineering progress by status credit; queries answered in
+    14 days; changes with impact, cost, schedule and approval
+  6 independent checks: one by one for protection, lifting and
+    foundations, sampled for the rest
+  7 grid interface: one accountable party per item; changes on
+    either side notified before issue
+  8 handover: owner's information requirements as checks;
+    critical items at 98 % or better
+  open: accountable owners of three interface items; the
+    operator's interface schedule (U-115, U-119)

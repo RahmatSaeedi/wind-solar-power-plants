@@ -1,0 +1,30 @@
+% Chapter 53 - closure timeline in months from the end of operation: disclosure (-36), consultation
+% (-30), workforce notice (-24), traffic and works plan (-12), start notice (-3), the works, and land
+% return with bond release (+12) (companion/ch53/examples_g.py, disclosure; teaching).
+% Time runs right to left for RTL readers: -36 at the right, +12 at the left.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    m/.style={circle, fill=cInkB, inner sep=1.6pt},
+    lab/.style={font=\scriptsize, align=center, text width=24mm, text=cInk}]
+  \draw[->, line width=0.9pt, draw=cInkB] (11.4,0) -- (-4.2,0);
+  \fill[cLoss!15] (0,-0.22) rectangle (-3.0,0.22);
+  \node[font=\scriptsize, text=cInk] at (-1.5,0.45) {کارهای برچیدن};
+  \foreach \t/\txt in {-36/{افشای تصمیم\\ به مالکان و روستا}, -24/{آگاهیِ کارکنان،\\ برنامهٔ گذار},
+                       -3/{آگاهیِ آغاز}} {
+    \node[m] at ({-0.30*\t},0) {};
+    \node[lab, anchor=south] at ({-0.30*\t},0.35) {\txt};
+    \node[font=\scriptsize, text=cInk!70] at ({-0.30*\t},-0.32) {$\t$};
+  }
+  \foreach \t/\txt in {-30/{رایزنی دربارهٔ\\ دسترسی و زمین}, -12/{برنامهٔ ترافیک\\ و کار},
+                       12/{تحویلِ زمین،\\ آزادیِ ضمانت}} {
+    \node[m] at ({-0.30*\t},0) {};
+    \node[lab, anchor=north] at ({-0.30*\t},-0.35) {\txt};
+    \node[font=\scriptsize, text=cInk!70] at ({-0.30*\t},0.32) {$\t$};
+  }
+  \node[m, fill=cLoss] at (0,0) {};
+  \node[font=\scriptsize, text=cLoss, anchor=south] at (0,0.75) {پایانِ بهره‌برداری};
+  \draw[cLoss, dashed] (0,0.1) -- (0,0.72);
+  \node[font=\scriptsize, text=cInk] at (5.2,-1.75) {ماه نسبت به پایانِ بهره‌برداری};
+\end{tikzpicture}
+\end{document}

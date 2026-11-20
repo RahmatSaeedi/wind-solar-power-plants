@@ -1,0 +1,9 @@
+environmental curtailment of the wind farm (teaching rules, A-272):
+  bats: 750 h stopped, 2,252 MWh (1.17 % of the wind energy)
+    mean farm power in those hours 3.0 MW against 22.0 MW over the year
+  night noise: 1082 h in reduced mode, 527 MWh (0.27 %)
+  bat threshold: 5.5 m/s 1,351, 6.0 m/s 2,252, 6.5 m/s 3,350 MWh
+  the bat rule takes 8.6 % of the hours but 1.2 % of the energy:
+    it acts at low wind, where the power curve is low; it is still
+    the largest environmental loss here; the permit sets the rule
+    (chapter 33) and the model applies it hour by hour

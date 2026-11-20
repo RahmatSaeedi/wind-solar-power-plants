@@ -1,0 +1,7 @@
+tower-top deflection at peak thrust (equivalent tube, teaching)
+  bending of the tower: 1.44 m at 100 m
+  rocking of the base on T07 soil: tilt 0.90 mrad -> 0.09 m at the top
+  the top sways more than a metre in normal operation: that
+  is design, not damage; what is checked is the permanent
+  tilt of the foundation after settlement (verticality
+  surveys, lesson C) and the blade-tower clearance (ch 11)

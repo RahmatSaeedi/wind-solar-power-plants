@@ -1,0 +1,8 @@
+the same outage in two reporting windows
+  one turbine, a single 50-hour outage in July
+  July availability: 93.3 %
+  year availability: 99.43 %
+  a month with one long outage looks bad, the year looks
+  fine; a report states its window, and comparisons use the
+  same window - a rolling 12 months for trends, the month
+  for follow-up

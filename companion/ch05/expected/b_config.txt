@@ -1,0 +1,3 @@
+{'dc_mwp': 60, 'ac_mw': 50, 'pr_dc': 0.85} | limit 100 MW
+release read as '1.1.0' -> keep versions as text
+yaml '1.10' is 1.1 but '"1.10"' is '1.10'

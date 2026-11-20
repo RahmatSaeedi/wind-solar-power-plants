@@ -1,0 +1,13 @@
+independent check by engineer B (different methods, same data pack)
+PV:   hand method 97,320 MWh - hourly 97,304 MWh = 15.7 MWh
+      = energy above the 50 MW inverter limit: explained, PASS
+wind: binned frequency method 192,740 MWh vs hourly 192,538 MWh
+      difference +0.11 % (bin width 0.5 m/s): PASS (limit 1 %)
+order of magnitude: estimate 280 GWh, model 289.8 GWh (+3.5 %): PASS (limit 25
+    %)
+bounds: 0 <= CF = 0.331 <= 1; E_export <= 100 MW x 8760 h = 876 GWh: PASS
+PV specific yield 1,622 kWh/kWp: plausible for 34 deg N (verify in chapters 12
+    and 15)
+dimensions: every step re-run with plantp.units quantities, check(E, 'MWh'):
+    PASS
+data pack 1.0.0 checksums: PASS

@@ -1,0 +1,7 @@
+repowering the 12 turbines: 5.0 -> 6.2 MW, rotor 150 -> 170 m
+  wind energy up by (170/150)^2 x 1.04 = 1.34 (capped at the new rating)
+  plant energy below the 100 MW export limit: +55.0 GWh a year;
+  extra energy spilled at the limit: 3.6 GWh a year
+  the limit takes 6% of the extra wind energy - small
+  now, larger if the PV is repowered too; and a repowering is
+  a new grid application (the next lesson, ch 17, ch 28)

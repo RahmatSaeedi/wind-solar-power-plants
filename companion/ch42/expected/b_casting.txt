@@ -1,0 +1,14 @@
+ultrasonic indications in hub casting H-022, equivalent size mm
+  zone limits (teaching):
+    flange (high stress)      3 mm
+    body (medium)             6 mm
+    web (low)                10 mm
+  15 indications; over the zone limit:
+    5.2 mm in the flange
+    3.6 mm in the flange
+    4.6 mm in the flange
+  the same flaw is harmless in the web and rejectable in the
+  flange: acceptance follows the stress map of the design,
+  which the casting drawing carries as zones - a repair by
+  welding a ductile-iron flange is normally not allowed, so
+  the disposition is the designer's (NCR-103, lab D)

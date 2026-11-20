@@ -1,0 +1,7 @@
+A check sheets of the PV area: 410 of 640 closed on day 244
+  closed in the last four weeks: 18, 26, 22, 30 (mean 24.0 a week)
+  at that rate the last sheet closes on day 311; planned MC day 270
+  to make day 270: 62 sheets a week, 2.6 times the rate
+  the burn-down shows the MC date long before the walkdown
+  does; the levers are the inspectors' hours and closing the
+  open A punch items that hold whole sheets (lesson C)

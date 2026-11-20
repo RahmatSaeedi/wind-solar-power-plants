@@ -1,0 +1,6 @@
+Plant P: 132 kV, private, Province Q, hybrid
+  requirements that apply: 13; outside the scope: Z-011
+  Z-011 is a distribution rule for 33 kV and below: it would
+  apply to a collector connected to the distribution network,
+  not to a 132 kV transmission connection - applicability is
+  decided by voltage, ownership and location, and recorded

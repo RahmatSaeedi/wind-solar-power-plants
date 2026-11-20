@@ -1,0 +1,12 @@
+operating limits: source document, controller setting, procedure
+  export limit MW           100    100    100  connection agreement rev 3
+  ramp limit MW/min           8      8     10  grid operator instruction GI-07
+  battery SOC window %    12-88  12-88  12-88  battery maker letter
+  Q at full output Mvar      33   30.6     33  REQ-G05 with DEV-11
+  service reserve MW          5      5      5  service agreement
+  comms timeout h             1      1      1  control basis D-024
+  2 limits disagree: the ramp limit changed in the controller
+  but not in the procedure (the open change of round s); Q
+  is set to the 30.6 Mvar the plant can give under deviation
+  DEV-11 while the procedure still promises 33 - the operator
+  would offer what the plant cannot deliver

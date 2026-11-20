@@ -1,0 +1,6 @@
+adding 0.1 ten times in binary floating point: 0.9999999999999999
+  sum([0.1] * 10) = 1.0 (Python 3.12+ compensates); math.fsum: 1.0
+ten times Decimal('0.1'): 1.0 (decimal arithmetic for money)
+Python round(2.5) = 2, round(3.5) = 4 (ties go to even)
+formatting is not rounding the stored value: f'{2/3:.2f}' = 0.67, the value
+    stays 0.6666666666666666

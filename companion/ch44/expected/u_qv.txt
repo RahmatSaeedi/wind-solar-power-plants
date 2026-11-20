@@ -1,0 +1,12 @@
+Q(V) check at five test voltages; tolerance +-5% of Q max
+  (teaching curve: Q/Qmax = -(V-1)/(2 droop))
+  case                              0.94   0.97   1.00   1.03   1.06   fails
+  as released (droop 4 %)          +0.75  +0.38  +0.00  -0.38  -0.75   0
+  droop set to 5 %                 +0.60  +0.30  +0.00  -0.30  -0.60   4
+  voltage reading +1 % (VT ratio)  +0.63  +0.25  -0.13  -0.50  -0.88   5
+  a wrong droop changes the slope: every point but 1.00 pu
+  fails; a wrong voltage reading shifts the curve: every point
+  fails, 1.00 pu included - a check at 1.00 pu alone finds the
+  shift and misses the slope: the points must span the curve,
+  and the fingerprint (lesson C) and the functional test find
+  different faults

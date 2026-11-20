@@ -1,0 +1,6 @@
+tower flange bolts: 450 a turbine, 9 loose (teaching)
+  a yearly check of 10% (45 bolts) finds at least one: 62%
+  a sample tells whether looseness exists, not which bolts:
+  one loose bolt found opens a full check of that flange;
+  bolts are marked so a turned nut shows at a glance - a
+  cheap aid that makes every visit a 100 % visual check

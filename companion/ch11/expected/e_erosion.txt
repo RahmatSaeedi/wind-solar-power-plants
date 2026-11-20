@@ -1,0 +1,7 @@
+leading-edge erosion on the outer third of the blade (A-227):
+  peak Cp at TSR 8.50: clean 0.4847, eroded 0.4581 (-5.5 %)
+  one turbine at site density: 17,183 MWh clean, 16,613 MWh eroded (-3.3 %)
+  twelve turbines: 6.84 GWh a year, 342 k u at 50 u/MWh
+  the outer third makes most of the torque and sees the highest
+  speed (rain and dust hit it hardest): leading-edge protection
+  and repair are planned maintenance, not cosmetics

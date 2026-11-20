@@ -1,0 +1,22 @@
+battery block BESS-B-2 traced to the grid (interfaces on the way):
+  =BESS-B-2-T1: voltage 0.69 -> 33 kV
+  =BESS-B-W2: protection zone Z-BESS-B
+  =BESS-B-Q1: isolation point
+  =T2-Q2: protection zone Z-T2
+  =T2-Q2: isolation point
+  =T2: voltage 33 -> 132 kV
+  =T2-Q1: isolation point
+  =E1-Q1: protection zone Z-L1
+  =E1-Q1: revenue (option A) meter
+  =E1-Q9: owner plant -> open (U-065)
+  =E1-Q9: isolation point
+  =E1-Q9: test boundary (plant and utility)
+  =G1-Q9: owner open (U-065) -> utility
+  =G1-Q9: protection zone Z-GRID
+  =G1-Q9: isolation point
+  =G1-Q9: test boundary (utility)
+  =G1-Q1: revenue (option B) meter
+  the battery crosses the same boundaries as a turbine, plus
+  one the turbine does not have: it also imports from the
+  grid - every meter on the path counts in both directions
+  and the protection must see faults fed from either side

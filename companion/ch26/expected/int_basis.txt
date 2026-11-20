@@ -1,0 +1,15 @@
+protection, earthing and lightning basis of Plant P (D-030):
+  33 kV: overcurrent and earth fault per feeder, graded with
+    >= 0.3 s margins; 400 A resistance earthing; breaker
+    failure to the incomer; bus protection or incomer backup
+  main transformers: biased differential with inrush blocking,
+    gas and pressure devices, overcurrent backup
+  132 kV line: line differential over fibre, distance backup,
+    transfer trip from the grid end on two channels
+  CTs: 1 A secondaries, knee points from the fault levels
+  earthing: mesh grid from the soil survey (U-098), GPR and
+    touch/step checked by the guide's method with clearing times
+  lightning: turbine LPS from the maker; arresters at the line
+    entrance and the transformers; risk study with local flash
+    density (U-099)
+  settings: project studies and the operator's approval

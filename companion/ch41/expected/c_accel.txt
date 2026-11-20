@@ -1,0 +1,15 @@
+damp heat 1,000 h at 85 C / 85 % RH: what does it equal?
+  (Peck model, AF = exp(Ea/k (1/Tf - 1/Tt)) (RHt/RHf)^3,
+  field module at 35 C - all teaching values)
+  Ea eV   RH field   acceleration   1,000 h equals
+    0.5       30 %            315         36 years
+    0.5       60 %             39          4 years
+    0.7       30 %            902        103 years
+    0.7       60 %            113         13 years
+    0.9       30 %          2,582        295 years
+    0.9       60 %            323         37 years
+  thermal cycling -40..85 C against 40 K field days (n = 2):
+    AF 9.8: 200 cycles = 5.4 years of daily cycles
+  the answer spans a 66-fold range with plausible
+  inputs: qualification tests screen a design for known
+  weaknesses and compare designs - they do not predict life

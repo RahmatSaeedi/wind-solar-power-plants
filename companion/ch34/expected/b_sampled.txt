@@ -1,0 +1,17 @@
+the tuned PI (kp 1.5, ki 0.8; park tau 2 s, ch 20) at four controller
+  cycles, each output applied one cycle after its sample
+  dt s   method    overshoot %   settled (2 %) s
+   0.1   euler             0.0               9.0
+   0.1   tustin            0.0               8.8
+   0.5   euler             0.0               9.5
+   0.5   tustin            0.0               8.0
+   1.0   euler            21.6              > 20
+   1.0   tustin           27.9              > 20
+   2.0   euler        unstable                 -
+   2.0   tustin       unstable                 -
+  while the cycle is short against the park's time constant
+  (dt/tau 0.05 to 0.25) the loop keeps the shape it was
+  tuned for; at dt = tau/2 the one-cycle lag gives 22-28 %
+  overshoot, at dt = tau the loop is unstable - ten or more
+  cycles per time constant, and the tuning is checked at
+  the real cycle with its computing delay

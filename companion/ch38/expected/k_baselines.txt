@@ -1,0 +1,9 @@
+four configuration baselines of Plant P (teaching)
+  baseline     fixes                    held in          changed by
+  functional   what the plant must do   requirements     owner
+  allocated    which part does what     specs, ICDs      design authority
+  product      how each part is built   IFC drawings     change board
+  as-built     what was built           ASB set, assets  operations
+  a change names the baseline it touches; a change to the
+  functional baseline goes back to the owner, one to the
+  product baseline stays with the change board

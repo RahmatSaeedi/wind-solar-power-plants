@@ -1,0 +1,17 @@
+normalised scores (1 = best of the three):
+  criterion              P-North  P-Central    P-South
+  energy                    1.00       0.49       0.00
+  cost incl. grid           0.00       0.71       1.00
+  time to COD               0.00       1.00       0.55
+  grid readiness            0.00       1.00       0.84
+  environment               0.00       1.00       0.11
+  social                    0.00       1.00       0.78
+  constructability          0.00       0.78       1.00
+  weighted totals by stakeholder:
+  developer                 0.30       0.75       0.56
+  lender                    0.20       0.82       0.60
+  community                 0.10       0.92       0.51
+  dominated options: none
+  min-max scores exaggerate small differences between three
+  options and depend on which options are in the set: the
+  total is a summary for discussion, not a measurement

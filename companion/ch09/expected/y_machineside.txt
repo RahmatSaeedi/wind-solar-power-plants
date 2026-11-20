@@ -1,0 +1,9 @@
+machine-side converter: generator EMF against the DC link (A-111):
+  speed   EMF (line)   DC needed (SVPWM)
+    578 rpm       345 V           488 V
+   1155 rpm       690 V           976 V
+   1328 rpm       793 V          1122 V
+  at 15 % overspeed the EMF needs about 1122 V: almost all of a
+  1150 V link; above it the converter must weaken the field
+  (chapter 8) or the generator drives current into the link
+  through the diodes, uncontrolled

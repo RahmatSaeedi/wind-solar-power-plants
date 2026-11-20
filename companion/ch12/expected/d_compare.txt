@@ -1,0 +1,12 @@
+worked example: two irradiance sources, one preliminary PV estimate
+  source                              GHI kWh/m2   AC energy MWh
+  A ground station 2023                   1947.2        111,402
+  B provider 2023 (its own split)         1937.8        110,765   (-0.6 %)
+  A with Orgill-Hollands split            1947.2        111,237   (-0.1 %)
+  A scaled to the long term (x 0.9859)    1919.7        110,082   (-1.2 %)
+  sensitivity: 1 % less irradiance -> 0.83 % less energy
+    (clipping and cell temperature absorb part of it)
+  the chapter 10 chain (single-diode model) gave 111,339 MWh for A
+  the year matters more than the source here: the 2023 ground
+  year is a sunny year, so the long-term step moves the answer
+  more than the choice between two good sources

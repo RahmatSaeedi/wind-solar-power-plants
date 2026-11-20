@@ -1,0 +1,10 @@
+grid strength seen by Plant P alone and with its neighbours (teaching)
+  case   SCR    ESCR (with 7.1 Mvar shunt)   WSCR (P, Q, R)   dU per 10 Mvar %
+  max    15.0                         14.9              5.8               0.67
+  min     9.0                          8.9              3.5               1.11
+  neighbour: plant Q, PV at the same substation, 80 MW
+  neighbour: plant R, wind 20 km away, 60 MW
+  alone the plant sees a strong grid (SCR 9-15); with the two
+  converter plants beside it the grid behaves as if it were
+  much weaker (WSCR 3.5-5.8) - converter interactions are
+  studied with all of them in an EMT model, not one at a time

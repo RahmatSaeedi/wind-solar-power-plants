@@ -1,0 +1,12 @@
+sharing the curtailment between wind and PV (teaching tariffs
+  wind 55, PV 45 u/MWh, A-272):
+  PV block  rule            wind cut MWh   PV cut MWh   lost value k u
+     50 MW  PV first                0          227         10.2
+     50 MW  wind first            227            0         12.5
+     50 MW  pro rata              128           99         11.5
+     80 MW  PV first                0        6,596        296.8
+     80 MW  wind first          6,596            0        362.8
+     80 MW  pro rata            2,896        3,700        325.8
+  the energy lost is the same; who loses it changes the money when
+  tariffs or owners differ; the rule belongs in the contracts and
+  the controller (chapters 19 and 34), and the model must use it

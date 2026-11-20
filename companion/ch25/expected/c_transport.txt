@@ -1,0 +1,10 @@
+transport and installation of a 63 MVA unit (teaching):
+  mass in service 95 t; transport mass 72 t (oil and radiators off)
+  transport: the route survey (bridges, bends, overhead lines),
+  an impact recorder on the tank, the tank filled with dry gas
+  or oil, and a check of the record on arrival
+  installation: foundation level and loading, assembly of
+  bushings and coolers, oil processing to the maker's limits,
+  checks before energising - each a record, done under the
+  maker's supervision (vacuum, hot oil and high voltage work
+  belong to purpose-built equipment and qualified staff)

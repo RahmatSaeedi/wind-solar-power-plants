@@ -1,0 +1,27 @@
+structures basis of Plant P (D-034):
+  loads: the turbine maker's load set (A-356 teaching values),
+    site suitability for the 50-year gust; wind governs the
+    turbine, earthquake may govern the substation
+  tower: buckling and fatigue set the walls; the ch 11
+    schedule needs about 32 t more steel low down (teaching)
+  foundation: a 24 m gravity base on dense ground (the 20 m
+    base of ch 4 / ch 29 lifts off); at T07 new gravel under
+    the base or piles, decided by the water range (ch 29 Q6);
+    concrete about 893 m3 a turbine (+44 % on ch 29's take-off)
+  anchors: preload about 1,250 kN a bolt; grout and flange
+    ring checked for it; re-tension after the first months
+  PV: lateral load sets the post depth in dense sand (about
+    2 m), pull-out the depth in loose silty sand; heavier zinc
+    or sacrificial steel where the soil is aggressive
+  line: angle points dominate (two to five times the storm
+    load); the 86 deg turn is a terminal or split in two
+  line: suspension towers more than about 15 m below both
+    neighbours lift their insulators on the coldest night
+    and swing further in wind - tension towers at the wadi
+  verification: independent checks of foundation and anchors;
+    type certificate's site assessment for the tower
+  findings for the maker: the fatigue steel raises f1 about
+    4.5 % (T07 would pass if credited); a 12 % margin rule
+    cannot be met by any base - only by a stiffer tower
+  open: geotechnical design values (ch 29 U-104..U-107 and Q1-
+    Q10); maker's dynamic stiffness requirement (A-359)

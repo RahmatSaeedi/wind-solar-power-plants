@@ -1,0 +1,11 @@
+spar-cap glass laminate: stiffness against fibre fraction
+  (rule of mixtures of ch 4; the ch 11 caps assume 45 GPa)
+  fibre mass %   V_f     E along GPa   cap thickness for equal EI
+           65%   0.456          34.6                       130%
+           70%   0.513          38.5                       117%
+           75%   0.575          42.8                       105%
+  45 GPa needs V_f 0.608: a few points of resin more or
+  less move the cap's stiffness by several per cent, and
+  stiffness, not strength, keeps the tip off the tower
+  (ch 11) - fibre fraction is a controlled characteristic,
+  checked by burn-off or density on coupons of every cap

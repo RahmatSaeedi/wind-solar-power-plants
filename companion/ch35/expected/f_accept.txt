@@ -1,0 +1,11 @@
+acceptance of the SCADA - CMMS/EAM interface (teaching)
+  test                                          with
+  every asset with points has a matching ID     register vs tag list
+  a test alarm creates one request, not many    chattering series
+  running hours arrive and add up               known counter steps
+  a dropped link queues and replays once        link pulled for 1 h
+  times arrive in UTC with their source         DST change in test data
+  no write path into SCADA exists               network and rights check
+  the interface has an owner on each side and a written
+  specification; its tests run on a test copy with
+  synthetic data before production data flows

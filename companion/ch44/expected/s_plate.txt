@@ -1,0 +1,10 @@
+one stack's cold plate: 12.4 kW into 0.975 kg/s of glycol (cp 3.6 kJ/kg K)
+  coolant rises 3.5 K from inlet to outlet over 6 rows
+  row:    45.3   45.9   46.5   47.1   47.6   48.2  C
+  outer-switch modules upstream (rows 1-3): mean Tj 75.3 C
+  hoses swapped, the same modules downstream: mean Tj 77.1 C
+  swing 30.3 -> 32.1 K: cycle life x 0.75
+  the layout puts the hottest devices where the coolant is
+  coldest; arrows on the plate and keyed hose fittings keep the
+  factory from undoing it, and the flow direction is a check
+  (inner modules carry 386 W and sit downstream)

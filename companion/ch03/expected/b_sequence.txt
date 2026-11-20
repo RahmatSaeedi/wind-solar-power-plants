@@ -1,0 +1,6 @@
+unbalanced currents: Ia 100 /_0, Ib 80 /_-125, Ic 95 /_118 (A)
+  zero     I0 =   6.89 A /_   62.59 deg
+  positive I1 =  91.61 A /_   -2.15 deg
+  negative I2 =   5.93 A /_  -26.96 deg
+  unbalance |I2|/|I1| = 6.5 %
+  check: rebuilding Ia from the sequences gives 100.00 A

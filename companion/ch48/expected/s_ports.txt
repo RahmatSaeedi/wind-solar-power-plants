@@ -1,0 +1,10 @@
+spare ports on each switch (teaching rule 20%)
+  SW-T05     8 ports,   7 used,  12% spare
+  SW-T09     8 ports,   6 used,  25% spare
+  SW-SUB    24 ports,  22 used,   8% spare
+  SW-PV1    16 ports,  11 used,  31% spare
+  SW-CTRL   24 ports,  15 used,  38% spare
+  below the rule: SW-T05, SW-SUB - the substation core has two
+  ports left for the whole plant's life; one more PV block or a
+  second historian means a new switch in a full cabinet
+  (spare terminals, ch 46)

@@ -1,0 +1,15 @@
+% Chapter 3 — annual clear-sky beam irradiation on a south-facing plane at 34 deg N against tilt
+% (Meinel clear-sky model; beam only). Data: diagrams/data/ch03-m-tilt.csv (companion/ch03).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=64mm,
+      xlabel={زاویهٔ شیبِ صفحه (درجه)}, ylabel={تابشِ مستقیمِ سالانه (kWh/m²)},
+      xmin=0, xmax=60, ymin=1800, ymax=2150, xtick={0,10,...,60}, ytick={1800,1900,...,2100}]
+    \addplot[sPV, mark=*, mark size=1.4pt, mark options={solid}] table[x=tilt, y=beam, col sep=comma] {data/ch03-m-tilt.csv};
+    \addlegendentry{مدلِ آسمانِ صاف، فقط پرتوِ مستقیم}
+    \addplot[only marks, mark=*, mark size=2.6pt, color=cInk] coordinates {(29.7,2116)};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:29.7,2122) {بیشینه در $29.7^\circ$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

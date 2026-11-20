@@ -1,0 +1,6 @@
+100 m PV cable, rho_ins = 1e13 ohm m (assumed), r1 = 1.13 mm, r2 = 2.9 mm:
+    R_ins = 15.0 GOhm
+modules dry: 1000 MOhm each (assumed); 4368 modules on one inverter -> 228.9
+    kOhm; whole plant (109,096) -> 9.17 kOhm
+modules wet morning: 50 MOhm each (assumed); 4368 modules on one inverter ->
+    11.4 kOhm; whole plant (109,096) -> 0.46 kOhm

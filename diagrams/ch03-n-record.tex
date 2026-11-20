@@ -1,0 +1,16 @@
+% Chapter 3 laboratory 2 — spread of the annual wind-energy estimate against the length of a
+% synthetic measurement campaign (block bootstrap of data-pack days). Data: ch03-n-record.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=112mm, height=64mm,
+      xlabel={طولِ کارزارِ اندازه‌گیری (روز)}, ylabel={انحرافِ معیارِ برآورد (درصد)},
+      xmin=20, xmax=1000, ymin=1, ymax=20, xtick={30,60,90,180,365,730},
+      xticklabels={30,60,90,180,365,730}, ytick={1,2,5,10,20}, yticklabels={1,2,5,10,20}]
+    \addplot[sWind, mark=*, mark size=1.6pt, mark options={solid}] table[x=days, y=std_pct, col sep=comma] {data/ch03-n-record.csv};
+    \addlegendentry{نمونه‌گیریِ دوبارهٔ روزها}
+    \addplot[sLimit, domain=25:900, samples=2] {73.5/sqrt(x)};
+    \addlegendentry{شیبِ $-1/2$}
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

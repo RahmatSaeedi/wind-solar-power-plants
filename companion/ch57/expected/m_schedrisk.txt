@@ -1,0 +1,17 @@
+approval plan with uncertain durations (triangular 0.8 d - d - 2 d,
+teaching; 20,000 runs)
+  deterministic 16.0 months; P50 20.6, P80 22.6, P90 23.6
+  step  on the critical path in
+  S1     100%   competitive procedure (qualification, bid, award)
+  S8      73%   state energy-expertise conclusion
+  S9      73%   design approval, state energy supervision
+  S6      64%   ecological expertise / EIA conclusion
+  S2      27%   investment agreement with the Government
+  S7      27%   land use right and lease
+  S11     27%   special water-use permit
+  S4       8%   technical conditions for connection
+  S5       8%   grid connection agreement
+  the expertise chain (S8, S9) is critical in 73% of runs, S6 in 64%;
+  the land and water branch (S2, S7, S11) in 27%, the connection branch
+  (S4, S5 into S8) in 8%: the plan is longer than its deterministic
+  16 months in 100% of runs

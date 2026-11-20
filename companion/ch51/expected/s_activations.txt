@@ -1,0 +1,11 @@
+service activations in a month: delivered >= 95% of requested
+  within 1.0 s (teaching)
+  #1: requested 5.0 MW, delivered 5.0 MW, 0.8 s
+  #2: requested 5.0 MW, delivered 4.9 MW, 0.9 s
+  #3: requested 3.0 MW, delivered 3.0 MW, 0.7 s
+  #4: requested 5.0 MW, delivered 3.6 MW, 0.8 s
+  #5: requested 5.0 MW, delivered 5.0 MW, 1.4 s
+  failed: #4, #5 - #4 ran into the SOC floor
+  (lesson B), #5 was slow while a tap changer moved; the
+  settlement counts each event, and the operator reports
+  both with their causes

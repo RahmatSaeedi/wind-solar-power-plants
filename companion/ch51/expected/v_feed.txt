@@ -1,0 +1,6 @@
+forecast feed lost for 3 days from day 150: the schedule falls back
+  to 24-hour persistence (yesterday's output, hour by hour)
+  imbalance with the forecast 7,872 u; with persistence 42,061 u
+  the outage cost +34,189 u - the fallback is written down
+  and tested before the feed fails, and the shift log names
+  the hours it was used (lesson A, the schedule deadline)

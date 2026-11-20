@@ -1,0 +1,12 @@
+NDT coverage of section 1 against the inspection plan
+  weld category     plan    done    status
+  circumferential    100%    100%   ok
+  longitudinal       100%    100%   ok
+  flange-to-shell    100%    100%   ok
+  door frame         100%    100%   ok
+  attachments         10%      4%   SHORT
+  short: attachments - 1.2 m of 30 m inspected; the plan asks
+  for 10 %: 3.0 m; the attachments (ladder brackets, cable
+  clamps) are where fatigue cracks start on a tower wall, so
+  the 10 % is chosen across all attachment types, not the
+  easiest ones (ch 30 fatigue, door frame)

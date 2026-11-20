@@ -1,0 +1,16 @@
+% Chapter 27 - investigation workflow for a power-quality complaint (companion/ch27/lab_c.py
+% workflow()): six steps, right to left in two rows for RTL readers, each ending in a record.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    st/.style={blk, minimum width=34mm, minimum height=14mm, text width=33mm, font=\footnotesize}]
+  \node[st] (s1) at (9.0,0) {۱ تعریفِ نشانه\\شکایت، تاریخ، تجهیز};
+  \node[st] (s2) at (4.5,0) {۲ جای اندازه‌گیری\\تک‌خطی با مبدل‌ها};
+  \node[st] (s3) at (0,0) {۳ کیفیتِ زمان\\یک منبعِ ساعت};
+  \node[st] (s4) at (0,-2.6) {۴ جداکردنِ منبع از نشانه\\روشن و خاموش در همان ساعت‌ها};
+  \node[st] (s5) at (4.5,-2.6) {۵ مقایسه با پایه\\پیش از نیروگاه یا شینهٔ مشابه};
+  \node[st, draw=cWind, fill=cWind!9] (s6) at (9.0,-2.6) {۶ اقدامِ اصلاحی\\پیش و پس با معیارِ پذیرش};
+  \draw[flow] (s1.west) -- (s2.east); \draw[flow] (s2.west) -- (s3.east);
+  \draw[flow] (s3.south) -- (s4.north); \draw[flow] (s4.east) -- (s5.west); \draw[flow] (s5.east) -- (s6.west);
+\end{tikzpicture}
+\end{document}

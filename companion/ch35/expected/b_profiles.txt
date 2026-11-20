@@ -1,0 +1,10 @@
+two devices that both 'support the same protocol' (teaching)
+  needed by the plant controller: 10 items
+  device A offers 9, device B offers 7
+  missing from A: ['Q set']
+  missing from B: ['P set', 'alarm', 'time sync']
+  common to both: 6 of 10
+  a protocol name says how bytes travel, not which data and
+  services a device has; interoperability is shown by a
+  profile of the needed items, checked against each
+  device's declaration and proved in an interface test

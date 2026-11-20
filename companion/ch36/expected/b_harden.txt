@@ -1,0 +1,11 @@
+hardening checklist of the 28 networked devices (synthetic FAT result)
+  item                                      done   of
+  default accounts removed or renamed         26   28
+  unused services switched off                22   28
+  unused ports disabled                       25   28
+  configuration fingerprint recorded          28   28
+  time from the plant clocks                  27   28
+  12 open items go to the punch list of the factory test
+  and are closed before shipment; the checklist is part of
+  the configuration baseline of ch 35, so a replaced device
+  is hardened the same way

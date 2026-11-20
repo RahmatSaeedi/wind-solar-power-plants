@@ -1,0 +1,8 @@
+meter class and the money it can move (teaching price, ch 21)
+  energy at the POC 295.14 GWh a year (model 15.1)
+  class   +/- GWh  +/- k u a year  over 15 yr
+  0.5S       1.48             103        1549
+  1.0        2.95             207        3099
+  the class is the meter's limit, not its error; with CT and VT
+  errors added (ch 48) the chain is wider: choose 0.5S at the
+  boundary even where 1.0 is allowed (TJ-25)

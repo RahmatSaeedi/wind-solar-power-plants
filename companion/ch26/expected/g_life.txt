@@ -1,0 +1,9 @@
+lightning over the plant's life (teaching):
+  20.8 strikes a year on the twelve turbines -> 520 in 25 years
+  if 1% of strikes need a blade repair:   5.2 repairs over the life
+  if 2% of strikes need a blade repair:  10.4 repairs over the life
+  if 5% of strikes need a blade repair:  26.0 repairs over the life
+  the lightning protection of the blades is a design and a
+  maintenance subject: receptor and down-conductor checks
+  after storms and at inspections, records of strikes (some
+  turbines log them), and spares (ch 18, ch 52)

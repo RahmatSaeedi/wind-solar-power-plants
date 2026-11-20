@@ -1,0 +1,12 @@
+current density: copper bought against load loss evaluated
+  (B = 0.88 k u/kW, copper 9 u/kg)
+  J A/mm2   copper t   Pk kW   copper k u   B x Pk k u   sum k u
+      2.0       14.7     164          132          144       277
+      2.5       11.8     205          106          180       286
+      3.0        9.8     246           88          217       305
+      3.5        8.4     287           76          253       328
+      4.0        7.3     328           66          289       355
+  the two-term optimum is 1.9 A/mm2; bid B sits at 3.5, bid A near 2.6
+  bigger windings need a bigger window, core, tank and oil;
+  counting those moves the optimum up - the trade is real,
+  its exact place is the maker's optimisation

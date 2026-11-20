@@ -1,0 +1,10 @@
+energy a 20 MW frequency service needs, against the battery's window
+  usable window 4-36 MWh (ch 20 limits, A-299)
+  hold (min)  energy MWh  from 20 MWh
+           5         1.7          yes
+          15         5.0          yes
+          30        10.0          yes
+          60        20.0           NO
+  from a half-full battery (20 MWh) the service holds 48 min down
+  and the same up; a contract asking for an hour needs a fuller
+  state or a larger battery - the envelope is written from this

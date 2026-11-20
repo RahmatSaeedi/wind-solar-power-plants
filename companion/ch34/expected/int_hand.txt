@@ -1,0 +1,7 @@
+two I&C results checked by hand
+  132 kV on a 0-150 kV transducer: 4 + 16 x 132/150 = 18.08 mA; code 18.08
+  Pt100 at 95 deg C: 100 (1 + 0.0039083 x 95 - 5.775e-7 x 95^2) = 136.61 ohm;
+    code 136.61
+  a hand check of the scaling catches the commonest I/O
+  error: a range typed in the wrong units or a 0-20 mA
+  channel read as 4-20 mA

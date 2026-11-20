@@ -1,0 +1,11 @@
+wastes a container fire leaves (teaching quantities)
+  waste                         amount    route
+  damaged battery modules         40.0 t    hazardous; maker's take-back
+  container steel, cleaned        12.0 t    scrap, after testing
+  contaminated soil               60.0 m3   licensed disposal
+  pond water                     160.0 m3   test, then treat or tanker
+  absorbents, PPE                  1.5 t    hazardous
+  stranded energy in the modules (ch 32) makes their removal
+  a specialist job; each waste is classified, packed and
+  tracked to a licensed receiver - the waste record is part
+  of the incident file the authority will ask for

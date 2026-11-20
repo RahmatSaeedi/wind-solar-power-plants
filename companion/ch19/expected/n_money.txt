@@ -1,0 +1,8 @@
+a first look at the battery's money (teaching, A-293; chapter 21):
+  capex 13,032 k u; yearly at 6 %, 15 years, plus 2 % opex: 1,603 k u
+  shifting value of a year: 371 k u (fixed prices) to 455 k u
+    (daily prices, optimum)
+  shifting pays 28 % of the yearly cost at best
+  shifting alone does not pay for this battery at these prices;
+  capacity payments, services or a larger spread must; chapter 21
+  prices them and the owner decides whether S1 is built

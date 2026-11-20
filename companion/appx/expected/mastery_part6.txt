@@ -1,0 +1,39 @@
+M77: road cut 20 m at 15 %: LS 2.07; bare 187 t/ha/yr, reinstated 37; proves
+    where sediment control goes; data: rain R, soil K; evidence: inspections
+    after storms
+M78: six friction-angle tests (test): mean 31.2 deg, characteristic 26.5 deg;
+    the design uses the cautious value; approved by the geotechnical engineer
+M79: construction water 87,460 m3 against 30,300 m3 from the wells (ch 29):
+    57,130 m3 from outside; one year of W-1 lowers the village well 0.38 m (ch
+    33); evidence: pumping test, meters
+M80: lock-in speed of the erected tower with nacelle, f 0.215 Hz, top 3.0 m:
+    3.2 m/s; without nacelle (0.45 Hz) 6.8 m/s - the bare tower is the risk;
+    evidence: erection sequence, dampers
+M81: zinc 85 um in moist silty sand at 3 um/yr: 28 years, short of 30;
+    evidence: soil tests and coating thickness records
+M82: wind on a blade's side (133 m2, Cd 1.2) at 15 m/s: 22.0 kN; the lift
+    plan's wind limit comes from the maker; evidence: anemometer at hook
+    height, signed lift plan
+M83: turbine campaign 159-177 days depending on the start month (ch 31); route
+    capacity sets the pace; evidence: route survey, permits, convoy log
+M84: 11 recordable injuries in 1,050,000 h: 2.10 per 200,000 h (90 % 1.18 -
+    3.47); a small sample ranks, it does not prove
+M85: clearance below the anchor with a 1.8 m lanyard: 6.35 m; evidence: anchor
+    certificate, rescue plan
+M86: oil fire 250 MW (test), radiant fraction 0.3: 12.5 kW/m2 at 22 m - why
+    spacings are tens of metres; values from the fire strategy and the
+    authority (U-105, U-110)
+M87: 180 m3 at 3,000 L/min: 60 min; about 31 % of simulated arrivals come
+    later (ch 32) - a placeholder the fire strategy decides
+M88: night noise at the camp 38.5 dB(A) against a placeholder 40 and a
+    background of 28: under the limit, clearly audible; evidence: compliance
+    survey with the background subtracted
+M89: raptor collisions about 4.8 a year; the layout waits for the survey
+    (U-113); evidence: survey, carcass search with searcher and persistence
+    trials
+M90: aquifer recharge 72,000 m3: operation takes 31 %, construction 112 % -
+    construction water comes from outside the aquifer
+M91: S0 footprint 12.2 g/kWh by hand (12.5 median of the Monte Carlo), S1
+    13.3: ranges overlap - reported with the boundary, not ranked
+M92: avoided at 0.5 t/MWh: 147,550 t a year - a claim with its counterfactual,
+    never added to the inventory, never guaranteed

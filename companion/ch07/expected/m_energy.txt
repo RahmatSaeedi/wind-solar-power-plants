@@ -1,0 +1,9 @@
+energy and demand of 23 June at the auxiliary board (corrected, A-106):
+  2068.8 kWh and 1137.8 kvarh; mean power 86.2 kW
+  period power factor kWh / sqrt(kWh^2 + kvarh^2) = 0.876
+  maximum demand: 10-min 130.4 kW, 30-min block 129.4 kW, 60-min block 127.2
+    kW
+  load factor (mean / 30-min peak) 0.67
+the record with the reversed CT gives pf 0.876: the same,
+  because P and Q are wrong by the same factor; a ratio cannot
+  reveal a scaling or polarity error that hits both alike

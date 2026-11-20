@@ -1,0 +1,14 @@
+inspection and test plan for the 33 kV cable work (concept):
+  step                                           point    record
+  trench and duct inspection before laying       hold     survey, photos
+  drum check: type, length, sealing, test sheet  witness  receiving record
+  pulling with tension logging                   witness  pulling record
+  bending radius and position in the trench      inspect  as-laid record
+  backfill, tape, marker before closing          hold     photos, levels
+  joints and terminations by qualified jointers  witness  jointing record
+  sheath test and cable test after laying        witness  test record
+  as-built route survey                          inspect  as-built drawing
+  a hold point stops the work until the inspector releases
+  it; a witness point is notified and may be attended; the
+  methods and the safety of the work belong to the maker's
+  instructions and trained staff (ch 47-49)

@@ -1,0 +1,16 @@
+schedule risk of the development network (4,000 draws):
+  plan (most likely durations) 28 months to financial close
+  P50 31.7 months, P80 33.6 months; chance of 28 or less 4 %
+  criticality index (share of draws in which a task is critical):
+    wind campaign (12 mo)           38 %
+    ESIA baseline and report        62 %
+    energy yield report             38 %
+    permits                         62 %
+    PPA negotiation                 38 %
+    financing and close            100 %
+  the plan's date is the most likely path, not the likely
+  date: with skewed durations and parallel chains the chance
+  of meeting it is small; which chain is critical changes
+  from draw to draw, so both need managing; the grid and land
+  chains keep their slack here - until a review finds them
+  late (section C)

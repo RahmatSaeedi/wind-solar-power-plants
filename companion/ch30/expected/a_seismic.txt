@@ -1,0 +1,11 @@
+equivalent seismic base shear (teaching spectrum: plateau 2.5 ag
+  to 0.6 s, falling as 1/T beyond; ag = 0.25 g; no code assumed)
+  structure                period s   Sa/g    mass t   shear kN
+  turbine (top + 0.24 tower)     4.65   0.081      353        279
+  main transformer on plinth     0.15   0.625       95        582
+  turbine: 28 MN m at the base against 185 from wind -
+  wind governs the tall, soft tower
+  transformer: a stiff, heavy item sits on the plateau; with
+  tall bushings, anchors and the plinth, earthquake can
+  govern the substation - the local seismic code and the
+  equipment's qualification decide (ch 25)

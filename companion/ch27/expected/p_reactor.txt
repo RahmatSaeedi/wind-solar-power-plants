@@ -1,0 +1,11 @@
+filter reactor loss with harmonic currents (teaching):
+  fundamental 87 A; 5th, 7th, 11th: 31 A, 9 A, 4 A
+  order   current A   R factor   loss kW (3 phases)
+      1          87       1.00                 1.84
+      5          31       2.25                 0.51
+      7           9       3.45                 0.06
+     11           4       7.05                 0.03
+  total 2.44 kW; the 5th adds 28 % to the 50 Hz loss
+  a reactor rated on 50 Hz current alone runs hot: the
+  specification gives the harmonic duty and the maker's heat
+  run proves it (lesson K)

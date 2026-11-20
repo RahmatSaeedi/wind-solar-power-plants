@@ -1,0 +1,5 @@
+removing 158.7 kW of generator losses (A-120):
+  air, 20 K rise: 6.58 m3/s (23,687 m3/h)
+  water-glycol taken as water, 8 K rise: 4.75 kg/s (285 kg/min)
+  water carries the heat in a far smaller volume; the nacelle air
+  must still take it out through a heat exchanger

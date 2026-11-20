@@ -1,0 +1,10 @@
+device firmware and SCADA driver: installed pairs against the
+  maker's tested combinations
+  GW-PV1  GW 2.3.0  + driver 5.2 tested
+  GW-PV2  GW 2.2.4  + driver 5.2 NOT TESTED
+  RTU-1   RTU 8.4   + driver 5.2 tested
+  RTU-2   RTU 8.3   + driver 5.2 NOT TESTED
+  2 pairs run untested: the driver moved to 5.2 for one
+  device and was rolled out to all; each version is in the
+  baseline (lesson C), but no single record held the pairs -
+  the compatibility matrix is a configuration item too

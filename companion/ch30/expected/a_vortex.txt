@@ -1,0 +1,11 @@
+vortex shedding: the tower standing without its nacelle
+  bare tower (equivalent tube, ch 11): f1 = 0.45 Hz
+  with the rotor and nacelle on top: 0.215 Hz
+  lock-in speed at the 3.0 m top (Strouhal 0.2): 6.8 m/s
+  hours of the data-pack year within 15 % of it: 1970 of 8,760
+  with the nacelle on: lock-in at 3.2 m/s - harmless
+  a bare tower meets its lock-in wind in 22 % of the
+  hours: towers are not left standing without the nacelle
+  overnight unless the maker's procedure allows it (with a
+  temporary damper or a wind limit) - a construction load
+  the finished turbine never sees (ch 31)

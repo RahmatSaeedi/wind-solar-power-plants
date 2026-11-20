@@ -1,0 +1,11 @@
+how long to watch after hot work (smouldering delay, teaching)
+  delay of a smouldering ignition: lognormal, median 25 min
+  watch after the work min   share of such fires seen
+                        30                        58 %
+                        60                        83 %
+                       120                        96 %
+                       240                        99 %
+  a short watch misses many slow fires: the hot-work permit
+  sets a watch during the work and for a period after it,
+  and a final check later - the times come from the
+  site's procedure and the insurer, not from this curve

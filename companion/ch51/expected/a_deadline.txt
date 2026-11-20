@@ -1,0 +1,11 @@
+day-ahead schedule due 10:00; forecast arrival over a week
+  day 1: 8:30
+  day 2: 8:36
+  day 3: 9:48  less than an hour to work with
+  day 4: 8:24
+  day 5: 10:24  less than an hour to work with
+  day 6: 8:42
+  day 7: 8:30
+  2 days left under an hour (one arrived after the deadline):
+  the procedure names a fallback - yesterday's forecast with
+  today's weather update - and the record says it was used

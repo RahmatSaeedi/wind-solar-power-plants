@@ -1,0 +1,14 @@
+decision rule: a difference counts only beyond the combined
+uncertainty (root-sum-square of the two)
+  U-A - U-B:  -4.4 t, combined +/- 10.5 -> no rank
+  U-A - U-C:  -4.1 t, combined +/- 10.5 -> no rank
+  U-B - U-C:  +0.3 t, combined +/- 13.6 -> no rank
+  pairs that differ: 0
+  controlled method for estimates: score the upper bound
+  (value + uncertainty) so missing data never wins:
+    U-A   47.1  (verified)
+    U-B   57.0  (estimate)
+    U-C   56.7  (estimate)
+  the rule is written in the tender before the offers
+  arrive; the estimate is replaced by the supplier's own
+  data at delivery, and labelled as an estimate until then

@@ -1,0 +1,10 @@
+interface ageing over 25 years of daily cycles; life 20,000 cycles at the
+  design swing 29.5 K (teaching); damage = sum of cycles / life (Miner)
+  interface material              swing in year 25 K   damage
+  paste (3 % a 1,000 cycles)                    31.7     0.55
+  phase-change pad (0.5 %)                      29.8     0.47
+  the ageing paste uses 1.2 x the life of the pad: a
+  thicker layer runs hotter, swings more, and ages faster -
+  the choice of material is a design-for-reliability decision,
+  and its growth rate comes from the maker's power-cycling
+  tests, not from this rule

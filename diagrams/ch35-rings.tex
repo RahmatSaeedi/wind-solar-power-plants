@@ -1,0 +1,30 @@
+% Chapter 35 - the two single-mode fibre rings of the turbines, laid in the collector trenches and closed
+% at the substation switches, with the loss of each ring against the 10 dB optics (examples_a; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    t/.style={blk, blkWind, minimum width=10mm, minimum height=7mm, text width=8mm},
+    s/.style={blk, blkBESS, minimum width=24mm, minimum height=10mm, text width=22mm}]
+  \node[s] (ss) at (0,0) {سوئیچ‌های پست};
+  % west ring above (T01-T06), east ring below (T07-T12)
+  \foreach \i/\x in {1/9.5, 2/7.7, 3/5.9} {\node[t] (w\i) at (\x,2.0) {T0\i};}
+  \foreach \i/\x in {4/5.9, 5/7.7, 6/9.5} {\node[t] (w\i) at (\x,3.6) {T0\i};}
+  \foreach \i/\x in {7/9.5, 8/7.7, 9/5.9} {\node[t] (e\i) at (\x,-2.0) {T0\i};}
+  \node[t] (e10) at (5.9,-3.6) {T10};
+  \node[t] (e11) at (7.7,-3.6) {T11};
+  \node[t] (e12) at (9.5,-3.6) {T12};
+  \draw[flow, -] (ss.north east) -- (w3.west);
+  \draw[flow, -] (w3) -- (w2); \draw[flow, -] (w2) -- (w1);
+  \draw[flow, -] (w1.north) -- (w6.south);
+  \draw[flow, -] (w6) -- (w5); \draw[flow, -] (w5) -- (w4);
+  \draw[flow, -] (w4.west) -| (ss.north);
+  \draw[flow, -] (ss.south east) -- (e9.west);
+  \draw[flow, -] (e9) -- (e8); \draw[flow, -] (e8) -- (e7);
+  \draw[flow, -] (e7.south) -- (e12.north);
+  \draw[flow, -] (e12) -- (e11); \draw[flow, -] (e11) -- (e10);
+  \draw[flow, -] (e10.west) -| (ss.south);
+  \node[note, anchor=west, text width=34mm] at (10.4,2.8) {حلقهٔ غربی: $11.5\,\mathrm{km}$، $10.8\,\mathrm{dB}$ با حاشیه؛ بیش از اپتیکِ $10\,\mathrm{dB}$};
+  \node[note, anchor=west, text width=34mm] at (10.4,-2.8) {حلقهٔ شرقی: $9.2\,\mathrm{km}$، $9.9\,\mathrm{dB}$ با حاشیه؛ جا می‌شود};
+  \node[note, anchor=east, text width=34mm] at (-1.5,0) {اگر یک دهانه قطع شود، دورترین توربین از راهِ دیگرِ حلقه دیده می‌شود};
+\end{tikzpicture}
+\end{document}

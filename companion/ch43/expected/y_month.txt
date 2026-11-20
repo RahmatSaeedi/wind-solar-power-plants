@@ -1,0 +1,9 @@
+dissolved gases in the first month after energising (synthetic)
+  day          0      1      7     14     30
+  H2 ppm     9.5    9.0   10.9   11.0   13.7
+  C2H4 ppm   1.6    1.6    1.9    2.1    2.8
+  trend: H2 +4.4 ppm a month, C2H4 +1.2 ppm a month
+  the after-heat-run sample is day 0: a rate, not a level, is
+  the early sign - and a rising ethylene fits a hot joint
+  (lesson C) better than ageing; the rates are compared with
+  the maker's and the guidance (STD-179), then trended (ch 52)

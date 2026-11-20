@@ -1,0 +1,10 @@
+the SCADA and communications package of Plant P in numbers
+  two single-mode fibre rings for the turbines; the west ring
+    needs longer-reach optics (10.8 dB against 10 dB)
+  steady traffic 4.5 Mbit/s: 4 % of an edge link
+  time synchronisation 1.45 us worst case: events yes, 1 us no
+  five functional subnets; 22,300 tags; 6 diagram types kept
+  historian about 12 TB over the plant's life
+  fire boundary: monitor only, two routes to a person when
+    the room is empty, both clocks kept
+  asset IDs: 2 of 7 in the extract do not line up

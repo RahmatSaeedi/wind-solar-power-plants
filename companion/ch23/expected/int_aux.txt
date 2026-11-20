@@ -1,0 +1,10 @@
+the auxiliary one-line in numbers:
+  two 33/0.4 kV 250 kVA station transformers (one per bus
+  section), LV board in two halves with a coupler; ATS to a
+  150 kVA standby generator for the essential half
+  demand normal 167 kVA, emergency 80 kVA
+  DC 110 V: 250 Ah (249 Ah needed), two 70 A chargers
+  UPS 33 kVA, 27 kWh for 60 min
+  battery blocks: own auxiliary transformers in the maker's
+  package (interface IF-006); turbines and PV inverters take
+  their auxiliaries from their own transformers

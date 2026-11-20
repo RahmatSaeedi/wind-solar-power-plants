@@ -1,0 +1,7 @@
+present cost of the fleet over 7 years (k u), 2,000 simulated fleets
+  option   mean cost   P90 cost   failures   down h
+  A           3,748      4,826       10.1     9,088
+  B           4,883      6,137        8.6     7,759
+  C           8,403      8,962        1.0     9,287
+  lowest mean cost: A; difference to the next 1,135 k u
+  spread P90 - mean: A 1,078, B 1,254, C 559

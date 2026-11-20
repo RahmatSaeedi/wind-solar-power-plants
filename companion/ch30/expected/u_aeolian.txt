@@ -1,0 +1,11 @@
+aeolian vibration of a 24 mm conductor (Strouhal 0.2)
+  wind m/s   shedding frequency Hz
+         1                      8
+         3                     25
+         5                     42
+         7                     58
+  steady light winds across a flat desert drive the wire at
+  tens of hertz for millions of cycles a year; the strands
+  fatigue at the clamps. Dampers near each clamp, tension
+  limits for the everyday case and the line designer's
+  span-by-span check are the remedy (ch 24)

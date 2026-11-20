@@ -1,0 +1,9 @@
+hub-height speeds of Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS)
+mean speed 7.103 m/s; (mean speed)^3 = 358.3 m3/s3; mean of cubes = 646.4
+    m3/s3
+energy pattern factor = mean(v^3) / mean(v)^3 = 1.804
+power density at 1.225 kg/m3: from the mean speed 219 W/m2; correct 396 W/m2
+  through the rotor (A = 17,671 m2): 3.88 MW vs 7.00 MW of wind power
+power curve at the mean speed: 1758 kW per turbine -> 162.6 GWh/yr for the
+    farm
+power curve hour by hour: 192.5 GWh/yr (the mean-speed shortcut is -16 %)

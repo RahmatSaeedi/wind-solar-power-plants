@@ -1,0 +1,13 @@
+gearbox condition monitoring, per turbine-month (A-042, assumed):
+  prior P(fault) = 0.02; vibration alarm: sensitivity 0.9, false alarms 0.05
+  out of 1000 turbine-months: 20 with a fault -> 18 alarms; 980 healthy -> 49
+    false alarms
+  P(fault | alarm) = 0.018 / (0.018 + 0.049) = 0.269
+  P(no fault | no alarm) = 0.9979
+a second, independent test (oil debris: sensitivity 0.8, false alarms 0.03)
+    after an alarm:
+  prior is now 0.269; P(fault | both positive) = 0.907
+12 turbines: expected false alarms per month 0.59, per year 7.1
+  prior 0.005: P(fault | alarm) = 0.083
+  prior 0.020: P(fault | alarm) = 0.269
+  prior 0.100: P(fault | alarm) = 0.667

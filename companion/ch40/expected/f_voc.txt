@@ -1,0 +1,7 @@
+paint for ten frames: 300 L (60 m2 x 2 coats x 0.25 L/m2 x 10)
+  solvent-borne                            126 kg solvent to air
+  high-solids                               75 kg solvent to air
+  solvent-borne, booth with abatement       25 kg solvent to air
+  a mass balance: what goes in the gun and is not captured
+  goes to air; the permit of the shop sets the limit and
+  the paint data sheet gives the content (ch 33, data)

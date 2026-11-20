@@ -1,0 +1,13 @@
+flux at each tap: who sets it (HV taps, LV winding untapped)
+  tap %   from the 33 kV side   energised from 132 kV, LV open
+           at 1.0 / 1.1 pu        at 1.0 / 1.1 pu
+    -10    1.70 / 1.87             1.89 / 2.08 T
+     -5    1.70 / 1.87             1.79 / 1.97 T
+     +0    1.70 / 1.87             1.70 / 1.87 T
+     +5    1.70 / 1.87             1.62 / 1.78 T
+    +10    1.70 / 1.87             1.55 / 1.70 T
+  in service the plant holds the 33 kV bus, and the untapped
+  33 kV winding fixes the flux whatever the tap; energised
+  from the grid at the -10 % tap, fewer HV turns carry the
+  same voltage and the core runs 11 % higher - energise on a
+  high tap and keep V/f in view (ch 25, energising)

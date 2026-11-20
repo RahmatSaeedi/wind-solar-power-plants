@@ -1,0 +1,21 @@
+% Chapter 24 - rating of the 33 kV cables in reference conditions and in Plant P's trench (factor
+% 0.675, A-322), with the 368 A of the first section of a wind string.
+% Data: diagrams/data/ch24-derating.csv (companion/ch24/figdata.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, ybar, bar width=9mm, xmin=0.4, xmax=3.6,
+      ymin=0, ymax=720, ylabel={جریانِ مجاز $\mathrm{A}$}, xtick={1,2,3},
+      xticklabels={$240\,\mathrm{mm}^2$, $400\,\mathrm{mm}^2$, $630\,\mathrm{mm}^2$},
+      ytick={0,100,...,700}, xmajorgrids=false, area legend, legend columns=1,
+      legend style={at={(0.03,0.97)}, anchor=north west, font=\footnotesize},
+      nodes near coords, nodes near coords style={font=\scriptsize, text=cInk},
+      /pgf/number format/fixed, /pgf/number format/precision=0]
+    \addplot[draw=cInkB, fill=cInkB!20] table[x=k, y=ref, col sep=comma] {data/ch24-derating.csv};
+    \addplot[draw=cWind, fill=cWind!45] table[x=k, y=place, col sep=comma] {data/ch24-derating.csv};
+    \legend{شرایطِ مرجع, در ترانشه}
+    \draw[cLoss, dashed, thick] (axis cs:0.4,368) -- (axis cs:3.6,368);
+    \node[font=\footnotesize, text=cLoss, anchor=south] at (axis cs:1.5,372) {بخشِ نخست $368\,\mathrm{A}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

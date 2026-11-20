@@ -1,0 +1,30 @@
+% Chapter 29 - from site investigation to as-built records, read right to left: desk study,
+% survey and ground investigation, ground model, civil design basis, construction with
+% inspection, records; the feedback arrows show where evidence returns to the model.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=24mm, minimum height=12mm, text width=22mm},
+    who/.style={note, text width=24mm}]
+  \node[st] (s1) at (15.0,0) {مطالعهٔ دفتری و بازدید};
+  \node[st] (s2) at (11.8,0) {نقشه‌برداری و شناسایی زمین};
+  \node[st] (s3) at (8.6,0) {مدلِ زمین با حدهایش};
+  \node[st] (s4) at (5.4,0) {مبنای طراحیِ عمرانی};
+  \node[st] (s5) at (15.0,-3.4) {اجرا با بازرسی و آزمون};
+  \node[st] (s6) at (11.8,-3.4) {گزارشِ عدمِ انطباق و رفع};
+  \node[st, blkWind] (s7) at (8.6,-3.4) {سوابقِ چون‌ساخت};
+  \draw[flow] (s1) -- (s2);
+  \draw[flow] (s2) -- (s3);
+  \draw[flow] (s3) -- (s4);
+  \draw[flow] (s4.west) -- ++(-0.4,0) |- (15.0,-2.0) -- (s5.north);
+  \draw[flow] (s5) -- (s6);
+  \draw[flow] (s6) -- (s7);
+  \draw[flowinfo] (s5.east) -- ++(0.5,0) |- (8.6,1.9) -- (s3.north);
+  \node[note, anchor=south] at (12.6,1.9) {زمینِ دیده‌شده در گودبرداری به مدل برمی‌گردد};
+  \node[who, below=1mm of s1] {نقشه، زمین‌شناسی، سیل، آب};
+  \node[who, below=1mm of s2] {گمانه، لرزه‌ای، آزمایشگاه};
+  \node[who, below=1mm of s3] {کجا اندازه‌گیری و کجا درون‌یابی};
+  \node[who, below=1mm of s4] {راه، زهکشی، سکو، آب، حریق};
+  \node[who, below=1mm of s7] {پروندهٔ تحویل به بهره‌برداری};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,5 @@
+source watch: 44 distinct sources behind 49 facts
+  checked monthly (a to-confirm fact rests on them): 24
+  checked before each gate (all verified): 20
+  each check is dated in the register, and 'no change' is
+  recorded too (ch 54 B)

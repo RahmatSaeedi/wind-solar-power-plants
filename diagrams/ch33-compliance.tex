@@ -1,0 +1,18 @@
+% Chapter 33 - noise compliance survey at the camp: measured total, background and predicted turbine
+% level by hub wind speed, with the placeholder limit (examples_n, diagrams/data/ch33-compliance.csv;
+% synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=3.5, xmax=12.5, ymin=20, ymax=46,
+      xlabel={سرعتِ باد در ارتفاعِ هاب (m/s)}, ylabel={ترازِ صدا به $\mathrm{dB}(\mathrm{A})$},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sLoad, mark=*, mark size=1.6pt] table[x=v, y=total, col sep=comma] {data/ch33-compliance.csv};
+    \addplot[sLimit, mark=square*, mark size=1.4pt] table[x=v, y=bg, col sep=comma] {data/ch33-compliance.csv};
+    \addplot[sWind, mark=triangle*, mark size=1.8pt] table[x=v, y=pred, col sep=comma] {data/ch33-compliance.csv};
+    \legend{کلِ اندازه‌گیری‌شده, زمینه, پیش‌بینیِ توربین‌ها}
+    \draw[sLoss] (axis cs:3.5,40) -- (axis cs:12.5,40);
+    \node[note, anchor=north west] at (axis cs:3.6,39.8) {حدِ جایگزین};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

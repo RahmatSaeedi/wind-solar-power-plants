@@ -1,0 +1,8 @@
+direct-on-line start of the 30 kW motor (A-114) at the auxiliary board:
+  transformer 250 kVA, 6 % + feeder  |Z|  42.2 mohm: dip  5.8 %
+  backup generator, x_d'' 0.12 pu    |Z|  96.3 mohm: dip 12.2 %
+  backup generator, x_d' 0.20 pu     |Z| 160.2 mohm: dip 18.7 %
+  backup generator with a soft starter (3 x rated): dip 10.0 %
+  the generator is a weaker source: the same start dips the voltage
+  two to three times deeper; the AVR recovers it within a second
+  or so, but contactors and electronics see the first dip

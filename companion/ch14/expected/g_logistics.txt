@@ -1,0 +1,9 @@
+construction logistics of W2b (teaching areas, A-264):
+  crane walk between pads (tree): 7.20 km on the plain
+  temporary land: laydown 0.30 ha per turbine, central yard 2.0 ha,
+    concrete batch plant 1.0 ha, PV yard 1.5 ha: 8.1 ha
+  permanent footprint 10.0 ha (wind) + 119 ha (PV block)
+  temporary land is restored and returned to its users: its
+  location (not on the herders' route), season and restoration
+  are part of the consultation; the crane supplier sets the
+  walking path and its grades (chapter 31)

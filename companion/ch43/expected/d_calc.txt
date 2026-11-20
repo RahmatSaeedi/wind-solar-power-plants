@@ -1,0 +1,11 @@
+loss and temperature calculator on the data-pack year (bid B unit)
+  case                    losses MWh   hot spot max C   life days
+  base                           694              102         3.8
+  ambient +5 K                   694              107         6.8
+  load +10 %                     762              112         9.2
+  Pk as tested (+2.8 %)          703              102         3.8
+  load +30 % (more PV)           919              133        74.2
+  a hot year adds 3.0 days of ageing; 30 % more load raises
+  the hot spot by 30 K - the plant's transformers age slowly,
+  so their acceptance turns on losses and evidence, not on
+  thermal life (teaching thermal model of ch 25)

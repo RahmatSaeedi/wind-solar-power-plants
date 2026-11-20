@@ -1,0 +1,10 @@
+summation of segregated losses at rated load (A-121):
+  stator I^2 R at 95 C         64.1 kW
+  core (no-load test)          41.0 kW
+  friction and windage         15.2 kW
+  rotor and magnet              7.5 kW
+  additional load losses       30.4 kW
+  total 158.2 kW; efficiency 0.9701 (design 0.970)
+  the method and what counts as 'additional' are set by the
+  efficiency-test standard; a converter-fed machine adds harmonic
+  losses that a sine test does not show

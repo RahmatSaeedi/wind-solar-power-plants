@@ -1,0 +1,16 @@
+% Chapter 3 — annual energy of Plant P (S0, PV degrading 0.5 %/yr, wind constant) and the same
+% energy discounted at 7 %/yr over 25 years. Data: diagrams/data/ch03-p-discount.csv
+% (companion/ch03/examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=62mm,
+      xlabel={سالِ بهره‌برداری}, ylabel={انرژی (GWh)},
+      xmin=0, xmax=26, ymin=0, ymax=320, xtick={1,5,10,15,20,25}, ytick={0,50,...,300}]
+    \addplot[sInk, mark=*, mark size=1.1pt, mark options={solid}] table[x=year, y=energy, col sep=comma] {data/ch03-p-discount.csv};
+    \addlegendentry{انرژیِ هر سال}
+    \addplot[sLoad, mark=o, mark size=1.2pt, mark options={solid}] table[x=year, y=discounted, col sep=comma] {data/ch03-p-discount.csv};
+    \addlegendentry{ارزشِ فعلیِ همان انرژی با نرخِ ۷ درصد}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

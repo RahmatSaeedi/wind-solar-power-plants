@@ -1,0 +1,17 @@
+monthly energy and peak of the regional load:
+  month   GWh     peak MW
+      1   20.44    38.88
+      2   17.89    38.77
+      3   18.69    34.36
+      4   20.11    41.92
+      5   21.80    45.14
+      6   22.73    47.98
+      7   24.02    51.83
+      8   23.40    47.86
+      9   20.50    43.52
+     10   17.93    34.25
+     11   17.86    34.18
+     12   19.79    37.30
+  summer afternoons carry the peak (cooling); winter mornings add
+  heating; weekends lose the industry; the shape says when the
+  plant's export meets local demand and when it flows up

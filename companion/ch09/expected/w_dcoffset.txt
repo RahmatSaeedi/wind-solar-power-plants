@@ -1,0 +1,9 @@
+current-sensor offset and DC into the unit transformer (A-180):
+  rated current 5,292 A; magnetising current (1 %) 53 A peak-ish
+  offset 0.1 % of rated peak: DC   7.5 A =   14 % of the magnetising current
+  offset 0.2 % of rated peak: DC  15.0 A =   28 % of the magnetising current
+  offset 0.5 % of rated peak: DC  37.4 A =   71 % of the magnetising current
+  a DC current comparable with the magnetising current biases
+  the core towards saturation in one half-cycle: noise, heat and
+  even-order harmonics; inverters measure and cancel it, and
+  grid codes limit DC injection

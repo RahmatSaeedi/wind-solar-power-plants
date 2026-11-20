@@ -1,0 +1,19 @@
+% Chapter 11 - raw and envelope spectra of a synthetic gearbox accelerometer with an outer-race
+% bearing defect (A-223); two stacked axes. Data: diagrams/data/ch11-spectrum.csv (lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=s1, width=112mm, height=42mm, xmin=0, xmax=600, ymin=0, ymax=180,
+      ylabel={طیفِ خام}, xtick={0,100,...,600}, xticklabels={}, ytick={0,50,100,150}]
+    \addplot[color=cInk, line width=0.6pt] table[x=f, y=raw, col sep=comma] {data/ch11-spectrum.csv};
+    \node[note, anchor=south west] at (axis cs:30,110) {محور $19.25\ \text{Hz}$};
+    \node[note, anchor=south east] at (axis cs:510,150) {درگیریِ چرخ‌دنده $520\ \text{Hz}$};
+  \end{axis}
+  \begin{axis}[plantp, at={(s1.south)}, anchor=north, yshift=-4mm, width=112mm, height=42mm,
+      xmin=0, xmax=600, ymin=0, ymax=10, xlabel={بسامد، $\text{Hz}$}, ylabel={طیفِ پوش},
+      xtick={0,100,...,600}, ytick={0,5,10}]
+    \addplot[color=cLoss, line width=0.6pt] table[x=f, y=env, col sep=comma] {data/ch11-spectrum.csv};
+    \node[note, text=cLoss, anchor=south west] at (axis cs:95,6.5) {$\text{BPFO}\ 92.4\ \text{Hz}$ و هماهنگ‌ها};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,10 @@
+longest two-wire 4-20 mA loop: 24 V supply, transmitter >= 12 V,
+  250 ohm receiver, 22 mA (top of the fault-signalling range)
+  cable mm2   cable ohm allowed   longest loop m (one way)
+       0.50                 295                      4,221
+       0.75                 295                      6,331
+       1.50                 295                     12,662
+  the 250 ohm receiver takes most of the voltage, not the
+  cable: even 0.5 mm2 reaches several kilometres - the
+  limit that bites first is noise pick-up and earthing,
+  not resistance

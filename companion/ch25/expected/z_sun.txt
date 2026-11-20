@@ -1,0 +1,11 @@
+sun on a PV unit transformer's tank (teaching; noon, 1 kW/m2 on
+  12 m2 of lid and sides; full load, losses 49.5 kW)
+  paint            absorbed   extra kW   top-oil rise x   +K on 52 K
+  dark grey            0.80        9.6            1.152          7.9
+  light grey           0.50        6.0            1.096          5.0
+  white                0.25        3.0            1.048          2.5
+  at a PV site the sun is strongest exactly when the unit is
+  fully loaded: a dark tank adds about 8 K to the top oil -
+  the same as running at 1.11 pu without sun; a light paint or a
+  sun roof is cheap, and the maker's rating states whether it
+  includes solar gain (the specification asks)

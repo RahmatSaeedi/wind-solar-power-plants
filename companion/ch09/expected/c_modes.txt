@@ -1,0 +1,15 @@
+operating modes of the PV inverters (teaching settings, A-161):
+  P(f): droop 4 %, dead band 0.2 Hz;
+    at 50.5 Hz the plant reduces by 15 % of rating
+  Q(U): no reactive power within +-1 %; full 0.44 pu at 5 % off
+    the reference voltage (slope from A-101: Q at 5 MW)
+    V 0.94 pu -> Q +0.44 pu (+ = delivered)
+    V 0.97 pu -> Q +0.22 pu (+ = delivered)
+    V 0.99 pu -> Q +0.00 pu (+ = delivered)
+    V 1.00 pu -> Q +0.00 pu (+ = delivered)
+    V 1.03 pu -> Q -0.22 pu (+ = delivered)
+    V 1.06 pu -> Q -0.44 pu (+ = delivered)
+  Q at night: each inverter's no-load loss 13.7 kW;
+    ten inverters awake 12 h every night: 601 MWh/yr
+  each mode is a setting the grid code or the plant controller
+  asks for (chapters 17, 20, 28); the inverter offers the range

@@ -1,0 +1,34 @@
+factory control plan for the PVM-550 line (summary)
+  characteristic            method                    frequency / reaction
+  cell current bin          cell tester + golden cell every cell; shift
+                                                      hold box, re-sort
+  string joint              peel test                 per stringer each shift
+                                                      stop, re-test last lot
+  cracks before lamination  EL image                  every layup
+                                                      repair string or scrap
+  gel content               solvent extraction sample per laminator daily
+                                                      signal: hold, trace
+  frame and sealant         gauge, visual             first piece + hourly
+                                                      contain since last good
+  bypass diodes             diode check               every module
+                                                      repair box, re-test
+  power and label           flash + golden module     every module; 100
+                                                      drift: hold, re-flash
+  cracks after lamination   EL image                  every module
+                                                      grade; C is rejected
+  insulation                insulation test           every module
+                                                      reject, analyse
+
+plant incoming-inspection checklist
+  check                         how                          sample
+  documents vs packing list     serials, classes, BOM rev    every
+  certificate covers this BOM   BOM rev vs tested BOM        every lot
+  container and pallets         seals, shock tags, damage    every
+  transport cracks              EL of a pallet               1 a container
+  power vs label                lab flash, decision rule     12 per 10 MWp
+  flash file                    parse, drift, outliers       every file
+  visual and connectors         glass, frame, type match     AQL plan
+  visual AQL plan per container (620 modules): n = 132, accept <= 3
+  the factory plan watches the process; the plant's checks
+  test what the factory's records claim - the two meet at
+  the serial number and the flash record

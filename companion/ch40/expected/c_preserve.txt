@@ -1,0 +1,9 @@
+preservation of a skid in storage (teaching values)
+  enclosure 30 m3, breathing 0.5 air changes a day,
+  outside air 10 g/m3 wetter than inside
+  water in: 150 g a day; gel holds 800 g
+  the desiccant lasts 5.3 days
+  storage before energisation is weeks, not days: the
+  preservation plan seals openings, inspects the gel's
+  colour weekly, replaces it, or powers the anti-
+  condensation heaters from a temporary supply

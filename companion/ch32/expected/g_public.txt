@@ -1,0 +1,11 @@
+public access: what each area protects people from (teaching)
+  area          measure                             hazard to a visitor
+  substation    fence, locked gates, signs          intruder electrocuted
+  BESS yard     fence, signs, responder plan        fire, off-gas
+  PV array      fence, signs at the gates           DC energised in daylight
+  turbines      locked doors, ice and blade signs   falling objects, climbing
+  construction  barriers, banksmen, night lights    open trenches, plant
+  the fence protects the public as much as the plant: a
+  herder's child at the substation fence is the risk the
+  signs, the locks and the talks at the village school
+  address; grazing and paths across the site are agreed

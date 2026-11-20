@@ -1,0 +1,9 @@
+what a gearbox temperature model can and cannot do (teaching)
+  failures a year 4; found early 60 %, with time to act 80 %
+  failures caught in time: 1.9; value 336,000 u
+  false alarms 6, a site visit each: 18,000 u
+  a useful tool - and a partial one: half the failures still
+  come as surprises, some faults give no warning in this
+  signal, and a model trained on one maker's gearbox does
+  not transfer to another. It supports inspection; it does
+  not replace it

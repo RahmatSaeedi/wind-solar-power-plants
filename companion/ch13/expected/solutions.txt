@@ -1,0 +1,76 @@
+P01: 7.0 m/s at 100 m, shear 0.14, at 150 m: 7.409 m/s
+P02: log law z0 0.1 m, 7.0 m/s at 100 m, at 60 m: 6.482 m/s
+P03: shear from 6.0 at 60 m and 6.6 at 100 m: 0.1866
+P04: TI with sigma 0.9 at 6 m/s: 0.150; at 15 m/s with 1.5: 0.100
+P05: density at 880 hPa and 5 C: 1.1022 kg/m3
+P06: veer 12 deg between 60 and 100 m: 0.30 deg per m
+P07: recovery with 2,628 flagged of 52,560: 95.0 %
+P08: u* for z0 0.05 m, 8 m/s at 100 m: 0.4 x 8 / ln(2000) = 0.421 m/s
+P09: cosine error at 10 deg inclination: -1.52 %
+P10: return level, Gumbel 25.0 and 1.2, 50 years: 29.7 m/s
+P11: 50-year wind in 20 years: 0.332
+P12: ratio method: 7.0 x 6.8 / 6.5 = 7.323 m/s
+P13: least-squares slope r x sy/sx: 0.9 x 1.1 = 0.99
+P14: speed +2 %, sensitivity 1.6: energy +3.2 %
+P15: 24 monthly means, sd 14.7 %: 3.0 %
+P16: energy uncertainty from 2.58 % speed and 1.6: 4.1 %
+P17: hub 150 m from 100 m, shear 0.233: speed x 1.0991
+P18: shear uncertainty 0.03 at 150 m: speed x 1.0122
+P19: night shear 0.32, day 0.12, all hours 0.233 (A-250)
+P20: fitted 'roughness': night 3.4 m, morning/evening 0.84-0.86 m, day 0.02 m
+P21: veer: night +10 deg, day +2 deg between 60 and 100 m
+P22: TI mean 0.238 at 4.5 m/s, 0.113 at 12.5 m/s; 90 % quantile 0.131 at 15
+P23: density: January 1.103, July 1.009, mean 1.056 kg/m3
+P24: lidar at 100 m: slope 1.0051, r^2 0.9966; recovery 92.0 %
+P25: 150 m: lidar 7.828, mast extrapolated 7.775 m/s (-0.7 %)
+P26: redundancy: wear from week 26 found in week 31
+P27: recovery: 100 m 98.6 %, 80 m 36.9 %, 60 m 98.9 %
+P28: icing found 147 of 288 records, no false alarm
+P29: 80/100 ratio dips to 0.872 and 0.902 in 300-360 deg
+P30: shear 80/100 logged 0.3856 against true 0.2358
+P31: 120 m energy with 80/100 shear: +4.13 %
+P32: sensitivity of energy to speed 1.60 % per %
+P33: energy uncertainty 4.1 %; 150 m extrapolation adds 2.0 %
+P34: extrapolation 120 m: one shear 19,410 vs row by row 19,392 MWh
+P35: sectors 240-330 deg: 70.7 % of the energy
+P36: Weibull ten-minute k 2.10, c 8.01; hourly k 2.11, c 8.01
+P37: MCP: linear 7.239, variance ratio 7.248, sector 7.248 m/s
+P38: MCP energy: linear 18,569, variance ratio 18,640 MWh per turbine
+P39: site year 7.066 m/s; long term 7.248 m/s (+2.6 %)
+P40: Gumbel location 26.72, scale 0.99; 50-year 30.6 m/s
+P41: farm long term 191.87 GWh vs 2023 186.69 GWh (+2.8 %)
+P42: P90 long term 181.8 GWh; one year 174.8 GWh
+P43: value of +2.8 % on 186.69 GWh at 50 u/MWh: 261 k u a year
+P44: faulty 80/100 shear, 12 turbines at 120 m: overstated by 9.62 GWh a year
+P45: one-year P90 spread: sqrt(4.1^2 + 5.6^2) = 6.9 %
+P46: MCP with r 0.951: least squares keeps r^2 = 0.904 of the site variance
+P47: mast 2 % slow from a wrong factor: energy -3.2 %
+P48: veer 10 deg over 40 m across 150 m rotor: 38 deg
+P49: dtheta/dz, 12.0 C at 10 m, 11.0 C at 92 m: -0.0024 K/m (unstable)
+P50: bulk Ri with 0.02 K/m, 280 K, 0.025 1/s: 1.12
+P51: gust factor 1 + 2.5 x 0.16 = 1.40; gust at 12 m/s 16.8 m/s
+P52: 340 and 20 deg: vector mean 0 deg, arithmetic mean 180 deg
+P53: 150 Hz: certificate 7.56, generic 7.70 m/s (+1.85 %)
+P54: 880 hPa, 120 m higher, 285 K: 867.4 hPa
+P55: lidar error, dw 0.2 m/s, beams 30 deg: 0.173 m/s
+P56: scan circle at 150 m, 28 deg: 159.5 m
+P57: 80 m to 140 m, u(shear) 0.04: 2.24 %
+P58: representative TI 0.12 + 1.28 x 0.03 = 0.158
+P59: five years, 4.1 and 5.6 %: 4.80 %
+P60: panel for 80 Wh a day, 3.5 sun-hours, 0.6: 38 W
+P61: Ri: night +1.24, morning +0.12, evening +0.13, midday -2.46
+P62: REWS: day 7.951, year 7.957, night 7.992, veer 7.888, jet 7.712
+P63: gust factor 1.20 / 1.32 / 1.50 at TI 0.08 / 0.13 / 0.20; g 2.5
+P64: wake loss: true 6.50 %, offset 6.22 %, turned layout 6.95 %
+P65: lidar losing nights: kept records -1.15 %, hourly-weighted -0.08 %
+P66: Weibull fits: -0.35 % (moments), -0.39 % (MLE), -0.36 % (LSQ)
+P67: reference step: ratio 1.006 -> 1.036 (t 6.8); long-term factor -1.5 %
+P68: second year, +1.48 GWh P90 a year for 10 years at 50 u/MWh: 740 k u
+P69: hub 120 m against 100 m: +13.65 GWh a year, 683 k u a year
+P70: representative TI at 15 m/s: 0.132 from 607 records
+P71: POT 50-year, u 25, sigma 1.2, 3 storms a year: 31.0 m/s
+P72: 50-year: maxima 32.7 (29.3-35.3), POT 30.9 (29.6-32.3), true 30.6
+P73: 50-year gust from 30.9 m/s, g 2.5, TI 0.10: 38.6 m/s
+P74: matrix MCP: 7.257 m/s, 18,935 MWh (+1.6 % against variance ratio)
+P75: night share 43.6/46.4/47.7 %; curtailed 0.17/0.25/0.32 GWh
+P76: 80 m filling: hourly shear +0.09 %, 0.068 m/s; line +0.28 %, 0.168 m/s

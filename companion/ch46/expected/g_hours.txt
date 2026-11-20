@@ -1,0 +1,7 @@
+panel shop load for the 12 control cabinets of the line-up (teaching)
+  wires: 1190; build 9 min a wire: 178 h
+  point-to-point by hand, 1.5 min a wire: 30 h; with a tester: 6 h
+  2 wirers on one shift: 14 working days by hand, 12 with the tester
+  the check is 14% of the work by hand; the tester saves
+  2 days and checks every wire the same way (ch 40's automatic
+  wiring tester) - and its file becomes the panel's record

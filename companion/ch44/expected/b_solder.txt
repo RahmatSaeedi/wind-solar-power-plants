@@ -1,0 +1,14 @@
+solder joints on the control board, one thermal cycle a day
+  (9,125 in 25 years)
+  part                       cycles at dT 20 K   at dT 40 K   verdict at 40
+  0603 resistor                        321,787       67,066   ok
+  1206 resistor                         67,066       13,978   ok
+  2512 current shunt                    13,978        2,913   short
+  2220 ceramic capacitor                18,908        3,941   short
+  7 mm QFN controller                   44,974        9,373   ok
+  17 mm BGA processor                   13,285        2,769   short
+  large, stiff parts far from their centre and boards that
+  swing many kelvin a day fail first: the layout keeps big
+  ceramics away from heat, and the cabinet's cooling keeps
+  the daily swing small (teaching constants; the maker's
+  qualification by thermal cycling is the evidence)

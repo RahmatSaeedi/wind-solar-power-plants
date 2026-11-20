@@ -1,0 +1,23 @@
+% Chapter 6 — a divider and its Thevenin equivalent seen from the terminals.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \draw (0,0) to[battery1, l={$12\,\text{V}$}, invert] (0,3)
+        to[R, l={$4\,\Omega$}] (3,3) to[short, -o] (4.2,3);
+  \draw (3,3) to[R, l={$4\,\Omega$}] (3,0) -- (0,0);
+  \draw (3,0) to[short, -o] (4.2,0);
+  \node[note, text=cInk, anchor=west] at (4.4,3) {a};
+  \node[note, text=cInk, anchor=west] at (4.4,0) {b};
+  \node[note, text=cInk, anchor=north, align=center] at (2.1,-0.5) {شبکهٔ اصلی};
+  \draw[dimline] (5.3,1.5) -- (7.1,1.5) node[note, midway, above] {معادل است با};
+  \begin{scope}[shift={(10.2,0)}]
+    \draw (0,0) to[battery1, l={$V_\text{th} = 6\,\text{V}$}, invert] (0,3)
+          to[R, l={$R_\text{th} = 2\,\Omega$}] (3,3) to[short, -o] (4.2,3);
+    \draw (0,0) to[short, -o] (4.2,0);
+    \node[note, text=cInk, anchor=west] at (4.4,3) {a};
+    \node[note, text=cInk, anchor=west] at (4.4,0) {b};
+    \node[note, text=cInk, anchor=north, align=center] at (2.1,-0.5)
+         {معادلِ تونن: همان ولتاژِ مدارِ باز،\\همان رفتار در برابرِ هر بار};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

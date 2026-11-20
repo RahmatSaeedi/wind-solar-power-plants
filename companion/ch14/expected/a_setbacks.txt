@@ -1,0 +1,12 @@
+buildable land after the teaching setbacks (A-260, verify with
+  the authority; distances in m):
+  turbines: buildable 4,304 ha of 6,300 ha
+    largest exclusions: dwelling 678 ha; 20 kV line 660 ha;
+      road 582 ha; slope 318 ha
+  PV: buildable 4,828 ha of 6,300 ha
+    largest exclusions: slope 764 ha; wadi 270 ha;
+      private farm 1 168 ha; road 146 ha
+  turbine setbacks used: dwelling 600, road 193 (1.1 x tip),
+    20 kV line 262, nest 1000, slope 10 %
+  exclusions overlap: the shares do not add up; the binding
+  constraint differs between the ridge and the plain

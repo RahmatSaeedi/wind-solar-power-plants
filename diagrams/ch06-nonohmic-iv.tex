@@ -1,0 +1,20 @@
+% Chapter 6 — an ohmic resistor against a non-ohmic diode.
+% Data: diagrams/data/ch06-nonohmic-iv.csv
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=105mm, height=66mm,
+      xlabel={ولتاژ $V$ (V)}, ylabel={جریان $I$ (A)},
+      xmin=0, xmax=0.8, ymin=0, ymax=10,
+      xtick={0,0.2,0.4,0.6,0.8}, ytick={0,2,...,10},
+      legend style={at={(0.5,-0.27)}}]
+    \addplot[sInk] table[x=v, y=i_resistor, col sep=comma] {data/ch06-nonohmic-iv.csv};
+    \addlegendentry{مقاومتِ $0.1\,\Omega$ (اُهمی)}
+    \addplot[sPV] table[x=v, y=i_diode, col sep=comma] {data/ch06-nonohmic-iv.csv};
+    \addlegendentry{دیودِ سیلیسیمی (غیرِاُهمی)}
+    \node[font=\footnotesize, text=cInk, anchor=south east] at (axis cs:0.55,6.2) {مقاومت: خطِ راست};
+    \node[font=\footnotesize, text=cInk, anchor=west] at (axis cs:0.69,3.0) {دیود};
+    \node[note, anchor=north west, text width=40mm] at (axis cs:0.03,9.6) {زیرِ حدودِ $0.6\,\text{V}$ دیود تقریباً جریان نمی‌دهد؛ بالای آن جریان نمایی بالا می‌رود};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

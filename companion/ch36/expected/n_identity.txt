@@ -1,0 +1,8 @@
+accounts on the networked devices: local or from an OT directory
+  local accounts on each device: 28 x 6 = 168 accounts
+  one OT directory (not the business one): 6 accounts, 28 devices trusting it
+  a person leaves: 28 devices to change, or 1 account to close
+  devices that cannot use the directory keep one local
+  account each, its secret in the vault, its use logged;
+  the OT directory is separate from the business one so a
+  business account problem does not reach the control zone

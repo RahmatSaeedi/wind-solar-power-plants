@@ -1,0 +1,7 @@
+a leaking cell in a module (K 0.064 against 0.03 mV/day, LFP at 50 % SOC)
+  self-discharge: normal 3.9 mA, leaker 8.4 mA, extra 4.4 mA
+  passive balancing (100 mA bleed on the other cells) must run 4% of the time
+  without balancing the leaker falls 30 mV behind in 882 days of rest
+  the BMS keeps the string even and so hides the leaker; what
+  shows it is the balancing duty of one module against its
+  peers - a signal the monitoring must export (ch 37)

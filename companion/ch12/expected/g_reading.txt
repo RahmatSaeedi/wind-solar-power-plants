@@ -1,0 +1,14 @@
+uncertainty of one hourly GHI value and of the annual sum (teaching):
+  systematic parts (same sign every hour):
+    calibration factor           1.2 %
+    directional response         0.5 %
+    levelling                    0.3 %
+  random parts (change from hour to hour, correlated within a day):
+    thermal offset and noise     1.0 %
+    temperature dependence       0.4 %
+    non-linearity                0.3 %
+    soiling between cleanings    0.4 %
+  one hourly value: 1.8 %
+  annual sum: random part / sqrt(182 days) -> 0.09 %; total 1.3 %
+  the calibration factor dominates the year; the random parts
+  dominate a single hour (performance tests over short periods)

@@ -1,0 +1,12 @@
+one month of delay to the commercial operation date:
+  revenue lost                         1,704 k u
+  interest on the drawn debt             605
+  fixed costs that continue (half)       178
+  cost to the owner                    2,487 k u a month
+  delay LD at 0.05 % a day of the EPC price: 1,995 k u a month,
+  capped at 10 % = 13,298 k u (about 7 months)
+  the LD covers 80 % of the owner's monthly loss; LD rates
+  are set near the real loss so the contractor carries the
+  delay it causes; beyond the cap the owner carries it -
+  lenders want LDs to cover at least the interest and fixed
+  costs of the delay period (teaching, A-308)

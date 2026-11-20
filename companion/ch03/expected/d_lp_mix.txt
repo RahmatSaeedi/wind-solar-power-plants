@@ -1,0 +1,6 @@
+yields: PV 1.6217 GWh per MWp, wind 3.2090 GWh per MW (Plant P Reference Data
+    Pack 1.0.0, scenario S0 (no-BESS))
+minimise 0.55 x + 1.25 y (fictional cost units) subject to
+  1.622 x + 3.209 y >= 290 GWh;  x <= 80 MWp (land);  x/1.2 + y <= 120 MW
+  optimum x = 80.0 MWp, y = 49.9 MW, cost 106.4 units
+  cost per GWh: PV 0.339, wind 0.390 units -> PV first, up to the land limit

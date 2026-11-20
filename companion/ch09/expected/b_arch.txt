@@ -1,0 +1,9 @@
+central or string inverters for 60 MWp (A-151); mean PV output 11.58 MW
+  central, 10 x 5 MW:
+    failures  5.0/yr x 72 h x 1.158 MW =   417 MWh/yr (0.41 %)
+    mismatch 0.6 % =   608 MWh/yr; one failure removes 10.0 % of PV capacity
+  string, 167 x 0.3 MW:
+    failures 25.1/yr x 24 h x 0.069 MW =    42 MWh/yr (0.04 %)
+    mismatch 0.3 % =   304 MWh/yr; one failure removes 0.6 % of PV capacity
+  strings win on energy; the central design has 17 times fewer
+  units to buy, connect, monitor and maintain (chapters 18, 51)

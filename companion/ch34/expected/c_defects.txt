@@ -1,0 +1,9 @@
+defects found per day of the factory test, and those still left
+  day:  1   2   3   4   5   6   7   8
+  new: 14  10   8   5   4   3   2   1
+  fitted N(1 - exp(-b t)): N = 51.2, b = 0.32 per day
+  found 47; expected still hidden about 4
+  the falling rate says testing works; the fit says a few
+  defects remain - the FAT closes with a punch list and the
+  site tests (lesson D) look for exactly those, not with a
+  claim of zero defects

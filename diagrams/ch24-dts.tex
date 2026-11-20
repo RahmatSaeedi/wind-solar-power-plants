@@ -1,0 +1,15 @@
+% Chapter 24 - distributed temperature sensing along wind string WS1 at full output (synthetic):
+% data diagrams/data/ch24-dts.csv from companion/ch24/examples_h.py dts(); road crossing in a duct
+% at 1,650 m, dry stretch 3,000-3,350 m.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0, xmax=4400, ymin=45, ymax=72,
+      xlabel={فاصله از سرِ فیدر $(\text{m})$}, ylabel={دمای فیبر $(^\circ\text{C})$},
+      xtick={0,1000,2000,3000,4000}, xmajorgrids=true]
+    \addplot[sWind] table[x=m, y=c, col sep=comma] {data/ch24-dts.csv};
+    \node[note, anchor=west] at (axis cs:1720,67) {گذرگاهِ زیرِ جاده};
+    \node[note, anchor=south] at (axis cs:3175,58.5) {خاکِ خشک};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

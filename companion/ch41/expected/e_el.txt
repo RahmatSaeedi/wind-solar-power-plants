@@ -1,0 +1,9 @@
+electroluminescence after installation: sample to see a
+  cracked share with 95 % confidence (at least one in sample)
+  share cracked   modules to image   night hours at 120 / h
+           2.0%                149               1.2
+           1.0%                299               2.5
+           0.5%                598               5.0
+  a sample shows whether cracks exist above a share, not
+  which modules have them; it is spread over blocks, crews
+  and delivery lots so a cause shows as a cluster

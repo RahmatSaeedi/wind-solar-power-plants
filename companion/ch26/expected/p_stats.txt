@@ -1,0 +1,9 @@
+protection performance from five years of event records (teaching):
+  faults that needed a trip 40; correct trips 39; failures to trip 1;
+  unwanted trips (no fault, or the wrong breaker) 2
+  dependability = correct / required = 97.5%
+  security = correct / (correct + unwanted) = 95.1%
+  every relay design trades one for the other: more backup
+  raises dependability and risks security; the event analysis
+  of lab E feeds these counts - an unwanted trip is a finding
+  like a failure to trip, never 'just a nuisance'

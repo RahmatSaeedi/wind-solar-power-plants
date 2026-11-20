@@ -1,0 +1,8 @@
+E01 Thevenin of 900 MVA, X/R 6 on 100 MVA: z = 0.0183 + j0.1096 pu
+E02 POC rise for 100 MW at Q = 0, 1,500 MVA X/R 8: 0.83 %
+E03 POC fault current, 1,500 MVA, c 1.1: 7.22 kA
+E04 blind zone dP/P for 0.85-1.10 pu: -0.174 to +0.384
+E05 WSCR of 100 MW at 1,500 and 80 MW at 1,500 MVA: 8.33
+E06 extra current after a 20 deg jump, x 0.15: 2.32 pu
+E07 surge on closing at 10 deg through 0.2 pu: 0.87 pu
+E08 POC voltage change for 10 Mvar at 900 MVA: 1.11 %

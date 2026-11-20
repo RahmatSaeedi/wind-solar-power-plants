@@ -1,0 +1,21 @@
+% Chapter 47 - 28-day mean strength predicted from the 7-day results (teaching ratio 0.70) against the
+% 28-day mean found, by pour, with the conformity line at 39 MPa (synthetic; companion/ch47/
+% examples_x.py, early -> diagrams/data/ch47-early.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0.5, xmax=6.5, ymin=34, ymax=45,
+      xlabel={بتن‌ریزی}, ylabel={میانگینِ ۲۸روزه (MPa)},
+      xtick={1,...,6}, xticklabels={F01,F02,F03,F04,F05,F06},
+      legend pos=north east, legend style={font=\footnotesize}]
+    \addplot[sWind, only marks, mark=*, mark size=2pt, mark options={solid}]
+      table[x=pour, y=predicted, col sep=comma] {data/ch47-early.csv};
+    \addlegendentry{پیش‌بینی از ۷ روز}
+    \addplot[sLoss, only marks, mark=square*, mark size=2pt, mark options={solid}]
+      table[x=pour, y=actual, col sep=comma] {data/ch47-early.csv};
+    \addlegendentry{۲۸ روز}
+    \draw[cInk!60, dashed] (axis cs:0.5,39) -- (axis cs:6.5,39);
+    \node[note, anchor=south west] at (axis cs:0.55,39) {قاعدهٔ انطباق};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

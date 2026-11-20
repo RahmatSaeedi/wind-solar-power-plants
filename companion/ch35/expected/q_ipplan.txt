@@ -1,0 +1,9 @@
+the address plan checked by program (synthetic extract of 9)
+  IED-T1-1: 10.35.1.12 already used by IED-E1-2
+  BES-C02: 10.35.5.42 outside its subnet 10.35.4.0/26
+  2 findings in 9 rows
+  a duplicate address makes two devices answer by turns -
+  intermittent faults that look like a bad cable; an
+  address outside its subnet cannot be reached through the
+  zone rules at all. The plan is checked like the tag list
+  (lesson B), before any device is configured

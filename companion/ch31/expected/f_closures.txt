@@ -1,0 +1,10 @@
+road closures for the abnormal convoys (teaching)
+  stretch                   closed per convoy min   convoys   total h
+  village bypass (rolling block)                    25       108        45
+  district road junctions                         15       108        27
+  highway on-ramp                                 10       108        18
+  45 hours of closure at the village spread over months: the
+  community hears the timetable in advance (night moves,
+  school runs avoided), the police escort and the road
+  authority set the rules (U-106), and complaints reach the
+  grievance mechanism of ch 32

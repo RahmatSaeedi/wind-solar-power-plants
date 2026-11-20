@@ -1,0 +1,10 @@
+embodied carbon of one foundation and tower (teaching factors)
+  concrete 620 m3 x 0.30 t/m3            186 t CO2e
+  rebar 62 t x 1.9 t/t                  118 t CO2e
+  tower 372 t x 2.0 t/t                 744 t CO2e
+  total                                1048 t CO2e
+  a turbine's energy: about 15,989 MWh a year
+  at 0.5 t CO2 per MWh displaced (teaching), the structure's
+  carbon is repaid in about 1.6 months of operation;
+  lower-cement concrete and recycled steel cut it further,
+  and the real factors come from the suppliers' declarations

@@ -1,0 +1,30 @@
+% Chapter 16 - the sources of uncertainty of a hybrid plant's energy, grouped as in the budget, and
+% the year-to-year variability kept apart; flows right to left into the yield statement.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    grp/.style={draw=cRule, fill=cGridline!50, rounded corners=2pt, minimum width=36mm,
+                minimum height=8mm, align=center, text=cInk},
+    itm/.style={font=\footnotesize, text=cInkB, align=right, text width=50mm},
+    res/.style={draw=cInk, line width=0.8pt, fill=white, rounded corners=2pt, minimum width=34mm,
+                minimum height=14mm, align=center, text=cInk}]
+  % groups (right column) and their items (far right)
+  \foreach \i/\y/\g/\t in {1/0/{اندازه‌گیری}/{حس‌گرها، نصب، کالیبراسیون، نگهداریِ ایستگاه},
+                        2/-1.3/{تصحیحِ بلندمدت}/{مرجعِ بلندمدت، روشِ تصحیح، دورهٔ مرجع},
+                        3/-2.6/{برون‌یابی}/{دکل تا توربین، ارتفاع، ساختگاه},
+                        4/-3.9/{مدل}/{دنباله، انتقالِ تابش، دمای ماژول، چگالی، تلفِ برقی},
+                        5/-5.2/{تجهیزات}/{منحنیِ توان، توانِ ماژول، اینورتر، تخریب},
+                        6/-6.5/{بهره‌برداری}/{دسترس‌پذیری، گرد و غبار، یخ، قطعیِ شبکه}} {
+    \node[grp] (g\i) at (6.2,\y) {\g};
+    \node[itm, anchor=west] at (8.3,\y) {\t};
+    \draw[flow] (g\i.west) -- (2.6,-2.2);
+  }
+  \node[res] (lt) at (1.2,-2.2) {عدمِ قطعیتِ\\بلندمدت};
+  \node[grp, minimum width=34mm] (iav) at (1.2,-5.6) {تغییرِ سال به سال\\(آینده)};
+  \node[res] (st) at (-3.6,-3.9) {بیانیهٔ تولید\\$P_{50}$، $P_{90}$، $P_{99}$};
+  \draw[flow] (lt.west) -- (st.east);
+  \draw[flow] (iav.west) -- (st.east);
+  \node[note, anchor=north] at (1.2,-6.3) {با شمارِ سال‌ها کم می‌شود};
+  \node[note, anchor=south] at (1.2,-1.4) {با دادهٔ بهتر کم می‌شود};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,8 @@
+on-state loss: IGBT V0 + r I versus SiC MOSFET R_on I (A-148):
+  IGBT 0.8 V + 0.7 mohm; MOSFET 2.5 mohm; equal at 444 A
+   100 A: IGBT     87 W, MOSFET     25 W
+   300 A: IGBT    303 W, MOSFET    225 W
+   444 A: IGBT    493 W, MOSFET    493 W
+   800 A: IGBT   1088 W, MOSFET   1600 W
+  below the crossover the MOSFET conducts better; it also
+  switches with far smaller energy (section A, wide bandgap)

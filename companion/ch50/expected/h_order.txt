@@ -1,0 +1,18 @@
+energisation order of Plant P (each step needs the one before it
+  accepted, and its own permission)
+  1. export line and bay E1
+     by: network operator, by its switching programme
+  2. 132/33 kV transformers T1 then T2
+     by: owner's authorised person
+  3. 33 kV bus sections and coupler (phasing check)
+     by: authorised person
+  4. feeders WS1-3, PVF1-3, BESS-A/B one by one
+     by: authorised person
+  5. unit transformers, then converters (blocks)
+     by: authorised person + makers
+  6. export in steps to the agreed limit (ch 28 tests)
+     by: network operator
+  each step's permission is a record (lesson A); the order
+  keeps every new energisation backed by a tested upstream
+  protection - and the POC acceptance is the network
+  operator's signature, not the contractor's

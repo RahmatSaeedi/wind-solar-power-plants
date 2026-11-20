@@ -1,0 +1,17 @@
+learning curve of the first skids (85 %, first skid 125 h,
+down to the standard 79 h of the route)
+  skid   hours
+  S-01   125.0
+  S-02   106.2
+  S-03    96.6
+  S-04    90.3
+  S-05    85.7
+  S-06    82.1
+  S-07    79.2
+  S-08    79.0
+  S-09    79.0
+  S-10    79.0
+  ten skids: 902 h against 790 h at the standard 79 h (112 h more)
+  the first skids are slow because people, jigs and work
+  instructions are new; the plan books the pilot skids
+  apart and does not set takt from the first unit

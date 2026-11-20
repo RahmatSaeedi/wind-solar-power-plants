@@ -1,0 +1,10 @@
+depreciation profile and tax timing (teaching tax rate 25 %):
+  profile                       equity IRR %   min DSCR   tax yrs 1-5 k u
+  straight line 20 yr                  10.22       1.20             2,255
+  declining balance 10 %               10.55       1.15                 0
+  accelerated 5 yr                     10.84       1.08                 0
+  the same total depreciation, earlier: less tax in the first
+  years and more later - the owners gain through time value,
+  but the tax returns inside the loan life and the cover falls
+  to 1.08: lenders size on the real tax profile; which profile
+  is allowed is tax law (U-083), never assumed

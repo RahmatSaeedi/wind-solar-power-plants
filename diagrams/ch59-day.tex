@@ -1,0 +1,22 @@
+% Chapter 59 - one July day (day 197) of the day-ahead forecast of Plant P against its output
+% before the export limit, with the P10-P90 band learned on January-June.
+% Data: diagrams/data/ch59-day.csv (companion/ch59/cases8.py, f_day).
+\input{_preamble}
+\usepgfplotslibrary{fillbetween}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0, xmax=23, ymin=0, ymax=130,
+      xlabel={ساعتِ روز}, ylabel={توان، $\text{MW}$},
+      xtick={0,3,...,21}, ytick={0,20,...,120}, legend style={at={(0.5,1.03)}, anchor=south},
+      legend columns=3]
+    \addplot[name path=hi, draw=none, forget plot] table[x=h, y=hi, col sep=comma] {data/ch59-day.csv};
+    \addplot[name path=lo, draw=none, forget plot] table[x=h, y=lo, col sep=comma] {data/ch59-day.csv};
+    \addplot[cWind!20, area legend] fill between[of=hi and lo];
+    \addlegendentry{بازهٔ P10 تا P90}
+    \addplot[sWind, line width=0.9pt] table[x=h, y=fc, col sep=comma] {data/ch59-day.csv};
+    \addlegendentry{پیش‌بینیِ روزِ بعد}
+    \addplot[sInk, line width=0.7pt] table[x=h, y=act, col sep=comma] {data/ch59-day.csv};
+    \addlegendentry{تولید}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

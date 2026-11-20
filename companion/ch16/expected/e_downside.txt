@@ -1,0 +1,10 @@
+downside cases that are not P-values (debt fixed as sized):
+  case                                        CFADS k u   cover
+  P50 energy                                    10,757    1.32
+  P90 one-year energy                            9,796    1.20
+  P50 energy, price -10 %                        9,281    1.14
+  P50 energy, operating cost +15 %              10,157    1.24
+  P50, 2 % availability below guarantee         10,462    1.28
+  P90 1y, price -10 %, cost +15 %                7,817    0.96
+  price, cost and contract risks sit beside the energy cases;
+  stacking them is a lender's choice, not a P-value

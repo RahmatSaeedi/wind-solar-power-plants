@@ -1,0 +1,12 @@
+evidence for container C5 before it ships, summarised
+  cell lot L4506: 5 leakers removed at a 14-day rest (file read);
+    lot L4507's file accepted without reading its rest time -
+    the trail of lab D starts here
+  module welds: 2 cold welds in one module - rework and re-measure
+  BMS configuration: t_charge_max above the cell limit -
+    correct it, record the new fingerprint
+  SOC simulator v1 (training model): invariant error 4e-14 Ah
+  missing: OCV spread after a rest at site acceptance - added
+  decision: C5 ships after the weld rework and the BMS fix;
+  the site test plan gains the OCV check; the cell maker's rest
+  time becomes a contract item with its record

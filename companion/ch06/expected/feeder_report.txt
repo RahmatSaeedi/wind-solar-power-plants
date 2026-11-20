@@ -1,0 +1,56 @@
+Plant P - DC feeder, combiner box to inverter (chapter 6 case)
+string:   26 x PVM-550 in series
+          V_mp = 26 x 41.96 = 1091.0 V, I_mp = 13.11 A
+          V_oc(25 C) = 1297.4 V
+combiner: 24 strings in parallel
+          I = 24 x 13.11 = 314.64 A, P = 343.3 kW at STC
+feeder:   180 m one way, aluminium, 240 mm2, conductor at 50 C
+          rho(50 C) = 3.161e-08 ohm m
+          R one conductor = 0.0237 ohm, loop R = 0.0474 ohm
+result:   drop = 14.92 V = 1.37 % of V_mp
+          loss = 4694 W = 1.37 % of feeder power
+
+sensitivity to cross-section, aluminium at 50 C
+     area    drop V   drop %   loss W   loss %
+   120 mm2    29.84     2.73     9388     2.73
+   150 mm2    23.87     2.19     7510     2.19
+   185 mm2    19.35     1.77     6089     1.77
+   240 mm2    14.92     1.37     4694     1.37
+   300 mm2    11.93     1.09     3755     1.09
+   400 mm2     8.95     0.82     2816     0.82
+sensitivity to cross-section, copper at 50 C
+     area    drop V   drop %   loss W   loss %
+   120 mm2    18.15     1.66     5711     1.66
+   150 mm2    14.52     1.33     4568     1.33
+   185 mm2    11.77     1.08     3704     1.08
+   240 mm2     9.07     0.83     2855     0.83
+   300 mm2     7.26     0.67     2284     0.67
+   400 mm2     5.44     0.50     1713     0.50
+sensitivity to conductor temperature, aluminium 240 mm2
+   20 C: loop R 0.0423 ohm, drop 13.31 V, loss 4188 W
+   50 C: loop R 0.0474 ohm, drop 14.92 V, loss 4694 W
+   70 C: loop R 0.0508 ohm, drop 15.99 V, loss 5031 W
+   90 C: loop R 0.0542 ohm, drop 17.06 V, loss 5369 W
+smallest aluminium section for 1 % drop: 328 mm2 -> standard 400 mm2
+
+string voltage window (PVM-550, 26 in series, 1500 V system):
+  cell  -20 C: V_oc =  1455.0 V
+  cell  -10 C: V_oc =  1420.0 V
+  cell    0 C: V_oc =  1385.0 V
+  cell   25 C: V_oc =  1297.4 V
+  cell   45 C: V_oc =  1227.3 V
+  cell   65 C: V_oc =  1157.3 V
+  cell   75 C: V_oc =  1122.3 V
+  26 modules at -10 C: V_oc =  1420.0 V
+  27 modules at -10 C: V_oc =  1474.6 V
+  28 modules at -10 C: V_oc =  1529.2 V   EXCEEDS 1500 V
+  29 modules at -10 C: V_oc =  1583.9 V   EXCEEDS 1500 V
+string short-circuit current (26 modules):
+  G =  200 W/m2, 25 C: I_sc =   2.80 A (I_mp at STC = 13.11 A)
+  G =  600 W/m2, 25 C: I_sc =   8.39 A (I_mp at STC = 13.11 A)
+  G = 1000 W/m2, 25 C: I_sc =  13.98 A (I_mp at STC = 13.11 A)
+  G = 1200 W/m2, 25 C: I_sc =  16.78 A (I_mp at STC = 13.11 A)
+
+fault in a string: I_sc is only 6.6 % above the operating current,
+so a fuse cannot tell a fault in the string from normal operation;
+it protects against current fed from the OTHER strings (chapter 24).

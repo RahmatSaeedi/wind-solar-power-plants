@@ -1,0 +1,13 @@
+work requests ranked by consequence x urgency (ties by consequence)
+  1. BESS-A container 2 HVAC fault        4 x 5 = 20
+  2. T03 converter trips on dips          4 x 4 = 16
+  3. SST fan alarm (inhibited 76 days)    3 x 4 = 12
+  4. PV fence gap near the road           3 x 3 =  9
+  5. inverter fan noisy PVF2-3            2 x 3 =  6
+  6. road grading after rain              2 x 2 =  4
+  7. string fuses open PVF2-3 CB14        2 x 1 =  2
+  8. office air-conditioning              1 x 2 =  2
+  the battery HVAC fault and the converter come first; the
+  open string fuse ranks low on consequence - but lesson D
+  shows what one open fuse can hide, so 'low' still gets a
+  date, not a place at the end of the queue

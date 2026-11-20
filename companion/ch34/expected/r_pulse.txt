@@ -1,0 +1,13 @@
+a pulse read by an input that is sampled once a 50 ms scan
+  pulse ms   missed (theory)   missed (10,000 random phases)
+         5              90 %                       89.8 %
+        10              80 %                       80.5 %
+        20              60 %                       60.4 %
+        50               0 %                        0.0 %
+       100               0 %                        0.0 %
+  counting pulses: each pulse and each gap must last a scan,
+  so the fastest countable rate is 10 pulses a second
+  a short pulse - a relay's trip contact, a meter's energy
+  pulse - is latched by the input card, stretched at the
+  source, or read by a counter or event module; it is
+  never left to the luck of the scan

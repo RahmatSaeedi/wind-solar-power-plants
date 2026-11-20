@@ -1,0 +1,7 @@
+water in an open cable trench where groundwater is shallow (Dupuit)
+  place                 k m/s    water below ground m   inflow per 100 m L/s
+  wadi crossing           1e-04                    1.0                 0.97
+  near T07 (clay)         1e-06                    3.0                  dry
+  only the wadi crossing meets water at trench depth: there
+  the crossing is timed for the dry season or pumped, and
+  the pumped water is settled before release (lesson C)

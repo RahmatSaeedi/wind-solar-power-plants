@@ -1,0 +1,14 @@
+% Chapter 35 - reports an hour of a synthetic oil temperature sent with a deadband, against the
+% deadband as a share of span, with the largest error (examples_m, diagrams/data/ch35-deadband.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, ymode=log, xmin=0, xmax=2.1, ymin=3, ymax=6000,
+      xlabel={باند مرده، درصدِ گستره}, ylabel={پیام در ساعت},
+      nodes near coords={$\pgfmathprintnumber[fixed, precision=2]{\pgfplotspointmeta}\,\mathrm{K}$},
+      nodes near coords style={font=\scriptsize, text=cInkB, anchor=south west},
+      point meta=explicit]
+    \addplot[sBESS, mark=*, mark size=1.8pt] table[x=db, y=reports, meta=err, col sep=comma] {data/ch35-deadband.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

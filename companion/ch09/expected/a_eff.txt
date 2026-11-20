@@ -1,0 +1,6 @@
+5 MW PV inverter, data-sheet efficiency points (A-147):
+  10 %: 0.97, 25 %: 0.983, 50 %: 0.986, 75 %: 0.985, 100 %: 0.983
+  fitted loss = 2.75 + 2.98 P + 11.54 P^2 (per mille of rating)
+    no-load (fixed) + linear (V0 I) + square (R I^2) terms
+  weighted: European 0.9824, CEC 0.9842
+  peak 0.9860 at 0.48 pu; at 5 % load 0.9447

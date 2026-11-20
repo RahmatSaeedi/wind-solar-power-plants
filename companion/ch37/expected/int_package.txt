@@ -1,0 +1,11 @@
+the monitoring package of Plant P in numbers (synthetic year)
+  plant energy at MV 300,212 MWh, 99.57 % of model 15.1
+  four problems found: April soiling (314 MWh), June outage
+    (339 MWh), August curtailment (163 MWh), October sensor
+  PR 0.832 on the reference sensor; corrected to 25 C the
+    months agree within 0.02 except April and June
+  fleet availability 98.41 % true; 98.36 % raw and 98.48 %
+    cleaned from a log with planted defects
+  day-ahead forecast skill 0.42 on held-out data; a drift
+    found 8 days after a plant change
+  service step passes its placeholder specification

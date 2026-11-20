@@ -1,0 +1,4 @@
+facing a ring flange 600 / 400 mm: cutting speed 150 m/min, feed 0.4 mm/rev
+  face area 0.157 m2 -> time per pass area / (f v) = 2.6 min
+  material removal rate v f d (2 mm depth) = 120 cm3/min
+  a finer feed gives a smoother face (roughness ~ f^2) at the price of time

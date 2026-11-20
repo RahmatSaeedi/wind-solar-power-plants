@@ -1,0 +1,7 @@
+certificates of the control system expiring (synthetic, 120)
+  in the next 12 months: 37
+  busiest month: 7 at once
+  an expired certificate stops a connection as surely as a
+  cut cable - the historian copy, a gateway, the jump host;
+  every certificate is in the inventory with its expiry
+  date and owner, and renewal starts 60 days before

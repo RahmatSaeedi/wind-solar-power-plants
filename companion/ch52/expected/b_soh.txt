@@ -1,0 +1,6 @@
+battery containers: capacity test after the first year (% of rated)
+   97.8  97.5  97.9  97.6  97.4  97.7  95.1  97.6
+  median 97.6 %; below median - 1.5 points: container(s) 7
+  container 7 is the one that waited 410 h for its cooling part
+  (ch 51): heat ages cells, and the capacity test is where it
+  shows - the warranty claim needs this record (ch 19)

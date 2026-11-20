@@ -1,0 +1,22 @@
+% Chapter 48 - physical view: the substation core switch and the cabinets it reaches, with the two
+% turbine rings, the PV gateways, the battery EMS, the RTU, the control room and the clock (teaching;
+% companion/ch48/lab_d.py, connections).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    cab/.style={blk, minimum width=20mm, minimum height=8mm, text width=19mm, align=center},
+    ring/.style={blkWind, minimum width=26mm, minimum height=9mm, text width=25mm, align=center}]
+  \node[cab, fill=cLoad!10, draw=cLoad, minimum width=26mm] (core) at (0,0) {$\mathrm{SUB\text{-}CORE}$};
+  \node[ring] (w) at (-4.4,1.6) {حلقهٔ غربی \\ \footnotesize $\mathrm{T01}$ تا $\mathrm{T06}$};
+  \node[ring] (e) at (4.4,1.6) {حلقهٔ شرقی \\ \footnotesize $\mathrm{T07}$ تا $\mathrm{T12}$};
+  \node[cab] (pv1) at (-4.4,-0.4) {$\mathrm{GW\text{-}PV1}$};
+  \node[cab] (pv2) at (-4.4,-1.6) {$\mathrm{GW\text{-}PV2}$};
+  \node[cab] (bess) at (4.4,-0.4) {$\mathrm{BESS\text{-}EMS}$};
+  \node[cab] (rtu) at (4.4,-1.6) {$\mathrm{RTU\text{-}1}$};
+  \node[cab] (ctrl) at (0,-2.4) {اتاقِ کنترل};
+  \node[cab] (clk) at (0,2.0) {ساعتِ نیروگاه};
+  \draw[flow, <->] (core) -- node[note, above, sloped] {$\mathrm{P1, P3}$} (w);
+  \draw[flow, <->] (core) -- node[note, above, sloped] {$\mathrm{P2, P4}$} (e);
+  \foreach \n in {pv1, pv2, bess, rtu, ctrl, clk} {\draw[flow, <->] (core) -- (\n);}
+\end{tikzpicture}}
+\end{document}

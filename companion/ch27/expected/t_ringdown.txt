@@ -1,0 +1,8 @@
+damping of a recorded power oscillation (ringdown, synthetic)
+  first two peaks 2.06 and 1.41 MW, 1.26 s apart
+  frequency 0.79 Hz; log decrement 0.378; damping ratio 0.060
+  a teaching acceptance of 5 % damping: met
+  an oscillation that dies slowly is a sign of control
+  interaction (plant controller, converters, a weak grid);
+  the operator may require a minimum damping and the model
+  must show the same mode (ch 28)

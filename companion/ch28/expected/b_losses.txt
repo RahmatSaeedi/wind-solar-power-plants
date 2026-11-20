@@ -1,0 +1,14 @@
+electrical losses from the unit terminals to the POC (Q = 0 at the POC)
+  units MW   load flow + no-load MW   model 15.1 MW
+        20                     0.27            0.16
+        40                     0.47            0.34
+        60                     0.80            0.64
+        80                     1.26            1.06
+       100                     1.85            1.60
+  fit: load losses = 1.66 x (P/100)^2 MW; no-load 199 kW all year
+  a year of model 15.1's hourly output: 4.41 GWh lost;
+  model 15.1 says 3.29 GWh
+  the energy model's 1.5 % at 100 MW and 0.10 MW no-load
+  are below the study's values: the unit transformers and
+  the reactive current were not in them - the next model
+  version takes the study's curve (a finding for ch 15/16)

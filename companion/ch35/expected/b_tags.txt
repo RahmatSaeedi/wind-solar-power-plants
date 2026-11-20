@@ -1,0 +1,15 @@
+tag names against the rule PLP-<area>-<item>.<Signal> (teaching)
+  tag                             ok?
+  PLP-WTG-T01.ActivePower         yes
+  PLP-WTG-T01.activepower         NO
+  PLP-E1-VT.Voltage               yes
+  plp-bes-c03.Soc                 NO
+  PLP-BES-C03.SOC                 yes
+  PLP-PVI-B01-I1.DcVoltage        yes
+  PLP-MET-M1-Ghi                  NO
+  PLP-TRF-T1.OilTemp              yes
+  3 of 8 break the rule
+  a tag rule is checked by a program before the first
+  point is configured - a tag renamed after commissioning
+  breaks every trend, report and link to the asset
+  register that used the old name (lesson F)

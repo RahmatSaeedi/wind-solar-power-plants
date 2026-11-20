@@ -1,0 +1,9 @@
+scenarios against the P50 of 295.14 GWh (one year, teaching):
+  low wind year (one year -1.28 sd)     284.35 GWh (-10.79)
+  dusty year (soiling x 3)              292.20 GWh ( -2.94)
+  grid: 48 h outage + spring limit      293.85 GWh ( -1.29)
+  availability 95 % wind                289.27 GWh ( -5.88)
+  all four together (spring limit left out)      274.56 GWh
+  one-year P90 from the budget                   275.93 GWh
+  a scenario has no probability: it answers 'what if', and the
+  lender may ask for named scenarios besides the P-values

@@ -1,0 +1,7 @@
+one turbine's blades: bad with probability 40% (from erosion data, ch 52)
+  replace blind 300 k u; leave blind 360 k u expected;
+  inspect first (25 k u) and replace only if bad: 145 k u
+  value of the inspection: 180 k u against its cost 25
+  remaining-life evidence pays when the decision would change
+  with it; if every outcome leads to the same choice, the
+  inspection is worth nothing (ch 22 value of information)

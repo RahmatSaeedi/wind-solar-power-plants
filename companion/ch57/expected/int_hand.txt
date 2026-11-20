@@ -1,0 +1,4 @@
+three numbers by hand
+  verified share: 28 / 61 = 46%
+  critical path: S1 6 + S6 6 + S8 2 + S9 2 = 16.0 months (program: 16.0)
+  grid inputs given: 2 / 13 = 15%

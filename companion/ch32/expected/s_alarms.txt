@@ -1,0 +1,9 @@
+alarms in the control room around a fire at BESS-1 (synthetic)
+  normal: about 2 alarms in ten minutes
+  minutes 20-30: 118 alarms - about 12 a minute
+  an operator handles roughly one considered action a minute:
+  in a flood the few alarms that matter (fire, isolation
+  feedback, people) are lost among consequential ones - the
+  alarm system gives fire and life-safety alarms the top
+  priority, suppresses the expected follow-on alarms, and
+  the emergency plan gives the operator a short checklist

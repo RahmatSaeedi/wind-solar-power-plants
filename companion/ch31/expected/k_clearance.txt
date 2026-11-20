@@ -1,0 +1,9 @@
+customs clearance time at the port (Monte Carlo, teaching)
+  median 5 days; 8 % of shipments queried (+5-20 days)
+  P50 5.3 days, P90 12.2 days
+  clearance alone longer than the 21 free days: 2.4 %
+  clearance plus a 2-week convoy queue over 21 days: 31 %
+  clearance eats into the free storage before the first
+  convoy moves: documents prepared before arrival, a broker
+  appointed and the convoy queue planned from the P90, not
+  the median, keep the port bill small (lesson A)

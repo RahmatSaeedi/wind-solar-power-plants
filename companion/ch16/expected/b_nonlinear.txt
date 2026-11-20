@@ -1,0 +1,11 @@
+Monte Carlo through the plant end (losses, limit) against the
+  linear sum, one year, 6,000 draws:
+  PV block   deterministic   MC mean   MC P50   MC P90   linear P90
+    50 MW       295.14       294.98   294.60   276.72     276.43
+    80 MW       352.18       352.07   351.58   334.28     334.06
+  linear P90 = MC mean - 1.2816 x sd of the draws; even with the
+  80 MW block the limit changes the spread little here: the
+  differences are about the Monte Carlo noise (0.2 GWh on the
+  mean); the median lies below the mean (products of factors
+  skew to the right); a plant with heavy clipping or curtailment
+  is still checked this way, not assumed linear

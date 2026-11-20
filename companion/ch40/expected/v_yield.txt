@@ -1,0 +1,11 @@
+rolled throughput yield 0.758: two points more at one step
+  step                                        RTY gain
+  OP80 factory acceptance test                +0.0165
+  OP60 auxiliary and control wiring           +0.0161
+  OP40 LV busbar and cable terminations       +0.0160
+  OP10 weld, inspect, paint base frame        +0.0156
+  OP50 MV cable termination at RMU            +0.0155
+  every step gives about the same gain per point (yields
+  multiply), so the choice is made on cost and on what the
+  failures are: FAT finds faults made earlier, so the line
+  steps that make them (OP60, OP40) come first

@@ -1,0 +1,12 @@
+island detection by rate of change of frequency (teaching):
+  df/dt = dP x f0 / (2 H S); setting 1.0 Hz/s
+  power mismatch   H s   df/dt Hz/s   detected
+             10%   0.5         5.00   yes
+              2%   0.5         1.00   NO
+              1%   2.0         0.12   NO
+             30%   0.5        15.00   yes
+  a near-balanced island changes frequency slowly and is not
+  seen (the non-detection zone); a grid event can raise
+  df/dt everywhere and trip healthy plants - the setting is
+  the operator's; transfer trip over the telecom link closes
+  the gap without depending on the power balance

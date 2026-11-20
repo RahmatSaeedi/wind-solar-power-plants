@@ -1,0 +1,16 @@
+% Chapter 34 - step response of the tuned PI (kp 1.5, ki 0.8; park tau 2 s) at controller cycles of 0.1,
+% 0.5 and 1 s, each output one cycle late (examples_b, diagrams/data/ch34-sample.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=20, ymin=0, ymax=1.35,
+      xlabel={زمان (s)}, ylabel={پاسخِ بهنجار},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sWind, no marks, const plot] table[x=t, y=y01, col sep=comma] {data/ch34-sample.csv};
+    \addplot[sBESS, no marks, const plot] table[x=t, y=y05, col sep=comma] {data/ch34-sample.csv};
+    \addplot[sLoss, no marks, const plot] table[x=t, y=y10, col sep=comma] {data/ch34-sample.csv};
+    \legend{چرخهٔ $0.1\,\mathrm{s}$, چرخهٔ $0.5\,\mathrm{s}$, چرخهٔ $1\,\mathrm{s}$}
+    \draw[sLimit] (axis cs:0,1) -- (axis cs:20,1);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

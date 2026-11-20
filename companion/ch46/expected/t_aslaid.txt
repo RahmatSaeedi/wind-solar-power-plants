@@ -1,0 +1,11 @@
+as-laid lengths of string WS1 against the schedule (flag over 5%)
+  cable   schedule m   as laid m   change
+  W001           850         862    +1.4%
+  W002           970        1105   +13.9%
+  W003          1090        1094    +0.4%
+  W004          1210        1222    +1.0%
+  flagged: W002; string loss 61.5 -> 64.8 kW at full output
+  W002 went round a wadi crossing found during the works: the
+  as-laid length goes back into the schedule, the loss model
+  (ch 15) and the drum record - the as-built schedule is the
+  one the plant is operated with

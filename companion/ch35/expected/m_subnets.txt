@@ -1,0 +1,9 @@
+broadcasts each device must read: one flat network or subnets
+  130 devices, each sending 0.5 broadcasts a second of 100 bytes (teaching)
+  flat network: every device reads 64.5 a second
+  five subnets: at most 19.5 a second (largest subnet 40)
+  a switch forwards frames inside its subnet by hardware
+  address; a router or firewall joins subnets and decides
+  what may cross. A storm or a misbehaving device then
+  stays inside one function, and the zone rules of ch 36
+  have a place to stand

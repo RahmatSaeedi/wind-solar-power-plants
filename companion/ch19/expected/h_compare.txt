@@ -1,0 +1,12 @@
+a year of price shifting, rule against optimum (A-295):
+  wear u/MWh   rule k u   optimum k u   discharged MWh   cycles
+          0        455           455           10,832      365
+         10        347           347           10,832      365
+         20        239           241           10,357      349
+         30        131           144            8,814      297
+  (rule before wear: 455 k u)
+  with this price shape the fixed rule is already optimal while
+  wear is cheap; with a dearer wear the optimum skips days whose
+  spread does not pay the round trip and the wear, and earns
+  more with fewer cycles; a wear cost turns the battery's life
+  into a price the dispatch can see

@@ -1,0 +1,12 @@
+invoiced energy against the main meter and SCADA (tolerance 0.5%)
+  month  invoiced   meter    SCADA
+      1    21,300  21,300   21,480
+      2    23,900  23,900   24,050
+      3    28,100  27,640   27,800  CHECK
+      4    26,400  26,400   26,610
+      5    27,200  27,200   27,390
+      6    24,800  24,800   25,020
+  month(s) to check: 3; SCADA reads +0.6% to +0.9%
+  above the meter every month (it counts before the losses to
+  the POC): SCADA explains, the meter settles; the March
+  invoice used a schedule, not the meter - a credit note

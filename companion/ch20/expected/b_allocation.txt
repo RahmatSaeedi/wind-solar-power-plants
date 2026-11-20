@@ -1,0 +1,10 @@
+curtailment with operator caps (80 MW on 40 days, 11-15 h, A-302):
+  total curtailed 904 MWh in 114 hours
+  rule                  wind MWh    PV MWh
+  pro rata by output         498       405
+  PV first                     0       904
+  wind first                 904         0
+  the plant loses the same energy under every rule; who loses
+  it matters when wind and PV have different owners, prices or
+  certificates: the rule is a contract term, and the plant
+  controller only carries it out (chapter 15 allocation)

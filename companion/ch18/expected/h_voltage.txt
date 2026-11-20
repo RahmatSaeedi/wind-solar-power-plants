@@ -1,0 +1,7 @@
+export voltage for the 7.06 km line (same conductor, teaching):
+  voltage  loss MWh/yr  loss %   voltage rise at 100 MW, pf 1
+    132          754    0.26        0.49 %
+     66        3,015    1.02        1.94 %
+  66 kV loses four times as much and lifts the voltage four
+  times as far; it is chosen only when the grid bay is 66 kV,
+  and then the grid decides it, not the plant (chapter 17)

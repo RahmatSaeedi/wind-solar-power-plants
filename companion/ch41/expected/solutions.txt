@@ -1,0 +1,62 @@
+P01 implied Voc, bulk 1 ms, S 10 cm/s: 0.721 V
+P02 implied Voc, bulk 1 ms, S 1,000 cm/s: 0.604 V
+P03 best finger spacing and its loss: 1.3 mm, 3.6%
+P04 efficiency mean and sd of the varied cells: 23.34%, 0.34%
+P05 share of variance from J0: 55%
+P06 Voc coefficient of a 0.690 V cell: -0.288 %/K
+P07 usable ingot length, gallium: 64%
+P08 silicon per watt, 150 um wafer, 55 um kerf: 2.04 g/W
+P09 mean reflectance, bare and coated in air: 35.0%, 9.0%
+P10 firing window and Cpk: 0.34-0.74, 2.25
+P11 relative efficiency at 200 W/m2, shunt 300 ohm cm2: 0.785
+P12 cells in a neighbour bin (repeatability 0.02 A): 15.3%
+P13 modules holding one contaminated cell lot: 334
+P14 expanded uncertainty of a flash reading: 2.81 %
+P15 module mass and glass share: 28.1 kg, 74 %
+P16 module power after the CTM steps: 550.8 W (CTM 0.992)
+P17 bottom row at 50 %, full / half-cut: 275 / 413 W
+P18 first gel-content signal of L2: day 25
+P19 damp-heat acceleration range: 39 to 2,582
+P20 thermal-cycling acceleration (n 2): 9.8
+P21 bending moment ratio, ends vs 0.207 L: 5.8
+P22 diode junction, three diodes on: 188 C
+P23 block insulation on a dew morning: 3.7 kOhm
+P24 rough containers caught by the pallet rule: 71%
+P25 data problems in the flash file: 5
+P26 tester drift: +2.52 W from seq 2400
+P27 outliers flagged after the correction: 12
+P28 labels reissued: 269
+P29 cell mismatch, unsorted / one cell 10 % low: 0.34% / 1.53%
+P30 visual AQL plan per container: n = 132, c = 3
+P31 heat in an aged cross-mated pair: 1.72 W
+P32 string Voc at -15 C with the lot maximum: 1452 V
+P33 surge in the open loop: 2,713 V
+P34 extra loss of U-shaped strings: 0.19%
+P35 drop of the diode-short string's ratio: 1.34%
+P36 modules below -300 V, floating string: 6
+P37 string change with one 520 W spare: -34.5 W
+P38 modules a day and days for the order: 2,210, 49
+P39 share in the 560 W class with sorted cells: 7.3%
+P40 power error of a 1 K flash temperature error: 1.92 W
+P41 life value of 2 % against 0.3 % LID: 1,459 k u
+P42 Rs from two curves vs the fit: 0.190 vs 0.172 ohm
+P43 current absorbed by 100 um with light trapping: 38.9 mA/cm2
+P44 kappa of the two EL graders: 0.52
+P45 cost with and without pre-lamination EL: 4.2 / 59.1 k u
+P46 smallest shortfall shown, other lab / same lab (n 100): 3.17 / 0.93 %
+P47 expanded uncertainty of a field I-V curve: 5.2 %
+P48 chance a 5 % crimper is caught in 10 days: 92%
+P49 Rs and Rsh read for the weak-joint module: 0.358 ohm, 154 ohm
+P50 worst inactive share in the EL image: 36%
+P51 module cost and the frame +30 % effect: 0.114 u/W, +2.6%
+P52 energy lost by the hotter build: 0.56%
+P53 modules a container and mass: 620, 18.5 t
+P54 contact part at 3 mOhm cm2: 0.130 ohm cm2
+P55 curing buffer: 480 modules
+P56 tolerance stack, worst / statistical: +-77 / +-11 mm
+P57 encapsulant rolls past their life: 8 of 40
+P58 first lot below the lower limit: 23
+P59 mean iVoc, pulled mono / multi: 0.725 / 0.681 V
+P60 module Isc and mass with 210 mm cells: 18.61 A, 36.7 kg
+P61 area share of one mm of edge: 0.26%
+P62 %GRR of the flashers, as found / matched: 45 / 26

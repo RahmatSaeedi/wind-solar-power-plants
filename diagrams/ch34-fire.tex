@@ -1,0 +1,18 @@
+% Chapter 34 - the fire-system interface: hard-wired normally-closed alarms and hard-wired life-safety
+% commands from the fire panel, a read-only serial link for detail, and the plant's 'healthy' signal
+% back (examples_f; teaching, no fire design prescribed).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=28mm, minimum height=12mm, text width=26mm}]
+  \node[s, blkWarn] (fp) at (10.0,1.0) {تابلوی حریق\\ بازنشانی فقط این‌جا};
+  \node[s, blkWind] (plc) at (2.5,3.4) {کنترل‌گرِ نیروگاه\\ نمایش و تأیید};
+  \node[s, blkBESS] (hvac) at (2.5,1.0) {تهویهٔ کانتینر};
+  \node[s, blkBESS] (pcs) at (2.5,-1.4) {مبدلِ باتری};
+  \draw[flow] (fp.north west) -- node[above, note, sloped] {هشدار} (plc.east);
+  \draw[flow] (fp.west) -- node[below, note] {فرمانِ خاموشی: سیم‌کشی} (hvac.east);
+  \draw[flow] (fp.south west) -- node[below, note, sloped] {درخواستِ توقف: سیم‌کشی} (pcs.east);
+  \draw[flowinfo] (fp.north) |- node[above, note, pos=0.75] {پیوندِ سریالِ فقط‌خواندنی} (plc.north);
+  \draw[flowinfo] ([yshift=-3mm]plc.east) -- node[below, note, sloped, pos=0.55] {«سالم»} ([yshift=4mm]fp.west);
+\end{tikzpicture}
+\end{document}

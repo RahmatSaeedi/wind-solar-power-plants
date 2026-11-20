@@ -1,0 +1,12 @@
+single-axis tracker row: 52 modules in portrait, chord 2.278 m, area 134 m2
+  hinge moment T = q Cm A c, Cm 0.1 at stow (teaching); drive holds 40 kN m
+  wind m/s   q Pa   torque kN m   share of the drive
+      12.0     78           2.4                  6%
+      18.0    177           5.4                 14%
+      30.0    491          15.0                 38%
+      41.1    921          28.2                 70%
+  the 50-year gust uses most of the drive's holding torque even
+  at stow: a drive with large backlash (lesson B) starts to
+  rock in gusts and the row can flutter - the static number
+  is the easy part; the dynamic check is the tracker maker's
+  wind-tunnel and test evidence (ch 39)

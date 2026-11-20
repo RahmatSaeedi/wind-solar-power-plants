@@ -1,0 +1,27 @@
+% Chapter 46 - the eight states of a feeder bay (CB, DS, ES; 0 open, 1 closed): the six reachable with
+% correct interlocks, and the two forbidden states (DS and ES closed together) that the faulty logic
+% reaches (companion/plantp/cablemfg.py, reachable; companion/ch46/examples_b.py, interlocks).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    s/.style={blk, minimum width=17mm, minimum height=8mm},
+    bad/.style={blkWarn, minimum width=17mm, minimum height=8mm}]
+  \node[s] (000) at (0,0) {$000$};
+  \node[s] (100) at (-3,1.2) {$100$};
+  \node[s] (010) at (-3,-1.2) {$010$};
+  \node[s] (001) at (3,0) {$001$};
+  \node[s] (110) at (-6,0) {$110$};
+  \node[s] (101) at (3,1.8) {$101$};
+  \node[bad] (011) at (0,-2.6) {$011$};
+  \node[bad] (111) at (-6,-2.6) {$111$};
+  \draw[flow, <->] (000) -- (100);
+  \draw[flow, <->] (000) -- (010);
+  \draw[flow, <->] (000) -- (001);
+  \draw[flow, <->] (010) -- (110);
+  \draw[flow, <->] (001) -- (101);
+  \draw[flow, <->] (100) -- (101);
+  \draw[flow, draw=cLoss, dashed] (001) -- (011);
+  \draw[flow, draw=cLoss, dashed] (011) -- (111);
+  \node[note, anchor=north] at (0,-3.2) {کلید، جداکننده، کلیدِ زمین؛ ۱ یعنی بسته. سرخ: حالتِ ممنوع، فقط با منطقِ معیوب};
+\end{tikzpicture}}
+\end{document}

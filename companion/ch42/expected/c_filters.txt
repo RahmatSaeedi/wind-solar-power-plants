@@ -1,0 +1,12 @@
+gearbox oil: particles left when a filter of ratio beta runs in
+  the loop (relative to the beta 10 filter, same ingress)
+  beta    removed a pass   particles at balance (relative)
+     10            90.0%                              1.00
+     75            98.7%                              0.91
+    200            99.5%                              0.90
+   1000            99.9%                              0.90
+  at balance, what enters equals what the filter takes out:
+  a finer filter changes the level only a little once it
+  removes most particles - keeping dirt out (seals,
+  breathers, clean filling at the factory) matters more;
+  the oil sample at the end of the run-in is a release record

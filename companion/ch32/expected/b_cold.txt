@@ -1,0 +1,6 @@
+cold at nacelle height: wind-chill temperature (data-pack year)
+  coldest wind chill -20.7 C; hours below -10 C: 175, below -20 C: 3
+  the ground minimum was -8.6 C (ch 29); a technician on the
+  nacelle roof in a winter wind feels far colder - clothing,
+  time on the roof and a warm refuge are planned for it, and
+  turbines stopped for work make no heat in the nacelle

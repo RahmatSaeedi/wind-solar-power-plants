@@ -1,0 +1,12 @@
+first-article package of the bought frames
+  [x] dimensional report against the drawing
+  [x] material certificates (steel grade)
+  [x] weld procedure and welder qualifications
+  [x] coating thickness report
+  [ ] process flow and control plan
+  [ ] capability of key dimensions
+  [ ] measurement-system study of the gauge
+  [x] lift-lug load test
+  3 of 8 missing - the first frame passes,
+  but the process behind it is not yet shown: release for
+  the order waits for the control plan and the capability

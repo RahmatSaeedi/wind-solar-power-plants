@@ -1,0 +1,10 @@
+E01 kp 1, ki 0.5, tau 2 s: wn 0.50 rad/s, zeta 1.00
+E02 5 % droop on 60 MW at 50.2 Hz: -4.8 MW
+E03 Q limit of 5.5 MVA at 5 MW, cap 0.33: 1.82 Mvar
+E04 floor for 10 MW x 0.5 h: 9.39 MWh
+E05 curtailment 96 - 80 = 16 MW; wind share of 60/36: 10.0 MW
+E06 penalty schedule 50, delivery 44: 180 u
+E07 three units 5 MW, 1 Hz droop, 3 MW load: f = 49.80 Hz
+E08 slip 0.2 Hz, window +-15 deg: 0.417 s in window
+E09 battery 5 MW discharging, 5.5 MVA: Q up to 2.29 Mvar
+E10 ramp 3 MW/min, drop of 12 MW: battery 9 MW in minute 1

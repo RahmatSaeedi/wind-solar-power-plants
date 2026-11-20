@@ -1,0 +1,4 @@
+thermal offset of a single-dome pyranometer (A-248, teaching):
+  -4 W/m2 in daylight, 4,660 daylight hours: -18.6 kWh/m2 (-0.96 % of GHI)
+  the night readings show it (negative values at night, flag 8);
+  a ventilated, double-dome or heated instrument keeps it small

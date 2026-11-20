@@ -1,0 +1,13 @@
+the diagram types of a SCADA design and the question each answers
+  diagram                    answers
+  physical topology          where are the boxes and cables?
+  logical topology           who can talk to whom, in which subnet?
+  communication path         which hops does one message take?
+  interface / data flow      which data cross which boundary?
+  point-to-point wiring      which terminal goes to which?
+  zones and conduits         where are the security boundaries? (ch 36)
+  redundancy / failover      what happens when this link fails?
+  time synchronisation       where does each clock get its time?
+  no single drawing answers all of these; each is a
+  controlled document with an owner, and the same device
+  carries the same tag on every one of them (lesson F)

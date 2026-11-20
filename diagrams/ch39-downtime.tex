@@ -1,0 +1,18 @@
+% Chapter 39 - share of 2,000 simulated years by inverter downtime (25 h bins, drawn as steps),
+% with spares on site and with parts at a depot, against the weighted budget of 153 h
+% (diagrams/data/ch39-downtime.csv from companion/ch39/examples_t.py, t_service; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=600, ymin=0, ymax=0.42,
+      xlabel={ساعتِ ازکارافتادگیِ اینورتر در سال}, ylabel={سهمِ سال‌ها},
+      xtick={0,100,...,600},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sBESS, const plot mark left] table[x=h, y=site, col sep=comma] {data/ch39-downtime.csv};
+    \addplot[sLoss, const plot mark left] table[x=h, y=depot, col sep=comma] {data/ch39-downtime.csv};
+    \legend{یدکی در ساختگاه, قطعه در انبارِ مرکزی}
+    \draw[sLimit] (axis cs:153,0) -- (axis cs:153,0.40);
+    \node[note, anchor=south west] at (axis cs:158,0.33) {بودجه: ۱۵۳ ساعت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

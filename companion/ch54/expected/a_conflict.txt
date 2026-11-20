@@ -1,0 +1,9 @@
+one parameter, several sources: the range every source allows
+  parameter                  min   max result   sources
+  power factor at POC       0.95     - ok       Z-001,Z-002,Z-003
+  ramp rate                    -     8 ok       Z-004,Z-005
+  night noise at dwellings     -    40 ok       Z-006,Z-007,Z-008
+  ride-through at 0 pu       150   100 CONFLICT Z-009,Z-010
+  conflicts: ride-through at 0 pu - no design satisfies both; the
+  answer is a written clarification (CQ-01), not an engineer's
+  choice of the convenient source

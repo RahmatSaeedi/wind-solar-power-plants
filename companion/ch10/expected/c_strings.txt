@@ -1,0 +1,13 @@
+string limits (data-pack minimum air -8.6 C; design low -15 C,
+  hot cell 72 C; A-190):
+  modules   V_oc at -15 C   V_mp at 72 C   1500 V   933 V floor
+       24          1326 V          848 V   ok       below
+       25          1381 V          883 V   ok       below
+       26          1436 V          918 V   ok       below
+       27          1492 V          954 V   ok       ok
+       28          1547 V          989 V   EXCEEDS  ok
+  string current bound at 1200 W/m2 and 72 C: 17.09 A
+  26 modules keep 1500 V with margin; 27 is close and leaves
+  no room for a colder winter or for low-light V_oc errors;
+  at a 72 C cell the 26-module V_mp is 15 V below the floor: a
+  static worst case; the year shows how rare it is (c_window)

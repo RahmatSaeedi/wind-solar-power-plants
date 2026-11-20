@@ -1,0 +1,12 @@
+region 2 tracking in turbulent wind (1800 s, AR(1) time scale 10 s, A-228):
+  mean m/s  TI    inertia   captured / ideal   tracking loss
+   6.0      0.10  J         0.9927             0.73 %
+   6.0      0.10  J/4       0.9976             0.24 %
+   7.0      0.10  J         0.9933             0.67 %
+   7.0      0.10  J/4       0.9976             0.24 %
+   7.0      0.16  J         0.9843             1.57 %
+   7.0      0.16  J/4       0.9953             0.47 %
+  the energy stored in the rotor at the end is counted back;
+  a heavier rotor follows the gusts later and loses more, yet
+  the loss stays small: the rotor-averaged wind is smooth
+  compared with the rotor's time constant of a few seconds

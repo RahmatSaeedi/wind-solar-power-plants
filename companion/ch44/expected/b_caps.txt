@@ -1,0 +1,9 @@
+12 film capacitors in parallel on one DC link: ESR spread +-15%,
+  busbar path up to 10% longer
+  current share relative to an even split: 1.22, 1.08, 0.97, 0.88, 1.17, 1.04
+                                           0.93, 0.85, 1.13, 1.01, 0.90, 0.82
+  hottest capacitor: 1.22 x the even current, 1.20 x the heat
+  hot-spot rise 12.0 K instead of 10 K: life x 0.87 (10 K halves it, ch 9)
+  the capacitor nearest the switches works hardest: layout
+  equalises the paths, and incoming checks keep the ESR
+  spread inside the maker's class

@@ -1,0 +1,25 @@
+% =====================================================================
+%  FIGURE TEMPLATE — tools/new_figure.py copies this to chNN-your-name.tex.
+%  Farsi (RTL) labels + LTR math/English; vector output (PDF + SVG).
+%
+%  Build (do NOT use bare `lualatex` / `standalone`):
+%     python tools/build_diagrams.py 'chNN-your-name'   # -> .pdf + .svg
+%
+%  The preamble (engine, fonts, colours, styles) is shared: diagrams/_preamble.tex.
+%   * Entity colours: cWind, cPV, cBESS, cLoad, cLoss; text is cInk / cInkB.
+%   * Blocks: blk, blkWind, blkPV, blkBESS, blkLoad, blkWarn; arrows: flow, flowinfo.
+%   * Plots: \begin{axis}[plantp, ...]; series: sWind, sPV, sBESS, sLoad, sLoss, sInk, sLimit.
+%     Two or more series -> legend AND a direct label on each line; one y-axis only.
+%   * Circuits: circuitikz is loaded (IEC/european symbols).
+%   * Persian node text "just works"; English and $math$ stay left-to-right.
+%     Inline math with a relation inside a Persian node: \mbox{$V=RI$}.
+%   * Keep the WHOLE tikzpicture inside \babelsublr{...}.
+% =====================================================================
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+
+  \node[blk] {متنِ نمونه — replace me};
+
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+a dusty clear day, 23 June (A-249: beam -30 %, a third of the lost
+beam reappears as diffuse):
+  GHI 8.80 -> 7.36 kWh/m2 (-16.3 %)
+  DNI 10.43 -> 7.30 kWh/m2 (-30 %)
+  POA 25 deg 8.03 -> 6.77 kWh/m2 (-15.7 %)
+  GHI falls about half as much as DNI: dust shows most clearly in
+  DNI and in the diffuse fraction; trackers (beam) lose more than
+  fixed fronts, and the modules get dirty too

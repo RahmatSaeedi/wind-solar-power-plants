@@ -1,0 +1,13 @@
+the soiling rate is uncertain (x 0.5, x 1, x 1.5) and the truck
+  may clean worse (removal 0.80 instead of 0.95): net u a year
+  policy                 rate x0.5   x1.0     x1.5    x1.0, truck 0.80
+  no cleaning                   0         0         0           0
+  truck every 30 d         -8,698   179,163   367,025     140,557
+  truck every 14 d       -196,825    32,230   261,285       7,504
+  manual dry every 10 d  -236,689    -1,635   233,420      -1,635
+  robot every 12 d        133,092   364,464   595,837     364,464
+  truck at 4 % loss        91,833   220,265   377,758     175,833
+  best at every rate: robot every 12 d (before its capital)
+  the top two (robot, trigger) hold over the range: robust; with half
+  the rate no fixed calendar pays at all, which is why the
+  station data (and the trigger) come before the contract

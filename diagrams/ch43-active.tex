@@ -1,0 +1,32 @@
+% Chapter 43 - half cross-section of one limb of the reviewer's design: core (radius 319 mm), gap 25 mm,
+% LV winding 65 mm, main gap 75 mm with three pressboard barriers, HV winding 110 mm; winding height
+% 2.05 m (radial dimensions to scale 1:5, height shortened); companion/ch43/sources.py DESIGN.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small, x=0.2mm, y=0.2mm]
+  % core half (radius 319), shown 0..319
+  \fill[cInk!12] (0,0) rectangle (319,300);
+  \node[note] at (160,150) {ستونِ هسته};
+  % LV winding 344..409
+  \fill[cWind!18, draw=cWind] (344,20) rectangle (409,280);
+  \node[note, rotate=90] at (376,150) {فشارِ ضعیف};
+  % barriers in the main gap 409..484
+  \foreach \b in {425, 446, 467} {\draw[cPV, line width=0.8pt] (\b,10) -- (\b,290);}
+  % HV winding 484..594
+  \fill[cLoad!14, draw=cLoad] (484,20) rectangle (594,280);
+  \node[note, rotate=90] at (539,150) {فشارِ قوی};
+  % dimensions
+  \draw[dimline] (319,-25) -- (344,-25);
+  \draw[dimline] (344,-25) -- (409,-25);
+  \draw[dimline] (409,-25) -- (484,-25);
+  \draw[dimline] (484,-25) -- (594,-25);
+  \node[note, anchor=north] at (331,-30) {۲۵};
+  \node[note, anchor=north] at (376,-30) {۶۵};
+  \node[note, anchor=north] at (446,-30) {۷۵};
+  \node[note, anchor=north] at (539,-30) {۱۱۰};
+  \node[note, anchor=north] at (300,-70) {اندازه‌ها به میلی‌متر؛ ارتفاعِ سیم‌پیچ‌ها ۲۰۵۰ میلی‌متر، کوتاه‌شده};
+  \node[note, anchor=south, text=cPV] at (446,292) {سه مانعِ پرس‌بورد};
+  \draw[cInkB, densely dashed] (0,-5) -- (0,310);
+  \node[note, anchor=south] at (0,312) {محور};
+\end{tikzpicture}}
+\end{document}

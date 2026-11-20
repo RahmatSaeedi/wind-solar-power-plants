@@ -1,0 +1,7 @@
+register rev A: 77 records, validation issues: 0
+  by system: BES 1, INV 10, MET 4, PLT 1, PVB 10, SUB 1, SWG 1, TRF 1, WTG 48
+  levels: plant 1, system-level items 37, components 39
+  criticality: A 51, B 26
+  most children: PLP-PLT-01 with 25
+tag = PLP-<system>-<nn>[-<component>], e.g. PLP-WTG-07-GEN (teaching scheme,
+    A-094)

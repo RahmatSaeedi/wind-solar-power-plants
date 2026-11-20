@@ -1,0 +1,13 @@
+set-point sources of the plant controller (teaching; ch 20 priorities)
+  source                   set points                       priority
+  grid operator (RTU)      export limit, Q or V set point   1
+      status: required (placeholder)
+  service call (REQ-S01)   upward reserve 5 MW, 18-22 h     2
+      status: hypothetical
+  EMS schedule             battery plan, export plan        3
+      status: project
+  local operator           test values, maintenance limits  by permit
+      status: project
+  safety and protection sit above all of them; a source
+  that is neither required nor permitted is not wired in
+  'in case' - an unused input is a door left open (ch 36)

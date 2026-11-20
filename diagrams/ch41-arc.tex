@@ -1,0 +1,16 @@
+% Chapter 41 - normal-incidence reflectance of polished silicon against wavelength: bare in air, a
+% 75 nm coating of index 2.0 in air (minimum at 600 nm) and a 75 nm coating of index 2.2 under the
+% encapsulant (diagrams/data/ch41-arc.csv from companion/ch41/examples_b.py, b_arc; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=400, xmax=1100, ymin=0, ymax=55,
+      xlabel={طولِ موج (نانومتر)}, ylabel={بازتاب (درصد)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sLoss] table[x=lam, y=bare, col sep=comma] {data/ch41-arc.csv};
+    \addplot[sPV] table[x=lam, y=air, col sep=comma] {data/ch41-arc.csv};
+    \addplot[sWind] table[x=lam, y=encap, col sep=comma] {data/ch41-arc.csv};
+    \legend{بی‌پوشش، هوا, پوشش ۲٫۰، هوا, پوشش ۲٫۲، زیرِ کپسوله‌کننده}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

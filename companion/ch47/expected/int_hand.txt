@@ -1,0 +1,6 @@
+three numbers of this chapter checked by hand
+  CEV of P105 = 0.20 + 1.55/6 + 0.10/5 + 0.10/15 = 0.485 (code 0.485)
+  32 mm bar: 32^2/162 = 6.32 kg/m (code 6.32)
+  one can of section 1: pi x 4.31 m x 46 mm x 2.5 m x 7850 = 12.2 t
+  ten cans make the 122 t shell of lesson A; a hand check of one
+  number per formula protects every table that uses it

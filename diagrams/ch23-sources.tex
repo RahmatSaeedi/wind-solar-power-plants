@@ -1,0 +1,22 @@
+% Chapter 23 - sources of the plant's AC auxiliary supply: own 33 kV bus through the two station-
+% service transformers, a local 11 kV distribution feeder (third party, option), the standby
+% diesel; UPS and DC battery bridge the first minutes. Hours a year without AC from
+% companion/ch23/examples_r.py sources(). Teaching sketch, flows right to left.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    el/.style={blk, minimum width=27mm, minimum height=12mm, text width=26mm, font=\footnotesize}]
+  \node[el] (own) at (12,1.6) {شینهٔ $33\,\text{kV}$ خودی\\دو ترانسفورماتورِ خدمات};
+  \node[el, draw=cLoad, fill=cLoad!8] (dist) at (12,0) {فیدرِ توزیعِ محلی\\شخصِ ثالث، اختیاری};
+  \node[el] (dg) at (12,-1.6) {دیزلِ اضطراری\\سوخت برای ساعت‌ها};
+  \node[el, minimum height=30mm] (board) at (7,0) {تابلوی $0.4\,\text{kV}$\\بارهای ضروری و غیرضروری\\قطعِ بار به ترتیبِ اولویت};
+  \node[el, draw=cBESS, fill=cBESS!8] (ups) at (2,0.9) {UPS\\SCADA، کنترلِ نیروگاه، مخابرات};
+  \node[el, draw=cBESS, fill=cBESS!8] (dc) at (2,-0.9) {باتریِ $110\,\text{V}$\\حفاظت و قطع};
+  \draw[flow] (own.west) -- (board.east |- own.west);
+  \draw[flow] (dist.west) -- (board.east);
+  \draw[flow] (dg.west) -- (board.east |- dg.west);
+  \draw[flow] (board.west |- ups.east) -- (ups.east);
+  \draw[flow] (board.west |- dc.east) -- (dc.east);
+  \node[note, text width=150mm] at (7,-3.0) {ساعت در سال بی‌برقِ AC (آموزشی): فقط شینهٔ خودی $4.5$؛ با فیدرِ توزیع $0.004$؛ با دیزل $0.09$. UPS و باتری دقیقه‌های نخست را پل می‌زنند};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,15 @@
+GCZ text in force on the filing date 2026-05-10 and on first
+energisation 2028-03-01 (base 2024 + amendments)
+  6.2: filing   A1   pf 0.95 at the POC from 10 to 100 % of rated P
+       energise A1   pf 0.95 at the POC from 10 to 100 % of rated P
+  7.1: filing   2024 ramp at most 10 %/min of rated P
+       energise A2   ramp at most 8 %/min above 50 MW
+  8.4: filing   2024 stay connected 150 ms at 0 pu retained voltage
+       energise 2024 stay connected 150 ms at 0 pu retained voltage
+  9.3: filing   -    not yet in force
+       energise A2   4-second telemetry of P, Q, U at the POC
+  clauses that differ between the two readings: 7.1, 9.3
+  the transitional clause does not say which date fixes the
+  text - CQ-04 asks it; meanwhile the design takes the
+  stricter text where it is cheap (8 %/min is a setting) and
+  records where it is not (4-second telemetry is a contract)

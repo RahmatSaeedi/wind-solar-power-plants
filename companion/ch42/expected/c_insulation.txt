@@ -1,0 +1,9 @@
+generator winding: hot spot over the data-pack year (teaching:
+  air + 20 K nacelle + 95 K x load^2; designed for 20 years at 120 C)
+  hottest hour 154 C; hours above 120 C: 1035
+  life used a year 3,108 h-equivalent: insulation life 56 years
+  10 K hotter everywhere (a blocked filter): 28 years
+  most hours run at part load, so the winding outlives its
+  design point; a cooling fault halves that life - margin
+  gone, not yet a failure: winding temperature sensors are a
+  factory-tested, monitored item

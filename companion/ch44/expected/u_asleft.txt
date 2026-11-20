@@ -1,0 +1,11 @@
+one inverter's parameter set from the factory to the end of
+  commissioning (teaching)
+  released at the factory      7a46617a1a47d4d4
+  authorised site changes      d0fbe4c4361e43f2
+    (droop 4 -> 5 %, ramp 10 -> 8 %/s)
+  read back after commissioning fc00a51e511d8a74
+  as left vs authorised: island_detect = off
+  two changes were asked for by the grid operator and signed;
+  the third was left over from an islanding test - the record
+  compares the read-back with the authorised set, not with
+  the factory set, which no longer applies (ch 50)

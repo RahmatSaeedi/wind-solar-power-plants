@@ -1,0 +1,17 @@
+constriction resistance of a bolted joint (Holm), micro-ohm
+  force kN   Al 1 spot   Al 10 spots   Cu 1 spot   Cu 10 spots
+         5        7.02          2.22        6.10          1.93
+        10        4.96          1.57        4.31          1.36
+        20        3.51          1.11        3.05          0.96
+        40        2.48          0.78        2.16          0.68
+  resistance falls as 1 / sqrt(force) and with the number of
+  spots: a clean, flat, well-tightened face makes many spots;
+  an oxide film on aluminium adds far more than the table and
+  is broken by the contact preparation the maker specifies
+  heat in one phase of a lug at 368 A (string WS1, W001):
+     10 micro-ohm:   1.4 W
+     30 micro-ohm:   4.1 W
+    100 micro-ohm:  13.5 W
+  the bad joint heats ten times more - and its heat oxidises the
+  faces, which raises the resistance further: a joint drifts
+  one way, so a torque mark and a thermal image are kept (ch 24)

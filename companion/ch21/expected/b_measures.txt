@@ -1,0 +1,13 @@
+economic and financial measures of the base case (nominal):
+  project IRR after tax, unlevered     7.84 %
+  NPV at the 7.5 % WACC                 5,159 k u
+  equity IRR                          10.22 %  (cost of equity 10 %)
+  debt 121,025 k u at 6.0 %, gearing 71 %
+  the project earns more than the debt costs, so leverage
+  lifts the equity return above the project return; the NPV
+  asks whether value is created, the equity IRR whether the
+  owners are paid for their risk - two questions
+a cash flow with two sign changes (-100, +230, -132):
+  IRR 10.0 % and IRR 20.0 % both make NPV zero:
+  a decommissioning cost or a late replacement can do this;
+  report NPV at a stated rate, not only IRR

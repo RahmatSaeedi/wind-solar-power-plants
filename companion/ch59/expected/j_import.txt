@@ -1,0 +1,9 @@
+field values the CMMS import must carry for four classes (teaching)
+  class        assets fields  values
+  inverter         10      9      90
+  transformer      12      8      96
+  turbine          12      8      96
+  relay            24      6     144
+  total 426 values on 58 assets; at the rate of the sample
+  register (3 problems in 10 rows) about 17 rows would
+  carry a problem - the validation runs on every row

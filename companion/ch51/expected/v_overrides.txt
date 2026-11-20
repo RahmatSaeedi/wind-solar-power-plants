@@ -1,0 +1,12 @@
+overrides and temporary changes open on the last day (review after 14 days)
+  alarm inhibit T07 pitch battery      41 days  approved
+  forced value PVF2 irradiance          3 days  approved
+  bypass: BESS-A door switch           19 days  NOT APPROVED
+  alarm inhibit SST fan                76 days  approved
+  temporary jumper in WS3 panel        12 days  NOT APPROVED
+  PPC Q limit 30.6 Mvar               120 days  approved
+  4 older than 14 days, 2 never approved: a
+  bypassed door switch is a battery safety function out of
+  service - an impairment with its own permit; the Q limit is
+  not temporary at all and belongs in the limit register
+  (round t) and the deviation DEV-11

@@ -1,0 +1,21 @@
+% Chapter 6 — current as charge crossing a cross-section per unit time.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % conductor
+  \draw[cInkB, line width=0.7pt, fill=cFill] (0,0) rectangle (9,1.6);
+  \draw[cInkB, line width=0.7pt, fill=cWind!12] (4.5,0.8) ellipse (0.28 and 0.8);
+  \node[note, anchor=south] at (4.5,1.75) {سطحِ مقطع $A$};
+  % charges
+  \foreach \x/\y in {0.8/0.4, 1.6/1.2, 2.5/0.7, 3.4/1.1, 5.6/0.5, 6.4/1.2, 7.3/0.6, 8.2/1.0}{
+    \fill[cWind] (\x,\y) circle (0.11);
+    \draw[-{Stealth[length=1.6mm]}, cWind, line width=0.6pt] (\x+0.15,\y) -- (\x+0.6,\y);
+  }
+  \node[note, text=cWind, anchor=north] at (2.1,-0.1) {حامل‌های بار با سرعتِ رانشِ $v_\text{d}$};
+  % conventional current arrow
+  \draw[flow, line width=1.1pt] (9.4,0.8) -- (11.0,0.8) node[note, text=cInk, midway, above] {جهتِ قراردادیِ جریان $I$};
+  % definition
+  \node[note, text=cInk, anchor=north, align=center] at (4.5,-1.0)
+       {$I = \dfrac{\Delta Q}{\Delta t}$ \quad ($1\,\text{A} = 1\,\text{C/s}$)};
+\end{tikzpicture}}
+\end{document}

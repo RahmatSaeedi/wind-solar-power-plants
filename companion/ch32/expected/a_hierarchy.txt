@@ -1,0 +1,11 @@
+controls up the hierarchy for one hazard (teaching scores)
+  step                                              L  S  score  band
+  hazard: tool dropped from the nacelle             3  5     15  high
+  reduce: tools tethered, carried in closed bags    2  5     10  high
+  engineer: exclusion zone under the turbine        1  5      5  medium
+  administrate: permit names the zone, door watch   1  5      5  medium
+  protect: helmets for anyone who must enter        1  4      4  low
+  controls are chosen from the top of the hierarchy down; the
+  residual 4 (low) holds only while the tethers, the zone and
+  the permit hold every day - helmets alone would have left
+  12 (high), with the likelihood untouched

@@ -1,0 +1,15 @@
+capstone dossier basis of Plant P (D-063):
+  1 the 14-item dossier is rebuilt from the chapters (263 documents,
+    62 decisions, 134 unknowns named); nothing is retyped
+  2 energy P50 295.1 GWh, P90 one year 275.9 GWh at the POC
+  3 economics: equity IRR 10.2%, min DSCR 1.20, LCOE 68.0 u/MWh
+  4 schedule 63 months to COD; wind campaign, permits and
+    turbines on the critical path
+  5 every major decision defended with evidence, uncertainty and
+    approver; four change cases recomputed
+  6 reliability, forecasting, export, finance, social and handover
+    cases each with a computed check and an open-item list
+  7 the base case books no service revenue; S0 keeps space for a
+    later battery (D-025)
+  8 every country use goes through its appendix (ch 55-57) and a
+    qualified local review

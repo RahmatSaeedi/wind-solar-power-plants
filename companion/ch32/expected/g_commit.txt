@@ -1,0 +1,12 @@
+what kind of commitment each item is (teaching, not legal advice)
+  item                                    kind           set by
+  pay, hours, rest days, safe workplace   law            law, counsel
+  worker grievance channel                lender         loan (STD-108)
+  accommodation standards                 lender         loan
+  community grievance mechanism           lender+own     ESMP (ch 33)
+  local hiring share 40 %                 project        community deal
+  school-hour truck hold                  project        village deal
+  security conduct, use of force          law, lender    counsel, loan
+  keeping the kinds apart matters: a legal duty cannot be
+  traded away, a lender condition is a covenant of the loan,
+  and a project promise is kept because trust depends on it

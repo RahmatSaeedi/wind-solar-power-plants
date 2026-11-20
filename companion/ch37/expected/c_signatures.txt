@@ -1,0 +1,13 @@
+the daily signature of each suspect month (synthetic)
+  April: actual/model falls 0.20 % a day, all month, all
+    blocks alike, back to normal after the cleaning: SOILING
+  June: actual/model 0.898 for 9 days, 1.001 otherwise - a step
+    of a tenth, block B07 at zero in its own data: INVERTER OUTAGE
+  August: 40 hours held at the 80 MW limit, 163 MWh not
+    taken; the set-point log shows the grid operator's limit:
+    CURTAILMENT - an external loss, excluded from availability
+  October: PR on the plant's sensor 0.930 against 0.856
+    on the reference sensor for 20 days, energy unchanged:
+    SENSOR FAULT - the plant is fine, the pyranometer is not
+  each cause leaves a different shape: a slope, a step, a
+  flat top, a jump in PR without a jump in energy

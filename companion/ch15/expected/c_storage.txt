@@ -1,0 +1,6 @@
+the S1 battery on the curtailment (20 MW, 32 MWh usable, 86 %):
+  curtailed without storage 227 MWh
+  stored 227 MWh, released 195 MWh (losses 32 MWh)
+  the curtailment of this plant is small, so a battery sized
+  for it would sit idle: its value lies elsewhere (shifting,
+  reserve, firm delivery, chapters 17-19)

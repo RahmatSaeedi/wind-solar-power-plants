@@ -1,0 +1,8 @@
+common-mode current through stray capacitance, dv/dt 5 kV/us (A-163):
+  cable to ground, 100 m x 0.3 nF/m      30 nF ->    150 A pulses
+  motor winding to frame                 10 nF ->     50 A pulses
+  pulses last tens of nanoseconds but their high-frequency
+  content radiates and couples: shielded cables bonded at both
+  ends, common-mode chokes, short return paths and slower
+  edges (three levels, gate resistance) keep emissions within
+  the limits of the EMC standards

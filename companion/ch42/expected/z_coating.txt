@@ -1,0 +1,8 @@
+leading-edge coating, 20 readings a blade (nominal 500 um; teaching rule:
+  mean at least nominal and no reading below 80 %)
+  blade    mean um   lowest um   verdict
+  B-131       567         514   accept
+  B-132       557         490   accept
+  B-133       536         365   recoat
+  B-133's mean passes; three thin readings in one patch do not
+  - erosion starts at the thinnest place, not at the mean (ch 11)

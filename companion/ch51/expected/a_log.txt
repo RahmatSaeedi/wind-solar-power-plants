@@ -1,0 +1,5 @@
+a week of operating log entries per hour: 287 entries, 21 silent hours
+  silent hours between 00:00 and 06:00: 7 of 21
+  a silent hour is not proof that nothing happened: the log
+  records at least the hourly round (plant state, alarms,
+  limits) so that 'nothing' is written, not assumed

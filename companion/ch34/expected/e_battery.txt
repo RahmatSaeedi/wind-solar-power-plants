@@ -1,0 +1,8 @@
+the 24 V control loads on the 110 V battery (teaching)
+  24 V loads: 465 W through a 90 % converter = 4.7 A at 110 V
+  standing load 40 A (ch 23) -> 44.7 A if not yet counted
+  autonomy of 250 Ah at 80 % usable: 5.0 h -> 4.5 h
+  still above the 4 h requirement, with less margin: the
+  control designer's load list goes back to the battery
+  sizing of ch 23 so that no load is counted twice or
+  missed - an interface, owned by one engineer

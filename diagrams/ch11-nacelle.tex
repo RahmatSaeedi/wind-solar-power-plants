@@ -1,0 +1,34 @@
+% Chapter 11 - conceptual side view of a geared nacelle (D-011): rotor hub, main bearing and
+% shaft, three-stage gearbox, coupling and brake, generator, converter; yaw system on the tower.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{c/.style={blk, minimum height=12mm, text width=16mm, align=center}}
+  % hub and blade roots
+  \fill[cWind!15, draw=cWind] (0,0) ellipse (0.9 and 1.4);
+  \draw[cWind, line width=4pt] (0,1.3) -- (0,3.0);
+  \draw[cWind, line width=4pt] (0,-1.3) -- (0,-2.6);
+  \node[note, text=cWind, anchor=east] at (-1.0,0) {توپی و ریشهٔ پره‌ها};
+  % nacelle components
+  \node[c, minimum width=18mm] (mb) at (2.2,0) {یاتاقانِ اصلی و محور};
+  \node[c, minimum width=22mm] (gb) at (4.6,0) {جعبه‌دنده};
+  \node[c, minimum width=12mm, text width=11mm] (cb) at (6.6,0) {کوپلینگ و ترمز};
+  \node[c, minimum width=20mm] (gen) at (8.6,0) {ژنراتور};
+  \node[blkLoad, minimum width=18mm, minimum height=12mm, text width=16mm] (cv) at (11.0,0) {مبدّل};
+  \draw[cInk, line width=2pt] (0.9,0) -- (mb.west); \draw[cInk, line width=2pt] (mb.east) -- (gb.west);
+  \draw[cInk, line width=1.2pt] (gb.east) -- (cb.west); \draw[cInk, line width=1.2pt] (cb.east) -- (gen.west);
+  \draw[cInk] (gen.east) -- (cv.west);
+  % bedplate, housing, yaw
+  \draw[cInkB, line width=1.5pt] (1.2,-1.0) -- (12.2,-1.0);
+  \node[note, anchor=north] at (9.5,-1.3) {شاسی: بخشِ جلو چدنی، بخشِ پشت جوشی};
+  \draw[boundary] (1.0,-1.25) rectangle (12.4,1.25);
+  \node[note, anchor=south east] at (12.4,1.25) {پوستهٔ ناسل};
+  \fill[cMuted!40, draw=cInkB] (3.6,-1.45) rectangle (5.6,-1.15);
+  \node[note, anchor=north] at (4.6,-1.5) {یاتاقان و محرک‌های یاو};
+  \draw[cInkB, line width=1pt] (3.9,-1.45) -- (3.7,-3.2) (5.3,-1.45) -- (5.5,-3.2);
+  \node[note, anchor=north] at (4.6,-3.2) {برج};
+  % labels below
+  \node[note, anchor=south, text width=40mm] at (8.6,1.3) {سرعتِ زیاد: حدودِ $1155\ \text{rpm}$};
+  \node[note, anchor=south, text width=40mm] at (2.6,1.3) {سرعتِ کم: تا $11.5\ \text{rpm}$};
+\end{tikzpicture}}
+\end{document}

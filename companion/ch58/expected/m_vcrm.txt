@@ -1,0 +1,26 @@
+verification cross-reference matrix: PV inverter (teaching)
+  INV-01 safety of the converter  [STD-044]
+      test, type stage: type-test report
+  INV-02 islanding prevention  [STD-048]
+      test, type stage: OPEN
+  INV-03 output at 45 C ambient  [spec]
+      test, factory stage: heat run record
+  INV-04 efficiency curve  [STD-049]
+      test, type stage: efficiency report
+  INV-05 EMC emission and immunity  [STD-052]
+      test, type stage: EMC report
+  INV-06 reactive capability at the terminals  [spec]
+      test, factory stage: OPEN
+  INV-07 firmware version as approved  [spec]
+      inspection, site stage: configuration record
+  INV-08 enclosure protection  [STD-119]
+      test, type stage: IP report
+  INV-09 plant reactive power at the POC  [grid]
+      analysis, study stage: model report
+  INV-10 plant ride-through  [grid]
+      demonstration, site stage: OPEN
+  methods: test 7, inspection 1, analysis 1, demonstration 1
+  stages: type 5, factory 2, site 2, study 1
+  open: INV-02, INV-06, INV-10
+  every requirement has one method and one stage; a row with
+  no evidence is a decision someone must still make

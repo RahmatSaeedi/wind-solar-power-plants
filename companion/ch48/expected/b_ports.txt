@@ -1,0 +1,14 @@
+switch SW-T05: port schedule as designed against the as-built file
+  missing: -
+  extra:   SW-T05:8
+  changed: SW-T05:4 vlan 30 -> 20
+  changed: SW-T05:5 far T05-CCTV -> T05-MET
+  changed: SW-T05:5 vlan 40 -> 20
+  changed: SW-T05:6 far T05-MET -> T05-CCTV
+  changed: SW-T05:6 vlan 20 -> 40
+  ports 5 and 6 swapped: the met station sits in the CCTV
+  VLAN and the camera in the control VLAN; the CMS on port 4
+  joined the control VLAN; and port 8 carries a laptop in the
+  default VLAN - a service connection left in; each one breaks
+  a zone of ch 36 without changing a single cable's colour
+  - the as-built file is compared with the design, port by port

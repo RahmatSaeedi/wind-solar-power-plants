@@ -1,0 +1,18 @@
+% Chapter 24 - rating of the teaching 132 kV conductor (75 C, sun 1000 W/m2) against wind speed
+% for air at 25, 35 and 45 C; data diagrams/data/ch24-ohl.csv from companion/ch24/examples_m.py.
+% The plant's 437 A drawn as a reference line.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=105mm, height=64mm, xmin=0, xmax=3, ymin=250, ymax=800,
+      xlabel={سرعتِ باد $(\text{m}/\text{s})$}, ylabel={جریانِ مجاز $(\text{A})$}, xmajorgrids=true,
+      legend columns=3]
+    \addplot[sWind] table[x=v, y=t25, col sep=comma] {data/ch24-ohl.csv};
+    \addplot[sPV] table[x=v, y=t35, col sep=comma] {data/ch24-ohl.csv};
+    \addplot[sLoss] table[x=v, y=t45, col sep=comma] {data/ch24-ohl.csv};
+    \legend{هوای $25\,^\circ\text{C}$, هوای $35\,^\circ\text{C}$, هوای $45\,^\circ\text{C}$}
+    \draw[sLimit] (axis cs:0,437) -- (axis cs:3,437);
+    \node[note, anchor=south east] at (axis cs:2.95,440) {صادراتِ نیروگاه $437\,\text{A}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

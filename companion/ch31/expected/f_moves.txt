@@ -1,0 +1,11 @@
+moving the main crawler crane to the next pad (teaching)
+  distance m   walk h (0.5 km/h + mats)   dismantle-move-rebuild h
+         400                        1.8                         61
+         600                        2.7                         61
+         900                        4.0                         62
+        1500                        6.8                         63
+  walking on a prepared track is far quicker up to about a
+  kilometre, but it needs the track built for the crane's
+  ground pressure, a gentle slope and no overhead line -
+  the layout of ch 14 and the roads of ch 29 decide which
+  pads are 'walkable'; the others cost two and a half days

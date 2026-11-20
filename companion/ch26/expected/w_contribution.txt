@@ -1,0 +1,12 @@
+what the plant adds to the grid's fault level at the 132 kV bus
+  grid alone 5.2 kA; plant 105 MVA of converters
+  converter fault current x rated   plant kA at 132 kV   total kA   rise
+                              1.0                 0.46       5.66     9%
+                              1.2                 0.55       5.75    11%
+                              1.5                 0.69       5.89    13%
+  a converter plant adds about a tenth to the grid's fault
+  level here - a synchronous plant of the same size would add
+  several times more; the operator's study (ch 28) needs the
+  makers' fault-current models (positive and negative
+  sequence, timing) to check its own breakers and relays,
+  and the plant's 132 kV gear is rated on the total

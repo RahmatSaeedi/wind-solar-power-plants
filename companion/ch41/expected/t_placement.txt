@@ -1,0 +1,8 @@
+cracked strings in 109,200 modules: 655 (teaching 0.6%)
+  EL placed                       cost k u   escapes
+  before lamination, and after         4.2       1.6
+  after lamination only               59.1      32.8
+  a crack found before lamination costs a string repair; one
+  found after costs a scrapped module - the pre-lamination
+  image pays for itself many times over, and the final image
+  still catches what lamination itself cracks

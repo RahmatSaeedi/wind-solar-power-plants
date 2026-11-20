@@ -1,0 +1,8 @@
+filling two-hour gaps by interpolating the clearness index:
+  344 daylight hours removed and filled
+  bias -12.1 W/m2, RMSE 32.0 W/m2
+  energy of the filled hours: true 196.4, filled 192.2 kWh/m2
+  interpolating GHI itself would ignore the sun's path; the
+  clearness index carries the weather, the geometry is known
+  gaps longer than a few hours are filled from a second source
+  (provider series), and every filled value keeps its flag

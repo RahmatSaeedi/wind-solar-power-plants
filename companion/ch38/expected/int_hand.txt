@@ -1,0 +1,6 @@
+two design-control results checked by hand
+  SPI = 3,012 / 4,451 = 0.68; code 0.68
+  CPI = 3,012 / 3,553 = 0.85; EAC = 7,342 / CPI = 8,661 h
+  chance a 20-drawing sample of 200 finds one of 6 errors: 0.473; code 0.473
+  the hand check of EAC catches the common slip of dividing
+  by SPI instead of CPI: hours are a cost, not a date

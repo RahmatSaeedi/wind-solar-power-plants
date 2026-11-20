@@ -1,0 +1,7 @@
+two plants like Plant P in one portfolio (one year):
+  r of years   portfolio sigma %   P90 of the sum / 2 x single P90
+        0.0        3.59 %          1.0204
+        0.5        3.92 %          1.0159
+        0.9        4.17 %          1.0125
+  plants far apart vary less together: the portfolio P90 is more
+  than the sum of single P90s; nearby plants share their weather

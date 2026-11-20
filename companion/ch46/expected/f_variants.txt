@@ -1,0 +1,10 @@
+12 panels of four types, each with options: ordered against built
+  panel    option      ordered   built
+  WS2      arresters   yes       no
+  PVF2     relay       R-300     R-200
+  BESS-B   ct_cores    3         2
+  3 differences in 48 option cells: each panel looks
+  complete and passes its own routine tests - a missing arrester
+  set, a CT core short for the battery's differential protection
+  and the wrong relay model are found only by comparing the
+  build record with the order line by line

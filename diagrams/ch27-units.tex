@@ -1,0 +1,16 @@
+% Chapter 27 - amplification of the 11th and 13th harmonic at the 33 kV bus against the number of
+% converters online (each adding 0.15 Mvar of filter capacitance to the 1.77 Mvar of cables);
+% data diagrams/data/ch27-units.csv from companion/ch27/examples_z.py resonance_units().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=26, ymin=0, ymax=50,
+      xlabel={شمارِ مبدل‌های در مدار}, ylabel={ضریبِ تقویت}, xmajorgrids=true,
+      legend columns=2]
+    \addplot[sWind, mark=*, mark size=1.2pt] table[x=n, y=a11, col sep=comma] {data/ch27-units.csv};
+    \addplot[sPV, mark=square*, mark size=1.2pt] table[x=n, y=a13, col sep=comma] {data/ch27-units.csv};
+    \legend{هارمونیکِ یازدهم, هارمونیکِ سیزدهم}
+    \draw[sLimit] (axis cs:0,1) -- (axis cs:26,1);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

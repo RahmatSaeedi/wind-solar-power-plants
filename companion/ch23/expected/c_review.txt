@@ -1,0 +1,17 @@
+review of a draft one-line (8 errors planted):
+  generic one-line checks:
+    =T2: windings 132.0/34.5 kV do not match buses [33.0, 132.0]
+    =WS2-W3: in no protection zone
+    =PVF2-W3: bus PVF2-30 not defined
+    =E1-W2: owner boundary without isolation point
+  project checks:
+    =PVF3-Q1: tag used twice
+    =A1-T1: 160 kVA below 201 kVA needed
+    =WS2-Q1: 5 units, 460 A above 410 A
+    no revenue meter on the one-line
+  findings 8 for 8 planted errors;
+  one fault no check sees: the line E1-W2 also closes a loop
+  around the line bay - only a person who knows the plant
+  is radial sees it
+  a check found by a program is cheap; one found on site is
+  not - but a program checks only what someone wrote down

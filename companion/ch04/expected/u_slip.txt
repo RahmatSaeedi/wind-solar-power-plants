@@ -1,0 +1,8 @@
+slip-critical joint: 8 preloaded M36 bolts, faying-surface friction 0.35
+    (A-083)
+  slip resistance mu n F_p = 1330 kN (one friction plane)
+  if the surfaces are painted (friction 0.2): 760 kN
+  if a quarter of the preload relaxes: 997 kN
+  the joint relies on surface preparation and preload, both recorded at
+    erection; once it slips, the bolts carry the load in bearing and wear the
+    holes

@@ -1,0 +1,10 @@
+pyranometer PYR-2: as found 2.8 % high at its calibration on 2027-06-01,
+  tolerance 1.5 %
+  last calibration 2025-06-01 (730 days); assuming a linear drift from zero,
+  it left the tolerance on about 2026-06-27 (day 391)
+  data from 2026-06-27 to 2027-06-01: 339 days flagged;
+  mean error over them 2.15 %
+  the as-found reading is the most useful line of the
+  certificate: it says how long the data were wrong and which
+  reports used them (the monthly PR of ch 37); the as-left
+  value only says the sensor is right again

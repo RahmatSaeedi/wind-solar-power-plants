@@ -1,0 +1,7 @@
+a combined downside (P90 every year, tariff -5 %, opex +10 %,
+delay 1 year, capex +5 %):
+  min DSCR 1.01, lock-up years 6, min LLCR 1.04, equity IRR 4.64 %
+  no single stress breaks the base case, but a plausible
+  combination keeps the owners locked up for years: lenders
+  ask for the combined case, the standby equity and the
+  reserves that carry it (conditions precedent)

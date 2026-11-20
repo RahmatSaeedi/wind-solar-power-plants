@@ -1,0 +1,9 @@
+step 6, the plant and the grid (model 15.1, one year):
+  charge needed 25 / 0.86 = 29.1 MWh from 10:00 to 15:00
+  days the plant cannot give it: 1 of 365 (0 %)
+  days the export limit leaves less than 25 MWh of room from 18:00 to 22:00: 0
+  in the data year the plant charges the battery on all but
+  one calm, overcast day; a weaker year has more such days, so
+  the requirement must say 'when the plant can charge it', or
+  allow charging at other hours or from the grid (A-012 forbids
+  grid charging today)

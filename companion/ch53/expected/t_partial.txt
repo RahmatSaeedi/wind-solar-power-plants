@@ -1,0 +1,6 @@
+repower all 12 turbines or the worst 6 (teaching gains after the export limit)
+  all 12: +55 GWh a year for 85,560 k u = 1,556 k u per GWh a year
+  worst 6: +30 GWh a year for 42,780 k u = 1,426 k u per GWh a year
+  the worst six give more per unit spent (their old output is
+  lowest) - but two turbine types on one site double the
+  spares and the training (ch 52)

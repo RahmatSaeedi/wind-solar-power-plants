@@ -1,0 +1,16 @@
+operational acceptance of Plant P (criteria of the contract, teaching)
+  [ ] all A punch items closed
+  [x] B punch items with owner and date
+  [ ] every requirement traced to a passed test or an accepted deviation
+  [x] PR test met (measured value, contract rule)
+  [ ] auxiliary chains passed (transfer, autonomy, shedding, interlocks)
+  [ ] fire cause-and-effect fully proven
+  [ ] handover data imported without defects
+  [ ] operators and authorised persons assessed
+  [ ] emergency roles, contacts and drills complete
+  [ ] spares received
+  2 of 10 met: the plant runs and exports in its
+  tests, but it is not handed over - each open criterion has
+  its record in this chapter, an owner and a date; handover
+  with a list of exceptions is a decision the owner signs,
+  not a default

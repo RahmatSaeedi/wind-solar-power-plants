@@ -1,0 +1,11 @@
+measuring losses at low power factor: a small phase error matters
+  dP / P = tan(phi) x angle error (teaching)
+  test                  power factor   tan phi   0.1 mrad   0.5 mrad
+  no-load test                  0.15       6.6      0.07%      0.33%
+  load-loss test                0.03      33.3      0.33%      1.67%
+  the load-loss test runs at a power factor of a few per cent:
+  half a milliradian of phase error in the measuring
+  transformers is 1.7 % of the loss - as large as some
+  tolerances; the test laboratory's calibrated system and
+  its stated uncertainty are part of the evidence behind the
+  loss penalty of lesson D

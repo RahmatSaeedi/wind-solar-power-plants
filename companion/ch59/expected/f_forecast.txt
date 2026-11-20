@@ -1,0 +1,11 @@
+forecast validation, reproducible (ch 15 synthetic archive, fixed seeds)
+  lead h  RMSE % of 110 MW  bias MW
+       1              6.8%    -0.27
+       6              7.4%    -0.29
+      24              9.7%    -0.21
+      36             11.2%    -0.54
+  day-ahead band P10-P90 learned on Jan-Jun: [-13.9, 12.3] MW
+  coverage on Jul-Dec: 85% (target 80 %)
+  hours the plant falls more than 20 MW short of its forecast: 3.6%
+  - the battery's 20 MW covers the rest; a reserve offer is sized
+  on that tail, not on the RMSE

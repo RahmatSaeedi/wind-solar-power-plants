@@ -1,0 +1,8 @@
+nodularity of the graphite in eight hub castings (teaching need 85%)
+  H-018 95%, H-019 92%, H-020 88%, H-021 91%
+  H-022 89%, H-023 93%, H-024 78%, H-025 88%
+  below the need: ['H-024']
+  round graphite nodules make cast iron ductile; flakes make
+  it brittle: a low reading means low elongation and
+  toughness in the whole casting, whatever its shape - the
+  test bar cast with each heat is the evidence

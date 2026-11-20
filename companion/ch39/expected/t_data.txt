@@ -1,0 +1,14 @@
+supplier data of the U-A order: needed and delivered (week)
+  general arrangement            need  6  got  5
+  rating plate data              need 20  got 22  late 2
+  routine test report            need 32  got 31
+  FAT record                     need 32  got 36  late 4
+  O&M manual                     need 40  got 52  late 12
+  spares list with part numbers  need 40  got 44  late 4
+  3D model                       need 10  got  9
+  asset register rows            need 40  got 47  late 7
+  on time: 38%; late items wait for the plant, not
+  the other way round: commissioning needs the FAT record
+  and O&M needs the manual and the register rows (lesson I);
+  the contract ties a payment to accepted data, not to
+  a count of files

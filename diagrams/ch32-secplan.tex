@@ -1,0 +1,31 @@
+% Chapter 32 - the site-security management plan: its ten elements in the centre and the six
+% plans it is tied to, each link with a trigger and an owner (section I; companion/ch32/lab_i.py,
+% i_plan; teaching, no tactical content).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    sat/.style={blk, minimum width=36mm, minimum height=13mm, text width=34mm}]
+  \node[blkWarn, minimum width=58mm, text width=55mm, minimum height=30mm] (c) at (0,0)
+    {\textbf{طرحِ مدیریتِ امنیتِ ساختگاه}\\[4pt]
+     ارزیابیِ ریسک، مجوزِ ورود به هر محدوده\\
+     بازدیدکنندگان و پیمانکاران، حفاظتِ دارایی\\
+     آشکارسازی و گزارش، نقش‌ها و آیین‌نامهٔ رفتار\\
+     پاسخ به رویداد و نگه‌داریِ سوابق، رابطه با جامعه\\
+     پیوند با فناوریِ عملیاتی، پیوستگیِ کار};
+  \node[sat, blkPV] (h) at (5.9,1.5) {\textbf{برنامهٔ اضطراری}\\(بخشِ ح)};
+  \node[sat, blkPV] (a) at (5.9,-1.5) {\textbf{مجوزِ کار و پیمانکاران}\\(بخشِ الف)};
+  \node[sat, blkLoad] (ot) at (-5.9,1.5) {\textbf{پاسخ به رویدادِ فناوریِ عملیاتی}\\(فصلِ ۳۶)};
+  \node[sat, blkLoad] (bc) at (-5.9,-1.5) {\textbf{پیوستگیِ کار و بازیابی}\\(فصل‌های ۳۶ و ۵۱)};
+  \node[sat, blkBESS] (g) at (0,3.0) {\textbf{جامعه و سازوکارِ شکایت}\\(بخشِ چ، فصلِ ۳۳)};
+  \node[sat, blkBESS] (s) at (0,-3.0) {\textbf{انبار و قطعه‌های یدکی}\\(فصلِ ۵۲)};
+  \draw[flowinfo, <->] (c.east |- h) -- (h.west);
+  \draw[flowinfo, <->] (c.east |- a) -- (a.west);
+  \draw[flowinfo, <->] (c.west |- ot) -- (ot.east);
+  \draw[flowinfo, <->] (c.west |- bc) -- (bc.east);
+  \draw[flowinfo, <->] (c.north) -- (g.south);
+  \draw[flowinfo, <->] (c.south) -- (s.north);
+  \node[note, text width=34mm] at (5.9,0) {مصدوم یا ورودِ غیرمجاز: یک فهرستِ تماس};
+  \node[note, text width=34mm] at (-5.9,0) {ورود به ساختمانِ کنترل: وارسیِ پیکربندی};
+  \node[note] at (0,-4.1) {هر پیوند یک ماشه و یک مالک دارد؛ در طرح هیچ روالِ تاکتیکی نمی‌آید};
+\end{tikzpicture}
+\end{document}

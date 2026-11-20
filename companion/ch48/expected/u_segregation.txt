@@ -1,0 +1,7 @@
+cable classes sharing a tray against the project's segregation rule
+  (teaching: power apart from signals; fibre may run with anything)
+  TR-1: power 400 V with analogue
+  TR-1 lays an analogue loop between two 400 V feeders: the
+  loop picks up their field and the reading wanders with the
+  load; the tray schedule is checked like any other schedule,
+  before cables are pulled (ch 24 trays, ch 34 cables)

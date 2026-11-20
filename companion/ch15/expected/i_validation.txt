@@ -1,0 +1,10 @@
+forecast validation report, day-ahead hybrid forecast (test Sep-Dec):
+  RMSE 10.7 MW (9.7 % of 110 MW); bias +0.23 MW
+  skill against 24 h persistence +0.59
+  P10-P90 coverage 78.7 % (target 80 %, quantiles from the past only)
+  ramps above 15 MW/h: POD 0.43, FAR 0.67 (timing errors)
+  bias by month within about 1.5 MW; retrain on a rolling window
+  data: synthetic archive (A-267), train Jan-Aug, test Sep-Dec,
+  no feature unknown at the issue time
+  recommendation: schedule near P33 with these prices; hold
+  about 10 MW of downward reserve (the S1 battery covers it)

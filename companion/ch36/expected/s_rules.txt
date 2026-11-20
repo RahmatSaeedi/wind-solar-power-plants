@@ -1,0 +1,13 @@
+the firewall rule base over five years (teaching rates)
+  4 rules added a month; a live rule falls out of use with chance 3 %
+  a month
+  review       rules at month 60   of them unused   unused, 5-yr mean
+  never                      248              135                  53
+  yearly                     152               39                  14
+  quarterly                  123               10                   4
+  without review the rule base grows by every rule that was
+  ever needed, and over half of it is rules nobody uses -
+  each a door kept open for no purpose. A yearly review
+  still leaves dozens open between reviews; a quarterly
+  one against the conduit table keeps the base close to
+  what the plant needs (lesson B, rules)

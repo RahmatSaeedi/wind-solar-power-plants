@@ -1,0 +1,11 @@
+the master document register at week 40: 120 deliverables
+  numbers outside the scheme: 2 - PLP-ELX-DWG-0103, PLP-CIV-DWG-12
+  revision that does not fit the status: 3
+    PLP-ELE-DWG-0110  rev 1 with status IFR
+    PLP-ELE-DWG-0122  rev C with status IFC
+    PLP-ELE-SPC-0101  rev B with status APP
+  approved or issued without a checker's name: 1 - PLP-GEN-PRO-0102
+  documents without an owner: 9
+  each finding goes back to its owner with a date; a register
+  that is not checked drifts from the documents it lists,
+  and the drawing a builder uses is the one in the register

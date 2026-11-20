@@ -1,0 +1,7 @@
+rotor area pi (150/2)^2 = 17,671 m2; rho 1.05 kg/m3, v 11.0 m/s, C_T 0.8
+    (A-046)
+  thrust F = 1/2 rho A v^2 C_T = 898 kN
+  overturning moment at the tower base F x 100 m = 89.8 MN m
+  weight of rotor and nacelle 350 t x 9.81 = 3.43 MN (downward)
+  check: the moment of the weight about the base is zero only if the mass sits
+    on the axis; an offset of 2 m adds 6.9 MN m

@@ -1,0 +1,21 @@
+impact pathways: source -> pathway -> receptor -> chosen step
+  source                  pathway       receptor
+  turbine rotors          air (sound)   camp, farmhouse A
+      step: minimise: reduced mode
+  grading, haul           air (dust)    village, farms
+      step: minimise: water, speed
+  well pumping            aquifer       village wells
+      step: avoid: limit, monitor
+  rotors in flight path   collision     raptors near nest
+      step: avoid: siting; minimise
+  trucks                  village road  children, elders
+      step: minimise: hours, marshal
+  PV fence                lost access   herders' families
+      step: avoid: gap and crossing
+  trenches                ground        buried heritage
+      step: avoid: buffer; chance finds
+  fire water              drains, soil  wadi, groundwater
+      step: minimise: closed pond
+  a pathway with no receptor is no impact; breaking the
+  pathway (a gap in the fence, a closed pond) often beats
+  treating the receptor - and avoidance comes first

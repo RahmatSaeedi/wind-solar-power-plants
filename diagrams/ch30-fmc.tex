@@ -1,0 +1,14 @@
+% Chapter 30 - Monte Carlo distribution of T07's first tower frequency with a lognormal soil
+% stiffness (CoV 0.3), against the required 0.2112 Hz (diagrams/data/ch30-fmc.csv, examples_s).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0.190, xmax=0.215, ymin=0,
+      ybar interval, x tick label as interval=false, xtick={0.190,0.195,...,0.215},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/precision=3},
+      xlabel={بسامدِ نخستِ برج (Hz)}, ylabel={تعدادِ نمونه}]
+    \addplot[fill=cWind!40, draw=cWind] table[x=f, y=count, col sep=comma] {data/ch30-fmc.csv};
+    \draw[sLimit] (axis cs:0.2112,0) -- (axis cs:0.2112,\pgfkeysvalueof{/pgfplots/ymax});
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

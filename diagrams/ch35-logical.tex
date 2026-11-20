@@ -1,0 +1,25 @@
+% Chapter 35 - the logical communication diagram of Plant P: functional zones and the allowed paths
+% between them; every path not drawn is denied (examples_m; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    zn/.style={blk, minimum width=26mm, minimum height=10mm, text width=24mm}]
+  \node[zn, blkWind] (ied) at (11.0,3.6) {رله‌های پست، ۳۰ دستگاه};
+  \node[zn, blkWind] (wtg) at (11.0,2.2) {توربین‌ها و سوئیچ‌های حلقه، ۲۴};
+  \node[zn, blkPV] (pv) at (11.0,0.8) {اینورترهای خورشیدی، ۴۰};
+  \node[zn, blkBESS] (bes) at (11.0,-0.6) {ظرف‌های باتری، ۲۴};
+  \node[zn, blkLoad, minimum height=50mm] (scada) at (6.6,1.5) {سرورهای اسکادا و نمایشگرها، ۱۲};
+  \node[zn, blkLoad] (gw) at (6.6,5.3) {دروازهٔ ارتباطی و پایانهٔ دوردست};
+  \node[zn, blkWarn] (grid) at (1.6,5.3) {بهره‌بردارِ شبکه};
+  \node[zn, blkLoad] (his) at (2.2,1.5) {تاریخ‌نگارِ میانی};
+  \node[zn, blkWarn] (bus) at (2.2,-0.6) {شبکهٔ کسب‌وکار};
+  \foreach \a in {ied, wtg, pv, bes} {\draw[flow] (\a.west) -- (scada.east |- \a.west);}
+  \draw[flow] (scada) -- (gw);
+  \draw[flow, <->] (grid) -- node[above, note] {پروفایلِ توافق‌شده} (gw);
+  \draw[flow] (scada) -- node[above, note] {یک‌سویه} (his);
+  \draw[flow] (his) -- node[right, note] {فقط نسخهٔ خواندنی} (bus);
+  \draw[flowinfo, draw=cLoss] (bus.east) -- (scada.west |- bus.east);
+  \node[text=cLoss, font=\large] at (4.6,-0.6) {$\times$};
+  \node[note, anchor=north, text width=110mm] at (6.6,-1.6) {هر مسیری که کشیده نشده بسته است؛ دیوارهٔ آتش این جدول را اجرا می‌کند (فصلِ ۳۶)};
+\end{tikzpicture}
+\end{document}

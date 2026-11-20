@@ -1,0 +1,12 @@
+% Chapter 11 - rainflow histogram of the synthetic 10-minute blade-root flap moment (seed 53,
+% A-215), logarithmic count axis. Data: diagrams/data/ch11-rainflow.csv (examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=0, xmax=16, ymin=0.3, ymax=2000, ymode=log,
+      xlabel={دامنهٔ چرخه، $\text{MN\,m}$}, ylabel={شمارِ چرخه}, xtick={0,5,...,15},
+      ytick={1,10,100,1000}, yticklabels={$1$,$10$,$100$,$1000$}, ybar, bar width=1.4mm]
+    \addplot[draw=cWind, fill=cWind!30] table[x=range, y=count, col sep=comma] {data/ch11-rainflow.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

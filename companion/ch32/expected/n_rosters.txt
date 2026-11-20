@@ -1,0 +1,10 @@
+shift rosters and the hours worked (teaching)
+  roster                       h/week on   longest run h   rest days a cycle
+  12 h x 14 days on, 14 off           84             168                  14
+  12 h x 21 days on, 7 off            84             252                   7
+  10 h x 6 days, 1 off                60              60                   1
+  long runs of long shifts build fatigue that one rest day
+  does not clear; the 21/7 roster puts 252 hours into one
+  run - fatigue errors cluster late in runs and after night
+  shifts, so critical work (isolation, lifts) is planned
+  away from them; legal limits come from the labour law

@@ -1,0 +1,23 @@
+D-050 cable, switchgear and panel manufacturing and acceptance basis
+  1 cable schedule validated on every revision before use
+  2 conductor resistance by drum corrected to 20 C; sheath print
+    read at both ends; crimp pull tests traced to the tool
+  3 main-circuit resistance compared pole to pole and against
+    the limit; pole timing spread recorded as a baseline
+  4 interlock logic explored state by state at design review;
+    interlocks proven at FAT and site
+  5 every panel wired against its list point to point; terminal
+    plans checked against the wire list before wiring
+  6 relay settings fingerprinted against the register at panel
+    FAT and at site
+  7 one-line items mapped to compartment, terminal drawing and
+    tests; type, routine and site tests each kept
+  8 later findings: drum reports read line by line; both drum
+    ends' thickness kept; compound and kit lots recorded with
+    changeover points; type-test coverage checked before the
+    order (1,600 A incomer); maker-to-maker interfaces checked
+    from the cable schedule; trip matrix, CT earths and wire
+    markers checked from the lists; FAT design changes carried
+    into drawing revisions; no panel ships with an open A item
+  open: makers' type-test reports for the exact designs and the
+    panel builder's records (U-127)

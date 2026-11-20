@@ -1,0 +1,7 @@
+a slow change of the wind (teaching trend -0.5 % of speed a decade):
+  reference centre to loan centre: 17.5 years; speed -0.88 %
+  wind energy -1.59 % = -3.08 GWh a year at MV
+  as a one-sigma part it would be 1.59 %, beside the 5.85 % of the wind
+  a trend is not noise: if it is believed, the P50 moves; if it
+  is only possible, it becomes a scenario or a budget part, and
+  the statement says which (and on what evidence)

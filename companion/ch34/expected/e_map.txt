@@ -1,0 +1,13 @@
+which supply carries which function (teaching, Plant P)
+  function                                  supply
+  protection IEDs, trip and close coils     110 V DC battery
+  breaker spring motors, indication         110 V DC battery
+  PLC, remote I/O, field loops              24 V DC from 110 V DC
+  PPC, SCADA servers, HMI, telecom          UPS 230 V AC
+  time server, firewall, switches           24 V DC from 110 V DC
+  fire panel                                its own batteries (fire system)
+  BESS container HVAC and PCS auxiliaries   station service (ch 23)
+  the 24 V control supply hangs on the 110 V battery, not on
+  the UPS: when the UPS fails, interlocks and I/O still work;
+  the fire panel keeps its own batteries so that life safety
+  never depends on the plant's control power

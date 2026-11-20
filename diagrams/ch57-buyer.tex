@@ -1,0 +1,18 @@
+% Chapter 57 - the buyer's purchase cost in somoni of a USD-fixed price (teaching 40 USD/MWh at
+% 9.2027 TJS/USD) for a somoni that holds or weakens 3 % or 6 % a year, against the household tariff
+% 0.4137 TJS/kWh incl. VAT (TJ-48), retail tariffs held flat. Data: diagrams/data/ch57-buyer.csv
+% (companion/ch57/more.py, buyer).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=64mm, xmin=0, xmax=25, ymin=0.3, ymax=2.0,
+      xlabel={سال}, ylabel={هزینهٔ خرید $(\text{TJS/kWh})$}, xtick={0,5,...,25},
+      legend columns=1, legend style={at={(0.03,0.97)}, anchor=north west, font=\footnotesize}]
+    \addplot[draw=cBESS, thick] table[x=y, y=w0, col sep=comma] {data/ch57-buyer.csv};
+    \addplot[draw=cWind, thick, dashed] table[x=y, y=w3, col sep=comma] {data/ch57-buyer.csv};
+    \addplot[draw=cLoss, thick, dash dot] table[x=y, y=w6, col sep=comma] {data/ch57-buyer.csv};
+    \addplot[draw=cMuted, densely dotted, thick] table[x=y, y=home, col sep=comma] {data/ch57-buyer.csv};
+    \legend{سومونی ثابت, ضعفِ ۳ درصد در سال, ضعفِ ۶ درصد در سال, تعرفهٔ خانگی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

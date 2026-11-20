@@ -1,0 +1,10 @@
+acceptance of the measurement and network hardware, summarised
+  certificates: 5 of 6 incomplete; meter outside its class at 5 % load
+  SW-T05: 5 field changes on 3 ports, 1 extra port (a laptop in VLAN 1)
+  fibre: T05-T06 suspect, T01-SUB fail; copper: CTRL-03, CTRL-04 fail
+  power: SUB-CORE on one source; firmware: 2 findings; backups stale: 2
+  clocks beyond 2 ms: GW-PV1
+  failover failed: RTU main CPU off; not done: time source A off
+  tag database: 6 problems
+  every item works on the day of the SAT; what fails is the
+  proof - and most of it would surface only on the worst day

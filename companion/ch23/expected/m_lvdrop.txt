@@ -1,0 +1,10 @@
+voltage drop of an LV feeder (control room HVAC, teaching):
+  30 kW at pf 0.85: I = 51 A over 80 m
+  section   r ohm/km  drop V   drop %
+    10 mm2     1.830    11.3     2.8%
+    16 mm2     1.150     7.2     1.8%
+    25 mm2     0.727     4.7     1.2%
+  with a 2.5 % running limit for this motor feeder (teaching,
+  leaving room for the starting dip) 10 mm2 fails and 16 mm2
+  passes; its current rating after derating and the fault
+  withstand are checked as well (ch 24)

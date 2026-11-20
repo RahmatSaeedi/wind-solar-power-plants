@@ -1,0 +1,9 @@
+skin depth sqrt(2 rho / (omega mu0)) at 50 Hz:
+  copper   : 9.33 mm
+  aluminium: 11.95 mm
+R_ac / R_dc of an isolated round solid conductor (Bessel solution):
+  copper  240 mm2 (radius   8.7 mm): 1.016
+  copper  630 mm2 (radius  14.2 mm): 1.101
+  copper 1000 mm2 (radius  17.8 mm): 1.228
+  copper 2000 mm2 (radius  25.2 mm): 1.612
+  very large conductors are split into insulated segments to use the core

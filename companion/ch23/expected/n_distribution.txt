@@ -1,0 +1,20 @@
+LV distribution: feeder breakers from full-duty currents:
+  feeder                             I A   breaker A  ratio to 400 A
+  DC chargers 110 V                  19.2         25        16.0
+  UPS: SCADA, PPC, telecom           38.0         50         8.0
+  control room HVAC                  50.9         80         5.0
+  switchgear room ventilation        34.0         50         8.0
+  on-load tap changer motors          5.4         16        25.0
+  transformer cooling fans           27.2         40        10.0
+  substation lighting and security   22.8         32        12.5
+  drainage and sump pumps            13.6         20        20.0
+  water pumping and treatment        67.9        100         4.0
+  cleaning robots charging           91.2        125         3.2
+  workshop and stores                56.1         80         5.0
+  maintenance socket outlets         48.1         63         6.3
+  staff facilities                   38.0         50         8.0
+  incomer 400 A (250 kVA at 0.4 kV is 361 A)
+  every ratio is at least 1.6, a first screen for selectivity;
+  real selectivity comes from the makers' tables and the
+  coordination study (ch 26); motor feeders go to an MCC
+  with starters, sub-meters measure each load group

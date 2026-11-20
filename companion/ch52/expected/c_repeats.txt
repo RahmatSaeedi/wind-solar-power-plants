@@ -1,0 +1,10 @@
+repeat failures: the same asset failing again within 90 days
+  =WT03-PIT      days 31, 74, 160
+  =WT03-CNV      days 120
+  =PVF2-3-CB01   days 140, 215
+  =PVF2-3-INV    days 180
+  =WT07-GBX      days 201
+  repeats: =WT03-PIT, =PVF2-3-CB01
+  the pitch battery failed three times - replacing it each time
+  treats the symptom; the charger or the cabinet heat is the
+  next question (RCA); the combiner failed again after 75 days

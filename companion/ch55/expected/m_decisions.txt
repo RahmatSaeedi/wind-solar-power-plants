@@ -1,0 +1,16 @@
+earlier Plant P decisions that the Iran dossier touches
+  D-025 finance                IR-18, IR-38, IR-40
+  D-032 grid study             IR-17, IR-19
+  D-043 procurement            IR-30, IR-40
+  D-022 architecture           IR-17
+  D-024 control                IR-19
+  D-026 site and schedule      IR-24
+  D-029 transformers           IR-17
+  D-031 power quality          IR-19
+  D-033 civil and water        IR-21
+  D-037 E&S basis              IR-43
+  D-050 cable and switchgear   IR-30
+  D-053 construction start     IR-24
+  12 decisions, one from each of 12 chapters; D-025 finance carries 3 facts,
+  D-032 grid study and D-043 procurement 2 each - each decision is revised
+  when its answers arrive, with a change record (ch 38)

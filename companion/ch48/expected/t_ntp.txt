@@ -1,0 +1,7 @@
+time sources in each device's configuration (two plant clocks each)
+  GW-PV1: time from outside the plant: pool.example.net
+  SW-SUB: one time source only
+  GW-PV1 asks an outside server the plant cannot reach - it
+  falls back to its own clock, the 15 ms of lesson C; SW-SUB
+  has no second source; both are configuration lines, found
+  in the files before the clocks drift (ch 35, ch 36)

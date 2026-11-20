@@ -1,0 +1,6 @@
+E01 R of 0.125 ohm/km Al at 90 C: 0.1603 ohm/km
+E02 rating 520 A x 0.97 x 0.88 x 0.93 x 0.85: 351 A
+E03 drop 368 A, 1.1 km, r 0.16, x 0.116, pf 0.95, 33 kV: 0.40 %
+E04 least Al section for 12.5 kA, 1 s: 133 mm2
+E05 peak of 12.5 kA at X/R 14: 32.0 kA
+E06 sag of 11 N/m over 300 m at 19 kN: 6.51 m

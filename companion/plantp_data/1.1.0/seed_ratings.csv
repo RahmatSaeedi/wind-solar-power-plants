@@ -1,0 +1,9 @@
+id,item,value,unit,status,note
+SR-01,PV array capacity (DC),60,MWp,assumed,teaching seed from the book plan
+SR-02,PV inverter capacity (AC),50,MW,assumed,teaching seed from the book plan
+SR-03,Onshore wind capacity (AC),60,MW,assumed,teaching seed from the book plan
+SR-04,Collector nominal voltage,33,kV,assumed,teaching seed from the book plan
+SR-05,Point-of-connection nominal voltage,132,kV,assumed,teaching seed from the book plan
+SR-06,Point-of-connection export limit,100,MW,assumed,teaching seed from the book plan
+SR-07,Optional BESS power (scenario S1),20,MW,assumed,nominal at beginning of life
+SR-08,Optional BESS energy (scenario S1),40,MWh,assumed,nominal at beginning of life

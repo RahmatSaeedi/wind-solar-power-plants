@@ -1,0 +1,20 @@
+monthly energy at MV over 20 years (GWh):
+  month   mean    sd     sd %   P90 (normal)
+      1   22.11   0.75    3.4    21.16
+      2   25.14   0.61    2.4    24.35
+      3   28.27   0.90    3.2    27.11
+      4   25.23   1.11    4.4    23.80
+      5   31.77   0.95    3.0    30.55
+      6   20.90   0.87    4.2    19.79
+      7   25.77   0.79    3.1    24.76
+      8   20.17   0.82    4.1    19.12
+      9   30.27   0.86    2.8    29.17
+     10   23.28   0.84    3.6    22.20
+     11   19.10   0.85    4.4    18.01
+     12   29.48   0.86    2.9    28.39
+  year: mean 301.49, sd 9.51 GWh (3.2 %); sum of monthly P90s 288.39,
+    year-to-year P90 289.31 GWh
+  in this synthetic record the months move with their year, so
+  a month varies about as much as the year in per cent; measured
+  monthly records usually vary more and the gap between the sum
+  of monthly P90s and the annual P90 grows; the method stays

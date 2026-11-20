@@ -1,0 +1,19 @@
+% Chapter 26 - connection of the sequence networks for a single line-to-earth fault: positive,
+% negative and zero sequence networks in series with 3 Zf; I1 = I2 = I0 = E/(Z1+Z2+Z0+3Zf) and
+% Ia = 3 I0. Plant P values: Z1 = Z2 = 2.98 ohm, Z0 = 2.0 ohm, Zf = 47.6 ohm (resistor).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    nw/.style={blk, minimum width=26mm, minimum height=12mm, text width=25mm}]
+  \node[nw] (p) at (0,0) {توالیِ مثبت\\$Z_1$، منبعِ $E$};
+  \node[nw] (n) at (3.8,0) {توالیِ منفی\\$Z_2$};
+  \node[nw] (z) at (7.6,0) {توالیِ صفر\\$Z_0$};
+  \node[blk, minimum width=16mm, draw=cLoss, fill=cLoss!8] (f) at (11.0,0) {$3Z_\text{f}$};
+  \draw[flow] (p.east) -- (n.west);
+  \draw[flow] (n.east) -- (z.west);
+  \draw[flow] (z.east) -- (f.west);
+  \draw[flowinfo] (f.south) -- ++(0,-0.9) -| (p.south);
+  \node[note, text width=120mm] at (5.5,-1.9) {یک حلقهٔ سری: $I_1 = I_2 = I_0 = E/(Z_1+Z_2+Z_0+3Z_\text{f})$ و جریانِ فازِ خطادار $I_a = 3I_0$};
+  \node[note, text width=120mm] at (5.5,-2.6) {نیروگاهِ P: $Z_1=Z_2=2.98\,\Omega$، $Z_0=2.0\,\Omega$؛ با مقاومتِ $47.6\,\Omega$ جریان حدودِ $400\,\text{A}$ می‌شود};
+\end{tikzpicture}
+\end{document}

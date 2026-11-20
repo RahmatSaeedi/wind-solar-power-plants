@@ -1,0 +1,6 @@
+show R = 90% over a mission at 90% confidence, zero failures:
+  n = ln(1 - C) / ln(R) = 22 inverters run for the whole mission
+  no one tests 22 five-megawatt inverters for their life:
+  reliability is shown by parts (power cycling of modules,
+  capacitor endurance), by accelerated tests of assemblies,
+  and by the field record of earlier units (ch 37, ch 40)

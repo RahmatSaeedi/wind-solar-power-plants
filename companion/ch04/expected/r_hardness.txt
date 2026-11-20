@@ -1,0 +1,5 @@
+hardness as a screening check (steels; UTS ~ 3.45 HB MPa, approximate):
+  HB 150: tensile strength roughly 518 MPa
+  HB 180: tensile strength roughly 621 MPa
+  HB 300: tensile strength roughly 1035 MPa
+  a quick check on a flange or bolt; the certificate's tensile test decides

@@ -1,0 +1,31 @@
+P45 spill at 5 pu, tap +5 %, mismatch 2 %: 0.35 pu
+P46 REF reach at 10 %, 400 A limit, 1,102 A rated: x >= 0.28
+P47 six turbines at 1.3 x: 718 A, 1.73 s
+P48 phase drift 0.2 Hz over 2 s: 144 deg
+P49 advance angle, slip 0.3 Hz, 60 ms: 6.5 deg
+P50 Wenner a = 10 m, 2.0 ohm: 126 ohm m
+P51 potential probe for a 300 m current lead: 185 m
+P52 arc boundary at 0.5 s, x = 1.5: 1.02 m
+P53 incomer at 9.8 kA: 0.42 s
+P54 asymmetry 3 ms at 437 A: 204 A
+P55 charging of 12 km cable: 57.9 A
+P56 unavailability, 0.03 a year, 4 y: 6%
+P57 interval for 1 % with 90 % supervision: 10 y
+P58 dependability 48/50, security 48/49: 96%, 98.0%
+P59 thermal replica at 600 A from cold: 30.3 min
+P60 400 mm2 Al at 12.5 kA: 9.0 s
+P61 stability voltage with 3 ohm leads: 137.5 V
+P62 SPD lead for 4 kV at 10 kA/us: 0.25 m
+P63 locator at 3.0 km: 3.38 km
+P64 acceptance band at 1.5 s: 1.41 - 1.59 s
+P65 reversed CT trips above (slope 0.25): 0.114 pu
+P66 3,000 terminations at 0.5 per 1,000: 1.5, none 22%
+P67 2nd harmonic of a 240 deg inrush pulse: 17%
+P68 screen of 3.6 kA for 1 s at 800 A: 20 s
+P69 loop voltages at 300 m: 1.58, 0.39, 0.04 kV
+P70 BF timer for a 35 ms slowest pole: 115 ms
+P71 plant share at 1.5 x, grid 3.0 kA: 0.69 kA, 23%
+P72 four services, 150 kA stroke: 18.75 kA each
+P73 unit window with a 30 ms LV breaker: 0.330 to 0.347 s
+P74 longest 6 mm2 run on the diesel (866 A): 61 m
+P75 smallest fuse for 1.6 MVA at 33 kV: 42 A

@@ -1,0 +1,34 @@
+% Chapter 7 - analyser phasor display for a balanced load at pf 0.85 lagging: correct wiring
+% (right) and the CTs of phases b and c swapped (left). Voltages ink, currents load colour.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \newcommand{\vset}{%
+    \draw[line width=1.1pt, cInkB, ->] (0,0) -- (0:2.0);
+    \draw[line width=1.1pt, cInkB, ->] (0,0) -- (-120:2.0);
+    \draw[line width=1.1pt, cInkB, ->] (0,0) -- (120:2.0);
+    \node[note, text=cInk, anchor=west] at (0:2.05) {$\mathbf{V}_\text{a}$};
+    \node[note, text=cInk, anchor=north east] at (-120:2.05) {$\mathbf{V}_\text{b}$};
+    \node[note, text=cInk, anchor=south east] at (120:2.05) {$\mathbf{V}_\text{c}$};}
+  % correct (right)
+  \begin{scope}[xshift=7.6cm]
+    \node[note, text=cInk, font=\small\bfseries] at (0,2.75) {سیم‌بندیِ درست};
+    \vset
+    \foreach \a/\n in {-31.8/a, -151.8/b, 88.2/c}{
+      \draw[line width=1.1pt, cLoad, ->] (0,0) -- (\a:1.3);
+      \node[note, text=cInk] at (\a:1.55) {$\mathbf{I}_\text{\n}$};
+    }
+    \node[note, text width=44mm] at (0,-2.75) {هر جریان $31.8^\circ$ پس از ولتاژِ خودش};
+  \end{scope}
+  % CTs b and c swapped (left)
+  \begin{scope}[xshift=0cm]
+    \node[note, text=cInk, font=\small\bfseries] at (0,2.75) {ترانسفورماتورهای جریانِ $\text{b}$ و $\text{c}$ جابه‌جا};
+    \vset
+    \foreach \a/\n in {-31.8/a, 88.2/b, -151.8/c}{
+      \draw[line width=1.1pt, cLoad, ->] (0,0) -- (\a:1.3);
+      \node[note, text=cInk] at (\a:1.55) {$\mathbf{I}_\text{\n}$};
+    }
+    \node[note, text width=50mm] at (0,-2.75) {$\mathbf{I}_\text{b}$ نزدیکِ $\mathbf{V}_\text{c}$ و $\mathbf{I}_\text{c}$ نزدیکِ $\mathbf{V}_\text{b}$؛ توانِ کل نزدیکِ صفر};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

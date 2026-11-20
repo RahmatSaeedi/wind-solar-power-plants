@@ -1,0 +1,18 @@
+signals of one main transformer (teaching list):
+  signal                              DI  DO  AI  to
+  gas relay alarm / trip                2   0   0  protection
+  pressure relief trip                  1   0   0  protection
+  oil level low                         1   0   0  SCADA
+  oil temperature alarm / trip          2   0   1  both
+  winding temperature alarm / trip      2   0   1  both
+  tap position                          0   0   1  SCADA
+  tap changer raise / lower             0   2   0  control
+  tap changer protective relay          1   0   0  protection
+  fan groups on / fail                  4   2   0  SCADA
+  dissolved-gas monitor                 1   0   3  SCADA
+  bushing monitor                       1   0   3  SCADA
+  per transformer: 15 digital in, 4 digital out, 9 analogue in; two: 56
+  trips go hard-wired to the protection (lockout, ch 26);
+  alarms and measurements to SCADA (ch 34); each line is a row
+  of the signal list and a terminal pair in the marshalling
+  box (ch 24 lesson D)

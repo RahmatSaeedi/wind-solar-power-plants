@@ -1,0 +1,15 @@
+materials at closure (t, teaching shares)
+  material                          tonnes  recycled  reused  landfill
+  tower steel (weighed, ch 47)       4,932     4,685       0       247
+  nacelles and drivetrains           1,980     1,683      99       198
+  blades (composite)                   756       227      76       454
+  foundation concrete (top 1 m)      5,184     4,147       0     1,037
+  PV modules                         3,069     2,608     153       307
+  PV structures, steel               2,900     2,755       0       145
+  cables (Al, Cu)                      510       459       0        51
+  transformer oil                       85        51       0        34  HAZ
+  battery modules                      240       156      24        60  HAZ
+  gearbox and hydraulic oil             14         9       0         6  HAZ
+  total 19,670 t: recycled 85%, reused 2%, landfill 13%
+  hazardous 339 t - small by mass, large by obligation:
+  each load goes to a licensed receiver with its transfer note

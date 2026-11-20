@@ -1,0 +1,8 @@
+hits on the default-deny rule a day (synthetic two months)
+  first month: mean 9.7, spread 3.3
+  days flagged above mean + 4 spreads: [47] (180 hits)
+  a deny rule that suddenly blocks many times more than
+  usual says that something is trying a path that does not
+  exist - a misconfigured new device as often as anything
+  else; the flagged day is looked at the same day, and the
+  cause is written in the record

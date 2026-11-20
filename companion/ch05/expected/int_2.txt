@@ -1,0 +1,7 @@
+raw mast file, 3-5 April: 72 hours, 71 with complete speed, temperature and
+    pressure
+  wind energy from the cleaned raw hours: 1,704.8 MWh
+  1 incomplete hour taken from the reference series (flag 1): 12.8 MWh
+  total 1,717.6 MWh; reference series alone 1,717.6 MWh (difference -0.002 %)
+hour-by-hour RMS difference raw vs reference: 0.01 MW;
+  with every raw hour compared one hour late (labels misread): 7.4 MW

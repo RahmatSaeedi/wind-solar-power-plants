@@ -1,0 +1,9 @@
+the ground under a blade's storage cradles (teaching)
+  blade 22 t + cradles 3 t on two cradles; root cradle carries 65 %
+  cradle feet   foot area m2   pressure kPa   gravel pad needed?
+            2           0.25            319   yes
+            4           0.25            159   yes
+            4           1.00             40   no
+  small feet on the loose top layer (ch 29) sink unevenly
+  and twist the blade - the maker's cradle positions and a
+  compacted, level laydown pad keep the shell in shape

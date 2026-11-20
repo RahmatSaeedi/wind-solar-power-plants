@@ -1,0 +1,14 @@
+trip matrix of a main transformer (teaching):
+  function                          trips
+  87T differential                  HV Q1, LV Q2, lockout
+  64 restricted earth fault         HV Q1, LV Q2, lockout
+  63 gas relay, trip stage          HV Q1, LV Q2, lockout
+  pressure relief                   HV Q1, LV Q2, lockout
+  26/49 oil and winding temperature HV Q1, LV Q2
+  24 V/Hz                           HV Q1
+  50/51 HV backup                   HV Q1, LV Q2
+  50BF breaker failure (HV Q1)      HV bus or line bay
+  4 functions also set the lockout (86): the transformer stays
+  off until someone has looked - an internal fault must not be
+  re-energised by a reflex; the matrix is a drawing of its own,
+  tested trip by trip at commissioning (ch 26)

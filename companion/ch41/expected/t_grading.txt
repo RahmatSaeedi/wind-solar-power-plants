@@ -1,0 +1,9 @@
+300 EL images graded A/B/C by two inspectors (teaching)
+  observed agreement 81.7%; by chance 62.0%; kappa 0.52
+  agreement within each grade (both / either called it): A 80%, B 40%, C 70%
+  most images are A, so chance agreement is high and a raw
+  agreement of 82% hides a kappa of only 0.52; the graders
+  agree least on B (40%) and C (70%), the grades that sort
+  and reject - reference images for each grade and a
+  periodic attribute study (ch 40, kappa) keep the graders
+  together

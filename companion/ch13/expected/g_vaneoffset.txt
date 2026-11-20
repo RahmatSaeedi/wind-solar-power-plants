@@ -1,0 +1,8 @@
+veer by hour as a check of the vanes (100 m minus 60 m):
+                    midday   night
+  vanes as mounted    +2.0    +10.0 deg
+  100 m vane +20     +22.0    +30.0 deg
+  physics: the unstable midday layer mixes and turns the wind
+  little; a large 'veer' at midday is a mounting offset; the
+  mounting photos, a compass check or the lidar's direction
+  fix it, with the correction recorded

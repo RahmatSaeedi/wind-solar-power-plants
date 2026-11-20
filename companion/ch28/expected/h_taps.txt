@@ -1,0 +1,13 @@
+can the taps hold the 33 kV bus at 1.00 +/- 0.0125? (grid min)
+  source V   P 0 MW         P 50 MW        P 100 MW
+      0.90   -10.0 % ok     -6.2 % ok     -7.5 % ok
+      0.95    -5.0 % ok     -1.2 % ok     -2.5 % ok
+      1.00    +0.0 % ok     +3.8 % ok     +2.5 % ok
+      1.05    +5.0 % ok     +8.7 % ok     +7.5 % ok
+      1.10   +10.0 % ok    +10.0 % OUT   +10.0 % OUT
+  the taps hold the 33 kV bus everywhere but at the top of
+  the grid's band with output: at 1.10 pu they reach their
+  +10 % end stop and the bus rises out of band; there the
+  units must absorb reactive power (or the tap range is
+  widened) - the study names the remedy and the operator
+  confirms how often the grid sits at 1.10

@@ -1,0 +1,10 @@
+40 notices (synthetic), 3 days each to test and install
+  order                         weighted exposure   share
+  in the order they arrived                11,649     100 %
+  by the maker's severity                   8,730      75 %
+  by severity x exposure                    7,782      67 %
+  weighted exposure = severity x exposure x days waiting;
+  a severe notice for a device no one can reach waits behind
+  a medium one on a device reachable from the DMZ. The
+  exposure comes from the zone and conduit tables, which is
+  why they are kept current

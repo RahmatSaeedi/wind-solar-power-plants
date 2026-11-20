@@ -1,0 +1,9 @@
+standard atmosphere at 1200 m: p = 877.2 hPa; rho at 15 C would be 1.090 kg/m3
+data pack, hourly: rho at 2 m mean 1.056 (range 0.972 .. 1.153) kg/m3
+  moved to 100 m (lapse 6.5 K/km): mean 1.046; with 40 % humidity 1.042 kg/m3
+annual wind energy of the farm (12 turbines, 0.88 losses):
+  power curve at 1.225 kg/m3 (no correction):        192.5 GWh
+  equivalent speed v (rho/1.225)^(1/3), hourly rho:  176.1 GWh (-8.5 %)
+  same with the annual mean density:                 176.1 GWh (-8.5 %)
+  with 40 % relative humidity:                       175.7 GWh (-8.7 %)
+  power scaled by rho/1.225 at every speed (wrong):  165.2 GWh (-14.2 %)

@@ -1,0 +1,15 @@
+PLP-GEN-CAL-0002 Rev A (IFR) as written by engineer A - reproduced
+L1  PV rating                        P = 50 MW
+L2  annual GHI   5.335 kWh/m2/d x 365 = 1947.3 kWh/m2
+L3  E_PV = 50 MW x 1947.3 kWh/m2 x 0.85 x 0.98 = 81,104 MWh
+L4  temperature: 1 - 0.0035 x ((45+273) - 25) = -0.0255 -> 'negative,
+    so use 45 - 25 = 20': factor 0.93; E_PV = 75,427 MWh
+L5  rho = 877.67 / (287.05 x 16.78) = 0.182 kg/m3 -> 'too low, use 1.225'
+L6  wind: sum of hourly curve power x 12 x 0.88 = 192,537,548;
+    / 1000 / 1000 = 192.5 MWh
+L7  total = 75,427 + 192.5 = 75,619.3 MWh
+L8  curtailment at the 100 MW export limit: not relevant
+L9  CF = 75,619 MWh / (120 MW x 8784 h) = 7.1740 %
+L10 result: annual yield 75,619.2610 MWh, capacity factor 7.1740 %
+L11 raising PR_DC from 0.80 to 0.85 raises the PV yield by 5 %
+L12 mean wind speed at hub height 7.10 km/h

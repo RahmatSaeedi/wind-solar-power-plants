@@ -1,0 +1,6 @@
+noise map of W2b (106 dB(A) each, 100 m grid, chapter 11 model):
+  grid 61 x 66 points; camp B 37.7 dB(A)
+  the 40 dB(A) line lies about 750 to 800 m outside the outer rows
+    (more than for one turbine: the others add)
+  a map shows where a new house would be affected, not only the
+  houses that exist today

@@ -1,0 +1,16 @@
+calendar fade (storage) by temperature and mean SOC (A-292):
+  years   15 C/50 %   25 C/50 %   35 C/50 %   25 C/90 %
+      1        1.0 %        2.0 %        3.8 %        2.6 %
+      5        2.3 %        4.5 %        8.4 %        5.9 %
+     10        3.2 %        6.3 %       11.9 %        8.3 %
+     15        3.9 %        7.7 %       14.6 %       10.2 %
+     20        4.6 %        8.9 %       16.8 %       11.8 %
+cycle fade per 365 cycles a year by depth (A-292):
+  depth   cycles to end of life   loss per year
+    20 %                 32,413        0.23 %
+    50 %                  9,849        0.74 %
+    80 %                  5,346        1.37 %
+   100 %                  4,000        1.82 %
+  heat roughly doubles calendar fade every 10-12 K here; deep
+  cycles cost more than their energy share; both shapes are
+  teaching laws and the warranty curve of the maker governs

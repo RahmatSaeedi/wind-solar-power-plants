@@ -1,0 +1,9 @@
+reinstatement monitoring: vegetation cover as % of the undisturbed
+  reference plot (teaching sign-off at 70 %)
+  area                year 1   year 2   year 3   signed off
+  corridor km 1-3         22       48       71   year 3
+  corridor km 3-5         15       31       52   not yet
+  tower bases             30       55       78   year 3
+  the km 3-5 stretch lags: its topsoil was stockpiled
+  longest (lesson N) - reseeding there and one more year
+  of monitoring before the landowners sign off

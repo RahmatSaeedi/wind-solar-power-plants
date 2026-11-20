@@ -1,0 +1,10 @@
+power budget of a solar-powered mast in January (A-257):
+  horizontal 2.69 kWh/m2 a day; tilted panel x 1.6 = 4.30 sun-hours
+  base load (logger, modem, sensors) 60 Wh a day
+  heated cup and vane below 1 C: 7.2 h a day -> 216 Wh a day
+  panel for the base load         23 W
+  panel with heating             107 W
+  battery, 5 days of base load    50 Ah at 12 V
+  heating multiplies the winter energy several times: heated
+  sensors need a larger supply or grid power; the logger and
+  modem keep a separate protected supply so data survive

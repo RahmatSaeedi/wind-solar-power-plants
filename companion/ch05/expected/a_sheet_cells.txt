@@ -1,0 +1,9 @@
+formulas of the corrected sheet (inputs in B2:B6):
+  cell  content
+  B2    60
+  B3    0.85
+  C9    =$B$2*B9*$B$3*$B$4
+  C10   =$B$2*B10*$B$3*$B$4
+  C20   =$B$2*B20*$B$3*$B$4
+  C21   =SUM(C9:C20)
+  C22   =C21/(B5*B6)

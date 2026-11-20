@@ -1,0 +1,18 @@
+PV performance ratio at MV (after availability), model 15.1:
+  month  H_poa kWh/m2  yield kWh/kWp   PR    T_cell,w   PR at 25 C
+      1       118.9          105.4      0.887    22.8      0.880
+      2       137.5          121.2      0.882    25.1      0.882
+      3       198.9          170.9      0.859    30.8      0.877
+      4       206.2          172.6      0.837    36.4      0.872
+      5       209.7          172.2      0.821    42.8      0.876
+      6       231.6          187.4      0.809    50.2      0.887
+      7       238.3          192.3      0.807    50.7      0.887
+      8       199.9          161.1      0.806    49.9      0.883
+      9       188.8          156.7      0.830    40.8      0.878
+     10       184.5          157.2      0.852    37.0      0.889
+     11       137.8          119.9      0.870    29.5      0.885
+     12        98.2           87.2      0.889    20.7      0.875
+  year       2150.3         1804.2      0.839    38.7      0.881
+  PR is lowest in the hot months; corrected to 25 C it is nearly
+  flat: a falling corrected PR is a fault or soiling, a falling
+  raw PR in July may only be the heat (chapters 50 and 52)

@@ -1,0 +1,11 @@
+an injured lone worker: when are they missed? (teaching)
+  check-in interval min   mean wait to be missed   + response   worst case
+                     15                        8           42           50
+                     30                       15           50           65
+                     60                       30           65           95
+                    120                       60           95          155
+                    240                      120          155          275
+  a two-hour check-in leaves an injured worker an hour on
+  average before anyone looks: lone work at a remote pad
+  is avoided, and where it cannot be, a check-in of about
+  30 minutes or a man-down alarm on the radio is used

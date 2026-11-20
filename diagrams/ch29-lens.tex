@@ -1,0 +1,16 @@
+% Chapter 29 - chance that probes find a soft lens lying under part of a 20 m footprint, by lens
+% diameter, for one central borehole and two CPT patterns (Monte Carlo; diagrams/data/
+% ch29-lens.csv from companion/ch29/examples_k.py, k_lens).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=42, ymin=0, ymax=1,
+      xlabel={قطرِ عدسی $(\text{m})$}, ylabel={احتمالِ یافتن},
+      xmajorgrids=true, legend pos=north west, legend cell align=right]
+    \addplot[sInk, mark=*, mark size=1.2pt] table[x=d, y=one, col sep=comma] {data/ch29-lens.csv};
+    \addplot[sWind, mark=square*, mark size=1.2pt] table[x=d, y=four, col sep=comma] {data/ch29-lens.csv};
+    \addplot[sPV, mark=triangle*, mark size=1.5pt] table[x=d, y=seven, col sep=comma] {data/ch29-lens.csv};
+    \legend{یک گمانه در مرکز, مرکز و سه CPT, مرکز و شش CPT}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

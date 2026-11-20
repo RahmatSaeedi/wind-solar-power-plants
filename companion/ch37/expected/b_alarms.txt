@@ -1,0 +1,10 @@
+alarm quality of a month (synthetic counts)
+  measure                            count
+  alarms in the month                 3,420
+  acted on by the operator              410
+  standing for more than 24 h            37
+  from the top 10 alarm tags          2,050
+  acted on: 12 %; top ten tags: 60 % of all alarms
+  most alarms come from a few bad actors; fixing ten tags
+  removes six alarms in ten, and the ones left are the ones
+  an operator acts on (ch 35, alarm philosophy)

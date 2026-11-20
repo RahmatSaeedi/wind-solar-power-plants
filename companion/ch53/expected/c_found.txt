@@ -1,0 +1,7 @@
+12 turbine foundations: concrete removed (t), cost (k u) and truck loads
+  top 1 m (teaching permit case)      5,184      62     207
+  full removal                       25,718     309   1,029
+  full removal is 5.0 times the trucks past the village
+  for land that the top-1-m case also returns to grazing; the
+  depth is the permit's and the landholder's agreement (ch 30,
+  ch 54-58), and the choice has a traffic and footprint cost

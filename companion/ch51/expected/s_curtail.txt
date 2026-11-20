@@ -1,0 +1,9 @@
+curtailed energy of the first year by who ordered it and why (MWh)
+  grid operator, security of supply       166
+  grid operator, planned works             42
+  plant, export-limit margin               18
+  plant, economic (negative price)          0
+  total 226 MWh; ordered by the grid operator 208
+  the class decides who carries the loss under the contract
+  (compensated or not) - so the record names the instruction,
+  not only the energy; the rules are verified locally

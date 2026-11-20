@@ -1,0 +1,7 @@
+warranty cost forecast from the field Weibull (lesson E)
+  60 parts, 24-month workmanship warranty, 3.5 k u a claim
+  chance a part fails in the warranty: 18.7%
+  expected claims 11.2; expected cost 39.3 k u
+  with shape below 1 most of these claims come early; the
+  forecast is redone as returns arrive, and each return is
+  traced to its lot before it is paid

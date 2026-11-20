@@ -1,0 +1,19 @@
+same rotor power for all; part-load stage efficiencies (A-122):
+  DFIG, 3-stage gear       18267 MWh/yr (+1.3 % on HS-PMSG)
+  geared HS-PMSG, FC       18024 MWh/yr (+0.0 % on HS-PMSG)
+  geared MS-PMSG, FC       18234 MWh/yr (+1.2 % on HS-PMSG)
+  direct-drive PMSG, FC    18294 MWh/yr (+1.5 % on HS-PMSG)
+weighted scores, weights 30/20/20/15/15; energy: min-max (worst 1, best 5)
+  DFIG, 3-stage gear     4.6 3.0 3.0 5.0 5.0  total 4.08
+  geared HS-PMSG, FC     1.0 5.0 3.0 5.0 3.0  total 3.10
+  geared MS-PMSG, FC     4.1 5.0 4.0 4.0 3.0  total 4.08
+  direct-drive PMSG, FC  5.0 5.0 4.0 2.0 2.0  total 3.90
+weighted scores, weights 30/20/20/15/15; energy: 3 + 1 point per 1 % of yield
+  DFIG, 3-stage gear     4.3 3.0 3.0 5.0 5.0  total 4.00
+  geared HS-PMSG, FC     3.0 5.0 3.0 5.0 3.0  total 3.70
+  geared MS-PMSG, FC     4.2 5.0 4.0 4.0 3.0  total 4.10
+  direct-drive PMSG, FC  4.5 5.0 4.0 2.0 2.0  total 3.75
+min-max scaling turns a 1.5 % yield spread into 4 points and moves
+  the ranking; the other scores are judgements written down with
+  reasons: the matrix shows the argument, it does not replace the
+  turbine supplier's data

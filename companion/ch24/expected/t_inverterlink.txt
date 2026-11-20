@@ -1,0 +1,9 @@
+the 600 V link from a 5.5 MVA PV inverter to its transformer:
+  current 5,292 A per phase
+  Cu 240 mm2 in air 538 A, grouped x0.70 = 377 A -> 15 cables per phase
+  current sharing between parallel cables (teaching): with an
+  untransposed flat layout the outer cables carry up to
+  25 % more; to keep the busiest within its rating takes 18 cables
+  a busduct of the rating, or the transformer bolted to the
+  inverter skid, avoids the problem: the skid design (ch 9)
+  is chosen partly for this link

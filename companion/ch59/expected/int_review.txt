@@ -1,0 +1,16 @@
+Plant P: readiness for financial close (teaching review)
+  [x] every chapter and decision in a dossier item
+  [x] yield recomputed and equal to D-019, D-020
+  [x] design interfaces explained (N-1 accepted)
+  [x] debt case holds at P90 (min DSCR >= 1.05)
+  [x] all change cases above the default covenant
+  [ ] country appendix of the project country closed
+  [ ] grid offer and connection agreement signed
+  [ ] ESIA approved, raptor survey done
+  [ ] land agreements complete
+  [ ] asset register clean for CMMS import
+  [ ] EPC and supply contracts with risk allocation
+  [ ] independent engineer's report on the dossier
+  5 of 12: the engineering case holds; the conditions
+  that remain are permits, land, the grid offer, contracts and
+  the independent review - each an owner and a date

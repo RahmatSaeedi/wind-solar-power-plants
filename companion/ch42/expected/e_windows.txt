@@ -1,0 +1,8 @@
+daylight hours for a composite field repair: 10 to 35 C, hub wind <= 12 m/s
+  (teaching limits; the resin's own limits decide)
+  month    1    2    3    4    5    6    7    8    9   10   11   12
+  hours  104  162  277  368  396  384  311  381  358  331  276  104
+  best month 5 (396 h), worst month 1 (104 h)
+  a resin cures only in its temperature band, and rope access
+  stops in wind: repair campaigns are planned for the months
+  the data allow, with the cure recorded like the factory's

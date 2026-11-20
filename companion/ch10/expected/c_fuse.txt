@@ -1,0 +1,9 @@
+string fuses in a 20-string combiner (A-202):
+  a short in one string draws the other 19 strings' current: up to 332 A
+  module maximum series fuse (data sheet) 25 A: the reverse current is
+    13 times that, so every string needs a fuse
+  lower bound 1.5 x I_sc = 21.0 A, upper bound 25 A: a 25 A gPV fuse
+  the factors and the rule for both poles come from IEC 62548-1
+  and the earthing scheme; this is a teaching check, not a rule
+  with two strings or fewer in parallel no fuse may be needed:
+  (N - 1) I_sc stays below the module's fuse rating

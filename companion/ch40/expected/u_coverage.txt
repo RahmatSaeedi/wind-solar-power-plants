@@ -1,0 +1,6 @@
+control plan against the FMEA: 5 modes with severity 7 or more
+  covered by a control-plan row (5 rows): 3
+  not covered: lug crimped with wrong die; transformer damaged in handling
+  the wrong-die crimp needs a die check at the press; the
+  handling damage needs the lift plan as a control - each
+  gap becomes a row with a method and a reaction

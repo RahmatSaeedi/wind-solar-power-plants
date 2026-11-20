@@ -1,0 +1,11 @@
+does the offered type-test report cover the unit we buy?
+  (a teaching rule: same design family, insulation level,
+  cooling and winding material, rating within +/- 15 %)
+  U-A  5.6 MVA  covers
+  U-B  4.0 MVA  does not:
+      rating outside +/- 15 %, different windings, different design
+  U-C  6.3 MVA  covers
+  U-C's 6.3 MVA report of the same design covers ours by
+  the rule; U-B's report is another design and material -
+  either a new type test (time, cost) or a deviation priced;
+  the real rule is the standard's and the owner's (STD-120)

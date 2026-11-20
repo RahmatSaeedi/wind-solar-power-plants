@@ -1,0 +1,14 @@
+inverter current: 1.0 pu at 50 Hz + 0.04 pu 5th + 0.03 pu 7th (A-040, assumed)
+  64 samples over one cycle (3.2 kHz); DFT peak amplitudes (pu):
+  h:      1      2      3      4      5      6      7      8      9
+  A:  1.000  0.000  0.000  0.000  0.040  0.000  0.030  0.000  0.000
+  THD = sqrt(0.04^2 + 0.03^2) / 1 = 5.0 %
+  window of 70 samples (1.09 cycles): bins are 45.7 Hz apart, 50 Hz falls
+    between bins; largest bins 46 Hz: 0.947, 91 Hz: 0.129, 137 Hz: 0.069
+    (leakage)
+aliasing: a sinusoid of f sampled at fs appears at |f - fs round(f/fs)|
+  f =    50 Hz, fs =    60 Hz -> appears at    10 Hz
+  f =    50 Hz, fs =  1000 Hz -> appears at    50 Hz
+  f =  1250 Hz, fs =  1000 Hz -> appears at   250 Hz
+  f =   650 Hz, fs =  1000 Hz -> appears at   350 Hz
+  rule: fs > 2 f_max, and a low-pass filter before the converter

@@ -1,0 +1,27 @@
+nacelle route-to-install plan with hold points (teaching)
+   1 [H] route permit and escort booked
+         released by transport company / authority
+   2 [H] bridge assessments accepted (2)
+         released by bridge owner's engineer
+   3 [H] overpass and power line measured
+         released by route surveyor / line owner
+   4 [H] crane assembled and inspected
+         released by crane inspector
+   5 [H] crane pad and mats accepted
+         released by civil engineer (ch 29, ch 30)
+   6 [C] tower erected and bolted, ready
+         released by erection supervisor
+   7 [C] convoy at the site gate, receiving check
+         released by receiving inspector
+   8 [H] forecast: 6 h below 10 m/s at hub
+         released by lift supervisor
+   9 [H] lift plan approved, briefing held
+         released by appointed person (lifts)
+  10 [H] exclusion zone set, rescue team on site
+         released by site manager
+  11 [C] radio check crane-ground-nacelle
+         released by lift supervisor
+  12 [-] lift, set, first bolts to maker's value
+         released by erection crew
+  8 hold points: any one of them stops the next step
+  until the named person releases it

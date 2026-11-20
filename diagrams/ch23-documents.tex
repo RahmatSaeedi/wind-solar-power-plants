@@ -1,0 +1,23 @@
+% Chapter 23 - the document tree below the one-line diagram: one-line -> protection one-line,
+% schematics, wiring diagrams, terminal and cable lists, equipment schedule, interface register;
+% each document carries number, revision and status in the register. RTL: root at the right.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    el/.style={blk, minimum width=30mm, minimum height=10mm, text width=29mm, font=\footnotesize}]
+  \node[el, draw=cWind, fill=cWind!9, minimum height=16mm] (ol) at (11,0) {نمودارِ تک‌خطی\\$\texttt{PLP-ELE-DWG-0005}$};
+  \node[el] (sch) at (6.5,2.4) {فهرستِ تجهیزات و کابل‌ها};
+  \node[el] (prot) at (6.5,1.2) {تک‌خطیِ حفاظت (فصلِ ۲۶)};
+  \node[el] (aux) at (6.5,0) {تک‌خطیِ خدمات و DC};
+  \node[el] (ifr) at (6.5,-1.2) {فهرستِ رابط‌ها};
+  \node[el] (lay) at (6.5,-2.4) {جانمایی‌ها (فصل‌های ۲۴ و ۲۵)};
+  \node[el] (sm) at (2,1.2) {شماتیک‌ها};
+  \node[el] (wd) at (2,0) {نقشه‌های سیم‌کشی};
+  \node[el] (tl) at (2,-1.2) {فهرستِ پایانه‌ها و رشته‌ها};
+  \foreach \t in {sch, prot, aux, ifr, lay} {\draw[flow] (ol.west) -- (\t.east);}
+  \draw[flow] (prot.west) -- (sm.east);
+  \draw[flow] (sm.south) -- (wd.north);
+  \draw[flow] (wd.south) -- (tl.north);
+  \node[note, text width=140mm] at (6.5,-3.7) {یک تغییر در نمودارِ تک‌خطی به پایین می‌رود: هر سندِ وابسته بازنگری، وضعیت و ارجاعِ تازه می‌گیرد؛ فهرستِ سندها نشان می‌دهد کدام هنوز عقب است};
+\end{tikzpicture}
+\end{document}

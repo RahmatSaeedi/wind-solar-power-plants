@@ -1,0 +1,11 @@
+an energy counter in kWh held as a 32-bit float (teaching)
+  year   counter kWh       resolution kWh   one-minute step kWh
+     1       295,100,000               32                 1,667
+     5     1,475,500,000              128                 1,667
+    25     7,377,500,000              512                 1,667
+  ten hours at 100 MW added in year 25: true 1,000,000 kWh, counted 921,760
+    error -7.8 %
+  a float keeps about seven digits: a growing counter
+  loses its small steps first; energy counters are 32- or
+  64-bit integers in Wh or kWh, and floats are kept for
+  measurements, not for sums that grow for 25 years

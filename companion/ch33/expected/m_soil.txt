@@ -1,0 +1,14 @@
+soil baseline before construction: nickel in 12 samples (synthetic)
+  mean 55.8 mg/kg, sd 15.0; upper baseline 87 (mean + 1.8 sd of the logs)
+  screening value of the permit (PLACEHOLDER): 60 mg/kg
+  cell after a fire   result   above baseline?   above screen?
+                  1       41                no              no
+                  2       55                no              no
+                  3       72                no             yes
+                  4      118               yes             yes
+  the ground is naturally rich in nickel: cell(s) [3] are
+  above the generic screen but inside the baseline - without
+  the baseline they would be dug out for nothing; only
+  cell(s) [4] stand out from both, so only they are excavated
+  and re-tested (lesson E) - the baseline is sampled before
+  the first bulldozer, never after

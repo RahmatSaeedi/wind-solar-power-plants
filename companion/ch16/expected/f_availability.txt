@@ -1,0 +1,9 @@
+annual availability with rare major failures (A-282):
+  mean 98.34 %, median 98.82 %, sd 1.01 %
+  P90 97.06 %, P99 95.03 %
+  normal with the same mean and sd: P90 97.05 %, P99 95.99 %
+  years with no major failure: 61 %
+  the distribution is one-sided: most years are a little better
+  than the mean, a few much worse; a normal part misplaces the
+  tail, and a long repair (spares, cranes, chapter 51) is the
+  real driver

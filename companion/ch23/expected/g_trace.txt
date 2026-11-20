@@ -1,0 +1,21 @@
+turbine WS3-4 traced to the grid (interfaces on the way):
+  =WS3-4-T1: voltage 0.69 -> 33 kV
+  =WS3-W4: protection zone Z-WS3
+  =WS3-Q1: isolation point
+  =T2-Q2: protection zone Z-T2
+  =T2-Q2: isolation point
+  =T2: voltage 33 -> 132 kV
+  =T2-Q1: isolation point
+  =E1-Q1: protection zone Z-L1
+  =E1-Q1: revenue (option A) meter
+  =E1-Q9: owner plant -> open (U-065)
+  =E1-Q9: isolation point
+  =E1-Q9: test boundary (plant and utility)
+  =G1-Q9: owner open (U-065) -> utility
+  =G1-Q9: protection zone Z-GRID
+  =G1-Q9: isolation point
+  =G1-Q9: test boundary (utility)
+  =G1-Q1: revenue (option B) meter
+  the turbine is the plant's; inside it, the maker's scope ends
+  at the transformer's 33 kV terminals (an interface of
+  supply, not of ownership)

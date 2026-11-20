@@ -1,0 +1,10 @@
+E01 volts a turn at 1.7 T on 0.25 m2: 94.4 V
+E02 net core area for 110 V at 1.7 T: 0.2915 m2
+E03 fill of a 7-step core: 0.934
+E04 HV phase current of 63 MVA at 132 kV: 275.6 A
+E05 resistance 0.5293 ohm at 22 C, at 75 C: 0.6385 ohm
+E06 no-load loss 43.5 kW, rms 3 % above mean: 42.2 kW
+E07 water saturation of oil at 20 C: 53 ppm
+E08 sound power, 68 dB(A) over 84 m2: 87.2 dB(A)
+E09 free buckling, 10 mm on a 0.753 m copper winding: 19 MPa
+E10 field in 66 mm oil + 9 mm board at 100 kV: 1.42 kV/mm

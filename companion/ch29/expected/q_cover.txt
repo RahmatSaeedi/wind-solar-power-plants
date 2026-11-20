@@ -1,0 +1,8 @@
+cover meter on one foundation cage before the pour (40 readings, mm)
+  mean 56.6, s 5.7, lowest 46; nominal 60 with 10 mm allowed below
+  readings below 50 mm: 5 of 40 (12 %)
+  5 % fractile (mean - 1.645 s): 47.2 mm
+  the low readings are found and fixed (spacers added, bars
+  moved) before the hold point is released: cover is the
+  foundation's protection against sulphates and chlorides
+  (lab D), and it cannot be added after the pour

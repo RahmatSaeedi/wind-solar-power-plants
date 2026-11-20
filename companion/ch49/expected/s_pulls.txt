@@ -1,0 +1,8 @@
+MV cable pulling logs against the maker's limits (teaching values)
+  WS1-S2: tension 19.5 kN over 18.0
+  WS1-S3: bend 0.85 m under 1.0
+  WS1-S4b: no tension record
+  an over-tension pull or a tight bend can damage the
+  insulation without a visible mark: the cable is tested
+  before it is jointed (ch 50) and the maker decides; a pull
+  with no tension record is treated like one over the limit

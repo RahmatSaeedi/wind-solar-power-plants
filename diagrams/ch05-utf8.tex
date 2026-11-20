@@ -1,0 +1,25 @@
+% Chapter 5 - the Persian word for wind in two encodings, bytes in memory order (left to
+% right), and the mojibake that follows when UTF-8 bytes are read as Windows-1252.
+% companion/ch05/expected/a_encoding.txt.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{byte/.style={draw=cInkB, fill=cFill, minimum width=11mm, minimum height=6mm,
+                        font=\ttfamily\footnotesize, text=cInk}}
+  \node[blkWind, minimum width=24mm] (b) at (2.8,2.2) {ب (اول)};
+  \node[blkWind, minimum width=24mm] (a) at (5.4,2.2) {ا (دوم)};
+  \node[blkWind, minimum width=24mm] (d) at (8.0,2.2) {د (سوم)};
+  \node[byte] at (2.2,1.0) {d8}; \node[byte] at (3.4,1.0) {a8};
+  \node[byte] at (4.8,1.0) {d8}; \node[byte] at (6.0,1.0) {a7};
+  \node[byte] at (7.4,1.0) {d8}; \node[byte] at (8.6,1.0) {af};
+  \node[byte] at (2.8,-0.1) {c8}; \node[byte] at (5.4,-0.1) {c7}; \node[byte] at (8.0,-0.1) {cf};
+  \foreach \l/\x in {b/2.8, a/5.4, d/8.0} {\draw[flowinfo] (\l.south) -- (\x,1.33);}
+  \node[note, anchor=west] at (9.5,2.2) {حرف‌ها به ترتیبِ ذخیره};
+  \node[note, anchor=west] at (9.5,1.0) {۶ بایت در $\text{UTF-8}$};
+  \node[note, anchor=west] at (9.5,-0.1) {۳ بایت در $\text{Windows-1256}$};
+  \node[blkWarn, minimum width=60mm, minimum height=8mm] at (5.4,-1.35) {$\texttt{\char"00D8\char"00A8\char"00D8\char"00A7\char"00D8\char"00AF}$};
+  \node[note, anchor=west, align=center] at (9.5,-1.35) {همان ۶ بایت، خوانده‌شده\\با جدولِ $\text{Windows-1252}$};
+  \draw[cInkB, -{Stealth[length=2mm]}] (1.6,-2.2) -- (9.2,-2.2);
+  \node[note, anchor=north] at (5.4,-2.3) {ترتیبِ بایت‌ها در حافظه و در پرونده: از چپ به راست};
+\end{tikzpicture}}
+\end{document}

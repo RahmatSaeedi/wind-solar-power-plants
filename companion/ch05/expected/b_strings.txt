@@ -1,0 +1,4 @@
+'  plp-wtg-07-gen \n' -> 'PLP-WTG-07-GEN'
+system WTG, number 7, component GEN
+is a turbine part: True
+   value|   3.142|   1,234,567|4.4%

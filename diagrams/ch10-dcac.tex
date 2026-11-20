@@ -1,0 +1,14 @@
+% Chapter 10 - energy clipped against the DC/AC ratio with the POA model (A-194).
+% Data: diagrams/data/ch10-dcac.csv (companion/ch10/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=58mm, xmin=0.98, xmax=1.52, ymin=0, ymax=13,
+      xlabel={نسبتِ $\text{DC/AC}$}, ylabel={انرژیِ بُرش‌خورده، $\text{GWh}$}, xtick={1.0,1.1,...,1.5},
+      xticklabels={$1.0$,$1.1$,$1.2$,$1.3$,$1.4$,$1.5$}, ytick={0,4,8,12}]
+    \addplot[sLoss, mark=*, mark size=1.4pt] table[x=r, y=cut, col sep=comma] {data/ch10-dcac.csv};
+    \fill[cInk] (axis cs:1.2,0.763) circle (1.7pt);
+    \node[note, text=cInk, anchor=south east] at (axis cs:1.19,1.3) {نیروگاهِ P: $0.76\ \text{GWh}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+turbine transformer at the tower base or in the nacelle (teaching):
+  5 MW, 110 m of cable down the tower; LV 690 V: 4,184 A,
+  12 x 240 mm2 copper per phase; MV 33 kV: one 3 x 95 mm2 cable
+  LV cable loss at full power  45.7 kW (0.91%)
+  MV cable loss at full power  0.81 kW
+  a year (loss load factor 0.3): 118 MWh saved per turbine
+  in the nacelle: lower losses, 36 LV cables fewer down the
+  tower; but some 10 t more at the tower top (160 t nacelle,
+  ch 11), heat and fire inside the nacelle, and access for
+  maintenance at height - Plant P's base keeps it in the tower
+  base (A-328); the turbine maker's design decides

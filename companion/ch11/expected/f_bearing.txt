@@ -1,0 +1,9 @@
+main bearing: life-weighted load over the data-pack year (A-230):
+  radial: rotor weight 1,089 kN; axial: thrust, up to 877 kN
+  equivalent load P = Fr + 2 Fa, weighted by revolutions: 2,125 kN
+  revolutions: 3.77 million a year, 75 million in 20 years
+  rating needed for L10 = 20 years: C = P x L^0.3 = 7.77 MN
+  with a bearing of C = 11.0 MN: L10 = 240 million rev = 64 years
+  L10 is a statistical life (90 % survive) for clean, well
+  lubricated bearings; main-bearing failures in service often
+  start from lubrication, sealing or misalignment instead

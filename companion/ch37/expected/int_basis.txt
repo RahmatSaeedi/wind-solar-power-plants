@@ -1,0 +1,19 @@
+D-041 performance monitoring basis of Plant P (teaching)
+  1 indicators: PR on a reference sensor and at 25 C, specific
+    yield, time- and production-based availability with the
+    contract's exclusions, curtailment kept apart
+  2 baseline: model 15.1 hourly; daily residual with a CUSUM;
+    thresholds set from the cost of a miss and of a visit
+  3 data: validation before any indicator; flagged hours
+    marked, not deleted; completeness reported
+  4 events: one taxonomy, written entry/exit and priority
+    rules, planned overruns counted as forced
+  5 reliability: coded hierarchy, exposure-based rates with
+    intervals, censored estimates, Weibull for wear-out,
+    growth slope for the young fleet
+  6 forecasts: scored by horizon on held-out data, against
+    persistence; drift watched after every plant change
+  7 services: scored against a written specification; trace,
+    specification and result kept as settlement evidence
+  open: contractual availability definitions and the grid
+    operator's service specification (U-118)

@@ -1,0 +1,18 @@
+% Chapter 32 - radiant heat flux from a 251 MW oil-pool fire (140 m2 bund) treated as a point
+% source, radiant fraction 0.3, with the 12.5 kW/m2 screening level and the near field (< 2 pool
+% diameters) where the point source is unreliable (companion/ch32/examples_d.py, d_radiant).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=5, xmax=50, ymin=0, ymax=70,
+      xlabel={فاصله از مرکزِ آتش (m)}, ylabel={شارِ تابشی ($\mathrm{kW/m^2}$)}]
+    \fill[cLoss!8] (axis cs:5,0) rectangle (axis cs:26.8,70);
+    \node[note, anchor=north] at (axis cs:16,68) {میدانِ نزدیک: مدلِ نقطه‌ای نامطمئن};
+    \addplot[sLoss, domain=9.8:50, samples=90] {0.3*251160/(4*pi*x^2)};
+    \draw[sLimit] (axis cs:5,12.5) -- (axis cs:50,12.5);
+    \node[note, anchor=south east] at (axis cs:50,13) {سطحِ غربالگری ۱۲٫۵};
+    \draw[cInkB] (axis cs:21.9,0) -- (axis cs:21.9,12.5);
+    \node[note, anchor=south west] at (axis cs:22.2,0.5) {$22\,\mathrm{m}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

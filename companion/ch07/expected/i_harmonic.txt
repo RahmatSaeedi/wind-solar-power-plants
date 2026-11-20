@@ -1,0 +1,9 @@
+harmonic voltage at the 33 kV bus, 22 units of 5 MW, spectrum A-040:
+  order 5: one unit 0.200 %; 22 units alpha 1: 4.40 %, 1.4: 1.82 %, 2: 0.94 %
+  order 7: one unit 0.210 %; 22 units alpha 1: 4.62 %, 1.4: 1.91 %, 2: 0.98 %
+  sum = (sum of V_i^alpha)^(1/alpha): alpha 1 = all in phase (worst case),
+  alpha 2 = random phases; the study uses the exponents and limits
+  the grid operator applies (chapter 27)
+  resonance, cables only              Q_c  1.79 Mvar: h = 16.71
+  resonance, cables + 22 unit filters Q_c  6.19 Mvar: h =  8.99
+  the filters move the resonance down towards the orders the units emit

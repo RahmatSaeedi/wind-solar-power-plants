@@ -1,0 +1,8 @@
+terminals in the marshalling cabinets (teaching sizes)
+  71 AI x 3 + 185 DI x 2 + 44 DO x 2, +20 % spare: 806 terminals
+  6.2 mm each on 0.6 m rails: 96 a rail -> 9 rails
+  at 10 rails a cabinet: 1 cabinet(s), before the room left for growth
+  space is also for people: room for a hand and a tool
+  between rails, labels on both ends of every wire, and
+  the field side kept apart from the system side so a
+  loop check never needs a terminal opened in a crowd

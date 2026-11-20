@@ -1,0 +1,9 @@
+mean speeds 60 / 80 / 100 m: 6.51 / 6.84 / 7.10 m/s
+  power-law exponent from the means: 0.171
+  hourly exponent (speeds above 3 m/s), median by hour: night max 0.218, day
+    min 0.119
+  extrapolated mean at the blade tip (175 m): 7.82 m/s; at the lowest tip (25
+    m): 5.60 m/s
+  log law through the 60 and 100 m means: roughness length z0 = 0.225 m
+  daytime sun mixes the air (small exponent); calm nights let layers slide
+    (large)

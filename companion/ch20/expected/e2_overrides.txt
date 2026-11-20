@@ -1,0 +1,6 @@
+priority and override tests (REQ-S01 with the controller):
+  PASS  request 30 MW with reserve: clamped to 15 MW
+  PASS  operator cap 0 MW: no export, battery may not discharge
+  PASS  at the floor: scheduled discharge refused
+  PASS  call at the floor: 5 MW delivered
+  PASS  comms lost past timeout: fallback idle, alarm raised

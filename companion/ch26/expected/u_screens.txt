@@ -1,0 +1,13 @@
+the cable screens against the earthing choice and the coupler
+  screen 35 mm2 Cu carries 5.0 kA for 1 s (ch 24): t = (5.0 kA / I)^2
+  earthing                          fault A   screen withstands s   backup s
+  solid (no resistor)                  7170                   0.5        1.5
+  400 A resistor, coupler open          400                 156.2        1.5
+  two resistors, coupler closed         800                  39.1        1.5
+  solidly earthed, a feeder earth fault cleared by the 1.5 s
+  standby would overheat the screen (0.5 s); with the
+  resistor the screen has minutes - one reason for the 400 A
+  design (lesson A); with the coupler closed both resistors
+  feed the fault: 800 A, still far inside the screen's
+  rating, but each standby element sees only its own 400 A
+  and the standby logic opens the coupler first (lesson B)

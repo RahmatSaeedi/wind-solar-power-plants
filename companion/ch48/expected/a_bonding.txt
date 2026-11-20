@@ -1,0 +1,13 @@
+cabinet bonding to the earth bar (teaching limit 0.1 ohm) and cable shields
+  MET-1     0.04 ohm  ok
+  WTG-T05   0.06 ohm  ok
+  SUB-RTU   0.21 ohm  HIGH
+  PV-B07    0.05 ohm  ok
+  shields against the project's rule by cable kind:
+    C-102 (analogue 4-20 mA): earthed at both ends, rule one end
+    C-106 (Pt100): earthed at none, rule one end
+  a high bond lets a fault or surge raise the cabinet against
+  earth; an analogue shield earthed at both ends carries a loop
+  current that the 4-20 mA signal reads as noise; an unearthed
+  Pt100 shield screens nothing - each is a line in the
+  cabinet's test record, found before the first reading

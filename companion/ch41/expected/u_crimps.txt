@@ -1,0 +1,9 @@
+connectors crimped at the site: 5 pull tests a day per installer
+  an installer making 5% bad crimps is caught within d days with chance
+  days       1      3      5     10
+  chance    23%    54%    72%    92%
+  sampling per installer, not per string: a bad habit belongs
+  to a person and a tool (ch 40, competency) - the samples
+  are cut out and the connectors replaced, so the test is
+  destructive and the count small; the maker's tool and
+  training remove most of the risk before any test

@@ -1,0 +1,13 @@
+a hot day of hybrid loading, dynamic thermal model (teaching):
+  load 0.35 pu at night (wind), up to 1.15 pu at noon (PV + wind);
+  air 25 C at dawn to 45 C in mid-afternoon
+  hottest spot 127 C at 13.4 h; steady state at each
+  instant would say 138 C
+  life used in this day: 4.00 days
+  the oil's three-hour time constant carries the noon peak
+  into the afternoon heat, but also smooths it: the dynamic
+  peak is below the steady one; still, this one day uses
+  about as much life as the whole year of lesson A - the
+  year is mostly cool nights and light loads, and a few such
+  days decide the ageing; the loading guide's model with the
+  maker's constants is what a real check uses

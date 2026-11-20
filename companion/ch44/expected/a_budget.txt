@@ -1,0 +1,10 @@
+semiconductor loss of one stack, 1.375 MVA, pf 0.909, m 0.95, 3 kHz
+  peak current 1,871 A; device data of ch 9
+  simplified (two-level formulas, two devices in the path,
+  switching at V_dc / 2), per leg:
+    conduction 3,008 W, switching 1,170 W
+  stack: simplified 12.53 kW, NPC device by device 12.40 kW (+1.1%)
+  per device of a leg (W): T1 988, T2 772, D5 296
+  hottest: T1, 988 W a position, 494 W a module
+  the hand budget is close in total but cannot say which
+  device is hottest: the thermal design needs the device split

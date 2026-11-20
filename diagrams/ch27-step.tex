@@ -1,0 +1,16 @@
+% Chapter 27 - reactive power response at the POC to a voltage set-point step (synthetic record, A-339),
+% with the final value and the 5 % settling band; data diagrams/data/ch27-step.csv from
+% companion/ch27/examples_e.py step().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=10, ymin=-2, ymax=25,
+      xlabel={زمان $(\text{s})$}, ylabel={توانِ واکنشی $(\text{Mvar})$}, xmajorgrids=true,
+      restrict x to domain=0:10]
+    \fill[cWind!10] (axis cs:0,19) rectangle (axis cs:10,21);
+    \addplot[sWind] table[x=t, y=q, col sep=comma] {data/ch27-step.csv};
+    \draw[sLimit] (axis cs:0,20) -- (axis cs:10,20);
+    \node[note, anchor=south east] at (axis cs:9.8,21.2) {نوارِ $\pm 5\,\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

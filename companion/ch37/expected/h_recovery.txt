@@ -1,0 +1,12 @@
+recovery: available again only with room for one more full event
+  SOC before 60 %, after the event 53.75 %, needed 56.25 %
+  recovery allowed (placeholder): 30 min
+  recharge power   energy MWh   time min   within the limit?
+          2 MW         1.00         32   NO
+          5 MW         1.00         13   yes
+  (94 % one-way efficiency)
+  a gentle recharge, kinder to the cells and to the import
+  peak, can fail the recovery time; until the battery is
+  back above the line it is not available for the
+  service, and the record shows SOC with every event
+  because the next one is judged on it

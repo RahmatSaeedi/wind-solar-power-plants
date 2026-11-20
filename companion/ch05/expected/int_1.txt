@@ -1,0 +1,7 @@
+data pack 1.1.0, S0, chapter 5 models; 8760 hours from the data
+  PV       96.43 GWh / ( 50 MW x 8760 h) = 0.220
+  wind    177.08 GWh / ( 60 MW x 8760 h) = 0.337
+  export  273.52 GWh / (100 MW x 8760 h) = 0.312
+guard: GWh + MW refused (DimensionError)
+checks: every factor in 0..1; PV share of energy 0.35;
+  export = PV + wind because nothing is curtailed in this model

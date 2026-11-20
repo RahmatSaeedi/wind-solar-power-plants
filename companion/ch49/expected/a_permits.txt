@@ -1,0 +1,13 @@
+approvals register against the day each front needs them
+  approval                                 needed  granted  late days
+  building permit, substation building         40       31          0
+  water abstraction, wells W-1/W-2             10       12         +2
+  road crossing, regional road (MV duct)      120     open          -
+  wadi works consent                           60       75        +15
+  abnormal loads, turbine convoy              150      140          0
+  temporary diesel store                       15        9          0
+  ruin buffer works (ch 33)                    90     open          -
+  4 of 7 late or open: the wadi consent held the access road
+  15 days; the road crossing and the ruin-buffer works have
+  no approval yet - their fronts are planned around them, not
+  started in hope (ch 22 permit register, ch 33 ruin buffer)

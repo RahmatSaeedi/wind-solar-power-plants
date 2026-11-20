@@ -1,0 +1,10 @@
+Plant P's own loads by class (A-284):
+  class            peak kW   energy MWh   share
+  critical             200        1686     37.2 %
+  controllable         320        2592     57.1 %
+  interruptible         60         261      5.7 %
+  all                 565        4539
+  critical: must run when the grid is lost (protection, control,
+  battery cooling); controllable: may be shifted to hours of
+  surplus; interruptible: may be dropped; the list sets the size
+  of the auxiliary supply and back-up (chapters 18 and 25)

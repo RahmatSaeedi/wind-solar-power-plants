@@ -1,0 +1,18 @@
+% Chapter 28 - frequency after losing 150 MW on a small 2 GW system: no plant response, PV held
+% 10 MW down, a 20 MW battery (S1); data diagrams/data/ch28-freq.csv from
+% companion/ch28/examples_c.py frequency().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, xmin=0, xmax=30, ymin=48.4, ymax=50.1,
+      xlabel={زمان $(\text{s})$}, ylabel={فرکانس $(\text{Hz})$}, xmajorgrids=true,
+      legend columns=3,
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/fixed zerofill,
+                        /pgf/number format/precision=1}]
+    \addplot[sLoss] table[x=t, y=none, col sep=comma] {data/ch28-freq.csv};
+    \addplot[sPV] table[x=t, y=pv, col sep=comma] {data/ch28-freq.csv};
+    \addplot[sBESS] table[x=t, y=bess, col sep=comma] {data/ch28-freq.csv};
+    \legend{بی‌پاسخ, خورشیدیِ محدودشده, باتری}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

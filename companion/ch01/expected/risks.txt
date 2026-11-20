@@ -1,0 +1,8 @@
+R1: L3 x I5 = 15 (high)
+R2: L3 x I4 = 12 (medium)
+R3: L4 x I3 = 12 (medium)
+R4: L2 x I4 =  8 (medium)
+R5: L3 x I3 =  9 (medium)
+R6: L2 x I3 =  6 (low)
+R7: L3 x I4 = 12 (medium)
+R8: L2 x I5 = 10 (medium)

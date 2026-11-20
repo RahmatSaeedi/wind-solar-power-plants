@@ -1,0 +1,12 @@
+debt against the one-year sigma of the net energy:
+  sigma %   debt k u   binding case
+      3       80,365   P50
+      4       80,365   P50
+      5       79,409   P90 1y
+      6       77,878   P90 1y
+      7       76,348   P90 1y
+      8       74,097   P99 1y
+  up to about 4.5 % the P50 case binds and uncertainty costs no
+  debt; beyond it every point costs about 1,500 k u, and at 8 %
+  the P99 case takes over: the owner pays for uncertainty with
+  equity once a downside case binds

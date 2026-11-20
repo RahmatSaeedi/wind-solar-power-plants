@@ -1,0 +1,7 @@
+data: Plant P Reference Data Pack 1.0.0, scenario S1 (BESS)
+battery role in this test: store curtailed energy only, deliver it later
+energy charged              13.8 MWh/yr
+energy delivered later      11.8 MWh/yr
+full-cycle equivalents      0.43 per year
+exported                   289.8 GWh/yr
+duration at rated power: 2.0 h nominal, 1.6 h usable

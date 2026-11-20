@@ -1,0 +1,6 @@
+T07 gearbox high-speed bearing: vibration velocity, weekly (mm/s RMS),
+  teaching alert 4.5 and alarm 7.1
+  growth starts about week 22; alert crossed week 35, alarm week 38
+  alert to alarm: 3 weeks - the time to order the bearing,
+  book the crane and pick a low-wind window (ch 31); a
+  monthly hand reading could miss those weeks altogether

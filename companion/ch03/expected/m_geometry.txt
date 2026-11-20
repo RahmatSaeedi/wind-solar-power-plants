@@ -1,0 +1,5 @@
+cable from the substation to a turbine 1200 m east and 800 m north (assumed):
+  straight line sqrt(1200^2 + 800^2) = 1442 m; along two roads (east, then
+    north) 2000 m (+39 %)
+rotor swept area pi 75^2 = 17,671 m2; a 120 deg sector of it = 5,890 m2
+circular foundation 20 m diameter, 3 m deep: pi 10^2 x 3 = 942 m3 of concrete

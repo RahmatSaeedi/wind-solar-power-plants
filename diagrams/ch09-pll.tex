@@ -1,0 +1,20 @@
+% Chapter 9 - synchronous-frame PLL (20 Hz, damping 0.707): phase error after a 30 deg jump at
+% 0.1 s and estimated frequency after a 0.5 Hz step at 0.3 s (A-158).
+% Data: diagrams/data/ch09-pll.csv (companion/ch09/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=116mm, height=44mm, xmin=0, xmax=0.6, ymin=-5, ymax=32,
+      xticklabels={}, ylabel={خطای زاویه، $^\circ$}, ytick={0,10,20,30}]
+    \addplot[sLoss] table[x=t, y=err, col sep=comma] {data/ch09-pll.csv};
+    \node[note, text=cInk, anchor=west] at (axis cs:0.13,24) {پرشِ فازِ $30^\circ$};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south)}, anchor=north, yshift=-4mm, width=116mm, height=44mm,
+      xmin=0, xmax=0.6, ymin=48, ymax=66, xlabel={زمان، $\text{s}$}, ylabel={بسامدِ برآوردی، $\text{Hz}$},
+      ytick={50,55,60,65}, xtick={0,0.1,...,0.6}, xticklabels={$0$,$0.1$,$0.2$,$0.3$,$0.4$,$0.5$,$0.6$}]
+    \addplot[sInk] table[x=t, y=f, col sep=comma] {data/ch09-pll.csv};
+    \node[note, text=cInk, anchor=west] at (axis cs:0.115,62) {جهشِ $64.3\ \text{Hz}$ پس از پرشِ فاز};
+    \node[note, text=cInk, anchor=south] at (axis cs:0.45,51.2) {پلهٔ $0.5\ \text{Hz}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

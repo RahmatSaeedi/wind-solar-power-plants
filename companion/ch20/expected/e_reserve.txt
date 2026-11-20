@@ -1,0 +1,12 @@
+upward reserve to cover the intraday forecast's shortfall:
+  forecast MW   hours   P90 short MW   P95 short MW   P99 short MW
+    0-19        3236            3.4            5.4            9.8
+   20-39        1754           10.2           14.6           20.6
+   40-59        2644           12.3           18.4           28.7
+   60-79         678           14.2           20.0           35.1
+   80-100        448           16.4           21.6           28.8
+  the reserve that covers 95 % of hours grows with the forecast
+  level and passes the battery converter (20 MW) above 60 MW;
+  evening shortfall 18-22 h: P50 4, P95 48 MWh;
+  the 32 MWh window covers 89 % of evenings; the rest is an
+  imbalance cost or a lower schedule

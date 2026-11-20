@@ -1,0 +1,10 @@
+year 18 against three peers of similar age (teaching data)
+  plant     wind availability %   PV PR %
+  Plant P          93.9             76.6
+  peer A           96.2             79.5
+  peer B           95.1             78.0
+  peer C           97.0             80.1
+  Plant P is 2.3 points below the peers' median in wind
+  availability and 2.9 in PR: the gap is larger in wind -
+  peers differ in climate and contract, so a benchmark asks
+  the question; the plant's own records answer it

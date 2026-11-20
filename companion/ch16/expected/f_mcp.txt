@@ -1,0 +1,12 @@
+uncertainty of the long-term mean wind speed by MCP (teaching
+  relation A-282; monthly sd 10 %, 20-year reference at 3.5 %):
+  months   r 0.70   r 0.80   r 0.90   r 0.95
+      6    3.02 %    2.57 %    1.94 %    1.50 %
+     12    2.21 %    1.90 %    1.48 %    1.19 %
+     18    1.86 %    1.62 %    1.29 %    1.07 %
+     24    1.65 %    1.45 %    1.18 %    1.01 %
+     36    1.42 %    1.27 %    1.07 %    0.94 %
+  a longer concurrent period and a better-correlated reference
+  both help, and both stop at the reference's own limit (0.8 %);
+  12 months at r 0.7 to 0.8 give the 2.15 % (MCP and period) of
+  chapter 13

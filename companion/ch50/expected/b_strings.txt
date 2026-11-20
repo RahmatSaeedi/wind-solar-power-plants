@@ -1,0 +1,11 @@
+combiner =PVF1-3-CB07, 20 strings of 26 PVM-550 at 820 W/m2 and 45 C
+  expected Voc 1,217 V and Isc 11.58 A (ch 10 single-diode model)
+  (tolerances: Voc 3 %, Isc 5 %, teaching)
+  S03: Voc +1,172 V, Isc 11.57 A - about 1 module(s) short
+  S05: Voc -1,216 V, Isc 11.52 A - reversed polarity
+  S07: Voc +1,215 V, Isc 10.52 A - low current
+  S11: Voc +1,125 V, Isc 11.50 A - about 2 module(s) short
+  4 of 20 strings fail: a reversed string is found
+  before it meets the others at the fuse; a string one or
+  two modules short is a connector skipped or a module
+  bypassed; low current is shading, soiling or a mixed bin

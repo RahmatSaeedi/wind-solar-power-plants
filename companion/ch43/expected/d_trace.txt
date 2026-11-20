@@ -1,0 +1,18 @@
+requirement -> purchase clause -> test -> evidence at FAT
+  requirement                         clause                status
+  63 MVA ONAF, 50 MVA ONAN            C-2.1 rating          done
+  132/33 kV YNd11                     C-2.2 ratio, vector   done
+  uk 12 % +-7.5 %                     C-2.3 impedance       done
+  OLTC +-10 % in 17 positions         C-2.4 taps            done
+  P0 42, Pk 290 kW, A/B deductions    C-4.1 losses          done
+  top oil 60 K, winding 65 K          C-2.5 temperature     done
+  dielectric to the insulation levels C-3.1 insulation      done
+  short-circuit withstand             C-3.4 short circuit   open
+  LWA 88 dB(A)                        C-2.7 sound           done
+  frequency-response baseline         C-5.2 records         partial
+  dissolved gas before/after heat run C-5.3 records         done
+  72 t shipped, impact recorder       C-6.1 shipping        open
+  9 done, 1 partial, 2 open of 12
+  each row names the test that proves it; a requirement
+  without a test row is a wish, and an 'open' row is a
+  decision someone must still make before acceptance

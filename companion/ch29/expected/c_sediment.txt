@@ -1,0 +1,6 @@
+a sediment pond for the PV block while it is graded and bare
+  soil loss over 3 bare months on 30 ha: 125 t = 83 m3 of sediment
+  runoff of a 25 mm storm (C 0.5) to hold for settling: 3750 m3
+  pond: about 3,833 m3 (storage + settling), emptied
+  after storms and removed when the cover is back; its outlet
+  goes to the wadi only through a stable, rock-lined spillway

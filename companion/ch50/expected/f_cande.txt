@@ -1,0 +1,10 @@
+fire cause-and-effect: 17 cause-effect pairs in the approved matrix
+  proven in a test: 82%; never proven:
+    smoke, control room -> damper close
+    smoke, cable cellar -> notify fire service
+    smoke, battery container -> notify fire service
+  supervisory signals failing: loss of the link to the control room
+  every pair is proven once with the real devices (detectors
+  in test mode, extinguishing release simulated - never a
+  live discharge); a damper or a call to the fire service
+  never proven is a function nobody has seen work

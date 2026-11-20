@@ -1,0 +1,33 @@
+% Chapter 8 - manufacturing chain of a generator with the main inspection points (diamonds:
+% hold or witness points). Reading order right to left, top row then bottom row.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small,
+    s/.style={blk, minimum width=22mm, minimum height=10mm, text width=20mm, font=\footnotesize},
+    hp/.style={draw=cLoss, fill=cLoss!10, diamond, aspect=1.4, inner sep=1.2pt, font=\scriptsize, text=cInk}]
+  % top row: stator
+  \node[s] (a1) at (12.0,2.2) {فولادِ الکتریکی: برش};
+  \node[s] (a2) at (9.0,2.2) {چیدن و فشردنِ هسته};
+  \node[s] (a3) at (6.0,2.2) {شکل‌دادن و عایقِ کلاف};
+  \node[s] (a4) at (3.0,2.2) {جاگذاری و اتصال};
+  \node[s] (a5) at (0.0,2.2) {آغشته‌سازی و پخت};
+  % bottom row: rotor and assembly
+  \node[s] (b1) at (12.0,0) {شفت: ماشین‌کاری};
+  \node[s] (b2) at (9.0,0) {روتور و آهن‌ربا};
+  \node[s] (b3) at (6.0,0) {بالانس};
+  \node[s] (b4) at (3.0,0) {مونتاژ};
+  \node[s, blkBESS] (b5) at (0.0,0) {آزمون‌های کارخانه‌ای};
+  \foreach \u/\v in {a1/a2, a2/a3, a3/a4, a4/a5, b1/b2, b2/b3, b3/b4, b4/b5} {\draw[flow] (\u) -- (\v);}
+  \draw[flow] (a5.south) -- ++(0,-0.4) -| (b4.north);
+  % inspection points
+  \node[hp] at (10.5,2.95) {گواهی};
+  \node[hp] at (7.5,2.95) {هسته};
+  \node[hp] at (4.5,2.95) {کلاف};
+  \node[hp] at (1.5,2.95) {عایق};
+  \node[hp] at (10.5,0.75) {فراصوت};
+  \node[hp] at (7.5,0.75) {آهن‌ربا};
+  \node[hp] at (4.5,0.75) {بالانس};
+  \node[hp] at (1.5,0.75) {فاصلهٔ هوایی};
+  \node[note, text width=80mm] at (6.0,-1.2) {هر مرحله با سابقه و ردیابی به شمارهٔ سریالِ ژنراتور پیوند می‌خورد};
+\end{tikzpicture}}
+\end{document}

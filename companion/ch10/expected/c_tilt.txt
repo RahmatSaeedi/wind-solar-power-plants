@@ -1,0 +1,15 @@
+annual irradiation on south-facing planes (Hay-Davies, IAM):
+  tilt deg   POA kWh/m2   effective kWh/m2
+         0         1947             1875
+         5         2013             1943
+        10         2067             1999
+        15         2108             2042
+        20         2136             2071
+        25         2150             2086
+        30         2151             2087
+        35         2139             2074
+        40         2113             2048
+        45         2075             2008
+  best tilt about 30 deg, below the latitude (34 deg):
+  diffuse light and the summer-heavy sky favour flatter planes;
+  row shading and wind load push lower still (next lesson)

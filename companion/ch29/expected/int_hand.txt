@@ -1,0 +1,7 @@
+two civil results checked by hand
+  wadi crossing, 10-year: Q = 0.278 x 0.35 x 24.8 mm/h x 3.2 km2
+    = 7.7 m3/s; code 7.7
+  Nq at 30 deg: e^(pi tan 30) tan^2 60 = 18.40; code 18.40
+  a hand check of a formula's one number protects against
+  a wrong unit or a wrong factor in the code - the table of
+  results is then trusted, not taken on faith

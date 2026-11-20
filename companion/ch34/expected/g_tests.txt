@@ -1,0 +1,15 @@
+control-mode verification: test points per mode (teaching)
+  mode                               test points
+  export limit                                 4
+  Q set point                                  5
+  V control (droop)                            5
+  power factor                                 3
+  REQ-S01 reserve (if contracted)              4
+  fallback schedule                            2
+  ramp limit                                   3
+  26 test points; each with a pass criterion, e.g. a Q step:
+    settled to 2 % in 9.2 s against a placeholder of 10 s - pass
+  tests run first in the simulator, then at site under a
+  test plan agreed with the grid operator; only modes the
+  connection requires or the project offers are tested and
+  enabled - the others stay disabled and are recorded so

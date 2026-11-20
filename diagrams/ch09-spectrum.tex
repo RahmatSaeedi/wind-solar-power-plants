@@ -1,0 +1,20 @@
+% Chapter 9 - line-to-line PWM voltage spectrum, two-level and three-level legs, m 0.9, carrier
+% 51 x 50 Hz. Data: diagrams/data/ch09-spectrum.csv (companion/ch09/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=118mm, height=44mm, xmin=0, xmax=160, ymin=0, ymax=0.85,
+      xticklabels={}, ylabel={دامنه، $V_\text{dc}$}, ytick={0,0.4,0.8}]
+    \addplot[sInk, ycomb, line width=0.8pt] table[x=h, y=a2, col sep=comma] {data/ch09-spectrum.csv};
+    \node[note, text=cInk, anchor=north east] at (axis cs:158,0.8) {دوسطحی، اعوجاج $66\%$};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south)}, anchor=north, yshift=-4mm, width=118mm, height=44mm,
+      xmin=0, xmax=160, ymin=0, ymax=0.85, xlabel={مرتبهٔ هارمونیک}, ylabel={دامنه، $V_\text{dc}$},
+      ytick={0,0.4,0.8}, xtick={0,20,...,160}]
+    \addplot[sPV, solid, ycomb, line width=0.8pt] table[x=h, y=a3, col sep=comma] {data/ch09-spectrum.csv};
+    \node[note, text=cInk, anchor=north east] at (axis cs:158,0.8) {سه‌سطحی، اعوجاج $49\%$};
+    \node[note, anchor=south] at (axis cs:51,0.3) {حدودِ $m_f = 51$};
+    \node[note, anchor=south] at (axis cs:102,0.15) {حدودِ $2m_f$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

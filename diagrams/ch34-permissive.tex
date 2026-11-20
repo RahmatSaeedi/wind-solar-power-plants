@@ -1,0 +1,19 @@
+% Chapter 34 - close permissive of a 33 kV feeder breaker: five conditions, each true only with good
+% quality, into an AND; a bad or stale input blocks and names itself (examples_b; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    c/.style={blk, minimum width=34mm, minimum height=7mm, text width=32mm},
+    q/.style={blk, minimum width=22mm, minimum height=7mm, text width=20mm}]
+  \foreach \k/\t in {4/کلیدِ زمین باز, 3/بی‌قفلِ حفاظتی, 2/ولتاژِ مستقیم سالم, 1/حالتِ دوردست, 0/فشارِ گاز درست} {
+    \node[c, blkLoad] (c\k) at (9.4,1.2*\k) {\t};
+    \node[q, blkWind] (q\k) at (5.6,1.2*\k) {کیفیت خوب؟};
+    \draw[flow] (c\k) -- (q\k);
+    \draw[flow] (q\k.west) -- (3.3,2.4);
+  }
+  \node[blk, blkBESS, minimum width=14mm, minimum height=14mm] (and) at (2.6,2.4) {و};
+  \node[blk, blkPV, minimum width=24mm, minimum height=9mm, text width=22mm] (out) at (0,2.4) {اجازهٔ بستن};
+  \draw[flow] (and) -- (out);
+  \node[note, text width=44mm, align=center] at (1.3,0.6) {ورودیِ بد یا کهنه یعنی نادرست، با هشداری که نامش را می‌گوید};
+\end{tikzpicture}
+\end{document}

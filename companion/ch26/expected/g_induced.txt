@@ -1,0 +1,11 @@
+voltage induced in a PV string loop by a strike 50 m away
+  (di/dt 10 kA per microsecond, teaching):
+  routing of + and -                    loop m2   induced V
+  returned 2 m apart along 28.6 m          57.2       2,288
+  returned 0.3 m apart                      8.6         344
+  bundled together                          1.4          56
+  the loop area sets the voltage: running the plus and minus
+  cables together is the cheapest surge measure; DC surge
+  protective devices at the inverter (and combiner) take the
+  rest; the cable layout of ch 24 and the SPDs of the PV
+  design are checked together

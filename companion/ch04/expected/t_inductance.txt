@@ -1,0 +1,7 @@
+per-phase inductance mu0/(2 pi) ln(GMD / 0.7788 r):
+  cable trefoil, centres 50 mm apart, conductor radius 8.74 mm:
+    L = 0.399 microhenry/m, X = 0.125 ohm/km (A-032 assumed 0.110)
+  overhead line, flat 1.0 m spacing (GMD 1.26 m), radius 9 mm:
+    L = 1.038 microhenry/m, X = 0.326 ohm/km
+  the overhead line has 2.6 x the reactance (wide spacing);
+  cables have the opposite: more capacitance

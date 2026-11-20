@@ -1,0 +1,9 @@
+the buyer pays part of year 3 late (chapter 21 model, teaching)
+  months late   min DSCR  equity IRR
+             0      1.20       10.2%
+             3      0.92       10.2%
+             6      0.47       10.1%
+             9      0.03       10.0%
+  nine months late in one year: minimum DSCR 0.03 - the six-
+  month reserve and a payment-security instrument are what a
+  lender asks for when payment terms are unpublished (AF-29)

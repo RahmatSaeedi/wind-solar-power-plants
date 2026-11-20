@@ -1,0 +1,9 @@
+half-sine day, peak 58 MW, 14.4 h: exact energy 2 Pmax L / pi = 531.7048 MWh
+ h (min)   trapezoid      error     Simpson      error
+     144    519.5015  -1.22e+01    531.9343  +2.29e-01
+      72    528.6645  -3.04e+00    531.7188  +1.40e-02
+      36    530.9454  -7.59e-01    531.7057  +8.69e-04
+      18    531.5150  -1.90e-01    531.7049  +5.42e-05
+       9    531.6574  -4.75e-02    531.7048  +3.39e-06
+halving h divides the trapezoid error by about 4 and Simpson's by about 16
+Richardson from h = 72 and 36 min: 531.7057 MWh (error +8.69e-04)

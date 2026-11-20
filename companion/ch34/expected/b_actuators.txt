@@ -1,0 +1,13 @@
+the actuators behind the set points and how long they take (teaching)
+  actuator                               typical response s
+  PV inverter active power                   0.10
+  battery PCS                                0.10
+  turbine pitch (ch 11)                      2.00
+  on-load tap changer step                   5.00
+  33 kV breaker close                        0.08
+  capacitor bank switching (ch 27)          30.00
+  the plant's response is set by its slowest actuator in the
+  loop: a voltage loop through tap changers acts in tens of
+  seconds, through inverters in fractions of one - the PPC
+  uses the fast ones first and the slow ones to restore
+  their reserve (ch 27, ch 28)

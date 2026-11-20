@@ -1,0 +1,12 @@
+causes of the fabricator's last 40 NCRs (synthetic)
+  cause        count   share   cumulative
+  dimensions      14     35%          35%
+  coating          9     22%          57%
+  welding          8     20%          78%
+  documents        5     12%          90%
+  materials        3      8%          98%
+  other            1      2%         100%
+  two causes make 57%: dimensions (ovality, flange
+  flatness) and coating - the audit of the fabricator (ch 39)
+  goes to the rolling, the flange welding sequence and the
+  paint shop first

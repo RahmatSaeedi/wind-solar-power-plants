@@ -1,0 +1,20 @@
+% Chapter 26 - restricted earth fault against differential for a resistance-earthed star winding:
+% neutral current (REF, proportional to x) and current seen on the line side (differential, x
+% squared) as % of rated, against the fault position x; data diagrams/data/ch26-ref.csv from
+% companion/ch26/examples_m.py ref(); teaching thresholds 5 % (REF) and 20 % (differential).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=62mm, xmin=0, xmax=1, ymin=0, ymax=40,
+      xlabel={جای خطا از نول $x$}, ylabel={جریان، درصدِ نامی}, xmajorgrids=true,
+      legend columns=2]
+    \addplot[sWind, mark=*, mark size=1.4pt] table[x=x, y=ref, col sep=comma] {data/ch26-ref.csv};
+    \addplot[sLoss, mark=square*, mark size=1.4pt] table[x=x, y=diff, col sep=comma] {data/ch26-ref.csv};
+    \legend{جریانِ نول (REF), جریانِ سمتِ خط (دیفرانسیل)}
+    \draw[sLimit] (axis cs:0,5) -- (axis cs:1,5);
+    \node[note, anchor=south west] at (axis cs:0.02,5.3) {آستانهٔ $5\,\%$};
+    \draw[sLimit] (axis cs:0,20) -- (axis cs:1,20);
+    \node[note, anchor=south west] at (axis cs:0.02,20.3) {آستانهٔ $20\,\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

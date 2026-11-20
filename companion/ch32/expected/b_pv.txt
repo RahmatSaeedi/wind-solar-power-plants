@@ -1,0 +1,9 @@
+when the PV array is energised (data-pack year, hourly GHI)
+  hours with GHI above 50 W/m2: 4,031 (46 % of the year)
+  hours with faint light (1-50 W/m2): 472
+  a module makes voltage in faint light, and open-circuit
+  voltage is highest on cold, dim mornings; opening a combiner
+  or an inverter switch isolates what lies beyond it, never the
+  modules and string cables on the array side - which is why
+  DC work is planned with the array treated as energised and
+  done under the permit system (ch 6, 9, 10)

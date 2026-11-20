@@ -1,0 +1,16 @@
+worked example: three sites, scores and money (teaching):
+                              debt    equity      NPV k u
+  site       GWh  score    k u       IRR %   at close    today
+  P-North    330   0.30   130,294      9.85      5,772    4,646
+  P-Central  295   0.75   120,933     10.21      5,158    4,740
+  P-South    262   0.56   100,167      8.03     -7,610   -6,506
+  (NPV today: the NPV at financial close discounted at the WACC
+  over the months to close: P-North 36, P-Central 14, P-South 26)
+  P-North makes 12 % more energy and its NPV at close is the
+  highest, but it reaches close 22 months later, so its NPV
+  today is below P-Central's; lenders size its debt on a P90
+  widened by thin data, so its owners earn less; two flags may
+  stop it. P-South's weak grid caps its export: NPV negative.
+  P-Central, with 11 % less energy, ranks first on score, on
+  equity return and on NPV today - by money alone its lead over
+  P-North is thin: the flags, the evidence and the time decide

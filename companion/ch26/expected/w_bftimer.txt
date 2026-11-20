@@ -1,0 +1,14 @@
+breaker-failure timer from the breaker timing records (lesson K)
+  timer >= slowest opening + current-check reset + margin
+  (reset 20 ms, margin 60 ms, teaching)
+  breaker            slowest pole ms   needed ms   150 ms ok?   115 ms ok?
+  =WS1-Q1                         31         111          yes          yes
+  =WS2-Q1 (as found)              42         122          yes           NO
+  =WS2-Q1 (repaired)              30         110          yes          yes
+  the timer must outlast the slowest healthy opening, or the
+  breaker-failure stage trips the whole section while the
+  breaker is in fact opening: with a tighter 115 ms timer (for
+  faster backup) the slow pole as found would do exactly that;
+  the timing record is an input to the setting, and a breaker
+  that fails its timing is repaired, not 'covered' by a longer
+  timer that slows every backup clearing

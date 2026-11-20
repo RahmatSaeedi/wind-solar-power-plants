@@ -1,0 +1,23 @@
+% Chapter 9 - heat path of a power semiconductor: junction to coolant as series thermal resistances
+% (the electrical analogy of chapter 6), with the loss as a current source.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \draw (0,0) to[I, l={$P_\text{loss}$}] (0,2.4);
+  \draw (0,2.4) -- (1.4,2.4) node[circ] {};
+  \draw (1.4,2.4) to[R, l={$R_\text{jc}$}] (4.0,2.4) node[circ] {}
+        to[R, l={$R_\text{ch}$}] (6.6,2.4) node[circ] {}
+        to[R, l={$R_\text{hc}$}] (9.2,2.4) node[circ] {};
+  \draw (9.2,2.4) to[battery1, l={$T_\text{coolant}$}] (9.2,0);
+  \draw (1.4,2.4) to[C, l={$C_\text{th}$}] (1.4,0);
+  \draw (0,0) -- (9.2,0);
+  \node[note, text=cInk, anchor=south] at (1.4,2.6) {پیوند $T_j$};
+  \node[note, text=cInk, anchor=south] at (4.0,2.6) {پوسته};
+  \node[note, text=cInk, anchor=south] at (6.6,2.6) {صفحهٔ سرد};
+  \node[note, text=cInk, anchor=south] at (9.2,2.6) {مایع};
+  \node[note, text=cInk, anchor=north] at (4.6,-0.3)
+       {گرما مانندِ جریان، دما مانندِ ولتاژ؛ ظرفیت‌های گرمایی پاسخِ زمانی را می‌سازند (مدلِ فاستر)};
+  \node[note, text=cInk, anchor=north] at (4.6,-0.85)
+       {$T_j = T_\text{coolant} + P_\text{loss}\,(R_\text{jc} + R_\text{ch} + R_\text{hc})$};
+\end{tikzpicture}}
+\end{document}

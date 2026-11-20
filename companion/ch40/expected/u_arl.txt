@@ -1,0 +1,10 @@
+average run length of the X-bar chart (subgroups of 5)
+  shift in sigma   chance a subgroup signals   ARL
+             0.0                      0.0027     370
+             0.5                      0.0299      33
+             1.0                      0.2225       4
+             1.5                      0.6384       2
+             2.0                      0.9295       1
+  a 2.6-sigma shift (the drifted wrench) is caught at once;
+  a half-sigma drift takes about 33 subgroups - the CUSUM
+  of ch 37 sees small drifts sooner

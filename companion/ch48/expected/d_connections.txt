@@ -1,0 +1,14 @@
+substation core switch: connection schedule planned against the
+  as-built walk-down
+  missing: SUB-CORE:P10
+  extra:   SUB-CORE:P11
+  changed: SUB-CORE:P3 far SW-T06 -> SW-T07
+  changed: SUB-CORE:P4 far SW-T07 -> SW-T06
+  changed: SUB-CORE:P8 medium copper -> fibre
+  P3 and P4 are crossed: the two ends of the west and east
+  rings meet on each other's port - the rings still work, but
+  the port labels, the monitoring and the recovery plan all
+  point to the wrong ring; the clock moved from P10 to P11 and
+  the RTU link became fibre - both fine, both to be written
+  into the as-built schedule, or the next technician pulls the
+  wrong cable

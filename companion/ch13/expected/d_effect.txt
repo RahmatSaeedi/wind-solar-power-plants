@@ -1,0 +1,16 @@
+effect of the faulty 80 m cup on the shear and a 120 m hub:
+  shear exponent from                      true     logged
+    three heights 60/80/100 m              0.2344   0.2289
+    the two upper heights 80/100 m         0.2358   0.3856
+    60 and 100 m (80 m left out)           -        0.2345
+  energy at 120 m with the true shear: 19,415 MWh per turbine
+    logged, three heights    19,386 MWh (-0.15 %)
+    logged, 80/100 m         20,217 MWh (+4.13 %)
+    logged, 60/100 m         19,415 MWh (+0.00 %)
+  sensitivity of energy to speed at this site: 1.60 % per %
+  the low 80 m readings barely move a three-height fit, but the
+  common shortcut 'shear from the two top cups' raises the
+  exponent by two thirds and overstates a 120 m hub by about 4 %
+  of energy;
+  leaving the faulty cup out removes the bias; two heights left
+  make the shear less certain (section C)

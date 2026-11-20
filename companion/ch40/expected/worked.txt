@@ -1,0 +1,10 @@
+E01 RTY of three steps 0.98, 0.95, 0.90: 0.838
+E02 takt, 12 units in 3 weeks of 40 h: 10 h
+E03 Cp and Cpk of 9, 10, 11, 10, 10 in 7-13: 1.41, 1.41
+E04 P(accept) n = 50, c = 1 at 2 %: 0.736
+E05 RPN of S 9, O 3, D 8: 216
+E06 escape after checks finding 50 % and 80 %: 0.10
+E07 TUR, tolerance +/- 5, uncertainty 1.25: 4.0
+E08 sling leg, 100 kN on two legs at 45 degrees: 70.7 kN
+E09 learning curve 85 %, unit 4 of a 100 h first: 72.2 h
+E10 ppm over a one-sided limit 3 sigma above the mean: 1,350

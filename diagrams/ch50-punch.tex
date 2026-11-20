@@ -1,0 +1,21 @@
+% Chapter 50 - commissioning punch list by week: items opened and closed (bars) and items still open
+% (line) - testing keeps finding new items while the list closes (teaching;
+% companion/ch50/examples_c.py, punch -> diagrams/data/ch50-punch.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=9.4, xmax=15.6, ymin=0, ymax=160,
+      xtick={10,...,15}, xlabel={هفتهٔ راه‌اندازی}, ylabel={بندهای فهرستِ نواقص},
+      legend style={at={(0.5,1.02)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[ybar, area legend, bar width=4mm, bar shift=-2.2mm, draw=cLoss, fill=cLoss!35]
+      table[x=week, y=opened, col sep=comma] {data/ch50-punch.csv};
+    \addlegendentry{بازشده}
+    \addplot[ybar, area legend, bar width=4mm, bar shift=2.2mm, draw=cPV, fill=cPV!45]
+      table[x=week, y=closed, col sep=comma] {data/ch50-punch.csv};
+    \addlegendentry{بسته‌شده}
+    \addplot[sWind, line width=1.3pt, mark=*, mark options={solid}]
+      table[x=week, y=open, col sep=comma] {data/ch50-punch.csv};
+    \addlegendentry{باز}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

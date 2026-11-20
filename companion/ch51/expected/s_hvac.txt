@@ -1,0 +1,6 @@
+control-room HVAC lost on a summer afternoon (one-node teaching model)
+  outside 44 C, equipment heat 9.0 kW, loss 0.45 kW/K: room heads for 64 C
+  time constant 5.6 h; 35 C (servers' limit, teaching) in 107 min
+  the second HVAC unit (N+1, ch 23) is the plan; without it,
+  the procedure sheds non-essential servers and opens the
+  emergency ventilation within that time

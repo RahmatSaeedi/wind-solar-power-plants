@@ -1,0 +1,25 @@
+% Chapter 2 — dimensional check of the wind-power formula P = 1/2 rho A v^3.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    f/.style={blk, minimum width=30mm, minimum height=13mm, inner sep=2pt, fill=white, draw=cInkB},
+    r/.style={blk, minimum width=44mm, minimum height=12mm, inner sep=2pt, draw=cInk, fill=cFill}]
+  \node[f] (k)   at (0,0)   {عدد $\tfrac12$\\$[1]$};
+  \node[f] (rho) at (3.4,0) {چگالیِ هوا $\rho$\\$[\mathsf{M\,L^{-3}}]$};
+  \node[f] (a)   at (6.8,0) {مساحتِ روتور $A$\\$[\mathsf{L^{2}}]$};
+  \node[f] (v)   at (10.2,0) {سرعتِ باد به توانِ سه $v^3$\\$[\mathsf{L^{3}\,T^{-3}}]$};
+
+  \node[r] (m1) at (5.1,-2.3) {$\rho A v^3$\\$[\mathsf{M\,L^{-3+2+3}\,T^{-3}}] = [\mathsf{M\,L^{2}\,T^{-3}}]$};
+  \node[r, draw=cWind, fill=cWind!9, minimum width=60mm] (p) at (5.1,-4.5)
+        {توان: $[\mathsf{M\,L^{2}\,T^{-3}}] = \text{kg}\,\text{m}^2/\text{s}^3 = \text{J/s} = \text{W}$};
+
+  \foreach \n in {k, rho, a, v} \draw[flow] (\n.south) -- (m1.north);
+  \draw[flow] (m1) -- (p);
+
+  \node[blkWarn, minimum width=46mm, minimum height=12mm, align=center] (w) at (11.6,-3.4)
+        {اگر کسی بنویسد $\tfrac12\rho A v^2$:\\$[\mathsf{M\,L\,T^{-2}}]$ = نیرو، نه توان};
+  \node[note, anchor=north, text width=120mm] at (5.6,-5.5)
+     {هر جملهٔ یک معادله باید بُعدِ یکسان داشته باشد. ضریبِ بی‌بُعد ($\tfrac12$ و ضریبِ توان $C_p$)
+      را تحلیلِ ابعادی نمی‌دهد؛ آن را فیزیک (فصلِ ۱۱) می‌دهد.};
+\end{tikzpicture}}
+\end{document}

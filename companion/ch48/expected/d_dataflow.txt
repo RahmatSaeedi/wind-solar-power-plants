@@ -1,0 +1,17 @@
+one irradiance value from the sensor to the historian (teaching)
+  stage              where           delay s   sets
+  pyranometer        met station         5.0   the physics; response time to
+    95 %
+  4-20 mA loop       met cabinet         0.0   range, loop check (ch 34)
+  logger input       met cabinet         1.0   scaling to W/m2, sample rate
+  logger to switch   SW-T05              0.0   VLAN 20 (control)
+  gateway poll       GW-MET              2.0   register type, scale, time
+    stamp
+  SCADA server       control room        1.0   quality flag, alarm limits
+  historian          control room        0.0   deadband, compression,
+    retention
+  worst-case delay 9 s: fine for a 1-minute PR, too slow for
+  a 1-second ramp check - the right source for each use is
+  chosen from this view; and every attribute (unit, scale,
+  time, quality, deadband) is set in exactly one stage, which
+  is the stage a wrong value is traced back to (ch 35, ch 37)

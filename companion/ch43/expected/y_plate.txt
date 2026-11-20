@@ -1,0 +1,13 @@
+the rating plate of T1 checked against its test report
+  item          plate     report   check
+  uk_pct        12.0      12.6     differs
+  p0_kw         42.0      42.2     differs
+  pk_kw         290.0     298.0    differs
+  mass_t        95.0      92.4     differs
+  vector        YNd11     YNd11    ok
+  oil_m3        22.0      22.0     ok
+  4 items differ: the plate carries the guaranteed values,
+  the measured ones belong on it (impedance, losses, mass) -
+  protection settings and fault studies read the plate, and
+  a guarantee printed as a measurement misleads them for
+  forty years

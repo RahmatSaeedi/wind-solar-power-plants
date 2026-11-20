@@ -1,0 +1,10 @@
+PV 80 MW AC behind 100 MW: a battery that stores what the limit
+  cuts (round trip 86 %); curtailed without battery 6,596 MWh
+  battery          stored MWh   returned MWh   share   cycles
+   20 MW   40 MWh       3,179         2,734      41.5 %      68
+   20 MW   80 MWh       5,009         4,308      65.3 %      54
+   40 MW   80 MWh       5,146         4,426      67.1 %      55
+   40 MW  160 MWh       6,562         5,644      85.6 %      35
+  energy alone rarely pays for a battery: the cycles are few;
+  its value comes from timing, reserve and shortfalls as well
+  (chapters 17-19); the model counts each use apart

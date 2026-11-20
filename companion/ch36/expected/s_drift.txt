@@ -1,0 +1,10 @@
+unrecorded configuration changes found by comparing with the baseline
+  check every   mean days undetected   longest
+     1 days                    0.6       1.0
+     7 days                    3.7       7.0
+    30 days                   17.1      28.4
+    90 days                   50.1      87.4
+  a change that bypassed the change process stays unseen
+  for half the check interval on average; a weekly
+  automated comparison of fingerprints (lesson E) costs
+  little and keeps the gap to days

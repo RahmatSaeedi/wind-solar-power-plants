@@ -1,0 +1,14 @@
+interlock logic of a 33 kV panel: 5 of 16 states allowed
+  breaker  truck in  earth  door   (allowed states)
+  no      no      no      no
+  no      no      yes     no
+  no      no      yes     yes
+  no      yes     no      no
+  yes     yes     no      no
+  three unsafe states the logic must refuse:
+    breaker closed, earth closed   refused
+    door open, earth open          refused
+    earth closed, truck in         refused
+  the interlocks are mechanical and electrical parts of the
+  panel, proved in the factory; the table is how a reviewer
+  checks that the rules leave no unsafe state reachable

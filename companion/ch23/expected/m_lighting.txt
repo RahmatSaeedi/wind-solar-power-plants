@@ -1,0 +1,8 @@
+lighting and drainage loads from first principles (teaching):
+  lighting: yard 5,000 m2 x 2 W/m2 + buildings 400 m2 x 10 W/m2 = 14.0 kW
+  drainage: 600 m2 of trenches and pits x 30 mm/h = 5.0 L/s
+    pump power at 10 m head, efficiency 0.5: 0.98 kW per sump
+    four sumps, duty and standby pumps: 8 kW installed
+  the register's 15 kW of lighting and 8 kW of sump pumps
+  agree; the storm intensity and the head come from the civil
+  design (ch 29), the light levels from the lighting design

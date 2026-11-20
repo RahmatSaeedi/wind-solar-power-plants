@@ -1,0 +1,13 @@
+oil sample before filling: 18 ppm water (teaching limit 10 ppm)
+  temperature C   saturation ppm   relative saturation
+              0               20                   89%
+             20               53                   34%
+             40              122                   15%
+             60              255                    7%
+             80              491                    4%
+  the same ppm is a third of saturation at 20 C and a few
+  per cent when hot: cold oil holds little water, and paper
+  in contact with wetter oil takes it up - the oil is
+  processed again until it meets the limit before filling
+  (an NCR on the traveler, lab D); the test methods and
+  limits are the oil standard's and the contract's (STD-178)

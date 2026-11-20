@@ -1,0 +1,10 @@
+gravity foundation: 600 m3 concrete (24 kN/m3), 800 m3 backfill (18 kN/m3),
+  square base 20 m (A-087); B/6 = 3.33 m
+  weights: concrete 14.4 MN, backfill 14.4 MN, tower and top 8.3 MN
+  case                      water        FS     e (m)   base
+  operating (a_thrust)      dry          4.13     2.42   fully pressed
+  operating (a_thrust)      half depth   3.36     2.97   fully pressed
+  extreme (assumed)         dry          2.47     4.05   part lifts
+  extreme (assumed)         half depth   2.01     4.96   part lifts
+  buoyancy removes weight exactly when it is needed; beyond B/6 part of the
+    base lifts off: a geotechnical and structural check (chapter 30)

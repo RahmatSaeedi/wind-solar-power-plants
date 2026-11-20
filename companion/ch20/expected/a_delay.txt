@@ -1,0 +1,15 @@
+the same tunings with a measurement delay (park tau 2 s):
+  tuning                   delay s   overshoot %   still moving at 60 s
+  tuned (1.5, 0.8)           0.0           0.1                     no
+  tuned (1.5, 0.8)           0.2           0.1                     no
+  tuned (1.5, 0.8)           0.5           1.1                     no
+  tuned (1.5, 0.8)           1.0          31.3                     no
+  aggressive (6, 8)          0.0           9.7                     no
+  aggressive (6, 8)          0.2          47.8                     no
+  aggressive (6, 8)          0.5      unstable                    yes
+  aggressive (6, 8)          1.0      unstable                    yes
+  a 0.2 s delay that the tuned loop shrugs off makes the
+  aggressive loop overshoot by half, and at 0.5 s it grows
+  without bound; even the tuned loop rings at 1 s: delay, not
+  gain alone, sets how fast a plant controller may be; the
+  delay of the real path is measured at commissioning

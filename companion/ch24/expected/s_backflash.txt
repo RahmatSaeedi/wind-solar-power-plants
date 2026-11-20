@@ -1,0 +1,12 @@
+back-flashover: lightning on the tower top or earth wire (teaching):
+  30 kA, front 30 kA/us, tower inductance 15 uH, insulation 650 kV
+  footing ohm   I R kV   L di/dt kV   tower top kV   back-flash
+            5      150          450            600   no
+           10      300          450            750   yes
+           20      600          450           1050   yes
+           40     1200          450           1650   yes
+  the tower top rises with the current through its footing;
+  when the rise beats the insulator, it flashes back to a
+  phase and the line trips although the phase was never hit -
+  low footing resistance (rods, counterpoise) is the remedy,
+  measured at each tower and recorded (ch 26 lightning)

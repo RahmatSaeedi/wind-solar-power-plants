@@ -1,0 +1,10 @@
+DFIG, 4 poles (1500 rpm synchronous); shaft power follows speed
+  cubed (best tip-speed ratio) up to 5.32 MW at 1800 rpm:
+  1050 rpm: shaft 1.06 MW, slip +30.0 %, rotor -0.45 MW (+ = to grid)
+  1350 rpm: shaft 2.24 MW, slip +10.0 %, rotor -0.25 MW (+ = to grid)
+  1500 rpm: shaft 3.08 MW, slip  +0.0 %, rotor +0.00 MW (+ = to grid)
+  1800 rpm: shaft 5.32 MW, slip -20.0 %, rotor +0.89 MW (+ = to grid)
+  1950 rpm: shaft 5.32 MW, slip -30.0 %, rotor +1.23 MW (+ = to grid)
+  speed range +-30 % needs a converter of about a quarter
+  of rating (0.3 / 1.3);
+  a full converter carries 100 % but frees the speed and the machine

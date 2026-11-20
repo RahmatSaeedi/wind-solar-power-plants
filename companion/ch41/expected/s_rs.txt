@@ -1,0 +1,10 @@
+series resistance from two curves (1000 and 600 W/m2, 25 C, ch 10 model)
+  shift the low curve up by dI = 5.59 A; the voltage gap
+  between matching points is Rs x dI
+  points at 60 / 70 / 80 % of Isc: 0.184, 0.188, 0.198 ohm
+  estimate 0.190 ohm; fitted model value 0.172 ohm (+11%):
+  the method assumes the curves differ only by the shift -
+  the diode and shunt terms also move with irradiance;
+  the two-curve method needs no model: a rising Rs between
+  the factory flash and a field curve points at joints and
+  ribbons (cold solder, corrosion), not at the cells

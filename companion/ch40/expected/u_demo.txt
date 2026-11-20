@@ -1,0 +1,8 @@
+zero-failure test to demonstrate MTBF 1,000 h
+  confidence   test hours without a failure
+         60%              916
+         80%            1,609
+         90%            2,303
+  90 % needs 2,303 h with no failure at all; one failure
+  stretches the test - which is why growth testing (lesson
+  E) comes first, and the demonstration only at the end

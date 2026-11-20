@@ -1,0 +1,11 @@
+inverters through the data-pack year (A-147, A-153, D-012):
+  DC energy at the inverters    103,051 MWh
+  conversion losses               1,656 MWh (1.61 %)
+  clipping at 50 MW                 8.6 MWh
+  temperature and altitude         24.3 MWh
+  AC energy delivered           101,362 MWh
+  site-weighted efficiency    0.9839; European 0.9824, CEC 0.9842
+  share of DC energy by load (bins around the European points):
+    5 % 1, 10 % 2, 20 % 4, 30 % 9, 50 % 40, 100 % 44 (per cent)
+  this site weights mid and high loads more than the European
+  convention does: judge efficiency with the site's own weights

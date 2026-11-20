@@ -1,0 +1,9 @@
+outside parties with any access to the control system (teaching)
+  party            access                  controlled by
+  turbine maker    remote sessions         contract clauses, quarterly review
+  inverter maker   data transfers          transfer register, expiry
+  integrator       design, commissioning   sanitised model, NDA
+  grid operator    telecontrol             agreed profile (U-115)
+  insurer          summaries               transfer register
+  5 parties, each with a contract, an owner on the plant
+  side and an end date for every right it holds

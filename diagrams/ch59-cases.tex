@@ -1,0 +1,22 @@
+% Chapter 59 - minimum DSCR of the base and four change cases (ch 15 yield and ch 21 finance; debt
+% held except 'no battery'), with the 1.05 default covenant and the 1.20 sizing target.
+% Data: diagrams/data/ch59-cases.csv (companion/ch59/defense.py, change).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=62mm, xbar, bar width=5mm, ymin=0.4, ymax=5.6,
+      xmin=1.0, xmax=1.32, y dir=reverse, ytick={1,...,5}, ymajorgrids=false, xmajorgrids=true,
+      yticklabels={مبنا, منبعِ باد ۱۰ درصد کمتر, حدِ صادرات ۸۰ مگاوات, هزینهٔ سرمایه‌ای ۱۵ درصد بیشتر,
+        بی باتری},
+      xlabel={کمینهٔ نسبتِ پوششِ خدمتِ بدهی},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk, anchor=west,
+        /pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[draw=cInkB, fill=cInkB!30] table[x=dscr, y=k, col sep=comma] {data/ch59-cases.csv};
+    \draw[cLoss, dashed] (axis cs:1.05,0.4) -- (axis cs:1.05,5.6);
+    \draw[cBESS, dashed] (axis cs:1.20,0.4) -- (axis cs:1.20,5.6);
+    \node[font=\scriptsize, text=cLoss, anchor=north west] at (axis cs:1.051,5.55) {۱٫۰۵};
+    \node[font=\scriptsize, text=cBESS, anchor=north west] at (axis cs:1.201,5.55) {۱٫۲۰};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,15 @@
+grid-study inputs for Plant P - Tajikistan: what the public
+sources give against what the studies need (ch 28 register)
+  needed 13; complete 15%; missing 11; too weak 0
+    missing: fault levels max and min at the POC
+    missing: network equivalent for dynamic studies
+    missing: connection voltage and substation bay
+    missing: substation and line capacity available
+    missing: remote-end protection and reclosing
+    missing: background harmonics and allocation
+    missing: reactive power requirement
+    missing: fault ride-through requirement
+    missing: frequency response requirement
+    missing: telemetry list and protocol
+    missing: seasonal hydro and export pattern
+  the request goes to: SIB (transmission) and the single buyer, in writing

@@ -1,0 +1,15 @@
+% Chapter 32 - chance a detector is failed when needed (PFD) against the test interval for one
+% detector and for two where either alarms (diagrams/data/ch32-pfd.csv, examples_e; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=37, ymode=log,
+      ymin=5e-7, ymax=0.1, xtick={1,3,6,12,24,36}, xlabel={فاصلهٔ آزمون (ماه)},
+      ylabel={احتمالِ خرابی هنگامِ نیاز},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sLoss, mark=*, mark size=1.4pt] table[x=months, y=one, col sep=comma] {data/ch32-pfd.csv};
+    \addplot[sWind, mark=square*, mark size=1.3pt] table[x=months, y=two, col sep=comma] {data/ch32-pfd.csv};
+    \legend{یک آشکارساز, دو آشکارساز، هر کدام هشدار دهد}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

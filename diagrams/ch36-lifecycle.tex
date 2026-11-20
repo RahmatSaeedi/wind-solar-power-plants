@@ -1,0 +1,16 @@
+% Chapter 36 - the security life cycle of the control system: six phases, each leaving evidence for the
+% next (examples_a; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=28mm, minimum height=11mm, text width=26mm}]
+  \node[s, blkLoad] (a) at (90:3.0) {ارزیابی: فهرست، ناحیه‌ها، ریسک};
+  \node[s, blkWind] (d) at (30:3.0) {طراحی: مجراها، قاعده‌ها، دسترسی};
+  \node[s, blkWind] (b) at (-30:3.0) {ساخت و آزمون: سخت‌سازی، آزمونِ کارخانه};
+  \node[s, blkBESS] (o) at (-90:3.0) {بهره‌برداری: پایش، بازبینی، بازگردانی};
+  \node[s, blkBESS] (m) at (-150:3.0) {نگهداری: وصله، تغییر، اعلامیه‌ها};
+  \node[s, blkWarn] (r) at (150:3.0) {کنار گذاشتن: بایگانی، پاک‌کردنِ رسانه};
+  \foreach \x/\y in {a/d, d/b, b/o, o/m, m/r, r/a} {\draw[flow] (\x) -- (\y);}
+  \node[note, text width=34mm] at (0,0) {هر مرحله سابقه‌ای برای مرحلهٔ بعد و برای بازرس می‌گذارد};
+\end{tikzpicture}
+\end{document}

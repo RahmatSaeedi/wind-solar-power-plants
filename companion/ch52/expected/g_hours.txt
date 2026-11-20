@@ -1,0 +1,6 @@
+washing crews and heat: day hours (08-18) at or above 35 C: 202
+  night hours (20-06) in the year: 3,650, of them at or above 35 C: 1
+  washing at night keeps the crew out of the heat (ch 32), the
+  glass away from a cold-water shock on a hot module, and the
+  energy lost while washing near zero - it needs lighting,
+  a night permit and a fatigue-aware roster (ch 51)

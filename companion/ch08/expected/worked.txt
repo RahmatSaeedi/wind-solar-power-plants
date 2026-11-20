@@ -1,0 +1,31 @@
+E01: 100 turns, flux 0 -> 0.01 Wb in 10 ms: e = N dPhi/dt = 100 V
+E02: force on 0.5 m of conductor with 500 A in 0.9 T: 225 N
+E03: reluctance air 477,465 + iron 47,746 = 525,211 A/Wb;
+     200 turns: L = N^2/R = 76.2 mH
+E04: 4 poles: 1500 rpm at 50 Hz, 1800 rpm at 60 Hz
+E05: E = 4.44 x 50 x 100 x 0.01 x 0.93 = 206 V
+E06: E 1.5 pu, V 1 pu, X_s 1.2 pu, delta 30 deg: P = 0.625 pu, Q = 0.249 pu
+E07: slip frequency 0.1 Hz: beat period 10 s;
+     10 deg phase error: |dV| = 2 sin(5 deg) = 0.174 pu
+E08: induction generator 32.4 kW absorbing 20.8 kvar:
+     a 20.8 kvar capacitor makes pf 1 at that point only
+E09: tip-speed ratio 8.25, R 75 m, 7 m/s: omega 0.770 rad/s = 7.35 rpm
+E09: tip-speed ratio 8.25, R 75 m, 10 m/s: omega 1.100 rad/s = 10.50 rpm
+E10: PM machine 690 V at 1155 rpm: 358 V and 30 Hz at 600 rpm;
+     793 V at 15 % overspeed
+E11: 5.4 MVA at 690 V: 4,518 A; per unit base current the same
+E12: shaft 5.32 MW at 1155 rpm (A-047): torque 44.0 kN m
+E13: aluminium cage bar 1 kA, rotor slip 1 %: rotor frequency 0.5 Hz
+     (slow: deep-bar effects small in running)
+E14: bearing life ratio for 10 % more load (ball, exponent 3): 0.75
+E15: first bending critical speed 1.5 x 1155 = 1732 rpm; margin 50 %
+E16: unbalance force at 1155 rpm 907 N;
+     same rotor at 20 % overspeed 1306 N (x 1.44)
+E17: copper winding 1.842 mohm at 18 C -> at 95 C 2.404 mohm
+E18: winding 2.296 mohm hot, 1.842 at 18 C: 80.2 C
+E19: polarisation index 2050 / 820 = 2.50
+E20: short-circuit ratio 0.40 -> x_d about 2.5 pu
+E21: BPFO 110.2 Hz = 5.73 x shaft; BPFI 159.2 Hz = 8.27 x shaft
+E22: heat for 1 kW of loss over a year: 8.76 MWh;
+     generator 723.8 MWh/yr = 83 kW average
+E23: rated torque 44.0 kN m, gearbox 1:110 -> rotor 4.84 MN m (losses ignored)

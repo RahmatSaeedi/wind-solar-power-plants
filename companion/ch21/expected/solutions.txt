@@ -1,0 +1,50 @@
+P01 annuity factor 5.0 %, 20 yr: 12.462
+P02 annuity factor 7.5 %, 25 yr: 11.147
+P03 annuity factor 10.0 %, 15 yr: 7.606
+P04 nominal from real 5 % and inflation 2 %: 7.10 %
+P05 nominal from real 3 % and inflation 4 %: 7.12 %
+P06 IRR of -1000, 150 x 10: 8.14 %
+P07 NPV of -1000, 150 x 10 at 8 %: 6.5
+P08 annuity 1,000 at 6 %, 10 yr: payment 135.9, interest yr 1 60.0
+P09 sculpted debt CFADS 150 x 10, DSCR 1.25, 6 %: 883.2
+P10 same at DSCR 1.40: 788.6 (-10.7 %)
+P11 same at 1.25 over 8 yr: 745.2
+P12 LLCR at start, CFADS 30 x 3, DSCR 1.25, 8 %: 1.250
+P13 tax 25 % on 40, 40 with depreciation 60 then 0: [0.0, 5.0]
+P14 IDC on 1,000 phased 40/60, 70 % debt at 6 %: 37.8
+P15 WC 45 days of 20,453 less 30 days of 4,270: 2,171 k u
+P16 DSRA 6 months of 11,514: 5,757 k u
+P17 delay LD 0.05 %/day on 132,982 for 30 days: 1,995
+P18 availability LD cap 20 % of 2,300 = 460 k u at 70 u: 6.57 GWh
+P19 carbon 177,084 t at 5 u/t: 885 k u (sensitivity)
+P20 REQ-S01 at 9 u per MW-h: 65.7 k u (sensitivity)
+P21 merchant 50 u vs PPA 70 u: revenue ratio 0.714
+P22 FX -10 % on 70 % of 156,450: capex +12,168
+P23 real flows 10,000 x 20 at 5 %: 124,622
+P24 break-even tariff at DSCR 1.00: 0.859 x 70 = 60.1 u/MWh
+P25 energy for DSCR 1.00: 0.859 x 295.14 = 254 GWh
+P26 multiple IRR: -100, 230, -132 -> 10 % and 20 %; check NPV at 10 %: 0.0000
+P27 LCOE by hand: (156,450 x 0.0710 + 4,270) / 288.854 = 53.2 u/MWh
+P28 simple payback 156,450 / (20,453 - 4,270): 9.7 yr
+P29 cost of a month of delay: 1,704 + 605 + 178 = 2,487 k u
+P30 wrap premium 6 % vs expected multi 5.1 %: 0.009 of price
+P31 real tariff yr 10, index 3 %, inflation 5 %: 58.9 u/MWh
+P32 WACC at 50 % gearing (10 %, 6 %, tax 25 %): 7.25 %
+P33 sinking fund 4,522 over 8 yr at 3 %: 509 k u a year
+P34 shared and yearly 3.6 % each -> one-year spread 5.1 %
+P35 option: PV value 4,808 vs PV cost 8,890 -> worth 0 at any probability
+P36 insurance: premium 1.3 x expected insured loss 554 = 720 k u
+P37 P(pay) true 3 %, tolerance 1 %, u 2 %: 0.84
+P38 self-consumption 30 GWh at +12 u: 360 k u a year
+P39 swap cost 0.2 % on 121,025 in year 1: 242 k u
+P40 refinancing release: 132,813 - 112,078 - 1 % = 19,407 k u
+P41 delay LD cap in months: 13,298 / 1,995 = 6.7
+P42 termination yr 5: 101,243 + 0.5 x 49,163 x 0.84 = 121,891 k u
+P43 WC 60 days of 20,453 less 30 of 4,270: 3,011 k u
+P44 equity-first IDC: 0.06 x (6,708 + 13,417 + 46,935) = 4,024 k u
+P45 overrun 10 % of 149,000: 7,450 + 4,916 + left 2,534 k u
+P46 stacking: 469 + 29 x 1.332 = 508 k u
+P47 spare: expected loss 0.02 x 292.2 GWh x 6 % x 0.5 yr x 70 = 12.3 k u
+P48 half-plant outage 6 months: 292.2 x 6 % x 0.5 x 70 = 614 k u
+P49 discount factor yr 19 at 7.5 %: 0.253
+P50 PV of 1,000 a year for 15 yr at 6 %: 9,712

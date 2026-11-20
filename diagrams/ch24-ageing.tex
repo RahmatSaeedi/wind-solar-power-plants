@@ -1,0 +1,15 @@
+% Chapter 24 - insulation life against conductor temperature with the teaching rule "life halves
+% for every 8 K above 90 C, 40 years at 90 C" (companion/ch24/examples_t.py ageing()); log scale.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=62mm, xmin=60, xmax=110, ymode=log, ymin=5, ymax=600,
+      xlabel={دمای رسانا $(^\circ\text{C})$}, ylabel={عمر به سال}, xmajorgrids=true,
+      ytick={10,20,40,100,200,400}, yticklabels={10,20,40,100,200,400}]
+    \addplot[sLoss, domain=60:110, samples=60] {40*2^((90-x)/8)};
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cInk] coordinates {(80,95) (90,40) (98,20)};
+    \draw[sLimit] (axis cs:90,5) -- (axis cs:90,600);
+    \node[note, anchor=south west] at (axis cs:90.5,300) {حدِ کار $90\,^\circ\text{C}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

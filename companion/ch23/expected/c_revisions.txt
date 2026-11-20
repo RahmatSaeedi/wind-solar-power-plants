@@ -1,0 +1,11 @@
+revision log of the plant one-line (PLP-ELE-DWG-0005, teaching):
+  rev  status  change
+  A    IFR     first issue for internal review
+  B    IFR     battery moved to its own bays; SST 250 kVA
+  C    IFA     issued to the utility with POC options A/B
+  0    IFC     after the grid offer: line owner, meter, CTs
+  1    IFC     turbine maker's transformer impedance
+  letters before construction, numbers after; each revision
+  says what changed and why, and clouds the change on the
+  sheet; the status (IFR, IFA, IFC: ch 2) says what the
+  drawing may be used for

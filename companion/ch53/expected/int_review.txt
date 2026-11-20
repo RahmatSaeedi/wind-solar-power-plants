@@ -1,0 +1,16 @@
+lifecycle review at year 18: what is in place
+  [x] degradation and availability trends with intervals
+  [x] lost energy by cause with an owner for each
+  [x] remaining-life estimates for the major components
+  [x] repair / replace decision record with assumptions
+  [ ] grid-requirement gap list for a repowering
+  [ ] decommissioning provision funded to the current estimate
+  [ ] waste routes and receivers named
+  [ ] closure commitments with evidence
+  [ ] workforce transition plan
+  [ ] records retention schedule and migration plan
+  [x] footprint comparison on one boundary
+  [x] lessons carried into the next specification
+  6 of 12 in place: the analysis is done, the closure
+  preparation is not - seven years is short for permits,
+  funds, routes and people

@@ -1,0 +1,8 @@
+firmware files checked against the hashes the makers publish
+  RS-8_6.2.1.bin   2660b0534d8d63bc...  matches
+  GW-2_2.3.0.bin   c2afbe272c5a8723...  matches
+  RTU-X_8.4.bin    15894275734b7db8...  DIFFERS
+  RTU-X_8.4.bin is not the file the maker released - re-packed
+  somewhere on its way: it is not loaded, and the copy is
+  fetched again from the maker's own channel; the hash is
+  part of the firmware baseline record (lesson C, ch 36)

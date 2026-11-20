@@ -1,0 +1,12 @@
+latency of a message from a turbine to the control centre (teaching)
+  part                                          ms
+  6 switches x 10 us                              0.060
+  6 km of fibre at 5 us/km                        0.030
+  1500-byte frame at 100 Mbit/s                   0.120
+  controller processing                           5.000
+  WAN link to the control centre (2 Mbit/s)      40.000
+  total 45.2 ms - inside the plant the network adds well
+  under a millisecond; the WAN link and the processing
+  set the delay, which is why the plant controller sits
+  in the plant and the grid operator sends set points, not
+  loop signals (ch 34, telemetry budget)

@@ -1,0 +1,8 @@
+nacelle on four load cells at the lifting points (+-2.0 m, +-1.5 m)
+  readings t: 47.1, 44.3, 35.2, 33.4; total 160.0 t
+  centre of gravity x 0.285 m, y 0.043 m; drawing 0.20 / 0.00 m
+  difference 95 mm (teaching limit 100)
+  load-cell error moves x by about 5 mm
+  the weighed mass and centre go on the record the crane plan
+  of ch 31 uses; a drawing value is a prediction, and here it
+  is out by nearly the whole limit

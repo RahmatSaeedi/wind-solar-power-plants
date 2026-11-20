@@ -1,0 +1,8 @@
+drum lengths and the joints they force (route 4.4 km a string):
+  drum   500 m:  8 joints a string
+  drum   750 m:  4 joints a string
+  drum  1100 m:  0 joints a string
+  drum  1500 m:  0 joints a string
+  a drum of one section's length removes the joints between
+  turbines; the drum's size is then limited by transport
+  (weight, width, road) - a logistics trade-off (ch 46)

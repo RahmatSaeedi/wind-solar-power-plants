@@ -1,0 +1,6 @@
+telemetry to the grid operator on a 64 kbit/s link (placeholder list)
+  60 points every 4 s, 25 bytes each: 3.0 kbit/s, 4.7 % of the link
+  general interrogation of 300 objects: 60 kbit, 0.9 s on the link
+  the grid operator's list, rates and link are theirs to set
+  (U-115); the budget shows the list fits with room for
+  the interrogation after a restart and for set points

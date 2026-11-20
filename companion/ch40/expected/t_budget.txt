@@ -1,0 +1,12 @@
+uncertainty budget of a joint-resistance reading (micro-ohm)
+  contribution            u      basis
+  meter calibration       0.10   certificate, k = 2 halved
+  resolution              0.03   0.1 / sqrt(12)
+  probe placement         0.11   GRR with fixture, repeatability
+  inspectors              0.16   GRR with fixture, reproducibility
+  temperature of joint    0.08   +/- 5 C, copper coefficient
+  combined 0.23; expanded (k = 2) 0.47
+  largest: inspectors - the next improvement is training,
+  not a better meter; the mean joint (12.4) sits
+  16 times U below the limit of 20, so readings
+  near the limit, not typical ones, need the guard band

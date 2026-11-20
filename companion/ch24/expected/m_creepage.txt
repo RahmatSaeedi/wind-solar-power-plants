@@ -1,0 +1,11 @@
+insulator creepage for the 132 kV line (teaching factors, mm/kV):
+  site pollution     mm per kV   creepage mm   discs of 290 mm
+  light                     16          2320                 8
+  medium                    20          2900                10
+  heavy                     25          3625                13
+  very heavy                31          4495                16
+  dust and salt on the insulator make a conducting film when
+  damp; the creepage path must be long enough for the site -
+  a desert site near a road or a coast needs the long strings;
+  the factor comes from a site pollution assessment and the
+  applicable insulator standard, not from this table

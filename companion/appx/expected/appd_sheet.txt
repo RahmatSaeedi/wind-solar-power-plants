@@ -1,0 +1,19 @@
+CALCULATION SHEET (teaching example)
+  title:     voltage difference along collector feeder WS-x at full
+             output (turbine end above the 33 kV bus)
+  inputs:    P 20 MW (four 5 MW units, design value)
+             pf 0.95 at the bus, units exporting Q (assumed)
+             U 33 kV nominal (verified, one-line)
+             L 6.0 km (route drawing, project-dependent)
+             R 0.100, X 0.110 ohm/km at 90 C (maker's data, assumed)
+  current:   I = P / (sqrt3 U pf) = 368.3 A
+  method A:  chapter 24 approximation      dU = 1.500 %
+  method B:  exact phasor, bus at 33 kV     dU = 1.504 %
+  agreement: 0.24 % apart (approximation drops the
+             quadrature term; acceptable below 1 %)
+  units:     A x km x ohm/km = V; V / V = 1 (checked)
+  range:     a few per cent on a 33 kV feeder of a few km is
+             normal; above 5 % would call for a larger cable
+  result:    dU = 1.50 % at full output (within a 3 % design
+             limit - the limit is the project's, not universal)
+  checker:   independent method, units and range - signed

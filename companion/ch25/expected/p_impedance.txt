@@ -1,0 +1,12 @@
+choosing the impedance: fault current, regulation, force (teaching):
+  uk %   33 kV fault, both T + converters kA   regulation % (0.95)   force x
+     8                                    14.6                   3.2      2.25
+    10                                    13.4                   3.9      1.44
+    12                                    12.5                   4.8      1.00
+    14                                    11.7                   5.6      0.73
+    16                                    11.0                   6.5      0.56
+  low impedance: small drop, but high fault current (the 25 kA
+  gear) and large forces; high impedance: the opposite and more
+  reactive power drawn - 10 to 14 % keeps the fault well under
+  25 kA and the regulation under about 6 %: 12 % is the basis,
+  confirmed by the fault study (ch 26) and the voltage study

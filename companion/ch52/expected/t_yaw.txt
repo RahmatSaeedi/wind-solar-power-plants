@@ -1,0 +1,5 @@
+T09: nacelle 6 deg off the wind (from SCADA power against direction bins)
+  teaching loss 1 - cos^2: 1.1% of 16,100 MWh = 176 MWh a year
+  the vane offset after a sensor change (ch 13 vane offset):
+  realigned and verified by the same SCADA test - small per
+  turbine, but invisible without it

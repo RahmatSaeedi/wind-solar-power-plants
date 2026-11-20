@@ -1,0 +1,13 @@
+method statements by activity: work starts only on an approved one
+  piling                       MS-07  approved
+  table assembly               MS-08  approved
+  module mounting              MS-09  approved
+  trenching                    MS-05  approved
+  MV terminations              MS-14  returned with comments
+  station placement (crane)    MS-12  approved
+  DC terminations              MS-13  approved
+  string wiring                none   not written
+  earthing                     MS-15  submitted
+  3 activities cannot start: string wiring has none, MV
+  terminations went back with comments, earthing waits for
+  review - each is on the block's critical path (lesson D)

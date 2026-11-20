@@ -1,0 +1,10 @@
+the same 20 years of 10,000 k u (year-1 money), inflation 2.5 %:
+  real flows at the real rate 5 %:              124,622
+  nominal flows at the nominal rate 7.625 %:    121,583
+  WRONG real flows at the nominal rate:         100,983  (-19.0 %)
+  WRONG nominal flows at the real rate:         152,969  (+22.7 %)
+  real with real and nominal with nominal agree once both are in
+  the same money (124,622 / 1.025 = 121,583: the real value
+  is in year-1 money, the nominal one in today's money);
+  mixing them moves the value by about 20 %: every model states
+  its convention, its base year and its currency

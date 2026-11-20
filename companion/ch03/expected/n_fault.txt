@@ -1,0 +1,7 @@
+three buses on a 33 kV, 100 MVA base; grid behind j0.080 pu at bus 1 (assumed)
+  bus  Z_kk (pu)              fault current |1/Z_kk| (pu)   (kA)
+    1  0.00000 + j0.08000        12.50            21.9
+    2  0.00643 + j0.13217         7.56            13.2
+    3  0.00686 + j0.13652         7.32            12.8
+  three-phase bolted fault, prefault 1.0 pu, plant contribution neglected
+  the diagonal of Z_bus = Y_bus^-1 is the Thevenin impedance seen at each bus

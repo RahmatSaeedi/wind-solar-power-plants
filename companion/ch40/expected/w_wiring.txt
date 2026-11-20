@@ -1,0 +1,12 @@
+control wiring: 1200 terminations a skid, one wrong in 500
+  errors made in ten skids: 24.0
+  check                 misses  left after  left after FAT
+                        a check  the check   (FAT finds 60 %)
+  point-to-point by hand    5.0%       1.20          0.480
+  automatic tester          0.1%       0.02          0.010
+  by hand: 10 h a skid, and one wrong wire in about 21 skids
+  still reaches the site; the tester needs a
+  wiring list in machine form (from the design database of
+  ch 38) and about 3 h a skid - a person checking 1,200
+  points misses some however careful; the tester's misses
+  come from a wrong list, so the list itself is reviewed

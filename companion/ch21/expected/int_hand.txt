@@ -1,0 +1,8 @@
+Plant P on the back of an envelope (year-1 money):
+  revenue 295.14 GWh x 0.99 x 70 u = 20,453 k u
+  operating cost 4,270; margin 16,183 k u a year
+  simple payback 156,450 / 16,183 = 9.7 years
+  capital recovery factor 5 %, 25 yr = 0.0710
+  LCOE ~ (156,450 x 0.0710 + 4,270) / 288,854 MWh = 53.2 u/MWh
+  (288,854 MWh = mean of the 25-year energy series; the model's
+  LCOE adds replacements and decommissioning: 54.3)

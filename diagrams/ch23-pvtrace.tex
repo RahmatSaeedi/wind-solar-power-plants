@@ -1,0 +1,49 @@
+% Chapter 23 - one PV block traced from a module string to the grid meter (worked example 2), as a
+% snake of 14 steps flowing right to left then left to right; each step with the record that closes
+% it (purpose and evidence only). Data: companion/ch23/lab_d.py trace().
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    st/.style={blk, minimum width=27mm, minimum height=14mm, text width=26mm, font=\footnotesize},
+    rec/.style={note, font=\scriptsize, text width=27mm}]
+  % row 1, right to left: DC side and the block
+  \node[st, draw=cPV, fill=cPV!9] (s1) at (16.8,0) {۱ کابلِ رشته\\$26$ ماژول};
+  \node[st, draw=cPV, fill=cPV!9] (s2) at (13.2,0) {۲ جعبهٔ تجمیع\\کلید و فیوز};
+  \node[st, draw=cPV, fill=cPV!9] (s3) at (9.6,0) {۳ اینورتر\\$5\,\text{MVA}$، $0.6\,\text{kV}$};
+  \node[st, draw=cPV, fill=cPV!9] (s4) at (6.0,0) {۴ ترانسفورماتورِ بلوک\\$0.6/33\,\text{kV}$};
+  \node[st] (s5) at (2.4,0) {۵ کابلِ فیدر\\$33\,\text{kV}$};
+  \node[rec, below=1mm of s1] {رکوردِ رشته: قطبیت، ولتاژ، عایق};
+  \node[rec, below=1mm of s2] {بازرسیِ فیوز و برچسب};
+  \node[rec, below=1mm of s3] {آزمونِ کارخانه و محل};
+  \node[rec, below=1mm of s4] {گزارشِ آزمونِ روزمره};
+  \node[rec, below=1mm of s5] {رکوردِ آزمونِ کابل};
+  \foreach \a/\b in {s1/s2, s2/s3, s3/s4, s4/s5} \draw[flow] (\a.west) -- (\b.east);
+  % row 2, left to right: substation
+  \node[st] (s6) at (2.4,-3.2) {۶ کلیدِ فیدر\\و رله‌ها};
+  \node[st] (s7) at (6.0,-3.2) {۷ کلیدِ ورودیِ\\$33\,\text{kV}$};
+  \node[st, draw=cLoad, fill=cLoad!8] (s8) at (9.6,-3.2) {۸ ترانسفورماتورِ\\$\texttt{=T2}$};
+  \node[st, draw=cLoad, fill=cLoad!8] (s9) at (13.2,-3.2) {۹ کلیدِ $132\,\text{kV}$\\ترانسفورماتور};
+  \node[st, draw=cLoad, fill=cLoad!8] (s10) at (16.8,-3.2) {۱۰ کلیدِ بِیِ خط\\کنتورِ A};
+  \node[rec, below=1mm of s6] {آزمونِ کارخانه، مدارِ قطع};
+  \node[rec, below=1mm of s7] {آزمونِ کارخانه، اینترلاک};
+  \node[rec, below=1mm of s8] {آزمونِ روزمره، گروهِ برداری};
+  \node[rec, below=1mm of s9] {مدارِ قطع، تنظیمِ رله};
+  \node[rec, below=1mm of s10] {گواهیِ دقتِ کنتور};
+  \draw[flow] (s5.south) -- (s6.north);
+  \foreach \a/\b in {s6/s7, s7/s8, s8/s9, s9/s10} \draw[flow] (\a.east) -- (\b.west);
+  % row 3, right to left: boundary and grid
+  \node[st] (s11) at (16.8,-6.4) {۱۱ سکسیونرِ مرز\\$\texttt{=E1-Q9}$};
+  \node[st] (s12) at (13.2,-6.4) {۱۲ خطِ $132\,\text{kV}$\\مالک: باز};
+  \node[st, draw=cLoad, fill=cLoad!8] (s13) at (9.6,-6.4) {۱۳ سکسیونرِ\\بِیِ شبکه};
+  \node[st, draw=cLoad, fill=cLoad!8] (s14) at (6.0,-6.4) {۱۴ کلیدِ بِیِ شبکه\\کنتورِ B};
+  \node[rec, below=1mm of s11] {اینترلاک، کلیدِ زمین};
+  \node[rec, below=1mm of s12] {ساخت‌آنچه، پذیرشِ شبکه};
+  \node[rec, below=1mm of s13] {آزمونِ بهره‌بردارِ شبکه};
+  \node[rec, below=1mm of s14] {پذیرشِ شبکه};
+  \draw[flow] (s10.south) -- (s11.north);
+  \foreach \a/\b in {s11/s12, s12/s13, s13/s14} \draw[flow] (\a.west) -- (\b.east);
+  \draw[boundary] (15.0,-5.4) -- (15.0,-7.6);
+  \draw[boundary] (11.4,-5.4) -- (11.4,-7.6);
+  \node[note, text width=30mm] at (2.6,-6.4) {خطِ‌چین: مرزِ مالکیت\\(نیروگاه، باز، شبکه)};
+\end{tikzpicture}
+\end{document}

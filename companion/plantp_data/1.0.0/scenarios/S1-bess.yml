@@ -1,0 +1,18 @@
+# Scenario S1: Plant P with battery storage. Every BESS exercise must state
+# these values (or the ones it changes) explicitly.
+id: S1
+name: BESS
+status: assumed
+pv: {dc_mwp: 60, ac_mw: 50}
+wind: {ac_mw: 60, turbines: 12, turbine_id: WT-5.0-150}
+export_limit_mw: 100
+bess:
+  power_mw: 20
+  energy_mwh_nominal_bol: 40          # beginning of life
+  soc_window_pct: [10, 90]            # usable state-of-charge window
+  usable_energy_mwh_bol: 32
+  roundtrip_efficiency_ac_pct: 86     # one-way 92.7 percent
+  capacity_fade_pct_per_year: 2.0     # linear teaching model
+  reserve_mwh: 0                      # no energy held back for services by default
+  charging_source: on-site PV and wind only
+  grid_charging_permitted: false

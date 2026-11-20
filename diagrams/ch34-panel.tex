@@ -1,0 +1,17 @@
+% Chapter 34 - temperature inside the closed plant-controller cabinet (271 W on 5.6 m2) against the room
+% temperature, with the 55 C rating of the electronics (examples_c; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=20, xmax=50, ymin=20, ymax=62,
+      xlabel={دمای اتاق ($^\circ\mathrm{C}$)}, ylabel={دمای درونِ تابلو ($^\circ\mathrm{C}$)}]
+    \addplot[sLoad, no marks, domain=20:50] {x + 271/(5.5*5.6)};
+    \draw[sLoss] (axis cs:20,55) -- (axis cs:50,55);
+    \node[note, anchor=south west] at (axis cs:21,55.3) {ردهٔ دمای الکترونیک};
+    \draw[sLimit] (axis cs:25,20) -- (axis cs:25,34);
+    \node[note, anchor=south west] at (axis cs:25.3,21) {اتاقِ خنک};
+    \draw[sLimit] (axis cs:47,20) -- (axis cs:47,56);
+    \node[note, anchor=south east] at (axis cs:46.7,21) {تهویهٔ ازکارافتاده، تابستان};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

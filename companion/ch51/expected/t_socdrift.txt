@@ -1,0 +1,7 @@
+battery SOC estimate drifts 0.35 %/day until a full charge recalibrates it
+  days with a full charge in a month: 2, 3, 9, 17, 18, 29
+  longest gap 11 days: error up to 3.8 % against a 2 % margin
+  the margin allows 5.7 days: a rule that asks for
+  a calibration charge after five days without one keeps the
+  service floor honest (ch 45 lesson: the flat LFP curve
+  hides SOC error between 20 and 80 %)

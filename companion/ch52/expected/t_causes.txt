@@ -1,0 +1,9 @@
+inverter alarm 'over-temperature': causes found in 25 past orders
+  fan failed        11  P = 0.44
+  filter blocked     7  P = 0.28
+  sensor fault       4  P = 0.16
+  coolant pump       2  P = 0.08
+  IGBT stack         1  P = 0.04
+  the technician checks the fan and the filter first (72 % of
+  past cases) and takes those parts; the history exists only
+  if each order records the cause found (lesson I)

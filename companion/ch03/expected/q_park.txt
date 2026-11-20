@@ -1,0 +1,9 @@
+Park transform of a 1.0 pu current lagging 20 deg; frame angle 2 pi 50 t
+  case                 d mean  q mean   d range       q range
+  balanced             0.940  -0.342   0.940..0.940  -0.342..-0.342
+  10 % negative seq.   0.940  -0.342   0.840..1.040  -0.442..-0.242
+  grid at 50.2 Hz      0.948  -0.318   0.940..0.956  -0.342..-0.294
+  balanced: d = cos(-20 deg) = 0.940, q = sin(-20 deg) = -0.342, constant
+  negative sequence: a 100 Hz ripple of amplitude 0.1 rides on d and q
+  frequency error: d and q drift slowly (0.2 Hz) instead of staying put
+  (40 ms shown); a phase-locked loop makes theta follow the grid (ch. 9)

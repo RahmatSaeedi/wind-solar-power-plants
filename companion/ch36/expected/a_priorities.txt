@@ -1,0 +1,12 @@
+business IT and plant OT side by side (teaching summary)
+  aspect             business IT        plant OT
+  first concern      confidentiality    safety, then availability
+  life of a device   3-5 years          15-25 years
+  change             patch on release   tested, in an outage window
+  a reboot means     a short pause      a stop or a protection gap
+  a failure hurts    the business       people, plant and the grid
+  traffic            varied, people     repetitive, machines
+  the same tool or rule can be right for one and harmful
+  for the other: an automatic reboot that heals an office
+  PC can stop the plant controller in the middle of a
+  ramp; OT security starts from safety and availability

@@ -1,0 +1,11 @@
+Plant P export with the fictional time-of-use tariff of chapter 1 (S0, 1.1.0):
+  correct labels      13.20 million u/yr
+  shifted one hour later  13.24 (+0.3 %)
+  shifted one hour earlier 13.24 (+0.3 %)
+  the change is small and has the same sign both ways: it depends on the shape
+  of the profile, so the error of a wrong label cannot be guessed, only
+    avoided
+hourly PV, correct vs one hour late: annual totals equal, hourly RMS
+    difference 4.8 MW = 22 % of the mean daylight power
+mean irradiance peaks in the hour starting 11:00 (interval-start labels);
+  with interval-end labels the same hour is called 12:00

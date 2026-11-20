@@ -1,0 +1,20 @@
+% Chapter 48 - logical view: the VLANs of the plant network and what belongs in each, with the
+% boundary to the zones of ch 36 (teaching; companion/ch48/sources.py PLANNED).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    vl/.style={draw=cInk, rounded corners=3pt, minimum width=34mm, minimum height=20mm,
+      text width=32mm, align=center}]
+  \node[vl, fill=cWind!8] (v10) at (0,2.4) {$\mathrm{VLAN\ 10}$ \\ پشتهٔ حلقه‌ها \\ \footnotesize سوئیچ به سوئیچ};
+  \node[vl, fill=cLoad!8] (v20) at (-4.0,0) {$\mathrm{VLAN\ 20}$ \\ کنترل \\ \footnotesize کنترلر، ایستگاهِ هواشناسی، پایانهٔ دوردست};
+  \node[vl, fill=cPV!8] (v30) at (0,0) {$\mathrm{VLAN\ 30}$ \\ پایشِ وضعیت \\ \footnotesize سامانهٔ پایشِ توربین};
+  \node[vl, fill=cBESS!8] (v40) at (4.0,0) {$\mathrm{VLAN\ 40}$ \\ دوربین‌ها \\ \footnotesize جدا از کنترل};
+  \node[blkWarn, minimum width=34mm, text width=32mm, align=center] (fw) at (0,-2.4) {دیوارهٔ آتش و ناحیهٔ میانی \\ \footnotesize فصلِ ۳۶};
+  \draw[flow, <->] (v10) -- (v20);
+  \draw[flow, <->] (v10) -- (v30);
+  \draw[flow, <->] (v10) -- (v40);
+  \draw[flow, <->] (v20) -- (fw);
+  \draw[flow, <->] (v30) -- (fw);
+  \node[note, anchor=north, text=cLoss] at (0,-3.3) {پورتِ ۸: لپ‌تاپ در $\mathrm{VLAN\ 1}$، بیرون از هر ناحیه};
+\end{tikzpicture}}
+\end{document}

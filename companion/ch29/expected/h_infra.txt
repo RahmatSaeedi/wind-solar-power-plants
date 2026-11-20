@@ -1,0 +1,9 @@
+water infrastructure for the truck policy (teaching sizing)
+  item                 size              why
+  RO unit              3 m3/h treated    one wash (109 m3) in 1.5 days
+  treated water tank   120 m3            one full wash ready
+  raw water tank       2,500 m3          fire reserve + summer deficit
+  brine pond (lined)   evaporation       about 1,019 m3 brine a year
+  meters               8 points          the monitoring plan
+  with robots the RO unit and the brine pond disappear; the
+  tank stays for staff, the fire reserve and construction

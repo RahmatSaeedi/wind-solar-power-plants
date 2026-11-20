@@ -1,0 +1,11 @@
+temperature sensors along a module of 52 cells; a hot cell's excess
+  fades 0.8 K per cell of distance (teaching)
+  sensors   farthest cell from a sensor   unseen excess K
+        4                             7               5.6
+        8                             4               3.2
+       13                             2               1.6
+       26                             1               0.8
+  a few sensors read the module, not each cell: the BMS limit
+  must sit below the cell limit by the unseen excess - the
+  sensor map is a design input to the temperature margins of
+  lesson B, and the map is checked at assembly

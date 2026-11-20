@@ -1,0 +1,6 @@
+extended inverter warranty, years 6-10 (teaching):
+  inverter fleet price 4,320 k u; extension price 346
+  expected repair cost years 6-10, PV at 7.5 %: 128
+  the extension costs more than the expected repairs: it buys
+  certainty, not value - worth it if the owner cannot carry a
+  bad year, or if lenders require it; read what it excludes

@@ -1,0 +1,11 @@
+expected yearly loss before and after a control (teaching, u)
+  scenario                    before   after   saved   control  worth?
+  open vendor path misused    20,000   4,000  16,000   15,000  yes
+  backup fails when needed     7,500   1,500   6,000    8,000  no
+  test rule left open          8,000   2,000   6,000    2,000  yes
+  expected loss = loss of one event x its chance a year; on
+  this sum alone 2 of 3 controls pay for themselves - the
+  backup test does not, yet it is kept: it also shortens
+  every recovery and is the only proof a backup works. The
+  chances are teaching guesses: the sum guides, it does not
+  decide on its own

@@ -1,0 +1,9 @@
+wake losses with the Jensen model, k 0.05 (A-222); prevailing sector 285 deg:
+  layout                      free GWh   waked GWh   wake loss %
+  A: 2 rows of 6, 4D x 8D       201.23      188.16          6.50
+  B: 1 row of 12, 4D            201.23      200.89          0.17
+  C: 3 x 4 grid, 5D x 5D        201.23      179.98         10.56
+  a single row across the prevailing wind loses least but
+  stretches 6.6 km; the compact grid loses most; two rows
+  with 8D between them are the middle course; wakes also
+  raise turbulence and fatigue loads downstream

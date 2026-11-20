@@ -1,0 +1,19 @@
+% Chapter 2 — annual wind energy of Plant P when every hourly speed is scaled by s, compared with s^3.
+% Data: diagrams/data/ch02-sensitivity.csv (companion/ch02/examples.py), data pack 1.0.0, scenario S0.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=70mm,
+      xlabel={ضریبِ مقیاسِ سرعت $f_v$}, ylabel={انرژی نسبت به حالتِ $f_v = 1$},
+      xmin=0.85, xmax=1.15, ymin=0.6, ymax=1.55, xtick={0.85,0.9,...,1.15}, ytick={0.6,0.8,...,1.4},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1}]
+    \addplot[sLoss] table[x=scale, y=cube_rel, col sep=comma] {data/ch02-sensitivity.csv};
+    \addlegendentry{$f_v^3$ (توانِ باد)}
+    \addplot[sWind] table[x=scale, y=energy_rel, col sep=comma] {data/ch02-sensitivity.csv};
+    \addlegendentry{انرژیِ مزرعه با منحنیِ توان}
+    \node[font=\footnotesize, text=cInk, anchor=south east] at (axis cs:1.13,1.44) {شیب $3$};
+    \node[font=\footnotesize, text=cInk, anchor=north west] at (axis cs:1.06,1.05) {شیب حدودِ $1.6$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

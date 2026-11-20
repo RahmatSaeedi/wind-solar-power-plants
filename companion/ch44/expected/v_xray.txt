@@ -1,0 +1,14 @@
+X-ray station: escaping defects 34.5 ppm without, 14.1 ppm with
+  field failure 3 k u, station 60 k u a year (teaching)
+  boards a year   field cost saved k u   verdict
+            520                    0.03   does not pay
+         10,000                    0.61   does not pay
+        100,000                    6.13   does not pay
+      1,000,000                   61.32   pays
+  break-even near 978,474 boards a year: by escapes alone the
+  station does not pay for one plant's 520 boards, nor for a
+  converter factory's few tens of thousands; it is kept for
+  what it shows - hidden opens and voids under parts that
+  crack later (lesson B) - which a functional test cannot
+  see: the buyer asks that it exists and its findings feed
+  the process, not that one order pays for it

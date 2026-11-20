@@ -1,0 +1,10 @@
+concrete supply for one continuous 620 m3 foundation pour (teaching)
+  placing rate 60 m3/h -> 10.3 h of pouring without a cold joint
+  source               km   cycle min   trucks of 8 m3   minutes in truck
+  site batching plant    3          39                5                 30
+  ready-mix in town     45         165               21                 92
+  (teaching limit 90 min from batching to placing in heat)
+  ready-mix from town misses the time limit even before
+  summer traffic and needs four times the trucks: a site batching
+  plant with a standby mixer and stocked cement is the usual
+  answer for twelve such pours - a factory on site (ch 47)

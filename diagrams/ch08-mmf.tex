@@ -1,0 +1,20 @@
+% Chapter 8 - MMF of phase a alone (pulsating) and of the three phases (travelling wave) at
+% omega t = 0 and 30 deg. Data: diagrams/data/ch08-mmf.csv (companion/ch08/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=64mm,
+      xlabel={زاویه در فاصلهٔ هوایی، درجهٔ الکتریکی}, ylabel={نیروی محرکهٔ مغناطیسی، پریونیت},
+      xmin=0, xmax=360, ymin=-1.7, ymax=1.9, xtick={0,90,...,360}, ytick={-1.5,-1,-0.5,0,0.5,1,1.5}]
+    \addplot[sInk] table[x=deg, y=ft0, col sep=comma] {data/ch08-mmf.csv};
+    \addlegendentry{سه فاز، $\omega t = 0$}
+    \addplot[sWind] table[x=deg, y=ft1, col sep=comma] {data/ch08-mmf.csv};
+    \addlegendentry{سه فاز، $\omega t = 30^\circ$}
+    \addplot[sLoad] table[x=deg, y=fa0, col sep=comma] {data/ch08-mmf.csv};
+    \addlegendentry{فقط فازِ $\text{a}$}
+    \draw[flow] (axis cs:5,1.72) -- (axis cs:30,1.72);
+    \node[note, anchor=west] at (axis cs:32,1.72) {موج $30^\circ$ جلو رفته};
+    \node[note, text=cInk, anchor=west] at (axis cs:362,0.0) {دامنهٔ $1.5$ ثابت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,17 @@
+repair limits (concept; the maker's warranty terms decide)
+  defect                        action
+  connector damaged             replace with the same maker and type
+                                then: insulation, polarity, I-V
+  junction-box lid or potting   only by the maker's procedure
+                                then: insulation, diode check
+  bypass diode failed           maker's procedure, if the box allows
+                                then: diode check, I-V, IR
+  frame bent                    replace the module
+                                then: -
+  glass or laminate broken      replace the module
+                                then: -
+  backsheet scratch             maker's assessment; tape not a repair
+                                then: insulation, wet leakage
+  the laminate cannot be opened and closed again; what can
+  be repaired is outside it, and every repair is followed
+  by the tests that the repair could have upset

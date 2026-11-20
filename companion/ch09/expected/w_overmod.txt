@@ -1,0 +1,11 @@
+two-level leg, carrier 51 x 50 Hz: line voltage against m:
+     m   fundamental / linear   5th+7th %   with 3rd-harmonic injection
+  0.600      1.000            0.10        1.000  (0.10 %)
+  0.800      1.000            0.08        0.999  (0.04 %)
+  1.000      1.000            0.06        1.000  (0.05 %)
+  1.100      0.967            2.40        1.000  (0.03 %)
+  1.155      0.942            3.13        1.000  (0.04 %)
+  1.270      0.886            3.47        0.942  (2.44 %)
+  above m 1 plain sine-triangle PWM loses fundamental gain and
+  creates 5th and 7th; with third-harmonic injection the leg stays
+  linear up to 1.155 (the space-vector limit, section A)

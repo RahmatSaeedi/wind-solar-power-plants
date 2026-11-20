@@ -1,0 +1,8 @@
+cells needed for 40 MWh by format (teaching sizes):
+  format        Ah    V     Wh/cell   cells        joints (2/cell)
+  cylindrical      5  3.6        18    2,222,222      4,444,444
+  pouch           60  3.7       222      180,180        360,360
+  prismatic      314  3.2      1005       39,809         79,618
+  fewer, larger cells mean fewer welds and sensors, but more
+  energy in each cell that fails; the format moves the risk,
+  it does not remove it

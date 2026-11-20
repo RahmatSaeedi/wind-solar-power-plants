@@ -1,0 +1,11 @@
+flash file: 3,002 module rows, 30 golden-module checks
+  usable records 2,997; data problems 5:
+    PVM-00901: duplicate serial
+    PVM-01201: Pmax 0.5543 - kW, not W?
+    PVM-01778: missing value
+    PVM-02100: duplicate serial
+    PVM-02651: missing value
+  each problem goes back to the factory with the serial: a
+  duplicate may hide a module never flashed, a value in kW
+  is a software or unit change - the data is evidence only
+  when the file itself is checked first

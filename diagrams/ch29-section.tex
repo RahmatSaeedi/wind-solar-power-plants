@@ -1,0 +1,65 @@
+% Chapter 29 - borehole logs of the turbine boreholes side by side (BH-01..BH-07 at T01, T03,
+% T05, T07, T09, T11, T12; companion/ch29/sources.py, A-349): layers by soil, the founding
+% level 3.5 m, the depth a turbine borehole should reach (13.5 m), groundwater where recorded.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, yscale=-0.42, xscale=1.0,
+    silt/.style={fill=cPV!25, draw=cInkB, line width=0.4pt},
+    clay/.style={fill=cLoss!35, draw=cInkB, line width=0.4pt},
+    sand/.style={fill=cPV!8, draw=cInkB, line width=0.4pt},
+    grav/.style={fill=cRule!60, draw=cInkB, line width=0.4pt},
+    rock/.style={fill=cInkB!45, draw=cInkB, line width=0.4pt},
+    gyps/.style={fill=cLoad!25, draw=cInkB, line width=0.4pt}]
+  % depth axis on the right (RTL reading)
+  \draw[draw=cRule, line width=0.6pt] (15.2,0) -- (15.2,16);
+  \foreach \d in {0,2,4,6,8,10,12,14,16} {
+    \draw[draw=cRule] (15.2,\d) -- (15.35,\d);
+    \node[note, anchor=west] at (15.4,\d) {$\d$};
+  }
+  \node[note, rotate=90, anchor=south] at (16.3,8) {عمق زیر سطحِ زمین $(\text{m})$};
+  % columns: x position, name, layers (top, bottom, style), water
+  \newcommand{\col}[2]{\node[note, anchor=south] at (#1,-0.4) {$\text{#2}$};}
+  % BH-01 T01
+  \draw[silt] (13.6,0) rectangle (14.4,1.5); \draw[grav] (13.6,1.5) rectangle (14.4,7.0);
+  \draw[rock] (13.6,7.0) rectangle (14.4,15.0); \col{14.0}{T01}
+  \draw[cWind, line width=1.2pt] (13.4,6.5) -- (14.6,6.5);
+  % BH-02 T03
+  \draw[silt] (11.6,0) rectangle (12.4,2.0); \draw[grav] (11.6,2.0) rectangle (12.4,8.0);
+  \draw[rock] (11.6,8.0) rectangle (12.4,15.0); \col{12.0}{T03}
+  \draw[cWind, line width=1.2pt] (11.4,7.0) -- (12.6,7.0);
+  % BH-03 T05 (stops at 6 m)
+  \draw[silt] (9.6,0) rectangle (10.4,1.0); \draw[grav] (9.6,1.0) rectangle (10.4,6.0);
+  \col{10.0}{T05}
+  \node[note, text=cLoss, text width=14mm] at (10.0,7.6) {به ۶ متر بس شده؛ آب ثبت نشده};
+  % BH-04 T07 (soft clay)
+  \draw[clay] (7.6,0) rectangle (8.4,2.5); \draw[sand] (7.6,2.5) rectangle (8.4,9.0);
+  \draw[rock] (7.6,9.0) rectangle (8.4,15.0); \col{8.0}{T07}
+  \draw[cWind, line width=1.2pt] (7.4,3.0) -- (8.6,3.0);
+  % BH-05 T09
+  \draw[silt] (5.6,0) rectangle (6.4,1.5); \draw[grav] (5.6,1.5) rectangle (6.4,10.0);
+  \draw[rock] (5.6,10.0) rectangle (6.4,15.0); \col{6.0}{T09}
+  \draw[cWind, line width=1.2pt] (5.4,8.0) -- (6.6,8.0);
+  % BH-06 T11
+  \draw[silt] (3.6,0) rectangle (4.4,2.0); \draw[grav] (3.6,2.0) rectangle (4.4,12.0);
+  \draw[rock] (3.6,12.0) rectangle (4.4,15.0); \col{4.0}{T11}
+  \draw[cWind, line width=1.2pt] (3.4,9.5) -- (4.6,9.5);
+  % BH-07 T12 (gypsum)
+  \draw[gyps] (1.6,0) rectangle (2.4,3.0); \draw[grav] (1.6,3.0) rectangle (2.4,15.0);
+  \col{2.0}{T12}
+  % founding level and target depth
+  \draw[sLimit] (-1.8,3.5) -- (15.0,3.5);
+  \node[note, anchor=south west] at (-1.8,3.4) {ترازِ کفِ فونداسیون (فرضی)};
+  \draw[sLoss, line width=0.8pt] (-1.8,13.5) -- (15.0,13.5);
+  \node[note, anchor=south west] at (-1.8,13.4) {عمقِ لازمِ گمانه};
+  % legend (right to left)
+  \begin{scope}[yshift=0cm]
+    \draw[silt] (13.8,17.0) rectangle (14.3,17.6); \node[note, anchor=east] at (13.7,17.3) {ماسهٔ لای‌دار};
+    \draw[clay] (10.8,17.0) rectangle (11.3,17.6); \node[note, anchor=east] at (10.7,17.3) {رسِ نرم};
+    \draw[sand] (8.4,17.0) rectangle (8.9,17.6); \node[note, anchor=east] at (8.3,17.3) {ماسه};
+    \draw[grav] (6.4,17.0) rectangle (6.9,17.6); \node[note, anchor=east] at (6.3,17.3) {ماسه و شنِ متراکم};
+    \draw[rock] (3.4,17.0) rectangle (3.9,17.6); \node[note, anchor=east] at (3.3,17.3) {ماسه‌سنگِ هوازده};
+    \draw[gyps] (13.8,18.2) rectangle (14.3,18.8); \node[note, anchor=east] at (13.7,18.5) {با گچ};
+    \draw[cWind, line width=1.2pt] (10.7,18.5) -- (11.4,18.5); \node[note, anchor=east] at (10.6,18.5) {آبِ زیرزمینی};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

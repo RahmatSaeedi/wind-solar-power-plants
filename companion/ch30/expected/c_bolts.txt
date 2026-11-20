@@ -1,0 +1,9 @@
+a frame splice that must not slip (teaching preload and friction)
+  shear 40 kN; preload 80 kN a bolt; friction 0.3 per surface
+  2 bolts, 1 surface(s):    48 kN  ok
+  2 bolts, 2 surface(s):    96 kN  ok
+  4 bolts, 1 surface(s):    96 kN  ok
+  a slip-resistant joint relies on the preload: the bolts
+  are tightened by a controlled method and the faying
+  surfaces are prepared as specified - paint or galvanizing
+  there lowers the friction the calculation assumed

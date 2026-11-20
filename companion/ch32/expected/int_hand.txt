@@ -1,0 +1,5 @@
+two safety results checked by hand
+  recordable rate: 11 x 200,000 / 1,050,000 = 2.10; code 2.10
+  reserve autonomy: 180 m3 x 1,000 / 3,000 L/min = 60 min; code 60
+  the interval of the rate (1.18-3.47) has no hand form -
+  it is checked against a table of the chi-square law

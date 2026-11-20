@@ -1,0 +1,7 @@
+M36 grade 10.9 bolt at 475 kN preload (b_stress), thread friction 0.12:
+  tensile stress F / A_s = 581 MPa
+  thread torque F (0.16 P + 0.58 mu d2) = 1408 N m (common approximation)
+  torsional stress 16 T / (pi d_s^3) = 214 MPa during tightening
+  von Mises sqrt(s^2 + 3 t^2) = 689 MPa = 83% of the proof stress
+  the twist adds about a fifth to the stress while tightening: preload targets
+    leave room for it, and part of the twist relaxes afterwards

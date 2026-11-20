@@ -1,0 +1,18 @@
+% Chapter 5 - layers of evidence for engineering software: many fast unit tests at the
+% base, fewer and slower checks towards the top (companion/tests/test_ch05_*.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \fill[cBESS!22, draw=cBESS] (0,0) -- (12,0) -- (10.6,1.2) -- (1.4,1.2) -- cycle;
+  \fill[cWind!18, draw=cWind] (1.4,1.2) -- (10.6,1.2) -- (9.2,2.4) -- (2.8,2.4) -- cycle;
+  \fill[cLoad!14, draw=cLoad] (2.8,2.4) -- (9.2,2.4) -- (7.8,3.6) -- (4.2,3.6) -- cycle;
+  \fill[cPV!18, draw=cPV] (4.2,3.6) -- (7.8,3.6) -- (6,4.8) -- cycle;
+  \node[text=cInk] at (6,0.6) {آزمونِ واحد و حالت‌های مرزی: مقدارِ دستی، ورودیِ بد، ثابت‌ها};
+  \node[text=cInk] at (6,1.8) {آزمونِ ویژگی و یکپارچگی: موازنهٔ انرژی، حدِ صادرات};
+  \node[text=cInk] at (6,3.0) {بازگشت: نتیجهٔ مرجع};
+  \node[text=cInk, font=\footnotesize] at (6,4.05) {بازبینی};
+  \draw[cInkB, -{Stealth[length=2mm]}] (12.6,0.2) -- (12.6,4.6);
+  \node[note, anchor=west, align=right] at (12.75,2.4) {کندتر،\\گران‌تر،\\کمتر};
+  \node[note, anchor=north] at (6,-0.15) {پایه را پهن بسازید: آزمون‌های زیاد، سریع و دقیق؛ بالا را برای چیزهایی بگذارید که فقط انسان می‌بیند};
+\end{tikzpicture}}
+\end{document}

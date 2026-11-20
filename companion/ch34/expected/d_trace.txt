@@ -1,0 +1,14 @@
+POC voltage from the VT to the operator display (synthetic, 2 % dip at 120 s)
+  stage                         value at t = 125 s
+  true primary voltage          129.26 kV
+  VT secondary (L-L)            107.72 V
+  transducer output             17.788 mA
+  converter + scaling + filter  129.35 kV  (quality good)
+  PPC: droop 4 %, 33 Mvar       Q set point +16.6 Mvar
+  HMI (1 s poll, 0.2 % deadband) 129.39 kV
+  delay to 63 % of the dip: filter 0.50 s, display 1.00 s
+  each stage changes the number a little and delays it a
+  little: the controller sees the dip within half a second
+  and answers with reactive power; the operator sees it
+  about a second later - the time stamp on the display is
+  the controller's, not the screen's (lesson A, time)

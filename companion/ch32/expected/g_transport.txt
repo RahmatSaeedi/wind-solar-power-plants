@@ -1,0 +1,7 @@
+moving the workforce every day (18 months, 26 days a month)
+  average workforce 252; from town 151; 4 buses of 40
+  by bus: 131,040 vehicle-km; by car (1.5 a car): 3,300,752
+  expected injury crashes at 0.5 per million vehicle-km: bus 0.07, cars 1.65
+  the daily drive is one of the largest risks of the whole
+  project: buses, rested drivers, no driving after a night
+  shift and a road survey cut it more than any site rule

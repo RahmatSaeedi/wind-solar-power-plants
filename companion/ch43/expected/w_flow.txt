@@ -1,0 +1,9 @@
+oil flow of the ONAN rating (50 MVA): losses 225 kW
+  bottom-to-top oil rise 20 K (teaching), cp 1.9 kJ/kg K
+  flow = P / (cp dT) = 5.9 kg/s = 6.8 L/s, driven only by
+  the lighter hot oil rising in the windings and the heavier
+  cooled oil sinking in the radiators
+  a duct narrowed by a shifted spacer or a sludge layer slows
+  this flow where it matters: the hot spot rises before the
+  top oil shows it - why the heat run reads the winding, not
+  only the oil (lesson C)

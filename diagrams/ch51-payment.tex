@@ -1,0 +1,16 @@
+% Chapter 51 - teaching payment curve of the reserve service: full payment at 95 % availability,
+% falling straight to zero at 85 %; the month of lesson J at 94.2 % (companion/ch51/examples_v.py,
+% payment_curve -> diagrams/data/ch51-payment.csv; examples_u.py, service_payment).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0.80, xmax=1.0, ymin=-0.05, ymax=1.15,
+      xlabel={در دسترس‌بودنِ خدمت}, ylabel={ضریبِ پرداخت},
+      xtick={0.80,0.85,0.90,0.95,1.0},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[sBESS, line width=1.1pt] table[x=a, y=factor, col sep=comma] {data/ch51-payment.csv};
+    \addplot[only marks, mark=*, mark size=2.4pt, cInk] coordinates {(0.942,0.917)};
+    \node[note, anchor=south east] at (axis cs:0.937,0.95) {ماهِ نمونه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

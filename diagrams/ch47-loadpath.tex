@@ -1,0 +1,22 @@
+% Chapter 47 - simplified load path of one turbine in the extreme parked case, from the rotor to the
+% soil, each link a product of the chapter with its number (companion/ch47/examples_a.py, load_path).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    lk/.style={blk, minimum width=44mm, minimum height=9mm, text width=42mm, align=center},
+    num/.style={note, anchor=west}]
+  \node[lk] (a) at (0,5.0) {روتور و ناسل};
+  \node[lk] (b) at (0,3.8) {پوستهٔ برج: ورق‌ها و جوش‌ها};
+  \node[lk] (c) at (0,2.6) {فلنج و پیچ‌ها};
+  \node[lk] (d) at (0,1.4) {قفسهٔ پیچِ مهار و گروت};
+  \node[lk] (e) at (0,0.2) {بتن و میلگردِ پی};
+  \node[lk, fill=cLoad!8, draw=cLoad] (f) at (0,-1.0) {خاکِ زیرِ پی};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e, e/f} {\draw[flow] (\x) -- (\y);}
+  \node[num] at (2.5,5.0) {$2.66\,\mathrm{MN}$};
+  \node[num] at (2.5,3.8) {$4.10\,\mathrm{MN}$، $M = 184.6\,\mathrm{MN\,m}$};
+  \node[num] at (2.5,2.6) {$1375\,\mathrm{kN}$ در بدترین پیچ};
+  \node[num] at (2.5,1.4) {تراز قبل و بعد از بتن‌ریزی};
+  \node[num] at (2.5,0.2) {$893\,\mathrm{m^3}$، $M = 190.2\,\mathrm{MN\,m}$};
+  \node[num] at (2.5,-1.0) {$e = 3.96\,\mathrm{m}$، $181\,\mathrm{kPa}$};
+\end{tikzpicture}}
+\end{document}

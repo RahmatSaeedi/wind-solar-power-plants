@@ -1,0 +1,7 @@
+hours at or above 35 C in the data-pack year, by hour of day
+  on the day shift (07-19): 211; peak hour 15:00 with 41
+  at or above 38 C on the day shift: 21
+  the work-rest plan of ch 32 is set by these hours: heavy
+  outdoor work moves to the morning, and the shift log records
+  the breaks (dry-bulb only here; the site plan uses the
+  heat index its authority accepts)

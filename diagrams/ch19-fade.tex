@@ -1,0 +1,15 @@
+% Chapter 19 - calendar fade at 50 % mean SOC against years for 15, 25 and 35 C (teaching law A-292).
+% Data: diagrams/data/ch19-fade.csv (companion/ch19/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=62mm, xmin=0, xmax=20, ymin=0, ymax=18,
+      xlabel={سال}, ylabel={کاهشِ ظرفیت، درصد}, xtick={0,5,...,20}, ytick={0,3,...,18},
+      legend style={at={(0.02,0.98)}, anchor=north west, font=\footnotesize}]
+    \addplot[sWind] table[x=y, y=t15, col sep=comma] {data/ch19-fade.csv};
+    \addplot[sInk] table[x=y, y=t25, col sep=comma] {data/ch19-fade.csv};
+    \addplot[sLoss] table[x=y, y=t35, col sep=comma] {data/ch19-fade.csv};
+    \legend{$15\,^\circ\text{C}$, $25\,^\circ\text{C}$, $35\,^\circ\text{C}$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

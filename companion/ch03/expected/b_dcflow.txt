@@ -1,0 +1,6 @@
+DC power flow, 100 MVA base: P = B theta; bus 1 slack (theta = 0)
+  injections: bus 2 (PV) 45 MW, bus 3 (wind) 55 MW; x12 0.08, x13 0.1, x23
+    0.05 pu
+  theta2 = 2.441 deg, theta3 = 2.678 deg
+  flows (MW): 2->1 53.3, 3->1 46.7, 2->3 -8.3
+  check at the slack: 100.0 MW arrives = 100 MW injected

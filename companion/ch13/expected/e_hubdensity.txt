@@ -1,0 +1,8 @@
+air density at hub height from a pressure sensor at 2 m:
+  pressure 98 m higher: x 0.9885; temperature -0.64 K (standard lapse)
+  mean density at 2 m 1.0559, at the hub 1.0460 kg/m3 (-0.93 %)
+  energy with the hub density: -0.54 % (density-equivalent speed)
+  the data pack gives station pressure and 2 m temperature:
+  chapter 11 used them as they are (D-008); D-017 reduces the
+  pressure to the hub; a stable night (warmer air aloft) lowers
+  the hub density a little more than the standard lapse says

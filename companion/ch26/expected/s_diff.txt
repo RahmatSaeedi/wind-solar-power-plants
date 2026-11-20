@@ -1,0 +1,15 @@
+comparing the approved file with the file read from the relay
+  parameter          approved   in the relay   status
+  51 pickup A             480            480   same
+  51 TMS                  0.1            0.1   same
+  51N pickup A             40             40   same
+  51N delay s             0.5            0.4   CHANGED
+  50BF timer s           0.15           0.15   same
+  CT ratio                600            600   same
+  curve                    SI             VI   CHANGED
+  2 parameters differ: the checksum shows THAT the file
+  changed, the comparison shows WHAT changed - here the curve
+  type and the earth-fault delay, both of which move the
+  grading (lesson B); the change has no revision, study or
+  test: the relay goes back to the approved file and the
+  event is recorded (ch 35 for access control)

@@ -1,0 +1,14 @@
+210 combiner boxes, each tested every day at a 1 % false-alarm rate
+  expected false flags a day: 2.1; in the year: 772
+  flag only after 3 days in a row: 0 false flags in the year
+  the faulty box (from day 200, z about -1.6 a day):
+    single-day rule first flags it on day 202
+    three-in-a-row rule first flags it on day 363
+    CUSUM on each box (allowance 0.5, threshold 8): day 205,
+    with 5 false flags in the year
+  one test is quiet; 210 tests a day are not - two false
+  flags every day add up to a queue nobody reads. Plain
+  persistence removes them but waits 163 days for this
+  fault; a CUSUM per box keeps the false flags rare and
+  finds it in 5 days, because it adds up a small
+  shortfall instead of waiting for three large ones

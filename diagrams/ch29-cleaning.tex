@@ -1,0 +1,18 @@
+% Chapter 29 - four cleaning strategies (worked water case): cost a year against raw water,
+% from the chapter 10 policies with RO at 60 % recovery (diagrams/data/ch29-cleaning.csv from
+% companion/ch29/lab_h.py, h_strategies).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=58mm, xmin=-300, xmax=3000, ymin=250, ymax=560,
+      xlabel={آبِ خام در سال $(\text{m}^3)$}, ylabel={هزینه در سال $(\text{k u})$},
+      xmajorgrids=true, scaled x ticks=false,
+      xticklabel style={/pgf/number format/1000 sep={}}]
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cPV] table[x=raw, y=cost, col sep=comma] {data/ch29-cleaning.csv};
+    \node[note, anchor=west] at (axis cs:80,478) {بدونِ شست‌وشو};
+    \node[note, anchor=east] at (axis cs:2470,310) {کامیون با آستانهٔ $4\,\%$};
+    \node[note, anchor=west] at (axis cs:80,282) {ربات هر ۱۲ روز};
+    \node[note, anchor=west] at (axis cs:80,533) {برسِ دستیِ خشک هر ۱۰ روز};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

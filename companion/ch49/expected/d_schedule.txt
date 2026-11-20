@@ -1,0 +1,23 @@
+block =PVF1-3: work packages with one crew of each kind (days),
+  each step booking the ready package that can start first
+  package                 crew        start  finish  hold  released
+  WP01 set-out            survey          0       2     0         2
+  WP02 grading            earthworks      2       7     1         8
+  WP03 piling             piling          8      14     2        16
+  WP08 station base       civil           8      11     7        18
+  WP05 trenches           earthworks      8      12     1        13
+  WP06 cables in trench   electrical     13      16     1        17
+  WP04 tables             structure      16      24     1        25
+  WP07 backfill           earthworks     17      19     0        19
+  WP09 station set        crane          18      19     1        20
+  WP14 MV terminations    jointer        20      22     1        23
+  WP10 modules            modules        25      34     0        34
+  WP11 combiners          electrical     25      28     0        28
+  WP12 strings            electrical     34      40     1        41
+  WP13 DC terminations    electrical     41      44     1        45
+  WP15 earthing           electrical     45      46     0        46
+  WP16 walkdown           QA             46      48     0        48
+  walkdown signed on day 48; the logic alone allows 48
+  booking by longest path instead: day 53 - the trench cables
+  started 27 days later, behind the strings, and held the backfill
+  a second module crew (WP10 in 5 days): day 44

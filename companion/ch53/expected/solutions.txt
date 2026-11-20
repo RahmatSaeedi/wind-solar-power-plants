@@ -1,0 +1,67 @@
+P01 PV degradation: 0.37 %/yr (slope -0.300 +/- 0.011 points)
+P02 wind availability trend years 4-9 / 10-18: -0.15 / -0.30
+P03 lost energy year 18 / largest cause: 9,310 MWh / turbine major components
+P04 gap to peers wind / PV: 2.3 / 2.9 points
+P05 best opportunity NPV: 177 k u
+P06 inverter growth slope: 1.45
+P07 gearbox median left / survive to 25 / failures: 36,096 h / 30% / 8.4
+P08 repowering gain / spilled: 55.0 / 3.6 GWh
+P09 grid requirement gaps: 3
+P10 repowering months before stop / down: 36 / 6.5
+P11 materials total / recycled: 19,670 t / 85%
+P12 blade composite: 756 t
+P13 provision at year 25 / fund from 1 / from 18: 4,635 / 111 / 587 k u
+P14 custody loads to check: 1
+P15 concrete top 1 m / full: 5,184 / 25,718 t
+P16 plots meeting the cover target: 2
+P17 modules fit for second life: 93%
+P18 decision 7 yr mean A / B / C: 3,748 / 4,883 / 8,403 k u
+P19 decision 12 yr mean A / B / C: 5,186 / 6,189 / 9,293 k u
+P20 cheapest across sensitivities: A
+P21 PCS failure during its lead time: 57%
+P22 hours >= 40 C now / warmer: 5 / 14
+P23 insurance claims incomplete: 3
+P24 decision for SCADA and PPC: replace / upgrade
+P25 blind / inspect-first cost: 300 / 145 k u
+P26 closure commitments without evidence: 3
+P27 decommissioning peak jobs: 70
+P28 loads / a day: 787 / 3.6
+P29 record sets not migrated: 2
+P30 credentials to remove: 40
+P31 footprint medians: 0.89, 1.43, 4.89 g/kWh
+P32 avoided emissions low / high: 102,000 / 191,250 t
+P33 hand checks: 36,096 h, 530 k u, 587 k u
+P34 lifecycle review: 6 of 12
+P35 curtailment slope / year 25: +142 MWh/yr / 3,193 MWh
+P36 soiling before a wash / after-wash PR: 1.4 / 76.7 %
+P37 inverter upgrade value / payback / NPV7: 912 k u / 4.6 yr / +629 k u
+P38 battery augmentation / cost / value: 3.6 MWh / 576 / 864 k u
+P39 longest approval: bird and bat survey update (18 months)
+P40 SF6 inventory: 93 kg
+P41 salvage low / high: 1,059 / 2,221 k u
+P42 EAC keep / new: 912 / 518 k u
+P43 gearbox blind / with borescope: 149 / 143 k u
+P44 expected decommissioning grievances: 9
+P45 grazing land / value: 138 ha / 12.7 k u
+P46 warranties alive at a sale: 3
+P47 record sets due for disposal: 4
+P48 construction footprint over 25 / 30 yr: 35.9 / 30.4 g/kWh
+P49 avoided-burden credit: -14,124 t CO2e
+P50 share of the three worst turbines: 51%
+P51 tower damage used / years left: 0.59 / 12.5
+P52 foundation utilisation with the new rotor: 106%
+P53 k u per GWh/yr, all 12 / worst 6: 1,556 / 1,426
+P54 crane days for the campaign: 44
+P55 battery end-of-life net cost: +210 k u
+P56 gearbox kits short by: 4.6
+P57 lease to the end: 1,260 k u
+P58 herders' track closed: 90 days
+P59 migration error share / interval: 7.5% / 3.5%-15.4%
+P60 transport footprint: 319 t CO2e
+P61 repowering footprint at 80 % energy: 6.11 g/kWh
+P67 rankings per year and per kWh agree: True
+P62 extension NPV today: +10,150 k u
+P63 share of a new gearbox's life used to year 25: 43%
+P64 premium less expected recovery: 188 k u
+P65 decisions in the register: 5
+P66 retirement evidence at the start: 1 of 10

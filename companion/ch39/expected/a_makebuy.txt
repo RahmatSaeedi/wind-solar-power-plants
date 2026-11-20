@@ -1,0 +1,10 @@
+make or buy decisions (teaching)
+  item                     decision                      main reason
+  PV mounting structures   buy, local fabricator         simple, heavy to ship
+  turbines                 buy, OEM                      design, certificate
+  SCADA integration        make, owner's engineer        knowledge kept
+  MV cables                buy, two qualified makers     continuity of supply
+  site civil works         buy, local contractor         local labour
+  'make' keeps knowledge and control and needs the people;
+  'buy' needs a specification, a qualified supplier and
+  someone who can judge the result

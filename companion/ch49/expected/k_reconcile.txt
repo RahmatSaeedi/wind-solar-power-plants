@@ -1,0 +1,10 @@
+field capture reconciled with the design register
+  in design, not captured: =PVF1-3-SW1
+  captured, not in design: =PVF1-3-CB10, =PVF1-3-SW2
+  serial on two tags: CB-20-1188
+  =PVF1-3-CB09: 11.0 m from its design position (tolerance 2 m)
+  SW1 was captured as SW2 - one tag typed wrong makes one
+  asset missing and one extra; CB10's serial is CB09's - a
+  copied row; CB09 itself sits 11 m off its design spot: the
+  as-built drawing or the record is wrong, and only a visit
+  tells which

@@ -1,0 +1,5 @@
+400 V system: phase voltage 230.9 V; 33 kV: 19.05 kV; 132 kV: 76.21 kV
+three 10 ohm resistors in star: I = 23.1 A, P = 16.00 kW
+the same resistors in delta: branch 40.0 A, line 69.3 A,
+  P = 48.00 kW (3 x star)
+V_ab from V_an = 230.9 /_ 0 deg: 400.0 V /_ 30 deg

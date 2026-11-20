@@ -1,0 +1,10 @@
+securities against the dates they must cover (weeks from order)
+  taking over planned at week 70; defects period to week 174
+  performance security to week 78, warranty security to 170
+  delay   security that ends before its date (weeks short)
+   0 wk   warranty -4 wk
+  10 wk   performance -2 wk; warranty -14 wk
+  20 wk   performance -12 wk; warranty -24 wk
+  a security with a fixed expiry date shrinks with every
+  week of delay; the contract ties extension to the dates
+  it covers - wording for the lawyers, dates for the engineer

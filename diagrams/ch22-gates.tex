@@ -1,0 +1,23 @@
+% Chapter 22 - development stage gates (flows right to left): G1 screening, G2 measurement and studies,
+% G3 permits/grid/land, G4 PPA/design/financing and the investment decision, with the cumulative
+% development spend at risk (teaching, A-314).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=30mm, minimum height=16mm, align=center, text width=28mm}]
+  \node[b] (g1) at (12,0) {\textbf{G1} غربالگری\\ایرادهای کشنده};
+  \node[b, draw=cWind, fill=cWind!9] (g2) at (8,0) {\textbf{G2} اندازه‌گیری\\و مطالعه‌ها};
+  \node[b, draw=cPV, fill=cPV!9] (g3) at (4,0) {\textbf{G3} مجوز، شبکه\\و زمین};
+  \node[b, draw=cBESS, fill=cBESS!10] (g4) at (0,0) {\textbf{G4} قراردادِ خرید،\\طراحی، تأمینِ مالی};
+  \draw[flow] (g1.west) -- (g2.east);
+  \draw[flow] (g2.west) -- (g3.east);
+  \draw[flow] (g3.west) -- (g4.east);
+  \node[note] at (12,-1.35) {$300$};
+  \node[note] at (8,-1.35) {$1{,}800$};
+  \node[note] at (4,-1.35) {$4{,}000$};
+  \node[note] at (0,-1.35) {$6{,}500$};
+  \node[note, text width=40mm] at (6,-2.1) {خرجِ انباشته در خطر (هزار واحد)};
+  \node[blk, draw=cLoad, fill=cLoad!8, align=center] (inv) at (-3.6,0) {تصمیمِ\\سرمایه‌گذاری};
+  \draw[flow] (g4.west) -- (inv.east);
+\end{tikzpicture}
+\end{document}

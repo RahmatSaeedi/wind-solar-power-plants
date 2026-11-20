@@ -1,0 +1,6 @@
+construction footprint about 260,000 t CO2e (teaching, ch 33 order)
+  attributed over 25 years: 35.9 g/kWh; over 30 years: 30.4 g/kWh
+  that is the attribution view (the plant's whole life); the
+  decision view of lesson I counts only what the decision adds
+  - the past is sunk and the same for every option, so mixing
+  the two makes a life extension look cleaner than it is

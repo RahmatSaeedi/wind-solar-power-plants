@@ -1,0 +1,10 @@
+26-module string at -15 C, beta -0.27 %/K (factor 1.108)
+  module Voc used         V        string V   margin to 1,500 V
+  data sheet 49.90 V      49.90       1438        +62 V
+  lot mean                49.90       1438        +62 V
+  lot 99th percentile     50.19       1446        +54 V
+  lot maximum             50.42       1452        +48 V
+  even 26 of the highest-Voc modules stay below 1,500 V; the
+  margin a string design keeps is for exactly this: lot
+  spread, the coefficient's tolerance and a colder morning
+  (max string length by the linear rule: 26)

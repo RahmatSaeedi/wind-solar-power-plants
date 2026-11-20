@@ -1,0 +1,7 @@
+12 inverter fans: 4 failed, 8 still running after 2 years
+  mean of the failed ones only: 9,650 h
+  all exposure over failures (censored estimate): 44,690 h
+  averaging only the failed items ignores every hour the
+  survivors ran and makes the fan look 4.6 times worse
+  than it is; still-running items are 'censored' and count
+  as exposure without a failure

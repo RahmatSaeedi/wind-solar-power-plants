@@ -1,0 +1,14 @@
+chance a raptor flying through the rotor is struck (single transit)
+  rotor 75 m, 3 blades at 11.5 rpm; bird 0.6 m long, 1.8 m span, 12 m/s
+  radius m   chord m   angle deg   chance
+        15       4.0        15.0    0.230
+        30       3.2        11.8    0.111
+        45       2.5         8.5    0.073
+        60       1.8         5.2    0.050
+        75       1.0         2.0    0.037
+  averaged over the swept area: 0.071
+  the root is the dangerous part (wide, slow-turning
+  chord), but most of the area is out near the tip, where
+  the chance is small: the disc average, 0.07, is close to the
+  0.08 used in lesson A - a check of the teaching value,
+  not a replacement for the study (U-113)

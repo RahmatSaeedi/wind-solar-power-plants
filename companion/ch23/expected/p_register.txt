@@ -1,0 +1,10 @@
+status of the electrical drawing register (teaching, 32 entries):
+  IFC          14
+  IFA           9
+  IFR           6
+  superseded    3
+  issued for construction: 48% of the 29 current drawings
+  IFR issued for review, IFA issued for approval, IFC issued
+  for construction; superseded drawings stay in the register
+  but leave the site; a stage may be energised only when its
+  drawings are IFC and its as-built mark-ups are recorded

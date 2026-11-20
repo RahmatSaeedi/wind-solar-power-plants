@@ -1,0 +1,19 @@
+% Chapter 8 - per-phase equivalent circuit of the induction machine (T form); the rotor
+% resistance R2/s changes with slip.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \draw (0,0) to[short, o-] (0,0) (0,3) to[short, o-] (0.4,3)
+        to[R, l={$R_1$}] (2.2,3) to[L, l={$jX_1$}] (4.0,3)
+        to[L, l={$jX_2$}] (6.0,3) to[R, l={$R_2/s$}] (6.0,0) -- (0,0);
+  \draw (4.0,3) to[L, l_={$jX_m$}, *-*] (4.0,0);
+  \draw[cLoad, line width=0.8pt, ->] (0.6,3.95) -- (1.5,3.95);
+  \node[note, text=cInk, anchor=south] at (1.05,4.0) {$\mathbf{I}_1$};
+  \draw[cLoad, line width=0.8pt, ->] (4.5,3.95) -- (5.4,3.95);
+  \node[note, text=cInk, anchor=south] at (4.95,4.0) {$\mathbf{I}_2$};
+  \draw[dimline] (-0.4,2.9) -- (-0.4,0.1);
+  \node[note, text=cInk, anchor=east] at (-0.5,1.5) {$\mathbf{V}$};
+  \node[note, text width=36mm, anchor=west] at (7.1,1.5) {توانِ فاصلهٔ هوایی $3I_2^2R_2/s$: $s$ سهمِ گرمای روتور و $1-s$ سهمِ کارِ مکانیکی};
+  \node[note, anchor=north] at (4.0,-0.15) {شاخهٔ مغناطیس‌کننده};
+\end{tikzpicture}}
+\end{document}

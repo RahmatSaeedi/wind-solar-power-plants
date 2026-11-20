@@ -1,0 +1,9 @@
+export circuit commissioning records
+  phasing: T2 HV designed ABC, found ACB
+  cable sheath tests not passed or not done: WS1 S4a, WS2 S1
+  intertrip end to end, limit 60 ms: trial(s) 4 (120 ms) over
+  a transformer phased ACB against ABC would short the bus at
+  the first parallel - the phasing check before closing the
+  coupler is the one that stops it; the slow intertrip trial
+  is the communications path (ch 28 intertrip, ch 35 links)
+  and is investigated, not averaged

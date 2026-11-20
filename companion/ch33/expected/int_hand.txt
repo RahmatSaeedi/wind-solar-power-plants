@@ -1,0 +1,6 @@
+two environmental results checked by hand
+  one turbine at 806 m: 106 - 20 log10(806) - 11 - 2 x 0.806 = 35.3 dB(A);
+    code 35.3
+  modules: 60,000 kWp x 450 kg = 27,000 t of 74,942 t (S0 manufacture)
+  a hand check of one term guards the sums of the whole
+  inventory against a wrong unit or exponent

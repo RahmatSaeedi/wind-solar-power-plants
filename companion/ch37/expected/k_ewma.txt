@@ -1,0 +1,9 @@
+April: an EWMA chart beside the CUSUM of lesson B
+  noise of the daily residual 0.0085; EWMA weight 0.2, limit 3 x 0.0028
+  EWMA alarm on day 95 (April 6); CUSUM alarmed on day 99
+  both charts smooth the noise and remember the past; the
+  EWMA forgets old days at a fixed rate, the CUSUM adds
+  shortfalls above an allowance. For a slow drift they
+  find it within days of each other; the CUSUM is simpler
+  to explain in a report, the EWMA's line is easier to
+  plot beside the residual

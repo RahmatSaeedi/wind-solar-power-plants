@@ -1,0 +1,11 @@
+a full capacity cycle of the battery (32.1 MWh in the window)
+  to recalibrate SOC and health
+  energy lost a cycle at round trip 86%: 4.5 MWh (0.31 k u)
+  cycles a year   MWh lost   k u
+              1        4.5    0.3
+              4       18.0    1.3
+             12       53.9    3.8
+  a calibration cycle costs little; scheduling it where it
+  replaces a normal cycle costs less still - what it buys is a
+  health figure the warranty and the plant model can trust
+  (ch 19, ch 37)

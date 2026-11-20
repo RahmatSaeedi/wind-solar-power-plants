@@ -1,0 +1,16 @@
+second dossier: a PV unit transformer, 5.5 MVA (teaching)
+  quantity                       declared  measured  accept       result
+  no-load loss kW                     4.5       5.4  <= 5.17      NOT OK
+  load loss kW at 75 C                 45      46.8  <= 51.7      ok
+  total loss kW                      49.5      52.2  <= 54.5      ok
+  impedance % (principal tap)           6       6.2  5.4 to 6.6   ok
+  ratio error % (principal tap)         0       0.2  within +/- 0.5 ok
+  top-oil rise K                       60      61.5  <= 60        NOT OK
+  sound power dB(A)                    72      73.5  <= 72        NOT OK
+  not accepted: no-load loss kW, top-oil rise K, sound power dB(A)
+  loss overrun priced: 7.7 k u per unit, 77 k u for ten units
+  the no-load loss is 20 % over (a core-steel or joint
+  problem in this design), the oil rise and the sound exceed
+  their limits: one design, ten units - the maker explains
+  and corrects before the series ships; a type fault is
+  cheapest found on the first unit

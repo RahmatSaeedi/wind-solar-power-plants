@@ -1,0 +1,13 @@
+a week of gate records reconciled with the authorisations
+  entries: 378 at two gates (main, substation)
+  contractor entries after the induction expired: 6 (3 people, days 5-6)
+  visitors without a host recorded: 2
+  substation entries without area authorisation: 2
+  entries without a recorded exit: 4 (all on day 5)
+  day 5 at 18:00 the records show 4 people on site;
+  the call-round found all of them had left (exit not
+  badged) - a muster built on these records would have
+  searched for 4 people who were at home
+  owners: inductions -> the contractor's supervisor; area
+  list -> the substation authority; exits -> the gate
+  process; hosts -> the visitor procedure

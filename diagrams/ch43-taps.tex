@@ -1,0 +1,17 @@
+% Chapter 43 - ratio error by tap position: the design with nine turns a step (whole turns) and the
+% measured values of unit T1, against a +-0.5 % teaching tolerance; tap +8.75 % fails
+% (diagrams/data/ch43-taps.csv from examples_a.turns, ch43-ratio.csv from examples_c.ratio).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=54mm, xmin=-11, xmax=11, ymin=-0.8, ymax=0.8,
+      xlabel={تپ (درصد)}, ylabel={خطای نسبت (درصد)}]
+    \fill[cBESS!8] (axis cs:-11,-0.5) rectangle (axis cs:11,0.5);
+    \addplot[sWind, mark=*, mark size=1pt] table[x=tap, y=err, col sep=comma] {data/ch43-taps.csv};
+    \addplot[only marks, mark=square*, mark size=2pt, color=cPV] table[x=tap, y=meas, col sep=comma] {data/ch43-ratio.csv};
+    \node[note, anchor=south, text=cWind] at (axis cs:-6,0.12) {طراحی، ۹ دور در هر پله};
+    \node[note, anchor=south west, text=cPV] at (axis cs:4,0.62) {اندازه‌گیریِ \babelsublr{T1}};
+    \node[note, anchor=north] at (axis cs:0,-0.52) {بازهٔ رواداری};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

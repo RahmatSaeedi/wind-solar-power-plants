@@ -1,0 +1,8 @@
+an 8-hour outage of one PV block (08-16) in the next 10 days:
+  energy at risk by day (the block's modelled output stands in
+  for its day-ahead PV forecast)
+   33.6  32.4  32.7  31.8  33.0   8.8   8.7   6.8   6.2   5.7  MWh
+  lowest on day 129 (5.7 MWh), highest 33.6
+  the forecast chooses the day; the outage request, the crew
+  and the network owner's window must agree with it (round t,
+  notice) - and the forecast is updated the day before

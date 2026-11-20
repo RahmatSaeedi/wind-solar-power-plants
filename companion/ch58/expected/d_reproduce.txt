@@ -1,0 +1,11 @@
+the winding-rise check of T1 (ch 43) with its method varied
+  project limit (PLP-ELE-SPC-0010 C-2.5): 65 K; method of IEC 60076-2:2011
+    (STD-173)
+  method                                rise K  verdict
+  fit to all 8 readings, copper 235       66.5  exceeds
+  fit to the first 4 readings             66.8  exceeds
+  first reading at 2 min, no fit          62.0  within
+  all 8, aluminium constant 225           64.0  within
+  the verdict turns on the method: the edition named in the
+  specification fixes how the rise is read, not only the limit;
+  the constant 225 is for aluminium - T1 is copper (ch 43)

@@ -1,0 +1,13 @@
+33 kV cable schedule as issued: 26 cables (planted faults)
+  cable   problem
+  W004    length looks like km, not m
+  W007    size as text '400mm2'
+  W010    unknown to 'T13'
+  W015    missing type
+  W017    duplicate id
+  W021    size 300 not a design size
+  6 problems in 6 cables; every
+  one would reach a drum order, a pull plan or a loss sum if
+  the schedule were used as issued - the checker runs on
+  every revision, and a schedule that fails goes back to its
+  author before anyone orders cable (ch 38)

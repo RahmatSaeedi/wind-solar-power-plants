@@ -1,0 +1,12 @@
+the priority mix of the alarm list, before and after review
+  priority   draft   reviewed
+  high         800        120
+  medium       700        380
+  low          500       1100
+  draft: 40 % high; reviewed: 8 % high
+  operator's time for the flood of 151 alarms at 30 s each: 76 min
+    for the 13 left after suppression: 6.5 min
+  when most alarms are 'high', priority tells the operator
+  nothing; the review gives each alarm a consequence and a
+  time to act, from which its priority follows (teaching
+  targets are set in the alarm philosophy, not here)

@@ -1,0 +1,12 @@
+torque on an M12 busbar joint: clamp force F = T / (K d)
+  (teaching: contact resistance ~ 1 / sqrt(F))
+  torque N m   clamp kN   relative R   relative heat at same I
+          70       29.2         1.00                      1.00
+          50       20.8         1.18                      1.18
+          35       14.6         1.41                      1.41
+          20        8.3         1.87                      1.87
+  half the torque leaves 41 % more resistance and 41 % more
+  heat in the joint - which heats, oxidises and loosens it
+  further; the torque on the maker's drawing, a torque
+  wrench with a calibration record, and a paint mark on each
+  bolt are the assembly evidence (lesson C)

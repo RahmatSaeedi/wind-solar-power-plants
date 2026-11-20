@@ -1,0 +1,11 @@
+vendor sessions of a quarter (synthetic register)
+  vendor  hours   purpose               record
+  V1        3.5   firmware study        recorded
+  V1        2.0   fault analysis        recorded
+  V2        6.0   commissioning help    not recorded
+  V3        1.0   licence renewal       recorded
+  12.5 h in the quarter; one session without a recording
+  is a finding: the jump host records every session, so a
+  missing recording means a path around it
+  the quarterly review matches each session to a request
+  and a purpose

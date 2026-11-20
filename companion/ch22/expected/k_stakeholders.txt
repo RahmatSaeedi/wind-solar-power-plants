@@ -1,0 +1,16 @@
+stakeholder map by interest and influence (fictional types):
+  stakeholder                    interest  influence  approach
+  landholders of two parcels            5          4  manage closely
+  village council                       5          3  involve and consult
+  seasonal herders (P-South)            5          2  involve and consult
+  grid operator                         3          5  keep satisfied
+  permitting authority                  3          5  keep satisfied
+  lenders                               4          5  manage closely
+  local businesses                      3          2  keep informed
+  environmental group                   4          3  involve and consult
+  nearby town residents                 2          2  keep informed
+  turbine maker                         3          3  keep informed
+  the map sets how often and how deeply each group is engaged;
+  it does not rank whose rights count - people with high
+  interest and little influence (herders, the village) need
+  the most deliberate consultation, not the least

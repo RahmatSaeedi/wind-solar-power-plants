@@ -1,0 +1,10 @@
+PPA term and payment days in the ch 21 model (teaching)
+  case                                min DSCR  equity IRR   debt k u
+  PPA 15 years (minimum, TJ-12)           1.20        9.2%    121,025
+  PPA 20 years (ch 21 base)               1.20       10.2%    121,025
+  PPA 25 years (Sughd tender, TJ-14)      1.20       10.8%    121,025
+  paid in 10 banking days (TJ-49)         1.23       10.5%    121,025
+  paid at the 30-day cap (TJ-49)          1.23       10.4%    121,025
+  15 against 20 years: equity IRR -1.0%; 25 years: +0.6%
+  the debt (15 years) sits inside even the shortest PPA; the
+  years after the PPA are merchant at the teaching 45 u/MWh

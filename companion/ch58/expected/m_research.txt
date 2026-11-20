@@ -1,0 +1,18 @@
+research log of this chapter's own verification (2026-11-18)
+  ISO/IEC 17025              as expected
+      looked for 2017, edition 3; found 2017, edition 3, confirmed
+  ISO/IEC 17065              note added
+      looked for 2012; found 2012; draft amendment listed 2025
+  ISO/IEC 17020              CORRECTED
+      looked for 2012; found 2012 withdrawn; 2026 edition 3
+  ISO/IEC 17050-1            CORRECTED
+      looked for 2010; found 2004 (no 2010 edition found)
+  ISO/IEC Guide 21-1         confirm
+      looked for 2005; found 2005; newer edition not seen
+  ISO/IEC Directives Part 2  confirm
+      looked for 2021; found 2021, 9th edition; 2026 amendment
+  drafting page (iso.org)    other source used
+      looked for rule text; found HTTP 403: not readable
+  2 of 6 editions were wrong as first written: the edition
+  in memory or in a secondary source is a lead, the catalogue
+  entry is the record

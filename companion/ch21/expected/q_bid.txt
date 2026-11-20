@@ -1,0 +1,8 @@
+tariff to bid (u/MWh, year 1) for a 10 % equity IRR (debt resized):
+  capex      energy 95 %   energy 100 %   energy 105 %
+    90 %           67.0          64.0          61.5
+   100 %           72.8          69.5          66.7
+   110 %           78.6          75.0          72.0
+  a bidder who prices at P50 energy and the base capex bids
+  about 69.5; every 5 % of energy or 10 % of capex moves the
+  bid by several units - the bid is as good as its inputs

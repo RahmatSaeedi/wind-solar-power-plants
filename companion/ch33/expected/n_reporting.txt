@@ -1,0 +1,13 @@
+the year's indicators by quarter (synthetic; R red, A amber, G green)
+  indicator                          Q1     Q2     Q3     Q4
+  grievances closed in 30 days %     72 R    81 R    88 A    93 G
+  local hires % of workforce         31 R    34 R    36 A    41 G
+  dust days over trigger a month      5 R     4 R     3 A     2 G
+  restored area with cover %          0 R    20 R    40 R    55 R
+  village well level change m       0.2 G   0.4 G   0.6 A   0.5 G
+  a trend says more than a quarter: grievances and hires
+  are improving and reach green; restored cover is red all
+  year because vegetation needs seasons (closure waits,
+  lesson C); the annual report shows each line with its
+  trend, the corrective actions and what changed because of
+  them - and goes to the village in the local language

@@ -1,0 +1,19 @@
+% Chapter 33 - the social-safeguards workflow, right to left then back: scoping and baseline,
+% alternatives and avoidance, mitigation and plans, budget and owners, monitoring and disclosure,
+% audit and remedy, closeout (section G; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=24mm, minimum height=11mm, text width=22mm}]
+  \node[s, blkLoad] (a) at (14.0,0) {دامنه و خط‌مبنا};
+  \node[s, blkLoad] (b) at (11.0,0) {گزینه‌ها و پرهیز};
+  \node[s, blkWind] (c) at (8.0,0) {کاهش و برنامه‌های مدیریت};
+  \node[s, blkWind] (d) at (5.0,0) {بودجه و مسئول};
+  \node[s, blkBESS] (e) at (5.0,-2.4) {پایش و افشا};
+  \node[s, blkBESS] (f) at (8.0,-2.4) {ممیزی و جبران};
+  \node[s, blkPV] (g) at (11.0,-2.4) {پایان با شاهد};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e, e/f, f/g} {\draw[flow] (\x) -- (\y);}
+  \draw[flowinfo] (f.north) -- (c.south);
+  \node[note] at (8.0,-3.6) {خط‌چین: یافته‌های ممیزی برنامه‌ها را تغییر می‌دهند};
+\end{tikzpicture}
+\end{document}

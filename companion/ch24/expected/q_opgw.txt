@@ -1,0 +1,10 @@
+earth wire with optical fibres (OPGW): fault duty (teaching):
+  the share of a 132 kV earth fault the earth wire carries
+  share kA   time s   I2t kA2s   rated 100 kA2s
+       3.1      0.5        4.9   ok
+       3.1      1.0        9.7   ok
+       9.4      0.5       44.7   ok
+  the earth wire carries fault current back and the fibres for
+  protection and SCADA inside it: if it overheats, the fibres
+  of the line differential (ch 26) go with it; the rating
+  must cover the switchgear rating, not today's fault level

@@ -1,0 +1,10 @@
+indicators of the security programme (synthetic quarter)
+  indicator                                   done   of    %
+  accounts reviewed this quarter                 6     6   100
+  backups restored in a test this quarter        4     5    80
+  findings closed by their date                  5     7    71
+  maker notices assessed within 14 days          6     6   100
+  devices matching their baseline               26    28    93
+  indicators count what was done, not what was bought; a
+  number below 100 % is a list of names and dates, read by
+  the asset owner every quarter

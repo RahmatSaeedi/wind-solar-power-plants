@@ -1,0 +1,4 @@
+1/2 rho A v^3  -> [L^2 M T^-3] = power: 10.82 MW
+1/2 rho A v^2  -> [L M T^-2] is NOT a power (it is a force)
+m c dT for a 28 kg module, c = 900 J/(kg K), 40 K: 1.01 MJ [L^2 M T^-2]
+p / (R T) = 1.0546 kg/m3 [L^-3 M]

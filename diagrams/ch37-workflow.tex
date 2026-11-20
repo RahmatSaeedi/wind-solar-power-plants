@@ -1,0 +1,25 @@
+% Chapter 37 - from data to diagnosis: the monitoring workflow of Plant P, read right to left, with
+% the feedback loop to the baseline and the records (examples_b; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    st/.style={blk, minimum width=22mm, minimum height=12mm, text width=20mm}]
+  \node[st, blkLoad] (d) at (0,0) {داده‌های اسکادا و کنتور};
+  \node[st, blkLoad] (v) at (-2.8,0) {اعتبارسنجی و پرچم};
+  \node[st, blkPV] (b) at (-5.6,0) {خط‌مبنا: مدلِ ۱۵٫۱};
+  \node[st, blkPV] (r) at (-8.4,0) {باقی‌مانده و تشخیص};
+  \node[st, blkWind] (h) at (0,-2.6) {بازبینیِ انسانی};
+  \node[st, blkWind] (c) at (-2.8,-2.6) {علتِ ریشه‌ای و شاهد};
+  \node[st, blkBESS] (a) at (-5.6,-2.6) {اقدام و دستورِ کار};
+  \node[st, blkWarn] (f) at (-8.4,-2.6) {بازخورد و سابقه};
+  \draw[flow] (d) -- (v);
+  \draw[flow] (v) -- (b);
+  \draw[flow] (b) -- (r);
+  \draw[flow] (r.south) -- (-8.4,-1.3) -- (0,-1.3) -- (h.north);
+  \draw[flow] (h) -- (c);
+  \draw[flow] (c) -- (a);
+  \draw[flow] (a) -- (f);
+  \draw[flowinfo] (f.west) -- (-10.1,-2.6) -- (-10.1,1.1) -- (-5.6,1.1) -- (b.north);
+  \node[note, anchor=north] at (-4.2,-3.5) {هشدارِ نادرست به بازبینی برمی‌گردد، نه به دستورِ کار};
+\end{tikzpicture}
+\end{document}

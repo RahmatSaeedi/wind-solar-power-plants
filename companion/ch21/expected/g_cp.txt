@@ -1,0 +1,16 @@
+conditions precedent to first drawdown (teaching register):
+  evidence                                       source             status
+  long-term resource and P50/P90 yield report    ch 12-16           draft
+  independent engineer's review of the yield     ch 16, 59          open
+  grid connection agreement and studies          ch 17, 27-28       open
+  permits and environmental consents             ch 14, 33, 55-57   open
+  EPC contract: price, schedule, LDs, security   ch 38-40           open
+  equipment warranties and type certificates     ch 9-11, 19, 41-46 draft
+  O&M contract with availability guarantee       ch 51-52           open
+  PPA signed, payment security in place          ch 21 E            open
+  insurance programme (construction, operation)  ch 38, 51          open
+  financial model audit (this lab)               ch 21 D, F         draft
+  hedging of rate and currency at close          ch 21 F            open
+  equity committed, standby equity letter        ch 21 F            open
+  9 of 12 open: the project is not yet bankable whatever its
+  IRR - bankability is evidence, not a ratio

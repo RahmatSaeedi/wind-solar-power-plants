@@ -1,0 +1,18 @@
+manufacture of the protection hardware (purpose and records):
+  current transformer:
+    steps: core, winding, insulation, cure
+    records: material certificates, routine test record
+  voltage transformer:
+    steps: core, winding, insulation, cure
+    records: routine tests, ratio and polarity
+  breaker:
+    steps: interrupter, mechanism, run-in operations
+    records: timing, resistance, voltage tests
+  relay:
+    steps: boards, firmware load, burn-in, calibration
+    records: routine report, firmware version
+  panel:
+    steps: frame, wiring to drawings, labels, FAT
+    records: wiring check, FAT record, punch list
+  the detailed processes are the makers' (ch 43 for the
+  electrical factories); the plant asks for the records

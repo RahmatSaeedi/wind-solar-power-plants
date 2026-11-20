@@ -1,0 +1,7 @@
+grid documents changed 4 times in 8.0 years: 0.50 a year
+  chance of at least one change before first energisation (1.0 yr): 39%
+  before commercial operation (1.5 yr): 53%
+  expected changes over a 25-year life: 12
+  a Poisson rate from four events is rough; the point stands:
+  someone checks the official sources on a fixed day each
+  month and records 'no change' too

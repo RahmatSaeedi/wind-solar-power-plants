@@ -1,0 +1,9 @@
+33 kV breakers: contact wear as sum of I^2 per operation against
+  a teaching budget of 10,000 kA^2
+  WS1     40 x 0.6 kA, 1 x 8.2 kA  -> 0.8%
+  WS2     35 x 0.6 kA, 2 x 11.5 kA  -> 2.8%
+  PVF1    20 x 0.4 kA  -> 0.0%
+  BESS-A  220 x 0.3 kA  -> 0.2%
+  two fault clearances on WS2 used more than all the load
+  switching of the battery feeder: wear follows faults, so the
+  service is triggered by the counter, not the calendar (ch 25)

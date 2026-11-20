@@ -1,0 +1,9 @@
+applicable requirements whose source must be verified by each gate
+  financial close        due  3, not verified 1: Z-014
+  notice to proceed      due 11, not verified 3: Z-002, Z-010, Z-014
+  first energisation     due 13, not verified 3: Z-002, Z-010, Z-014
+  commercial operation   due 13, not verified 3: Z-002, Z-010, Z-014
+  financial close already waits on Z-014 (licence threshold,
+  answered by CQ-02 but not yet re-filed as verified); notice
+  to proceed waits on the contract draft and the ride-through
+  conflict - gates tie the register to the schedule

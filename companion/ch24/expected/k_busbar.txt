@@ -1,0 +1,10 @@
+temperature rise of a copper busbar in still air (teaching):
+  bar mm        current A   loss W/m   surface m2/m   rise K
+  100x10             2500      148.0          0.220     74.8
+  2 x 100x10         2500       74.0          0.440     18.7
+  120x10             1250       30.8          0.260     13.2
+  100x10             3150      235.0          0.220    118.7
+  the loss grows with I^2 and the cooling with the surface:
+  two thinner bars beat one thick bar; the rise allowed
+  at joints and contacts is what the temperature-rise type
+  test proves - the panel's rating, not this estimate

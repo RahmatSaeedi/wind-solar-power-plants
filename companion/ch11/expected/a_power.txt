@@ -1,0 +1,10 @@
+kinetic power through the 150 m rotor (A = 17,671 m2):
+  v m/s   at 1.225 kg/m3   at 1.056 kg/m3   Betz share at 1.056
+      4          0.69 MW          0.60 MW          0.35 MW
+      6          2.34 MW          2.02 MW          1.19 MW
+      8          5.54 MW          4.78 MW          2.83 MW
+     10         10.82 MW          9.33 MW          5.53 MW
+     12         18.70 MW         16.12 MW          9.55 MW
+     15         36.53 MW         31.49 MW         18.66 MW
+  specific rating 5 MW / 17,671 m2 = 283 W/m2 of swept area
+  power grows with v^3: doubling the speed gives eight times

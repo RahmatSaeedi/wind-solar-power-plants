@@ -1,0 +1,11 @@
+logistics cost of one turbine (teaching, k u)
+  sea freight share (blades, nacelle, tower)    210    25 %
+  port handling and storage                      35     4 %
+  road transport, 9 abnormal loads              160    19 %
+  escorts, permits, route works                  55     7 %
+  main crane and assist cranes                  345    42 %
+  receiving, preservation, laydown               25     3 %
+  total 830 k u a turbine
+  the crane is the biggest single item: the days it waits
+  for wind, for a late delivery or for a pad to be accepted
+  are where logistics budgets are lost (lab D)

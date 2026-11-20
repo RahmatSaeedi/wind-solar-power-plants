@@ -1,0 +1,9 @@
+rods and the plant-wide earthing system:
+  one rod 3 m x 16 mm in 150 ohm m: R = rho/(2 pi L)(ln(4L/d) - 1) = 44.7 ohm
+  ten rods far apart: 4.5 ohm; close together they share soil and give more
+  turbine foundation earth (teaching 5 ohm each), 12 turbines,
+  bonded through the cable screens to the substation grid:
+    substation alone 0.857 ohm; all together about 0.28 ohm
+  the screens join the earths into one system: lower resistance
+  and shared fault current, but a substation fault also raises
+  the turbines' earths a little - the study models it

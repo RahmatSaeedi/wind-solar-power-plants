@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fa" xml:lang="fa" dir="rtl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>پیوست I — الگوهای پیش‌بینیِ کوتاه‌مدت – نیروگاه‌های هیبریدیِ بادی–خورشیدی</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../appendices/J-grid-service-templates.html" rel="next">
+<link href="../appendices/H-water-templates.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bf0a93587e161b84f29c5f5d0dcbd6c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "نتیجه‌ای یافت نشد",
+    "search-matching-documents-text": "سندِ منطبق",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "جست‌وجو",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "جست‌وجو"
+  }
+}</script>
+<!-- MathJax config: make Persian (Arabic-script) text render correctly INSIDE
+     equations in HTML. By default MathJax types \text{...} in its own math font
+     (no Persian glyphs) and lays glyphs out individually, so Persian appears as
+     broken, disconnected left-to-right letters. `mtextInheritFont: true` makes
+     \text{...} use the surrounding page font (Vazirmatn), and the browser then
+     shapes the connected Arabic letters correctly. (PDF already renders these
+     correctly via LaTeX + babel.) -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [["$", "$"], ["\\(", "\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    tags: "ams",
+    tagSide: "right"
+  },
+  chtml: { mtextInheritFont: true },
+  svg: { mtextInheritFont: true }
+};
+</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="نمایش/پنهان‌کردنِ نوارِ کناری" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/A-glossary-notation.html">پیوست‌ها</a></li><li class="breadcrumb-item"><a href="../appendices/I-forecast-templates.html"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">الگوهای پیش‌بینیِ کوتاه‌مدت</span></a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="جست‌وجو" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">نیروگاه‌های هیبریدیِ بادی–خورشیدی</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="جست‌وجو"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">یادداشتِ نویسنده</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-1-label">بخشِ یکم — اندیشیدن و محاسبه مانندِ مهندس</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-book-and-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">راهنمای کتاب و چیستیِ پروژهٔ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-units-and-records.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">یکاها، ابعاد و سوابقِ مهندسی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-mathematics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">ریاضیات برای مهندسیِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-physics-materials-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">مبانیِ فیزیک، مواد و ساخت</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-computing-and-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">رایانش و دادهٔ مهندسی</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-controls="quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-2-label">بخشِ دوم — برق و تجهیزاتِ تبدیلِ انرژی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-2" aria-labelledby="quarto-sidebar-section-2-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-dc-circuits-safety.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">مدارهای جریانِ مستقیم و مبانیِ ایمنیِ برق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-ac-three-phase.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">مدارهای جریانِ متناوب و توانِ سه‌فاز</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-electrical-machines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">ژنراتورها و ماشین‌های الکتریکی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09-power-electronics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">الکترونیکِ قدرت و اینورترها</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-pv-modules-arrays.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">ماژول‌های فتوولتائیک و طراحیِ آرایهٔ خورشیدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-wind-turbines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">توربین‌های بادی و تبدیلِ انرژیِ باد</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-controls="quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-3-label">بخشِ سوم — ارزیابیِ منابع و برآوردِ تولیدِ انرژی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-3" aria-labelledby="quarto-sidebar-section-3-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/12-solar-resource.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">ارزیابیِ منبعِ خورشیدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/13-wind-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">اندازه‌گیری و ارزیابیِ باد</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/14-site-screening-micrositing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">غربالگریِ ساختگاه و ریزجانماییِ مزرعهٔ بادی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/15-energy-yield-losses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">مدل‌سازیِ تولیدِ انرژی و تلفات</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/16-uncertainty-yield.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">عدمِ قطعیت و ارزیابیِ تولید</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-controls="quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-4-label">بخشِ چهارم — معماریِ نیروگاه، ذخیره‌سازی و اقتصاد</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-4" aria-labelledby="quarto-sidebar-section-4-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/17-load-grid-requirements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">بار، شبکه و الزاماتِ پروژه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/18-hybrid-architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">معماریِ نیروگاهِ هیبریدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/19-battery-storage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">ذخیره‌سازیِ انرژی با باتری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/20-plant-control-ems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">کنترلِ نیروگاه و مدیریتِ انرژی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/21-economics-contracts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">اقتصادِ پروژه و قراردادها</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/22-feasibility-options.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">امکان‌سنجی و انتخابِ گزینه</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-controls="quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-5-label">بخشِ پنجم — مهندسیِ تفصیلی و اتصال به شبکه</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-5" aria-labelledby="quarto-sidebar-section-5-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/23-one-line-boundaries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">نمودارِ تک‌خطی و مرزهای سامانهٔ برق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/24-cables-switchgear.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">کابل‌ها، تابلوهای قطع‌ووصل و تأسیساتِ برقی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/25-transformers-substations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">ترانسفورماتورها و پست‌های برق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/26-protection-grounding-lightning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">حفاظت، زمین‌کردن و صاعقه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/27-power-quality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">کیفیتِ توان و رفتارِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/28-grid-studies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">مطالعاتِ شبکه و الزاماتِ عملکردی</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-controls="quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-6-label">بخشِ ششم — عمران، مکانیک، ایمنی، حریق و محیطِ‌زیست</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-6" aria-labelledby="quarto-sidebar-section-6-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/29-site-investigation-civil.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">شناساییِ ساختگاه و کارهای عمرانی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/30-structures-foundations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">سازه‌ها، پیِ توربین و بارهای مکانیکی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/31-transport-lifting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">حمل، بالابری و لجستیکِ نصب</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/32-safety-fire-emergency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">ایمنیِ شغلی، حفاظت از حریق و پاسخِ اضطراری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/33-environment-social.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">مدیریتِ محیطِ‌زیستی و اجتماعی</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-controls="quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-7-label">بخشِ هفتم — کنترل، ارتباطات و امنیتِ سایبری</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-7" aria-labelledby="quarto-sidebar-section-7-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/34-instrumentation-control.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">ابزارِ دقیق و کنترل</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/35-scada-communications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">اسکادا و ارتباطات</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/36-ot-cybersecurity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">فناوریِ اطلاعات و امنیتِ سایبریِ صنعتی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/37-performance-analytics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">پایشِ عملکرد و تحلیلِ داده</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-controls="quarto-sidebar-section-8" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-8-label">بخشِ هشتم — تدارکات، تولیدِ صنعتی، اجرا و راه‌اندازی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-8" aria-labelledby="quarto-sidebar-section-8-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/38-detailed-design-documents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">طراحیِ تفصیلی و کنترلِ مدارک</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/39-procurement-suppliers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">تدارکات، قراردادها و ارزیابیِ تأمین‌کنندگان</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/40-manufacturing-quality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">سامانه‌های تولید، مهندسیِ کیفیت و آزمون‌های کارخانه‌ای</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/41-pv-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">مهندسیِ ساختِ سلول و ماژولِ خورشیدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/42-wind-turbine-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">طراحی و ساختِ اجزای توربینِ بادی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/43-transformer-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">ترانسفورماتورِ قدرت: نظریه، طراحی و ساختِ کارخانه‌ای</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/44-converter-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">ساختِ مبدل‌های قدرت، اینورترها و الکترونیکِ کنترل</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/45-battery-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">ساختِ سلول، بستهٔ باتری، سامانهٔ مدیریتِ باتری و کانتینرِ ذخیره‌ساز</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/46-cable-switchgear-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">46</span>&nbsp; <span class="chapter-title">ساختِ کابل، اتصال‌دهنده، تابلوی قطع‌ووصل و تابلوی حفاظت</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/47-civil-structural-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">47</span>&nbsp; <span class="chapter-title">ساختِ اجزای عمرانی، سازه‌ای، برج، ردیاب و تجهیزاتِ جانبیِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/48-instrumentation-network-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">ساختِ ابزارِ دقیق، تجهیزاتِ اندازه‌گیری، تابلوی کنترل و سخت‌افزارِ شبکه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/49-construction-installation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">اجرا و نصب</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/50-commissioning-handover.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">راه‌اندازی، پذیرشِ شبکه و تحویل</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-controls="quarto-sidebar-section-9" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-9-label">بخشِ نهم — بهره‌برداری، نگهداری و پایانِ عمر</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-9" aria-labelledby="quarto-sidebar-section-9-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/51-operations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">51</span>&nbsp; <span class="chapter-title">بهره‌برداری از نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/52-maintenance-ram.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">نگهداری و عیب‌یابی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/53-repowering-retirement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">بهبودِ عملکرد، بازتوانی و برچیدنِ نیروگاه</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-controls="quarto-sidebar-section-10" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-10-label">بخشِ دهم — انطباق با مقرراتِ کشورها و پروژهٔ پایانی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-10" aria-labelledby="quarto-sidebar-section-10-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/54-applicable-requirements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">شناساییِ الزاماتِ حاکم بر پروژه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/55-iran-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">55</span>&nbsp; <span class="chapter-title">پروندهٔ مقررات و استانداردهای ایران</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/56-afghanistan-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">پروندهٔ مقررات و استانداردهای افغانستان</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/57-tajikistan-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">پروندهٔ مقررات و استانداردهای تاجیکستان</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/58-international-standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">استانداردهای بین‌المللی: یافتن، تفسیر و به‌کاربستن</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/59-capstone-plant-p.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">پروژهٔ پایانی: طراحی، تحویل و بهره‌برداریِ نیروگاهِ P</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-controls="quarto-sidebar-section-11" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-11-label">پیوست‌ها</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-11" aria-labelledby="quarto-sidebar-section-11-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/A-glossary-notation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">واژه‌نامهٔ فارسی–انگلیسی، نمادها و کوته‌نوشت‌ها</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/B-units-constants-formulas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">یکاهای <span class="ltr" dir="ltr">SI</span>، ثابت‌ها، تبدیل‌ها و فرمول‌نامه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/C-drawing-symbols.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">نمادهای نقشه و قراردادهای نمودارِ تک‌خطی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/D-calculation-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">الگوهای برگهٔ محاسبه و بازبینیِ مستقل</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/E-auxiliary-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">الگوهای سامانه‌های کمکی: فهرستِ بار، تک‌خطی، خودگردانیِ باتری و بارزدایی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/F-fire-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">الگوهای حفاظت در برابرِ حریق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/G-ram-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">الگوهای قابلیتِ اطمینان، دسترس‌پذیری و نگهداشت‌پذیری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/H-water-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">الگوهای مدیریتِ آب</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/I-forecast-templates.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">الگوهای پیش‌بینیِ کوتاه‌مدت</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/J-grid-service-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">J</span>&nbsp; <span class="chapter-title">الگوهای خدماتِ شبکه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/K-grid-connection-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">K</span>&nbsp; <span class="chapter-title">الگوهای اتصال به شبکه و تأسیساتِ خروجیِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/L-land-social-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">L</span>&nbsp; <span class="chapter-title">الگوهای زمین، جامعه و ملاحظاتِ اجتماعی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/M-finance-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">M</span>&nbsp; <span class="chapter-title">الگوهای تأمینِ مالیِ پروژه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/N-asset-information-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">N</span>&nbsp; <span class="chapter-title">الگوهای اطلاعاتِ دارایی و تحویلِ دیجیتال</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/O-emergency-security-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">O</span>&nbsp; <span class="chapter-title">الگوهای آمادگیِ اضطراری و حفاظتِ فیزیکی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/P-ghg-worksheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">P</span>&nbsp; <span class="chapter-title">کاربرگِ ردپای چرخهٔ عمر و گازهای گلخانه‌ای</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/Q-plant-p-data-pack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">Q</span>&nbsp; <span class="chapter-title">بستهٔ دادهٔ مرجعِ نیروگاهِ P</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/R-measurement-forms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">R</span>&nbsp; <span class="chapter-title">برگه‌های اندازه‌گیری، کیفیتِ داده، بازرسی، آزمون و نگهداری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/S-equipment-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">S</span>&nbsp; <span class="chapter-title">الگوهای مشخصاتِ تجهیز، فهرستِ مواد و ارزیابیِ تأمین‌کننده</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/T-risk-safety-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">T</span>&nbsp; <span class="chapter-title">الگوهای ریسک، تحلیلِ خطر، مجوزِ کار و درس‌آموزی از حادثه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/U-compliance-register.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">U</span>&nbsp; <span class="chapter-title">دفترِ استانداردها و انطباق، پیگیریِ تأییدیه‌ها و سیاههٔ راستی‌آزماییِ منابع</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/V-commissioning-checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">V</span>&nbsp; <span class="chapter-title">چک‌لیست‌های راه‌اندازی، پذیرش، تحویل و بهره‌برداری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/W-official-sources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">W</span>&nbsp; <span class="chapter-title">کتاب‌نامهٔ منابعِ رسمیِ راستی‌آزمایی‌شده</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/X-mastery-tests.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">X</span>&nbsp; <span class="chapter-title">آزمون‌های تشخیصیِ تسلط و راهنمای مدرس</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">فهرست</h2>
+   
+  <ul>
+  <li><a href="#sec-app-i-dictionary" id="toc-sec-app-i-dictionary" class="nav-link active" data-scroll-target="#sec-app-i-dictionary"><span class="header-section-number">I.1</span> فرهنگِ داده</a></li>
+  <li><a href="#sec-app-i-sources" id="toc-sec-app-i-sources" class="nav-link" data-scroll-target="#sec-app-i-sources"><span class="header-section-number">I.2</span> دفترِ منبع و کیفیت</a></li>
+  <li><a href="#sec-app-i-split" id="toc-sec-app-i-split" class="nav-link" data-scroll-target="#sec-app-i-split"><span class="header-section-number">I.3</span> تقسیمِ زمانیِ آموزش و آزمون</a></li>
+  <li><a href="#sec-app-i-scorecard" id="toc-sec-app-i-scorecard" class="nav-link" data-scroll-target="#sec-app-i-scorecard"><span class="header-section-number">I.4</span> کارنامه به تفکیکِ افق</a></li>
+  <li><a href="#sec-app-i-calibration" id="toc-sec-app-i-calibration" class="nav-link" data-scroll-target="#sec-app-i-calibration"><span class="header-section-number">I.5</span> کالیبراسیون و رانش</a></li>
+  <li><a href="#sec-app-i-dispatch" id="toc-sec-app-i-dispatch" class="nav-link" data-scroll-target="#sec-app-i-dispatch"><span class="header-section-number">I.6</span> از پیش‌بینی تا توزیعِ بار</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/A-glossary-notation.html">پیوست‌ها</a></li><li class="breadcrumb-item"><a href="../appendices/I-forecast-templates.html"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">الگوهای پیش‌بینیِ کوتاه‌مدت</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-app-i" class="quarto-section-identifier">پیوست I — الگوهای پیش‌بینیِ کوتاه‌مدت</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>فصل‌های ۱۵، ۲۰، ۳۷ و ۵۱ پیش‌بینیِ توانِ نیروگاه را ساختند، سنجیدند و به برنامهٔ روزِ بعد و ذخیره وصل کردند. این پیوست برگه‌های کار را با نمونه‌های پرشده می‌آورد: فرهنگِ داده، دفترِ منبع و کیفیت، تقسیمِ زمانیِ آموزش و آزمون، کارنامهٔ قطعی و احتمالاتی به تفکیکِ افق، دفترِ کالیبراسیون و رانش، و فرض‌های پیش‌بینی تا توزیعِ بار. داده‌های نمونه ساختگی‌اند (<span class="ltr" dir="ltr">A-267</span>). دادهٔ واقعیِ هواشناسی یا تأمین‌کنندهٔ پیش‌بینی با شرط‌های استفاده‌اش به کار می‌رود.</p>
+<section id="sec-app-i-dictionary" class="level2" data-number="I.1">
+<h2 data-number="I.1" class="anchored" data-anchor-id="sec-app-i-dictionary"><span class="header-section-number">I.1</span> فرهنگِ داده</h2>
+<div id="tbl-app-i-dictionary" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-app-i-dictionary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+جدول&nbsp;I.1: الگوی فرهنگِ دادهٔ پیش‌بینی
+</figcaption>
+<div aria-describedby="tbl-app-i-dictionary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 11%">
+<col style="width: 22%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>ستون</th>
+<th>معنا</th>
+<th>یکا</th>
+<th>برچسبِ زمان</th>
+<th>شرط</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>زمانِ صدور</td>
+<td>لحظه‌ای که پیش‌بینی ساخته شد</td>
+<td><span class="ltr" dir="ltr">UTC</span></td>
+<td>آغازِ بازه</td>
+<td>فقط داده‌های پیش از آن</td>
+</tr>
+<tr class="even">
+<td>زمانِ هدف</td>
+<td>بازه‌ای که پیش‌بینی برای آن است</td>
+<td><span class="ltr" dir="ltr">UTC</span></td>
+<td>آغاز یا پایانِ بازه، نوشته</td>
+<td>یکسان در همهٔ پرونده‌ها</td>
+</tr>
+<tr class="odd">
+<td>افق</td>
+<td>زمانِ هدف منهای زمانِ صدور</td>
+<td><span class="ltr" dir="ltr">h</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>توانِ پیش‌بینی‌شده</td>
+<td>میانه یا چندک</td>
+<td><span class="ltr" dir="ltr">MW</span></td>
+<td>میانگینِ بازه</td>
+<td>پیش از سقفِ صادرات یا پس از آن، نوشته</td>
+</tr>
+<tr class="odd">
+<td>چندک‌ها</td>
+<td><span class="ltr" dir="ltr">P10</span>، <span class="ltr" dir="ltr">P50</span>، <span class="ltr" dir="ltr">P90</span></td>
+<td><span class="ltr" dir="ltr">MW</span></td>
+<td></td>
+<td>ترتیبِ صعودی</td>
+</tr>
+<tr class="even">
+<td>توانِ اندازه‌گیری‌شده</td>
+<td>از کنتور یا اسکادا</td>
+<td><span class="ltr" dir="ltr">MW</span></td>
+<td>میانگینِ بازه</td>
+<td>با پرچمِ کیفیت</td>
+</tr>
+<tr class="odd">
+<td>وضعیتِ نیروگاه</td>
+<td>ظرفیتِ در دسترس، سقف‌ها</td>
+<td><span class="ltr" dir="ltr">MW</span></td>
+<td></td>
+<td>از دفترِ بهره‌برداری</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>برچسبِ زمان (آغاز یا پایانِ بازه) خطای پنهانِ رایجی است (<a href="../chapters/05-computing-and-data.html#sec-ch05-a-interval" class="quarto-xref"><span>بخش 5.2.8</span></a>). ظرفیتِ در دسترس و سقف‌ها جزئی از داده‌اند. پیش‌بینی‌ای که نداند دو توربین افزوده شده رانش پیدا می‌کند (<a href="../chapters/37-performance-analytics.html#sec-ch37-g-drift" class="quarto-xref"><span>بخش 37.8.7</span></a>).</p>
+</section>
+<section id="sec-app-i-sources" class="level2" data-number="I.2">
+<h2 data-number="I.2" class="anchored" data-anchor-id="sec-app-i-sources"><span class="header-section-number">I.2</span> دفترِ منبع و کیفیت</h2>
+<div id="tbl-app-i-sources" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-app-i-sources-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+جدول&nbsp;I.2: الگوی دفترِ منبع و کیفیتِ پیش‌بینی
+</figcaption>
+<div aria-describedby="tbl-app-i-sources-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>منبع</th>
+<th>نوع</th>
+<th>شرطِ استفاده</th>
+<th>پوشش</th>
+<th>تأخیرِ رسیدن</th>
+<th>کیفیت و شکاف‌ها</th>
+<th>جایگزین</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>مدلِ عددیِ هوا، اسکادا، ایستگاهِ اندازه‌گیری</td>
+<td>قرارداد یا مجوز</td>
+<td>دوره و تفکیک</td>
+<td>دقیقه</td>
+<td>سهمِ کامل، پرچم‌ها</td>
+<td>پیش‌بینیِ ماندگاری</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="sec-app-i-split" class="level2" data-number="I.3">
+<h2 data-number="I.3" class="anchored" data-anchor-id="sec-app-i-split"><span class="header-section-number">I.3</span> تقسیمِ زمانیِ آموزش و آزمون</h2>
+<p><strong>قاعده.</strong> آزمون همیشه روی داده‌ای است که مدل ندیده و پس از دادهٔ آموزش آمده است. هر ویژگی باید در زمانِ صدور موجود باشد.</p>
+<p><strong>نمونهٔ پرشده: نشتِ داده (فصلِ ۱۵).</strong></p>
+<pre class="text"><code>data leakage in a learned correction of the day-ahead forecast:
+  model                                         RMSE test MW
+  raw day-ahead forecast                           10.72
+  corrected, trained Jan-Aug, tested Sep-Dec       10.38
+  + last hour's observation, random split            7.20
+  + last hour's observation, time split              7.59
+  the last hour's observation is not known a day ahead: any
+  model that uses it scores well in a test and cannot run in
+  operation; a random split also lets neighbouring hours leak
+  into the test; features must exist at the issue time</code></pre>
+<p><strong>نمونهٔ پرشده: تصحیحی که نویز را یاد گرفت (فصلِ ۳۷).</strong></p>
+<pre class="text"><code>a 24 h forecast 'corrected' by 288 fitted numbers (month x hour);
+  fitted on the even weeks, tested on the odd weeks (RMSE, MW)
+  forecast                   fitted weeks   held-out weeks
+  uncorrected                       15.17            15.74
+  corrected (288 numbers)           14.67            16.14
+  on the weeks it was fitted to, the correction removes
+  error; on weeks it has not seen it adds some back - it
+  learned the noise of its own weeks. Scores are only ever
+  taken on held-out data</code></pre>
+</section>
+<section id="sec-app-i-scorecard" class="level2" data-number="I.4">
+<h2 data-number="I.4" class="anchored" data-anchor-id="sec-app-i-scorecard"><span class="header-section-number">I.4</span> کارنامه به تفکیکِ افق</h2>
+<p><strong>الگو.</strong> برای هر افق: سوگیری، میانگینِ قدرِ مطلقِ خطا، ریشهٔ میانگینِ مربعِ خطا، همان برای پیش‌بینیِ مرجع (ماندگاری یا ماندگاریِ هوشمند)، مهارت، و برای پیش‌بینیِ احتمالاتی زیانِ چندکی یا امتیازِ احتمالِ رتبه‌ای پیوسته.</p>
+<p><strong>نمونهٔ پرشده: ساخت (فصلِ ۱۵).</strong></p>
+<pre class="text"><code>forecast error of the hybrid output on the test months (Sep-Dec),
+  RMSE in % of the 110 MW installed:
+  lead h   persistence   smart pers.   weather-driven   skill
+     1         8.3           7.0            7.1       -0.01
+     3        16.3          12.2            7.5       +0.38
+     6        23.8          18.4            7.8       +0.57
+    12        27.8          23.8            8.3       +0.65
+    24        23.7          23.7            9.7       +0.59
+    36        32.5          28.9           12.1       +0.58
+  persistence is hard to beat for the next hour or two; the
+  weather-driven forecast wins from a few hours on, because it
+  knows the weather to come; smart persistence (the clear-sky
+  index for PV) beats plain persistence once the sun moves;
+  skill is against the better baseline at each lead</code></pre>
+<p><strong>نمونهٔ پرشده: بهره‌برداری (فصلِ ۳۷).</strong></p>
+<pre class="text"><code>plant output forecasts scored on the held-out half year (MW)
+  horizon h   bias    MAE    RMSE   persistence RMSE   skill
+          1    0.51   6.92    8.84               8.77   -0.01
+          6    0.63   9.35   12.04              26.41    0.54
+         24    0.16  11.14   14.41              24.75    0.42
+         48    1.83  14.13   18.34              28.51    0.36
+  at one hour persistence is hard to beat (skill -0.01); from six
+  hours the forecast wins clearly (+0.54). At 24 h persistence
+  repeats yesterday's sun - a strong reference for PV - so the
+  skill dips; the score is read by horizon and by use: a
+  day-ahead bid needs the 24 h line, a ramp warning the 1 h
+  one (ch 15 built these scores; here they run on operation)</code></pre>
+<p>مهارت در هر افق در برابرِ مرجعِ بهتر همان افق خوانده می‌شود (<a href="../chapters/15-energy-yield-losses.html#sec-ch15-e-horizon" class="quarto-xref"><span>بخش 15.6.3</span></a>، <a href="../chapters/37-performance-analytics.html#sec-ch37-g-horizons" class="quarto-xref"><span>بخش 37.8.1</span></a>). امتیاز به کاربرد گره می‌خورد: پیشنهادِ روزِ بعد ستونِ ۲۴ ساعته را می‌خواهد و هشدارِ شیب ستونِ یک‌ساعته را.</p>
+</section>
+<section id="sec-app-i-calibration" class="level2" data-number="I.5">
+<h2 data-number="I.5" class="anchored" data-anchor-id="sec-app-i-calibration"><span class="header-section-number">I.5</span> کالیبراسیون و رانش</h2>
+<p><strong>نمونهٔ پرشده: قابلیتِ اطمینانِ چندک‌ها (فصلِ ۱۵).</strong></p>
+<pre class="text"><code>reliability of the day-ahead quantiles (share of hours below):
+  level    training months   test months
+   0.10         10.0 %            11.2 %
+   0.25         24.9 %            24.7 %
+   0.50         49.5 %            45.5 %
+   0.75         74.3 %            72.2 %
+   0.90         89.0 %            88.8 %
+  on the months they were fitted on the quantiles are reliable by
+  construction; on the test months every level moves, the median
+  most (45.5 % instead of 50 %): autumn is not like the training
+  months; reliability is checked on held-out data, level by level</code></pre>
+<p><strong>نمونهٔ پرشده: پوششِ بازه (فصلِ ۳۷).</strong></p>
+<pre class="text"><code>a 90 % interval around the 24 h forecast, built on the first half
+  interval: forecast -30.3 to +24.2 MW
+  share of held-out hours inside it: 93.2 %
+  an interval that holds about 90 % of new hours is
+  calibrated; one that holds 70 % promises a certainty the
+  forecast does not have - and a dispatch or bid built on
+  it carries that hidden risk</code></pre>
+<p><strong>نمونهٔ پرشده: رانش پس از تغییرِ نیروگاه (فصلِ ۳۷).</strong></p>
+<pre class="text"><code>day-ahead forecast bias by month; two turbines added on day 250
+  month   bias MW
+  Jan        2.59
+  Feb        1.93
+  Mar        1.76
+  Apr        2.00
+  May        0.77
+  Jun        0.79
+  Jul        0.92
+  Aug        1.62
+  Sep       -2.60
+  Oct       -1.89
+  Nov       -0.16
+  Dec       -4.66
+  CUSUM on the daily bias (k 1.0, h 5): alarm on day 258,
+    8 days after the change
+  a looser setting (k 0.5) alarmed on day 205, when nothing had
+    changed - the setting trades early warning for false alarms
+  the plant now makes more than the forecast expects: the
+  bias turns negative from September, by about the output of
+  two turbines, and nearly vanishes in calm November; a
+  forecast is re-checked after every change to the plant</code></pre>
+<p><strong>الگوی دفترِ رانش.</strong> ماه، سوگیری، ریشهٔ میانگینِ مربعِ خطا، پوششِ بازه، تغییرهای نیروگاه در آن ماه، اقدام. هر تغییرِ نیروگاه (توربینِ تازه، سقفِ تازه، تغییرِ پیکربندی) به صاحبِ مدلِ پیش‌بینی اطلاع داده می‌شود (<a href="../chapters/37-performance-analytics.html#sec-ch37-g-drift" class="quarto-xref"><span>بخش 37.8.7</span></a>).</p>
+</section>
+<section id="sec-app-i-dispatch" class="level2" data-number="I.6">
+<h2 data-number="I.6" class="anchored" data-anchor-id="sec-app-i-dispatch"><span class="header-section-number">I.6</span> از پیش‌بینی تا توزیعِ بار</h2>
+<p><strong>الگوی فرض‌ها.</strong></p>
+<div id="tbl-app-i-dispatch" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-app-i-dispatch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+جدول&nbsp;I.3: الگوی فرض‌های پیش‌بینی تا توزیعِ بار
+</figcaption>
+<div aria-describedby="tbl-app-i-dispatch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>فرض</th>
+<th>مقدار</th>
+<th>منبع</th>
+<th>اثر اگر نادرست باشد</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>افقِ برنامهٔ روزِ بعد و زمانِ بسته‌شدنِ بازار یا اعلام</td>
+<td></td>
+<td>قاعدهٔ بهره‌بردار یا بازار</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>چندکِ پیشنهاد</td>
+<td></td>
+<td>نسبتِ هزینهٔ کم‌تحویلی و بیش‌تحویلی</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ذخیرهٔ لازم از بازهٔ پیش‌بینی</td>
+<td></td>
+<td><span class="ltr" dir="ltr">P50</span> منهای <span class="ltr" dir="ltr">P10</span></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ظرفیتِ باتری برای جذبِ خطا</td>
+<td></td>
+<td>فصلِ ۱۹ و ۲۰</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>قاعدهٔ تسویهٔ عدم‌تعادل</td>
+<td></td>
+<td>قرارداد یا قاعدهٔ بازار</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><strong>نمونهٔ پرشده: ذخیره از بازهٔ پیش‌بینی (فصلِ ۱۵).</strong></p>
+<pre class="text"><code>downward reserve from the forecast interval (P50 - P10), test months:
+  mean 9.9 MW; 95 % of hours below 12.2 MW
+  the S1 battery's 20 MW covers it in 100 % of the hours
+  the forecast's uncertainty becomes a capacity to hold back: a
+  battery, a margin on the schedule, or bought reserve (chapters
+  17-19 and 34); a sharper forecast is cheaper reserve</code></pre>
+<p>مهارتِ پیش‌بینی، توانِ فنی، صلاحیتِ قراردادی و کارکردِ واقعیِ تحویل‌شده چهار چیزِ جدا هستند و هر کدام شاهدِ خود را دارد (<a href="../chapters/15-energy-yield-losses.html#sec-ch15-g" class="quarto-xref"><span>بخش 15.8</span></a>، <a href="../chapters/20-plant-control-ems.html" class="quarto-xref"><span>فصل 20</span></a>).</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">احتیاط</span>مرزِ کارِ تخصصی
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>داده‌های نمونه ساختگی‌اند. قاعده‌های اعلامِ برنامه، تسویهٔ عدم‌تعادل و خدمات را بهره‌بردارِ شبکه یا قراردادِ واقعی تعیین می‌کند. هیچ امتیازِ پیش‌بینی به‌تنهایی شاهدِ ارائهٔ خدمت نیست.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "کپی شد");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "کپی شد");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation" aria-label="Page">
+  <div class="nav-page nav-page-previous">
+      <a href="../appendices/H-water-templates.html" class="pagination-link" aria-label="الگوهای مدیریتِ آب">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">الگوهای مدیریتِ آب</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../appendices/J-grid-service-templates.html" class="pagination-link" aria-label="الگوهای خدماتِ شبکه">
+        <span class="nav-page-text"><span class="chapter-number">J</span>&nbsp; <span class="chapter-title">الگوهای خدماتِ شبکه</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,10 @@
+the hot-spot factor H (ratio of hot-spot gradient to mean gradient):
+  H     hot spot at 1.0 pu, 30 C C   relative ageing
+  1.1                           104.0              1.00
+  1.2                           106.0              1.26
+  1.3                           108.0              1.59
+  1.4                           110.0              2.00
+  the hot spot is a design property: winding layout, oil
+  ducts and leakage flux set H; a higher H means more ageing
+  at the same load - fibre-optic sensors in the windings
+  measure it directly, the heat run confirms the design value

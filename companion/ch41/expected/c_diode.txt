@@ -1,0 +1,9 @@
+bypass diodes conducting 17.5 A (1,250 W/m2), box at 70 C (teaching)
+  diodes on   heat each W   junction C   margin to the rating
+          1           7.9          141        +59 K
+          2           7.9          164        +36 K
+          3           7.9          188        +12 K
+  one diode bypassing all afternoon (a pole's shadow) runs
+  hot for hours a day: the bypass-diode thermal test checks
+  the box design; in the plant, string monitoring finds a
+  module that loses a third (lesson E)

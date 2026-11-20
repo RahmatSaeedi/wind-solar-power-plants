@@ -1,0 +1,11 @@
+corrective orders of the year by failure code
+  OTHER       19
+  FUSE-OPEN   14
+  FAN         11
+  CNV-IGBT     9
+  PIT-BAT      7
+  HVAC-FLT     5
+  GBX-BRG      2
+  'OTHER' is 28% - the largest code: the list lacks the codes
+  people need; a monthly read of the 'OTHER' texts adds codes
+  (teaching rule: revise above 10 %)

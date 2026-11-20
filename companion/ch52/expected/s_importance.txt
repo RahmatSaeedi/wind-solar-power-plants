@@ -1,0 +1,11 @@
+Birnbaum importance in 'some export possible': A(block up) - A(block down)
+  line      0.99989
+  bus132    0.99898
+  PPC       0.00999
+  T1        0.00769
+  T2        0.00769
+  fallback  0.00050
+  the line and the bus carry everything; each transformer and
+  the controller matter only while their partner is down -
+  improve where the importance is, not where failures are
+  most frequent

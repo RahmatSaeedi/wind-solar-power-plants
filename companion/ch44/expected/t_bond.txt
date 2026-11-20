@@ -1,0 +1,11 @@
+protective bonding of ten points against a 0.1 ohm teaching limit
+  test leads 0.08 ohm, probe contact sd 0.015 ohm
+  method                       false fails   false passes
+  two-wire, leads not nulled             9              0
+  two-wire, leads nulled                 1              0
+  four-wire                              0              0
+  unnulled leads fail good bonds and waste repairs; the probe
+  contact still adds to a two-wire reading; four wires measure
+  the bond alone - and the bad bond (0.120) fails in every
+  method: method error shows as false fails here, not as a
+  missed fault, because the error only adds

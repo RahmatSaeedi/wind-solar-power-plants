@@ -1,0 +1,15 @@
+critical-equipment register: two rankings (ch 52 classes)
+  class                            cons.  fail/yr   MWh/yr
+  132 kV line (permanent fault)        5     2.00      284
+  main transformer                     5     0.02      152
+  PPC                                  5     0.10        5
+  wind turbine (major)                 4     0.72    1,942
+  PV inverter                          3     5.00      450
+  33 kV collector cable (per km)       3     0.38      257
+  PV unit transformer                  3     0.20      180
+  wind turbine (minor)                 2    60.00    1,573
+  PV combiner box                      1    10.50       17
+  by energy: wind turbine (major), wind turbine (minor), PV inverter
+  by consequence: 132 kV line (permanent fault), main transformer, PPC
+  the register keeps both: energy decides spares and contracts,
+  consequence decides protection, inspection and emergency plans

@@ -1,0 +1,28 @@
+{
+ "records_read": 428,
+ "records_kept": 427,
+ "out_of_order": 1,
+ "duplicates": 1,
+ "gaps": [
+  [
+   "2023-04-03 14:00",
+   5
+  ]
+ ],
+ "flags": {
+  "ghi: night offset -> 0": 6,
+  "p_air: kPa -> hPa": 6,
+  "t_air: sentinel": 1,
+  "wd100_avg: out of range": 1,
+  "ws60_avg: out of range": 1,
+  "ws80_avg: stuck": 12
+ },
+ "hours": 72,
+ "incomplete_hours": 1,
+ "header": [
+  "# logger PLP-MET-01 (synthetic), Plant P Reference Data Pack 1.1.0",
+  "# interval 10 min; each time stamp marks the END of its interval",
+  "# clock: local standard time UTC+04:00 (offset not written)",
+  "# units: ws m/s; wd deg from north; t_air degC; p_air hPa; ghi W/m2"
+ ]
+}

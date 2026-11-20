@@ -1,0 +1,10 @@
+gear accuracy grade and mesh noise (teaching: each finer grade
+  divides the transmission error by 1.4)
+  grades finer   transmission error um   mesh level dB
+              0                     3.00            +0.0
+              1                     2.14            -2.9
+              2                     1.53            -5.8
+              3                     1.09            -8.8
+  about 3 dB less mesh tone for each finer grade: a tonal
+  noise limit at the village (ch 33) can become a gear
+  grinding requirement; the tone is checked on the bench

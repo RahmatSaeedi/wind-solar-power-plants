@@ -1,0 +1,17 @@
+% Chapter 24 - temperature rise of copper busbars in still air against current: one 100 x 10 mm
+% bar and two in parallel (teaching h = 9 W/(m2 K), skin factor 1.08, rho at 90 C), from the
+% formula of companion/ch24/examples_k.py busbar().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=62mm, xmin=0, xmax=3200, ymin=0, ymax=130,
+      xlabel={جریان $(\text{A})$}, ylabel={افزایشِ دما $(\text{K})$}, xmajorgrids=true,
+      legend columns=2]
+    \addplot[sInk, domain=0:3200, samples=60] {x^2*2.2e-8/0.001*1.08/(9*0.22)};
+    \addplot[sWind, domain=0:3200, samples=60] {x^2*2.2e-8/0.002*1.08/(9*0.44)};
+    \legend{یک تسمه, دو تسمه}
+    \draw[sLimit] (axis cs:2500,0) -- (axis cs:2500,130);
+    \node[note, anchor=south west] at (axis cs:2520,100) {$2{,}500\,\text{A}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

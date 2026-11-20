@@ -1,0 +1,10 @@
+a 1,500 V DC string isolator: contacts in series (teaching):
+  arc voltage per contact gap V   gaps needed   poles x gaps
+                            250             8   4 x 2
+                            300             6   3 x 2
+                            400             5   3 x 2
+  a DC arc does not stop at a zero crossing: the switch must
+  build an arc voltage above the source voltage, so it puts
+  several gaps in series (both poles) and uses magnets or
+  arc chutes; the DC rating at the string's coldest voltage
+  (ch 10) is the one that counts, not an AC rating

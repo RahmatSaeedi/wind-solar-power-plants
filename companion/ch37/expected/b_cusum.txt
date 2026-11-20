@@ -1,0 +1,11 @@
+daily PV residual (actual / model - 1) and a CUSUM on it
+  noise of the residual on ordinary days: 0.008
+  CUSUM (k 0.01, h 0.05) from 1 April: alarm on day 99 (April 10)
+  from 31 May: alarm on day 160; the outage began on day 160
+  a CUSUM adds up small shortfalls until they are too many
+  to be noise: the step is found on its first day, the slow
+  soiling drift after 10 days - weeks before the monthly
+  report shows it
+  the deepest day of all, day 227 (-12.6 %), is in August:
+    the export-limit signal explains it, so it is booked as
+    curtailment, not as a plant fault

@@ -1,0 +1,7 @@
+8 corrective work orders closed in a month
+  without an asset ID: WO-1022, WO-1025
+  without a failure code: WO-1023, WO-1025
+  closed without a test record: WO-1023, WO-1025, WO-1027
+  a work order without its asset feeds no reliability
+  analysis (ch 37, ch 52); one without a test record is a
+  repair nobody proved - the system refuses to close either

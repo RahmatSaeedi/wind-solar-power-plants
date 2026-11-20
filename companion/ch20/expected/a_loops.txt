@@ -1,0 +1,13 @@
+a step of the POC set point (normalised to 1); park tau 2 s:
+  tuning                        rise 10-90 % s  overshoot %  settle 2 % s
+  slow (kp 0.5, ki 0.2)                 11.65          0.0          21.4
+  tuned (kp 1.5, ki 0.8)                 2.70          0.1           4.5
+  aggressive (kp 6, ki 8)                0.45          9.7           2.4
+  tuned, rate 0.1 pu/s                   8.55         82.2          30.0
+  tuned, rate, anti-windup              11.60          0.0          17.4
+  a stronger loop is faster but overshoots and rings; a rate
+  limit turns the response into a ramp, but the integral keeps
+  growing while the command is held back (windup) and the plant
+  overshoots badly; anti-windup stops the integral while a
+  limit holds the command; tuning is checked in simulation and
+  in a step test (section C)

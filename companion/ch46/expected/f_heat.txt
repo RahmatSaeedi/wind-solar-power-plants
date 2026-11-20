@@ -1,0 +1,10 @@
+extra heat of pole L2 of PVF1 (52 against 35 and 36 micro-ohm)
+  excess resistance 16.5 micro-ohm
+  at the plant's full output (368 A): 2.2 W more
+  at the panel's rated current (630 A): 6.5 W more
+  the same excess in an incomer at 1,102 A (63 MVA): 20.0 W more
+  two watts in a feeder will not show on a thermometer for years
+  (the incomer's twenty would sooner); the danger is the cause -
+  a joint that is loose or dirty gets worse with heat and time -
+  so the factory finds it by comparing poles, not by waiting
+  for heat at site

@@ -1,0 +1,31 @@
+% Chapter 8 - a simple magnetic circuit: coil on an iron core with two air gaps (right) and the
+% equivalent reluctance circuit (left).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % ---- core (right) ----
+  \begin{scope}[xshift=6.6cm]
+    \fill[cFill, draw=cInkB, line width=0.6pt, even odd rule]
+      (0,0) rectangle (4.4,3.4) (0.7,0.7) rectangle (3.7,2.7);
+    % air gaps in the right limb
+    \fill[white] (3.7,1.55) rectangle (4.4,1.62);
+    \fill[white] (3.7,1.78) rectangle (4.4,1.85);
+    \node[note, anchor=west] at (4.5,1.7) {دو فاصلهٔ هوایی};
+    % coil on the left limb
+    \foreach \y in {0.95,1.25,...,2.45} {\draw[cLoad, line width=1.0pt] (-0.15,\y) -- (0.85,\y+0.1);}
+    \node[note, text=cInk, anchor=east] at (-0.25,1.7) {$N$ دور، جریانِ $I$};
+    \draw[cWind, line width=0.9pt, ->, dashed] (0.35,0.35) -- (4.05,0.35) -- (4.05,3.05) -- (0.35,3.05) -- (0.35,0.6);
+    \node[note, text=cInk, anchor=north] at (2.2,-0.08) {شارِ $\Phi$};
+  \end{scope}
+  % ---- reluctance circuit (left) ----
+  \begin{scope}[xshift=0cm]
+    \draw (0,0) to[V, l={$NI$}, invert] (0,3);
+    \draw (0,3) to[generic, l={$\mathcal{R}_\text{iron}$}] (3.4,3);
+    \draw (3.4,3) to[generic, l={$\mathcal{R}_\text{air}$}] (3.4,0);
+    \draw (3.4,0) -- (0,0);
+    \draw[cWind, line width=0.8pt, ->] (1.2,3.75) -- (2.2,3.75);
+    \node[note, text=cInk, anchor=south] at (1.7,3.8) {$\Phi$};
+    \node[note, text width=44mm] at (1.7,-0.7) {$NI = \Phi\,(\mathcal{R}_\text{iron} + \mathcal{R}_\text{air})$؛ هوا بزرگ‌تر};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

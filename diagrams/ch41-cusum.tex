@@ -1,0 +1,17 @@
+% Chapter 41 - daily ratio of string 8's current to its peers (deviation in per cent) over 60 days:
+% day-to-day noise, then a 1.34 % drop when one module's bypass diode shorts on day 31; the CUSUM
+% signals the next day (diagrams/data/ch41-cusum.csv from companion/ch41/examples_e.py,
+% e_monitor; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=54mm, xmin=0, xmax=61, ymin=-2.2, ymax=1.0,
+      xlabel={روز}, ylabel={انحرافِ نسبت به همتاها (درصد)}]
+    \addplot[sWind, mark=*, mark size=1.1pt] table[x=day, y=ratio, col sep=comma] {data/ch41-cusum.csv};
+    \draw[densely dotted, cInk!60] (axis cs:30.5,-2.2) -- (axis cs:30.5,1.0);
+    \node[note, anchor=north east] at (axis cs:30,0.95) {خرابیِ دیود};
+    \draw[->, cLoss] (axis cs:32,0.55) -- (axis cs:32,-0.9);
+    \node[note, anchor=south west, text=cLoss] at (axis cs:32,0.55) {علامتِ مجموعِ تجمعی، روزِ ۳۲};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

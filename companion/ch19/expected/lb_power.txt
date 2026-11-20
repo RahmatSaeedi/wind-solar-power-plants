@@ -1,0 +1,7 @@
+step 5, power at the bottom of the window (10 % SOC):
+  DC power for 20 MW at the POC: 21.6 MW
+  state      C-rate   cell A   cell V   rack V
+  new          0.54      169    3.114    1,295
+  year 15      0.77      242    3.007    1,251
+  the cell stays above 2.5 V and the rack above a teaching PCS
+  minimum of 1,050 V even at year 15: power is not the limit

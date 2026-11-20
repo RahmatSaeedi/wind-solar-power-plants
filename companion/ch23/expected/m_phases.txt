@@ -1,0 +1,12 @@
+line and phase voltages of Plant P's levels (star equivalent):
+  level              line kV    phase kV   drawn as
+  LV board               0.40      0.231   one line
+  PV inverter            0.60      0.346   one line
+  turbine, battery       0.69      0.398   one line
+  collector             33.00     19.053   one line
+  export               132.00     76.210   one line
+  a balanced three-phase circuit is drawn as one line: the
+  other two phases are the same shifted by 120 degrees, so
+  P = sqrt 3 U I cos phi holds for the line the drawing shows;
+  the earthing, the neutral and anything unbalanced are drawn
+  explicitly

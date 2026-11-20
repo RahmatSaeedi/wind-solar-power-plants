@@ -1,0 +1,13 @@
+prerequisites before =PVF1-3.MV is energised for the first time
+  [x] mechanical completion certificate
+  [x] B check sheets complete
+  [ ] protection settings applied and read back
+  [x] temporary earths removed and logged
+  [ ] energisation notice issued to all crews
+  [x] area barriers and signs in place
+  [x] no open fire impairment in the area
+  [ ] SCADA alarms of the subsystem tested
+  3 of 8 open: settings not read back, crews not
+  told, alarms not proven - each is a way for the first
+  energisation to surprise someone; none is waived by the
+  test team, only closed

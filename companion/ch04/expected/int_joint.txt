@@ -1,0 +1,11 @@
+bolted joint on a feeder busbar (half the plant current; A-062):
+  joint temperature = room + I^2 R_c / (h A), using the 99th-percentile
+  current of each month; R_c grows by k0 x Arrhenius(T) per year
+  h A = 1.2 W/K, k0 = 0.08/yr at 40 C, Ea = 70 kJ/mol (all assumed)
+  R_c start      rise in month 0   alarm (rise > 10 K)   T > 105 C
+     10 micro-ohm           3.7 K            month 54         never
+     30 micro-ohm          11.2 K             month 0      month 31
+     60 micro-ohm          22.5 K             month 0       month 6
+  a poor joint heats, oxidises and loosens faster, which heats it more:
+  positive feedback. Thermography finds it months before it fails, if the
+  survey happens under load (a 99th-percentile month current of 908 A)

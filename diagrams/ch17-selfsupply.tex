@@ -1,0 +1,17 @@
+% Chapter 17 - mean daily profile of the factory's demand, Plant P's output and the part of the demand
+% the plant covers (self-supply variant, A-284, model 15.1). Data: diagrams/data/ch17-selfsupply.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=0, xmax=23, ymin=0, ymax=70,
+      xlabel={ساعتِ روز}, ylabel={توانِ میانگین، مگاوات}, xtick={0,3,...,21}, ytick={0,10,...,70},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3]
+    \addplot[sLoad] table[x=h, y=factory, col sep=comma] {data/ch17-selfsupply.csv};
+    \addlegendentry{کارخانه}
+    \addplot[sInk] table[x=h, y=plant, col sep=comma] {data/ch17-selfsupply.csv};
+    \addlegendentry{نیروگاه}
+    \addplot[draw=cBESS, fill=cBESS!25, area legend] table[x=h, y=used, col sep=comma] {data/ch17-selfsupply.csv} \closedcycle;
+    \addlegendentry{مصرفِ هم‌زمان}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

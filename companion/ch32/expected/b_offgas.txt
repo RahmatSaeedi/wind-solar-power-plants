@@ -1,0 +1,13 @@
+off-gas dilution in a battery container: the concept (placeholders)
+  free air volume 60 m3; release and limit are PLACEHOLDERS
+  kept below 25 % of a 4 % limit, mixing factor 3
+  release m3/h    fresh air m3/h    air changes per hour
+           0.5               150                       2
+           2.0               600                      10
+           8.0             2,400                      40
+  the steady formula shows why a small release is diluted by a
+  fan and a large one is not - a runaway releases gas far
+  faster than any fan, which is why explosion control is
+  designed from the product's large-scale test gas data, the
+  authority's requirements and a specialist's analysis (ch 19,
+  U-073); it is never sized from this lesson

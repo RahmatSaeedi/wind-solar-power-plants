@@ -1,0 +1,18 @@
+% Chapter 20 - a teaching frequency event (top) and the battery's droop response capped at 20 MW
+% (bottom), first 15 minutes (A-303). Data: diagrams/data/ch20-freq.csv
+% (companion/ch20/examples_k.py freq_event()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=112mm, height=44mm, xmin=0, xmax=900, ymin=49.55, ymax=50.05,
+      ylabel={بسامد (Hz)}, xtick={0,150,...,900}, xticklabels={}, ytick={49.6,49.8,50},
+      /pgf/number format/fixed, /pgf/number format/precision=1]
+    \addplot[sInk] table[x=t, y=f, col sep=comma] {data/ch20-freq.csv};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south)}, anchor=north, yshift=-4mm, width=112mm, height=44mm,
+      xmin=0, xmax=900, ymin=0, ymax=22, xlabel={زمان (s)}, ylabel={توانِ باتری (MW)},
+      xtick={0,150,...,900}, ytick={0,5,...,20}]
+    \addplot[sBESS] table[x=t, y=p, col sep=comma] {data/ch20-freq.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,21 @@
+change C-017: PV unit transformers 5.5 -> 5.6 MVA (ch 25 finding)
+  documents touched, in order of the dependency graph (13):
+     1 equipment list                 4 h
+     2 transformer data sheet         6 h
+     3 one-line diagram               6 h
+     4 skid foundation drawing       16 h
+     5 LV cable schedule              8 h
+     6 protection study              24 h
+     7 losses calculation             6 h
+     8 SCADA point list               4 h
+     9 civil bill of quantities       6 h
+    10 cable pulling plan             4 h
+    11 relay settings file            8 h
+    12 HMI displays                   4 h
+    13 FAT procedure                  6 h
+  rework 102 engineering hours before the first purchase order
+  the change request names the reason, the documents, the
+  hours and the date; each document gets a new revision
+  that cites C-017; after construction the as-built set
+  shows what was built, and the change log closes when the
+  last as-built revision is issued

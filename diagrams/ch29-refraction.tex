@@ -1,0 +1,19 @@
+% Chapter 29 - seismic refraction line SL-1: first-arrival time against distance for the
+% direct wave (450 m/s) and the head wave from the 2,100 m/s layer; the crossover at 34 m gives
+% a refractor depth of 13.7 m (companion/ch29/examples_a.py, a_refraction, A-349).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=100, ymin=0, ymax=120,
+      xlabel={فاصله از منبع $(\text{m})$}, ylabel={زمانِ نخستین رسیدن $(\text{ms})$},
+      xmajorgrids=true, legend pos=north west, legend cell align=right]
+    \addplot[sWind, domain=0:54, samples=2] {1000*x/450};
+    \addplot[sPV, domain=0:100, samples=2] {1000*x/2100 + 59.4};
+    \legend{موجِ مستقیم, موجِ شکست‌یافته}
+    \draw[densely dotted, draw=cInkB] (axis cs:34,0) -- (axis cs:34,75.6);
+    \node[note, anchor=south west] at (axis cs:35,2) {فاصلهٔ تقاطع};
+    \node[note, anchor=west] at (axis cs:60,30) {شیب $=1/v_2$};
+    \node[note, anchor=east] at (axis cs:28,85) {شیب $=1/v_1$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

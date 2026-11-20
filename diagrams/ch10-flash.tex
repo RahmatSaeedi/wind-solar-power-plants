@@ -1,0 +1,17 @@
+% Chapter 10 - factory flash against laboratory re-measurement for a sample of 12 modules
+% (A-198). Data: diagrams/data/ch10-flash.csv (companion/ch10/lab_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=58mm, xmin=-0.5, xmax=11.5, ymin=536, ymax=566,
+      xlabel={شمارهٔ ماژولِ نمونه}, ylabel={توانِ بیشینه، $\text{W}$}, xtick={0,2,...,10},
+      ytick={540,545,...,565}, legend pos=south east]
+    \fill[cPV!10] (axis cs:-0.5,550) rectangle (axis cs:11.5,555);
+    \addplot[only marks, mark=square*, mark size=2pt, color=cInk] table[x=k, y=factory, col sep=comma] {data/ch10-flash.csv};
+    \addlegendentry{فلشِ کارخانه}
+    \addplot[only marks, mark=*, mark size=2pt, color=cLoss] table[x=k, y=lab, col sep=comma] {data/ch10-flash.csv};
+    \addlegendentry{آزمایشگاه}
+    \node[note, anchor=south west] at (axis cs:2.4,555.6) {نوارِ رنگی: ردهٔ برچسب، $550$ تا $555\ \text{W}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

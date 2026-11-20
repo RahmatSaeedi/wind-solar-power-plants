@@ -1,0 +1,12 @@
+return codes and the review cycles they cost
+  disc  code C  submissions  extra weeks
+  ELE     25%         1.33          1.0
+  CIV     15%         1.18          0.5
+  CTL     30%         1.43          1.3
+  MEC     10%         1.11          0.3
+  (code A approved, B approved with comments, C revise and
+  resubmit; a C costs a full cycle)
+  a 30 % rejection rate adds about 1.3 weeks to every CTL
+  drawing on average - and much more to the unlucky ones;
+  first-time-right comes from interface data agreed before
+  drawing (lesson B), not from faster reviewers

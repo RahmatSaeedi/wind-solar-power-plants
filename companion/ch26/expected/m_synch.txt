@@ -1,0 +1,12 @@
+synchrocheck for closing the line breaker (teaching window +/-20 deg)
+  slip Hz   time inside the window s   advance angle for 80 ms deg
+     0.05                       2.22                           1.4
+     0.10                       1.11                           2.9
+     0.20                       0.56                           5.8
+     0.50                       0.22                          14.4
+  slow slip leaves a long window; fast slip a short one, and
+  the breaker's own closing time turns into an angle: the
+  relay issues the close early by that angle so the contacts
+  touch at zero; the windows for voltage, frequency and angle
+  are the operator's, and the synchrocheck is proved in the
+  end-to-end tests

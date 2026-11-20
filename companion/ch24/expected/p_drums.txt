@@ -1,0 +1,12 @@
+drum weight against the joints of a 4.4 km string (630 mm2, 9.2 kg/m):
+  drum m   cable t   gross t   transport   joints per string
+     500       4.6       6.6   ok                          8
+     750       6.9       8.9   ok                          4
+    1100      10.1      12.1   ok                          0
+    1500      13.8      15.8   special                     0
+  (teaching road limit 15 t on the trailer; joints at the
+  turbines' switchgear are terminations, not joints)
+  1,100 m drums put every joint inside a turbine and stay
+  under the road limit; 1,500 m drums need special transport
+  for no fewer joints and leave 400 m off-cuts - the section
+  length decides (lesson B, ch 46)

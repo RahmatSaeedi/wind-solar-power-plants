@@ -1,0 +1,16 @@
+short-circuit level seen from each place, per MW of the units behind it
+  place                       grid    S_sc MVA   MW behind   ratio
+  POC                         max        1498         100    15.0
+  MV-A                        max         364          65     5.6
+  WS1 units (aggregated)      max         177          20     8.8
+  PVF3 units (aggregated)     max         153          15    10.2
+  POC                         min         898         100     9.0
+  MV-A                        min         313          65     4.8
+  WS1 units (aggregated)      min         164          20     8.2
+  PVF3 units (aggregated)     min         143          15     9.5
+  per MW of the units behind it, the 33 kV bus half is the
+  weakest place (5.6, and 4.8 on the weak grid) and the
+  units' terminals see 8-10 against 15 at the POC - the
+  transformers sit in between; a converter's control is
+  tuned for the strength at its terminals, which the plant's
+  study gives the maker (ch 27 weak grid, lesson E)

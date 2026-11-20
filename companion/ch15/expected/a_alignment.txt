@@ -1,0 +1,9 @@
+time alignment: PV read one hour late (interval-end labels taken as
+  interval-start, chapter 5) against the right alignment:
+                             right     PV 1 h late
+  curtailment at MV, MWh        426         411
+  hours both above half        594         583
+  correlation wind-PV       -0.115      -0.126
+  the annual energies do not change, but every hourly product
+  (curtailment, coincidence, storage, dispatch) does: check the
+  labels of every input before the first run

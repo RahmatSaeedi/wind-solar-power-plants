@@ -1,0 +1,18 @@
+% Chapter 32 - response levels of the all-hazards emergency plan: what the site does, where local
+% services take over, and the major level, with examples (companion/ch32/lab_h.py, h_scenarios).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    lv/.style={blk, minimum width=40mm, minimum height=24mm, text width=37mm},
+    ex/.style={note, text width=40mm}]
+  \node[lv, blkBESS] (l1) at (9.0,0) {\textbf{سطحِ ۱: ساختگاه}\\[3pt]توقفِ کار، پناه، مهار، گزارش};
+  \node[lv, blkPV] (l2) at (4.6,0) {\textbf{سطحِ ۲: خدماتِ محلی}\\[3pt]آمبولانس، آتش‌نشانی، مدیریتِ بحرانِ محلی};
+  \node[lv, blkWarn] (l3) at (0.2,0) {\textbf{سطحِ ۳: رویدادِ بزرگ}\\[3pt]فرماندهیِ مشترک، کمکِ متقابل};
+  \draw[flow] (l1) -- (l2);
+  \draw[flow] (l2) -- (l3);
+  \node[ex] at (9.0,-2.0) {طوفانِ گرد و خاک، راهِ بسته، قطعِ ارتباط، نشت، ورودِ غیرمجاز};
+  \node[ex] at (4.6,-2.0) {مصدوم، آسیبِ برقی، فرد معلق در هارنس، سیلِ وادی};
+  \node[ex] at (0.2,-2.0) {آتش در هر بخشِ نیروگاه};
+  \node[note] at (4.6,1.6) {هر سطح مرزِ پاسخِ نخستِ ساختگاه و تحویل به سطحِ بعد را می‌گوید};
+\end{tikzpicture}
+\end{document}

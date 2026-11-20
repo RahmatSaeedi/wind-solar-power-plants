@@ -1,0 +1,11 @@
+incoming ESR check of film capacitors: class limit 1.15 x nominal,
+  parts sd 6%, measurement U 3% (teaching); cost of a rejected part 0.12 k u,
+  of a bad part in the field 5 k u, 480 parts
+  accept when measured <=   false accepts   false rejects   cost k u
+  limit                           1275 ppm        2820 ppm       3.22
+  limit - U                         40 ppm       20115 ppm       1.25
+  cheaper rule: accept at 'limit - U' - the guard band trades
+  rejected good parts for fewer bad parts let in; a bad
+  capacitor in a bank of twelve takes more ripple than its
+  share and ages first (lesson B); with a cheap part and a
+  costly field repair the guard band pays (ch 43)

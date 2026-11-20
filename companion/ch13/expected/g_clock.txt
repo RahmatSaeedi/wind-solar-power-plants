@@ -1,0 +1,8 @@
+logger clock check against the lidar (ten-minute records):
+  lag (records)  -1   +0   +1   +2   +3   +4   +5
+  r after fault  .962 .970 .978 .988 .999 .988 .978
+  best lag before day 200: +0; after: +3 records (+30 min)
+  the correlation peaks where the clocks agree: the mast is
+  30 minutes late from the fault on; the logbook shows a
+  battery change that reset the clock (action: resync, shift
+  the records, note it in the metadata)

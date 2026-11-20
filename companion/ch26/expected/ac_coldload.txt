@@ -1,0 +1,13 @@
+re-energising feeder =WS1 with four unit transformers (teaching)
+  inrush of four units with diversity 0.6, taken as an rms-like
+  current decaying with time constant tau; feeder SI 480 A, TMS 0.10
+  start A   tau s   feeder relay
+     1996     0.2   no trip (29% of the way)
+     1996     0.5   no trip (73% of the way)
+     1996     1.0   TRIPS after 0.62 s
+  an inverse-time relay adds up its progress as the current
+  falls: a short inrush passes, a slow one trips the feeder
+  it has just closed; the cures are second-harmonic blocking
+  on the feeder's overcurrent, a cold-load settings group
+  for the first seconds, or energising the units one by one
+  (their own breakers) - chosen in the energising study

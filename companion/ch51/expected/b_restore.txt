@@ -1,0 +1,12 @@
+restoration of export after a blackout (minutes from grid back)
+  grid back at the POC                          0
+  auxiliaries restarted (ch 50 restart)        23
+  33 kV bus energised, protection checked      38
+  wind feeders WS1-3 one by one                58
+  PV feeders PVF1-3                            73
+  battery feeder and controller back           83
+  export released in steps to the cap         113
+  113 minutes to full export; each step under its own
+  authority (ch 50 energisation order) and the grid operator's
+  instruction for the export steps - the procedure OP-05 is
+  the one past its review (lesson C)

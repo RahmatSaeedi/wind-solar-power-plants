@@ -1,0 +1,6 @@
+E01 risk 3 x 5: 15 (very high)
+E02 10 letters and digits: 59.5 bits
+E03 1e5 events/day of 400 B for 365 d: 14.6 GB
+E04 patch tested 10 d, window 60 d: mean 40, worst 70 days
+E05 restore 0.5 + 1 + 1 + 2 h: 4.5 h
+E06 two parts 0.999 and 0.9995 in series: 0.998501

@@ -1,0 +1,20 @@
+% Chapter 3 — tornado chart: change of Plant P exported energy when one input at a time moves
+% to its low or high value (teaching ranges). Data: diagrams/data/ch03-tornado.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=66mm,
+      xbar, bar width=6mm, bar shift=0pt, xmin=-12, xmax=12, ymin=-0.6, ymax=4.6,
+      xlabel={تغییرِ انرژیِ صادراتی (GWh در سال)},
+      ytick={0,1,2,3,4}, yticklabels={{تندیِ باد، $\pm 3$ درصد},{تلفاتِ بادی ۱۵ / ۹ درصد},
+        {ضریبِ عملکرد، $\pm 5$ درصد},{تابش، $\pm 4$ درصد},{بازدهِ اینورتر ۹۷ / ۹۹ درصد}},
+      y dir=reverse, yticklabel style={font=\footnotesize, text=cInk},
+      ymajorgrids=false, xmajorgrids=true, xtick={-12,-8,...,12}]
+    \addplot[draw=cLoss, fill=cLoss!35] table[x=low, y=rank, col sep=comma] {data/ch03-tornado.csv};
+    \addlegendentry{مقدارِ پایین}
+    \addplot[draw=cWind, fill=cWind!35] table[x=high, y=rank, col sep=comma] {data/ch03-tornado.csv};
+    \addlegendentry{مقدارِ بالا}
+    \draw[cInk, line width=0.8pt] (axis cs:0,-0.6) -- (axis cs:0,4.6);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

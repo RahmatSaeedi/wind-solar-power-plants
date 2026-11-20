@@ -1,0 +1,12 @@
+two bids for one 63 MVA transformer, losses capitalised:
+  mean load 0.29 pu, loss load factor (mean k^2) 0.128
+  A = 6.84 k u per kW of no-load loss, B = 0.88 k u per kW of load loss
+  bid                 price   P0 kW  Pk kW   losses PV   total k u
+  bid A (low loss)    1,950     28    215         380       2,330
+  bid B (low price)   1,700     42    290         542       2,242
+  at 70 u/MWh the cheaper bid wins; bid A wins above about 108 u/MWh
+  the no-load loss runs all year, so A is large; the load
+  loss is weighted by the mean square load, which a plant
+  at a 35 % capacity factor keeps small; the evaluation
+  formula and the price are stated in the enquiry so every
+  bidder optimises the same thing

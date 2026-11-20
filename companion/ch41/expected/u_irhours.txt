@@ -1,0 +1,8 @@
+hours with GHI >= 600 W/m2 (data pack 1.1.0), for an infrared survey
+  month    1    2    3    4    5    6    7    8    9   10   11   12
+  hours    0   48  141  165  203  240  246  164  140   99   12    0
+  a survey of 60 MWp at 2 MWp a drone hour needs 30 h;
+  month 7 offers 246 such hours, month 1 only 0
+  a hot cell shows only under strong, steady sun: the survey
+  is planned for the season and the time of day the data
+  allow, and the threshold is the method's (teaching here)

@@ -1,0 +1,5 @@
+repeat failures found by asset and failure code
+  =WT03-PIT PIT-BAT: WO-0460, WO-0461
+  the query works only on orders with an asset and a code:
+  WO-0418 (no code) may be a third pitch-battery failure on
+  WT03 - it cannot be counted, and lesson C's RCA misses it

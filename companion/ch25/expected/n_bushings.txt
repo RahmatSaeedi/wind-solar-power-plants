@@ -1,0 +1,10 @@
+bushings: site readings against the factory's (teaching limits:
+  capacitance change 3 %, dissipation factor change 30 %)
+  bushing  C factory  C site  change  tan d factory  site    result
+  HV A          450     452    0.4%         0.0035  0.0036  ok
+  HV B          448     470    4.9%         0.0034  0.0049  investigate
+  HV C          451     453    0.4%         0.0036  0.0037  ok
+  a capacitance step means a layer of the bushing's insulation
+  has broken down; a rising dissipation factor means moisture
+  or ageing - both against the bushing's own factory values,
+  which is why the factory report travels with the bushing

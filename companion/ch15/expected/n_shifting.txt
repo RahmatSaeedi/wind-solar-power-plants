@@ -1,0 +1,8 @@
+battery of scenario S1 used for price shifting (teaching prices
+  35 u/MWh 10-15 h, 75 u/MWh 18-22 h, 50 otherwise, A-273):
+  S0 net   295.14 GWh   value   14,042 k u
+  S1 net   293.50 GWh   value   14,417 k u
+  energy -1,646 MWh, value +375 k u; discharged 10,817 MWh (338 usable cycles)
+  the battery makes the plant sell less energy for more money:
+  a yield statement for S1 shows the round-trip loss as a loss,
+  and the value belongs to the price model (chapters 17-21)

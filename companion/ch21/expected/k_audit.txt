@@ -1,0 +1,11 @@
+three planted errors and the model checks (teaching):
+  1 tax added to CFADS: identity check FAIL
+    -> caught (the wrong model would show min DSCR 1.23)
+  2 replacement in year 18, not 15: all checks PASS
+    -> NOT caught; DSCR of year 15 1.22 instead of 1.25
+  3 costs left in year-1 money: checks pass -> NOT caught;
+    equity IRR 10.94 % instead of 10.22 %
+  checks catch broken identities, not wrong inputs: a
+  misplaced year or a mixed convention passes every check;
+  only the register (source of each input), a second person
+  and a reasonableness review catch those

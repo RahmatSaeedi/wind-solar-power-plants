@@ -1,0 +1,17 @@
+% Chapter 12 - monthly gain of a single-axis tracker over fixed 25 deg tables against the month's beam
+% share. Data: diagrams/data/ch12-tracker.csv (companion/ch12/examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=104mm, height=64mm, xmin=0.45, xmax=0.85, ymin=-15, ymax=60,
+      xlabel={سهمِ پرتوِ مستقیم در ماه}, ylabel={سودِ ماهانهٔ ردیاب، درصد},
+      xtick={0.5,0.6,0.7,0.8}, xticklabels={$0.5$,$0.6$,$0.7$,$0.8$}, ytick={-10,0,...,50}]
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cPV,
+      nodes near coords, point meta=explicit symbolic,
+      every node near coord/.append style={font=\scriptsize, text=cInkB, anchor=south west}]
+      table[x=beam, y=gain, meta=month, col sep=comma] {data/ch12-tracker.csv};
+    \draw[cRule] (axis cs:0.45,0) -- (axis cs:0.85,0);
+    \node[note, anchor=west] at (axis cs:0.46,52) {عدد کنارِ هر نقطه: شمارهٔ ماه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

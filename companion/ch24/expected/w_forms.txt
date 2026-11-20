@@ -1,0 +1,13 @@
+forms of internal separation of an LV board (concept):
+  form 1: no separation inside
+    maintenance: whole board dead for any work
+  form 2: busbars separated from units
+    maintenance: busbars dead for unit work
+  form 3: + units separated from each other
+    maintenance: one unit dead, others live
+  form 4: + terminals separated per unit
+    maintenance: cables worked on per unit
+  the station-service board feeds the essential loads; a form
+  that lets one feeder be worked on with the others running
+  saves outages - whether work near live parts is allowed at
+  all is the owner's safety rule, not the board's form

@@ -1,0 +1,7 @@
+33 kV cable (A-032, A-052): X = 0.11 ohm/km -> L = X / omega = 0.350 mH/km
+  C = 0.218 microfarad/km -> X_C = 1/(omega C) = 14,601 ohm km
+  charging current per phase U0 omega C = 1.305 A/km
+  reactive generation 3 U0 I_c = 74.6 kvar/km
+  4 feeders x 6 km = 24 km: 31.3 A charging, 1.79 Mvar even at no load
+  energy stored per km, sum of 1/2 C v^2 over the three phases:
+    1.5 C U0^2 = 119 J, constant (the phases never peak together)

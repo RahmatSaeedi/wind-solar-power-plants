@@ -1,0 +1,10 @@
+running configuration against the baseline (synthetic)
+  device   baseline       running        result
+  SW-R01   eb93aa079858   eb93aa079858   same
+  SW-R02   eb93aa079858   b0f6fa39e0df   DIFFERENT
+  FW-1     3eb7f842f7f5   3eb7f842f7f5   same
+  PPC-A    7e628310c42a   2ad9968be01c   DIFFERENT
+  2 devices differ from their baseline: a switch on older
+  firmware and a controller with a settings revision that
+  no change record explains - each is an incident until a
+  record is found or the baseline restored

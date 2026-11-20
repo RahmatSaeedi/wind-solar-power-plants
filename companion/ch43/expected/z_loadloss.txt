@@ -1,0 +1,7 @@
+load loss of T1 at half and full current (at 75 C, report values)
+  half current 72.1 kW; full current 298.0 kW: ratio 4.13
+  pure I^2 losses would give exactly 4.00; the small excess
+  is stray loss in steel parts, which grows faster than I^2
+  where the leakage field saturates them locally - a ratio well
+  above 4 would point at a tank or clamp hot spot to look for
+  in the heat run's thermography

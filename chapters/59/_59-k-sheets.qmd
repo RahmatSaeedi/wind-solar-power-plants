@@ -1,0 +1,493 @@
+## ذ. برگه‌های پرونده {#sec-ch59-k}
+
+هر بندِ پرونده یک برگه دارد. برگه‌ها را برنامهٔ [sheets]{.ltr} از بخشِ «تحویل‌دادنیِ نیروگاهِ P» فصل‌ها می‌سازد: تصمیم‌ها با عنوانِ کوتاهشان، سندها و ناشناخته‌ها. هر فصلی که سندی بیفزاید یا ناشناخته‌ای ببندد، با اجرای دوبارهٔ برنامه در برگه دیده می‌شود. وضعیتِ هر بند از شمارِ ناشناخته‌های بازش می‌آید.
+
+### بندِ ۱: پایهٔ همهٔ پرونده {#sec-ch59-k-1}
+
+پایهٔ همهٔ پرونده: بستهٔ داده با شمارهٔ انتشار، دفترِ الزام‌ها، دفترِ فرض‌ها و دفترِ تغییرها. فصل‌ها: ۱، ۲، ۳، ۴، ۵، ۱۷، ۳۸.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-001]{.ltr} | خطِ مبنای نیروگاهِ [P]{.ltr} | ۱ |
+| [D-004]{.ltr} | مدل‌های پروژه | ۱ |
+| [D-005]{.ltr} | قراردادهای برگهٔ محاسبه | ۲ |
+| [D-006]{.ltr} | بازنگریِ برگهٔ محاسبه | ۲ |
+| [D-007]{.ltr} | وارسیِ مدل‌های ریاضی | ۳ |
+| [D-008]{.ltr} | پایهٔ محاسبه‌های انرژی | ۴ |
+| [D-009]{.ltr} | استفاده از بستهٔ داده | ۵ |
+| [D-021]{.ltr} | خطِ مبنای الزام‌ها | ۱۷ |
+| [D-042]{.ltr} | طراحیِ تفصیلی و اطلاعات | ۳۸ |
+
+: تصمیم‌های بندِ ۱ {#tbl-ch59-k-1}
+
+**سندها (۲۷):** [PLP-ELE-CAL-0001]{.ltr}، [PLP-ELE-LST-0003]{.ltr}، [PLP-ELE-SPC-0008]{.ltr}، [PLP-GEN-CAL-0001]{.ltr}، [PLP-GEN-CAL-0002]{.ltr}، [PLP-GEN-LST-0001]{.ltr}، [PLP-GEN-REG-0001]{.ltr}، [PLP-GEN-REG-0002]{.ltr}، [PLP-GEN-REP-0001]{.ltr}، [PLP-GEN-REP-0002]{.ltr}، [PLP-GEN-REP-0003]{.ltr}، [PLP-GEN-SPC-0001]{.ltr}، [PLP-GEN-SPC-0002]{.ltr}، [PLP-GEN-SPC-0004]{.ltr}، [PLP-MEC-DWG-0001]{.ltr}، [PLP-PRJ-PRO-0006]{.ltr}، [PLP-PRJ-REG-0001]{.ltr}، [PLP-PRJ-REG-0002]{.ltr}، [PLP-PRJ-REG-0003]{.ltr}، [PLP-PRJ-REG-0004]{.ltr}، [PLP-PRJ-REG-0005]{.ltr}، [PLP-PRJ-REG-0007]{.ltr}، [PLP-PRJ-REG-0008]{.ltr}، [PLP-PRJ-REG-0019]{.ltr}، [PLP-PRJ-REG-0020]{.ltr}، [PLP-PRJ-REG-0021]{.ltr}، [PLP-PRJ-REP-0001]{.ltr}
+
+**ناشناخته‌های نام‌برده (۲۲):** [U-001]{.ltr}، [U-002]{.ltr}، [U-003]{.ltr}، [U-004]{.ltr}، [U-005]{.ltr}، [U-013]{.ltr}، [U-014]{.ltr}، [U-015]{.ltr}، [U-016]{.ltr}، [U-017]{.ltr}، [U-018]{.ltr}، [U-019]{.ltr}، [U-020]{.ltr}، [U-021]{.ltr}، [U-022]{.ltr}، [U-023]{.ltr}، [U-065]{.ltr}، [U-066]{.ltr}، [U-067]{.ltr}، [U-068]{.ltr}، [U-115]{.ltr}، [U-119]{.ltr}
+
+**وضعیت:** با شرط‌های زیاد: ناشناخته‌ها پیش از دروازهٔ بعد اولویت‌بندی می‌شوند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۲، فصلِ ۳، فصلِ ۴، فصلِ ۵، فصلِ ۱۷، فصلِ ۳۸.
+
+```{.text include="companion/ch02/expected/int_statement.txt"}
+```
+
+```{.text include="companion/ch03/expected/int_energy.txt"}
+```
+
+```{.text include="companion/ch04/expected/int_wind.txt"}
+```
+
+```{.text include="companion/ch05/expected/e_register.txt"}
+```
+
+```{.text include="companion/ch17/expected/i_baseline.txt"}
+```
+
+```{.text include="companion/ch17/expected/d_register.txt"}
+```
+
+```{.text include="companion/ch38/expected/int_basis.txt"}
+```
+
+### بندِ ۲: برنامهٔ اندازه‌گیریِ منبع و کیفیتِ داده {#sec-ch59-k-2}
+
+برنامهٔ اندازه‌گیریِ منبع و کیفیتِ داده: ایستگاه‌ها، دکل و لیدار، آزمون‌های کیفیت و همبستگیِ بلندمدت. فصل‌ها: ۱۲، ۱۳.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-016]{.ltr} | مبنای منبعِ خورشیدی | ۱۲ |
+| [D-017]{.ltr} | مبنای منبعِ باد | ۱۳ |
+
+: تصمیم‌های بندِ ۲ {#tbl-ch59-k-2}
+
+**سندها (۶):** [PLP-GEN-CAL-0004]{.ltr}، [PLP-GEN-CAL-0005]{.ltr}، [PLP-GEN-PRO-0001]{.ltr}، [PLP-GEN-PRO-0002]{.ltr}، [PLP-GEN-REP-0004]{.ltr}، [PLP-GEN-REP-0005]{.ltr}
+
+**ناشناخته‌های نام‌برده (۸):** [U-039]{.ltr}، [U-043]{.ltr}، [U-044]{.ltr}، [U-045]{.ltr}، [U-046]{.ltr}، [U-047]{.ltr}، [U-048]{.ltr}، [U-049]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۱۲، فصلِ ۱۳.
+
+```{.text include="companion/ch12/expected/i_plan.txt"}
+```
+
+```{.text include="companion/ch13/expected/i_longterm.txt"}
+```
+
+### بندِ ۳: قیدهای ساختگاه {#sec-ch59-k-3}
+
+قیدهای ساختگاه، پیمایش‌ها، چیدمانِ مقدماتی، ترازِ آب و برنامهٔ نگهداشتِ آن. فصل‌ها: ۱۴، ۲۹.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-018]{.ltr} | چیدمانِ مقدماتی | ۱۴ |
+| [D-033]{.ltr} | عمران و آب | ۲۹ |
+
+: تصمیم‌های بندِ ۳ {#tbl-ch59-k-3}
+
+**سندها (۱۲):** [PLP-CIV-CAL-0001]{.ltr}، [PLP-CIV-DWG-0001]{.ltr}، [PLP-CIV-PRO-0001]{.ltr}، [PLP-CIV-REG-0001]{.ltr}، [PLP-CIV-REP-0001]{.ltr}، [PLP-CIV-REP-0002]{.ltr}، [PLP-CIV-SPC-0001]{.ltr}، [PLP-ELE-DWG-0003]{.ltr}، [PLP-GEN-REG-0003]{.ltr}، [PLP-GEN-REG-0006]{.ltr}، [PLP-GEN-REP-0006]{.ltr}، [PLP-PRJ-REG-0006]{.ltr}
+
+**ناشناخته‌های نام‌برده (۱۱):** [U-049]{.ltr}، [U-050]{.ltr}، [U-051]{.ltr}، [U-052]{.ltr}، [U-053]{.ltr}، [U-054]{.ltr}، [U-055]{.ltr}، [U-104]{.ltr}، [U-105]{.ltr}، [U-106]{.ltr}، [U-107]{.ltr}
+
+**وضعیت:** با شرط‌های زیاد: ناشناخته‌ها پیش از دروازهٔ بعد اولویت‌بندی می‌شوند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۱۴، فصلِ ۲۹.
+
+```{.text include="companion/ch14/expected/i_register.txt"}
+```
+
+```{.text include="companion/ch29/expected/int_basis.txt"}
+```
+
+### بندِ ۴: مدلِ تولید با تلف‌ها {#sec-ch59-k-4}
+
+مدلِ تولید با تلف‌ها، و بیانیهٔ عدمِ قطعیت با [P50]{.ltr} و [P90]{.ltr}. فصل‌ها: ۱۵، ۱۶.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-019]{.ltr} | مبنای انرژی | ۱۵ |
+| [D-020]{.ltr} | مبنای عدمِ قطعیت | ۱۶ |
+
+: تصمیم‌های بندِ ۴ {#tbl-ch59-k-4}
+
+**سندها (۵):** [PLP-GEN-CAL-0006]{.ltr}، [PLP-GEN-CAL-0007]{.ltr}، [PLP-GEN-REP-0007]{.ltr}، [PLP-GEN-REP-0008]{.ltr}، [PLP-GEN-REP-0009]{.ltr}
+
+**ناشناخته‌های نام‌برده (۹):** [U-056]{.ltr}، [U-057]{.ltr}، [U-058]{.ltr}، [U-059]{.ltr}، [U-060]{.ltr}، [U-061]{.ltr}، [U-062]{.ltr}، [U-063]{.ltr}، [U-064]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۱۵، فصلِ ۱۶.
+
+```{.text include="companion/ch15/expected/i_statement.txt"}
+```
+
+```{.text include="companion/ch16/expected/i_memo.txt"}
+```
+
+### بندِ ۵: منطقِ معماری و انتخابِ تجهیز {#sec-ch59-k-5}
+
+منطقِ معماری و انتخابِ تجهیز: فتوولتائیک، توربین، اینورتر و باتری. فصل‌ها: ۸، ۹، ۱۰، ۱۱، ۱۸، ۱۹.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-011]{.ltr} | پیشرانهٔ گیربکس‌دار با مبدّلِ کامل | ۸ |
+| [D-012]{.ltr} | ولتاژِ [AC]{.ltr} اینورترها | ۹ |
+| [D-013]{.ltr} | چیدمانِ آرایه | ۱۰ |
+| [D-014]{.ltr} | مبنای شستشو | ۱۰ |
+| [D-015]{.ltr} | مبنای انرژیِ باد | ۱۱ |
+| [D-022]{.ltr} | مبنای معماری | ۱۸ |
+| [D-023]{.ltr} | مبنای باتری | ۱۹ |
+
+: تصمیم‌های بندِ ۵ {#tbl-ch59-k-5}
+
+**سندها (۲۷):** [PLP-ELE-CAL-0004]{.ltr}، [PLP-ELE-CAL-0005]{.ltr}، [PLP-ELE-CAL-0006]{.ltr}، [PLP-ELE-CAL-0007]{.ltr}، [PLP-ELE-DWG-0001]{.ltr}، [PLP-ELE-DWG-0002]{.ltr}، [PLP-ELE-DWG-0004]{.ltr}، [PLP-ELE-LST-0002]{.ltr}، [PLP-ELE-PRO-0001]{.ltr}، [PLP-ELE-PRO-0002]{.ltr}، [PLP-ELE-REP-0002]{.ltr}، [PLP-ELE-REP-0003]{.ltr}، [PLP-ELE-REP-0004]{.ltr}، [PLP-ELE-REP-0005]{.ltr}، [PLP-ELE-REP-0006]{.ltr}، [PLP-ELE-SPC-0001]{.ltr}، [PLP-ELE-SPC-0002]{.ltr}، [PLP-ELE-SPC-0003]{.ltr}، [PLP-ELE-SPC-0004]{.ltr}، [PLP-GEN-CAL-0003]{.ltr}، [PLP-GEN-REG-0004]{.ltr}، [PLP-GEN-REG-0005]{.ltr}، [PLP-MEC-LST-0001]{.ltr}، [PLP-MEC-PRO-0001]{.ltr}، [PLP-MEC-REP-0001]{.ltr}، [PLP-MEC-REP-0002]{.ltr}، [PLP-MEC-SPC-0001]{.ltr}
+
+**ناشناخته‌های نام‌برده (۲۹):** [U-013]{.ltr}، [U-016]{.ltr}، [U-027]{.ltr}، [U-028]{.ltr}، [U-029]{.ltr}، [U-030]{.ltr}، [U-031]{.ltr}، [U-032]{.ltr}، [U-033]{.ltr}، [U-034]{.ltr}، [U-035]{.ltr}، [U-036]{.ltr}، [U-037]{.ltr}، [U-038]{.ltr}، [U-039]{.ltr}، [U-040]{.ltr}، [U-041]{.ltr}، [U-042]{.ltr}، [U-065]{.ltr}، [U-067]{.ltr}، [U-068]{.ltr}، [U-069]{.ltr}، [U-070]{.ltr}، [U-071]{.ltr}، [U-072]{.ltr}، [U-073]{.ltr}، [U-074]{.ltr}، [U-075]{.ltr}، [U-076]{.ltr}
+
+**وضعیت:** با شرط‌های زیاد: ناشناخته‌ها پیش از دروازهٔ بعد اولویت‌بندی می‌شوند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۸، فصلِ ۹، فصلِ ۱۰، فصلِ ۱۱، فصلِ ۱۸، فصلِ ۱۹.
+
+```{.text include="companion/ch08/expected/i_spec.txt"}
+```
+
+```{.text include="companion/ch09/expected/i_budget.txt"}
+```
+
+```{.text include="companion/ch10/expected/i_accept.txt"}
+```
+
+```{.text include="companion/ch11/expected/i_farm.txt"}
+```
+
+```{.text include="companion/ch18/expected/i_basis.txt"}
+```
+
+```{.text include="companion/ch19/expected/i_basis.txt"}
+```
+
+### بندِ ۶: نمودارهای تک‌خطیِ اصلی و برقِ داخلی {#sec-ch59-k-6}
+
+نمودارهای تک‌خطیِ اصلی و برقِ داخلی، فهرست‌های بار و جدول‌های تجهیز. فصل‌ها: ۶، ۷، ۲۳، ۲۴، ۲۵، ۲۶، ۲۷.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-002]{.ltr} | پایهٔ مدار و ایمنیِ [DC]{.ltr} | ۶ |
+| [D-003]{.ltr} | شرط‌های کارِ آزمایشگاهیِ فصلِ ۶ | ۶ |
+| [D-010]{.ltr} | قراردادِ علامت‌ها | ۷ |
+| [D-027]{.ltr} | نمودارِ تک‌خطی و برقِ داخلی | ۲۳ |
+| [D-028]{.ltr} | مبنای مدارها | ۲۴ |
+| [D-029]{.ltr} | ترانسفورماتورها و پست | ۲۵ |
+| [D-030]{.ltr} | حفاظت، زمین و صاعقه | ۲۶ |
+| [D-031]{.ltr} | کیفیتِ برق و خدمات | ۲۷ |
+
+: تصمیم‌های بندِ ۶ {#tbl-ch59-k-6}
+
+**سندها (۳۲):** [PLP-CTL-REP-0001]{.ltr}، [PLP-ELE-CAL-0002]{.ltr}، [PLP-ELE-CAL-0003]{.ltr}، [PLP-ELE-CAL-0008]{.ltr}، [PLP-ELE-CAL-0009]{.ltr}، [PLP-ELE-CAL-0010]{.ltr}، [PLP-ELE-CAL-0011]{.ltr}، [PLP-ELE-CAL-0013]{.ltr}، [PLP-ELE-DWG-0005]{.ltr}، [PLP-ELE-DWG-0006]{.ltr}، [PLP-ELE-DWG-0007]{.ltr}، [PLP-ELE-DWG-0008]{.ltr}، [PLP-ELE-LST-0001]{.ltr}، [PLP-ELE-LST-0004]{.ltr}، [PLP-ELE-LST-0005]{.ltr}، [PLP-ELE-LST-0006]{.ltr}، [PLP-ELE-LST-0007]{.ltr}، [PLP-ELE-LST-0008]{.ltr}، [PLP-ELE-PRO-0003]{.ltr}، [PLP-ELE-PRO-0004]{.ltr}، [PLP-ELE-PRO-0005]{.ltr}، [PLP-ELE-REG-0001]{.ltr}، [PLP-ELE-REG-0002]{.ltr}، [PLP-ELE-REG-0003]{.ltr}، [PLP-ELE-REP-0001]{.ltr}، [PLP-ELE-REP-0007]{.ltr}، [PLP-ELE-REP-0008]{.ltr}، [PLP-ELE-REP-0009]{.ltr}، [PLP-ELE-REP-0010]{.ltr}، [PLP-ELE-SPC-0005]{.ltr}، [PLP-ELE-SPC-0006]{.ltr}، [PLP-ELE-SPC-0007]{.ltr}
+
+**ناشناخته‌های نام‌برده (۱۸):** [U-006]{.ltr}، [U-012]{.ltr}، [U-024]{.ltr}، [U-025]{.ltr}، [U-026]{.ltr}، [U-089]{.ltr}، [U-090]{.ltr}، [U-091]{.ltr}، [U-092]{.ltr}، [U-093]{.ltr}، [U-094]{.ltr}، [U-095]{.ltr}، [U-096]{.ltr}، [U-097]{.ltr}، [U-098]{.ltr}، [U-099]{.ltr}، [U-100]{.ltr}، [U-101]{.ltr}
+
+**وضعیت:** با شرط‌های زیاد: ناشناخته‌ها پیش از دروازهٔ بعد اولویت‌بندی می‌شوند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۷، فصلِ ۲۳، فصلِ ۲۴، فصلِ ۲۵، فصلِ ۲۶، فصلِ ۲۷.
+
+```{.text include="companion/ch07/expected/i_poc.txt"}
+```
+
+```{.text include="companion/ch23/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch24/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch25/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch26/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch27/expected/int_basis.txt"}
+```
+
+### بندِ ۷: پایهٔ عمران {#sec-ch59-k-7}
+
+پایهٔ عمران، مکانیک، محیطِ زیست، حفاظت‌های اجتماعی، رفاهِ کارگران، سلامت و ایمنیِ جامعه، امنیتِ فیزیکی و اضطرار. فصل‌ها: ۲۹، ۳۰، ۳۱، ۳۲، ۳۳.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-033]{.ltr} | عمران و آب | ۲۹ |
+| [D-034]{.ltr} | سازه‌ها | ۳۰ |
+| [D-035]{.ltr} | حمل | ۳۱ |
+| [D-036]{.ltr} | ایمنی، آتش و اضطرار | ۳۲ |
+| [D-037]{.ltr} | محیطِ زیست و جامعه | ۳۳ |
+
+: تصمیم‌های بندِ ۷ {#tbl-ch59-k-7}
+
+**سندها (۲۹):** [PLP-CIV-CAL-0001]{.ltr}، [PLP-CIV-CAL-0002]{.ltr}، [PLP-CIV-PRO-0001]{.ltr}، [PLP-CIV-PRO-0002]{.ltr}، [PLP-CIV-REG-0001]{.ltr}، [PLP-CIV-REG-0002]{.ltr}، [PLP-CIV-REP-0001]{.ltr}، [PLP-CIV-REP-0002]{.ltr}، [PLP-CIV-REP-0003]{.ltr}، [PLP-CIV-REP-0004]{.ltr}، [PLP-CIV-SPC-0001]{.ltr}، [PLP-CTL-REG-0003]{.ltr}، [PLP-GEN-PRO-0003]{.ltr}، [PLP-GEN-PRO-0004]{.ltr}، [PLP-GEN-REG-0006]{.ltr}، [PLP-GEN-REG-0007]{.ltr}، [PLP-GEN-REP-0010]{.ltr}، [PLP-GEN-REP-0011]{.ltr}، [PLP-GEN-REP-0012]{.ltr}، [PLP-PRJ-PRO-0001]{.ltr}، [PLP-PRJ-PRO-0002]{.ltr}، [PLP-PRJ-PRO-0003]{.ltr}، [PLP-PRJ-PRO-0004]{.ltr}، [PLP-PRJ-PRO-0005]{.ltr}، [PLP-PRJ-REG-0014]{.ltr}، [PLP-PRJ-REG-0015]{.ltr}، [PLP-PRJ-REG-0016]{.ltr}، [PLP-PRJ-REG-0017]{.ltr}، [PLP-PRJ-REG-0018]{.ltr}
+
+**ناشناخته‌های نام‌برده (۱۱):** [U-104]{.ltr}، [U-105]{.ltr}، [U-106]{.ltr}، [U-107]{.ltr}، [U-108]{.ltr}، [U-109]{.ltr}، [U-110]{.ltr}، [U-111]{.ltr}، [U-112]{.ltr}، [U-113]{.ltr}، [U-114]{.ltr}
+
+**وضعیت:** با شرط‌های زیاد: ناشناخته‌ها پیش از دروازهٔ بعد اولویت‌بندی می‌شوند.
+
+**مبنای فصل‌هایی که در بندِ پیشین آمد:** فصلِ ۲۹ (بندِ ۳).
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۳۰، فصلِ ۳۱، فصلِ ۳۲، فصلِ ۳۳.
+
+```{.text include="companion/ch30/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch31/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch32/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch33/expected/int_basis.txt"}
+```
+
+### بندِ ۸: برنامهٔ مطالعهٔ شبکه {#sec-ch59-k-8}
+
+برنامهٔ مطالعهٔ شبکه، مرزِ جمع‌آوری و صادرات، پایهٔ پیش‌بینی و اعزام، و دفترِ انطباقِ خدماتِ شبکه. فصل‌ها: ۱۷، ۲۰، ۲۸.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-021]{.ltr} | خطِ مبنای الزام‌ها | ۱۷ |
+| [D-024]{.ltr} | مبنای کنترل | ۲۰ |
+| [D-032]{.ltr} | مبنای مطالعهٔ شبکه | ۲۸ |
+
+: تصمیم‌های بندِ ۸ {#tbl-ch59-k-8}
+
+**سندها (۱۲):** [PLP-CTL-CAL-0001]{.ltr}، [PLP-CTL-PRO-0001]{.ltr}، [PLP-CTL-REG-0001]{.ltr}، [PLP-CTL-REG-0002]{.ltr}، [PLP-CTL-SPC-0001]{.ltr}، [PLP-ELE-CAL-0014]{.ltr}، [PLP-ELE-LST-0003]{.ltr}، [PLP-ELE-REG-0004]{.ltr}، [PLP-ELE-REG-0005]{.ltr}، [PLP-ELE-REP-0011]{.ltr}، [PLP-PRJ-REG-0007]{.ltr}، [PLP-PRJ-REG-0008]{.ltr}
+
+**ناشناخته‌های نام‌برده (۱۰):** [U-065]{.ltr}، [U-066]{.ltr}، [U-067]{.ltr}، [U-068]{.ltr}، [U-077]{.ltr}، [U-078]{.ltr}، [U-079]{.ltr}، [U-080]{.ltr}، [U-102]{.ltr}، [U-103]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای فصل‌هایی که در بندِ پیشین آمد:** فصلِ ۱۷ (بندِ ۱).
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۲۰، فصلِ ۲۸.
+
+```{.text include="companion/ch20/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch28/expected/int_basis.txt"}
+```
+
+### بندِ ۹: مشخصاتِ خرید و برنامهٔ کیفیتِ هر تجهیز {#sec-ch59-k-9}
+
+مشخصاتِ خرید و برنامهٔ کیفیتِ هر تجهیز، تا آزمونِ کارخانه. فصل‌ها: ۳۹، ۴۰، ۴۱، ۴۲، ۴۳، ۴۴، ۴۵، ۴۶، ۴۷، ۴۸.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-043]{.ltr} | تدارکات | ۳۹ |
+| [D-044]{.ltr} | کیفیتِ ساخت | ۴۰ |
+| [D-045]{.ltr} | ساخت و پذیرشِ ماژول | ۴۱ |
+| [D-046]{.ltr} | کیفیتِ قطعه‌های توربین | ۴۲ |
+| [D-047]{.ltr} | بازبینیِ طرح و آزمونِ کارخانهٔ ترانسفورماتور | ۴۳ |
+| [D-048]{.ltr} | ساخت و پذیرشِ مبدّل | ۴۴ |
+| [D-049]{.ltr} | ساخت و شاهدِ باتری | ۴۵ |
+| [D-050]{.ltr} | کابل، تابلو و پنل | ۴۶ |
+| [D-051]{.ltr} | ساختِ سازه و ردیاب | ۴۷ |
+| [D-052]{.ltr} | سخت‌افزارِ ابزار، کنتور و شبکه | ۴۸ |
+
+: تصمیم‌های بندِ ۹ {#tbl-ch59-k-9}
+
+**سندها (۴۷):** [PLP-CIV-PRO-0003]{.ltr}، [PLP-CIV-REG-0003]{.ltr}، [PLP-CIV-REP-0005]{.ltr}، [PLP-CIV-SPC-0002]{.ltr}، [PLP-CTL-LST-0004]{.ltr}، [PLP-CTL-PRO-0005]{.ltr}، [PLP-CTL-PRO-0006]{.ltr}، [PLP-CTL-REG-0008]{.ltr}، [PLP-CTL-REG-0009]{.ltr}، [PLP-CTL-REG-0010]{.ltr}، [PLP-CTL-REP-0005]{.ltr}، [PLP-CTL-SPC-0005]{.ltr}، [PLP-ELE-LST-0009]{.ltr}، [PLP-ELE-LST-0010]{.ltr}، [PLP-ELE-LST-0011]{.ltr}، [PLP-ELE-PRO-0006]{.ltr}، [PLP-ELE-REG-0006]{.ltr}، [PLP-ELE-REP-0012]{.ltr}، [PLP-ELE-REP-0013]{.ltr}، [PLP-ELE-REP-0014]{.ltr}، [PLP-ELE-REP-0015]{.ltr}، [PLP-ELE-REP-0016]{.ltr}، [PLP-ELE-SPC-0009]{.ltr}، [PLP-ELE-SPC-0010]{.ltr}، [PLP-ELE-SPC-0011]{.ltr}، [PLP-ELE-SPC-0012]{.ltr}، [PLP-ELE-SPC-0013]{.ltr}، [PLP-MEC-PRO-0002]{.ltr}، [PLP-MEC-REP-0003]{.ltr}، [PLP-MEC-SPC-0002]{.ltr}، [PLP-PRJ-LST-0001]{.ltr}، [PLP-PRJ-PRO-0007]{.ltr}، [PLP-PRJ-PRO-0008]{.ltr}، [PLP-PRJ-REG-0022]{.ltr}، [PLP-PRJ-REG-0023]{.ltr}، [PLP-PRJ-REG-0024]{.ltr}، [PLP-PRJ-REG-0025]{.ltr}، [PLP-PRJ-REG-0026]{.ltr}، [PLP-PRJ-REG-0027]{.ltr}، [PLP-PRJ-REG-0028]{.ltr}، [PLP-PRJ-REG-0029]{.ltr}، [PLP-PRJ-REG-0030]{.ltr}، [PLP-PRJ-REP-0005]{.ltr}، [PLP-PRJ-REP-0006]{.ltr}، [PLP-PRJ-REP-0007]{.ltr}، [PLP-PRJ-REP-0008]{.ltr}، [PLP-PRJ-SPC-0001]{.ltr}
+
+**ناشناخته‌های نام‌برده (۱۰):** [U-120]{.ltr}، [U-121]{.ltr}، [U-122]{.ltr}، [U-123]{.ltr}، [U-124]{.ltr}، [U-125]{.ltr}، [U-126]{.ltr}، [U-127]{.ltr}، [U-128]{.ltr}، [U-129]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۳۹، فصلِ ۴۰، فصلِ ۴۱، فصلِ ۴۲، فصلِ ۴۳، فصلِ ۴۴، فصلِ ۴۵، فصلِ ۴۶، فصلِ ۴۷، فصلِ ۴۸.
+
+```{.text include="companion/ch39/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch40/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch41/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch42/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch43/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch44/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch45/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch46/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch47/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch48/expected/int_basis.txt"}
+```
+
+### بندِ ۱۰: برنامه‌های ساخت {#sec-ch59-k-10}
+
+برنامه‌های ساخت، بازرسی، راه‌اندازی و تحویلِ اطلاعاتِ دارایی. فصل‌ها: ۴۹، ۵۰.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-053]{.ltr} | ساخت و نصب | ۴۹ |
+| [D-054]{.ltr} | راه‌اندازی، پذیرش و تحویل | ۵۰ |
+
+: تصمیم‌های بندِ ۱۰ {#tbl-ch59-k-10}
+
+**سندها (۱۰):** [PLP-GEN-REG-0009]{.ltr}، [PLP-GEN-REG-0010]{.ltr}، [PLP-PRJ-PRO-0009]{.ltr}، [PLP-PRJ-PRO-0010]{.ltr}، [PLP-PRJ-REG-0031]{.ltr}، [PLP-PRJ-REG-0032]{.ltr}، [PLP-PRJ-REG-0033]{.ltr}، [PLP-PRJ-REG-0034]{.ltr}، [PLP-PRJ-REP-0009]{.ltr}، [PLP-PRJ-REP-0010]{.ltr}
+
+**ناشناخته‌های نام‌برده (۲):** [U-130]{.ltr}، [U-131]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۴۹، فصلِ ۵۰.
+
+```{.text include="companion/ch49/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch50/expected/int_basis.txt"}
+```
+
+### بندِ ۱۱: روش‌های بهره‌برداری {#sec-ch59-k-11}
+
+روش‌های بهره‌برداری، نگهداری، یدک‌ها و راهبردِ حاکمیتِ دادهٔ دارایی و پیکربندی. فصل‌ها: ۳۴، ۳۵، ۳۶، ۵۱، ۵۲.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-038]{.ltr} | ابزار دقیق و کنترل | ۳۴ |
+| [D-039]{.ltr} | اسکادا و ارتباطات | ۳۵ |
+| [D-040]{.ltr} | امنیتِ سامانه‌های عملیاتی | ۳۶ |
+| [D-055]{.ltr} | مبنای بهره‌برداری | ۵۱ |
+| [D-056]{.ltr} | نگهداری و قابلیتِ اطمینان | ۵۲ |
+
+: تصمیم‌های بندِ ۱۱ {#tbl-ch59-k-11}
+
+**سندها (۲۹):** [PLP-CTL-CAL-0002]{.ltr}، [PLP-CTL-CAL-0003]{.ltr}، [PLP-CTL-DWG-0001]{.ltr}، [PLP-CTL-LST-0001]{.ltr}، [PLP-CTL-LST-0002]{.ltr}، [PLP-CTL-LST-0003]{.ltr}، [PLP-CTL-PRO-0002]{.ltr}، [PLP-CTL-PRO-0003]{.ltr}، [PLP-CTL-PRO-0004]{.ltr}، [PLP-CTL-PRO-0007]{.ltr}، [PLP-CTL-REG-0004]{.ltr}، [PLP-CTL-REG-0005]{.ltr}، [PLP-CTL-REG-0006]{.ltr}، [PLP-CTL-REG-0007]{.ltr}، [PLP-CTL-REP-0002]{.ltr}، [PLP-CTL-REP-0003]{.ltr}، [PLP-CTL-SPC-0002]{.ltr}، [PLP-CTL-SPC-0003]{.ltr}، [PLP-CTL-SPC-0004]{.ltr}، [PLP-ELE-REG-0007]{.ltr}، [PLP-GEN-CAL-0009]{.ltr}، [PLP-GEN-PRO-0006]{.ltr}، [PLP-GEN-PRO-0007]{.ltr}، [PLP-GEN-PRO-0008]{.ltr}، [PLP-GEN-REG-0011]{.ltr}، [PLP-GEN-REG-0012]{.ltr}، [PLP-GEN-REG-0013]{.ltr}، [PLP-GEN-REP-0014]{.ltr}، [PLP-GEN-REP-0015]{.ltr}
+
+**ناشناخته‌های نام‌برده (۵):** [U-115]{.ltr}، [U-116]{.ltr}، [U-117]{.ltr}، [U-132]{.ltr}، [U-133]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۳۴، فصلِ ۳۵، فصلِ ۳۶، فصلِ ۵۱، فصلِ ۵۲.
+
+```{.text include="companion/ch34/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch35/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch36/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch51/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch52/expected/int_basis.txt"}
+```
+
+### بندِ ۱۲: پایهٔ قابلیتِ اطمینان {#sec-ch59-k-12}
+
+پایهٔ قابلیتِ اطمینان، دسترس‌پذیری و نگهداشت‌پذیری، دفترِ تجهیزاتِ بحرانی و برنامهٔ داده و راستی‌آزمایی. فصل‌ها: ۳۷، ۵۲.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-041]{.ltr} | پایشِ عملکرد | ۳۷ |
+| [D-056]{.ltr} | نگهداری و قابلیتِ اطمینان | ۵۲ |
+
+: تصمیم‌های بندِ ۱۲ {#tbl-ch59-k-12}
+
+**سندها (۱۲):** [PLP-CTL-REP-0004]{.ltr}، [PLP-ELE-REG-0007]{.ltr}، [PLP-GEN-CAL-0008]{.ltr}، [PLP-GEN-CAL-0009]{.ltr}، [PLP-GEN-PRO-0005]{.ltr}، [PLP-GEN-PRO-0007]{.ltr}، [PLP-GEN-PRO-0008]{.ltr}، [PLP-GEN-REG-0008]{.ltr}، [PLP-GEN-REG-0013]{.ltr}، [PLP-GEN-REP-0013]{.ltr}، [PLP-GEN-REP-0015]{.ltr}، [PLP-GEN-SPC-0003]{.ltr}
+
+**ناشناخته‌های نام‌برده (۲):** [U-118]{.ltr}، [U-133]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای فصل‌هایی که در بندِ پیشین آمد:** فصلِ ۵۲ (بندِ ۱۱).
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۳۷.
+
+```{.text include="companion/ch37/expected/int_basis.txt"}
+```
+
+### بندِ ۱۳: اقتصادِ عمر {#sec-ch59-k-13}
+
+اقتصادِ عمر، مدلِ مالی و حالت‌های پایین، دفترِ ریسک، ردپا و رویکردِ پایانِ عمر. فصل‌ها: ۲۱، ۲۲، ۳۳، ۵۳.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-025]{.ltr} | مبنای مالی | ۲۱ |
+| [D-026]{.ltr} | انتخابِ ساختگاه و ادامهٔ توسعه | ۲۲ |
+| [D-037]{.ltr} | محیطِ زیست و جامعه | ۳۳ |
+| [D-057]{.ltr} | مبنای عمر | ۵۳ |
+
+: تصمیم‌های بندِ ۱۳ {#tbl-ch59-k-13}
+
+**سندها (۲۱):** [PLP-GEN-CAL-0010]{.ltr}، [PLP-GEN-PRO-0003]{.ltr}، [PLP-GEN-PRO-0004]{.ltr}، [PLP-GEN-PRO-0009]{.ltr}، [PLP-GEN-REG-0007]{.ltr}، [PLP-GEN-REG-0014]{.ltr}، [PLP-GEN-REG-0015]{.ltr}، [PLP-GEN-REP-0011]{.ltr}، [PLP-GEN-REP-0012]{.ltr}، [PLP-GEN-REP-0016]{.ltr}، [PLP-PRJ-CAL-0001]{.ltr}، [PLP-PRJ-PRO-0005]{.ltr}، [PLP-PRJ-REG-0009]{.ltr}، [PLP-PRJ-REG-0010]{.ltr}، [PLP-PRJ-REG-0011]{.ltr}، [PLP-PRJ-REG-0012]{.ltr}، [PLP-PRJ-REG-0013]{.ltr}، [PLP-PRJ-REG-0018]{.ltr}، [PLP-PRJ-REP-0002]{.ltr}، [PLP-PRJ-REP-0003]{.ltr}، [PLP-PRJ-REP-0004]{.ltr}
+
+**ناشناخته‌های نام‌برده (۱۴):** [U-065]{.ltr}، [U-068]{.ltr}، [U-081]{.ltr}، [U-082]{.ltr}، [U-083]{.ltr}، [U-084]{.ltr}، [U-085]{.ltr}، [U-086]{.ltr}، [U-087]{.ltr}، [U-088]{.ltr}، [U-112]{.ltr}، [U-113]{.ltr}، [U-114]{.ltr}، [U-134]{.ltr}
+
+**وضعیت:** با شرط‌های زیاد: ناشناخته‌ها پیش از دروازهٔ بعد اولویت‌بندی می‌شوند.
+
+**مبنای فصل‌هایی که در بندِ پیشین آمد:** فصلِ ۳۳ (بندِ ۷).
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۲۱، فصلِ ۲۲، فصلِ ۵۳.
+
+```{.text include="companion/ch21/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch22/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch53/expected/int_basis.txt"}
+```
+
+### بندِ ۱۴: پیوست‌های جدای ایران {#sec-ch59-k-14}
+
+پیوست‌های جدای ایران، افغانستان و تاجیکستان برای انطباق و حفاظت‌های زمین و جامعه. فصل‌ها: ۵۴، ۵۵، ۵۶، ۵۷، ۵۸.
+
+| تصمیم | عنوان | فصل |
+|----------|------------------------------|----------|
+| [D-058]{.ltr} | روشِ انطباق | ۵۴ |
+| [D-059]{.ltr} | پروندهٔ ایران | ۵۵ |
+| [D-060]{.ltr} | پروندهٔ افغانستان | ۵۶ |
+| [D-061]{.ltr} | پروندهٔ تاجیکستان | ۵۷ |
+| [D-062]{.ltr} | مبنای استانداردها | ۵۸ |
+
+: تصمیم‌های بندِ ۱۴ {#tbl-ch59-k-14}
+
+**سندها (۱۷):** [PLP-PRJ-PRO-0011]{.ltr}، [PLP-PRJ-PRO-0012]{.ltr}، [PLP-PRJ-REG-0035]{.ltr}، [PLP-PRJ-REG-0036]{.ltr}، [PLP-PRJ-REG-0037]{.ltr}، [PLP-PRJ-REG-0038]{.ltr}، [PLP-PRJ-REG-0039]{.ltr}، [PLP-PRJ-REG-0040]{.ltr}، [PLP-PRJ-REG-0041]{.ltr}، [PLP-PRJ-REG-0042]{.ltr}، [PLP-PRJ-REG-0043]{.ltr}، [PLP-PRJ-REG-0044]{.ltr}، [PLP-PRJ-REG-0045]{.ltr}، [PLP-PRJ-REP-0011]{.ltr}، [PLP-PRJ-REP-0012]{.ltr}، [PLP-PRJ-REP-0013]{.ltr}، [PLP-PRJ-REP-0014]{.ltr}
+
+**ناشناخته‌های نام‌برده (۵):** [U-135]{.ltr}، [U-136]{.ltr}، [U-137]{.ltr}، [U-138]{.ltr}، [U-139]{.ltr}
+
+**وضعیت:** با شرط: ناشناخته‌ها صاحب و تاریخ دارند.
+
+**مبنای تصمیم‌ها، از خروجیِ آزموده‌شدهٔ هر فصل:** فصلِ ۵۴، فصلِ ۵۵، فصلِ ۵۶، فصلِ ۵۷، فصلِ ۵۸.
+
+```{.text include="companion/ch54/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch55/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch56/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch57/expected/int_basis.txt"}
+```
+
+```{.text include="companion/ch58/expected/int_basis.txt"}
+```
+
+::: {.callout-tip}
+## خودآزمایی «ذ»
+1. برگه‌ها از کجا ساخته می‌شوند و چرا دستی نوشته نمی‌شوند؟
+2. کدام بندها بیش از ده ناشناخته دارند؟
+3. یک سند را از برگه تا فصلِ خودش دنبال کنید.
+:::

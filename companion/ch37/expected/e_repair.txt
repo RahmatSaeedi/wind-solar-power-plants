@@ -1,0 +1,11 @@
+what drives the downtime: waiting or repairing (12 turbines)
+  of all outage hours: waiting 1,230 h, repair 409 h, checks 35 h
+  case                                  availability   mean h
+  as logged                                    98.41     23.9
+  waiting halved                               98.99     15.1
+  repair halved                                98.60     21.0
+  both halved                                  99.19     12.2
+  waiting (travel, spares, access) is most of each outage,
+  so halving it gains more than halving the repair: the
+  record must keep the two apart to show where the cure is
+  (lesson D, boundaries)

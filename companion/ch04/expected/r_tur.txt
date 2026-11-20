@@ -1,0 +1,5 @@
+hole tolerance 0.021 mm; test uncertainty ratio TUR = tolerance / (2 U):
+  caliper             U = 0.030 mm: TUR 0.35; guarded acceptance zone 0.000 mm
+  micrometer          U = 0.004 mm: TUR 2.62; guarded acceptance zone 0.013 mm
+  coordinate machine  U = 0.002 mm: TUR 5.25; guarded acceptance zone 0.017 mm
+  a ratio of 4 or more is a common aim; below 1 the instrument cannot decide

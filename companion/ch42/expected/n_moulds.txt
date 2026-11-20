@@ -1,0 +1,10 @@
+blade factory: 2 mould sets, 30 h a blade, 85% available,
+  three shifts (teaching)
+  9.5 blades a week; 38 blades (36 + 2 spares) in 4.0 weeks
+  plus 5 days of finishing and testing before the first ships
+  erection at one turbine every 3 days needs 7 blades a week
+  the factory makes 1.4 x what erection takes, so once
+  running it stays ahead; a mould set down for a week costs 5 blades
+  start moulding 8 days before the first lift: finishing plus a buffer of 5
+  blades - the factory's schedule risk is the moulds, not the
+  people

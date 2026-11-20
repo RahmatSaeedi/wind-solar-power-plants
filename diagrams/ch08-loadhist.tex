@@ -1,0 +1,16 @@
+% Chapter 8 - running hours of one generator by load band in the data-pack year (1.1.0, S0).
+% Data: diagrams/data/ch08-loadhist.csv (companion/ch08/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=62mm, ybar, bar width=7mm,
+      xlabel={بارِ ژنراتور، پریونیت}, ylabel={ساعت در سال},
+      xmin=0, xmax=1.0, ymin=0, ymax=2050, xtick={0,0.1,...,1.0}, ytick={0,500,...,2000}]
+    \addplot[draw=cWind, fill=cWind!35] table[x=load, y=hours, col sep=comma,
+        restrict x to domain=0:1.0] {data/ch08-loadhist.csv};
+    \node[note, text=cInk, anchor=south] at (axis cs:0.95,1775) {$1764$};
+    \node[note, text=cInk, anchor=south] at (axis cs:0.05,1805) {$1795$};
+    \node[note, text width=40mm] at (axis cs:0.55,1500) {۸ درصدِ ساعت‌ها ایستاده (بادِ کمتر از آستانه)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

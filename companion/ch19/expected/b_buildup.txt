@@ -1,0 +1,11 @@
+S1 battery from cell to system (A-290):
+  cell     LFP 314 Ah, 3.2 V, 1.005 kWh
+  module   1P52S: 166.4 V, 52.2 kWh
+  rack     8 modules in series: 1,331 V nominal, 1,040-1,498 V,
+           418 kWh
+  container 12 racks in parallel: 5.02 MWh
+  system   8 containers: 40.13 MWh, 39,936 cells
+  power    4 PCS x 5 MW = 20 MW: 0.50 C at the cells
+  check: rack maximum 1,498 V stays below 1,500 V DC
+    (at 3.65 V a cell it would be 1,518 V: the charge limit is a
+    design choice tied to the DC voltage class of the PCS)

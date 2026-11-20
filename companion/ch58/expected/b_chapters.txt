@@ -1,0 +1,17 @@
+standards against chapters (applicability field)
+  most-cited standards:
+    STD-011 ISO/IEC 17025:2017             4 chapters
+    STD-023 ISO 9712:2021                  4 chapters
+    STD-034 IEC 61000-4-30:2025            4 chapters
+    STD-041 IEC 60085:2007                 4 chapters
+    STD-053 IEC 61400-21-1:2019            4 chapters
+    STD-080 IEC 61400-1:2019               4 chapters
+  chapters with most standards:
+    ch 10: 26
+    ch 34: 15
+    ch 24: 14
+    ch 11: 13
+    ch 41: 12
+    ch  2: 11
+  rows tied to one chapter only: 90
+  a hub standard changes many records when its edition changes

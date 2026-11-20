@@ -1,0 +1,7 @@
+plant controller and its fallback mode (ch 20): the fallback is
+  only used when the controller fails (0.1 a year)
+  fallback dead and unseen, tested every 12 months: q = 0.025
+  controller failures meeting a dead fallback: 0.0025 a year
+  tested every 6 months: q = 0.013, 0.0013 a year
+  the fault tree of lesson E used a fixed q for the fallback;
+  its real value is set by how often the switch-over is tested

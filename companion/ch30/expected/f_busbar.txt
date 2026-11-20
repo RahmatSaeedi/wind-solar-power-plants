@@ -1,0 +1,10 @@
+short-circuit force between parallel conductors, F' = 2e-7 ip^2 / a
+  (peak factor 1.8; teaching spacings)
+  case                                       ip kA   a m   N per m
+  132 kV gantry, fault 7.8 kA (ch 28)         19.8   2.5         31
+  33 kV busbar, fault 8.5 kA (ch 28)          21.7   0.5        189
+  33 kV busbar at the gear's rated peak       63.0   0.5       1588
+  the 132 kV gantry hardly notices a fault; close-spaced
+  33 kV bars feel a sharp blow - supports and insulators are
+  designed to the gear's rated peak, not today's fault
+  level, because the network's fault level grows (ch 28)

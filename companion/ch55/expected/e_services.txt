@@ -1,0 +1,16 @@
+grid services for Plant P - Iran: what a source requires or allows
+  export within network capacity     verified
+      IR-18: transmission open, no fees
+  green-board sales                  verified
+      IR-34: Energy Exchange board
+  reactive power / voltage control   to-confirm
+      IR-19: no document found
+  frequency response and reserve     to-confirm
+      IR-33: no product found
+  ride-through                       to-confirm
+      IR-19: no published value
+  curtailment compensation           to-confirm
+      IR-38: contract terms not found
+  verified 2, project-dependent 0, to-confirm 4
+  a service not found is not offered in the base: no capability,
+  test or revenue is assumed for it (ch 20, 54)

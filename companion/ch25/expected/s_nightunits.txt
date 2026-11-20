@@ -1,0 +1,11 @@
+the unit transformers at night (no output, still energised):
+  group                 units   no-load kW   MWh a year (4,200 h)
+  PV, oil skid             10         45.0                    189
+  wind, dry in tower       12         84.0                    353
+  BESS                      4         18.0                     76
+  main transformers         2         70.0                    294
+  total 911 MWh a year bought at night - more than the two
+  main transformers alone: the 26 small units add up; their
+  no-load loss is worth evaluating as carefully (the A factor
+  applies to each), and the PV units could be switched off at
+  night where the inverters' night service is not needed

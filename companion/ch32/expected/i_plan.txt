@@ -1,0 +1,25 @@
+the site-security management plan: ten elements
+  element                       evidence that it works
+  risk assessment               screen reviewed yearly and after each event
+      states: threats, who is harmed, proportionate measures; links: H, G
+  access authorisation          gate records reconciled weekly
+      states: who may enter which area and why; links: A (permits)
+  visitors and contractors      visitor log complete, inductions in date
+      states: host, induction, escort where needed; links: A (contractors)
+  asset protection              stock counts match the records
+      states: stores, marking, records of spares and cable; links: ch 52
+  detection and reporting       notification times in the incident log
+      states: what is reported to whom, how fast; links: control room
+  roles and conduct             training records; complaints reviewed
+      states: who does what; conduct code; training; links: ch 33
+  incident response, evidence   records kept unchanged; police reference
+      states: report, keep records, never confront; links: H
+  community interface           grievances closed with an outcome
+      states: liaison; grievance route for security; links: G, ch 33
+  OT incident link              OT check logged after each entry event
+      states: entry to a control building -> OT check; links: ch 36
+  business continuity           restore times exercised
+      states: what is lost, how and when restored; links: ch 36, ch 51
+  an element without evidence is a declaration; the plan is
+  reviewed with the emergency plan (H) and the OT incident
+  response plan (ch 36), and owned by a named manager

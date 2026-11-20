@@ -1,0 +1,8 @@
+time multipliers derived for 0.3 s margins (all three cases):
+  feeder TMS 0.10 (fastest practical - it clears its own faults)
+  incomer: largest need 0.109 -> TMS 0.11
+  T1 HV side: largest need 0.170 -> TMS 0.18
+  rounded up to the relay's 0.01 step; the same values are
+  in sources.py (the script checks they agree)
+  each TMS is set by its worst case: a grading made for one
+  switching state only can fail in another

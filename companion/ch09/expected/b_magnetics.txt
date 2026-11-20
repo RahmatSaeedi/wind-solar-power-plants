@@ -1,0 +1,7 @@
+converter-side inductor L1 = 55.7 uH per phase:
+  stored energy at peak current plus ripple (2,058 A): 118 J
+  energy density in an air gap at 1.0 T: 398 kJ/m3
+  gap volume about 296 cm3 per phase: the gap, not the iron,
+    stores the energy (chapter 8, magnetic circuit)
+  the core must not saturate at fault current; inductance that
+  collapses lets the current rise fast (protection, section C)

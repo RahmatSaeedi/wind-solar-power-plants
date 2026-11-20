@@ -1,0 +1,6 @@
+a 60 m torque tube between a winter night and a summer noon (+/-40 K)
+  movement 28.8 mm each way from the reference temperature
+  the bearings let the tube slide; a bearing installed with no
+  room at one end, or a tube clamped at both ends, turns that
+  movement into force on the posts - the installation record
+  gives the temperature on the day the bearings were set

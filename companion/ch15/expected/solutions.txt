@@ -1,0 +1,86 @@
+P01: 25 MW for 4 h + 40 MW for 3 h: 220 MWh
+P02: losses 2, 3 and 5 %: 9.69 % (sum 10 %)
+P03: capacity factor of 196.9 GWh at 60 MW: 0.375
+P04: PV 108.36 GWh at 50 MW AC: 0.247
+P05: density 1.10 against 1.225: -10.2 % (region 2)
+P06: inverter 98.0 % on 100 GWh DC: 98.0 GWh
+P07: load loss 1.5 % at 100 MW, at 80 MW: 0.96 MW
+P08: degradation 0.6 %/yr, year 20: x 0.88
+P09: 25-year mean at 0.6 %/yr: x 0.922
+P10: RMSE of errors 2, -2, 6, -6 MW: 4.47 MW
+P11: MAE of the same: 4.0 MW
+P12: skill of 9.7 % against 23.7 %: 0.59
+P13: pinball tau 0.9, forecast 50, observed 60: 9.0
+P14: newsvendor quantile, price 40, short 120, surplus 20: 0.20
+P15: coverage of 16 of 20 observations: 0.80
+P16: truck cleaning water 1.0 L per module, 109,200 modules: 109.2 m3
+P17: round trip 86 %: one-way 0.927
+P18: 12 outage hours at 34 MW average: 408 MWh
+P19: monthly net: May 30.93, Jun 18.92 GWh (d_balance)
+P20: wind waterfall: density -8.53 %, wakes -4.01 %, long term +2.77 %
+P21: PV: IAM, temperature, low light -7.61 %; DC -3.00 %; inverter -1.66 %
+P22: plant: electrical -1.09, own use -0.79, limit -0.08, outages -0.17 %
+P23: totals: wind 11.73 % (sum 11.95), PV 16.10 % (sum 17.16)
+P24: availability as hours: curtailment 313 against 227 MWh
+P25: soiling seasonal 1.59 % against constant 1.50 %
+P26: one turbine: ten-minute 18,166, hourly 18,184 MWh (+0.10 %)
+P27: PV 1 h late: curtailment 411 against 426 MWh; correlation -0.126
+P28: clipping: DC/AC 1.1 0.02 %, 1.2 0.69 %, 1.3 2.71 %, 1.4 5.43 %
+P29: soiling on DC before clipping: +0.25 GWh (+0.22 %)
+P30: 25-year mean PV 101.82 GWh (-6.5 % against year 0)
+P31: S1 battery on curtailment: 227 MWh stored, 195 released
+P32: outage energy: mean 401 MWh, 10-90 % 286 .. 516 MWh
+P33: RMSE % by lead, weather-driven: 1 h 7.1, 6 h 7.8, 24 h 9.7, 36 h 12.1
+P34: day-ahead RMSE: wind 17.4 %, PV daylight 8.6 %, hybrid 9.7 %
+P35: coverage: fair 78.7 %, leak 80.0 %, by level 79.0 %
+P36: leak: last-hour feature 7.20 / 7.59 MW against 10.38 MW
+P37: ramps day-ahead: POD 0.43, FAR 0.67; persistence POD 0.10
+P38: cleaning: no cleaning 9.47 %, trigger 1.52 %, robot 1.29 %
+P39: trigger: mean 1.43 %, energy-weighted 1.52 %
+P40: dispatch P50 short 10,872 MWh; P30 + battery 4,418 MWh
+P41: value of 0.25 GWh at 50 u/MWh: 12,500 u a year
+P42: PV 1.66 % inverter loss on 115.74 GWh: 1.92 GWh
+P43: revenue difference P30 + B and P50: 265 k u over four months
+P44: net 295.14 GWh with 1 % more availability on wind: +1.97 GWh
+P45: curtailment at a 90 MW limit (model run): 1,757 MWh in 225 h
+P46: trigger policy cost 229 k u for 8,992 MWh: 25.5 u per MWh recovered
+P47: Justus fit, mean 6.74 m/s, sd 3.36 m/s: k = 2.13
+P48: scale c = 6.74 / Gamma(1 + 1/2.13) = 7.61 m/s
+P49: PR = 1,804.2 kWh/kWp / 2,150.3 h = 0.839
+P50: PR 0.807 at T_c,w 50.7 C, gamma -0.35 %/K: 0.887 at 25 C
+P51: NOCT model, T_a 35 C, 1,000 W/m2, NOCT 45 C: 66.2 C
+P52: electrical loss at 60 MW: 0.10 + 1.5 % x 100 x 0.6^2 = 0.64 MW
+P53: load loss at pf 0.90: x 1.235 (+23.5 %)
+P54: sd of the hybrid, r = 0.12: 9.50 GWh (3.15 %)
+P54a: sd of the hybrid, r = 0.00: 9.17 GWh (3.04 %)
+P54b: sd of the hybrid, r = 1.00: 11.62 GWh (3.85 %)
+P55: marginal share 50 -> 60 MW PV: 0.923
+P56: mean curtailment over the average-year value: 1.26
+P57: flat rank histogram: 20 members 4.76 %, 50 members 1.96 %
+P58: blend, w 0.5, NWP 40 MW, persistence 50 MW: 45 MW
+P59: intraday: shortfall 24 % less, surplus 26 % less
+P60: one turbine of 12 at -4 %: farm 0.33 % low
+P61: 151 MWh imported at 3 x 50 u/MWh: 22,650 u
+P62: grid limit: 485 MWh in 90 h: 5.4 MW mean cut
+P63: icing 95.5 MWh of 16,678 MWh: 0.57 %
+P64: wake k 0.04 against 0.075: 1.78 GWh
+P65: unflagged outages: 3 % x 2/3 x 34.4 MW = 0.69 MW bias
+P66: best learned correction: 4.3 % lower RMSE
+P67: one PV block of ten out 20 of 31 days: about 0.935 in March
+P68: isotropic sky: 2,107 / 2,150 = 0.980
+P69: bat rule: 750 h x 3.0 MW = 2,250 MWh
+P70: time 98.09 % against energy 97.49 % on 193.14 GWh: 1.16 GWh
+P71: battery 40 MWh returning 2,734 MWh: 68 full cycles
+P72: CRPS 4.55 MW against MAE 6.06 MW: 0.75
+P73: wind long-term factor 3 % of 193.14 GWh: 5.79 GWh at MV
+P74: monthly wind 189.25 against hourly 193.14 GWh: 0.980
+P75: noise mode, 3 of 12 turbines at -8 %: 2.0 % of the farm
+P76: inverter, DC 0.5 pu: AC 0.4930 pu, efficiency 98.6 %
+P80: inverter, DC 0.02 pu: AC 0.0172 pu, efficiency 86.0 %
+P77: 80 MW PV, PV first against wind first: 6,596 MWh x 10 u = 66.0 k u
+P78: newsvendor, prices 60 / 120 / 20: tau* = 0.40
+P79: value of 1.07 MW less RMSE for 74 k u: 69 k u per MW
+P81: pf 0.95 at 100 MW: Q = 32.9 Mvar; PV alone at 49 MVA: P <= 36.3 MW
+P82: round-trip loss of 10,817 MWh discharged at 86 %: 1,761 MWh
+P83: price shifting: +375 k u for -1,646 MWh: 228 u per MWh given up
+P84: bridge: 295.14 - 289.23 = 5.91 GWh (2.0 %)

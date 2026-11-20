@@ -1,0 +1,9 @@
+witnessed tests: notice given to the network operator (teaching 15 days)
+  CP-G01 capability    test 2028-04-20  notice 2028-04-01   19 days
+  CP-G09 frequency     test 2028-04-22  notice 2028-04-12   10 days  SHORT
+  CP-G12 intertrip     test 2028-04-10  notice 2028-03-20   21 days
+  CP-G14 ramp          test 2028-04-24  notice 2028-04-15    9 days  SHORT
+  2 tests are planned inside the notice period: the witness
+  may not come, and a test without its witness is repeated -
+  the test plan is built back from the notice, not forward
+  from the day the plant is ready

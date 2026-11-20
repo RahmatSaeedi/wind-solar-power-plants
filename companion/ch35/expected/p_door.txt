@@ -1,0 +1,14 @@
+historian compression of a slowly moving signal (synthetic hour)
+  method                        stored points   largest error K
+  deadband 0.1 K (as stored)               619              0.22
+  swinging door 0.1 K                     563              0.10
+  deadband 0.3 K (as stored)                63              0.26
+  swinging door 0.3 K                      75              0.30
+  deadband 0.7 K (as stored)                27              1.03
+  swinging door 0.7 K                      30              0.70
+  the door keeps the points where the trend bends and draws
+  straight lines between them, and its error never leaves
+  the band it is given; a deadband read back with straight
+  lines can miss by half again its setting (1.03 K for
+  0.7 K). Method and setting are chosen together from the
+  instrument's uncertainty and recorded with the tag

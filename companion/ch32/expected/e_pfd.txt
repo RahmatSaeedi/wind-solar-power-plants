@@ -1,0 +1,13 @@
+chance a detector is failed when needed (PFD) vs test interval
+  undetected failure rate 0.02 per year (teaching)
+  interval months   one detector   two (either alarms)
+                1         0.0008              0.000001
+                3         0.0025              0.000008
+                6         0.0050              0.000033
+               12         0.0100              0.000133
+               24         0.0200              0.000533
+               36         0.0300              0.001200
+  halving the interval halves the PFD of one detector; a
+  second detector cuts it 75 to 300 times here - unless
+  both share a cause (same dust, same power supply), which
+  the simple formula ignores and the design must not

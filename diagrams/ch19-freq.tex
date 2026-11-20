@@ -1,0 +1,12 @@
+% Chapter 19 - stored energy (relative to the start) through one day of a teaching frequency-response
+% signal of up to +-10 MW (A-297). Data: diagrams/data/ch19-freq.csv (companion/ch19/examples_n.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=58mm, xmin=0, xmax=24, ymin=-4, ymax=18,
+      xlabel={ساعت}, ylabel={تغییرِ انرژیِ ذخیره، مگاوات‌ساعت}, xtick={0,3,...,24}, ytick={-4,0,...,16}]
+    \addplot[sBESS] table[x=h, y=e, col sep=comma] {data/ch19-freq.csv};
+    \draw[sLimit] (axis cs:0,0) -- (axis cs:24,0);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

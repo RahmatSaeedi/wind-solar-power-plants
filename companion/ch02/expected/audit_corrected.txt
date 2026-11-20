@@ -1,0 +1,19 @@
+PLP-GEN-CAL-0002 Rev B - corrected (Plant P Reference Data Pack 1.0.0,
+    scenario S0 (no-BESS))
+L1  PV DC capacity P_STC = 60 MWp (SR-01); AC limit 50 MW (SR-02)
+L2  annual GHI H = 1947.2 kWh/m2 (sum of 8760 hourly means x 1 h)
+L3  E_PV,hand = P_STC x H / G_STC x PR_DC x eta_inv = 60 MWp x 1947.2 / 1
+    kW/m2
+    x 0.85 x 0.98 = 97,320 MWh (no clipping)
+    hourly model with the 50 MW limit: 97,304 MWh (clipped 15.7 MWh)
+L4  no separate temperature factor: PR_DC = 0.85 already includes it
+L5  mean air density p/(R T) = 87767 Pa / (287.05 x 289.93 K) = 1.055 kg/m3
+    (not used by the screening model; see comment C-05 and audit_density)
+L6  E_wind = 192,538 MWh = 192.5 GWh (12 turbines, losses 0.12)
+L7  E_gen = 97,304 + 192,538 = 289,842 MWh = 289.8 GWh
+L8  curtailed 13.8 MWh; exported 289,828 MWh = 289.8 GWh
+L9  CF (export basis, 100 MW, 8760 h) = 0.331; PV CF (50 MW AC) 0.222;
+    wind CF (60 MW) 0.366
+L10 result: about 290 GWh/yr exported, CF 0.33 (screening)
+L11 PR_DC 0.80 -> 0.85 raises E_PV by 6.25 % (5 percentage points of PR)
+L12 mean hub-height wind speed 7.10 m/s = 25.6 km/h

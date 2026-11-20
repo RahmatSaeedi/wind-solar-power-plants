@@ -1,0 +1,8 @@
+tax depreciation rule 'to-confirm': straight line 20 years (base)
+against five years (a rule some places allow - not known for Z)
+  straight line 20 yr: equity IRR 10.22%, min DSCR 1.20
+  accelerated 5 yr:    equity IRR 10.84%, min DSCR 1.08
+  the rule moves the equity IRR by +0.62 points, and the
+  minimum DSCR to 1.08: tax deferred is tax paid later, inside
+  the debt's life - worth a tax advisor's written opinion
+  before the model is shown

@@ -1,0 +1,8 @@
+dual-active bridge, 800 V / 800 V, 20 kHz, L 20 uH (A-166):
+  P = V1 V2 phi (pi - |phi|) / (2 pi^2 f L)
+  phase shift 0.10 rad:    24.7 kW
+  phase shift 0.30 rad:    69.1 kW
+  phase shift 0.60 rad:   123.6 kW
+  phase shift 1.57 rad:   200.0 kW
+  power flows from the leading bridge to the lagging one; the
+  high-frequency transformer gives isolation in a small core

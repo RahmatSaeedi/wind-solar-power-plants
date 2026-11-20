@@ -1,0 +1,7 @@
+two study results checked by hand (grid max)
+  POC voltage rise for 100 MW at Q = 0: (P R + Q X) = 1.0 x 0.00827 = 0.83 %
+  load flow: POC at 1.0061 pu with the source at 1.0000 (100.3 MW)
+  POC fault current: 1.1 x 1500 / (1.732 x 132) = 7.22 kA; study 7.21
+  the hand value is a little higher than the load flow: the
+  linear formula drops the second-order term (P X)^2 / 2,
+  which lowers the voltage - close enough to trust both

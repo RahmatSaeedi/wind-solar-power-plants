@@ -1,0 +1,21 @@
+% Chapter 9 - gain of the LCL filter of one stack (grid current over converter voltage, relative to
+% the low-frequency value), undamped, damped and an L-only filter of L1 + L2 (A-154).
+% Data: diagrams/data/ch09-lcl.csv (companion/ch09/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, xmode=log, width=116mm, height=66mm, xmin=10, xmax=10000, ymin=-80, ymax=40,
+      xlabel={بسامد، $\text{Hz}$}, ylabel={بهره، $\text{dB}$}, ytick={-80,-60,...,40},
+      log ticks with fixed point]
+    \addplot[sLimit] table[x=f, y=lonly, col sep=comma] {data/ch09-lcl.csv};
+    \addlegendentry{فقط سلف}
+    \addplot[sLoss] table[x=f, y=und, col sep=comma] {data/ch09-lcl.csv};
+    \addlegendentry{بی‌میرایی}
+    \addplot[sInk] table[x=f, y=damp, col sep=comma] {data/ch09-lcl.csv};
+    \addlegendentry{با مقاومتِ میرایی}
+    \draw[cRule, densely dotted] (axis cs:3000,-80) -- (axis cs:3000,40);
+    \node[note, anchor=south east] at (axis cs:2900,-78) {$f_\text{sw}$};
+    \node[note, text=cInk, anchor=south] at (axis cs:1252,26) {تشدید $1252\ \text{Hz}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

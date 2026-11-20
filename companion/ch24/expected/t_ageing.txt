@@ -1,0 +1,12 @@
+insulation life against conductor temperature (teaching rule:
+  life halves for every 8 K above 90 C, 40 years at 90 C):
+  conductor C   relative life   years
+           70            5.66      226
+           80            2.38       95
+           90            1.00       40
+           98            0.50       20
+          106            0.25       10
+  a cable that runs cooler than its limit most of the time
+  lasts longer; one pushed past it ages fast - the cyclic and
+  emergency ratings of lesson A spend this life on purpose,
+  so they are bounded in hours a year, not left open

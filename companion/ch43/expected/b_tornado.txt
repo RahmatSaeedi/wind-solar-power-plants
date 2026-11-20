@@ -1,0 +1,12 @@
+evaluated cost of the active part and its losses: 691 k u
+  input +-10 %          -10 % k u   +10 % k u
+  building factor             -29          29
+  steel W/kg                  -29          29
+  A factor                    -29          29
+  B factor                    -25          25
+  current density             -17          18
+  copper price                 -8           8
+  the no-load loss terms lead: steel quality and the building
+  factor (cutting and stacking, lesson C) move the evaluated
+  cost more than copper - a factory's core shop is where the
+  A factor is earned or lost

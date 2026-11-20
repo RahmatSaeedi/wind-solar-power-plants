@@ -1,0 +1,28 @@
+% Chapter 38 - deliverables from the load flow to the transformer order as bars over the design
+% weeks: critical tasks in red, the earthing study in blue with its five weeks of float dashed
+% (diagrams/data/ch38-cpm.csv from companion/ch38/examples_s.py, s_cpm; teaching).
+% Scale: 6 mm a week from week 10.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\footnotesize, x=6mm, y=-6.5mm,
+    crit/.style={fill=cLoss!75, draw=cLoss},
+    flo/.style={fill=cWind!70, draw=cWind},
+    lab/.style={anchor=west, text=cInk}]
+  \foreach \w in {10,12,...,26} {
+    \draw[cGridline] (\w-10,0.4) -- (\w-10,7.6);
+    \node[text=cMuted] at (\w-10,8.1) {\w};
+  }
+  \node[text=cInkB] at (8,8.8) {هفته};
+  % bars: start-10, length = weeks; row k
+  \draw[crit] (0,0.75) rectangle (3,1.25);   \node[lab] at (16.6,1) {پخشِ بار};
+  \draw[crit] (3,1.75) rectangle (5,2.25);   \node[lab] at (16.6,2) {اتصالِ کوتاه};
+  \draw[crit] (5,2.75) rectangle (7,3.25);   \node[lab] at (16.6,3) {مشخصهٔ ترانسفورماتور};
+  \draw[flo] (5,3.75) rectangle (9,4.25);
+  \draw[cWind, line width=0.8pt, dash pattern=on 3pt off 2pt] (9,4) -- (14,4);
+  \draw[cWind, line width=0.8pt] (14,3.8) -- (14,4.2);
+  \node[lab] at (16.6,4) {مطالعهٔ زمین (پنج هفته شناوری)};
+  \draw[crit] (7,4.75) rectangle (8,5.25);   \node[lab] at (16.6,5) {صدورِ درخواستِ پیشنهاد};
+  \draw[crit] (8,5.75) rectangle (14,6.25);  \node[lab] at (16.6,6) {ارزیابیِ پیشنهادها};
+  \draw[crit] (14,6.75) rectangle (16,7.25); \node[lab] at (16.6,7) {ثبتِ سفارش};
+\end{tikzpicture}}
+\end{document}

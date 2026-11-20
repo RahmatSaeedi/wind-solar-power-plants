@@ -1,0 +1,10 @@
+common-mode voltage on an analogue input (teaching)
+  50 V between field and panel earth during an earth fault
+  rejection dB   error mV   error % of a 4 V span
+            60      50.00        1.250
+            90       1.58        0.040
+           120       0.05        0.001
+  an isolated input with 120 dB rejection keeps the fault
+  out of the reading; a non-isolated input wired at both
+  ends would carry the fault current itself - the earthing
+  rules of lesson A apply before any rejection figure

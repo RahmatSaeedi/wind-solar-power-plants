@@ -1,0 +1,9 @@
+voltage window of the 110 V station battery (lead-acid, teaching):
+  55 cells x 2.0 V nominal = 110 V
+  float 2.23 V/cell = 122.7 V; equalise 2.33 V/cell = 128.2 V
+  end of discharge 1.75 V/cell = 96.2 V
+  window 88% to 116% of 110 V
+  every device on the DC board must work from the end of
+  discharge to the equalising voltage (the makers' ranges);
+  if one cannot, equalising is done with it disconnected or
+  the window is narrowed - a check, not an assumption

@@ -1,0 +1,11 @@
+decision gates of Plant P against the dossier items (teaching rule:
+a gate passes with conditions while its items carry open unknowns)
+  gate                   items          documents  unknowns
+  G1 screening           2,3                   18        19
+  G2 feasibility         1,2,3,4,5,13          98        93
+  G3 financeability      4,8,13,14             55        38
+  G4 final investment    6,7,9                108        39
+  G5 handover            10,11,12              51         9
+  no gate is clean: each carries unknowns that are conditions,
+  owned and dated - a gate is a decision taken with them, not
+  a claim that they are gone (ch 1, ch 22)

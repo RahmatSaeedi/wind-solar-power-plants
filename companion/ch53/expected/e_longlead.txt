@@ -1,0 +1,11 @@
+long-lead items: months to deliver and the chance a failure arrives
+  while one is on order (fleet rate x lead time)
+  item                    lead mo   failures/yr   P(another in lead)
+  main transformer            12         0.02             2%
+  132 kV breaker               9         0.02             1%
+  turbine main bearing         6         0.60            26%
+  BESS PCS                     5         2.00            57%
+  PV unit transformer          8         0.20            12%
+  the PCS reorders often (a fleet of 4 at 0.5 a year), the
+  transformer rarely - but each transformer month is half the
+  export (ch 52 lesson F): stock follows consequence, not count

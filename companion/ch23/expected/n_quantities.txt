@@ -1,0 +1,7 @@
+bounded cable quantities for the 33 kV collector:
+  route length 21.6 km of three-core cable; drums of 500 m
+  joints 38, terminations 52 (two per section)
+  with the route still +/- 15 %: 18.4 to 24.8 km
+  quantities are bounded, not exact, until the route survey;
+  the joints and terminations are where cable faults start,
+  so their count is a reliability number too (ch 24)

@@ -1,0 +1,9 @@
+two 63 MVA units in parallel (coupler closed), 100 MVA load:
+  z 12 % and 12.0 %:  50.0 and  50.0 MVA  (79% and 79% of rating)
+  z 12 % and 13.0 %:  52.0 and  48.0 MVA  (83% and 76% of rating)
+  z 12 % and 15.0 %:  55.6 and  44.4 MVA  (88% and 71% of rating)
+  at 126 MVA (both ratings) with 12 % and 15 %: 70.0 and 56.0 MVA
+    - the first is at 111% before the pair is full
+  the lower impedance takes more load; equal ratio, vector
+  group and close impedances are conditions of parallel
+  operation (Plant P runs them split, ch 23)

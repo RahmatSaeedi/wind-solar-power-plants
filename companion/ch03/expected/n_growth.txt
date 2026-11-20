@@ -1,0 +1,8 @@
+PV module degradation 0.5 % per year (assumed):
+  compound: 0.995^25 = 0.8822; linear 1 - 25 x 0.005 = 0.8750
+  mean output factor over 25 years (compound): 0.9422
+  years to lose 10 % (compound): ln(0.9)/ln(0.995) = 21.0
+BESS capacity fade 2 % per year (A-011), linear vs compound after 10 years:
+  linear 0.800; compound 0.98^10 = 0.8171
+cost escalation 3 % per year (assumed): price doubles in ln 2 / ln 1.03 = 23.4
+    years (rule of 72: 24)

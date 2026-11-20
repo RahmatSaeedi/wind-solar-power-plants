@@ -1,0 +1,6 @@
+pre-charge of the inverter DC link: 4 x 12 mF = 48 mF to 1100 V (A-166)
+  limit the current to 20 A: R = 55 ohm, tau = 2.64 s, 95 % after 7.9 s
+  energy stored 29.0 kJ; energy turned to heat in R also 29.0 kJ
+  (charging through a resistor always wastes as much as it stores)
+  without pre-charge: the inrush is limited only by cable and
+  contactor resistance: kiloamperes, welded contacts, blown fuses

@@ -1,0 +1,10 @@
+foundation options for PV posts (relative cost per post, teaching)
+  option                 cost   where it suits             evidence
+  driven C-post           1.0   dense sand, no rock        pull-out, lateral
+  ground screw            1.4   loose top layer, gravel    torque record, test
+  pre-drilled + grout     2.2   rock or cobbles            grout cubes, test
+  concrete footing        3.0   gypsum, saline zone        concrete records
+  the cheapest option is not cheap where it fails a test:
+  a site with three ground zones (ch 29) may use three
+  options, chosen block by block from the test programme -
+  and the posts' refusal depths are recorded as built

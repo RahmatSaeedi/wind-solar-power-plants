@@ -1,0 +1,9 @@
+scarf repair of a laminate, taper 1:50 (teaching; the maker's manual sets it)
+  skin mm   scarf length each side m   repair mass kg (1 m wide)
+        5                         0.25                         2.8
+       12                         0.60                        14.8
+       20                         1.00                        39.9
+  a gentle taper spreads the load over a long joint: a 20 mm
+  skin needs a repair a metre each side - which is why
+  structural repairs (category 4) leave the rope and go to the
+  ground, and why each repair's mass goes into the balance

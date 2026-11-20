@@ -1,0 +1,6 @@
+insulation resistance of one generator every six months (A-133):
+  raw readings range 176 to 7,029 Mohm (temperature swings it)
+  corrected to 40 C and fitted on years 0-7.5: decline 7.5 %/yr
+  first reading below 60 % of the trend: year 8.5
+  the raw values hide this: a summer reading looks low, a winter
+  one high; correct for temperature, then look at the trend

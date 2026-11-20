@@ -1,0 +1,13 @@
+background harmonics amplified at the 33 kV bus (teaching)
+  the grid brings a background voltage behind its impedance;
+  the bus voltage is that background times Z_bus / (h X)
+  order   cables only   with 5 Mvar capacitor   with filter
+      5          1.13                    1.85          0.28
+      7          1.30                   10.31          0.74
+     11          2.39                    0.81          1.24
+     13          5.39                    0.47          1.82
+  with the plain capacitor the 7th background is amplified
+  about tenfold: 0.6 % upstream becomes some 6 % at the bus,
+  without the plant emitting anything - the complaint of
+  lab C could come from a capacitor, not from the converters
+  the filter attenuates the 5th and 7th below 1

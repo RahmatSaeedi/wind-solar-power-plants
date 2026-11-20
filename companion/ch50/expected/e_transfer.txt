@@ -1,0 +1,10 @@
+normal-to-alternate supply transfer of the 400 V station board, limit 6 s
+  trial  time s
+      1     4.2
+      2     3.9
+      3     9.6  OVER
+      4     4.1
+  three trials pass and one takes 9.6 s: the transfer is not
+  accepted on its mean - the slow trial is the one the plant
+  will meet one night; its cause (a slow breaker spring, a
+  timer) is found and the four trials repeated

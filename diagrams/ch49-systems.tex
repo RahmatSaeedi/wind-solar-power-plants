@@ -1,0 +1,29 @@
+% Chapter 49 - systemization of PV block =PVF1-3: the block split into five subsystems, each with
+% its items, its check sheets and its own turnover package; two are ready, three are not
+% (companion/ch49/examples_c.py, mc_ready; sources ITEMS, PUNCH).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    n/.style={blk, minimum width=24mm, minimum height=9mm, align=center, text width=23mm,
+              font=\footnotesize},
+    ok/.style={n, draw=cPV, fill=cPV!12, line width=1pt},
+    no/.style={n, draw=cInkB, fill=white, dash pattern=on 4pt off 2pt},
+    it/.style={font=\scriptsize, align=center, text width=23mm, text=cInk}]
+  \node[n, draw=cPV, fill=cPV!9, text width=40mm] (b) at (6.0,0) {بلوکِ خورشیدیِ PVF1-3\\ (بخشی از سامانهٔ خورشیدی)};
+  \node[no] (dc)  at (12.0,-2.2) {زیرسامانهٔ DC\\ ناتمام};
+  \node[ok] (inv) at (9.0,-2.2)  {زیرسامانهٔ مبدّل\\ آماده};
+  \node[ok] (mv)  at (6.0,-2.2)  {زیرسامانهٔ MV\\ آماده};
+  \node[no] (aux) at (3.0,-2.2)  {زیرسامانهٔ کمکی\\ ناتمام};
+  \node[no] (ctl) at (0.0,-2.2)  {زیرسامانهٔ کنترل\\ ناتمام};
+  \foreach \k in {dc,inv,mv,aux,ctl} { \draw[draw=cInkB] (b.south) -- (\k.north); }
+  \node[it, below=2mm of dc]  {رشته‌ها، جعبه‌های ترکیب\\ برگهٔ A: ۷۵٪\\ یک بندِ A باز};
+  \node[it, below=2mm of inv] {ایستگاهِ مبدّل\\ برگهٔ A: ۱۰۰٪};
+  \node[it, below=2mm of mv]  {ترانسفورماتور و کلید\\ برگهٔ A: ۱۰۰٪};
+  \node[it, below=2mm of aux] {تغذیهٔ کمکی، UPS\\ برگهٔ A: ۵۰٪};
+  \node[it, below=2mm of ctl] {کنترل‌گر، سوئیچ\\ برگهٔ A: ۱۰۰٪\\ یک بندِ A باز};
+  \node[n, draw=cWind, fill=cWind!9, text width=46mm] (tp) at (7.5,-5.6)
+    {بستهٔ تحویل برای هر زیرسامانه\\ به گروهِ راه‌اندازی (فصلِ ۵۰)};
+  \draw[->, draw=cWind, line width=1pt] (inv.south) ++(0,-1.25) -- (tp.north -| inv.south);
+  \draw[->, draw=cWind, line width=1pt] (mv.south) ++(0,-1.25) -- (tp.north -| mv.south);
+\end{tikzpicture}
+\end{document}

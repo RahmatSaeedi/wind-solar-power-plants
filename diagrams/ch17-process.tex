@@ -1,0 +1,31 @@
+% Chapter 17 - a generic sequence of grid connection, flowing right to left in two rows; the names of
+% the steps and their order differ by country (chapters 28, 55-57); each step names its document.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    stp/.style={draw=cInk, fill=white, rounded corners=2pt, minimum width=22mm, minimum height=11mm,
+                align=center, text=cInk, text width=21mm},
+    doc/.style={font=\footnotesize, text=cInkB, align=center, text width=24mm}]
+  \foreach \i/\x/\s/\d in {1/12.0/{پرسش و دادهٔ اولیه}/{فهرستِ درخواست},
+                           2/9.0/{درخواستِ اتصال}/{پروندهٔ درخواست},
+                           3/6.0/{مطالعه‌های اپراتور}/{گزارشِ مطالعه},
+                           4/3.0/{پیشنهادِ اتصال}/{شرایط و هزینه},
+                           5/0.0/{قراردادِ اتصال}/{قرارداد و مرز}} {
+    \node[stp] (s\i) at (\x,0) {\s};
+    \node[doc, anchor=south] at (\x,0.7) {\d};
+  }
+  \foreach \i/\x/\s/\d in {6/12.0/{ساخت}/{نقشه‌های تأییدشده},
+                           7/9.0/{آزمون و راه‌اندازی}/{گزارش‌های آزمون},
+                           8/6.0/{اجازهٔ بهره‌برداری}/{گواهیِ پذیرش}} {
+    \node[stp] (s\i) at (\x,-3.0) {\s};
+    \node[doc, anchor=north] at (\x,-3.7) {\d};
+  }
+  \draw[flow] (s1.west) -- (s2.east);
+  \draw[flow] (s2.west) -- (s3.east);
+  \draw[flow] (s3.west) -- (s4.east);
+  \draw[flow] (s4.west) -- (s5.east);
+  \draw[flow] (s5.south) -- (0,-1.5) -- (12,-1.5) -- (s6.north);
+  \draw[flow] (s6.west) -- (s7.east);
+  \draw[flow] (s7.west) -- (s8.east);
+\end{tikzpicture}
+\end{document}

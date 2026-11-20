@@ -1,0 +1,15 @@
+records of the control system by class (synthetic counts)
+  record                              class      custodian          count
+  public project summary              public     communications          3
+  one-line and layout drawings        internal   document control      420
+  network diagrams, address plans     restricted OT lead                35
+  controller and relay configurations restricted control engineer      410
+  credentials and keys                secret     OT lead (vault)       260
+  historian data                      internal   control engineer        1
+  maintenance records                 internal   maintenance lead   18,000
+  vendor manuals                      internal   document control      900
+  the class decides who may read, copy and send a record;
+  network diagrams and configurations are restricted
+  because they describe how to reach and change the plant;
+  credentials live only in a managed vault. Every class
+  has a custodian who answers for it

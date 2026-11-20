@@ -1,0 +1,13 @@
+current chopping: a vacuum breaker opens an unloaded transformer
+  U = I_ch x sqrt(L/C) (teaching surge impedances)
+  chopped A   surge impedance ohm   overvoltage kV peak   vs 33 kV peak
+        1.0                  5000                   5.0             0.2 x
+        3.0                 10000                  30.0             1.1 x
+        3.0                 20000                  60.0             2.2 x
+        5.0                 20000                 100.0             3.7 x
+  the magnetising current is cut before its zero and the
+  transformer's magnetic energy rings into its capacitance:
+  several times the normal peak on a dry-type or cable-fed
+  transformer - wind farms switch many such transformers, so
+  surge arresters or RC snubbers at the unit transformers are
+  a common answer, decided with the makers' studies

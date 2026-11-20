@@ -1,0 +1,11 @@
+cap instructions against the 8 MW/min ramp limit of the controller
+  before  cap  allowed min  needed min
+      96   80           10         2.0
+     140   80           10         7.5
+     150   60           10        11.2  LATE
+     120  100            5         2.5
+     110   30           15        10.0
+  1 instruction(s) cannot be met at the ramp limit: whether a
+  cap overrides the ramp limit is the grid operator's rule;
+  the procedure states it, and the controller is set to
+  match - the first time is not the night it is needed

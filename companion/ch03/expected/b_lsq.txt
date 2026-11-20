@@ -1,0 +1,8 @@
+P_max of one module at six cell temperatures (synthetic test points), W:
+  T (C): 15 25 35 45 55 65
+  P (W): 568.8 550.3 531.5 510.3 493.2 473.3
+model P = p0 + p1 (T - 25); A = [1, T - 25]; normal equations A^T A c = A^T y
+  normal equations: p0 = 549.95 W, p1 = -1.9143 W/K
+  numpy lstsq:      p0 = 549.95 W, p1 = -1.9143 W/K
+  gamma = p1 / p0 = -0.3481 %/K (true -0.35 %/K)
+  residuals (W): -0.29 +0.35 +0.70 -1.36 +0.68 -0.08

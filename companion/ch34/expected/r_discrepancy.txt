@@ -1,0 +1,12 @@
+command against feedback: discrepancy timers (teaching)
+  device                         travel s   timer s   alarm
+  132 kV breaker close                0.1       0.5   failed to operate
+  motorised disconnector              8.0      15.0   failed to operate
+  HVAC damper                        60.0      90.0   failed to operate
+  coolant pump: flow proven           5.0      15.0   failed to operate
+  the same feedback, watched while no command is given,
+  catches an uncommanded change in one scan; without it, a
+  disconnector that opened by itself is found at the next
+  weekly round - 3.5 days later on average
+  timers sit between the slowest healthy travel and the
+  shortest time anyone would wait; both alarms are tested

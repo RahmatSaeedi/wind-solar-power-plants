@@ -1,0 +1,7 @@
+telemetry latency at the SAT: 400 changes timed from the POC to the
+  network operator's gateway (REQ-G17 teaching limit 2.0 s)
+  median 0.56 s, 95th 0.97 s, 99th 2.50 s, max 3.07 s
+  over the limit: 1.2% of changes
+  the median looks excellent; the tail is where a requirement
+  is met or missed - and the slow ones come every 97th change:
+  a periodic stall in the gateway (ch 35), not random noise

@@ -1,0 +1,12 @@
+transformer and export-bay basis of Plant P (D-029):
+  2 x 63 MVA 132/33 kV YNd11 ONAN/ONAF, z 12 %, OLTC +/-10 %
+    in 17 steps (range open to the grid study, U-096)
+  losses evaluated with A and B factors stated in the enquiry
+  unit transformers: oil-filled 5.5 MVA on the PV and battery
+    skids, dry-type 5.6 MVA in the turbine towers
+  containment for 110 % of the oil plus rain; separation,
+    detection and any suppression from the fire design (ch 31)
+  132 kV single bus with a bus disconnector; line bay E1 with
+    arresters, CTs and VTs for protection and revenue metering
+  dossier review rules: declared values, tolerances and the
+    decision for each failure written into the contract

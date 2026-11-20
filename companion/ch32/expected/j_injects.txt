@@ -1,0 +1,17 @@
+table-top of the winter night at T07: decisions and roles
+   min  decision                        owner  act  target  rec
+     0  start rescue, call ambulance    one      2       5  yes
+     5  move to the next link           two+     9       2  no
+    12  agree a second route            one     14      15  yes
+    20  report and record, no approach  one      3       5  yes
+    25  meet the ambulance at the gate  none    18      10  no
+    35  inform and log the call         none     6      10  no
+    75  hand over to the ambulance      one      1       5  yes
+   120  debrief and support the crew    one      -      60  no
+  1440  report with actions and owners  one    300     480  yes
+  decisions 9: one owner 6, none 2, two 1
+  acted within target: 6 of 9; recorded: 5 of 9
+  every late or missing action sits where the plan named no
+  owner or two: the link (each waited for the other), the
+  guide at the gate, the village call - and the debrief the
+  plan named but no one held

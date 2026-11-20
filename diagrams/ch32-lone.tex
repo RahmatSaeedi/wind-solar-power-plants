@@ -1,0 +1,14 @@
+% Chapter 32 - time until an injured lone worker is reached against the check-in interval: mean and
+% worst case including a 35-minute response (diagrams/data/ch32-lone.csv, examples_u; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0, xmax=250, ymin=0, ymax=290,
+      xlabel={فاصلهٔ اعلامِ حضور (دقیقه)}, ylabel={دقیقه تا رسیدنِ کمک},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sWind, mark=*, mark size=1.4pt] table[x=interval, y=mean, col sep=comma] {data/ch32-lone.csv};
+    \addplot[sLoss, mark=square*, mark size=1.3pt] table[x=interval, y=worst, col sep=comma] {data/ch32-lone.csv};
+    \legend{میانگین, بدترین حالت}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

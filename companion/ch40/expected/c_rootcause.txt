@@ -1,0 +1,15 @@
+root cause: five whys, then the categories
+  why 1: S-06 tripped on an LV busbar fault in its first July
+  why 2: a busbar joint overheated: its bolt was under-torqued
+  why 3: TW-14 read 12 % high after it was dropped on day 12
+  why 4: the drop went unreported; the daily check was skipped 4 days
+  why 5: no hold when a check was missing; no one reviewed the log
+  cause categories:
+    method       daily tool check with no hold when missing
+    measurement  joint resistance not measured at FAT
+    machine      wrench without drop indicator
+    people       no habit of reporting a dropped tool
+    management   FMEA rated detection 8 but no action was required
+  the root cause is in the system (no hold, no detection),
+  not in the person who dropped the tool; blaming the
+  person fixes nothing that the next drop will not repeat

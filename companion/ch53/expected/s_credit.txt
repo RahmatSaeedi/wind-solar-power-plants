@@ -1,0 +1,6 @@
+recycling 9,416 t of steel at closure, two accounting rules
+  cut-off: the credit goes to the next product: 0 t CO2e here
+  avoided burden: credit -14,124 t CO2e to this plant
+  the same steel, two numbers: the rule is stated, kept the same
+  for every option, and the credit is shown apart - never
+  netted silently (ch 33, ISO 14044 allocation)

@@ -1,0 +1,10 @@
+spares on site for a consumable through its lead time (Poisson)
+  item                       use a month   lead weeks   stock for 95 %
+  crane wire rope (sets)             0.1           10                1
+  hydraulic hoses                    2.0            3                4
+  torque tool pumps                  0.3            6                2
+  mats (damaged)                     1.5            4                4
+  a rarely used item with a long lead time still needs one
+  on site: one broken torque pump can stop the bolting of
+  a tower for six weeks - spares are priced against the
+  crane days they protect

@@ -1,0 +1,9 @@
+CT ratio error from a routine test (600/1, teaching limit 1 %):
+  primary A   secondary A   error %   within
+        600        0.9985     -0.15   yes
+        300        0.4991     -0.18   yes
+         60        0.0985     -1.50   NO
+  error = (Kn x Is - Ip) / Ip; a protection CT's accuracy
+  matters most at fault currents (its accuracy limit factor),
+  a metering CT's at load currents - two cores, two classes,
+  each proved by its own test record

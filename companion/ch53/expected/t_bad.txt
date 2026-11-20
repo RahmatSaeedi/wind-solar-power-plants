@@ -1,0 +1,8 @@
+energy lost by turbine in year 18 (MWh, all causes)
+  T01:310 T02:180 T03:640 T04:150 T05:520 T06:170
+  T07:590 T08:160 T09:200 T10:140 T11:190 T12:160
+  the three worst (T03, T07, T05) are 51% of the loss
+  a fleet decision is usually a few-turbine decision: the bad
+  actors get the intervention first - T03 (converter trips and
+  its pitch cabinet) and T07 (gearbox bearing) are stories of
+  ch 52, T05 the gearbox of the insurance lesson (E)

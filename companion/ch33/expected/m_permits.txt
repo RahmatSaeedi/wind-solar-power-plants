@@ -1,0 +1,16 @@
+environmental permits on the critical path (lead times are PLACEHOLDERS)
+  permit                          lead mo   needed by month   apply by
+  ESIA approval                         14                 0        -14
+  vegetation clearing                    3                 0         -3
+  heritage survey clearance              6                 2         -4
+  water abstraction                      8                 0         -8
+  waste and hazardous storage            4                 0         -4
+  wastewater discharge (camp)            5                 1         -4
+  aviation lighting approval             6                 9          3
+  operating environmental permit        10                18          8
+  month 0 is the start of works; the earliest application:
+  ESIA approval at month -14
+  the ESIA sets the pace: every other permit leans on it,
+  and the operating permit must be applied for before the
+  plant is half built - each row has an owner and a date in
+  the project schedule (ch 22, 49)

@@ -1,0 +1,8 @@
+the wall of a transformer bund full of oil and water (teaching)
+  height m   base moment kN m per m   wall t mm (rebar check)
+       0.6                     0.36          200 (As    9 mm2/m)
+       1.0                     1.67          200 (As   43 mm2/m)
+       1.5                     5.62          200 (As  144 mm2/m)
+  the hydrostatic load is small; the wall is sized by
+  crack control and watertightness, not strength - a bund
+  that leaks fails its only job (ch 29 sets its volume)

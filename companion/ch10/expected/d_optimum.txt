@@ -1,0 +1,11 @@
+optimal cleaning interval in the dry season,
+  T* = sqrt(2 C / (p E r eta)), eta = share of dirt removed
+  daily energy 309 MWh, price 50 u/MWh, rate 0.30 %/day (A-196):
+  method       cost/cleaning u   T* days   cost per day u   water m3
+  manual wet            38,220      41.0            1,864        164
+  truck wet             16,380      27.3            1,202        109
+  manual dry            13,104      25.8            1,017          0
+  robot dry              3,276      12.5              523          0
+  cleaning cost per day and lost energy per day are equal at T*;
+  the robot's low cost per pass halves the best interval; its
+  capital, maintenance and warranty acceptance decide (A-196)

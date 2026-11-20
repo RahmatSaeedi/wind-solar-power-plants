@@ -1,0 +1,9 @@
+serial defect clause: 3 or more of the same failure in 36 blades (teaching)
+  true failure share   chance the clause triggers
+                  1%                           1%
+                  3%                           9%
+                 10%                          71%
+  a clause that triggers by chance on a sound fleet is a
+  dispute; one that never triggers on a bad fleet is no
+  protection - the threshold is a sampling plan in a
+  contract and is judged by the same OC curve (ch 39)

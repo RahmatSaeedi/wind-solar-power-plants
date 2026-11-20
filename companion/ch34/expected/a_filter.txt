@@ -1,0 +1,10 @@
+a first-order filter: less noise, more delay (step at 2 s, noise sd 0.05)
+  tau s   noise sd after   time to 63 % s
+    0.0           0.0528             0.00
+    0.2           0.0087             0.20
+    0.5           0.0045             0.50
+    2.0           0.0017             2.00
+  each filter in the chain adds its delay to the loop: the
+  0.5 s of the chain is the delay chapter 20 found tolerable
+  for the tuned plant controller; a 2 s filter would push
+  the loop toward the oscillation chapter 20 showed

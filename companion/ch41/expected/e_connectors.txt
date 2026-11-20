@@ -1,0 +1,10 @@
+connector pairs in Plant P: about 117,600 (teaching)
+  pair                          contact mOhm   heat W   rise K
+  same maker and type                   0.25     0.04      1.1
+  cross-mated, new                      1.50     0.26      6.4
+  cross-mated, aged                    10.00     1.72     43.0
+  the energy is small; the heat is not: an aged mixed pair
+  runs tens of kelvin hotter inside a plastic body, and a
+  joint that opens under load arcs - pairs of one maker and
+  type (IEC 62852), crimped with that maker's tool, and the
+  module's connector type is fixed in the purchase order

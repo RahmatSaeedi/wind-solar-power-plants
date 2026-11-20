@@ -1,0 +1,9 @@
+laboratory compaction test of the pad fill (five points, synthetic)
+  moisture %     6.0    8.0   10.0   12.0   14.0
+  dry t/m3      1.86   1.95   1.99   1.96   1.88
+  parabola fit: maximum dry density 1.987 t/m3 at 10.2 % moisture
+  95 % of the maximum (1.887 t/m3) is reachable only between 6.5 and 13.9 %
+  outside that window no number of roller passes gives 95 %;
+  in a desert summer the fill dries in hours - water is
+  added and mixed just before rolling, and the field test
+  records moisture as well as density

@@ -1,0 +1,11 @@
+a 200 ms window (5 Hz bins) on a 49.8 Hz signal with a 5th harmonic
+  of 1.2 % and an interharmonic of 0.3 % at 182 Hz (teaching):
+  window                      bin 250 Hz %   bin 180 Hz %   largest stray %
+  synchronised to 49.8 Hz             1.21           0.21              0.01
+  fixed at 50 Hz                      1.26           0.38              0.15
+  a window that is not exactly ten cycles of the actual
+  frequency smears the fundamental into its neighbours and
+  spills into the harmonic and interharmonic bins; the
+  measurement method (STD-035) locks the window to the
+  measured frequency and groups the bins - an instrument
+  that does not is not comparable

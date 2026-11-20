@@ -1,0 +1,22 @@
+% Chapter 5 - layout of a spreadsheet used as an engineering model: inputs, calculation,
+% outputs and checks kept apart; companion/ch05/examples_sheet.py (A-096).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \node[blkLoad, minimum width=46mm, minimum height=30mm, align=center] (in) at (11.2,0)
+    {ورودی‌ها \texttt{B2:B6}\\[2pt]\footnotesize ظرفیت، ضریب‌ها، ساعت‌ها\\\footnotesize هر کدام با یکا و منبع\\\footnotesize سلول‌های رنگی، بدونِ فرمول};
+  \node[blk, minimum width=46mm, minimum height=30mm, align=center] (calc) at (5.6,0)
+    {محاسبه \texttt{C9:C20}\\[2pt]\footnotesize یک فرمول برای همهٔ سطرها\\\footnotesize فقط ارجاع، بدونِ عددِ تایپی\\\footnotesize قفل‌شده};
+  \node[blkBESS, minimum width=46mm, minimum height=30mm, align=center] (out) at (0,0)
+    {خروجی‌ها \texttt{C21:C22}\\[2pt]\footnotesize جمعِ سالانه، ضریبِ ظرفیت\\\footnotesize با یکا در برچسب};
+  \node[blkWarn, minimum width=103mm, minimum height=12mm, align=center] (chk) at (5.6,-3.0)
+    {وارسی‌ها: جمعِ ماه‌ها = مقدارِ بستهٔ داده؛ ضریبِ ظرفیت میانِ ۰ و ۱؛ یک محاسبهٔ دستی؛ مقایسه با برنامه};
+  \draw[flow] (in) -- (calc);
+  \draw[flow] (calc) -- (out);
+  \draw[flowinfo] (calc.south) -- (calc.south |- chk.north);
+  \draw[flowinfo] (out.south) -- (out.south |- chk.north);
+  \node[note, anchor=south] at (5.6,1.75) {جریانِ داده فقط در یک جهت: از ورودی به محاسبه و از محاسبه به خروجی};
+  \node[note, anchor=north, text width=110mm] at (5.6,-3.8)
+    {برگهٔ جدا برای «سابقهٔ تغییرات»: تاریخ، تغییردهنده، سلول، مقدارِ پیشین، دلیل. نام‌گذاری برای سلول‌های کلیدی (مثلاً \texttt{dc\_mwp}) فرمول را خوانا می‌کند.};
+\end{tikzpicture}}
+\end{document}

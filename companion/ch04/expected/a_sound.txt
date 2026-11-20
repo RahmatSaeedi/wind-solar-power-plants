@@ -1,0 +1,8 @@
+sound power 105 dB(A) per turbine (assumed, as in chapter 3); spherical
+    spreading only:
+    150 m: Lp = 105 - 20 log10 r - 11 = 50.5 dB(A)
+    300 m: Lp = 105 - 20 log10 r - 11 = 44.5 dB(A)
+    500 m: Lp = 105 - 20 log10 r - 11 = 40.0 dB(A)
+   1000 m: Lp = 105 - 20 log10 r - 11 = 34.0 dB(A)
+  every doubling of distance: -6 dB; ground, air absorption, screening and
+    the governing assessment method change these numbers (chapter 33)

@@ -1,0 +1,11 @@
+construction noise at the village 1.2 km away (point source, teaching)
+  Lp = Lw - 20 log10(r) - 11 (free field, no screening)
+  source                          Lw dB(A)   at 1.2 km   period
+  pile driver for PV posts              115          42   day
+  concrete batching                     105          32   day
+  night concrete pour (pumps)           100          27   night
+  trucks on the haul road                95          22   day
+  the pile driver is heard in the village by day; a night
+  pour reaches about 27 dB(A), audible in a quiet desert
+  night - the limits come from the permit (ch 33), and
+  night work near the village is agreed and announced

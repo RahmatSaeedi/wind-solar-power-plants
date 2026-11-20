@@ -1,0 +1,19 @@
+periodic maintenance record of the protection (concept):
+  item: when; record
+  relay self-supervision alarms:
+    continuous; SCADA alarm log
+  trip-circuit supervision:
+    continuous; alarm, monthly check
+  secondary injection of protection:
+    every 4-6 years (teaching); test record
+  breaker timing and operation:
+    with the breaker's maintenance; test record
+  CT and VT checks:
+    after any work on them; test record
+  event and disturbance records:
+    after every trip; analysis note
+  setting file checksum:
+    yearly and after changes; configuration record
+  intervals come from the makers and the owner's maintenance
+  policy (ch 52); the record shows the system is still the
+  one that was approved

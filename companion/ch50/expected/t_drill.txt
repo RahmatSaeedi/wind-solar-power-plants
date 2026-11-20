@@ -1,0 +1,10 @@
+night drill: the fire service called to the substation (times in min)
+  call to dispatch       9
+  travel 35 km          41
+  site gate to scene    12
+  set-up                 6
+  total 68 min against the 53 min planned (ch 32 placeholders)
+  the 12 gate-to-scene minutes are the plant's own: an escort
+  waiting at the gate and a lit route save most of them; the
+  fire strategy uses the measured time, not the planned one
+  (U-110)

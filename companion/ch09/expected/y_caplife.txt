@@ -1,0 +1,11 @@
+film capacitor life (teaching law, A-176):
+  L = L0 x 2^((T0 - T)/10) x (V0/V)^7
+  L0 100,000 h at 70 C hot spot and rated voltage
+  hot spot 60 C, voltage x 1.0:   200,000 h ( 22.8 years at full stress)
+  hot spot 70 C, voltage x 1.0:   100,000 h ( 11.4 years at full stress)
+  hot spot 80 C, voltage x 1.0:    50,000 h (  5.7 years at full stress)
+  hot spot 85 C, voltage x 1.0:    35,355 h (  4.0 years at full stress)
+  hot spot 70 C, voltage x 1.1:    51,316 h (  5.9 years at full stress)
+  ten kelvin halve the life and ten per cent overvoltage halves
+  it again: the ripple current (heat) and the DC voltage window
+  of section B set the capacitor's life

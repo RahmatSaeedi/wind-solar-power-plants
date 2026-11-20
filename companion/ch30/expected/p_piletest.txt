@@ -1,0 +1,20 @@
+reading a static load test on a 0.6 m pile, 14 m long (synthetic)
+  load kN   settlement mm   offset line mm
+        0             0.0              9.0
+      300             0.8              9.5
+      600             1.1             10.0
+      900             2.1             10.5
+     1200             3.2             11.0
+     1500             5.1             11.5
+     1800             6.9             12.0
+     2100            10.8             12.5
+     2400            15.4             13.0
+     2700            22.4             13.5
+     3000            31.4             14.0
+     3300            43.8             14.4
+     3600            59.7             14.9
+  elastic line PL/AE plus 4 mm + D/120 = 9.0 mm (Davisson)
+  the curve crosses it at about 2,222 kN: the pile's capacity
+  the method gives one defined number from a curve that
+  bends gradually; the test pile, its loading steps and the
+  method are named in the test specification before the test

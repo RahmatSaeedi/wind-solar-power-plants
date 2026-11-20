@@ -1,0 +1,11 @@
+incoming sampling of crimp lugs (lot 2,000; AQL 1 %, LTPD 5 %;
+producer's risk 5 %, consumer's risk 10 %)
+  smallest plan that meets both: n = 132, accept if <= 3
+  plan       P(accept) at 1 %   at 5 %
+  n=132 c=3        0.956    0.099
+  n= 50 c=1        0.911    0.279
+  n= 20 c=0        0.818    0.358
+  the small plans look strict but let most bad lots through;
+  sampling protects against bad lots, not bad pieces - a
+  critical crimp is controlled at the press (die check), not
+  only by sampling what arrives

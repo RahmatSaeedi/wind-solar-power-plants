@@ -1,0 +1,8 @@
+E01 PV of 50 k u a year for 5 years at 7.5 %: 202.3 k u
+E02 EAC of 1,000 k u over 10 years at 7.5 %: 145.7 k u
+E03 memoryless: P(1,000 h more) at MTBF 10,000 h = 0.905
+E04 sinking fund for 1,000 k u in 10 years at 4 %: 83.3 k u
+E05 0.4 %/yr degradation over 25 years: 90% of nameplate
+E06 19,670 t at 25 t a load: 787 loads
+E07 1,000 t CO2e over 2,000,000 MWh: 0.50 g/kWh
+E08 avoided emissions 255,000 MWh x 0.55 t/MWh: 140,250 t

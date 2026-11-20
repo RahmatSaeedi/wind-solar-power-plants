@@ -1,0 +1,13 @@
+substation delivery and installation sequence (teaching)
+  1. [H] civil works, plinths and bunds accepted (ch 29)
+  2. [H] earthing grid installed and tested (ch 26)
+  3. [H] main transformer delivered, impact recorder read
+  4. [W] transformer jacked and skidded onto the plinth
+  5. [W] bushings, radiators, conservator fitted
+  6. [H] oil filled under vacuum, samples taken
+  7. [W] switchgear and gantries erected
+  8. [H] cable terminations by qualified jointers
+  9. [H] handover to testing and commissioning (ch 50)
+  the transformer arrives without oil (72 t, ch 25) and is
+  skidded rather than lifted when a crane cannot reach;
+  each step is a work package with its own approval

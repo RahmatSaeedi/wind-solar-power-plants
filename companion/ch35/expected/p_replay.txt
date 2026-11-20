@@ -1,0 +1,7 @@
+a queue replayed after a 3-day outage (synthetic)
+  messages queued: 2,880; acknowledgements lost: 78
+  without message IDs: 78 work requests booked twice
+  with message IDs: 0 - the receiver recognises the repeat
+  and acknowledges it again without booking it
+  'at least once' delivery needs an idempotent receiver;
+  the ID is set at the source and never changes on the way

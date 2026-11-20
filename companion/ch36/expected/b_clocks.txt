@@ -1,0 +1,6 @@
+comparing logs from two devices (teaching)
+  an unsynchronised clock at 20 ppm drifts 52 s in 30 days
+  a login on the jump host and a change on a controller then
+  appear in the wrong order, or a minute apart when they were
+  seconds apart; every device that logs takes its time from
+  the plant's clocks (ch 35), and the log keeps the time base

@@ -1,0 +1,10 @@
+when the wind produces, by hub height (true mast year, 12 turbines,
+  pack curve at 1.225 kg/m3, PV from the screening model):
+  hub m   wind GWh   night share   in PV hours   curtailed at 100 MW
+    60      176.6       43.6 %        46.5 %       0.17 GWh
+   100      218.0       46.4 %        43.9 %       0.25 GWh
+   150      250.5       47.7 %        42.6 %       0.32 GWh
+  a taller hub adds more of its energy at night, when the stable
+  shear is large and the PV is off: the hybrid's profile fills;
+  curtailment stays near a tenth of a per cent of the wind energy;
+  a reason to measure the shear by hour (chapter 17 uses it)

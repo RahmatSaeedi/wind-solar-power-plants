@@ -1,0 +1,10 @@
+damping against vortex shedding: the Scruton number (bare tower)
+  Sc = 2 m delta / (rho D^2), delta = 2 pi zeta (log decrement)
+  case                           zeta     Sc     relative amplitude
+  bare steel tower                0.002     8.6                 1.00
+  with temporary damper           0.010    43.1                 0.20
+  tuned mass damper               0.040   172.4                 0.05
+  the vortex amplitude falls roughly as 1/Sc: a damper that
+  raises damping fivefold cuts the swing to a fifth - which
+  is how the maker's procedure may allow a bare tower to
+  stand overnight (lesson A); without it, a wind limit applies

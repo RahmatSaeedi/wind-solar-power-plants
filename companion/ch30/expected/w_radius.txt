@@ -1,0 +1,12 @@
+base radius the 1P margin needs at T07 (G 25 MPa, 10 %, 271 t)
+  base case: r = 12.00 m (diameter 24.0 m)
+  input changed            r low m   r high m
+  soil G -30 % / +30 %        13.51      10.99
+  margin 8 % / 11 %            9.42      15.24
+  top mass -5 % / +5 %        11.84      12.15
+  the margin rule moves the radius most - 11 % instead of
+  10 % needs a far larger base, and at 12 % even a rigid base
+  fails (0.192 x 1.12 = 0.21504 Hz, above the fixed 0.215):
+  then only a stiffer tower helps. Soil stiffness comes
+  next; the top mass barely matters - the maker's margin
+  and the measured stiffness are the numbers worth paying for

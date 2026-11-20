@@ -1,0 +1,15 @@
+% Chapter 47 - torque tube of tracker row R-17 surveyed every 6 m, against the chord between its ends
+% (teaching; companion/ch47/examples_b.py, tracker -> diagrams/data/ch47-tube.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=52mm, xmin=0, xmax=60, ymin=-2, ymax=22,
+      xlabel={فاصله در طولِ ردیف (m)}, ylabel={انحراف (mm)}, xtick={0,6,...,60}]
+    \addplot[sWind, mark=*, mark size=1.4pt] table[x=x, y=y, col sep=comma] {data/ch47-tube.csv};
+    \draw[cInk!60, dashed] (axis cs:0,0) -- (axis cs:60,0.4);
+    \draw[cLoss, line width=0.8pt, <->] (axis cs:30,0.2) -- (axis cs:30,18.9);
+    \node[note, anchor=west, text=cLoss] at (axis cs:31,10) {$18.7\,\mathrm{mm}$};
+    \node[note, anchor=south] at (axis cs:48,0.5) {وتر};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

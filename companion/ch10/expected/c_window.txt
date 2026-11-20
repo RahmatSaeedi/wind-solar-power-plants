@@ -1,0 +1,9 @@
+the DC window of D-012 rechecked with POA and Faiman (U-032):
+  string V_mp: min 906 V, median 1041 V
+  600 V (floor 933 V):   17 h, 0.000 % of DC energy
+  630 V (floor 980 V):  405 h, 0.052 % of DC energy
+  690 V (floor 1073 V): 3167 h, 4.912 % of DC energy
+  more light on the tilted plane, but the Faiman model with wind
+  runs cooler than the NOCT rule of chapter 9: fewer hours fall
+  below the floor; D-012 holds with more margin, and 690 V would
+  still lose about a twentieth of the energy

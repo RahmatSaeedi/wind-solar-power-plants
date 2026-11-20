@@ -1,0 +1,28 @@
+% Chapter 13 - mean diurnal cycle of the Plant P mast: speed at 60 and 100 m (top) and the shear
+% exponent from the two heights (bottom), synthetic mast year (A-250).
+% Data: diagrams/data/ch13-diurnal.csv (companion/ch13/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=112mm, height=50mm, xmin=0, xmax=23, ymin=5.5, ymax=8.2,
+      xticklabels={}, xtick={0,3,...,21}, ylabel={تندیِ میانگین، $\text{m/s}$},
+      ytick={5.5,6,...,8}, legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[sWind] table[x=hour, y=v100, col sep=comma] {data/ch13-diurnal.csv};
+    \addlegendentry{$100\ \text{m}$}
+    \addplot[sInk, dash pattern=on 4pt off 2pt] table[x=hour, y=v60, col sep=comma]
+      {data/ch13-diurnal.csv};
+    \addlegendentry{$60\ \text{m}$}
+    \node[note, anchor=south] at (axis cs:12.5,6.75) {روز: دو ارتفاع نزدیکِ هم};
+    \node[note, anchor=south] at (axis cs:3,7.95) {شب: بادِ بالا تند};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south west)}, anchor=north west, yshift=-6mm, width=112mm,
+      height=44mm, xmin=0, xmax=23, ymin=0, ymax=0.4, xlabel={ساعتِ روز},
+      ylabel={نمای برش}, xtick={0,3,...,21}, ytick={0,0.1,...,0.4},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1}]
+    \addplot[sLoss, mark=*, mark size=1.3pt, mark options={solid}]
+      table[x=hour, y=alpha, col sep=comma] {data/ch13-diurnal.csv};
+    \draw[sLimit] (axis cs:0,0.233) -- (axis cs:23,0.233);
+    \node[note, anchor=south] at (axis cs:12.5,0.24) {میانگینِ سالانه $0.233$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,14 @@
+% Chapter 35 - a 0.08 Hz power oscillation of 2 MW and the same signal sampled every 10 s, which shows a
+% slow wave of the wrong frequency (examples_q, diagrams/data/ch35-alias*.csv; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=200, ymin=-2.6, ymax=3.4,
+      xlabel={زمان (s)}, ylabel={نوسانِ توان (MW)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sLimit, no marks, restrict x to domain=0:200] table[x=t, y=x, col sep=comma] {data/ch35-alias-true.csv};
+    \addplot[sLoss, mark=*, mark size=1.5pt, restrict x to domain=0:200] table[x=t, y=x, col sep=comma] {data/ch35-alias.csv};
+    \legend{نوسانِ واقعی، $0.08\,\mathrm{Hz}$, نمونه هر $10\,\mathrm{s}$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

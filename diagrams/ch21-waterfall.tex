@@ -1,0 +1,25 @@
+% Chapter 21 - the cash-flow waterfall of the project company (flows right to left): revenue, then
+% operating costs, replacements and tax, working capital, CFADS, senior debt service, reserves,
+% and what is left for the owners (subject to the lock-up test). Teaching order.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=24mm, minimum height=11mm, align=center, text width=23mm}]
+  \node[b, draw=cPV, fill=cPV!9] (rev) at (12.6,0) {درآمد};
+  \node[b] (op) at (9.45,0) {هزینهٔ بهره‌برداری، جایگزینی، مالیات};
+  \node[b] (wc) at (6.3,0) {سرمایهٔ در گردش};
+  \node[b, draw=cInk, fill=cInk!8] (cf) at (3.15,0) {CFADS};
+  \node[b, draw=cBESS, fill=cBESS!10] (ds) at (3.15,-2.2) {خدمتِ بدهی: بهره و اصل};
+  \node[b, draw=cBESS, fill=cBESS!10] (rs) at (0,-2.2) {پر کردنِ اندوخته‌ها (DSRA)};
+  \node[b, draw=cLoss, fill=cLoss!7] (lk) at (0,0) {آزمونِ قفل: DSCR بالای حد؟};
+  \node[b, draw=cLoad, fill=cLoad!8] (eq) at (-3.15,0) {سهم‌داران};
+  \draw[flow] (rev.west) -- (op.east);
+  \draw[flow] (op.west) -- (wc.east);
+  \draw[flow] (wc.west) -- (cf.east);
+  \draw[flow] (cf.south) -- (ds.north);
+  \draw[flow] (ds.west) -- (rs.east);
+  \draw[flow] (rs.north) -- (lk.south);
+  \draw[flow] (lk.west) -- node[above, note] {بله} (eq.east);
+  \node[note, text width=30mm] at (0,1.25) {اگر نه: پول در حساب می‌ماند};
+\end{tikzpicture}
+\end{document}

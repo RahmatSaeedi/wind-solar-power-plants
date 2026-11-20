@@ -1,0 +1,10 @@
+the same fleet and the same failure process, 400 simulated years
+  fleet availability: mean 98.56 %, 5th percentile 98.26 %
+  years below a 98.5 % guarantee: 37.2 %
+  years below a 98.3 % guarantee: 7.2 %
+  years below a 98.0 % guarantee: 0.0 %
+  nothing changed from year to year except chance: a
+  guarantee set near the mean is missed in many years by a
+  fleet doing nothing wrong. The guarantee level, its
+  measurement period and any averaging over years are a
+  commercial choice made with this spread in view

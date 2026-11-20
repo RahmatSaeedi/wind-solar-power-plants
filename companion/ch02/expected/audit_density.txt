@@ -1,0 +1,9 @@
+comment C-05: the power curve is for 1.225 kg/m3; Plant P is at 1200 m
+hourly density from 2 m data: mean 1.056 kg/m3 (range 0.972 .. 1.153)
+estimated at 100 m (lapse 6.5 K/km, scale height 8.4 km): mean 1.046 kg/m3
+first-order correction: v_eq = v (rho / 1.225)^(1/3), then the power curve
+  wind energy with 2 m density:   177,082 MWh (-8.0 %)
+  wind energy with 100 m density: 176,107 MWh (-8.5 %)
+  plant total would fall to about 273 GWh/yr
+decision: kept outside the screening model; recorded as limitation L-2,
+    unknown U-013 and assumption A-028; modelled in chapters 4, 11 and 15

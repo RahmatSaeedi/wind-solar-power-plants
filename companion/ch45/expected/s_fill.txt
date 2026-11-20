@@ -1,0 +1,9 @@
+electrolyte fill weight relative to target (teaching limits 0.985 - 1.015),
+  80 cells
+  mean 0.9959, sd 0.0061: Cp 0.82, Cpk 0.60
+  cells under the lower limit in the sample: 1; expected share 3.61%
+  an under-filled cell passes formation and loses capacity
+  faster; each cell is weighed before and after filling and
+  both weights stay in its record; Cpk 0.60: the line fills
+  light and wide - the low side matters more than the high,
+  so the mean is centred first, then the spread narrowed

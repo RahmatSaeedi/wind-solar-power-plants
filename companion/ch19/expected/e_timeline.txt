@@ -1,0 +1,15 @@
+teaching timeline of a cell event in a module (A-294):
+  detection layer               minutes after the first vent
+  BMS (voltage, temperature)        -10
+  off-gas detector                    1
+  smoke detector                      5
+  heat detector                      15
+  design                    minutes per cell   to the module edge
+  no barriers                        3                78
+  cell barriers                     20               520
+  cell barriers, cooled             45              1170
+  the earlier layers buy time for isolation and for the
+  emergency plan; the barrier buys time for everything else;
+  the event may also stop by itself between cells; only
+  product tests show which (UL 9540A, NFPA 855 as examples of
+  what is asked; the authority decides what applies)

@@ -1,0 +1,11 @@
+lifting index of a PV module (revised lifting equation, teaching)
+  module 32 kg; load constant 23 kg
+  case                                       RWL kg   load kg   index
+  one person, module from pallet to table       6.2      32.0    5.20
+  two persons, same lift                        6.2      16.0    2.60
+  two, held close, pallet at 75 cm, no twist   17.6      16.0    0.91
+  one person carrying a module from a low pallet is far
+  above 1; two people halve it but stay above 1; holding
+  it close, raising the pallet and cutting the twist bring
+  it under 1 - the layout of the work, not the strength
+  of the worker, is the control (modules crack if bent)

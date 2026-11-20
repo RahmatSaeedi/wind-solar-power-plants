@@ -1,0 +1,26 @@
+P01 1,200 MVA, X/R 10 on 100 MVA: |z| 0.0833, R 0.00829, X 0.0829 pu
+P02 fault current at 132 kV, 1,200 MVA: 5.25 kA; with c 1.1 5.77
+P03 SCR of a 120 MW plant on 900 MVA: 7.5
+P04 rise for 60 MW at Q = 0 on 900 MVA, X/R 6: 1.10 %
+P05 Q that cancels it: -P/(X/R) = -10 Mvar
+P06 ESCR, 900 MVA with 20 Mvar of shunt, 100 MW: 8.8
+P07 WSCR, 100 MW at 1,500 and 100 MW at 1,000 MVA: 6.25
+P08 blind zone dP/P for 0.90-1.10 pu: -0.174 to +0.235
+P09 blind zone dQ/P for 49.5-50.5 Hz, quality factor 2: -0.0406 to +0.0394
+P10 extra current after a 15 deg jump, x 0.2: 1.305 pu
+P11 surge on closing at 8 deg through 0.25 pu: 0.557 pu
+P12 slip 0.15 Hz, +/-10 deg window: 0.37 s
+P13 initial RoCoF, 300 MW lost of 5,000 MW, H 5: -0.30 Hz/s
+P14 settled deviation, 20 % on 5 % droop, D 1: -0.60 Hz
+P15 apparent R, 2 ohm fault, infeed ratio 10: 22 ohm + line R
+P16 line current, 80 MW at 132 kV, unity pf: 350 A
+P17 load losses at 80 % against 100 %: 0.64
+P18 no-load losses of 199 kW for a year: 1.74 GWh
+P19 two transformers, 0.01 failures/yr, 720 h: 0.16 %
+P20 810 MWh at 70 u/MWh: 57 k u
+P21 latency with a 0.5 s scan (rest as c_restore): 1.5 s
+P22 30 MW change at 10 MW/min: 3 min
+P23 reconnection loss at 50 MW, 60 s, 10 %/min: 2.9 MWh
+P24 loop gain ki/S_sc, 1,500 on 300 and on 1,500 MVA: 5 and 1 1/s
+P25 reactive current, k 2 at 0.6 pu: 0.8 pu
+P26 dip 0.5 with k 2 and x 0.1: 0.583 pu

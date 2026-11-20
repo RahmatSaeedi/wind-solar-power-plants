@@ -1,0 +1,28 @@
+D-038 instrumentation and control basis of Plant P (teaching)
+  1 measurement: 4-20 mA with live zero and quality (3.6-21 mA),
+    POC voltage from a class 0.2 VT core, synchronised clocks with
+    a 'synchronised' flag on every time stamp, calibration
+    intervals from recorded drift
+  2 control: protection never in the PLC; PLC 50 ms scan; PPC
+    cycle <= tau / 4 with its computing delay; permissives fail
+    safe on bad quality; heartbeat watchdog set from the measured
+    packet loss; redundant PLC pair in separate cabinets
+  3 design: I/O list with checker, control C&E with a test per
+    effect, configuration fingerprints, FAT with a punch list
+  4 control power: 24 V from the 110 V battery, far-panel DC
+    feeders sized at end-of-discharge voltage (10 mm2, not 2.5),
+    cabinet temperature alarmed, written restart sequence
+  5 fire interface: hard-wired, normally closed, independent of
+    the PLC; acknowledge at the HMI, reset at the fire panel
+  6 grid services: set points validated, held when stale, fallback
+    after 1 h (ch 20), modes enabled only when required or offered
+  7 later findings: metering/control CT core of an extended-range
+    class (night current 1.5 % of rated); PPC cycle <= 0.66 s for
+    a 45 deg phase margin; short pulses latched, never scanned;
+    bumpless transfer by tracking and a ramped set point; the
+    POC transducer and self-holding pump contactors on DC so
+    the plant does not trip on its own auxiliaries after a
+    fault; POC measured in the grid bay or corrected by a line
+    model (D-021); supplies replaced on a set interval
+  open: grid operator's interface requirements (U-115), makers'
+    I/O and accuracy data (U-116)

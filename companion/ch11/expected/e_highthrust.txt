@@ -1,0 +1,13 @@
+thrust coefficient against axial induction (F = 1):
+  a      momentum 4a(1-a)   Buhl (used by the BEM code)
+  0.200  0.640              0.640
+  0.333  0.889              0.889
+  0.400  0.960              0.960
+  0.500  1.000              1.056
+  0.600  0.960              1.182
+  0.800  0.640              1.529
+  1.000  0.000              2.000
+  momentum theory says thrust falls after a = 0.5; measured
+  rotors show it keeps rising (turbulent wake state)
+  rotor at TSR 12 (low wind, high speed): 22 of 40 annuli above a = 0.4
+  the correction keeps the iteration from a false solution

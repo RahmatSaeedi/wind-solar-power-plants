@@ -1,0 +1,8 @@
+$ python -m companion.ch05.check_all
+[PASS] data pack checksums
+[PASS] generator reproduces 1.0.0 - release 1.0.0: 16 files identical
+[PASS] generator reproduces 1.1.0 - release 1.1.0: 22 files identical
+[PASS] unit and property tests - 37 passed
+[PASS] regression against reference_S0.json - 6 values
+RESULT: release may proceed
+[exit code 0]

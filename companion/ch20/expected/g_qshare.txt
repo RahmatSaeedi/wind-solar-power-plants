@@ -1,0 +1,10 @@
+sharing a reactive set point among the units by capability:
+  plant P  battery P  ask Mvar   WTG     PV   BESS   met
+       60          0        20    7.1    5.8    7.1   yes
+      100          0        30   10.7    8.7   10.6   yes
+      100         20        30   13.4   11.0    5.6   yes
+      110         20        40   17.9   14.7    7.4   yes
+  (at the units, before the losses of chapter 18)
+  shares proportional to capability keep every unit equally
+  far from its limit; a discharging battery has little Mvar
+  left: at 20 MW its 4 x 5.5 MVA give 9.2 Mvar instead of 22

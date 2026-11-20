@@ -1,0 +1,10 @@
+main transformer T1 differential at first load (30% of rating);
+  pickup 0.2 pu (ch 26 teaching setting)
+  case                       HV pu   LV pu   differential pu
+  CTs as designed              0.30    0.30       0.00
+  one LV CT set reversed       0.30   -0.30       0.60  TRIPS
+  LV CT ratio one step off     0.30    0.28       0.02
+  a reversed CT doubles the load into the differential: at 30 %
+  load it would trip; the commissioning reading at low load
+  (the relay's own differential and restraint values) finds
+  it before the load does - the same lesson as ch 48's meter

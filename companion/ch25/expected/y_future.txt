@@ -1,0 +1,19 @@
+room kept for the later battery (S0 now, S1 later; D-025):
+  item                         S0 build          kept for S1
+  33 kV bays                   WS1-3, PVF1-3     BESS-A, BESS-B (spare bays)
+  bus sections                 split bus         a battery feeder on each
+  main transformers            2 x 63 MVA        no change (below)
+  site area                    fenced plot       platform for 4 containers
+  earthing                     station grid      grid extended to the plot
+  auxiliary supply             SST 250 kVA       HVAC supply (below)
+  control                      PPC, SCADA        points reserved
+  the main transformers need no change: export stays capped at
+  100 MW at the POC, and a battery charging from PV inside the
+  plant does not pass through them; charging from the grid
+  imports at most 20 MW - far below their rating
+  the auxiliary supply does change: 8 containers x 40 kW of
+  HVAC (120 kW of cooling at COP 3, ch 19) = 320 kW, more than
+  the 250 kVA station transformer - fed from the PCS skids or
+  a second station transformer (decided with the battery
+  supplier); a reserved bay and space cost little now and
+  much later

@@ -1,0 +1,11 @@
+telemetry of active power to the grid operator (teaching budget)
+  part                         ms
+  meter and transducer          100
+  PPC cycle                     200
+  plant network to RTU          100
+  RTU to control centre         400
+  total 800 ms against a placeholder of 1,000 ms
+  accuracy, CT + VT + meter of class 0.2: +/-0.40 % (k = 2)
+  the operator needs both numbers: how old the value is and
+  how good it is - each value travels with its quality and
+  a time stamp from the synchronised clock (lesson A)

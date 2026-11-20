@@ -1,0 +1,6 @@
+air density at the mast (from pressure and temperature):
+  mean 1.056 kg/m3; January 1.103, July 1.009
+  range of ten-minute values 0.971 .. 1.155
+  a pressure sensor near hub height (or a correction for its
+  height) and an air temperature sensor are part of the mast;
+  density enters the power curve (chapter 11, D-008)

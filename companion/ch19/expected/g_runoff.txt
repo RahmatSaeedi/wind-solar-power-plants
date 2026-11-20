@@ -1,0 +1,7 @@
+runoff containment around a pair of containers (structure only):
+  rain on the bunded area: 400 m2 x 50 mm design rain = 20 m3
+  plus the water the fire plan may use: V_fire (from the fire
+    authority and the hazard mitigation analysis; not given here)
+  plus freeboard; then a valve, a sampling point and a disposal
+    route agreed with the environmental authority
+  the book gives the structure, not the volume

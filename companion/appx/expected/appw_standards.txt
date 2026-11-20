@@ -1,0 +1,900 @@
+== IEC (115)
+ STD-039  IEC 60034-1:2026, Edition 15.0 2026-03-13; replaces the 2022 edition
+    14.0 (withdrawn 2026-03-13)  [2026-11-15]
+    Rotating electrical machines - Part 1: Rating and performance
+    https://webstore.iec.ch/publication/65446
+ STD-040  IEC 60034-2-1:2024, Edition 3.0 2024-03; replaces the 2014 edition
+    [2026-11-15]
+    Rotating electrical machines - Part 2-1: Standard methods for determining
+    losses and efficiency from tests (excluding machines for traction
+    vehicles)
+    https://webstore.iec.ch/publication/67756
+ STD-036  IEC 60038:2009, 7th edition 2009-06; Amendment 1:2021 (consolidated
+    version exists)  [2026-11-15]
+    IEC standard voltages
+    https://webstore.iec.ch/en/publication/153
+*STD-120  IEC 60076-1:2011, Edition 3.0, 2011-04-20; edition 4 in development
+    - confirm  [2026-11-16]
+    Power transformers - Part 1: General
+    https://webstore.iec.ch/en/publication/588
+*STD-173  IEC 60076-2:2011, Edition 3.0, 2011-02-23; edition 4 reported in
+    development - confirm  [2026-11-17]
+    Power transformers - Part 2: Temperature rise for liquid-immersed
+    transformers
+    https://webstore.iec.ch/en/publication/599
+ STD-174  IEC 60076-3:2013+AMD1:2018, Edition 3.0, 2013; Amendment 1
+    2018-03-22; consolidated edition 3.1 (CSV)  [2026-11-17]
+    Power transformers - Part 3: Insulation levels, dielectric tests and
+    external clearances in air
+    https://webstore.iec.ch/en/publication/62880
+*STD-175  IEC 60076-5:2006, Edition 3.0, 2006-02; listed as current by
+    national bodies - confirm on the IEC webstore  [2026-11-17]
+    Power transformers - Part 5: Ability to withstand short circuit
+    https://webstore.iec.ch/en/publication/603
+ STD-121  IEC 60076-7:2018, Edition 2.0, 2018-01-12  [2026-11-16]
+    Power transformers - Part 7: Loading guide for mineral-oil-immersed power
+    transformers
+    https://webstore.iec.ch/publication/34351
+ STD-176  IEC 60076-10:2016, Edition 2.0, 2016-03-24  [2026-11-17]
+    Power transformers - Part 10: Determination of sound levels
+    https://webstore.iec.ch/en/publication/24410
+ STD-122  IEC 60076-11:2018, Edition 2.0, 2018-08 (COR 2019, ISH1 2020)
+    [2026-11-16]
+    Power transformers - Part 11: Dry-type transformers
+    https://webstore.iec.ch/publication/29711
+ STD-177  IEC 60076-18:2012, Edition 1.0, 2012-07-09; stability date 2027 (IEC
+    webstore)  [2026-11-17]
+    Power transformers - Part 18: Measurement of frequency response
+    https://webstore.iec.ch/en/publication/597
+ STD-041  IEC 60085:2007, Edition 4.0 2007-11 (EN 60085:2008 identical)
+    [2026-11-15]
+    Electrical insulation - Thermal evaluation and designation
+    https://webstore.iec.ch/en/publication/666
+ STD-180  IEC 60214-1:2014, Edition 2.0, 2014-05-22  [2026-11-17]
+    Tap-changers - Part 1: Performance requirements and test methods
+    https://webstore.iec.ch/en/publication/1032
+*STD-124  IEC 60255-151:2009, Edition 1.0, 2009-08  [2026-11-16]
+    Measuring relays and protection equipment - Part 151: Functional
+    requirements for over/under current protection
+    https://webstore.iec.ch/
+ STD-004  IEC 60269-6, 2010 (Ed. 1.0) + AMD1:2021; consolidated Ed. 1.1
+    (2021-04-09)  [2026-11-14]
+    Low-voltage fuses - Part 6: Supplementary requirements for fuse-links for
+    the protection of solar photovoltaic energy systems
+    https://webstore.iec.ch/en/publication/68843
+ STD-115  IEC 60287-1-1:2023, Edition 3.0, 2023-05-22 (replaces
+    2006+AMD1:2014)  [2026-11-16]
+    Electric cables - Calculation of the current rating - Part 1-1: Current
+    rating equations (100 % load factor) and calculation of losses - General
+    https://webstore.iec.ch/publication/68118
+ STD-178  IEC 60296:2020, Edition 5.0, 2020-06-26  [2026-11-17]
+    Fluids for electrotechnical applications - Mineral insulating oils for
+    electrical equipment
+    https://webstore.iec.ch/en/publication/61025
+ STD-106  IEC 60300-3-3:2017, Edition 3.0, 2017-01-27 (replaces the 2004
+    edition)  [2026-11-16]
+    Dependability management - Part 3-3: Application guide - Life cycle
+    costing
+    https://webstore.iec.ch/publication/31206
+ STD-002  IEC 60364-7-712, 2025 (Ed. 3.0) published 2025-10-21  [2026-11-14]
+    Low-voltage electrical installations - Part 7-712: Requirements for
+    special installations or locations - Solar photovoltaic (PV) power supply
+    installations
+    https://webstore.iec.ch/en/publication/65748
+ STD-114  IEC 60502-2:2014+AMD1:2024, Consolidated edition 3.1 (2014+AMD1:2024
+    CSV), 2024-05-30; corrigendum 1 (2026-07) included in the corrected
+    version  [2026-11-16]
+    Power cables with extruded insulation and their accessories for rated
+    voltages from 1 kV up to 30 kV - Part 2: Cables for rated voltages from 6
+    kV up to 30 kV
+    https://webstore.iec.ch/publication/95394
+ STD-119  IEC 60529:1989+AMD1:1999+AMD2:2013, Consolidated edition 2.2
+    (2013-08)  [2026-11-16]
+    Degrees of protection provided by enclosures (IP Code)
+    https://webstore.iec.ch/publication/2452
+ STD-179  IEC 60599:2022, Edition 4.0, 2022-05-25; edition 5 reported in
+    development  [2026-11-17]
+    Mineral oil-filled electrical equipment in service - Guidance on the
+    interpretation of dissolved and free gases analysis
+    https://webstore.iec.ch/en/publication/66491
+ STD-110  IEC 60617 DB, IEC 60617:2026 DB (database), published 2026-03-04 on
+    the IEC webstore  [2026-11-16]
+    Graphical symbols for diagrams (online database, parts 2 to 13)
+    https://webstore.iec.ch/publication/2723
+ STD-050  IEC 60664-1:2020+AMD1:2025, Edition 3.0 2020 (Corrigendum 1 2020-10;
+    Amendment 1 2025-05)  [2026-11-15]
+    Insulation coordination for equipment within low-voltage supply systems -
+    Part 1: Principles; requirements and tests
+    https://webstore.iec.ch/en/publication/107319
+ STD-147  IEC 60751:2022, Edition 3.0, 2022-01; replaces IEC 60751:2008; EN
+    IEC 60751:2022  [2026-11-16]
+    Industrial platinum resistance thermometers and platinum temperature
+    sensors
+    https://webstore.iec.ch
+ STD-168  IEC 60812:2018, Edition 3.0, 2018-08-10; replaces the 2006 edition
+    [2026-11-17]
+    Failure modes and effects analysis (FMEA and FMECA)
+    https://webstore.iec.ch/publication/26359
+ STD-092  IEC 60870-5-104:2006+AMD1:2016 CSV, Edition 2.1 2016-06-07
+    (consolidated); the IEC copy includes the corrigendum of August 2023
+    [2026-11-16]
+    Telecontrol equipment and systems - Part 5-104: Transmission protocols -
+    Network access for IEC 60870-5-101 using standard transport profiles
+    https://webstore.iec.ch/publication/25035
+ STD-062  IEC 60891:2021, Edition 3.0 2021-10-27; Corrigendum 1 2024-10-17
+    [2026-11-15]
+    Photovoltaic devices - Procedures for temperature and irradiance
+    corrections to measured I-V characteristics
+    https://webstore.iec.ch/en/publication/61766
+ STD-060  IEC 60904-1:2020, Edition 3.0 2020-09-25; replaces the 2006 edition
+    [2026-11-15]
+    Photovoltaic devices - Part 1: Measurement of photovoltaic current-voltage
+    characteristics
+    https://webstore.iec.ch/en/publication/32004
+ STD-078  IEC 60904-3:2019, Edition 4.0 2019-02-15; replaces the 2016 edition
+    [2026-11-15]
+    Photovoltaic devices - Part 3: Measurement principles for terrestrial
+    photovoltaic (PV) solar devices with reference spectral irradiance data
+    https://webstore.iec.ch/en/publication/61084
+ STD-061  IEC 60904-9:2020, Edition 3.0 2020-09-18; replaces the 2007 edition
+    [2026-11-15]
+    Photovoltaic devices - Part 9: Classification of solar simulator
+    characteristics
+    https://webstore.iec.ch/en/publication/28973
+ STD-131  IEC 60909-0:2026, Edition 3.0, 2026-07-23; replaces Edition 2.0
+    (2016-01-28), withdrawn 2026-07-23  [2026-11-16]
+    Short-circuit currents in three-phase a.c. systems - Part 0: Calculation
+    of currents
+    https://webstore.iec.ch/en/publication/68454
+ STD-116  IEC 60949:1988+AMD1:2008, 1988 with Amendment 1 (2008)  [2026-11-16]
+    Calculation of thermally permissible short-circuit currents, taking into
+    account non-adiabatic heating effects
+    https://webstore.iec.ch/
+ STD-035  IEC 61000-4-7:2002+AMD1:2008 CSV, Consolidated edition 2.1 (2009-10)
+    [2026-11-15]
+    Electromagnetic compatibility (EMC) - Part 4-7: Testing and measurement
+    techniques - General guide on harmonics and interharmonics measurements
+    and instrumentation
+    https://webstore.iec.ch/publication/4228
+ STD-129  IEC 61000-4-15:2010, Edition 2.0, 2010-08-24; COR 2012; ISH1 2017
+    [2026-11-16]
+    Electromagnetic compatibility (EMC) - Part 4-15: Testing and measurement
+    techniques - Flickermeter - Functional and design specifications
+    https://webstore.iec.ch/en/publication/4173
+ STD-034  IEC 61000-4-30:2025, 4th edition 2025-10-24; Corrigendum 1 2026-07
+    (corrected version 2026-07); cancels and replaces the 2015 third edition
+    [2026-11-15]
+    Electromagnetic compatibility (EMC) - Part 4-30: Testing and measurement
+    techniques - Power quality measurement methods
+    https://webstore.iec.ch/en/publication/71611
+ STD-051  IEC 61000-6-2:2016, Edition 3.0 2016-08; replaces the 2005 edition
+    [2026-11-15]
+    Electromagnetic compatibility (EMC) - Part 6-2: Generic standards -
+    Immunity standard for industrial environments
+    https://webstore.iec.ch/en/publication/25630
+ STD-052  IEC 61000-6-4:2018, Edition 3.0 2018  [2026-11-15]
+    Electromagnetic compatibility (EMC) - Part 6-4: Generic standards -
+    Emission standard for industrial environments
+    https://webstore.iec.ch/en/publication/26622
+ STD-003  IEC 61010-1, 2010 (Ed. 3.0) + AMD1:2016; consolidated Ed. 3.1 (2017)
+    [2026-11-14]
+    Safety requirements for electrical equipment for measurement; control; and
+    laboratory use - Part 1: General requirements
+    https://webstore.iec.ch/en/publication/4279
+ STD-169  IEC 61014:2003, Edition 2.0, 2003-07-21  [2026-11-17]
+    Programmes for reliability growth
+    https://webstore.iec.ch/en/publication/4297
+ STD-184  IEC 61025:2006, Edition 2.0, 2006-12  [2026-11-17]
+    Fault tree analysis (FTA)
+    https://webstore.iec.ch/publication/4311
+ STD-054  IEC 61071:2017, Edition 2.0 2017-08; replaces the 2007 edition
+    [2026-11-15]
+    Capacitors for power electronics
+    https://webstore.iec.ch/en/publication/27220
+ STD-185  IEC 61078:2016, Edition 3.0, 2016-08; replaces the 2006 edition
+    [2026-11-17]
+    Reliability block diagrams
+    https://webstore.iec.ch/publication/25647
+ STD-111  IEC 61082-1:2014, Edition 3.0, 2014-10-28 (replaces 2006)
+    [2026-11-16]
+    Preparation of documents used in electrotechnology - Part 1: Rules
+    https://webstore.iec.ch/publication/4469
+ STD-146  IEC 61131-3:2025, Edition 4.0, 2025-05-22; replaces IEC
+    61131-3:2013; EN IEC 61131-3:2025 (CENELEC, 2025-06)  [2026-11-16]
+    Programmable controllers - Part 3: Programming languages
+    https://webstore.iec.ch
+ STD-170  IEC 61164:2004, Edition 2.0, 2004-03  [2026-11-17]
+    Reliability growth - Statistical test and estimation methods
+    https://webstore.iec.ch/publication/4720
+ STD-055  IEC 61215-1:2021, Edition 2.0 2021-02-23; Corrigendum 1 2021-05;
+    AMD1 in preparation  [2026-11-15]
+    Terrestrial photovoltaic (PV) modules - Design qualification and type
+    approval - Part 1: Test requirements
+    https://webstore.iec.ch/en/publication/61345
+ STD-056  IEC 61215-2:2021, Edition 2.0 2021-02-24; replaces the 2016 edition
+    [2026-11-15]
+    Terrestrial photovoltaic (PV) modules - Design qualification and type
+    approval - Part 2: Test procedures
+    https://webstore.iec.ch/en/publication/61350
+ STD-080  IEC 61400-1:2019, Edition 4.0 2019-02-08; Corrigendum 1 2019-09;
+    Interpretation Sheet 1 2025-02; Amendment 1 2025-12-18 (consolidated
+    edition 4.1: IEC 61400-1:2019+AMD1:2025 CSV)  [2026-11-15]
+    Wind energy generation systems - Part 1: Design requirements
+    https://webstore.iec.ch/en/publication/26423
+ STD-085  IEC 61400-4:2025, Edition 2.0 2025-04-15; replaces the 2012 first
+    edition (withdrawn 2025-04-15)  [2026-11-15]
+    Wind energy generation systems - Part 4: Design requirements for wind
+    turbine gearboxes
+    https://webstore.iec.ch/en/publication/63497
+ STD-082  IEC 61400-5:2020, Edition 1.0 2020-06-16; consolidated edition 1.1
+    with AMD1:2025 published 2025-08-28  [2026-11-15]
+    Wind energy generation systems - Part 5: Wind turbine blades
+    https://webstore.iec.ch/en/publication/33236
+ STD-083  IEC 61400-6:2020, Edition 1.0 2020-04-21; Corrigendum 1 2020-11-24;
+    Amendment 1 2025-06-13 (consolidated edition 1.1: IEC
+    61400-6:2020+AMD1:2025 CSV)  [2026-11-15]
+    Wind energy generation systems - Part 6: Tower and foundation design
+    requirements
+    https://webstore.iec.ch/en/publication/107942
+ STD-087  IEC 61400-11:2012+AMD1:2018 CSV, Consolidated edition 3.1 2018-06-15
+    (includes Corrigendum 2019)  [2026-11-15]
+    Wind turbines - Part 11: Acoustic noise measurement techniques
+    https://webstore.iec.ch/en/publication/63367
+ STD-081  IEC 61400-12-1:2022, Edition 3.0 2022-09-05; Corrigendum 1
+    2025-05-23; replaces IEC 61400-12-1:2017 and IEC 61400-12-2:2013
+    [2026-11-15]
+    Wind energy generation systems - Part 12-1: Power performance measurements
+    of electricity producing wind turbines
+    https://webstore.iec.ch/en/publication/68499
+ STD-086  IEC 61400-13:2015+AMD1:2021 CSV, Consolidated edition 1.1 (2015
+    edition with Amendment 1 2021-12-03)  [2026-11-15]
+    Wind turbines - Part 13: Measurement of mechanical loads
+    https://webstore.iec.ch/en/publication/72669
+ STD-053  IEC 61400-21-1:2019, Edition 1.0 2019-05-20; replaces IEC
+    61400-21:2008  [2026-11-15]
+    Wind energy generation systems - Part 21-1: Measurement and assessment of
+    electrical characteristics - Wind turbines
+    https://webstore.iec.ch/en/publication/29528
+ STD-084  IEC 61400-24:2019, Edition 2.0 2019; Amendment 1 2024 (consolidated
+    IEC 61400-24:2019+AMD1:2024); edition 3 in development  [2026-11-15]
+    Wind energy generation systems - Part 24: Lightning protection
+    https://webstore.iec.ch/en/publication/32050
+*STD-125  IEC 61400-24:2019+AMD1:2024, Edition 2.0 (2019-07), consolidated 2.1
+    with AMD1 (2024-11); edition 3 forecast 2026 - confirm  [2026-11-16]
+    Wind energy generation systems - Part 24: Lightning protection
+    https://webstore.iec.ch/publication/32050
+ STD-165  IEC 61400-26-1:2019, Edition 1.0, 2019-05-29; replaces IEC TS
+    61400-26-1:2011, TS 61400-26-2:2014 and TS 61400-26-3:2016  [2026-11-17]
+    Wind energy generation systems - Part 26-1: Availability for wind energy
+    generation systems
+    https://webstore.iec.ch/en/publication/62548
+*STD-105  IEC 61400-27-1:2020, Edition 2.0, 2020-07 (an edition 3 reported in
+    development)  [2026-11-16]
+    Wind energy generation systems - Part 27-1: Electrical simulation models -
+    Generic models
+    https://webstore.iec.ch/en/publication/32564
+ STD-132  IEC 61400-27-2:2020, Edition 1.0, 2020-07  [2026-11-16]
+    Wind energy generation systems - Part 27-2: Electrical simulation models -
+    Model validation
+    https://webstore.iec.ch/
+ STD-118  IEC 61439-1:2020, Edition 3.0, 2020-05-05; corrigenda 2021 and 2023
+    [2026-11-16]
+    Low-voltage switchgear and controlgear assemblies - Part 1: General rules
+    https://webstore.iec.ch/
+ STD-166  IEC 61649:2008, Edition 2.0, 2008-08  [2026-11-17]
+    Weibull analysis
+    https://webstore.iec.ch/publication/5698
+ STD-047  IEC 61683:1999, Edition 1.0 1999-11; second edition in development
+    [2026-11-15]
+    Photovoltaic systems - Power conditioners - Procedure for measuring
+    efficiency
+    https://webstore.iec.ch/en/publication/5720
+ STD-064  IEC 61701:2020, Edition 3.0 2020 (webstore 2020-06-11; TC 82 list
+    2020-02-21); replaces the 2011 edition  [2026-11-15]
+    Photovoltaic (PV) modules - Salt mist corrosion testing
+    https://webstore.iec.ch/en/publication/59588
+ STD-069  IEC 61724-1:2021, Edition 2.0 2021-07-21; replaces the 2017 edition;
+    edition 3 in development  [2026-11-15]
+    Photovoltaic system performance - Part 1: Monitoring
+    https://webstore.iec.ch/en/publication/65561
+ STD-057  IEC 61730-1:2023, Edition 3.0 2023-09-13  [2026-11-15]
+    Photovoltaic (PV) module safety qualification - Part 1: Requirements for
+    construction
+    https://webstore.iec.ch/en/publication/59803
+ STD-058  IEC 61730-2:2023, Edition 3.0 2023-09-12; Corrigendum 1 2024-10-14
+    [2026-11-15]
+    Photovoltaic (PV) module safety qualification - Part 2: Requirements for
+    testing
+    https://webstore.iec.ch/en/publication/63895
+ STD-093  IEC 61850 (series), Multi-part series; overview IEC TR 61850-1-1 Ed.
+    1.0 2026-02 replaces IEC TR 61850-1:2013; editions of other parts not
+    verified  [2026-11-16]
+    Communication networks and systems for power utility automation
+    https://webstore.iec.ch/en/publication/105222
+ STD-103  IEC 61850-7-420:2021, Edition 2.0, 2021-10-13 (replaces the 2009
+    first edition)  [2026-11-16]
+    Communication networks and systems for power utility automation - Part
+    7-420: Basic communication structure - Distributed energy resources and
+    distribution automation logical nodes
+    https://webstore.iec.ch/publication/34384
+ STD-075  IEC 61853-1:2011, Edition 1.0 2011-01-26; amendment in preparation
+    [2026-11-15]
+    Photovoltaic (PV) module performance testing and energy rating - Part 1:
+    Irradiance and temperature performance measurements and power rating
+    https://webstore.iec.ch/en/publication/6035
+ STD-038  IEC 61869-2:2012, 1st edition 2012-09; Interpretation Sheet 1 (2022)
+    [2026-11-15]
+    Instrument transformers - Part 2: Additional requirements for current
+    transformers
+    https://webstore.iec.ch/en/publication/6050
+*STD-149  IEC 61869-3:2011, Edition 1.0, 2011-07; replaces IEC 60044-2; read
+    with IEC 61869-1; a second edition is in development  [2026-11-16]
+    Instrument transformers - Part 3: Additional requirements for inductive
+    voltage transformers
+    https://webstore.iec.ch
+*STD-123  IEC 61936-1:2021, Edition 3.0, 2021; EN amendment A11:2025 reported
+    - confirm  [2026-11-16]
+    Power installations exceeding 1 kV AC and 1,5 kV DC - Part 1: AC
+    https://webstore.iec.ch/
+ STD-013  IEC 62053-22:2020, Ed. 2.0 2020  [2026-11-14]
+    Electricity metering equipment - Particular requirements - Part 22: Static
+    meters for AC active energy (classes 0.1 S; 0.2 S and 0.5 S)
+    https://webstore.iec.ch/en/publication/29987
+ STD-044  IEC 62109-1:2010, Edition 1.0 2010-04; a new edition (2026 PRV) is
+    listed as a pre-release  [2026-11-15]
+    Safety of power converters for use in photovoltaic power systems - Part 1:
+    General requirements
+    https://webstore.iec.ch/en/publication/6470
+ STD-045  IEC 62109-2:2011, Edition 1.0 2011-06; a new edition (2026 PRV) is
+    listed as a pre-release  [2026-11-15]
+    Safety of power converters for use in photovoltaic power systems - Part 2:
+    Particular requirements for inverters
+    https://webstore.iec.ch/en/publication/6471
+ STD-048  IEC 62116:2014, Edition 2.0 2014; third edition in development
+    [2026-11-15]
+    Utility-interconnected photovoltaic inverters - Test procedure of
+    islanding prevention measures
+    https://webstore.iec.ch/en/publication/6479
+ STD-117  IEC 62271-200:2021, Edition 3.0, 2021-05-27; Amendment 1 (2024);
+    consolidated IEC 62271-200:2021+AMD1:2024 CSV  [2026-11-16]
+    High-voltage switchgear and controlgear - Part 200: AC metal-enclosed
+    switchgear and controlgear for rated voltages above 1 kV and up to and
+    including 52 kV
+    https://webstore.iec.ch/publication/63466
+ STD-127  IEC 62305-2:2024, Edition 3.0, 2024-09-12; COR1 2024-10
+    [2026-11-16]
+    Protection against lightning - Part 2: Risk management
+    https://webstore.iec.ch/en/publication/28137
+ STD-163  IEC 62351 (series), Series pack IEC 62351:2026 SER (2026-07-30);
+    Part 1 is IEC TS 62351-1:2007; later parts of various dates (e.g.
+    62351-7:2025; 62351-8:2026)  [2026-11-17]
+    Power systems management and associated information exchange - Data and
+    communications security
+    https://webstore.iec.ch/publication/6912
+ STD-148  IEC 62381:2024, Edition 3.0, 2024-07-30; replaces IEC 62381:2012;
+    adds the optional factory integration test (FIT); EN IEC 62381:2024
+    [2026-11-16]
+    Automation systems in the process industry - Factory acceptance test
+    (FAT), site acceptance test (SAT) and site integration test (SIT)
+    https://webstore.iec.ch/en/publication/67572
+ STD-152  IEC 62439-2:2021, Edition 3.0, 2021-12-15; corrigendum May 2023
+    included in the IEC copy; replaces Ed 2 (2016)  [2026-11-17]
+    Industrial communication networks - High availability automation networks
+    - Part 2: Media Redundancy Protocol (MRP)
+    https://webstore.iec.ch/publication/62849
+*STD-151  IEC 62439-3:2021, Edition 4.0, 2021-12-15; replaces Ed 3 (2016);
+    corrigendum COR1:2023; Ed 5 reported in development  [2026-11-17]
+    Industrial communication networks - High availability automation networks
+    - Part 3: Parallel Redundancy Protocol (PRP) and High-availability
+    Seamless Redundancy (HSR)
+    https://webstore.iec.ch/publication/64423
+ STD-156  IEC 62443-2-1:2024, Edition 2.0, 2024 (BSI: 2024-08-07); replaces
+    IEC 62443-2-1:2010  [2026-11-17]
+    Security for industrial automation and control systems - Part 2-1:
+    Security program requirements for IACS asset owners
+    https://webstore.iec.ch/en/publication/62883
+ STD-161  IEC 62443-2-4:2023, Edition 2.0, 2023-12-15  [2026-11-17]
+    Security for industrial automation and control systems - Part 2-4:
+    Security program requirements for IACS service providers
+    https://webstore.iec.ch/publication/67631
+ STD-157  IEC 62443-3-2:2020, Edition 1.0, 2020  [2026-11-17]
+    Security for industrial automation and control systems - Part 3-2:
+    Security risk assessment for system design
+    https://webstore.iec.ch/en/publication/30727
+*STD-158  IEC 62443-3-3:2013, Edition 1.0, 2013 (corrigendum 2014); no newer
+    IEC edition found - confirm  [2026-11-17]
+    Industrial communication networks - Network and system security - Part
+    3-3: System security requirements and security levels
+    https://webstore.iec.ch
+ STD-159  IEC 62443-4-1:2018, Edition 1.0, 2018-01-15  [2026-11-17]
+    Security for industrial automation and control systems - Part 4-1: Secure
+    product development lifecycle requirements
+    https://webstore.iec.ch/en/publication/33615
+*STD-160  IEC 62443-4-2:2019, Edition 1.0, 2019-02-27; corrigendum August 2022
+    included  [2026-11-17]
+    Security for industrial automation and control systems - Part 4-2:
+    Technical security requirements for IACS components
+    https://webstore.iec.ch/en/publication/34421
+ STD-063  IEC 62446-1:2016+AMD1:2018 CSV, Consolidated edition 1.1 2018-08-10;
+    edition 2 in development  [2026-11-15]
+    Photovoltaic (PV) systems - Requirements for testing, documentation and
+    maintenance - Part 1: Grid connected systems - Documentation,
+    commissioning tests and inspection
+    https://webstore.iec.ch/en/publication/63726
+ STD-046  IEC 62477-1:2022, Edition 2.0 2022-05 (Corrigendum 1 2024-04);
+    replaces the 2012 edition  [2026-11-15]
+    Safety requirements for power electronic converter systems and equipment -
+    Part 1: General
+    https://webstore.iec.ch/en/publication/28936
+*STD-001  IEC 62548-1, 2023 (Ed. 1.0); Amendment 1:2025; consolidated
+    2025-12-15  [2026-11-14]
+    Photovoltaic (PV) arrays - Part 1: Design requirements
+    https://webstore.iec.ch/en/publication/64171
+ STD-096  IEC 62619:2022, Edition 2.0, 2022-05-24; replaces 2017 edition 1.0
+    [2026-11-16]
+    Secondary cells and batteries containing alkaline or other non-acid
+    electrolytes - Safety requirements for secondary lithium cells and
+    batteries, for use in industrial applications
+    https://webstore.iec.ch/publication/64073
+ STD-153  IEC 62682:2022, Edition 2.0, 2022-12-08; replaces Ed 1 (2014)
+    [2026-11-17]
+    Management of alarm systems for the process industries
+    https://webstore.iec.ch/publication/65543
+ STD-065  IEC 62716:2013, Edition 1.0 2013-06-27; Corrigendum 1 2014-05-08;
+    edition 2 in development  [2026-11-15]
+    Photovoltaic (PV) modules - Ammonia corrosion testing
+    https://webstore.iec.ch/en/publication/7392
+ STD-186  IEC 62740:2015, Edition 1.0, 2015  [2026-11-17]
+    Root cause analysis (RCA)
+    https://webstore.iec.ch/en/publication/21810
+ STD-066  IEC 62759-1:2022, Edition 2.0 2022-07-07; replaces the 2015 edition
+    [2026-11-15]
+    Photovoltaic (PV) modules - Transportation testing - Part 1:
+    Transportation and shipping of module package units
+    https://webstore.iec.ch/en/publication/64172
+ STD-070  IEC 62790:2020, Edition 2.0 2020-07-15; replaces the 2014 edition
+    [2026-11-15]
+    Junction boxes for photovoltaic modules - Safety requirements and tests
+    https://webstore.iec.ch/en/publication/32347
+ STD-071  IEC 62852:2014+AMD1:2020 CSV, Consolidated edition 1.1 2020-03-25;
+    edition 2 in development  [2026-11-15]
+    Connectors for DC-application in photovoltaic systems - Safety
+    requirements and tests
+    https://webstore.iec.ch/en/publication/66763
+ STD-072  IEC 62930:2017, Edition 1.0 2017-12-13  [2026-11-15]
+    Electric cables for photovoltaic systems with a voltage rating of 1,5 kV
+    DC
+    https://webstore.iec.ch/en/publication/28067
+*STD-098  IEC 62933-5-2:2025, Edition 2.0, 2025-12-09; replaces Edition 1.0
+    (2020-04)  [2026-11-16]
+    Electrical energy storage (EES) systems - Part 5-2: Safety requirements
+    for grid-integrated EES systems - Electrochemical-based systems
+    https://webstore.iec.ch/en/publication/110836
+ STD-074  IEC 62941:2019, Edition 1.0 2019; edition 2 in development
+    [2026-11-15]
+    Terrestrial photovoltaic (PV) modules - Quality system for PV module
+    manufacturing
+    https://webstore.iec.ch/en/publication/61932
+ STD-097  IEC 63056:2020, Edition 1.0, 2020-03-27; corrigendum 2021
+    [2026-11-16]
+    Secondary cells and batteries containing alkaline or other non-acid
+    electrolytes - Safety requirements for secondary lithium cells and
+    batteries for use in electrical energy storage systems
+    https://webstore.iec.ch/publication/29224
+ STD-032  IEC 81346-1:2022, 2nd edition 2022-03; replaces the 2009 edition
+    [2026-11-15]
+    Industrial systems; installations and equipment and industrial products -
+    Structuring principles and reference designations - Part 1: Basic rules
+    https://webstore.iec.ch/en/publication/64021
+ STD-094  IEC 81346-1:2022, Edition 2.0, 2022-03-30; replaces the 2009 first
+    edition  [2026-11-16]
+    Industrial systems, installations and equipment and industrial products -
+    Structuring principles and reference designations - Part 1: Basic rules
+    https://webstore.iec.ch/publication/64021
+ STD-130  IEC TR 61000-3-6:2008, Edition 2.0, 2008  [2026-11-16]
+    Electromagnetic compatibility (EMC) - Part 3-6: Limits - Assessment of
+    emission limits for the connection of distorting installations to MV HV
+    and EHV power systems
+    https://webstore.iec.ch/en/publication/4155
+ STD-077  IEC TS 60904-1-2:2024, Edition 2.0 2024-11-07; Amendment 1
+    2026-03-16; replaces the 2019 first edition (withdrawn 2024-11-07)
+    [2026-11-15]
+    Photovoltaic devices - Part 1-2: Measurement of current-voltage
+    characteristics of bifacial photovoltaic (PV) devices
+    https://webstore.iec.ch/en/publication/34357
+ STD-067  IEC TS 60904-13:2018, Edition 1.0 2018-08-29; edition 2 in
+    development  [2026-11-15]
+    Photovoltaic devices - Part 13: Electroluminescence of photovoltaic
+    modules
+    https://webstore.iec.ch/en/publication/26703
+ STD-068  IEC TS 62446-3:2017, Edition 1.0 2017-06-15; edition 2 in
+    development  [2026-11-15]
+    Photovoltaic (PV) systems - Requirements for testing, documentation and
+    maintenance - Part 3: Photovoltaic modules and plants - Outdoor infrared
+    thermography
+    https://webstore.iec.ch/en/publication/28628
+*STD-059  IEC TS 62804-1:2025, Edition 2.0 2025; replaces the 2015 first
+    edition  [2026-11-15]
+    Photovoltaic (PV) modules - Test methods for the detection of
+    potential-induced degradation - Part 1: Crystalline silicon
+    https://webstore.iec.ch/en/publication/71747
+ STD-079  IEC TS 62915:2023, Edition 2.0 2023-09-15; Corrigendum 1 2024-07;
+    amendment proposed 2025  [2026-11-15]
+    Photovoltaic (PV) modules - Type approval, design and safety qualification
+    - Retesting
+    https://webstore.iec.ch/en/publication/66172
+*STD-104  IEC TS 63102:2026, Edition 2.0, 2026-10-21; replaces Edition 1.0
+    (2021-09-03), withdrawn 2026-10-21  [2026-11-16]
+    Grid code compliance assessment methods for grid connection of renewable
+    energy power plants
+    https://webstore.iec.ch/publication/31475
+ STD-073  IEC TS 63126:2025, Edition 2.0 2025-10-14; replaces the 2020 edition
+    [2026-11-15]
+    Guidelines for qualifying PV modules, components and materials for
+    operation at high temperatures
+    https://webstore.iec.ch/en/publication/78554
+ STD-089  IECRE OD-501, Edition 3.1 2025-01-23 (IECRE rules page); scheme
+    replaced IEC 61400-22, withdrawn with effect from 2018-09-01
+    (certification-body sources)  [2026-11-15]
+    Type and Component Certification Scheme (wind turbines)
+    https://www.iecre.org/resource/rules-operational-documents-guides
+== ISO (43)
+ STD-017  ISO 286-1:2010, 2010 (2nd edition; Technical Corrigendum 1 listed)
+    [2026-11-15]
+    Geometrical product specifications (GPS) - ISO code system for tolerances
+    on linear sizes - Part 1: Basis of tolerances; deviations and fits
+    https://www.boutique.afnor.org/en-gb/standard/iso-28612010/geometrical-pro
+    duct-specifications-gps-iso-code-system-for-tolerances-on-li/xs118231/1165
+    24
+*STD-018  ISO 1101:2017, 4th edition 2017-02  [2026-11-15]
+    Geometrical product specifications (GPS) - Geometrical tolerancing -
+    Tolerances of form; orientation; location and run-out
+    https://www.evs.ee/en/iso-1101-2017
+ STD-021  ISO 1461:2022, 4th edition 2022-08  [2026-11-15]
+    Hot dip galvanized coatings on fabricated iron and steel articles -
+    Specifications and test methods
+    https://www.iso.org/standard/81435.html
+ STD-076  ISO 2859-1:2026, 3rd edition 2026; replaces ISO 2859-1:1999 with Amd
+    1:2011 and Cor 1:2001  [2026-11-15]
+    Sampling procedures for inspection by attributes - Part 1: Sampling
+    schemes indexed by acceptance quality limit (AQL) for lot-by-lot
+    inspection
+    https://www.iso.org/standard/2859-1
+*STD-019  ISO 6892-1:2019, 3rd edition 2019-11  [2026-11-15]
+    Metallic materials - Tensile testing - Part 1: Method of test at room
+    temperature
+    https://www.iso.org/standard/78322.html
+ STD-172  ISO 7870-2:2023, Edition 2, 2023-03  [2026-11-17]
+    Control charts - Part 2: Shewhart control charts
+    https://www.iso.org/standard/78859.html
+ STD-012  ISO 8601-1:2019, 2019 + Amd 1:2022  [2026-11-14]
+    Date and time - Representations for information interchange - Part 1:
+    Basic rules
+    https://www.iso.org/standard/70907.html
+ STD-167  ISO 9001:2026, Edition 6, published 2026-09-16; replaces ISO
+    9001:2015 and Amd 1:2024; transition to about 2029-09  [2026-11-17]
+    Quality management systems - Requirements
+    https://www.iso.org/standard/88464.html
+ STD-014  ISO 9060:2018, 2nd edition 2018  [2026-11-14]
+    Solar energy - Specification and classification of instruments for
+    measuring hemispherical solar and direct solar radiation
+    https://www.iso.org/standard/67464.html
+*STD-020  ISO 9223:2012, 2012 (2nd edition)  [2026-11-15]
+    Corrosion of metals and alloys - Corrosivity of atmospheres -
+    Classification; determination and estimation
+    https://www.iso.org/standard/53499.html
+ STD-023  ISO 9712:2021, 5th edition 2021-12  [2026-11-15]
+    Non-destructive testing - Qualification and certification of NDT personnel
+    https://www.iso.org/standard/75614.html
+ STD-171  ISO 10012:2026, Edition 2, 2026-02; replaces ISO 10012:2003 (now a
+    requirements standard)  [2026-11-17]
+    Quality management - Requirements for measurement management systems
+    https://www.iso.org/standard/10012
+ STD-090  ISO 12944-2:2017, 2nd edition 2017; replaces the 1998 edition; a new
+    edition in working draft  [2026-11-15]
+    Paints and varnishes - Corrosion protection of steel structures by
+    protective paint systems - Part 2: Classification of environments
+    https://www.iso.org/standard/64834.html
+*STD-144  ISO 14001:2026, Edition 4, published 2026-04-15; replaces ISO
+    14001:2015 and its Amd 1:2024; transition period to 2029  [2026-11-16]
+    Environmental management systems - Requirements with guidance for use
+    https://www.iso.org
+*STD-145  ISO 14025:2026, Edition 2, 2026-06; replaces ISO 14025:2006 (Edition
+    1, 2006-07)  [2026-11-16]
+    Environmental statements and programmes for products - Environmental
+    product declarations (EPDs)
+    https://www.iso.org/standard/14025
+ STD-141  ISO 14040:2006, Edition 2, 2006-07; Amendment 1:2020  [2026-11-16]
+    Environmental management - Life cycle assessment - Principles and
+    framework
+    https://www.iso.org/standard/37456.html
+ STD-142  ISO 14044:2006, Edition 1, 2006-07; Amendment 1:2017; Amendment
+    2:2020  [2026-11-16]
+    Environmental management - Life cycle assessment - Requirements and
+    guidelines
+    https://www.iso.org/standard/38498.html
+*STD-143  ISO 14067:2018, Edition 1, 2018-08; reviewed and confirmed 2024; a
+    revision is in development  [2026-11-16]
+    Greenhouse gases - Carbon footprint of products - Requirements and
+    guidelines for quantification
+    https://www.iso.org/standard/71206.html
+*STD-135  ISO 14688-1:2017, Edition 2, 2017-12; reviewed and confirmed 2023;
+    EN ISO 14688-1:2018  [2026-11-16]
+    Geotechnical investigation and testing - Identification and classification
+    of soil - Part 1: Identification and description
+    https://www.iso.org/standard/66345.html
+*STD-031  ISO 19650-1:2018, 1st edition 2018-12; reviewed and confirmed 2024
+    [2026-11-15]
+    Organization and digitization of information about buildings and civil
+    engineering works; including building information modelling (BIM) -
+    Information management using building information modelling - Part 1:
+    Concepts and principles
+    https://www.iso.org/standard/68078.html
+ STD-043  ISO 20816-1:2026, 2nd edition 2026-10; cancels and replaces ISO
+    20816-1:2016 (withdrawn 2026-10-28)  [2026-11-15]
+    Mechanical vibration - Measurement and evaluation of machine vibration -
+    Part 1: General guidelines
+    https://www.iso.org/standard/89921.html
+ STD-088  ISO 20816-21:2025, 2025; replaces ISO 10816-21:2015  [2026-11-15]
+    Mechanical vibration - Measurement and evaluation of machine vibration -
+    Part 21: Horizontal axis wind turbines
+    https://www.iso.org/standard/84280.html
+ STD-022  ISO 21920-2:2021, 1st edition 2021-12 (corrected version 2022-06)
+    [2026-11-15]
+    Geometrical product specifications (GPS) - Surface texture: Profile - Part
+    2: Terms; definitions and surface texture parameters
+    https://www.iso.org/es/contents/data/standard/07/22/72226.html
+*STD-042  ISO 21940-11:2016, 1st edition 2016-11 + Amd 1:2022  [2026-11-15]
+    Mechanical vibration - Rotor balancing - Part 11: Procedures and
+    tolerances for rotors with rigid behaviour
+    https://www.iso.org/standard/54074.html
+*STD-138  ISO 22320:2018, Edition 2, 2018-11; replaces ISO 22320:2011;
+    reviewed and confirmed 2024  [2026-11-16]
+    Security and resilience - Emergency management - Guidelines for incident
+    management
+    https://www.iso.org/standard/67851.html
+*STD-133  ISO 22476-3:2005, Edition 1, 2005; Amendment 1:2011; reviewed and
+    confirmed 2024  [2026-11-16]
+    Geotechnical investigation and testing - Field testing - Part 3: Standard
+    penetration test
+    https://www.iso.org/standard/36247.html
+*STD-107  ISO 31000:2018, Edition 2, 2018-02 (reviewed and confirmed 2023)
+    [2026-11-16]
+    Risk management - Guidelines
+    https://www.iso.org/standard/65694.html
+ STD-137  ISO 45001:2018, Edition 1, 2018-03; Amendment 1:2024 (climate action
+    changes, published 2024-02); a revision is in development  [2026-11-16]
+    Occupational health and safety management systems - Requirements with
+    guidance for use
+    https://www.iso.org/standard/63787.html
+ STD-136  ISO 46001:2019, Edition 1, 2019-07; Amendment 1:2024 (climate action
+    changes); revision in development  [2026-11-16]
+    Water efficiency management systems - Requirements with guidance for use
+    https://www.iso.org/standard/68286.html
+ STD-030  ISO 55000:2024, 2nd edition 2024-07; replaces ISO 55000:2014
+    [2026-11-15]
+    Asset management - Vocabulary; overview and principles
+    https://www.iso.org/standard/83053.html
+ STD-010  ISO 80000-1:2022, 2nd edition 2022-12  [2026-11-14]
+    Quantities and units - Part 1: General
+    https://www.iso.org/standard/76921.html
+ STD-016  ISO 80000-2:2019, 2nd edition 2019-08 (corrected version 2021-11)
+    [2026-11-14]
+    Quantities and units - Part 2: Mathematics
+    https://www.iso.org/standard/64973.html
+ STD-188  ISO/IEC 17020:2026, 3rd edition 2026-03-27; replaces ISO/IEC
+    17020:2012 (withdrawn the same day)  [2026-11-18]
+    Conformity assessment - Requirements for bodies performing inspections
+    https://www.iso.org/standard/86292.html
+ STD-011  ISO/IEC 17025:2017, 3rd edition 2017-11  [2026-11-14]
+    General requirements for the competence of testing and calibration
+    laboratories
+    https://www.iso.org/standard/66912.html
+ STD-189  ISO/IEC 17050-1:2004, 1st edition 2004 (a '2010' edition cited in
+    some sources was not found)  [2026-11-18]
+    Conformity assessment - Supplier's declaration of conformity - Part 1:
+    General requirements
+    https://www.iso.org/standard/35464.html
+ STD-187  ISO/IEC 17065:2012, 1st edition 2012; DAmd 1 cancelled and merged
+    into a revision: ISO/IEC FDIS 17065 (Edition 2) at approval stage
+    (2026-05-18) - check publication  [2026-11-18]
+    Conformity assessment - Requirements for bodies certifying products,
+    processes and services
+    https://www.iso.org/standard/46568.html
+ STD-028  ISO/IEC 25010:2023, 2nd edition 2023-11; cancels and replaces
+    ISO/IEC 25010:2011  [2026-11-15]
+    Systems and software engineering - Systems and software Quality
+    Requirements and Evaluation (SQuaRE) - Product quality model
+    https://www.iso.org/standard/78176.html
+ STD-164  ISO/IEC 27001:2022, Edition 3, 2022; Amendment 1:2024 (climate
+    action changes)  [2026-11-17]
+    Information security, cybersecurity and privacy protection - Information
+    security management systems - Requirements
+    https://www.iso.org/standard/27001
+*STD-191  ISO/IEC Directives, Part 2:2021, 9th edition 2021-05-19; a 2026
+    amendment on management-system drafting reported - confirm  [2026-11-18]
+    Principles and rules for the structure and drafting of ISO and IEC
+    documents
+    https://www.iec.ch/standards-development/isoiec-directives-part-2
+*STD-190  ISO/IEC Guide 21-1:2005, 1st edition 2005 - confirm no newer edition
+    [2026-11-18]
+    Regional or national adoption of International Standards and other
+    International Deliverables - Part 1: Adoption of International Standards
+    https://www.iso.org/standard/39799.html
+ STD-029  ISO/IEC/IEEE 12207:2026, 2nd edition 2026-04; cancels and replaces
+    ISO/IEC/IEEE 12207:2017 (withdrawn 2026-04-29)  [2026-11-15]
+    Systems and software engineering - Software life cycle processes
+    https://www.iso.org/standard/90219.html
+ STD-095  ISO/IEC/IEEE 15288:2023, Edition 2, 2023-05; replaces the 2015
+    edition  [2026-11-16]
+    Systems and software engineering - System life cycle processes
+    https://www.iso.org/standard/81702.html
+*STD-091  ISO/IEC/IEEE 29148:2018, 2nd edition 2018 (replaces 2011); confirmed
+    2024; a replacement draft is at enquiry stage  [2026-11-16]
+    Systems and software engineering - Life cycle processes - Requirements
+    engineering
+    https://www.iso.org/standard/72089.html
+== IEEE (9)
+ STD-037  IEEE 519-2022, 2022 (IEEE Xplore publication date 2022-08-05)
+    [2026-11-15]
+    IEEE Standard for Harmonic Control in Electric Power Systems
+    https://ieeexplore.ieee.org/document/9848440/versions
+ STD-027  IEEE 754-2019, 2019 (approved 2019-06-13; published 2019-07-22);
+    revises IEEE 754-2008  [2026-11-15]
+    IEEE Standard for Floating-Point Arithmetic
+    https://standards.ieee.org/ieee/754/6210/
+ STD-150  IEEE 1588-2019, 1588-2019 (PTP version 2.1, published 2020-06-16)
+    with amendments 1588g-2022, 1588b-2022, 1588a-2023, 1588d-2023,
+    1588c-2024, 1588e-2024; 1588h-2026 approved draft  [2026-11-16]
+    IEEE Standard for a Precision Clock Synchronization Protocol for Networked
+    Measurement and Control Systems
+    https://standards.ieee.org
+*STD-154  IEEE 1815 (DNP3), 1815-2012 listed by IEEE as inactive-reserved
+    since 2023-03-30; revision P1815 in development; IEEE 1815.2-2025 (DER
+    profile) active  [2026-11-17]
+    IEEE Standard for Electric Power Systems Communications - Distributed
+    Network Protocol (DNP3)
+    https://standards.ieee.org/ieee/1815/5414/
+ STD-126  IEEE Std 80-2013, 2013 (incorporates Cor 1-2015)  [2026-11-16]
+    IEEE Guide for Safety in AC Substation Grounding
+    https://standards.ieee.org/
+ STD-112  IEEE Std 485-2020, 2020 (approved 2020-05-06, published 2020-06-05;
+    replaces 485-2010)  [2026-11-16]
+    IEEE Recommended Practice for Sizing Lead-Acid Batteries for Stationary
+    Applications
+    https://standards.ieee.org/standard/485-2020/
+ STD-128  IEEE Std 519-2022, 2022 (published 2022-08-05)  [2026-11-16]
+    IEEE Standard for Harmonic Control in Electric Power Systems
+    https://ieeexplore.ieee.org/document/9848440
+ STD-113  IEEE Std 946-2020, 2020 (published 2020-09-23; replaces 946-2004)
+    [2026-11-16]
+    IEEE Recommended Practice for the Design of DC Power Systems for
+    Stationary Applications
+    https://standards.ieee.org/standard/946-2020/
+*STD-102  IEEE Std 2800-2022, 2022 (published 2022-04-22); companion IEEE
+    2800.2-2026 (test and verification recommended practice; approved
+    2026-02-12; published 2026-06-30); amendment P2800a in development
+    [2026-11-16]
+    IEEE Standard for Interconnection and Interoperability of Inverter-Based
+    Resources (IBRs) Interconnecting with Associated Transmission Electric
+    Power Systems
+    https://standards.ieee.org/ieee/2800/10453/
+== UL (1)
+*STD-099  UL 9540A, 6th edition; published and ANSI-approved 2026-03-13 (adds
+    installation-level large-scale fire testing); replaces the 5th edition of
+    2025-03-12  [2026-11-16]
+    Test Method for Evaluating Thermal Runaway Fire Propagation in Battery
+    Energy Storage Systems
+    https://www.shopulstandards.com/ProductDetail.aspx?productId=UL9540A_6_S_2
+    0260313
+== NFPA (2)
+*STD-139  NFPA 850:2026, 2026 edition, effective 2025-12-09; earlier editions
+    (to 2020) were a recommended practice  [2026-11-16]
+    Standard for Fire Protection for Electric Generating Plants and High
+    Voltage Direct Current (HVDC) Converter Stations
+    https://www.nfpa.org/product/nfpa-850-standard-for-fire-protection-for-ele
+    ctric-generating-plants-and-high-voltage-direct-current-hvdc-converter-sta
+    tions/p0850code/nfpa-850-90-pdf/85090pdf
+ STD-100  NFPA 855:2026, 2026 edition (third edition)  [2026-11-16]
+    Standard for the Installation of Stationary Energy Storage Systems
+    https://shop.iccsafe.org/nfpa-855-2026-standard-for-the-installation-of-st
+    ationary-energy-storage-systems.html
+== IPC (3)
+ STD-182  IPC J-STD-001J:2024, Revision J, 2024-03-01; companion of IPC-A-610J
+    [2026-11-17]
+    Requirements for Soldered Electrical and Electronic Assemblies
+    https://webstore.ansi.org/standards/ipc/ipcstd001j2024
+ STD-183  IPC-6012F:2023, Revision F, September 2023; replaces IPC-6012E
+    (2020)  [2026-11-17]
+    Qualification and Performance Specification for Rigid Printed Boards
+    https://www.electronics.org/news-release/ipc-releases-ipc-6012f-qualificat
+    ion-and-performance-specification-rigid-printed
+ STD-181  IPC-A-610J:2024, Revision J, March 2024 (announced 2024-04-08);
+    replaces revision H  [2026-11-17]
+    Acceptability of Electronic Assemblies
+    https://www.electronics.org/news-release/ipc-releases-j-revisions-two-lead
+    ing-standards-electronics-assembly
+== CENELEC (2)
+*STD-140  EN 50308:2004, Edition 2004 (approved 2004-03-01); corrigendum
+    2005-02; listed as current and confirmed 2025  [2026-11-16]
+    Wind turbines - Protective measures - Requirements for design, operation
+    and maintenance
+    https://standards.iteh.ai/catalog/standards/clc/b3df4ebf-9987-42d1-b2d2-1a
+    175a94353d/en-50308-2004
+*STD-049  EN 50530:2010+A1:2013, 2010 with Amendment 1 2013  [2026-11-15]
+    Overall efficiency of grid connected photovoltaic inverters
+    https://www.dinmedia.de/en/standard/din-en-50530/191639555
+== other (16)
+*STD-134  EN 1997-2:2024, Second-generation edition 2024 (publication dates
+    differ between catalogues: Sep or Nov 2024); replaces EN 1997-2:2007;
+    amendment prA1 in enquiry 2026  [2026-11-16]
+    Eurocode 7 - Geotechnical design - Part 2: Ground properties
+    https://standards.iteh.ai/catalog/standards/cen/35df2e32-a852-4b10-9134-14
+    eb9a2c8c5c/en-1997-2-2024
+*STD-015  EN 10204:2004, 2004  [2026-11-14]
+    Metallic products - Types of inspection documents
+    https://knowledge.bsigroup.com/products/metallic-products-types-of-inspect
+    ion-documents
+*STD-109  Equator Principles EP4, EP4 approved 2019-11-18, effective for new
+    projects from 2020-10-01; confirm whether a later version applies
+    [2026-11-16]
+    The Equator Principles (version 4, November 2019)
+    https://equator-principles.com/
+ STD-108  IFC Performance Standards (2012), 2012 edition, effective
+    2012-01-01; IFC's Sustainability Framework update is in progress (public
+    consultation phase planned 2026-2028); the 2012 PS remain applicable
+    [2026-11-16]
+    IFC Performance Standards on Environmental and Social Sustainability
+    (PS1-PS8)
+    https://www.ifc.org/PerformanceStandards
+ STD-007  JCGM 100:2008, GUM 1995 with minor corrections (2008)  [2026-11-14]
+    Evaluation of measurement data - Guide to the expression of uncertainty in
+    measurement (GUM)
+    https://www.bipm.org/en/committees/jc/jcgm/publications
+ STD-008  JCGM 101:2008, 1st edition 2008  [2026-11-14]
+    Evaluation of measurement data - Supplement 1 to the GUM - Propagation of
+    distributions using a Monte Carlo method
+    https://www.bipm.org/en/committees/jc/jcgm/publications
+ STD-009  JCGM 106:2012, 1st edition 2012 (also ISO/IEC Guide 98-4:2012)
+    [2026-11-14]
+    Evaluation of measurement data - The role of measurement uncertainty in
+    conformity assessment
+    https://www.bipm.org/en/committees/jc/jcgm/publications
+ STD-006  JCGM 200:2012, 3rd edition (2008 version with minor corrections)
+    [2026-11-14]
+    International vocabulary of metrology - Basic and general concepts and
+    associated terms (VIM)
+    https://www.bipm.org/en/committees/jc/jcgm/publications
+ STD-155  Modbus Application Protocol V1.1b3, V1.1b3, 2012-04-26  [2026-11-17]
+    MODBUS Application Protocol Specification
+    https://modbus.org/modbus-specifications
+ STD-162  NIST SP 800-82 Rev. 3, Revision 3, September 2023; supersedes Rev. 2
+    (2015)  [2026-11-17]
+    Guide to Operational Technology (OT) Security
+    https://csrc.nist.gov/pubs/sp/800/82/r3/final
+ STD-025  RFC 3629 (STD 63), November 2003; Internet Standard; obsoletes RFC
+    2279  [2026-11-15]
+    UTF-8; a transformation format of ISO 10646
+    https://www.rfc-editor.org/rfc/rfc3629
+ STD-024  RFC 4180, October 2005; Informational (not an Internet standard);
+    updated by RFC 7111  [2026-11-15]
+    Common Format and MIME Type for Comma-Separated Values (CSV) Files
+    https://www.rfc-editor.org/rfc/rfc4180
+ STD-026  RFC 8259 (STD 90), December 2017; Internet Standard; obsoletes RFC
+    7159  [2026-11-15]
+    The JavaScript Object Notation (JSON) Data Interchange Format
+    https://www.rfc-editor.org/rfc/rfc8259
+ STD-005  SI Brochure (9th edition), 9th edition 2019 (text revised since;
+    English v4.01 listed 2026-06)  [2026-11-14]
+    The International System of Units (SI)
+    https://www.bipm.org/en/publications/si-brochure
+ STD-033  Semantic Versioning 2.0.0, 2.0.0  [2026-11-15]
+    Semantic Versioning (SemVer) specification
+    https://semver.org/
+ STD-101  UN Manual of Tests and Criteria, sub-section 38.3, 8th revised
+    edition (ST/SG/AC.10/11/Rev.8, 2023-11-27); Amendment 1
+    (ST/SG/AC.10/11/Rev.8/Amend.1) published 2025-09-12; amends sub-section
+    38.3  [2026-11-16]
+    Recommendations on the Transport of Dangerous Goods - Manual of Tests and
+    Criteria (lithium metal and lithium ion batteries, sub-section 38.3)
+    https://unece.org/transport/dangerous-goods/rev8-files

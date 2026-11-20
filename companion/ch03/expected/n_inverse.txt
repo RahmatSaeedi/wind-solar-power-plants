@@ -1,0 +1,8 @@
+inverse-transform sampling of the fitted Weibull (k = 2.114, c = 8.017 m/s):
+  U uniform on (0, 1)  ->  v = c (-ln(1 - U))^(1/k)
+  100,000 samples: mean 7.123 m/s (theory 7.101), mean of v^3 651.6 (theory
+    648.2)
+  energy from the samples: 192.6 GWh/yr
+  independent samples have no autocorrelation: fine for annual sums, wrong for
+    anything that depends on the order of hours (batteries, ramps,
+    curtailment)

@@ -1,0 +1,9 @@
+short circuit and inrush of the 63 MVA unit (infinite bus):
+  fault on the 33 kV terminals: 9.2 kA = 8.3 x rated
+  force on the windings ~ I^2: 69 x the rated-current force (x peak factor^2)
+  inrush on energising: a few times to over ten times rated
+  current for some cycles, decaying over seconds, rich in
+  the 2nd harmonic - the protection must not trip on it (ch 26)
+  the windings and clamping are designed and type-proved for
+  the short-circuit force; the specification states the
+  fault level the transformer must withstand (ch 23 faults)

@@ -1,0 +1,18 @@
+monthly PR and PR corrected to 25 C (reference sensor, teaching)
+  month   PR      cell C (weighted)   PR at 25 C
+  Jan     0.886                26.3        0.890
+  Feb     0.879                30.1        0.895
+  Mar     0.857                35.9        0.891
+  Apr     0.810                41.4        0.860
+  May     0.817                48.9        0.892
+  Jun     0.785                54.1        0.874
+  Jul     0.806                55.2        0.901
+  Aug     0.801                53.5        0.890
+  Sep     0.827                47.8        0.899
+  Oct     0.849                41.3        0.901
+  Nov     0.870                34.0        0.898
+  Dec     0.884                26.0        0.887
+  summer PR is lower partly because hot cells make less;
+  corrected to 25 C the months move closer together, and
+  what still sticks out - April's soiling, June's outage -
+  is what the plant did, not what the weather did

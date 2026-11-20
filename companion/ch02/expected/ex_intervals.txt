@@ -1,0 +1,5 @@
+four 15-minute mean powers: 80 MW, 84 MW, 90 MW, 86 MW
+energy = sum(P x 0.25 h) = 85 MWh
+wrong: sum(P) = 340 'MWh' (four times too much)
+mean power of the hour = 85 MW -> energy of the hour 85 MWh
+ten-minute data: E = sum(P) x (1/6) h; hourly data: E = sum(P) x 1 h

@@ -1,0 +1,17 @@
+mismatch by the ch 15 curves
+  24 half cells in series, no reverse breakdown (one diode's
+  string):
+    binned 0.1 A             0.00%
+    mixed bins               0.05%
+    unsorted                 0.34%
+    one cell 10 % low        1.53%
+  26 modules from the lot in one string:
+    random 26                0.01%
+    sorted by Isc            0.00%
+    one diode-short module   0.01%
+  binning keeps the cell loss small; one weak cell drags
+  its whole string down to its current - the reason cracked
+  and low cells are sorted out before stringing; a string
+  of lot modules loses little; a diode-short module adds
+  almost no mismatch - its loss is its own missing third,
+  a defect for the flash and the monitoring to find

@@ -1,0 +1,11 @@
+sections inspected on arrival at site (teaching)
+  section   coating damage m2   share    dents   action
+  T05-1                   0.8    0.24%       0   touch-up record
+  T05-2                   2.6    0.84%       1   NCR, maker's repair
+  T05-3                   0.3    0.11%       0   touch-up record
+  T05-4                   0.5    0.20%       0   touch-up record
+  T05-2 came with a dent near a flange: dents in a wall that
+  carries fatigue are assessed by the maker and the designer,
+  not filled; coating damage is touched up to the coating
+  maker's repair procedure, with its own DFT readings, before
+  the section is lifted

@@ -1,0 +1,11 @@
+sensitivity of the full-export load flow to its data (Q = 0 at POC)
+  case                           V POC    V MV-A   loss MW   d loss %
+  base (7.06 km, grid max)        1.006    1.020      1.73       +0.0
+  line impedance +10 %            1.006    1.020      1.77       +2.7
+  line 7.60 km (sheet error)      1.006    1.020      1.76       +2.1
+  grid minimum (900 MVA)          1.012    1.026      1.71       -1.2
+  the line's data move losses by a few per cent and voltages
+  by a few thousandths: the result is robust to them; the
+  grid's strength moves the POC voltage more - which is why
+  the operator's minimum case matters more than the line's
+  exact length (still corrected before submission)

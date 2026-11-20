@@ -1,0 +1,8 @@
+overturning about the toe of the 20 m base, extreme case (teaching
+  factors: action x 1.35, stabilising weight x 0.9; the code sets real ones)
+  case                     overturning MN m   resisting MN m   ratio
+  characteristic                        190              353    1.85
+  factored (teaching)                   257              317    1.24
+  the factors make the check carry its own uncertainty; the
+  ratio stays above 1, but the soil under the compressed
+  part of the base is checked too (lesson D, effective area)

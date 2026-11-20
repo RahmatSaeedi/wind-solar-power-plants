@@ -1,0 +1,7 @@
+serialised main components of one turbine (A-220): 35
+  twelve turbines: 420 serial numbers to trace, each with
+  material certificates, inspection reports, test records and
+  non-conformance history; plus every bolt-tensioning record
+  of the tower and blade-root joints
+  the records are the turbine's memory: warranty claims, serial
+  defect campaigns and life extension all start from them

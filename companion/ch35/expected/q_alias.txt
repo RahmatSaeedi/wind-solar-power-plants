@@ -1,0 +1,11 @@
+a 0.08 Hz power oscillation of 2 MW seen at three sampling intervals
+  interval s   apparent frequency Hz   largest swing seen MW
+           1                   0.080                    3.99
+          10                   0.020                    3.80
+  10-min avg                    none                    0.00
+  at 1 s the oscillation is seen as it is; at 10 s it shows
+  up as a slow wave of the wrong frequency (aliasing); in a
+  10-minute average it is gone. The sampling of each point
+  is chosen from the fastest thing it must show - at least
+  two samples a period, better ten - and a phenomenon
+  faster than SCADA sampling belongs to a recorder (ch 27)

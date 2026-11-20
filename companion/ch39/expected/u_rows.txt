@@ -1,0 +1,8 @@
+asset rows delivered by U-A: 10 rows, 4 rules
+  tag known                fails row 9
+  serial present           fails row 4
+  rating 5.6 MVA (C-017)   fails row 7
+  impedance in per cent    fails row 10
+  rows accepted: 6 of 10; the four go back with
+  the rule each failed - payment for the data item waits
+  for accepted rows (lesson I), not for a file count

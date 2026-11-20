@@ -1,0 +1,7 @@
+capability of joint resistance (upper limit 20 micro-ohm)
+  good tools (35 joints)     mean 12.44  sd 1.31  Cpk 1.93          0 ppm over
+  drifted TW-14 (15 joints)  mean 15.85  sd 2.00  Cpk 0.69     19,102 ppm over
+  only one-sided: lower resistance is always better
+  a Cpk of 1.9 leaves almost nothing over the limit; the
+  drifted tool puts about one joint in fifty over it -
+  and many more just under it, where heat builds slowly

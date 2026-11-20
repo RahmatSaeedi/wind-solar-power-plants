@@ -1,0 +1,11 @@
+cumulative effects: invented collision index of one species
+(teaching numbers; threshold 4 a year set by the specialists):
+  project                                    turbines  index  sum
+  Plant P (12 turbines)                            12    0.6   0.6
+  existing farm (fictional, 40 turbines)           40    3.2   3.8
+  planned farm (fictional, 25 turbines)            25    1.5   5.3
+  Plant P alone adds 0.6 - far below the threshold - but the
+  existing farm plus Plant P reaches 3.8 and the planned farm
+  would take the sum past 4: the effect of one project is
+  judged with the others in the same area (ch 33), and the
+  study and the authority decide, not this screen

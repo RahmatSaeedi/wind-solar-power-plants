@@ -1,0 +1,14 @@
+electrode balance of the 314 Ah LFP cell (teaching design values)
+  positive 40.0 mg/cm2 x 0.95 x 155 mAh/g = 5.89 mAh/cm2
+  negative 19.0 mg/cm2 x 0.955 x 340 mAh/g = 6.17 mAh/cm2
+  facing area for 314 Ah after a first-cycle share of 92%: 5.79 m2
+  coating error              N/P     margin
+  as designed                1.047    +4.7%
+  positive +3 %              1.017    +1.7%
+  negative -3 %              1.016    +1.6%
+  both, at one spot          0.986    -1.4%
+  the negative must hold more than the positive can give, or
+  lithium plates on it while charging; a few per cent of
+  coating weight at one spot uses up the margin - which is
+  why the coating weight is a controlled characteristic
+  (lesson B), not a nominal value

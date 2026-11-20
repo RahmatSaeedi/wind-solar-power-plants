@@ -1,0 +1,8 @@
+one EPC wrap or several contracts (expected cost, k u):
+  EPC wrap: price 132,982 + premium 6 % = 140,961
+  multi-contract: 132,982 + interface team 1.5 %
+    + 30 % chance x 12 % = 139,765
+  expected saving of the multi-contract route 1,197 k u
+  but its bad case (interface failure) costs 150,935: 9,974 more
+  than the wrap; lenders often prefer the wrap because it puts
+  the interface risk with one party that can carry it

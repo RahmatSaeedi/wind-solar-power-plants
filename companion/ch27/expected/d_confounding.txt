@@ -1,0 +1,13 @@
+plant high against plant low - first plainly, then within the same hours
+  correlation of V5 with plant output over the week: -0.14
+  comparison (top/bottom third)   V5 high %   V5 low %   P high/low MW
+  all hours (plain)                    1.14       1.25       52/13
+  10-14 h only                         1.13       1.05       66/40
+  0-5 h only                           1.03       1.00       33/5
+  the plain comparison makes the plant look harmless, even
+  helpful: the background's evening peak falls in hours of
+  low PV output; within the same hours the plant's share
+  shows (the synthetic truth: 0.54 % of its own when above
+  60 MW, adding in power with the background) - time of day
+  is a confounder, and the comparison must hold it fixed (or
+  switch the plant off at a fixed hour)

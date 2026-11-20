@@ -1,0 +1,11 @@
+the earth of the 33 kV system (main transformers YNd11):
+  the 33 kV windings are delta: they give the collector system
+  no neutral and no earth-fault current - an unearthed system
+  an earthing transformer per bus section with a resistor
+  that limits the earth-fault current to 400 A (teaching):
+    R = U_phase / I = 19,053 / 400 = 47.6 ohm
+    the resistor takes 7.6 MW while a fault lasts
+  (seconds: it is rated by time, not continuously); the
+  one-line shows both earthing transformers, and the
+  protection of ch 26 uses the limited current to find the
+  faulted feeder

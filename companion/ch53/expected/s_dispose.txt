@@ -1,0 +1,8 @@
+records past their (teaching) retention period at year 18
+  SCADA raw data, years 1-15   keep    3 yr, oldest 15 yr
+  shift logs, years 1-12       keep    7 yr, oldest 12 yr
+  visitor and gate logs        keep    2 yr, oldest 18 yr
+  CCTV                         keep  0.1 yr, oldest 18 yr
+  4 sets due for disposal; personal data (gate logs, CCTV)
+  must not be kept longer than the obligation allows - disposal
+  is a recorded act with a certificate, not a deletion

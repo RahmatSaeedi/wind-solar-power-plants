@@ -1,0 +1,9 @@
+one stack of the PCI-5500 by hand
+  1.375 MVA at 600 V: line current 1,323 A rms
+  semiconductor loss 12.4 kW over 12 x 2 modules: mean 517 W,
+    but the outer switch T1 carries 494 W a module (lesson A)
+  R_jc 0.028 + interface 0.0156 + plate 0.016 = 0.0596 K/W
+  Tj of the hottest module at 45 C coolant: 74.5 C (ch 9: 75 C)
+  semiconductor efficiency at 1,250 kW: 99.01% (other losses on top)
+  check: four stacks carry 5.5 MVA; 24 modules a stack is 12
+  positions with 2 in parallel (ch 9, ratings)

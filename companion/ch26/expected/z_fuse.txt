@@ -1,0 +1,12 @@
+fuse or breaker for a unit transformer at 33 kV (teaching rule:
+  a fuse melts in 0.1 s at about 8 x its rating; inrush ~12 x In
+  for about 0.1 s must not melt it; teaching top of range 63 A)
+  unit MVA   In A   inrush A   smallest fuse A   within the range?
+       1.0     17        210                26                 yes
+       2.5     44        525                66                  NO
+       5.5     96       1155               144                  NO
+  for the 5.5 MVA PV units the inrush alone asks for a fuse
+  above the teaching range: so they also get a breaker
+  with relay (lesson C's window), as the wind units do -
+  fuses stay for small transformers such as the station
+  service; the maker's time-current curves give the answer

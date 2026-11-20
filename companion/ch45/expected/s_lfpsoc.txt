@@ -1,0 +1,13 @@
+SOC error from a cell-voltage error of 5 mV at rest
+  (LFP teaching curve, ch 19)
+  SOC    slope V per unit SOC   SOC error
+   10%                   0.818       0.6%
+   30%                   0.105       4.8%
+   50%                   0.100       5.0%
+   70%                   0.103       4.8%
+   95%                   1.891       0.3%
+  in the flat middle a few millivolts mean several per cent
+  of SOC: an LFP battery counts charge and corrects its SOC
+  where the curve is steep (near full or empty) - the BMS
+  voltage accuracy and the correction rule are part of its
+  configuration record

@@ -1,0 +1,10 @@
+documents of a protection panel (each with a revision and a status):
+  protection single-line     zones, CTs, VTs, functions per breaker
+  schematic diagrams         the circuits: trip, close, alarm, supervision
+  wiring diagrams            where each wire goes, terminal by terminal
+  terminal and cable lists   every core of every cable, both ends
+  I/O and signal list        each signal to SCADA and the operator
+  setting files              the approved settings with checksum (lab D)
+  logic diagrams             interlocks, breaker failure, transfer trip
+  the panel is built and tested from these; a change on site
+  without a revised drawing breaks the chain of evidence

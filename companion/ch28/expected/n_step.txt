@@ -1,0 +1,9 @@
+voltage set-point step test: what the study expects (SCR 15, tuned loop)
+  a 2 % step needs about 30 Mvar (2 % x 1,500 MVA), inside the
+  plant's +46 Mvar
+  expected: 90 % of the step reached in about 1.8 s, no overshoot
+  test acceptance written beforehand (teaching): 90 % within
+  2 s, overshoot below 10 %, settled within 5 s; on the
+  weak grid the same test is predicted with the retuned gain
+  (lesson C) - a test on a strong-grid day does not prove the
+  weak-grid behaviour, the validated model does

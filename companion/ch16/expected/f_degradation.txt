@@ -1,0 +1,12 @@
+PV energy and its uncertainty from the degradation rate
+  (0.5 +/- 0.2 % a year, one rate for the whole life):
+  year   PV GWh at MV   sigma from rate   PV sigma all parts
+     1       108.36          0.22 GWh          3.84 GWh
+     5       106.18          1.09 GWh          3.91 GWh
+    10       103.46          2.18 GWh          4.26 GWh
+    15       100.73          3.27 GWh          4.84 GWh
+    20        98.01          4.36 GWh          5.57 GWh
+    25        95.29          5.45 GWh          6.41 GWh
+  the rate's uncertainty grows with every year: near year 15 it
+  equals all other PV parts together and then exceeds them;
+  long-term module data (chapter 41, field records) shrink it

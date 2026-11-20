@@ -1,0 +1,9 @@
+a breaker auxiliary contact closing at 100.0 ms with bounce
+  raw input: 7 edges in 3.6 ms
+  10 ms debounce: 1 edge, accepted at 113.6 ms
+  stamp taken at acceptance: 13.6 ms late
+  stamp taken at the first edge, confirmed after 10 ms:
+    0.0 ms late, and still one event
+  a sequence-of-events input filters the bounce and keeps
+  the time of the first edge; an ordinary input that
+  stamps when it accepts adds its filter to every event

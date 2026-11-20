@@ -1,0 +1,9 @@
+April's soiling read from the data alone
+  residual, last three days before cleaning -6.10 %
+  residual, three days after                -0.76 %
+  step at cleaning 5.34 %; slope through April -0.201 %/day
+  planted: 6 % at the end of the month, 0.207 %/day
+  the step at a cleaning measures the soiling directly, the
+  slope says how fast it builds; with both, the cleaning
+  interval of chapter 10 is re-checked against the site's
+  real soiling rate, not the design value

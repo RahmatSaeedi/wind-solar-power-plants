@@ -1,0 +1,15 @@
+rotor-size trade study, 5 MW drivetrain, site year (A-239):
+  rotor m  W/m2  hub m  rated v  energy MWh  CF     peak thrust  blade t
+    136    344     93    11.0      14,968  0.342      846 kN   17.2
+    150    283    100    10.5      17,168  0.392      923 kN   22.0
+    162    243    106    10.0      18,921  0.432      962 kN   26.7
+  relative to the 150 m rotor:
+    136 m: energy -12.8 %, thrust  -8.3 %, blade mass -21.7 %
+    150 m: energy  +0.0 %, thrust  +0.0 %, blade mass  +0.0 %
+    162 m: energy +10.2 %, thrust  +4.3 %, blade mass +21.2 %
+  a bigger rotor buys energy below rated wind; blade mass
+  (and cost) grows faster than the energy, while peak thrust
+  grows slowly because rated wind falls; fatigue loads and
+  tip height also grow. The choice is made on cost of energy
+  with the vendor's prices and loads, and on site limits
+  (transport, tip height, noise, export cap)

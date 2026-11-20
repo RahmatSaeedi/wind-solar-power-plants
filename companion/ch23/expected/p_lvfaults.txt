@@ -1,0 +1,11 @@
+fault levels at the units' low-voltage buses (teaching):
+  bus                                         from MV kA  units kA  total kA
+  turbine LV, 0.69 kV (5.6 MVA, 7 %, far end)       53.3       5.3      58.5
+  PV station LV, 0.60 kV (5.5 MVA, 6 %)             69.2       5.8      75.0
+  station service, 0.40 kV (0.25 MVA, 4.5 %)         7.9       0.0       7.9
+  the unit transformer limits the LV fault, yet 5.6 MVA at
+  690 V still gives about 60 kA: the turbine's LV breaker and
+  busbar are rated for it (the maker's design), and the
+  converter adds its own share; a smaller transformer
+  impedance would raise both - a one-line value with
+  consequences inside the nacelle

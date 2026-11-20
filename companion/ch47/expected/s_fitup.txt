@@ -1,0 +1,16 @@
+section 1: plate cut lengths against the drawing, and the step between cans
+  (teaching limit for the step: min(0.1 t, 3 mm) = 3.0 mm)
+  seam    dev A mm   dev B mm   step mm   verdict
+     1          2         -1      0.48   ok
+     2         -1         12      2.07   ok
+     3         12         -9      3.34   OVER
+     4         -9          1      1.59   ok
+     5          1          0      0.16   ok
+     6          0         -7      1.11   ok
+     7         -7          2      1.43   ok
+     8          2          4      0.32   ok
+     9          4         -2      0.95   ok
+  over: seam 3 - a can cut 12 mm long next to one cut
+  9 mm short leaves a step the welder cannot bridge; the cut
+  length is checked before rolling, when a re-cut is cheap,
+  not at fit-up (ch 30 ovality)

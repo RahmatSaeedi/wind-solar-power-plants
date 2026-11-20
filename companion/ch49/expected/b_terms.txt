@@ -1,0 +1,9 @@
+MV termination records: each end names the jointer, the kit lot,
+  the screen earth and a photo before it is closed
+  WS1-PVF13 B-end: missing photo
+  PVF13-PVF12 A-end: missing kit lot
+  PVF13-PVF12 B-end: missing screen earth
+  3 of 4 ends are not closed: a kit lot links a
+  termination to a recall (ch 46), a screen earth not
+  recorded is one not checked, and a photo is the only view
+  of the inside once the end is sealed

@@ -1,0 +1,11 @@
+string I-V curve in the field, translated to STC (teaching %)
+  irradiance sensor (reference cell)      2.0
+  module temperature 2 K x 0.35 %/K       0.7
+  translation to STC (model)              1.0
+  tracer and cabling                      0.5
+  non-uniform light and soiling           1.0
+  combined 2.60 %, expanded (k = 2) 5.2 %
+  a string more than 5 % low is a finding; 1 % is not -
+  field curves compare strings measured together in the same
+  hour (shared sensor, shared sun), where most of these
+  terms cancel; absolute power is the laboratory's job

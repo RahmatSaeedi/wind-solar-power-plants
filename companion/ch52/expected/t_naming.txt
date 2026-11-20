@@ -1,0 +1,14 @@
+asset IDs against the naming rule (ch 23 reference designations)
+  =PVF2-3-INV     ok
+  =PVF2-3-CB01    ok
+  =WT03-GBX       ok
+  WT07_GBX        BREAKS THE RULE
+  =BESS-A-PCS1    ok
+  =PVF2-3-cb02    BREAKS THE RULE
+  =WT11-YAW       ok
+  =SUB-T1         ok
+  =PVF1-1-INV-    BREAKS THE RULE
+  =BESS-A-C2      ok
+  3 of 10 break it: a lower-case letter, an underscore,
+  a trailing dash - each makes a second asset that the
+  history of the first never reaches

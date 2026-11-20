@@ -1,0 +1,8 @@
+energy given up to the SOC estimate's uncertainty (window 10-90 %):
+  SOC error   window kept   usable MWh   lost a year at 365 cycles
+        1 %    11- 89 %         31.3            272 MWh
+        3 %    13- 87 %         29.7            815 MWh
+        5 %    15- 85 %         28.1          1,358 MWh
+  to keep the cells inside their limits the controller shrinks
+  the window by its own uncertainty; a better estimate is
+  energy sold every day

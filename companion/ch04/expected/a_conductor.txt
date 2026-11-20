@@ -1,0 +1,11 @@
+copper busbar 80 x 10 mm: R20 = 21.50 micro-ohm/m, surface 0.18 m2 per m, h =
+    10.0 W/m2K, ambient 40.0 C (A-051)
+    500 A: steady   43.3 C  (k alpha = 0.012)
+   1000 A: steady   53.5 C  (k alpha = 0.047)
+   1500 A: steady   72.4 C  (k alpha = 0.106)
+   2000 A: steady  103.4 C  (k alpha = 0.188)
+   2500 A: steady  154.0 C  (k alpha = 0.293)
+   3000 A: steady  240.8 C  (k alpha = 0.422)
+  linear model: no steady state above I = sqrt(h A / (R20 alpha)) = 4,616 A
+  fixed-point iteration at 2000 A: 103.4 C after 7 steps (converges because k
+    alpha < 1)

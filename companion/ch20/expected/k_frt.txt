@@ -1,0 +1,14 @@
+plant loop through a voltage dip (units give 0.2 pu meanwhile):
+  dip s     mode   peak after dip pu   time above 1.02 s
+    0.5     none                1.18                 7.4
+    0.5   freeze                1.11                 6.4
+    0.5     hold                1.01                 0.0
+    1.5     none                1.35                 8.7
+    1.5   freeze                1.11                 6.4
+    1.5     hold                1.01                 0.0
+  without a freeze the integral grows through the dip and the
+  overshoot grows with the dip; a freeze removes that part,
+  but the loop still reacts to the recovery itself; holding
+  until the units have recovered removes the overshoot: at an
+  export limit an overshoot is a breach of the cap right after
+  a grid fault (FRT coordination, ch 9 and ch 27)

@@ -1,0 +1,16 @@
+% Chapter 3 laboratory — error at t = 3600 s against the time step for Euler and RK4 on the
+% cable-heating equation. Log-log: the slope is the order. Data: diagrams/data/ch03-order.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=112mm, height=66mm,
+      xlabel={گامِ زمانی (s)}, ylabel={خطا (K)},
+      xmin=60, xmax=1500, ymin=1e-7, ymax=10, xtick={75,150,300,600,1200},
+      xticklabels={75,150,300,600,1200}, log ticks with fixed point]
+    \addplot[sLoss, mark=square*, mark size=1.5pt, mark options={solid}] table[x=dt, y=euler, col sep=comma] {data/ch03-order.csv};
+    \addlegendentry{اویلر: مرتبهٔ ۱}
+    \addplot[sWind, mark=*, mark size=1.5pt, mark options={solid}] table[x=dt, y=rk4, col sep=comma] {data/ch03-order.csv};
+    \addlegendentry{رونگه-کوتا ۴: مرتبهٔ ۴}
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

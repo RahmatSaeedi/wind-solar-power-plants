@@ -1,0 +1,6 @@
+SCADA alarm to work order: hours, ten corrective jobs
+    0.2   0.5   1.0   0.3  26.0   2.0   0.4  70.0   0.8   1.5
+  median 0.9 h; over a day: 2
+  the two late ones came in over a weekend with nobody
+  creating orders from alarms - an automatic order for set
+  alarm classes (with a person approving it) closes the gap

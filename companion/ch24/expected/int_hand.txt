@@ -1,0 +1,5 @@
+the first section of WS1 by hand (630 mm2 Al):
+  current 368 A; rating in place 660 x 0.675 = 445 A
+  r at 90 C 0.0601 ohm/km; drop over 1.1 km 0.19 %
+  12.5 kA for 1 s needs 133 mm2; 630 mm2 carries 59.2 kA
+  all three checks pass with the trench's factors applied

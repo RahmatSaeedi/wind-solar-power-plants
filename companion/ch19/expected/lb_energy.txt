@@ -1,0 +1,5 @@
+step 1-3, energy (data pack S1: window 10-90 %, RT 86 %):
+  one-way efficiency sqrt(0.86) = 0.927
+  at the POC from 40 MWh, new: 40 x 0.8 x 0.927 = 29.7 MWh
+  health needed for 25 MWh: 0.842; reached after 7.9 years at 2 %/yr
+  oversized at the start for year 15 (health 0.70): 48.1 MWh nominal

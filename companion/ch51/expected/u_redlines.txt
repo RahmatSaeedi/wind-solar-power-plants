@@ -1,0 +1,9 @@
+field redlines waiting for an as-built revision on day 365
+  DWG-0005 one-line rev E    marked day 210, waiting 155 days  OLD
+  WS1 schematic              marked day 300, waiting  65 days
+  BESS-A cable route         marked day 330, waiting  35 days
+  PPC wiring                 marked day 140, waiting 225 days  OLD
+  SST LV board               marked day 352, waiting  13 days
+  fire panel zones           marked day  95, waiting 270 days  OLD
+  3 older than 90 days; the one-line rev E has waited 155
+  days - the switching programs are written from it

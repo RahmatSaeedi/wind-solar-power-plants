@@ -1,0 +1,7 @@
+W2b collector loss, section by section against the bound:
+  cable            bound MWh   exact MWh   exact % of wind
+  33 kV 240 mm2        1,966       1,141        0.59
+  33 kV 630 mm2          787         456        0.24
+  the far sections carry one to three turbines, so the exact
+  loss is well below the bound; the first section from the
+  substation carries the whole string and sets the cable size

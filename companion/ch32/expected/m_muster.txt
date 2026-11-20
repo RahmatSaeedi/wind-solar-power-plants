@@ -1,0 +1,9 @@
+walking to a muster point across the PV array (teaching)
+  block size km   muster points   farthest walk m   minutes at 4 km/h
+            1.5               1              1061                  16
+            1.5               2               839                  13
+            1.5               4               530                   8
+  one muster point for a 1.5 km block means a quarter-hour
+  walk in the heat or smoke; four points halve it to about
+  eight minutes, and each crew knows its own point and the
+  second one upwind (lesson C)

@@ -1,0 +1,8 @@
+a forecast feed that fails in 4 % of hours - the stormy ones
+  RMSE on the hours it arrived:                    6.64 MW
+  RMSE of what the desk actually used (gaps filled
+    with yesterday's value):                      8.69 MW
+  the provider's score leaves out the hours it missed, and
+  they are the hard ones; the plant scores the chain it
+  operated, with the fallback, and reports the feed's
+  completeness beside the score

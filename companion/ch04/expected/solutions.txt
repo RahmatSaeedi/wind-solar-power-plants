@@ -1,0 +1,123 @@
+P01: 10.5 rpm = 1.0996 rad/s; tip speed 82.5 m/s
+P02: KE = 9 J; PE = 0.981 MJ = 0.272 kWh
+P03: rho(900 hPa, 10 C) = 1.107 kg/m3
+P04: 1/2 x 1.05 x 8^3 = 268.8 W/m2
+P05: steel 10 m, 60 K: 7.2 mm
+P06: 1000 nm: 1.240 eV; 1.12 eV: 1107 nm
+P07: 200 MPa / 210 GPa x 2 m = 1.905 mm
+P08: n 1.5: 0.040; n 1.33: 0.0201
+P09: steel at 0.01 A/m2: 11.6 um/yr
+P11: Cp(0.2) = 0.512; Cp(0.4) = 0.576
+P12: alpha 0.171: 7.61 m/s; alpha 0.12: 7.45 m/s
+P13: Cu 80 x 10 at 1800 A: 89.2 C (k alpha 0.152)
+P14: E at 15 mm = 6.44 kV/mm; at 33 mm 2.93 kV/mm
+P15: 40 kA, 0.5 m: 640 N/m
+P16: N = 400 / (4.44 x 50 x 0.01 x 1.5) = 120 turns
+P17: tube 0.5 m x 10 mm, 20 m: f1 = 1.25 Hz
+P18: 2 km: 28.0 dB(A); 12 equal at 1 km: 44.8 dB(A)
+P19: 40 MPa: 1.12e+07 cycles; 80 MPa: 1.4e+06
+P20: a_c = 18.0 mm
+P21: 2100 m hub, 5 C: p 785 hPa, rho 0.983; energy 169.8 GWh (-11.8 %)
+P22: winter day: max cell 28.6 C; irradiance-weighted change +0.9 %
+P23: thrust 1098 kN; moment 109.8 MN m; sigma_b 143 MPa
+P24: Cu 100 x 10: T max 85.6 C, hours above 90 C 0
+P25: 115 um at 2 um/yr: 57.5 yr; at 4 um/yr: 28.8 yr
+P27: 5 km: I_c = 6.51 A; Q = sqrt3 x 33 kV x I_c = 372 kvar
+P28: alpha 0.25: rotor-equivalent / hub = 0.9952
+P29: 35 C sea level: dry 1.1455, 60 % rh 1.1311 (-1.26 %)
+P30: 75 deg: reflectance 0.253, transmission relative to normal 0.778
+P26: h A = 2.0 W/K: 30 micro-ohm joint exceeds 105 C in month 75
+P31: D 4.5 m, f1 = 0.25 Hz needs t = 56.8 mm (30 bisection steps)
+P32: torque 2.56 kN m; K 0.12 .. 0.18 -> preload 396 .. 593 kN
+P33: weights 0.30/0.25/0.35/0.10: HDG 3.95, thicker HDG 4.00, stainless 3.00
+P34: tool 40 000: break-even 2,299 parts
+P35: shaft 600.090 .. 600.100 mm gives interference 0.020 .. 0.100 mm
+     (tolerance 10 um)
+P36: sigma 13 kN, half tolerance 47.5 kN: Cpk = 1 when the mean has moved 47.5
+     - 3 x 13 = 8.5 kN from the centre
+P37: stress factor for D = 0.5 from 1.09: (0.5/1.09)^(1/3) = 0.771
+P38: a50 1.0, s 0.3: a90 = 1.93 mm
+P39: Al frame on glass, 80 K: 1.12 mm per m
+P40: Al 100 x 10, h 10: runaway above 4,400 A (linear model)
+P47: turbulence x 0.5: damage 0.69 of reference; turbulence x 0.0: damage 0.57
+     of reference
+P48: Ea 50 kJ/mol: 30 micro-ohm joint fails in month 54
+P48: Ea 90 kJ/mol: 30 micro-ohm joint fails in month 20
+P51: 1 kg, 1 m, 60 rpm: m omega^2 r = 39.5 N
+P52: B 1.5 T, 2 m iron, mu_r 5000, 200 turns: i = 2.39 A peak
+P53: M 100 g/mol, n 2: 536 mAh/g
+P54: copper at 400 Hz: skin depth 3.30 mm
+P55: 500 C: Wien peak 3.75 um
+P56: Kt 3 x 50 MPa = 150 MPa at the hole edge
+P57: dx 0.2, dy 0.1: true position 0.447 mm (accept)
+P58: sigma 300, tau 100: von Mises 346 MPa
+P59: angle brace, 1.5 m pinned: 42.4 kN
+P60: V_f 0.6: E along 44.4 GPa, across 7.1 GPa
+P61: Ea 80 kJ/mol near 105 C: rate doubles every 10.6 K
+P62: 45 deg: air mass 1.414, model DNI 862 W/m2
+P63: f_n 50 Hz at 100 Hz: transmissibility 0.339 (-9.4 dB)
+P64: Cu 95 mm2, 10 kA, 0.5 s from 90 C: 127 C
+P65: 3 MW inverter: losses 45.7 kW, air 2.89 m3/s at 1200 m
+P66: rho_soil 2.0, depth 1.0 m: R_th 1.39 K m/W, rise 57 K
+P67: Cu 100 x 10: 99 equivalent hours at 90 C per year
+P68: 45 MPa: annealed 0.380, tempered 2.2e-04
+P69: plan n 32, c 1: P(accept) 0.959 at 1 %, 0.520 at 5 %
+P70: house 1200 m west: total 38.4 dB(A)
+P71: absorptance 0.3: 15 W/m = 37 % of the Joule loss
+P72: thread friction 0.16: thread torque 1776 N m, von Mises 746 MPa = 90% of
+     proof
+P73: k_c = 3 k_b: load factor 0.25; losing preload multiplies damage by 64
+P74: inlets 1.2 m apart (0.6 m each way): 21 min
+P75: C_d 1.0 in the 50-year wind: drag 253 kN, moment 13.8 MN m
+P76: tolerance 0.05 mm, micrometer U 0.004: TUR 6.25
+P77: pile +-10: worst 16.5 mm, RSS 10.7 mm
+P78: 60 C joint, eps 0.6: set 0.6 reads 60.0 C, set 0.95 reads 48.4 C
+P80: 2000 mm2 solid: R_ac/R_dc 1.612; 500 mm2 segment 1.066 (isolated
+     segments)
+P81: 35 mm2 Cu screen, 2 kA, 70 to 250 C: 7.3 s
+P82: V/A 7.5 cm: 141 min to solidify
+P83: 6000 h chamber = 3.7 site-years of UV dose
+P84: steel 35 MJ/kg: 38,575 GJ, payback 7.7 months
+P86: 6 poles at 60 Hz: 1200 rpm
+P87: 100 um zinc: 714 g/m2
+P88: 10 microseconds in steel: 29.6 mm
+P89: 1 m of 2.5 mm2: copper 6.88 milliohm, structural steel 68 milliohm
+P90: C 0.20, Mn 1.20: CE 0.40
+P91: r 25 m: W 28.3 m/s, inflow angle 13.6 deg
+P92: R_ha x 1.3 at 50 C: junction 149 C
+P93: 2 m flat spacing: X 0.370 ohm/km
+P94: 2 x (80 x 10): tau 25.6 min (mass and surface both double)
+P95: tip 100 m/s vs 82.5 m/s: erosion x 3.84
+P96: 4 bolts, 200 kN, mu 0.3: slip resistance 240 kN
+P97: 870 hPa, 40 C: delta 0.804
+P98: feed 0.2 mm/rev: 5.2 min per pass; roughness x 0.25
+P99: 0.2 A for 25 years: 66 kg of zinc
+P100: 2.5 A/mm2: conductor 404 mm2, loss 69 kW, copper 4.75 t
+P101: depth 0.6 m, rho 1.2: R_th 0.74 K m/W, rise 30 K
+P102: +-30 MN m: 182 kN per bolt; stress swing 37.2 MPa preloaded, 223 MPa if
+     loose
+P103: leg for 100 MPa: s = F / (0.707 L sigma) = 3.5 mm
+P104: 2 h pot life: longest flow length 1.44 m
+P105: low preload with occurrence 7: RPN 224 (ties with the thermography mode)
+P106: tip 75 m/s instead of 82.5: erosion x 0.51
+P107: pressure-corrected air mass 0.886: DNI 974 W/m2 (uncorrected 942)
+P108: Al 1000 mm2 round: R_ac/R_dc 1.096
+P109: Al 400 mm2, 31.5 kA 1 s: 194 C; minimum area for 250 C 333 mm2
+P111: 100 m3 under water: uplift 0.98 MN
+P112: base 24 m: B/6 = 4.0 m
+P113: base 22 m, operating, dry: FS 4.54, e 2.42 m (B/6 = 3.67 m)
+P114: peak 325 V and 10 A in phase: true mean power 1625 W, wrong product 3250
+     W
+P115: heat B with Cr 0.30 and Mo 0.20: CE 0.447
+P116: Cu 2 x (80 x 10) on day 191: transient maximum 64.0 C
+P117: r 70 m vs tip 75 m: erosion x 0.617
+P118: thermography detection 2: RPN 64
+P119: bright copper (0.05) at 80 C in a 10 C room, set 0.95: reads 15.1 C
+P120: extreme case dry: e 4.05 m -> base B >= 6 e = 24.3 m (weights unchanged)
+P121: 25 site-years of UV at 60 W/m2: 40,566 h
+P122: Cu screen for 2 kA 1 s, 70 to 250 C: at least 13.0 mm2
+P123: S = I / D instead of I / (D/2): stress 234 MPa instead of 117 MPa
+P126: 8 of the 16 points: flatness 0.54 mm
+P127: N 37.1 MN: extreme moment for e = B/6 = 3.33 m: 124 MN m
+P128: FS of question 1 in the self-check: 30 x 9 / 90 = 3.0
+P129: time constant / data step: busbar 0.43; buried cable 3 h -> 3

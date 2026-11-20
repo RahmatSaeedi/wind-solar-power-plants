@@ -1,0 +1,12 @@
+acceptance matrix for the plant's services (teaching):
+  service              metric                          evidence
+  reactive capability  P-Q points at the POC           measured at 3 P levels
+  voltage control      step metrics                    agreed test and band
+  frequency response   droop, deadband, delay          event or injected test
+  ramp limit           minutes over the limit          agreed counting rule
+  availability         hours ready / hours required    service log
+  telemetry            completeness, latency           operator's records
+  power quality        95th percentiles at the POC     class A, 1 week+
+  every claim in the service contract maps to a metric, a
+  place, a method and a record; a claim without one is not
+  yet a service

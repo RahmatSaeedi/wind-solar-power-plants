@@ -1,0 +1,11 @@
+maintenance budget of a year (k u, teaching) for 110 MW
+  own crew (10 x 52 k u)             520   20%
+  turbine service agreement        1,380   53%
+  parts and consumables              410   16%
+  HV contractor                      102    4%
+  cleaning (16 campaigns)            106    4%
+  tools, software, training           95    4%
+  total 2,613 k u = 23.8 k u per MW a year
+  the turbine agreement is 53%: its terms
+  (response, availability guarantee, parts) are the largest
+  maintenance decision of the plant (ch 39, U-133)

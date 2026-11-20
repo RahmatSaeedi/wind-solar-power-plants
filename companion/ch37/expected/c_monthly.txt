@@ -1,0 +1,20 @@
+the operating year by month (synthetic; PV at MV, model 15.1)
+  month  POA kWh/m2  PV MWh   model MWh   ratio   PR     curtailed MWh
+  Jan         118.9     6325        6333   0.999   0.886            8.9
+  Feb         137.5     7259        7280   0.997   0.879           57.3
+  Mar         198.9    10237       10262   0.998   0.857           56.6
+  Apr         206.2    10039       10369   0.968   0.810           25.2
+  May         209.7    10289       10342   0.995   0.817           96.7
+  Jun         231.6    10917       11254   0.970   0.785            0.0
+  Jul         238.3    11536       11549   0.999   0.806           55.6
+  Aug         199.9     9617        9673   0.994   0.801          163.2
+  Sep         188.8     9382        9410   0.997   0.827           94.5
+  Oct         176.0     9410        9441   0.997   0.890           25.9
+  Nov         137.4     7200        7204   1.000   0.873            1.1
+  Dec          98.2     5212        5240   0.995   0.884           24.4
+  four months stand out: April and June lose energy against
+  the model, August has the most curtailed energy - energy
+  the plant could have made - and October's PR is too good:
+  a plant does not suddenly beat its own model; its sensor
+  does. Curtailment by the 100 MW export limit appears in
+  most months (ch 15) and is not a fault

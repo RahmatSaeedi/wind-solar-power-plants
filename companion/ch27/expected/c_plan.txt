@@ -1,0 +1,15 @@
+measurement plan for the investigation (teaching):
+  POC 132 kV: V harmonics, flicker, unbalance
+      through inductive VT or divider, for 4 weeks
+  POC 132 kV: I harmonics, P, Q
+      through metering CT core, for 4 weeks
+  33 kV bus A and B: V and I harmonics
+      through VT, CT, for 4 weeks
+  one PV and one wind unit: I harmonics vs power
+      through unit transducers, for 2 weeks
+  neighbour's bus: V harmonics
+      through their VT, agreed, for 4 weeks
+  class A instruments on the method of STD-034, one time
+  source, 10-minute aggregation, plant output and switching
+  log recorded alongside; the plan is agreed with the
+  operator and the neighbour before the first reading

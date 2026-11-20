@@ -1,0 +1,8 @@
+what one compromised office PC could reach (synthetic counts)
+  flat network: every one of the 130 control and field devices
+  zones and conduits: none - the business zone has no
+    conduit into control; it reaches only the historian copy
+    in the DMZ, read-only
+  segmentation does not make a device secure; it limits how
+  far one mistake or one infected machine can spread - the
+  'reach' of each zone is what the conduit table decides

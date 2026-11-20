@@ -1,0 +1,8 @@
+early field returns of skid components (first half year)
+  failures 7, survivors 53 at 4,380 h
+  Weibull shape 0.36 (ch 37 method); the failure rate at
+  100 h is 10.6 times the rate at 4,000 h
+  shape below 1: the failure rate falls with age - the mark
+  of manufacturing escapes, not of wear-out; the response is
+  in the factory (genealogy, root cause, supplier action),
+  not a shorter maintenance interval

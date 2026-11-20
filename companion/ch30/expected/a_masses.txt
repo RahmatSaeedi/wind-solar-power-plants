@@ -1,0 +1,14 @@
+the load path of one turbine, top to ground (weights in MN)
+  rotor and nacelle 271 t        2.66
+  steel tower 340 t              3.34
+  concrete 620 m3               14.88
+  backfill 800 m3               14.40
+  total on the ground           35.27
+  tower-base loads (characteristic, teaching A-356):
+    production (peak)              M   92.3 MN m   H 0.92 MN
+    extreme (parked, 50-yr gust)   M  184.6 MN m   H 1.60 MN
+    fatigue: DEL at 1e7 cycles     M   30.0 MN m   H 0.00 MN
+  each load passes rotor -> nacelle -> yaw bearing -> tower
+  flanges -> anchor cage -> concrete -> soil; every joint on
+  that path is checked for strength, fatigue and stiffness
+  - a chain fails at its weakest link, not on average

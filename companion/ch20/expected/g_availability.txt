@@ -1,0 +1,8 @@
+plant controller availability (teaching: MTBF 50,000 h, MTTR 24 h):
+  failures a year 0.175
+  single controller: 4.20 h a year in fallback
+  duplicated, switchover succeeds 98 %: 0.086 h a year
+  REQ-S01 window hours lost (single): 0.70 a year
+  a controller fault matters less than the comms outages of
+  lab E (18 h a year); but a duplicated pair is only as good as
+  its switchover test and identical settings (fingerprints)

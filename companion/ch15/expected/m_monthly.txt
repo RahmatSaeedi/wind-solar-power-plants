@@ -1,0 +1,23 @@
+a monthly spreadsheet model against the hourly model (GWh):
+  month   PV monthly  PV hourly   wind monthly  wind hourly
+      1       5.99       6.33        15.48        15.89
+      2       6.93       7.28        17.23        18.35
+      3      10.02      10.26        17.52        18.00
+      4      10.39      10.37        14.41        14.59
+      5      10.57      10.34        20.63        21.22
+      6      11.67      11.25         8.52         8.15
+      7      12.01      11.55        14.11        15.04
+      8      10.07       9.67        10.50        10.23
+      9       9.52       9.41        20.04        20.68
+     10       9.30       9.44        13.65        13.83
+     11       6.94       7.20        12.36        12.06
+     12       4.95       5.24        24.79        25.08
+  wind: monthly 189.25, hourly 193.14 GWh (-2.0 %); PV: equal sums
+  MV total: monthly 297.60, hourly 301.49 GWh
+  net: monthly 292.01 GWh (no limit, no import, no outage), hourly 295.14 GWh
+  with one annual PR the monthly PV runs about 4 % high in summer
+  and 5 % low in winter while the year agrees by construction;
+  the wind is low only because of the monthly Weibull fits (the
+  hourly speeds with the same annual factor give the hourly sum);
+  and a monthly model cannot see clipping, the limit, import or
+  storage

@@ -1,0 +1,7 @@
+main transformer T2 dissolved gases, quarterly (ppm)
+  H2      12    14    15    41
+  C2H2   0.0   0.0   0.1   0.9
+  H2 x2.7 in one quarter and acetylene appearing: the
+  interpretation (ch 43, IEC 60599) is a specialist's; the
+  maintenance step is to shorten the sampling to monthly and
+  to compare with the load and the tap-changer operations

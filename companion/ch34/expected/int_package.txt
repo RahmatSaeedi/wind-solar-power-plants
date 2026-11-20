@@ -1,0 +1,11 @@
+the I&C package of Plant P in numbers
+  hard-wired I/O: 71 AI, 185 DI, 44 DO = 300 points,
+    29 modules with 20 % spare
+  POC voltage chain: +/-0.66 % (k = 2) with a class 0.5 VT,
+    +/-0.39 % with class 0.2
+  PLC response budget 160 ms; controller cycle <= tau / 4
+  FAT about 48 h of point tests and functions; site loop checks
+    8 crew-days; 12 loss-of-supply tests; 26 control-mode test points
+  fire interface: 7 signals, hard-wired NC alarms, reset at
+    the fire panel only
+  110 V DC autonomy 4.5 h with the 24 V loads (requirement 4 h)

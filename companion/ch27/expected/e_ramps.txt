@@ -1,0 +1,9 @@
+ramp-limit compliance on a broken-cloud day (50 MW PV, minute data)
+  limit MW/min   minutes over the limit   share of daylight minutes
+            10                        0                       0.0%
+             5                       43                       5.9%
+             2                       58                       7.9%
+  without storage the PV alone breaks a tight ramp limit in
+  many minutes of a broken-cloud day; the battery of ch 20
+  holds it - the evidence is the POC record, counted by the
+  agreed rule (does a falling ramp from a cloud count?)

@@ -1,0 +1,6 @@
+one main transformer out for 24 h: energy lost = output above 63 MW
+  days of the data year with nothing above 63 MW: 217
+  by quarter: 49, 58, 53, 57
+  worst day 120: 330 MWh; mean day 42 MWh
+  every quarter has days with no loss: the outage is
+  planned on the forecast (ch 51 window), not on the calendar

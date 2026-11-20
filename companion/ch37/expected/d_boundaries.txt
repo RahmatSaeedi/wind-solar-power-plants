@@ -1,0 +1,10 @@
+one turbine trip and its times (teaching, hours of the day)
+  trip 10.00, technician on site 14.00, repaired 16.00, back in service 16.33
+  downtime (trip to service): 6.33 h
+  repair time (hands on the fault): 2.00 h
+  waiting (trip to arrival): 4.00 h
+  restart checks: 0.33 h
+  'mean time to repair' can mean 2 h or 6.3 h: a report
+  names its boundaries, and the waiting - often the largest
+  part - is a separate number, because it has a separate
+  cure (spares, access, staff on site)

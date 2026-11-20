@@ -1,0 +1,8 @@
+generator rotor 4 t at 1155 rpm (teaching grade 2.5 mm/s)
+  permissible eccentricity e = G / w = 20.7 um
+  permissible residual unbalance 82,678 g mm (two planes: 41,339 each)
+  measured after assembly 145,000 g mm: correct and re-run
+  the grade sets a target speed times eccentricity; a faster
+  rotor must be more exact - balance is corrected in the
+  factory, recorded, and checked again by the vibration of
+  the run-in (lab D)

@@ -1,0 +1,11 @@
+kind of certificate behind each plate
+  specific: tests on the plates delivered; non-specific: the mill's
+  general production record, not these plates
+  non-specific: P106, P108
+  a tower wall is a fracture-critical member: the order asks for
+  certificates from tests on the delivered plates, issued by
+  someone independent of production (EN 10204 names the kinds);
+  P106 is also the wrong grade, read straight off its
+  certificate; P108 is right in every value, but the values are
+  not from these plates - the kind of certificate is a check of
+  its own

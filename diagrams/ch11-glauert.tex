@@ -1,0 +1,20 @@
+% Chapter 11 - highest power coefficient of an ideal rotor with wake rotation (Glauert) and the
+% Plant P rotor (BEM) against tip-speed ratio. Data: diagrams/data/ch11-glauert.csv (examples_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm, xmin=0, xmax=12, ymin=0, ymax=0.65,
+      xlabel={نسبتِ تندیِ نوکِ پره $\lambda$}, ylabel={ضریبِ توان $C_p$}, xtick={0,2,...,12},
+      ytick={0,0.1,...,0.6}, yticklabels={$0$,$0.1$,$0.2$,$0.3$,$0.4$,$0.5$,$0.6$},
+      legend pos=south east, legend columns=1]
+    \addplot[sWind] table[x=tsr, y=glauert, col sep=comma] {data/ch11-glauert.csv};
+    \addlegendentry{روتورِ آرمانی با چرخشِ دنباله}
+    \addplot[sLoss, restrict x to domain=4:12] table[x=tsr, y=rotor, col sep=comma]
+      {data/ch11-glauert.csv};
+    \addlegendentry{روتورِ نیروگاهِ P}
+    \draw[cRule, densely dashed] (axis cs:0,0.5926) -- (axis cs:12,0.5926);
+    \node[note, anchor=south west] at (axis cs:0.2,0.5926) {حدِ بتز $16/27$};
+    \node[note, anchor=west] at (axis cs:1.2,0.30) {روتورِ کُند: چرخشِ دنباله};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

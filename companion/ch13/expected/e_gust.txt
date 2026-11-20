@@ -1,0 +1,9 @@
+gust factor of ten-minute records (3 s gust / 10 min mean):
+  TI     mean G   95 % of G   peak factor (G-1)/TI
+  0.08    1.197     1.264        2.47
+  0.13    1.323     1.419        2.49
+  0.20    1.496     1.674        2.48
+  the gust grows with turbulence: G is about 1 + g x TI with a
+  peak factor g near 2.5 for these records (real spectra, longer
+  records and shorter gust windows give larger g); the mast
+  logs the ten-minute maximum of the one-second samples

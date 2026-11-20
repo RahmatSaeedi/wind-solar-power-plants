@@ -1,0 +1,2 @@
+day energy 373.3 MWh, peak 46.1 MW at 11:00
+full after 4 steps, stored 36.0 MWh

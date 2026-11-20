@@ -1,0 +1,4 @@
+pure:   0.366
+pure:   0.366
+impure: the log now holds 2 entries
+week:   0.308

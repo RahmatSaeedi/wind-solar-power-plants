@@ -1,0 +1,5 @@
+brittle strength is statistical: P_f = 1 - exp(-(sigma / sigma0)^m) (A-072)
+  annealed glass sigma0 50 MPa, tempered glass sigma0 150 MPa, m = 7 (assumed)
+  at 30 MPa: annealed 0.028, tempered 1.3e-05
+  at 60 MPa: annealed 0.972, tempered 0.0016
+  tempering locks compression into the surface: a crack must first overcome it

@@ -1,0 +1,9 @@
+the plant without SCADA for a day (teaching)
+  protection: unaffected, local in every relay
+  plant controller: runs; holds the last limits, then the
+    fallback of ch 20 after the comms hold
+  operators: two on site in shifts, local panels, a
+    logbook every 30 min; the grid operator informed
+  data: buffered in the devices (ch 35), back-filled after
+  a continuity plan says who goes where, with which keys
+  and procedures, and is rehearsed - not invented on the day

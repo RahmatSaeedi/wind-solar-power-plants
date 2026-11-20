@@ -1,0 +1,44 @@
+% Chapter 18 - product breakdown of Plant P from plant to replaceable unit (levels on the right);
+% the PV branch is drawn to the bottom, the others to the subsystem level. Counts multiply down
+% the tree (companion/ch18/sources.py, breakdown()).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    n/.style={blk, minimum width=21mm, minimum height=8mm, align=center, text width=20mm, font=\footnotesize},
+    lv/.style={font=\footnotesize\bfseries, text=cInkB, align=center, text width=20mm}]
+  \node[lv] at (15.4,0) {نیروگاه};
+  \node[lv] at (15.4,-1.6) {سامانه};
+  \node[lv] at (15.4,-3.2) {زیرسامانه};
+  \node[lv] at (15.4,-4.8) {تجهیز};
+  \node[lv] at (15.4,-6.4) {واحدِ تعویض‌پذیر};
+  \node[n] (p) at (7.2,0) {نیروگاهِ P};
+  \node[n, draw=cWind, fill=cWind!9] (s1) at (13.2,-1.6) {مزرعهٔ بادی};
+  \node[n, draw=cPV, fill=cPV!9] (s2) at (10.8,-1.6) {نیروگاهِ خورشیدی};
+  \node[n, draw=cBESS, fill=cBESS!10] (s3) at (8.4,-1.6) {باتری (S1)};
+  \node[n] (s4) at (6.0,-1.6) {جمع‌آوری و صادرات};
+  \node[n] (s5) at (3.6,-1.6) {کنترل و اسکادا};
+  \node[n] (s6) at (1.2,-1.6) {خدماتِ آب};
+  \node[n] (s7) at (-1.2,-1.6) {کارهای عمرانی};
+  \foreach \k in {1,...,7} { \draw[draw=cInkB] (p.south) -- (s\k.north); }
+  \node[n] (t1) at (13.2,-3.2) {توربین ×۱۲};
+  \node[n] (t2) at (10.8,-3.2) {بلوکِ خورشیدی ×۱۰};
+  \node[n] (t3) at (8.4,-3.2) {کانتینر ×۸};
+  \node[n] (t4) at (6.0,-3.2) {پستِ صادرات};
+  \draw[draw=cInkB] (s1.south) -- (t1.north);
+  \draw[draw=cInkB] (s2.south) -- (t2.north);
+  \draw[draw=cInkB] (s3.south) -- (t3.north);
+  \draw[draw=cInkB] (s4.south) -- (t4.north);
+  \node[n] (e1) at (13.2,-4.8) {اینورتر ×۱};
+  \node[n] (e2) at (10.8,-4.8) {جعبهٔ ترکیب ×۲۱};
+  \node[n] (e3) at (8.4,-4.8) {میزِ ماژول ×۲۱۰};
+  \node[n] (e4) at (6.0,-4.8) {ترانسفورماتورِ بلوک};
+  \foreach \k in {1,...,4} { \draw[draw=cInkB] (t2.south) -- (e\k.north); }
+  \node[n] (u1) at (13.2,-6.4) {طبقهٔ توان ×۴};
+  \node[n] (u2) at (10.8,-6.4) {فیوزِ رشته ×۴۰};
+  \node[n] (u3) at (8.4,-6.4) {ماژول ×۵۲};
+  \draw[draw=cInkB] (e1.south) -- (u1.north);
+  \draw[draw=cInkB] (e2.south) -- (u2.north);
+  \draw[draw=cInkB] (e3.south) -- (u3.north);
+  \node[note, text width=60mm, anchor=north] at (2.4,-4.4) {شمارها در پایینِ درخت ضرب می‌شوند:\\$10 \times 210 \times 52 = 109{,}200$ ماژول};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,13 @@
+one core of a 33 kV 400 mm2 Al XLPE cable, layer by layer:
+  layer                                 thickness  diameter mm
+  conductor (compacted Al strands)               -        23.8
+  conductor screen (semiconducting)            0.8        25.4
+  insulation (XLPE)                            8.0        41.4
+  insulation screen (semiconducting)           0.8        43.0
+  metallic screen (Cu wires and tape)          0.6        44.2
+  three cores laid up, bedding and PE sheath: about 106 mm
+  insulation stress at the conductor screen: 33/sqrt3 kV over 8 mm
+    mean field 2.4 kV/mm - the screens keep it radial
+  each layer has a process and a test in the factory (ch 41):
+  extrusion of the three inner layers in one pass, then
+  checks of thickness, eccentricity and partial discharge

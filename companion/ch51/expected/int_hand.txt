@@ -1,0 +1,4 @@
+three numbers by hand, checked by the scripts
+  service floor: 4 + 5 / 0.927 = 9.4 MWh
+  room to charge at 30 MWh: (36 - 30) / 0.927 = 6.5 MWh
+  station battery: 44 x 0.8 / 4.6 = 7.7 h

@@ -1,0 +1,9 @@
+direct lightning strikes a year (teaching flash density 2.0 per km2 a year):
+  turbine, tip height 175 m: area 0.87 km2 -> 1.73 a year
+  twelve turbines: 20.8 strikes a year
+  substation 100 x 70 m, 10 m high: 0.040 a year
+  each turbine is struck about twice a year - blades, nacelle and
+  tower carry a lightning protection system proved by the
+  maker; tall structures also launch upward flashes that this
+  count does not include; the local flash density (U-099) and
+  the risk method of the lightning standard decide the rest

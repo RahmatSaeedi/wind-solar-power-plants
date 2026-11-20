@@ -1,0 +1,14 @@
+% Chapter 10 - relative efficiency of the PVM-550 against irradiance at 25 C from the fitted
+% single-diode model. Data: diagrams/data/ch10-lowlight.csv (companion/ch10/examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=56mm, xmin=0, xmax=1150, ymin=0.9, ymax=1.02,
+      xlabel={تابش، $\text{W/m}^2$}, ylabel={بازدهٔ نسبی}, xtick={0,200,...,1000},
+      ytick={0.90,0.95,1.00}, yticklabels={$0.90$,$0.95$,$1.00$}]
+    \addplot[sPV, mark=*, mark size=1.4pt] table[x=g, y=rel, col sep=comma] {data/ch10-lowlight.csv};
+    \draw[cRule, densely dotted] (axis cs:0,1) -- (axis cs:1150,1);
+    \node[note, anchor=north west] at (axis cs:230,0.955) {زیرِ حدودِ $400\ \text{W/m}^2$ بازده افت می‌کند};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

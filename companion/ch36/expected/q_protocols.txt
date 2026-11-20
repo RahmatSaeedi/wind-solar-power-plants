@@ -1,0 +1,15 @@
+authentication on each conduit's service (teaching labels)
+  conduit                     service          authentication
+  field-ied -> control        telecontrol      older profile: none
+  field-wtg -> control        turbine-data     maker's: none
+  field-pv -> control         inverter-data    maker's: none
+  field-bes -> control        battery-data     maker's: none
+  control -> dmz              historian-copy   authenticated
+  business -> dmz             historian-read   authenticated
+  remote -> dmz               remote-session   authenticated, 2nd factor
+  dmz -> control              jump-session     authenticated
+  4 of 8 conduits carry field protocols that do not
+  prove who is speaking: they stay inside their zone and its
+  conduit, behind a gateway; secure profiles (STD-163) are
+  asked for in new purchases and enabled where devices
+  support them - never assumed

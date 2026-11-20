@@ -1,0 +1,5 @@
+relaxation of a bolted aluminium lug, F(t) = F0 exp(-t / tau) (A-058):
+   40 C: tau =  20.00 years; preload after 5 years  77.9 %
+   60 C: tau =   3.98 years; preload after 5 years  28.5 %
+   90 C: tau =   0.49 years; preload after 5 years   0.0 %
+  a joint that runs hot loses its clamping force fastest: heat feeds back

@@ -1,0 +1,9 @@
+galvanized posts in the site's soils (zinc 85 um; teaching rates)
+  soil                          um/yr   zinc life yr   30-yr plant?
+  dense sand, dry (most)          1.0             85   yes
+  silty sand, moist               3.0             28   NO
+  gypsum, saline (BH-07 area)     8.0             11   NO
+  where the soil is aggressive the zinc is gone in about
+  ten years: a thicker coating, a sacrificial steel
+  allowance or a concrete footing there - the corrosivity
+  tests of ch 29 (missing in most boreholes) decide where

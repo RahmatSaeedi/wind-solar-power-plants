@@ -1,0 +1,13 @@
+continue / maintain / upgrade / replace / retire (teaching rule)
+  asset              cond cons obsol  decision
+  PV modules            4    3     1  continue
+  PV inverters          2    3     5  replace / upgrade
+  turbine gearboxes     2    4     2  monitor, repair at failure (D)
+  turbine blades        3    4     1  continue
+  main transformers     4    5     1  continue
+  BESS containers       3    2     3  continue
+  SCADA and PPC         3    5     5  replace / upgrade
+  33 kV switchgear      4    4     2  continue
+  SCADA and PPC: good enough today, but unsupported software in
+  a safety-relevant controller is a decision now (ch 36, ch 52
+  obsolescence); 'retire' is a plant decision, not an asset's

@@ -1,0 +1,14 @@
+independent check of year 1 (by hand from the model lines):
+  revenue 20,453 - opex 4,270 - replacements 0
+  - tax 175 - working capital 2,171 = CFADS 13,837
+  interest 121,025 x 0.06 = 7,261; service 11,514
+  DSCR = 13,837 / 11,514 = 1.202
+  model checks:
+    PASS  sources = uses
+    PASS  debt repaid within tenor
+    PASS  CFADS = EBITDA - repl - tax - dWC - decom
+    PASS  independent DSCR equals model DSCR
+    PASS  CFADS covers debt service every year
+  year 1 is the lowest: the working capital is built from
+  that year's cash (45 days of revenue); the sculpting
+  follows the lenders' sizing case, not this one

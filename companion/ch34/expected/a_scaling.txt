@@ -1,0 +1,12 @@
+POC voltage on a 0-150 kV transducer (4-20 mA, live zero)
+  per unit   kV       mA      reading kV
+      0.90    118.8    16.67       118.8   low limit
+      1.00    132.0    18.08       132.0   nominal
+      1.10    145.2    19.49       145.2   high limit
+      1.13    149.2    19.91       149.2   range end
+      1.20    158.4    20.90       154.7   fault swell
+  the range leaves 13 % above nominal: every normal and
+  emergency voltage is read, but a swell above 1.17 pu is
+  clipped by the module - a recorder for disturbances uses
+  its own wider channel (ch 27); 0 kV reads 4 mA, so a
+  dead loop (0 mA) is told apart from a dead line

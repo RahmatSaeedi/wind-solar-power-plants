@@ -1,0 +1,13 @@
+mass of the 63 MVA unit (teaching estimate)
+  core                                      29.8 t
+  windings (copper)                          8.4 t
+  leads, tap winding, insulation, clamps     6.0 t
+  tank and cover                            16.0 t
+  oil (22 m3)                               19.4 t
+  radiators, fans                            6.0 t
+  conservator, bushings, OLTC drive          4.0 t
+  in service 90 t (ch 25: 95 t)
+  shipped without oil, radiators and bushings, gas-filled,
+  with 2 t bracing: 62 t
+  limit 72 t: margin 10 t - the reason the tank ships dry and
+  the accessories travel apart (ch 25, transport; ch 31)

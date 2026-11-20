@@ -1,0 +1,11 @@
+PV block availability target 97 %, four parts in series
+  equal share each: 99.24 %
+  a weighted split instead (teaching):
+    inverter            98.00 %
+    unit transformer    99.80 %
+    MV switchgear       99.70 %
+    SCADA link          99.50 %
+  product 97.02 % - meets the target
+  the inverter gets the loosest share because it has the
+  most parts and the shortest repairs; each share becomes
+  a supplier requirement with its measurement (ch 37)

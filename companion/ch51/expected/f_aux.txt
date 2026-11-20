@@ -1,0 +1,8 @@
+station service in the first year
+  110 V battery 44 kWh, DC load 4.6 kW, 20 % kept: 7.7 h of autonomy
+  diesel ran 4 times, 10.3 h in all; longest 6.0 h
+  fuel used 247 L of a 1200 L tank; the tank holds 50 h
+  the six-hour run (day 150, both feeds lost) was the longest
+  supply outage: the battery alone would have carried the
+  DC loads; the diesel carried the HVAC and the chargers -
+  refill is ordered at half a tank, not when it is empty

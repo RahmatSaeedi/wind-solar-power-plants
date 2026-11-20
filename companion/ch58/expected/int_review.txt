@@ -1,0 +1,16 @@
+Plant P standards register: readiness for a project on 2026-11-18
+  [x] every row has the nine required fields
+  [x] every row has an official catalogue source
+  [ ] duplicates merged
+  [ ] open items (confirm) closed
+  [ ] national adoption checked for the project country
+  [x] editions in the specification dated on purpose
+  [ ] requirements free of vague words
+  [x] certificates checked against edition and lab scope
+  [x] one clause traced to approval, register and trigger
+  [ ] edition-change impact links kept for every requirement
+  [x] watch plan with intervals and an owner
+  [ ] standard texts bought for the clauses the project uses
+  6 of 12: the register is complete as a list; as a
+  project tool it still needs merged duplicates, closed open
+  items, country adoption and the texts themselves

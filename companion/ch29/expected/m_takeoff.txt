@@ -1,0 +1,17 @@
+civil quantity take-off of Plant P (teaching rates, u)
+  item                                          quantity   unit     k u
+  road aggregate 28 km x 6 m x 0.3 m              50,400   m3     1,260
+  pad stone 12 x 40 x 40 m x 0.5 m                 9,600   m3       240
+  earthworks (roads, pads, platform)              60,000   m3       360
+  ditches, both sides of the roads                56,000   m        448
+  culverts (wadi 10 x 12 m + 30 x 10 m)              420   m        126
+  foundation and plinth concrete                   8,340   m3     1,501
+  reinforcement, 90 kg/m3                        750,600   kg       901
+  fence (PV block and substation)                  4,980   m        199
+  substation platform fill 120 x 100 x 0.5 m       6,000   m3        72
+  total about 5,107 k u = 4.5 % of the wind and PV installed
+  cost (114,000 k u, A-287), which already includes these works
+  a take-off this early is a class-4 or class-5 estimate
+  (ch 22): its range is wide, and the quantities that
+  drive it - concrete and stone - are the ones the ground
+  investigation can still change

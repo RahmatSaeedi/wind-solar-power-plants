@@ -1,0 +1,8 @@
+the battery used to absorb deviations from the intraday schedule:
+  penalty without battery 919 k u, with 531 k u
+  saved 389 k u a year; 292 equivalent full cycles
+  the same battery adds about 469 k u a year by shifting
+  (section D): absorbing deviations is worth a little less
+  here, and both use the whole window, so they cannot both be
+  done at full size - a stacking decision of section G, priced
+  in ch 21 with the real settlement rules (U-078)

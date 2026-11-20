@@ -1,0 +1,10 @@
+isolation boundary of the cable section =WS2-W3:
+  draft one-line, isolation points: 1
+    =WS2-Q1
+  only the feeder breaker: the whole string and its four
+  turbines go out - the draft has no switches in the RMUs
+  with RMU cable and T-off switches, isolation points: 4
+    =WS2-2-T1, =WS2-3-T1, =WS2-W2, =WS2-W4
+  a section that can be isolated only by stopping the whole
+  string costs a string's energy at every repair; the RMU
+  switches belong on the one-line (an omission of rev A)

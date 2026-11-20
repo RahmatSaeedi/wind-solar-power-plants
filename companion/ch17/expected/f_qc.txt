@@ -1,0 +1,11 @@
+checks on the clean and the faulty regional load:
+  check                      clean     faulty
+  length                      8760      8761
+  gaps                           0         6
+  spikes                         0       127
+  stuck_runs                     0         1
+  energy / (median x n)      1.038     1.102
+  length 8761 shows the repeated hour; the spike check also
+  flags the week of quarter-hour values (x4); the stuck run is
+  found; the energy ratio moves: compare with the meter's
+  billing totals before any number is used

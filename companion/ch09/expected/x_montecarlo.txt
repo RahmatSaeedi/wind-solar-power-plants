@@ -1,0 +1,6 @@
+10 inverters over 25 years, 2000 runs (seed 29, A-171):
+  failures 0.49/yr each; 8 % major (median 400 h), else median 36 h
+  energy lost per year: mean 431, P50 425, P90 532 MWh
+  as a share of 101.4 GWh: mean 0.42 %
+  the rare long repairs set the tail: a spare power module on site
+  shortens them more than any other single measure

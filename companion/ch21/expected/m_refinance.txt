@@ -1,0 +1,6 @@
+refinancing after two years (5 %, new 15 years, DSCR 1.30, fee 1 %):
+  debt outstanding 112,078 k u; new debt 132,813
+  released to owners 19,407 k u at the start of year 3
+  equity IRR 10.22 % -> 11.89 % (with the new service to year 17)
+  refinancing is an upside the owner may take when the market
+  allows; the base case never assumes it, and lenders limit it

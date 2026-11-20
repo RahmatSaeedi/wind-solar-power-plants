@@ -1,0 +1,21 @@
+% Chapter 40 - X-bar chart of joint resistance at FAT (five joints a skid), limits from S-01..S-04:
+% centre 12.32, UCL 14.17, LCL 10.47 micro-ohm; S-05..S-07, built with the drifted wrench, lie
+% above the UCL (diagrams/data/ch40-xbar.csv from companion/ch40/examples_b.py, b_chart).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0.5, xmax=10.5, ymin=9, ymax=18,
+      xtick={1,...,10}, xticklabels={S-01,S-02,S-03,S-04,S-05,S-06,S-07,S-08,S-09,S-10},
+      x tick label style={font=\scriptsize}, xlabel={اسکید}, ylabel={میانگینِ مقاومتِ اتصال ($\mu\Omega$)}]
+    \addplot[sInk, mark=*, mark size=1.8pt] table[x=k, y=mean, col sep=comma] {data/ch40-xbar.csv};
+    \draw[sLoss] (axis cs:0.5,14.166) -- (axis cs:10.5,14.166);
+    \draw[sLoss] (axis cs:0.5,10.474) -- (axis cs:10.5,10.474);
+    \draw[sLimit] (axis cs:0.5,12.32) -- (axis cs:10.5,12.32);
+    \node[note, anchor=south east, text=cLoss] at (axis cs:10.4,14.2) {حدِ بالا ۱۴٫۱۷};
+    \node[note, anchor=north east, text=cLoss] at (axis cs:10.4,10.44) {حدِ پایین ۱۰٫۴۷};
+    \node[note, anchor=south west] at (axis cs:0.6,12.35) {مرکز ۱۲٫۳۲};
+    \draw[cLoss, line width=0.8pt, rounded corners=3pt] (axis cs:4.6,14.6) rectangle (axis cs:7.4,17.2);
+    \node[note, anchor=south, text=cLoss] at (axis cs:6,17.2) {آچارِ TW-14};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

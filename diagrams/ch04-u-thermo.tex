@@ -1,0 +1,16 @@
+% Chapter 4 — temperature reported by a thermal camera set to emissivity 0.95 for a joint
+% truly at 80 C in a 30 C room, against the surface's real emissivity (A-080).
+% Data: diagrams/data/ch04-u-thermo.csv (examples_last.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=115mm, height=58mm,
+      xlabel={گسیلندگیِ واقعیِ سطح}, ylabel={دمای نمایش‌داده (درجهٔ سلسیوس)},
+      xmin=0, xmax=1, ymin=25, ymax=85, xtick={0,0.2,...,1}, ytick={30,40,...,80}]
+    \addplot[sLoss] table[x=eps, y=t, col sep=comma] {data/ch04-u-thermo.csv};
+    \addlegendentry{خواندنِ دوربین}
+    \addplot[sLimit, domain=0:1, samples=2] {80};
+    \addlegendentry{دمای واقعی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

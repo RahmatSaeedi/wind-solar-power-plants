@@ -1,0 +1,9 @@
+water extracted per hour from a drying record (synthetic;
+  a teaching end-point limit of 0.3 L/h, not a recipe)
+  hour      0     6    12    18    24    30    36    42    48    54    60
+  L/h    27.0  20.6  15.6  12.0   9.1   6.9   5.3   4.0   3.1   2.3   1.7
+  rate below the limit from hour 102; water removed 597 L (ch 25: about 600)
+  the curve's tail still holds about 1.5 L
+  the end point is shown by the falling rate, not by the
+  hours on the clock - T1's traveler has no such record,
+  so its dryness is unproven (lab D)

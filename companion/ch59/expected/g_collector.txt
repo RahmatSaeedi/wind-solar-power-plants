@@ -1,0 +1,9 @@
+collector cable options over 25 years (ch 18; energy at the PPA price)
+  option             cost  loss MWh  PV loss   total   ok
+  33 kV 240 mm2     1,260     1,966    1,534   2,794  yes
+  33 kV 630 mm2     2,188       787      614   2,802  yes
+  66 kV 240 mm2     1,989       492      384   2,373  yes
+  lowest life cost among the ratings that carry the current: 66 kV 240 mm2
+  at 33 kV the larger section costs +8 k u over the life - a
+  break-even; 66 kV cuts the losses most, but its turbine
+  transformers and switchgear are not in this comparison (ch 18)

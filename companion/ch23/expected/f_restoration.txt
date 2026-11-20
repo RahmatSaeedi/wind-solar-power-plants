@@ -1,0 +1,10 @@
+loss of normal supply and restoration (teaching timeline, min):
+    0.00-  0.25  grid lost: UPS and DC carry                  UPS  0.12 kWh
+    0.25-  1.00  generator starts                             UPS  0.37 kWh
+    1.00-240.00  generator on, essential loads back           UPS  0.00 kWh
+  240.00-250.00  grid back; plant resynchronised by operator  UPS  0.00 kWh
+  UPS and DC give 0.49 kWh before the generator takes over;
+  the generator then runs 72 kW for 4 h: about 78 litres
+  if the generator fails to start, the UPS's 60 min and the
+  DC battery's 4 h are the time to restore supply - the
+  autonomy requirement is the restoration case written down

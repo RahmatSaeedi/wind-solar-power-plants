@@ -1,0 +1,14 @@
+33 kV feeder overcurrent relays: injection results against the settings
+  (standard-inverse curve; tolerance 5 % + 40 ms, teaching)
+  relay      I/Is  expected s  measured s
+  WS1 51      5.0        0.86        0.86
+  WS2 51      5.0        0.86        0.84
+  WS3 51      5.0        1.07        1.30  OUT
+  PVF1 51     5.0        0.64        0.66
+  PVF2 51     5.0        0.64        0.63
+  PVF3 51     5.0        0.64        none  OUT
+  BESS-A 51   5.0        0.43        0.44
+  2 out: WS3's time points to a TMS left at another value
+  (the settings file of ch 26 says 0.25; 1.30 s fits about
+  0.30) and PVF3 was never tested - the read-back of the
+  settings file is the check before injection (lesson A)

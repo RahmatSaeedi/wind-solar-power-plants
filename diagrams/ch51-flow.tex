@@ -1,0 +1,26 @@
+% Chapter 51 - forecast to schedule to dispatch: who hands what to whom, and when (teaching times);
+% read right to left (lesson I).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    n/.style={blk, minimum width=26mm, minimum height=11mm, align=center, text width=25mm,
+              font=\footnotesize},
+    t/.style={font=\scriptsize, align=center, text width=25mm, text=cInk}]
+  \node[n, draw=cWind, fill=cWind!9] (f) at (12,0) {پیش‌بینی با نسخه\\ (روزِ بعد، درون‌روز)};
+  \node[n] (s) at (8,0) {برنامهٔ صادرات\\ و باتری};
+  \node[n, draw=cPV, fill=cPV!9] (d) at (4,0) {دیسپچ و کنترل‌گر\\ (فصلِ ۲۰)};
+  \node[n, draw=cLoss, fill=cLoss!8] (o) at (0,0) {ثبت و بازخورد\\ (فصلِ ۳۷)};
+  \draw[->, line width=0.9pt, draw=cInkB] (f) -- (s);
+  \draw[->, line width=0.9pt, draw=cInkB] (s) -- (d);
+  \draw[->, line width=0.9pt, draw=cInkB] (d) -- (o);
+  \draw[->, line width=0.9pt, draw=cInkB, dashed] (o.west) -- ++(-0.4,0) |- (0,-2.0) -| ([xshift=13mm]f.south) -- ([xshift=13mm]f.south |- f.east) -- (f.east);
+  \node[t, text width=40mm] at (6,-2.3) {بازخورد به پیش‌بینی و برنامه};
+  \node[t, below=1mm of f] {۰۸:۳۰ آماده};
+  \node[t, below=1mm of s] {۱۰:۰۰ موعدِ برنامه};
+  \node[t, below=1mm of d] {هر ساعت، با به‌روزرسانی و دستور};
+  \node[t, below=1mm of o] {فردا صبح: نسخه، تصمیم، نتیجه};
+  \node[n, draw=cInkB, fill=white, text width=30mm] (g) at (6,2.2) {بهره‌بردارِ شبکه:\\ دستورها و محدودیت‌ها};
+  \draw[->, line width=0.8pt, draw=cLoss] (g.south) -- (s.north);
+  \draw[->, line width=0.8pt, draw=cLoss] (g.south) -- (d.north);
+\end{tikzpicture}
+\end{document}

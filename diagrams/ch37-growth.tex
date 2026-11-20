@@ -1,0 +1,17 @@
+% Chapter 37 - cumulative failures of the new PV inverter fleet against operating time, log-log,
+% with the Crow-AMSAA fit (beta 0.38; examples_f; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{loglogaxis}[plantp, width=105mm, height=62mm, xmin=10, xmax=20000, ymin=0.8, ymax=20,
+      xlabel={زمانِ کارکرد (h)}, ylabel={شمارِ تجمعیِ خرابی‌ها},
+      xtick={10,100,1000,10000}, xticklabels={$10$, $100$, $1\,000$, $10\,000$},
+      ytick={1,2,5,10,20}, yticklabels={$1$, $2$, $5$, $10$, $20$}]
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cPV] table[x=t, y=n, col sep=comma]
+      {data/ch37-growth.csv};
+    \addplot[sInk, domain=20:8760, samples=40] {0.36294*x^0.37579};
+    \addplot[sLimit, domain=640:8760, samples=2] {11*x/8760};
+    \legend{خرابی‌ها, برازش ($\beta=0.38$), نرخِ ثابت ($\beta=1$)}
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

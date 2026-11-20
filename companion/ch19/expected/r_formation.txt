@@ -1,0 +1,10 @@
+formation loss of the teaching cell (A-298):
+  first-cycle efficiency   lithium left   capacity Ah   loss Ah
+                    88 %           88 %           299        41
+                    92 %           92 %           313        27
+                    95 %           95 %           323        17
+  the lithium used to build the surface layer in formation is
+  gone for good; the maker designs the electrodes so that the
+  rated capacity (here 314 Ah) remains after it; a weak
+  formation leaves an unstable layer that keeps growing in
+  service (calendar fade, section A)

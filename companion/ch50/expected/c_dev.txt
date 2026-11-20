@@ -1,0 +1,10 @@
+deviations: what was accepted, by whom, on what condition
+  DEV-07: PV station heater rated 2 kW, ordered 3 kW
+    accepted; monitor winter RH
+  DEV-11: Q at 100 MW: 30.6 Mvar lagging vs 33
+    open; network operator to decide
+  DEV-14: UPS-1 autonomy 26 min vs 30
+    rejected; battery string to be replaced
+  a deviation is a recorded decision, not a forgotten defect:
+  DEV-11 belongs to the network operator (the POC is theirs),
+  DEV-14 is rejected and becomes a punch item with a date

@@ -1,0 +1,7 @@
+turbine converter, grid voltage near zero for 150 ms (A-168):
+  without a chopper the DC link (30 mF) rises 1150 -> 1250 V in 0.7 ms
+  chopper resistor for 5.32 MW at 1250 V: 0.294 ohm
+  energy into the resistor over the dip at 5 MW: 0.75 MJ
+    (chapter 8 sent the same energy into rotor speed instead)
+  the resistor is rated for this energy pulse and a cooling time,
+  not for continuous power: repeated dips need a duty limit

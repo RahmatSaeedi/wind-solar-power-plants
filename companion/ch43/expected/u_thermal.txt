@@ -1,0 +1,6 @@
+winding temperature in a 2 s short circuit (adiabatic, teaching)
+  current density 3.5 / 0.12 = 29.2 A/mm2 for the whole fault
+  rise = rho J^2 t / (heat capacity per m3) = 10 K
+  about ten kelvin: with this impedance the thermal side of the
+  short-circuit withstand is easy; the forces of lesson A
+  are what the test or the design review must show

@@ -1,0 +1,13 @@
+rotor-equivalent wind speed, hub 100 m, rotor 150 m, hub speed 8.0 m/s:
+  profile                               REWS m/s   (REWS/hub)^3
+  uniform                                 8.000       1.000
+  day, shear 0.12                         7.951       0.982
+  year mean, shear 0.233                  7.957       0.984
+  night, shear 0.32                       7.992       0.997
+  night, shear 0.32 + veer 0.25 deg/m     7.888       0.958
+  jet: nose at 130 m, falling above       7.712       0.896
+  the hub speed alone misses what the upper and lower blade
+  see: with a power law the disc carries a little less power
+  than the hub speed says (most for a gentle shear), veer takes
+  about 4 % and a jet nose below the top about 10 %; below
+  rated the power follows the cube of the ratio

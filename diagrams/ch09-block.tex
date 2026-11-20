@@ -1,0 +1,44 @@
+% Chapter 9 - conceptual block diagram of a 5 MW central PV inverter skid with the loss budget at
+% 5.5 MVA (companion/ch09/integrated.py, A-165): power path above, control and support below.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize, node distance=4mm]
+  \tikzset{p/.style={blkPV, minimum width=21mm, minimum height=14mm, text width=19mm},
+           s/.style={blk, minimum width=21mm, minimum height=12mm, text width=19mm},
+           loss/.style={note, text=cLoss, font=\scriptsize}}
+  % power path, left to right in the drawing (the array on the left)
+  \node[p] (arr) at (0,0) {آرایه و جعبه‌های تجمیع};
+  \node[p] (dcin) at (2.6,0) {ورودیِ DC: کلید، فیوز، برقگیر};
+  \node[p] (link) at (5.2,0) {پیوندِ DC: خازن‌های فیلمی};
+  \node[p] (br) at (7.8,0) {چهار پشتهٔ NPC};
+  \node[p] (lcl) at (10.4,0) {صافیِ LCL و میرایی};
+  \node[p] (ac) at (13.0,0) {کلیدِ AC، کنتاکتور};
+  \node[blkLoad, minimum width=21mm, minimum height=14mm, text width=19mm] (tr) at (15.6,0) {ترانسفورماتور $0.6/33\ \text{kV}$};
+  \foreach \a/\b in {arr/dcin, dcin/link, link/br, br/lcl, lcl/ac, ac/tr} \draw[flow] (\a) -- (\b);
+  \node[loss, anchor=south] at (link.north) {$0.2\ \text{kW}$};
+  \node[loss, anchor=south] at (br.north) {$49.6\ \text{kW}$};
+  \node[loss, anchor=south] at (lcl.north) {$22.9\ \text{kW}$};
+  \node[loss, anchor=south] at (ac.north) {$4.4\ \text{kW}$};
+  \node[note, anchor=south] at (arr.north) {$1000$ تا $1300\ \text{V}$};
+  \node[note, anchor=south] at (tr.north) {$600\ \text{V}$، $5.5\ \text{MVA}$};
+  % control and support row
+  \node[s] (gd) at (7.8,-2.6) {درایورهای گیت};
+  \node[s] (ctl) at (5.2,-2.6) {بردِ کنترل و میان‌افزار};
+  \node[s] (sen) at (10.4,-2.6) {حس‌گرهای جریان، ولتاژ، دما};
+  \node[s] (imd) at (2.6,-2.6) {پایشِ عایق};
+  \node[s] (cool) at (13.0,-2.6) {خنک‌کاریِ مایع، فن‌ها};
+  \node[s] (com) at (5.2,-4.4) {ارتباط با کنترل‌گرِ نیروگاه};
+  \draw[flowinfo] (ctl) -- (gd);
+  \draw[flowinfo] (gd) -- (br);
+  \draw[flowinfo] (sen) -- (lcl);
+  \draw[flowinfo] (sen.south) -- ++(0,-0.5) -| (ctl.south east);
+  \draw[flowinfo] (imd) -- (dcin);
+  \draw[flowinfo] (imd) -- (ctl);
+  \draw[flowinfo] (ctl) -- (com);
+  \draw[flowinfo] (cool) -- (ac.south);
+  \node[loss, anchor=north] at (cool.south) {$5.5\ \text{kW}$};
+  \node[loss, anchor=north] at (ctl.south west) {$1.2\ \text{kW}$};
+  \node[note, text=cInk, anchor=north west, text width=60mm] at (8.8,-4.2)
+       {جمعِ تلفات در $5.5\ \text{MVA}$: حدودِ $84\ \text{kW}$؛ همه به خنک‌کاری می‌رسد};
+\end{tikzpicture}}
+\end{document}

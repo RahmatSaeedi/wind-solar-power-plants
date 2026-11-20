@@ -1,0 +1,36 @@
+% Chapter 8 - synchronous machine: per-phase equivalent circuit (right) and the phasor diagram of
+% an over-excited generator with lagging current (left), E = V + jXs I.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % ---- circuit (right) ----
+  \begin{scope}[xshift=7.6cm]
+    \draw (0,0) to[sV, l={$\mathbf{E}$}] (0,2.6)
+          to[L, l={$jX_\text{s}$}, i>^={$\mathbf{I}$}] (3.2,2.6) to[short, -o] (3.8,2.6);
+    \draw (0,0) -- (3.2,0) to[short, -o] (3.8,0);
+    \draw[dimline] (4.1,2.5) -- (4.1,0.1);
+    \node[note, text=cInk, anchor=west] at (4.2,1.3) {$\mathbf{V}$};
+    \node[note, text width=40mm] at (1.9,-0.7) {قراردادِ مولد؛ $R_a$ نادیده};
+  \end{scope}
+  % ---- phasor diagram (left) ----
+  \begin{scope}[xshift=0cm, yshift=0.2cm]
+    \coordinate (O) at (0,0);
+    \coordinate (V) at (4.2,0);
+    \coordinate (I) at (-36.87:2.0);
+    \coordinate (E) at ($(V)+(53.13:2.4)$);
+    \draw[cRule, line width=0.4pt] (-0.3,0) -- (6.4,0);
+    \draw[line width=1.2pt, cInk, ->] (O) -- (V);
+    \node[note, text=cInk, anchor=north] at (2.1,-0.05) {$\mathbf{V}$};
+    \draw[line width=1.0pt, cLoad, ->] (O) -- (I);
+    \node[note, text=cInk, anchor=north] at (I) {$\mathbf{I}$};
+    \draw[line width=1.0pt, cLoss, ->] (V) -- (E);
+    \node[note, text=cInk, anchor=west] at ($(V)!0.5!(E)+(0.1,0)$) {$jX_\text{s}\mathbf{I}$};
+    \draw[line width=1.2pt, cInk, ->] (O) -- (E);
+    \node[note, text=cInk, anchor=south east] at ($(O)!0.6!(E)$) {$\mathbf{E}$};
+    \draw[cInkB, line width=0.5pt] (1.4,0) arc (0:{atan(1.92/5.64)}:1.4);
+    \node[note, anchor=west] at (9:1.45) {$\delta$};
+    \draw[cInkB, line width=0.5pt] (0.9,0) arc (0:-36.87:0.9);
+    \node[note, anchor=west] at (-20:0.95) {$\varphi$};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

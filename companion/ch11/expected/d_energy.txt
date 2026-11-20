@@ -1,0 +1,26 @@
+worked example 1: one turbine, data-pack year, 1.225 kg/m3:
+  bin m/s   hours   P kW    MWh    share %
+      0.5     126      0        0      0.0
+      1.5     366      0        0      0.0
+      2.5     533      0        0      0.0
+      3.5     776    141      109      0.6
+      4.5     882    387      341      1.9
+      5.5     929    775      720      3.9
+      6.5    1028   1329     1366      7.5
+      7.5     892   2073     1849     10.1
+      8.5     739   3017     2230     12.2
+      9.5     663   4035     2675     14.7
+     10.5     551   4711     2596     14.2
+     11.5     446   4934     2201     12.1
+     12.5     314   4985     1565      8.6
+     13.5     203   5000     1015      5.6
+     14.5     111   5000      555      3.0
+     15.5      86   5000      430      2.4
+     16.5      69   5000      345      1.9
+     17.5      18   5000       90      0.5
+  sum of bins 18,227 MWh; hour by hour 18,233 MWh
+  Weibull k 2.11, c 8.02 m/s: mean power 2,069 kW -> 18,125 MWh
+  twelve turbines: 218.79 GWh gross; chapter 5's 192.54 GWh
+    is this gross after its 12 % lumped loss (x 0.88 = 192.54)
+  most energy comes from 7 .. 13 m/s, where the curve is steep:
+  the curve's uncertainty there matters most

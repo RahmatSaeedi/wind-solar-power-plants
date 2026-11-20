@@ -1,0 +1,8 @@
+PV block cabinet over a summer (synthetic hourly temperatures):
+  hours inside above 50 C (rating 55 C less 5 K): 411
+  hours above the rating itself: 50
+  peak inside 60 C at mid-afternoon (lesson A's summer day: 58 C)
+  about 4.5 hours of an average summer day near or over
+  its rating: a sun shield (up to 12 K of solar gain) or a
+  device rated higher - lesson A's single number hid how many
+  hours it lasts

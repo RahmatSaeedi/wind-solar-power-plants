@@ -1,0 +1,7 @@
+the PV station skid line in numbers
+  79 touch hours a skid; RTY 0.758; takt 16 h
+  bottleneck S1 16.18 h with frames made, S3 14.25 h with frames bought
+  joint resistance Cpk 1.93 with good tools; the
+  drifted wrench put about 2 % of joints over the limit
+  S-07 dossier: 8 findings in 13 entries
+  the escaped defect cost 63.4 k u; the actions cut escapes 40 times

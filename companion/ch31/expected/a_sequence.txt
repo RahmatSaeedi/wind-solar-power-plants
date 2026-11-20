@@ -1,0 +1,12 @@
+delivery and erection sequence of one turbine (teaching days)
+  day  0  crane pad and hardstand accepted (ch 29)
+  day  3  tower sections 1-4 delivered and stored
+  day  4  base section set, anchor bolts (ch 30)
+  day  6  sections 2-4 erected and bolted
+  day  7  nacelle delivered just in time, lifted
+  day  7  hub and three blades delivered
+  day  8  rotor assembled on the ground, lifted
+  day 10  mechanical completion checks
+  the nacelle comes just in time: stored on site it needs
+  space, a crane to move it and protection; a late nacelle
+  leaves a bare tower overnight (vortex shedding, ch 30)

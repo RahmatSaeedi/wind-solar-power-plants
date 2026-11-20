@@ -1,0 +1,12 @@
+loss of the fire-alarm link found by a heartbeat (teaching)
+  period s   missed   detection s   false 'link lost' a year
+        10        1            10                   3.15e+03
+        10        3            30                    0.00315
+         2        3             6                     0.0158
+         2        5            10                   1.58e-08
+  with one loss in a thousand, declaring the link lost on a
+  single missed heartbeat gives thousands of false alarms a
+  year; three in a row gives almost none and still finds a
+  real break in 6-30 s. The fire panel keeps its own alarms
+  and authority either way; SCADA only shows that its view
+  of the panel is lost (lesson E)

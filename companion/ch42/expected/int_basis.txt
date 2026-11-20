@@ -1,0 +1,30 @@
+D-046 turbine component quality and acceptance basis
+  1 blades: fibre fraction and voids on cap coupons; DSC cure
+    evidence; UT of caps and bond lines with a measured POD;
+    receptor resistance; weighing and set matching on record
+  2 root joint shown closed at the extreme load (the teaching
+    joint opens at 2 x operating - the maker's design decides)
+  3 hub castings judged by stress zones; NCR to the designer
+  4 gearboxes: back-to-back run-in with spectra at 1x, 2x and
+    mesh sidebands; oil sample; units held until re-run
+  5 generators: balance to the grade, insulation index before
+    energising, winding sensors tested; hot-climate cooling
+  6 torque-and-angle logged tools on every bolted joint;
+    500 h re-tension in commissioning
+  7 storage plan with shaft turning; field repairs only within
+    the maker's categories and weather windows
+  8 NCR authority by severity; late reports escalate
+  9 every blade: flap frequency with its weight (stiffness);
+    static-test deflection (+0.6 m) fed into the clearance
+    budget; saddles laid out against the target moment
+ 10 gear case depth per heat to the edge-load floor (HT-43
+    held); alignment and case depth judged together
+ 11 flange contact faces bare; settling in the re-tension
+    plan; nacelles weighed with their centre of gravity;
+    shock logs read before erection (N-05, N-11 checked)
+ 12 efficiency from the back-to-back loss measurement; leak
+    tests with temperature; coating by mean and minimum
+ 13 process FMEA ranked by severity sets the holds; nine
+    critical characteristics asked for at receipt
+  open: maker's type and component certificates and test
+    evidence for this configuration (U-123)

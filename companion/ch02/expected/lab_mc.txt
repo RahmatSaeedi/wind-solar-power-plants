@@ -1,0 +1,14 @@
+WT-5.0-150 power from a wind speed with u(v) = 0.5 m/s (assumed, normal)
+ v (m/s)    P lin   u lin     P mc    u mc   95 % interval (kW)
+     6.0     1030     277     1056     280       570 ..   1661
+     9.0     3537     509     3522     488      2540 ..   4424
+    12.5     4985      15     4981      19      4935 ..   5000
+at 12.5 m/s the curve bends towards rated power:
+    the linear formula misses the asymmetry
+
+convergence of Monte Carlo at v = 9.0 m/s (20 seeds per size)
+  n =     100: mean  3509.6 kW, spread between seeds  46.9 kW (theory  48.8)
+  n =   1,000: mean  3515.0 kW, spread between seeds  14.7 kW (theory  15.4)
+  n =  10,000: mean  3523.1 kW, spread between seeds   5.9 kW (theory   4.9)
+  n = 100,000: mean  3522.1 kW, spread between seeds   1.0 kW (theory   1.5)
+the spread shrinks about 3.2 times for every 10 times more draws (1 / sqrt(n))

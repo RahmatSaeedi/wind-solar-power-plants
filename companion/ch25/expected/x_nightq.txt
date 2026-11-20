@@ -1,0 +1,17 @@
+reactive balance at night, no output (+ produced, - absorbed):
+  element                                Mvar
+  132 kV line charging (ch 24)           +0.30
+  wind feeders, 3 x 4.4 km               +1.05
+  PV feeders, 3 x 3.0 km (teaching)      +0.65
+  BESS feeders, 2 x 0.5 km               +0.07
+  main transformers, i0 0.20 %           -0.25
+  PV units, 10 x 5.5 MVA, i0 0.8 %       -0.44
+  wind units, 12 x 5.6 MVA, i0 1.2 %     -0.81
+  BESS units, 4 x 5.5 MVA, i0 0.8 %      -0.18
+  net at the POC +0.39 Mvar (exported, leading)
+  with the PV units switched off at night: +0.83 Mvar
+  the magnetising of 28 transformers nearly balances the
+  cables; switching the PV units off saves their no-load
+  loss (lesson units at night) but doubles the night export
+  of Mvar - if the grid asks for zero, the inverters' night
+  service or a small reactor absorbs it (ch 20, ch 28)

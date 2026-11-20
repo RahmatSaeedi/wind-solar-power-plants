@@ -1,0 +1,27 @@
+% Chapter 12 - processing chain of irradiance data: tests that do not use the sun's position first,
+% then the clock, then the sun-dependent tests, gap filling and corrections (conceptual).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{st/.style={blk, minimum width=24mm, minimum height=11mm, text width=22mm},
+           st2/.style={blkPV, minimum width=24mm, minimum height=11mm, text width=22mm},
+           outbox/.style={blkLoad, minimum width=24mm, minimum height=11mm, text width=22mm}}
+  \node[st] (raw) at (0,0) {دادهٔ خام و فراداده};
+  \node[st] (miss) at (3.0,0) {شکاف و تکرار و ترتیبِ زمان};
+  \node[st] (spike) at (6.0,0) {جهش و گیرکرده (مستقل از خورشید)};
+  \node[st2] (clock) at (9.0,0) {آزمونِ ساعت و اصلاحِ برچسب};
+  \node[st2] (lim) at (9.0,-2.4) {حدهای ممکن و نادر، منفیِ شب};
+  \node[st2] (clos) at (6.0,-2.4) {آزمونِ بستن و نسبتِ حس‌گرها};
+  \node[st2] (drift) at (3.0,-2.4) {نسبتِ هفتگی به منبعِ دوم (رانش)};
+  \node[st2] (fill) at (0,-2.4) {پرکردن: کوتاه با ضریبِ صافی، بلند با منبعِ دوم};
+  \node[st] (corr) at (0,-4.8) {اصلاحِ واسنجی و آلودگی از دفتر};
+  \node[outbox] (fin) at (3.0,-4.8) {سریِ ساعتیِ پرشده با پرچم};
+  \node[outbox] (rep) at (6.0,-4.8) {گزارشِ ماهانهٔ کیفیت};
+  \node[outbox] (lt) at (9.0,-4.8) {تصحیحِ بلندمدت و عدمِ قطعیت};
+  \draw[flow] (raw) -- (miss); \draw[flow] (miss) -- (spike); \draw[flow] (spike) -- (clock);
+  \draw[flow] (clock) -- (lim); \draw[flow] (lim) -- (clos); \draw[flow] (clos) -- (drift);
+  \draw[flow] (drift) -- (fill); \draw[flow] (fill) -- (corr); \draw[flow] (corr) -- (fin);
+  \draw[flow] (fin) -- (rep); \draw[flow] (rep) -- (lt);
+  \node[note, text width=40mm] at (4.5,-1.2) {آزمون‌های رنگی جای خورشید را به کار می‌برند: پس از اصلاحِ ساعت};
+\end{tikzpicture}}
+\end{document}

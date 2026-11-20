@@ -1,0 +1,9 @@
+calibration interval of a torque wrench (exponential drift,
+mean time to out of tolerance 400 days)
+  target in-tolerance at the end   interval, days
+                               95%             21
+                               90%             42
+                               80%             89
+  the interval keeps most tools in tolerance on average; it
+  cannot catch a dropped tool - that is what the shift check
+  is for: a drop is a sudden failure, not a slow drift

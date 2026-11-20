@@ -1,0 +1,19 @@
+D-054 commissioning, acceptance and handover basis
+  1 every energisation by a named authorised person, with a
+    permit and its prerequisites closed; instruments in date
+  2 progressive verification: each result against an expected
+    value and a written criterion (strings by the model, relays
+    by the settings file, controller by the requirement)
+  3 failed tests follow the disposition written in the pack
+    before the test; deviations decided by their owner
+  4 auxiliary systems accepted as chains; fire acceptance by
+    the full cause-and-effect matrix, never a live discharge
+  5 every grid requirement traced to a test, a type test or
+    an accepted declaration; a forecast score proves nothing
+  6 export energised in order, each step with its permission;
+    phasing proven before any parallel
+  7 handover data validated (fields, keys, references,
+    revisions), trial-imported and restored before acceptance
+  8 handover only with emergency roles, contacts and drills done
+  open: approved commissioning procedures and the network
+    operator's acceptance tests and witness plan (U-131)

@@ -1,0 +1,17 @@
+air insulation at altitude: relative air density d = exp(-H / 8,150 m)
+  (barometric scale height); a withstand measured at sea level
+  falls roughly with d, so the item is chosen 1/d stronger
+  altitude m   air density   factor 1/d   650 kV item needs at sea level
+           0         1.000        1.000                        650 kV
+       1,000         0.885        1.131                        735 kV
+       1,200         0.863        1.159                        753 kV
+       2,000         0.782        1.278                        831 kV
+  Plant P sits at 1,200 m (data pack, assumed): external
+  insulation - bushings, post insulators, air clearances - is
+  about 14 % weaker than at sea level (so about 16 % more
+  strength is specified); the insulation
+  coordination study applies the standard's altitude
+  correction (its exponent depends on the voltage shape), and
+  the specification states the site altitude so the maker
+  tests or corrects for it; cooling by air is derated too
+  (lesson tower)

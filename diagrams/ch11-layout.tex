@@ -1,0 +1,15 @@
+% Chapter 11 - layout A of the twelve turbines: two rows of six across the prevailing wind
+% (285 deg), 4D within a row and 8D between rows (A-222). Data: diagrams/data/ch11-layout.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=96mm, height=84mm, xmin=-1600, xmax=1400, ymin=-400, ymax=3600,
+      axis equal image, xlabel={شرق، $\text{m}$}, ylabel={شمال، $\text{m}$},
+      xtick={-1500,-1000,...,1000}, ytick={0,1000,2000,3000}]
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cWind] table[x=x, y=y, col sep=comma] {data/ch11-layout.csv};
+    \draw[->, cInk, line width=1pt] (axis cs:-1450,1300) -- (axis cs:-1450+580,1300-155);
+    \node[note, text=cInk, anchor=south] at (axis cs:-1200,1330) {باد از $285^\circ$};
+    \draw[dimline] (axis cs:0,-250) -- node[note, fill=white, inner sep=1pt] {$4D$} (axis cs:155,330);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

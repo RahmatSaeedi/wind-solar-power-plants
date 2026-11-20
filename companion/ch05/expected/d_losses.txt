@@ -1,0 +1,10 @@
+hand check at 100 MW: 25 MW per feeder, I = 25e6 / (sqrt3 x 33e3 x 0.95) =
+    460.4 A
+  R(70 C) = 0.10 x 6 x (1 + 0.00403 x 50) = 0.7209 ohm; loss 3 I^2 R = 458.4
+    kW per feeder, 1.834 MW in all
+  transformer: 60 kW + 400 kW x (105.3 / 120)^2 = 368 kW
+annual (S0, data pack 1.1.0): energy 273.52 GWh;
+  cables 2,364 MWh (0.86 %), transformer 922 MWh (0.34 %)
+  of which no-load loss 526 MWh: it runs every hour, even at night
+teaching model (A-091, A-092): constant 70 C conductor, equal feeders, no
+  reactive power flow or harmonics; chapters 24 and 25 replace it

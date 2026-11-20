@@ -1,0 +1,8 @@
+review queue of the owner's engineer (documents a week)
+  capacity 25/week: peak backlog 36 in week 46, about 1.4 extra weeks
+  capacity 30/week: peak backlog 5 in week 43, about 0.2 extra weeks
+  arrivals peak at 32 a week (week 42); total 538
+  Little's law: documents waiting = arrival rate x time in
+  review; when arrivals beat capacity, the wait grows every
+  week until the peak passes - the review slot is planned
+  from the deliverable schedule, not from the average

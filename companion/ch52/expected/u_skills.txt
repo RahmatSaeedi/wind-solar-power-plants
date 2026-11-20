@@ -1,0 +1,13 @@
+maintenance skills: technicians qualified for each task family (of 10)
+  HV switching (authorised person)      4
+  inverter repair (maker-trained)       2
+  BESS module change                    1
+  protection relay settings             1
+  drone thermography                    3
+  tracker controller                    2
+  fibre splicing                        0
+  crane signalling                      5
+  one person only: 2 (BESS module change, protection relay settings)
+  nobody: fibre splicing - bought from a contractor (lesson A)
+  a single qualified person is a hidden failure of the crew:
+  it shows on the night that person is on leave (ch 51 roster)

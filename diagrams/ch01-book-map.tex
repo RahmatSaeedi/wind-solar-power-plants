@@ -1,0 +1,29 @@
+% Chapter 1 — map of the book: ten parts, and the Plant P dossier that grows through them.
+% Reading order runs right-to-left, top row first.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    p/.style={blk, minimum width=29mm, minimum height=15mm, inner sep=2pt}]
+
+  \node[p]            (p1)  at (12.8, 0) {\textbf{بخشِ ۱}\\اندیشیدن و محاسبه\\فصل‌های ۱ تا ۵};
+  \node[p]            (p2)  at ( 9.6, 0) {\textbf{بخشِ ۲}\\برق و تجهیزات\\فصل‌های ۶ تا ۱۱};
+  \node[p]            (p3)  at ( 6.4, 0) {\textbf{بخشِ ۳}\\منابع و تولید\\فصل‌های ۱۲ تا ۱۶};
+  \node[p]            (p4)  at ( 3.2, 0) {\textbf{بخشِ ۴}\\معماری و اقتصاد\\فصل‌های ۱۷ تا ۲۲};
+  \node[p]            (p5)  at ( 0.0, 0) {\textbf{بخشِ ۵}\\برق و شبکه\\فصل‌های ۲۳ تا ۲۸};
+
+  \node[p]            (p6)  at (12.8,-2.9) {\textbf{بخشِ ۶}\\عمران، ایمنی، محیط\\فصل‌های ۲۹ تا ۳۳};
+  \node[p]            (p7)  at ( 9.6,-2.9) {\textbf{بخشِ ۷}\\کنترل و ارتباطات\\فصل‌های ۳۴ تا ۳۷};
+  \node[p]            (p8)  at ( 6.4,-2.9) {\textbf{بخشِ ۸}\\تولید، اجرا، راه‌اندازی\\فصل‌های ۳۸ تا ۵۰};
+  \node[p]            (p9)  at ( 3.2,-2.9) {\textbf{بخشِ ۹}\\بهره‌برداری تا برچیدن\\فصل‌های ۵۱ تا ۵۳};
+  \node[p, line width=1pt, draw=cInk] (p10) at (0.0,-2.9) {\textbf{بخشِ ۱۰}\\مقررات و پروژهٔ پایانی\\فصل‌های ۵۴ تا ۵۹};
+
+  \foreach \a/\b in {p1/p2,p2/p3,p3/p4,p4/p5,p6/p7,p7/p8,p8/p9,p9/p10}{ \draw[flow] (\a.west) -- (\b.east); }
+  \draw[flow] (p5.south) -- ++(0,-0.55) -| (p6.north);
+
+  % the dossier band
+  \draw[cPV, line width=3pt, line cap=round] (14.2,-4.45) -- (-1.4,-4.45);
+  \node[note, anchor=north, text=cInk] at (6.4,-4.6)
+       {\textbf{پروندهٔ نیروگاهِ P}: هر فصل یک برگ می‌افزاید؛ فصلِ ۵۹ همه را کنارِ هم می‌گذارد و از آن دفاع می‌کند};
+
+\end{tikzpicture}}
+\end{document}

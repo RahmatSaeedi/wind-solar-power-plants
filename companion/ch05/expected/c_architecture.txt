@@ -1,0 +1,11 @@
+case                              C U D A M  -> structure
+first-pass yield estimate         2 1 2 3 1  -> calculator, notebook or
+    spreadsheet with checks
+monthly performance report        3 3 4 4 4  -> command-line batch tool +
+    database + report
+asset register and maintenance    4 4 3 5 5  -> database-backed system of
+    record
+plant power controller            5 2 4 5 5  -> control-system software
+    (certified platform, ch. 34-36)
+C consequence of an error, U users, D data volume, A auditability, M years of
+    maintenance (1 low .. 5 high)

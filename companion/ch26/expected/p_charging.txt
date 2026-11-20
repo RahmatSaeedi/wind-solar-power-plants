@@ -1,0 +1,10 @@
+charging current seen by a line differential (no load, teaching):
+  circuit                    charging A   % of a 200 A pickup
+  132 kV overhead line 7 km         1.5                    1
+  132 kV cable 7 km                33.8                   17
+  132 kV cable 20 km               96.6                   48
+  charging current enters at one end and does not leave at the
+  other: a differential sees it as a fault current; on the
+  overhead line it is negligible, on a long cable it eats into
+  the margin and the relay compensates it with the measured
+  voltage - a setting choice when the export route is cable

@@ -1,0 +1,6 @@
+winding temperature model fitted on days 0-59 (A-119, synthetic):
+  T = 15.0 + 1.00 T_air + 0.300 x losses (kW)
+  mean residual on loaded hours: before day 200 -0.01 K, after +4.08 K
+  CUSUM of daily residuals (slack 0.5 K, limit 5 K): alarm on day 202
+  the cooling fouled on day 200 (planted); the alarm comes days later,
+  long before the absolute temperature looks unusual

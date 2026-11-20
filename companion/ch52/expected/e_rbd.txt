@@ -1,0 +1,7 @@
+export path: line, 132 kV bus, two transformers, plant controller with
+  a fallback mode (ch 20)
+  some export possible:   0.99893  (9.4 h a year without)
+  full export possible:   0.98366  (143.1 h a year limited)
+  the two transformers in parallel almost remove the 'none'
+  case, but each still limits export when out: one diagram is
+  not enough - the question asked decides the diagram

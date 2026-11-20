@@ -1,0 +1,9 @@
+eddy loss in the winding strands grows with thickness squared:
+  strand mm   eddy share of load loss   load loss kW   value k u (B 0.88)
+        2.5                     10.0%          250.0                  0.0
+        1.8                      5.2%          239.1                  9.6
+        1.2                      2.3%          232.5                 15.4
+  thin strands, transposed along the winding (continuously
+  transposed cable), cut the eddy loss and the hot spots it
+  makes; the saving is priced with the B factor of lesson A -
+  the reason loss evaluation reaches into the winding design

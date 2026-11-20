@@ -1,0 +1,11 @@
+first planetary stage, three planets: input torque 4.43 MN m
+  mesh force per planet 1.34 MN; mesh stiffness 8 kN/um (teaching)
+  pin error um   load factor   planet bearing life
+             5         1.020                 94%
+            10         1.040                 88%
+            20         1.080                 77%
+            40         1.159                 61%
+  the planet whose pin sits ahead meets the load first and
+  carries more; life falls with the load to the power 10/3
+  (ch 11) - pin-hole position on the carrier is a critical
+  dimension, measured and recorded per carrier

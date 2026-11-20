@@ -1,0 +1,9 @@
+reversible against Joule heat of one cell at 0.5 C, 25 C (A-297):
+  SOC %   dU/dT mV/K   reversible W   Joule W   share
+     10        -0.15          -7.02      9.86     71 %
+     50         0.05          +2.34      9.86     24 %
+     90        -0.05          -2.34      9.86     24 %
+  reversible heat changes sign with the direction of current
+  and with SOC; over a full cycle it nearly cancels, while
+  Joule heat always adds; a thermal model of an hour at the
+  ends of the window should carry both

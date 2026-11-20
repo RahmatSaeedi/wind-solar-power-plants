@@ -1,0 +1,11 @@
+respirable dust over an 8-hour shift (teaching concentrations)
+  task                         mg/m3   hours
+  grading in the wind            3.00     3.0
+  driving the site roads         1.20     2.0
+  cab with filter, closed        0.30     2.0
+  office                         0.05     1.0
+  time-weighted average: 1.51 mg/m3
+  three hours of grading supply most of the dose; water
+  sprays, closed cabs and working upwind come before masks;
+  the limit, and whether silica needs its own, come from
+  local law and an occupational hygienist's sampling

@@ -1,0 +1,6 @@
+turbine converter failures in the first year, by source
+  SCADA events needing a visit: 14; work orders coded CNV: 9
+  MTBF from the orders 11,680 h, from SCADA 7,509 h
+  the orders undercount by 36%: uncoded or merged
+  visits - a reliability figure is only as good as the
+  orders behind it; the two sources are reconciled monthly

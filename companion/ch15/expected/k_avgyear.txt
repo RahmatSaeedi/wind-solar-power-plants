@@ -1,0 +1,9 @@
+curtailment of the average year against the average curtailment
+  (hourly shape of the data year, scaled to each of 20 years):
+  average year (scale 1, 1)             227 MWh
+  mean over the 20 years                287 MWh
+  range                                   0 to 822 MWh
+  windiest year 2018: 486 MWh
+  a loss that grows faster than the resource (a limit, clipping)
+  is larger on average than in the average year: run the model
+  on many years or correct the loss, do not scale one number

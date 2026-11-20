@@ -1,0 +1,21 @@
+service size against how it is held (one year, no calls):
+  service       floor MWh  case        held %   cost k u   alarms
+   5 MW x 1.0 h        9.4  controller   100.0       57.9     1147
+   5 MW x 1.0 h        9.4  plan         100.0       57.7      104
+   5 MW x 1.0 h        9.4  replan       100.0       56.5       71
+  10 MW x 1.0 h       14.8  controller   100.0      112.9     1174
+  10 MW x 1.0 h       14.8  plan         100.0      105.0       86
+  10 MW x 1.0 h       14.8  replan       100.0      104.1       77
+  10 MW x 2.0 h       25.6  controller   100.0      226.9     1418
+  10 MW x 2.0 h       25.6  plan          99.7      211.9       97
+  10 MW x 2.0 h       25.6  replan        99.7      211.9       97
+  15 MW x 1.5 h       28.3  controller    99.5      255.1     1511
+  15 MW x 1.5 h       28.3  plan          98.6      240.5       99
+  15 MW x 1.5 h       28.3  replan        98.6      240.5       99
+  'cost' is the export revenue given up against arbitrage alone;
+  every size passes 95 %: Plant P fills the floor before 18:00
+  on almost every day; the cost per MW-hour held grows with the
+  duration (energy) more than with the power; a plan that knows
+  the service costs less than a controller that refuses the
+  plan, and re-planning adds little when prices are known a day
+  ahead

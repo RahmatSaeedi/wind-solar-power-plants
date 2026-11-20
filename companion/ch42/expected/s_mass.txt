@@ -1,0 +1,13 @@
+blade mass budget (teaching; ch 11: 22 t, first moment 484 t m)
+  part                         mass t   centre m   moment t m
+  spar caps (glass)               7.9       24.0        189.6
+  shells and core                 6.6       27.0        178.2
+  shear webs                      2.2       24.0         52.8
+  root laminate and inserts       3.3        2.0          6.6
+  adhesive                        0.9       26.0         23.4
+  coating, LPS, other             1.1       31.0         34.1
+  total 22.0 t; first moment 485 t m; centre 22.0 m
+  100 kg added at 70 m adds 7 t m - as much as 3,500 kg at the root
+  mass far out costs most: in gravity moment, in edgewise
+  fatigue and in unbalance; coating and repairs near the
+  tip are weighed into the blade's record (lesson B)

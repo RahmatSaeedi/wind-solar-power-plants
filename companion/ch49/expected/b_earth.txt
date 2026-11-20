@@ -1,0 +1,6 @@
+earthing continuity, bond to the earth grid (teaching limit 0.2 ohm)
+  T3-101 to grid: 0.35 ohm - over the limit
+  fence gate: not measured
+  a high bond is a loose or painted joint; an unmeasured one
+  is not a bond yet - both are reworked and measured again
+  before the area is handed over (ch 26 earthing)

@@ -1,0 +1,7 @@
+series R 2.0 ohm, L 0.1 H, C 100 microfarad: f0 = 50.33 Hz, Q = 15.8
+  f   25.00 Hz: |Z| =    48.00 ohm, angle  -87.61 deg
+  f   45.00 Hz: |Z| =     7.37 ohm, angle  -74.25 deg
+  f   50.33 Hz: |Z| =     2.00 ohm, angle    0.00 deg
+  f   55.00 Hz: |Z| =     5.97 ohm, angle   70.41 deg
+  f  100.00 Hz: |Z| =    46.96 ohm, angle   87.56 deg
+  at resonance the reactances cancel; the current is limited by R alone

@@ -1,0 +1,9 @@
+clipping against the DC/AC ratio (AC fixed at 50 MW, DC scaled):
+  DC/AC   DC MWp   AC energy GWh   clipped GWh   clipped %
+  1.1      55.1       104.33          0.03        0.02
+  1.2      60.1       113.03          0.78        0.69
+  1.3      65.1       119.93          3.34        2.71
+  1.4      70.1       125.49          7.20        5.43
+  more DC per AC fills the inverter in more hours and loses a
+  growing share at the top; the optimum is an economic one
+  (chapter 10 c_dcac, chapter 20)

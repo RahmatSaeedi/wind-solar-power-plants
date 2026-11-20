@@ -1,0 +1,3 @@
+INFO     resource_tool.demo: data pack 1.1.0 verified (22 files)
+WARNING  resource_tool.demo: hour 2023-04-03 14:00 has 1 of 6 values; excluded
+ERROR    resource_tool.demo: configuration rejected: export_limit_mw missing

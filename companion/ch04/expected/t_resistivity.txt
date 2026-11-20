@@ -1,0 +1,16 @@
+resistivity, orders of magnitude only (indicative, A-075):
+  silver              1.6e-08 ohm m
+  copper              1.7e-08 ohm m
+  aluminium           2.8e-08 ohm m
+  structural steel    1.7e-07 ohm m
+  stainless steel     7.0e-07 ohm m
+  sea water           2.0e-01 ohm m
+  moist soil          1.0e+02 ohm m
+  pure silicon        2.3e+03 ohm m
+  dry sand            1.0e+05 ohm m
+  porcelain           1.0e+12 ohm m
+  glass               1.0e+12 ohm m
+  polyethylene        1.0e+16 ohm m
+  from silver to polyethylene: 24 orders of magnitude
+  no other common property spans such a range: conductors and insulators
+    are different worlds, and soil sits in between (earthing, chapter 26)

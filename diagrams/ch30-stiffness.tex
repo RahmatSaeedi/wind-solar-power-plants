@@ -1,0 +1,19 @@
+% Chapter 30 - first tower frequency against the foundation's rocking stiffness (Dunkerley), the
+% 1P band edge and the required 10 % margin; the three soil cases of lesson B (teaching)
+% (diagrams/data/ch30-fk.csv, ch30-stiffness.csv from companion/ch30/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=62mm, xmin=40, xmax=600, ymin=0.19, ymax=0.216,
+      xlabel={سختیِ دورانیِ فونداسیون $(\text{GN m/rad})$}, ylabel={بسامدِ نخستِ برج $(\text{Hz})$},
+      xmajorgrids=true, yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=3}]
+    \addplot[sWind] table[x=k, y=f, col sep=comma] {data/ch30-fk.csv};
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cInk] table[x=k, y=f, col sep=comma] {data/ch30-stiffness.csv};
+    \draw[sLoss] (axis cs:40,0.192) -- (axis cs:600,0.192);
+    \node[note, anchor=south east] at (axis cs:595,0.1922) {لبهٔ بازهٔ $1P$};
+    \draw[sLimit] (axis cs:40,0.2112) -- (axis cs:600,0.2112);
+    \node[note, anchor=north east] at (axis cs:595,0.2110) {حاشیهٔ لازمِ ۱۰ درصد};
+    \draw[densely dotted, draw=cInkB] (axis cs:177,0.19) -- (axis cs:177,0.2112);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,14 @@
+critical characteristics of the turbine and their evidence
+  part        characteristic                evidence
+  blade       cap fibre fraction            coupon burn-off per cap
+  blade       web bond line                 UT scan map, POD on file
+  blade       root insert pull-out          characteristic value per batch
+  hub         flange soundness              UT by zone, nodularity bar
+  main shaft  fillet finish and soundness   roughness, UT
+  gearbox     tooth case depth              hardness traverse per heat
+  gearbox     run-in spectrum and oil       spectra, iron trend
+  generator   winding insulation            PI, sensors tested
+  joints      bolt preload                  logged torque and angle
+  9 characteristics where a manufacturing slip reaches
+  the load path or safety; each has a control-plan row and
+  a record the plant asks for at receipt (ch 40, critical)

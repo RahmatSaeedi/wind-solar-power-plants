@@ -1,0 +1,14 @@
+challenging the weighted score:
+  1 change the weights: P-North needs an energy weight of 63 %
+    (lab B); its two flags stay whatever the weights
+  2 change the set: adding or removing a site moves min-max
+    scores; the money results do not move
+  3 change the evidence: if a full campaign confirmed P-North's
+    330 GWh with P-Central's uncertainty, its equity IRR would go
+    from 9.85 to 10.20 % (P-Central 10.21 %): the money gap is
+    evidence, not physics - the flags and the 22 months remain
+  4 change a fact: if P-South's grid study lifted the 70 MW limit
+    (262 -> 275 GWh), its NPV at close would go from -7,610
+    to 911 k u and its equity IRR from 8.03 to 9.39 %
+  a score is challenged by changing one input at a time and
+  recording whether the decision changes

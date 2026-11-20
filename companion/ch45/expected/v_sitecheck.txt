@@ -1,0 +1,11 @@
+cell OCV against its module after a rest at site;
+  reading resolution 1.0 mV (3 x to call it)
+  leaker K mV/day   days to 3 mV of difference
+            0.064                          88
+            0.085                          55
+            0.110                          38
+            0.300                          11
+  a site check of a few weeks finds strong leakers only; the
+  weak one of lab D (0.064) needs about three months - the
+  balancing-duty signal, not the rest check, is what finds it
+  in service; both go into D-049, each for what it can see

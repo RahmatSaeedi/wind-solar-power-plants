@@ -1,0 +1,10 @@
+forecast error of the POC export by horizon (test months):
+  horizon              lead h   MAE MW   RMSE MW   P5 err   P95 err
+  day-ahead                24      7.1      10.6    -16.2      19.2
+  intraday                  4      5.0       7.8    -11.3      14.8
+  persistence (1 h)         1      6.3       9.0    -15.6      15.2
+  scheduling uses the forecast of its horizon: the day-ahead
+  plan is made once, the intraday plan corrects it, and
+  real-time dispatch uses what is measured now; each layer
+  keeps the decisions of the one above unless they are
+  infeasible (section A)

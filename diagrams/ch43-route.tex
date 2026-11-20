@@ -1,0 +1,28 @@
+% Chapter 43 - factory route of main transformer T1 (13 stages; each row reads right to left and
+% continues at the right of the next row); stages whose traveler record has a gap are drawn in the
+% loss colour (companion/ch43/sources.py TRAVELER; fictional factory).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=22mm, minimum height=9mm, text width=20mm, align=center},
+    gap/.style={blkWarn, minimum width=22mm, minimum height=9mm, text width=20mm, align=center}]
+  \node[st]  (s1) at (0,0)      {انتشارِ طرح};
+  \node[st]  (s2) at (-2.6,0)   {دریافتِ فولاد};
+  \node[gap] (s3) at (-5.2,0)   {برشِ هسته};
+  \node[st]  (s4) at (-7.8,0)   {چیدنِ هسته};
+  \node[st]  (s5) at (-10.4,0)  {سیم‌پیچِ فشارِ ضعیف};
+  \node[gap] (s6) at (0,-2.0)     {سیم‌پیچِ فشارِ قوی};
+  \node[st]  (s7) at (-2.6,-2.0)  {بخشِ فعال و گیره};
+  \node[gap] (s8) at (-5.2,-2.0)  {خشک‌کردن};
+  \node[st]  (s9) at (-7.8,-2.0)  {مخزن};
+  \node[gap] (s10) at (-10.4,-2.0) {روغن};
+  \node[st]  (s11) at (0,-4.0)    {پرکردن و آزمونِ نشت};
+  \node[st]  (s12) at (-2.6,-4.0) {آزمون‌های جاری و نوعی};
+  \node[gap] (s13) at (-5.2,-4.0) {نگهداری و حمل};
+  \foreach \a/\b in {s1/s2, s2/s3, s3/s4, s4/s5, s6/s7, s7/s8, s8/s9, s9/s10, s11/s12, s12/s13}
+    {\draw[flow] (\a) -- (\b);}
+  \draw[flow] (s5.south) -- ++(0,-0.35) -| (s6.north);
+  \draw[flow] (s10.south) -- ++(0,-0.35) -| (s11.north);
+  \node[note, anchor=west, text=cLoss, text width=34mm] at (-10.4,-4.0) {مرحله‌های سرخ: سابقه ناقص یا بیرون از حد};
+\end{tikzpicture}}
+\end{document}

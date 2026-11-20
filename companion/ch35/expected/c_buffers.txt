@@ -1,0 +1,6 @@
+buffer a device needs when the historian is away (teaching)
+  2,000 tags at 1 s, 20 bytes each, 24 h outage: 3.5 GB
+  data buffered at the source and sent when the link returns
+  keeps the record whole; without a buffer the hours of an
+  outage - often the interesting ones - are a hole in every
+  trend and in the availability evidence (ch 37)

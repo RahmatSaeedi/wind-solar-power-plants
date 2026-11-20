@@ -1,0 +1,7 @@
+a 90 % interval around the 24 h forecast, built on the first half
+  interval: forecast -30.3 to +24.2 MW
+  share of held-out hours inside it: 93.2 %
+  an interval that holds about 90 % of new hours is
+  calibrated; one that holds 70 % promises a certainty the
+  forecast does not have - and a dispatch or bid built on
+  it carries that hidden risk

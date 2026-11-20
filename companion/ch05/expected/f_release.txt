@@ -1,0 +1,10 @@
+verify 1.0.0: all checksums match; verify 1.1.0: all checksums match
+files identical in both releases: 10 (all time series, equipment, scenarios,
+    seed ratings)
+changed: 5 -> CHANGELOG.md, README.md, assumptions.csv, data_dictionary.csv,
+    expected_results.json
+added: 6 -> asset_register_rev_A.csv, asset_register_rev_B.csv,
+    change_notice.csv, met_mast_10min_raw.csv, met_mast_defects_key.csv,
+    pv_scada_export.csv
+rule: additions only and no change of meaning -> minor release 1.1.0;
+  every result computed on 1.0.0 is still valid and keeps citing 1.0.0

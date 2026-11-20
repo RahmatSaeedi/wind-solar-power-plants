@@ -1,0 +1,21 @@
+construction weather windows at hub height (limit 10 m/s,
+daylight 07-18 h, data pack year; planning statistic only):
+  month   usable daylight hours   days with a 6-hour window
+      1                      81 %                         24
+      2                      76 %                         18
+      3                      85 %                         26
+      4                      90 %                         25
+      5                      72 %                         22
+      6                      99 %                         30
+      7                      84 %                         25
+      8                      94 %                         30
+      9                      74 %                         20
+     10                      91 %                         28
+     11                      91 %                         25
+     12                      61 %                         18
+  best months 6, 8 (30 days), worst 2, 12 (18 days)
+  erecting 12 turbines at about 3 window days each needs 36
+  window days: five weeks in the best season, two months in
+  the worst - the erection season is a schedule input; the
+  real wind limit comes from the crane maker and the lift
+  plan (ch 47)

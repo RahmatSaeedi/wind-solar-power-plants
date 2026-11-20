@@ -1,0 +1,18 @@
+the three sites in the order of the screening sequence:
+  item                            P-North    P-Central      P-South
+  energy P50 GWh                      330          295          262
+  evidence quality                    0.4          0.9          0.7
+  capex k u                       156,000      156,450      146,500
+  grid km / free MW                45 / 0     12 / 100       3 / 70
+  reinforcement k u                25,000            0            0
+  grid wait months                     30           12            9
+  land ha                           2,400        1,900        1,600
+  households / displaced           38 / 6        9 / 0        2 / 0
+  bird overlap                        35%           0%           0%
+  permit months                        30           22           20
+  new road km                          18            4            2
+  slope %                               9            4            2
+  months to COD                        54           32           42
+  P-North has the most energy and every other problem; the
+  sequence puts the cheap, decisive questions (grid, protected
+  areas, people) before the expensive ones (yield, design)

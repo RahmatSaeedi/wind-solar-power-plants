@@ -1,0 +1,11 @@
+flicker of the 12 turbines by the flicker coefficient (teaching c = 5)
+  Pst of one turbine = c S_n / S_k; of N equal turbines x sqrt(N)
+  network S_k MVA   one turbine   twelve turbines
+              1500         0.018             0.064
+               600         0.046             0.159
+               300         0.092             0.318
+  the coefficient comes from the turbine's type test (the
+  measurement standard STD-053 defines it for grid angles and
+  wind speeds); summed over the farm it stays far below the
+  operator's planning level even on a weak network - wind
+  farms with modern converters rarely set flicker limits

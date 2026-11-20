@@ -1,0 +1,12 @@
+development decision tree per site from today (k u):
+  site                    value at close  P(close)  EV of going on
+  P-Central                       7,740       60 %           569
+  P-North                         7,646       14 %             0
+  P-South (limit lifted)          3,779       42 %             0
+  P-South with its 250 k u grid study first (40 % chance the
+  limit is lifted): EV -250
+  only P-Central is worth developing at the teaching tariff:
+  P-North's surveys, resettlement plan and long wait buy too
+  small a chance of too small a value; P-South pays only if
+  the grid limit goes and the price is higher - it stays on
+  file, unfunded, with its one deciding question

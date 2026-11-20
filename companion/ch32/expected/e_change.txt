@@ -1,0 +1,8 @@
+changes that reopen the fire strategy (management of change)
+  a ninth BESS container         -> strategy, C&E, spacing, water, access
+  new maker's battery firmware   -> BMS alarms, C&E inputs, FAT records
+  control room moved off site    -> alarm path, call-out, response times
+  new site road layout           -> responder access, meeting point, plan maps
+  detector model replaced        -> certificate, site test, spares, training
+  a change is small or large by what it touches, not by its
+  cost: new firmware is cheap and reopens the C&E matrix

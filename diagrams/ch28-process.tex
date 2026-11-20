@@ -1,0 +1,32 @@
+% Chapter 28 - the interconnection process as a generic sequence of stages (no country's process
+% assumed), read right to left, with what each stage delivers and who approves it.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, node distance=4mm,
+    st/.style={blk, minimum width=26mm, minimum height=13mm, text width=24mm},
+    who/.style={note, text width=26mm}]
+  \node[st] (s1) at (15.0,0) {پرس‌وجو و دادهٔ اولیه};
+  \node[st] (s2) at (11.6,0) {درخواست و بستهٔ داده};
+  \node[st] (s3) at (8.2,0) {مطالعه‌های اتصال};
+  \node[st] (s4) at (4.8,0) {پیشنهاد و قرارداد};
+  \node[st] (s5) at (15.0,-3.2) {مطالعه‌های طراحیِ تفصیلی};
+  \node[st] (s6) at (11.6,-3.2) {مدل‌های اعتبارسنجی‌شده};
+  \node[st] (s7) at (8.2,-3.2) {برق‌دار شدن و آزمون‌ها};
+  \node[st, blkWind] (s8) at (4.8,-3.2) {اعلامِ بهره‌برداری};
+  \draw[flow] (s1) -- (s2);
+  \draw[flow] (s2) -- (s3);
+  \draw[flow] (s3) -- (s4);
+  \draw[flow] (s4.west) -- ++(-0.5,0) |- (10.0,-2.15) -| (s5.north);
+  \draw[flow] (s5) -- (s6);
+  \draw[flow] (s6) -- (s7);
+  \draw[flow] (s7) -- (s8);
+  \node[who, below=1mm of s1] {شبکه: سطحِ اتصالِ کوتاه، بازه‌ها};
+  \node[who, below=1mm of s2] {نیروگاه؛ وارسیِ کامل‌بودن};
+  \node[who, below=1mm of s3] {بهره‌بردار یا نیروگاه؛ بهره‌بردار می‌پذیرد};
+  \node[who, below=1mm of s4] {شرط‌ها و حدها};
+  \node[who, below=1mm of s5] {EMT، حفاظت، کیفیتِ توان};
+  \node[who, below=1mm of s6] {سازنده و نیروگاه؛ بهره‌بردار می‌پذیرد};
+  \node[who, below=1mm of s7] {آزمون با شاهدِ بهره‌بردار};
+  \node[who, below=1mm of s8] {ماتریسِ انطباقِ بسته};
+\end{tikzpicture}
+\end{document}

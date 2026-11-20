@@ -1,0 +1,10 @@
+parts shared by all turbines against parts of each unit
+  (power curve, teaching: 2.0 % systematic, 3.0 % per unit):
+  turbines   farm sigma %
+         1      3.61
+         3      2.65
+        12      2.18
+        50      2.04
+  the per-unit part averages out over many turbines, the
+  systematic part never does: the budget lists the farm-level
+  (systematic) sigma, not one turbine's

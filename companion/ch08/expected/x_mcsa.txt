@@ -1,0 +1,6 @@
+30 kW motor at rated slip 1.65 % (A-114), synthetic current (A-127):
+  broken-bar sidebands expected at (1 -+ 2s) f = 48.35 and 51.65 Hz
+  spectrum (Hanning, 20 s, 0.05 Hz bins): sidebands at -44.4 and -44.4 dB
+  relative to the 50 Hz line
+  sidebands about 45 dB down are a typical early warning; the
+  record must be long and the slip known to place them

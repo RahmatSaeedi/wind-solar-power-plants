@@ -1,0 +1,10 @@
+warranty traceability of skid S-06
+  transformer (U-A)
+      60 months from delivery
+  inverter
+      60 months from commissioning
+  skid workmanship (integrator)
+      24 months from COD (or 30 months after delivery)
+  the hot joint is workmanship: the integrator's warranty
+  covers it, the transformer's does not - the genealogy
+  and the FAT record are the evidence for that claim

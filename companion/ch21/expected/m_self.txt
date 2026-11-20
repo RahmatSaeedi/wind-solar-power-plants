@@ -1,0 +1,7 @@
+selling 20 GWh a year to a factory at 85 u instead of 70 u:
+  extra revenue 300 k u a year (year-1 money)
+  equity IRR: PPA only 10.22 %, with the factory 10.78 %
+  but the factory can close, move or stop paying: lenders who
+  discount it lend 122,946 instead of 123,653 k u
+  self-consumption needs the connection rules, metering and a
+  buyer whose credit is checked like the main offtaker's

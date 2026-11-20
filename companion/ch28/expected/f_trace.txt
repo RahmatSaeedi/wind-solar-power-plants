@@ -1,0 +1,12 @@
+one service traced from requirement to evidence (teaching)
+  link          content                                       status
+  requirement   REQ-G24: 5 MW, 15 min, within 1 s             placeholder
+  capability    BESS headroom 5 MW, 1.25 MWh above SOC floor  S1 only
+  study         C-freq, F-envelope with the BESS model        blocked IN-24
+  model         BESS PCS RMS model, firmware 2.0.3            not received
+  test          frequency injection at plant controller       planned
+  measurement   100 ms POC data with time stamps (ch 27)      available
+  evidence      test report vs model, operator acceptance     open
+  the chain is only as good as its weakest link: here the
+  missing battery model blocks the study, so the service
+  cannot be offered yet whatever the battery could do

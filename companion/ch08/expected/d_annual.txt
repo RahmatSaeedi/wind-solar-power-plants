@@ -1,0 +1,10 @@
+one turbine, data-pack year (1.1.0, S0; curve at 1.225 kg/m3;
+  gross: no wake or other losses), generator terminals:
+  fixed 20 %: output   18700 MWh, losses 597.0 MWh, mean eff. 0.9691
+  fixed 35 %: output   18700 MWh, losses 723.8 MWh, mean eff. 0.9627
+    running 92 % of hours; at rated efficiency the losses would be
+    578.4 MWh
+    most energy comes at 0.9-1.0 pu load (47 %)
+  fixed 50 %: output   18700 MWh, losses 850.5 MWh, mean eff. 0.9565
+  12 turbines: about twelve times these losses each year;
+  part-load efficiency, not the rated value, sets the energy lost

@@ -1,0 +1,24 @@
+subassembly and interface tree of the WT-5.0-150 (A-450)
+  id   name                           mass t  tier  load  links
+  WTG  turbine                                   0  yes
+    ROT  rotor                                   1  yes   NAC
+      BLD  blade (x3)                   66.0     2  yes   HUB,LPS
+      HUB  hub casting                  30.0     2  yes   BLD,PIT,MSH
+      PIT  pitch bearings and drives    15.0     2  yes   HUB,CTL
+    NAC  nacelle                                 1  yes   TWR
+      MSH  main shaft and bearing       35.0     2  yes   HUB,GBX
+      GBX  gearbox                      45.0     2  yes   MSH,GEN,FRM
+      GEN  generator                    12.0     2  -     GBX,CNV
+      CNV  converter                     6.0     2  -     GEN,TRF
+      FRM  bedplate and frame           40.0     2  yes   GBX,YAW
+      YAW  yaw bearing, drives, brakes   14.0     2  yes   FRM,TWR
+    TWR  tower (4 sections)            340.0     1  yes   YAW,FND
+      TRF  dry transformer, tower base    8.0     2  -     CNV,FND
+    FND  anchor cage and foundation   1700.0     1  yes   TWR
+    LPS  lightning protection            0.5     2  -     BLD,FND
+    CTL  controller and sensors          1.5     2  -     PIT,YAW
+  mass above the foundation 613 t (ch 11: 611 t); about 15 interfaces
+  load path: BLD > HUB > MSH > GBX/FRM > YAW > TWR > FND
+  every part on the load path is fatigue-critical; each
+  link in the tree is an interface with a drawing, a
+  tolerance and two owners (ch 18, interface register)

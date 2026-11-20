@@ -1,0 +1,9 @@
+seismic refraction tied to the boreholes
+  line                          crossover m   v1 / v2 m/s   depth m
+  SL-1 along the turbine rows            34    450 / 2100      13.7
+  SL-2 across the wadi                   18    380 / 1600       7.1
+  boreholes along SL-1 meet weathered sandstone at 7-8 m; the
+  refraction puts its 2,100 m/s layer at about 14 m: the
+  methods see different things (the weathered rock is not
+  yet fast) - geophysics spans the ground between boreholes,
+  and boreholes tell it what its layers are

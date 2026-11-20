@@ -1,0 +1,9 @@
+teaching derating curve (A-147): full output to 40 C, -2 %/K
+  above; -1 % per 100 m above 1000 m altitude:
+  35 C at 1200 m: 0.98 pu = 4.90 MW
+  40 C at 1200 m: 0.98 pu = 4.90 MW
+  45 C at 1200 m: 0.88 pu = 4.41 MW
+  50 C at 1200 m: 0.78 pu = 3.92 MW
+  55 C at 1200 m: 0.69 pu = 3.43 MW
+  hot hours cost energy only when the plant would otherwise
+  run near full output: the data-pack lab counts them (D)

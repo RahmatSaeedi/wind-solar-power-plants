@@ -1,0 +1,9 @@
+the register's revision in chapter 58 (diff of two versions)
+  added: STD-187, STD-188, STD-189, STD-190, STD-191
+  removed: none
+  changed: 3
+    STD-094 note: alias note added
+    STD-125 note: alias note added
+    STD-128 note: alias note added
+  every revision of the register is issued with this list and
+  the impact run for each changed or added row (ch 38, ch 54)

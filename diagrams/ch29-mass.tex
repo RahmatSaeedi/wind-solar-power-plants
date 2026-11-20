@@ -1,0 +1,17 @@
+% Chapter 29 - mass-haul diagram of the main track: cumulative (cut x 0.90 - fill) along the
+% road; a rising branch is cut, a falling branch fill, zero crossings are balance points
+% (diagrams/data/ch29-mass.csv from companion/ch29/examples_m.py, m_mass).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=56mm, xmin=0, xmax=5600,
+      xlabel={فاصله در طولِ مسیر $(\text{m})$}, ylabel={حجمِ انباشته $(\text{m}^3)$},
+      xmajorgrids=true, scaled x ticks=false, scaled y ticks=false,
+      xticklabel style={/pgf/number format/1000 sep={{,}}},
+      yticklabel style={/pgf/number format/1000 sep={{,}}}]
+    \addplot[sInk] table[x=s, y=mass, col sep=comma] {data/ch29-mass.csv};
+    \draw[sLimit] (axis cs:0,0) -- (axis cs:5600,0);
+    \node[note, anchor=south east] at (axis cs:5550,0) {موازنه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

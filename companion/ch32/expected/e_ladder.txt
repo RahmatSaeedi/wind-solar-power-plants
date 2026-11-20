@@ -1,0 +1,21 @@
+the verification ladder of a fire system (what each rung proves)
+  product certificate - type test by a lab
+      proves: the design can work
+      not: this unit, this site
+  factory test (FAT) - maker, witnessed
+      proves: this panel works as built
+      not: site wiring, other systems
+  site functional test - installer, each device
+      proves: each detector reaches the panel
+      not: the outputs it drives
+  integrated C&E test - all parties, witnessed
+      proves: input to every output, with feedback
+      not: people's response
+  emergency drill - site team, fire service
+      proves: people respond in time
+      not: a real fire's conditions
+  periodic inspection - maintainer, by schedule
+      proves: it still works
+      not: changes since the design
+  no rung replaces another: a certified detector wired to the
+  wrong output passes three rungs and fails the fourth

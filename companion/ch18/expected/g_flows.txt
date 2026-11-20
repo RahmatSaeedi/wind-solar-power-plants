@@ -1,0 +1,14 @@
+energy at the power-flow boundaries of Plant P (model 15.1, S0):
+  boundary                                      GWh/yr
+  M1 wind farm at the 33 kV bus                  193.14
+  M2 PV plant at the 33 kV bus                   108.36
+     sum at the 33 kV bus                        301.49
+     less transformer and line losses              3.29
+     less own use (auxiliaries)                    2.34
+  M3 at the POC before the limit                 295.86
+     less export-limit curtailment                 0.23
+     less grid outages                             0.49
+  M4 revenue meter, net export                   295.14
+  each line is a boundary someone owns: the turbine and PV
+  suppliers guarantee M1 and M2, the EPC contractor the losses,
+  the grid operator the limit, the buyer pays on M4

@@ -1,0 +1,13 @@
+cost of storage against duration (k u per MWh of capacity, A-295):
+  hours   lithium-ion   flow battery
+      1           400            720
+      2           325            420
+      4           288            270
+      6           275            220
+      8           269            195
+     10           265            180
+     12           262            170
+  cross-over at 3.5 hours with these teaching costs: a
+  technology whose power and energy are bought apart wins at
+  long durations; round trip, life, space and the maturity of
+  the supply chain decide the rest

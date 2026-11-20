@@ -1,0 +1,12 @@
+modules of block PVF1-3: 10,920 on 304 pallets of 36; mounting 1,200 a day
+  (34 pallets a day, about 1.5 trucks)
+  stock held      pallets  laydown m2 (with aisles)
+    1 d               34        141
+    3 d              100        416
+    7 d              234        973
+   10 d              304      1,265
+  the whole block at once needs 1,265 m2 of laydown, 3 times
+  the three-day stock, and preservation for every pallet
+  until it is mounted; three days of stock keeps the crews fed
+  through one late truck - the buffer is set from the delivery
+  reliability, not habit

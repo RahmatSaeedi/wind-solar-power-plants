@@ -1,0 +1,23 @@
+% Chapter 7 - reactive capability of all 22 units, what reaches the POC after the internal
+% balance, and the teaching target (A-108), against export. Units assumed on line.
+% Data: diagrams/data/ch07-qbal.csv (companion/ch07/integrated.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=66mm,
+      xlabel={صادرات در نقطهٔ اتصال، $\text{MW}$}, ylabel={توانِ راکتیوِ دادنی، $\text{Mvar}$},
+      xmin=10, xmax=100, ymin=0, ymax=130, xtick={10,20,...,100}, ytick={0,20,...,120}]
+    \addplot[sPV] table[x=p, y=qunits, col sep=comma, restrict x to domain=10:100] {data/ch07-qbal.csv};
+    \addlegendentry{قابلیتِ واحدها}
+    \addplot[sInk] table[x=p, y=qpoc, col sep=comma, restrict x to domain=10:100] {data/ch07-qbal.csv};
+    \addlegendentry{رسیده به نقطهٔ اتصال}
+    \addplot[sLimit] table[x=p, y=qreq, col sep=comma, restrict x to domain=10:100] {data/ch07-qbal.csv};
+    \addlegendentry{هدفِ آموزشی}
+    \node[note, text=cInk, anchor=south west] at (axis cs:62,96) {قابلیتِ واحدها};
+    \node[note, text=cInk, anchor=north east] at (axis cs:84,70) {رسیده به نقطهٔ اتصال};
+    \node[note, text=cInk, anchor=south] at (axis cs:70,24) {هدف: ضریبِ توانِ $0.95$};
+    \draw[dimline] (axis cs:100,32.87) -- (axis cs:100,46.68);
+    \node[note, anchor=east] at (axis cs:99,39.8) {حاشیه $13.8$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

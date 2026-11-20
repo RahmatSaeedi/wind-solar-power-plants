@@ -1,0 +1,6 @@
+rack contactors: 2 operations a day for 20 years = 14,600
+  mechanical life (teaching) 50,000: 29% used
+  openings under load (0.2% of them, faults and trips): 29 of 3,000
+  wear is in the rare openings under load, not the daily ones:
+  the BMS counts both, and a contactor that opened a fault
+  current gets an inspection - its count is in the rack record

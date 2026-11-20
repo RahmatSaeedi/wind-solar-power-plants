@@ -1,0 +1,7 @@
+constant 30 MW all year on 60 MW: expected 0.500, function gives 0.500
+same data with 500 missing hours: 0.500 (mean hides the gap);
+  if the plant really produced nothing then: 0.471 - only the
+  data owner can say, so the gap must be reported, not averaged away
+side effect: caller's table gained columns ['hour']
+findings: 8784 is a leap year but cancels; missing hours not reported;
+  input table modified; no units, no checks -> rewrite with tests

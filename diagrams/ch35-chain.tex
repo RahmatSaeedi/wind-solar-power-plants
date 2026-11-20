@@ -1,0 +1,15 @@
+% Chapter 35 - hours a year each turbine is cut off from the substation on a daisy chain (by its place
+% in the chain) against the worst-placed turbine on a ring (examples_a; link availability 0.99984).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, ybar, bar width=6mm, ymode=log, ymin=1e-3, ymax=30,
+      log origin=infty, xmin=0.4, xmax=6.6, xtick={1,...,6},
+      xlabel={جای توربین در زنجیره}, ylabel={ساعتِ قطع در سال},
+      nodes near coords, nodes near coords style={font=\scriptsize, text=cInkB}, point meta=rawy]
+    \addplot[fill=cWind!45, draw=cWind] coordinates {(1,1.40) (2,2.80) (3,4.20) (4,5.61) (5,7.01) (6,8.41)};
+    \draw[sLimit] (axis cs:0.4,0.0027) -- (axis cs:6.6,0.0027);
+    \node[note, anchor=west, text width=22mm] at (axis cs:6.65,0.0027) {حلقه، بدترین توربین: $9.7\,\mathrm{s}$ در سال};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

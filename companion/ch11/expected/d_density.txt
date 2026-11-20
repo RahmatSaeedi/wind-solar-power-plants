@@ -1,0 +1,8 @@
+one turbine, four ways to treat air density (A-221):
+  power curve at 1.225 kg/m3, no correction     18,233 MWh
+  equivalent speed, hourly density              16,769 MWh (-8.0 %)
+  equivalent speed, mean density 1.056         16,773 MWh (-8.0 %)
+  BEM rotor at 1.056 kg/m3, turbulence 10 %     17,183 MWh (-5.8 %)
+  the BEM rotor gives about 2.5 % more, mostly from its higher
+  power near cut-in; leaving density out overstates the energy
+  by about 9 %: the largest single correction at 1200 m

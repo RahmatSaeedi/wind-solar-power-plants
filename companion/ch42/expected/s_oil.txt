@@ -1,0 +1,7 @@
+gearbox oil temperature after a load step: first order, tau 40 min
+  final rise 30 K; 'stable' = within 1.0 K of the end
+  time to stable 136 min (2.3 h) at each step
+  four load steps take most of a shift before the last
+  readings mean anything: vibration and temperature are read
+  only once the step has settled - a test plan that records
+  earlier compares a warm gearbox with a cold one

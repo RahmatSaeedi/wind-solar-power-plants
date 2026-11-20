@@ -1,0 +1,26 @@
+% Chapter 29 - the 132 kV route: the chapter 14 least-cost path on the 50 m grid (zigzag) and
+% the route straightened with a 150 m tolerance, with tower sites at equal spans <= 300 m on
+% each straight (diagrams/data/ch14-routes.csv, ch29-route.csv, ch29-towers.csv; examples_q).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=128mm, height=80mm, xmin=6, xmax=13, ymin=2.4, ymax=4.6,
+      axis equal image, xlabel={شرق، $\text{km}$}, ylabel={شمال، $\text{km}$},
+      xtick={6,7,...,13}, ymajorgrids=false, clip=true,
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3]
+    \addplot[sLimit, line width=0.7pt, restrict expr to domain={\thisrow{k}}{2:2}]
+      table[x=x, y=y, col sep=comma] {data/ch14-routes.csv};
+    \addlegendentry{مسیرِ کم‌هزینه روی شبکهٔ ۵۰ متری}
+    \addplot[sWind, line width=1.2pt] table[x=x, y=y, col sep=comma] {data/ch29-route.csv};
+    \addlegendentry{مسیرِ راست‌شده}
+    \addplot[only marks, mark=triangle*, mark size=2.2pt, color=cInk] table[x=x, y=y, col sep=comma] {data/ch29-towers.csv};
+    \addlegendentry{جای دکل}
+    \draw[cLoss, line width=0.6pt, densely dashed] (axis cs:9.8,3.5) circle[radius=0.3];
+    \node[note, text=cLoss, anchor=north] at (axis cs:9.8,3.18) {حریمِ کاروانسرا};
+    \node[draw=cInk, fill=white, line width=0.8pt, minimum size=5pt, inner sep=0pt] at (axis cs:6.5,3.5) {};
+    \node[note, anchor=north, fill=white, inner sep=1pt] at (axis cs:6.6,3.4) {پست نیروگاه};
+    \node[draw=cInk, fill=cInk, minimum size=5pt, inner sep=0pt] at (axis cs:12.7,3.0) {};
+    \node[note, anchor=north, fill=white, inner sep=1pt] at (axis cs:12.4,2.9) {پست $132\ \text{kV}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

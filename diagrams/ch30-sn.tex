@@ -1,0 +1,18 @@
+% Chapter 30 - bilinear S-N curve of a welded detail (teaching class 71 MPa at 2e6 cycles, slope
+% 3 down to 5e6, slope 5 below, no cut-off), log-log (diagrams/data/ch30-sn.csv, examples_b).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=62mm, xmode=log, ymode=log, xmin=1e5, xmax=1e9,
+      ymin=15, ymax=200, xlabel={تعدادِ چرخه تا شکست}, ylabel={بازهٔ تنش $(\text{MPa})$},
+      xmajorgrids=true, ytick={20,30,50,71,100,150},
+      yticklabel={\pgfmathparse{exp(\tick)}\pgfmathprintnumber[fixed, precision=0]{\pgfmathresult}}]
+    \addplot[sInk] table[x=n, y=ds, col sep=comma] {data/ch30-sn.csv};
+    \draw[densely dotted, draw=cInkB] (axis cs:2e6,15) -- (axis cs:2e6,71) -- (axis cs:1e5,71);
+    \draw[densely dotted, draw=cInkB] (axis cs:5e6,15) -- (axis cs:5e6,52.3);
+    \node[note, anchor=south west] at (axis cs:2.2e6,72) {ردهٔ جزئیات ۷۱};
+    \node[note, anchor=south west] at (axis cs:3e7,33) {شیبِ ۵};
+    \node[note, anchor=south west] at (axis cs:4e5,105) {شیبِ ۳};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

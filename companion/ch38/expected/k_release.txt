@@ -1,0 +1,13 @@
+release-for-manufacture gate of the inverter skid (teaching)
+  [x] specification approved (APP)
+  [ ] ICD items all closed
+  [x] design review comments closed
+  [x] DfM/DfT review held
+  [x] hazard review actions closed or accepted
+  [x] inspection and test plan agreed
+  [ ] FAT procedure approved
+  [x] document set at IFC and in the register
+  6 of 8 met: the skid is not released; the open
+  ICD items (short-circuit level, heat, grid behaviour) and
+  the FAT procedure hold it. Releasing early buys weeks and
+  pays them back as factory rework (ch 40, ch 44)

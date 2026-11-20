@@ -1,0 +1,15 @@
+battery container plinths: level at six support points (teaching
+  limit 6 mm between the highest and lowest support)
+  container   range mm   verdict
+  C1                 3   ok
+  C2                 3   ok
+  C3                 2   ok
+  C4                 2   ok
+  C5                18   SHIM PLAN
+  C6                 2   ok
+  C7                 2   ok
+  C8                 3   ok
+  out: C5 - an 18 mm fall along one side twists the
+  container frame: doors bind, racks lean and the busbar joints
+  of ch 45 see a load they were not built for; the shim plan
+  is the container maker's, with the plinth's survey on file

@@ -1,0 +1,10 @@
+how many main transformers? (teaching: cost ~ S^0.7, 100 MW export)
+  option       capex index   outage share   expected loss MWh/yr   k u/yr
+  1 x 125 MVA         1.00           100%                   2212      155
+  2 x 63 MVA          1.24            18%                    796       56
+  3 x 45 MVA          1.47             3%                    199       14
+  one big unit is cheapest but its failure stops the plant for
+  months; two units lose only the energy above one unit's
+  rating; three lose almost nothing but cost more and take
+  more bays - two is the usual balance (D-022), the outage
+  share comes from the plant's own output profile

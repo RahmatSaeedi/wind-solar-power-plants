@@ -1,0 +1,11 @@
+essential loads on the backup generator (A-129):
+  UPS and DC chargers     12.0 kW, pf 0.9
+  SCADA, telecom           8.0 kW, pf 0.95
+  battery HVAC (S1)       60.0 kW, pf 0.85
+  control HVAC            25.0 kW, pf 0.85
+  lighting, essential      3.0 kW, pf 0.95
+  fire and security        4.0 kW, pf 0.9
+  total 112.0 kW, 64.0 kvar, 129.0 kVA, pf 0.87
+  with 25 % margin 161 kVA; the largest motor start (30 kW DOL) wants
+  about 275 kVA for a 15 % dip (problem 55), or a soft start on 200 kVA
+  the rating is set by the motor start and the margin, whichever is larger

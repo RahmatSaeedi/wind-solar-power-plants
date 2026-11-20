@@ -1,0 +1,11 @@
+evidence the decision rests on, and where it comes from
+  1. Weibull fit with its censored records and interval [ch 37/52 CMMS]
+  2. oil and vibration trends of each gearbox [lesson B of ch 52]
+  3. repair quotes and the repair shop's restoration record [supplier]
+  4. crane and low-wind window availability [ch 31, ch 51]
+  5. price after the PPA, or a new contract [owner, ch 21]
+  6. permit and grid position if repowered instead [lesson B, ch 54-58]
+  7. waste route for 12 old gearboxes and 14 t of oil [lesson C]
+  8. decision record with the options, numbers and assumptions [this lab]
+  the decision is re-taken when any of them changes - a
+  decision record without its assumptions cannot be re-taken

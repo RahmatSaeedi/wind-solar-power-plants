@@ -1,0 +1,13 @@
+carbon of one main transformer: materials against 25 years of losses
+  (teaching factors t CO2e per t; grid 0.5 t CO2e per MWh)
+  item                         t      factor   t CO2e
+  core steel                    38.0      2.5       95
+  copper                         9.4      4.0       38
+  tank and structure steel      20.0      2.0       40
+  oil                           19.4      1.0       19
+  paper, pressboard, other       8.2      1.5       12
+  materials 204 t CO2e; losses 7,338 t CO2e over 25 years
+  the losses weigh 36 times the materials: lower losses
+  are the transformer's main carbon lever, and the loss
+  evaluation of lesson A already prices most of it; real
+  factors come from the maker's declaration and the grid's

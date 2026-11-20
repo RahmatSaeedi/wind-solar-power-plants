@@ -1,0 +1,13 @@
+design review record of the synthetic model (teaching scales)
+  finding                               score  band       owner     due d
+  rule R05 allows any to any               20  very high  OT lead       7
+  business file share into control         15  very high  OT lead       7
+  vendor account with software rights      12  high       OT lead      14
+  inverter data to a maker's cloud         12  high       ctrl eng     30
+  PV and battery on one core switch         8  medium     ctrl eng    180
+  2 inventory rows without an owner         6  medium     OT lead      30
+  firewall restore 12 min over target       4  low        ctrl eng     90
+  every finding has a score, an owner and a date; the record
+  is reviewed until each one is closed or accepted by the
+  asset owner in writing - and it names no address, no
+  product version and no path a reader outside could use

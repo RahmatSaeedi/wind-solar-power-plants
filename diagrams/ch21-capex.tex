@@ -1,0 +1,14 @@
+% Chapter 21 - capital cost of Plant P (S1) by item, million u (teaching, A-304).
+% Data: diagrams/data/ch21-capex.csv (companion/ch21/examples_a.py capex()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=66mm, xbar, bar width=4.5mm, ymin=0.4, ymax=7.6,
+      xmin=0, xmax=90, xlabel={میلیون واحد}, ytick={1,...,7}, ymajorgrids=false,
+      yticklabels={باد, PV, پست و خط, باتری, توسعه و مجوز, مهندسیِ مالک, احتیاط},
+      y dir=reverse, nodes near coords, nodes near coords style={font=\footnotesize, text=cInk, anchor=west},
+      /pgf/number format/fixed, /pgf/number format/precision=1]
+    \addplot[draw=cInk, fill=cInk!25] table[x=v, y=k, col sep=comma] {data/ch21-capex.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

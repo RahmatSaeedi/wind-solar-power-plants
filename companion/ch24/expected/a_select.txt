@@ -1,0 +1,16 @@
+worked example 1: preliminary cable for wind string WS1
+  checks: current in place >= 368 A; drop along the string
+  <= 2 %; withstand >= 12.5 kA for 1 s
+  section  in place A  ok   drop %  ok   withstand kA  ok
+   240          277  n      1.00  y            22.6  y
+   400          351  n      0.68  y            37.6  y
+   630          445  y      0.47  y            59.2  y
+  smallest section that carries each section's current:
+    section 1 (4 turbines, 368 A): 630 mm2
+    section 2 (3 turbines, 276 A): 240 mm2
+    section 3 (2 turbines, 184 A): 240 mm2
+    section 4 (1 turbine, 92 A): 240 mm2
+  the first section needs 630 mm2 in this trench; the string
+  can be graded 630/240/240/240 mm2 - one size or a
+  graded string is an economic choice (section F); the
+  reference table alone would have chosen 240 mm2 everywhere

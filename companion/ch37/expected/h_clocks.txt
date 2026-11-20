@@ -1,0 +1,9 @@
+set points from the controller, response from a logger 4 s late
+  RMS tracking error as logged:               3.84 MW
+  RMS on one clock (known here, synthetic):   2.15 MW
+  shift that minimises the error: 6 s, RMS  1.09 MW
+  the clocks added 1.69 MW of 'error'. The search shifted
+  6 s, 2 s more than the clock fault: it also removed the
+  plant's own delay and flattered the response. Commands and
+  response are put on one time base from the clocks' own
+  records (ch 35, synchronisation), never from a fit

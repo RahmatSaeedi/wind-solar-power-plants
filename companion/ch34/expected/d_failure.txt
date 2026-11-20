@@ -1,0 +1,14 @@
+test case T-03b: POC voltage transducer loop opens (simulated)
+  precondition: plant in voltage control at 0.99 pu, signal
+    from a calibrator at the transducer output (no live work)
+  step: at t = 10.0 s the calibrator output is opened (0 mA)
+  expected                                   observed
+  quality 'bad' within one scan (50 ms)      t = 10.00 s
+  last good Q held for 1 s                   change 0.00 Mvar
+  alarm 'POC V measurement bad'              t = 10.00 s
+  meter channel in use within 1 s            t = 11.00 s
+  Q on the meter channel = Q before          +8.25 vs +8.25 Mvar
+  result: PASS - recorded with the configuration fingerprint
+  a controller that trusted the value of the dead loop would
+  read -37.5 kV and order +33 Mvar, full reactive export -
+  quality comes before value

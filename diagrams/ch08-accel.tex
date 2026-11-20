@@ -1,0 +1,24 @@
+% Chapter 8 - run-up of the 30 kW motor with an unloaded compressor (A-141) at three supply
+% voltages. Data: diagrams/data/ch08-accel.csv (companion/ch08/examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=64mm,
+      xlabel={زمان، $\text{s}$}, ylabel={سرعت، $\text{rpm}$},
+      xmin=0, xmax=1.5, ymin=0, ymax=1650, xtick={0,0.25,...,1.5}, ytick={0,300,...,1500},
+      xticklabels={$0$,$0.25$,$0.50$,$0.75$,$1.00$,$1.25$,$1.50$},
+      legend columns=1, legend style={at={(0.03,0.86)}, anchor=north west}]
+    \addplot[sInk] table[x=t, y=n100, col sep=comma] {data/ch08-accel.csv};
+    \addlegendentry{ولتاژِ کامل، $0.65\ \text{s}$}
+    \addplot[sLimit] table[x=t, y=n94, col sep=comma] {data/ch08-accel.csv};
+    \addlegendentry{$94.2$ درصد، ترانسفورماتور، $0.74\ \text{s}$}
+    \addplot[sLoss] table[x=t, y=n81, col sep=comma] {data/ch08-accel.csv};
+    \addlegendentry{$81.3$ درصد، مولدِ پشتیبان، $1.05\ \text{s}$}
+    \draw[cRule, densely dotted] (axis cs:0,1425) -- (axis cs:1.5,1425);
+    \node[note, anchor=north east] at (axis cs:1.48,1415) {$95$ درصدِ سرعتِ هم‌گام};
+    \fill[cInk] (axis cs:0.646,1425) circle (1.4pt);
+    \fill[cInk] (axis cs:0.741,1425) circle (1.4pt);
+    \fill[cInk] (axis cs:1.051,1425) circle (1.4pt);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

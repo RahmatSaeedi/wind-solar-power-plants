@@ -1,0 +1,14 @@
+conceptual sizing pipeline (A-136), shaft 5.16 MW after the gearbox:
+  geared HS 1155 rpm: D 0.79 m, L 1.08 m, 57.8 Hz, N 6.4, J 4.5 A/mm2
+    copper  0.71 t, magnet  0.20 t, core  4.81 t; active   5.7 t
+    losses: copper  60.6 kW, core  38.8 kW; materials 26 k u
+  geared MS 420 rpm: D 1.23 m, L 1.23 m, 84.0 Hz, N 9.9, J 4.0 A/mm2
+    copper  1.32 t, magnet  0.36 t, core  4.46 t; active   6.1 t
+    losses: copper 105.7 kW, core  63.1 kW; materials 40 k u
+  direct drive 10.5 rpm: D 7.20 m, L 1.44 m, 10.5 Hz, N 57.8, J 2.5 A/mm2
+    copper 13.46 t, magnet  2.46 t, core 29.98 t; active  45.9 t
+    losses: copper 235.3 kW, core  18.8 kW; materials 314 k u
+A-111 assumed 63.5 kW copper and 39.7 kW core at rating: the
+  pipeline lands near both for the geared machine, a cross-check
+  of two independent sets of teaching numbers; the direct drive
+  buys its low current density with many tonnes of copper

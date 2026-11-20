@@ -1,0 +1,7 @@
+service activation 5.0 MW for 15 min from the floor 9.39 MWh
+  energy drawn 1.35 MWh; recovery at 4.0 MW takes 22 min
+  three activations without recovery: 5.35 MWh left,
+  enough for 0.25 h of the service
+  below the one-hour floor, the service is declared reduced
+  until the energy is back: recovery is part of the service
+  (ch 20 floor), and its minutes are in the shift log

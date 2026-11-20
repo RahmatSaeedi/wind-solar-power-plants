@@ -1,0 +1,16 @@
+% Chapter 20 - overshoot of an outer loop on an inner loop against the ratio of their time
+% constants: simulation points and the second-order formula zeta = 0.5 sqrt(ratio).
+% Data: diagrams/data/ch20-cascade.csv (companion/ch20/examples_g.py cascades()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmode=log, xmin=0.4, xmax=25, ymin=0, ymax=35,
+      xlabel={نسبتِ ثابتِ زمانیِ حلقهٔ بیرونی به درونی}, ylabel={فراجهش (٪)},
+      xtick={0.5,1,2,5,10,20}, xticklabels={0.5,1,2,5,10,20}, ytick={0,10,20,30},
+      legend columns=1, legend style={at={(0.97,0.97)}, anchor=north east, font=\footnotesize}]
+    \addplot[sInk, domain=0.4:3.99, samples=120] {100*exp(-pi*0.5*sqrt(x)/sqrt(1-0.25*x))};
+    \addplot[only marks, mark=*, mark size=2pt, color=cBESS] table[x=r, y=os, col sep=comma] {data/ch20-cascade.csv};
+    \legend{فرمول, شبیه‌سازی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,12 @@
+fault levels by the MVA method (grid side only; teaching):
+  line 5,910 MVA, each transformer 525 MVA
+  bus                MVA       kA   switchgear kA
+  POC                1,500      6.6            -
+  plant 132 kV       1,196      5.2         31.5
+  33 kV (one T)        365      6.4           25
+  33 kV (both T)       559      9.8           25
+  0.4 kV board           5      7.9            -
+  inverters and converters add about 1.2 x rated current: 2.7 kA at 33 kV
+  with the coupler closed and every source feeding, the 33 kV
+  duty is about 12.5 kA - inside a 25 kA rating; the full
+  study with the network's X/R and the makers' data is ch 26

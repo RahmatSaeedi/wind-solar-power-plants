@@ -1,0 +1,18 @@
+% Chapter 12 - three one-minute days of GHI: clear, broken cloud, overcast (synthetic, A-242).
+% Data: diagrams/data/ch12-days.csv (companion/ch12/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=62mm, xmin=4, xmax=20, ymin=0, ymax=1250,
+      xlabel={ساعتِ روز}, ylabel={تابشِ افقی، $\text{W/m}^2$}, xtick={4,6,...,20},
+      ytick={0,200,...,1200}, yticklabel style={/pgf/number format/1000 sep={}},
+      legend pos=north west, legend columns=1, clip=true]
+    \addplot[sLoss, line width=0.5pt] table[x=h, y=broken, col sep=comma] {data/ch12-days.csv};
+    \addlegendentry{ابرِ پراکنده}
+    \addplot[sWind] table[x=h, y=clear, col sep=comma] {data/ch12-days.csv};
+    \addlegendentry{صاف}
+    \addplot[sPV] table[x=h, y=overcast, col sep=comma] {data/ch12-days.csv};
+    \addlegendentry{ابری}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

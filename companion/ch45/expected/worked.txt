@@ -1,0 +1,10 @@
+E01 areal capacity 40 mg/cm2 x 0.95 x 155 mAh/g: 5.89 mAh/cm2
+E02 N/P of 6.17 over 5.89: 1.048
+E03 K-value of 3.3150 -> 3.3143 V in 14 days: 0.050 mV/day
+E04 string of 316, 317, 314.5 Ah: 314.5 Ah
+E05 rack of 416 cells, 2.5-3.65 V: 1040-1518 V
+E06 module energy 52 x 314 Ah x 3.2 V: 52.2 kWh
+E07 weld heat at 157 A, 60 uohm: 1.48 W
+E08 water at a -40 C dew point: 0.177 g/m3
+E09 sample of 50 from 2000 with 5 bad, at least one: 11.9%
+E10 balancing 63 Ah at 0.1 A: 630 h

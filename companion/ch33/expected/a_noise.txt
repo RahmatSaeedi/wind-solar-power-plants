@@ -1,0 +1,14 @@
+turbine noise at night at the receptors (12 turbines, W2b, teaching)
+  sound power 106 dB(A) each; limit 40 (PLACEHOLDER); background 28
+  receptor                       nearest m   turbines dB(A)   with background
+  farmhouse A                          943             37.2              37.7
+  herders' camp B (seasonal)           806             38.5              38.8
+  farmhouse C                         2332             28.9              31.5
+  roadside house D                    1250             33.7              34.7
+  village centre                      2854             26.2              30.2
+  every receptor is under the placeholder limit, but the
+  camp and farmhouse A hear the turbines about 10 dB above
+  the quiet background - clearly audible at night; if the
+  permit uses a background-based criterion, a noise-reduced
+  mode for the nearest turbines in the camp's months is
+  weighed against the energy it costs (ch 14)

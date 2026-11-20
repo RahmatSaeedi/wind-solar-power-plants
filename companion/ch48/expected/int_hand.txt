@@ -1,0 +1,5 @@
+three numbers of this chapter checked by hand
+  pyranometer at 45 C, 2 years: sqrt(15^2 + 10^2 + 10^2 + 4^2) = 21.0 W/m2
+  820 W/m2 on a 0-1600 W/m2 loop: 4 + 16 x 820/1600 = 12.20 mA
+  T05-T06: 0.71 x 0.35 + 2 x 0.5 + 2 x 0.1 = 1.45 dB expected
+  each equals the program's line (a_budgets, s_trace, b_fibre)

@@ -1,0 +1,11 @@
+six-pulse diode bridge on 400 V, 50 Hz:
+  ideal mean DC voltage 1.35 x 400 = 540.2 V
+  with 0.1 mH commutation inductance at 200 A: 534.2 V
+  thyristor bridge, firing angle 30 deg:  467.8 V
+  thyristor bridge, firing angle 60 deg:  270.1 V
+  thyristor bridge, firing angle 90 deg:    0.0 V
+  ideal line-current harmonics I_h / I_1 = 1 / h:
+    h 5: 0.200, h 7: 0.143, h 11: 0.091, h 13: 0.077, h 17: 0.059, h 19: 0.053
+  THD (to 19th) six-pulse 28.4 %, twelve-pulse 11.9 % (5th, 7th cancel)
+  a transformer with two secondaries (star and delta) makes
+  the twelve-pulse rectifier (chapter 7, transformer phase shift)

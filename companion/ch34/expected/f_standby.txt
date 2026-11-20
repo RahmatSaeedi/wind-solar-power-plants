@@ -1,0 +1,7 @@
+the fire panel's own standby battery (teaching currents and times)
+  standby 1.2 A x 24 h + alarm 4.0 A x 0.5 h = 30.8 Ah
+  with 25 % for ageing: 38.5 Ah -> next size 40 Ah
+  the hours come from the fire code and the fire strategy;
+  the point is independence: the fire panel does not borrow
+  the plant's 110 V battery or UPS, so a plant blackout
+  cannot silence it (lesson E)

@@ -1,0 +1,9 @@
+tilt budget at the tower top (teaching, metres)
+  foundation tilt limit (teaching 3 mm/m)   0.300
+  erection verticality (lesson C)           0.050
+  thermal, 10 K across the tower            0.160
+  mean thrust at rated (static)             0.450
+  worst case sum 0.96 m; independent parts RSS + thrust 0.79 m
+  the foundation limit dominates the permanent part: a
+  settlement survey that shows 1 mm/m after one year is
+  a third of the budget gone - the trend matters (lesson C)

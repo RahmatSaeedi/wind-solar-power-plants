@@ -1,0 +1,7 @@
+mean Pmax of 30 lots of 3,000 modules (chart from lots 1-15)
+  centre 552.19 W, lower limit 550.95 W
+  first lot below the limit: 23; eight in a row below the centre by lot 30
+  a 1.6 W drop is inside every module's tolerance and every
+  lot's spread, yet the lot means show it within a few lots -
+  the factory asks what changed at lot 23 (a new glass batch)
+  before the buyer's laboratory finds it a year later

@@ -1,0 +1,9 @@
+PV block feeders at 33 kV (block centres teaching, A-286):
+  option                     peak kA  rating  loss MWh  km   cost k u
+  2 feeders of 5, 240 mm2     0.460  0.41 over     405  4.15      394
+  2 feeders of 5, 630 mm2     0.460  0.66 ok       162  4.15      684
+  3 feeders 4/3/3, 240 mm2    0.368  0.41 ok       287  5.77      548
+  two feeders of five blocks exceed the 240 mm2 rating at full
+  output: either the larger cable or a third feeder (and a
+  third 33 kV bay); the third feeder also shrinks what one
+  cable fault takes out (four blocks or fewer, not five)

@@ -1,0 +1,6 @@
+welfare at the workforce peak (ch 22 curve, ch 32 70 L a day)
+  peak 450 workers in month 9; worker-months 4,534
+  toilets at 1 per 15: 30; water 31.5 m3 a day
+  beds for workers from outside (60%): 270
+  temporary facilities are sized for the peak and built before
+  it: a camp that fills in month 9 is planned in month 2

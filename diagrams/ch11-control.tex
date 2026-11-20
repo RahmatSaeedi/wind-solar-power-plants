@@ -1,0 +1,28 @@
+% Chapter 11 - control structure of a variable-speed pitch-regulated turbine: torque loop
+% (region 2), pitch loop (region 3), yaw loop, and the independent safety system.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{b/.style={blk, minimum width=26mm, minimum height=9mm, text width=24mm},
+           k/.style={blkWarn, minimum width=26mm, minimum height=9mm, text width=24mm}}
+  \node[blkWind, minimum width=20mm, minimum height=9mm] (wind) at (0,0) {باد};
+  \node[b] (rot) at (3.2,0) {روتور و پره‌ها};
+  \node[b] (dt) at (6.6,0) {پیشرانه};
+  \node[b] (gen) at (10.0,0) {ژنراتور و مبدّل};
+  \node[blkLoad, minimum width=20mm, minimum height=9mm] (grid) at (13.2,0) {شبکه};
+  \draw[flow] (wind) -- (rot); \draw[flow] (rot) -- (dt); \draw[flow] (dt) -- (gen); \draw[flow] (gen) -- (grid);
+  \node[b] (tq) at (10.0,-2.2) {کنترلِ گشتاور $Q = k\,\omega^2$};
+  \node[b] (pi) at (3.2,-2.2) {کنترلِ گام (بالای اسمی)};
+  \node[b] (yaw) at (0,2.2) {کنترلِ چرخشِ ناسل};
+  \node[k] (safe) at (6.6,-4.2) {سامانهٔ ایمنیِ مستقل};
+  \draw[flowinfo] (dt.south) -- ++(0,-0.9) node[note, anchor=east, pos=0.5] {سرعتِ روتور} -| (tq.north);
+  \draw[flowinfo] (dt.south) -- ++(0,-0.9) -| (pi.north);
+  \draw[flow] (tq.east) -- ++(0.6,0) |- (gen.east);
+  \draw[flow] (pi.west) -- ++(-0.6,0) |- (rot.west);
+  \draw[flowinfo] (wind.north) -- (yaw.south) node[midway, note, anchor=east] {بادنما};
+  \draw[flow] (yaw.east) -| (rot.north);
+  \draw[flow] (safe.west) -| (pi.south) node[pos=0.3, note, anchor=north] {فرمانِ گامِ اضطراری};
+  \draw[flow] (safe.east) -| (gen.south) node[pos=0.3, note, anchor=north] {ترمز و قطع};
+  \node[note, text width=60mm, anchor=north] at (6.6,-4.8) {ورودی‌های ایمنی: سرعتِ بیش از حد، لرزش، توقفِ اضطراری، خطای کنترل‌گر؛ مستقل از کنترل‌گرِ اصلی};
+\end{tikzpicture}}
+\end{document}

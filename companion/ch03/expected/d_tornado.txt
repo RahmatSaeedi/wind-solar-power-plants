@@ -1,0 +1,6 @@
+one-at-a-time sensitivity of exported energy, base 289.8 GWh
+  wind speed scale +-3 %           -9.5 ..   +9.2 GWh
+  wind losses 15 / 9 %             -6.6 ..   +6.5 GWh
+  PR_DC +-5 %                      -4.8 ..   +4.7 GWh
+  irradiation +-4 %                -3.9 ..   +3.8 GWh
+  inverter efficiency 97 / 99 %    -1.0 ..   +1.0 GWh

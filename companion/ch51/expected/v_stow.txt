@@ -1,0 +1,6 @@
+PV trackers stow when the expected gust reaches 15 m/s (mean x 1.4, teaching)
+  daylight hours in stow over the data-pack year: 74
+  PV energy in those hours 1,359 MWh; lost at 25%: 340 MWh
+  = 0.31% of the PV year: stow protects the
+  trackers for a small price, and its hours are logged with the
+  wind that caused them (lost-energy cause 'stow', lesson B)

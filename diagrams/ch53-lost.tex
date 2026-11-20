@@ -1,0 +1,18 @@
+% Chapter 53 - energy lost in operating year 18 by cause (MWh)
+% (companion/ch53/examples_a.py, lost -> diagrams/data/ch53-lost.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xbar, bar width=4.6mm, ymin=0.4, ymax=6.6,
+      xmin=0, xmax=3600, y dir=reverse, ytick={1,...,6}, scaled x ticks=false,
+      yticklabels={قطعه‌های اصلیِ توربین, کاهشِ تولید به دستورِ شبکه, خرابی‌های جزئیِ توربین,
+        گردوغبار, مبدّل‌ها, ترانسفورماتور و خط},
+      xlabel={انرژیِ ازدست‌رفته (MWh)},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/1000 sep={}},
+      nodes near coords, nodes near coords align={horizontal},
+      every node near coord/.append style={anchor=west, font=\scriptsize,
+        /pgf/number format/fixed, /pgf/number format/1000 sep={}}]
+    \addplot[draw=cLoss, fill=cLoss!35] table[x=mwh, y=k, col sep=comma] {data/ch53-lost.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

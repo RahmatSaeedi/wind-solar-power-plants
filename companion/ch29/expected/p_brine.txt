@@ -1,0 +1,10 @@
+RO recovery against brine strength (feed 2,500 mg/L, permeate taken as pure)
+  recovery %   raw m3   brine m3   brine mg/L   pond m2
+          50    3,058      1,529        5,000       826
+          60    2,548      1,019        6,250       551
+          75    2,039        510       10,000       275
+          85    1,799        270       16,667       146
+  higher recovery saves raw water and pond area but makes
+  the brine stronger, until salts scale the membranes: the
+  supplier's analysis of the actual well water sets the
+  limit, not this table

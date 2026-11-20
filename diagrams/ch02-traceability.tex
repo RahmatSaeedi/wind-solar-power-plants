@@ -1,0 +1,24 @@
+% Chapter 2 — the traceability chain of a wind-speed measurement, and how uncertainty grows
+% along it. Bar lengths are illustrative orders of magnitude, not values from any certificate.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    s/.style={blk, minimum width=58mm, minimum height=11mm, inner sep=2pt, text width=55mm}]
+  \node[s, draw=cInk]  (si)  at (0, 0)    {تعریفِ یکاهای $\text{SI}$ (متر و ثانیه)};
+  \node[s]             (nmi) at (0,-1.6)  {مؤسسهٔ ملیِ اندازه‌شناسی: استانداردِ اولیهٔ سرعتِ جریانِ هوا};
+  \node[s]             (lab) at (0,-3.2)  {آزمایشگاهِ کالیبراسیونِ اعتباردهی‌شده: تونلِ باد با استانداردِ مرجع};
+  \node[s, blkWind]    (ane) at (0,-4.8)  {بادسنجِ فنجانیِ دکلِ نیروگاهِ P، با گواهیِ کالیبراسیون};
+  \node[s]             (dat) at (0,-6.4)  {دادهٔ سرعتِ باد با شناسهٔ ابزار، گواهی و عدمِ قطعیت};
+  \foreach \a/\b in {si/nmi, nmi/lab, lab/ane, ane/dat} \draw[flow] (\a) -- (\b);
+
+  \node[note, text=cInk, font=\small\bfseries, anchor=south west] at (3.6,0.65) {عدمِ قطعیتِ انباشته (نمادین)};
+  \foreach \y/\w/\t in {0/0.05/{صفر: ثابت‌ها دقیق‌اند}, -1.6/0.35/{بسیار کم}, -3.2/1.0/{کم}, -4.8/2.2/{میانه: کالیبراسیون + نصب + اقلیم}, -6.4/3.0/{بیشتر: پردازش و نماینده بودن}} {
+    \fill[cInkB!45] (3.7,\y-0.17) rectangle (3.7+\w,\y+0.17);
+    \node[anchor=west, text=cInk] at (3.75+\w,\y) {\t};
+  }
+  \node[note, anchor=north, text width=128mm] at (3.0,-7.3)
+     {هر حلقه با یک \emph{مقایسهٔ مستند} و عدمِ قطعیتِ اعلام‌شده به حلقهٔ بالاتر وصل است. اگر یک حلقه
+      گم شود (مثلاً گواهیِ تونلِ باد در دست نباشد)، زنجیر پاره است و عدد «ردیابی‌پذیر» نیست، هر قدر هم
+      دقیق به نظر برسد.};
+\end{tikzpicture}}
+\end{document}

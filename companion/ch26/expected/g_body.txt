@@ -1,0 +1,11 @@
+body current for a 500 V touch voltage (teaching resistances):
+  body 1,000 ohm; each foot a disc of 0.08 m: R = rho_s/(4 b)
+  surface              rho_s ohm m   foot ohm   touch A   step A
+  natural soil                 150        469     0.405    0.258
+  wet gravel layer           1,000      3,125     0.195    0.069
+  crushed rock layer         3,000      9,375     0.088    0.025
+  a high-resistivity surface layer puts resistance in series
+  with the body: the same voltage drives several times less
+  current; the tolerable current itself falls as the clearing
+  time grows - the guide's method combines the two, and fast
+  protection and the surface layer are earthing measures

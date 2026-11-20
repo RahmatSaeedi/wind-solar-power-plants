@@ -1,0 +1,19 @@
+% Chapter 24 - conductor temperature after a step from 0.85 pu to 1.1-1.5 pu (first-order heating,
+% tau 1.5 h, 20 C ground, 70 K rise at 1.0 pu); data diagrams/data/ch24-overload.csv from
+% companion/ch24/examples_z.py; the 90 C limit as a reference line.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=106mm, height=64mm, xmin=0, xmax=3, ymin=60, ymax=140,
+      xlabel={زمان پس از آغازِ اضافه‌بار $(\text{h})$}, ylabel={دمای رسانا $(^\circ\text{C})$},
+      xmajorgrids=true, legend columns=4]
+    \addplot[sWind] table[x=t, y=k11, col sep=comma] {data/ch24-overload.csv};
+    \addplot[sPV] table[x=t, y=k12, col sep=comma] {data/ch24-overload.csv};
+    \addplot[sBESS] table[x=t, y=k13, col sep=comma] {data/ch24-overload.csv};
+    \addplot[sLoss] table[x=t, y=k15, col sep=comma] {data/ch24-overload.csv};
+    \legend{$1.1\,\text{pu}$, $1.2\,\text{pu}$, $1.3\,\text{pu}$, $1.5\,\text{pu}$}
+    \draw[sLimit] (axis cs:0,90) -- (axis cs:3,90);
+    \node[note, anchor=south east] at (axis cs:2.95,90.5) {حدِ $90\,^\circ\text{C}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

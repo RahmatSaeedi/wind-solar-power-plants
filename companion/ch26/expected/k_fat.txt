@@ -1,0 +1,17 @@
+panel FAT punch list (A must close before shipping, B before
+  energising, C at completion):
+  item                                       class   status
+  terminal X2:14 wired to X2:41                B       closed
+  CT shorting link left open on core 2         A       closed
+  trip relay contact on wrong coil             A       closed
+  setting file rev A loaded, rev B approved    A       closed
+  ferrule labels missing on 12 wires           C       closed
+  +H03 trip coil 2 link X5:7 missing           B       open
+  door earth strap missing                     C       open
+  open class A items: 0 -> panel may ship: yes
+  open B and C items travel with the panel: 2
+  an open CT link on site would put the CT secondary open -
+  dangerous voltages - which is why it is a class A item
+  the missing coil-2 link was classed B: a backup trip path
+  that does not exist is a protection defect and should have
+  been class A (lab E shows what followed)

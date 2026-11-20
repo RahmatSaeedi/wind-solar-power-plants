@@ -1,0 +1,8 @@
+alerts of the security monitoring in a month (synthetic)
+  1,231 alerts, 41 a day on average
+  if 2 % need action: about 25 a month
+  at 5 min each, reading all of them takes 103 h a month
+  alerts are tuned until most of them mean something:
+  known maintenance is announced to the monitoring, noisy
+  rules are fixed, and every closed alert says why - the
+  same discipline as the plant's alarms (ch 35)

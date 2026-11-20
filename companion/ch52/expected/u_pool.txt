@@ -1,0 +1,5 @@
+inverter spares for 95%: one plant alone needs 3, two plants
+  sharing one pool need 4 (not 6)
+  the pool saves 2 unit(s) - if the plants are close enough
+  that the part arrives in hours, and the pool's owner, stock
+  record and priority rule are written (ch 25 spare pool)

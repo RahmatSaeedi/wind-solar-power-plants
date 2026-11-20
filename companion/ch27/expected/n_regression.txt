@@ -1,0 +1,8 @@
+the plant's share by regression in the midday hours (10-14 h):
+  170 ten-minute values; fit v5^2 = a + (b p)^2
+  background sqrt(a) = 1.00 %; plant b = 8.07 % per 1,000 MW
+  90 % bootstrap interval of b: 7.44 to 8.60
+  at 100 MW the plant's own part: 0.81 % (interval 0.74-0.86)
+  the synthetic truth is 0.80 % at 100 MW: the estimate is
+  close, and the interval says how far one week can be
+  trusted - a range, not a single number, goes in the report

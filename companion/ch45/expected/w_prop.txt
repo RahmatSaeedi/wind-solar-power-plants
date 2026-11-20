@@ -1,0 +1,10 @@
+property tests: 200 runs of 50 random steps each
+  (currents and time steps drawn at random)
+  version   steps    window broken   balance broken (runs)
+  v1.0      10000               0                        0
+  v1.1      10000               0                      200
+  a hand-written case tests what its author thought of; random
+  inputs test what nobody thought of - ten thousand steps in a
+  second, and the invariants decide pass or fail without an
+  expected answer for each step; v1.1's bug fails 200 of
+  200 runs

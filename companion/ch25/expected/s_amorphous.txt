@@ -1,0 +1,8 @@
+amorphous cores for the ten PV unit transformers (teaching):
+  core                  no-load kW   ten units kW   value k u (A 6.84)
+  grain-oriented steel         4.5           45.0                  308
+  amorphous alloy              1.4           14.0                   96
+  saving 212 k u over the life against a price premium the
+  bidders state; amorphous cores are larger and noisier and are
+  offered up to a few MVA - the loss evaluation of lesson A
+  decides, unit by unit, as it did for the main transformer

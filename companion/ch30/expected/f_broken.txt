@@ -1,0 +1,7 @@
+broken-wire case on a suspension tower (teaching)
+  one phase breaks: unbalanced pull 35 kN along the line at 24 m
+  base moment about the line's direction: 840 kN m
+  (with torsion from the offset crossarm)
+  intact towers see no longitudinal load at all; this case
+  (and a cascade stopped by stronger towers every few km)
+  sizes the tower's longitudinal bracing and its foundations

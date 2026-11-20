@@ -1,0 +1,16 @@
+grid information request list (PLP-ELE-LST-0003, draft):
+  no  item                                          why
+   1  load at the grid substation, 15-min, 3 years  peaks, minimum, growth
+   2  transformer and line ratings, normal and N-1  thermal checks
+   3  short-circuit power, max and min, at the POC  equipment duty, SCR
+   4  network model or equivalent at the POC        voltage and stability
+   5  voltage window and reactive requirement       REQ-003, REQ-004
+   6  fault ride-through and protection settings    REQ-005, chapter 27
+   7  other generators and queued projects nearby   hosting, curtailment
+   8  planned reinforcements and their dates        export limits over time
+   9  outage statistics of the line and substation  ch 15 outage hours
+  10  metering, telemetry and dispatch interfaces   REQ-007, REQ-008
+  11  connection costs and who pays which works     boundary, chapter 21
+  12  connection application steps and deadlines    schedule, chapter 38
+  12 items, all to the grid operator (3 also via the code
+  or the buyer); each answer closes an open requirement or unknown

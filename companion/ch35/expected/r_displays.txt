@@ -1,0 +1,11 @@
+the hierarchy of operator displays (teaching)
+  level                                                   displays
+  1 plant overview                                               1
+  2 areas: substation, wind, PV, battery, auxiliaries, met        6
+  3 equipment: 12 turbines, 10 PV blocks, 8 containers,
+    2 transformers, 8 feeders                                   40
+  4 diagnostics: one per equipment type                          8
+  55 displays, each reached from the one above in one click
+  the overview shows the plant's state and what needs action;
+  detail is one level down, never crowded onto the overview,
+  and every value shows its quality and age (lab D)

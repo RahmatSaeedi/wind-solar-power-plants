@@ -1,0 +1,9 @@
+positive coating weight, target 40.0 mg/cm2 +-2% (teaching),
+  60 readings a line
+  line   mean     sd      Cp     Cpk    worst spot N/P margin
+  A       40.08   0.201    1.33    1.20         +3.0%
+  B       40.41   0.354    0.75    0.36         +1.0%
+  line B coats heavy and wide: its Cpk is low and at its
+  +3 sigma spot the electrode balance has little margin left;
+  the coating weight is measured across and along the web
+  and charted - the numbers in the data sheet rest on it

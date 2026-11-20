@@ -1,0 +1,7 @@
+assets per system: WTG 48, PVB 10, INV 10, MET 4, TRF 1, SWG 1, SUB 1, PLT 1,
+    BES 1
+inverters without any test record: ['PLP-INV-04']
+failed tests: [('PLP-WTG-03', 'functional', '2025-06-25')]
+transaction rolled back: CHECK constraint failed: criticality IN ('A','B','C')
+  test records for PLP-INV-04 after the rollback: 0
+backup copy holds 77 assets (sqlite3 backup API)

@@ -1,0 +1,20 @@
+% Chapter 59 - Plant P from the start of the wind campaign to COD as bars from the critical-path
+% calculation (months, teaching A-571); critical tasks dark. Data: diagrams/data/ch59-schedule.csv
+% (companion/ch59/dossier.py, schedule).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=112mm, height=84mm, xbar stacked, bar width=4mm, ymin=0.4, ymax=11.6,
+      xmin=0, xmax=66, y dir=reverse, ytick={1,...,11}, ymajorgrids=false, xlabel={ماه},
+      xtick={0,12,...,60}, area legend, legend columns=1,
+      legend style={at={(0.97,0.97)}, anchor=north east, font=\footnotesize},
+      yticklabels={کارزارِ باد, ارزیابیِ اثرات و مجوزها, درخواست و مطالعهٔ شبکه, بستنِ مالی,
+        ترانسفورماتورهای اصلی, توربین‌ها, کارهای عمرانی, نصبِ خورشیدی, برپاییِ توربین‌ها,
+        پست و خط, راه‌اندازی و آزمون‌ها}]
+    \addplot[draw=none, fill=none, forget plot] table[x=start, y=k, col sep=comma] {data/ch59-schedule.csv};
+    \addplot[draw=cBESS, fill=cBESS!55] table[x=crit, y=k, col sep=comma] {data/ch59-schedule.csv};
+    \addplot[draw=cInkB, fill=cInkB!15] table[x=non, y=k, col sep=comma] {data/ch59-schedule.csv};
+    \legend{مسیرِ بحرانی, دیگر کارها}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

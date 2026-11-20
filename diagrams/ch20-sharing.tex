@@ -1,0 +1,19 @@
+% Chapter 20 - droop lines of grid-forming battery inverters (1 Hz per rated 5 MW): equal setting,
+% one unit set 0.1 Hz high, and after secondary control (+0.2 Hz); island load 4 MW (A-303).
+% Drawn from the formula of companion/ch20/examples_f.py share().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=62mm, xmin=0, xmax=3, ymin=49.5, ymax=50.4,
+      xlabel={توانِ هر واحد (MW)}, ylabel={بسامد (Hz)}, xtick={0,0.5,...,3},
+      ytick={49.5,49.7,49.9,50.1,50.3}, /pgf/number format/fixed, /pgf/number format/precision=1,
+      legend columns=1, legend style={at={(1.03,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[sBESS, domain=0:3, samples=2] {50 - x/5};
+    \addplot[sLoss, domain=0:3, samples=2] {50.1 - x/5};
+    \addplot[sInk, domain=0:3, samples=2] {50.2 - x/5};
+    \addplot[sLimit, domain=0:3, samples=2] {49.8};
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cInk] coordinates {(1,49.8) (1,50) (1.37,49.83) (0.87,49.83)};
+    \legend{تنظیمِ برابر, واحدِ ۱ بالاتر, پس از کنترلِ ثانویه, بسامدِ جزیره}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

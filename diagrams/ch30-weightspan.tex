@@ -1,0 +1,14 @@
+% Chapter 30 - weight span of a suspension tower against how far it sits below both neighbours
+% (spans 300 m, 11.8 N/m, cold tension 35 kN); negative means uplift (data/ch30-weightspan.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=25, ymin=-220, ymax=320,
+      xlabel={پایین‌تر از دو دکلِ همسایه (m)}, ylabel={دهانهٔ وزنی (m)}]
+    \fill[cLoss!10] (axis cs:15.2,-220) rectangle (axis cs:25,0);
+    \addplot[sWind, mark=*, mark size=1.4pt] table[x=drop, y=ws, col sep=comma] {data/ch30-weightspan.csv};
+    \draw[sLimit] (axis cs:0,0) -- (axis cs:25,0);
+    \node[note, anchor=south west] at (axis cs:15.6,-212) {مقره به بالا کشیده می‌شود};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

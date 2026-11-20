@@ -1,0 +1,5 @@
+annual I-V sample: 210 of 4,200 strings (5%); 12 strings degraded
+  chance the sample finds at least one: 46%; expected found 0.6
+  a 5 % sample measures the fleet (a shift in mean power), it
+  does not find rare faults - those come from the combiner
+  currents every day (lesson D) and the thermography flight

@@ -1,0 +1,10 @@
+energy given up to hold upward reserve headroom (one year):
+  headroom MW  lost MWh  lost %   hours with free headroom
+         2       15,990    5.41         48
+         5       38,721   13.09         11
+        10       73,829   24.96          0
+  in hours already curtailed by the limit the headroom costs
+  nothing; elsewhere it spills energy; a battery can hold the
+  same reserve without spilling, at the cost of its state of
+  charge (chapters 19 and 20); reserve is sold only where the
+  rules and the contract allow it

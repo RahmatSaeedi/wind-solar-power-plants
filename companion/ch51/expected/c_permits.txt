@@ -1,0 +1,13 @@
+permits to work in operation, first half-year
+  month  issued  overran  isolation conflicts
+      1      42        2                    0
+      2      38        1                    0
+      3      55        6                    1
+      4      61        4                    0
+      5      47        3                    2
+      6      40        1                    0
+  283 permits, 17 overran (6.0%), 3 isolation conflicts
+  conflicts in months 3, 5; the busiest month (4, 61 permits) had
+  0: conflicts follow two jobs on one isolation point, not
+  volume - the permit office checks isolation points, not only
+  areas (ch 32, ch 50)

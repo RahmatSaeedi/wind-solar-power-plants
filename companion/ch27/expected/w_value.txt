@@ -1,0 +1,11 @@
+a reactive-power service at full export: payment against extra losses
+  (teaching: 0.6 u per Mvar-h paid; losses valued at 70 u/MWh; line only)
+  pf     Q Mvar   paid u/h   extra line loss kW   loss cost u/h   net u/h
+  0.98     20.3       12.2                   20             1.4      10.8
+  0.95     32.9       19.7                   53             3.7      16.0
+  0.90     48.4       29.1                  114             8.0      21.1
+  the line loss alone eats a little of the payment; the
+  transformers' and cables' extra losses (ch 25) and the
+  curtailment on a hot day (lesson B) eat more - a service
+  price is judged against the plant's whole cost of
+  providing it (ch 21), not the line alone

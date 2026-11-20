@@ -1,0 +1,5 @@
+geared generator (A-111): D 0.8 m, L 1.1 m, 6 poles, B1 peak 0.9 T, f 57.75 Hz
+  pole area pi D L / p = 0.4608 m2; flux per pole (2/pi) B1 A = 0.2640 Wb
+  phase EMF 690/sqrt3 = 398.4 V -> N k_w = E / (4.44 f Phi) = 5.89 turns
+  a few series turns per phase: large low-voltage machines use few
+  turns of heavy conductors in several parallel paths

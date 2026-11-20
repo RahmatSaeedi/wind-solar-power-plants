@@ -1,0 +1,6 @@
+voltage THD at the POC from the measured harmonics (teaching, % of U1)
+  h5: 1.83, h7: 0.90, h11: 0.50, h13: 0.40
+  THD_U = sqrt(sum U_h^2) = 2.14 %
+  a total can hide which order is the problem: the 5th holds
+  73% of the sum of squares here; limits and planning levels
+  are given per order as well as in total

@@ -1,0 +1,6 @@
+the data pack's assumption ledger (release 1.1.0): 99 rows
+  status: assumed 85, synthetic 14
+  introduced in: ch01 13, ch02 8, ch03 15, ch04 43, ch05 11, ch06 9
+  measured, vendor or verified: 0
+  a fictional plant ends the book with no measured input in its
+  pack: every row is a place where a real project puts evidence

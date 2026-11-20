@@ -1,0 +1,9 @@
+line-to-line PWM voltage, m 0.9, carrier 51 x 50 Hz = 2550 Hz:
+  2-level: fundamental 0.779 V_dc, THD to h 200 66.3 %
+    largest: h 49 (0.232), h 53 (0.232), h 103 (0.221)
+  3-level: fundamental 0.779 V_dc, THD to h 200 49.4 %
+    largest: h 50 (0.221), h 52 (0.221), h 107 (0.093)
+  the carrier itself (h 51) cancels between phases; the
+  sidebands near 51 and 2 x 51 dominate; three levels halve
+  the voltage steps and cut the distortion by about a quarter
+  at the same carrier frequency

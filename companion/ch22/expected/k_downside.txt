@@ -1,0 +1,11 @@
+downside of each site: energy at which the plant breaks even
+(share of its own P50; debt fixed at close; teaching):
+  site       DSCR 1.00 at   NPV 0 at   lenders' P90 1-yr   P99 1-yr
+  P-North          81.1 %      97.3 %             88.5 %      79.1 %
+  P-Central        86.0 %      97.3 %             93.5 %      88.1 %
+  P-South          84.8 %     104.5 %             91.7 %      84.9 %
+  P-Central keeps paying its lenders in a P99 year; P-North's
+  wider uncertainty puts its P99 year below its DSCR
+  break-even; P-South's NPV is negative even at P50 (break-even
+  above 100 %): resource downside is read against each
+  site's own uncertainty, not against one common percentage

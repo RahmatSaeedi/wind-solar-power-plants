@@ -1,0 +1,13 @@
+maker data each plant discipline needs from the transformer
+  discipline                     status    data
+  civil (ch 29, 30)              given     mass, centre of gravity, anchors
+  fire, bund (ch 25, 32)         given     oil volume, fire load
+  HV and MV connections (ch 24)  given     bushing terminals, allowed loads
+  protection (ch 26)             partial   CT ratio, class, knee point
+  earthing (ch 26)               given     earthing points, neutral rating
+  control, SCADA (ch 34, 35)     given     signals, cooling logic, OLTC
+  logistics (ch 31)              partial   shipping dims, mass, lift points
+  O&M (ch 51, 52)                partial   manuals, spares, FRA/DGA baselines
+  3 of 8 partial: the CT knee points, the shipping
+  dimensions and the LV frequency-response file - each one
+  blocks a design or a site check downstream

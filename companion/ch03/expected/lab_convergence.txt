@@ -1,0 +1,10 @@
+  dt (s)  Euler error    RK4 error
+    1200   3.9319e+00   3.1254e-02
+     600   1.9018e+00   1.4723e-03
+     300   9.2715e-01   8.0012e-05
+     150   4.5737e-01   4.6643e-06
+      75   2.2712e-01   2.8155e-07
+observed order, Euler: 1.05, 1.04, 1.02, 1.01
+observed order, RK4:   4.41, 4.20, 4.10, 4.05
+expected: 1 for Euler, 4 for RK4; the work per step of RK4 is 4 times
+    Euler's, but for 1e-6 K accuracy it needs far fewer steps

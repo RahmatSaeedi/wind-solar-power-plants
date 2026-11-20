@@ -1,0 +1,12 @@
+a lost link to the grid operator, step by step (teaching timings)
+  t s     mode
+       0  link healthy, set points every 4 s
+     100  link lost
+     110  set point stale: hold last value, alarm
+    3700  1 h without link: fallback schedule (ch 20)
+    5500  link back: wait for a fresh set point
+    5504  fresh set point accepted, normal mode
+  the plant never invents a set point: it holds, then
+  follows a pre-agreed fallback, and returns only on a
+  fresh, valid message - each mode change is time-stamped
+  and sent to the operator when the link returns

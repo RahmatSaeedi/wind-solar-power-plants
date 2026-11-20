@@ -1,0 +1,13 @@
+what the plant does on the loss of each supply (teaching design intent)
+  loss                         behaviour
+  station-service AC lost      UPS and DC carry; diesel starts
+  one charger fails            second charger carries; alarm
+  both chargers fail           battery carries; autonomy clock
+  UPS fails (bypass on)        PPC and SCADA on raw AC; alarm
+  110 V DC lost                protection blind: plant tripped
+  24 V DC lost                 PLC outputs off: stops, no permits
+  network lost                 PPC holds, then falls back (ch 20)
+  every row is a written intent with a test (lesson E,
+  tests); the one row the design avoids is a plant running
+  without protection - loss of all DC trips it on purpose,
+  and the second battery or charger makes that rare

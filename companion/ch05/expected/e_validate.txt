@@ -1,0 +1,7 @@
+register rev B: 80 records, 6 issue(s):
+  PLP-INV-07: duplicate tag
+  PLP-SWG-01: criticality 'a' is not A, B or C
+  PLP-MET-01-HYG: commissioned component without a serial number
+  PLP-WTG-07-GEN: commissioned 2025-03-15 is before installed 2026-03-10
+  PLP-PVB-03: Arabic letter form in the Persian description
+  PLP-WTG-13-GEN: parent PLP-WTG-13 not in the register

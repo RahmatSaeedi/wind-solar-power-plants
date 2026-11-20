@@ -1,0 +1,17 @@
+% Chapter 4 laboratory 3 — main busbar temperature on the day of its hottest hour: hour-by-hour
+% steady state (steps) and the RK4 transient. Data: diagrams/data/ch04-lab3.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=62mm,
+      xlabel={ساعتِ روز}, ylabel={دمای شینه (درجهٔ سلسیوس)},
+      xmin=0, xmax=24, ymin=30, ymax=115, xtick={0,3,...,24}, ytick={40,60,...,100}]
+    \addplot[sLoss] table[x=h, y=steady, col sep=comma] {data/ch04-lab3.csv};
+    \addlegendentry{حالتِ پایای ساعت به ساعت}
+    \addplot[sInk] table[x=h, y=transient, col sep=comma] {data/ch04-lab3.csv};
+    \addlegendentry{پاسخِ گذرا}
+    \addplot[sLimit, domain=0:24, samples=2] {90};
+    \addlegendentry{حدِ فرضی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+a failed step followed to its disposition (C04, insulation)
+  1. isolate S06, S16 at the combiner (lock, tag, record)
+  2. repeat S13's test: a missing record is a test not done
+  3. locate the fault section by section (approved method)
+  4. repair: replace the damaged cable or connector; record what
+  5. retest; record the new value with the instrument's number
+  6. close the punch item and update the string record
+  7. update the asset data (lesson I); then C05 may start
+  the disposition is written in the pack before the test, so
+  a failure is handled the same way late on the last working
+  day of the week as on the first morning

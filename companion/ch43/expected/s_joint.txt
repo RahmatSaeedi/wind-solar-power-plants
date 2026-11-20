@@ -1,0 +1,8 @@
+brazed lead joint in the LV delta at 636 A (teaching):
+  good joint 2 uOhm: 0.8 W; poor joint 50 uOhm: 20 W in a few cm3
+  the poor joint raises the phase resistance by 0.057%
+  - inside the scatter of the resistance test between phases
+  twenty watts in one spot heats the oil and the paper there:
+  gases (ethylene, then more) and thermography find what the
+  resistance test cannot; the joint record (brazing, crimp,
+  bolt torque) is the control that prevents it

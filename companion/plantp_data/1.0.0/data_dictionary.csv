@@ -1,0 +1,14 @@
+file,column,unit,description,valid_range,status
+timeseries/plantp_hourly_8760.csv,timestamp,ISO 8601,start of the hour in local standard time with fixed offset +04:00,2023-01-01T00:00:00+04:00 to 2023-12-31T23:00:00+04:00,synthetic
+timeseries/plantp_hourly_8760.csv,ghi_wm2,W/m2,global horizontal irradiance; mean over the hour,0 to 1200,synthetic
+timeseries/plantp_hourly_8760.csv,dni_wm2,W/m2,direct normal irradiance; mean over the hour,0 to 1050,synthetic
+timeseries/plantp_hourly_8760.csv,dhi_wm2,W/m2,diffuse horizontal irradiance; mean over the hour,0 to 700,synthetic
+timeseries/plantp_hourly_8760.csv,t_air_c,degC,air temperature at 2 m; mean over the hour,-25 to 50,synthetic
+timeseries/plantp_hourly_8760.csv,ws_100m_ms,m/s,wind speed at 100 m (hub height); mean over the hour,0 to 45,synthetic
+timeseries/plantp_hourly_8760.csv,ws_80m_ms,m/s,wind speed at 80 m; mean over the hour,0 to 45,synthetic
+timeseries/plantp_hourly_8760.csv,ws_60m_ms,m/s,wind speed at 60 m; mean over the hour,0 to 45,synthetic
+timeseries/plantp_hourly_8760.csv,wd_100m_deg,deg,wind direction at 100 m; direction the wind blows FROM; 0 = north; clockwise,0 to 359,synthetic
+timeseries/plantp_hourly_8760.csv,p_hpa,hPa,station air pressure,840 to 920,synthetic
+timeseries/plantp_hourly_8760.csv,qc_flag,-,quality flag: 0 valid; 1 gap-filled; 2 suspect (all 0 in this clean release),0 to 2,synthetic
+equipment/wind_turbine_WT-5.0-150_power_curve.csv,wind_speed_ms,m/s,hub-height wind speed at the centre of a 0.5 m/s bin,0 to 30,synthetic
+equipment/wind_turbine_WT-5.0-150_power_curve.csv,power_kw,kW,electrical power at air density 1.225 kg/m3,0 to 5000,synthetic

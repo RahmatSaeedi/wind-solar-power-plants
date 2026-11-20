@@ -1,0 +1,13 @@
+wake loss of two rows of six against the row spacing (4D along
+  the row, rows across the prevailing wind, flat ground):
+  rows apart    wake loss   farm GWh
+    3 D         11.62 %     181.77
+    4 D         10.21 %     184.67
+    5 D          8.70 %     187.79
+    6 D          7.49 %     190.27
+    8 D          6.75 %     191.78
+   10 D          5.19 %     194.99
+  the loss falls with spacing, quickly at first and then slowly;
+  land, cable and road grow with it: the choice is an optimum,
+  not a rule (with 10 deg direction bins this top-hat model
+  jumps up and down: the result must not depend on the bins)

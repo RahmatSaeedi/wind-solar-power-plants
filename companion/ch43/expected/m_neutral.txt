@@ -1,0 +1,9 @@
+single-phase fault on the 132 kV terminals (grid 1500 MVA; teaching:
+  Z0 = 1.2 Z1 for the grid, 0.9 Z1 for the YNd transformer)
+  ohm: grid Z1 11.6, Z0 13.9; transformer Z1 34.8, Z0 31.4
+  fault current with the neutral earthed 6.95 kA; with it open 6.15 kA
+  current in the transformer neutral 2.14 kA
+  the earthed star with a delta behind it is a source of
+  zero-sequence current even with the plant off: the 132 kV
+  earth-fault level and the neutral's conductor, CT and
+  bushing are sized with it (ch 26)

@@ -1,0 +1,11 @@
+two voltage controllers in series (POC set-point 1.00; terminals 1.5 % above)
+  unit mode     plant Mvar   local Mvar   V POC    V terminal
+  off                  7.5          0.0    1.000        1.022
+  droop                8.4         -0.9    1.000        1.022
+  integral            46.0        -46.0    0.995        1.010
+  with the units following the plant set-point the POC sits
+  at 1.00; a local droop leaves a small offset the plant's
+  integrator removes; a second integrator chasing 1.00 at the
+  terminals fights the first: both wind up to opposite
+  limits, the net Mvar is whatever is left - one integrator
+  per controlled quantity, and the study checks the modes

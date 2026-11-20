@@ -1,0 +1,9 @@
+a 132 kV bay: air, gas or hybrid (indices against AIS, teaching):
+  option                         area   cost   outage h/maint   SF6 index
+  air-insulated (AIS)             1.00   1.00             12.0         0.0
+  gas-insulated (GIS)             0.25   1.45              4.0         1.0
+  hybrid (gas breaker, air bus)   0.55   1.20              6.0         0.4
+  gas insulation buys space and shorter outages for money and
+  gas; air is cheap where land is cheap - at Plant P's open
+  site AIS is the teaching basis (D-029), GIS where a town or
+  pollution presses; SF6-free gas bays change the last column

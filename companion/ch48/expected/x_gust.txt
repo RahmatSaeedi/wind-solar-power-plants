@@ -1,0 +1,7 @@
+tracker stow on wind: trigger 18 m/s, ten minutes of 1-second wind (synthetic)
+  3-second gust above the trigger: 1 event, first at t = 421 s, peak 19.1 m/s
+  one-minute means: highest 13.5 m/s - never above the trigger
+  a controller that reads the logger's one-minute mean never
+  stows; the stow input is the gust the drive's torque was
+  checked against (ch 47 stow), and the averaging time is a
+  line in the instrument specification, tested at the FAT

@@ -1,0 +1,8 @@
+marking the 33 kV cable routes (teaching spacing):
+  route length 21.6 km (all feeders), 60 bends, 12 crossings
+  marker posts every 50 m, at each bend and both sides of a crossing: 516
+  warning tape: 22.7 km; cable labels at both ends: 52
+  labels also at every joint, manhole and entry into a
+  building; each label carries the tag of lesson D's schedule
+  the markers are what a digger sees in ten years' time; the
+  as-built survey with coordinates is what the office sees

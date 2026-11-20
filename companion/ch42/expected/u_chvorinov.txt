@@ -1,0 +1,10 @@
+solidification time of hub sections, t = B (V/A)^2 (teaching B)
+  section            modulus V/A m   time min
+  flange (200 mm)            0.100        300
+  body (120 mm)              0.060        108
+  web (60 mm)                0.030         27
+  the flange freezes last (11 x the web): the metal that
+  shrinks there must be fed;
+  a feeder with modulus 0.120 m freezes after it (432 min); without
+  one, shrinkage porosity collects in the flange - exactly
+  the zone with the tightest limit (lesson B, casting)

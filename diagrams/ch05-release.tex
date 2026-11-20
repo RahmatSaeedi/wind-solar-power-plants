@@ -1,0 +1,27 @@
+% Chapter 5 - Plant P Reference Data Pack 1.0.0 -> 1.1.0: identical, changed and added files
+% (companion/ch05/expected/f_release.txt); a minor release because nothing changed meaning.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{fl/.style={draw=cInkB, fill=cFill, minimum width=50mm, minimum height=5.2mm, font=\ttfamily\scriptsize, text=cInk, inner sep=1pt}}
+  \node[font=\bfseries, text=cInk] at (-4.2,0.6) {\texttt{1.0.0}};
+  \node[font=\bfseries, text=cInk] at (4.2,0.6) {\texttt{1.1.0}};
+  \foreach \i/\f in {0/{timeseries/*.csv}, 1/{equipment/*}, 2/{scenarios/*.yml}, 3/{seed\_ratings.csv}} {
+    \node[fl, fill=cBESS!12] at (-4.2,-0.6*\i) {\f};
+    \node[fl, fill=cBESS!12] at (4.2,-0.6*\i) {\f};
+    \draw[cBESS, line width=0.8pt] (-1.65,-0.6*\i) -- (1.65,-0.6*\i);
+  }
+  \node[note, fill=white, inner sep=1pt, text width=30mm] at (0,-0.9) {یکسان، همان \texttt{SHA-256}};
+  \foreach \i/\f in {4/CHANGELOG.md, 5/README.md, 6/assumptions.csv, 7/data\_dictionary.csv, 8/expected\_results.json} {
+    \node[fl] at (-4.2,-0.6*\i) {\f};
+    \node[fl, fill=cPV!14] at (4.2,-0.6*\i) {\f};
+    \draw[cPV, line width=0.8pt, densely dashed] (-1.65,-0.6*\i) -- (1.65,-0.6*\i);
+  }
+  \node[note, fill=white, inner sep=1pt, text width=30mm] at (0,-3.6) {افزوده یا روزآمد؛ معنای قبلی دست‌نخورده};
+  \foreach \i/\f in {9/{raw/met\_mast\_10min\_raw.csv}, 10/{raw/met\_mast\_defects\_key.csv}, 11/{raw/pv\_scada\_export.csv}, 12/{assets/asset\_register\_rev\_A.csv}, 13/{assets/asset\_register\_rev\_B.csv}, 14/{assets/change\_notice.csv}} {
+    \node[fl, fill=cWind!14] at (4.2,-0.6*\i) {\f};
+  }
+  \node[note, anchor=east, align=center] at (1.4,-6.9) {پرونده‌های تازه\\(کارگاه‌های فصلِ ۵)};
+  \node[note, anchor=north, text width=120mm] at (0,-8.7) {فقط افزوده شده و هیچ معنایی عوض نشده، پس انتشارِ «فرعی» است. نتیجه‌های فصل‌های ۱ تا ۴ و ۶ با \texttt{1.0.0} معتبر می‌مانند؛ از این فصل به بعد \texttt{1.1.0} ذکر می‌شود. \texttt{manifest.json} هر دو نسخه هش‌ها را نگه می‌دارد.};
+\end{tikzpicture}}
+\end{document}

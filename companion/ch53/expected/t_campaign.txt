@@ -1,0 +1,4 @@
+12 turbines down, 3 crane days each, lifts below 10 m/s (ch 31 teaching limit)
+  share of working hours below the limit in the data year: 83%
+  about 44 calendar working days for the crane - the season is
+  chosen with the wind (ch 31), and the PV keeps exporting

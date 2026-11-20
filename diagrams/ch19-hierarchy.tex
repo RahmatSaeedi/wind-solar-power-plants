@@ -1,0 +1,25 @@
+% Chapter 19 - the S1 battery from cell to system (flows right to left): cell, module (1P52S), rack
+% (8 modules in series), container (12 racks in parallel), system (8 containers, 4 PCS), with the
+% voltage and energy of each level (companion/ch19/examples_b.py, A-290).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, draw=cBESS, fill=cBESS!10, minimum width=24mm, minimum height=14mm, align=center,
+              text width=23mm},
+    n/.style={note, text width=26mm}]
+  \node[b] (c) at (13.2,0) {سلول\\LFP $314\,\text{Ah}$};
+  \node[b] (m) at (9.9,0) {ماژول\\۵۲ سلولِ سری};
+  \node[b] (r) at (6.6,0) {رک\\۸ ماژولِ سری};
+  \node[b] (k) at (3.3,0) {کانتینر\\۱۲ رکِ موازی};
+  \node[b] (s) at (0,0) {سامانه\\۸ کانتینر، ۴ مبدل};
+  \draw[flow] (c.west) -- (m.east);
+  \draw[flow] (m.west) -- (r.east);
+  \draw[flow] (r.west) -- (k.east);
+  \draw[flow] (k.west) -- (s.east);
+  \node[n] at (13.2,-1.25) {$3.2\,\text{V}$\\$1.005\,\text{kWh}$};
+  \node[n] at (9.9,-1.25) {$166.4\,\text{V}$\\$52.2\,\text{kWh}$};
+  \node[n] at (6.6,-1.25) {$1{,}040$ تا $1{,}498\,\text{V}$\\$418\,\text{kWh}$};
+  \node[n] at (3.3,-1.25) {$5.02\,\text{MWh}$};
+  \node[n] at (0,-1.25) {$40.13\,\text{MWh}$\\$20\,\text{MW}$};
+\end{tikzpicture}
+\end{document}

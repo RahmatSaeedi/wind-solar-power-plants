@@ -1,0 +1,8 @@
+bushing insulation between a 20 mm conductor and an 80 mm flange,
+  76.2 kV phase (teaching)
+  ungraded (one cylinder): field at the conductor 2.75 kV/mm
+  mean field 1.27 kV/mm; 10 condenser layers sharing the voltage: 1.27
+  the bare cylinder crowds the field at the conductor; foil
+  layers of chosen lengths divide the voltage evenly - the
+  capacitance and dissipation factor the factory records
+  (ch 25, bushings) are the fingerprint of those layers

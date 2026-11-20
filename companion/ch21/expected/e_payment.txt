@@ -1,0 +1,16 @@
+payment security against a buyer that pays late (year 3):
+  monthly revenue 1,767 k u; debt service of the year 11,891
+  letter of credit for 3 months of revenue: 5,301 k u,
+  fee 1.5 % a year = 80 k u
+  DSRA 5,757 k u = 5.8 months of service
+  months late   unpaid revenue   service due   from LC   from DSRA   short
+            2            3,534         1,982     1,982           0       0
+            4            7,068         3,964     3,964           0       0
+            6           10,602         5,945     5,301         644       0
+            9           15,903         8,918     5,301       3,617       0
+           12           21,204        11,891     5,301       5,757     833
+  (the debt service falling due while the buyer does not pay is
+  paid first from the LC, then from the DSRA)
+  the LC carries a short delay at a small cost, the DSRA a
+  longer one; beyond both, the lenders' remedies start: buyer
+  credit and payment security are diligence items (section G)

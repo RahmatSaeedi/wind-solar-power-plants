@@ -1,0 +1,10 @@
+gate entries in 7 days against induction records
+  O&M staff               420 entries,  420 inducted
+  maker's technicians      64 entries,   58 inducted
+  contractor (washing)     96 entries,   80 inducted
+  visitors (escorted)      22 entries,   22 inducted
+  delivery drivers         35 entries,   35 inducted
+  22 entries without an induction record: the washing
+  contractor's new crew (16) and maker's technicians (6) -
+  the gate checks the record, not the company badge (who may
+  enter is a safety record)

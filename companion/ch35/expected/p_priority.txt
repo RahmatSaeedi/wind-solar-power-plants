@@ -1,0 +1,7 @@
+a control message behind a back-fill burst of 1,000 frames
+  one queue for all: it waits up to 120 ms
+  control traffic in a higher priority queue: at most one frame, 0.12 ms
+  the switch ports carry priority classes: protection and
+  control first, SCADA next, back-fill and file transfer
+  last; a burst then fills the spare capacity, not the time
+  budget of the control loop (ch 34)

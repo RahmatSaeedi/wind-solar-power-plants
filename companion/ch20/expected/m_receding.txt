@@ -1,0 +1,12 @@
+receding-horizon dispatch: look-ahead length (8,736 hours):
+  look-ahead h   battery adds k u
+             2                165
+             4                383
+             8                465
+            12                468
+            24                468
+  a plan that sees only a few hours sells the battery too
+  early (it must end empty); with prices that change between
+  morning, midday and evening a look-ahead of about half a day
+  captures almost all the value; re-planning every hour lets
+  each plan use the latest energy and forecast

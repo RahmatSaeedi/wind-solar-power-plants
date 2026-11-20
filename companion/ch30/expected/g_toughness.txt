@@ -1,0 +1,13 @@
+steel toughness against the coldest steel temperature (teaching rule:
+  test temperature at or below the lowest service temperature, and
+  10 K lower for thick welded plates)
+  lowest air temperature of the data-pack year: -8.6 C
+  design value with the margin: -19 C
+  S355 with toughness tested at +20 C    not enough
+  tested at 0 C                          not enough
+  tested at -20 C                        ok
+  tested at -40 C                        ok
+  a desert site still freezes: the tower plates are ordered
+  with toughness proven at -20 C; the grade, the test and
+  the plate thickness are on the mill certificate the
+  traveler checks at plate receipt (lab E)

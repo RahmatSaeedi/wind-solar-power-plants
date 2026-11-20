@@ -1,0 +1,30 @@
+% Chapter 3 — rotating turbine coordinates into the wind frame: wind from 163 deg (blowing to
+% 343 deg); second turbine 600 m east, 1100 m north of the first (assumed).
+% Values: companion/ch03/expected/m_rotation.txt. Scale 1 km = 4 cm.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize, x=4cm, y=4cm]
+  % east-north axes
+  \draw[cMuted, -{Stealth[length=1.6mm]}] (-0.2,0) -- (1.0,0) node[anchor=west, text=cInkB] {شرق};
+  \draw[cMuted, -{Stealth[length=1.6mm]}] (0,-0.2) -- (0,1.35) node[anchor=south, text=cInkB] {شمال};
+  % turbines
+  \node[circle, fill=cWind, inner sep=2.2pt] (t1) at (0,0) {};
+  \node[circle, fill=cWind, inner sep=2.2pt] (t2) at (0.6,1.1) {};
+  \node[anchor=north east, text=cInk] at (t1) {توربینِ ۱};
+  \node[anchor=south west, text=cInk] at (t2) {توربینِ ۲};
+  % downwind axis (to 343 deg): (-0.2924, 0.9563)
+  \draw[cLoss, line width=1pt, -{Stealth[length=2.2mm]}] (0,0) -- (-0.2924*1.25,0.9563*1.25)
+     node[anchor=south, text=cInk] {محورِ پایین‌دست (به سوی $343^\circ$)};
+  % crosswind axis (perpendicular, to 73 deg)
+  \draw[cLoad, line width=1pt, -{Stealth[length=2.2mm]}] (0,0) -- (0.9563*1.0,0.2924*1.0)
+     node[anchor=west, text=cInk] {محورِ عرضی};
+  % projections of t2
+  \draw[cInkB, densely dashed] (0.6,1.1) -- (-0.2924*0.877,0.9563*0.877);
+  \draw[cInkB, densely dashed] (0.6,1.1) -- (0.9563*0.895,0.2924*0.895);
+  \node[text=cInk, anchor=east, align=right] at (-0.2924*0.877-0.02,0.9563*0.877) {$877\ \text{m} = 5.8D$};
+  \node[text=cInk, anchor=north west] at (0.9563*0.895,0.2924*0.895-0.02) {$895\ \text{m} = 6.0D$};
+  % wind arrow
+  \draw[cWind, line width=1.4pt, -{Stealth[length=2.6mm]}] (0.35,-0.25) -- ++(-0.2924*0.3,0.9563*0.3);
+  \node[text=cInk, anchor=north] at (0.35,-0.25) {باد از $163^\circ$};
+\end{tikzpicture}}
+\end{document}

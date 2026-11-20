@@ -1,0 +1,15 @@
+export 100 MW at the POC; every unit at 4.55 MW (91 % of rating)
+teaching target pf 0.95 at the POC (A-108): |Q| = 32.9 Mvar
+reactive power, Mvar (+ = supplied towards the grid, generator convention):
+  cable charging (sec. A)        +1.79
+  feeder series reactance        -1.52
+  unit transformers              -4.96
+  export transformer            -11.44
+  sum of the passive parts      -16.12
+to supply 32.9 Mvar at the POC the units must supply 49.0 Mvar
+to absorb 32.9 Mvar at the POC the units must absorb 16.7 Mvar
+units available at 4.55 MW: PV inverters 10 x 3.10 = 31.0,
+  turbines 12 x 2.65 = 31.8
+  total 62.8 Mvar; margin for the supplying case 13.8 Mvar
+limits: one operating point, voltages held at 1.0 pu, feeder current as if
+  lumped at the far end (conservative); a load flow decides (chapter 28)

@@ -1,0 +1,14 @@
+feeder currents at full output against the provisional ratings:
+  feeder   MW    A at 33 kV  cable 410 A  breaker 630 A
+  WS1       20          368         90%           58%
+  WS2       20          368         90%           58%
+  PVF3      15          276         67%           44%
+  BESS-A    10          184         45%           29%
+  WS3       20          368         90%           58%
+  PVF1      20          368         90%           58%
+  PVF2      15          276         67%           44%
+  BESS-B    10          184         45%           29%
+  the heaviest feeder uses 90% of the 240 mm2 cable at full
+  output and pf 0.95 before any derating; installation
+  derating (depth, grouping, soil) is chapter 24's work and
+  may push the first section to a larger size

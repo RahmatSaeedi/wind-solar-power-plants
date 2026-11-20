@@ -1,0 +1,13 @@
+owner's exposure on the U-A order: paid minus value built
+  milestones:
+    week  0   10%  order (advance)
+    week  8   30%  drawings approved
+    week 26   40%  FAT passed
+    week 32   20%  delivered to site
+  peak exposure 290 k u in week 8 (just
+  after drawings are approved, before the core is built)
+  with an advance-payment guarantee of 10 % until FAT, the
+  uncovered peak is 174 k u in week 8
+  milestones paid ahead of value create exposure; securities
+  and milestone design reduce it - the instruments' wording
+  is for the lawyers and the banks (concept only)

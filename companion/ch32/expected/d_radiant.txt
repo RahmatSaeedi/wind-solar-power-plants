@@ -1,0 +1,13 @@
+radiant heat from an oil-pool fire: a point-source screen
+  bund 140 m2 (equivalent diameter 13.4 m), heat release 251 MW, radiant 30 %
+  distance m   flux kW/m2
+          10         60.0
+          15         26.6
+          20         15.0
+          30          6.7
+          40          3.7
+  12.5 kW/m2 (a common screening level) is reached at 22 m
+  = 1.6 pool diameters - where a point source is
+  least reliable. Separations and fire walls come from the
+  standard and the fire engineer's flame model (ch 25,
+  STD-123); the screen only shows why they are tens of metres

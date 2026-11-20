@@ -1,0 +1,11 @@
+events that reopen the study (teaching register)
+  event                              change             rerun
+  a new plant beside the POC (50 MW) WSCR 5.8 -> 4.9    E, B-locus
+  grid strength falls 20 %           SCR 15 -> 12       B-sc, C-vcontrol
+  unit firmware changed              k 2.0 -> 2.5       C-frt, F-versions
+  line re-conductored                R -30 %            B-losses, G-line
+  battery added (S0 -> S1)           +20 MVA            B, C, F all
+  code revised by the operator       U-102              matrix, all
+  the study is a living record: each trigger names the
+  studies to rerun and the matrix rows to reopen; the plant's
+  change control (ch 38) asks the question for every change

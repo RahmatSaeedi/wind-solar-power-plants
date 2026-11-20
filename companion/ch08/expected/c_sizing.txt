@@ -1,0 +1,7 @@
+conceptual size from torque, T = 2 sigma V_r, V_r = pi D^2 L / 4 (A-112):
+  geared 1:110  T      44 kN m: V_r  0.55 m3; L/D 1.4: D 0.79 m, L 1.11 m
+  geared 1:40   T     121 kN m: V_r  1.51 m3; L/D 1.0: D 1.24 m, L 1.24 m
+  direct drive  T    4838 kN m: V_r 60.48 m3; L/D 0.2: D 7.27 m, L 1.45 m
+  the 0.8 m x 1.1 m of A-111 sits close to the geared result;
+  shear stress, cooling and the gap set the real numbers: a
+  machine designer's task (C.6)

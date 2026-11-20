@@ -1,0 +1,8 @@
+visual inspection of crimps: do the inspectors agree?
+  40 crimps, 12 bad by the cross-section reference
+  inspector A vs reference: kappa 0.94
+  inspector B vs reference: kappa 0.74 (passes 4 bad ones)
+  A vs B: kappa 0.68
+  a common guide reads kappa above 0.75 as good agreement;
+  B's misses are all borderline crimps - the boundary
+  samples and the reference photos go to the workstation

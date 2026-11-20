@@ -1,0 +1,24 @@
+D-051 civil, structural and tracker manufacturing and acceptance basis
+  1 every plate's certificate checked against the order (grade,
+    thickness, impact temperature and each value, CEV) before
+    cutting; plate-to-can marks kept to the section
+  2 weld log checked against welder qualifications on the weld
+    dates; NDT coverage against the plan by weld category
+  3 sections released only with a complete dossier; NCRs owned
+    and dated; release note last
+  4 tracker tubes surveyed for straightness; drive end-of-line
+    records complete; zinc by lot (mean and each reading)
+  5 bar bending schedules validated before cutting; delivery
+    tickets checked at the gate; strength conformity by pour
+  6 anchor cage levelled before and after the pour; post rows
+    surveyed and split into systematic and random offsets
+  7 every decision on a nonconforming item taken by the named
+    responsible person - licensed engineers for structure and
+    ground - and filed with the record
+  8 later findings: sections weighed and their mass sent to
+    logistics (section 1 needs 16 axles) and to the frequency
+    check; certificates of the specific kind; one bolt lot a
+    flange; embedded items a hold point; 7-day strengths as a
+    warning; holds booked ahead; tower lines 63 days ahead
+  open: fabricator's qualification records and the geotechnical
+    report's final values (U-128)

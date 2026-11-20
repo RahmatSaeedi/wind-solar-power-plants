@@ -1,0 +1,59 @@
+name: deploy-book
+
+# Publishes the committed, locally built book (_book/) to GitHub Pages.
+#
+# This book does not render on CI: the whole-book render takes about 7 hours
+# (5,600+ PDF pages), longer than a GitHub-hosted job may run. The editions are
+# built and checked locally with `python tools/build_all.py` (HTML, PDF, EPUB,
+# Kindle EPUB, epubcheck, Kindle audit; see docs/BUILD.md), then _book/ is
+# committed. This workflow only uploads that folder as the Pages site, so the
+# website at https://rahmatsaeedi.github.io/wind-solar-power-plants/ always
+# matches the committed build. The PDF and EPUB files in _book/ are served at
+# the site's root as well.
+#
+# One-time setting in the repository: Settings -> Pages -> Source: GitHub Actions.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_book/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check the committed build is there
+        run: |
+          test -f _book/index.html || { echo "::error:: _book/index.html missing: build locally and commit _book/"; exit 1; }
+          echo "site files: $(find _book -type f | wc -l), size: $(du -sh _book | cut -f1)"
+          ls -la _book/*.pdf _book/*.epub
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _book
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

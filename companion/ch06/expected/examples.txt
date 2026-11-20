@@ -1,0 +1,65 @@
+E01 charge in 1 h at 13.11 A: Q = 47,196 C; electrons = Q/e = 2.946e+23
+E02 drift speed, 13.11 A in 4 mm2 copper: v = I/(n e A) = 2.409e-04 m/s =
+    0.241 mm/s; time to cross 1 m = 1.15 h
+E03 energy to move 47,196 C through 1091.0 V: W = QV = 51.49 MJ = 14.30 kWh (=
+    one hour of a 14.30 kW string)
+E05 100 m of 4 mm2 copper at 20 C: R = 0.430 ohm; same in aluminium: 0.705 ohm
+E06 equal resistance: A_Al/A_Cu = 1.640; mass_Al/mass_Cu = 1.640 x 2.7/8.96 =
+    0.494
+E08 string power at STC: 1091.0 V x 13.11 A = 14.30 kW
+E09 3 A in 4 ohm: P = 36 W; at 6 A: 144 W
+E11 parallel 4, 6, 12 ohm = 2.000 ohm; series = 22 ohm; divider 12 V over 4 +
+    8 ohm -> 8.00 V across 8 ohm
+E12 combiner busbar: 24 x 13.11 A = 314.64 A
+E13 node voltage V_x = 80/13 = 6.1538 V; I1 = 1.9231 A, I3 = -0.3846 A, I2 =
+    1.5385 A; KCL I1 + I3 - I2 = 6.7e-16
+E14 Thevenin: V_th = 6.000 V, R_th = 2.0000 ohm; with 4 ohm load: I = 1.000 A,
+    V = 4.000 V
+E14 check on the full circuit with the 4 ohm load: V = 4.000 V
+E15 R_L = 2 ohm: I = 1.500 A, P_load = 4.500 W, efficiency = 0.50
+E15 R_L = 18 ohm: I = 0.300 A, P_load = 1.620 W, efficiency = 0.90
+E16 battery: R_s = (12.6 - 11.9)/50 = 14 mOhm; terminal voltage at 200 A =
+    9.80 V
+E17 string into 80 ohm: V = 1040.8 V, I = 13.01 A, P = 13.54 kW
+E17 string into 40 ohm: V = 558.9 V, I = 13.97 A, P = 7.81 kW
+E17 model maximum power: 13.56 kW at 1058 V (datasheet 26 x 550 W = 14.30 kW);
+    best resistor = 82.6 ohm
+E18 feeder: loop R = 0.04741 ohm; drop = 14.92 V (1.37 %); loss = 4694 W
+E19 1 % drop needs 328.2 mm2 Al -> 400 mm2; copper needs 199.6 mm2 -> 240 mm2
+E20 240 mm2 Al: energy through feeder 568,031 kWh/yr, lost 4,215 kWh/yr = 0.74
+    % (peak-hour loss fraction 1.37 %)
+E20 400 mm2 Al: energy through feeder 568,031 kWh/yr, lost 2,529 kWh/yr = 0.45
+    % (peak-hour loss fraction 0.82 %)
+E20 data: Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS);
+    assumptions: I proportional to GHI, PR_dc = 0.85, conductor at 50 C all
+    year (conservative)
+E21 4 mm2 Cu: R20 = 4.30 mOhm/m; R_th = 1/(h pi d) = 1/(10.0 x pi x 0.006) =
+    5.31 K m/W
+E21 I = 14 A, T_a = 30 C: one-step estimate 34.6 C, exact 34.7 C
+E21 I = 40 A, T_a = 30 C: one-step estimate 67.9 C, exact 74.3 C
+E21 I = 60 A, T_a = 50 C: one-step estimate 141.8 C, exact 185.6 C
+E22 runaway current of the linear model: I_c = 1/sqrt(R20 alpha R_th) = 105.6
+    A
+E23 voltmeter loading: 10 MOhm -> 5.714 V; 1 MOhm -> 4.000 V; true 6.000 V
+E24 meter +-(0.5 % + 2 digits), 1 V resolution, reading 1076 V: +-7.4 V;
+    difference of two such readings: +-14.8 V vs a drop of 14.9 V
+E25 ammeter burden: 1.5 V into 1 ohm: ideal 1.50 A; with 0.1 ohm meter 1.364 A
+E26 backfeed into one faulted string from the other 23: 23 x 13.98 = 321.5 A
+    vs module maximum series fuse 25 A
+E26 two strings in parallel: backfeed = 1 x 13.98 = 13.98 A (below 25 A)
+E26 three strings: backfeed = 2 x 13.98 = 27.96 A (above 25 A)
+E28 V_oc per module at -20 C = 49.9 x (1 + -0.0027 x (-20 - 25)) = 55.9628 V;
+    max modules for 1500 V = 26
+E28 V_oc per module at -10 C = 49.9 x (1 + -0.0027 x (-10 - 25)) = 54.6155 V;
+    max modules for 1500 V = 27
+E29 V_mp of 26 modules at 70 C (V_oc coefficient used as an approximation) =
+    958.4 V
+E30 fuse lower bound with an assumed factor 1.5: 1.5 x 13.98 = 20.97 A -> 25 A
+    fuse (<= module maximum series fuse 25 A)
+E31 connector contact 0.5 mOhm at 13.11 A: 0.086 W
+E31 connector contact 20.0 mOhm at 13.11 A: 3.437 W
+E32 strings = ceil(60 MWp / (26 x 550 W)) = 4196; modules = 109,096; DC
+    capacity = 60.003 MWp; combiner boxes = ceil(4196/24) = 175
+E31 connector pairs in the array (26 + 1 per string) ~ 113,292; 0.1 % degraded
+    = 113
+E32 if every combiner feeder were like E18: 175 x 4.69 kW = 821 kW at STC

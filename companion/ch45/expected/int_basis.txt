@@ -1,0 +1,21 @@
+D-049 battery manufacturing and evidence basis
+  1 coating weight, dry-room dew point, formation and rest
+    records of the cell maker delivered with each lot
+  2 every cell graded (capacity, resistance, K-value) and
+    matched; bins and IDs recorded per module
+  3 every weld's resistance measured and kept; torque and
+    insulation of each module and rack recorded
+  4 BMS limits checked against the cell data with margins;
+    the configuration fingerprinted at factory and site
+  5 OCV spread after a rest at site acceptance; balancing
+    duty by module exported to monitoring
+  6 transport SOC, isolation by division, replacement modules
+    brought to the rack's SOC; take-back route in the contract
+  7 later findings: lot files checked before use; lots kept
+    together; BMS rules for alarm-before-trip; a site rest check
+    sees strong leakers only (weeks), the duty signal the weak;
+    standby drain of a waiting container; contactor and
+    insulation trends in the rack record; a second cell factory
+    is a product change
+  open: the cell maker's qualification and lot data for the
+    exact cell, the integrator's BMS records (U-126)

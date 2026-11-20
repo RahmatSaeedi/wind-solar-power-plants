@@ -1,0 +1,12 @@
+certificate validity against the delivery schedule (teaching dates)
+  equipment                 valid to    delivery  verdict
+  PV module               2029-03-31  2028-02-01  valid at delivery
+  PV inverter             2028-01-10  2028-03-01  EXPIRES BEFORE DELIVERY
+  wind turbine (type)     2030-06-30  2028-06-01  valid at delivery
+  main transformer                 -  2028-04-01  unit test report (ch 43)
+  MV switchgear           2027-11-30  2028-01-15  EXPIRES BEFORE DELIVERY
+  battery system          2029-12-31  2028-05-01  valid at delivery
+  revenue meter           2031-01-01  2028-02-15  valid at delivery
+  expiring before delivery: PV inverter, MV switchgear
+  a certificate is checked on the delivery date, not on the bid
+  date: a renewal or a re-test is a condition of the order

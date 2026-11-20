@@ -1,0 +1,20 @@
+P01 A factor at 70 u/MWh, 25 y, 7.5 %: 6.84 k u/kW
+P02 B factor with loss load factor 0.20: 1.37 k u/kW
+P03 losses of one U-B unit (5.2, 52 kW): 106.6 k u
+P04 ten U-C units (4.5, 45 kW): 923 k u
+P05 U-B late 4 weeks at 0.5 % of 1,010: 20.2 k u
+P06 currency allowance, U-C 90 % foreign at 8 %: 77.8 k u
+P07 evaluated price of U-A: 2,072 k u
+P08 margin U-C over U-A: 21 k u
+P09 delay damages, 20 weeks, cap 10 % of 1,160: 116 k u
+P10 PV energy a week at 70 u/MWh: 145 k u
+P11 chain on time, 0.99 x 0.95 x 0.97 x 0.96 x 0.98: 86 %
+P12 equal share of 97 % over 4 parts: 99.24 %
+P13 inverter availability, MTBF 2,000 h, 24 + 8 h: 98.43 %
+P14 same with 72 + 24 h: 95.42 %
+P15 U-B data schedule, 8 of 14: 57 %
+P16 U-A audit, weighted: 3.76
+P17 interfaces among 5 packages: 10
+P18 expected repairs a year, 10 units at 1 %: 0.1
+P19 U-B compliance, 14 of 18: 78 %
+P20 labour risk score 2 + 2 + 2 + 1: 7 (high at 5 or more)

@@ -1,0 +1,12 @@
+loop voltage at 22 mA: supply 24 V, transmitter needs 12 V,
+  input 250 ohm, the new isolator takes 4 V (teaching values)
+  loop    length m  core mm2  cable ohm  left V  without isolator  max m
+  L-102      1800      0.75         84    12.7              16.7   2435
+  L-104      2400      0.50        168    10.8              14.8   1623
+  L-105       600      0.50         42    13.6              17.6   1623
+  short of 12 V with the isolator: L-104
+  the isolator that fixed lesson t's earth problem takes the
+  voltage the long thin loop needed: the transmitter browns out
+  near full scale and the reading sticks below the top - a
+  separately powered isolator or a larger core, checked on the
+  loop sheet before the change is built (ch 34 loop length)

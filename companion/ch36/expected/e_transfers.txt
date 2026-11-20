@@ -1,0 +1,11 @@
+data sent to outside parties (synthetic register)
+  to                what                          purpose            days left
+  turbine maker     turbine logs, 3 months        warranty claim         40
+  inverter maker    inverter configurations       firmware study        -25
+  integrator        network diagram, sanitised    extension design       10
+  insurer           availability summary          renewal              -120
+  2 transfers past their end: the data is to be returned or
+  deleted and the deletion confirmed in writing
+  each transfer is approved for a purpose, carries only
+  what the purpose needs (a sanitised diagram, not the
+  address plan) and ends on a date

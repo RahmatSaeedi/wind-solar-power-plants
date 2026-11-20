@@ -1,0 +1,11 @@
+a container waiting at site at 30% SOC: cells lose their own
+  self-discharge (3.9 mA) and feed the BMS from the battery itself
+  (teaching BMS currents from each string)
+  BMS draw mA   days to fall to 5 % SOC
+            0                      834
+           20                      137
+           50                       61
+  a battery left with its BMS powered from itself can be
+  emptied while it waits for commissioning; below the cell's
+  minimum it may be unusable - storage instructions say who
+  charges it, when, and from what (ch 19, ch 50)

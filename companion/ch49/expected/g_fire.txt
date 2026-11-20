@@ -1,0 +1,15 @@
+fire-system construction records (the approved design rules)
+  submittals not approved or without a certificate:
+    fire-stopping system, hydrant valves
+  penetrations with gaps: 5 of 12
+    PEN-03: photo
+    PEN-04: inspected, photo, label
+    PEN-05: label
+    PEN-07: inspected, photo, label
+    PEN-10: photo
+  detectors: SD-03 1.4 m from the approved spot
+  detectors: SD-06 not installed
+  fire stopping is being installed from a system whose
+  submittal is not approved: every penetration sealed with it
+  waits on that approval; a detector moved 1.4 m to clear a
+  duct goes back to the designer, not the installer

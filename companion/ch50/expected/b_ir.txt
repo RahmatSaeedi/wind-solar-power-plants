@@ -1,0 +1,8 @@
+insulation resistance of the 20 strings against the project limit (40 Mohm)
+  S06: 3.1 Mohm
+  S13: no record
+  S16: 0.8 Mohm
+  a low value is a damaged cable, a wet connector or a
+  pinched sheath; the string stays isolated until the fault
+  is found and the test repeated; the test method and its
+  voltage come from the approved procedure, not this book

@@ -1,0 +1,6 @@
+life extension to 30 years (k u, PV at 7.5 % to today):
+  refurbishment in year 25 22,638; cash flow years 26-30 13,812 a year
+  NPV of the extension today 5,419
+  far-off cash flows are worth little today and the merchant
+  price is uncertain: an extension is an option for later,
+  decided on the plant's condition (ch 53), not a base case

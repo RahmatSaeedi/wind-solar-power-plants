@@ -1,0 +1,15 @@
+second-harmonic restraint of the differential (teaching threshold 15 %)
+  waveform                                 2nd / fundamental   blocks?
+  inrush, saturated  90 deg of the cycle                 83%   yes
+  inrush, saturated 120 deg of the cycle                 70%   yes
+  inrush, saturated 180 deg of the cycle                 42%   yes
+  inrush, saturated 240 deg of the cycle                 17%   yes
+  internal fault, DC offset 0.0                          0%   no
+  internal fault, DC offset 0.5                          4%   no
+  internal fault, DC offset 1.0                          8%   no
+  an inrush pulse is one-sided and short: rich in the 2nd
+  harmonic, so the relay holds back; a fault current is a
+  sine (with a DC offset that decays) and carries little 2nd
+  harmonic, so the relay trips; a deeply saturated core
+  (long pulses) has less 2nd harmonic - modern steels push
+  inrush that way, which is why makers add other criteria

@@ -1,0 +1,13 @@
+tower sections of ch 30 rolled from 3.0 m plates (teaching)
+  sec   cans  shell t  ch 31 t   circ. welds m  long. welds m
+    1      9    122.2    124.0             135             25
+    2      9     97.0     96.0             124             25
+    3      9     70.3     71.0             112             25
+    4      9     51.1     50.0             100             25
+  weld length a tower 571 m; at 12 m/h of ultrasonic scan 48 h
+  for 12 towers 571 h
+  the shells alone come within 2 t of ch 31's list (which
+  rounds and adds the flanges); the
+  circumferential welds carry the tower's bending and set its
+  fatigue (ch 30, detail category) - their inspection record
+  is part of the tower's dossier

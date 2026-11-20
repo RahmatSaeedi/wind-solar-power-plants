@@ -1,0 +1,11 @@
+defect key of the data pack versus what the validator reported:
+  D1 duplicated record                found
+  D2 five records missing             found
+  D3 negative wind speed              found
+  D4 constant value (stuck)           found
+  D5 sentinel -9999                   found
+  D6 kPa written instead of hPa       found
+  D7 two records out of order         found
+  D8 small negative night values      found
+  D9 direction outside 0..360         found
+detected 9 of 9; flagged values 27, planted 27; false alarms: none

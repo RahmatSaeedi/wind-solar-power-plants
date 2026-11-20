@@ -1,0 +1,11 @@
+integrations of business systems with OT (teaching)
+  integration                                      verdict
+  historian copy to the DMZ, read by business      allowed, one way
+  CMMS reads running hours from the DMZ copy       allowed, one way
+  asset register sends tag names to a review       allowed, reviewed
+  CMMS writes a work order into SCADA              NOT allowed
+  business single sign-on into OT devices          NOT allowed
+  maker's cloud reads inverters directly           NOT allowed as built
+  business systems are fed from copies outside the control
+  zone; nothing on the business side can change, log into
+  or reach a control device (ch 35 lesson F)

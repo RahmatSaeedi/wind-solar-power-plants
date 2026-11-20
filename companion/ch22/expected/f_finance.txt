@@ -1,0 +1,16 @@
+cost estimate maturity (teaching accuracy ranges):
+  class                      low k u     high k u   contingency
+  screening (G1)              109,515      234,675         25 %
+  feasibility (G2-G3)         125,160      203,385         15 %
+  FEED / bid (G4)             140,805      179,918          8 %
+  (contingency here: half the upper range, a teaching rule)
+  financeability scorecard of P-Central before G4:
+    estimate class          feasibility: +30 % still possible
+    development funding     6,500 k u by financial close
+    yield and revenue       P50/P90 reviewed; PPA not signed
+    grid and permits        offer and ESIA approval open
+    schedule, supply, O&M   plan exists; no price yet
+    downside                break-even energy 85.9 % of P50
+    open conditions         9 of 12 (ch 21 CP register)
+  verdict: not yet financeable - continue development, not
+  the investment decision

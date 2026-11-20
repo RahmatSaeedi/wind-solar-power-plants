@@ -1,0 +1,11 @@
+W2b turned about its centre, long-term energy:
+  turn deg   farm GWh   wake loss
+    -20       194.54     5.12 %
+    -10       195.63     4.59 %
+     +0       196.88     4.01 %
+    +10       196.99     4.12 %
+    +20       197.29     4.07 %
+  -20 deg costs 2.3 GWh a year; +20 deg gains 0.4 GWh:
+  the rows already stand nearly across the prevailing sector;
+  a small gain is not worth new land or a turbine nearer the
+  camp; orientation matters most where the wind rose is narrow

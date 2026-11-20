@@ -1,0 +1,11 @@
+the transport chain from factory to site (days, simulated)
+  leg                          median  90 % minus median
+  factory to port                   4                1.9
+  sea passage                      24                5.1
+  port and customs                  9               10.5
+  port to site (heavy haul)         5                3.3
+  whole chain: median 43 days, 90 % 55 days
+  the widest leg is port and customs: the buffer and the
+  document preparation go there, not to the sea passage;
+  the delivery term of the contract says where the risk
+  of loss passes from seller to buyer (concept only)

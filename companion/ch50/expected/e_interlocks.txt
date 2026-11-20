@@ -1,0 +1,10 @@
+auxiliary interlocks tested end to end
+  HVAC stops on smoke in control room        pass
+  pump stops on low tank level               pass
+  battery-room fan runs on charge            fail
+  UPS bypass on overload                     pass
+  diesel starts on loss of both feeds        not tested
+  the battery-room fan that does not run on charge is a safety
+  item (ch 23 ventilation): the room is not used for charging
+  until it passes; the diesel start on loss of both feeds is
+  the restart chain's first link and is tested before handover

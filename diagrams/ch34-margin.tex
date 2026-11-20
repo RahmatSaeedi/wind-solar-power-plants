@@ -1,0 +1,21 @@
+% Chapter 34 - phase margin of the tuned PI on the first-order park against the total loop delay, with
+% the 45 degree line and the four controller cycles of lesson B (examples_r,
+% diagrams/data/ch34-margin.csv; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=0, xmax=3.2, ymin=-60, ymax=100,
+      xlabel={تأخیرِ کلِ حلقه (s)}, ylabel={حاشیهٔ فاز (درجه)}]
+    \addplot[sWind, no marks] table[x=d, y=pm, col sep=comma] {data/ch34-margin.csv};
+    \draw[sLimit] (axis cs:0,45) -- (axis cs:3.2,45);
+    \node[note, anchor=south west] at (axis cs:2.1,46) {حاشیهٔ $45$ درجه};
+    \draw[sLimit] (axis cs:0,0) -- (axis cs:3.2,0);
+    \node[note, anchor=north west] at (axis cs:0.1,-2) {مرزِ ناپایداری};
+    \addplot[only marks, mark=*, mark size=2pt, color=cLoss] coordinates {(0.15,81.7) (0.75,55.4) (1.5,22.5) (3.0,-43.3)};
+    \node[note, anchor=south west] at (axis cs:0.17,82) {$0.1\,\mathrm{s}$};
+    \node[note, anchor=south west] at (axis cs:0.77,56) {$0.5\,\mathrm{s}$};
+    \node[note, anchor=south west] at (axis cs:1.52,23) {$1\,\mathrm{s}$};
+    \node[note, anchor=north east] at (axis cs:2.95,-46) {$2\,\mathrm{s}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,7 @@
+one 33 kV feeder, 25 MW at pf 0.95 lagging,
+  6 km of 0.125 + j0.11 ohm/km (conductor at 20 C)
+  I = 460.4 A at -18.19 deg; Z = 0.750 + j0.660 ohm
+  V_end = 19.053 kV phase; V_start = V_end + Z I = 19.4763 kV /_ 0.532 deg
+  drop (line-to-line): exact 734.0 V = 2.224 %
+  approximation (R P + X Q)/V: 732.5 V
+  the angle difference is small; the magnitude difference is the drop

@@ -1,0 +1,13 @@
+steady SCADA traffic of Plant P (teaching tag counts, 1 s cycle)
+  source                      devices   tags   Mbit/s
+  wind turbines                    12    600     1.15
+  PV inverters                     26    250     1.04
+  battery containers (S1)           8   1200     1.54
+  met stations                      2     40     0.01
+  substation IEDs                  30    150     0.72
+  total 4.5 Mbit/s: 4 % of a 100 Mbit/s edge link,
+    0.4 % of the 1 Gbit/s ring
+  the average is small; what loads a network is bursts -
+  every device answering a general interrogation at once,
+  or a historian back-filling a day - which is why links
+  are sized with headroom and bursts are rate-limited

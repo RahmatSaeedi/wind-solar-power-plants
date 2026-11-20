@@ -1,0 +1,13 @@
+insulation resistance of a floating PV block (teaching):
+  420 strings in parallel to earth (21 combiners x 20)
+  per string MOhm   block kOhm
+                40         95.2
+                20         47.6
+                 2          4.8
+  a healthy large block reads tens of kOhm; on a wet morning
+  every string drops together and the inverter may refuse to
+  start until it dries: the inverter's threshold must suit
+  the block size (the maker's setting)
+  a single earth fault on a floating array drives little
+  current - it is an alarm, found and repaired before a
+  second fault on the other pole makes a real short circuit

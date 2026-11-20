@@ -1,0 +1,9 @@
+the same service measured at two places (full export, teaching):
+  quantity                at the unit terminals   at the POC
+  reactive power Mvar                   68.1          55.8
+  voltage pu                            1.04          1.00
+  response delay s                      0.10          0.25
+  the transformers and the line take reactive power, the
+  plant controller adds delay: a capability or a response
+  proved at the terminals is not proved at the POC, where
+  the requirement applies (lesson B; ch 20)

@@ -1,0 +1,14 @@
+a drone survey planned from the camera (teaching values)
+  ground sample distance at 100 m: 2.74 cm; image 150 x 100 m
+  65 % side and 75 % front overlap: lines 52.5 m apart, photos every 25.0 m
+  PV block                         1.19 km2
+  roads, 60 m corridor x 28 km     1.68 km2
+  turbine areas 200 x 200 m        0.48 km2
+  substation and compound          0.10 km2
+  total 3.45 km2 -> 66 km of flight lines -> 6 flights of 20 min at 10 m/s
+  15 check points: mean error +0.4 cm, RMSE 2.2 cm (teaching requirement 5 cm)
+  the check points are surveyed separately and never used
+  to fit the model; the RMSE is within the requirement and
+  the mean shows no bias - a mean far from zero (a datum or
+  antenna-height error) would fail the model even with a
+  small spread

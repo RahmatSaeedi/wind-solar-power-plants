@@ -1,0 +1,10 @@
+two assumptions compared (A-276):
+  (1) wind availability 98.1 %: as a factor or as whole-farm outage hours
+      curtailment 227 MWh (factor) against 313 MWh (hours)
+  (2) soiling: constant 1.43 % or the station's daily soiling under
+      the 4 % trigger (D-014), energy-weighted
+      loss 1.50 % (constant) against 1.59 % (seasonal); mean daily loss 1.43 %
+  the factor spreads the outage over every hour and cuts the peaks
+  that curtailment sees; the seasonal soiling weighs the dusty dry
+  season where most energy is made: the order and the shape of a
+  loss can matter as much as its average

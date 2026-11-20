@@ -1,0 +1,7 @@
+a forecast score is not a yield uncertainty:
+  day-ahead hourly RMSE 10.72 MW = 31 % of the mean power
+  sum of the hourly errors over the test months +0.68 GWh (bias)
+  one-year yield sigma 14.99 GWh = 5.1 % of the year
+  the forecast error is about tomorrow's hours and averages out;
+  the yield uncertainty is about the long-term mean and does not;
+  neither number can be turned into the other

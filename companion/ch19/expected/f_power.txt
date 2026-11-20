@@ -1,0 +1,16 @@
+power the whole battery (39,936 cells) can give and take, MW,
+  from the maker's current limits by temperature (A-295):
+  cell C   dis C-rate  chg C-rate   discharge MW   charge MW
+           (at 50 % SOC; the PCS caps both at 20 MW)
+    -10          0.3         0.0           11.6         0.0
+      0          0.5         0.2           19.2         8.3
+     10          1.0         0.5           37.8        21.1
+     25          1.0         1.0           39.2        42.3
+     45          1.0         0.5           40.0        20.6
+     55          0.3         0.0           12.2         0.0
+  between 10 and 45 C the 20 MW converter is the cap; a cold
+  battery (0 C) takes only about 8 MW of charge and none below
+  freezing; the BMS sends this limit to the PCS every second
+  and the plant controller must plan with it (chapter 20); the
+  container is kept warm in winter so that midday charging
+  is not lost

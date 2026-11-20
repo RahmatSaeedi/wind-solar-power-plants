@@ -1,0 +1,11 @@
+wind uplift on the control building roof (12 x 24 m, 6 m high)
+  gust at roof height 38.3 m/s -> pressure 798 Pa
+  roof zone      cp,e   internal   net kPa   dead kPa   uplift kPa
+  corner         -2.0       +0.2      1.76       0.60         1.16
+  edge           -1.4       +0.2      1.28       0.60         0.68
+  middle         -0.7       +0.2      0.72       0.60         0.12
+  the dead load nearly balances the middle of the roof;
+  the corners lift twice the roof's weight - their fixings,
+  purlins and the holding-down of the columns are designed
+  for it, and
+  most roof failures in storms start at a corner

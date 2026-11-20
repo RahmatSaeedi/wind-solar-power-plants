@@ -1,0 +1,5 @@
+two security results checked by hand
+  firewall logs: 2 x 400,000 events x 300 B x 365 d = 87.6 GB; code 87.6
+  risk of an open vendor path: 4 x 4 = 16 -> very high
+  a hand check catches the commonest slip in sizing logs:
+  events a day of one device taken for all devices together

@@ -1,0 +1,15 @@
+energy unavailability by class (ch 52 register and model)
+  class                                MWh/yr  share   cum.
+  wind turbine (major)                  1,942    31%    31%
+  wind turbine (minor)                  1,573    25%    57%
+  turbine services (planned)            1,348    22%    78%
+  PV inverter                             450     7%    86%
+  132 kV line (permanent fault)           284     5%    90%
+  33 kV collector cable (per km)          257     4%    94%
+  PV unit transformer                     180     3%    97%
+  main transformer                        152     2%   100%
+  PV combiner box                          17     0%   100%
+  PPC                                       5     0%   100%
+  total 6,209 MWh of 306.3 GWh: energy availability 97.97%
+  the three largest classes carry 78%: the availability
+  objective is allocated to them first (turbines and their services)

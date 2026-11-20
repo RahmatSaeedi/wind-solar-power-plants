@@ -1,0 +1,8 @@
+RMS / peak and crest factor (peak / RMS), from 2000 samples per period:
+  sine                                        RMS 0.7071, crest 1.414
+  square                                      RMS 1.0000, crest 1.000
+  triangle                                    RMS 0.5774, crest 1.732
+  inverter current, 4 % 5th + 3 % 7th (A-040) RMS 0.7080, crest 1.427
+  theory: sine 1/sqrt2 = 0.7071; triangle 1/sqrt3 = 0.5774
+          inverter sqrt(1 + 0.04^2 + 0.03^2)/sqrt2 = 0.7080
+mean of the rectified sine 0.6366 = 2/pi; form factor RMS/mean 1.1107

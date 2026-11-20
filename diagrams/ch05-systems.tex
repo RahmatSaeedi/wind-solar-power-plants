@@ -1,0 +1,15 @@
+% Chapter 5 - four kinds of system that hold Plant P information, each authoritative for one
+% kind of record, linked by the tag; vendor-neutral (no product implied).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{sy/.style={blk, minimum width=44mm, minimum height=18mm, font=\footnotesize, align=center}}
+  \node[sy] (edms) at (-4.0,1.6) {\textbf{مخزنِ مدارک}\\نقشه، گزارش، گواهی\\مرجعِ: بازنگری و وضعیتِ مدرک};
+  \node[sy] (model) at (4.0,1.6) {\textbf{مدل‌های مهندسی}\\مدلِ سه‌بعدی، محاسبه، شبیه‌سازی\\مرجعِ: هندسه و طراحی};
+  \node[blkWind, minimum width=44mm, minimum height=18mm, font=\footnotesize, align=center] (hist) at (-4.0,-1.6) {\textbf{تاریخ‌نگارِ اسکادا}\\سری‌های زمانیِ اندازه‌گیری\\مرجعِ: آنچه رخ داد};
+  \node[blkLoad, minimum width=44mm, minimum height=18mm, font=\footnotesize, align=center] (cmms) at (4.0,-1.6) {\textbf{سامانهٔ نگهداری \texttt{CMMS/EAM}}\\دارایی، دستورِ کار، ضمانت\\مرجعِ: وضعیت و کارِ نگهداری};
+  \node[blkBESS, minimum width=26mm, minimum height=10mm, font=\footnotesize, align=center] (tag) at (0,0) {برچسبِ مشترک\\و فرهنگِ داده};
+  \foreach \s in {edms, model, hist, cmms} {\draw[flowinfo, {Stealth[length=2mm]}-{Stealth[length=2mm]}] (\s) -- (tag);}
+  \node[note, anchor=north, text width=120mm] at (0,-2.8) {هر نوع داده فقط یک «سامانهٔ مرجع» دارد؛ بقیه رونوشت یا پیوند نگه می‌دارند. همتای دیجیتال اختیاری است و فقط با کاربردِ معین، دادهٔ معتبر و مالکِ پاسخ‌گو معنا دارد.};
+\end{tikzpicture}}
+\end{document}

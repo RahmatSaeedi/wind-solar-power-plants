@@ -1,0 +1,7 @@
+grid dip: the converter cannot export, the rotor keeps its 5 MW input:
+    150 ms: 0.75 MJ into a rotor holding 32.2 MJ -> speed +1.2 %
+    500 ms: 2.50 MJ into a rotor holding 32.2 MJ -> speed +3.8 %
+   1000 ms: 5.00 MJ into a rotor holding 32.2 MJ -> speed +7.5 %
+  a chopper resistor in the DC link burns the energy or the
+  pitch reduces the input; the drivetrain sees a torque step
+  that the gearbox and coupling must withstand (chapters 9, 11)

@@ -1,0 +1,10 @@
+short-circuit duty of the 33 kV cables (adiabatic limit):
+  conductor: 12.5 kA (ch 23) cleared in 0.5 s by the feeder
+    relay, 1.0 s by the backup: S >= I sqrt(t) / k, k = 94 (Al)
+    t = 0.5 s:    94 mm2
+    t = 1.0 s:   133 mm2
+  240 mm2 Al carries 22.6 kA for 1 s
+  screen: the earth-fault current is limited to 400 A (ch 23)
+    a 35 mm2 Cu screen carries 5.0 kA for 1 s
+  both pass with margin; the backup clearing time sets the
+  duty, not the main relay's

@@ -1,0 +1,12 @@
+protocol overhead: one value a frame or many (teaching headers)
+  headers 66 bytes a frame; a value 20 bytes
+  values a frame   bytes a value   efficiency
+                 1            86.0          23 %
+                 5            33.2          60 %
+                20            23.3          86 %
+                50            21.3          94 %
+  sending each value alone costs 4.0 times the bytes
+  of sending fifty together; report-by-exception sends few
+  values a frame, so its saving is smaller than the count of
+  messages suggests - the traffic estimate of lesson A
+  counts bytes on the wire, headers included

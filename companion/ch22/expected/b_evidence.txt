@@ -1,0 +1,8 @@
+the energy score shrunk toward 0.5 by the quality of its evidence:
+  site        quality   energy score   adjusted   developer total
+  P-North         0.4           1.00       0.70   0.30 -> 0.21
+  P-Central       0.9           0.49       0.49   0.75 -> 0.75
+  P-South         0.7           0.00       0.15   0.56 -> 0.61
+  P-North's energy lead rests on reanalysis and four months
+  of mast data: until a full campaign (ch 13) confirms it, it
+  counts for less; quality is recorded beside every score

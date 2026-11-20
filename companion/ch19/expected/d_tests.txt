@@ -1,0 +1,12 @@
+edge-case tests of the controller:
+  PASS  SOC stays inside 10-90 %
+  PASS  never charges and discharges in one hour
+  PASS  no grid charging (charge <= plant output)
+  PASS  export with the battery <= 100 MW
+  PASS  idle in grid-outage hours
+  PASS  empty at 18:00 after a day of charging? no: charged
+  PASS  empty battery, no plant output: no discharge
+  PASS  full battery, plant at 99 MW: discharge <= 1 MW
+  PASS  energy balance closes (MWh)
+  each test is a requirement written as code; the same tests
+  run again on the real controller's logs in commissioning

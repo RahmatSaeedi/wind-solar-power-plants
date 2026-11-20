@@ -1,0 +1,13 @@
+clock offsets read at the SAT against the plant clock (limit 2 ms)
+  RTU-1        +0.2 ms  ok
+  PPC          -0.4 ms  ok
+  T05-PLC      +1.1 ms  ok
+  T09-PLC      +0.6 ms  ok
+  GW-PV1      +14.8 ms  BEYOND
+  GW-PV2       +0.9 ms  ok
+  BESS-EMS     -0.7 ms  ok
+  historian    +0.3 ms  ok
+  beyond: GW-PV1 - the PV gateway still takes its
+  time from its own clock, not the plant's time source: its
+  events land 15 ms late in every sequence-of-events list, and
+  a trip would be read in the wrong order (ch 35 time stamps)

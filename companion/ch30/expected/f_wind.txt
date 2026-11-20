@@ -1,0 +1,7 @@
+transverse wind on a 132 kV suspension tower (50-yr gust at 20 m)
+  gust 44.4 m/s, pressure 1,072 Pa, wind span 300 m
+  each phase conductor (24 mm): 7.7 kN; earth wire 3.9 kN
+  tower body 8 kN (teaching)
+  total transverse load 35.0 kN
+  the wires, not the lattice, catch most of the wind: wire
+  diameter and span set the tower's transverse case

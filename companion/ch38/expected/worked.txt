@@ -1,0 +1,6 @@
+E01 'PLP-ELE-DWG-0005' follows the scheme: True
+E02 revision 'B' with status IFC is valid: False
+E03 IFR -> IFC allowed: False
+E04 SPI and CPI with PV 200, EV 150, AC 180: 0.75, 0.83
+E05 EAC with BAC 1,000 h and CPI 0.833: 1,200 h
+E06 sample 10 of 50 with 2 errors finds one: 0.363

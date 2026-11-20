@@ -1,0 +1,18 @@
+% Chapter 3 integrated example — temperature rise of one 33 kV collector feeder through the
+% summer subset day: hour-by-hour steady state and the thermal ODE with two time constants.
+% Data: diagrams/data/ch03-int-cable.csv (companion/ch03/integrated.py). Values assumed (A-033).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=66mm,
+      xlabel={ساعتِ روز}, ylabel={افزایشِ دمای کابل (K)},
+      xmin=0, xmax=24, ymin=0, ymax=48, xtick={0,3,...,24}, ytick={0,10,...,40}]
+    \addplot[sLimit, const plot] table[x=t_h, y=rise_steady, col sep=comma] {data/ch03-int-cable.csv};
+    \addlegendentry{پایدارِ ساعت‌به‌ساعت}
+    \addplot[sLoad] table[x=t_h, y=rise_air, col sep=comma] {data/ch03-int-cable.csv};
+    \addlegendentry{$\tau = 0.5\ \text{h}$ (در هوا)}
+    \addplot[sLoss] table[x=t_h, y=rise_buried, col sep=comma] {data/ch03-int-cable.csv};
+    \addlegendentry{$\tau = 3\ \text{h}$ (دفن‌شده)}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

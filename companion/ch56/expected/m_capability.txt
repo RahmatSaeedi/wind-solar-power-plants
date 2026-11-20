@@ -1,0 +1,14 @@
+what Plant P can offer an island system (teaching values)
+  reactive power at 100 MW, 25 C     ch 28
+      +46 / -63 Mvar (study model)
+  frequency droop (battery S1)       ch 20
+      4 % on 110 MW, 20 MW cap
+  island support (grid-forming)      ch 20
+      not offered in the base (D-024)
+  ramp limiting                      ch 20
+      PPC setting, any value asked
+  telemetry                          ch 35
+      IEC 60870-5-104 or IEC 61850 at the PPC
+  in a small island a 100 MW plant may be asked for what the
+  base does not offer (grid-forming, reserve): the request
+  would reopen D-024 and the battery case of ch 19-21

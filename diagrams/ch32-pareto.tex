@@ -1,0 +1,14 @@
+% Chapter 32 - Pareto of near-miss causes: counts by cause (bars) and the cumulative share as text
+% labels (diagrams/data/ch32-pareto.csv, examples_r; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, ybar, bar width=6mm, xmin=0.4, xmax=7.6, ymin=0, ymax=50,
+      xtick={1,...,7}, xticklabels={بار و ابزار, دنده‌عقب, مسیرِ بسته, گرما, سایر, نظافت, جداسازی},
+      x tick label style={font=\scriptsize}, ylabel={شمار},
+      nodes near coords={\pgfmathprintnumber[fixed,precision=0]{\pgfplotspointmeta}\,\%},
+      point meta=explicit, nodes near coords style={font=\scriptsize, text=cInkB}]
+    \addplot[fill=cPV!50, draw=cPV] table[x=cause, y=count, meta=cum, col sep=comma] {data/ch32-pareto.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

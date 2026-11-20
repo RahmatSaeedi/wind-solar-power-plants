@@ -1,0 +1,9 @@
+generator bearing (A-116): 14 balls, 40 mm, pitch 220 mm, 1155 rpm
+  shaft 19.25 Hz; outer race 110.2 Hz, inner race 159.2 Hz
+  ball spin 51.2 Hz, cage 7.87 Hz
+  life (C/P)^3 x 10^6 rev, C/P  8:     7,388 h
+  life (C/P)^3 x 10^6 rev, C/P 12:    24,935 h
+  life (C/P)^3 x 10^6 rev, C/P 16:    59,105 h
+  20 years is about 175,000 h: bearings are chosen with margin and
+  monitored; lubrication, contamination and shaft currents decide
+  the real life more often than the formula (section D)

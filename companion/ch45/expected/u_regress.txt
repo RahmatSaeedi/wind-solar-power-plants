@@ -1,0 +1,8 @@
+the same day run on two versions of the educational simulator
+  version   end SOC   balance error Ah   in window
+  v1.0       0.1000              0.000   yes
+  v1.1       0.1000              0.947   yes
+  v1.1 stays in the window and looks fine; only the balance
+  invariant shows that it loses charge on every charging step
+  - a test on the outcome alone would have passed it; the
+  invariant is in the test list of every release

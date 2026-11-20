@@ -1,0 +1,9 @@
+36 blades, 756 t of composite: routes (teaching shares)
+  cement co-processing            55%    416 t
+  mechanical grinding (filler)    15%    113 t
+  reuse (structures)              10%     76 t
+  landfill (where allowed)        20%    151 t
+  most blade 'recycling' is energy and mineral recovery in a
+  kiln, not new blades; whether landfill is allowed at all is a
+  local rule (ch 54-58) - the closure plan names the route and
+  its receiver before the cranes come

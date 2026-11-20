@@ -1,0 +1,15 @@
+Plant P power-quality monitoring plan (teaching):
+  POC: class A, V and I harmonics, flicker, unbalance, events
+      when: permanent
+  33 kV bus A and B: V and I harmonics, events
+      when: permanent
+  filter (if fitted): branch currents, capacitor unbalance
+      when: permanent
+  each unit type: I harmonics against power (sample)
+      when: yearly, 2 weeks
+  service tests: steps, droop, P-Q points
+      when: after any change
+  one time source; 10-minute and event data kept 5 years;
+  weekly 95th percentiles reported to the operator if asked;
+  firmware or setting changes trigger a repeat of the
+  affected service tests

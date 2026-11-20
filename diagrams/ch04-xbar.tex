@@ -1,0 +1,19 @@
+% Chapter 4 — X-bar control chart of bolt preload (synthetic, A-060) with limits from the
+% first 18 subgroups. Data: diagrams/data/ch04-xbar.csv, ch04-xbar-lim.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=60mm,
+      xlabel={شمارهٔ زیرگروه}, ylabel={میانگینِ پیش‌بار (kN)},
+      xmin=0.5, xmax=25.5, ymin=450, ymax=515, xtick={1,5,...,25}, ytick={455,470,...,515}]
+    \addplot[sInk, mark=*, mark size=1.4pt, mark options={solid}] table[x=k, y=xbar, col sep=comma] {data/ch04-xbar.csv};
+    \addlegendentry{میانگینِ هر زیرگروه}
+    \addplot[sLimit] table[x=k, y=ucl, col sep=comma] {data/ch04-xbar-lim.csv};
+    \addlegendentry{حدهای کنترل}
+    \addplot[sLimit, forget plot] table[x=k, y=lcl, col sep=comma] {data/ch04-xbar-lim.csv};
+    \addplot[cInkB, line width=0.5pt, forget plot] table[x=k, y=cl, col sep=comma] {data/ch04-xbar-lim.csv};
+    \draw[cInkB, densely dotted] (axis cs:18.5,450) -- (axis cs:18.5,515);
+    \node[note, anchor=north west] at (axis cs:18.6,513) {جابه‌جاییِ فرایند};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

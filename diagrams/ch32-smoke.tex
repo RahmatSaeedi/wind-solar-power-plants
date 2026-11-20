@@ -1,0 +1,13 @@
+% Chapter 32 - height of the smoke layer in a 150 m2, 4 m control room against time for a 300 kW fire
+% (plume entrainment; diagrams/data/ch32-smoke.csv, examples_p; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0, xmax=150, ymin=0, ymax=4.2,
+      xlabel={زمان (s)}, ylabel={ارتفاعِ لایهٔ دود (m)}]
+    \addplot[sLoss, no marks] table[x=t, y=z, col sep=comma] {data/ch32-smoke.csv};
+    \draw[sLimit] (axis cs:0,2) -- (axis cs:150,2);
+    \node[note, anchor=south west] at (axis cs:3,2.05) {ارتفاعِ سر};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

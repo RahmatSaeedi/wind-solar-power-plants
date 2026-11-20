@@ -1,0 +1,6 @@
+$ python -m companion.ch05.project_stage1
+{'pv_gwh': np.float64(96.43), 'wind_gwh': np.float64(177.08), 'export_gwh':
+    np.float64(273.52), 'raw_records': 428, 'kept': 427, 'gaps': 1,
+    'usable_hours_ws100': 71}
+mean of usable hourly ws100 = 7.789 m/s; mean density 1.0559 kg/m3
+[exit code 0]

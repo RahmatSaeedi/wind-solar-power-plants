@@ -1,0 +1,10 @@
+shadow flicker of layout W2b (geometric worst case, ch 14 method)
+  receptor                         worst case h/yr   worst day min
+  herders' camp B (seasonal)                   0.0               0
+  farmhouse A                                  0.0               0
+  farmhouse C                                  0.0               0
+  W2b's adjustment moved the turbines out of reach of the
+  dwellings: layout W2 gave the camp 112 h a year (ch 14),
+  W2b gives none - avoidance by siting, the first step of
+  the mitigation hierarchy; a flicker timer remains the
+  remedy if a later layout change brings it back

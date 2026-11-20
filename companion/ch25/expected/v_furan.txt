@@ -1,0 +1,11 @@
+paper age from furans in oil (Chendong correlation, teaching):
+  2-FAL mg/kg   DP estimate   reading
+         0.05           803   paper in good condition
+         0.30           581   ageing, trend it
+         1.00           431   ageing, trend it
+         3.00           295   advanced ageing, plan
+         6.00           209   near end of life
+  new paper has a DP near 1,000; around 200 it has lost most of
+  its strength - but correlations differ by paper type, oil
+  and oil changes; one sample means little, a trend and DGA
+  (CO and CO2) together tell the story

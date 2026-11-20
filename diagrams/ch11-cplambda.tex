@@ -1,0 +1,21 @@
+% Chapter 11 - power coefficient against tip-speed ratio for four pitch angles (BEM, A-212).
+% Data: diagrams/data/ch11-cplambda.csv (companion/ch11/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm, xmin=2, xmax=14, ymin=0, ymax=0.62,
+      xlabel={نسبتِ تندیِ نوکِ پره $\lambda$}, ylabel={ضریبِ توان $C_p$}, xtick={2,4,...,14},
+      ytick={0,0.1,...,0.6}, yticklabels={$0$,$0.1$,$0.2$,$0.3$,$0.4$,$0.5$,$0.6$}, legend pos=north east, legend columns=1]
+    \addplot[sWind] table[x=lam, y=p0, col sep=comma] {data/ch11-cplambda.csv};
+    \addlegendentry{گامِ $0^\circ$}
+    \addplot[sInk] table[x=lam, y=p2, col sep=comma] {data/ch11-cplambda.csv};
+    \addlegendentry{گامِ $2^\circ$}
+    \addplot[sLoss] table[x=lam, y=p5, col sep=comma] {data/ch11-cplambda.csv};
+    \addlegendentry{گامِ $5^\circ$}
+    \addplot[sLimit] table[x=lam, y=p10, col sep=comma] {data/ch11-cplambda.csv};
+    \addlegendentry{گامِ $10^\circ$}
+    \draw[cRule, densely dashed] (axis cs:2,0.5926) -- (axis cs:14,0.5926);
+    \node[note, anchor=south west] at (axis cs:2.2,0.5926) {حدِ بتز $16/27$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

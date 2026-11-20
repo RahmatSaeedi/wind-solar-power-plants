@@ -1,0 +1,9 @@
+the two power feeds of each network and control cabinet
+  SUB-RTU     feed A UPS-1   feed B DC-110  ok
+  SUB-CORE    feed A UPS-1   feed B UPS-1   ONE SOURCE
+  CTRL-SCADA  feed A UPS-1   feed B UPS-2   ok
+  MET-1       feed A PV-AUX  feed B battery ok
+  SUB-CORE: two power supplies on one UPS - redundant in
+  the cabinet, single at the source; the core switch of the
+  substation goes dark with UPS-1, and with it every ring
+  (ch 35 single points, ch 36 recovery)

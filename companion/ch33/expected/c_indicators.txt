@@ -1,0 +1,12 @@
+indicators with targets and a red/amber/green status (synthetic)
+  indicator                               value   target   status
+  night noise at camp B, dB(A)             38.5     40.0   green
+  dust days over trigger a month            3.0      2.0   amber
+  village well level change, m              0.6      0.5   amber
+  raptor collisions found a year            1.0      0.0   amber
+  grievances closed in 30 days, %          88.0     90.0   amber
+  local hires, % of workforce              36.0     40.0   amber
+  restored area with cover >= 70 %, %      55.0     80.0   red
+  amber asks for a look, red for a corrective action with
+  an owner and a date; an indicator without a target, a
+  frequency and an owner is a statistic, not monitoring

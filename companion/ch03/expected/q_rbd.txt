@@ -1,0 +1,9 @@
+export path of Plant P: breaker - transformer - breaker - line, in series
+  breaker 0.999, transformer 0.995, line 0.997 (A-044, assumed)
+  one 100 MVA transformer: A = 0.99003; expected loss 2.89 GWh/yr of 289.8
+  two 100 % transformers in parallel: transformer pair A = 0.999975; path A =
+    0.99498; loss 1.45 GWh/yr
+  two 50 % transformers: with one out, only export above 50 MW is lost (27.9
+    GWh/yr of 289.8)
+    expected loss 1.73 GWh/yr
+  assumes independent failures and losses independent of the weather

@@ -1,0 +1,13 @@
+defects found against inspections a month (teaching: 40 present, k 0.08)
+  inspections   defects found   found by the last 5
+            0             0.0                   0.0
+            5            13.2                  13.2
+           10            22.0                   8.8
+           20            31.9                   9.9
+           30            36.4                   4.4
+           40            38.4                   2.0
+           60            39.7                   1.3
+  the first inspections find most defects; later ones find
+  few - which is why inspections rotate areas and change
+  focus (the Pareto of lesson R) rather than repeat the
+  same walk, and why workers' own reports matter

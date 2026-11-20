@@ -1,0 +1,14 @@
+a year of the S1 battery (rule of chapter 15, data pack S1):
+  charged 12,578 MWh, discharged 10,817 MWh AC (86 %)
+  equivalent full cycles of the usable window: 365
+  rainflow cycles: 365, of which 365 deeper than 50 %
+  mean SOC 36 %; hours at the bottom 5,472, at the top 2,515
+  SOC band      hours
+   10- 20 %    5,475
+   20- 30 %        4
+   30- 40 %      373
+   40- 50 %        9
+   50- 60 %      350
+   60- 70 %       11
+   70- 80 %        6
+   80- 90 %    2,532

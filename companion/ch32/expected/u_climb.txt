@@ -1,0 +1,10 @@
+climbing a 100 m tower by ladder (teaching, 90 kg with tools)
+  mechanical work m g h = 88 kJ; at 20 % efficiency 441 kJ (106 kcal)
+  climb time min   average power W   effort
+              10               736   very heavy
+              15               491   very heavy
+              25               294   moderate
+  a ladder climb is very heavy work before the job starts,
+  worse in a hot nacelle: the service lift is a safety
+  device, a fit-for-climbing check is part of competence,
+  and a tired climber is the one who misses a clip

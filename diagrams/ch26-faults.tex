@@ -1,0 +1,32 @@
+% Chapter 26 - the four shunt fault types on a three-phase line (three-phase, line-to-line,
+% single line-to-earth, double line-to-earth) with the fault connections and the current
+% return path through earth; teaching sketch.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    ph/.style={draw=cInk, line width=0.9pt},
+    fl/.style={draw=cLoss, line width=1.2pt},
+    jt/.style={circle, fill=cLoss, inner sep=1.1pt}]
+  \foreach \i/\x in {1/0, 2/3.6, 3/7.2, 4/10.8} {
+    \foreach \y/\p in {2.0/a, 1.4/b, 0.8/c} {
+      \draw[ph] (\x,\y) -- (\x+2.8,\y);
+      \node[note, anchor=east] at (\x,\y) {$\p$};
+    }
+    \draw[draw=cInkB, line width=0.5pt] (\x,-0.15) -- (\x+2.8,-0.15);
+    \foreach \k in {0,0.35,...,2.8} {\draw[draw=cInkB, line width=0.4pt] (\x+\k,-0.15) -- (\x+\k-0.15,-0.32);}
+  }
+  % three-phase
+  \draw[fl] (1.6,2.0) -- (1.6,0.8); \node[jt] at (1.6,2.0) {}; \node[jt] at (1.6,1.4) {}; \node[jt] at (1.6,0.8) {};
+  % line-to-line (b-c)
+  \draw[fl] (5.2,1.4) -- (5.2,0.8); \node[jt] at (5.2,1.4) {}; \node[jt] at (5.2,0.8) {};
+  % single line-to-earth (a)
+  \draw[fl] (8.8,2.0) -- (8.8,-0.15); \node[jt] at (8.8,2.0) {};
+  % double line-to-earth (b, c)
+  \draw[fl] (12.4,1.4) -- (12.4,-0.15); \node[jt] at (12.4,1.4) {}; \node[jt] at (12.4,0.8) {};
+  \node[note, text width=30mm] at (1.4,-0.9) {سه‌فاز\\متقارن؛ فقط توالیِ مثبت};
+  \node[note, text width=30mm] at (5.0,-0.9) {فاز به فاز\\مثبت و منفی};
+  \node[note, text width=30mm] at (8.6,-0.9) {تک‌فاز به زمین\\مثبت، منفی و صفر};
+  \node[note, text width=30mm] at (12.2,-0.9) {دوفاز به زمین\\هر سه توالی};
+  \node[note, text width=150mm] at (6.4,-2.0) {جریانِ خطای زمین از راهِ زمین و غلافِ کابل و سیمِ محافظ برمی‌گردد و به روشِ زمین‌کردنِ نول وابسته است؛ خطای سه‌فاز معمولاً بزرگ‌ترین جریان را می‌دهد، ولی نه همیشه};
+\end{tikzpicture}
+\end{document}

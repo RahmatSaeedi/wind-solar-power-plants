@@ -1,0 +1,10 @@
+sensitivity of the window result to model assumptions (A-182):
+  case                 630 V: hours  share     600 V: hours  share
+  base (A-153)           1443   0.213 %      138   0.001 %
+  irradiance x 1.1       1500   0.278 %      157   0.001 %
+  NOCT 48 C              1696   0.431 %      262   0.004 %
+  27 modules              275   0.004 %        7   0.000 %
+  hotter cells (more irradiance on the tilted plane, higher NOCT)
+  push more hours below the floor; one more module per string
+  lifts the voltage but must be checked against 1500 V in the
+  cold (chapter 6): D-012 at 600 V keeps its margin in all cases

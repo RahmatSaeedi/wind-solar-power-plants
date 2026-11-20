@@ -1,0 +1,18 @@
+% Chapter 52 - T07 gearbox high-speed bearing: weekly vibration velocity with the teaching alert and
+% alarm levels (companion/ch52/examples_b.py, vibration -> diagrams/data/ch52-vib.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=40, ymin=0, ymax=10,
+      xlabel={هفته}, ylabel={سرعتِ ارتعاش (mm/s)}, xtick={0,5,...,40}]
+    \addplot[sWind, line width=1pt, mark=*, mark size=1.1pt] table[x=week, y=mms, col sep=comma]
+      {data/ch52-vib.csv};
+    \draw[cInk!70, dashed] (axis cs:0,4.5) -- (axis cs:40,4.5);
+    \draw[cLoss, line width=0.9pt] (axis cs:0,7.1) -- (axis cs:40,7.1);
+    \node[note, anchor=south west] at (axis cs:1,4.6) {هشدار};
+    \node[note, anchor=south west] at (axis cs:1,7.2) {آلارم};
+    \draw[->, cInk!70] (axis cs:22,1.0) -- (axis cs:22,1.9);
+    \node[note, anchor=north] at (axis cs:22,1.0) {آغازِ رشد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

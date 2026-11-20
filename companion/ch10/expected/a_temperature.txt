@@ -1,0 +1,11 @@
+the fitted model against temperature and irradiance:
+   G W/m2   T C    V_oc V   V_mp V    P W    P/P_stc
+    1000     25    49.90    41.96   550.1    1.000
+    1000     45    47.19    39.12   515.3    0.937
+    1000     65    44.47    36.30   479.9    0.872
+     600     25    48.98    41.90   330.1    0.600
+     200     25    47.00    40.83   107.3    0.195
+    1000    -10    54.58    46.95   609.1    1.107
+  model coefficient of P_max -0.319 %/K against the data sheet -0.35 %/K
+  a five-parameter fit matches the four STC points and dV_oc/dT
+  exactly; the P_max coefficient is a check, not a fit target

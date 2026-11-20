@@ -1,0 +1,8 @@
+paper ageing on the data-pack year at 130% of today's load (teaching)
+  paper                         reference C   life used days a year
+  kraft (non-upgraded)                   98                    74.2
+  thermally upgraded                    110                    18.6
+  upgraded paper ages 4 times slower at the same hot spot: a
+  material choice that buys margin for a later battery or
+  more PV - stated in the specification and shown by the
+  paper's certificate (lesson B, materials)

@@ -1,0 +1,15 @@
+what Plant P can offer if the grid operator asks (teaching values)
+  reactive power at 100 MW, 25 C     ch 28
+      +46 / -63 Mvar (study model)
+  reactive power at 100 MW, test     ch 50
+      30.6 Mvar lagging (DEV-11)
+  unit ride-through                  ch 44
+      as the maker's type-test report states
+  frequency droop (battery S1)       ch 20
+      4 % on 110 MW, 20 MW cap
+  ramp limiting                      ch 20
+      PPC setting, any value asked
+  telemetry                          ch 35
+      IEC 60870-5-104 or IEC 61850 at the PPC
+  capability is ready; requirement, qualification and payment are
+  not sourced (IR-19, IR-33): nothing is offered in the base

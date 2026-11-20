@@ -1,0 +1,18 @@
+% Chapter 29 - 28-day strength of the twelve foundation pours (three specimens each; mean and
+% range, synthetic) against the specified 35 MPa characteristic: pour F07 is weak on its own
+% (diagrams/data/ch29-concrete.csv from companion/ch29/examples_c.py, c_concrete).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0.3, xmax=12.7, ymin=28, ymax=50,
+      xtick={1,...,12}, xlabel={شمارهٔ بتن‌ریزی}, ylabel={مقاومتِ ۲۸ روزه $(\text{MPa})$}]
+    \addplot[only marks, mark=*, mark size=1.6pt, color=cWind,
+        error bars/.cd, y dir=both, y explicit, error bar style={color=cWind, line width=0.6pt}]
+      table[x=k, y=mean, y error plus expr=\thisrow{hi}-\thisrow{mean},
+            y error minus expr=\thisrow{mean}-\thisrow{lo}, col sep=comma] {data/ch29-concrete.csv};
+    \draw[sLoss] (axis cs:0.3,35) -- (axis cs:12.7,35);
+    \node[note, anchor=south east] at (axis cs:12.6,35.2) {ردهٔ مشخص‌شده};
+    \node[note, anchor=north, text=cLoss] at (axis cs:7,31.3) {F07};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

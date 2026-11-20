@@ -1,0 +1,6 @@
+hourly wind speed at 100 m, Plant P Reference Data Pack 1.0.0, scenario S0
+    (no-BESS):
+  n 8760, mean 7.103, std 3.529, min 0.19, Q1 4.45, median 6.75, Q3 9.41, max
+    24.28 m/s
+  skewness 0.519 (> 0: long tail of strong winds; median < mean)
+GHI in daylight hours (> 0): n 4569, mean 426.2, median 415.6, max 1042.6 W/m2

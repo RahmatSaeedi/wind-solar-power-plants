@@ -1,0 +1,11 @@
+a tank shipped without oil, filled with dry air (teaching):
+  departure 0.25 bar(g) at 30 C; readings on arrival:
+  arrival     expected bar(g)   measured bar(g)   lost   verdict
+     10 C             0.167              0.16    0.6%   tight
+     10 C             0.167              0.12    4.0%   leak: check dew point
+     -5 C             0.104              0.11   -0.5%   tight
+  a pressure that falls because the tank cooled is not a leak;
+  only the drop beyond the gas law says air left - and moist
+  air may have come in: the dew point of the gas and the
+  maker's assessment decide whether extra drying is needed
+  before oil filling (evidence for the arrival record)

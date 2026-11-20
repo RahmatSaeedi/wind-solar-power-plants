@@ -1,0 +1,8 @@
+'avoided emissions' of 255,000 MWh a year depend on what is displaced
+  low (gas margin)         0.40 t/MWh ->   102,000 t a year
+  central (grid average)   0.55 t/MWh ->   140,250 t a year
+  high (oil margin)        0.75 t/MWh ->   191,250 t a year
+  a factor of 1.9 between the cases: a claim
+  states its displaced source, its method and its uncertainty,
+  is kept apart from the plant's own footprint, and is never
+  added to it (ch 33 safeguard)

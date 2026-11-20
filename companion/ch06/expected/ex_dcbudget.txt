@@ -1,0 +1,8 @@
+string cable 4 mm2 Cu, 70 m one way: loop 0.6730 ohm; STC loss 115.7 W = 0.81
+    %; annual 103.9 kWh = 0.44 %
+string cable 6 mm2 Cu, 70 m one way: loop 0.4487 ohm; STC loss 77.1 W = 0.54
+    %; annual 69.3 kWh = 0.29 %
+feeder 240 mm2 Al: STC 1.37 %; annual 0.74 %
+feeder 400 mm2 Al: STC 0.82 %; annual 0.45 %
+base case (4 mm2 + 240 mm2): STC 2.18 %, annual 1.18 % of DC energy
+plant DC energy (screening): 99.3 GWh/yr; loss 1173 MWh/yr

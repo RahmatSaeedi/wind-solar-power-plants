@@ -1,0 +1,14 @@
+classical eddy-current loss p = pi^2 sigma t^2 f^2 B^2 / (6 rho),
+  B 1.5 T, sigma 2 MS/m (A-118):
+  sheet 0.35 mm at 50.00 Hz:   0.30 W/kg
+  sheet 0.35 mm at 57.75 Hz:   0.40 W/kg
+  sheet 0.50 mm at 50.00 Hz:   0.60 W/kg
+  sheet 0.50 mm at 57.75 Hz:   0.81 W/kg
+  sheet 1.00 mm at 50.00 Hz:   2.42 W/kg
+  sheet 1.00 mm at 57.75 Hz:   3.23 W/kg
+  a solid 20 mm plate (formula far outside its range): 968 W/kg
+loss grows with thickness squared: cores are stacks of thin,
+  insulated sheets. This is only the classical eddy part:
+  hysteresis (about proportional to f) and excess losses make
+  the measured total several times larger; data sheets give
+  the total in W/kg at stated B and f

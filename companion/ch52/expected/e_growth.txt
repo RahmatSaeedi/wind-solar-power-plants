@@ -1,0 +1,7 @@
+PV inverter fleet: failure times in the first year (hours of operation)
+  150, 420, 700, 1,100, 1,900, 2,600, 3,900, 5,600, 7,900
+  Crow-AMSAA slope 0.57 (below 1: failures thinning out);
+  first half-year 7, second 2
+  a repairable fleet has a failure intensity in time, not a
+  life: early failures (ch 40 infant mortality) dominate the
+  first year, so the year-one rate overstates year five

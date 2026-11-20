@@ -1,0 +1,11 @@
+link T05-T06 event table at two wavelengths (teaching)
+  event       km     1310 nm dB   1550 nm dB   reading
+  connector  0.00         0.45         0.42   -
+  splice     0.18         0.06         0.05   -
+  splice     0.41         0.08         0.07   -
+  event      0.52         0.12         0.94   bend
+  connector  0.71         0.48         0.45   -
+  a bend at 0.52 km: a splice loses about the same at both
+  wavelengths, a tight bend loses far more at 1550 nm - the
+  1.5 dB excess of lesson B is a cable squeezed in a tray, not
+  a dirty connector; cleaning would not have fixed it

@@ -1,0 +1,14 @@
+supply-chain lead times against the building plan (months):
+  item                           lead  needed  early order
+  main transformers 2 x 63 MVA     24      12     12 before close
+  wind turbines (12)               18      10      8 before close
+  HV switchgear                    15      10      5 before close
+  battery containers               10      12      0 before close
+  PV inverters                      9       8      1 before close
+  PV modules                        6       6      0 before close
+  reservation payments at risk before close (10 %): 6,150 k u
+  transformers, turbines and switchgear must be reserved
+  before financial close or the plan slips: the developer
+  spends at risk, or the lenders accept a later COD; the
+  makers' slots and lead times are evidence for the
+  financeability gate, not a factory process design

@@ -1,0 +1,9 @@
+assembling the main crane's boom (teaching configuration)
+  main boom and luffing jib laid out: about 140 m long
+  assembly strip needed: boom length + 20 m, 12 m wide
+  area 1,920 m2, flat within 1 %, cleared of obstacles
+  assist crane for the boom sections: 100 t class
+  days to assemble 4, to dismantle 3 (included in the moves)
+  the strip is part of the first pad's layout and the last
+  pad's too: where the land, the slope or a cable route does
+  not allow it, the crane cannot be built there

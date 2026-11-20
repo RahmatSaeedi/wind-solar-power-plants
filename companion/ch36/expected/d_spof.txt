@@ -1,0 +1,9 @@
+single points of failure of the synthetic topology
+  node        cuts the control zone off from
+  FW-PAIR     dmz, business
+  SW-CORE-A   field-pv, field-bes
+  the turbine and substation zones have two core switches;
+  PV and battery hang on core A alone - a finding, because
+  the battery's control path should not depend on one box;
+  the firewall pair is the only way to the DMZ, which is
+  accepted (lesson B): the plant runs without the DMZ

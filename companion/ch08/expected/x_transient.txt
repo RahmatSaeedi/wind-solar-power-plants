@@ -1,0 +1,10 @@
+three-phase fault at the terminals of the backup generator (A-113, A-123):
+  t     0 ms: symmetrical RMS  8.33 pu =   2406 A
+  t    20 ms: symmetrical RMS  6.49 pu =   1873 A
+  t   100 ms: symmetrical RMS  4.10 pu =   1184 A
+  t   500 ms: symmetrical RMS  1.72 pu =    496 A
+  t  1000 ms: symmetrical RMS  0.78 pu =    224 A
+  steady state 1/x_d = 0.40 pu: below rated current;
+  the AVR forces the field up and holds a few pu for a while,
+  so protection can see the fault (chapter 26)
+  DC offset decays with T_a = 40 ms (chapter 7)

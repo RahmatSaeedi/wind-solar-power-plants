@@ -1,0 +1,6 @@
+aviation screening (tip height 175 m above ground):
+  W1 ridge (1 row)   highest tip   1437 m above sea level
+  W2 plain (2 rows)  highest tip   1376 m above sea level
+  the obstacle evaluation, marking and lighting are the aviation
+  authority's (chapters 55-57); radar and radio-link checks are
+  asked of their operators early, before the layout is frozen

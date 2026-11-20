@@ -1,0 +1,6 @@
+value of measuring better (lab D: +1.59 GWh of one-year P90):
+  sigma 14.99 -> 13.75 GWh; debt 79,287 -> 79,930 k u (+643 k u)
+  about 405 k u of debt per GWh of P90 while the P90 1y case binds
+  (= 50 k u per GWh / 1.20 x annuity factor 9.712)
+  set against the cost of a second mast year, a lidar campaign
+  and a cleaning routine, and against the delay to financing

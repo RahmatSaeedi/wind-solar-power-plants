@@ -1,0 +1,13 @@
+% Chapter 27 - a recorded active-power oscillation dying away (ringdown, synthetic): 0.8 Hz, damping
+% ratio 0.06; data diagrams/data/ch27-ringdown.csv from companion/ch27/examples_t.py ringdown().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=10, ymin=-3.2, ymax=3.2,
+      xlabel={زمان $(\text{s})$}, ylabel={انحرافِ توانِ فعال $(\text{MW})$}, xmajorgrids=true]
+    \addplot[sWind] table[x=t, y=p, col sep=comma] {data/ch27-ringdown.csv};
+    \addplot[sLimit, domain=0:10, samples=60] {3*exp(-0.06*2*pi*0.8*x)};
+    \addplot[sLimit, domain=0:10, samples=60] {-3*exp(-0.06*2*pi*0.8*x)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

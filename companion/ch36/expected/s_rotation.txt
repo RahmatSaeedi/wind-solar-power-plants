@@ -1,0 +1,13 @@
+rotating secrets: number, interval and hours each (teaching)
+  secret                 count   every d   h each   h a year by hand
+  service accounts          40       365     0.50                 20
+  device local admin       150       365     0.25                 38
+  vendor break-glass        12        90     0.50                 24
+  certificates              60       730     1.00                 30
+  by hand 112 hours a year - about 0.07 of a person;
+  the hours are small, the risk is the rotation forgotten:
+  262 secrets on four calendars are rotated late when the
+  one person who knows is away. A vault that rotates the
+  service and local accounts itself leaves only the
+  break-glass and certificate work, and makes each
+  rotation a record instead of a memory

@@ -1,0 +1,7 @@
+E01 1,500 bytes at 100 Mbit/s: 0.120 ms
+E02 200 messages/s of 100 bytes on 1 Mbit/s: 16 %
+E03 10 meters, 8 + 25 bytes, 9600 bit/s, 10 ms: 0.38 s
+E04 fibre 5 km, 4 splices, 2 connectors: 6.15 dB
+E05 hosts in a /26: 62
+E06 3,600 points changing twice an hour: 2.0 messages/s
+E07 availability 0.9999: 4 nines

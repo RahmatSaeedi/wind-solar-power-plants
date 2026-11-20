@@ -1,0 +1,18 @@
+is this secondary-injection sheet evidence? (fields of a test record)
+  relay tag                          present
+  setting file and checksum          present
+  firmware version                   MISSING
+  test set and serial                present
+  calibration date of the test set   MISSING
+  results for every point            present
+  acceptance band                    present
+  tester                             present
+  witness                            MISSING
+  date                               present
+  deviations and their closure       present
+  missing: 3 - firmware version, calibration date of the test set, witness
+  without the firmware version the test may be of another
+  relay's logic; without the test set's calibration the
+  numbers have no anchor; without a witness the operator
+  may not accept it - and an open deviation means the record
+  is not closed; the record is evidence only when complete

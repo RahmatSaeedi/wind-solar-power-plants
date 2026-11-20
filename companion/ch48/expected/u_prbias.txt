@@ -1,0 +1,12 @@
+a biased plane-of-array sensor and the PR test (true PR 0.82, guarantee 0.81)
+  sensor bias   reported PR   guarantee
+          -2%         0.837   met
+          -1%         0.828   met
+          +0%         0.820   met
+          +1%         0.812   met
+          +2%         0.804   MISSED
+  the PR divides by the measured irradiance: a sensor reading
+  2 % high takes 1.6 points off the PR and fails a plant that
+  meets its guarantee - a guarantee test is
+  only as good as its sensor's certificate, which is why the
+  test protocol names the sensors and their calibrations (ch 37)

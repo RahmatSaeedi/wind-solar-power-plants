@@ -1,0 +1,7 @@
+failures of the new PV inverter fleet in its first year (synthetic)
+  11 failures; Crow-AMSAA slope beta = 0.38
+  beta below 1: failures come further apart as the fleet
+  settles - early defects being removed (ch 48, 50); a
+  beta near 1 would mean a steady rate, above 1 wear-out.
+  The slope separates a young plant settling from a plant
+  getting worse

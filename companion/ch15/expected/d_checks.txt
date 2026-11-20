@@ -1,0 +1,9 @@
+unit and energy-balance checks (model 15.1):
+  settings hash af78d930fe5b (sha-256 of the settings, first 12 characters)
+  8760 hourly values per series; energy = sum of MW x 1 h
+  PV below zero: 0 h; net above the 100 MW limit: 0 h
+  wind capacity factor at MV 0.367; PV (AC) 0.247
+  plant capacity factor at the POC 0.337
+  every output file carries the model version and this hash:
+  the same settings give the same numbers, and a reviewer can
+  see which settings made which report

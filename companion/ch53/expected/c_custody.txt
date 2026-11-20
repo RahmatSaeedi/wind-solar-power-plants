@@ -1,0 +1,10 @@
+hazardous loads: shipped against received (t), tolerance 2 %
+  transformer oil T1         18.0   17.9
+  transformer oil T2         18.0   18.0
+  unit transformer oil       25.0   24.8
+  gearbox oil                14.4   11.2  CHECK
+  battery modules lot 1     120.0  120.0
+  battery modules lot 2     120.0  119.6
+  1 load(s) to check: gearbox oil - 3.2 t missing
+  between the site and the receiver; until the transfer notes
+  reconcile, the closure evidence is not complete

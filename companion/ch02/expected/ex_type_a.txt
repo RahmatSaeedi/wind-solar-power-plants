@@ -1,0 +1,4 @@
+ten readings of one string current, same conditions (synthetic), A:
+  10.43, 10.47, 10.38, 10.42, 10.40, 10.39, 10.37, 10.39, 10.42, 10.41
+mean 10.408 A; s = 0.0290 A; u(mean) = s / sqrt(10) = 0.0092 A
+degrees of freedom 9; t-factor for 95 % = 2.262; U = 0.021 A

@@ -1,0 +1,7 @@
+frequency at the POC for a week (synthetic 10-s means)
+  standard deviation 72 mHz; 99.5 % of values within +/- 200 mHz
+  outside the 0.2 Hz deadband: 0.50 % of the time
+  the droop service acts rarely here, so its energy cost is
+  small; on a smaller, weaker system the same deadband is
+  crossed far more often - the service's cost and its
+  testing depend on the grid it serves

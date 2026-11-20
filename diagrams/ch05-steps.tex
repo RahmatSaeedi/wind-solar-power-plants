@@ -1,0 +1,18 @@
+% Chapter 5 - the program construction sequence: five steps, each adding one capability and
+% one kind of test (companion/ch05/step1_convert.py ... resource_tool/).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{stp/.style={blk, minimum width=34mm, minimum height=13mm, font=\footnotesize, align=center}}
+  \node[stp] (s1) at (0,0) {۱. مبدّلِ یکا\\خطِ فرمان، نگهبانِ بُعد};
+  \node[stp] (s2) at (3.9,1.0) {۲. خوانندهٔ معتبرِ \texttt{CSV}\\همهٔ ایرادها را می‌گوید};
+  \node[stp] (s3) at (7.8,2.0) {۳. تابع‌های محض\\محاسبه بی‌ورودی و خروجی};
+  \node[stp] (s4) at (11.7,3.0) {۴. پیکربندی و خروجیِ ساختاری\\ورودیِ \texttt{YAML}، خروجیِ \texttt{JSON}};
+  \node[blkBESS, minimum width=34mm, minimum height=13mm, font=\footnotesize, align=center] (s5) at (15.6,4.0) {۵. بسته با خطِ فرمان\\مستند، آزموده، تکرارپذیر};
+  \foreach \a/\b in {s1/s2, s2/s3, s3/s4, s4/s5} {\draw[flow] (\a.east) -- (\b.west);}
+  \foreach \s/\t in {s1/{آزمونِ مقدارهای معلوم}, s2/{پرونده‌های خراب}, s3/{محاسبهٔ دستی}, s4/{پیکربندیِ نادرست}, s5/{بازگشت و تکرارپذیری}}
+    {\node[note, anchor=north] at ([yshift=-1mm]\s.south) {\t};}
+  \draw[cInkB, -{Stealth[length=2mm]}] (-1.9,-1.6) -- (17.5,-1.6);
+  \node[note, anchor=north] at (7.8,-1.7) {هر گام برنامهٔ پیشین را نگه می‌دارد و فقط یک مهارتِ تازه می‌افزاید};
+\end{tikzpicture}}
+\end{document}

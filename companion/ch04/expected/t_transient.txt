@@ -1,0 +1,6 @@
+copper busbar 80 x 10 mm: rho c A = 2760 J/(K m), h A = 1.8 W/(K m)
+  thermal time constant C / (h A) = 1533 s = 25.6 min
+  step from 1500 A (72.4 C) to 2500 A (steady 154.0 C), RK4:
+  10 min 92.1 C; 30 min 118.4 C; 60 min 138.4 C
+  short overloads are carried by the thermal mass; a rating for continuous
+    current is not a rating for a 10-minute overload, and the reverse

@@ -1,0 +1,10 @@
+hot-dip zinc on PV posts by lot (teaching rule: mean >= 85 um,
+  each reading >= 70 um)
+  lot    steel mm   mean um   lowest um   verdict
+  Z-01        4.0      98.0          88   ok
+  Z-02        4.0      72.6          66   REJECT
+  Z-03        6.0     107.1          98   ok
+  rejected: Z-02 - posts from it would lose their zinc
+  years early in the site's aggressive soil (ch 30 zinc life);
+  the lot is re-galvanized or used where the soil is mild,
+  decided by the designer, with the post numbers recorded

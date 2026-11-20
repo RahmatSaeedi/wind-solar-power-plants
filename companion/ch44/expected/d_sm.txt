@@ -1,0 +1,23 @@
+functional test sequence against the simulated start-up (non-live)
+  case                           expected   v1.0      v0.9
+  normal start                   RUN        RUN       RUN
+  precharge too slow             FAULT      FAULT     PRECHARGE
+  DC overvoltage                 FAULT      FAULT     FAULT
+  grid lost in run               FAULT      FAULT     FAULT
+  reset without cause cleared    FAULT      FAULT     FAULT
+  reset after cause cleared      OFF        OFF       OFF
+  run before sync refused        READY      READY     READY
+  boundary: DC exactly 850 V     READY      READY     READY
+  boundary: DC 849.9 V           PRECHARGE  PRECHARGE PRECHARGE
+  boundary: DC exactly 1300 V    READY      READY     READY
+  boundary: precharge 10 s       PRECHARGE  PRECHARGE PRECHARGE
+  DC overvoltage in run          FAULT      FAULT     FAULT
+  v1.0 passes 12 of 12; v0.9 passes 11, failing: precharge too slow
+  the missing timeout leaves a slow precharge charging for
+  ever, which only a test that injects the fault can show;
+  the boundary cases pin the limits to the released values;
+  the test list is part of the release record of every
+  firmware version
+  transition log of 'precharge too slow' (from, to, reason):
+    v1.0: OFF->PRECHARGE (start); PRECHARGE->FAULT (precharge timeout)
+    v0.9: OFF->PRECHARGE (start)

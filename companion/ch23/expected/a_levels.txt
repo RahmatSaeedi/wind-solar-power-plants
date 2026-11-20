@@ -1,0 +1,13 @@
+current at each voltage level (unity power factor):
+  where                     MVA      kV        A    loss vs 33 kV
+  PV inverter output          5.0    0.60    4,811     3,025.00 x
+  turbine converter           5.0    0.69    4,184     2,287.33 x
+  station service board       0.5    0.40      722     6,806.25 x
+  PV feeder (4 blocks)       20.0   33.00      350         1.00 x
+  33 kV bus section          65.0   33.00    1,137         1.00 x
+  export at 132 kV          100.0  132.00      437         0.06 x
+  (last column: loss in the same conductor relative to 33 kV for
+  the same power, I^2 R with I = S / (sqrt 3 U))
+  5 MW at 0.6 kV is 4,811 A - a busbar, not a cable run; the
+  same 5 MW at 33 kV is 87 A: each level is the cheapest way
+  to carry its power the distance it has to go

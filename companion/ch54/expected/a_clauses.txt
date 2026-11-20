@@ -1,0 +1,13 @@
+12 pieces of one grid-code extract, by kind
+  normative          5
+  note               1
+  recommendation     1
+  permission         1
+  example            1
+  informative annex  1
+  normative annex    1
+  statement          1
+  binding (normative text and normative annex): 6 of 12
+  normative but vague: 7.2, 9.1 ('as appropriate',
+  'adequate') - binding words with no number: each needs a
+  written interpretation before design can verify it

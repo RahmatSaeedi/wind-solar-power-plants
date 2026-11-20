@@ -1,0 +1,13 @@
+collector string WS1 at full output, 4 x 5 MW, 33 kV, pf 0.95, conductor 70 C
+  segment  mm2   length m   current A   loss kW   drop %
+  W001     630        850         368      19.5    0.140
+  W002     400        970         276      20.8    0.172
+  W003     240       1090         184      16.7    0.188
+  W004     240       1210          92       4.6    0.105
+  total loss 62 kW (0.31% of 20 MW); drop to the far turbine 0.61 %
+  the two segments nearest the switchgear make 65% of the
+  loss (largest W002); their larger sections keep it from
+  growing with the square of the current - the grading of ch 24
+  - the schedule's slip of W004 (1.21 'm') was put back to
+  1,210 m before this sum; with the slip the loss would be
+  computed on a cable a thousand times too short

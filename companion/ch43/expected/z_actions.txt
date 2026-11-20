@@ -1,0 +1,14 @@
+what T1 changes before T2 is built (corrective actions)
+  finding on T1                  action before T2
+  tap lead on the wrong tapping  second check of tap leads against the drawing
+    evidence: ratio at every tap on T2
+  winding rise over guarantee    cooling margin reviewed; ducts checked
+    evidence: heat run of T2 read by the cooling curve
+  PD over the limit              drying end point witnessed
+    evidence: PD of T2, drying record
+  acetylene after the heat run   joint records reviewed; brazing qualified
+    evidence: DGA before and after T2's heat run
+  records missing                traveler holds on burr, drying, recorder
+    evidence: complete traveler
+  5 actions, each with the evidence that shows it worked on
+  T2 - the 8D logic of ch 40 applied to a series of two

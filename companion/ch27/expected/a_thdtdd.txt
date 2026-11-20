@@ -1,0 +1,13 @@
+THD against TDD for one PV inverter (harmonic currents roughly
+  fixed in amperes, as many converters behave; teaching):
+  output   fundamental A   THD     TDD
+      5%             265   32.7%    1.6%
+     10%             529   16.3%    1.6%
+     30%            1588    5.4%    1.6%
+     60%            3175    2.7%    1.6%
+    100%            5292    1.6%    1.6%
+  at a cloudy dawn the THD looks alarming while the harmonic
+  amperes - and their effect on the network voltage - are the
+  same as at noon: a limit stated against the demand current
+  (TDD) or in amperes judges the plant fairly; a report that
+  quotes THD at low power must say so

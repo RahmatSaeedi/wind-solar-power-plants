@@ -1,0 +1,10 @@
+emergency readiness before operational handover (2028-04-01)
+  roles without a name: incident controller (night)
+  contacts not verified in the last 90 days:
+    hospital: 151 days
+    police: 108 days
+  drills not yet done: casualty at a PV block, night, loss of communications
+  the plant changes hands with its emergency plan working:
+  a night with no incident controller, a hospital number
+  nobody has rung since November and an untested night
+  casualty drill are three reasons to wait (ch 32)

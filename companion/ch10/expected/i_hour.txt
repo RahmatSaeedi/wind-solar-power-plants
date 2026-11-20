@@ -1,0 +1,8 @@
+one module at 13:00 on 23 June (data pack 1.1.0, S0):
+  GHI 980 W/m2 -> POA 961 (beam 796, sky 156, ground 9)
+  after incidence losses 948 W/m2; air 37.4 C, wind at 2 m 2.8 m/s
+  Faiman cell temperature 59.3 C
+  single-diode model: 464.9 W at 37.11 V (string 965 V)
+  linear rule P_stc G (1 + gamma dT): 459.1 W; chapter 9 model 458.0 W
+  the three agree within a few per cent at this hour; the diode
+  model also gives the voltage the inverter window needs

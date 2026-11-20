@@ -1,0 +1,8 @@
+blade fatigue test at resonance, 0.7 Hz (teaching)
+  2e+06 cycles take 33 days of running
+  load raised 1.15 x with S-N slope m = 10 (composite):
+  equivalent to 8.09e+06 cycles at the design load (4.0 x)
+  a steep S-N slope lets a little more load stand for many
+  more cycles - and the same steepness means a small load
+  error makes a large life error; the test load is measured,
+  not set

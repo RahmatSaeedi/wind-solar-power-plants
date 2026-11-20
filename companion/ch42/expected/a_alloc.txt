@@ -1,0 +1,19 @@
+downtime a turbine-year from failure rates and repair times
+  (teaching; repair time includes waiting, ch 37)
+  subsystem                 per year   hours each   hours down
+  pitch system                 0.600           12          7.2
+  converter                    0.400           16          6.4
+  control and sensors          0.800            6          4.8
+  yaw system                   0.200           20          4.0
+  generator (minor)            0.150           30          4.5
+  gearbox (minor)              0.200           24          4.8
+  hydraulics and brakes        0.250           10          2.5
+  gearbox replacement          0.015          900         13.5
+  main bearing                 0.010          800          8.0
+  generator replacement        0.010          500          5.0
+  blade replacement            0.005         1200          6.0
+  total 67 h: availability 99.24%; the four major
+  replacements are 49% of the downtime from 0.04 events a year
+  frequent small faults and rare big ones need different
+  answers: spares and access for the first, crane plans and
+  component quality for the second

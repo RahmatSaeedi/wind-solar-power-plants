@@ -1,0 +1,10 @@
+revenue of a year under three structures (k u, 2,000 draws):
+  structure                          mean     P10     spread %
+  pay-as-produced 70 u               20,619  19,287        5.1
+  fixed volume 280 GWh at 66 u       19,062  18,301        3.2
+  merchant (price falls when windy)  14,721  10,947       20.7
+  (fixed volume: shortfall bought and surplus sold at 40 u)
+  pay-as-produced leaves the resource risk with the owner;
+  a fixed volume moves it to the owner's balancing, and a
+  merchant revenue adds price risk; lenders size debt on the
+  P90 of the revenue the structure leaves (section F)

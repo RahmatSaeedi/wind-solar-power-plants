@@ -1,0 +1,11 @@
+how long an unusual event goes unseen (teaching)
+  logs read           mean days to notice   worst days
+  every day                           0.5            1
+  every week                          3.5            7
+  every month                        15.0           30
+  only after a fault                 90.0          180
+  a log nobody reads protects nobody: the few events that
+  matter (logins and changes on controllers, new devices,
+  rule hits on the deny rule) are read every day, by a
+  named person, and the rest are kept for when a question
+  is asked

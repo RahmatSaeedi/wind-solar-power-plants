@@ -1,0 +1,8 @@
+relative air density delta = (p / 1013.25) (293.15 / T) at the Plant P
+    station:
+  mean 0.877, lowest 0.807 (hot summer afternoon)
+  first order, the flashover voltage of an air gap scales with delta: about 19
+    % lower
+  equipment rated for sea level is checked, and clearances corrected, for the
+    site altitude by the methods of the governing standards (chapters 24 and
+    25)

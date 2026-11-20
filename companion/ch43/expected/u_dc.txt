@@ -1,0 +1,8 @@
+DC from the inverters into the PV unit transformer (0.5% of rated, teaching)
+  LV current 5,389 A: DC 27 A x 16 turns = 431 A-turns
+  the core needs about 161 A-turns (peak) to magnetise
+  the DC is 2.7 x that: the flux sits off-centre and
+  saturates every half cycle - noise, heating and harmonics;
+  why grid codes and inverter makers limit DC injection, and
+  why the unit transformer's specification names the limit
+  the inverters meet (ch 9, ch 27)

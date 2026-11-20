@@ -1,0 +1,37 @@
+% Chapter 2 — conformity decision with a guard band: guaranteed efficiency >= 98.5 %,
+% expanded uncertainty U = 0.28 percentage points. Values: companion/ch02/expected/ex_conformity.txt.
+% Guarded rule: accept if eta - U >= 98.5 (eta >= 98.78); reject if eta + U < 98.5 (eta < 98.22).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize, x=10cm]
+  % zones (x = 10 cm per percentage point, origin at 97.6 %)
+  \fill[cLoss!10]  (0,0) rectangle ({98.22-97.6},3.2);
+  \fill[cGridline] ({98.22-97.6},0) rectangle ({98.78-97.6},3.2);
+  \fill[cBESS!12]  ({98.78-97.6},0) rectangle ({99.3-97.6},3.2);
+  \node[text=cInk, align=center] at ({97.9-97.6},2.8) {\textbf{ردِ قطعی}\\کلِ بازه زیرِ حد};
+  \node[text=cInk, align=center] at ({98.5-97.6},2.65) {\textbf{نامعین}\\بازه حد را قطع می‌کند};
+  \node[text=cInk, align=center] at ({99.05-97.6},2.8) {\textbf{پذیرشِ قطعی}\\کلِ بازه بالای حد};
+  % axis
+  \draw[cInkB, line width=0.7pt] (0,0) -- ({99.3-97.6},0);
+  \foreach \v in {97.6,97.8,98.0,98.2,98.4,98.6,98.8,99.0,99.2} {
+    \draw[cInkB] ({\v-97.6},0) -- ({\v-97.6},-0.1);
+    \node[text=cMuted, anchor=north] at ({\v-97.6},-0.12) {$\v$};
+  }
+  \node[text=cInkB, anchor=north] at ({98.45-97.6},-0.6) {بازدهِ اندازه‌گیری‌شدهٔ اینورتر (درصد)};
+  % specification limit and the two decision limits
+  \draw[cLoss, line width=1.2pt] ({98.5-97.6},0) -- ({98.5-97.6},3.25);
+  \node[text=cInk, anchor=south] at ({98.5-97.6},3.25) {حدِ تضمین $98.5$};
+  \draw[cInk, line width=0.7pt, dash pattern=on 4pt off 2pt] ({98.78-97.6},0) -- ({98.78-97.6},3.2);
+  \draw[cInk, line width=0.7pt, dash pattern=on 4pt off 2pt] ({98.22-97.6},0) -- ({98.22-97.6},3.2);
+  \node[text=cInkB, anchor=south west, font=\scriptsize] at ({98.785-97.6},0.03) {$98.78$};
+  \node[text=cInkB, anchor=south east, font=\scriptsize] at ({98.215-97.6},0.03) {$98.22$};
+  % three tests with +-U bars
+  \foreach \n/\y/\v/\verdict in {T3/0.75/98.10/{رد}, T1/1.35/98.40/{نامعین}, T2/1.95/98.80/{پذیرش}} {
+    \draw[cInk, line width=0.9pt] ({\v-0.28-97.6},\y) -- ({\v+0.28-97.6},\y);
+    \draw[cInk, line width=0.9pt] ({\v-0.28-97.6},\y-0.1) -- ({\v-0.28-97.6},\y+0.1);
+    \draw[cInk, line width=0.9pt] ({\v+0.28-97.6},\y-0.1) -- ({\v+0.28-97.6},\y+0.1);
+    \node[circle, fill=cInk, inner sep=1.7pt] at ({\v-97.6},\y) {};
+    \node[text=cInk, anchor=west, fill=white, inner sep=1pt] at ({\v+0.3-97.6},\y) {$\text{\n}$: \verdict};
+  }
+\end{tikzpicture}}
+\end{document}

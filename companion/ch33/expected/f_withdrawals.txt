@@ -1,0 +1,12 @@
+who takes water from the aquifer (m3 a year, teaching)
+  village households (50 x 100 L/day)                1,825
+  livestock (600 animals x 40 L/day)                 8,760
+  farms 1 and 2 (irrigation, teaching)               9,000
+  plant operation (ch 29)                            2,986
+  construction, per year of 18 months (ch 29)       58,307
+  estimated recharge (20 km2, 120 mm, 3 %):    72,000
+  total in operation 22,571 (31 % of recharge); in construction 80,878 (112 %)
+  in operation the plant is a small user beside the village
+  and its animals; in construction the dust water alone
+  would take most of the recharge - which is why it is
+  trucked in or replaced (ch 29), never pumped locally

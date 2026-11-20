@@ -1,0 +1,9 @@
+the 50-year daily maximum temperature with and without the record's trend
+  trend in the record: +0.54 C per decade
+  fitted as if stationary:             46.6 C
+  with the trend, today:               47.2 C
+  with the trend, 25 years on (end of life):  48.5 C
+  a design value taken from the whole record as if the
+  climate stood still is low for the plant's later years;
+  the design basis states the scenario it assumes (teaching
+  here; climate projections are a specialist input)

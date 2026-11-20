@@ -1,0 +1,8 @@
+the 110 V control battery (ch 23) and its circuits:
+  internal 0.025 ohm + cable 0.010 ohm -> fault current 3.1 kA
+  direct current has no zero crossing: the breaker must be
+  rated to break DC at this voltage and current (AC ratings
+  do not apply); selectivity between the battery fuse and
+  the circuit breakers is checked like the AC board
+  each protection panel has its own DC circuit with
+  supervision - lesson B's independence of main and backup

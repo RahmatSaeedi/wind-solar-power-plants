@@ -1,0 +1,13 @@
+security requirements written into a purchase (teaching list)
+  requirement                                        basis
+  secure development process of the maker            STD-159
+  component security capabilities declared           STD-160
+  integrator's and service provider's programme      STD-161
+  security notices and patches for N years           contract
+  list of software components and versions           contract
+  signed firmware; hashes published                  contract
+  no default passwords; unique per device            contract
+  remote access only through the owner's path        contract
+  what is not asked for in the purchase is hard to get
+  later; each requirement is tested in the factory test
+  or checked on delivery, not trusted from a brochure

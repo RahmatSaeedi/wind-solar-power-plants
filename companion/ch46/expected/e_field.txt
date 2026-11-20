@@ -1,0 +1,12 @@
+field in the XLPE of the 33 kV cores, U0 = 19.05 kV, insulation 8.0 mm
+  size mm2   rc mm   ri mm   E at rc kV/mm   E at ri kV/mm   ratio
+       240    10.0    18.0            3.24            1.80    1.80
+       400    12.7    20.7            3.07            1.88    1.63
+       630    15.7    23.7            2.95            1.95    1.51
+  the field is highest at the conductor screen and falls as 1/r;
+  a thin spot of 7.1 mm on the 240 mm2 core raises the peak to 3.55 kV/mm
+  (+10%); with the same outer radius the lowest peak, 2.88 kV/mm,
+  would need rc = ri / e = 6.6 mm; the 33 kV cores sit at ri / rc
+  1.5-1.8, not e = 2.72: their conductor is set by the current
+  and their insulation by a minimum thickness, so the e-rule
+  matters for HV cables, where the insulation is thick

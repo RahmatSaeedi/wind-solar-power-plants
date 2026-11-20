@@ -1,0 +1,7 @@
+the 150 m farm energy with different shear assumptions:
+  by hour (basis)         222.12 GWh  (+0.00 %)
+  one exponent 0.232      221.85 GWh  (-0.12 %)
+  by hour - 0.03          218.17 GWh  (-1.78 %)
+  by hour + 0.03          226.06 GWh  (+1.77 %)
+  an error of 0.03 in the shear moves a 150 m hub by about
+  2 % of energy: the term a lidar to the hub removes

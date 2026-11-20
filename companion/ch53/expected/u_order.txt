@@ -1,0 +1,11 @@
+decommissioning works in order (records, not a method statement)
+  1. isolate and earth all circuits under permits (ch 32, ch 50 in reverse)
+  2. drain and recover oils and gas (licensed contractors)
+  3. remove batteries (dangerous goods)
+  4. dismantle turbines (crane campaign) and PV fields
+  5. remove cables, substation and foundations to the agreed depth
+  6. restore the ground and start the monitoring
+  7. hand the land back on the monitoring record
+  each step ends with its record - an isolation certificate, a
+  transfer note, a receiver's certificate, a survey - and the
+  next step starts on that record (ch 49 hold points)

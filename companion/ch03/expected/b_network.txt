@@ -1,0 +1,9 @@
+nodal equations G v = i for three combiner boxes feeding a 1100 V bus
+G (S) =
+       150.00   -100.00      0.00
+      -100.00    223.33    -83.33
+         0.00    -83.33    150.00
+i (A) = 55314.6 44314.6 73621.7
+node voltages, Gaussian elimination: 1106.232, 1106.202, 1105.368 V
+node voltages, numpy.linalg.solve:   1106.232, 1106.202, 1105.368 V
+condition number of G: 6.26

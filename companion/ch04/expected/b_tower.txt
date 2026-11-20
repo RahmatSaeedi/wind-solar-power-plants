@@ -1,0 +1,8 @@
+tower base: steel tube D 5.0 m, t 40 mm (A-050)
+  A = 0.6233 m2, I = 1.917 m4, S = I / (D/2) = 0.767 m3
+  axial force (tower 494 t + top 350 t): 8.28 MN -> sigma_a = 13.3 MPa
+  bending moment 89.8 MN m (thrust example) -> sigma_b = M / S = 117.1 MPa
+  extreme fibres: 130.4 MPa compression, 103.8 MPa tension
+  against a yield strength of 355 MPa: utilisation 0.37 before safety factors
+  thin shells fail first by local buckling and by fatigue at welds (chapter
+    30)

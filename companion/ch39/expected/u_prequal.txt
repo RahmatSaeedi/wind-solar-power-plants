@@ -1,0 +1,12 @@
+prequalification: floors that every bidder must meet
+  (current ratio, references, capacity of 3 x our order in
+  MVA a year, quality system, recordable injury rate)
+  U-A  qualified
+  U-B  qualified
+  U-C  qualified
+  U-D  out: current_ratio, iso9001
+  U-D is not invited to bid; U-B passes every floor by a
+  hair - the audit of lesson D later finds its process
+  control below the floor. Floors are pass/fail before any
+  price is opened: a low price cannot buy back a weak
+  balance sheet; U-C's small capacity is checked next

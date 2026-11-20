@@ -1,0 +1,12 @@
+radiant heat from one battery container to the next (screen only)
+  PLACEHOLDER heat release 4 MW, radiant 0.35 (point source)
+  gap m   flux kW/m2
+    1.5         12.4
+    3.0          5.5
+    6.0          2.0
+   10.0          0.8
+  at a close gap the point source is useless (the flame is
+  bigger than the gap): spacing or barriers between
+  containers come from the product's large-scale fire test
+  and the authority (ch 19, UL 9540A), never from a screen
+  like this one, which only shows why the gap matters

@@ -1,0 +1,15 @@
+tracker row R-17: torque tube surveyed every 6 m over 60 m
+  largest offset from the chord 18.7 mm at 30 m (teaching limit 12 mm)
+  slew drives at end of line (backlash limit 0.15 deg):
+    SD-301  0.08 deg  pass  lubricant L-7  ok
+    SD-302  0.09 deg  pass  lubricant L-7  ok
+    SD-303  0.21 deg  pass  lubricant L-8  backlash 0.21 deg
+    SD-304  0.07 deg  pass  lubricant L-7  ok
+    SD-305  0.08 deg  -     lubricant L-8  holding test missing
+    SD-306  0.10 deg  pass  lubricant L-8  ok
+  a bent tube puts the modules of one row at several angles and
+  loads the bearings sideways; a drive with large backlash lets
+  the row flutter in wind instead of holding its stow angle;
+  the drive with the large backlash and the one with no holding
+  record both used lubricant lot L-8 (so did SD-306, which
+  passed) - a question to the maker, not yet a verdict on the lot

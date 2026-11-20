@@ -1,0 +1,9 @@
+the year's energy from the turbine and inverter meters to the POC
+  meter (GWh; ch 15 losses and own use)
+  turbines 194.11 + PV 108.36 - losses 3.29 - own use 2.34 = 296.84
+  revenue meter 295.14: gap 1.70 GWh (0.58%)
+  explained by the chain's uncertainty: +/-2.29 GWh (turbine meters
+  1 %, inverter meters 0.5 %, revenue chain 0.35 %, loss model 10 %)
+  the gap is inside what the meters can explain - not a finding;
+  the largest term is the turbine meters: if the monthly gap
+  grows past it, they are the first to be checked (ch 37)

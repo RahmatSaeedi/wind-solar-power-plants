@@ -1,0 +1,44 @@
+% Chapter 23 - auxiliary AC architecture of Plant P (A-317): two 33/0.4 kV station-service
+% transformers (one per 33 kV section), LV board in two halves with a coupler, an ATS on the essential
+% half from a 150 kVA standby generator, UPS and DC chargers on the essential half.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    brk/.style={draw=cInk, fill=white, minimum size=2.6mm, inner sep=0pt},
+    tr/.style={draw=cInk, line width=0.7pt},
+    ld/.style={blk, minimum width=15mm, minimum height=10mm, text width=14mm, font=\scriptsize}]
+  % 33 kV sections
+  \draw[bus] (2.6,6.0) -- (5.6,6.0); \draw[bus] (8.4,6.0) -- (13.0,6.0);
+  \node[note] at (4.1,6.4) {شینهٔ $33\,\text{kV}$، بخشِ A};
+  \node[note] at (10.7,6.4) {شینهٔ $33\,\text{kV}$، بخشِ B};
+  \foreach \x/\k in {4.0/A1, 10.0/A2} {
+    \draw (\x,6.0) -- (\x,5.7); \node[brk] at (\x,5.57) {}; \draw (\x,5.44) -- (\x,5.15);
+    \draw[tr] (\x,4.92) circle (0.23) (\x,4.6) circle (0.23); \draw (\x,4.37) -- (\x,4.0);
+    \node[note, anchor=west] at (\x+0.35,4.76) {$\text{\k}$، $250\,\text{kVA}$};
+    \node[brk] at (\x,3.87) {}; \draw (\x,3.74) -- (\x,3.4);
+  }
+  % LV board, two halves
+  \draw[bus] (0.6,3.4) -- (6.9,3.4); \draw[bus] (7.5,3.4) -- (13.4,3.4);
+  \draw (6.9,3.4) -- (7.05,3.4); \node[brk] at (7.2,3.4) {}; \draw (7.35,3.4) -- (7.5,3.4);
+  \node[note] at (7.2,3.8) {کوپلر};
+  \node[note] at (2.6,3.8) {$0.4\,\text{kV}$، نیمهٔ ضروری};
+  \node[note] at (12.2,3.8) {$0.4\,\text{kV}$، نیمهٔ دیگر};
+  % generator and ATS
+  \draw (1.0,3.4) -- (1.0,4.3);
+  \node[draw=cInk, fill=white, minimum width=6mm, minimum height=4mm, inner sep=1pt, font=\scriptsize] at (1.0,4.5) {ATS};
+  \draw (1.0,4.7) -- (1.0,5.1); \draw (1.0,5.45) circle (0.35);
+  \draw (0.8,5.45) sin (0.9,5.55) cos (1.0,5.45) sin (1.1,5.35) cos (1.2,5.45);
+  \node[note, anchor=east] at (0.55,5.45) {مولد $150\,\text{kVA}$};
+  % essential loads
+  \foreach \x/\lab in {1.4/{$\text{UPS}$\\$33\,\text{kVA}$}, 3.1/{شارژرهای\\$\text{DC}$}, 4.8/{سرمایش و\\تهویه}, 6.4/{روشنایی و\\زهکشی}} {
+    \draw (\x,3.4) -- (\x,2.75); \node[brk] at (\x,2.62) {}; \draw (\x,2.49) -- (\x,2.2);
+    \node[ld, draw=cBESS, fill=cBESS!8] at (\x,1.65) {\lab};
+  }
+  % other loads
+  \foreach \x/\lab in {8.0/{فن‌های\\ترانسفورماتور}, 9.7/{آب و\\تصفیه}, 11.3/{ربات‌های\\شست‌وشو}, 12.9/{تعمیرگاه و\\رفاهی}} {
+    \draw (\x,3.4) -- (\x,2.75); \node[brk] at (\x,2.62) {}; \draw (\x,2.49) -- (\x,2.2);
+    \node[ld] at (\x,1.65) {\lab};
+  }
+  \node[note, text width=140mm] at (7.0,0.45) {سبز: بارهای ضروری روی نیمهٔ ضروری، از مولد در اضطرار؛ فن‌های ترانسفورماتور ضروری‌اند اما در اضطرار کار ندارند (نیروگاه تولید نمی‌کند)};
+\end{tikzpicture}
+\end{document}

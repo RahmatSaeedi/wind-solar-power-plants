@@ -1,0 +1,7 @@
+winding temperature from its resistance (copper, 234.5 K rule)
+  cold 15.20 mOhm at 20 C; hot 20.10 mOhm after the heat run
+  T_hot = R_hot / R_cold x (234.5 + T_cold) - 234.5 = 102.0 C
+  average rise 82.0 K (the hot spot is higher)
+  the resistance gives the winding's mean temperature, which
+  no sensor on the surface can: the heat run's record is how
+  the generator's thermal class margin is shown (lesson C)

@@ -1,0 +1,11 @@
+a reserve service (REQ-S01) as a SENSITIVITY, not committed revenue:
+  price u per MW-h   revenue k u   less lost shifting   equity IRR %
+                 6          43.8                 43.8          10.30
+                 9          65.7                 65.7          10.34
+                12          87.6                 87.6          10.38
+  base equity IRR 10.22 %
+  under a flat PPA the reserve displaces no shifting value, so
+  the whole fee is new money; under a time-of-day PPA it would
+  cost about 58 k u a year of shifting (chapter 20); a service
+  enters the lenders' case only with a signed contract,
+  qualification passed and penalties priced (U-077)

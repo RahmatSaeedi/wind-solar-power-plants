@@ -1,0 +1,11 @@
+DC/AC ratio with the POA model, 10 x 5 MW inverters (A-194):
+  DC/AC   MWp    DC GWh   clipped GWh   clipped %   AC GWh
+   1.00   50.0    96.35        0.000       0.00    94.79
+   1.10   55.0   105.99        0.024       0.02   104.23
+   1.20   60.0   115.62        0.763       0.67   112.94
+   1.30   65.0   125.26        3.293       2.67   119.85
+   1.40   70.0   134.89        7.139       5.39   125.42
+   1.50   75.0   144.53       12.049       8.49   129.92
+  Plant P's 1.20 clips about 0.7 %: the inverters are
+  full in the brightest hours and earn in all the others; the
+  best ratio comes from module and inverter prices (chapter 18)

@@ -1,0 +1,12 @@
+near misses as a learning source (construction, synthetic)
+  164 near misses against 11 recordable injuries (15 to 1)
+  dropped objects                            38
+  vehicle and plant movements                41
+  electrical isolation found incomplete       9
+  work at height                             22
+  housekeeping, slips and trips              33
+  heat stress symptoms                       21
+  the nine incomplete isolations caused no injury, but each
+  could have been fatal: a near miss is ranked by what it
+  could have done, not by what it did - those nine get a
+  full investigation and a fix to the permit system

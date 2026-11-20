@@ -1,0 +1,8 @@
+132 kV line faults of the first year
+  bird at T09 (transient)        reclosed
+  lightning at T14 (transient)   reclosed
+  vegetation T13-T18             locked out, restored after 410 min
+  insulator flashover T05        locked out, restored after 95 min
+  the two permanent faults cost 8.4 h of export;
+  the vegetation fault is the late patrol of lesson K: the
+  cheapest outage was the one the patrol would have prevented

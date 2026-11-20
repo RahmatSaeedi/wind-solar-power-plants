@@ -1,0 +1,12 @@
+competency matrix of a turbine maintenance crew (1 = current)
+  task                                 A  B  C  supervisor
+  work at height and rescue            1  1  1  1
+  electrical isolation (authorised)    1  0  1  1
+  lifting supervision                  0  0  1  1
+  confined space entry                 1  0  0  1
+  first aid                            1  1  0  1
+  every pair is current in height and rescue; an isolation
+  needs A, C or the supervisor; a hub entry (confined space)
+  needs two current people and only A and the supervisor are;
+  a lift needs C or the supervisor - the planner checks the
+  matrix, not names, and the gaps go into the training plan

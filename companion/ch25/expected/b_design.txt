@@ -1,0 +1,11 @@
+design dependencies a reviewer can check (simplified relations):
+  change                          effect
+  flux density B up 10 %          turns down 9 %, core loss up ~21 %
+  current density J up 10 %       copper section down 9 %, load loss up ~10 %
+  impedance up (more leakage)     fault current down, regulation up
+  turns up 10 % (same window)     leakage reactance up ~21 % (x ~ N^2)
+  cooling ONAN -> ONAF            rating up for the same active part
+  each choice moves cost, losses, impedance and size together;
+  the maker's design software balances them against the
+  specification - simplified equations show the direction,
+  not the design

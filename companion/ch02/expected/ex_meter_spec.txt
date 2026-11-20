@@ -1,0 +1,8 @@
+clamp meter, 600.0 A range, +-(1.5 % of reading + 5 digits), digit 0.1 A
+    (assumed spec)
+  reading  600.0 A: limit +- 9.50 A = +- 1.58 % of reading; u = 5.48 A
+  reading  343.0 A: limit +- 5.64 A = +- 1.65 % of reading; u = 3.26 A
+  reading  100.0 A: limit +- 2.00 A = +- 2.00 % of reading; u = 1.15 A
+  reading   34.3 A: limit +- 1.01 A = +- 2.96 % of reading; u = 0.59 A
+  reading   10.0 A: limit +- 0.65 A = +- 6.50 % of reading; u = 0.38 A
+  reading    3.0 A: limit +- 0.55 A = +-18.17 % of reading; u = 0.31 A

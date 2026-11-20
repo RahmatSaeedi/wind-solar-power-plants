@@ -1,0 +1,28 @@
+uncertainty budget of Plant P, net energy (sigma in GWh at MV;
+  P50 295.14 GWh at the POC, model 15.1, scenario S0):
+  component                            tech.   sigma   share
+  year-to-year (wind and PV, r 0.12)   future   9.51   38.5 %
+  long-term correction and period      wind     7.55   24.3 %
+  anemometer calibration, mounting     wind     4.97   10.5 %
+  cross-prediction to the turbines     wind     4.75    9.6 %
+  power curve                          wind     3.86    6.4 %
+  irradiance sensor, maintenance       PV       2.42    2.5 %
+  wake model                           wind     1.93    1.6 %
+  availability (energy-based)          wind     1.93    1.6 %
+  long-term correction and period      PV       1.75    1.3 %
+  PV model (temperature, angle, light) PV       1.63    1.1 %
+  transposition model                  PV       1.08    0.5 %
+  module power (flash-test sample)     PV       1.08    0.5 %
+  icing and environmental stops        wind     0.97    0.4 %
+  electrical losses                    plant    0.90    0.3 %
+  grid outages, ordered curtailment    plant    0.90    0.3 %
+  hub density                          wind     0.58    0.1 %
+  soiling and cleaning                 PV       0.54    0.1 %
+  availability                         PV       0.54    0.1 %
+  inverter efficiency                  PV       0.33    0.0 %
+  degradation, first year              PV       0.33    0.0 %
+  long-term (all but the year-to-year)        12.01
+  one year                                     15.32
+  ten-year mean                                12.38
+  at the POC (x 0.979): one year 14.99, ten years 12.12 GWh
+  P90 one year 275.9, P99 one year 260.3, P90 ten years 279.6 GWh

@@ -1,0 +1,8 @@
+force between 33 kV busbars in a fault (two parallel bars):
+  F/L = 2e-7 ip^2 / a (N/m), ip the gear's rated peak (63 kA)
+  spacing 0.15 m:   5.3 kN/m; on a 1 m span 5.3 kN
+  spacing 0.25 m:   3.2 kN/m; on a 1 m span 3.2 kN
+  spacing 0.35 m:   2.3 kN/m; on a 1 m span 2.3 kN
+  ip = 63.0 kA; the supports and bars are sized for it
+  by the maker and proved by the short-time and peak tests
+  of the type test - a site test cannot show it

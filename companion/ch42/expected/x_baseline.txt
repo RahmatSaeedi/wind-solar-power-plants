@@ -1,0 +1,7 @@
+mesh amplitude of a gearbox: factory run-in as the baseline
+  ten units at the factory: mean 1.01, sd 0.07; alert above 1.21
+  one unit in service, yearly: 1.00, 1.02, 1.03, 1.05, 1.28
+  first above the alert: year 5
+  a baseline from the factory, at known load and speed, makes
+  the condition monitoring of ch 37 sharper than a generic
+  limit: the run-in record is handed over for that reason

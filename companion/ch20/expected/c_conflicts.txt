@@ -1,0 +1,13 @@
+services that share a resource (must be ranked or split):
+  pair                                          shared
+  export limit         + ramp limit             re_down
+  export limit         + frequency response     re_down
+  ramp limit           + frequency response     bess_p, re_down
+  ramp limit           + upward reserve REQ-S01 bess_p
+  ramp limit           + energy shifting        bess_p
+  frequency response   + upward reserve REQ-S01 bess_e, bess_p
+  frequency response   + energy shifting        bess_e, bess_p
+  upward reserve REQ-S + energy shifting        bess_e, bess_p
+  8 conflicts; each needs a priority, a split of the
+  resource (e.g. 5 MW reserve, 15 MW schedule) or a rule that
+  one service is not offered while the other runs

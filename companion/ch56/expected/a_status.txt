@@ -1,0 +1,11 @@
+Afghanistan: 44 facts by topic and status (sources read 2026-11-17)
+  topic                         verified  proj-dep  to-confirm
+  A authorities and approvals          5         0           4
+  B grid, export, water, land          2         1          12
+  C standards and evidence             0         0           3
+  E grid services                      0         0           1
+  F finance and fiscal                 3         0           6
+  G social and land                    2         0           5
+  all                                 12         1          31
+  of the to-confirm items, 16 rest only on secondary sources
+  (news, lenders' or law firms' summaries): a lead, not a source

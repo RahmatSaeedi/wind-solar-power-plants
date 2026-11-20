@@ -1,0 +1,4 @@
+V_x by computer = 6.153846 V, by hand = 6.153846 V
+I1 = 1.9231 A, I3 = -0.3846 A, I2 = 1.5385 A
+KCL at node x: I1 + I3 - I2 = 6.66e-16 A
+source currents: 1.9231 A, -0.3846 A

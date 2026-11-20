@@ -1,0 +1,6 @@
+E01 compliance, 16 of 18 comply: 89 %
+E02 evaluated price 1,000 + 20 + 300 + 4 x 10 + 1,000 x 0.5 x 0.1: 1,410 k u
+E03 delay damages, 30 weeks at 0.5 %, cap 10 %, price 1,000: 100 k u
+E04 equal share of 98 % for 4 parts: 99.50 %
+E05 annuity factor, 7.5 %, 25 years: 11.15
+E06 audit score 4, 2 with weights 1, 1: 3.0

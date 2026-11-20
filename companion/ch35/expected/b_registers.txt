@@ -1,0 +1,10 @@
+the same POC voltage as a bare register and as an object
+  register 40101 = 1321 (the scale 0.1 kV lives only in a manual)
+  read with the right scale: 132.1 kV; with scale 1: 1321 kV
+  scaling check on 0-150 kV flags the second: True
+  as an object: value 132.1, unit kV, quality good,
+    time 2026-03-14T10:00:00.123Z, clock synchronised
+  a register is a number whose meaning sits elsewhere; an
+  object carries its unit, quality and time with it - the
+  register map is then a controlled document, checked
+  value by value in the point-to-point test (lesson C)

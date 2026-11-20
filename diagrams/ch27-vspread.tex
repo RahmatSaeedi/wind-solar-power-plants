@@ -1,0 +1,17 @@
+% Chapter 27 - voltage at the POC over a synthetic week with and without Q(U) control (SCR 15,
+% quasi-steady teaching model); data diagrams/data/ch27-vspread.csv from companion/ch27/examples_u.py
+% spread() (every 4th 10-minute value; x in samples).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, xmin=0, xmax=1008, ymin=0.92, ymax=1.03,
+      xtick={0,144,...,1008}, xticklabels={0,1,2,3,4,5,6,7},
+      xlabel={روز}, ylabel={ولتاژِ نقطهٔ اتصال $(\text{pu})$}, xmajorgrids=true, legend columns=2,
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/fixed zerofill,
+                        /pgf/number format/precision=2}]
+    \addplot[sLoss] table[x=k, y=free, col sep=comma] {data/ch27-vspread.csv};
+    \addplot[sWind] table[x=k, y=qu, col sep=comma] {data/ch27-vspread.csv};
+    \legend{بی‌کنترلِ ولتاژ, با Q(U)}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

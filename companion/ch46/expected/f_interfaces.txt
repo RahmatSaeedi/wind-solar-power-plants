@@ -1,0 +1,19 @@
+cable maker meets switchgear maker: connectors and positions
+  panel    cable mm2   connector (max)   cables   positions
+  BESS-A         240   L (630)                2           1
+  BESS-B         240   L (630)                2           1
+  PVF1           400   L (630)                1           1
+  PVF2           400   S (300)                1           1
+  PVF3           400   L (630)                1           1
+  WS1            630   L (630)                1           1
+  WS2            630   L (630)                1           1
+  WS3            630   L (630)                1           1
+  problems:
+    BESS-A: 2 cables, 1 position
+    BESS-B: 2 cables, 1 position
+    PVF2: 400 mm2 cable, connector family S up to 300
+  each maker's drawing is right on its own; the cable schedule
+  is the one document that sees both, so the interface check
+  runs from it (the schedule has two cables on each battery
+  feeder, one to each PCS; the switchgear order was written
+  for one)

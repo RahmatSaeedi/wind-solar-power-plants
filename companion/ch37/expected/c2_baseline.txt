@@ -1,0 +1,7 @@
+a baseline fitted on the period it should judge (April)
+  actual over model 15.1: 0.968
+  actual over a baseline scaled to April's own data: 1.000
+  the learned baseline 'expects' the soiling and the loss
+  disappears. A baseline is fixed from a reference period
+  checked to be healthy, kept under version control, and
+  refitted only with a record of why (ch 35, ch 15 model)

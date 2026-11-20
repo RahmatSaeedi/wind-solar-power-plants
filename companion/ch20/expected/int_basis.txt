@@ -1,0 +1,11 @@
+control basis of Plant P (D-024), numbers from this chapter:
+  hierarchy: scheduling / EMS / PPC / subsystems / devices
+  PPC loop: kp 1.5, ki 0.8 on tau 2 s; anti-windup; delay <= 0.5 s
+  priorities: safety > operator > service > schedule > recapture
+  comms loss: hold 1 h, then battery fallback; cap never raised
+  battery value with day-ahead plans 469 k u/yr (99.5 % of perfect)
+  imbalance: day-ahead 1,245 -> intraday 919 k u/yr (teaching)
+  bid at quantile 0.25: penalty -16 % (Sep-Dec)
+  REQ-S01 in the plan: held 99.2 % with calls and outages, cost
+    57.7 k u/yr = 7.90 u per MW-h held, 104 alarms/yr
+  island only for critical loads; black start not offered

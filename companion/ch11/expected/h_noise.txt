@@ -1,0 +1,13 @@
+sound at three fictional dwellings, layout A (A-234): L_W 106 dB(A),
+  hemispherical spreading, absorption 2 dB/km, no ground or screening terms
+  dwelling  nearest m  nearest dB(A)  12 turbines  night mode
+  R1           602        41.1           44.3        42.3
+  R2           901        37.1           41.0        39.0
+  R3          1505        31.4           38.3        36.3
+  night mode: rotor speed 10.5 instead of 11.5 rpm;
+    the tip-speed rule 50 log10(10.5/11.5) gives -2.0 dB
+  the torque limit caps the power at 4,565 kW in this mode
+  energy cost of the mode at night only (22:00 - 06:00): 1.81 % of the year
+  limits, times and assessment methods are national (chapters
+  33 and 55); the declared level comes from a test to the acoustic
+  measurement standard (IEC 61400-11:2012+AMD1:2018)

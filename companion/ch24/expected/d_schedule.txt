@@ -1,0 +1,8 @@
+33 kV cable schedule check (9 rows, three errors planted):
+  =PVF1-W1: 368 A above 351 A in place
+  =PVF1-W1: route bend 1.5 m below 1.59 m
+  =PVF1-W9: not on the one-line
+  the 400 mm2 first section of PVF1 is too small in this
+  trench and its route bend too tight; =PVF1-W9 is a cable
+  the one-line does not have (a copy-paste row) - a schedule
+  is checked against the one-line, not only against itself

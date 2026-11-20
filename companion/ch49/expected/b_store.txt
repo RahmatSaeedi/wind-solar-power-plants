@@ -1,0 +1,10 @@
+stored equipment: longest gap between preservation checks
+  (every 7 days, to day 226)
+  station skid S-03     14 days  LATE
+  station skid S-04      7 days
+  RMU spares            32 days  LATE
+  transformer T-PV3      7 days
+  a skid stored with its heater on is checked weekly - the
+  heater, the desiccant, the covers; one missed fortnight
+  is the fortnight a condensation fault starts (ch 31, ch 48
+  dew point); the RMU spares had no regular checks at all

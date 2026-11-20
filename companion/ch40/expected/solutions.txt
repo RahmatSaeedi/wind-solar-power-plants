@@ -1,0 +1,62 @@
+P01 touch hours of a skid: 79 h
+P02 expected rework a skid: 1.41 h
+P03 rolled throughput yield: 0.758
+P04 skids needing rework, of ten: 2.4
+P05 takt, 10 skids in 4 weeks of 40 h: 16 h
+P06 load of S1 with frames made: 16.18 h
+P07 balance efficiency, frames made: 83%
+P08 hours of the ten first skids on the learning curve: 902 h
+P09 TUR of the torque wrench (+/- 7 vs +/- 2.8 N m): 2.5
+P10 guard-banded torque limits: 65.8 to 74.2 N m
+P11 RPN of the under-torqued joint (9, 3, 8): 216
+P12 RPN of the MV stress cone (10, 2, 7): 140
+P13 Cpk of joint resistance, good tools: 1.93
+P14 mean and sd of joint resistance, good tools: 12.44, 1.31 micro-ohm
+P15 X-bar UCL from S-01..S-04: 14.17 micro-ohm
+P16 R-chart UCL: 6.77 micro-ohm
+P17 sampling plan for AQL 1 %, LTPD 5 %: n = 132, c = 3
+P18 P(accept) n = 50, c = 1 at 5 %: 0.279
+P19 %GRR with hand-held probes: 16.8
+P20 %GRR with the fixture: 11.5
+P21 distinct categories with the fixture: 12
+P22 Crow-AMSAA beta of the pilot run: 0.58
+P23 instantaneous MTBF at 2,000 h: 385 h
+P24 test hours to an MTBF of 1,000 h: 19,145 h
+P25 desiccant life in storage: 5.3 days
+P26 energy lost by S-06, 9 days in July: 292 MWh
+P27 its value at 70 u/MWh: 20.4 k u
+P28 escape share before / after the actions: 0.70 / 0.0175
+P29 latent boards caught by a 48 h burn-in: 0.29
+P30 sling leg, 257 kN, two legs at 60 degrees: 148 kN
+P31 solvent from 300 L of paint at 420 g/L: 126 kg
+P32 DC link: time to fall from 1,100 V to 50 V, tau 100 s: 309 s
+P33 OEE of the FAT bay: 60%
+P34 lead time with WIP 15 at 2.5 skids a week: 240 h
+P35 stations for 36 h of tasks at a 16 h cycle: 3
+P36 ten skids through the line (frames bought): 194.5 h
+P37 safety stock of lugs: 94; reorder point 694
+P38 cost of quality of the ten skids: 112.2 k u
+P39 calibration interval for 95 % in tolerance (M 400 d): 21 days
+P40 combined and expanded uncertainty of a reading: 0.23, 0.47 micro-ohm
+P41 95 % lower bound of Cpk from 35 joints: 1.53
+P42 worst average outgoing quality (n 132, c 3): 1.37%
+P43 expected warranty claims of 60 parts: 11.2
+P44 95 % lower bound of MTBF (4 failures, 43,800 h): 4,785 h
+P45 standard time of one joint: 4.17 min; 24 joints 1.67 h
+P46 kanban cards for busbar kits: 3
+P47 economic order quantity of frames: 4.7
+P48 flow distance saved by the straight line: 140 m a skid
+P49 chance a 19.9 reading is really over 20: 33.5%
+P50 ARL of the X-bar chart at a half-sigma shift: 33
+P51 share found by ten thermal cycles (k 0.12): 70%
+P52 zero-failure hours for MTBF 1,000 h at 90 %: 2,303 h
+P53 Cpk of crimp pull force: 0.94 (2,385 ppm under)
+P54 variables plan for AQL 1 %, LTPD 5 %: n = 54, k = 1.94
+P55 effects of the crimp factorial: A +0.61, B +0.46, AB +0.20 kN
+P56 chance of lug failure, strength 300 kN sd 50: 1.8e-03
+P57 certificates with a finding: 4 of 6
+P58 break-even defective share of relay injection: 0.89%
+P59 share of variance between skids, good tools / all: 0% / 49%
+P60 wrong wires reaching the site in ten skids, by hand: 0.48
+P61 cost of retrofitting five skids at the factory: 2.4 k u
+P62 S-04 insulation corrected to 20 C: 3,830 MOhm

@@ -1,0 +1,19 @@
+% Chapter 41 - flash-test Pmax of the 3,000-module lot in test order (every third module): the
+% tester's drift from module 2,400, the cracked modules below the band and the two modules with a
+% shorted bypass diode near 370 W (off the scale, marked) (diagrams/data/ch41-flash.csv from
+% companion/ch41/lab_d.py, d_outliers; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=3000, ymin=534, ymax=568,
+      xlabel={ترتیبِ آزمون}, ylabel={توانِ بیشینه (وات)},
+      xticklabel style={/pgf/number format/1000 sep={}}]
+    \fill[cLoss!8] (axis cs:2400,534) rectangle (axis cs:3000,568);
+    \addplot[only marks, mark=*, mark size=0.6pt, cPV!70, restrict y to domain=534:568] table[x=seq, y=p, col sep=comma] {data/ch41-flash.csv};
+    \draw[densely dashed, cInk!60] (axis cs:0,552.4) -- (axis cs:2400,552.4);
+    \draw[densely dashed, cInk!60] (axis cs:2400,554.9) -- (axis cs:3000,554.9);
+    \node[note, anchor=north, text=cLoss] at (axis cs:2700,567) {رانشِ آزمونگر};
+    \node[note, anchor=south west] at (axis cs:50,535) {دو ماژول با دیودِ اتصال‌کوتاه نزدیکِ ۳۷۰ وات: بیرون از نمودار};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

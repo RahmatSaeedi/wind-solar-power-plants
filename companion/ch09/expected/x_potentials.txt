@@ -1,0 +1,9 @@
+module potentials to earth in a 26-module string at 1300 V (A-172):
+  floating, symmetric    from   -625 to   +625 V
+  negative pole earthed  from    +25 to  +1275 V
+  positive pole earthed  from  -1275 to    -25 V
+  modules at strongly negative potential can suffer potential-
+  induced degradation in some cell technologies; earthing one
+  pole (through the inverter, a functional earth) or a night-
+  time offset voltage moves the string away from it: the choice
+  depends on modules, inverter and standard (chapters 10, 26)

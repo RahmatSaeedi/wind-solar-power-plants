@@ -1,0 +1,35 @@
+% Chapter 23 - the plant-to-grid boundary in two options (A: POC at the plant's line bay, the
+% utility owns the line; B: POC at the grid bay, the plant owns the line): ownership, isolation,
+% revenue meter and test boundaries (A-320). Flows right (plant) to left (grid).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small, line width=0.7pt,
+    brk/.style={draw=cInk, fill=white, minimum size=2.8mm, inner sep=0pt},
+    mtr/.style={draw=cInk, fill=white, circle, inner sep=1pt, font=\scriptsize}]
+  \foreach \y/\opt in {0/A, -3.6/B} {
+    \draw[bus] (14.5,\y+0.5) -- (14.5,\y-0.5);
+    \node[note] at (14.5,\y+0.85) {شینهٔ نیروگاه};
+    \draw (14.5,\y) -- (13.6,\y); \node[brk] at (13.45,\y) {}; \draw (13.3,\y) -- (12.6,\y);
+    \draw (12.6,\y) -- (12.3,\y+0.25); \draw (12.25,\y) -- (11.6,\y);
+    \draw (11.6,\y) -- (4.4,\y);
+    \draw (8.3,\y-0.15) -- (8.5,\y+0.15) (8.0,\y-0.15) -- (8.2,\y+0.15);
+    \draw (4.4,\y) -- (4.1,\y+0.25); \draw (4.05,\y) -- (3.4,\y);
+    \node[brk] at (3.25,\y) {}; \draw (3.1,\y) -- (2.2,\y);
+    \draw[bus] (2.2,\y+0.5) -- (2.2,\y-0.5);
+    \node[note] at (2.2,\y+0.85) {شینهٔ شبکه};
+    \node[note] at (8.25,\y+0.45) {خطِ $132\,\text{kV}$، $7.06\,\text{km}$};
+    \node[note] at (0.6,\y) {گزینهٔ \opt};
+  }
+  % option A: utility owns the line; boundary at the plant's disconnector; meter at plant bay
+  \node[mtr] at (13.45,0.45) {M};
+  \draw[boundary, draw=cLoad] (11.9,1.0) -- (11.9,-1.0);
+  \node[note, text=cLoad] at (11.9,-1.3) {مرزِ مالکیت و نقطهٔ اتصال};
+  \node[note, text width=34mm] at (8.25,-0.8) {خط: مالکیت و نگه‌داری با شبکه؛ هزینهٔ اتصال با نیروگاه};
+  % option B: plant owns the line; boundary at the grid's disconnector; meter at grid bay
+  \node[mtr] at (3.25,-3.15) {M};
+  \draw[boundary, draw=cLoad] (4.25,-2.6) -- (4.25,-4.6);
+  \node[note, text=cLoad] at (4.25,-4.9) {مرزِ مالکیت و نقطهٔ اتصال};
+  \node[note, text width=34mm] at (8.25,-4.4) {خط: مالکیت، تعمیر، حقِ عبور و تلف با نیروگاه};
+  \node[note, text width=150mm] at (8.0,-6.0) {در هر دو گزینه، هر مرزِ مالکیت یک نقطهٔ جداسازی (سکسیونر و کلیدِ زمین) دارد؛ مرزِ آزمون: هر طرف تجهیزِ خود را می‌آزماید، آزمونِ قطعِ متقابل و حفاظتِ دو سرِ خط با پروتکلِ مشترک};
+\end{tikzpicture}
+\end{document}

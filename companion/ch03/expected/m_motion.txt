@@ -1,0 +1,5 @@
+rotor at 10 rpm (assumed), radius 75 m:
+  omega = 1.0472 rad/s; tip speed v = omega r = 78.5 m/s = 283 km/h
+  centripetal acceleration of the tip omega^2 r = 82.2 m/s2 = 8.4 g
+  rotation frequency 1P = 0.1667 Hz; blade passing 3P = 0.5000 Hz
+  a point at mid-span (37.5 m) moves at 39.3 m/s: speed grows linearly with r

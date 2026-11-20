@@ -1,0 +1,29 @@
+% Chapter 5 - the synthetic asset hierarchy of Plant P (register rev A, A-094): plant,
+% system-level items and components, with the teaching tag scheme.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{tg/.style={blk, minimum width=27mm, minimum height=9mm, font=\footnotesize, align=center, inner sep=2pt}}
+  \node[blkLoad, minimum width=30mm, minimum height=9mm, font=\footnotesize, align=center] (plt) at (0,0) {\texttt{PLP-PLT-01}\\نیروگاه P};
+  \node[tg] (sub) at (-6.6,-1.8) {\texttt{PLP-SUB-01}\\پست};
+  \node[blkWind, minimum width=27mm, minimum height=9mm, font=\footnotesize, align=center] (wtg) at (-3.3,-1.8) {\texttt{PLP-WTG-07}\\توربینِ ۷ (از ۱۲)};
+  \node[blkPV, minimum width=27mm, minimum height=9mm, font=\footnotesize, align=center] (pvb) at (0,-1.8) {\texttt{PLP-PVB-03}\\بلوکِ خورشیدیِ ۳ (از ۱۰)};
+  \node[tg] (met) at (3.3,-1.8) {\texttt{PLP-MET-01}\\دکلِ هواشناسی};
+  \node[blkBESS, minimum width=27mm, minimum height=9mm, font=\footnotesize, align=center] (bes) at (6.6,-1.8) {\texttt{PLP-BES-01}\\باتری ($\text{S1}$)};
+  \foreach \c in {sub, wtg, pvb, met, bes} {\draw[cInkB] (plt.south) -- ++(0,-0.35) -| (\c.north);}
+  % children hang from a rail on the left of each column
+  \foreach \x/\pp/\ys in {-6.6/sub/{-3.4,-4.5}, -3.3/wtg/{-3.4,-4.5,-5.6}, 0/pvb/{-3.4}, 3.3/met/{-3.4,-4.5}} {
+    \draw[cInkB] (\pp.south) -- ++(0,-0.3) -| (\x-1.6,-3.4);
+    \foreach \y in \ys {\draw[cInkB] (\x-1.6,-2.55) -- (\x-1.6,\y) -- (\x-1.35,\y);}
+  }
+  \node[tg] at (-6.6,-3.4) {\texttt{PLP-TRF-01}\\ترانسفورماتورِ صادرات};
+  \node[tg] at (-6.6,-4.5) {\texttt{PLP-SWG-01}\\تابلوی $33\ \text{kV}$};
+  \node[tg] at (-3.3,-3.4) {\texttt{PLP-WTG-07-GEN}\\ژنراتور};
+  \node[tg] at (-3.3,-4.5) {\texttt{PLP-WTG-07-GBX}\\جعبه‌دنده};
+  \node[tg] at (-3.3,-5.6) {\texttt{PLP-WTG-07-TRF}\\ترانسفورماتورِ توربین};
+  \node[tg] at (0,-3.4) {\texttt{PLP-INV-03}\\اینورترِ مرکزی};
+  \node[tg] at (3.3,-3.4) {\texttt{PLP-MET-01-ANM}\\بادسنج};
+  \node[tg] at (3.3,-4.5) {\texttt{PLP-MET-01-PYR}\\تابش‌سنج};
+  \node[note, anchor=north, text width=150mm] at (0,-6.4) {الگوی برچسبِ آموزشی: \texttt{PLP}-سامانه-شماره[-قطعه]. هر قطعه یک والد دارد؛ برچسب هرگز دوباره به کار نمی‌رود. این الگو آموزشی است و اجرای استانداردِ نام‌گذاریِ مرجع نیست.};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+the register after review
+  checker findings: 0
+  rows that a permit will set (P): 6; illustrative (I): 3
+  P rows are drafts of conditions: the indicator, limit and
+  frequency are copied from the permit when it is issued,
+  and the register says so; I rows are the project's own
+  controls and can be changed through management of change
+  - the reader never mistakes one for the other

@@ -1,0 +1,10 @@
+the door opening near the base (2.4 x 1.0 m, teaching)
+  nominal bending stress at the door level: 127 MPa (production)
+  stress at the opening's corner, concentration factor:
+    plain cut opening            Kt 3.0:  382 MPa
+    with a welded door frame     Kt 1.6:  204 MPa
+  a plain hole triples the stress at its corners, beyond
+  yield in a storm and far beyond the fatigue range: the
+  door frame (a thick, shaped ring welded in) restores the
+  section, and its welds are among the most inspected on
+  the tower

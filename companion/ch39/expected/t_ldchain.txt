@@ -1,0 +1,8 @@
+delay damages down the chain, 8 weeks late (k u)
+  owner's loss: 8 x 185 = 1,480
+  EPC pays the owner 0.25% a week of 60,000: 1,200
+  transformer supplier pays the EPC 0.5 % of 1,160: 46.4
+  owner covered 81%; EPC recovers 3.9% of what it pays
+  the EPC carries the difference: why it buffers the
+  schedule and watches the supplier, not the damages;
+  the lenders read this chain before financial close

@@ -1,0 +1,25 @@
+power-quality and service basis of Plant P (D-031):
+  emission: assessed at the POC against the operator's
+    allocation; screening by in-phase summation, then measured
+  resonance: no plain capacitor bank on the 33 kV; if Mvar or
+    filtering is needed, a filter tuned near the 4.7th with
+    unbalance protection; frequency scan in the grid study
+  reactive power: from the units, checked at the POC with the
+    losses between; hot, still days read with the line rating
+  services: acceptance matrix with metric, place, method and
+    record for each claim; telemetry gaps counted by length
+  investigation: workflow with records; comparisons within
+    fixed hours; currents and on/off tests before conclusions
+  later findings: the 33 kV resonance moves with the units
+    online (11th with ~8, 13th with ~3): scans and remedies
+    are judged at the worst unit count and order; the filter
+    seen from 132 kV resonates near 4.3 - the network's
+    ripple-signal frequencies go into its design data; the
+    reactor tap is set on site after the capacitors are
+    measured; Q capability is checked at 0.9 pu (43 Mvar,
+    not 68); the voltage controller reads the POC or
+    compensates the line; a whole-plant trip while giving
+    33 Mvar is a 3 % step at the POC; HVAC drives need
+    chokes or active front ends on the 400 V board
+  open: the operator's emission allocation (U-100), the
+    background harmonic levels at the POC (U-101)

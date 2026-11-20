@@ -1,0 +1,15 @@
+% Chapter 28 - the 132 kV line's hourly rating against the plant's export in the same hour (every
+% 9th hour of the data-pack year), with the export current line I = P / (sqrt3 x 132 kV): no point
+% falls below it; data diagrams/data/ch28-line.csv from companion/ch28/examples_g.py line_year().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=62mm, xmin=0, xmax=102, ymin=0, ymax=1500,
+      xlabel={صادراتِ نیروگاه $(\text{MW})$}, ylabel={رتبهٔ ساعتیِ خط $(\text{A})$},
+      xmajorgrids=true, legend columns=2]
+    \addplot[only marks, mark=*, mark size=0.7pt, color=cWind] table[x=p, y=rating, col sep=comma] {data/ch28-line.csv};
+    \addplot[sLoss, domain=0:100, samples=2] {x*1e6/(1.7320508*132e3)};
+    \legend{رتبهٔ ساعت, جریانِ صادرات}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

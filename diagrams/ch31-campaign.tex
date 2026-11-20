@@ -1,0 +1,13 @@
+% Chapter 31 - erection campaign length (one crane, 12 turbines) by start month, from the data-pack
+% wind: 156 crane days of work plus weather waiting (diagrams/data/ch31-campaign.csv, examples_i).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, ybar, bar width=4.2mm, xmin=0.3, xmax=12.7,
+      ymin=150, ymax=182, xtick={1,...,12}, xlabel={ماهِ آغاز}, ylabel={روزهای کارزار}]
+    \addplot[fill=cWind!45, draw=cWind] table[x=month, y=days, col sep=comma] {data/ch31-campaign.csv};
+    \draw[sLimit] (axis cs:0.3,156) -- (axis cs:12.7,156);
+    \node[note, anchor=north] at (axis cs:6.5,181.5) {خط‌چین: ۱۵۶ روزِ کارِ جرثقیل};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

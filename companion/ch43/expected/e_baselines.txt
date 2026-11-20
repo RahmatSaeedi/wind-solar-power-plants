@@ -1,0 +1,15 @@
+site checks before energising and the factory record each compares
+  with (purpose only; the procedures are the maker's and the
+  commissioning engineer's)
+  site check                   baseline                   available
+  ratio at every tap           factory ratio test         yes
+  winding resistance           factory values             yes
+  insulation resistance, PI    factory values             yes
+  frequency response HV        factory FRA file           yes
+  frequency response LV        factory FRA file           NO
+  dissolved gases              after-heat-run DGA         yes
+  oil water and breakdown      filling record             yes
+  impact during transport      recorder log               NO
+  6 of 8 baselines exist: without the LV file and the
+  recorder log, a winding moved in transport could go unseen -
+  the two open items of lab D are site risks, not paperwork

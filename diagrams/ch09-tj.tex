@@ -1,0 +1,15 @@
+% Chapter 9 - junction temperature of one IGBT position at 10 Hz output (Foster network, A-148),
+% coolant 40 C. Data: diagrams/data/ch09-tj.csv (companion/ch09/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0, xmax=0.3, ymin=60, ymax=110,
+      xlabel={زمان، $\text{s}$}, ylabel={دمای پیوند، $^\circ\text{C}$}, xtick={0,0.1,0.2,0.3},
+      xticklabels={$0$,$0.1$,$0.2$,$0.3$}, ytick={60,70,...,110}]
+    \addplot[sLoss] table[x=t, y=tj, col sep=comma] {data/ch09-tj.csv};
+    \draw[dimline] (axis cs:0.262,73.5) -- (axis cs:0.262,102.5);
+    \node[note, text=cInk, anchor=west] at (axis cs:0.266,88) {$29\ \text{K}$};
+    \node[note, text=cInk, anchor=south west] at (axis cs:0.01,103) {هر نیم‌موجِ $10\ \text{Hz}$ تراشه را گرم می‌کند};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

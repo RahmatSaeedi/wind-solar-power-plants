@@ -1,0 +1,28 @@
+logistics basis of Plant P (D-035):
+  route: port to site 244 km; abnormal loads at night under the
+    permit (U-106); two long bridges assessed by their owner
+    before the first convoy; the 4.85 m overpass leaves 5 cm
+    for the base section - measured, with a fallback route
+  vehicles: 16 trailer axles for the nacelle, 14 for the base
+    section (teaching axle limit 120 kN)
+  lifts: one crawler crane; nacelle at 0.80 of the chart; tandem
+    and near-live lifts critical whatever their use; the
+    approved lift plans are the lift engineer's
+  weather: lift limits from the maker; the rotor waits longest;
+    standby paid as the contract says; nacelles just in time
+  receipt and preservation: inspection at unloading; impact
+    recorders read; desiccant and heaters logged; every
+    hand-over signed (chain of custody)
+  emergency: rescue at height by the trained site team during
+    lifts; medical transfer agreed with local services; radio
+    or satellite where mobile coverage fails (ch 32)
+  export works: 186 drums, 12 reels, 5 stringing sections, the
+    transformer skidded onto its plinth; each work package
+    with its own approval
+  campaign: route capacity (night window, parking places) sets
+    the pace; a 7-day delivery buffer; start month chosen with
+    the wind (159-177 days in the data year); one main crane
+    unless the grid date makes a second one pay
+  findings: swept paths at every bend; a pusher above 8-10 %
+    grades; nacelles on the maker's yoke, never site slings;
+    cable duct runs limited by bends and length (joint bays)

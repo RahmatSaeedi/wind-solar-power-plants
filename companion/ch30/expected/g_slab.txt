@@ -1,0 +1,8 @@
+bottom reinforcement of the foundation slab under the pedestal
+  moment 2.4 MN m per metre, effective depth 1.6 m (teaching)
+  steel 3,833 mm2 per metre = 4.8 bars of 32 mm (every 210 mm)
+  bottom mesh both ways under the 24 m base: about 27 t of steel
+  the bending design is the simple part; anchorage of the
+  bars, crack width under fatigue, shear and punching round
+  the pedestal are checked by the structural engineer -
+  the bending schedule is the factory's order (lesson H)

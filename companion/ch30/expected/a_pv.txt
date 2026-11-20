@@ -1,0 +1,10 @@
+one PV table (2P x 26, 25 deg; teaching coefficients A-360, A-361)
+  area 134 m2, length 29.5 m
+  50-yr gust at 2 m: pressure 646 Pa; uplift (net coefficient 1.2): 104 kN
+  dead weight 29 kN; net uplift 75 kN on 12 posts
+  snow 0.4 kPa on plan: 49 kN downward (rare here)
+  temperature range of the steel: -8.6 to 65.7 C (sun +25 K)
+  free expansion of a 29.5 m rail: 26 mm
+  wind uplift, not weight, sizes the posts and their
+  embedment; the rail needs slotted holes or a joint so
+  the heat is not turned into a force on the posts

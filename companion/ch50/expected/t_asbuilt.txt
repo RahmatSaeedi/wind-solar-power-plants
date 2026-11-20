@@ -1,0 +1,11 @@
+documents at as-built status (ASB, ch 38) by discipline at handover
+  discipline  documents  at ASB  share
+  electrical        120      96    80%
+  civil              85      80    94%
+  control            60      41    68%
+  mechanical         40      38    95%
+  fire               25      18    72%
+  plant: 273 of 330 (83%)
+  control is furthest behind - the very drawings whose
+  changes lessons B and C of ch 48 found; an IFC drawing at
+  handover is a drawing of a plant that was never built

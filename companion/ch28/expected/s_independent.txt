@@ -1,0 +1,10 @@
+the same full-output load flow by a second method
+  quantity               Newton-Raphson   Gauss-Seidel   difference
+  P at POC MW                  100.2764       100.2764      2.1e-06
+  Q at POC Mvar                  0.8900         0.8900      2.2e-06
+  losses MW                      1.7236         1.7236      2.3e-08
+  iterations                          4           1299
+  two methods, one answer: the check finds an error in the
+  solver, not in the data - the data checks of lesson A and
+  the hand checks of the integrated example do that part;
+  an independent checker uses all three

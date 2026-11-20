@@ -1,0 +1,7 @@
+yaw brakes holding 6.0 MN m with margin 1.5 (teaching)
+  one caliper: 2 faces x 0.4 x 300 kN at 2.0 m = 0.48 MN m
+  calipers needed: 19
+  friction falls with oil or glazing on the disc, so the
+  factory records the clamping test and the pads' burnishing;
+  in service the yaw drives also hold, and a slipping nacelle
+  is a safety event (ch 32)

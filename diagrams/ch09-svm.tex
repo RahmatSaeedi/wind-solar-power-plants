@@ -1,0 +1,24 @@
+% Chapter 9 - space-vector diagram of a two-level inverter: six active vectors, two zero vectors,
+% the reference vector and the inscribed circle of the linear range.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\R{3.0}
+  \fill[cPV!10] (0,0) -- (0:\R) -- (60:\R) -- cycle;
+  \draw[cInkB, line width=0.7pt] (0:\R) \foreach \a in {60,120,...,360} { -- (\a:\R) };
+  \foreach \a in {0,60,...,300} \draw[cRule, line width=0.4pt] (0,0) -- (\a:\R);
+  \draw[cInk, densely dashed, line width=0.6pt] (0,0) circle ({\R*0.866});
+  \foreach \a/\v/\s in {0/1/100, 60/2/110, 120/3/010, 180/4/011, 240/5/001, 300/6/101} {
+    \fill[cInk] (\a:\R) circle (1.6pt);
+    \node[note, text=cInk] at (\a:{\R+0.55}) {$\mathbf{V}_\v$ \texttt{\s}};
+  }
+  \fill[cInk] (0,0) circle (1.6pt);
+  \node[note, text=cInk, anchor=north] at (0,-0.12) {$\mathbf{V}_0, \mathbf{V}_7$};
+  \draw[flow, draw=cLoss] (0,0) -- (25:2.3) node[note, text=cLoss, anchor=west] {$\mathbf{V}_\text{ref}$};
+  \draw[cLoss, ->] (0.9,0) arc (0:25:0.9);
+  \node[note, text=cLoss] at (12:1.25) {$\theta$};
+  \node[note, text=cInk, text width=44mm, anchor=west] at (3.9,-1.4)
+       {دایرهٔ محاطی: بیشینهٔ خطیِ $V_\text{dc}/\sqrt3$ برای دامنهٔ فاز، یعنی $15.5\%$ بیش از مدولاسیونِ سینوسی};
+  \node[note, text=cInk, anchor=west] at (3.9,1.2) {بخشِ I};
+\end{tikzpicture}}
+\end{document}

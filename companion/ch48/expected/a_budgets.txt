@@ -1,0 +1,12 @@
+datasheet error terms at site: 45 C, 2 years after calibration
+  instrument            reading      RSS    worst   largest term
+  pyranometer             1000 W/m2   21.00   39.00   accuracy
+  reference cell          1000 W/m2   24.13   39.50   accuracy
+  cup anemometer            10 m/s     0.26    0.43   accuracy
+  power transducer         100 MW      0.31    0.57   accuracy
+  Pt100 + transmitter       45 C       0.11    0.15   accuracy
+  pyranometer terms, W/m2: accuracy 15, temperature 10, drift 10, linearity 4
+  its 21 W/m2 RSS is 2.1 % of the reading; the accuracy in
+  bold is 15, and the terms the datasheet prints in small type add 15
+  - temperature (reference 20 C) and two years of drift; the
+  recalibration interval is part of the budget (ch 34)

@@ -1,0 +1,9 @@
+weekly ratio station / provider (52 weeks):
+  sound sensor: mean 1.001, sd 0.015, trend -0.4 % a year
+  drifting sensor: trend -3.5 % a year
+  standard error of a one-year trend: 0.7 % a year; the drift
+    is 4.9 standard errors, the sound sensor's 0.6
+  year's GHI with the drift: 1,918 kWh/m2 (-1.5 %)
+  a weekly ratio scatters by several per cent (weather, provider
+  error); a trend over months stands out, a single week does not
+  a second station sensor or a recalibration settles the case

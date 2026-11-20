@@ -1,0 +1,10 @@
+carbon credits as a LABELLED SENSITIVITY (scheme, eligibility and
+baseline NOT verified; grid factor 0.6 t/MWh is a teaching value):
+  price u/t   tonnes a year   revenue k u   equity IRR %
+          0         177,084             0          10.22
+          5         177,084           885          11.68
+         15         177,084         2,656          14.21
+  shown to say how much a verified scheme would matter; never
+  in the base case, never in the debt sizing, until the
+  methodology, eligibility, registration and the buyer of the
+  credits are confirmed in writing

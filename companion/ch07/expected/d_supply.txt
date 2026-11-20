@@ -1,0 +1,9 @@
+S1 peak: 158.2 kVA; worst phase 252.7 A -> balanced equivalent 174.4 kVA
+  x 1.25 for growth, ageing and uncertainty = 218.0 kVA
+  next size in the fictional range [100, 160, 250, 400] kVA: 250 kVA
+  rated LV current 361 A; the worst phase at the peak is 70 % of it
+transformer z = 6 %, r = 1.2 % -> x = 5.88 % (A-103)
+  voltage drop ~ (r P + x Q) / S_rated = 2.48 % at the S1 peak
+a licensed electrical designer confirms the schedule, diversity,
+  protection and supply arrangement (chapters 23 and 24); these are
+  teaching numbers

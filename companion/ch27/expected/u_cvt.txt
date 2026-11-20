@@ -1,0 +1,14 @@
+a capacitive VT's ratio error at harmonic orders (teaching resonance
+  near the 10th): |H(h)| = 1 / |1 - (h / h_r)^2|
+  order   gain   true 1.0 % reads as
+      3   1.10                1.10 %
+      5   1.33                1.33 %
+      7   1.96                1.96 %
+     11   4.76                4.76 %
+     13   1.45                1.45 %
+     17   0.53                0.53 %
+  near its own resonance the CVT reads several times too high,
+  far above it (beyond the 14th here) too low - depending on
+  where that resonance lies;
+  a value from a CVT is not a harmonic measurement unless the
+  transducer has been characterised at that order

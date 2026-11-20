@@ -1,0 +1,10 @@
+skin effect: AC over DC resistance of large conductors
+  ys = xs^4 / (192 + 0.8 xs^4),  xs^2 = 8 pi f / R' x 1e-7 x ks
+  conductor                         R' ohm/m   ks    ys
+  630 mm2 Al, compacted              6.0e-05   1.00  0.022
+  1000 mm2 Cu, compacted             2.3e-05   1.00  0.138
+  1000 mm2 Cu, segmental             2.3e-05   0.43  0.029
+  the current crowds to the surface of a thick conductor: a
+  1000 mm2 copper conductor carries 14 % more resistance at
+  50 Hz; dividing it into insulated segments brings this down
+  - one reason export cables have segmental conductors

@@ -1,0 +1,17 @@
+% Chapter 4 — air and cell temperature on the summer subset day (NOCT model).
+% Data: diagrams/data/ch04-pvtemp.csv (examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=60mm,
+      xlabel={ساعتِ روز}, ylabel={دما (درجهٔ سلسیوس)},
+      xmin=0, xmax=23, ymin=15, ymax=75, xtick={0,3,...,21}, ytick={20,30,...,70}]
+    \addplot[sLoss] table[x=hour, y=tcell, col sep=comma] {data/ch04-pvtemp.csv};
+    \addlegendentry{دمای سلول}
+    \addplot[sInk] table[x=hour, y=tair, col sep=comma] {data/ch04-pvtemp.csv};
+    \addlegendentry{دمای هوا}
+    \addplot[sLimit, domain=0:23, samples=2] {25};
+    \addlegendentry{دمای شرایطِ استاندارد}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

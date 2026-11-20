@@ -1,0 +1,9 @@
+one supplier or two for ten transformers (teaching chances)
+  one supplier fails to deliver:          0.100
+  two independent suppliers both fail:    0.010
+  two sharing one core-steel mill:        0.062
+  (the mill fails with 0.06; each supplier's own risk is
+  the rest of its 0.10)
+  splitting the order looks like a cure, but a shared
+  sub-supplier brings most of the risk back: map tier 2
+  before paying the premium of two smaller orders

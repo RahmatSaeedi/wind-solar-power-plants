@@ -1,0 +1,9 @@
+switchgear duties against the teaching ratings (ch 23 faults):
+  gear     Ik kA  X/R   ip kA   rated ip  Ik for 1 s vs Ik 3 s rating
+  33 kV     12.5    14    32.0        63   ok
+  132 kV     5.2    15    13.4        80   ok
+  0.4 kV     7.9     4    16.6        30   ok
+  peak current: ip = kappa sqrt2 Ik, kappa from X/R (about 1.8
+  for X/R 14): the making and the busbar forces follow ip;
+  the ratings come from the makers' type tests, which the
+  site cannot repeat (section C)

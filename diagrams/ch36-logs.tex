@@ -1,0 +1,14 @@
+% Chapter 36 - security logs kept for a year by source (examples_b; teaching volumes).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=52mm, xbar, bar width=4.2mm, xmin=0, xmax=100,
+      ymin=0.4, ymax=5.6, ytick={1,...,5}, y dir=reverse,
+      yticklabels={دیوارهٔ آتشِ ناحیه‌ها, سوئیچ‌ها, سرورها و نمایشگرها, میزبانِ پرش, کنترل‌گرها: تغییر و ورود},
+      xlabel={حجم در سال (GB)}, xmajorgrids=true, ymajorgrids=false,
+      nodes near coords={\pgfmathprintnumber[fixed, precision=1]{\pgfplotspointmeta}},
+      nodes near coords style={font=\scriptsize, text=cInkB, anchor=west}, point meta=x]
+    \addplot[fill=cLoad!35, draw=cLoad] coordinates {(87.6,1) (5.0,2) (35.0,3) (0.9,4) (0.02,5)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

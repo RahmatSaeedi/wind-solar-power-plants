@@ -1,0 +1,9 @@
+heat loads of the rooms at 45 C outside, 25 C inside:
+  room                      losses  walls  solar  cooling  electric
+  control room               12.0    8.0    3.0     23.0       7.7
+  switchgear room            18.0   12.0    2.0     32.0      10.7
+  battery and charger room    2.0    6.0    1.0      9.0       3.0
+  the control room's 30 kW in the register is the rated input
+  of two units (one standby) for 25 kW of cooling; the battery
+  room is ventilated for its own reasons (gases, the maker's
+  data), not only for heat

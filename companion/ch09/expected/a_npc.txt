@@ -1,0 +1,7 @@
+device voltage in a 1500 V PV inverter (open-circuit, cold):
+  two-level: each switch blocks 1500 V -> devices of 2.3 to 3.3 kV class
+  three-level NPC: each switch blocks 750 V -> 1200 V class
+  1200 V devices have much lower switching energy, and each
+  step of the output voltage is V_dc / 2 (lower dv/dt, ripple)
+  price: 12 switches and 6 clamp diodes per three-phase bridge
+  and a neutral point whose voltage the control must balance

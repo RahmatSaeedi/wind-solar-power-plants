@@ -1,0 +1,10 @@
+where cyber and physical security meet (teaching interface table)
+  event                               first owner     informs
+  control-room door forced            site security   OT lead
+  cabinet door open, no work order    operator        site security
+  console login at night, no permit   OT lead         site security
+  unknown device on a switch port     OT lead         control engineer
+  USB device refused at an HMI        operator        OT lead
+  each event has an owner and a path to the other team;
+  this table does not replace the site's physical-security
+  assessment (ch 32) - it only joins the two

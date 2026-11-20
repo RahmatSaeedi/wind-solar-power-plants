@@ -1,0 +1,12 @@
+requirements register (PLP-PRJ-REG-0007, draft): 12 entries
+  status: verified 1, assumed 4, open 7
+  priority: must 9, should 2, could 1
+  without a measurable criterion: REQ-005, REQ-008, REQ-010, REQ-012
+  without a link to a decision, assumption or unknown: REQ-005, REQ-007,
+    REQ-008, REQ-010
+  the crude check (a number in the measure) flags four: three
+  are measurable by reference (the number lives in the grid
+  code, the contract or the permit, which must be named);
+  REQ-010 is a wish, not a requirement, until it names a
+  measure (availability, mean time to repair); unlinked entries
+  need a source document before the baseline is frozen

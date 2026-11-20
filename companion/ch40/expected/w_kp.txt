@@ -1,0 +1,12 @@
+inspect every skid or none? (stable process, perfect check)
+  check                        k1     k2    p     k1/k2  rule
+  relay secondary injection    0.40   45.0 0.030 0.0089  all
+  MV cable insulation test     0.15   60.0 0.002 0.0025  none
+  nameplate and label check    0.02    0.3 0.050 0.0667  none
+  busbar torque-mark check     0.05   20.0 0.004 0.0025  all
+  inspect all when p > k1/k2: the cost of checking a skid is
+  less than the expected cost of letting its defect through;
+  the cable test fails the rule on cost (p 0.2 % < 0.25 %)
+  yet stays a hold point: a safety or a contract duty is
+  not an economic choice; 'none' never means 'do not watch
+  the process' - a small sample keeps p known

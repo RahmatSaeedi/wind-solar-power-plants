@@ -1,0 +1,12 @@
+the chance of at least one T-year event in a 25-year life
+  T years   chance %
+       10       92.8
+       25       64.0
+       50       39.7
+      100       22.2
+      500        4.9
+     1000        2.5
+  a 50-year design storm has two chances in five of coming
+  within the plant's life; the culverts' overtopping path
+  and the substation level are chosen with that in mind -
+  and with a changing climate the 'T' itself drifts

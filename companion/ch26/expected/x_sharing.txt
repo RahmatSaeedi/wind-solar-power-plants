@@ -1,0 +1,14 @@
+a direct strike on the control building: where the current goes
+  stroke 100 kA; teaching assumption: half into the earth
+  electrode, half shared equally by the metal services entering
+  services   kA per service   per conductor (4-wire LV)
+         1             50.0                        12.5
+         2             25.0                         6.2
+         3             16.7                         4.2
+         4             12.5                         3.1
+  the first SPD stage on each service is rated for its share
+  of the lightning impulse current, not for the surges that
+  arrive from far away; a fibre data link carries none of it
+  (no metal), one reason the plant's networks run on fibre
+  (ch 34); the real sharing comes from the lightning
+  standard's method and the building's services

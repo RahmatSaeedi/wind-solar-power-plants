@@ -1,0 +1,9 @@
+mismatch loss as the current spread grows with age (A-205):
+  current spread (1 s)   mismatch loss %
+                  0.7             0.04
+                  2.0             0.33
+                  3.0             0.80
+                  5.0             2.72
+  the loss grows roughly with the square of the spread: new
+  binned modules lose little; uneven ageing, soiling and
+  replaced modules of another class add up over the years

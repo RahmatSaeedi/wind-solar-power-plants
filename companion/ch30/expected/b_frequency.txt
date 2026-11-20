@@ -1,0 +1,11 @@
+tower frequency on a flexible foundation (Dunkerley; teaching soils)
+  fixed base f1 = 0.215 Hz; 1P max 0.192 Hz; required margin 10 % (A-359)
+  -> f1 at least 0.2112 Hz -> rocking stiffness at least 177 GN m/rad
+  founding soil                            K GN m/rad   f1 Hz   margin
+  dense sand and gravel (T01-T06, T08-T12)        305   0.213   10.8 %
+  medium sand at founding level (T07)             103   0.209    8.6 % short
+  T07 with water at 0.5 m                          82   0.207    7.8 % short
+  the margin requirement, turned into a stiffness, is met on
+  dense ground and missed at T07 (with or without the high
+  water): there stiffness, not strength, decides the
+  foundation - the schemes of lesson D are compared on it

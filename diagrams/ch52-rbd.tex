@@ -1,0 +1,31 @@
+% Chapter 52 - reliability block diagram of the export path, read right to left: plant controller with
+% its fallback mode in parallel, two main transformers in parallel, the 132 kV bus and the line in
+% series (companion/ch52/examples_e.py, export_rbd; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=22mm, minimum height=9mm, align=center, text width=21mm,
+              font=\footnotesize}]
+  \node[b, draw=cBESS, fill=cBESS!9] (ppc) at (12,0.8) {کنترل‌گرِ نیروگاه};
+  \node[b, draw=cBESS, fill=cBESS!9] (fb) at (12,-0.8) {حالتِ پشتیبان};
+  \node[b, draw=cPV, fill=cPV!9] (t1) at (8,0.8) {ترانسفورماتورِ ۱};
+  \node[b, draw=cPV, fill=cPV!9] (t2) at (8,-0.8) {ترانسفورماتورِ ۲};
+  \node[b] (bus) at (4.4,0) {شینهٔ $132\,\text{kV}$};
+  \node[b, draw=cWind, fill=cWind!9] (ln) at (1.2,0) {خطِ $132\,\text{kV}$};
+  \coordinate (inR) at (14.2,0);
+  \coordinate (sR) at (13.6,0); \coordinate (sL) at (10.4,0);
+  \coordinate (tR) at (9.6,0); \coordinate (tL) at (6.4,0);
+  \draw[line width=0.8pt, draw=cInkB] (inR) -- (sR);
+  \draw[line width=0.8pt, draw=cInkB] (sR) |- (ppc.east); \draw[line width=0.8pt, draw=cInkB] (sR) |- (fb.east);
+  \draw[line width=0.8pt, draw=cInkB] (ppc.west) -| (sL); \draw[line width=0.8pt, draw=cInkB] (fb.west) -| (sL);
+  \draw[line width=0.8pt, draw=cInkB] (sL) -- (tR);
+  \draw[line width=0.8pt, draw=cInkB] (tR) |- (t1.east); \draw[line width=0.8pt, draw=cInkB] (tR) |- (t2.east);
+  \draw[line width=0.8pt, draw=cInkB] (t1.west) -| (tL); \draw[line width=0.8pt, draw=cInkB] (t2.west) -| (tL);
+  \draw[line width=0.8pt, draw=cInkB] (tL) -- (bus.east);
+  \draw[line width=0.8pt, draw=cInkB] (bus.west) -- (ln.east);
+  \draw[->, line width=0.8pt, draw=cInkB] (ln.west) -- ++(-0.8,0) node[left, font=\footnotesize] {نقطهٔ اتصال};
+  \node[font=\footnotesize, text=cInk] at (14.2,0.35) {واحدها};
+  \node[font=\scriptsize, text=cInk, align=center, text width=40mm] at (10,-2.0)
+    {موازی: یکی کافی است برای «صادراتِ ممکن»؛ هر دو لازم‌اند برای «صادراتِ کامل»};
+\end{tikzpicture}
+\end{document}

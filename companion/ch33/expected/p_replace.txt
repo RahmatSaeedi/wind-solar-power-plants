@@ -1,0 +1,10 @@
+replacements over 25 years, item by item (teaching)
+  item                               t CO2e
+  inverters (half the item), year 13  1,125
+  turbine major parts (10 %)          1,800
+  modules broken or failed (1 %)        270
+  cables and transformers                 0
+  total 3,195 t = 4.3 % of manufacture and construction
+  lab I assumed 8 %: the item-by-item list is lower, so the
+  8 % is cautious - the study states which it used and why,
+  and S1 adds its battery augmentation separately (ch 19)

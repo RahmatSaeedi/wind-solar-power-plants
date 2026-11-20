@@ -1,0 +1,12 @@
+a winter night at -5 C before a sunny morning; container UA 1.5 kW/K (ch 19)
+  cells kept at   charge C-rate allowed   heat to hold kW   heat over 10 h kWh
+             5                    0.10              15.0               150
+            12                    0.25              25.5               255
+            15                    0.50              30.0               300
+            20                    0.50              37.5               375
+  holding the cells at 15 C costs 300 kWh a container a night
+  (2.4 MWh for the plant) and lets the battery take the
+  morning's PV at full rate; at 5 C
+  it takes a fifth - the BMS limit by temperature and the
+  HVAC set point are designed together, and the limit table
+  is part of the configuration record (lesson B)

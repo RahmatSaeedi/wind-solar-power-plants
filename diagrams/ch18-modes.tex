@@ -1,0 +1,39 @@
+% Chapter 18 - three operating modes, each row flowing right to left: grid-connected (the grid sets
+% voltage and frequency), islanded (a grid-forming source sets them), hybrid (grid-connected with a
+% planned island for critical loads behind a transfer switch). Teaching sketch.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=26mm, minimum height=11mm, align=center, text width=25mm},
+    ttl/.style={font=\small\bfseries, text=cInk, align=center, text width=22mm}]
+  % row 1: grid-connected
+  \node[ttl] at (13.2,0) {متصل به شبکه};
+  \node[b] (p1) at (9.8,0) {بادی، خورشیدی\\و باتری};
+  \node[b] (c1) at (6.0,0) {نقطهٔ اتصال};
+  \node[blkLoad, minimum width=26mm, minimum height=11mm, align=center] (g1) at (2.2,0) {شبکه};
+  \draw[flow] (p1.west) -- (c1.east);
+  \draw[flow] (c1.west) -- (g1.east);
+  \node[note, text width=95mm] at (6.0,-1.05) {شبکه ولتاژ و بسامد را تعیین می‌کند؛ واحدها پیروِ شبکه‌اند};
+  % row 2: islanded
+  \node[ttl] at (13.2,-2.8) {جزیره‌ای};
+  \node[b] (p2) at (9.8,-2.8) {بادی و خورشیدی};
+  \node[blkBESS, minimum width=26mm, minimum height=11mm, align=center, text width=25mm] (f2)
+    at (6.0,-2.8) {منبعِ سازندهٔ شبکه\\(باتری یا ژنراتور)};
+  \node[blkLoad, minimum width=26mm, minimum height=11mm, align=center] (l2) at (2.2,-2.8) {بارِ محلی};
+  \draw[flow] (p2.west) -- (f2.east);
+  \draw[flow] (f2.west) -- (l2.east);
+  \node[note, text width=95mm] at (6.0,-3.85) {منبعِ سازندهٔ شبکه ولتاژ و بسامد را می‌سازد و توان را هر لحظه تراز می‌کند};
+  % row 3: hybrid
+  \node[ttl] at (13.2,-5.6) {ترکیبی};
+  \node[b] (p3) at (9.8,-5.6) {بادی، خورشیدی\\و باتری};
+  \node[b] (c3) at (6.0,-5.6) {نقطهٔ اتصال};
+  \node[blkLoad, minimum width=26mm, minimum height=11mm, align=center] (g3) at (2.2,-5.6) {شبکه};
+  \node[blkWarn, minimum width=26mm, minimum height=11mm, align=center] (t3) at (6.0,-7.3) {کلیدِ انتقال};
+  \node[b] (k3) at (2.2,-7.3) {بارهای حیاتیِ\\نیروگاه};
+  \draw[flow] (p3.west) -- (c3.east);
+  \draw[flow] (c3.west) -- (g3.east);
+  \draw[flow] (p3.south) |- (t3.east);
+  \draw[flow] (t3.west) -- (k3.east);
+  \node[note, text width=40mm] at (10.3,-7.95) {فقط با اجازهٔ اپراتور و\\منبعِ سازندهٔ شبکه};
+\end{tikzpicture}
+\end{document}

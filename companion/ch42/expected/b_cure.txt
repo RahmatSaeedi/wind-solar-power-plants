@@ -1,0 +1,18 @@
+degree of cure from DSC residual heat (teaching resin, total 420 J/g)
+  Tg estimated linearly between uncured and fully cured
+  sample  residual J/g   cure    Tg C   margin over 60 C
+  S1              16.9   0.960    80.8              +20.8
+  S2               1.9   0.995    84.5              +24.5
+  S3              12.0   0.971    82.0              +22.0
+  S4               6.1   0.986    83.5              +23.5
+  S5               8.7   0.979    82.8              +22.8
+  S6               7.2   0.983    83.2              +23.2
+  S7               0.0   1.000    85.0              +25.0
+  S8              11.0   0.974    82.3              +22.3
+  S9              46.0   0.890    73.5              +13.5
+  below 95% cure: ['S9']
+  an under-cured laminate softens near its service
+  temperature: the sample's place in the mould is found and
+  the cure record of that zone reviewed - cure is controlled
+  by the maker's qualified cycle; this lesson reads its
+  evidence, never its settings

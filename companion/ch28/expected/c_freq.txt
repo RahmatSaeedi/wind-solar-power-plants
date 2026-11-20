@@ -1,0 +1,14 @@
+a frequency event: loss of generation, 20 % of the system on 5 % droop
+  system                         plant response        nadir Hz   RoCoF Hz/s
+  large (20 GW, H 4, -1,000 MW)  no response             49.123       -0.308
+  large (20 GW, H 4, -1,000 MW)  PV held 10 MW down      49.131       -0.308
+  large (20 GW, H 4, -1,000 MW)  battery 20 MW (S1)      49.138       -0.308
+  small (2 GW, H 3, -150 MW)     no response             48.566       -0.609
+  small (2 GW, H 3, -150 MW)     PV held 10 MW down      48.648       -0.609
+  small (2 GW, H 3, -150 MW)     battery 20 MW (S1)      48.740       -0.608
+  over-frequency (small system loses 150 MW of load): peak 51.434 Hz without,
+  51.199 Hz with the plant reducing on its 5 % droop
+  on a large system the plant changes the nadir by hundredths
+  of a hertz; on a small one by tenths - and only with
+  headroom: at full output without a battery it can help
+  only upwards in frequency (by reducing), never downwards

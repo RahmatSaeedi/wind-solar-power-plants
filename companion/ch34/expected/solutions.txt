@@ -1,0 +1,40 @@
+P01 4 mA, 20 mA and 8 mA on 0-150 kV: 0, 150, 37.5 kV
+P02 145.2 kV on 0-150 kV: 19.49 mA
+P03 longest loop, 24 V, 12 V, 250 ohm, 0.75 mm2: 6,331 m
+P04 same with 15 V needed at the transmitter: 3,409 m
+P05 one count of 16 bits over 21 mA: 0.32 uA
+P06 combined u of 0.29, 0.13, 0.09 %: 0.33 %
+P07 VT class 0.2 as rectangular u: 0.115 %
+P08 Pt100 at 0 and 100 deg C: 100.00, 138.51 ohm
+P09 temperature of 119.40 ohm: 50.0 deg C
+P10 lead error, 2 x 1.17 ohm: +6.0 K
+P11 drift 20 ppm for a week: 12.1 s
+P12 interval, tol 0.5, drift 0.15/yr, as-left 0.05: 3.0 yr
+P13 response 20 + 2 x 50 + 10 + 30: 160 ms
+P14 panel 400 W on 5 m2: rise 14.5 K
+P15 fan for 400 W and 5 K: 239 m3/h
+P16 modules for 185 DI at 16 + 20 %: 14
+P17 autonomy 250 Ah, 44.7 A, 80 %: 4.5 h
+P18 PLC pair, independent: 0.09 s a year
+P19 false watchdog timeouts, p 0.5 %, 3 beats: 3.9 a year
+P20 quality of 2.5 mA: bad; of 12 mA aged 15 s: stale
+P21 0.5 % of a 0-200 L/min span at 40 L/min: 2.5 % of reading
+P22 10 MW at 132 kV on 600/1 A: 43.7 A, 7.3 % of rated
+P23 1 A, 2 x 200 m of 2.5 mm2 Cu + 1 VA: 3.8 VA
+P24 Pt100 at 0 C, 2 mA, 0.5 K/mW: 0.20 K
+P25 110 V, 36.7 kohm input, 30 kohm leak: 1.65 mA (undefined)
+P26 230 V on a core, 1 km at 100 nF/km: 7.2 mA
+P27 false deviation alarms at k = 4, 1 s samples: 0.23 a hour
+P28 pocket tau 60 s, oil warming 2 K/min: lag 2.0 K
+P29 phase margin with 0.5 s of loop delay: 66.4 deg
+P30 loop delay for a 60 deg margin: 0.65 s
+P31 30 ms pulse, 50 ms scan: missed 40 %
+P32 proportional kick, kp 1.5, error 10 MW: 15 MW
+P33 hold-up, 470 uF, 325 -> 200 V, 240 W at 90 %: 57.8 ms
+P34 5 mHz error, 5 % droop, 100 MW: 0.20 MW
+P35 0.3 % voltage error, 5 % slope, 33 Mvar: 1.98 Mvar
+P36 line loss at 80 MW, 7.06 km of 0.12 ohm/km: 0.31 MW
+P37 capacitor 5,000 h at 105 C, at 65 C: 9.1 years
+P38 failure-rate factor 34 -> 45 C, 0.7 eV: 2.50
+P39 MTBF 100,000 h, MTTR 10 h: 52.6 min down a year
+P40 sequence timeouts 10 + 30 + 5 + 40 + 5 + 90: 180 s

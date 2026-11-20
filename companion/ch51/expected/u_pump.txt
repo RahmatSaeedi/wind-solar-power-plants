@@ -1,0 +1,7 @@
+fire-pump weekly runs: churn pressure (bar) against the band
+  7.0-8.0 (teaching)
+   7.4  7.5   -   7.3  7.4  6.8  7.3   -    -   7.4  7.5  7.2  6.6  7.4
+  weeks missed: 3, 8, 9; out of band: 6, 13
+  two weeks missed in a row is an impairment, with its permit
+  and compensating measures (ch 32); the low readings go to
+  the maintainer with the trend, not one at a time

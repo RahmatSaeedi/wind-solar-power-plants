@@ -1,0 +1,16 @@
+% Chapter 9 - P-V curve of a partly shaded string (18 modules at 900 W/m2, 8 at 300 W/m2) with a
+% local and a global peak (A-164). Data: diagrams/data/ch09-shade.csv (companion/ch09/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm, xmin=0, xmax=1250, ymin=0, ymax=9.5,
+      xlabel={ولتاژِ رشته، $\text{V}$}, ylabel={توان، $\text{kW}$}, xtick={0,250,...,1250}, ytick={0,2,...,8}]
+    \addplot[sPV] table[x=v, y=p, col sep=comma] {data/ch09-shade.csv};
+    \fill[cInk] (axis cs:687,8.08) circle (1.6pt);
+    \node[note, text=cInk, anchor=south] at (axis cs:687,8.2) {قلّهٔ سراسری $8.08$};
+    \fill[cInk] (axis cs:1084,4.48) circle (1.6pt);
+    \node[note, text=cInk, anchor=south] at (axis cs:1084,4.7) {قلّهٔ محلی $4.48$};
+    \node[note, text width=34mm] at (axis cs:300,3.2) {ماژول‌های سایه‌دار با دیودِ میان‌گذر کنار رفته‌اند};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

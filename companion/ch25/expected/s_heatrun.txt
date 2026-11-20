@@ -1,0 +1,9 @@
+a heat run stopped too early (teaching data, not lesson D's dossier):
+  hours  0.5  1.0  2.0  3.0  4.0  5.0  6.0  7.0  8.0
+  rise K  9.8  18.7  32.6  42.0  48.3  52.5  55.3  57.0  58.2
+  fit: final rise 61.7 K, time constant 2.67 h
+  the last reading (58.2 K) is 94% of the way and looks
+  inside the 60 K guarantee; the settled value 61.7 K is over it -
+  the test runs until the rise has settled (the standard's
+  criterion), and the final value, not the last reading, is
+  compared with the guarantee

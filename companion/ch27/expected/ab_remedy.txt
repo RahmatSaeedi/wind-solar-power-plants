@@ -1,0 +1,16 @@
+remedies for the resonance (worst over 0-26 units online and over
+  the 5th, 7th, 11th and 13th)
+  option                       worst amplification   units   order   cost k u
+  as built (5th filter out)                   45.1       8      11          0
+  5th filter switched in                      36.2      16      11          0
+  damped 11th filter 2 Mvar                    4.5      21       7        450
+  converter active damping                    24.3       3      13         60
+  every remedy is judged by its WORST unit count and order,
+  not by the all-online case or the order it targets;
+  switching the 5th filter in moves the peak but does not
+  remove it; the damped 11th filter flattens the 11th but
+  leaves a smaller peak at the 7th; active damping grows
+  with the units online, so it helps least in the risky
+  hours with few units running - cheap only if the maker's
+  converters can do it and a test proves it (teaching
+  costs; ch 21 weighs them against the energy at risk)

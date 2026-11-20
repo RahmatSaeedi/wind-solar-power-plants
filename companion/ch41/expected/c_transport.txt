@@ -1,0 +1,8 @@
+transport screening: EL of one pallet (31 modules) a container
+  rule: 2 or more cracked modules -> EL the whole container
+  normal handling (0.5% cracked): opened by mistake 1.1%
+  rough handling (8% cracked): caught 71%
+  with 177 containers (ch 10) about 2 opened needlessly
+  shock indicators and pallet damage pick the pallet to image;
+  a crack found at receipt is a claim against the carrier or
+  the maker; one found after installation is the plant's

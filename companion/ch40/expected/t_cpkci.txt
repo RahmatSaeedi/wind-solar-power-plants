@@ -1,0 +1,5 @@
+how sure is Cpk 1.93 from 35 joints? (normal approximation)
+  95 % lower bound: 1.53
+  with 35 joints the lower bound is still above 1.33; with
+  ten joints it would be 1.16 - a capability claim
+  needs its sample size

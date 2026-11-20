@@ -1,0 +1,6 @@
+terrain-model resolution and slope (same terrain):
+  50 m raster:  steepest  15.3 %, area above 10 %  5.0 %
+  200 m raster: steepest  13.2 %, area above 10 %  4.8 %
+  a coarse model smooths the steep cells away: it overstates the
+  buildable land and understates road gradients; screening uses
+  what exists, micro-siting needs a survey (chapter 29)

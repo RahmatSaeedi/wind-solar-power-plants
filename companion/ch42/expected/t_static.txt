@@ -1,0 +1,10 @@
+full-scale static test of the first blade (teaching)
+  load to the extreme with the test factors of the design
+  tip deflection predicted 12.1 m (ch 11, stiffened caps)
+  measured 12.7 m (+5.0%)
+  agreement band +-10%: within
+  the extra 0.6 m is 12% of the 5.2 m clearance margin (lesson B, clearance)
+  the test checks the model, not only the blade: a deflection
+  above the prediction eats into the tip-tower clearance
+  of ch 11 and is fed back to the design before series
+  production (IEC 61400-5 names the tests)

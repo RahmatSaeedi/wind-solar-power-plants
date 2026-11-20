@@ -1,0 +1,23 @@
+weld repairs per week (120 welds tested by UT, synthetic)
+  centre line from weeks 1-10: 2.7 %; upper limit 7.1 %
+  week   repairs   rate %   signal
+     1         2      1.7
+     2         3      2.5
+     3         1      0.8
+     4         4      3.3
+     5         5      4.2
+     6         6      5.0
+     7         3      2.5
+     8         1      0.8
+     9         3      2.5
+    10         4      3.3
+    11         2      1.7
+    12        12     10.0   ABOVE
+    13        15     12.5   ABOVE
+    14        10      8.3   ABOVE
+    15         3      2.5
+    16         5      4.2
+  the chart separates the normal scatter of a stable process
+  from a cause worth finding: weeks above the limit start a
+  search (here a new welder), not a blame - and the repairs
+  themselves are re-tested like any weld

@@ -1,0 +1,31 @@
+% Chapter 8 - the two laws of every machine: a conductor moving through a field gets an EMF
+% (right); a conductor carrying current in a field feels a force (left).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % ---- right: motional EMF ----
+  \begin{scope}[xshift=7.4cm]
+    \node[note, text=cInk, font=\small\bfseries] at (2.0,3.4) {ژنراتور: $e = B\,\ell\,v$};
+    \fill[cWind!8] (0,0) rectangle (4,2.6);
+    \foreach \x in {0.4,1.2,...,3.6} {\foreach \y in {0.4,1.3,2.2} {\fill[cInkB] (\x,\y) circle (1.2pt);}}
+    \node[note, anchor=south west] at (0.05,2.62) {میدانِ $B$ (رو به بیرونِ صفحه)};
+    \draw[line width=2.2pt, cInk] (2.0,0.1) -- (2.0,2.5);
+    \draw[flow] (2.15,1.3) -- (3.3,1.3) node[note, anchor=west] {$v$};
+    \draw[cLoad, line width=1.0pt, ->] (1.75,0.4) -- (1.75,2.2);
+    \node[note, text=cInk, anchor=east] at (1.7,1.3) {$e$};
+    \draw[dimline] (2.45,0.1) -- (2.45,2.5);
+    \node[note, anchor=west] at (2.5,0.55) {$\ell$};
+  \end{scope}
+  % ---- left: force on a current ----
+  \begin{scope}[xshift=0cm]
+    \node[note, text=cInk, font=\small\bfseries] at (2.0,3.4) {موتور: $F = B\,I\,\ell$};
+    \fill[cWind!8] (0,0) rectangle (4,2.6);
+    \foreach \x in {0.4,1.2,...,3.6} {\foreach \y in {0.4,1.3,2.2} {\fill[cInkB] (\x,\y) circle (1.2pt);}}
+    \draw[line width=2.2pt, cInk] (2.0,0.1) -- (2.0,2.5);
+    \draw[cLoad, line width=1.0pt, ->] (1.75,0.4) -- (1.75,2.2);
+    \node[note, text=cInk, anchor=east] at (1.7,1.3) {$I$};
+    \draw[flow, cLoss] (2.15,1.3) -- (3.3,1.3) node[note, anchor=west, text=cInk] {$F$};
+  \end{scope}
+  \node[note, text width=110mm] at (5.7,-0.6) {هر دو هم‌زمان در هر ماشین: ژنراتورِ جریان‌دار نیروی مخالفِ حرکت حس می‌کند و موتورِ چرخان ولتاژِ مخالفِ جریان می‌سازد};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+relay settings read back at the panel FAT;
+  released set f665fd13b4e1ee19 (ch 26 register)
+  relays: 11; differing: PVF2, SST
+    PVF2: tms = 0.25
+    SST: fw = 7.1
+  one relay carries a time multiplier from an earlier study, one
+  an older firmware: the panel builder loaded what the
+  register said a month earlier - the register's revision is
+  part of the panel's record (ch 26, ch 38)

@@ -1,0 +1,14 @@
+% Chapter 6 — a DC feeder: the cable resistance appears in BOTH conductors.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \draw (0,0) to[battery1, l={$V_\text{s}$}, invert] (0,3)
+        to[R, l={$R_\text{c}/2$}, i={$I$}, v={$\Delta V/2$}] (4,3) to[short, -o] (4.8,3);
+  \draw (4.8,3) to[R, l={$R_\text{L}$}, v={$V_\text{L}$}] (4.8,0) to[short, o-] (4,0)
+        to[R, l={$R_\text{c}/2$}, v={$\Delta V/2$}] (0,0);
+  \draw[dimline] (0.3,4.3) -- (3.7,4.3) node[note, midway, above] {طولِ مسیر $L$ (یک‌طرفه)};
+  \node[note, text=cInk, anchor=north, align=center] at (2.0,-1.0)
+       {$R_\text{c} = 2\,\rho\,\dfrac{L}{A}$ \qquad $\Delta V = R_\text{c}\,I$ \qquad $P_\text{loss} = R_\text{c}\,I^2$};
+  \node[note, text=cInkB, anchor=west, align=left] at (6.0,1.5) {$V_\text{L} = V_\text{s} - \Delta V$};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+a cautious value of the friction angle from eight tests (T07 area)
+  tests: 31, 34, 29, 33, 36, 30, 32, 35 degrees
+  mean 32.5, standard deviation 2.45, t(0.95, 7) = 1.89
+  cautious estimate of the MEAN (large raft, averaging): 30.9
+  cautious estimate of a LOCAL value (pile tip, small area): 27.6
+  lowest single test: 29
+  a raft 24 m wide averages the ground under it, so the mean
+  is what matters; a pile tip sits in one spot and may meet
+  the weak lens - the same eight tests give two different
+  cautious values, and the geotechnical engineer chooses by
+  the mechanism, not by habit

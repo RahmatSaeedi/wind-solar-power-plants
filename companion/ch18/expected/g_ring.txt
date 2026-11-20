@@ -1,0 +1,10 @@
+radial strings against an open ring (A-288, expected values):
+  radial:     82 MWh/yr lost to cable faults
+  open ring:      3 MWh/yr (switching 4 h, then fed from the other end)
+  tie cables 3.00 km, about 285 k u, plus two ring switches
+  when switched, one cable carries two strings: 0.737 kA,
+  above the 0.41 kA of 240 mm2 and the 0.66 kA of 630 mm2
+  so the ring restores only part of a string at full wind, or
+  needs larger cables; at these failure rates it saves little
+  energy and is bought where repairs are slow (remote sites,
+  winter access)

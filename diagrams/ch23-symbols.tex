@@ -1,0 +1,82 @@
+% Chapter 23 - teaching symbols used on the book's single-line diagrams (drawn here, not copied from
+% IEC 60617): generator, PV array, battery, inverter, transformer, breaker, disconnector, earthing
+% switch, current and voltage transformers, meter, cable, overhead line, busbar, earth.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    lab/.style={note, text width=24mm, anchor=north}]
+  % row 1
+  \begin{scope}[shift={(15,0)}]
+    \draw (0,0) circle (0.4); \draw (-0.22,0) sin (-0.11,0.12) cos (0,0) sin (0.11,-0.12) cos (0.22,0);
+    \node[lab] at (0,-0.6) {مولد (توربین)};
+  \end{scope}
+  \begin{scope}[shift={(11,0)}]
+    \draw (-0.45,-0.35) rectangle (0.45,0.35); \draw (-0.45,-0.35) -- (0.45,0.35);
+    \draw[-{Stealth[length=1.5mm]}] (-0.75,0.7) -- (-0.35,0.3); \draw[-{Stealth[length=1.5mm]}] (-0.5,0.8) -- (-0.1,0.4);
+    \node[lab] at (0,-0.6) {آرایهٔ خورشیدی};
+  \end{scope}
+  \begin{scope}[shift={(7,0)}]
+    \draw (-0.4,0.3) -- (0.4,0.3); \draw[line width=1.6pt] (-0.22,0.12) -- (0.22,0.12);
+    \draw (-0.4,-0.06) -- (0.4,-0.06); \draw[line width=1.6pt] (-0.22,-0.24) -- (0.22,-0.24);
+    \node[lab] at (0,-0.6) {باتری};
+  \end{scope}
+  \begin{scope}[shift={(3,0)}]
+    \draw (-0.4,-0.4) rectangle (0.4,0.4); \draw (-0.4,-0.4) -- (0.4,0.4);
+    \node[font=\scriptsize] at (-0.18,0.18) {$=$}; \node[font=\scriptsize] at (0.18,-0.18) {$\sim$};
+    \node[lab] at (0,-0.6) {اینورتر};
+  \end{scope}
+  % row 2
+  \begin{scope}[shift={(15,-2.4)}]
+    \draw (0,0.17) circle (0.28) (0,-0.17) circle (0.28);
+    \node[lab] at (0,-0.6) {ترانسفورماتور};
+  \end{scope}
+  \begin{scope}[shift={(11,-2.4)}]
+    \draw (0,0.6) -- (0,0.2); \draw (-0.2,-0.2) rectangle (0.2,0.2); \draw (0,-0.2) -- (0,-0.6);
+    \node[lab] at (0,-0.7) {کلیدِ قدرت};
+  \end{scope}
+  \begin{scope}[shift={(7,-2.4)}]
+    \draw (0,0.6) -- (0,0.25); \draw (0,-0.25) -- (0.3,0.22); \draw (0,-0.25) -- (0,-0.6);
+    \draw (-0.12,0.25) -- (0.12,0.25);
+    \node[lab] at (0,-0.7) {سکسیونر};
+  \end{scope}
+  \begin{scope}[shift={(3,-2.4)}]
+    \draw (0,0.6) -- (0,0.25); \draw (0,-0.2) -- (0.3,0.22); \draw (0,-0.2) -- (0,-0.45);
+    \draw (-0.25,-0.45) -- (0.25,-0.45) (-0.16,-0.53) -- (0.16,-0.53) (-0.07,-0.61) -- (0.07,-0.61);
+    \node[lab] at (0,-0.75) {کلیدِ زمین};
+  \end{scope}
+  % row 3
+  \begin{scope}[shift={(15,-4.9)}]
+    \draw (0,0.6) -- (0,-0.6); \draw (0,0) circle (0.2);
+    \node[lab] at (0,-0.7) {ترانسفورماتورِ جریان};
+  \end{scope}
+  \begin{scope}[shift={(11,-4.9)}]
+    \draw (0,0.6) -- (0,0); \draw (0,-0.12) circle (0.14) (0,-0.32) circle (0.14);
+    \node[lab] at (0,-0.7) {ترانسفورماتورِ ولتاژ};
+  \end{scope}
+  \begin{scope}[shift={(7,-4.9)}]
+    \draw (0,0) circle (0.32); \node[font=\scriptsize] at (0,0) {$\mathrm{kWh}$};
+    \node[lab] at (0,-0.6) {کنتور};
+  \end{scope}
+  \begin{scope}[shift={(3,-4.9)}]
+    \draw[line width=2pt, line cap=round] (-0.6,0) -- (0.6,0);
+    \node[lab] at (0,-0.4) {شینه};
+  \end{scope}
+  % row 4
+  \begin{scope}[shift={(15,-7.0)}]
+    \draw (-0.6,0) -- (0.6,0); \draw (-0.2,-0.12) -- (-0.2,0.12) (0.2,-0.12) -- (0.2,0.12);
+    \node[lab] at (0,-0.4) {کابل};
+  \end{scope}
+  \begin{scope}[shift={(11,-7.0)}]
+    \draw (-0.6,0) -- (0.6,0); \draw (-0.35,-0.15) -- (-0.15,0.15) (0.15,-0.15) -- (0.35,0.15);
+    \node[lab] at (0,-0.4) {خطِ هوایی};
+  \end{scope}
+  \begin{scope}[shift={(7,-7.0)}]
+    \draw (0,0.4) -- (0,0); \draw (-0.3,0) -- (0.3,0) (-0.2,-0.1) -- (0.2,-0.1) (-0.1,-0.2) -- (0.1,-0.2);
+    \node[lab] at (0,-0.4) {زمین};
+  \end{scope}
+  \begin{scope}[shift={(3,-7.0)}]
+    \draw[boundary] (-0.6,-0.3) rectangle (0.6,0.3);
+    \node[lab] at (0,-0.45) {مرز (مالکیت، آزمون)};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

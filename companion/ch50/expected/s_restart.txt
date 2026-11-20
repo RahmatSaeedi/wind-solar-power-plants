@@ -1,0 +1,11 @@
+integrated restart of the auxiliaries after a total loss of supply
+  step                                               minutes
+  diesel starts and closes onto the essential board       1.5
+  110 V chargers back; UPS recharging                     3.5
+  control-room HVAC restarts (staggered)                  6.5
+  SCADA servers and network checked                      12.5
+  protection relays healthy, alarms reviewed             20.5
+  grid back: transfer to the normal supply               22.5
+  22.5 min against a 30-minute teaching target - pass
+  the chain only works if the diesel start of lesson E (not
+  yet tested) works: the restart test waits for it

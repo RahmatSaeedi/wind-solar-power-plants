@@ -1,0 +1,16 @@
+% Chapter 22 - equity IRR of the three fictional sites from the chapter 21 model (energy, cost with
+% grid, delay and lenders' P90 per site), energy written under each bar (A-313).
+% Data: diagrams/data/ch22-sites.csv (companion/ch22/lab_d.py ranking()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=90mm, height=60mm, ybar, bar width=14mm, xmin=0.4, xmax=3.6,
+      ymin=0, ymax=12, ylabel={بازدهِ سهام (درصد)}, xtick={1,2,3},
+      xticklabels={{P-North\\$330\,\text{GWh}$}, {P-Central\\$295\,\text{GWh}$}, {P-South\\$262\,\text{GWh}$}},
+      xticklabel style={align=center}, ytick={0,2,...,12}, xmajorgrids=false,
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk},
+      /pgf/number format/fixed, /pgf/number format/fixed zerofill, /pgf/number format/precision=1]
+    \addplot[draw=cBESS, fill=cBESS!40] table[x=k, y=irr, col sep=comma] {data/ch22-sites.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

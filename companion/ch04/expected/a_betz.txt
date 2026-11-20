@@ -1,0 +1,7 @@
+actuator disc: induction a slows the wind to (1 - a) v at the disc, (1 - 2a) v
+    far behind
+  C_p = 4 a (1 - a)^2, C_T = 4 a (1 - a)
+  dC_p/da = 4 (1 - a)(1 - 3a) = 0 -> a = 1/3: C_p = 16/27 = 0.5926, C_T = 8/9
+    = 0.8889
+  wake speed at a = 1/3: v/3; a > 1/2 would need a reversed wake (model fails)
+  the turbine of A-046 (C_p 0.45 at 10 m/s) reaches 76% of the Betz limit

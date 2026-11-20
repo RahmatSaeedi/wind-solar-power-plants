@@ -1,0 +1,10 @@
+GHI by air mass over the year (hour-mean sun):
+  air mass      share of GHI
+  1.0 -  1.5     55.9 %
+  1.5 -  2.0     23.1 %
+  2.0 -  3.0     12.5 %
+  3.0 - more      8.5 %
+  the reference spectrum of module ratings is air mass 1.5
+  (IEC 60904-3:2019); most of this site's energy arrives near it,
+  low winter and morning sun is redder, which crystalline silicon
+  minds less than some thin-film technologies (chapter 10)

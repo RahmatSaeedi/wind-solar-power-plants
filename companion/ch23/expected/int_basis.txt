@@ -1,0 +1,16 @@
+electrical basis of Plant P (D-027; PLP-ELE-DWG-0005 rev A):
+  levels: 0.6/0.69 kV units, 33 kV collector, 132 kV export
+  collector: WS1, WS2, PVF3, BESS-A on section A; WS3, PVF1,
+    PVF2, BESS-B on section B; coupler normally open
+  main transformers 2 x 63 MVA YNd11 (provisional), earthing
+    transformers with 400 A resistors on each 33 kV section
+  per-transformer limit in the PPC (each section up to 68 MVA)
+  export: line bay E1 with disconnector at the boundary; line
+    owner and meter place open (U-065); losses between the
+    meters 0.26 %
+  fault levels: 33 kV about 12.5 kA with the coupler closed
+    (25 kA gear), 0.4 kV board 7.9 kA
+  auxiliaries: 2 x 250 kVA, generator 150 kVA, DC 250 Ah, UPS
+    33 kVA / 60 min; load-shed and cause-and-effect matrices
+  open: impedances and vector groups (makers), utility data
+    (U-089), autonomy requirement (U-091)

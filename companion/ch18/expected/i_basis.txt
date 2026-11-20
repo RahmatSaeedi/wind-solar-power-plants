@@ -1,0 +1,16 @@
+architecture basis of Plant P (D-022; PLP-ELE-REP-0005):
+  mode: grid-connected, grid-following; island only for
+    the plant's critical loads behind a transfer switch
+  capacities: wind 60 MW (12 x 5), PV 60.06 MWp / 50 MW AC,
+    battery S1 20 MW / 40 MWh AC-coupled, export 100 MW
+  collector: 33 kV, 3 radial wind strings, 3 PV feeders,
+    battery on its own bays; split 33 kV bus
+  reactive power: units plus battery inverters (margin 3 Mvar)
+    or a compensator, after the grid code (U-067)
+  substation: two 63 MVA 33/132 kV transformers
+  export: single-circuit 132 kV overhead line, 7.06 km
+  interfaces: 18 system pairs; 10 detailed items in the
+    register (PLP-GEN-REG-0004), 4 mismatches to close
+  water: well, 2,500 m3 tank with a held reserve
+  open: POC and line owner (U-065..U-068), coupling, cable
+    size, line circuits; change control from here on

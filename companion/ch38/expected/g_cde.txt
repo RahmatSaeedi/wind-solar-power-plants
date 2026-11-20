@@ -1,0 +1,9 @@
+states of the common data environment and the statuses of ch 2
+  state              who may use it                       statuses
+  work in progress   author's team only                   WIP
+  shared             project teams, for coordination      IFR, IFI, IFA
+  published          everyone who builds or buys          APP, IFC
+  archived           record of what was used and built    ASB, SUP
+  information moves from one state to the next only through
+  a check and an approval; nobody builds from 'shared', and
+  nothing is deleted from 'archived' (STD-031 concept)

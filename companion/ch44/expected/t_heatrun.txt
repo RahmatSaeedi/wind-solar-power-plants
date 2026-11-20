@@ -1,0 +1,16 @@
+full-power run: junction rise with time constant 12 min (teaching);
+  bad module 11.9 K above the peers' mean at steady state,
+  peers' sd 2.6 K, sensor noise 0.5 K
+  minutes   share of steady rise   bad module z   steady within
+        2                    15%            2.9        26.0 K
+        5                    34%            4.0        20.2 K
+       10                    57%            4.3        13.3 K
+       20                    81%            4.5         5.8 K
+       30                    92%            4.5         2.5 K
+       60                    99%            4.5         0.2 K
+  the bad module stands 3 sd out after 2.2 min; the
+  temperatures are steady (within 1 %) after about 60 min
+  a peer comparison finds a bad print in minutes; limits on
+  the rise need the steady state; the rest of a long run
+  tests what changes slowly - seals, joints, the cooling
+  loop - not the print

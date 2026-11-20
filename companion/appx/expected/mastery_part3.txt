@@ -1,0 +1,24 @@
+M30: GHI P90 one year: 1,920 x (1 - 1.2816 x 3.9 %) = 1,824 kWh/m2
+M31: wind long term against the mast year: 191.87 / 186.69 = 1.0277 (+2.77 %)
+M32: MCP 12 months, r 0.80: speed 1.90 %; energy x 1.82 = 3.46 %
+M33: cross-prediction W2b 1.35 % and W1 7.64 % of speed: energy 2.46 % and
+    13.90 %
+M34: Part II test against model 15.1 at MV: wind 184.58 -> 193.14 GWh (+8.56),
+    PV 110.23 -> 108.36 GWh (-1.87)
+M35: wind steps %: -8.53, -0.28, -4.01, +2.78, -1.90; total -11.72 %
+M36: PV from STC to MV: -16.10 %; of it availability -1.00 % and degradation
+    -0.50 % (A-275)
+M37: plant MV 301.49 -> POC 295.14 GWh: -2.11 % (6.35 GWh)
+M38: losses 2 % and 3 % in a row: 4.94 % (not 5 %)
+M39: RSS of 3, 2, 2.5, 1, 1.5 %: 4.74 %; P90 of 200 GWh: 187.84 GWh
+M40: same parts fully correlated: 10.0 %; P90 174.37 GWh
+M41: Plant P at the POC: long-term 11.76, year-to-year 9.31 GWh; P90 1y 275.9,
+    P90 10y 279.6 GWh
+M42: hybrid P90 one year at MV 281.93 GWh against wind + PV P90s 174.84 +
+    102.20 = 277.04 GWh
+M43: largest shares: year-to-year (wind and PV, r 0.12) 38.5 %; long-term
+    correction and period 24.3 %; anemometer calibration, mounting 10.5 %
+M44: one-year P90 exceeded in 9 of 10 years; at least one year below it in 15
+    years: 0.79
+M45: forecast RMSE 10.72 MW (31 % of mean power, hourly) against the one-year
+    yield sigma 14.99 GWh (5.1 %)

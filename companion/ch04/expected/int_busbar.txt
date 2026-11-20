@@ -1,0 +1,11 @@
+33 kV main busbar: export current I = P / (sqrt3 x 33 kV x 0.95); peak 1842 A
+  room = air + 15 K, cooling h = 10.0 W/m2K, limit 90 C (A-061); steady state
+    each hour
+  option            R20 (micro-ohm/m)  T max (C)  hours > limit  kg/m
+  Cu 80 x 10                21.50        106.3           58     7.2
+  Cu 2 x (80 x 10)          10.75         64.4            0    14.3
+  Al 100 x 10               28.20        111.5           82     2.7
+  Al 2 x (100 x 10)         14.10         65.3            0     5.4
+  the hottest hours are windy summer middays: high current and a warm room
+  bar spacing, enclosure ventilation and the standard's rating method decide
+    the final rating (chapter 24); this is the physics underneath

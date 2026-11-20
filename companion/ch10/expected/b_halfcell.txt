@@ -1,0 +1,7 @@
+interconnect loss, full cells against half-cut cells (A-200):
+  full cells: 72 x I^2 x r = 72 x 13.11^2 x 0.8 mohm = 9.9 W (1.80 %)
+  half cells: 144 x (I/2)^2 x (r/2) = 2.5 W (0.45 %)
+  ratio 0.25: each half carries half the current over
+  half the path; the two halves of the module run in parallel,
+  so the module keeps its voltage and current class
+  gain 7.4 W per module, about 811 kW over Plant P at STC

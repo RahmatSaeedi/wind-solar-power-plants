@@ -1,0 +1,13 @@
+lifecycle decisions as a register: what, evidence, what would change it
+  D-057-1  gearboxes: repair at failure to year 25
+     evidence: lesson D; re-open if these change: price, k, restore
+  D-057-2  inverters: replace before year 21
+     evidence: the upgrade lesson; re-open if these change: repairs, support
+  D-057-3  repowering studied as a new application
+     evidence: lesson B; re-open if these change: grid gaps, permits
+  D-057-4  decommissioning fund from now
+     evidence: lesson C; re-open if these change: scrap prices
+  D-057-5  records migrated, access removed
+     evidence: lesson H; re-open if these change: obligations
+  a decision that names what would re-open it can be re-taken
+  (ch 38 change control, ch 59 evidence case)

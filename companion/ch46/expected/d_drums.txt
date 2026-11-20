@@ -1,0 +1,9 @@
+rejected 400 mm2 drums traced to the circuits planned from them
+  D403 -> W010  T09 to T13 (?), 970 m
+  D404 -> W013  SWG/PVF1 to PVF1-1, 690 m
+  D406 -> W020  SWG/PVF3 to PVF3-1, 690 m
+  (?) the far end 'T13' is one of the schedule's faults (d_schedule)
+  3 circuits lose their drum: 2,350 m of 400 mm2 to re-order
+  (one per string: WS3, PVF1 and PVF3 each wait on a drum) - the
+  allocation table is what turns a drum's number into a
+  string's date; without it the reject is only a drum number

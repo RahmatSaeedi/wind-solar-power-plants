@@ -1,0 +1,6 @@
+months from formation to installation of the 39,936 cells (synthetic)
+  median 9.4, oldest 19.0; older than 12 months: 8,173 (20.5%)
+  cells past the maker's storage limit get a capacity and
+  voltage check before they go in, by the dates in their
+  record - a container that waited (lesson C) is checked
+  as a whole

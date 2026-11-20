@@ -1,0 +1,16 @@
+compliance and deviation matrix (C comply, D deviate, N not offered)
+  req   critical   U-A   U-B   U-C   requirement
+  T07   yes        C     D     C     witness: heat run, losses, insulation
+  T08              C     C     D     sound power level at the limit
+  T09              D     C     C     ester fluid, fire point above 300 C
+  T11              C     D     C     LV busbar for 8 cables per phase
+  T12              C     C     D     tank and cooler coating class C4
+  T13              D     C     C     monitoring relay, defined data link
+  T14   yes        C     N     C     data schedule per item I01-I14
+  T16              C     N     C     warranty at least 3 years
+  U-A: full compliance 89 %; critical not met: none
+  U-B: full compliance 78 %; critical not met: T07, T14
+  U-C: full compliance 89 %; critical not met: none
+  a deviation on a critical item is not priced, it is
+  cleared or the offer is not acceptable; U-B offers no
+  witness of the heat run and no data schedule

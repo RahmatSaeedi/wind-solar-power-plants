@@ -1,0 +1,8 @@
+overall equipment effectiveness of the FAT bay, four weeks
+  planned 160 h; down 22 h (test set fault, waiting for skids)
+  13 skid tests at an ideal 8 h; 12 passed first time
+  availability 86%  performance 75%  quality 92%
+  OEE 60%
+  the three losses point to three owners: maintenance of the
+  test set, the flow of skids into the bay, and the line that
+  sends faults to be found here (the FAT yield of lesson A)

@@ -1,0 +1,7 @@
+3 racks, EMF 1331.2 V, internal 50 mOhm (assumed), cables 5/10/20 mOhm, load
+    300 A
+bus voltage = 1325.09 V
+rack 1: R = 55 mOhm, I =  111.0 A (37.0 %)
+rack 2: R = 60 mOhm, I =  101.8 A (33.9 %)
+rack 3: R = 70 mOhm, I =   87.2 A (29.1 %)
+KCL: sum = 300.00 A

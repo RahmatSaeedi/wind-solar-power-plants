@@ -1,0 +1,7 @@
+E01 12 mA on a 0-150 kV range: 75.0 kV
+E02 33 kV on a 0-40 kV range: 17.20 mA
+E03 Pt100 at 50 deg C: 119.40 ohm
+E04 two leads of 1 ohm each on a Pt100: +5.1 K
+E05 clock at 50 ppm for 1 hour: 180 ms
+E06 response 20 + 2 x 100 + 10 + 50 ms: 280 ms
+E07 one PLC MTBF 100,000 h, MTTR 10 h: A = 0.99990

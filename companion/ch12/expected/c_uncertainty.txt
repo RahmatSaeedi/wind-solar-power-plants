@@ -1,0 +1,11 @@
+uncertainty of the long-term annual GHI (A-245, one sigma):
+  station sensor (class, calibration)           2.0 %
+  sensor soiling and maintenance                1.0 %
+  long-term correction (provider stability)     1.5 %
+  long-term mean of 20 years                    0.6 %
+  combined (root sum of squares)                2.8 %
+  P50 1,920 kWh/m2; P90 long-term 1,852
+  any single year adds the year-to-year spread 2.7 %:
+    P90 one-year 1,825 kWh/m2 (combined 3.8 %)
+  the plane-of-array, PV-model and loss uncertainties of chapters
+  15 and 16 add to these before an energy P90 is quoted

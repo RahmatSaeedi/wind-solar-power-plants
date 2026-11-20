@@ -1,0 +1,21 @@
+% Chapter 28 - the operator's network impedance locus at the 11th harmonic (sector up to 3 h |z1|,
+% -75 to +85 deg, teaching) with the nominal network point, the plant's impedance and the locus
+% point that gives the worst harmonic voltage; data diagrams/data/ch28-locus*.csv from
+% companion/ch28/examples_m.py locus().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=72mm, xmin=-50, xmax=420, ymin=-720, ymax=430,
+      xlabel={$R\ (\Omega)$}, ylabel={$X\ (\Omega)$}, xmajorgrids=true, axis equal image=false,
+      legend columns=2]
+    \addplot[draw=cInkB, fill=cInkB!10, line width=0.6pt] table[x=r, y=x, col sep=comma] {data/ch28-locus.csv};
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cWind]
+      table[x=r, y=x, col sep=comma, skip coords between index={1}{3}] {data/ch28-locuspts.csv};
+    \addplot[only marks, mark=square*, mark size=2.2pt, color=cLoss]
+      table[x=r, y=x, col sep=comma, skip coords between index={0}{1}, skip coords between index={2}{3}] {data/ch28-locuspts.csv};
+    \addplot[only marks, mark=triangle*, mark size=2.6pt, color=cBESS]
+      table[x=r, y=x, col sep=comma, skip coords between index={0}{2}] {data/ch28-locuspts.csv};
+    \legend{مکانِ شبکه, شبکهٔ اسمی, بدترین نقطه, نیروگاه}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

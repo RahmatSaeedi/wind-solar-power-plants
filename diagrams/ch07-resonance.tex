@@ -1,0 +1,18 @@
+% Chapter 7 - |Z| of the series RLC circuit (R 2 ohm, L 0.1 H, C 100 uF) against frequency.
+% Data: diagrams/data/ch07-resonance.csv (companion/ch07/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=64mm, ymode=log,
+      xlabel={بسامد، $\text{Hz}$}, ylabel={اندازهٔ امپدانس، $\Omega$},
+      xmin=0, xmax=120, ymin=1, ymax=500, xtick={0,20,...,120},
+      ytick={1,10,100}, yticklabels={$1$,$10$,$100$}]
+    \addplot[sInk] table[x=f, y=z, col sep=comma] {data/ch07-resonance.csv};
+    \draw[cRule, densely dotted] (axis cs:50.33,1) -- (axis cs:50.33,400);
+    \node[note, anchor=south] at (axis cs:50.33,400) {$f_0 = 50.33\ \text{Hz}$};
+    \node[note, anchor=west] at (axis cs:52,2.0) {کمینه: $|\mathbf{Z}| = R = 2\ \Omega$};
+    \node[note, text width=30mm] at (axis cs:17,30) {خازنی: $X_C > X_L$};
+    \node[note, text width=30mm] at (axis cs:100,30) {سلفی: $X_L > X_C$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

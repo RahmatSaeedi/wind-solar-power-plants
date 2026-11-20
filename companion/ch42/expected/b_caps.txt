@@ -1,0 +1,8 @@
+spar caps for the same bending stiffness: glass or carbon
+  E along (V_f 0.60): glass 44 GPa, carbon 139 GPa
+  mass for equal EI: carbon 0.25 x glass -> 1.9 t instead of 7.9 t
+  material cost at 8 x the price a kg: 2.0 x the glass caps
+  lighter caps cut the blade's gravity moment and the whole
+  turbine's loads; carbon also conducts, so the caps join
+  the lightning system (lesson B, down conductors) - a
+  material choice that reaches three other subsystems

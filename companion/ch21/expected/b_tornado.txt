@@ -1,0 +1,15 @@
+what moves the equity IRR and the minimum DSCR (debt fixed):
+  base: equity IRR 10.22 %, min DSCR 1.20
+  input (bad / good)        equity IRR %         min DSCR
+  energy                     7.48 /  12.85    1.06 /  1.31
+  tariff                     7.48 /  12.85    1.06 /  1.31
+  capex                      8.10 /  13.61    1.22 /  1.19
+  opex                       9.61 /  10.82    1.18 /  1.23
+  debt rate                  9.14 /  11.41    1.10 /  1.24
+  replacements              10.05 /  10.38    1.19 /  1.21
+  (+-10 % on energy, tariff, capex and opex; +-1 point on the
+  rate; +-50 % on replacements)
+  energy and tariff dominate both measures; capex moves the
+  equity return but hardly the cover once the debt is fixed
+  (it even rises a little through depreciation and tax); the
+  debt rate moves the cover through the debt service

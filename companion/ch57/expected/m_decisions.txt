@@ -1,0 +1,15 @@
+earlier Plant P decisions that the Tajikistan dossier touches
+  D-024 control            TJ-24, TJ-26
+  D-025 finance            TJ-26, TJ-14
+  D-026 site               TJ-36
+  D-029 transformers       TJ-34
+  D-030 protection         TJ-22
+  D-031 power quality      TJ-40
+  D-032 grid study         TJ-22
+  D-034 structures         TJ-34
+  D-035 logistics          TJ-37
+  D-037 E&S basis          TJ-56
+  D-039 SCADA              TJ-24
+  D-052 metering hardware  TJ-25
+  12 decisions; 2 carry two open facts each:
+  D-024 control, D-025 finance - revised with a change record (ch 38)

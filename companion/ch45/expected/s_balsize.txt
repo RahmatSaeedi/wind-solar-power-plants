@@ -1,0 +1,8 @@
+balancing for the self-discharge spread of 416 cells in a rack
+  (K mean 0.030, sd 0.006 mV/day)
+  fastest cell expected about K 0.051 mV/day: extra leak 2.7 mA
+  charge to move a day: 65 mAh; with 8 h of balancing time: 8 mA
+  a bleed of tens of milliamperes covers the normal spread with
+  room to spare - and it also covers a leaker like lab D's
+  (4.4 mA): that is why the BMS hides it, and why the duty
+  signal is needed to show it

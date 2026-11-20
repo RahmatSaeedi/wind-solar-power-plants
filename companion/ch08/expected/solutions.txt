@@ -1,0 +1,119 @@
+P01: 4 poles 1500/1800 rpm; 6 poles 1000/1200 rpm; 8 poles 750/900 rpm
+P02: s = 0.020; rotor frequency 1.0 Hz
+P03: 45.0 Hz
+P04: 3 MW: 19.1 kN m at 1500 rpm, 1.91 MN m at 15 rpm
+P05: e = 1.0 x 0.5 x 30 = 15 V
+P06: F = 1.2 x 200 x 2 = 480 N
+P07: E = 210.9 V
+P08: air 79,577, iron 15,915 A/Wb: ratio 5.0
+P09: rotor copper 0.62 kW; mechanical 30.38 kW
+P10: efficiency 0.971
+P11: 3 MVA: 2510 A at 690 V, 524.9 A at 3.3 kV
+P12: P_max = E V / X_s = 1.0 pu
+P13: 2 sin(15 deg) = 0.518 pu
+P14: V_r = 1.00 m3
+P15: e = 6.3 / omega = 20.05 micrometres
+P16: 2.432 mohm
+P17: PI = 500 / 450 = 1.11
+P18: BPFO = 10/2 x 25 x (1 - 0.2) = 100 Hz
+P19: air 2.76 m3/s
+P20: life x 0.49
+P21: (0.50/0.35)^2 = 2.04
+P22: k_p1 = sin(5/6 x 90 deg) = 0.966
+P23: Br = 1.2 x (1 - 0.0012 x 80) = 1.085 T
+P24: about 25 % of rating
+P25: s 3 %: torque 332 N m, current 88.8 A, pf 0.886, shaft 50.2 kW
+P26: 90 % voltage: start current 301 A (x0.9), torque 121 N m (x0.81)
+P27: pf 0.8: E 1.970 pu, delta 29.2 deg
+P28: pf 1.0: E 1.562 pu, delta 50.2 deg
+P29: delta 48.6 deg, Q -0.392 pu (absorbed)
+P30: s 0.20; rotor power -0.68 MW (from the grid)
+P31: 3 MW at 12 rpm: T 2,387.3 kN m, V_r 29.84 m3
+P31: 3 MW at 1500 rpm: T 19.1 kN m, V_r 0.24 m3
+P32: eta(25 %) = 0.946
+P33: x = sqrt(100/200) = 0.707 pu
+P34: k_d1 0.966, k_d5 0.259
+P35: 40 K final; after 30 min 19.5 K
+P36: 78.5 C
+P37: X_s 1.540 ohm = 1.92 pu; SCR 0.52
+P38: L10 88,889 h
+P39: e 15.9 um, U 31.8 kg mm, F 785 N
+P40: 3.99 kg/s
+P41: s -3 %: delivers 56.7 kW, absorbs 32.2 kvar
+P42: 500 kVA 6 %: dip 2.7 %
+P43: 828 V line, peak 1171 V > 1100 V DC link
+P44: 2000 / 566 = 3.5
+P45: 15 GWh x (1/0.97 - 1) = 464 MWh
+P46: AF 9.818; value 58,909 u
+P47: BPFI at 900 rpm 124.1 Hz
+P48: 1 / 4 s = 0.25 Hz
+P49: (2 - 0.5) per day -> 4 days
+P50: 1/0.15 = 6.67 pu = 1,925 A
+P51: 3.3 kV: 945 A vs 4518 A (ratio 4.78)
+P52: 1000 rpm / 10.5 = 95.2
+P53: 660-1320 rpm; 33-66 Hz
+P54: converter start (1 x rated): dip 3.6 %
+P55: smallest rating with DOL dip <= 15 % (x_d' 0.20): 275 kVA
+P56: eta_r 0.975: losses 600.1 MWh/yr (723.8 at 0.970)
+P57: 723.8 / 18700 = 3.87 %; plant 8,686 MWh/yr
+P58: hot spot at 110 %: 103.7 C
+P59: BPFO at 600 rpm 57.3 Hz
+P60: 9.52 million impacts per day
+P61: Br x 0.88; current x 1.136; copper loss x 1.291
+P62: weighted: DFIG 3.86, HS-PMSG 3.90, MS-PMSG 4.19, DD-PMSG 3.80
+P63: s/(1-s) = 0.2 / 1.2 = 17 % of shaft power
+P64: eta(10 %) 0.901; losses 56.6 kW
+P65: 1521 MWh x 40 u x 11.65 = 709,004 u
+P66: life x 0.42
+P67: k 0.30 -> 0.345: +15 %
+P68: 4 x 907 = 3.63 kN
+P69: 57.75 Hz: 1155 rpm; 50 Hz: 1000 rpm
+P70: full load: efficiency 0.947, pf 0.853
+P70: half load: efficiency 0.948, pf 0.699
+P71: N k_w 5.89 x 3300/690 = 28.2
+P72: star-delta on the generator: dip 7.1 %
+P76: V_r 0.55 m3, L/D 1.375: D 0.80 m, L 1.10 m
+P78: 5.13 / (5.13 + 0.1582) = 0.9701
+P80: band up to 4 kHz -> sample at 10 kHz or more (above 2 x 4 kHz)
+P84: 1 kW fixed loss: 8760 h x 0.92 x 50 u/MWh x 11.65 = 4,696 u/kW
+P85: sum of load^2 over the year 2,698 h; 1 kW of rated load loss = 1,572 u
+P101: i_k(0.2 s) = 3.19 pu = 922 A
+P102: psi 1.035 Wb; T = 1.5 x 2 x psi x 100 = 310.6 N m
+P103: H = 2 MJ / 500 kVA = 4.0 s
+P104: df/dt = 0.05 x 50 / (2 x 4) = 0.3125 Hz/s
+P105: K_s 0.800 pu/rad; f_n = 1.26 Hz
+P106: 80 %: 51.2 % power; saving 24.2 MWh/yr
+P107: 100 mm2 Cu -> 164 mm2 Al
+P108: 72 x 1500/60 = 1800 Hz
+P109: tau = 16 x 10e3 / (pi x 0.1^3) = 50.9 MPa
+P110: 0.1 x 30 / 365 = 0.82 %
+P111: (1 -+ 0.06) x 50 = 47 and 53 Hz
+P112: chain at 50 % load 0.911
+P113: 0.1 Hz bins need 1 / 0.1 = 10 s; lines a few bins apart need 20-30 s
+P114: (0.908 - 0.873) / 0.908 x 1.25 MW x 2000 h = 96 MWh
+P115: total with 80 kW battery HVAC: 132 kW
+P120: psi 1.793 Wb, T 12.73 kN m, i_q 1,673 A RMS vs rated 1,841 A
+P121: T = 1.5 x 3 x 0.9 x 6000 = 24.3 kN m
+P122: n = 603 / (omega per rpm x psi) = 1236 rpm
+P123: I = 27.7 A
+P124: |Z| 1.155, R 0.333, X 1.106 ohm
+P125: T_c 54 C, T_w 74 C
+P126: P_eq = ((0.5^3 + 1)/2)^(1/3) = 0.825
+P127: 2.3 %
+P128: 300 x 2^((20 - 40)/10) = 75 Mohm
+P129: 4 x 87.48 x 1.1 = 385 A more
+P133: B^2/(2 mu0) at 1.0 T = 398 kPa
+P134: 0.1 x 322 kPa x 2.26 m2 = 72.9 kN
+P135: V_r x 0.5 -> D x 0.794: 0.63 m
+P136: J 6 vs 4.5: copper mass x 0.75, copper loss x 1.333 = 80.8 kW
+P137: 5 MW at 1000 V: 2,887 A
+P139: 4.60 x 80/50 = 7.36 million u
+P140: 1 % of 18.7 GWh x 12 = 2,244 MWh/yr; PV 1.19 million u
+P144: N at 3.3 kV: 6.4 x 3300/690 = 30.6
+P148: 4 %: I_neg 13.4 A = 24.9 % of 53.8 A; hot phase Cu x 1.56
+P149: 1/2 x 3 x 157.08^2 = 37.0 kJ
+P150: torque ~ V^2: 0.813^2 = 0.661
+P151: centre -1/2.5 = -0.40, radius 2.0/2.5 = 0.80; Q max at P 0 = 0.40 pu
+P152: 75 kvar: Q -0.328 pu, limit -0.358 pu -> inside, margin 0.030 pu
+P153: 72/8: lcm, gcd (72, 8); 72/10: (360, 2), q 2.4, k_w1 (span 7) 0.954
+P154: 72 slots, 8 poles: slot pitch 5 deg mech = 20 deg el; k_skew 0.9949

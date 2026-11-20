@@ -1,0 +1,6 @@
+PV degradation measured in operation (ch 53) in the finance model
+  model 0.50 %/yr, measured 0.37 %/yr on the PV share (37% of energy)
+  energy over 25 years: +41.2 GWh; year 25: +1.17%
+  equity IRR 10.22% -> 10.33%; NPV 5,159 -> 5,982 k u
+  small for the debt (the early years barely move), worth more
+  to the tail: the finding goes back to ch 15 and ch 21

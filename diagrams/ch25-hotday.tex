@@ -1,0 +1,16 @@
+% Chapter 25 - a hot day in the dynamic thermal model: air, top oil and hot spot temperatures
+% (left axis); data diagrams/data/ch25-hotday.csv from companion/ch25/examples_k.py dynamic().
+% The load is described in the caption and text (one y-axis only).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=64mm, xmin=0, xmax=24, ymin=20, ymax=140,
+      xlabel={ساعتِ روز}, ylabel={دما $(^\circ\text{C})$}, xtick={0,3,...,24}, xmajorgrids=true,
+      legend columns=3]
+    \addplot[sLoad] table[x=h, y=amb, col sep=comma] {data/ch25-hotday.csv};
+    \addplot[sPV] table[x=h, y=top, col sep=comma] {data/ch25-hotday.csv};
+    \addplot[sLoss] table[x=h, y=hs, col sep=comma] {data/ch25-hotday.csv};
+    \legend{هوا, روغنِ بالایی, نقطهٔ داغ}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

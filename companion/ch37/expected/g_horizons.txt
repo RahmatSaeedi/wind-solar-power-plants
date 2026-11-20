@@ -1,0 +1,12 @@
+plant output forecasts scored on the held-out half year (MW)
+  horizon h   bias    MAE    RMSE   persistence RMSE   skill
+          1    0.51   6.92    8.84               8.77   -0.01
+          6    0.63   9.35   12.04              26.41    0.54
+         24    0.16  11.14   14.41              24.75    0.42
+         48    1.83  14.13   18.34              28.51    0.36
+  at one hour persistence is hard to beat (skill -0.01); from six
+  hours the forecast wins clearly (+0.54). At 24 h persistence
+  repeats yesterday's sun - a strong reference for PV - so the
+  skill dips; the score is read by horizon and by use: a
+  day-ahead bid needs the 24 h line, a ramp warning the 1 h
+  one (ch 15 built these scores; here they run on operation)

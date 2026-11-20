@@ -1,0 +1,8 @@
+settlement of the T07 foundation edge after erection (synthetic survey)
+  days       7     30     60    120    240    365
+  mm       6.0    9.5   11.0   12.6   14.1   15.0
+  fit s = 5.23 log10(t) + 1.67; at 25 years about 22 mm
+  settlement slows with log time, as creep of sand does;
+  the 25-year projection is checked against the designer's
+  limit and the survey goes on until the readings flatten -
+  a straight line on a linear time axis would be a warning

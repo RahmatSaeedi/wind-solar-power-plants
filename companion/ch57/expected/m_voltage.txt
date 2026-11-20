@@ -1,0 +1,10 @@
+connection voltage for 100 MW (pf 0.95; the ch 18 conductor kept
+for a like-for-like loss comparison)
+  kV    current A   line loss MWh/yr   source
+  110         552               1086   secondary (TJ-21)
+  132         460                754   no source
+  220         276                271   Sughd site (TJ-20)
+  500         122                 53   secondary (TJ-21)
+  220 kV is the level named next to a real tender site; 500 kV
+  is a backbone level, not a connection level for 100 MW; the
+  level comes in the technical conditions (TJ-23)

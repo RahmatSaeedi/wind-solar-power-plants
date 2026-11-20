@@ -1,0 +1,7 @@
+one year of discharge counted as 'cycles' on three bases:
+  basis                                  cycles
+  AC at the POC / nominal 40 MWh             270
+  DC from the cells / nominal                291
+  DC from the cells / usable 32.1 MWh        363
+  the same year is 270, 291 or 363 'cycles': a warranty limit
+  in cycles means nothing until its basis is written down

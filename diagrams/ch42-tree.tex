@@ -1,0 +1,32 @@
+% Chapter 42 - subassembly tree of the WT-5.0-150 with masses (t): rotor (blades, hub, pitch),
+% nacelle (main shaft and bearing, gearbox, generator, converter, bedplate, yaw) and tower,
+% foundation and the dry-type transformer at the tower base (D-029); parts on the load path from blade to foundation are drawn in the wind colour
+% (companion/ch42/sources.py TREE; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    leaf/.style={draw=cInk!50, rounded corners=2pt, minimum width=30mm, minimum height=6mm, fill=white},
+    path/.style={leaf, draw=cWind, fill=cWind!10, thick},
+    grp/.style={draw=cInk!70, rounded corners=2pt, minimum width=24mm, minimum height=7mm, fill=cInk!5},
+    edge from parent/.style={draw=cInk!50}]
+  \node[grp] (wtg) at (0,0) {توربینِ \babelsublr{WT-5.0-150}};
+  \node[grp] (rot) at (4.6,-1.5) {روتور};
+  \node[grp] (nac) at (0,-1.5) {ناسل};
+  \node[grp] (twr) at (-4.6,-1.5) {برج و پی};
+  \draw[cInk!50] (wtg) -- (rot); \draw[cInk!50] (wtg) -- (nac); \draw[cInk!50] (wtg) -- (twr);
+  \node[path] (bld) at (4.6,-2.8) {پره‌ها، ۶۶ تن};
+  \node[path] (hub) at (4.6,-3.6) {توپی، ۳۰ تن};
+  \node[leaf] (pit) at (4.6,-4.4) {گام، ۱۵ تن};
+  \node[path] (msh) at (0,-2.8) {محور و یاتاقانِ اصلی، ۳۵ تن};
+  \node[path] (gbx) at (0,-3.6) {جعبه‌دنده، ۴۵ تن};
+  \node[leaf] (gen) at (0,-4.4) {ژنراتور، ۱۲ تن};
+  \node[leaf] (cnv) at (0,-5.2) {مبدل، ۶ تن};
+  \node[path] (frm) at (0,-6.0) {شاسیِ ناسل، ۴۰ تن};
+  \node[path] (yaw) at (0,-6.8) {چرخش و ترمز، ۱۴ تن};
+  \node[path] (tw) at (-4.6,-2.8) {برج، ۳۴۰ تن};
+  \node[path] (fnd) at (-4.6,-3.6) {پی، ۱۷۰۰ تن};
+  \node[leaf] (trf) at (-4.6,-4.4) {ترانسفورماتورِ خشک در پایه، ۸ تن};
+  \foreach \a/\b in {rot/bld, nac/msh, twr/tw} {\draw[cInk!50] (\a) -- (\b);}
+  \node[note, anchor=north, text=cWind] at (0,-7.4) {مسیرِ بار: پره، توپی، محور، جعبه‌دنده و شاسی، چرخش، برج، پی};
+\end{tikzpicture}}
+\end{document}

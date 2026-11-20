@@ -1,0 +1,9 @@
+breaker mechanism energy for an auto-reclose cycle (teaching):
+  spring stores 900 J; open 120 J, close 300 J
+  cycle O - 0.3 s - CO needs 540 J: enough
+  a second CO right after: 960 J - needs the motor
+  to recharge (about 10-15 s) - the rated operating sequence
+  on the nameplate says what the mechanism can do; line
+  reclosing (utility's choice) must fit inside it; cable
+  feeders of Plant P do not reclose (cable faults are
+  permanent)

@@ -1,0 +1,30 @@
+% Chapter 56 - instruments of the Afghanistan dossier on a time line, right to left: investment law
+% (2005), environment law (2007), electricity law (2016), ESIA regulation (2017), land acquisition law
+% (2017), water law (2020); August 2021 change of authorities (review of earlier laws, no published
+% outcome); OFAC GL 20 (2022); published contracts (2025, 2026); water-permit guideline (2026).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\scriptsize,
+    m/.style={circle, fill=cBESS, inner sep=1.7pt},
+    q/.style={circle, draw=cLoss, fill=white, inner sep=1.7pt},
+    lab/.style={align=center, text width=21mm, text=cInk}]
+  \draw[->, line width=0.9pt, draw=cInkB] (0.6,0) -- (-16.0,0);
+  % x = -(year - 2004) * 0.68
+  \foreach \y/\x in {2005/-0.68, 2010/-4.08, 2015/-7.48, 2020/-10.88, 2026/-14.96} {
+    \draw[cInkB] (\x,0.08) -- (\x,-0.08);
+    \node[text=cMuted, anchor=north] at (\x,-0.1) {$\y$};
+  }
+  \node[q] at (-0.68,0) {}; \node[lab, anchor=south] at (-0.68,0.35) {قانونِ سرمایه‌گذاریِ خصوصی};
+  \node[q] at (-2.04,0) {}; \node[lab, anchor=north] at (-2.04,-0.6) {قانونِ محیطِ زیست};
+  \node[q] at (-8.4,0) {}; \node[lab, anchor=south] at (-8.4,0.35) {قانونِ تنظیمِ خدماتِ انرژیِ برق};
+  \node[q] at (-8.9,0) {}; \node[lab, anchor=north] at (-9.1,-0.6) {آیین‌نامهٔ ارزیابی؛ قانونِ تملکِ زمین};
+  \node[q] at (-10.9,0) {}; \node[lab, anchor=south] at (-10.9,0.35) {قانونِ تنظیمِ امورِ آب};
+  \draw[cLoss, dashed] (-11.6,-1.5) -- (-11.6,1.6);
+  \node[lab, text=cLoss, anchor=south] at (-11.6,1.6) {اوتِ ۲۰۲۱: بازبینیِ قانون‌های پیشین، بی نتیجهٔ منتشرشده};
+  \node[m] at (-12.3,0) {}; \node[lab, anchor=north] at (-12.4,-0.6) {مجوزِ عمومیِ ۲۰ (۲۰۲۲)};
+  \node[m] at (-14.5,0) {}; \node[m] at (-14.6,0) {};
+  \node[lab, anchor=north] at (-14.7,-0.6) {قراردادهای منتشرشده (۲۰۲۵، ۲۰۲۶)؛ رهنمودِ جوازِ آب};
+  \node[note, font=\scriptsize, anchor=north] at (-7.5,-2.2)
+    {دایرهٔ توخالی: متن خوانده شد، اجرا نامعلوم؛ دایرهٔ پر: منبعِ رسمیِ کنونی};
+\end{tikzpicture}
+\end{document}

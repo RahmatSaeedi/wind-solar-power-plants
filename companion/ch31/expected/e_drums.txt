@@ -1,0 +1,7 @@
+33 kV collector cable on drums (teaching: 1 km of single core a drum)
+  cable 185 km -> 186 drums of 5.5 t, 1,023 t in all; 62 truck loads of three
+  laydown for the drums: 2,321 m2
+  drums travel on their sides only if the maker allows it,
+  are rolled in the arrow's direction, and are stored on
+  firm ground with chocks; each drum's number ties to its
+  test report and to the section it is laid in (ch 24)

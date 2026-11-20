@@ -1,0 +1,10 @@
+the intertrip channel's availability and the exposure it leaves
+  channel availability   hours/yr without it   blind hours/yr left
+                99.00 %                  87.6                 17.60
+                99.90 %                   8.8                  1.76
+                99.99 %                   0.9                  0.18
+  the intertrip closes the islanding gap only while its
+  channel works: a duplicated or supervised channel (an
+  alarm when it fails, export held back until it returns)
+  makes the residual exposure a matter of hours, written in
+  the study and agreed with the operator

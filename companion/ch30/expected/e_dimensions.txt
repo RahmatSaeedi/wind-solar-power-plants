@@ -1,0 +1,18 @@
+dimensional survey (teaching tolerances: ovality <= 0.7 % of D;
+  flange flatness <= 1.2 mm over the circle, read at 12 points)
+  can   ovality %   result
+    1        0.50   ok
+    2        0.54   ok
+    3        0.47   ok
+    4        0.55   ok
+    5        0.59   ok
+    6        0.82   OUT
+    7        0.52   ok
+    8        0.52   ok
+  flange flatness at 12 points, mm: 0.3 0.6 0.4 0.9 1.4 0.5 0.3 0.8 0.4 0.7
+    0.5 0.6
+  range 1.1 mm -> ok
+  can 6 is out of round: re-rounding or a concession from
+  the designer (ovality lowers the buckling strength,
+  lesson B); the flange is within tolerance - it is
+  measured again after welding, when heat distorts it

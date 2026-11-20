@@ -1,0 +1,14 @@
+insulation thickness of 33 kV cores (nominal 8.0 mm, teaching limits:
+  minimum >= 90 % of nominal, eccentricity <= 10 %)
+  sample   average mm   minimum ok   eccentricity   result
+  drum 1         8.18   yes                  4.8%   pass
+  drum 2         8.25   yes                 14.6%   FAIL
+  drum 3         8.12   yes                  2.4%   pass
+  drum 2 has enough average but the core sits off-centre: the
+  thin side sets the electrical stress, the thick side wastes
+  material - the extrusion line's centring is the cause
+  ten drums' average thickness: Cpk 1.15 against 7.6-8.8 mm
+  (a capable process keeps Cpk above about 1.33: this line is NOT capable -
+  less spread or better centring before the next lot; the
+  limits here are teaching values, the real ones are the
+  cable standard's and the contract's)

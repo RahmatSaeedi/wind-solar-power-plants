@@ -1,0 +1,11 @@
+WAN to the control centre 2.0 Mbit/s (ch 35); SCADA 0.35 Mbit/s
+  case                              load   SCADA wait
+  SCADA only                          18%   0.4 ms
+  one camera, no priority             92%   24.7 ms
+  two cameras, no priority           168%   grows without end
+  SCADA first, video capped 1.5       92%   0.4 ms
+  one remote camera view takes the WAN to 92% and SCADA
+  waits 58 times longer; two overrun the link; with
+  SCADA first and video capped below the rest of the link,
+  telemetry does not notice the cameras (ch 35 queue, ch 36
+  conduits)

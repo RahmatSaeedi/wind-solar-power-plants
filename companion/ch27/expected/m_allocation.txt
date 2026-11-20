@@ -1,0 +1,10 @@
+the plant's 5th-harmonic emission against a teaching allocation
+  teaching planning level 3.0 %; plant 100 of 600 MVA of the
+  network's capacity; allocation ~ L x (S_i / S_t)^(1/alpha) = 0.83 %
+  plant 5th current 13.0 A at 33 kV -> 3.25 A at 132 kV
+  POC impedance at the 5th: 5 x 132^2 / 1,500 = 58.1 ohm
+  emission voltage 0.248 % - inside the allocation
+  the allocation method and its numbers are the operator's
+  (STD-130 describes the approach); a resonance near the 5th
+  would multiply the impedance and change the answer - so the
+  scan of lesson B comes first

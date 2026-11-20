@@ -1,0 +1,6 @@
+days from work done to work order closed, sixteen orders
+   0  1  1  2  0 14  3  1 30  2  5  1 45  2  0  3
+  median 2.0 days; over a week: 3
+  an order closed a month late misses the monthly reliability
+  report and the warranty clock (lesson I): closing is part
+  of the job, done with the test record on site

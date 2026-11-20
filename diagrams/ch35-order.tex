@@ -1,0 +1,16 @@
+% Chapter 35 - chance that two events a given gap apart are logged in the wrong order, for three
+% clock accuracies (examples_s; teaching values).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=105mm, height=58mm, xmin=0, xmax=10.5, ymin=0, ymax=0.4,
+      xtick={0,2,4,6,8,10}, ytick={0,0.1,0.2,0.3,0.4},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1},
+      xlabel={فاصلهٔ واقعیِ دو رویداد (ms)}, ylabel={احتمالِ ترتیبِ نادرست}]
+    \addplot[sLoss, mark=*, mark size=1.3pt] table[x=g, y=wan, col sep=comma] {data/ch35-order.csv};
+    \addplot[sWind, mark=square*, mark size=1.3pt] table[x=g, y=lan, col sep=comma] {data/ch35-order.csv};
+    \addplot[sPV, mark=triangle*, mark size=1.5pt] table[x=g, y=ptp, col sep=comma] {data/ch35-order.csv};
+    \legend{NTP روی شبکهٔ گسترده, NTP در شبکهٔ نیروگاه, PTP}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

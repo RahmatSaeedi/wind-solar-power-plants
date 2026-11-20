@@ -1,0 +1,23 @@
+D-048 converter manufacturing and acceptance basis
+  1 product defined by hardware, BOM, firmware, parameters and
+    calibration - each with a version and a record
+  2 interface print weighed; module serial, lot and position
+    recorded at mounting; modules paired by voltage class
+  3 board line with paste, optical, X-ray and in-circuit
+    inspection; escapes counted; broker parts screened
+  4 released parameter set and firmware fingerprinted at the
+    end-of-line test and again at the site
+  5 every tree item met by an end-of-line test; full-power run
+    with temperature reading of every position
+  6 firmware test list with fault injection in the release
+    record; MPPT efficiency steady and dynamic as evidence
+  7 derating and creepage checked at design review, not left
+    to the factory
+  8 later findings: busbar spacing a critical characteristic
+    (a quarter of the switches over the rule); control supply
+    hold-up 102 of 150 ms; sensor offsets trimmed against the
+    DC limit; Q(V) checked across the curve; N+1 fans for hot
+    days; a spare stack pays (+33 k u); the as-left set read
+    back against the authorised set
+  open: type tests of the design (DC injection, ride-through)
+    and the maker's firmware release records (U-125)

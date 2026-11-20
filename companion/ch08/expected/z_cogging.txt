@@ -1,0 +1,16 @@
+slot-pole choices for the geared generator at 1155 rpm (A-142):
+  Q / p   winding          k_w1   lcm  gcd  cogging Hz  f_el Hz
+  54/6    q 3, full pitch  0.960    54    6        1040    57.75
+  54/6    q 3, 8/9 pitch   0.945    54    6        1040    57.75
+  48/8    q 2, 5/6 pitch   0.933    48    8         924    77.00
+  54/8    q 2.25           0.954   216    2        4158    77.00
+  36/8    q 1.5            0.945    72    4        1386    77.00
+  12/10   tooth coils      0.933    60    2        1155    96.25
+   9/8    tooth coils      0.945    72    1        1386    77.00
+  higher lcm and lower gcd: weaker, higher-frequency cogging;
+  tooth coils: short end windings, but lower k_w1 and more
+  air-gap harmonics (rotor and magnet losses)
+  54/6 skewed one slot pitch (6.67 deg mech = 20 deg el):
+    k_skew 0.9949: the EMF falls by 0.5 %,
+    and the slot-harmonic EMFs (17th, 19th) are multiplied
+    by 0.059 and 0.052

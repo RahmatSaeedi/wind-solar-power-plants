@@ -1,0 +1,10 @@
+survey days needed to see a 30 % fall in raptor passages (Poisson)
+  before: 3.0 passages a day; after: 2.1; one-sided test 5 %
+  days before and after   power to detect
+                     10               56 %
+                     20               84 %
+                     40               98 %
+                     80              100 %
+  a short survey cannot tell a real change from chance: the
+  monitoring plan fixes the effort from the change it must
+  see - before the turbines turn, so there is a baseline

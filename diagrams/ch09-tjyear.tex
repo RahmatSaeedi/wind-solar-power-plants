@@ -1,0 +1,14 @@
+% Chapter 9 - daily junction-temperature swing of one PV inverter module over the data-pack year
+% (A-170). Data: diagrams/data/ch09-tjyear.csv (companion/ch09/examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=60mm, xmin=0, xmax=365, ymin=0, ymax=90,
+      xlabel={روزِ سال}, ylabel={نوسانِ روزانه، $\text{K}$}, xtick={0,60,...,360}, ytick={0,20,...,80}]
+    \addplot[only marks, mark=*, mark size=0.9pt, color=cLoss] table[x=day, y=swing, col sep=comma] {data/ch09-tjyear.csv};
+    \draw[cRule, densely dotted] (axis cs:0,40) -- (axis cs:365,40);
+    \node[note, anchor=south west] at (axis cs:250,41) {چرخهٔ مرجعِ $40\ \text{K}$};
+    \node[note, text=cInk, anchor=south] at (axis cs:180,82) {روزهای صافِ بهار و تابستان};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,16 @@
+% Chapter 21 - equity IRR against the minimum DSCR of the same debt in a P90-every-year world for
+% the six alternatives A-F (worked example 1), with the illustrative lock-up level.
+% Data: diagrams/data/ch21-alternatives.csv (companion/ch21/lab_d.py alternatives()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=64mm, xmin=0.95, xmax=1.35, ymin=9.5, ymax=13.5,
+      xlabel={کمینهٔ DSCR در جهانِ P90}, ylabel={بازدهِ سهام (درصد)}, xtick={1.0,1.1,...,1.3},
+      ytick={10,11,12,13}, /pgf/number format/fixed, /pgf/number format/precision=1,
+      nodes near coords, point meta=explicit symbolic,
+      nodes near coords style={font=\footnotesize, text=cInk, anchor=south west}]
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cBESS] table[x=p90, y=irr, meta=k, col sep=comma] {data/ch21-alternatives.csv};
+    \addplot[sLimit] coordinates {(1.10,9.5) (1.10,13.5)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

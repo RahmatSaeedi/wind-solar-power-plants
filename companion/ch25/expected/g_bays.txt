@@ -1,0 +1,9 @@
+export line bay E1 from the line to the plant bus (concept):
+  surge arresters at the line entrance and at the transformers
+  line disconnector with earthing switch (ownership boundary)
+  CTs: protection cores (line, busbar) and a metering core
+  VTs: protection, synchronising check and revenue metering
+  circuit breaker with its own protection and control
+  telecom: protection signalling, SCADA to the utility
+  the bay's equipment list, ratings and the utility's
+  acceptance tests are set by the connection agreement

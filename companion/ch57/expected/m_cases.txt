@@ -1,0 +1,9 @@
+approval plan under changed durations (teaching, months)
+  case                                    total  critical path
+  base (teaching)                          16.0  S1 > S6 > S8 > S9
+  competitive procedure 9 months           19.0  S1 > S6 > S8 > S9
+  EIA under the new Code 10 months         20.0  S1 > S6 > S8 > S9
+  energy-expertise issuer found late +3    19.0  S1 > S6 > S8 > S9
+  Law 1968 permit before the PPA           16.0  S1 > S6 > S8 > S9
+  every case on the S1 > S6 > S8 > S9 chain adds its full change;
+  the permit before the PPA adds 0 (S3 has 7 months of float)

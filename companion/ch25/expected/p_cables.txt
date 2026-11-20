@@ -1,0 +1,8 @@
+control cables from the two main transformers to the control building
+  signals 56 (two cores each) -> 10 cables of 12 cores
+  CT circuits 12 and VT circuits 4: own screened cables, 4 cores each
+  power (fans, tap changer, heaters): 10 cables
+  total 36 cables, about 2,880 m on 80 m routes
+  CT and VT circuits run in their own cables (lesson D of
+  ch 24 and ch 26: separate cores for main and backup), and
+  every core is a row of the cable core list

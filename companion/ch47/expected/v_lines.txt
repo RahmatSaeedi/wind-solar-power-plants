@@ -1,0 +1,7 @@
+tower fabrication: 48 sections, 4 days a section on 2 lines
+  96 working days, a tower every 8 days; the crane takes one every 3
+  so fabrication starts at least 63 days before the first erection
+  with that lead, about 9 towers are made by the day the crane
+  reaches T05: another tower can be erected while T05's holds
+  close - re-sequencing removes round u's idle days, if that
+  tower's foundation and grout are ready too (ch 49)

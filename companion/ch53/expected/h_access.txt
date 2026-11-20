@@ -1,0 +1,9 @@
+at retirement: access to remove, with a record of each removal
+  SCADA operator accounts             22
+  vendor remote access                 5
+  PPC engineering keys                 3
+  cloud data link of the inverters     1
+  VPN certificates                     9
+  40 credentials and links; the inverters' cloud link (ch 36)
+  outlives the plant if nobody closes it - removal is
+  verified by a scan of what still answers, not by a list

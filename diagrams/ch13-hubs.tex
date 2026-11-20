@@ -1,0 +1,18 @@
+% Chapter 13 - long-term farm energy P50 and P90 (lidar-verified) for hub heights 100, 120 and
+% 150 m (D-017 basis, synthetic). Data: diagrams/data/ch13-hubs.csv (companion/ch13/lab_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=62mm, ymin=0, ymax=240, xmin=85, xmax=165,
+      xtick={100,120,150}, xlabel={ارتفاعِ توپی، $\text{m}$},
+      ylabel={انرژیِ سالانهٔ مزرعه، $\text{GWh}$}, ytick={0,40,...,240},
+      ybar=1pt, bar width=6mm, legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2,
+      nodes near coords, every node near coord/.append style={font=\scriptsize, text=cInk},
+      nodes near coords style={/pgf/number format/fixed, /pgf/number format/precision=1}]
+    \addplot[draw=cWind, fill=cWind!70] table[x=hub, y=p50, col sep=comma] {data/ch13-hubs.csv};
+    \addlegendentry{$P_{50}$}
+    \addplot[draw=cInkB, fill=cInkB!35] table[x=hub, y=p90, col sep=comma] {data/ch13-hubs.csv};
+    \addlegendentry{$P_{90}$ بلندمدت}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

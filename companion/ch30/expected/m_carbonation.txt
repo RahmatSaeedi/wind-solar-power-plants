@@ -1,0 +1,9 @@
+carbonation of the concrete cover, x = k sqrt(t) (teaching k values)
+  concrete                     k mm/sqrt(yr)   years to reach 50 mm   60 mm
+  dense, low w/c (specified)             3.0                    278     400
+  average                                5.0                    100     144
+  poorly cured (hot weather)             8.0                     39      56
+  cover and curing, not strength alone, set the life of the
+  reinforcement: a hot-weather pour cured badly (ch 29) can
+  lose most of its protection within the plant's life;
+  sulphates from gypsum ground (T12) attack faster still

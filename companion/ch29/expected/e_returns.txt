@@ -1,0 +1,10 @@
+return levels from 30 annual maxima (Gumbel by moments; synthetic)
+  quantity                    10 yr    50 yr    100 yr   largest seen
+  daily max temperature C       44.5     46.6      47.5           46.5
+  1-hour rain mm                21.6     27.3      29.7           25.0
+  24-hour rain mm               60.4     80.1      88.4           76.4
+  3-s gust m/s at 10 m          35.3     41.1      43.6           41.4
+  thirty years give a 50- or 100-year value only by
+  extrapolation: the fitted line carries the uncertainty of
+  thirty points - a real study uses longer or regional
+  records and states the confidence band

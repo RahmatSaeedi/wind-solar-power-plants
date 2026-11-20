@@ -1,0 +1,7 @@
+current of the PVM-550 at V = 40 V, three ways:
+  fixed point i <- i + f(i): 13.501897 A after 7 steps
+  Newton from 13 A:          13.501897 A after 4 steps
+  Lambert W (closed form):   13.501897 A
+  Newton converges fast from a good start; the Lambert W form
+  needs no start and no loop, which suits 8760 hours x 26
+  modules; both need care with overflow (chapter 3)

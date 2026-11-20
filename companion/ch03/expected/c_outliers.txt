@@ -1,0 +1,7 @@
+five spikes injected (38.0, 41.5, 0.0, 36.2, 44.0 m/s) and a 12-hour stuck
+    sensor
+  IQR fences (k = 3): 4 flagged; spikes found 4 of 5
+  |z| > 4: 9 flagged; spikes found 4 of 5
+  step > 12 m/s in one hour: 8 flagged (each spike gives 2 steps)
+  same value 6 or more hours in a row: 12 flagged (the stuck run: 12 of 12)
+  the 0.0 m/s spike is inside the normal range: only the step test sees it

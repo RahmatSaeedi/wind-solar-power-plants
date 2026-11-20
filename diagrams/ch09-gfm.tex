@@ -1,0 +1,20 @@
+% Chapter 9 - system frequency after losing 10 % of generation: grid-following without response,
+% grid-following with fast frequency response, grid-forming (A-159).
+% Data: diagrams/data/ch09-gfm.csv (companion/ch09/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=64mm, xmin=0, xmax=20, ymin=48.6, ymax=50.1,
+      xlabel={زمان، $\text{s}$}, ylabel={بسامد، $\text{Hz}$}, xtick={0,5,...,20},
+      ytick={48.6,48.9,...,50.1}, yticklabels={$48.6$,$48.9$,$49.2$,$49.5$,$49.8$,$50.1$}]
+    \addplot[sLoss] table[x=t, y=a, col sep=comma] {data/ch09-gfm.csv};
+    \addlegendentry{پیرو، بی‌پاسخ}
+    \addplot[sPV] table[x=t, y=b, col sep=comma] {data/ch09-gfm.csv};
+    \addlegendentry{پیرو، پاسخِ سریع}
+    \addplot[sInk] table[x=t, y=c, col sep=comma] {data/ch09-gfm.csv};
+    \addlegendentry{سازنده}
+    \node[note, text=cInk, anchor=north] at (axis cs:3.2,48.74) {کفِ $48.75$};
+    \node[note, text=cInk, anchor=north west] at (axis cs:4.2,49.45) {سازنده: کفِ $49.48$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

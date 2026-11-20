@@ -1,0 +1,14 @@
+earthworks along the main track (x = 7,600 m)
+  first try: ground smoothed over 450 m - it crosses the wadi
+  at s = 800 m on 4.2 m of fill: an embankment that dams it
+  corrected: no fill above the culvert crest (1.5 m over the bed)
+  steepest grade of the corrected line 5.1 % (limit 8 %, lesson B)
+  cut 4,031 m3 (bank), fill 2,422 m3; cut shrinks to 90 % when compacted
+  end of the mass diagram +1,205 m3 (+ surplus, - borrow)
+  largest ordinate 1,538 m3
+  the diagram crosses zero 3 times: between crossings cut
+  and fill balance, and the material moves along the road
+  instead of to a tip or from a borrow pit
+  a grade line is chosen for drainage and the vehicles
+  first (lesson B), and for balance second; the mass
+  diagram shows the cost of that choice in haul

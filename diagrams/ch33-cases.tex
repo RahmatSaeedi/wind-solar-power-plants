@@ -1,0 +1,15 @@
+% Chapter 33 - lifecycle footprint per kWh of cases S0 and S1: median with the P5-P95 range from the
+% Monte Carlo of the factors (lab_i, i_compare; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=90mm, height=56mm, xmin=0.4, xmax=2.6, ymin=8, ymax=18,
+      xtick={1,2}, xticklabels={S0 بی‌باتری, S1 با باتری}, ylabel={گرم بر کیلووات‌ساعت}]
+    \draw[cLoad, line width=1.4pt] (axis cs:1,10.4) -- (axis cs:1,15.4);
+    \draw[cBESS, line width=1.4pt] (axis cs:2,11.1) -- (axis cs:2,16.2);
+    \addplot[only marks, mark=*, mark size=2.6pt, color=cInk] coordinates {(1,12.5) (2,13.3)};
+    \node[note, anchor=west] at (axis cs:1.05,12.5) {$12.5$};
+    \node[note, anchor=west] at (axis cs:2.05,13.3) {$13.3$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

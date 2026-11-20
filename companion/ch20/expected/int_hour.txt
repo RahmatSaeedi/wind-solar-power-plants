@@ -1,0 +1,4 @@
+hour 11 of day 73 by hand (cap 80 MW, battery at 6.4 MWh):
+  plant 105.2 MW; battery room (36 - 6.4) / 0.927 = 31.9 MWh -> charge 20.0 MW
+  export min(105.2 - 20.0, 80) = 80.0 MW; curtailed 5.2 MW
+  energy after the hour 6.4 + 20.0 x 0.927 = 24.9 MWh

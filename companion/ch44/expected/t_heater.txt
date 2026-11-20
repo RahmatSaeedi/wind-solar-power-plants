@@ -1,0 +1,11 @@
+cabinet 30 m2 at 4.0 W/m2 K (UA 120 W/K); night air at 95% RH;
+  keep the inside below 85% RH by warming it (teaching)
+  outside C   warming needed K   heater W
+          -5                1.48        178
+           5                1.61        193
+          15                1.74        209
+          25                1.88        226
+  a few kelvin are enough at any temperature: the heater is
+  small, but it must run when the inverter is off at night -
+  on the auxiliary supply, with its own alarm, and tested at
+  the end of the line like any other item of the tree

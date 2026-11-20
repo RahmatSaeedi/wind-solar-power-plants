@@ -1,0 +1,113 @@
+P01: 400 V -> 230.9 V phase; 230 V RMS -> peak 325.3 V; 33 kV -> phase peak
+    26.94 kV
+P02: 50 Hz: T 20.00 ms, omega 314.16 rad/s; 60 Hz: T 16.67 ms, omega 376.99
+    rad/s
+P03: RMS 219.9 V, f 50 Hz, phasor 219.9 /_ 30 deg; v(4 ms) = 304.2 V
+P04: 2.5 ms at 50 Hz = 45 deg
+P05: RMS 14.14 A; mean 10 A
+P06: RMS sqrt(10^2 + 10^2) = 14.14 A
+P07: 5 /_ -36.87 = 4.00 -3.00j; -4 + j3 = 5 /_ 143.13 deg
+P08: (2/_30)(3/_60) = 6.0 /_ 90.00 deg; (6/_90)/(2/_30) = 3.0 /_ 60.00 deg;
+    (3+j4)+(1-j2) = 4.472 /_ 26.57 deg
+P09: 50 mH: 15.71 ohm at 50 Hz, 18.85 ohm at 60 Hz
+P10: 10 uF: 318.3 ohm at 50 Hz, 63.66 ohm at 250 Hz
+P11: Z = 5.0 /_ 53.13 deg ohm; Y = 0.12 -0.16j S
+P12: f0 = 1591.5 Hz; with 4 C: 795.8 Hz (half)
+P13: line current 17.32 A
+P14: star equivalent 2 + j3 ohm
+P15: input 16.30 kW; I = 27.69 A
+P16: 250 kVA at 400 V: 360.8 A
+P17: a^2 + a = -1+0j; a^4 = 1 /_ 120.00 deg = a
+P18: S = 50 kVA, pf 0.80 lagging
+P19: I = 11.5 A; Q = -2645 var (load convention: supplies 2.645 kvar)
+P20: THD 24.41 %; RMS 102.94 A; true pf 0.923
+P21: order 11: negative; order 19: positive
+P22: primary 384 A
+P23: I_base (33 kV, 10 MVA) 174.95 A; 6 % on 5.5 MVA -> 1.091 pu on 100 MVA
+P24: residual 40 % -> depth 60 %; 10 cycles = 0.2 s
+P25: sum 10.0 /_ -60.00 deg A (arithmetic 20 A)
+P26: I = 22.98 /_ -36.87 deg A (peak 32.5 A); P = 4.225 kW, Q = 3.169 kvar
+P27: Z = 5.0 +5.0j = 7.071 /_ 45.00 deg ohm
+P28: V_load = 225.1 /_ -3.37 deg V; drop 2.13 %; I = 45.02 A
+P29: f0 50.33 Hz, Q_f 3.162; at 50 Hz Z = 5.00 -0.208j, I = 45.96 A, V_C = 731
+    V
+P30: h = 10.00; S_sc 2000 MVA: 14.14
+P31: I_c = 95.8 A per phase; Q = 21.90 Mvar
+P32: 20 MW pf 1.0: I = 349.9 A; drop exact 380.5 V (1.153 %), approx 378.8 V;
+    losses 229.6 kW
+P33: 20 MW pf 0.9: I = 388.8 A; drop exact 540.6 V (1.638 %), approx 540.2 V;
+    losses 283.4 kW
+P34: currents 23.00, 11.50, 5.75 A; neutral 15.21 /_ -19.11 deg A
+P35: star point 86.9 V; load voltages 150.6, 260.8, 301.1 V
+P36: I0 = 3.333 /_ 0.00 deg, I1 = 3.333 /_ 0.00 deg, I2 = 3.333 /_ 0.00 deg
+P37: deviation index 2.50 %; u2 2.888 %
+P38: W1 = 0 W, W2 = 6928 W; P = 6928 W
+P39: P = 12.0 kW; Q = 10.39 kvar; pf 0.756
+P40: P 80 kW, Q 57.5 kvar, S 98.5 kVA, pf 0.812 lagging
+P41: Q_c = 26.79 kvar
+P42: current -20 %; losses -36 %
+P43: P 5.75 kW, Q 9.959 kvar; p(t) from -5.75 to 17.25 kW
+P44: Q at 3 MW: 1.375 Mvar; at 1 MW: 3.145 Mvar
+P45: V7 = 10 x 7 x 2 = 140 V
+P46: I7 0.21 pu; RMS 1.022 pu
+P47: K = 2.487
+P48: square wave: meter 1.1107 x 1 = 1.1107; error +11.07 %
+P49: 50th harmonic = 2500 Hz; sampling above 5000 Hz (100 samples per cycle);
+    256 per cycle is enough
+P50: 0.5 % of 273.3 GWh = 1366 MWh
+P51: I = 514.6 A; S = 117.6 MVA; loading 98 %
+P52: 9 km: drop 1102 V (3.34 %), x 1.50 of the 6 km value
+P53: 5 MW pf 1: 87.48 A at 33 kV, 4184 A at 0.69 kV
+P54: pf 0.873; Q_c 31.7 kvar
+P55: loading 63 % -> 58 % with pf 0.95
+P56: 2 kW per phase: I1 9.15 A; neutral triplen 22.4 A (one-phase 6 kW case:
+    28.3 A of harmonics)
+P57: recorded 755.9 kWh = 36.5 % of 2068.7 kWh
+P58: 200/5 set on a 400/5 CT: shows half; true 2068.8 kWh
+P59: pf 0.90: |Q| 48.43 Mvar; transformer 12.71 Mvar; units need 65.83 of 62.8
+    Mvar -> short by 3.03 Mvar
+P60: SCADA to phase b: phases 114.6, 140.9, 126.4 A; neutral 30.7 A; |I2|/|I1|
+    0.040 (was 32.8 A and 0.127)
+P61: dV = -1.00 %
+P62: SCR 5; z 0.20 pu
+P63: h = 6.51
+P64: alpha 1: 2.00 %, 1.4: 1.04 %, 2: 0.63 %
+P65: 40 km: 2.98 Mvar; net 2.62 Mvar
+P66: 110 MW at pf 0.95: 2026 A
+P67: true 325 kW; recorded 135 kW = 41.5 %
+P68: residual 65.2 %, depth 34.8 %, 4 cycles
+P69: 525.6 MWh/yr = 0.19 % of export
+P70: losses x 1.063 (+6.3 %)
+P71: S 5.225 MVA; Q at 5 MW 1.517 Mvar
+P72: pf 0.95: I 460.4 A, losses 476.9 kW
+P72: pf 1.0: I 437.4 A, losses 430.4 kW
+P75: 3 steps of 10 kvar (30 kvar); LV S_sc ~ 4.17 MVA; h = 11.8
+P77: 0.12 x (105.26/120)^2 x 120 = 11.08 Mvar
+P78: 5 MW at pf 1, 33 kV: 87.48 A
+P79: neutral / phase = 1.70
+P81: z 0.225 pu -> S_sc at 33 kV 444 MVA
+P82: 506.4 A on a 600 A primary: 84 %
+P83: without sqrt3: 797.4 A instead of 460.4 A
+P86: per unit 2.227 Mvar at 4.545 MW -> S >= 5.06 MVA
+P98: uniformly spread load: drop ~ 367 V instead of 734 V
+P101: n = 50; 0.5 ohm -> 1250 ohm from 20 kV
+P102: 4000 A at 0.69 kV -> 83.6 A at 33 kV
+P103: rated 96.2 A; magnetising 0.48 A, 27.5 kvar each; 22 units 0.605 Mvar
+P104: Y = [[-j10, +j10], [+j10, -j10]] pu
+P105: 250 MVA at 33 kV: 4.37 kA
+P106: X/R 3.0: worst first peak 1.38 x sqrt2 I_k
+P106: X/R 10.0: worst first peak 1.74 x sqrt2 I_k
+P106: X/R 15.7: worst first peak 1.82 x sqrt2 I_k
+P107: pf 0.80
+P108: 60 MWh in 30 days, peak 150 kW: load factor 0.556
+P109: a reversed: -0.848 + 0.848 + 0.848 = +0.848 of 2.544 (one third)
+P113: 2 x 10 x 0.363 = 7.26 V = 3.16 %
+P114: per phase 1.043 V = 0.45 %; line 1.81 V
+P115: 6 / 300 = 2.0 %
+P116: sqrt3 x 400 x 3200 = 2.217 MVA < 2.5; 2500 kVA needs 3608 A
+P117: S >= 5.0 / 0.95 = 5.263 MVA
+P118: S0: vector 87.79 kVA (pf 0.8907), arithmetic 87.88 kVA (pf 0.8899)
+P119: S 1.00125 pu; D = sqrt(S^2 - 1) = 0.050 pu
+P120: 30-min demand: sliding 129.4 kW, block 129.4 kW
+P110: feeder end absorbs 10 Mvar: |V| 0.9823 pu, bus 0.9711, POC 0.9839; grid
+    Q -20.63 Mvar

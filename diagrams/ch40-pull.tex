@@ -1,0 +1,14 @@
+% Chapter 40 - histogram of crimp pull force of 60 lugs (0.1 kN bins) against the lug maker's
+% lower limit of 4.4 kN; Cpk 0.94 (diagrams/data/ch40-pull.csv from companion/ch40/examples_v.py,
+% v_pull; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=52mm, xmin=4.3, xmax=6.0, ymin=0, ymax=12,
+      xlabel={نیروی کشش (کیلونیوتن)}, ylabel={شمارِ سرِ کابل}]
+    \addplot[ybar interval, fill=cWind!55, draw=cWind] table[x=lo, y=count, col sep=comma] {data/ch40-pull.csv};
+    \draw[sLoss] (axis cs:4.4,0) -- (axis cs:4.4,11.5);
+    \node[note, anchor=west, text=cLoss] at (axis cs:4.42,10.8) {حدِ پایین ۴٫۴};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

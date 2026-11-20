@@ -1,0 +1,7 @@
+two-level three-phase bridge on 1100 V DC:
+  phase fundamental peak m V_dc / 2; line RMS = m V_dc sqrt3 / (2 sqrt2)
+  m 0.5: line voltage  336.8 V RMS
+  m 0.8: line voltage  538.9 V RMS
+  m 1.0: line voltage  673.6 V RMS
+  third-harmonic or space-vector PWM: m up to 2/sqrt3 = 1.155 -> 777.8 V
+  above that the leg over-modulates and low-order harmonics appear

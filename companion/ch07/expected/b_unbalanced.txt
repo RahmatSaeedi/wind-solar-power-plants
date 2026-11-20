@@ -1,0 +1,7 @@
+auxiliary single-phase loads (A-103): phase a 4 + j1.5, b 8 + j3, c 16 ohm
+  phase a: I =  53.8 A /_   -20.6 deg, P = 11.59 kW, Q =  4.35 kvar
+  phase b: I =  26.9 A /_  -140.6 deg, P =  5.80 kW, Q =  2.17 kvar
+  phase c: I =  14.4 A /_   120.0 deg, P =  3.31 kW, Q =  0.00 kvar
+  neutral current 32.5 A; current unbalance |I2|/|I1| = 0.414
+  sequence currents: I0 10.8 A, I1 31.5 A, I2 13.0 A (I_N = 3 I0 = 32.5 A)
+  check: rebuilding phase a from sequences gives 53.8 A

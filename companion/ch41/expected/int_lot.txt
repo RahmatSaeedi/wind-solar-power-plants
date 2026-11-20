@@ -1,0 +1,8 @@
+the lot from the flash file to the plant's acceptance
+  file: 5 data problems returned to the maker
+  tester drift +2.5 W from seq 2400: 269 labels reissued
+  outliers: 12 flagged, each with a first guess at its cause
+  transport: EL of a pallet a container, caught 71% of rough ones
+  site EL: 299 modules to see a 1 % cracked share
+  the lot is accepted on evidence the plant checked itself,
+  not on the maker's 'all passed'

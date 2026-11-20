@@ -1,0 +1,7 @@
+turn-off overshoot in an NPC commutation loop, di/dt 5 kA/us (A-155):
+  loop  30 nH: overshoot  150 V; device sees   800 V of 1200 V
+  loop  60 nH: overshoot  300 V; device sees   950 V of 1200 V
+  loop 100 nH: overshoot  500 V; device sees  1150 V of 1200 V
+  laminated busbars (plates separated by thin insulation)
+  keep the loop small; slower switching cuts overshoot but
+  raises switching loss: a design trade-off

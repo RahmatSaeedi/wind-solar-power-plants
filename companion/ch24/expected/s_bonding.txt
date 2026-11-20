@@ -1,0 +1,12 @@
+sheath bonding of an 800 m, 132 kV single-core section (teaching):
+  induced sheath voltage 27 mV/m at 437 A
+  method              standing V   circulating A   sheath loss kW
+  both ends bonded             0             166              9.9
+  single point                22               0              0.0
+  cross-bonded (3)             7               8             0.02
+  conductor loss for comparison: 11.9 kW
+  bonding both ends wastes as much in the sheaths as in the
+  conductors; single-point bonding leaves a standing voltage
+  that grows with length; cross-bonding in three minor
+  sections cancels both (5 % imbalance assumed) - the reason
+  long HV routes are cross-bonded, with link boxes to test

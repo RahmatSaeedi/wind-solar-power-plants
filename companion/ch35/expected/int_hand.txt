@@ -1,0 +1,5 @@
+two SCADA results checked by hand
+  30 meters, 53 bytes at 9600 bit/s + 15 ms each: 1.77 s; code 1.77
+  12 turbines x 600 tags x 20 bytes x 8 bits a second: 1.15 Mbit/s
+  a hand check of bits against bytes catches the commonest
+  error in a network calculation - a factor of eight

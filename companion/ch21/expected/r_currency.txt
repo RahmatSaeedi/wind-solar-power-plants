@@ -1,0 +1,9 @@
+a hard-currency loan (4.5 %) against a local one (6 %), annuity:
+  year   DSCR local loan   DSCR hard loan (local money -3 %/yr)
+     1              1.11                                 1.19
+     5              1.32                                 1.26
+    10              1.37                                 1.12
+    15              1.24                                 0.88
+  the cheaper loan starts with better cover and ends below 1:
+  a currency that slides moves the debt service up every year;
+  only revenue in (or indexed to) the same currency matches it

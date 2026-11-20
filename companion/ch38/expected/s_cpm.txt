@@ -1,0 +1,14 @@
+critical path from load flow to the transformer order
+  deliverable        weeks  start  latest  float
+  load flow              3     10      10      0
+  short circuit          2     13      13      0
+  transformer spec       2     15      15      0
+  earthing study         4     15      20      5
+  RFQ issued             1     17      17      0
+  bids evaluated         6     18      18      0
+  order placed           2     24      24      0
+  order placed by week 26; critical: 6 of 7 tasks
+  the earthing study has float: it can slip 5 weeks
+  without moving the order; a week lost on the short-
+  circuit study moves the order and the transformers by
+  a week (ch 39: delivery 30 weeks after the order)

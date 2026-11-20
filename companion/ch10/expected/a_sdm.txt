@@ -1,0 +1,8 @@
+single-diode model of the PVM-550 fitted to its data sheet:
+  I_L 13.9965 A, I_0 1.311e-11 A, n 0.975 (a 1.803 V),
+  R_s 0.1719 ohm, R_sh 145.7 ohm
+  check: I_sc 13.980 A, V_oc 49.900 V, MPP 41.96 V x 13.110 A = 550.1 W
+  fill factor 0.789; efficiency on 2.58 m2 21.32 % (A-183)
+  the explicit model of chapter 9: 550.1 W at 42.03 V;
+  the chapter 6 ideal diode without R_s gave 13.56 kW per string
+  instead of 14.30: series resistance shapes the knee

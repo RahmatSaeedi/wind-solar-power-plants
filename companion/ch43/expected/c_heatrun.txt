@@ -1,0 +1,10 @@
+heat run of T1: HV resistance read after shut-down
+  minutes: 2, 4, 6, 8, 10, 12, 15, 20
+  ohm:     0.6549, 0.6475, 0.6418, 0.6377, 0.6340
+           0.6311, 0.6286, 0.6254
+  fit a + b exp(-t/tau): tau 7.9 min; at t = 0 0.6643 ohm
+  winding mean 87.5 C, rise 66.5 K (guarantee 65 K); gradient 20.5 K
+  the report used the 2-minute reading: 62.0 K - 'pass'
+  the winding cooled for two minutes before the first reading;
+  the extrapolation to shut-down is part of the method, and
+  read correctly the winding rise exceeds its guarantee

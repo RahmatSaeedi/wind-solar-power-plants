@@ -1,0 +1,11 @@
+material indices in SI units (bigger is better; indicative data, A-059):
+  material               E/rho (x 1e6)  E^0.5/rho  sigma^(2/3)/rho
+  structural steel              26.8       58.4           63.9
+  aluminium alloy               25.9       98.0          150.9
+  GFRP (along fibres)           21.5      105.1          478.0
+  CFRP (along fibres)           87.1      237.0          845.4
+  spruce (along grain)          24.4      233.1          340.6
+  concrete (tension)            13.3       74.5            8.7
+  tie of given stiffness: E/rho; beam of given stiffness: E^0.5/rho;
+  beam of given strength: sigma^(2/3)/rho (minimum mass in each case)
+  steel and aluminium tie on E/rho; for bending, lighter and fatter wins

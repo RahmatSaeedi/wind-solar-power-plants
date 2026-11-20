@@ -1,0 +1,9 @@
+night noise at dwellings in three sources (dB(A))
+  Z-006 permit condition   40
+  Z-007 regulation         45
+  Z-008 contract           48
+  governing: 40 dB(A), the permit's - all three apply at once,
+  so the design meets the strictest; the PPA's 48 does not loosen
+  the permit, and meeting 40 also meets the regulation's 45.
+  Rank decides only when sources cannot all be met together
+  (ch 33 noise model works to 40)

@@ -1,0 +1,7 @@
+4 % grid curtailment under three compensation regimes:
+  regime                               revenue lost k u/yr   equity IRR %
+  no compensation                                      826           9.14
+  deemed energy, all                                     0          10.22
+  deemed above 1 % only                                207           9.95
+  a threshold (the first hours unpaid) is a common compromise;
+  the regime is a PPA or connection-agreement term (U-081)

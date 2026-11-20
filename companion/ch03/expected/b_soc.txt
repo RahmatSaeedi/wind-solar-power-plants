@@ -1,0 +1,6 @@
+dE/dt = -P eta_c (charging, P < 0) or -P / eta_d (discharging, P > 0);
+    one-way efficiency sqrt(0.86) = 0.927 (scenario S1)
+start 4.0 MWh; charge 5 MW from 09 to 15; discharge 6 MW from 18 to 22
+  after charging (15:00): 31.82 MWh; after discharging (22:00): 5.94 MWh
+  window 4..36 MWh (10..90 % of 40 MWh): min 4.00, max 31.82 -> inside
+  energy in 30 MWh, out 24 MWh, stored change +1.94 MWh -> losses 4.06 MWh

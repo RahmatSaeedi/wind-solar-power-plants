@@ -1,0 +1,8 @@
+register status (verified / project-dependent / to-confirm)
+  verified            10
+  project-dependent    2
+  to-confirm           2
+  verified: the official text was read and its applicability
+  recorded; project-dependent: the value comes from a document
+  still being negotiated (CA-P draft 3); to-confirm: an open
+  question with a request behind it - never silently assumed

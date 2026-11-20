@@ -1,0 +1,8 @@
+incoming wafers: thickness capability and hidden cracks
+  thickness of 500 wafers: mean 150.4 um, sd 4.0; Cp 1.26, Cpk 1.23
+  cracked wafers 0.5%; in-line camera finds 90%
+  cracks passed on to the cell line: 0.05% (500 ppm)
+  a crack that passes breaks a wafer in a later step (lost
+  work) or, worse, survives into a module (lesson C); the
+  camera's find rate is measured with seeded samples, like
+  any inspection (ch 40, sampling and detection)

@@ -1,0 +1,12 @@
+what the performance ratio reports (A-247; modules never cleaned
+except by rain, chapter 10 soiling year):
+  sensor cleaning   mean sensor loss   reported PR   PR change
+  daily              0.00 %           0.7870        +0.00 %
+  weekly             0.56 %           0.7919        +0.63 %
+  monthly            2.37 %           0.8095        +2.86 %
+  never              8.47 %           0.8745        +11.12 %
+  true PR with dirty modules 0.7870; clean modules 0.8745
+  a sensor as dirty as the modules hides the module soiling:
+  the PR looks clean, the energy is lost and nobody cleans
+  daily sensor cleaning (or a heated, ventilated, cleaned pair)
+  keeps the reference honest; record every cleaning in the log

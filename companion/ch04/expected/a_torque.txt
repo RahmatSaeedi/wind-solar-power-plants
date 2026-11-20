@@ -1,0 +1,4 @@
+rated 5 MW electrical, drivetrain efficiency 0.94 (A-047): mechanical 5.32 MW
+  rotor speed 10.5 rpm = 1.0996 rad/s; torque T = P / omega = 4.84 MN m
+  gearbox 1:110: generator 1155 rpm, torque 44.0 kN m (losses ignored)
+  blade tip speed omega R = 82.5 m/s; tip-speed ratio at 10 m/s: 8.25

@@ -1,0 +1,27 @@
+% Chapter 19 - industrial sequence from electrode to installed container (two rows, right to left),
+% each step with the purpose of its process control. Purpose only: no recipes, quantities or settings.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    s/.style={blk, minimum width=23mm, minimum height=10mm, align=center, text width=22mm},
+    q/.style={note, text width=24mm, align=center}]
+  \foreach \i/\x/\t/\c in {1/13.2/{ساختِ الکترود}/{یکنواختیِ پوشش و ضخامت},
+                           2/10.2/{مونتاژِ سلول}/{هم‌ترازی، تمیزی، رطوبتِ کم},
+                           3/7.2/{شکل‌دهی و پیرسازی}/{لایهٔ سطحی، یافتنِ نشتی},
+                           4/4.2/{درجه‌بندی}/{ظرفیت و مقاومت در دسته‌های تنگ},
+                           5/1.2/{مونتاژِ ماژول}/{جوش، گشتاور، عایق}} {
+    \node[s] (a\i) at (\x,0) {\t};
+    \node[q, anchor=north] at (\x,-0.7) {\c};
+  }
+  \foreach \i/\x/\t/\c in {6/13.2/{رک و کانتینر}/{سیم‌کشی، تهویه، آشکارسازی},
+                           7/10.2/{آزمونِ کارخانه}/{کارکرد، حفاظت، عایق},
+                           8/7.2/{حمل}/{آزمونِ حمل، حالتِ شارژِ حمل},
+                           9/4.2/{نصب و آزمونِ محل}/{رابط‌ها، راه‌اندازی}} {
+    \node[s] (a\i) at (\x,-3.6) {\t};
+    \node[q, anchor=north] at (\x,-4.3) {\c};
+  }
+  \foreach \a/\b in {1/2,2/3,3/4,4/5,6/7,7/8,8/9} { \draw[flow] (a\a.west) -- (a\b.east); }
+  \draw[flow] (a5.south) -- (1.2,-2.0) -- (13.2,-2.0) -- (a6.north);
+  \node[note, text width=30mm] at (0.9,-3.6) {هر گام شناسه‌ای ثبت می‌کند که سلول را تا کانتینر دنبال می‌کند};
+\end{tikzpicture}
+\end{document}

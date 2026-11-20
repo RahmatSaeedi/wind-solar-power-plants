@@ -1,0 +1,12 @@
+fault current of the 150 kVA standby generator (teaching reactances):
+  rated 217 A; x''d 0.12, x'd 0.25, xd 2.0 (pu)
+  time after fault     current A    x rated
+  first cycles (x''d)        1804       8.3
+  0.1-1 s (x'd)               866       4.0
+  steady (xd)                 108       0.5
+  with a field-boost system holding ~3 x: 650 A steady
+  without boost the steady current falls below the rating of
+  the main breaker's instantaneous trip: a fault far out may
+  not be cleared - the generator's breaker needs settings for
+  its own decrement curve, and the island's protection is
+  checked with the generator, not with the transformer

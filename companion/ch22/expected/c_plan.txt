@@ -1,0 +1,19 @@
+development plan of P-Central as a network (months):
+  months to financial close: 28
+  critical path:
+    wind campaign (12 mo)
+    ESIA baseline and report
+    energy yield report
+    permits
+    PPA negotiation
+    financing and close
+  slack of the others:
+    grid study and offer            7
+    land options and access         8
+    land agreements                 9
+    geotechnical survey             8
+    front-end design                2
+  two chains are critical, 28 months each: wind campaign ->
+  yield report -> PPA, and ESIA -> permits; a month lost on
+  either moves financial close; the ESIA needs its seasons
+  (ch 33), so it starts on day one with the campaign

@@ -1,0 +1,12 @@
+BMS limits as configured against the cell data and the required margins
+  limit             setting   cell   margin   ok
+  v_max                3.60   3.65     0.03   yes
+  v_min                2.60   2.50     0.05   yes
+  t_charge_max        58.00  55.00     3.00   NO
+  t_charge_min         2.00   0.00     2.00   yes
+  t_discharge_max     55.00  60.00     3.00   yes
+  configuration fingerprint bcfef7b4e052956e
+  1 limit wrong: t_charge_max - set above the cell's own
+  charging limit; the cell data sheet, the BMS settings and the
+  integrator's test record must name the same values, and the
+  fingerprint ties the delivered configuration to the record

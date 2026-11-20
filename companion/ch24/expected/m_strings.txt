@@ -1,0 +1,10 @@
+three ways to cable a wind string (four 1.1 km sections, teaching):
+  option                    current  capex k u  loss MWh/yr  PV loss k u
+  uniform 630               ok             726        131.7          103
+  graded 630/240/240/240    ok             495        234.0          183
+  uniform 400               FAILS          550        218.5          170
+  (per string; loss load factor 0.30, 70 u/MWh, 7.5 %, 25 years)
+  uniform 400 fails the first section; uniform 630 loses less
+  but costs more than its losses are worth; the graded string
+  is the cheapest that works - the decision of ch 24, lesson F,
+  now with its losses priced

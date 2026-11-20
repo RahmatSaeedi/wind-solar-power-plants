@@ -1,0 +1,10 @@
+PV string fuses (teaching rules):
+  20 strings in parallel; a faulted string can receive the others' current:
+  (n - 1) x Isc = 19 x 13.98 = 266 A (with 1.25 for high irradiance 332 A)
+  module reverse-current rating 25 A -> fuses needed: yes
+  fuse window: at least 1.5 x Isc = 21.0 A (it must not blow
+  in sun; ch 24's rule), at most 25 A (it must protect the module)
+  -> a 25 A gPV fuse in each pole fits, barely: the window is
+  narrow, so the fuse curve and the module's rating are
+  checked together; with two strings no fuse is needed
+  (no for n = 2)

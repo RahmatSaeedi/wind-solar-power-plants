@@ -1,0 +1,26 @@
+% Chapter 19 - protection of the racks in one container (flows right to left): each rack with its own
+% fuse, switch and pre-charge, on a common DC bus to the PCS; insulation monitoring on the bus.
+% Teaching sketch: ratings and coordination come from the maker with test evidence.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    r/.style={blk, draw=cBESS, fill=cBESS!10, minimum width=16mm, minimum height=10mm, align=center},
+    d/.style={blk, minimum width=16mm, minimum height=8mm, align=center, font=\footnotesize}]
+  \foreach \i/\y/\t in {1/2.4/{رکِ ۱}, 2/0.8/{رکِ ۲}, 3/-1.6/{رکِ ۱۲}} {
+    \node[r] (r\i) at (12.6,\y) {\t};
+    \node[d] (f\i) at (10.2,\y) {فیوز};
+    \node[d] (k\i) at (8.0,\y) {کلید و پیش‌شارژ};
+    \draw[flow] (r\i.west) -- (f\i.east);
+    \draw[flow] (f\i.west) -- (k\i.east);
+    \draw[flow] (k\i.west) -- (6.0,\y);
+  }
+  \node[note] at (12.6,-0.4) {$\vdots$};
+  \draw[bus] (6.0,3.0) -- (6.0,-2.2);
+  \node[note] at (6.0,3.35) {شینهٔ مستقیم};
+  \node[blk, minimum width=22mm, minimum height=10mm, align=center] (pcs) at (2.6,0.4) {مبدلِ توان};
+  \draw[flow] (6.0,0.4) -- (pcs.east);
+  \node[blkWarn, minimum width=22mm, minimum height=8mm, align=center, font=\footnotesize] (imd) at (2.6,-1.6) {پایشِ عایق};
+  \draw[flowinfo] (6.0,-1.6) -- (imd.east);
+  \node[note, text width=60mm] at (9.3,-2.8) {هر رک خطای خودش را قطع می‌کند؛ شینه جریانِ همهٔ رک‌ها را تحمل می‌کند};
+\end{tikzpicture}
+\end{document}

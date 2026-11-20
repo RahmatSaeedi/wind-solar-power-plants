@@ -1,0 +1,13 @@
+connection works: who builds, owns and maintains (teaching split)
+  item                                 responsible     note
+  line route, land, permits            plant           operator approves
+  132 kV line                          plant           handed over after tests
+  grid bay at the substation           grid operator   plant pays via offer
+  protection at both line ends         both            agreed together
+  revenue metering                     grid operator   plant gives space
+  outage for the bay works             grid operator   plant plans around it
+  maintenance of the line              grid operator   after handover
+  each line names the boundary of design, construction,
+  ownership and warranty; an item built by the plant and
+  transferred to the operator needs acceptance tests both
+  agree before construction (ch 28, ch 38)

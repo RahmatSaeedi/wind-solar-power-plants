@@ -1,0 +1,7 @@
+service payment for the month: 4,800 u at full availability
+  (8.0 u per MW-h, teaching)
+  rule (teaching): full at 95%, falling straight to zero at 85%
+  availability 94.2% -> factor 0.917 -> 4,400 u (400 u less)
+  7 hours of 120 (5.8%) cost 8.3% of the payment: the
+  curve makes the last per cents the dearest; four of those
+  hours were the SOC floor of lesson B

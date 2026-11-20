@@ -1,0 +1,8 @@
+fire-system impairments on day 226
+  fire main loop B       day 200- 203    3 d  fire watch, extinguishers
+  detection zone 3       day 210-open   16 d  fire watch
+  fire pump (testing)    day 215- 215    0 d  standby pump, responders told
+  hydrant H-04           day 205-open   21 d  NO MEASURE
+  2 open; hydrant H-04 has been out 21 days with no
+  compensating measure - each impairment has an owner, a
+  measure, a notice to the responders and an end (ch 32)

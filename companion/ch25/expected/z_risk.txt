@@ -1,0 +1,8 @@
+expected yearly cost of a main transformer failure (two units)
+  failure rate 0.015 per unit-year (teaching, A-330)
+  without a pool: 2 x 0.015 x 3,380 = 101 k u a year
+  with a pool:    2 x 0.015 x 1,515 + fee 40 = 85 k u a year
+  break-even fee: 56 k u a year
+  on expectation the pool pays; its real value is larger:
+  it cuts the rare large loss that lenders and insurers fear
+  (ch 16, ch 21) - a decision on the tail, not on the mean

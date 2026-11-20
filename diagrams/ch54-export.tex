@@ -1,0 +1,20 @@
+% Chapter 54 - the 600 highest hours of delivered power at the POC in the model 15.1 year (export
+% limit 100 MW), with the 93.1 MW cap at which 30.6 Mvar meets power factor 0.95: 188 hours and
+% 930 MWh above it (companion/ch54/lab_d.py, disposition -> diagrams/data/ch54-export.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=600, ymin=70, ymax=104,
+      xlabel={ساعت‌های سال به ترتیبِ توان}, ylabel={توانِ تحویلی (MW)},
+      xtick={0,100,...,600}, clip=true,
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/1000 sep={}}]
+    \addplot[sWind] table[x=h, y=mw, col sep=comma] {data/ch54-export.csv};
+    \draw[sLoss] (axis cs:0,93.1) -- (axis cs:1200,93.1);
+    \draw[sLimit] (axis cs:0,100) -- (axis cs:1200,100);
+    \node[font=\scriptsize, text=cInk, anchor=south west] at (axis cs:190,93.1)
+      {سقفِ $93.1\,\text{MW}$: $188$ ساعت و $930\,\text{MWh}$ بالای آن};
+    \node[font=\scriptsize, text=cInkB, anchor=south west] at (axis cs:190,100)
+      {حدِ صادرات $100\,\text{MW}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

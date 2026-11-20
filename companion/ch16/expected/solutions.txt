@@ -1,0 +1,37 @@
+P01: P90 of 200 GWh at 6 %: 184.62 GWh
+P02: P99 of 200 GWh at 6 %: 172.08 GWh
+P03: P75 of 200 GWh at 6 %: 191.91 GWh
+P04: RSS of 2, 3 and 6 %: 7.0 %
+P05: sum of 2, 3 and 6 % fully correlated: 11 %
+P06: r 0.3 for 5 and 5 %: 8.06 %
+P07: r -0.3 for 5 and 5 %: 5.92 %
+P08: speed 3 % x 1.82: 5.46 % of energy
+P09: n-year, long-term 4 %, year 5 %, 4 years: 4.72 %
+P10: the same for 25 years: 4.12 %
+P11: shares of 1, 2 and 2: 0.11, 0.44, 0.44
+P12: P90 wind 175 and PV 102 summed: 277 GWh (not the hybrid P90)
+P13: annuity 8 %, 12 years: 7.5361
+P14: debt for 8,000 k u at 1.25, 6 %, 15 y: 62,158 k u
+P15: CFADS of 280 GWh at 50 u/MWh less 4,000 k u: 10,000 k u
+P16: below the P90 twice or more in 10 years: 0.264
+P17: probability of at least one year below the P90 in 15: 0.794
+P18: MC noise, sigma 15, 1,000 draws: about 0.81 GWh
+P19: draws for 0.1 GWh: about 65,792
+P20: uniform sigma for half-width 2 %: 1.15 %
+P21: triangular sigma for half-width 3 %: 1.22 %
+P22: P90 / P50 at 5.1 %: 0.9346
+P23: wind 2.26 % and 3.44 %: 4.12 %
+P24: debt per GWh of P90 at 50 u/MWh, ratio 1.20: 405 k u
+P25: expected shortfall cost 0.71 GWh x 100 u/MWh: 71 k u a year
+P26: MCP, 12 months at r 0.80: 1.90 %; 24 months at r 0.90: 1.18 %
+P27: trend -0.05 %/yr over 17.5 years: speed -0.88 %, energy -1.59 %
+P28: degradation rate sd 0.2 %/yr, year 20: 4.36 GWh
+P29: no major failure among 12 turbines at 4 %: 0.613
+P30: long-term part after 3 years: 4.89 GWh
+P31: W1 P99 one year: 333.5 - 2.3263 x 35.8 = 250.2 GWh
+P32: debt W1 with a ridge mast over W2b: 1.178
+P33: major-failure downtime: 28.8 turbine-days = 0.66 % of time
+P34: P90 one year with sigma 12 GWh and P50 295: 279.6 GWh
+P35: debt per GWh of P90 at ratio 1.25: 388 k u
+P36: S1 round-trip loss 1.76 GWh; efficiency 86 +/- 2 %: sigma 0.29 GWh
+P37: S1 value 375 k u, spread +/- 20 %: +/- 75 k u (0.52 % of 14,417 k u)

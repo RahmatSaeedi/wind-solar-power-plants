@@ -1,0 +1,24 @@
+% Chapter 35 - governed flows across the boundary between real-time data and the asset and maintenance
+% systems: one-way flows out, one reviewed flow in, and no path from CMMS to control (examples_f; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=30mm, minimum height=11mm, text width=28mm}]
+  \node[note] at (9.0,3.3) {سمتِ بهره‌برداری (زمان‌واقعی)};
+  \node[note] at (0.5,3.3) {سمتِ کسب‌وکار};
+  \node[s, blkBESS, minimum height=34mm] (his) at (9.0,1.15) {اسکادا و تاریخ‌نگار};
+  \node[s, blkBESS] (tags) at (9.0,-1.6) {فهرستِ برچسب‌های اسکادا};
+  \node[s, blkBESS] (ctl) at (9.0,-3.4) {کنترل‌ها (فصلِ ۳۴)};
+  \node[s, blkLoad] (rep) at (0.5,2.2) {گزارش‌ها};
+  \node[s, blkLoad] (cmms) at (0.5,0.2) {سامانهٔ مدیریتِ نگهداری};
+  \node[s, blkLoad] (eam) at (0.5,-1.6) {ثبتِ دارایی‌ها، مبدأِ شناسه‌ها};
+  \draw[boundary] (4.75,3.6) -- (4.75,-4.1);
+  \draw[flow] (his.west |- rep.east) -- node[above, note] {داده‌های تجمیعی، فقط‌خواندنی} (rep.east);
+  \draw[flow] (his.west |- 0,0.5) -- node[above, note] {هشدار به درخواستِ کار، بی‌تکرار} (cmms.east |- 0,0.5);
+  \draw[flow] (his.west |- 0,-0.1) -- node[below, note] {ساعتِ کار و چرخه‌ها، روزانه} (cmms.east |- 0,-0.1);
+  \draw[flow] (eam.east) -- node[below, note] {برچسب‌ها از شناسه‌ها، با بازبینی} (tags.west);
+  \draw[flowinfo, draw=cLoss] (cmms.west) -- ++(-0.5,0) |- (ctl.west);
+  \node[text=cLoss, font=\large] at (4.75,-3.4) {$\times$};
+  \node[note, text=cLoss, anchor=south] at (2.4,-3.35) {هیچ مسیری از نگهداری به کنترل};
+\end{tikzpicture}
+\end{document}

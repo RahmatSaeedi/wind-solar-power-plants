@@ -1,0 +1,9 @@
+switch port -> patch panel -> device, followed for each port
+  SW-CTRL:1 -> PP-A:1 -> HMI-1    ok
+  SW-CTRL:2 -> PP-A:2 -> HMI-2    ok
+  SW-CTRL:3 -> PP-A:4 -> PRINTER  design says ENG-WS
+  SW-CTRL:4 -> PP-A:3 -> ENG-WS   design says PRINTER
+  two patch cords crossed at the panel: the engineering
+  workstation sits on the printer's port, with the printer's
+  access rules - each link of the chain was labelled right;
+  only following the whole chain finds it

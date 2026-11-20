@@ -1,0 +1,24 @@
+conceptual foundation schemes under three soil assumptions (teaching)
+  checks: no lift-off in production (e <= r/4); extreme pressure on the
+  effective area <= q_ult / 2; rocking stiffness >= 177 GN m/rad
+  (wet: water at 0.5 m; S3 sits on 2 m of new compacted gravel; S4 on piles)
+  scheme            soil      e/r  A'/A  q' kPa  K GNm  s mm   k u  result
+  S1 gravity 20 m   dense    0.27  0.35     322    305     9   179  NO lift
+  S1 gravity 20 m   T07      0.27  0.35     322    103    27   179  NO lift,K
+  S1 gravity 20 m   T07 wet  0.37  0.16     515     82    25   179  NO lift,K
+  S2 gravity 24 m   dense    0.17  0.59     181    527    10   257  ok
+  S2 gravity 24 m   T07      0.17  0.59     181    177    30   257  ok
+  S2 gravity 24 m   T07 wet  0.23  0.44     174    142    27   257  NO K
+  S3 24 m + gravel  dense    0.17  0.59     181    395    13   313  ok
+  S3 24 m + gravel  T07      0.17  0.59     181    425    13   313  ok
+  S3 24 m + gravel  T07 wet  0.23  0.44     174    425     9   313  ok
+  S4 piled 18 m     dense       -     -   piles    400     0   305  ok
+  S4 piled 18 m     T07         -     -   piles    400     0   305  ok
+  S4 piled 18 m     T07 wet     -     -   piles    400     0   305  ok
+  the 20 m base lifts off in production even on dense
+  ground (e > r/4): this turbine needs a wider base; 24 m
+  passes on dense ground and at T07, but not with the high
+  water (the softer wet soil lowers the stiffness);
+  new gravel under the 24 m base or piles pass in every
+  case - at T07 the water range (ch 29, Q6) decides between
+  them; a comparison of concepts, not a choice

@@ -1,0 +1,18 @@
+change notices CN-001..CN-005: 9 approved line(s)
+approved (8):
+  PLP-MET-01-HYG: added
+  PLP-MET-01-SON: added
+  PLP-MET-01-VAN: removed
+  PLP-MET-01-PYR: serial 'P23-0555' -> 'P26-0610'
+  PLP-TRF-01: description 'Export transformer 132/33 kV 120 MVA' -> 'Exp...
+  PLP-WTG-07-GEN: delivered '2025-03-01' -> '2026-03-02'
+  PLP-WTG-07-GEN: installed '2025-04-15' -> '2026-03-10'
+  PLP-WTG-07-GEN: serial 'G25-2070' -> 'G26-0907'
+unapproved (4):
+  PLP-WTG-13-GEN: added
+  PLP-PVB-03: description_fa changed (Persian text, letter forms)
+  PLP-SWG-01: criticality 'A' -> 'a'
+  PLP-WTG-07-GEN: commissioned '2025-07-01' -> '2025-03-15'
+not_done (0):
+the duplicated PLP-INV-07 does not appear in the diff (keyed by tag):
+  validate BEFORE comparing

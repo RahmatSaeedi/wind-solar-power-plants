@@ -1,0 +1,68 @@
+P01 RSS of pyranometer / transducer at 45 C, 2 years: 21.0 W/m2 / 0.31 MW
+P02 certificates with findings: PY-1032, RC-2204, AN-5510, PT-0718, TT-3301
+P03 metering chain RSS / worst: 0.35 / 0.60 %
+P04 meter loads outside the class: 5 %
+P05 cabinets with devices too hot: MET-1, PV-B07
+P06 bonds over the limit / shields against the rule: SUB-RTU / 2
+P07 SW-T05 field changes / extra ports: 5 / 1
+P08 fibre links not ok: T05-T06 suspect, T01-SUB fail
+P09 copper links failing: CTRL-03, CTRL-04
+P10 cabinets on one power source: SUB-CORE
+P11 firmware findings: 2
+P12 stale backups: SW-T05, RTU-1
+P13 clocks beyond the limit: GW-PV1
+P14 register-map findings: 2
+P15 failover failed / not done: RTU main CPU off / time source A off
+P16 tag problems: 6
+P17 connection changes at the core switch: 3
+P18 worst-case sensor-to-historian delay: 9 s
+P19 hand checks: 21.0 W/m2, 12.20 mA, 1.45 dB
+P20 enclosures rated too low: PV-B03, CAM-12
+P21 devices short on EMC: RTU-1, GW-PV1, CLK-1
+P22 outdoor lines without surge protection: 2
+P23 years to 2.5 % for the pyranometer: 3.4
+P24 metering error worth a year: 72 k u
+P25 switches below the spare-port rule: SW-T05, SW-SUB
+P26 fibre cable with a core outside the plan: FO-W1
+P27 cabinets not N+1: SUB-CORE
+P28 loop checks done / points: 1435 / 1478
+P29 first wrong stage of the traced value: SCADA
+P30 anemometer bias and energy effect: 2.3%, 4.2%
+P31 meter drift significant / beyond 0.3 %: day 37 / day 53
+P32 loops crossing without an isolator: L-104
+P33 bend found at: 0.52 km
+P34 PoE load against 60 W: 77.2 W
+P35 hardening findings / time-source findings: 3 / 2
+P36 critical alarms untested: 2
+P37 bad point names: 3
+P38 devices in one view only: HMI-3, HIST-2
+P39 spares for the rotation: 2
+P40 trays breaking segregation: TR-1
+P41 crossed patch chains: 2
+P42 reported PR with a +2 % sensor: 0.804
+P43 summer hours above 50 C / above 55 C: 411 / 50
+P44 mean days unseen, daily / quarterly comparison: 0.5 / 45
+P45 alignment error of a 2 deg tilt at 50 / 70 deg: +4.1 / +9.5 %
+P46 antenna margin, standard / low-loss cable: 0.8 / 11.2 dB
+P47 firmware files differing from the published hash: RTU-X_8.4.bin
+P48 unrecorded configuration lines: 4
+P49 days of wind speed with a wrong unit: 120
+P50 card types below the spare rule: analogue in, digital out
+P51 reconciliation gap / chain uncertainty: 1.70 / 2.29 GWh
+P52 devices never staged: CLK-2, GW-PV2, SW-T09
+P53 calibration expanded uncertainty / ratio: 1.05 % / 1.4
+P54 tags after the extension / short of the licence: 6,000 / 1,000
+P55 loops short of 12 V with the isolator: L-104 (10.8 V)
+P56 gust events / peak / highest one-minute mean: 1 / 19.1 / 13.5 m/s
+P57 profile gap: 65.9 MWh
+P58 untested firmware pairs: GW-PV2, RTU-2
+P59 links failing, as received / inspected: 8.73% / 0.45%
+P60 one-interval shift: value / energy into the next day: -395 u / 8.6 MWh
+P61 data flagged after the as-found: from 2026-06-27, 339 days, mean 2.15 %
+P62 seal findings: test block M-01, test block M-02
+P63 export read with one reversed CT: 33.33 of 100.00 MW
+P64 dew point / hours below it, unheated / heated: 18.4 C / 5.8 / 0.0 h
+P65 breakers over the maker's inrush table: F11 (C10)
+P66 SCADA wait with one camera, no priority: 24.7 ms
+P67 missed-stow chance, one / two sensors: 0.0500 / 0.0033
+P68 points left for the site / hours: 197 / 20

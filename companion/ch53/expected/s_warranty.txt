@@ -1,0 +1,10 @@
+warranties alive at a sale of the plant in year 18 (end year)
+  new gearbox T05 (repaired year 16)      ends 20
+  inverter IGBT stacks                          -
+  BESS augmentation string                      -
+  repowered blades (if done)                    -
+  PV modules (power warranty 25 yr)       ends 25
+  transformer T1 rewind (year 15)         ends 20
+  3 pass to the buyer only if transferable and with their
+  records (lesson H); the module power warranty is the largest
+  and needs the flash and PR history to be claimed

@@ -1,0 +1,10 @@
+compound maker's notice on insulation lot C-17: which drums, which cables?
+  runs that used it: R4, R5 (mixed lots in R4)
+  drums: D404, D405, D406, D407
+  cables cut from them: W013, W017, W020; in stock: D407
+  run R4 changed lots part-way and the change point was not
+  recorded, so both of its drums count - one written changeover
+  position could have taken a drum off the list; D404 and D406
+  were already rejected on resistance, so the notice adds W017
+  and the stock drum: their PD reports are re-read and the
+  maker's lot analysis decides; the drum stays on hold until then

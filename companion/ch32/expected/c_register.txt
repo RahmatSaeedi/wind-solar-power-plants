@@ -1,0 +1,25 @@
+the fire-hazard register of Plant P (teaching scores)
+  id   area                      L  S  score  band
+  F01  BESS containers           2  5     10  high
+       thermal runaway, off-gas, spread; explosion of off-gas, spread to the
+    next unit
+  F09  construction areas        3  3      9  medium
+       hot work, fuel or waste fire; injury; damage to stored parts
+  F05  nacelles                  2  4      8  medium
+       fire with no one on board; turbine lost; burning debris
+  F08  control and MV buildings  2  4      8  medium
+       cable or panel fire; loss of control; toxic smoke
+  F02  PV array                  3  2      6  medium
+       arc fault or cable fire in a string; local damage; grass ignition
+  F03  PV array                  2  3      6  medium
+       grass fire across the array; many tables, smoke over the road
+  F04  inverter stations         2  3      6  medium
+       electronics or unit-transformer fire; one block out for months
+  F06  nacelles                  1  5      5  medium
+       fire with technicians on board; escape from height
+  F07  main transformers         1  5      5  medium
+       oil fire after an internal fault; half the export lost for a year
+  the battery heads the list on severity, the construction
+  site on likelihood; the main transformer scores only medium
+  but its loss stops half the export for a year - a matrix
+  ranks attention, and the strategy still treats every row

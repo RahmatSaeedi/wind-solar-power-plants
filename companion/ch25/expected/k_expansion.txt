@@ -1,0 +1,11 @@
+oil expansion and the conservator (teaching):
+  mean oil C   volume change m3 (from 20 C)
+          -10                           -0.49
+           20                           +0.00
+           60                           +0.66
+          100                           +1.32
+  swing -10 to 100 C: 1.82 m3; conservator about 2.4 m3 with margin
+  a sealed tank instead keeps a gas cushion that is squeezed
+  and expanded: its pressure swing sets the tank's design; the
+  conservator's breather (silica gel or a membrane) keeps the
+  water of the air out of the oil (lesson moisture above)

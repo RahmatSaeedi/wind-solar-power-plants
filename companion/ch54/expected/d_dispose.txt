@@ -1,0 +1,10 @@
+DEV-11: Q at 100 MW 30.6 Mvar against 32.9 needed (short 2.3 Mvar)
+  (a) cap export at 93.1 MW, where 30.6 Mvar meets pf 0.95:
+      model 15.1 year: 188 hours above, 930 MWh lost,
+      65 k u a year, 664 k u over 20 years at 7.5%
+  (b) add a 5 Mvar switched capacitor bay: 360 k u (teaching),
+      margin 2.7 Mvar for a hot day
+  (c) ask TSOZ for a derogation: no cost if granted, but the
+      register shows 'to-confirm' until it is written
+  cheapest certain option: (b); the cap stays the
+  fallback while (b) is bought - and the decision is TSOZ's

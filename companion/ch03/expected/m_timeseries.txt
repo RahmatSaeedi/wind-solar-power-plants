@@ -1,0 +1,8 @@
+persistence forecast of farm power: 'the next value equals the current one'
+  lead  1 h: MAE  3.98 MW ( 6.6 % of 60 MW), RMSE  6.35 MW
+  lead  3 h: MAE  7.05 MW (11.7 % of 60 MW), RMSE 10.77 MW
+  lead  6 h: MAE  9.98 MW (16.6 % of 60 MW), RMSE 14.76 MW
+  lead 12 h: MAE 13.60 MW (22.7 % of 60 MW), RMSE 19.09 MW
+  lead 24 h: MAE 17.23 MW (28.7 % of 60 MW), RMSE 23.00 MW
+  'climatology' (always the annual mean): MAE 17.27 MW
+mean daily cycle: PV peaks at hour 11; wind mean ranges 18.4..25.8 MW

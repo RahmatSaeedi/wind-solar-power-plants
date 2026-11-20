@@ -1,0 +1,12 @@
+string WS1: does each cable still fit its planned drum (plus 10 m
+  for the ends)?
+  cable   planned m   as laid m   drum m   drums   joints
+  W001          850         862     1000       1        0
+  W002          970        1105     1000       2        1
+  W003         1090        1094     1500       1        0
+  W004         1210        1222     1500       1        0
+  W003 and W004 were planned on 1,500 m drums and still fit;
+  W002 was planned on the 1,000 m drum D401 and
+  the wadi detour of 135 m now needs a joint or a longer drum
+  - a joint is a weak point for 30 years, so the cable is
+  re-ordered on a 1,500 m drum if the date allows (ch 24)

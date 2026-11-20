@@ -1,0 +1,13 @@
+day-ahead schedules on the test months (Sep-Dec), teaching prices:
+  schedule        battery   scheduled GWh  short MWh  surplus MWh  revenue k u
+  P50             no          103.45       10,872      10,245        4,342
+  P50             yes         103.45        7,600       6,436        4,574
+  P40             no          100.31        9,500      12,017        4,366
+  P40             yes         100.31        6,146       8,106        4,604
+  P30             no           95.25        7,638      15,217        4,379
+  P30             yes          95.25        4,418      11,456        4,607
+  a lower quantile sells less day ahead but is short less often;
+  with a shortfall price twice the day-ahead price the best
+  quantile is near P33 (a third of the hours may fall short);
+  the battery absorbs part of the deviation either way, but a
+  32 MWh battery cannot carry a day of forecast error

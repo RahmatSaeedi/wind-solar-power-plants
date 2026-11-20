@@ -1,0 +1,12 @@
+why touch voltage matters: current through the body (teaching)
+  I = U / R_body; R_body depends on skin, contact and path
+  touch voltage V   R dry ohm   I dry mA   R wet ohm   I wet mA
+               25        2000         12         800         31
+               50        2000         25         800         62
+              230        2000        115         800        288
+              400        2000        200         800        500
+  a few tens of milliamps across the chest can stop a
+  heart: even low-voltage circuits are lethal with wet
+  skin - which is why isolation, earthing and protective
+  devices come first, and why no work here is ever done
+  live (ch 6 and 26 for the protection side)

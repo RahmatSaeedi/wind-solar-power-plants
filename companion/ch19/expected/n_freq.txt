@@ -1,0 +1,8 @@
+a day of frequency response at up to +-10 MW (teaching, A-297):
+  energy through the battery 88 MWh (1.37 full cycles of the usable window)
+  stored energy wanders from -1.4 to +15.1 MWh
+  end of day +11.7 MWh = signal's net charge +18.3 less losses 6.6 MWh
+  the signal is zero on average only over long times; in a day
+  its imbalance and the losses move the SOC, so the service
+  needs headroom both ways and a slow correction that the
+  rules of the service must allow (chapter 20)

@@ -1,0 +1,17 @@
+battery size against energy recaptured from the export limit
+  (AC-coupled, 2 h, greedy; teaching costs A-287):
+  limit  battery MW  recaptured MWh  value k u/yr  cost k u/yr
+     80          0              0          0.0          0.0
+     80          5            750         37.5        348.3
+     80         10          1,377         68.9        696.7
+     80         20          2,407        120.3      1,393.4
+     80         40          3,670        183.5      2,786.8
+    100          0              0          0.0          0.0
+    100          5            161          8.0        348.3
+    100         10            196          9.8        696.7
+    100         20            196          9.8      1,393.4
+    100         40            196          9.8      2,786.8
+  recapture alone never pays for the battery: at 100 MW there
+  is little to recapture, at 80 MW a few GWh; the battery is
+  bought for price shifting and services (chapters 19-21) and
+  recapture is a by-product

@@ -1,0 +1,13 @@
+Afghanistan appendix (ch 56): 44 statements, 12 verified (27%), 1 project-
+    dependent, 31 to-confirm
+  approval plan 10.0 months (teaching); critical path S1 > S2 > S3 > S6 > S7 >
+    S8
+  unverified on the critical path: S6, S8
+  grid-study inputs from public sources: 8%
+  open items: 32 to 16 addressees
+  risks scored 16 or more:
+    R01 payments delayed or blocked (banking, currency)
+    R02 tariff and contract terms unpublished
+    R03 island system too small or weak for 100 MW
+    R06 import route closed, equipment delayed
+    R07 no local service for turbines or inverters

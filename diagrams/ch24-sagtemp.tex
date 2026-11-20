@@ -1,0 +1,21 @@
+% Chapter 24 - (sagtemp) a 300 m span on level ground: conductor at 15 C (sag 6.51 m) and at 90 C (sag
+% 9.52 m) from companion/ch24/examples_q.py sag_temp(); towers 15.5 m (ch 24 lesson F).
+% Parabolic shapes, vertical scale exaggerated x10.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt, x=0.4mm, y=4mm]
+  \draw[draw=cInkB] (-10,0) -- (310,0);
+  \foreach \k in {-8,2,...,308} {\draw[draw=cInkB, line width=0.4pt] (\k,0) -- (\k-3,-0.4);}
+  \draw[draw=cInk, line width=1.6pt] (0,0) -- (0,15.5);
+  \draw[draw=cInk, line width=1.6pt] (300,0) -- (300,15.5);
+  \draw[sWind, domain=0:300, samples=60] plot (\x, {15.5 - 6.51*4*(\x/300)*(1-\x/300)});
+  \draw[color=cLoss, line width=1.1pt, dash pattern=on 6pt off 2pt, domain=0:300, samples=60]
+    plot (\x, {15.5 - 9.52*4*(\x/300)*(1-\x/300)});
+  \draw[dimline] (150,15.5) -- (150,8.99);
+  \node[note, anchor=west] at (152,12.4) {$6.51\,\text{m}$ در $15\,^\circ\text{C}$};
+  \draw[dimline] (175,0) -- (175,6.11);
+  \node[note, anchor=west] at (177,3.0) {فاصله در $90\,^\circ\text{C}$: $6.0\,\text{m}$};
+  \node[note, anchor=east] at (125,5.6) {$9.52\,\text{m}$ در $90\,^\circ\text{C}$};
+  \node[note, text width=110mm] at (150,-2.4) {دهانهٔ $300\,\text{m}$؛ مقیاسِ عمودی ده برابر. فلشِ گرم سه متر از فاصلهٔ هادی تا زمین می‌گیرد};
+\end{tikzpicture}
+\end{document}

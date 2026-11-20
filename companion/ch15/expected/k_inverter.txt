@@ -1,0 +1,14 @@
+inverter loss model fitted to five efficiency points (ch 10):
+  c0 0.00275, c1 0.00298, c2 0.01154 (per unit of rated AC)
+  DC in (pu)   AC out (pu)   efficiency
+      0.004       0.0012       31.25 %
+      0.020       0.0172       85.99 %
+      0.100       0.0969       96.86 %
+      0.250       0.2458       98.33 %
+      0.500       0.4930       98.60 %
+      0.750       0.7388       98.50 %
+      1.000       0.9832       98.32 %
+  year: DC 115.74 GWh, AC 113.82 GWh, loss 1.66 %
+  efficiency falls at low load where the no-load loss dominates;
+  the yearly loss is weighted by the hours the inverter spends at
+  each load, which is why it is not the peak efficiency

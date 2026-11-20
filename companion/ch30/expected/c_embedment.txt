@@ -1,0 +1,9 @@
+post loads (edge post, teaching) and embedment by skin friction
+  uplift 8.2 kN, horizontal 5.5 kN per edge post (12 posts a table)
+  soil (ch 29)                  skin kPa   embedment for FS 2 m
+  dense sand and gravel               25                   1.19
+  silty sand, loose (top)             12                   2.48
+  silty sand with gypsum              10                   2.97
+  the loose top layer more than doubles the embedment; skin
+  friction is the least certain number in the table, so it
+  is measured, not assumed: pull-out tests on site (below)

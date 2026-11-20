@@ -1,0 +1,16 @@
+steady operating points of WT-5.0-150 at 1.225 kg/m3 (A-211):
+  v m/s   P kW  rpm    TSR  pitch   Ct   thrust kN   torque kNm
+    3.0     97   5.00  13.09    0.0  1.083        106        197
+    5.0    617   5.41   8.50    0.0  0.852        231       1157
+    7.0   1692   7.58   8.50    0.0  0.852        452       2268
+    9.0   3595   9.74   8.50    0.0  0.852        747       3750
+   10.0   4932  10.82   8.50    0.0  0.852        923       4630
+   10.5   5000  11.36   8.50    4.0  0.585        698       4470
+   11.0   5000  11.50   8.21    5.3  0.481        630       4417
+   12.0   5000  11.50   7.53    7.3  0.350        546       4417
+   15.0   5000  11.50   6.02   11.6  0.172        419       4417
+   20.0   5000  11.50   4.52   17.1  0.075        326       4417
+   25.0   5000  11.50   3.61   21.8  0.042        282       4417
+  region 2: TSR held at the optimum (variable speed); 2.5: rotor
+  at 11.5 rpm, TSR falls; 3: pitch holds 5 MW; thrust peaks
+  just below rated wind and falls as the blades feather

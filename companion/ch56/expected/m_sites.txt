@@ -1,0 +1,15 @@
+research log: official and de facto authority sites, 2026-11-17
+  mew.gov.af     read (posts to 17 Nov 2026)
+  dpmea.gov.af   read
+  nepa.gov.af    read (document links script-only)
+  asqa.gov.af    read
+  main.dabs.af   script-only, not read
+  mudh.gov.af    read (last item 2025)
+  ansa.gov.af    does not resolve
+  mudl.gov.af    does not resolve
+  nwara.gov.af   does not resolve
+  aop.gov.af     certificate error
+  read 5, not read 5 of 10
+  pre-2021 laws were read as gazette PDFs or the ministry's
+  English translation; whether each is applied is a separate
+  question (the review of earlier laws has no published result)

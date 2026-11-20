@@ -1,0 +1,25 @@
+country risk register of Plant P - Afghanistan (TEACHING scores 1-5)
+  id   L  I  score  owner             fact
+  R01  4  5     20  finance lead      AF-27
+       payments delayed or blocked (banking, currency)
+  R02  4  5     20  commercial lead   AF-29
+       tariff and contract terms unpublished
+  R03  4  4     16  grid engineer     AF-10
+       island system too small or weak for 100 MW
+  R06  4  4     16  logistics lead    AF-41
+       import route closed, equipment delayed
+  R07  4  4     16  O&M lead          AF-42
+       no local service for turbines or inverters
+  R05  3  5     15  counsel           AF-39
+       land title contested (state-land declarations)
+  R04  4  3     12  grid engineer     AF-14
+       no connection rules, studies on assumptions
+  R08  3  4     12  counsel           AF-26
+       sanctions regimes other than US not reviewed
+  R09  3  3      9  counsel           AF-06
+       pre-2021 law not applied as written
+  R10  3  3      9  procurement       AF-22
+       imported equipment rejected at inspection
+  score 16 and above: R01, R02, R03, R06, R07
+  the scores are teaching values; the facts behind them carry
+  their own labels, most of them secondary

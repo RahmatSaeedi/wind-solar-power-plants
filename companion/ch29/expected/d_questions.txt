@@ -1,0 +1,24 @@
+questions for the qualified geotechnical and civil engineers
+  (no foundation solution presumed - the answers feed ch 30)
+  Q1  what ground model and design values do you propose at each turbine,
+      and where is it interpolated?
+  Q2  BH-03 stops at 6 m in sand: is a deeper borehole or a CPT needed at
+      T05?
+  Q3  BH-04 shows soft clay to 2.5 m at T07: what settlement and rotational
+      stiffness follow?
+  Q4  which exposure class do sulphate and chloride results give, and where
+      are tests missing?
+  Q5  BH-07 meets gypsum at T12: what is the risk of attack and of
+      dissolution under wetting?
+  Q6  groundwater was not recorded at T05 and T12: what level and seasonal
+      range do you assume?
+  Q7  what hammer energy was used, and how were SPT values corrected?
+  Q8  what seismic site class and design ground motion apply (to be
+      confirmed locally)?
+  Q9  what investigation is still needed for T02, T04, T06, T08 and T10
+      before design?
+  Q10 which soil thermal resistivity applies to the cable routes (ch 24 used
+      1.5 K m/W)?
+  each question names the data it rests on and the decision
+  it unblocks; the answers go into the ground model with
+  their source, and the open ones into the unknowns (U-104)

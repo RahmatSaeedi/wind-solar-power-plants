@@ -1,0 +1,9 @@
+heat H5523 (impact tested at the wrong temperature): where did it go?
+  plates: P103
+  cans: 1-07, 1-08, 1-09, 1-10
+  tower section(s): 1
+  four cans of section 1 - the lowest, most loaded one - come
+  from a plate whose toughness at -20 C is unknown: the maker
+  re-tests specimens from the same heat at -20 C or the cans
+  are replaced; without the plate-to-can marks the whole
+  section would be in question

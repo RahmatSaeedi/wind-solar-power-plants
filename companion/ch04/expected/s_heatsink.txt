@@ -1,0 +1,6 @@
+power module losses 2 kW; R_jc 0.020, R_ch 0.010, R_ha 0.015 K/W (A-070)
+  cabinet air 40 C            : junction 130 C
+  cabinet air 50 C            : junction 140 C
+  50 C, 1200 m (R_ha x 1.143) : junction 144 C
+  the heat-sink-to-air step is where altitude and dust act; a 150 C limit
+    leaves little margin on a hot day, so the converter derates its current

@@ -1,0 +1,20 @@
+% Chapter 3 — histogram of the 8760 hourly speeds at 100 m (data pack 1.0.0) and the
+% Weibull densities from three fitting methods. Data: diagrams/data/ch03-hist.csv, ch03-weibull.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=66mm,
+      xlabel={تندیِ باد در $100\ \text{m}$ (m/s)}, ylabel={چگالیِ احتمال، $(\text{m/s})^{-1}$},
+      xmin=0, xmax=25, ymin=0, ymax=0.13, xtick={0,5,...,25}, ytick={0,0.03,...,0.12},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[ybar interval, draw=cWind, fill=cWind!22, line width=0.3pt]
+      table[x=v, y=density, col sep=comma] {data/ch03-hist.csv};
+    \addlegendentry{داده‌های ساعتی}
+    \addplot[sInk] table[x=v, y=mle, col sep=comma] {data/ch03-weibull.csv};
+    \addlegendentry{درست‌نمایی بیشینه}
+    \addplot[sLoss] table[x=v, y=lsq, col sep=comma] {data/ch03-weibull.csv};
+    \addlegendentry{کمترین مربعات}
+    \node[font=\footnotesize, text=cInk, anchor=west] at (axis cs:12,0.08) {$k = 2.11$، $c = 8.02\ \text{m/s}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,17 @@
+Plant P - Iran: dossier readiness on 2026-11-17
+  [ ] every institution named with a source
+  [ ] the framework bylaw in force on the project date
+  [ ] connection voltage confirmed
+  [ ] grid-code documents identified
+  [x] written grid-data request prepared
+  [x] land route and lease conditions sourced
+  [ ] environmental route sourced and current
+  [ ] mandatory standards identified for each item
+  [x] sale route and its legal basis sourced
+  [ ] PPA terms known
+  [ ] sanctions reviewed by qualified counsel
+  [ ] community and heritage obligations sourced
+  3 of 12: the framework, land and sale routes have
+  sources; the technical connection rules, the current form of
+  the bylaw and the contract terms do not - those are the
+  written questions of section D

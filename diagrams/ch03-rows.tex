@@ -1,0 +1,33 @@
+% Chapter 3 — row spacing from trigonometry: table slope length 4.6 m at 25 deg (assumed),
+% winter-solstice noon sun at 32.55 deg. Values: companion/ch03/expected/a_rows.txt.
+% Drawn to scale: 1 m = 1.25 cm.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize, x=1.25cm, y=1.25cm]
+  \def\proj{4.169} \def\hgt{1.944} \def\shad{3.046} \def\pitch{7.215}
+  % ground
+  \draw[cInkB, line width=0.8pt] (-0.6,0) -- (13.4,0);
+  % two tables (south is to the left: the table faces left)
+  \foreach \x in {0, \pitch} {
+    \draw[cPV, line width=2.2pt] (\x,0) -- (\x+\proj,\hgt);
+    \draw[cInkB, line width=0.6pt] (\x+\proj,0) -- (\x+\proj,\hgt);
+  }
+  % sun ray over the top edge of the first table to the foot of the second
+  \draw[cLoss, line width=0.9pt, -{Stealth[length=2.2mm]}] (\proj-2.2,\hgt+1.405) -- (\pitch,0);
+  \node[text=cInk, anchor=south] at (\proj-2.2,\hgt+1.45) {پرتوِ خورشید در ظهرِ انقلابِ زمستانی};
+  % angle at the second table's foot
+  \draw[cInk] (\pitch-1.0,0) arc[start angle=180, end angle=147.45, radius=1.0];
+  \node[text=cInk] at (\pitch-1.45,0.32) {$32.55^\circ$};
+  % tilt angle
+  \draw[cInk] (0.9,0) arc[start angle=0, end angle=25, radius=0.9];
+  \node[text=cInk] at (1.25,0.22) {$25^\circ$};
+  % dimensions
+  \draw[dimline] (0,-0.55) -- (\proj,-0.55) node[midway, below, text=cInk] {$4.6\cos 25^\circ = 4.169\ \text{m}$};
+  \draw[dimline] (\proj,-0.55) -- (\pitch,-0.55) node[midway, below, text=cInk] {سایه $3.046\ \text{m}$};
+  \draw[dimline] (0,-1.45) -- (\pitch,-1.45) node[midway, below, text=cInk] {فاصلهٔ ردیف‌ها $7.215\ \text{m}$};
+  \draw[dimline] (\proj+0.35,0) -- (\proj+0.35,\hgt) node[midway, right, text=cInk] {$h = 1.944\ \text{m}$};
+  \node[text=cInk, anchor=south east] at (\proj*0.5-0.1,\hgt*0.5+0.15) {طولِ شیب $4.6\ \text{m}$};
+  \node[text=cInkB, anchor=north west] at (-0.6,-2.3) {سوی جنوب};
+  \node[text=cInkB, anchor=north east] at (13.4,-2.3) {سوی شمال};
+\end{tikzpicture}}
+\end{document}

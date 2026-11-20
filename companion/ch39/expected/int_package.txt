@@ -1,0 +1,14 @@
+the procurement package of the PV unit transformers in numbers
+  offers: U-A 2,072, U-C 2,093, U-B 2,141 k u evaluated;
+    lowest price U-B, lowest evaluated U-A
+  U-B not acceptable: no heat-run witness, no data schedule,
+    process control below its floor
+  data schedule: U-A 93 %, U-C 86 %, U-B 57 % of 14 items
+  sub-tier on-time chance 86 %; core steel gets a buffer
+  labour screen: 1 high-risk sub-supplier without evidence
+  contracts: 7 gaps to close before financial close
+  prequalification: U-D not invited; U-B passed by a hair
+  ranking holds above 52 u/MWh (U-C would undercut below)
+  exposure peak 290 k u at week 8; 174 k u uncovered
+  a strategic spare unit pays (expected loss 973 k u)
+  warranty security ends 4 weeks short even without delay

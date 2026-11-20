@@ -1,0 +1,17 @@
+availability of one unit of each class: inherent (repair only), achieved
+  (+ preventive work), operational (+ waiting for parts and people)
+  class                           inherent  achieved  operational
+  PV inverter                       0.9986    0.9968       0.9941
+  PV unit transformer               0.9999    0.9990       0.9974
+  PV combiner box                   1.0000    0.9999       0.9997
+  wind turbine (minor)              0.9966    0.9966       0.9920
+  wind turbine (major)              0.9984    0.9984       0.9901
+  BESS PCS                          0.9986    0.9973       0.9945
+  BESS container                    0.9992    0.9974       0.9957
+  main transformer                  0.9997    0.9970       0.9923
+  132 kV line (permanent fault)     0.9990    0.9972       0.9972
+  33 kV collector cable (per km)    0.9999    0.9999       0.9999
+  PPC                               1.0000    0.9995       0.9995
+  lowest operational: wind turbine (major); the gap between achieved and
+  operational is waiting - the part of availability that
+  spares, access and permits decide (ch 51 round s: 61 %)

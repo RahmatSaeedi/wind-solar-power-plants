@@ -1,0 +1,10 @@
+field I-V point: G 850 W/m2, cell 48 C, measured P_max 433.0 W (A-210):
+  sensors                           G read   T read   P_STC W
+  true irradiance and temperature      850     48.0     554.0
+  irradiance sensor +1.5 %             863     48.0     545.8
+  back-of-module sensor 2 K low        850     46.0     549.8
+  both biases                          863     46.0     541.7
+  the module's true STC power is 550.1 W; the linear rule with
+  the data-sheet gamma differs from the fitted model (-0.32 %/K);
+  sensor bias moves the result more than the rule does: field
+  checks rank modules, the laboratory decides (section E)

@@ -1,0 +1,17 @@
+expected energy lost a year by class (MWh), units to POC (teaching data)
+  wind turbine (major)                 1942
+  wind turbine (minor)                 1573
+  turbine services (planned)           1348
+  PV inverter                           450
+  132 kV line (permanent fault)         284
+  33 kV collector cable (per km)        257
+  PV unit transformer                   180
+  main transformer                      152
+  PV combiner box                        17
+  PPC                                     5
+  total 6,209 MWh of 306.3 GWh: energy availability 97.97%
+  model 15.1 assumed 98.42% (its availability step): the RAM case
+  is below it by 0.45 points (1.4 GWh a year) - the finding
+  goes back to the energy model (ch 15) with this register as
+  its basis; PV preventive work is done at night and costs
+  no energy, so it is not in the list

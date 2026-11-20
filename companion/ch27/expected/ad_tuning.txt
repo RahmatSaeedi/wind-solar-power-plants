@@ -1,0 +1,10 @@
+the filter's tuned order as a statistical budget (10,000 sampled
+  filters; C +/- 5 %, L +/- 3 %, -0.03 %/K over -10..50 C, ageing -1 %)
+  case                        mean h   99th pct   share above 4.85
+  factory tolerances only       4.71       4.88               4.8%
+  reactor tap set on site       4.71       4.76               0.0%
+  with factory tolerances alone about one filter in twenty
+  sits closer to the 5th than 4.85 at some time; setting
+  the reactor tap after measuring the installed capacitors
+  leaves only temperature, ageing and the tap step - the
+  margin from 4.7 to 5 is a budget, spent by each of these

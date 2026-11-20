@@ -1,0 +1,13 @@
+the calibration chain of a 4-20 mA transmitter (teaching, % of span)
+  level                         uncertainty   ratio to the next level
+  national standard                  0.002        2.5 : 1
+  accredited lab reference           0.005        2.0 : 1
+  factory working standard           0.010        2.5 : 1
+  field calibrator                   0.025        8.0 : 1
+  the whole chain adds up to 0.0275 %, 10 % more than the calibrator alone
+  the field calibrator checks a 0.2 % transmitter at 8:1;
+  the 4:1 rule of thumb is for that pass/fail check, so the
+  calibrator's own error does not decide it; the upper
+  levels work at smaller ratios because each states its
+  uncertainty on a certificate that names the level above
+  it, and the uncertainties are added (ch 2, ch 48)

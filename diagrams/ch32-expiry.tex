@@ -1,0 +1,11 @@
+% Chapter 32 - height-and-rescue certificates expiring each month over the next two years for the
+% peak workforce (diagrams/data/ch32-expiry.csv, examples_n; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=54mm, ybar, bar width=2.4mm, xmin=-0.7, xmax=23.7, ymin=0,
+      xtick={0,3,...,21}, xlabel={ماه از امروز}, ylabel={گواهیِ منقضی}]
+    \addplot[fill=cLoad!45, draw=cLoad] table[x=month, y=count, col sep=comma] {data/ch32-expiry.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

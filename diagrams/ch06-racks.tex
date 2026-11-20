@@ -1,0 +1,17 @@
+% Chapter 6 — three battery racks in parallel on a DC bus; unequal cables share current unequally.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \draw[bus] (0,4.6) -- (9.6,4.6);
+  \node[note, text=cInk, anchor=south] at (4.8,4.7) {شینهٔ $\text{DC}$ مشترک: $V_\text{bus}$};
+  \foreach \k/\x/\rc/\ik in {1/0.6/5/111.0, 2/3.6/10/101.8, 3/6.6/20/87.2}{
+    \draw (\x,0) to[battery1, l={$E$}, invert] (\x,1.8)
+          to[R, l={$R_\text{int}$}] (\x,3.0)
+          to[R, l={$\rc\,\text{m}\Omega$}] (\x,4.6);
+    \draw (\x,0) -- (\x,-0.3) node[cground]{};
+    \node[blkBESS, minimum width=13mm, minimum height=6mm, anchor=north] at (\x,-0.7) {قفسهٔ \k\\$\ik\,\text{A}$};
+  }
+  \draw (9.6,4.6) to[I, l={$300\,\text{A}$}] (9.6,0) node[cground]{};
+  \node[note, text=cInk, anchor=north] at (9.6,-0.7) {بار (مبدل)};
+\end{tikzpicture}}
+\end{document}

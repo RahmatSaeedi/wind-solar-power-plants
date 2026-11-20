@@ -1,0 +1,8 @@
+junction temperature of the 48 outer-switch modules (T1, T4) of one inverter
+  (loss +-4 %, print 100 +- 15 um, voids 0-25 %, cold plate +-5 %)
+  mean 75.7 C, sd 2.6 K, highest 87.6 C at module 38
+  next highest 81.0 C; modules above 90 C: 0
+  module 38's print left 55% voids: one bad print
+  stands 6.6 K above the next module
+  a full-power run with thermography or the drivers' own
+  temperature readings finds that module before shipment

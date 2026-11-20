@@ -1,0 +1,7 @@
+lightning exposure of one turbine (A-219, rough estimate):
+  ground flash density 2.0 per km2 a year; tip height 175 m
+  equivalent collection area 9 pi H^2 = 0.87 km2
+  expected flashes 1.7 a year per turbine, 21 for twelve
+  tall rotating structures also launch upward flashes that this
+  simple estimate omits; the risk method and protection levels
+  of the turbine standard (IEC 61400-24:2019) govern the design

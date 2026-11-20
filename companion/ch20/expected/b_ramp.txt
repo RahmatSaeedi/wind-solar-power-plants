@@ -1,0 +1,9 @@
+ramp-rate limit on a broken-cloud day (50 MW PV, minute data):
+  largest PV change in a minute 9.7 MW
+  limit MW/min   battery power MW   battery energy MWh
+            10                0.0                 0.00
+             5               14.0                 0.85
+             2               23.0                 4.26
+  a tighter ramp limit needs a little energy but a lot of
+  power: the battery that smooths ramps is power-sized; a
+  ramp limit is applied only if the grid rules ask for it

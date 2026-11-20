@@ -1,0 +1,13 @@
+a healthy feeder fed by its own turbines during a fault elsewhere
+  four turbines, rated current 368 A at 33 kV; feeder pickup 480 A, TMS 0.1
+  converter fault current   amps   healthy feeder relay
+                       1.1 x    405   never (below pickup)
+                       1.3 x    479   never (below pickup)
+                       1.5 x    552   would trip after 5.0 s
+  the faulted feeder clears in about 0.3 s; the healthy one
+  would need seconds - no sympathetic trip, because the
+  inverse curve is slow just above pickup; a converter that
+  feeds 1.5 x for long, or a feeder with more units, makes
+  the margin thin - then a directional element (forward
+  only) is the cure, if the converters give it enough
+  negative-sequence current to decide (makers' data)

@@ -1,0 +1,17 @@
+provisional one-line of Plant P (PLP-ELE-DWG-0005 rev A):
+  79 buses, 79 branches; parameter status: provisional 64, open 4
+  provisional or open parameters by kind:
+    breaker      a          provisional  x2
+    breaker      ka         provisional  x2
+    cable        km         provisional  x26
+    dc switch    fuse_a     provisional  x1
+    inverter     firmware   open         x1
+    line         mva        provisional  x1
+    line         owner      open         x1
+    transformer  kva        provisional  x2
+    transformer  tap        open         x2
+    transformer  vector     provisional  x2
+    transformer  z_pu       provisional  x28
+  provisional values are designed with and marked on the
+  sheet (a cloud or a P); open ones are unknowns with an
+  owner and a date (U-065: who owns the line)

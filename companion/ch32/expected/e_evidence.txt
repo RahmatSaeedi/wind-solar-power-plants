@@ -1,0 +1,15 @@
+evidence register of the fire-protection items (teaching)
+  item                               missing evidence
+  fire alarm panel                   -
+  aspirating smoke detectors         C&E test
+  BESS off-gas detectors             C&E test
+  BESS container system              site test, C&E test
+  fire-rated wall, transformer bay   site test
+  cable fire stopping                site test, manual
+  nacelle detection (maker)          site test, C&E test
+  fire pump set (if specified)       -
+  9 pieces of evidence missing before handover
+  a wall or a fire stop has no factory test: its evidence
+  is the tested system's certificate plus a record that it
+  was installed as tested - photos and an inspection of
+  every penetration, before the cables hide it

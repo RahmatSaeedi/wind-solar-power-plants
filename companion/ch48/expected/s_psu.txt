@@ -1,0 +1,10 @@
+redundant power supplies: can one carry the cabinet alone?
+  cabinet      load W   one PSU W   PSUs   verdict
+  SUB-CORE        180         120      2   NOT N+1
+  SUB-RTU          95         150      2   N+1 ok
+  CTRL-SCADA      420         500      2   N+1 ok
+  MET-1            35          60      1   single
+  SUB-CORE: two supplies that share the load but cannot
+  carry it alone - redundancy on the drawing, not in fact; the
+  first failure trips the second (and lesson B found both on
+  one UPS as well)

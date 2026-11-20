@@ -1,0 +1,13 @@
+voltage THD on the 400 V auxiliary board fed by the 250 kVA station
+  transformer (uk 4 %) from the HVAC drives (current % of fundamental)
+  drive type            drives kW   voltage THD %
+  6-pulse, no choke            60             5.0
+  6-pulse, no choke           160            13.4
+  6-pulse, DC choke            60             2.4
+  6-pulse, DC choke           160             6.5
+  active front end             60             0.3
+  active front end            160             0.7
+  the plant's own drives distort its own control supply: a
+  PQ question inside the fence, separate from the POC; the
+  drive type is chosen with the board's short-circuit level
+  (ch 23), and the battery HVAC of S1 makes it larger

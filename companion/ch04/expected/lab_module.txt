@@ -1,0 +1,9 @@
+energy balance, both faces, textbook convection h = 5.7 + 3.8 v (W/m2K):
+  at NOCT conditions (800 W/m2, 20 C, 1 m/s) it gives 36.0 C, not 45 C
+  calibrated convection scale 0.414 (bisection) reproduces 45.0 C
+summer subset day, wind at 2 m from the 60 m speed: noon 2.2 m/s
+  noon cell temperature: NOCT model 66.6 C, energy balance 59.8 C
+  irradiance-weighted power change: NOCT -11.9 %, balance -9.7 %
+  night: the balance puts the module 4.2 K below the air (radiation to the sky)
+  noon with a steady 1 m/s wind: 64.2 C
+  noon with a steady 4 m/s wind: 55.2 C

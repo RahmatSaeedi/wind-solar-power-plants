@@ -1,0 +1,16 @@
+P27 kappa for X/R 10: 1.746
+P28 peak current, 7.79 kA and kappa 1.69: 18.6 kA
+P29 angle after 0.3 s of 2 Hz/s drift: 32 deg
+P30 three 33 kV circuits, 100 MW, 0.06 ohm/km, 12 km: 2.20 MW
+P31 dP at 50.4 Hz, 5 % droop, 100 MW, 0.2 Hz deadband: -8 MW
+P32 loss-equivalent length, three turbines 1 km apart: 1.56 km
+P33 battery Q left, 8 MW dispatch + 4 MW reserve on 20 MVA: 16 Mvar
+P34 V2 with k2 3 and x 0.08 (0.30 from the grid): 0.242 pu
+P35 reactive current, k 2.5 at 0.63 pu: 0.93 pu
+P36 WSCR with a fourth plant: 4.9
+P37 Q(U) 4 %, source 1.05 on 900 MVA: U 1.022
+P38 fault level after 10 years at 3 %: 2016 MVA
+P39 annuity factor, 7.5 % and 25 years: 11.15
+P40 daily volume of 532 values/s at 8 bytes: 0.37 GB
+P41 initial RoCoF, 100 MW lost of 5,000 MW, H 4: -0.125 Hz/s
+P42 teaching need for giving at 1.08 pu: 0.066 Q/Pmax

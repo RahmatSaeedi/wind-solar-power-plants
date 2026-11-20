@@ -1,0 +1,17 @@
+% Chapter 33 - the mitigation hierarchy with a Plant P example at each step (section C; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize]
+  \foreach \w/\y/\t/\c in {
+      11.0/0.0/پرهیز: جابه‌جاییِ توربین‌ها در W2b، سوسوی سایه صفر/cBESS,
+       9.4/-1.1/کاهش: کاهشِ دورِ شبانه، آب‌پاشیِ گرد و خاک/cWind,
+       7.8/-2.2/بازسازی: احیای محوطه‌های موقت/cPV,
+       6.2/-3.3/جبران: جبرانِ زیستگاهِ باقی‌مانده/cLoss} {
+    \fill[\c!14, draw=\c, line width=0.6pt]
+      (-\w/2,\y) -- (\w/2,\y) -- (\w/2-0.8,\y-0.95) -- (-\w/2+0.8,\y-0.95) -- cycle;
+    \node at (0,\y-0.47) {\t};
+  }
+  \draw[flow] (6.3,-4.25) -- (6.3,0.0);
+  \node[note, rotate=90] at (6.65,-2.1) {اولویتِ بیشتر};
+\end{tikzpicture}
+\end{document}

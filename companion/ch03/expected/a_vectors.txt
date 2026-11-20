@@ -1,0 +1,6 @@
+21 June, 10:00 solar time: elevation 61.79 deg, azimuth 104.00 deg
+sun vector (E, N, U) = (+0.4587, -0.1144, +0.8812), |s| = 1.0000
+panel normal, tilt 25 deg facing south = (+0.0000, -0.4226, +0.9063)
+cos(theta) = s . n = 0.8470; angle of incidence 32.12 deg
+beam of 850 W/m2 normal to the sun -> 719.9 W/m2 on the panel, 749.0 W/m2 on
+    the ground

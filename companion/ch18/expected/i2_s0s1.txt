@@ -1,0 +1,10 @@
+what the architecture loses without the battery (S0):
+  item                         S1 (battery)       S0
+  33 kV bays for storage       2                  0
+  reactive margin at full P     +3.3 Mvar         -16.7 Mvar
+  recapture of curtailment     196 MWh/yr         0
+  critical-load back-up        battery, ~74 h     UPS only
+  interfaces (system pairs)    18                 14
+  water for chiller make-up    180 m3/yr          0
+  without the battery a compensator becomes likely and the
+  island for critical loads needs its own source

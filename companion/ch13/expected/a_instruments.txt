@@ -1,0 +1,7 @@
+two errors of a cup anemometer (A-255, teaching):
+  overspeeding in turbulent wind: mean +0.86 % (largest at low speed, high TI)
+  flow inclined 5 deg on a slope, ideal cosine response: -0.38 %
+    (real cups differ from the cosine: the class tests show how)
+  the cup's class (a set of tests in turbulent and inclined flow)
+  tells how much of this to expect; a sonic anemometer measures
+  the three components and has no rotating parts to wear

@@ -1,0 +1,8 @@
+where the battery's auxiliaries are supplied from (a boundary):
+  station service alone: 167 kVA -> 250 kVA transformers
+  battery HVAC peak: 8 containers x 120 kW cooling / COP 3 = 320 kW
+  if the station service fed it too: 477 kVA -> 630 kVA transformers
+  Plant P keeps the battery's auxiliaries in the maker's
+  package (IF-006): the maker sizes them against its own
+  thermal design, and the station service stays small; the
+  boundary is a design decision recorded on the one-line

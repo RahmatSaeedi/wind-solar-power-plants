@@ -1,0 +1,10 @@
+voltage unbalance from three phase voltages (negative / positive):
+  phase magnitudes pu        angles deg           unbalance %
+  (1.0, 1.0, 1.0)            (0, -120, 120)             0.00
+  (1.0, 0.98, 1.01)          (0, -120, 120)             0.88
+  (1.0, 0.97, 1.0)           (0, -121, 119.5)           0.87
+  a converter plant draws balanced currents and adds little
+  unbalance itself; but its converters see the network's
+  unbalance as a negative-sequence voltage, and their control
+  and DC links respond to it (ripple at 100 Hz) - the
+  unbalance at the POC is measured before and after

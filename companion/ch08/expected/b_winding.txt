@@ -1,0 +1,7 @@
+distributed winding, q = 3 slots per pole and phase,
+  20 electrical deg per slot; k_w for orders 1, 5, 7, 11, 13:
+  pitch 1.000: 0.960, 0.218, 0.177, 0.177, 0.218
+  pitch 0.833: 0.927, 0.056, 0.046, 0.171, 0.210
+  pitch 0.778: 0.902, 0.038, 0.136, 0.136, 0.038
+  a 5/6 pitch gives up 3.4 % of the fundamental and cuts the
+  5th and 7th harmonics of the EMF to about a quarter

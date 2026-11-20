@@ -1,0 +1,35 @@
+compliance matrix: requirement -> study -> model -> test -> evidence
+  req      topic                                study          test  evid  in
+  REQ-G01  reactive capability at the POC       B-reactive     yes   yes   6
+  REQ-G02  voltage control at the POC           C-vcontrol     yes   yes   4
+  REQ-G03  power-factor and Q modes             B-reactive     yes   yes   5
+  REQ-G04  low-voltage ride-through             C-frt          yes   yes   4
+  REQ-G05  high-voltage ride-through            C-frt          yes   yes   4
+  REQ-G06  reactive current in dips             C-frt          yes   yes   4
+  REQ-G07  active power recovery                C-frt          yes   yes   4
+  REQ-G08  frequency range of operation         C-freq          -    yes   4
+  REQ-G09  over-frequency power reduction       C-freq         yes   yes   4
+  REQ-G10  under-frequency response, contracted F-envelope     yes   yes   2
+  REQ-G11  RoCoF withstand                      C-freq          -    yes   4
+  REQ-G12  loss of mains / intertrip            C-islanding    yes   yes   4
+  REQ-G13  reconnection after a trip            C-restore      yes   yes   4
+  REQ-G14  ramp-rate limits                     C-restore      yes   yes   4
+  REQ-G15  active power set-point following     C-restore      yes   yes   4
+  REQ-G16  export limit at the POC              B-cases        yes   yes   5
+  REQ-G17  telemetry signals and latency        C-restore      yes   yes   4
+  REQ-G18  short-circuit contribution data      B-sc            -    yes   5
+  REQ-G19  protection coordination              B-protection   yes   yes   5
+  REQ-G20  harmonic emission and flicker        ch 27 studies  yes   yes   1
+  REQ-G21  validated simulation models          F-versions      -    yes   2
+  REQ-G22  stable at minimum grid strength      E-weak          -    yes   4
+  REQ-G23  compliance tests at commissioning    C-tests        yes   yes   4
+  REQ-G24  fast frequency response, contracted  F-envelope      -     -    2
+  24 requirements: all wait for IN-10 (the code itself);
+  23 also wait for other inputs ('in' counts open inputs)
+  requirements without a site test:
+    REQ-G08: closed by maker's declaration
+    REQ-G11: closed by maker's declaration
+    REQ-G18: closed by study report
+    REQ-G21: closed by validation report, versions
+    REQ-G22: closed by study report
+    REQ-G24: neither test nor evidence named

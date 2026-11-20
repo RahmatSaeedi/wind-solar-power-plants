@@ -1,0 +1,12 @@
+the wind farm's outages of lab E against the hourly wind of the year
+  downtime 1,674 turbine-hours; energy lost 3,027 MWh of 193,136
+  time-based availability        98.41 %
+  production-based availability  98.43 %
+  mean output of a turbine in its down hours 1.81 MW, against 1.84 MW
+    over the year
+  the down hours were about as windy as the year, so the two
+  agree within 0.02 points; lesson A's March stop shows
+  how far they part when an outage meets a windy spell. A
+  team that plans its work in calm spells raises the
+  production-based figure and leaves the time-based one
+  unchanged

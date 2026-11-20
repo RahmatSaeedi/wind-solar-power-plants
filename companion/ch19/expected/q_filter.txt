@@ -1,0 +1,10 @@
+SOC over a month of one cycle a day: counting with a sensor
+  offset, with and without a daily OCV reset at the bottom of
+  the cycle (2 mV error):
+  offset A   no reset, 30 days   daily reset: largest   mean
+      0.50             114.6 %                 4.30 %    1.78 %
+      0.05              11.5 %                 0.88 %    0.23 %
+  the reset holds the error to one day's drift plus the reset
+  error; with a good sensor the two together give a few
+  tenths of a per cent; the dispatch must visit the steep
+  end of the window regularly for the reset to work

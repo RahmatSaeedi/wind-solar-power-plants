@@ -1,0 +1,6 @@
+farm output 30 MW -> each turbine 2840.9 kW before 12 % losses
+  bisection on [3, 13] (table): v = 8.322130 m/s after 24 halvings
+  secant from 6 and 10 (table): v = 8.322130 m/s after 4 steps
+  Newton on a cubic spline:     v = 8.326478 m/s after 6 steps
+  Newton iterates: 10.000000, 7.648617, 8.377665, 8.326658, 8.326478, 8.326478
+  error per step: bisection halves it; secant and Newton square it (roughly)

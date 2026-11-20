@@ -1,0 +1,10 @@
+the study plan by project stage and the inputs each stage needs
+  stage               studies                                     have/need
+  feasibility         B cases and short-circuit screening            5/5
+  application         B, C (RMS) and G with the operator's cases    11/15
+  detailed design     E (EMT), protection settings, PQ (ch 27)       1/8
+  before energising   models checked against FAT and type tests      3/4
+  commissioning       tests, measured line, validated models         1/3
+  each stage's studies use only what that stage can know;
+  a later stage reruns them with better data - the input
+  register shows which stage is ready to start

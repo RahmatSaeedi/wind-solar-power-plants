@@ -1,0 +1,16 @@
+% Chapter 40 - interaction plot of the 2 x 2 crimp experiment: mean pull force against insertion
+% depth (factor B) for low and high die closing force (factor A); lines that are not parallel show
+% the interaction (diagrams/data/ch40-doe.csv from companion/ch40/examples_v.py, v_doe; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=86mm, height=56mm, xmin=-1.4, xmax=1.4, ymin=4.6, ymax=6.0,
+      xtick={-1,1}, xticklabels={کوتاه, کامل}, xlabel={عمقِ ورودِ سیم (عاملِ B)},
+      ylabel={میانگینِ نیروی کشش (کیلونیوتن)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sWind, mark=*, mark size=1.8pt] table[x=b, y=a_low, col sep=comma] {data/ch40-doe.csv};
+    \addplot[sLoss, mark=square*, mark size=1.8pt] table[x=b, y=a_high, col sep=comma] {data/ch40-doe.csv};
+    \legend{نیروی بستنِ کم (A), نیروی بستنِ زیاد (A)}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,17 @@
+the study programme as a network of tasks (months, teaching)
+  total: 12.5 months; critical path:
+    data request
+    network model (operator)
+    steady-state studies
+    dynamic RMS studies
+    EMT studies
+    report and check
+    operator review
+  slack of the tasks not on it (months):
+    RMS models (OEM)                2.5
+    EMT models (OEM)                2.5
+    grid-end settings (operator)    4.0
+    protection study                2.5
+  if the EMT models arrive 3 months late: 13.0 months,
+  the critical path then runs through them - the OEM's EMT
+  model is ordered with the equipment, not after it

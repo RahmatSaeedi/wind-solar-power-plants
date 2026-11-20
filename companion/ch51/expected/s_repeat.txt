@@ -1,0 +1,10 @@
+grid operator's instructions in a week: repeated back and logged?
+  cap export 80 MW 11-15                 repeat-back yes  time yes
+  hold Q at 0 Mvar                       repeat-back yes  time NO
+  open WS3 for the network owner's work  repeat-back NO   time yes
+  release cap                            repeat-back yes  time yes
+  reduce ramp to 5 MW/min                repeat-back NO   time NO
+  2 not repeated back, 2 without a time: an instruction
+  that was not read back may have been heard wrong; one
+  without a time cannot be matched to the plant's response
+  in a dispute - both are a line in the shift-lead check

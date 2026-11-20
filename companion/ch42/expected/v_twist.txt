@@ -1,0 +1,9 @@
+cable twist from the data-pack year of wind direction (yaw deadband 8 deg)
+  untwist at +-3 turns: 0 untwist(s) a year
+  largest twist in the year 2.9 turns; at the year's end -2.7
+  this site's winds turn back and forth more than round: the
+  limit is approached, not passed, in a typical year
+  the cable loop in the tower takes a few turns; the
+  controller unwinds when the count reaches the limit -
+  the loop's length, clamps and drip loop are installation
+  hold points, and the twist count is a monitored signal

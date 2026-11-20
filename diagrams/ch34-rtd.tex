@@ -1,0 +1,16 @@
+% Chapter 34 - temperature error that the leads add to a two-wire Pt100, against cable length, for two
+% conductor sizes (copper; examples_a).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=100, ymin=0, ymax=13,
+      xlabel={طولِ کابل (m)}, ylabel={خطای دما (K)},
+      legend style={at={(0.03,0.97)}, anchor=north west}, legend cell align=right]
+    \addplot[sLoss, no marks, domain=0:100] {2*0.0175*x/0.75/0.39083};
+    \addplot[sWind, no marks, domain=0:100] {2*0.0175*x/1.5/0.39083};
+    \legend{$0.75\,\mathrm{mm}^2$, $1.5\,\mathrm{mm}^2$}
+    \draw[sLimit] (axis cs:50,0) -- (axis cs:50,8.5);
+    \node[note, anchor=south west] at (axis cs:51,0.4) {ترانسفورماتورِ نیروگاهِ P};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

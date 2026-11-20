@@ -1,0 +1,12 @@
+short-circuit pressure on the 33 kV winding (teaching geometry):
+  B = mu0 N i / h; pressure p = B^2 / (2 mu0); hoop stress p r / t
+  uk %   peak pu   peak kA   B T    p MPa   hoop MPa (60 % Cu)
+    12      22.4      14.2   2.31    2.13                32.6
+    10      26.9      17.1   2.78    3.07                46.9
+     8      33.6      21.4   3.47    4.80                73.3
+  the force grows with the square of the fault current: a
+  lower impedance (less voltage drop, smaller losses) costs
+  winding strength - the impedance of lesson A is chosen with
+  the forces in view; the inner winding is pressed inward and
+  must not buckle - the short-circuit withstand is proved by
+  the maker's test or calculation evidence

@@ -1,0 +1,9 @@
+a maker's notice about 'web-ui 2.1': which devices are affected?
+  device kind          count
+  ring switch             14
+  substation switch        6
+  20 devices of 28, answered from the list in
+  minutes; without a software-components list from each
+  maker the same question takes days of asking. The
+  compensating control for these: the web interface off on
+  every switch until the fix is installed (lesson C)

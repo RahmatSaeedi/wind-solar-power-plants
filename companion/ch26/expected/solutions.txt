@@ -1,0 +1,44 @@
+P01 three-phase fault behind 4 ohm at 33 kV: 4.76 kA
+P02 line-to-line fault, Z1 = Z2 = 4j: 4.12 kA
+P03 earth fault, Z1 Z2 Z0 = 4j, solid: 4.76 kA
+P04 earth fault through 63.5 ohm (300 A design): 299 A
+P05 SI time at 10 x pickup, TMS 0.2: 0.59 s
+P06 VI time at 10 x pickup, TMS 0.2: 0.30 s
+P07 EI time at 10 x pickup, TMS 0.2: 0.162 s
+P08 grading 0.25 s and 0.50 s with 0.3 s margin: no
+P09 knee needed, If 20 A sec, Rct 3, Rb 2, k 2: 200 V
+P10 diff with I1 5, I2 -4.5: restrain
+P11 diff with I1 2, I2 0: trip
+P12 zones of a 5 ohm line, next 6 ohm: {'Z1': 4.0, 'Z2': 8.0, 'Z3': 12.2}
+P13 grid 50 x 50 m, 1,000 m, 300 ohm m: 2.96 ohm
+P14 GPR 3 kA x 1.2 ohm: 3,600 V
+P15 limit ratio for clearing 0.5 s vs 0.2 s: 1.58
+P16 collection area of a 120 m mast: 0.407 km2
+P17 strikes a year, Ng 4, area 0.4 km2: 1.6
+P18 building 30 x 20 x 8 m area: 4,810 m2
+P19 arrester margin 550/350: 1.57
+P20 CT burden 5 A over 1.2 ohm: 30 VA; 1 A: 1.2 VA
+P21 intertrip 20 + 20 + 10 + 50 ms: 100 ms
+P22 two channels of 99.5 %: 99.9975%
+P23 arc energy ratio 0.5 s to 0.1 s: 0.2
+P24 BF clearing 30 + 150 + 60 ms: 240 ms
+P25 sequence parts of Ia 1000, Ib = Ic = 0: |I0| = |I1| = |I2| = 333 A
+P26 unbalanced set (800 A, 0/-110/120 deg): |I0| 46, |I1| 797, |I2| 46 A
+P27 pickup window, load 250 A, min fault 2,400 A: 300-1600 A (feasible)
+P28 TMS for 0.6 s at 3 kA, pickup 600 A: 0.140
+P29 hemisphere a = 1 m, 100 ohm m, 1 kA: GPR 15.9 kV, at 2 m 8.0 kV
+P30 foot on 2,500 ohm m rock: 7,812 ohm; touch current for 300 V: 61 mA
+P31 rolling sphere 30 m, mast 15 m: 26.0 m at ground
+P32 loop 20 m2 at 100 m, 20 kA/us: 800 V
+P33 arrester 280 kV, 20 m, 800 kV/us: 387 kV at equipment
+P34 fuses with 3 strings, Isc 11 A, reverse 20 A: needed
+P35 main 1 % and backup 1 %, beta 0.1: 1.1e-03
+P36 earth conductor for 20 kA, 1 s, k 143: 140 mm2
+P37 rod 2.4 m x 16 mm in 80 ohm m: 28.6 ohm
+P38 capacitive current, 5 uF per phase at 33 kV: 90 A
+P39 ROCOF with 5 % mismatch, H 1 s: 1.25 Hz/s
+P40 unit transformer 2.5 MVA at 33 kV, 6 %: In 43.7 A, LV fault 729 A
+P41 longest run, 0.5 ohm max, 0.01 ohm/m loop, 0.04 source: 46 m
+P42 CT error, 400/1, 400 A gives 0.995 A: -0.50 %
+P43 insulation of 300 strings at 10 MOhm: 33.3 kOhm
+P44 strikes on 10 masts of 30 m, Ng 3: 0.76 a year

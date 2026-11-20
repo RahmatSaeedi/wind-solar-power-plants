@@ -1,0 +1,9 @@
+endurance limit of a shaft steel (UTS 700 MPa; 0.5 UTS base; size factor 0.75)
+  surface           factor   endurance limit MPa
+  polished           1.00                   262
+  machined           0.80                   210
+  forged skin        0.50                   131
+  the same steel loses half its fatigue strength with the
+  forging skin left on: shoulders and fillets are machined,
+  their radius and roughness are on the drawing and in the
+  inspection record - finish is a fatigue characteristic

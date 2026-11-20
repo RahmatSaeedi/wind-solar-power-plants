@@ -1,0 +1,9 @@
+site suitability screen against the vendor's design values (A-216):
+  annual mean at hub: site 7.10 m/s; design 8.0 m/s -> ok
+  air density: site mean 1.056 kg/m3 (lower density, lower loads)
+  highest hourly mean in the data year 24.3 m/s; the 50-year extreme
+    needs long-term data and statistics (chapters 3 and 13)
+  turbulence intensity needs 10-minute data: the hourly pack
+    cannot give it (U-039); wake turbulence adds to it
+  the turbine supplier performs the formal site-specific load
+  check; the owner supplies measured site data (chapter 13)

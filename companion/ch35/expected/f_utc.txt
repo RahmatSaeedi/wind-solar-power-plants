@@ -1,0 +1,8 @@
+time in UTC or local time: the day the clocks go back (teaching)
+  local-time day with a repeated hour: 25 hours of data
+  a daily report summing local hours: 25/24 = 4.2 % more energy
+    that day, and two values for every minute of one hour
+  stored in UTC and shown in local time: 25 distinct hours,
+  each once
+  every interface states its time base and every value
+  carries it; reports convert at the edge, never in storage

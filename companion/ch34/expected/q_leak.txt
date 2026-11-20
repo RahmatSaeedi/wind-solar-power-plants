@@ -1,0 +1,14 @@
+a 110 V DC digital input with an open contact (teaching)
+  input resistance 36.7 kohm; on above 2.0 mA, off below 1.5 mA
+  leakage across the contact   current mA   reads
+                    1000 kohm         0.11   off
+                     100 kohm         0.80   off
+                      50 kohm         1.27   off
+                      20 kohm         1.94   undefined
+                      10 kohm         2.36   ON (false)
+  230 V AC on another core of the same 500 m cable
+    (100 nF/km between cores): 3.6 mA - above the on level
+  damp terminals or a mixed AC/DC multicore can make an
+  open contact read closed; AC and DC never share a cable,
+  terminal boxes are kept dry, and inputs with a threshold
+  well above the leakage are chosen for long runs

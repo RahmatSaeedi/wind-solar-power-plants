@@ -1,0 +1,7 @@
+two estimates of the long-term P50 (sigma, teaching A-283):
+  ours 295 +/- 12 GWh, second consultant 288 +/- 15 GWh
+  r 0.0: weights 0.61 / 0.39, combined 292.3 +/- 9.4 GWh
+  r 0.5: weights 0.71 / 0.29, combined 293.0 +/- 11.3 GWh
+  difference 7 GWh is 0.36 sigma of the difference: consistent
+  combining helps only if the errors are independent; two
+  consultants with the same data and methods are not

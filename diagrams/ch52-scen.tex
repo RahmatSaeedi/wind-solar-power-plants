@@ -1,0 +1,19 @@
+% Chapter 52 - RAM exercise: expected energy lost a year under each scenario (MWh)
+% (companion/ch52/lab_f.py, scenarios -> diagrams/data/ch52-scen.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=70mm, xbar, bar width=4.2mm, ymin=0.4, ymax=8.6,
+      xmin=0, xmax=8500, y dir=reverse, ytick={1,...,8}, scaled x ticks=false,
+      yticklabels={پایه, زمانِ تعمیر $+50\%$, یدکِ ترانسفورماتورِ اصلی, قراردادِ جرثقیل,
+        علتِ مشترکِ دو ترانسفورماتور, سرویس‌ها در خرداد, سرویس‌ها در آذر, خاموشی‌های شبکه},
+      xlabel={انرژیِ ازدست‌رفته در سال (MWh)},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/1000 sep={}},
+      nodes near coords, nodes near coords align={horizontal},
+      every node near coord/.append style={anchor=west, font=\scriptsize,
+        /pgf/number format/fixed, /pgf/number format/1000 sep={}}]
+    \addplot[draw=cLoss, fill=cLoss!35] table[x=mwh, y=k, col sep=comma] {data/ch52-scen.csv};
+    \draw[cInk!60, dashed] (axis cs:6209,0.4) -- (axis cs:6209,8.6);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

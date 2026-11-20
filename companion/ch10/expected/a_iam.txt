@@ -1,0 +1,7 @@
+incidence-angle losses over the year, tilt 25 deg (b0 0.05):
+  beam   1570 kWh/m2 ->   1535 after IAM (2.2 % lost)
+  diffuse and ground    580 kWh/m2 x 0.95 (5 % lost)
+  total 2150 -> 2086 kWh/m2: 3.0 % of the plane-of-array light
+  most beam arrives near normal incidence; the loss is in the
+  mornings, evenings and winter; anti-reflection glass and
+  soiling change b0 (chapter 14 uses a measured IAM table)

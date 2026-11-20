@@ -1,0 +1,26 @@
+% Chapter 2 — wind-tunnel calibration of a cup anemometer (synthetic points), least-squares line
+% and residuals. Data: diagrams/data/ch02-calibration.csv (companion/ch02/examples.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=fit, width=82mm, height=66mm,
+      xlabel={بسامدِ خروجیِ بادسنج (Hz)}, ylabel={سرعتِ مرجعِ تونل (m/s)},
+      xmin=60, xmax=350, ymin=2, ymax=17, xtick={100,150,...,350}, ytick={4,6,...,16},
+      title={الف) نقطه‌ها و خطِ برازش}]
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cWind, mark options={draw=white, line width=0.3pt}]
+      table[x=f_hz, y=v_ref, col sep=comma] {data/ch02-calibration.csv};
+    \addlegendentry{نقطه‌های تونل}
+    \addplot[sInk, line width=0.8pt] table[x=f_hz, y=v_fit, col sep=comma] {data/ch02-calibration.csv};
+    \addlegendentry{خطِ برازش}
+  \end{axis}
+  \begin{axis}[plantp, at={(fit.east)}, anchor=west, xshift=22mm, width=82mm, height=66mm,
+      xlabel={بسامدِ خروجیِ بادسنج (Hz)}, ylabel={باقیمانده (mm/s)},
+      xmin=60, xmax=350, ymin=-30, ymax=30, xtick={100,150,...,350}, ytick={-30,-20,...,30},
+      title={ب) باقیمانده‌ها}]
+    \addplot[sLimit, domain=60:350, samples=2, forget plot] {0};
+    \addplot[only marks, mark=square*, mark size=1.7pt, color=cLoss, mark options={draw=white, line width=0.3pt}]
+      table[x=f_hz, y=resid_mms, col sep=comma] {data/ch02-calibration.csv};
+    \addlegendentry{سرعتِ مرجع منهای برازش}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

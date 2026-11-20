@@ -1,0 +1,15 @@
+% Chapter 41 - hours a month with global horizontal irradiance of at least 600 W/m2 in the data
+% pack 1.1.0 year, the window for an infrared survey of the PV field (diagrams/data/
+% ch41-irhours.csv from companion/ch41/examples_u.py, u_irhours).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=52mm, ybar, bar width=9pt, ymin=0, ymax=290,
+      xmin=0.4, xmax=12.6, xtick={1,...,12}, xlabel={ماه}, ylabel={ساعت},
+      nodes near coords, nodes near coords style={font=\scriptsize}]
+    \addplot[fill=cPV!50, draw=cPV] table[x=month, y=hours, col sep=comma] {data/ch41-irhours.csv};
+    \draw[densely dotted, cLoss] (axis cs:0.4,30) -- (axis cs:12.6,30);
+    \node[note, anchor=south east, text=cLoss] at (axis cs:12.5,34) {۳۰ ساعتِ لازم};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

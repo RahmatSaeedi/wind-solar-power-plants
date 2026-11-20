@@ -1,0 +1,26 @@
+service register of Plant P (teaching; A-300):
+  service                 status           mode
+  export limit            baseline         P-LIMIT
+  ramp limit              conditional      P-RAMP
+  frequency response      conditional      P-F DROOP
+  voltage / Q control     baseline         Q-V
+  upward reserve REQ-S01  conditional      RESERVE
+  energy shifting         baseline         SCHEDULE
+  fault ride-through      unit capability  FRT (units)
+  grid-forming            not offered      GFM
+  black start             not offered      BLACK START
+  each service also carries its acceptance criterion and
+  evidence route:
+  service                 criterion                   evidence
+  export limit            export <= cap + band        sim + SAT + monitor
+  ramp limit              1-min change <= limit       sim + SAT + monitor
+  frequency response      dP/df on droop line +- tol  sim + test + monitor
+  voltage / Q control     Q on the set curve +- tol   sim + SAT + monitor
+  upward reserve REQ-S01  held >= 95 % window h       sim + monitor
+  energy shifting         plan followed or alarm      sim + monitor
+  fault ride-through      units ride through          type test + model
+  grid-forming            if permitted, studied       study first
+  black start             only if contracted          study first
+  'conditional' = only where the equipment, the contract, the
+  grid rules and the operator permit it; evidence routes follow
+  the three of IEC TS 63102: test, simulation, monitoring

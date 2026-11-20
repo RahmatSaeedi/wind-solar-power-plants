@@ -1,0 +1,19 @@
+inspection and test plan of the skid (H hold, W witness,
+R review); the owner's points marked
+  W  insulation resistance LV
+  W  insulation resistance MV
+  R  MV termination record
+  R  torque record OP40
+  H  functional test
+  W  secondary injection of relays
+  R  serials against genealogy
+  R  preservation check
+  R  earth bond continuity
+  R  paint film thickness
+  W  LV busbar visual
+  R  nameplate photos
+  R  packing list
+  hold 1, witness 4, review 8
+  a hold stops work until the owner releases it; a
+  witness is notified and may attend, work goes on if
+  they do not come; a review is of records only

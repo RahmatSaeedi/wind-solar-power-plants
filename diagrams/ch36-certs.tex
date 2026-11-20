@@ -1,0 +1,11 @@
+% Chapter 36 - certificates of the control system expiring in each month of the next three years
+% (examples_m, diagrams/data/ch36-certs.csv; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=52mm, ybar, bar width=1.8mm, xmin=-1, xmax=36, ymin=0, ymax=8,
+      xtick={0,6,...,36}, xlabel={ماه از امروز}, ylabel={گواهی‌های منقضی}]
+    \addplot[fill=cBESS!40, draw=cBESS] table[x=m, y=n, col sep=comma] {data/ch36-certs.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

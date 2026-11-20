@@ -1,0 +1,16 @@
+N-1 inside the export system: limit, unavailability, energy at risk
+  case                             limit MW   unavail. %   MWh/yr   k u/yr
+  main transformer out, no spare       62.4        1.000      156     10.9
+  main transformer out, spare          62.4        0.164       26      1.8
+  132 kV line fault                     0.0        0.006       17      1.2
+  line maintenance, any day             0.0        0.274      810     56.7
+  wind feeder WS3 cable fault          80.0        0.071       42      2.9
+  line maintenance on the calmest day of the year:     76 MWh
+  (rates and repair times of ch 18, A-286/A-288; 70 u/MWh)
+  with one transformer the second carries 62 MW at the POC: the
+  coupler closes and the controller holds export below it -
+  an operating restriction the study writes down. The line's
+  faults cost what ch 18 found (17 MWh); its planned day,
+  taken at random, is the largest exposure - planned for the
+  calmest day it costs a tenth; a shared spare transformer
+  cuts that case from 156 to 26 MWh

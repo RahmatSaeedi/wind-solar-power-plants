@@ -1,0 +1,9 @@
+board infant mortality, Weibull shape 0.5, scale 2e+07 h (teaching);
+  520 boards
+  burn-in 48 h at acceleration 10 = 480 h of field life
+  share failing in the burn-in: 0.49%
+  first-year field failures: 10.8 without, 8.6 with burn-in
+  saved: 2.2 field failures x 3 k u = 6.6 k u; burn-in costs 99.8 k u
+  verdict: does not pay at these values - with a shape near
+  one there are no early failures to remove and it never pays
+  (ch 40); the shape comes from the maker's field data

@@ -1,0 +1,9 @@
+30 legacy meters on one RS-485 line at 9600 bit/s (teaching)
+  one poll: 8 + 45 bytes + 15 ms turnaround; full cycle 1.77 s
+  each value is up to 1.8 s old when read - fine for energy,
+  too slow for control
+  on Ethernet with report-by-exception (10 values a meter,
+  6 changes an hour each): 0.50 messages a second
+  polling asks everyone all the time; report-by-exception
+  sends only changes, with a periodic integrity scan so a
+  silent device is noticed (lesson C, loss of comms)

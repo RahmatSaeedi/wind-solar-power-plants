@@ -1,0 +1,12 @@
+5.32 MW shaft power (A-047); air-gap shear stress 40 kPa (A-112):
+  geared, high speed (1:110)   1155.0 rpm, T     44.0 kN m, V_r   0.55 m3
+    6 poles -> 57.75 Hz; converter 100 % of rating; gear stages 3
+  geared, medium speed (1:40)   420.0 rpm, T    121.0 kN m, V_r   1.51 m3
+    24 poles -> 84.00 Hz; converter 100 % of rating; gear stages 2
+  direct drive                   10.5 rpm, T   4838.3 kN m, V_r  60.48 m3
+    120 poles -> 10.50 Hz; converter 100 % of rating; gear stages 0
+  DFIG (rated 1800 rpm)        1800.0 rpm, T     28.2 kN m, V_r   0.35 m3
+    4 poles -> 60.00 Hz; converter 30 % of rating; gear stages 3
+rotor volume grows with torque: the direct-drive machine is about
+  110 times the volume of the geared one; the gearbox moves the torque
+  into steel gears instead of copper and magnets

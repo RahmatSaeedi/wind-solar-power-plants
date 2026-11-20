@@ -1,0 +1,13 @@
+frequency injection test: expected change of active power
+  (5 % droop on 100 MW, 0.2 Hz deadband; plant at 80 MW)
+  injected Hz   deviation beyond deadband   expected dP MW   P after MW
+        49.70                       -0.10             +4.0         80.0
+        49.90                       +0.00             +0.0         80.0
+        50.10                       +0.00             +0.0         80.0
+        50.30                       +0.10             -4.0         76.0
+        50.50                       +0.30            -12.0         68.0
+  above 50.2 Hz the plant reduces at 40 MW per Hz; below 49.8
+  it cannot rise from 80 MW without headroom (S0) - the test
+  shows the droop slope, the deadband and the response time,
+  and the under-frequency part is tested only if headroom is
+  contracted (REQ-G10)

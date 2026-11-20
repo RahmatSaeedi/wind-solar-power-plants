@@ -1,0 +1,8 @@
+the wake decay constant of the Jensen model (W2b, flat ground):
+  k        wake loss
+  0.040     4.35 %
+  0.050     4.00 %
+  0.075     3.46 %
+  a lower k (stable, low-turbulence nights) deepens the wakes; the
+  value comes from validation against operating farms of similar
+  climate; the model states it with its uncertainty (chapter 16)

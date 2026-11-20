@@ -1,0 +1,33 @@
+% Chapter 9 - control structure of a grid-following inverter: PLL, outer DC-voltage and reactive
+% power loops, inner dq current loops with decoupling, modulation.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{c/.style={blk, minimum width=22mm, minimum height=11mm, text width=20mm}}
+  \node[c] (vdc) at (0,1.6) {حلقهٔ ولتاژِ DC یا توان};
+  \node[c] (q) at (0,-0.4) {حلقهٔ توانِ راکتیو یا ولتاژ};
+  \node[c] (cur) at (3.4,0.6) {حلقه‌های جریانِ $d$ و $q$ با جداسازی};
+  \node[c] (ipark) at (6.8,0.6) {تبدیلِ معکوسِ پارک};
+  \node[c] (pwm) at (10.2,0.6) {مدولاسیون};
+  \node[blkPV, minimum width=22mm, minimum height=11mm, text width=20mm] (br) at (13.6,0.6) {پل و صافی};
+  \node[blkLoad, minimum width=18mm, minimum height=11mm] (grid) at (13.6,-2.0) {شبکه};
+  \node[c] (park) at (6.8,-2.0) {تبدیلِ پارک};
+  \node[c] (pll) at (10.2,-2.0) {حلقهٔ قفلِ فاز};
+  \node[blk, minimum width=22mm, minimum height=11mm, text width=20mm] (plant) at (0,3.6) {کنترل‌گرِ نیروگاه};
+  \draw[flow] (plant) -- node[note, anchor=east] {$P^*$} (vdc);
+  \draw[flow] (plant.west) -- ++(-0.5,0) |- node[note, anchor=south, pos=0.75] {$Q^*$} (q.west);
+  \draw[flow] (vdc) -- node[note, anchor=south] {$i_d^*$} (cur);
+  \draw[flow] (q) -- node[note, anchor=north] {$i_q^*$} (cur);
+  \draw[flow] (cur) -- node[note, anchor=south] {$v_d^*, v_q^*$} (ipark);
+  \draw[flow] (ipark) -- node[note, anchor=south] {$v_{abc}^*$} (pwm);
+  \draw[flow] (pwm) -- (br);
+  \draw[flow] (br) -- (grid);
+  \draw[flowinfo] (grid) -- node[note, anchor=south] {$v_{abc}$} (pll);
+  \draw[flowinfo] (pll) -- node[note, anchor=south] {$\theta$} (park);
+  \draw[flowinfo] (pll.north) -- node[note, anchor=east] {$\theta$} (ipark.south east);
+  \draw[flowinfo] (grid.south) -- ++(0,-0.6) -| node[note, anchor=north, pos=0.25] {$i_{abc}$} (park.south);
+  \draw[flowinfo] (park) -| node[note, anchor=north, pos=0.25] {$i_d, i_q$} (cur.south);
+  \node[note, text=cInk, text width=60mm, anchor=north west] at (-1.2,-2.9)
+       {حلقهٔ داخلی سریع (چند صد هرتز)، حلقه‌های بیرونی کندتر، و حلقهٔ قفلِ فاز زاویهٔ شبکه را برای هر دو تبدیل می‌دهد};
+\end{tikzpicture}}
+\end{document}

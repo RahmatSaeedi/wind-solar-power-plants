@@ -1,0 +1,8 @@
+telemetry link to the grid operator: one or two carriers
+  one carrier at 0.995: 43.8 h a year without telemetry
+  two independent carriers: 0.22 h a year
+  two carriers in one duct for the last km (10 % shared): 4.6 h
+  a second carrier helps only if its route is different;
+  the routes are drawn on the physical diagram and the
+  grid operator's own requirement for redundancy decides
+  (U-115)

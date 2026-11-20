@@ -1,0 +1,10 @@
+day-ahead errors by technology (synthetic, % of capacity)
+  series                     hours   MAE %   RMSE %
+  PV, all 8,760 hours         8760     3.0      5.4
+  PV, daylight hours only     4256     6.2      7.7
+  wind, all hours             8760     7.8     10.3
+  the night hours, where a PV forecast of zero is always
+  right, nearly halve PV's average error: a score states
+  which hours it covers. Wind and PV are scored apart,
+  each against its own capacity - a plant total hides
+  which forecast needs work

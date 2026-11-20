@@ -1,0 +1,11 @@
+the connection voltage as scenarios (100 MW at pf 0.95; the ch 18
+line conductor kept for a like-for-like loss comparison)
+  kV    current A   line loss MWh/yr   status of the voltage
+   63         965               3310   named (secondary, IR-17)
+  132         460                754   not in any source (A-556)
+  230         264                248   named (secondary, IR-17)
+  400         152                 82   named (secondary, IR-17)
+  the current, and with it the line loss and the switchgear,
+  follows the voltage the regional company names: at 63 kV the
+  same line loses 4.4 times the 132 kV loss -
+  a different conductor, transformer and bay, not a footnote

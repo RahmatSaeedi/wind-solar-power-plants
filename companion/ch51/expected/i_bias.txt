@@ -1,0 +1,6 @@
+rolling one-week bias of the day-ahead forecast (forecast - actual, MW)
+  days 150-190: +1.2 MW; days 215-255: +4.7 MW
+  the provider's model update on day 200 moved the forecast up;
+  the bias chart shows it within a week, and the shift lead's
+  schedule correction is recorded with the forecast version -
+  a forecast is an input with a history, not a guarantee

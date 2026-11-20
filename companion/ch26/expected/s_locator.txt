@@ -1,0 +1,14 @@
+locating a fault on a collector feeder from the measured reactance
+  cable reactance 0.116 ohm/km (240 mm2, ch 24); distance = X / x;
+  turbines beyond 1.1 km add 20% to the current in the far section
+  true km   X seen ohm   located km   error m
+      1.0        0.116          1.00         0
+      2.5        0.322          2.78       280
+      4.0        0.531          4.58       580
+  fed from one end, a resistive fault leaves the reactance
+  unchanged, so the distance stays readable; the converters'
+  infeed beyond the relay makes the fault look farther (and
+  tilts the fault resistance into the reactance) - known
+  infeed is corrected in the locator, and sections of
+  different cable are modelled; even so, a located fault
+  shortens the 68 h repair of ch 24 by the search hours

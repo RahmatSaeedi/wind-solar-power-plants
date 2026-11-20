@@ -1,0 +1,27 @@
+% Chapter 11 - blade manufacturing at process-flow level with quality gates (section C; factory
+% detail in chapter 42). Conceptual only.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{st/.style={blk, minimum width=22mm, minimum height=10mm, text width=20mm},
+           gate/.style={blkWarn, diamond, aspect=1.6, inner sep=1pt, text width=13mm, font=\scriptsize}}
+  \node[gate] (g0) at (0,0) {بازرسیِ ورودیِ مواد};
+  \node[st] (a1) at (2.9,0) {کلاهکِ تیرِ اصلی (پیش‌ساخته)};
+  \node[st] (a2) at (5.8,0) {چیدمانِ پارچه و هسته در قالب};
+  \node[st] (a3) at (8.7,0) {تزریقِ رزین زیرِ خلأ و پخت};
+  \node[gate] (g1) at (11.6,0) {سابقهٔ پخت و ظاهر};
+  \node[st] (b1) at (11.6,-2.6) {چسباندنِ جان‌ها و بستنِ دو نیمه};
+  \node[gate] (g2) at (8.7,-2.6) {فراصوتیِ خطِ چسب};
+  \node[st] (b2) at (5.8,-2.6) {پس‌پخت و درآوردن از قالب};
+  \node[st] (b3) at (2.9,-2.6) {تراش، ریشه و بوش‌ها};
+  \node[st] (b4) at (0,-2.6) {پوشش و محافظِ لبهٔ حمله};
+  \node[gate] (g3) at (0,-5.2) {وزن، مرکزِ جرم و جفت‌سازی};
+  \node[gate] (g4) at (2.9,-5.2) {پیوستگیِ سامانهٔ صاعقه};
+  \node[gate] (g5) at (5.8,-5.2) {بازرسیِ نهایی و سوابق};
+  \node[blkLoad, minimum width=22mm, minimum height=10mm, text width=20mm] (c1) at (8.7,-5.2) {انبار و حمل};
+  \draw[flow] (g0) -- (a1); \draw[flow] (a1) -- (a2); \draw[flow] (a2) -- (a3); \draw[flow] (a3) -- (g1);
+  \draw[flow] (g1) -- (b1); \draw[flow] (b1) -- (g2); \draw[flow] (g2) -- (b2); \draw[flow] (b2) -- (b3); \draw[flow] (b3) -- (b4);
+  \draw[flow] (b4) -- (g3); \draw[flow] (g3) -- (g4); \draw[flow] (g4) -- (g5); \draw[flow] (g5) -- (c1);
+  \node[note, text width=40mm, anchor=north west] at (10.6,-4.5) {یک پره ده‌ها ساعت در قالب است؛ خطای پنهان (چین، حفرهٔ هوا، چسبِ ناقص) فقط با بازرسیِ غیرمخرب پیدا می‌شود};
+\end{tikzpicture}}
+\end{document}

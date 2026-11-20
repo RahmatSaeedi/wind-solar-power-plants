@@ -1,0 +1,13 @@
+where the register's sources are (official catalogues first)
+  webstore.iec.ch                     114
+  iso.org                              40
+  standards.ieee.org                    7
+  bipm.org                              5
+  rfc-editor.org                        3
+  ieeexplore.ieee.org                   2
+  standards.iteh.ai                     2
+  electronics.org                       2
+  other sources: 16
+  rows that state no clause was read or quoted: 89 of 191
+  the register records that a document exists, its title and
+  edition - the text itself is bought and read for the project

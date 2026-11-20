@@ -1,0 +1,7 @@
+solar and wind at Plant P (data-pack year, before losses):
+  hourly correlation r = -0.111; monthly r = -0.410
+  hours with combined output above 100 MW: 166
+  standard deviation of hourly output: solar 17.8, wind 21.4, together 26.3 MW
+  wind is stronger at night and in winter, solar by day and in
+  summer: the two fill each other's gaps, which is the reason for
+  a hybrid plant behind one connection (chapters 17 and 18)

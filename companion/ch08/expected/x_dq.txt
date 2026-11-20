@@ -1,0 +1,7 @@
+magnet flux linkage psi = sqrt2 E / omega_e = 1.553 Wb (E 398.4 V, 57.75 Hz)
+torque of a surface-magnet machine T = 1.5 (p/2) psi i_q; for 42.7 kN m:
+  i_q = 6,106 A peak = 4,318 A RMS
+  rated current of A-111 is 4,518 A: the numbers agree within a few
+  per cent, a consistency check between torque, EMF and current
+  the converter controls i_q for torque and keeps i_d near zero
+  (or negative to weaken the field at high speed)

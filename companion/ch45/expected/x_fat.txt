@@ -1,0 +1,19 @@
+factory test of one container (teaching hours), 2 test bays,
+  16 h a day, 5 days
+  step                                   hours
+  visual, documents, torques               4.0
+  insulation and earth continuity          3.0
+  BMS configuration and fingerprint        1.0
+  interface signals (round u)              4.0
+  HVAC and fire-system signals             3.0
+  charge to the top of the window          3.5
+  rest and OCV spread                     12.0
+  discharge, capacity and efficiency       3.5
+  thermal map at load                      2.0
+  records and release                      2.0
+  total 38 h a container; 4.2 containers a week
+  the plant's 8 containers take 1.9 weeks of the bays
+  the twelve-hour rest is the longest step and the first a
+  hurried plan cuts; it settles the cells so the OCV spread
+  shows a wrong or badly unbalanced cell - it cannot show a
+  slow leaker, which needs weeks (lab D)

@@ -1,0 +1,11 @@
+allocation of recycled steel for the towers (teaching factors)
+  primary 2300 kg/t, scrap route 600 kg/t; content 30 %, recycled at end 90 %
+  method                            kg CO2e/t   towers t CO2e
+  cut-off (recycled content)             1790           7,991
+  50:50                                  1280           5,714
+  end-of-life (avoided burden)            770           3,437
+  the same towers carry 2.3 times more carbon under
+  one rule than under another; neither is wrong - the study
+  states its rule, applies it to every item, keeps the
+  end-of-life credit apart (lab I) and shows the other rule
+  as a sensitivity

@@ -1,0 +1,20 @@
+% Chapter 53 - materials at closure by route (t): recycled, reused, landfilled, for each material
+% (companion/ch53/examples_c.py, materials -> diagrams/data/ch53-waste.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=78mm, xbar stacked, bar width=4.2mm, ymin=0.4, ymax=10.6,
+      xmin=0, xmax=5600, y dir=reverse, ytick={1,...,10}, scaled x ticks=false,
+      yticklabels={فولادِ برج, ناسل و پیشرانه, پره‌ها, بتنِ پی, ماژول‌ها, سازهٔ فتوولتائیک,
+        کابل‌ها, روغنِ ترانسفورماتور, ماژولِ باتری, روغنِ جعبه‌دنده},
+      xlabel={تن}, xticklabel style={/pgf/number format/fixed, /pgf/number format/1000 sep={}},
+      legend pos=south east, legend columns=1, area legend]
+    \addplot[draw=cPV, fill=cPV!40] table[x=recycled, y=k, col sep=comma] {data/ch53-waste.csv};
+    \addlegendentry{بازیافت}
+    \addplot[draw=cBESS, fill=cBESS!40] table[x=reused, y=k, col sep=comma] {data/ch53-waste.csv};
+    \addlegendentry{استفادهٔ دوباره}
+    \addplot[draw=cLoss, fill=cLoss!40] table[x=landfill, y=k, col sep=comma] {data/ch53-waste.csv};
+    \addlegendentry{دفن}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+the plant's own trip at 100 MW as an event for the grid
+  system                         nadir Hz   RoCoF Hz/s
+  large (20 GW, H 4)               49.912       -0.031
+  small (2 GW, H 3)                49.044       -0.406
+  on the small system the plant is a large infeed: losing it
+  costs almost a hertz - the operator compares the
+  plant's size with the largest loss the system is planned
+  for, and may limit export or ask for a slower trip of
+  the units (ramped disconnection) where the code allows

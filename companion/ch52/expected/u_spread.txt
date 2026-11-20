@@ -1,0 +1,6 @@
+the eight forced outages of ch 51: hours down
+    4   9  18  22  26  31  46  70
+  median 24 h, mean 28.2 h, 90th percentile 53 h
+  the mean is pulled up by the long waits; an MTTR quoted as a
+  mean hides the outages that set the spares and the contract
+  - report the median and a percentile with it (lesson E)

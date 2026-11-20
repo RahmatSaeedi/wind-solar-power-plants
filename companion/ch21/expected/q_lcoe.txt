@@ -1,0 +1,7 @@
+where the LCOE comes from (real, 5 %, u/MWh):
+  case   capital   O&M   replacements+decom   total
+  S0        35.3   14.3                  0.6    50.2
+  S1        38.6   14.9                  0.8    54.3
+  capital is about 70 % of the cost of energy: the
+  plant is bought, not run - which is why the cost of money
+  (the discount rate) moves the LCOE as much as the opex

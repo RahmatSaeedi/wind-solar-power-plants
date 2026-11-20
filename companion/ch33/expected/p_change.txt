@@ -1,0 +1,12 @@
+change control: T06 micro-sited 150 m toward the camp (teaching)
+  topic                          before    after   re-assess?
+  night noise at camp, dB(A)       38.5     39.6   YES
+  flicker at camp, h/yr             0.0      0.0   no
+  raptor collisions a year          4.8      5.0   no
+  T06 now stands 656 m from the camp
+  a 'small' move by the civil contractor is a change to the
+  assessed layout: each topic has a trigger (here 1 dB, any
+  flicker, 10 % of collisions) written in the register, and
+  a change that trips one goes back to the specialist and,
+  if the permit says so, to the authority - before the
+  foundation is poured, not after (ch 32, management of change)

@@ -1,0 +1,19 @@
+D-056 -> D-057 lifecycle basis (teaching, Plant P at year 18)
+  1. performance: PV degrades 0.37 %/yr (model 0.5 %); wind
+     availability falls 0.30 points/yr since year 10 (wear-out)
+  2. gearboxes: monitor and repair at failure to year 25 (lesson D);
+     replacement only with a longer life or a resale value
+  3. inverters and SCADA/PPC: replace or upgrade before support
+     ends (year 21) - obsolescence, not condition, decides
+  4. repowering of the wind farm studied as a new grid application
+     (+55 GWh/yr inside the export limit; three requirement gaps)
+  5. decommissioning provision funded now (587 k u a year to
+     year 25); waste routes and receivers named; custody checked
+  6. closure commitments with owners and dates; workforce
+     transition plan; disclosure from 36 months before the end
+  7. records: retention schedule, migration of the CMMS and SCADA
+     history, access removal verified by scan
+  8. footprint compared on one boundary; avoided emissions
+     reported apart, with the displaced source stated
+  open: U-134 (permit and land-return conditions for repowering
+  and closure, local recycling routes, retention obligations)

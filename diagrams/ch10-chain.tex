@@ -1,0 +1,39 @@
+% Chapter 10 - the crystalline-silicon value chain at a conceptual, non-proprietary level: from
+% purified silicon to the module on site, with the factory boundaries (section B).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{st/.style={blkPV, minimum width=26mm, minimum height=9mm, text width=24mm, font=\small},
+           sub/.style={note, text width=28mm, anchor=north}}
+  % row 1, left to right
+  \node[st] (s1) at (0,0) {سیلیسیمِ بس‌خالص};
+  \node[st] (s2) at (3.6,0) {شمشِ تک‌بلور};
+  \node[st] (s3) at (7.2,0) {ویفر};
+  \node[st] (s4) at (10.8,0) {سلول};
+  % row 2, right to left
+  \node[st] (s5) at (10.8,-3.4) {آزمون و رده‌بندیِ سلول};
+  \node[st] (s6) at (7.2,-3.4) {ماژول};
+  \node[st] (s7) at (3.6,-3.4) {آزمونِ نهاییِ ماژول};
+  \node[blkLoad, minimum width=26mm, minimum height=9mm, text width=24mm, font=\small] (s8) at (0,-3.4) {سایتِ نیروگاه};
+  \draw[flow] (s1) -- (s2);  \draw[flow] (s2) -- (s3);  \draw[flow] (s3) -- (s4);
+  \draw[flow] (s4) -- (s5);  \draw[flow] (s5) -- (s6);  \draw[flow] (s6) -- (s7);
+  \draw[flow] (s7) -- (s8);
+  % what happens (conceptual only)
+  \node[sub] at (0,-0.6) {پالایشِ سیلیسیم تا خلوصِ بسیار بالا};
+  \node[sub] at (3.6,-0.6) {ذوب و رشدِ آهستهٔ بلور};
+  \node[sub] at (7.2,-0.6) {برش با سیمِ الماسه و شست‌وشو};
+  \node[sub, anchor=north west] at (11.6,-0.6) {بافت‌دهی، ساختِ پیوند، غیرفعال‌سازی، ضدبازتاب، فلزکاری};
+  \node[sub, anchor=north west] at (11.6,-4.0) {اندازه‌گیریِ منحنی در شرایطِ استاندارد، رده‌بندیِ توان و رنگ};
+  \node[sub] at (7.2,-4.0) {لحیمِ رشته‌ها، لایه‌چینی، پرسِ گرم، قاب و جعبه‌تقسیم};
+  \node[sub] at (3.6,-4.0) {فلش، الکترولومینسانس، آزمونِ عایق، بسته‌بندی};
+  \node[sub] at (0,-4.0) {بازرسیِ ورودی، نصب، آزمونِ رشته};
+  % factory boundaries
+  \draw[boundary] (-1.6,0.85) rectangle (8.8,-1.75);
+  \node[note, anchor=south west, text=cInk] at (-1.5,0.85) {زنجیرهٔ مواد و ویفر};
+  \draw[boundary] (9.2,0.85) rectangle (14.6,-5.15);
+  \node[note, anchor=south east, text=cInk] at (14.5,0.85) {کارخانهٔ سلول};
+  \draw[boundary] (2.0,-2.45) rectangle (8.8,-5.15);
+  \node[note, anchor=north east, text=cInk] at (8.7,-5.15) {کارخانهٔ ماژول (فصل‌های ۴۱ تا ۴۸)};
+  \node[note, anchor=north, text=cInk] at (0,-5.15) {این کتاب: فقط ساختِ مفهومی};
+\end{tikzpicture}}
+\end{document}

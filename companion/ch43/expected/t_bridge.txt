@@ -1,0 +1,7 @@
+ratio bridge accuracy 0.1 % against a +-0.5 % tolerance
+  test uncertainty ratio 5:1 (ch 40)
+  a reading of 0.40 % or less is a pass with the bridge's
+  error included; between 0.40 and 0.50 % the
+  result needs the decision rule of the contract
+  T1's -0.39 % at the -10 % tap is inside the guard band;
+  +0.62 % at +8.75 % is outside whatever the bridge's error

@@ -1,0 +1,7 @@
+PV structures of 2,100 tables in a 60-day window (teaching rates)
+  posts: 25,200 at 220 a rig-day = 115 rig-days -> 2 rigs
+  tables: at 9 a crew-day = 233 crew-days -> 4 crews
+  every rig drives posts from the survey marks of lesson C:
+  a wrong mark repeats in a whole row - with 2 rigs, a day's
+  wrong mark is about 220 posts; the first row of each day is
+  surveyed before the rig moves on

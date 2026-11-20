@@ -1,0 +1,13 @@
+S1 rule: charge from on-site generation 09-15 h, discharge 18-22 h;
+  20 MW, 32 MWh usable, round trip 86 %, no grid charging (A-009..A-012)
+energy charged 12.59 GWh, delivered 10.83 GWh, lost 1.76 GWh (14.0 %)
+equivalent full cycles 365 per year (energy leaving the cells, 11.68 GWh, / 32
+    MWh usable)
+export S0 273.52 GWh, S1 271.75 GWh
+revenue at the fictional tariff: S0 12.413, S1 12.884 million u (+3.79 %)
+gain per MWh delivered 43.5 u = 90 - 40 / 0.86 (43.5): the spread less the
+    round-trip loss
+invariant checks: SOC within 0..32 MWh PASS; never charges more than
+    generation PASS; export never above 100 MW PASS; energy balance closes
+    PASS
+capacity fade 2 %/yr (A-011) is not modelled in this one-year run

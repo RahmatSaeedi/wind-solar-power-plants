@@ -1,0 +1,26 @@
+% Chapter 12 - the Plant P measurement station: instruments, logger and records (conceptual).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{ins/.style={blkPV, minimum width=27mm, minimum height=11mm, text width=25mm},
+           met/.style={blk, minimum width=27mm, minimum height=11mm, text width=25mm},
+           rec/.style={blkLoad, minimum width=27mm, minimum height=11mm, text width=25mm}}
+  \node[ins] (ghi) at (0,0) {تابش‌سنجِ افقی (کل)};
+  \node[ins] (dhi) at (3.3,0) {تابش‌سنجِ پخشیده با گوی سایه};
+  \node[ins] (dni) at (6.6,0) {تابش‌سنجِ مستقیم روی ردیاب};
+  \node[ins] (poa) at (9.9,0) {دو سلولِ مرجعِ صفحه و سلولِ پشت};
+  \node[ins] (soil) at (0,-2.2) {جفتِ سنجشِ گرد و غبار (تمیز، کثیف)};
+  \node[met] (met) at (3.3,-2.2) {دما، رطوبت، فشار، باران، باد};
+  \node[blk, minimum width=27mm, minimum height=11mm, text width=25mm] (log) at (6.6,-2.2) {ثبت‌کننده: نمونهٔ ثانیه‌ای، ذخیرهٔ دقیقه‌ای};
+  \node[blk, minimum width=27mm, minimum height=11mm, text width=25mm] (clk) at (9.9,-2.2) {مرجعِ زمان: هم‌گامیِ روزانه};
+  \node[rec] (data) at (3.3,-4.6) {دادهٔ دقیقه‌ای با پرچم};
+  \node[rec] (meta) at (6.6,-4.6) {فراداده و ضریب‌های واسنجی};
+  \node[rec] (logb) at (9.9,-4.6) {دفترِ ایستگاه: تمیزکاری، تراز، تعمیر};
+  \foreach \s in {ghi,dhi,dni,poa} {\draw[flow] (\s.south) -- ++(0,-0.35) -| (log.north);}
+  \draw[flow] (soil) -- (met); \draw[flow] (met) -- (log); \draw[flowinfo] (clk) -- (log);
+  \draw[flow] (log.south) -- ++(0,-0.4) -| (data.north);
+  \draw[flow] (log.south) -- (meta.north);
+  \draw[flowinfo] (logb.west) -- (meta.east);
+  \node[note, text width=34mm, anchor=north] at (0,-4.0) {هر ماه: گزارشِ کیفیت، بازیابی، رویدادها، اقدام‌ها};
+\end{tikzpicture}}
+\end{document}

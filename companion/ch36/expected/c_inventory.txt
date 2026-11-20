@@ -1,0 +1,12 @@
+the asset inventory checked for gaps (synthetic extract of 10)
+  field          rows missing it
+  owner              2
+  firmware           1
+  support_end        1
+  rows with a gap: SW-R02, SRV-1, HIS-1, GPS-1
+  support ends by 2028: GPS-1, JMP-1
+  an inventory without an owner has nobody to patch it, one
+  without a firmware version cannot be checked against a
+  maker's notice, and one without an end of support date
+  hides the next replacement; the inventory is the first
+  control, because every other one needs it

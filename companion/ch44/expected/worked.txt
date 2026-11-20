@@ -1,0 +1,10 @@
+E01 interface 100 um, k 0.8, 80 cm2: 0.0156 K/W
+E02 same with 40 % voids: 0.0260 K/W
+E03 Tj at 494 W, 0.028 + 0.0156 + 0.016 K/W, 45 C: 74.4 C
+E04 life at a 37.2 K swing against 29.5 K: 31%
+E05 shares of 0.985 / 1.015: 0.507 / 0.493
+E06 solder strain, 3.2 mm, 11 ppm, 40 K, 0.1 mm: 0.0141
+E07 cycles at that strain: 2,904
+E08 800 ppm bridges after 85 % and 60 % stations: 48 ppm
+E09 fingerprint of {'a': 1}: 015abd7f5cc57a2d
+E10 units to show R 90 % at 90 % confidence: 22

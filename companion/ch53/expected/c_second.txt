@@ -1,0 +1,7 @@
+modules at year 25: power as a share of nameplate (lesson A's rate
+  carried to year 25, spread teaching)
+  mean 0.908; below 85 % 2.6%; cracked (EL) 4%
+  fit for a second life after testing: 93% (102,073 modules)
+  a second life needs a test record per module (ch 41 flash
+  and EL) and a buyer; without both they are waste with a
+  recycling cost

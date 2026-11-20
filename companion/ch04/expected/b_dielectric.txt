@@ -1,0 +1,7 @@
+dielectric loss per phase W = omega C U0^2 tan(delta), tan(delta) = 4e-4
+    (A-052):
+  33 kV cable of a_coax: 9.9 W/km per phase, 30 W/km for three
+  same geometry at 132 kV: 159 W/km per phase (U0^2: 16 x)
+  conductor loss of the feeder at peak was 614 kW over 5 km = 123 kW/km
+  dielectric loss matters at high voltage and when tan(delta) grows with
+    ageing

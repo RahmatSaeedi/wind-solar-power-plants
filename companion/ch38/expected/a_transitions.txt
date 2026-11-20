@@ -1,0 +1,10 @@
+status histories in the common data environment (A-417)
+  PLP-ELE-DWG-0105: WIP > IFR > IFA > APP > IFC
+  PLP-ELE-CAL-0101: WIP > IFR > IFC  <- IFR to IFC
+  PLP-CIV-DWG-0102: WIP > IFR > WIP > IFR > IFA > APP
+  PLP-CTL-DWG-0103: WIP > IFI > IFC  <- IFI to IFC
+  PLP-MEC-DWG-0100: WIP > IFR > IFA > APP > IFC > ASB
+  a calculation that went from review straight to 'for
+  construction' was never approved; a drawing issued 'for
+  information' was then built from. The workflow tool
+  blocks both - a register on paper does not

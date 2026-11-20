@@ -1,0 +1,6 @@
+backup and restore test of the maintenance system and document store
+  restored in 11.5 h against a recovery time objective of 8 h - FAIL
+  data lost: 0 h
+  the restore that was never tried takes longest on the day it
+  is needed (ch 36 recovery); this one is repeated after the
+  restore procedure is fixed, and its time is recorded

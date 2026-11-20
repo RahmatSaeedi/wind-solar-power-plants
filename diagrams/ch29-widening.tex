@@ -1,0 +1,15 @@
+% Chapter 29 - extra road width on a curve for a rigid length L: w = R - sqrt(R^2 - L^2), for
+% L = 20 m (rear-steered blade trailer) and L = 40 m (fixed), teaching values
+% (companion/ch29/examples_b.py, b_roads).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=40, xmax=250, ymin=0, ymax=20,
+      xlabel={شعاعِ داخلیِ قوس $(\text{m})$}, ylabel={پهنای اضافه $(\text{m})$},
+      xmajorgrids=true, legend pos=north east, legend cell align=right]
+    \addplot[sWind, domain=40:250, samples=120] {x - sqrt(x^2 - 20^2)};
+    \addplot[sPV, domain=50:250, samples=160] {x - sqrt(x^2 - 40^2)};
+    \legend{$L=20\,\text{m}$, $L=40\,\text{m}$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

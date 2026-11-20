@@ -1,0 +1,11 @@
+construction water by month (ch 29 demand, ch 22 workforce curve), m3
+  month  people  concrete  dust   total  trucked beyond the wells
+      1      24         0   4200    4224      2541
+      5     565       259   4200    5025      3341
+      9     945       259   4200    5404      3721
+     13     705         0   4200    4905      3221
+     18      24         0   4200    4224      2541
+  total 87,456 m3 (ch 29: 87,460); wells 30,300; dust 86% of it
+  dust suppression is the largest use: water on roads is the
+  first saving (binder, speed limits, sealed sections), and it
+  is metered apart from the plant's permanent water (ch 18)

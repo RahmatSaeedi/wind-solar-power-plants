@@ -1,0 +1,11 @@
+standards editions cited in the offers (register: STD-120,
+IEC 60076-1:2011, edition 3.0)
+  U-A  IEC 60076-1 edition 3.0 (2011)
+      matches the register
+  U-B  IEC 60076-1, an earlier edition
+      superseded edition: a deviation until shown equal
+  U-C  IEC 60076-1 (no edition given)
+      undated: ask which edition, record the answer
+  the specification names the edition it relies on; an
+  offer to another edition is checked clause by clause by
+  the engineer, not assumed to be the same

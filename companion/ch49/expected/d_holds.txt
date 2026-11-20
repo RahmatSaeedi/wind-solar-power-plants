@@ -1,0 +1,21 @@
+records each package leaves (hold points stop the next package)
+  package                 hold d  record
+  WP01 set-out                 0  set-out survey sheet
+  WP02 grading                 1  level survey (hold)
+  WP03 piling                  2  post position and depth (hold)
+  WP04 tables                  1  torque and alignment (hold)
+  WP05 trenches                1  trench before cables (hold)
+  WP06 cables in trench        1  cables and earth wire, open trench (hold)
+  WP07 backfill                0  compaction record
+  WP08 station base            7  pour record; cure (hold)
+  WP09 station set             1  anchoring (witness)
+  WP10 modules                 0  module serial capture
+  WP11 combiners               0  box install record
+  WP12 strings                 1  connector sample (hold)
+  WP13 DC terminations         1  termination torque records (hold)
+  WP14 MV terminations         1  MV termination record (hold)
+  WP15 earthing                0  continuity test sheet
+  WP16 walkdown                0  punch list; turnover package
+  9 hold points: each is released by a named inspector on
+  the record itself; a witness point is notified and may be
+  waived, a hold point may not (ch 40, ch 47)

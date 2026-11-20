@@ -1,0 +1,10 @@
+motor overload relay class against the start (teaching curve):
+  trip time at 7.2 x set current: class 10 <= 10 s, class 20 <= 20 s
+  motor              start current   start time s   class 10   class 20
+  sump pump                    6.0 x            3.0   ok         ok
+  well pump                    6.5 x            8.0   ok         ok
+  heavy fan                    6.0 x           18.0   TRIPS      ok
+  a heavy fan takes long to reach speed: a class 10 relay trips
+  it during every start; class 20 lets it run up - the class
+  is chosen from the motor and load's start time, and the
+  motor must survive the class's time (the maker's data)

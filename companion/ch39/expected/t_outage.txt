@@ -1,0 +1,11 @@
+outage windows for the connection works (days)
+  need 3  33 kV bay at the utility substation
+  need 2  line crossing under the 132 kV
+  need 2  protection tests end to end
+  offered: Mar 6, Apr 6, Oct 5, Nov 5
+  needed 7 days in sequence (tests come last); offered 22,
+  but no window is longer than 6 days: the works take
+  March and April together, and a week's slip at the bay
+  sends the end-to-end tests to October - six months. The
+  works plan is fixed with the grid operator before the
+  contracts are signed (ch 28)

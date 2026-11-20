@@ -1,0 +1,26 @@
+% Chapter 2 — data lineage from the logger to a decision, with what each step must record.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    d/.style={blk, minimum width=30mm, minimum height=14mm, inner sep=2pt, text width=28mm},
+    r/.style={note, font=\scriptsize, text width=30mm, anchor=north, text=cInkB}]
+  \node[d, draw=cInk, fill=white] (raw) at (0,0)    {پرونده‌های خامِ ثبت‌کننده\\(فقط خواندنی)};
+  \node[d]                        (val) at (4.4,0)  {دادهٔ وارسی‌شده\\با پرچمِ کیفیت};
+  \node[d, blkWind]               (der) at (8.8,0)  {دادهٔ مشتق‌شده\\(بستهٔ داده $1.0.0$)};
+  \node[d, blkPV]                 (cal) at (13.2,0) {برگهٔ محاسبه\\$\text{PLP-GEN-CAL-0002}$};
+  \node[d, blkLoad]               (dec) at (17.6,0) {گزارش و تصمیم\\(دفترِ تصمیم)};
+  \draw[flow] (raw) -- node[above, note, font=\scriptsize] {اسکریپت $v$} (val);
+  \draw[flow] (val) -- node[above, note, font=\scriptsize] {اسکریپت $v$} (der);
+  \draw[flow] (der) -- node[above, note, font=\scriptsize] {کد + نسخه} (cal);
+  \draw[flow] (cal) -- node[above, note, font=\scriptsize] {بازبینی} (dec);
+
+  \node[r] at (0,-0.95)    {شناسه و شمارهٔ سریالِ ابزار، گواهیِ کالیبراسیون، محلّ و ارتفاع، منطقهٔ زمانی، چک‌سام};
+  \node[r] at (4.4,-0.95)  {قاعده‌های وارسی، پرچم‌ها، شکاف‌ها و پرکردنِ آن‌ها، چه کسی و کِی};
+  \node[r] at (8.8,-0.95)  {مانیفست با $\text{SHA-256}$ هر پرونده، فرهنگِ داده، فهرستِ تغییرات};
+  \node[r] at (13.2,-0.95) {چکیدهٔ ورودی‌ها، چک‌سامِ پرونده‌ها، بازنگری، تهیه‌کننده و بازبین};
+  \node[r] at (17.6,-0.95) {شمارهٔ بازنگریِ محاسبه‌ای که تصمیم بر آن تکیه دارد};
+
+  \draw[flowinfo, cLoss] (17.6,1.0) -- (17.6,1.6) -- node[above, note, font=\scriptsize, text=cInk]
+       {هر عددِ گزارش باید تا پروندهٔ خام قابلِ ردگیری باشد} (0,1.6) -- (0,1.0);
+\end{tikzpicture}}
+\end{document}

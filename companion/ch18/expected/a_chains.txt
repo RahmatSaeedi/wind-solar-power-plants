@@ -1,0 +1,6 @@
+conversion chains of a battery storing PV energy (A-286):
+  AC-coupled: PV inverter 0.983, battery inverter 0.98 twice, cells 0.9
+    PV energy back to the grid via the battery: 85.0 %
+  DC-coupled: DC/DC 0.99 twice, cells, PV inverter once
+    PV energy back to the grid via the battery: 86.7 %
+  the DC route saves one AC conversion: +1.7 points on every MWh shifted

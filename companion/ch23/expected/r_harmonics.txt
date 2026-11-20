@@ -1,0 +1,11 @@
+non-linear loads on the 250 kVA station-service transformer:
+  load mix                          K       usable kVA
+  linear only                       1.00        250
+  UPS, LED, drives (35 %)           1.68        243
+  UPS, LED, drives (70 %)           2.36        236
+  harmonic currents heat the windings more than their rms
+  value suggests (eddy losses grow with h^2): the same
+  transformer carries less; the triplen harmonics also add
+  in the neutral (lesson E, ch 27)
+  the 167 kVA normal demand still fits under 236 kVA - the
+  margin of lesson F is partly spent on harmonics

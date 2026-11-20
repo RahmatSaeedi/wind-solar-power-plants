@@ -1,0 +1,6 @@
+one blade of 20 t, 73 m, mass tapering to zero at the tip (A-048), 10.5 rpm
+  centre of mass at L/3 = 24.3 m from the root
+  centrifugal pull m omega^2 r = 588 kN (blade weight 196 kN)
+  gravity moment at the root m g r = 4.77 MN m, reversing every turn
+  turns in 20 years of operation at rated speed: 1.10e+08
+  every turn is one full gravity cycle: blade roots are designed for fatigue

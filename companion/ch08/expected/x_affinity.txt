@@ -1,0 +1,9 @@
+fan of 15 kW (A-124): power ~ speed cubed (affinity laws), flow ~ speed
+  speed 100 %: flow 100 %, power 15.00 kW
+  speed  90 %: flow  90 %, power 10.94 kW
+  speed  80 %: flow  80 %, power  7.68 kW
+  speed  70 %: flow  70 %, power  5.14 kW
+  speed  50 %: flow  50 %, power  1.88 kW
+70 % flow for 6000 h/yr: damper about 12.8 kW, drive 5.3 kW
+  saving 44.7 MWh/yr per fan (drive losses 3 % included)
+  the drive adds harmonics (chapter 7) and needs cooling

@@ -1,0 +1,19 @@
+% Chapter 17 - duration curve of the net flow from the grid substation to the upstream network (Plant P
+% export minus the regional load; positive = up), with the teaching upstream limit of 90 MW.
+% Data: diagrams/data/ch17-netflow.csv (companion/ch17/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=0, xmax=8760, ymin=-50, ymax=100,
+      xlabel={ساعت‌های سال، از بیشترین جریان}, ylabel={جریانِ خالص، مگاوات},
+      xtick={0,2000,...,8000}, ytick={-50,-25,...,100},
+      xticklabel style={/pgf/number format/1000 sep={,}}]
+    \addplot[sLoad, line width=1.3pt, solid] table[x=h, y=f, col sep=comma] {data/ch17-netflow.csv};
+    \draw[sLimit] (axis cs:0,90) -- (axis cs:8760,90);
+    \draw[cRule, line width=0.6pt] (axis cs:0,0) -- (axis cs:8760,0);
+    \node[note, anchor=south east] at (axis cs:8600,91) {حدِ بالادست (آموزشی)};
+    \node[note, anchor=south west] at (axis cs:900,3) {رو به بالا};
+    \node[note, anchor=north west] at (axis cs:900,-3) {از بالادست};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

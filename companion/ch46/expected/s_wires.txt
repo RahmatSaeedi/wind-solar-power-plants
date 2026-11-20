@@ -1,0 +1,10 @@
+wire sizes of panel WS1 against the teaching rule by circuit class
+  class: minimum mm2  CT 2.5; VT 1.5; trip 1.5; DC supply 2.5; signal 0.75
+  wire 105: CT in 1.5 mm2, rule 2.5
+  wire 109: VT in 1.0 mm2, rule 1.5
+  wire 112: trip in 0.75 mm2, rule 1.5
+  wire 116: DC supply in 1.5 mm2, rule 2.5
+  4 wires under the rule: a CT wire too thin adds burden and
+  can saturate the core in a fault; a thin trip or supply wire
+  drops voltage at the coil - the wire list carries the class
+  of each wire so the check runs before any wire is cut

@@ -1,0 +1,14 @@
+failures of 12 turbines in a year by system (synthetic, coded)
+  system              failures   share    downtime h   share
+  gearbox                    1      2 %          240     33 %
+  converter                  9     20 %          126     17 %
+  generator                  2      4 %          120     16 %
+  pitch system              11     24 %           88     12 %
+  control and comms         14     30 %           56      8 %
+  hydraulics                 5     11 %           50      7 %
+  yaw system                 4      9 %           48      7 %
+  the many small faults (control, pitch) are not where the
+  downtime is: one gearbox costs more hours than all the
+  control faults together. Coding every failure to the
+  same hierarchy (plant, turbine, system, component) is
+  what makes this sort possible

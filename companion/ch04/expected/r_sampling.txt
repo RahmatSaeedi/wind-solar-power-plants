@@ -1,0 +1,6 @@
+single sampling plans: accept the lot if the sample has at most c defectives
+  plan        p = 0.5 %   1 %     2 %     5 %
+  n  20, c 0   0.905   0.818   0.668   0.358
+  n  50, c 1   0.974   0.911   0.736   0.279
+  n 125, c 3   0.996   0.963   0.759   0.124
+  bigger samples separate good and bad lots more sharply (steeper curve)

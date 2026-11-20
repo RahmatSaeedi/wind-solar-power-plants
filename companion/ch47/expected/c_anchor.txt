@@ -1,0 +1,10 @@
+anchor-cage top flange levelled at 8 points before and after the pour
+  (teaching limit 1.0 mm/m tilt)
+  before: tilt 0.08 mm/m;  after: tilt 0.92 mm/m toward 116 deg
+  at the hub (100 m up) the after-pour tilt is 92 mm of lean
+  inside the teaching limit, but 11 times the tilt before the pour:
+  the cage moved during the pour (concrete pushing one side);
+  the level is fixed with the grout's thickness before the
+  tower goes up, a decision for the turbine maker and the
+  foundation engineer - the before-and-after survey is the
+  only proof of when it moved

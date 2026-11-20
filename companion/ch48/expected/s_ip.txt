@@ -1,0 +1,13 @@
+enclosure rating against its location (IP: first digit dust,
+  second water; teaching minimum by location)
+  cabinet   location          need    installed   verdict
+  MET-1     outdoor           IP54    IP55        ok
+  WTG-T05   turbine tower     IP54    IP54        ok
+  SUB-RTU   indoor, clean     IP20    IP42        ok
+  PV-B07    outdoor, dust     IP55    IP65        ok
+  PV-B03    outdoor, dust     IP55    IP54        LOW
+  CAM-12    outdoor           IP54    IP44        LOW
+  low: PV-B03, CAM-12 - PV-B03 has the dust digit but not the
+  water one for a block washed by the cleaning robots of ch 10;
+  CAM-12's camera box lets in the dust of the access road; the
+  rating is read from the nameplate, not the order

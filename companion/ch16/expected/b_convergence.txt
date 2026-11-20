@@ -1,0 +1,9 @@
+Monte Carlo P90 of a normal net energy (P50 295.14, sigma 14.99 GWh),
+  200 repeats per sample size:
+  draws      mean P90   spread of the P90 estimate
+      100     276.29         2.670 GWh
+    1,000     275.98         0.735 GWh
+   10,000     275.90         0.251 GWh
+  100,000     275.93         0.078 GWh
+  exact P90 275.93 GWh; the spread falls with the square root
+  of the draws: 10,000 draws give the P90 to about 0.2 GWh

@@ -1,0 +1,11 @@
+vector group YNd11 (clock notation, teaching):
+  HV star with an earthed neutral (YN), LV delta (d), and
+  the LV voltage at 11 o'clock against HV at 12: it leads
+  by 30 degrees
+  consequences on the one-line (ch 23):
+    - the 132 kV neutral can be earthed; the 33 kV side needs
+      earthing transformers (no neutral on a delta)
+    - two transformers in parallel need the same group;
+      a d1 unit beside a d11 would short a 60-degree shift
+    - protection and metering CTs see the 30-degree shift and
+      the relay compensates it (ch 26)

@@ -1,0 +1,16 @@
+what each output does when its power or wire is lost (teaching)
+  output                           principle            on loss
+  breaker trip coil (protection)   energise to trip
+      supervised coil and DC; a dead output means no trip
+  feeder 'close' permissive        energise to permit
+      a dead output blocks closing - safe
+  HVAC run (BESS container)        energise to run
+      a dead output stops HVAC - alarmed
+  fire-panel 'healthy' to plant    de-energise to alarm
+      a broken wire raises the alarm
+  PCS run enable                   de-energise to stop
+      loss of the enable stops the PCS
+  de-energise-to-act fails safe for alarms and stops;
+  trip coils are energise-to-trip so a dead DC cannot trip
+  the plant at random - which is why the coil and the DC
+  are supervised and their failure is an urgent alarm

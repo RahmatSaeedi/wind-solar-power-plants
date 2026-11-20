@@ -1,0 +1,8 @@
+evaporation (teaching: pan 2.8 m a year, pan coefficient 0.7, rain 0.11 m)
+  open reservoir of 2,500 m3, 1.5 m deep (1,667 m2): loses 3,267 m3 a year
+  - more than the plant's whole operating demand (2,986 m3, lesson G);
+  a closed steel or concrete tank loses almost nothing
+  brine pond for 1,019 m3 a year: net evaporation 1.85 m a year
+  area needed 551 m2, plus freeboard and a second cell for maintenance
+  rain on 1,000 m2 of roofs: 94 m3 a year - worth collecting, never a supply
+  in a desert the sun is the largest water user on site

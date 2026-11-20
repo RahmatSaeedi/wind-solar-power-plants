@@ -1,0 +1,7 @@
+symmetrical three-phase fault, grid side only (per unit, 100 MVA):
+  132 kV POC: |z| 0.1000 pu, X/R 10.0, I_k 4.37 kA RMS (1000 MVA)
+    worst first peak 1.74 x sqrt2 I_k = 10.7 kA; tau 31.8 ms
+  33 kV bus: |z| 0.1999 pu, X/R 15.7, I_k 8.75 kA RMS (500 MVA)
+    worst first peak 1.82 x sqrt2 I_k = 22.5 kA; tau 49.9 ms
+  converter units add a limited current (manufacturer data); breakers,
+  busbars and earthing are checked against both values (chapter 26)

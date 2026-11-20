@@ -1,0 +1,17 @@
+standards basis of Plant P (D-062):
+  1 one register (191 rows), nine required fields, an official
+    catalogue source and a verification date on every row
+  2 no standard is cited as law: legal force comes from a law, a
+    grid code or the contract that names it (ch 54-57)
+  3 specifications cite dated editions; an undated reference only
+    where the latest edition is wanted on purpose
+  4 requirements use 'shall' with a value and a test; vague words
+    are removed before issue
+  5 a certificate counts only for the same model, edition and an
+    accredited scope; an older edition triggers a gap analysis
+  6 every requirement keeps its trace to approval, register entry
+    and change trigger; an edition change runs the impact list
+  7 watch: open items monthly, linked or hub rows twice a year,
+    the rest yearly
+  8 clause texts are bought and read for the project; the book's
+    register gives titles and editions, not content

@@ -1,0 +1,4 @@
+three numbers by hand
+  open items: 39 / 191 = 20%
+  requirements that cannot be verified: 3 / 7
+  winding rise: 0.6643 / 0.5293 x (235 + 22) - 235 - 21 = 66.5 K

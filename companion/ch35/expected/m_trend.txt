@@ -1,0 +1,8 @@
+a day of 1 s data on an 800-pixel trend (synthetic spikes of 5 s)
+  108 samples per pixel
+  every 108th sample drawn: spike visible in 4.5 % of cases
+  min and max of each pixel drawn: visible in 100 % of cases
+  a trend that decimates hides the short events an operator
+  most needs to see; the historian serves min/max (or every
+  point) for the screen's resolution, and the trend says
+  which it shows

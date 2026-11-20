@@ -1,0 +1,20 @@
+open decisions before T1 is accepted (owners and outcomes)
+  item                         who decides
+  tap +8.75 % ratio            maker
+    -> correct the lead, repeat ratio test
+  winding rise 1.5 K over      owner with the maker
+    -> repair cooling, accept with a rating limit, or reject
+  PD 120 pC over 100           maker, witnessed
+    -> find the source, repeat the test
+  acetylene after heat run     maker and owner's specialist
+    -> explain from records or investigate inside
+  FRA of the LV winding        maker
+    -> deliver the files before shipment
+  drying end point, oil water  maker
+    -> records or re-process
+  short-circuit proof          owner's engineer
+    -> test or design review (STD-175)
+  impact recorder              maker and transporter
+    -> fit before shipment (ch 31)
+  8 items: the factory acceptance is a list of evidence,
+  not a signature - each item closes with a record

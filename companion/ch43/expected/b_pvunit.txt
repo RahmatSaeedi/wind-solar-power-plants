@@ -1,0 +1,11 @@
+PV unit transformer 5.6 MVA 33/0.6 kV Dyn11 (ch 39, offer U-A)
+  LV star phase 346 V; phase current 5,389 A
+  LV turns   volts a turn   HV turns (delta, 33 kV)   ratio error
+        14          24.74                      1334   +0.02 %
+        16          21.65                      1524   -0.01 %
+        18          19.25                      1715   +0.02 %
+  with 16 LV turns: core 574 cm2 net, 288 mm across
+  one LV turn is 6 % of the voltage: the LV side fixes the
+  volts a turn, and a few thousand amperes a phase call for
+  a foil winding; taps go on the 33 kV side, where a turn is
+  a small step

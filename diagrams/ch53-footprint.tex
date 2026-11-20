@@ -1,0 +1,15 @@
+% Chapter 53 - footprint per kWh delivered of three options on one boundary: median and 5-95 %
+% interval (companion/ch53/examples_g.py, footprint -> diagrams/data/ch53-footprint.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=52mm, xbar=0pt, bar width=5mm, ymin=0.4, ymax=3.6,
+      xmin=0, xmax=8, y dir=reverse, ytick={1,2,3},
+      yticklabels={تعمیرِ جعبه‌دنده‌ها, تعویضِ جعبه‌دنده‌ها, بازتوانیِ مزرعهٔ بادی},
+      xlabel={ردپا ($\mathrm{g\,CO_2e/kWh}$)}]
+    \addplot[draw=cBESS, fill=cBESS!30, error bars/.cd, x dir=both, x explicit]
+      table[x=median, y=k, x error plus expr=\thisrow{p95}-\thisrow{median},
+            x error minus expr=\thisrow{median}-\thisrow{p5}, col sep=comma] {data/ch53-footprint.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

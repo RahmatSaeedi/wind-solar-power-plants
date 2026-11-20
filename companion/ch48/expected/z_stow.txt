@@ -1,0 +1,10 @@
+tracker stow on wind: sensor failing low 0.1/yr, failing high 0.2/yr,
+  proof-tested every 1 year (teaching values)
+  scheme          chance of no stow when needed   spurious stows a year
+  one sensor                              0.0500                    0.20
+  either of two                           0.0033                    0.40
+  the second sensor cuts the chance of missing a stow 15-fold and
+  doubles the stows for nothing - a few hours of lost
+  energy against a row that meets a storm flat; common
+  causes (one mast, one cable, one icing event) are what
+  limits the gain, so the two sensors sit apart

@@ -1,0 +1,20 @@
+% Chapter 8 - insulation resistance of one generator over ten years (synthetic, A-133): raw,
+% corrected to 40 C, and the fitted trend. Data: diagrams/data/ch08-ir.csv (examples_more2.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=64mm, ymode=log,
+      xlabel={سال}, ylabel={مقاومتِ عایقی، $\text{M}\Omega$},
+      xmin=0, xmax=10, ymin=50, ymax=10000, xtick={0,2,...,10},
+      ytick={100,1000,10000}, yticklabels={$100$,$1000$,$10\,000$}]
+    \addplot[sLoad, mark=*, mark size=1.2pt] table[x=year, y=raw, col sep=comma] {data/ch08-ir.csv};
+    \addlegendentry{خام}
+    \addplot[sInk, mark=square*, mark size=1.2pt] table[x=year, y=corr, col sep=comma] {data/ch08-ir.csv};
+    \addlegendentry{تصحیح‌شده به $40\,^\circ\text{C}$}
+    \addplot[sLimit] table[x=year, y=trend, col sep=comma] {data/ch08-ir.csv};
+    \addlegendentry{روند}
+    \draw[cLoss, densely dashed] (axis cs:8.5,50) -- (axis cs:8.5,10000);
+    \node[note, text=cInk, anchor=north east] at (axis cs:8.4,9000) {جدایی از روند: سالِ ۸٫۵};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,12 @@
+checks that need qualified people (not the traveler's author)
+  tower design and its load set      turbine maker's structural engineer
+  design verification                independent verifier / certification body
+  welding procedures (WPS/PQR)       welding engineer; witnessed qualification
+  welder qualifications              examiner of the qualification body
+  NDT procedures and results         NDT level 3 (procedures), level 2 (tests)
+  concessions (out-of-tolerance)     designer, in writing, before release
+  coating                            certified coating inspector
+  release of the section             client's inspector, final hold point
+  the traveler records what was done; these people decide
+  whether it is good enough - their names and certificates
+  are part of the data book

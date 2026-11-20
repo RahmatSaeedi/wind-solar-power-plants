@@ -1,0 +1,10 @@
+active part of 44.2 t in its tank on the road and the ship
+  design accelerations (teaching): along 3 g, across 1 g, vertical 2 g
+  direction   force on the bracing MN
+  along                       1.30
+  across                      0.43
+  vertical                    0.87
+  the bracing inside the tank holds the active part against
+  these; an impact over the recorder's limit means the
+  bracing may have moved - the recorder and the frequency
+  response at site are how that is known (lesson E)

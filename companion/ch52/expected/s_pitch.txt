@@ -1,0 +1,9 @@
+pitch-cabinet mean temperature and expected battery life
+  (teaching 6 years at 25 C, halving each 10 K)
+  T03 (fan seized)    41.0 C  life  2.0 years
+  T05                 30.0 C  life  4.2 years
+  T07                 29.0 C  life  4.5 years
+  T11                 31.0 C  life  4.0 years
+  T03's batteries live 47% as long as the others': the repeat failures
+  of lesson C are the cabinet fan, not the batteries - the
+  corrective action is the fan and a temperature alarm

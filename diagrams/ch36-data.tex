@@ -1,0 +1,16 @@
+% Chapter 36 - the life of an engineering record: created and classed, kept by its custodian, sent out
+% only for a purpose and until a date, archived readable, destroyed with a certificate (examples_e).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=24mm, minimum height=13mm, text width=22mm}]
+  \node[s, blkLoad] (c) at (12.0,0) {ساخت و رده‌بندی};
+  \node[s, blkWind] (k) at (9.0,0) {نگه‌داری نزدِ متولی};
+  \node[s, blkWarn] (t) at (6.0,0) {فرستادن برای یک هدف، تا یک تاریخ};
+  \node[s, blkBESS] (a) at (3.0,0) {بایگانیِ خواندنی، آزمونِ بازخوانی};
+  \node[s, blkPV] (d) at (0.0,0) {نابودی با گواهی};
+  \foreach \x/\y in {c/k, k/t, t/a, a/d} {\draw[flow] (\x) -- (\y);}
+  \draw[flowinfo] (t.south) -- ++(0,-0.7) -| (k.south);
+  \node[note, anchor=north] at (7.5,-1.5) {بازگرداندن یا پاک‌کردن پس از پایانِ هدف};
+\end{tikzpicture}
+\end{document}

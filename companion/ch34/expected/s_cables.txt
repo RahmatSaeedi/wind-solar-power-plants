@@ -1,0 +1,8 @@
+multicore cables from the I/O list (teaching sizes, 20 % spare)
+  analogue: 71 points in 12-pair, individually screened cables: 28 cables
+  digital (110 V DC): 229 points, two cores each, in 24-core cables: 33 cables
+  one item of equipment, one cable or more of its own:
+  a shared cable makes two items depend on one route and
+  one terminal box; analogue and digital never share,
+  and every cable is listed in the cable schedule with
+  its class, route and both terminations (ch 24 trays)

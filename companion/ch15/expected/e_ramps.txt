@@ -1,0 +1,10 @@
+hybrid ramps above 15 MW in one hour on the test months:
+  observed ramps: 324
+  forecast             hits  misses  false   POD    FAR
+  persistence, 1 h       34     290    258   0.10   0.88
+  weather-driven, 1 h   131     193    193   0.40   0.60
+  weather-driven, 24 h  139     185    278   0.43   0.67
+  persistence only repeats a ramp one hour late, so it catches
+  few; the weather-driven forecasts see many more, but often an
+  hour early or late (timing errors) and with false alarms;
+  ramp skill is scored separately from RMSE

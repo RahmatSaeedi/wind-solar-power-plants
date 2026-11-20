@@ -1,0 +1,6 @@
+conductor in the air gap of the geared generator (A-111):
+  B 0.9 T, active length 1.1 m
+  rotor diameter 0.8 m at 1155 rpm: surface speed 48.4 m/s
+  motional EMF e = B l v = 47.9 V per conductor (where B peaks)
+  1000 A in the same conductor: force F = B I l = 990 N; this
+  tangential force on every conductor is the machine's torque

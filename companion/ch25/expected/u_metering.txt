@@ -1,0 +1,12 @@
+revenue metering at low output: share of the year's energy by CT current
+  (CT 600/1 at the line bay, export up to 437 A; teaching shares)
+  current band (x rated)   amps         energy share
+   0.00 - 0.01               0-   6 A             2%
+   0.01 - 0.05               6-  30 A             6%
+   0.05 - 0.20              30- 120 A            17%
+   0.20 - 1.20             120- 720 A            75%
+  8 % of the energy passes below 5 % of the CT's rating (PV
+  mornings, light wind): a CT class accurate down to 1 % of
+  rating (the 'S' classes) keeps that energy measured within
+  its limits - the class is set by the grid operator's
+  metering rules; this table shows why it matters

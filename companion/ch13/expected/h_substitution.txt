@@ -1,0 +1,12 @@
+filling the 80 m records the QC removed (shadow, wear) and checking
+  each method against the true 80 m speed (synthetic, so known):
+  method                               bias       rms error
+  profile of the same record (60/100)   -0.00 %    0.000 m/s
+  shear by hour from 100 m              +0.09 %    0.068 m/s
+  line fitted on clean 80/100 records   +0.28 %    0.168 m/s
+  records filled: 27,361
+  the same-record profile is exact here only because the synthetic
+  profile is a pure power law; on real data it is still the best
+  start, as it carries the hour's stability, and its error is
+  measured on clean records; filled values are flagged
+  'substituted' and never count as measured data recovery

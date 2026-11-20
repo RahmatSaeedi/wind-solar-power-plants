@@ -1,0 +1,20 @@
+% Chapter 24 - a teaching medium-voltage panel with four compartments (low-voltage, busbar, breaker,
+% cable) and where each piece of factory and site evidence belongs (worked example 2).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    cmp/.style={draw=cInkB, line width=0.6pt, fill=cFill, align=center},
+    ev/.style={note, anchor=west, text width=60mm}]
+  \draw[line width=1pt] (0,0) rectangle (4,8);
+  \node[cmp, minimum width=40mm, minimum height=15mm] (lv) at (2,7.25) {محفظهٔ فشارِ ضعیف\\رله، اندازه‌گیری، سیم‌کشی};
+  \node[cmp, minimum width=40mm, minimum height=15mm, fill=cInkB!12] (bb) at (2,5.75) {محفظهٔ شینه};
+  \node[cmp, minimum width=40mm, minimum height=20mm, fill=cBESS!12] (cb) at (2,3.75) {محفظهٔ قطع‌کننده\\(خلأ، مکانیزمِ فنری)};
+  \node[cmp, minimum width=40mm, minimum height=27mm, fill=cPV!10] (cc) at (2,1.35) {محفظهٔ کابل\\سرکابل، $\mathrm{CT}$\\کلیدِ زمین};
+  \node[ev] at (4.5,7.25) {کارخانه: آزمونِ کارکردِ مدارها؛ محل: تنظیمِ رله، آزمونِ مدارِ قطع};
+  \node[ev] at (4.5,5.75) {کارخانه: آزمونِ نوعیِ کوتاه‌مدت و قله؛ روزمره: ولتاژ، مقاومتِ مدارِ اصلی};
+  \node[ev] at (4.5,3.75) {کارخانه: مکانیزم و اینترلاک؛ محل: کارکردِ قطع و وصل};
+  \node[ev] at (4.5,1.35) {محل: رکوردِ سرکابل، آزمونِ کابل، کارکردِ کلیدِ زمین};
+  \draw[cLoss, line width=0.8pt, dashed] (-0.3,-0.3) rectangle (4.3,8.3);
+  \node[note, text=cLoss, anchor=east] at (-0.4,4) {گواهیِ قوسِ داخلی (نوعی)};
+\end{tikzpicture}
+\end{document}

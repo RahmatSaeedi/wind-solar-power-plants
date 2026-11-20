@@ -1,0 +1,8 @@
+soiling station, synthetic year (seed 41, A-195):
+  rain days 18 (heavy 14); mean soiling loss without cleaning 8.47 %
+  worst day 29.3 % (day 310)
+  rain-free spells of 10+ days: 7
+  estimated rate, dry season 0.294 %/day (true 0.300)
+  estimated rate, wet season 0.127 %/day (true 0.100)
+  the station measures the soiling of its own glass and place:
+  dust varies across a large plant, so two or more stations

@@ -1,0 +1,7 @@
+gate log of 2027-09-01 against the induction register (365-day validity)
+  W-0188: induction of 2026-08-20 expired
+  W-0233: registered, never inducted
+  W-0240: not in the induction register
+  3 of 7 people inside without a valid induction:
+  the gate is where the induction register is enforced, and
+  the muster count (ch 32) is only as good as the gate log

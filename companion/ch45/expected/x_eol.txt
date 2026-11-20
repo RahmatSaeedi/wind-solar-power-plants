@@ -1,0 +1,15 @@
+end-of-line tests of a module against its 9 parts
+  test                                      reaches
+  OCV of every cell                         cells, sense wires
+  pulse resistance of the module            cells, welds, busbars
+  resistance of every weld                  welds
+  insulation to frame                       insulation sheet
+  sense-line self-test                      sense wires
+  sensor plausibility at room temperature   temperature sensors
+  label scan against the record             label and lot
+  parts no test reaches: compression frame, cooling contact
+  the frame's force is recorded at assembly but not tested at
+  the end, and nothing shows that the cells touch the cooling
+  plate - a thermal test at load (or a check of the gap pad's
+  compression) closes the gap; the same tree-against-tests
+  check as for inverters (ch 44)

@@ -1,0 +1,16 @@
+weights from a swing-weighting interview (developer, teaching):
+  criterion          points  weight   developer set
+  energy                100    0.30           0.30
+  cost incl. grid        80    0.24           0.25
+  time to COD            50    0.15           0.15
+  grid readiness         35    0.10           0.10
+  environment            20    0.06           0.05
+  social                 20    0.06           0.05
+  constructability       30    0.09           0.10
+  totals: P-North 0.30, P-Central 0.76, P-South 0.55
+  if the energy range shrank to 295-330 GWh the swing is 51% as large:
+  energy points 51, weight 0.30 -> 0.18
+  a weight answers 'how much does moving from the worst to the
+  best option on this criterion matter?' - it depends on the
+  range of the options, so weights are re-asked when the set
+  of options changes

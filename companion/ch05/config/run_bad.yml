@@ -1,0 +1,17 @@
+# A configuration with typical mistakes, used to test the schema check.
+run_id: plp ch05
+data_release: 1.1
+scenario: S2
+pv:
+  dc_mwp: 60000
+  ac_mw: 50
+  noct_c: 45
+  gamma_per_k: -0.35
+  k_other: 0.90
+wind:
+  turbines: 12.5
+  loss: 0.12
+  density_correction: "yes"
+export_limt_mw: 100
+outputs:
+  folder: companion/ch05/output/bad

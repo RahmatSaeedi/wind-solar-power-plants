@@ -1,0 +1,8 @@
+replacing the 10 inverters: efficiency 0.978 -> 0.986
+  energy gained 818 MWh a year; repairs avoided 720 k u a year;
+  downtime avoided 1,920 MWh a year
+  value about 912 k u a year against 4,200 k u: payback 4.6 years
+  over the 7 years left at 7.5%: NPV +629 k u - it pays inside the
+  plant's life once the avoided repairs and downtime are counted;
+  lesson A's screen counted energy only and called it negative
+  - and support ends at year 21 whatever is decided (lesson B)

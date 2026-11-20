@@ -1,0 +1,6 @@
+commissioning record at the generator drive-end bearing (A-139):
+  amplitudes at 1x, 2x, 3x shaft speed (19.25 Hz): 0.80, 1.60, 0.40 (relative)
+  2x / 1x = 2.0: a large 2x line with an axial
+  component is the classic sign of misalignment; unbalance shows
+  mainly at 1x; the alignment report from installation is checked
+  and the coupling realigned by the installer (chapters 49, 50)

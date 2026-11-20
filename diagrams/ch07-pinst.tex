@@ -1,0 +1,22 @@
+% Chapter 7 - instantaneous power p(t) of one phase (230 V, 100 A, 30 deg lag), its mean P
+% and the reactive amplitude Q. Data: diagrams/data/ch07-pinst.csv (companion/ch07/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=64mm,
+      xlabel={زمان، $\text{ms}$}, ylabel={توان، $\text{kW}$},
+      xmin=0, xmax=20, ymin=-8, ymax=50, xtick={0,2.5,...,20}, ytick={0,10,...,40},
+      xticklabels={$0$,$2.5$,$5$,$7.5$,$10$,$12.5$,$15$,$17.5$,$20$}]
+    \addplot[sLoad] table[x=t_ms, y=p, col sep=comma] {data/ch07-pinst.csv};
+    \addlegendentry{توانِ لحظه‌ای $p(t)$}
+    \addplot[sInk, dash pattern=on 4pt off 2pt] table[x=t_ms, y=pbar, col sep=comma] {data/ch07-pinst.csv};
+    \addlegendentry{میانگین $P$}
+    \draw[cRule, line width=0.6pt] (axis cs:0,0) -- (axis cs:20,0);
+    \node[note, anchor=south west, text=cInk] at (axis cs:0.3,20.5) {$P = 19.92\ \text{kW}$};
+    \draw[dimline] (axis cs:15.4,19.92) -- (axis cs:15.4,42.91);
+    \node[note, anchor=west] at (axis cs:15.7,32) {$S = 23.0$};
+    \fill[cLoss!30] (axis cs:10,0) -- (axis cs:10.833,-3.08) -- (axis cs:11.667,0) -- cycle;
+    \node[note, anchor=north west] at (axis cs:11.8,-0.4) {انرژیِ برگشتی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

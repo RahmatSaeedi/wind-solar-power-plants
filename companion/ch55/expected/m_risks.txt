@@ -1,0 +1,25 @@
+country risk register of Plant P - Iran (TEACHING scores 1-5)
+  id   L  I  score  owner             fact
+  R06  4  5     20  counsel           IR-40
+       sanctions block equipment, payment or lenders
+  R08  4  5     20  commercial lead   IR-38
+       PPA terms unknown, revenue a range
+  R02  4  4     16  grid engineer     IR-17
+       connection voltage other than 132 kV
+  R01  3  4     12  permitting lead   IR-10
+       the 1402 bylaw lapsed, routes reopen
+  R03  4  3     12  grid engineer     IR-19
+       no published connection requirements
+  R07  3  4     12  finance lead      IR-39
+       FX allocation for imports delayed
+  R04  2  5     10  permitting lead   IR-24
+       land returned if works do not start in a year
+  R05  3  3      9  commercial lead   IR-18
+       curtailment 'within capacity' without pay
+  R09  3  3      9  procurement       IR-31
+       national certificate needed after ordering
+  R10  2  3      6  E&S manager       IR-48
+       heritage find during works, no procedure
+  score 16 and above: R06, R08, R02 - each carries an action
+  (a letter, a design option, counsel) and a date; the scores
+  are teaching values, the facts behind them are sourced

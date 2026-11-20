@@ -1,0 +1,9 @@
+package strategy: contracts, interfaces between them, relative price
+  strategy              contracts   interfaces   price   owner's risk
+  single EPC                   1            0    1.00   low
+  EPC + turbine OEM            2            1    0.97   medium
+  five packages                5           10    0.93   high
+  every split saves margin and adds interfaces the owner must
+  manage; with n packages there are up to n(n-1)/2 of them.
+  The split follows the owner's ability to manage interfaces
+  (ch 18, ch 38), not only the price

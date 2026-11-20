@@ -1,0 +1,7 @@
+Plant P's monthly energy (model 15.1, data-pack site) against a
+hydro system that is long in summer and short in winter
+  net 295.2 GWh; May-Sep 124.7 (42%); Oct-Mar 146.0 (49%)
+  share in May-Sep: wind 39%, PV 48%
+  the energy the system needs most (winter) and the energy it
+  may curtail (summer, high water) - the PPA decides who bears
+  the summer risk (TJ-26, TJ-27; profile from the data-pack site)

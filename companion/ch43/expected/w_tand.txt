@@ -1,0 +1,9 @@
+insulation loss factor (tan delta) of the windings referred to
+  20 C with a teaching factor exp(-0.024 (T - 20))
+  reading      at C   at 20 C
+  0.0042        32   0.0031
+  0.0031        24   0.0028
+  two readings that look far apart come close once both are
+  referred to 20 C: the factory value and every later site
+  value are compared at one temperature - the correction
+  curve is the insulation's and the test set maker's

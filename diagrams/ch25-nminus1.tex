@@ -1,0 +1,18 @@
+% Chapter 25 - hot spot of the remaining main transformer after a step from 0.7 pu to 1.2, 1.3 and
+% 1.5 pu at 35 C air (closed form of the two first-order responses of
+% companion/ch25/examples_k.py: top oil 180 min, winding 7 min), with the 140 C teaching limit.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=106mm, height=62mm, xmin=0, xmax=480, ymin=80, ymax=180,
+      xlabel={زمان پس از جهشِ بار $(\text{min})$}, ylabel={نقطهٔ داغ $(^\circ\text{C})$},
+      xtick={0,60,...,480}, xmajorgrids=true, legend columns=3]
+    \addplot[sWind, domain=0:480, samples=120] {35 + 67.2 + (32.8-67.2)*exp(-x/180) + 34.8 + (14.7-34.8)*exp(-x/7)};
+    \addplot[sPV, domain=0:480, samples=120] {35 + 75.4 + (32.8-75.4)*exp(-x/180) + 39.6 + (14.7-39.6)*exp(-x/7)};
+    \addplot[sLoss, domain=0:480, samples=120] {35 + 93.2 + (32.8-93.2)*exp(-x/180) + 49.7 + (14.7-49.7)*exp(-x/7)};
+    \legend{$1.2\,\text{pu}$, $1.3\,\text{pu}$, $1.5\,\text{pu}$}
+    \draw[sLimit] (axis cs:0,140) -- (axis cs:480,140);
+    \node[note, anchor=south east] at (axis cs:475,140.5) {حدِ آموزشیِ $140\,^\circ\text{C}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,6 @@
+what source inspection is worth over the eight packages
+  chance of a systematic fault in a package: 5%; cost
+  if it reaches site: 400 k u; found at the factory: 60%
+  expected saving: 96 k u; inspection: 27 days x 1.2 = 32 k u
+  inspection pays here because a site fault is costly; it
+  does not replace the factory's own control - it checks it

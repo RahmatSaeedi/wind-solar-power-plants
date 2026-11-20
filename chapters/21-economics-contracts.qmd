@@ -1,0 +1,144 @@
+# اقتصادِ پروژه و قراردادها {#sec-ch21}
+
+## نقشهٔ فصل {#sec-ch21-map}
+
+::: {.callout-note}
+## اهدافِ یادگیری
+پس از این فصل، خواننده می‌تواند:
+
+1. هزینه‌های سرمایه‌ای، بهره‌برداری، جایگزینی و برچیدن را با تنزیل، تورم و ارز در یک جریانِ نقد بیاورد و اسمی و واقعی را درست به کار برد.
+2. اقتصادِ پروژه (آیا ارزش ساخته می‌شود) را از تأمینِ مالیِ پروژه (چگونه پول تأمین و بازپرداخت می‌شود) جدا کند و ارزشِ فعلیِ خالص، نرخِ بازده، هزینهٔ ترازشده و محدودیت‌هایشان را به کار برد.
+3. شکل‌های قراردادِ خرید، کاهشِ تولید، ضمانت‌ها و خسارت‌های مقطوع را به‌شکلِ مفهوم‌های تجاری (نه مشاورهٔ حقوقی) تحلیل و ریسک‌ها را میانِ طرف‌ها تخصیص دهد.
+4. یک مدلِ دوره‌ایِ ممیزی‌پذیرِ جریانِ نقد بسازد که از انرژی تا خدمتِ بدهی را با ثبت‌نامهٔ فرض‌ها و بررسی‌های خودکار پیوند دهد؛ و [DSCR]{.ltr} و [LLCR]{.ltr} را با تعریف‌های صریح دوره به
+   دوره حساب و مستقل وارسی کند.
+5. بدهی را با پوشش، مدت، نرخ و سقفِ اهرم اندازه کند؛ تعهدها و اندوخته‌ها را توضیح دهد؛ و حالت‌های تنش و سربه‌سر را برای تأخیر، هزینه، تولید، قیمت، خریدار، ارز، نرخ، جایگزینی، آب و کاهشِ
+   تولید بسنجد.
+6. راه‌های درآمد را جدا کند، درآمدِ خدمت و کربن را فقط با شاهد یا به‌شکلِ حساسیتِ برچسب‌دار بیاورد، بررسیِ دقیقِ فنیِ وام‌دهنده و نقشِ مهندسِ مستقل را بشناسد، و نشان دهد چرا کمترین هزینه،
+   بیشترین بازده یا یک [P90]{.ltr} به‌تنهایی بانک‌پذیری نمی‌سازد.
+:::
+
+**پیش‌نیازها:** ارزشِ زمانیِ پول و نرخِ بازده (@sec-ch05)، عدمِ قطعیتِ تولید و [P90]{.ltr} (@sec-ch16)، معماری و هزینه‌های غربالگری (@sec-ch18)، باتری (@sec-ch19) و کنترل و خدمت‌ها (@sec-ch20).
+
+::: {.callout-tip}
+## پیش‌آزمون
+1. ارزشِ فعلیِ [110]{.ltr} واحد در یک سال با نرخِ [10 %]{.ltr} چیست؟
+2. اگر هزینهٔ [100]{.ltr} و درآمدِ خالصِ سالانه [15]{.ltr} باشد، بازگشتِ ساده چند سال است؟
+3. وامِ [100]{.ltr} با بهرهٔ [6 %]{.ltr}: بهرهٔ سالِ اول چقدر است؟
+4. اگر جریانِ نقدِ سالی [120]{.ltr} و خدمتِ بدهی [100]{.ltr} باشد، نسبتِ پوشش چیست؟
+5. [P90]{.ltr} یعنی چه؟
+
+پاسخ‌ها: (۱) [100]{.ltr}؛ (۲) حدودِ [6.7]{.ltr} سال؛ (۳) [6]{.ltr}؛ (۴) [1.2]{.ltr}؛ (۵) مقداری که با احتمالِ [90 %]{.ltr} از آن بیشتر می‌شود (فصلِ ۱۶). اگر دو پرسش یا بیشتر را نتوانستید، @sec-ch05 و
+@sec-ch16 را مرور کنید.
+:::
+
+**جایگاهِ این فصل در نیروگاهِ P.** فصل‌های پیشین گفتند نیروگاه چه می‌سازد، چقدر و با چه عدمِ قطعیتی. این فصل می‌پرسد **آیا می‌ارزد** و **چگونه پولش فراهم می‌شود**: از هزینهٔ هر قلم تا جدولِ
+خدمتِ بدهی، از قراردادِ خرید تا شرط‌های پیشینِ وام. تحویل‌دادنی: مدلِ آزموده‌شدهٔ جریانِ نقد و خدمتِ بدهی، دفترِ بررسیِ دقیق و ماتریسِ ریسکِ قرارداد و تأمینِ مالی، با تصمیمِ [D-025]{.ltr}.
+
+::: {.callout-warning}
+## مرزِ این فصل
+همهٔ هزینه‌ها، تعرفه‌ها، نرخ‌ها، شرط‌های وام، سطح‌های پوشش و تعهد، نرخِ مالیات و قاعدهٔ استهلاک **آموزشی** یا **نمونه‌ای**اند ([A-304]{.ltr} تا [A-310]{.ltr}) و قیمتِ بازار، قانونِ
+مالیاتیِ هیچ کشور یا شرطِ هیچ وام‌دهنده‌ای نیستند. مطالبِ قراردادی **مفهوم‌های تجاری**اند و مشاورهٔ حقوقی نیستند. هیچ بازارِ خدمت، طرحِ کربن یا انگیزه‌ای در هیچ کشوری **موجود فرض نمی‌شود**؛
+این درآمدها فقط با شاهدِ تأییدشده یا به‌شکلِ حساسیتِ برچسب‌دار می‌آیند.
+:::
+
+{{< include /chapters/21/_21-a-costs.qmd >}}
+
+{{< include /chapters/21/_21-a2-timevalue.qmd >}}
+
+{{< include /chapters/21/_21-a3-construction.qmd >}}
+
+{{< include /chapters/21/_21-a4-water.qmd >}}
+
+{{< include /chapters/21/_21-a5-indexation.qmd >}}
+
+{{< include /chapters/21/_21-b-measures.qmd >}}
+
+{{< include /chapters/21/_21-b2-lcoe.qmd >}}
+
+{{< include /chapters/21/_21-b3-tariffs.qmd >}}
+
+{{< include /chapters/21/_21-b4-sensitivity.qmd >}}
+
+{{< include /chapters/21/_21-b5-montecarlo.qmd >}}
+
+{{< include /chapters/21/_21-b6-option.qmd >}}
+
+{{< include /chapters/21/_21-b7-payback.qmd >}}
+
+{{< include /chapters/21/_21-b8-bid.qmd >}}
+
+{{< include /chapters/21/_21-b9-battery.qmd >}}
+
+{{< include /chapters/21/_21-c-contracts.qmd >}}
+
+{{< include /chapters/21/_21-c2-guarantees.qmd >}}
+
+{{< include /chapters/21/_21-c3-risk.qmd >}}
+
+{{< include /chapters/21/_21-c4-insurance.qmd >}}
+
+{{< include /chapters/21/_21-c5-spares.qmd >}}
+
+{{< include /chapters/21/_21-c6-types.qmd >}}
+
+{{< include /chapters/21/_21-c7-adjust.qmd >}}
+
+{{< include /chapters/21/_21-d-lab.qmd >}}
+
+{{< include /chapters/21/_21-d2-alternatives.qmd >}}
+
+{{< include /chapters/21/_21-d3-audit.qmd >}}
+
+{{< include /chapters/21/_21-d4-statements.qmd >}}
+
+{{< include /chapters/21/_21-d5-overbuild.qmd >}}
+
+{{< include /chapters/21/_21-e-pathways.qmd >}}
+
+{{< include /chapters/21/_21-e2-services.qmd >}}
+
+{{< include /chapters/21/_21-e3-payment.qmd >}}
+
+{{< include /chapters/21/_21-e4-diligence.qmd >}}
+
+{{< include /chapters/21/_21-e5-self.qmd >}}
+
+{{< include /chapters/21/_21-e6-stacking.qmd >}}
+
+{{< include /chapters/21/_21-e7-curtail.qmd >}}
+
+{{< include /chapters/21/_21-e8-connection.qmd >}}
+
+{{< include /chapters/21/_21-f-model.qmd >}}
+
+{{< include /chapters/21/_21-f2-schedule.qmd >}}
+
+{{< include /chapters/21/_21-f3-sizing.qmd >}}
+
+{{< include /chapters/21/_21-f4-covenants.qmd >}}
+
+{{< include /chapters/21/_21-f5-hedge.qmd >}}
+
+{{< include /chapters/21/_21-f6-mechanics.qmd >}}
+
+{{< include /chapters/21/_21-f7-extras.qmd >}}
+
+{{< include /chapters/21/_21-f8-currency.qmd >}}
+
+{{< include /chapters/21/_21-f9-terms.qmd >}}
+
+{{< include /chapters/21/_21-g-stress.qmd >}}
+
+{{< include /chapters/21/_21-g2-breakeven.qmd >}}
+
+{{< include /chapters/21/_21-g3-cp.qmd >}}
+
+{{< include /chapters/21/_21-g4-delay.qmd >}}
+
+{{< include /chapters/21/_21-g5-projectmc.qmd >}}
+
+{{< include /chapters/21/_21-g6-close.qmd >}}
+
+{{< include /chapters/21/_21-y-plantp.qmd >}}
+
+{{< include /chapters/21/_21-z-assessment.qmd >}}

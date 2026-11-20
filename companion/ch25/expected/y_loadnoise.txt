@@ -1,0 +1,14 @@
+load noise against core noise (sound power, teaching):
+  core (no-load) 72 dB(A) at any load; winding (load) noise
+  68 dB(A) at rated current, changing as 40 log10(I / In)
+  load pu   load noise   total dB(A)
+     0.35         49.8          72.0
+     0.60         59.1          72.2
+     0.80         64.1          72.7
+     1.00         68.0          73.5
+     1.15         70.4          74.3
+  at night (wind only, about 0.35 pu) the core sets the level;
+  at rated load the windings add 1.5 dB, at 1.15 pu 2.3 dB - the night
+  limit is met by the core's design (flux density, steel,
+  joints), the day limit by both; the guarantee covers both
+  parts, measured in the factory

@@ -1,0 +1,8 @@
+fan control of a main transformer on the data-pack year (top oil on 65 C,
+  off 55 C; ONAN steady model; teaching)
+  top oil above 65 C or load above the ONAN rating: fans run 532 h, 83 starts
+  hours above the ONAN rating: 187; fan energy 4.7 MWh a year
+  highest top oil 97 C (hour 4717)
+  the band between on and off keeps the fans from hunting; a
+  failed fan group is an alarm and, above the ONAN rating, a
+  load limit sent to the plant controller (ch 20, ch 23)

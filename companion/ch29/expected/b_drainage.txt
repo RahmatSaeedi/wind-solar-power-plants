@@ -1,0 +1,13 @@
+the site road crossing the wadi: design flow and culverts
+  catchment 3.2 km2, flow length 2.5 km, slope 1 %
+  time of concentration (Kirpich) 47 min
+  return yrs   1-h rain mm   intensity at tc mm/h   peak Q m3/s   0.9 m pipes
+         10          21.6                   24.8           7.7             8
+         25          24.8                   28.6           8.9            10
+         50          27.3                   31.4           9.8            10
+  one 0.9 m corrugated pipe at 1 % carries 0.98 m3/s full
+  (C 0.35, intensity scaled from the 1-hour value by
+  (60/tc)^0.6 - both teaching); a ford or a box culvert
+  may be cheaper than a row of pipes - and the road must
+  survive the storm it is not designed for (overtopping
+  path, scour protection)

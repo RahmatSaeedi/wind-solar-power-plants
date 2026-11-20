@@ -1,0 +1,11 @@
+soil loss from disturbed ground (USLE, R 300, K 0.30; teaching)
+  surface                          slope %   length m   LS     C     t/ha/yr
+  road cut, bare, construction          15         20   2.07   1.00     186.6
+  pad fill slope, bare                  30          8   4.07   1.00     366.7
+  PV block, graded, bare                 1        100   0.18   1.00      16.6
+  PV block, reinstated cover             1        100   0.18   0.15       2.5
+  road cut, reinstated                  15         20   2.07   0.20      37.3
+  steep, bare cut slopes lose the most; reinstating cover
+  cuts the loss by five to seven times - sediment control
+  (lesson C) is planned for the bare months, and the PV
+  block is graded as little as possible

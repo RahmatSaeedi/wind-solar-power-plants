@@ -1,0 +1,5 @@
+bifacial module, rear irradiance 12 % of GHI (albedo, row gaps; A-187):
+  bifaciality 0.70: effective gain 7.6 % of front POA
+  the gain depends on ground albedo, table height, row spacing and
+  shading of the rear by the structure: a model and a measurement
+  campaign, not a data-sheet number, set the design value

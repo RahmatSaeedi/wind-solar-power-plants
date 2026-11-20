@@ -1,0 +1,26 @@
+fictional defect: lot L4507, metal particle in the winding area;
+  followed through the records
+  step                       should record
+    recorded -> verdict
+  cell maker: rest test      14-day K of every cell
+    7-day K for L4507 -> deviation
+  cell maker: lot release    K file with the lot
+    file sent -> ok
+  integrator: receiving      sample checks the file
+    rest time not read; 50 cells, no find -> blind
+  integrator: module build   cell IDs per module
+    recorded -> ok
+  integrator: BMS config     limits = cell data
+    t_charge_max 58 C -> deviation
+  site acceptance            OCV spread after rest
+    not in the test plan -> gap
+  operation, month 3         balancing duty by module
+    duty of 1 module high -> signal
+  incident learning          trace to lot and cells
+    L4507-0412 in C5-R03-M2 -> ok
+  lifecycle record           replacements, cause, lot
+    updated -> ok
+  deviation 2, ok 4, blind 1, gap 1, signal 1
+  two deviations (rest time, a BMS limit), a blind sample and
+  one gap (no OCV check at acceptance) let the defect reach the
+  site; the records let it be traced in hours once it showed

@@ -1,0 +1,12 @@
+two day-ahead forecasts used to sell the plant's output
+  imbalance price (teaching): short 30 u/MWh, long 10 u/MWh
+  forecast   RMSE MW   bias MW   imbalance cost k u/yr
+  A             8.56      3.01                  1,464
+  B            10.76     -3.85                  1,158
+  A has the lower RMSE; B is the cheaper one to sell with:
+  with short positions costing three times long ones, a
+  forecast that leans low sells less than the plant
+  delivers and pays the cheap price. Skill and money are
+  different measures; the plant reports both and never
+  calls either a guarantee of what dispatch or delivery
+  will be

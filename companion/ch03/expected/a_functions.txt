@@ -1,0 +1,8 @@
+PV screening model P(G) = min(60 x G/1000 x 0.85 x 0.98, 50) MW: piecewise
+    linear
+  slope below the knee: 49.980 MW per 1000 W/m2
+  knee at G = 50 / (60 x 0.833) x 1000 = 1000.4 W/m2
+wind power curve: cut-in 3.0 m/s, rated from 13.0 m/s, table ends at 30.0 m/s
+  P(8.25 m/s) by linear interpolation = 2769.5 kW
+  P(26 m/s) is outside the table: lerp_table(..., outside='zero') -> 0 kW
+    (cut-out)

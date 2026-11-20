@@ -1,0 +1,8 @@
+10,000 round trips of a set point to the PPC and back (synthetic)
+  mean 65 ms   95th percentile 93 ms   99th percentile 291 ms
+  a requirement of 'under 200 ms' is met on average and by 98.2 %
+    of the round trips
+  the rare slow trips come from queues behind bulk traffic;
+  a latency requirement names its percentile and its
+  window, and the acceptance test measures that percentile
+  over enough trips to see the tail (lesson A, latency)

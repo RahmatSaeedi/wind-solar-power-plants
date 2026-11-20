@@ -1,0 +1,7 @@
+E01 axles, 100 t on 10 axles, 10 % on tractor: 114 / 118 kN
+E02 bridge, 1,500 kN over 10 m on a 20 m span, allowed 6,000 kN m: 0.94
+E03 convoy, 150 km at 50 and 10 km at 10 with 1 h stops: 5.0 h
+E04 crane capacity at 18 m: 194 t
+E05 wind on 100 m2 at 10 m/s, Cd 1.2: 7.3 kN
+E06 desiccant, 8 m3 for 6 months: 12.0 kg
+E07 response, 40 km at 60 km/h, 10 + 20 min: 70 min

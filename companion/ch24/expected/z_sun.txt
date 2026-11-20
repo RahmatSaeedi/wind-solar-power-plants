@@ -1,0 +1,10 @@
+sunlight against current on cables outdoors (1,000 W/m2, teaching):
+  cable                              sun W/m   own loss W/m   sun share
+  PV string 6 mm2, 13 A                  4.5            0.8         85%
+  LV 4 x 95 mm2 on a tray, 200 A        24.0           35.1         41%
+  33 kV 240 mm2 riser, 276 A            39.0           36.6         52%
+  a thin PV cable is heated far more by the sun than by its
+  current: its insulation is rated for high temperature and
+  its rating assumes the sun; a riser or tray in the sun loses
+  part of its rating too - shade, a cover with air gap, or a
+  lighter colour, and the rating method's solar term

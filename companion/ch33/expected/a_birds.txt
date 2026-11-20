@@ -1,0 +1,13 @@
+raptor collisions near the nest (teaching collision estimate)
+  6000 passages a year near the nest, falling as exp(-d / 900 m); p 0.08,
+    avoidance 0.98
+  turbine   distance to nest m   passages/yr   collisions/yr
+  T06                    1885           739           1.182
+  T05                    2180           532           0.852
+  T04                    2583           340           0.544
+  T11                    2952           226           0.361
+  all twelve: about 4.8 collisions a year, 120 over 25 years
+  far more than a long-lived raptor with a few pairs in
+  the region can absorb; the four nearest turbines carry 61 % - siting, a
+  seasonal shutdown in the breeding months or an observer
+  system are the options (study first: U-113)

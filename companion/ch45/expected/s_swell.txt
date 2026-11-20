@@ -1,0 +1,10 @@
+module of 52 prismatic cells (72 mm) held by straps (teaching stiffnesses)
+  cell growth   free stack growth mm   strap force kN
+           0%                    0.0             10.0
+           1%                   37.4             13.6
+           3%                  112.3             20.8
+           5%                  187.2             28.0
+  cells swell with age; a frame that is too stiff loads them
+  and itself, one that is too soft lets them separate from
+  the cooling plate - the frame is designed for end-of-life
+  growth, and the compression force at assembly is recorded

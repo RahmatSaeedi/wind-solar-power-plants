@@ -1,0 +1,7 @@
+load-shed matrix: what each supply can keep (kVA available):
+  one transformer (250 kVA): keeps 13 loads (167 kVA), sheds 0
+  generator 150 kVA: keeps 7 loads (80 kVA), sheds 0
+  generator derated 50 %: keeps 6 loads (73 kVA), sheds 1
+    shed: substation lighting and security
+  priorities, not sizes, decide what stays: the UPS and the
+  DC chargers are priority 1 and stay in every case

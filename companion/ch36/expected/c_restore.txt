@@ -1,0 +1,10 @@
+how often to test a restore (teaching: 2 % a month a backup breaks silently)
+  test every   chance the latest backup is broken when needed
+     1 months          2.0 %
+     3 months          4.0 %
+    12 months         12.3 %
+    36 months         31.2 %
+  a backup that was never restored is a hope, not a
+  control; a quarterly restore on a test bench keeps the
+  chance of finding a broken one in an emergency small,
+  and each test is recorded with its time (lesson C)

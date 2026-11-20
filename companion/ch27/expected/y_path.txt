@@ -1,0 +1,17 @@
+a dip at the POC as seen further into the plant (magnitudes, pu)
+  case / place                    phase a   phase b   phase c   pos. seq
+  single-phase fault (0.3 pu)
+    POC 132 kV (phase-earth)          0.30      1.00      1.00       0.77
+    33 kV bus (after YNd11)           0.68      1.00      0.68       0.77
+    unit 600 V (after Dyn)            0.91      0.91      0.53       0.77
+  phase-to-phase fault
+    POC 132 kV (phase-earth)          1.00      0.50      0.50       0.50
+    33 kV bus (after YNd11)           0.87      0.00      0.87       0.50
+    unit 600 V (after Dyn)            0.50      0.50      1.00       0.50
+  one deep phase at the POC becomes two moderate ones at
+  33 kV and one deeper one again at 600 V; a phase-to-phase
+  fault looks deeper at 33 kV (one phase at zero) than at
+  the POC; the positive sequence (what most converters
+  control) is the same at every level - a ride-through
+  check states which voltage it uses (lowest phase, line-
+  to-line or positive sequence) and where

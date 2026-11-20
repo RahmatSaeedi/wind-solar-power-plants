@@ -1,0 +1,16 @@
+earlier Plant P decisions that the Afghanistan dossier touches
+  D-025 finance            AF-29, AF-27
+  D-032 grid study         AF-10, AF-14
+  D-037 E&S basis          AF-34, AF-39
+  D-043 procurement        AF-41, AF-42
+  D-022 architecture       AF-11
+  D-024 control            AF-10
+  D-026 site               AF-39
+  D-029 transformers       AF-11
+  D-031 power quality      AF-14
+  D-033 civil and water    AF-17
+  D-035 logistics          AF-41
+  D-056 maintenance        AF-42
+  12 decisions; four carry two open facts each:
+  D-025 finance, D-032 grid study,
+  D-037 E&S basis, D-043 procurement - revised with a change record (ch 38)

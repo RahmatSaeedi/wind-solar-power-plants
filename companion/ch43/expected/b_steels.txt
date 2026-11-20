@@ -1,0 +1,11 @@
+the same 29.8 t core in three steels
+  (teaching W/kg at 1.7 T and building factors)
+  steel                  W/kg   BF     P0 kW   A x dP0   steel extra   net k u
+  conventional GO        1.15  1.22     41.8         0            0         0
+  high-permeability GO   0.90  1.12     30.0       -80           18       -63
+  domain-refined HGO     0.80  1.12     26.7      -103           36       -67
+  bid B's 42 kW is the conventional core; bid A's 28 kW is the
+  high-permeability one - the bids differ first in the steel
+  at A = 6.84 k u/kW the better steel repays its price several times;
+  bid A's 250 k u premium bought more than steel (ch 25: B won
+  at 70 u/MWh) - the evaluation sees totals, the review sees why

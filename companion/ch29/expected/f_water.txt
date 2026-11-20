@@ -1,0 +1,10 @@
+firewater volume = rate x duration (placeholders, U-105)
+  case                                  rate L/min   minutes   volume m3
+  main transformer, external cooling          3000        60         180
+  BESS container, exposure protection         1500       120         180
+  substation building                         1000        60          60
+  the largest single case sets the held reserve: about 180 m3
+  (if the strategy assumes one event at a time) - kept in
+  the tank of D-022 and never used for operations (lesson
+  G); whether water is used on a battery at all is the fire
+  strategy's and the product tests' call, not this table's

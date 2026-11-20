@@ -1,0 +1,6 @@
+E01 volts per turn, 1.7 T, 0.45 m2: 169.8 V
+E02 r and x of 63 MVA, Pk 250 kW, uk 12 %: 0.00397, 0.11993 pu
+E03 regulation at full load, pf 0.95: 4.76 %
+E04 efficiency at 0.37 load, pf 1: 99.704 %
+E05 hot spot at k 1.0, 30 C: 108 C; ageing 3.17
+E06 fault current through 63 MVA, z 0.12, at 33 kV: 9.19 kA

@@ -1,0 +1,15 @@
+% Chapter 50 - ramp-rate test from 1-second data: the controller ramps at 9 MW/min; a cloud edge
+% leaving the PV area adds about 12 MW in 30 s during the ramp (synthetic; companion/ch50/
+% examples_s.py, ramp -> diagrams/data/ch50-ramp.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=1800, ymin=10, ymax=110,
+      xlabel={زمان (s)}, ylabel={توانِ اکتیو (MW)}, xtick={0,300,...,1800}]
+    \addplot[sPV, line width=1pt] table[x=t, y=p, col sep=comma] {data/ch50-ramp.csv};
+    \draw[cInk!60, dashed] (axis cs:600,10) -- (axis cs:600,105);
+    \node[note, anchor=south west] at (axis cs:610,88) {لبهٔ ابر};
+    \node[note, anchor=west] at (axis cs:950,60) {شیبِ کنترل‌گر $9$ MW/min};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

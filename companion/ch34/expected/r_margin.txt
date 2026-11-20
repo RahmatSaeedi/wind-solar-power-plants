@@ -1,0 +1,13 @@
+phase margin of the tuned PI (kp 1.5, ki 0.8; park tau 2 s)
+  crossover frequency 0.765 rad/s; margin without delay 88.3 deg
+  cycle s   loop delay s (1.5 cycles)   margin deg   ch 34 step test
+      0.1                         0.15         81.7   no overshoot
+      0.5                         0.75         55.4   no overshoot
+      1.0                         1.50         22.5   22-28 % overshoot
+      2.0                         3.00        -43.3   unstable
+  a 45 deg margin allows 0.99 s of loop delay: a cycle of 0.66 s at most
+  (delay = one cycle of computing + half a cycle of hold)
+  a delay costs phase in proportion to the crossover
+  frequency, so the faster a loop is tuned, the less delay
+  it tolerates; the margin gives the same verdict as the
+  step tests of lesson B before any test is run

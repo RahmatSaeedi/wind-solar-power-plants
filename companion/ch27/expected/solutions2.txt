@@ -1,0 +1,22 @@
+P23 flicker, 6 turbines c 8, 5.5 MVA on 600 MVA: 0.180
+P24 Plt of twelve Pst of 0.4: 0.40
+P25 voltage THD of 2.0 % and 1.5 %: 2.5 %
+P26 time to 90 % recovery, tau 0.5 s: 1.12 s
+P27 measured: own 1.2 %, background 0.5 % over 0.40 pu: 1.73 %
+P28 Q at 0.95 pu voltage and 80 MW: 82.5 Mvar
+P29 unbalance margin, 1.2 % against 1.4 %: 14%
+P30 damping from peaks 2.0 and 1.6: 0.035
+P31 3p frequency at 10 rpm: 0.5 Hz
+P32 spread factor with k 6.6 at SCR 5: 0.43
+P33 CVT gain at the 9th, resonance near the 10th: 5.26
+P34 bus above POC at 50 MW, 0 Mvar: 0.24 %
+P35 Q at pf 0.95 and 100 MW: 32.9 Mvar
+P36 share reaching the grid at 5 kHz: 0.021
+P37 DC 0.5 % against magnetising peak (0.5 %): 0.71
+P38 series resonance from 132 kV with X_T 3.0 ohm: 4.14
+P39 unbalance, 30 km line at half current: 0.26 %
+P40 33 kV phases for a zero-volt fault at the POC: 0.577 (two), 1.000 (one)
+P41 dip 0.80 at SCR 5 with k 2: 0.865 pu
+P42 fault distance for 0.9 pu residual: 261 km
+P43 resonance with 12 units online: 10.1
+P44 aux board THD, 100 kW of drives with chokes: 4.0 %

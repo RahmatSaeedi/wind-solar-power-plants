@@ -1,0 +1,15 @@
+% Chapter 32 - funnel plot: each contractor's recordable rate against its hours, with the 95 %
+% Poisson band around the site mean (data/ch32-funnel.csv, ch32-funnelband.csv; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=30000, xmax=430000, ymin=0, ymax=16,
+      xlabel={ساعت‌های کار}, ylabel={نرخ در هر ۲۰۰٬۰۰۰ ساعت},
+      scaled x ticks=false, xticklabel style={/pgf/number format/fixed}]
+    \addplot[sLimit, no marks] table[x=hours, y=hi, col sep=comma] {data/ch32-funnelband.csv};
+    \addplot[sLimit, no marks] table[x=hours, y=lo, col sep=comma] {data/ch32-funnelband.csv};
+    \addplot[only marks, mark=*, mark size=2pt, color=cLoad] table[x=hours, y=rate, col sep=comma] {data/ch32-funnel.csv};
+    \node[note, anchor=west] at (axis cs:168000,11.2) {برپاییِ توربین};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

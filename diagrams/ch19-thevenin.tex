@@ -1,0 +1,14 @@
+% Chapter 19 - Thevenin equivalent circuit of a cell: open-circuit voltage source (a function of SOC),
+% series resistance R0 and one polarisation branch R1 parallel C1; terminal voltage v (teaching model).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \ctikzset{bipoles/length=0.9cm}
+  \draw (0,0) to[V, l={$V_\text{oc}(\text{SOC})$}] (0,3) to[R, l={$R_0$}] (3,3);
+  \draw (3,3) -- (3,3.8) to[R, l={$R_1$}] (5.5,3.8) -- (5.5,3);
+  \draw (3,3) -- (3,2.2) to[C, l_={$C_1$}] (5.5,2.2) -- (5.5,3);
+  \draw (5.5,3) to[short, -o, i={$i$}] (7.5,3);
+  \draw (0,0) to[short, -o] (7.5,0);
+  \draw[->] (8.0,0.2) -- node[right, text=cInk] {$v$} (8.0,2.8);
+\end{tikzpicture}}
+\end{document}

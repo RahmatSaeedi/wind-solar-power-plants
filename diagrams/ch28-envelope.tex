@@ -1,0 +1,22 @@
+% Chapter 28 - P-Q envelope at the POC: S0 at 25 C, S0 on a 45 C day (0.9 derating) and S1 with
+% the battery, giving (upper) and absorbing (lower), with a teaching +/-33 Mvar requirement from
+% 20 MW; data diagrams/data/ch28-envelope.csv from companion/ch28/examples_f.py envelope().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=68mm, xmin=-2, xmax=102, ymin=-110, ymax=100,
+      xlabel={توانِ فعال در نقطهٔ اتصال $(\text{MW})$},
+      ylabel={توانِ واکنشی $(\text{Mvar})$}, xmajorgrids=true, legend columns=3]
+    \addplot[sWind, mark=*, mark size=1.2pt] table[x=p, y=s0hi, col sep=comma] {data/ch28-envelope.csv};
+    \addplot[sLoss, mark=square*, mark size=1.2pt] table[x=p, y=hothi, col sep=comma] {data/ch28-envelope.csv};
+    \addplot[sBESS, mark=triangle*, mark size=1.5pt] table[x=p, y=s1hi, col sep=comma] {data/ch28-envelope.csv};
+    \legend{$\text{S0}$، $25\,^\circ\text{C}$, $\text{S0}$، $45\,^\circ\text{C}$, $\text{S1}$}
+    \addplot[sWind, mark=*, mark size=1.2pt, forget plot] table[x=p, y=s0lo, col sep=comma] {data/ch28-envelope.csv};
+    \addplot[sLoss, mark=square*, mark size=1.2pt, forget plot] table[x=p, y=hotlo, col sep=comma] {data/ch28-envelope.csv};
+    \addplot[sBESS, mark=triangle*, mark size=1.5pt, forget plot] table[x=p, y=s1lo, col sep=comma] {data/ch28-envelope.csv};
+    \draw[sLimit] (axis cs:20,33) -- (axis cs:100,33);
+    \draw[sLimit] (axis cs:20,-33) -- (axis cs:100,-33);
+    \node[note, anchor=south] at (axis cs:60,34) {الزامِ آموزشی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

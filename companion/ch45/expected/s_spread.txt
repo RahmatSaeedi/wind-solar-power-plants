@@ -1,0 +1,11 @@
+cells of one rack 10 years in service, fade 2% a year at the mean temperature
+  (doubling every 10 K, teaching)
+  hottest cell above mean K   its health   string loss vs mean
+                         0        80.0%                 0.0%
+                         3        75.4%                 4.6%
+                         6        69.7%                10.3%
+                        10        60.0%                20.0%
+  the hottest cell sets the string: a spread of 6 K costs the
+  whole rack 10% of its capacity by year 10 - the
+  air or liquid path is tested for evenness at the factory,
+  and the BMS temperature map shows it in service

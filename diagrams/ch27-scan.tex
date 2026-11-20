@@ -1,0 +1,16 @@
+% Chapter 27 - frequency scan of the 33 kV bus (grid 365 MVA, X/R 10, cables 1.77 Mvar): cables only,
+% with a 5 Mvar capacitor bank, and with a 5 Mvar filter tuned to 4.7; data diagrams/data/ch27-scan.csv
+% from companion/ch27/examples_b.py frequency_scan() (no load damping: teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, ymode=log, width=110mm, height=66mm, xmin=1, xmax=25, ymin=1, ymax=10000,
+      xtick={1,5,7,11,13,17,19,23,25}, xlabel={مرتبهٔ هارمونیک $h$},
+      ylabel={امپدانس $(\Omega)$}, xmajorgrids=true, legend columns=3]
+    \addplot[sInk] table[x=h, y=cables, col sep=comma] {data/ch27-scan.csv};
+    \addplot[sLoss] table[x=h, y=capacitor, col sep=comma] {data/ch27-scan.csv};
+    \addplot[sWind] table[x=h, y=filter, col sep=comma] {data/ch27-scan.csv};
+    \legend{فقط کابل‌ها, با بانکِ خازنی, با صافیِ $4.7$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

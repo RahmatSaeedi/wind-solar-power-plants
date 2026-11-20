@@ -1,0 +1,8 @@
+open punch items by category
+  A: must close before mechanical completion (safety, function)
+  B: may close after turnover, with an owner and a date
+  A: 2 open (=PVF1-3.CTL, =PVF1-3.DC)
+  B: 3 open (=PVF1-3.DC, =PVF1-3.INV, =PVF1-3.MV)
+  the category is agreed at the walkdown by both parties; a B
+  item that touches safety is an A item, whatever the list
+  says

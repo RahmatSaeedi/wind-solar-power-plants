@@ -1,0 +1,8 @@
+receipt inspection at site: ten skids
+  skids with findings: 3
+  S-02  desiccant colour shows saturated; replace, check insides
+  S-04  shock indicator tripped (ch 31); hold, inspect, maker
+  S-09  test dossier not in the delivery; hold acceptance
+  receipt is the first site record of each serial; a
+  finding not written here becomes a dispute later about
+  whether it happened in transport or in storage

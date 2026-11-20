@@ -1,0 +1,11 @@
+what a year of incidents costs (teaching, k u)
+  kind                              n   direct each   indirect x   total
+  lost-time injury                   3          25.0          4.0      375
+  recordable, no lost time           8           3.0          4.0      120
+  property damage (crane, vehicle)   6          40.0          1.5      600
+  near miss investigated            30           0.5          1.0       30
+  total about 1,125 k u a year
+  the indirect part - stopped work, investigation, delay,
+  replacement crew, reputation - is several times the
+  direct cost: prevention pays in money too, but the case
+  for it rests on people, not on this table

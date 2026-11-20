@@ -1,0 +1,10 @@
+spill kits by area (teaching: absorb the largest likely spill)
+  area                      largest likely spill L   kit L   kits
+  refuelling point                            200     120      2
+  crane on its pad                            150     120      2
+  transformer bay                             400     240      2
+  workshop and store                           60      50      2
+  each turbine during service                  40      50      1
+  a kit sized for a drip is useless at a burst hose: the
+  largest likely spill sets the kit, the bund catches the
+  rest, and used absorbent is hazardous waste (ch 33)

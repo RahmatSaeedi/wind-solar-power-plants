@@ -1,0 +1,13 @@
+the site substation platform against the wadi
+  ground at the substation 1203.4 m
+  channel bed 1201.7 m, 2.2 km away; ridge between 1210.5 m
+  height above the channel bed: +1.8 m
+  upstream of x = 6.9 km the channel bed itself is higher
+  than the substation
+  the substation sits less than 2 m above the nearest bed,
+  and below the bed upstream: distance alone is no
+  protection - the ridge shields it here, but water leaving
+  the channel upstream can run down the plain; a flood study
+  (with the rain of lesson E) fixes the platform level
+  before design, and ponding in a 50-year day of rain
+  (80 mm) is checked locally

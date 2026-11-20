@@ -1,0 +1,13 @@
+hidden failures against the test interval: unavailability ~ lambda T / 2
+  failure rate 0.02 per relay-year; self-supervision catches 80 %
+  test interval y   without supervision   with supervision
+                1                 1.00%              0.20%
+                2                 2.00%              0.40%
+                4                 4.00%              0.80%
+                6                 6.00%              1.20%
+                8                 8.00%              1.60%
+  a failure that nothing reports waits for the next test: on
+  average half an interval; self-supervision finds most of
+  them at once and lets the interval grow - which is why
+  numerical relays are tested every 4-6 years (teaching), but
+  only if their alarms are seen (lab E)

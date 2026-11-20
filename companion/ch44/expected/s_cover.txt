@@ -1,0 +1,11 @@
+transition coverage of the test list: 6 states x 8 events = 48 pairs
+  pairs that change the state: 15; exercised by the 12 cases: 7 (47%)
+  all pairs exercised (incl. ignored events): 10 of 48 (21%)
+  state-changing pairs never tested:
+    PRECHARGE + fault; PRECHARGE + stop; READY + fault
+    READY + stop; RUN + fault; RUN + stop
+    SYNC + fault; SYNC + stop
+  a test list that passes says nothing about the transitions
+  it never visits: every pair above - a stop while running, a
+  fault during precharge - needs a case before the release
+  (exercise)

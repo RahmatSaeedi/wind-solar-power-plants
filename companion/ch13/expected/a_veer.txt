@@ -1,0 +1,7 @@
+direction change between 60 and 100 m (veer):
+  night mean +10.0 deg, day +2.0 deg
+  across a 150 m rotor (25 to 175 m) at night about +38 deg,
+    if it grows linearly with height
+  veer twists the inflow across the rotor: the blade sees a
+  changing angle of attack (loads) and the turbine yaws to the
+  hub direction only (energy); the measurement shows if it matters

@@ -1,0 +1,19 @@
+gas density of the sealed compartments, temperature-corrected, 24 months
+  (relative to the fill; teaching alarm level 0.93)
+  panel    slope %/yr   +/-2 SE   verdict
+  INC-A         0.03      0.12   no trend
+  WS1           0.06      0.14   no trend
+  WS2          -0.02      0.13   no trend
+  PVF3         -0.00      0.10   no trend
+  BESS-A       -0.00      0.12   no trend
+  BC            0.06      0.10   no trend
+  INC-B        -0.04      0.13   no trend
+  WS3           0.01      0.18   no trend
+  PVF1          0.05      0.12   no trend
+  PVF2         -0.10      0.11   no trend
+  BESS-B       -1.29      0.11   LEAK
+  SST           0.02      0.12   no trend
+  leaking: BESS-B; alarm in about 5.4 years from the fill
+  each monthly reading moves less than its own noise; only the
+  slope over many months shows the leak, years before the
+  alarm - so the readings are kept as a series, not just read

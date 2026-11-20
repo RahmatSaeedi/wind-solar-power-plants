@@ -1,0 +1,23 @@
+disqualifiers and next evidence (the decision is conditional):
+  P-North: two flags (birds, displacement) - stop spending; if
+    it is ever reopened, a cheap bird survey comes first
+  P-South: no flag; NPV negative unless the grid limit is lifted
+  P-North: next evidence
+    - bird survey and avoidance layout
+    - resettlement feasibility
+    - grid reinforcement offer
+    - 12-month mast campaign
+  P-Central: next evidence
+    - grid connection offer (late; U-065, U-068)
+    - ESIA approval and permits
+    - land agreements for 2 parcels
+    - PPA terms and EPC price
+  P-South: next evidence
+    - grid strength study (SCR, export limit)
+    - water supply permit
+    - heritage survey of 2 sites
+    - consultation with seasonal herders
+  decision (D-026): continue P-Central to the financeability
+  gate; P-South stays on file, unfunded, with one deciding
+  question (its grid limit); P-North stops (flags, and its
+  development tree in section H is worth nothing)

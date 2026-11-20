@@ -1,0 +1,12 @@
+on-load check of the transformer differential (teaching):
+  plant exporting 20 MW: HV current 87 A, CT 400/1 -> 0.217 A secondary
+  what the relay shows        differential pu   bias pu   trips?
+  correct polarity                        0.00      0.32   no
+  one CT reversed                         0.63      0.32   YES
+  with correct wiring the differential reads close to zero; a
+  reversed CT shows twice the load as 'differential' and, with
+  pickup 0.2 and slope 0.3, trips once the load passes
+  0.118 pu (7.4 MVA) - so the first readings are taken at
+  low load, and the commissioning programme of qualified
+  staff decides how the trip is supervised meanwhile; the
+  readings go into the record

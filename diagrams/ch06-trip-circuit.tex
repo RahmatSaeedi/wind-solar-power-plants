@@ -1,0 +1,13 @@
+% Chapter 6 — DC control power: station battery, long cable, relay contact, breaker trip coil.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \draw (0,0) to[battery1, l={$110\,\text{V}$ (کمینه $93.5\,\text{V}$)}, invert] (0,3)
+        to[R, l={$R_\text{c}/2$}] (3.6,3) to[nos, l={تماسِ رله}] (6.0,3) -- (7.4,3);
+  \draw (0,0) to[R, l_={$R_\text{c}/2$}] (3.6,0) -- (7.4,0);
+  \draw (7.4,3) to[L, l={بوبینِ قطعِ کلید}] (7.4,0);
+  \draw[dimline] (0.3,4.2) -- (3.4,4.2) node[note, midway, above] {کابلِ $250\,\text{m}$ (یک‌طرفه)};
+  \node[note, text=cInk, anchor=north, text width=85mm, align=center] at (3.7,-1.0)
+       {بوبین برای کارِ مطمئن دستِ‌کم $77\,\text{V}$ می‌خواهد (فرضی)؛ افتِ کابل از ولتاژِ کمینهٔ باتری کم می‌شود.};
+\end{tikzpicture}}
+\end{document}

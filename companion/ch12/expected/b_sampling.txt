@@ -1,0 +1,8 @@
+sampling against averaging on a broken-cloud day (one-minute data):
+  daily irradiation 5.445 kWh/m2
+  ten-minute means from all samples: 5.445; from one sample per 10 min: 5.378
+  RMS difference of the ten-minute values 97 W/m2
+  (mean daylight value 441 W/m2)
+  sample often (every few seconds) and average: sparse samples
+  keep the daily sum roughly right but not the ramps that
+  clipping, storage and grid studies need

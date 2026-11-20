@@ -1,0 +1,55 @@
+P01 kp 0.5, ki 0.2, tau 2: wn 0.32, zeta 1.19
+P02 kp 1.5, ki 0.8, tau 2: wn 0.63, zeta 0.99
+P03 kp 6, ki 8, tau 2: wn 2.00, zeta 0.88
+P04 kp 3, ki 2, tau 2: wn 1.00, zeta 1.00
+P05 wn 1 rad/s, zeta 1, tau 2: ki 2.0, kp 3.00
+P06 49.95 Hz, 4 % droop, 0.02 Hz db, 110 MW: +1.65 MW
+P07 49.8 Hz, 4 % droop, 0.02 Hz db, 110 MW: +9.90 MW
+P08 50.25 Hz, 4 % droop, 0.02 Hz db, 110 MW: -12.65 MW
+P09 V 0.99 pu, slope 4 %, 33 Mvar: +8.3 Mvar
+P10 V 1.02 pu, slope 4 %, 33 Mvar: -16.5 Mvar
+P11 V 1.06 pu, slope 4 %, 33 Mvar: -33.0 Mvar
+P12 Q limit 5.6 MVA at 0.0 MW, cap 0.33: 1.85 Mvar
+P13 Q limit 5.6 MVA at 4.0 MW, cap 0.33: 1.85 Mvar
+P14 Q limit 5.6 MVA at 5.3 MW, cap 0.33: 1.81 Mvar
+P15 E 6.0 MWh, 1 h: up 1.9, down 20.0 MW
+P16 E 18.0 MWh, 1 h: up 13.0, down 19.4 MW
+P17 E 33.0 MWh, 1 h: up 20.0, down 3.2 MW
+P18 band for 8 MW up and 6 MW down 1 h: 12.63 to 30.44 MWh
+P19 floor 15 MW x 2 h: 36.3 MWh > 36: infeasible
+P20 DP 10 MW / 10 MWh, prices 20 60 20 60, eta 1: 800 u
+P21 same with wear 45 u/MWh: 0 u
+P22 newsvendor short 40 long 10: q* 0.20; short 20 long 20: 0.50
+P23 penalty S 60/60/60, A 50/65/58: 410 u
+P24 4 units, one set 50.2 Hz, load 6 MW: f 49.750 Hz, P1 2.25, others 1.25 MW
+P25 secondary shift to restore 50 Hz at 6 MW, equal: 0.30 Hz
+P26 slip 0.05 Hz, +-10 deg: in window 1.11 s, worst wait 18.9 s
+P27 slip 0.3 Hz, +-10 deg: in window 0.19 s, worst wait 3.1 s
+P28 delta 5 MW, 4 h, 365 d, at 50 u: up to 365 k u
+P29 cost per MW-h: 57.7 k / 7,300 = 7.90; 211.9 k / 14,600 = 14.51 u
+P30 black start 1.47 MW for 8 h: 11.8 MWh of 32
+P31 ramp limit energy 2 MW/min, 20 MW step down: battery 1.50 MWh
+P32 cap margin 0.5 MW x 160 h: 80 MWh
+P33 Q asked at pf 0.95 for 90 MW: 29.6 Mvar
+P34 hold 1 h, then fallback: a 3 h outage idles the battery 2 h
+P35 hour 11 by hand: export 80, curtail 5.2, E after 24.9 MWh
+P36 alarms ratio controller/plan 1,147/104 = 11.0
+P37 imbalance cut by intraday (1,245-919)/1,245 = 26 %
+P38 day-ahead penalty share of export revenue 1,245/13,781 = 9.0 %
+P39 7 states, 15 transitions, 2 cases each: 30 cases
+P40 evening P95 48 MWh vs window 32 x 0.927 = 29.7 MWh
+P41 cascade ratio 9: zeta 1.50, overshoot 0.0 %
+P42 cascade ratio 4: zeta 1.00, overshoot 0.0 %
+P43 cascade ratio 1.5: zeta 0.61, overshoot 8.8 %
+P44 inner 0.5 s: outer >= 2.0 s for no overshoot
+P45 dV = 0.03 x 0.8 + 0.15 x (-0.1) = 0.009 pu
+P46 droop factor X 0.2, Qmax 0.33, s 0.04: 0.38
+P47 SCR 4, X/R 3, 100 MW: dV 7.91 %, Q for 0: -33.3 Mvar
+P48 single PPC MTBF 20,000 h, MTTR 48 h: 21.0 h a year in fallback
+P49 delay budget 315 ms + 2 s polling (avg 1,000): 1315 ms
+P50 island floor 10 MWh, 1.57 MW: battery alone 3.5 h
+P51 end target cost per MWh above floor: 30.6/6 = 5.1, 87.8/16 = 5.5 k u
+P52 alarms 756 + 391 = 1147; plan 34 + 70 = 104
+P53 sampling: ZOH delay ~ ts/2: ts 0.5 s -> 0.25 s
+P54 Q caps at 100 MW 22.2/18.2/22.0; ask 30: WTG 10.7 Mvar
+P55 pf 0.95 at 85 MW: 27.9 Mvar asked

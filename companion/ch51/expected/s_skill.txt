@@ -1,0 +1,9 @@
+forecast error at the POC by lead time over the year
+  lead h   RMSE MW   skill vs 1-h persistence
+       1       7.4      +0.17
+       3       7.8      +0.13
+      24      10.6      -0.18
+  the day-ahead forecast is worse than 'same as last hour' for
+  the next hour, and it is not meant for it: each decision
+  uses the forecast of its own horizon (ch 15, ch 37) - the
+  shift of lesson D used the intraday one for that reason

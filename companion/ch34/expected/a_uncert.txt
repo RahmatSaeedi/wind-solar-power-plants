@@ -1,0 +1,12 @@
+uncertainty of the POC voltage seen by the controller (at 132 kV)
+  source (limit taken as rectangular)   standard u, % of reading
+  VT class 0.5                                0.289
+  transducer 0.2 % of 150 kV span               0.131
+  input module 0.1 % of 21 mA                   0.086
+  combined                                    0.329
+  expanded (k = 2): +/-0.66 % = +/-0.87 kV
+  with a class 0.2 VT: +/-0.39 %
+  the VT dominates; a voltage set-point step of 0.01 pu is
+  only about one and a half times the expanded uncertainty,
+  so the controller's accuracy claim rests on the VT class
+  and its calibration record (ch 2, GUM; ch 26, VTs)

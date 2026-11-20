@@ -1,0 +1,18 @@
+effective lifetime and implied Voc against surface
+  recombination velocity S (both faces, 150 um wafer)
+  bulk tau    S cm/s   tau_eff us   implied Voc V
+     100 us        1         98.5          0.675
+     100 us       10         88.1          0.671
+     100 us      100         42.8          0.651
+     100 us     1000          7.0          0.602
+    1000 us        1        714.5          0.743
+    1000 us       10        411.8          0.721
+    1000 us      100         69.7          0.665
+    1000 us     1000          7.4          0.604
+  passivating the faces (1,000 -> 10 cm/s) adds 117 mV;
+  with a good bulk the surfaces set the voltage, which is
+  why every modern cell architecture is a passivation
+  story; the implied Voc is an upper bound - contacts and
+  the emitter take more before the finished cell's 0.690 V;
+  with a 10 ms bulk and S = 1 cm/s it reaches 0.762 V: Auger
+  recombination, which no process removes, sets the ceiling

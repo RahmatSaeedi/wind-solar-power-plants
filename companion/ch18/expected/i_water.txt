@@ -1,0 +1,13 @@
+water-service basis (teaching, A-286; PLP-MEC-REP-0002):
+  uses: PV cleaning (truck, ch 15 trigger), sanitation for
+    25 staff, battery chiller make-up; construction separate
+  operating demand 2,804 m3 a year, peak month 433 m3
+  source: licensed well 1,500 m3 a month (U-053 open);
+    the spring only as a back-up outside Jun-Sep
+  storage: 2,500 m3 = 1,600 m3 usable + 900 m3 held reserve
+    (placeholder for the fire authority, chapter 32)
+  quality: cleaning water to the module maker's limits,
+    drinking water treated and kept separate
+  priority when short: reserve untouched, then drinking and
+    sanitation, then battery cooling, then cleaning
+  metering: well, tank outlet, each use; monthly report

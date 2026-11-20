@@ -1,0 +1,4 @@
+P(G, T) = 550 x G/1000 x (1 - 0.0035 (T - 25)); at G = 800 W/m2, T = 45 C: P =
+     409.20 W
+  dP/dG = 0.5115 W per W/m2; dP/dT = -1.540 W per K
+  linear estimate at (850, 50): 427.07 W; exact 426.59 W

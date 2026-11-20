@@ -1,0 +1,19 @@
+% Chapter 43 - current density trade: copper bought against the load loss evaluated with B = 0.88 k u/kW
+% (teaching copper price); the sum has its minimum near 1.9 A/mm2 before the larger core and tank are
+% counted (diagrams/data/ch43-density.csv from companion/ch43/examples_b.py, density).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=1.6, xmax=4.2, ymin=0, ymax=420,
+      xlabel={چگالیِ جریان (آمپر بر میلی‌مترمربع)}, ylabel={هزینهٔ ارزیابی (هزار واحد)}]
+    \addplot[sPV] table[x=j, y=copper, col sep=comma] {data/ch43-density.csv};
+    \addplot[sLoss] table[x=j, y=loss, col sep=comma] {data/ch43-density.csv};
+    \addplot[sInk] table[x=j, y=sum, col sep=comma] {data/ch43-density.csv};
+    \node[note, anchor=south, text=cInk] at (axis cs:3.6,345) {جمع};
+    \node[note, anchor=south, text=cLoss] at (axis cs:3.9,300) {تلفِ بار با $B$};
+    \node[note, anchor=north, text=cPV] at (axis cs:2.8,85) {مس};
+    \draw[sLimit] (axis cs:3.5,0) -- (axis cs:3.5,330);
+    \node[note, anchor=north west] at (axis cs:3.52,60) {پیشنهادِ \babelsublr{B}};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,20 @@
+% Chapter 34 - the 4-20 mA range of the POC voltage transducer (0-150 kV): live zero, the normal band
+% 0.9-1.1 pu, and the zones below 3.6 mA and above 21 mA read as a failed loop (examples_a; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=-45, xmax=165, ymin=0, ymax=23,
+      xlabel={ولتاژِ نقطهٔ اتصال (kV)}, ylabel={جریانِ حلقه (mA)}]
+    \fill[cLoss!15] (axis cs:-45,0) rectangle (axis cs:165,3.6);
+    \fill[cLoss!15] (axis cs:-45,21) rectangle (axis cs:165,23);
+    \fill[cPV!15] (axis cs:118.8,0) rectangle (axis cs:145.2,23);
+    \addplot[sWind, no marks, domain=0:154.7] {4 + 16*x/150};
+    \draw[sLimit] (axis cs:-45,4) -- (axis cs:165,4);
+    \draw[sLimit] (axis cs:-45,20) -- (axis cs:165,20);
+    \node[note, anchor=south west] at (axis cs:-43,0.4) {حلقهٔ خراب};
+    \node[note, anchor=north west] at (axis cs:-43,22.8) {حلقهٔ خراب};
+    \node[note, anchor=north] at (axis cs:132,9) {محدودهٔ عادی};
+    \node[note, anchor=south east] at (axis cs:-5,4.2) {صفرِ زنده};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

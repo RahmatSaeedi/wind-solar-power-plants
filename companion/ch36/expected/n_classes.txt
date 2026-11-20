@@ -1,0 +1,10 @@
+incident classes and who is told (teaching)
+  class       example                               informed
+  1 low       a refused USB, a failed login         OT lead, weekly
+  2 medium    unknown device, unrecorded session    OT lead, same day
+  3 high      unexpected change on a controller     owner and OT lead, 1 h
+  4 critical  control affected or safety in doubt   all + grid operator, now
+  the class decides who is called and how fast, not whether
+  the plant stops - stopping is a safety decision of the
+  control room under the operating rules; reporting duties
+  to authorities come from the country (ch 55-57)

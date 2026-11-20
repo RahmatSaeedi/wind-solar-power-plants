@@ -1,0 +1,13 @@
+asset records of block PVF1-3: stages with a missing field
+  (receipt: type, serial; installation: position, drawing; test:
+  baseline; turnover: warranty, spares, maintenance plan)
+  =PVF1-3-T1     complete
+  =PVF1-3-INV1   turnover
+  =PVF1-3-Q1     turnover
+  =PVF1-3-CB09   test
+  =PVF1-3-UPS1   test, turnover
+  =PVF1-3-SW2    complete
+  =PVF1-3-CB10   test
+  2 of 7 records complete; a record is captured at the
+  stage it belongs to - a serial is read at receipt, not
+  looked up at handover

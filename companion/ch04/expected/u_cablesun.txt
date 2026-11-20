@@ -1,0 +1,7 @@
+cable in free air, diameter 50 mm, sheath absorptance 0.6, sun 1000 W/m2
+    (A-081)
+  absorbed sunlight alpha G D = 30 W/m (projected width = diameter)
+  Joule loss of the feeder cable at peak current 41 W/m
+  the sun adds 73 % of the conductor's own heat: cables in
+    the sun are derated or shaded; a light-coloured sheath or a sun shield
+    helps

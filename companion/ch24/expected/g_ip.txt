@@ -1,0 +1,10 @@
+enclosure protection codes (first digit solids, second water):
+  code  meaning                          where (teaching)
+  IP2X  fingers kept out                 inside a locked room
+  IP54  dust-protected; splashing water  outdoor box with a roof
+  IP55  dust-protected; water jets       outdoor box, cleaning by hose
+  IP65  dust-tight; water jets           combiner box in the field
+  IP67  dust-tight; temporary immersion  box in a flood-prone pit
+  the code is proved by the maker's type test; the site keeps
+  it by closing every entry correctly - an open gland makes
+  an IP65 box an IP2X one

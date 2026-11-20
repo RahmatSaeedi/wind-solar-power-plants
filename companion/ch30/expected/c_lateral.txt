@@ -1,0 +1,10 @@
+lateral capacity of a short post in sand (Broms, free head)
+  d 0.15 m, load 1.2 m above ground, gamma 18 kN/m3
+  embedment m   phi 30 (Kp 3.0)   phi 34 (Kp 3.5)   load x 2
+          1.2               2.9               3.4       11.0
+          1.6               5.9               6.9       11.0
+          2.0              10.1              11.8       11.0
+  capacity grows with the cube of embedment; at 1.6 m the
+  post fails sideways long before it pulls out - in dense
+  sand the side load, not the uplift, sets the depth (about
+  2 m): the test programme pairs pull-out with lateral tests

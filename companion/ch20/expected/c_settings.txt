@@ -1,0 +1,8 @@
+settings under configuration control (PLP-CTL-SPC-0001):
+  as designed fingerprint c13e490db762
+  as left     fingerprint 951d993d2300
+  differing setting(s): deadband_hz (0.02 -> 0.2)
+  a deadband ten times wider makes the plant ignore most
+  frequency deviations; the fingerprint shows that something
+  changed, the comparison shows what; the as-left record is
+  signed at commissioning (chapters 44, 48 and 50)

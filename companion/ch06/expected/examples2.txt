@@ -1,0 +1,123 @@
+== ex_spectrum
+silver             rho = 1.59e-08 ohm m
+copper             rho = 1.72e-08 ohm m
+aluminium          rho = 2.82e-08 ohm m
+iron               rho = 9.70e-08 ohm m
+stainless steel    rho = 6.90e-07 ohm m
+nichrome           rho = 1.10e-06 ohm m
+sea water          rho = 2.00e-01 ohm m
+intrinsic silicon  rho = 2.30e+03 ohm m
+glass              rho = 1.00e+12 ohm m
+PVC                rho = 1.00e+13 ohm m
+XLPE               rho = 1.00e+16 ohm m
+ratio XLPE / copper = 10^23.8
+== ex_insulation
+100 m PV cable, rho_ins = 1e13 ohm m (assumed), r1 = 1.13 mm, r2 = 2.9 mm:
+    R_ins = 15.0 GOhm
+modules dry: 1000 MOhm each (assumed); 4368 modules on one inverter -> 228.9
+    kOhm; whole plant (109,096) -> 9.17 kOhm
+modules wet morning: 50 MOhm each (assumed); 4368 modules on one inverter ->
+    11.4 kOhm; whole plant (109,096) -> 0.46 kOhm
+== ex_blocking_diode
+blocking diode, forward drop 0.7 V at 13.11 A: 9.18 W per string
+4196 strings: 38.5 kW = 0.064 % of the string voltage
+diode current ratio for +59.2 mV: 10.02
+== ex_energy
+P(t) = 14.30 kW sin(pi (t - 6)/12), 06:00 to 18:00
+exact integral = 14.30 x 24/pi = 109.244 kWh
+hourly samples: left rectangles 108.619, trapezoid 108.619, Simpson 109.247
+    kWh
+errors: rectangles -0.625, trapezoid -0.625, Simpson +0.0029 kWh
+data pack summer day, one string, screening model: 106.9 kWh (sum of hourly
+    means x 1 h)
+== ex_bridge
+T =   0 C: R =  100.00 ohm, output    0.00 mV, linear model   0.00 mV
+T =  25 C: R =  109.62 ohm, output  114.79 mV, linear model 120.31 mV
+T =  50 C: R =  119.25 ohm, output  219.50 mV, linear model 240.62 mV
+T = 100 C: R =  138.50 ohm, output  403.56 mV, linear model 481.25 mV
+== ex_mesh
+mesh equations: 6 Ia - 4 Ib = 10 ; -4 Ia + 7 Ib = -5
+Ia = 1.9231 A, Ib = 0.3846 A; I2 = Ia - Ib = 1.5385 A; V_x = 4 (Ia - Ib) =
+    6.1538 V
+superposition: 10 V alone -> 4.6154 V; 5 V alone -> 1.5385 V; sum = 6.1538 V
+== ex_racks
+3 racks, EMF 1331.2 V, internal 50 mOhm (assumed), cables 5/10/20 mOhm, load
+    300 A
+bus voltage = 1325.09 V
+rack 1: R = 55 mOhm, I =  111.0 A (37.0 %)
+rack 2: R = 60 mOhm, I =  101.8 A (33.9 %)
+rack 3: R = 70 mOhm, I =   87.2 A (29.1 %)
+KCL: sum = 300.00 A
+== ex_dclink
+DC-link 10 mF at 1100 V (assumed): E = 6050 J
+bleeder 50 kOhm: tau = RC = 500 s; time to 50 V = tau ln(1100/50) = 1546 s =
+    25.8 min
+feeder loop inductance (180 m, 50 mm spacing, r = 8.74 mm): L = 126 uH; energy
+    at 314.64 A = 6.2 J
+bench RC: 1000 uF, 10 kOhm, tau = 10 s; from 9 V: 5 s -> 5.46 V, 10 s -> 3.31
+    V, 20 s -> 1.22 V, 30 s -> 0.45 V
+== ex_euler
+Euler, C dv/dt = -v/R, 9 V, tau = 10 s, value at t = 30 s
+dt =  5.0 s: 0.14062 V, error -0.30746 V
+dt =  2.0 s: 0.31666 V, error -0.13142 V
+dt =  1.0 s: 0.38152 V, error -0.06656 V
+dt =  0.5 s: 0.41463 V, error -0.03346 V
+dt =  0.1 s: 0.44137 V, error -0.00672 V
+exact: 0.44808 V
+== ex_fault
+PV string short circuit: 13.98 A; 24 strings: 335.5 A
+battery rack (assumed EMF 1331.2 V, 50 mOhm + 5 mOhm cable): 24.2 kA
+adiabatic k (90 -> 250 C): copper 143.0, aluminium 93.2 A s^0.5/mm2; copper 70
+    -> 160 C: 115.0
+240 mm2 Al withstands 24.2 kA for 0.85 s and 10 kA for 5.0 s
+== ex_transient
+4 mm2 cable per metre: C_th = copper 13.8 + insulation 42.6 = 56.4 J/(K m)
+    (insulation c_v 1.9e6 J/(m3 K), assumed)
+R_th = 5.31 K m/W; tau = R_th C_th = 299 s = 5.0 min
+step to 40 A from 30 C: final 74.3 C; after one tau about 58.0 C; after 3 tau
+    72.1 C
+== ex_celltemp
+data: Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS); T_cell = T_air
+    + 25/800 G (NOCT 45 C)
+daylight hours: 4569; coldest lit hour 2023-12-30 07:00:00+04:00: air -3.9 C,
+    G 18 W/m2, cell -3.3 C
+hottest cell hour 2023-07-09 12:00:00+04:00: air 39.4 C, G 1002 W/m2, cell
+    70.7 C
+highest string V_oc in the year (26 modules): 1396.7 V; 27 modules: 1450.4 V
+hours with GHI above 1000 W/m2: 17
+caution: at sunrise V_oc is lower than this model says (low irradiance) and
+    cells can be colder than air on clear nights; chapter 10 refines this
+== ex_kelvin
+K = 4215 kWh x 240 mm2 = 1,011,600 kWh mm2/yr; energy value 0.05 units/kWh;
+    conductor 0.015 units/(mm2 m) x 360 m; annuity 0.08 (all fictional)
+optimum A* = sqrt(0.05 x 1,011,600 / (0.08 x 5.4)) = 342 mm2
+ 120 mm2: capital    51.8 + losses   421.5 =   473.3 units/yr
+ 150 mm2: capital    64.8 + losses   337.2 =   402.0 units/yr
+ 185 mm2: capital    79.9 + losses   273.4 =   353.3 units/yr
+ 240 mm2: capital   103.7 + losses   210.8 =   314.4 units/yr
+ 300 mm2: capital   129.6 + losses   168.6 =   298.2 units/yr
+ 400 mm2: capital   172.8 + losses   126.5 =   299.2 units/yr
+ 500 mm2: capital   216.0 + losses   101.2 =   317.2 units/yr
+ 630 mm2: capital   272.2 + losses    80.3 =   352.4 units/yr
+== ex_trip
+110 V DC system: battery at end of discharge 93.5 V, coil 5 A, needs >= 77 V,
+    route 250 m one way, copper at 30 C (all assumed)
+2.5 mm2: loop R 3.575 ohm, drop 17.88 V, coil sees 75.62 V TOO LOW
+4.0 mm2: loop R 2.234 ohm, drop 11.17 V, coil sees 82.33 V OK
+6.0 mm2: loop R 1.490 ohm, drop  7.45 V, coil sees 86.05 V OK
+== ex_dcbudget
+string cable 4 mm2 Cu, 70 m one way: loop 0.6730 ohm; STC loss 115.7 W = 0.81
+    %; annual 103.9 kWh = 0.44 %
+string cable 6 mm2 Cu, 70 m one way: loop 0.4487 ohm; STC loss 77.1 W = 0.54
+    %; annual 69.3 kWh = 0.29 %
+feeder 240 mm2 Al: STC 1.37 %; annual 0.74 %
+feeder 400 mm2 Al: STC 0.82 %; annual 0.45 %
+base case (4 mm2 + 240 mm2): STC 2.18 %, annual 1.18 % of DC energy
+plant DC energy (screening): 99.3 GWh/yr; loss 1173 MWh/yr
+== ex_lightning
+lightning current 30 kA rising in 1 us (illustrative), straight channel 50 m
+    away: dB/dt = 2e-7 x (dI/dt) / d
+dB/dt = 120 T/s
+loop area  10.0 m2: induced peak about    1200 V
+loop area   1.0 m2: induced peak about     120 V
+loop area   0.1 m2: induced peak about      12 V

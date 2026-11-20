@@ -1,0 +1,11 @@
+breaker timing and contact-resistance records (teaching limits:
+  opening <= 35 ms, pole spread <= 3.3 ms, resistance <= 45 uOhm)
+  breaker     opening ms     spread   resistance uOhm   result
+  =WS1-Q1    (28, 29, 31)        3   (35, 36, 37)      pass
+  =WS2-Q1    (29, 30, 42)       13   (34, 36, 35)      slow pole, spread
+  =PVF3-Q1   (28, 28, 29)        1   (36, 35, 58)      contact
+  a slow pole points to the mechanism (lubrication, a
+  spring, a coil); a high contact resistance to a loose or
+  worn joint that will heat under load - both go back to the
+  maker's checks before energising; the timing also enters
+  the breaker-failure timer of lesson E

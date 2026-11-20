@@ -1,0 +1,14 @@
+a cross-country fault: a second earth fault on another phase while
+  the first is still on (resistance-earthed 33 kV, teaching):
+  line voltage 33 kV through a loop of about 4 ohm -> 8.2 kA
+  screen Cu mm2   withstand 0.3 s kA   0.5 s kA   1 s kA
+             16                  4.2        3.2      2.3
+             25                  6.5        5.1      3.6
+             35                  9.1        7.1      5.0
+  the 400 A resistor does not limit this fault: it flows phase
+  to phase through the earth and the screens; the feeder's
+  overcurrent relay sees it as a phase fault and clears it in
+  about 0.3 s - 35 mm2 holds; a slower clearing (0.5 s) would
+  need 41 mm2 - so the screen size and the relay setting
+  are checked together, and the first earth fault is cleared
+  before a second can join (ch 26)

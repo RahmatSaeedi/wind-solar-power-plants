@@ -1,0 +1,8 @@
+point-to-point checks of 3,200 points at site acceptance (teaching)
+  4 min a point, 2 teams of two, 8-hour days: 13.3 days
+  8 % fail, found, fixed and retested at 14 min each: 3.7 days
+  total 17.1 days on site, plus waiting for fixes
+  the factory test (lesson P) already checked the logic; at
+  site each point is checked from its terminal to the
+  operator's display and to the grid operator, with the
+  test values and results recorded per point

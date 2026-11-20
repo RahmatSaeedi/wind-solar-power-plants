@@ -1,0 +1,11 @@
+leg forces of a square lattice tower under the dead-end pull
+  transverse 164 kN at 24 m; vertical 180 kN (teaching)
+  base width m   moment kN m   leg kN (diagonal)   uplift leg kN
+           6.0         3,929                 463             418
+           8.0         3,929                 347             302
+          10.0         3,929                 278             233
+  pad 2.4 m square at 3 m: concrete 69 kN + soil cone 924 kN
+  resistance 993 kN against 302 kN on an 8 m base (FS 3.3)
+  a dead-end tower is held down by the soil above its pads;
+  the cone method is a teaching estimate - the line
+  designer uses the code's method and site test results

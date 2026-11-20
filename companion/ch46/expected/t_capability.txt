@@ -1,0 +1,11 @@
+conductor resistance of the maker's last 30 drums of 400 mm2, at 20 C
+  mean 0.07760, sd 0.00023 ohm/km; limit 0.0778
+  Cpk 0.29; expected over the limit 19.4 %; found 4 of 30
+  a Cpk of 1.33 would need the mean at 0.07686 ohm/km
+  D403 and D406 of lesson A are this process's expected tail:
+  the maker runs its conductor close to the limit to save
+  aluminium; D404 at 0.0810 lies far outside it - a different
+  cause (wrong conductor or wrong report: its test was dated
+  before it was made); the supplier audit asks where the
+  process is centred, and the purchase specification can ask
+  for the capability (ch 39)

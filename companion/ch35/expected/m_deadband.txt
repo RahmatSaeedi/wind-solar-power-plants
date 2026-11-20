@@ -1,0 +1,14 @@
+a 4-20 mA oil temperature turned into data (synthetic hour)
+  the loop carries one value all the time; as data it is
+  sampled each second and sent when it moves by a deadband
+  deadband % span   reports an hour   largest error K
+              0.0              3600               0.00
+              0.1              1844               0.14
+              0.5                27               0.69
+              1.0                13               1.38
+              2.0                 5               2.78
+  a deadband trades messages for error: below the noise it
+  sends about half the samples, above the accuracy of the
+  instrument it throws away information; it is set from
+  the instrument's uncertainty (ch 34) and written in the
+  point list, never left at a gateway's default

@@ -1,0 +1,11 @@
+EMC immunity reports against the place each device works
+  RTU-1    substation  tested 'heavy industrial', needs 'substation'
+  SW-SUB   substation  ok
+  GW-PV1   substation  tested 'light industrial', needs 'substation'
+  CLK-1    substation  NO REPORT
+  SW-T05   turbine     ok
+  short: RTU-1, GW-PV1, CLK-1
+  a substation has switching surges and fields an office never
+  sees: a gateway tested for light industry may reset when a
+  breaker opens - exactly when its data matter; the report
+  is asked for before the order (ch 39), not after a reset

@@ -1,0 +1,11 @@
+the historian shows 8,200 W/m2 on a sunny day: where does it go wrong?
+  sensor current        12.20 mA    ok
+  logger               820.00 W/m2  ok
+  gateway register    8200.00 raw   ok
+  SCADA               8200.00 W/m2  WRONG
+  historian           8200.00 W/m2  WRONG
+  first wrong stage: SCADA - the gateway sends the raw value
+  in tenths (scale 0.1) and the SCADA tag reads it with scale
+  1.0: the register map and the tag disagree (lesson C); every
+  stage after it is wrong in the same way, and every stage
+  before it is right - the view of lab D tells where to look

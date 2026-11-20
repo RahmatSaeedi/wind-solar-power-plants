@@ -1,0 +1,10 @@
+arrester to equipment distance (travelling wave, teaching):
+  residual 330 kV, front 1000 kV/us, wave speed 300 m/us, withstand 650 kV
+  distance m   voltage at equipment kV   margin
+           5                       363     1.79
+          15                       430     1.51
+          30                       530     1.23
+          40                       597     1.09
+  for a margin of 1.2 the arrester must be within 32 m of the
+  transformer bushing (lead lengths count as distance): one
+  reason arresters are mounted on or beside the transformer

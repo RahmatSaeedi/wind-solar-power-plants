@@ -1,0 +1,21 @@
+Plant P I/O list: extract of the draft and the checker (teaching)
+  tag         type  range             alarm             test
+  E1-VT-U     AI    0..150 kV         <0.90 >1.10 pu    T-03
+  E1-MTR-P    AI    -120..120 MW      -                 T-04
+  E1-MTR-Q    AI    -60..60 Mvar      -                 T-05
+  T1-WTI      AI    0..150 C          >110 >130         T-15
+  E1-CB-POS   DI    -                 -                 T-10
+  E1-CB-TRP   DI    -                 urgent            T-10
+  DC-UV       DI    -                 urgent            T-21
+  FIRE-ANY    DI    -                 urgent            T-30
+  E1-CB-OPN   DI    -                 -                 T-10
+  PPC-Q-CMD   AO    -33..33 Mvar      -                 T-07
+  draft findings (3):
+    E1-MTR-Q: analogue point without a range
+    T1-WTI: no test case
+    E1-CB-POS: tag used twice
+  after correction: 0 findings
+  a full list carries more columns - description, source
+  and destination panel, terminals, signal level, scaling,
+  quality handling, alarm priority, historian rate, owner
+  - for every one of the 300 hard-wired points (lesson C)

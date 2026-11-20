@@ -1,0 +1,10 @@
+evidence for the loss of one inverter at 5 MW (ch 9: 83.8 kW)
+  direct: input and output meters at 0.1% each
+    loss = P_in - P_out: +-7.1 kW (8% of the loss)
+  back-to-back: the grid supplies only the pair's loss (168 kW) at 0.5%;
+    split by assumption, unit-to-unit difference +-3%: +-2.5 kW (3.0%)
+  a direct measurement cannot prove a loss guarantee to better
+  than about a tenth; the back-to-back bench can, because it
+  measures the small number directly; pairing each unit with
+  two partners (three units, three runs, three sums) removes
+  the split assumption (ch 42 did the same for gearboxes)

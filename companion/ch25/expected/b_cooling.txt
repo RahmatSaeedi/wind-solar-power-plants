@@ -1,0 +1,6 @@
+ONAN and ONAF: the same transformer with and without fans:
+  ONAN rating 50 MVA, ONAF rating 63 MVA
+  hours above the ONAN rating: 187 of 8760
+  the fans run only in those hours; if they fail, the plant
+  controller limits the transformer to its ONAN rating
+  (an alarm and a limit in the cause-and-effect, ch 23)

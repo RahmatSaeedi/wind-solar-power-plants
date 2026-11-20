@@ -1,0 +1,10 @@
+farm energy of the two candidate layouts (data year x long-term
+  factor 1.0277, hub density, teaching speed-up, Jensen wakes):
+  layout              speed-up   free GWh   waked GWh   wake loss
+  W1 ridge (1 row)     +9.3 %     238.08      236.89      0.50 %
+  W2 plain (2 rows)    -0.2 %     205.06      193.06      5.85 %
+  the ridge row without its speed-up: 204.69 GWh
+  the hill adds 16 % to the ridge's energy and the single row
+  across the wind loses little to wakes; the plain loses more
+  behind its front row; the teaching speed-up is the largest
+  uncertainty of the ridge (a flow model and a second mast)

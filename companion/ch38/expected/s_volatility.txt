@@ -1,0 +1,9 @@
+requirements volatility (180 requirements, 12 months)
+  month:  9  7  6  8  5  4  6  3  2  4  1  2
+  first-quarter rate 4.1 % a month; last quarter 1.3 %
+  changes after the freeze (month 8): 9, each by
+  the change procedure with its impact list (lesson D)
+  at the average C-017 rework of 102 h for 13 documents, 9 late
+  changes would cost about 918 h if each were as wide
+  volatility falling to near zero is the evidence that the
+  basis is stable enough to buy against

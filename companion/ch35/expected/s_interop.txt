@@ -1,0 +1,8 @@
+interoperability tests for 6 device makers and 12 functions
+  every pair of makers tested together: 180 test cases
+  each maker tested once against an agreed profile: 72
+  the protocol's name says how bytes travel, not which data
+  objects, options and timings a device uses; a profile
+  fixes those choices, each device is tested against it,
+  and a short integration test then confirms the plant -
+  instead of testing every pair (lesson B, profiles)

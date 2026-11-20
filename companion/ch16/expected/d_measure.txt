@@ -1,0 +1,7 @@
+measuring better (A-280), one-year P90 now 275.93 GWh:
+  second mast year (MCP 2.0 -> 1.5 %)      +0.91 GWh
+  lidar at the turbines (1.35 -> 0.8 %)    +0.61 GWh
+  station kept clean (1.0 -> 0.5 %)        +0.04 GWh
+  all three                                +1.59 GWh
+  each GWh of P90 is debt capacity (lab E): measuring has a
+  value that can be set against its cost

@@ -1,0 +1,14 @@
+audit of 40 component birth certificates (7 fields each)
+  field                missing
+  serial                     0
+  heat number                0
+  inspection report          0
+  test report                1
+  torque record              1
+  NCR closure                2
+  preservation log           3
+  fields complete 97.5%
+  the gaps cluster in the records made last - storage and
+  NCR closure - where nobody waits for them; a certificate
+  is accepted complete or returned, as the dossier of ch 40
+  was judged on validity, not on 'pass'

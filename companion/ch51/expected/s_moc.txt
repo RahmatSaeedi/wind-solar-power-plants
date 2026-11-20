@@ -1,0 +1,9 @@
+changes of the first year: closed with their records?
+  inverter firmware 4.3 on block 2     missing: training
+  new alarm grouping by feeder         missing: procedure
+  second RTU in the substation         missing: drawings, procedure, training
+  export ramp limit 8 MW/min           missing: procedure, training
+  4 of 5 changes are open; the second RTU has none of
+  the three - it is also the tag missing from the asset register
+  (lesson M); a change is closed when the plant, its records
+  and its people all know about it

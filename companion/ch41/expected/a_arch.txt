@@ -1,0 +1,11 @@
+cell architectures as passivation steps (rough teaching ranges,
+  A-442; makers' data sheets decide)
+  type    what it adds                                 eta %   bifacial
+  Al-BSF  aluminium rear: simple, high recombination   ~20     none
+  PERC    passivated rear with local contacts          ~22-23  ~0.70
+  TOPCon  tunnel oxide + doped poly-Si contact         ~24-25  ~0.80
+  HJT     thin amorphous-Si layers on both faces       ~24-25  ~0.85+
+  IBC     all contacts at the back, no front shading   ~24-26  low
+  each step cuts recombination at one more surface or
+  contact (lesson A, passivation): the voltage rises, and
+  with it the temperature coefficient improves

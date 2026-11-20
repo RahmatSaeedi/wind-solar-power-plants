@@ -1,0 +1,13 @@
+400 V station-service board: main 400 A, outgoing 32 A (type C):
+  device        instantaneous from   fault at board 7.9 kA
+  outgoing 32 A          320 A        trips instantly
+  main 400 A           4,000 A        ALSO trips instantly
+  by current alone the two are not selective at the board's
+  full fault level; selectivity comes from the energy (I2t)
+  let through by the small device being below the large
+  one's operating energy (makers' selectivity tables) or a
+  short delay on the main
+  far from the board the fault is smaller:
+     10 m of 4 mm2:  1,643 A -> outgoing instant; main stays closed
+     30 m of 4 mm2:    639 A -> outgoing instant; main stays closed
+     60 m of 4 mm2:    333 A -> outgoing instant; main stays closed

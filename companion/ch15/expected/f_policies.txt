@@ -1,0 +1,15 @@
+cleaning policies inside the energy model (daily loss x that day's
+  PV energy; price 50 u/MWh; chapter 10 station year and costs):
+  policy                 loss %  recovered MWh  cost k u  net k u  water m3
+  no cleaning             9.47           0          0        0        0
+  truck every 30 d        2.83       7,514        197      179    1,310
+  truck every 14 d        1.37       9,162        426       32    2,839
+  manual dry every 10 d   1.16       9,402        472       -2        0
+  robot every 12 d        1.29       9,255         98      364        0
+  truck at 4 % loss       1.52       8,992        229      220    1,529
+  net = recovered energy x price - cleaning cost, against no
+  cleaning (no cleaning loses 9.5 % of the PV energy); a 14-day truck
+  recovers more than a 30-day one but its extra cleanings cost
+  more than they recover; the trigger and the robot clean when it
+  pays; the robot's figure leaves out its capital and upkeep
+  (chapter 10 break-even), so D-014 keeps the truck trigger

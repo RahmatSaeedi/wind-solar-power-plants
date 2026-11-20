@@ -1,0 +1,10 @@
+carriers in p-type silicon at 300 K (n_i 9.65e9 cm^-3)
+  doping N_A cm^-3   holes p     electrons n   resistivity
+         1e+15       1.0e+15       9.3e+04    13.57 ohm cm
+         1e+16       1.0e+16       9.3e+03     1.56 ohm cm
+         1e+17       1.0e+17       9.3e+02     0.25 ohm cm
+  one boron atom in about five million silicon atoms makes
+  the wafer p-type; the electrons (minority carriers) are
+  a trillion times fewer, and it is they that the light
+  makes and the junction must collect before they recombine
+  (hole mobility from textbook tables, teaching values)

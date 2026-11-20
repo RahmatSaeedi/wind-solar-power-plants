@@ -1,0 +1,8 @@
+two limits at once at 19:00 (teaching): which wins?
+  available 92 MW; grid operator export limit 80 MW; REQ-S01 reserve 5 MW
+  export set point = min(available - reserve, limit) = 80 MW
+  headroom above the set point: 12 MW, more than the 5 MW reserve
+  both are honoured because they ask for compatible things;
+  when they cannot both be met, the priority of ch 20
+  decides (operator limit above the service) and the
+  shortfall is reported to the service buyer at once

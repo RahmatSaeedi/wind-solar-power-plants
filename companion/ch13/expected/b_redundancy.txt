@@ -1,0 +1,6 @@
+a redundant height finds the 80 m bearing wear (weekly ratio 80/100):
+  reference weeks 1-20: mean 0.9517, sd 0.0051
+  wear starts in week 26 (July); two weeks in a row below
+    mean - 2 sd first in week 31
+  without a second sensor nearby, the same loss would look like
+  a calm summer; with it, the fault is a few weeks old when found

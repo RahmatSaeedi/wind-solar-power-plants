@@ -1,0 +1,9 @@
+PV performance ratio by year (temperature-corrected, %), years 1-18
+  81.6 81.4 81.0 80.9 80.4 80.3 79.8 79.9 79.2
+  79.0 78.9 78.3 78.1 77.9 77.4 77.2 76.8 76.6
+  slope -0.300 points a year +/- 0.011 (95 %) = 0.37 % a year relative
+  slower than the 0.5 %/yr of the finance model (ch 21): the interval
+  (+/- 0.01 %/yr) excludes it - the modules age better than
+  planned, a finding for the energy model; the first five years
+  alone gave 0.36 +/- 0.08 %/yr - enough to correct the
+  model in year 6, had anyone looked (ch 37)

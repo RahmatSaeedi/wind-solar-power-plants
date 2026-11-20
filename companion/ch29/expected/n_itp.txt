@@ -1,0 +1,15 @@
+inspection and test plan of one turbine foundation (H hold, W
+  witness, R record review)
+   1 [H] excavation to level, ground inspected    geotechnical engineer
+   2 [W] blinding level and setting out           surveyor
+   3 [H] anchor cage level and plumb              turbine maker
+   4 [H] reinforcement and cover before pour      structural engineer
+   5 [W] embedded earthing and ducts              electrical
+   6 [W] pour: slump, temperature, cubes          laboratory
+   7 [R] curing and thermocouple record           contractor
+   8 [R] 28-day strength                          laboratory
+   9 [H] grout under the tower flange             turbine maker
+  10 [W] backfill compaction                      laboratory
+  4 hold points: work stops until the named party signs;
+  twelve foundations make 48 signatures that must be
+  planned into the programme, or the crane waits for them

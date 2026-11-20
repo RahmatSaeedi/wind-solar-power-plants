@@ -1,0 +1,7 @@
+plane-of-array pyranometer against a reference cell (PV type):
+  pyranometer (all angles, broad spectrum): 2,150 kWh/m2
+  reference cell (sees the glass reflection like a module):
+    2,086 kWh/m2 (-3.0 %)
+  PR of the chapter 10 year: 0.862 with the pyranometer, 0.889 with the cell
+  neither is wrong: the contract and the model must say which
+  sensor the PR uses (IEC 61724-1:2021 names both kinds)

@@ -1,0 +1,10 @@
+LCOE of Plant P by part (ch 21 model, WACC 7.5%, k u / GWh = u/MWh)
+  capital            48.8 u/MWh    71%
+  operation          18.5 u/MWh    27%
+  replacements        0.7 u/MWh     1%
+  decommissioning     0.2 u/MWh     0%
+  total              68.3 u/MWh (68.0 without decommissioning,
+                   the LCOE of section A)
+  capital is 71% of the cost of a kWh: the capex range of the
+  tornado and the EPC price are the levers; operation is most
+  of the rest; decommissioning, 25 years away, weighs little

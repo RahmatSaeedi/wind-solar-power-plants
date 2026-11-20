@@ -1,0 +1,4 @@
+synthetic day with 10 % minute-to-minute fluctuations, 50 MW inverter limit
+  energy above the limit from 1-minute data: 28.333 MWh
+  energy above the limit from hourly means:  24.430 MWh
+  hourly averaging hides 14 % of the clipped energy

@@ -1,0 +1,16 @@
+factory route as a network (teaching weeks): 32 weeks to ship
+  activity                      finishes   float
+  design release                       6       0
+  core steel delivered                20       0
+  core cut and stacked                24       0
+  copper (CTC) delivered              16       2
+  windings                            22       2
+  tank and radiators                  14      13
+  active part assembly                27       0
+  drying, tanking, oil                29       0
+  tests                               31       0
+  preparation for shipment            32       0
+  critical: design release, core steel, cutting, assembly,
+  drying, tests - the windings wait with 2 weeks of float;
+  core steel from the mill is the long lead: reserving it at
+  award (ch 39) moves the whole date

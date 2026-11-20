@@ -1,0 +1,15 @@
+years between an edition and the one before it (70 rows that
+name the edition they replace)
+  quartiles 7 / 10 / 13 years; shortest 1, longest 28
+  1-5: 16  6-10: 23  11-15: 21  16-30: 10
+  shortest:
+     1  UL 9540A (from 2025)
+     3  ISO 6892-1:2019 (from 2016)
+     3  IEC 60904-3:2019 (from 2016)
+  longest:
+    23  ISO 10012:2026 (from 2003)
+    27  ISO 2859-1:2026 (from 1999)
+    28  ISO 9060:2018 (from 1990)
+  23% lasted five years or less; 69% twelve or less, i.e. at
+  that pace two new editions within a 25-year plant life - the
+  register is kept, not written once

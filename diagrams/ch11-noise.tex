@@ -1,0 +1,15 @@
+% Chapter 11 - sound pressure level of one turbine against distance (hemispherical spreading,
+% 2 dB/km absorption), full speed and night mode (A-234). Data: diagrams/data/ch11-noise.csv (lab_f.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=100, xmax=2000, ymin=25, ymax=60,
+      xlabel={فاصلهٔ افقی از توربین، $\text{m}$}, ylabel={تراز فشارِ صوت، $\mathrm{dB}(\mathrm{A})$},
+      xtick={200,600,...,2000}, ytick={25,30,...,60}, legend pos=north east, legend columns=1]
+    \addplot[sWind] table[x=d, y=full, col sep=comma] {data/ch11-noise.csv};
+    \addlegendentry{سرعتِ کامل، $106\ \mathrm{dB}(\mathrm{A})$}
+    \addplot[sLoss] table[x=d, y=quiet, col sep=comma] {data/ch11-noise.csv};
+    \addlegendentry{حالتِ شب، $104\ \mathrm{dB}(\mathrm{A})$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

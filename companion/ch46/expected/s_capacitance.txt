@@ -1,0 +1,10 @@
+capacitance of a core from its geometry,
+  C = 2 pi eps0 eps_r / ln(ri/rc), eps_r 2.3
+  size mm2   C uF/km (geometry)   C uF/km (ch 24 data)   charging A/km
+       240                0.218                   0.21            1.30
+       400                0.262                   0.25            1.57
+       630                0.311                   0.30            1.86
+  the geometry gives the data-sheet values within 5 %; a core
+  thinned to 7.1 mm all round would show 0.239 uF/km (+10%) -
+  capacitance is a second, independent look at the same
+  geometry that the thickness slices measure

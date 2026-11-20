@@ -1,0 +1,17 @@
+% Chapter 30 - dynamic amplification of a harmonic force against the frequency ratio for three
+% damping ratios, with T07's 1P ratio marked (diagrams/data/ch30-daf.csv, examples_n).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0.3, xmax=1.6, ymin=0, ymax=30,
+      xlabel={نسبتِ بسامد $r$}, ylabel={ضریبِ بزرگ‌نمایی},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sLoss] table[x=r, y=z005, col sep=comma, restrict y to domain=0:30] {data/ch30-daf.csv};
+    \addplot[sWind] table[x=r, y=z02, col sep=comma] {data/ch30-daf.csv};
+    \addplot[sBESS] table[x=r, y=z05, col sep=comma] {data/ch30-daf.csv};
+    \legend{$\zeta = 0.005$, $\zeta = 0.02$, $\zeta = 0.05$}
+    \draw[sLimit] (axis cs:0.919,0) -- (axis cs:0.919,27);
+    \node[note, anchor=south east] at (axis cs:0.91,22) {$\mathrm{T07}:\ 1P/f_1 = 0.92$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,31 @@
+% Chapter 11 - two paths through the turbine: the load path (forces and bending moments to the
+% soil) and the torque and power path (to the grid). Section B.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{b/.style={blk, minimum width=34mm, minimum height=7mm, text width=33mm},
+           e/.style={blkLoad, minimum width=34mm, minimum height=7mm, text width=33mm}}
+  \node[blkWind, minimum width=34mm, minimum height=7mm, text width=33mm] (w) at (3,0) {باد};
+  \node[b] (p1) at (3,-1.1) {پره‌ها و ریشه};
+  \node[b] (p2) at (3,-2.2) {توپی};
+  \node[b] (p3) at (3,-3.3) {یاتاقانِ اصلی و محور};
+  \node[b] (p4) at (0,-4.6) {شاسیِ ناسل};
+  \node[b] (p5) at (0,-5.7) {یاتاقانِ یاو};
+  \node[b] (p6) at (0,-6.8) {برج و فلنج‌ها};
+  \node[b] (p7) at (0,-7.9) {قفسهٔ پیچ و فونداسیون};
+  \node[b] (p8) at (0,-9.0) {خاک};
+  \node[e] (q1) at (6,-4.6) {جعبه‌دنده};
+  \node[e] (q2) at (6,-5.7) {ژنراتور};
+  \node[e] (q3) at (6,-6.8) {مبدّل};
+  \node[e] (q4) at (6,-7.9) {ترانسفورماتور};
+  \node[e] (q5) at (6,-9.0) {شبکهٔ جمع‌آوری};
+  \draw[flow] (w) -- (p1); \draw[flow] (p1) -- (p2); \draw[flow] (p2) -- (p3);
+  \draw[flow] (p3.south) -- ++(0,-0.3) -| (p4.north);
+  \draw[flow] (p3.south) -- ++(0,-0.3) -| (q1.north);
+  \draw[flow] (p4) -- (p5); \draw[flow] (p5) -- (p6); \draw[flow] (p6) -- (p7); \draw[flow] (p7) -- (p8);
+  \draw[flow] (q1) -- (q2); \draw[flow] (q2) -- (q3); \draw[flow] (q3) -- (q4); \draw[flow] (q4) -- (q5);
+  \draw[flowinfo] (q1.west) -- (p4.east) node[midway, note, anchor=south] {واکنشِ گشتاور};
+  \node[note, text=cInk, anchor=north] at (0,-9.5) {مسیرِ بار: نیرو و گشتاورِ خمشی تا خاک};
+  \node[note, text=cInk, anchor=north] at (6,-9.5) {مسیرِ گشتاور و توان تا شبکه};
+\end{tikzpicture}}
+\end{document}

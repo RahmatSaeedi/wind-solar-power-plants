@@ -1,0 +1,16 @@
+% Chapter 27 - active-power recovery after a 150 ms grid fault (synthetic, A-339): 80 MW before, 5 MW
+% during, exponential recovery after clearing; the 90 % level marked; data diagrams/data/ch27-recovery.csv
+% from companion/ch27/examples_r.py recovery().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=-0.2, xmax=2.0, ymin=0, ymax=90,
+      xlabel={زمان از آغازِ خطا $(\text{s})$}, ylabel={توانِ فعال $(\text{MW})$}, xmajorgrids=true]
+    \fill[cLoss!10] (axis cs:0,0) rectangle (axis cs:0.15,90);
+    \addplot[sWind] table[x=t, y=p, col sep=comma] {data/ch27-recovery.csv};
+    \draw[sLimit] (axis cs:-0.2,72) -- (axis cs:2.0,72);
+    \node[note, anchor=south east] at (axis cs:1.95,72.5) {$90\,\%$ پیش از خطا};
+    \node[note, anchor=south] at (axis cs:0.075,40) {خطا};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

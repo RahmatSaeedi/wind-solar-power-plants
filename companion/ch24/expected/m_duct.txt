@@ -1,0 +1,10 @@
+a road crossing in a duct: the air gap and duct add resistance
+  (630 mm2; extra thermal resistance, teaching values):
+  extra K m/W   rating A   factor
+         0.15        610    0.924
+         0.35        558    0.845
+         0.60        508    0.770
+  a few tens of metres in a duct can set the rating of the
+  whole feeder (the hot spot of lesson H); filling the duct
+  with a thermal grout or a larger duct spacing restores most
+  of it - an item in the crossing's design and its records

@@ -1,0 +1,18 @@
+backup generator 200 kVA, x_d 2.5 pu (A-113),
+  engine 0.8 pu, delta max 70 deg (A-143)
+  field limit from the rated point (pf 0.8): E_max 3.20 pu,
+  field circle centre -1/x_d = -0.40 pu
+  P pu     Q min      Q max     (pu of 200 kVA)
+   0.0    -0.400     0.881
+   0.2    -0.327     0.865
+   0.4    -0.254     0.817
+   0.6    -0.182     0.731
+   0.8    -0.109     0.600
+  operating points (generator convention, + = delivered):
+  essential loads, day       P 0.560 Q  0.320: E 2.28, delta  37.9 inside
+  night, UPS filter 50 kvar  P 0.115 Q -0.203: E 0.57, delta  30.3 inside
+  night, UPS filter 100 kvar P 0.115 Q -0.453: E 0.32, delta 114.7 OUTSIDE
+  a leading load drives the machine under-excited; near the
+  limit the AVR loses control and the voltage can run away:
+  check UPS and filter reactive power against the maker's
+  capability chart

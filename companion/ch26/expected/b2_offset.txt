@@ -1,0 +1,11 @@
+DC offset of the fault current and CT saturation:
+  X/R   peak factor kappa   peak at 12.5 kA   CT size factor 1+X/R
+    5                1.56           27.5 kA                      6
+   10                1.75           30.9 kA                     11
+   20                1.86           32.9 kA                     21
+   40                1.93           34.1 kA                     41
+  the peak tests the gear's making rating (63 kA, ch 24); a CT
+  that never saturates with full offset would be 1+X/R times
+  larger - so relays are designed to cope with some
+  saturation, and the knee point is set from the relay
+  maker's requirement (the k of lesson A)

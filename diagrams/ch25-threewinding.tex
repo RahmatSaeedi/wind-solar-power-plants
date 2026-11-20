@@ -1,0 +1,35 @@
+% Chapter 25 - star equivalent of the three-winding PV unit transformer (Z_H 0.5 %, Z_L1 = Z_L2 = 5.5 %
+% on 5.5 MVA, from companion/ch25/examples_v.py star()), with a bolted fault on LV1: the star point
+% and LV2 stay at 0.92 pu.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    imp/.style={draw=cInk, fill=white, minimum width=12mm, minimum height=5mm, inner sep=1pt}]
+  % HV source on the left, star point in the middle, two LV branches on the right
+  \draw (0,1.5) circle (0.38); \node[note] at (0,1.5) {$\sim$};
+  \draw (0.38,1.5) -- (1.2,1.5);
+  \node[imp] (zh) at (1.9,1.5) {};
+  \draw (2.6,1.5) -- (3.6,1.5);
+  \fill (3.6,1.5) circle (1.6pt);
+  \draw (3.6,1.5) -- (3.6,2.7) -- (4.5,2.7);
+  \draw (3.6,1.5) -- (3.6,0.3) -- (4.5,0.3);
+  \node[imp] (z1) at (5.2,2.7) {};
+  \node[imp] (z2) at (5.2,0.3) {};
+  \draw (5.9,2.7) -- (7.4,2.7);
+  \draw (5.9,0.3) -- (7.4,0.3);
+  \draw[bus] (7.4,2.3) -- (7.4,3.1);
+  \draw[bus] (7.4,-0.1) -- (7.4,0.7);
+  % fault on LV1
+  \draw[draw=cLoss, line width=1.1pt] (7.4,2.7) -- (8.0,2.7) -- (7.8,2.45) -- (8.15,2.2);
+  \draw[draw=cLoss, line width=1.1pt] (8.0,2.0) -- (8.3,2.0);
+  \node[note] at (1.9,2.05) {$Z_\text{H} = 0.5\,\%$};
+  \node[note] at (5.2,3.25) {$Z_\text{L1} = 5.5\,\%$};
+  \node[note] at (5.2,-0.25) {$Z_\text{L2} = 5.5\,\%$};
+  \node[note] at (0,0.75) {$33\,\text{kV}$};
+  \node[note, anchor=north] at (3.6,1.2) {$0.92\,\text{pu}$};
+  \node[note] at (7.4,3.4) {LV1};
+  \node[note, anchor=west] at (8.35,2.1) {اتصالِ کوتاه};
+  \node[note] at (7.4,-0.45) {LV2};
+  \node[note, anchor=west] at (7.6,0.3) {$0.92\,\text{pu}$};
+\end{tikzpicture}
+\end{document}

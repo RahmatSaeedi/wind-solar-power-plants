@@ -1,0 +1,11 @@
+independent check of a sample of 200 drawings holding 6 errors
+  drawings checked   chance to find at least one   expected found
+                10                             27 %              0.3
+                20                             47 %              0.6
+                40                             74 %              1.2
+                80                             96 %              2.4
+               200                            100 %              6.0
+  a sample finds out whether errors are there, not all of
+  them; drawings whose error is costly (protection, lifting,
+  foundations) are checked one by one, the rest sampled,
+  and a sample with errors widens to the whole set

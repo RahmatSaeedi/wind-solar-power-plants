@@ -1,0 +1,15 @@
+sizing the PV unit transformer for the inverter's reactive range:
+  inverter 5.0 MW; reactive power down to power factor 0.9
+  apparent power needed: 5.56 MVA against the unit's 5.5 MVA:
+  1% short at the extreme power factor - a finding: rate the
+  unit 5.6 MVA, or accept that the transformer, not the
+  inverter, limits Q at full power (stated in the specification)
+  at night the inverter may still supply reactive power for
+  the grid (Q at night, ch 20): the transformer then carries
+  current with no active power, and its load loss is paid from
+  the grid:
+    Q 0.0 Mvar -> load 0.00 pu, load loss   0.0 kW (+ no-load 4.5 kW)
+    Q 1.0 Mvar -> load 0.18 pu, load loss   1.5 kW (+ no-load 4.5 kW)
+    Q 2.0 Mvar -> load 0.36 pu, load loss   6.0 kW (+ no-load 4.5 kW)
+  a reactive service at night is a revenue with a loss in it:
+  the price must cover both (ch 20, ch 21)

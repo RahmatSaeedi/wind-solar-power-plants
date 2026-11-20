@@ -1,0 +1,12 @@
+5 FAT changes and the tests they reopen
+  C-01 trip coils rewired: trip coil 1, trip coil 2, trip-circuit supervision
+  C-02 X1:3/X1:4 rewired: CT circuit L2, CT circuit L3, 51N stability
+  C-03 link X4:3-X4:4 removed: Q8 position indication, Q2 position indication,
+    interlock Q2/Q8
+  C-04 K5 added: intertrip send, trip coil 1, trip coil 2, trip time
+  C-05 CT of PVF3 replaced: CT ratio PVF3, CT polarity PVF3, 51 PVF3
+  14 tests to repeat; reopened by two changes: trip coil 1, trip coil 2
+  a fix makes the earlier result void for everything it
+  touched: the retest set comes from the change, not from
+  the tester's memory, and the repeated results replace the
+  old ones in the FAT record

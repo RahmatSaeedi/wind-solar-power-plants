@@ -1,0 +1,9 @@
+a 2 % shortfall of the wind farm's power curve (teaching):
+  lost energy a year GWh, value over 25 years (NPV 7.5 %)
+  lost 3.84 GWh a year, worth 3,175 k u over the PPA
+  performance LD at 1 % of the turbine price per 1 % shortfall: 1,560 k u
+  the LD pays 49 % of the loss; it is a remedy for a
+  measured shortfall in a defined test (power-curve test,
+  chapter 11), capped, and usually the owner's only remedy;
+  so the test method and the measurement uncertainty are
+  worth as much as the LD rate

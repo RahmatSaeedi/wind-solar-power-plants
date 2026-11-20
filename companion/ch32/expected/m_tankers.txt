@@ -1,0 +1,10 @@
+water a tanker shuttle delivers (placeholders, A-370)
+  source distance km   round trip min   L/min per tanker   tankers for 1,500
+                   2               24                417                  4
+                  10               48                208                  8
+                  35              123                 81                 19
+  from the town 35 km away one tanker delivers about 80 L/min
+  - a shuttle needs many tankers or a nearer source: the
+  site tank (refilled by tankers between events) and an
+  agreed filling point at the wells are what make a long
+  exposure-cooling case possible at all

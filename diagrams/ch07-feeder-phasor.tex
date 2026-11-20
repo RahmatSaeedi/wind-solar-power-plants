@@ -1,0 +1,29 @@
+% Chapter 7 - phasor diagram of a generation feeder: V_start = V_end + R I + jX I
+% (drops exaggerated about 20 times; current at -18.19 deg as in the worked example).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \coordinate (O) at (0,0);
+  \coordinate (E) at (8,0);
+  \coordinate (R) at ($(E)+(-18.19:2.2)$);
+  \coordinate (S) at ($(R)+(71.81:1.94)$);
+  \draw[cRule, line width=0.4pt] (-0.3,0) -- (11.2,0);
+  \draw[line width=1.3pt, cInk, ->] (O) -- (E);
+  \node[note, text=cInk, anchor=north] at (4.0,-0.08) {$\mathbf{V}_\text{end}$ (پست، مرجع)};
+  \draw[line width=1.0pt, cLoss, ->] (E) -- (R);
+  \node[note, text=cInk, anchor=north east] at ($(E)!0.55!(R)$) {$R\mathbf{I}$};
+  \draw[line width=1.0pt, cLoss, ->] (R) -- (S);
+  \node[note, text=cInk, anchor=west] at ($(R)!0.5!(S)+(0.08,0)$) {$jX\mathbf{I}$};
+  \draw[line width=1.3pt, cInk, ->] (O) -- (S);
+  \node[note, text=cInk, anchor=south east] at ($(O)!0.62!(S)$) {$\mathbf{V}_\text{start}$ (سرِ واحدها)};
+  \draw[line width=1.0pt, cLoad, ->] (O) -- (-18.19:3.0);
+  \node[note, text=cInk, anchor=north] at (-18.19:3.0) {$\mathbf{I}$};
+  \draw[cInkB, line width=0.5pt] (1.6,0) arc (0:-18.19:1.6);
+  \node[note, anchor=west] at (-9:1.65) {$\varphi$};
+  \draw[cInkB, line width=0.5pt] (5.0,0) arc (0:{atan(1.235/9.17)}:5.0);
+  \node[note, anchor=west] at (4.2:5.05) {$\delta$};
+  \draw[cRule, densely dotted] (S) -- ($(O)!(S)!(E)$);
+  \draw[dimline] ($(E)+(0,-0.75)$) -- ($(O)!(S)!(E)+(0,-0.75)$);
+  \node[note, text width=30mm, anchor=north] at ($(E)!0.5!($(O)!(S)!(E)$)+(0,-0.85)$) {افتِ اندازه $\approx RI\cos\varphi + XI\sin\varphi$};
+\end{tikzpicture}}
+\end{document}

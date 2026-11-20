@@ -1,0 +1,10 @@
+firmware update for 10 inverters; chance 5% that it hides a defect
+  tripping an updated unit 0.1 times a day (teaching)
+  all at once: first trip after 1.0 day, rollback 2 days: 3.0 trips if bad
+  pilot unit for 14 days catches the defect with chance 75%; trips if bad: 1.6
+  expected loss: all at once 0.38 MWh, staged 0.21 MWh (2.5 MWh a trip)
+  the saving in energy is small; the real gain is that a bad
+  image meets one unit, not ten, and that a defect with a
+  safety side (island detection, ride-through) is found before
+  the fleet carries it - the pilot's record is part of the
+  release (ch 36)

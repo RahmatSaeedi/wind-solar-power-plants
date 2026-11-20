@@ -1,0 +1,17 @@
+Plant P from the start of the wind campaign to COD (teaching, A-571)
+  task                                   months  float
+  D1 wind campaign                           12      0
+  D2 ESIA and permits                        18      0
+  D3 grid application and studies            14     16
+  D4 financing to close                       9      0
+  P1 main transformers (order to site)       12      4
+  P2 turbines (order to site)                14      0
+  C1 civil works                             10      2
+  C2 PV installation                          8      2
+  C3 wind erection                            6      0
+  C4 substation and line                      4      4
+  K1 commissioning and tests                  4      0
+  to COD: 63 months; critical path:
+    D1 > D2 > D4 > P2 > C3 > K1
+  the wind campaign and the permits drive the plan; turbines,
+  not transformers, are the critical supply after close

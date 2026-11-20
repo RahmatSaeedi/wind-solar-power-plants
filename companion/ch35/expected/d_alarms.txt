@@ -1,0 +1,5 @@
+alarm rule on the oil temperature: above 85 C for 5 s, clear below 84
+  alarm raised at sample 454 (85.7 C); transitions: 1
+  the rule is data, not code: limit, delay and deadband sit
+  in a reviewed table, and a test feeds it a known series and
+  checks the expected raise and clear

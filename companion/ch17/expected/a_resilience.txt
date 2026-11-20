@@ -1,0 +1,10 @@
+how long the S1 battery (20 MW, 40 MWh) can carry the plant's
+  critical load of 200 kW after a loss of the grid:
+  starting at  90 % charge:    149 h ( 6.2 days)
+  starting at  50 % charge:     74 h ( 3.1 days)
+  starting at  20 % charge:     19 h ( 0.8 days)
+  the battery is sized for the market, so its reserve for the
+  plant is large; but islanding needs a grid-forming inverter,
+  protection that works without the grid, and the grid
+  operator's rules (chapters 19, 25 and 28): a resilience
+  requirement names all of them

@@ -1,0 +1,9 @@
+equipment availability (time, one unit) against plant energy availability
+  PV inverter              99.41%
+  wind turbine (minor)     99.20%
+  wind turbine (major)     99.01%
+  BESS PCS                 99.45%
+  plant energy availability (lesson F): 97.97%
+  three different numbers: the unit's time up, the plant's
+  energy delivered, and the contract's definition (ch 37) -
+  every report states which one it means

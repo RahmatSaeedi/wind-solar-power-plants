@@ -1,0 +1,11 @@
+drawdown at the village well from site well W-1 (Cooper-Jacob)
+  pumping 0.4 L/s; T 1.5e-04 m2/s; S 2e-04
+  distance m   after 1 year m   after 10 years m
+         500             1.14               1.63
+        1500             0.67               1.16
+        3000             0.38               0.87
+  the village well about 3 km away sees a few tenths of a
+  metre that grow slowly over the years - small next to
+  the seasonal swing, but measurable: a monitoring well
+  between the two and an agreed trigger (lesson C) turn
+  the estimate into evidence

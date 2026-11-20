@@ -1,0 +1,5 @@
+a = 1 /_ 120 deg; a^2 = 1 /_ 240 deg = 1 /_ -120 deg; |1 + a + a^2| = 4e-16
+  abc (positive)  angles     0  -120   120 deg; |V1| 230.0 V, |V2|   0.0 V
+  acb (reversed)  angles     0   120  -120 deg; |V1|   0.0 V, |V2| 230.0 V
+a motor on the reversed set turns backwards; a generator with the
+  wrong sequence cannot be synchronised: check it before first energising

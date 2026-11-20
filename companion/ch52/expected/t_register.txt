@@ -1,0 +1,5 @@
+asset register checked in the field: 50 assets, nameplate against register
+  7 differ (14%); 95 % interval 7% to 26% (Wilson, ch 51)
+  serial numbers changed by repairs that never reached the
+  register: each one breaks a warranty claim and a failure
+  history - the fix is the change step in every work order

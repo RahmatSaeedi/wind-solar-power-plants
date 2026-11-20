@@ -1,0 +1,28 @@
+% Chapter 2 — trueness and precision: four targets (the centre is the true value).
+% Dot positions are illustrative (not data).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\target#1#2{%
+    \begin{scope}[shift={(#1,#2)}]
+      \foreach \r in {1.5,1.0,0.5} \draw[cRule, line width=0.6pt] (0,0) circle (\r);
+      \fill[cInkB] (0,0) circle (0.05);
+    \end{scope}}
+  \def\dots#1#2#3{%
+    \foreach \x/\y in {#3} \fill[cLoss, draw=white, line width=0.4pt] ($(#1,#2)+(\x,\y)$) circle (0.085);}
+
+  \target{0}{0}   \dots{0}{0}{0.08/0.05, -0.1/0.07, 0.04/-0.11, -0.06/-0.04, 0.12/-0.02, 0.0/0.12}
+  \target{4.4}{0} \dots{4.4}{0}{0.78/0.52, 0.62/0.60, 0.70/0.42, 0.85/0.63, 0.66/0.48, 0.74/0.70}
+  \target{8.8}{0} \dots{8.8}{0}{0.75/0.3, -0.6/0.55, 0.15/-0.85, -0.7/-0.35, 0.45/0.7, -0.2/0.15}
+  \target{13.2}{0}\dots{13.2}{0}{0.2/1.0, 1.05/0.35, 0.6/1.2, 1.25/0.85, 0.4/0.55, 0.95/1.15}
+
+  \node[text=cInk, align=center, anchor=north] at (0,-1.7)    {\textbf{درست و دقیق}\\خطای سامانمندِ کم،\\پراکندگیِ کم};
+  \node[text=cInk, align=center, anchor=north] at (4.4,-1.7)  {\textbf{دقیق ولی نادرست}\\خطای سامانمندِ بزرگ\\(نیاز به کالیبراسیون)};
+  \node[text=cInk, align=center, anchor=north] at (8.8,-1.7)  {\textbf{درست ولی نادقیق}\\میانگین درست،\\پراکندگیِ زیاد};
+  \node[text=cInk, align=center, anchor=north] at (13.2,-1.7) {\textbf{نه درست، نه دقیق}};
+  \node[note, anchor=north, text width=140mm] at (6.6,-3.35)
+     {مرکز: مقدارِ واقعی (که هرگز دقیق معلوم نیست). «درستی» فاصلهٔ میانگینِ اندازه‌گیری‌ها از
+      مرکز است و «دقت» (به معنای پراکندگی) نزدیکیِ اندازه‌گیری‌ها به یکدیگر. میانگین‌گیری پراکندگی را
+      کم می‌کند، اما خطای سامانمند را هرگز.};
+\end{tikzpicture}}
+\end{document}

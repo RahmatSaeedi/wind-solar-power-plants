@@ -1,0 +1,11 @@
+cooling the dry-type transformer in the turbine tower (teaching):
+  losses at full output 57 kW (no-load 7, load 50)
+  air rise K   air flow m3/s   at 2,000 m altitude (air 0.80 x)
+          10            4.73                    5.91
+          15            3.15                    3.94
+          20            2.36                    2.95
+  the heat must leave the tower base through filtered inlets
+  and outlets or a duct; thin air at altitude carries less
+  heat per cubic metre, so dry types are derated or given
+  more air - the maker's rating at the site's altitude and
+  temperature is part of the turbine supplier's evidence

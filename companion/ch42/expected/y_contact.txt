@@ -1,0 +1,9 @@
+tooth contact as two cylinders: 2500 N/mm of face, equivalent radius 40 mm
+  load case        b mm   p MPa   shear max at mm   MPa   case needed (2.5 x)
+  nominal          1.05    1513              0.83   454    2.07 mm
+  edge load x 1.3  1.20    1725              0.94   517    2.36 mm
+  the shear peaks below the surface, not on it: the hard case
+  must reach well past that depth or cracks start under it
+  (teaching rule 2.5 x). A misaligned mesh loads one edge -
+  2.36 mm is needed then, which is what the 2.4 mm floor of
+  lesson C covers; HT-43 at 2.09 mm meets only the nominal case

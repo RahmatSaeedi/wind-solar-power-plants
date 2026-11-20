@@ -1,0 +1,11 @@
+the tank under full vacuum (atmospheric pressure outside, teaching):
+  wall m x m   force MN   per stiffener (6 stiffeners) kN
+   3.0 x 4.0       1.22                               203
+   6.0 x 4.0       2.43                               405
+   6.0 x 2.5       1.52                               253
+  a 6 m by 4 m wall carries 2.4 MN when the tank is evacuated
+  for oil filling: the stiffeners and the wall thickness are
+  designed for it, and the vacuum and pressure tests of the
+  tank (purpose: no permanent deformation, no leak) are part
+  of the factory record - vacuum work belongs to the maker's
+  equipment and procedure

@@ -1,0 +1,13 @@
+tower as a uniform steel tube of 100 m with a 350 t top mass (A-050):
+  rotor at 10.5 rpm: 1P = 0.175 Hz, 3P = 0.525 Hz
+  first try: D 4.25 m, t 30 mm: I = 0.885 m4, tower 312 t, k = 3EI/L^3 = 558
+    kN/m
+    m_eff = m_top + 0.24 m_tower = 425 t -> f1 = 0.182 Hz; f1/1P = 1.04, 3P/f1
+    = 2.88
+  second try: D 4.5 m, t 45 mm: I = 1.563 m4, tower 494 t, k = 3EI/L^3 = 984
+    kN/m
+    m_eff = m_top + 0.24 m_tower = 469 t -> f1 = 0.231 Hz; f1/1P = 1.32, 3P/f1
+    = 2.28
+  the bare second tube without the top mass: 0.456 Hz
+  the first try sits 4 % above 1P (resonance risk); the second lies between
+    1P and 3P with margin ('soft-stiff')

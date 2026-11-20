@@ -1,0 +1,12 @@
+sensitivity of the farm energy (model 15.1 farm curve) to the
+  wind speed of every hour:
+  speed  +1 %: energy  +1.82 %  (ratio 1.82)
+  speed  +3 %: energy  +5.41 %  (ratio 1.80)
+  speed  +5 %: energy  +8.94 %  (ratio 1.79)
+  speed  -3 %: energy  -5.51 %  (ratio 1.84)
+  speed  -5 %: energy  -9.26 %  (ratio 1.85)
+  the ratio is about 1.8 for the farm, less than the cube (3)
+  because much energy comes near and above rated power, but more
+  than the 1.60 of one turbine without wakes (chapter 13): wakes
+  take more at moderate speeds; a shortfall of speed costs a
+  little more than the same surplus gains

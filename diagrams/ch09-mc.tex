@@ -1,0 +1,16 @@
+% Chapter 9 - distribution of yearly energy lost to inverter failures over 25 years, 2000 Monte
+% Carlo runs (seed 29, A-171). Data: diagrams/data/ch09-mc.csv (companion/ch09/examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=150, xmax=1000, ymin=0, ymax=300,
+      xlabel={انرژیِ ازدست‌رفته در سال، $\text{MWh}$}, ylabel={تعدادِ اجرا}, xtick={200,400,...,1000},
+      ytick={0,100,200,300}]
+    \addplot[ybar, bar width=6pt, draw=cLoss, fill=cLoss!25] table[x=x, y=n, col sep=comma] {data/ch09-mc.csv};
+    \draw[cInk, line width=0.8pt] (axis cs:425,0) -- (axis cs:425,280);
+    \node[note, text=cInk, anchor=south east] at (axis cs:420,282) {$P_{50} = 425$};
+    \draw[cInkB, line width=0.8pt, dash pattern=on 4pt off 2pt] (axis cs:532,0) -- (axis cs:532,240);
+    \node[note, anchor=south west] at (axis cs:536,230) {$P_{90} = 532$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

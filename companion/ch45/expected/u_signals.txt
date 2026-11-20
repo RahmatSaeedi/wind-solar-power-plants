@@ -1,0 +1,7 @@
+interface signals of one container: 12; tested end to end at the factory: 9
+  not tested: off-gas detector alarm, fire panel fault, auxiliary supply lost
+  the untested ones are the signals between makers - the
+  detector's and the fire panel's (another supplier) and the
+  auxiliary supply (the plant): each gets a test at site with
+  both owners present, written into the site test plan
+  (ch 19 fire interfaces, ch 50)

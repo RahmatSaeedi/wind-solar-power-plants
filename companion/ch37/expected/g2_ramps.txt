@@ -1,0 +1,10 @@
+ramp events of the plant output: change above 15 MW
+  within one hour (same hour, same sign):
+    observed ramps 860, forecast hits 640, misses 220, false alarms 398
+    probability of detection 0.74, false-alarm ratio 0.38
+  the same ramps, a forecast ramp up to 1 h early or late
+    allowed: caught 695 of 860 (81 %)
+  an hourly RMSE says nothing about ramps; ramps are scored
+  as events, and the timing tolerance is part of the
+  definition - the same forecast looks poor or useful
+  depending on it

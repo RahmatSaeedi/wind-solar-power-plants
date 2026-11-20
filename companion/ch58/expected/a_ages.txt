@@ -1,0 +1,12 @@
+edition age of 190 dated rows on 2026-11-18 (years since the edition)
+  0-2: 35  3-5: 39  6-10: 59  11-20: 44  21-60: 13
+  median age 7 years; rows with an amendment: 45
+  oldest editions:
+    38 years  STD-116  IEC 60949:1988+AMD1:2008
+    37 years  STD-119  IEC 60529:1989+AMD1:1999+AMD2:2013
+    27 years  STD-047  IEC 61683:1999
+    24 years  STD-035  IEC 61000-4-7:2002+AMD1:2008 CSV
+    23 years  STD-169  IEC 61014:2003
+  an old edition may still be current - a standard is not
+  replaced on a schedule; each row's currency is checked, not
+  assumed from its age

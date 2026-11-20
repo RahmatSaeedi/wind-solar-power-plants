@@ -1,0 +1,10 @@
+perturb and observe on one string at 800 W/m2, 45 C: MPP 1006 V, 10.52 kW
+  start at 0.95 V_oc; one step every 0.1 s (DC link settles, A-151)
+  step V   time to reach 99.5 %   steady loss (mean)
+      1             12.5 s            0.000 %
+      2              6.4 s            0.002 %
+      5              2.7 s            0.013 %
+     10              1.5 s            0.040 %
+     20              0.9 s            0.200 %
+  a big step finds the MPP fast but keeps dithering around it;
+  a small step wastes little in steady sun but lags a cloud

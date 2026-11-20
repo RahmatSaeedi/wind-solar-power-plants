@@ -1,0 +1,17 @@
+% Chapter 32 - risk score of each step of the yaw-motor JHA before and after controls (revised
+% steps 6 and 8) (diagrams/data/ch32-jha.csv, lab_f; teaching scores).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=58mm, xmin=0.4, xmax=9.6, ymin=0, ymax=17,
+      xtick={1,...,9}, xlabel={گامِ کار}, ylabel={امتیازِ خطر},
+      ybar=1pt, bar width=3.2mm,
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[fill=cLoss!60, draw=cLoss] table[x=step, y=before, col sep=comma] {data/ch32-jha.csv};
+    \addplot[fill=cBESS!60, draw=cBESS] table[x=step, y=after, col sep=comma] {data/ch32-jha.csv};
+    \draw[sLimit] (axis cs:0.4,9.5) -- (axis cs:9.6,9.5);
+    \node[note, anchor=south east] at (axis cs:9.6,9.6) {مرزِ «زیاد»};
+    \legend{پیش از کنترل‌ها, پس از کنترل‌ها}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+upward reserve for 95 % cover of the intraday shortfall (test months):
+  rule                     mean reserve MW   cover %   MW-h held
+  constant                            13.7      94.2      40,186
+  by forecast level                   12.3      94.0      35,949
+  a reserve that follows the forecast level holds less on
+  average for about the same cover: little at night when the
+  forecast is low, more at high output; the rule is fitted on
+  January-August and tested on September-December

@@ -1,0 +1,14 @@
+first-article check of the first module off the line
+  characteristic               required             measured
+  cells, bin and lot recorded  52 of 52             52 of 52
+  cell polarity                all correct          all correct
+  compression force            within the drawing   within
+  weld resistance              all <= 30 uohm       102 of 102
+  sense wiring map             matches drawing      2 leads swapped  <- NO
+  temperature sensors          8 at drawing places  8, one 2 cells off  <- NO
+  insulation to frame          test passed          passed
+  label and lot                present              present
+  2 of 8 fail: both in the BMS wiring - the place
+  where returns also start (round u); the line does not run
+  until the drawing or the jig is corrected and a second
+  first article passes (ch 40)

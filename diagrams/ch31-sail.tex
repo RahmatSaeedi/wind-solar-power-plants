@@ -1,0 +1,18 @@
+% Chapter 31 - wind force on suspended loads against wind speed (Cd 1.2, air 1.225 kg/m3):
+% rotor in its plane (555 m2), tower section (112 m2), nacelle side (60 m2); teaching areas
+% (companion/ch31/examples_b.py, b_wind).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=0, xmax=14, ymin=0, ymax=80,
+      xlabel={سرعتِ باد $(\text{m/s})$}, ylabel={نیروی باد $(\text{kN})$}, xmajorgrids=true,
+      legend pos=north west, legend cell align=right]
+    \addplot[sPV, domain=0:14, samples=40] {0.5*1.225*x^2*1.2*555/1000};
+    \addplot[sWind, domain=0:14, samples=40] {0.5*1.225*x^2*1.2*112/1000};
+    \addplot[sLoad, domain=0:14, samples=40] {0.5*1.225*x^2*1.2*60/1000};
+    \legend{روتور در صفحهٔ خود, بخشِ برج, ناسل از پهلو}
+    \draw[sLimit] (axis cs:8,0) -- (axis cs:8,80);
+    \node[note, anchor=north east] at (axis cs:7.9,78) {حدِ بالابریِ روتور};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

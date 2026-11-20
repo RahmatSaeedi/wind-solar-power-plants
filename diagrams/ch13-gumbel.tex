@@ -1,0 +1,21 @@
+% Chapter 13 - Gumbel plot of twenty annual maxima of ten-minute speed at 100 m and the fitted
+% line (location 26.72, scale 0.99 m/s), with the 50-year return level (A-256).
+% Data: diagrams/data/ch13-gumbel.csv, ch13-gumbelfit.csv (companion/ch13/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=64mm, xmin=-1.5, xmax=4.5, ymin=24, ymax=32,
+      xlabel={متغیرِ کاهیدهٔ گامبل، $y = -\ln(-\ln F)$},
+      ylabel={بیشینهٔ سالانه، $\text{m/s}$}, xtick={-1,0,...,4}, ytick={24,26,...,32},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[only marks, mark=*, mark size=1.6pt, color=cWind]
+      table[x=y, y=v, col sep=comma] {data/ch13-gumbel.csv};
+    \addlegendentry{بیست بیشینهٔ سالانه}
+    \addplot[sLoss] table[x=y, y=v, col sep=comma] {data/ch13-gumbelfit.csv};
+    \addlegendentry{خطِ برازش‌شده}
+    \draw[sLimit] (axis cs:3.902,24) -- (axis cs:3.902,30.58) -- (axis cs:-1.5,30.58);
+    \node[note, anchor=south west] at (axis cs:-1.4,30.6) {پنجاه‌ساله: $30.6\ \text{m/s}$};
+    \node[note, anchor=north, fill=white] at (axis cs:3.902,25.3) {$T = 50$ سال};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

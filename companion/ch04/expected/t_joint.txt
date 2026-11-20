@@ -1,0 +1,8 @@
+tower flange: 140 bolts M36 on a 4.7 m circle; moment swings +-20 MN m (A-078)
+  load change per bolt 4 dM / (n D) = 122 kN
+  bolt stiffness E A / L = 858 MN/m; clamped parts 5 x stiffer
+  load factor k_b / (k_b + k_c) = 0.167: the bolt feels 16.7% of the change
+  bolt stress swing: preloaded 24.8 MPa; preload lost 148.8 MPa
+  with S-N slope 3, losing the preload multiplies bolt fatigue damage by 216
+  preload is not a detail: it is what makes the joint survive (re-tightening
+    and checks in chapters 49 and 52)

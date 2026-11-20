@@ -1,0 +1,8 @@
+operating envelope of the site (data pack 1.1.0)
+  air temperature -8.6 to 40.7 C; lowest pressure 866 hPa
+  densest-to-thinnest: air at 41 C and 866 hPa is 0.962 kg/m3
+  turbine envelope asked of the maker (teaching): operation
+  -20 to +40 C, survival -30 to +50 C, altitude to 1,500 m
+  the site's 40.7 C peak exceeds +40 C: a hot-climate
+  package (cooling, derating curve) is a purchase item, and
+  the derated hours are part of the energy model (ch 15)

@@ -1,0 +1,5 @@
+copper ribbon soldered to a silicon cell, cycling -40 .. +60 C (100 K):
+  mismatch strain (17 - 2.6) e-6 x 100 = 1.44 x 10^-3
+  fully restrained copper: E d_alpha dT = 158 MPa, above the yield of annealed
+    copper
+  each cycle bends the joint plastically: thermal-cycling tests target this

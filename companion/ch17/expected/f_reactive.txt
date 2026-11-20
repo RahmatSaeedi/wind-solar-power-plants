@@ -1,0 +1,7 @@
+the regional load in MVA (power factor 0.92, A-284):
+  peak 51.83 MW = 56.34 MVA; reactive 22.08 Mvar
+  two transformers (126 MVA): loading 44.7 %
+  one out (63 MVA): loading 89.4 %
+  growth that reaches 63 MVA with one out: about 1.12 % a year over ten years
+  checking in MW at unity power factor (section A) was too kind:
+  equipment carries current, which follows MVA

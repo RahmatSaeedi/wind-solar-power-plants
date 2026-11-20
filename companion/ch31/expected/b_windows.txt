@@ -1,0 +1,11 @@
+weather windows in the data-pack year (hub-height wind; teaching limits)
+  lift                  limit  hours  windows/yr  worst month  longest wait h
+  tower section            12      4        1917     12 (119)              71
+  nacelle                  10      6        1050     12 ( 61)             135
+  rotor (hub + blades)      8      8         572      5 ( 32)             214
+  single blade              8      4        1254     12 ( 72)             137
+  even the worst month has dozens of windows; what costs
+  money is the wait - the rotor lift can stand idle for
+  nine days (214 h) when a windy spell sets in: erection is planned
+  around the season, and a waiting crane costs every day
+  it stands (lab D)

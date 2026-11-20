@@ -1,0 +1,7 @@
+P(t) = 14.30 kW sin(pi (t - 6)/12), 06:00 to 18:00
+exact integral = 14.30 x 24/pi = 109.244 kWh
+hourly samples: left rectangles 108.619, trapezoid 108.619, Simpson 109.247
+    kWh
+errors: rectangles -0.625, trapezoid -0.625, Simpson +0.0029 kWh
+data pack summer day, one string, screening model: 106.9 kWh (sum of hourly
+    means x 1 h)

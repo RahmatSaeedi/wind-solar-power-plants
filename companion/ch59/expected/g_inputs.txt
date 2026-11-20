@@ -1,0 +1,7 @@
+grid-study and protection inputs (ch 28 register): 30 items
+  status: received 16, requested 7, missing 5, assumed 2
+  owners: operator 13, plant 10, OEM 7
+  not yet in hand: 14 - IN-03, IN-05, IN-06, IN-07, IN-08, IN-09, IN-10, IN-11
+    ...
+  each missing input is a condition of the connection agreement
+  and a line in the request to the network operator (ch 54-57)

@@ -1,0 +1,10 @@
+kit maker's notice on termination kit lot K-23: where are they?
+  W002 at T01
+  W002 at T02
+  W005 at T05
+  W013 at SWG/PVF1
+  4 terminations on 3 cables; in the switchgear: PVF1
+  the jointing record of each termination carries its kit lot;
+  without it every termination of the plant would be suspect -
+  with it the inspection list has 4 lines (ch 24 jointing
+  records, ch 52 maintenance)

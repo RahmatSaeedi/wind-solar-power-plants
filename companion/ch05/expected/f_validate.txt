@@ -1,0 +1,12 @@
+data pack 1.1.0 validation:
+  PASS  columns = data dictionary
+  PASS  values inside the dictionary ranges
+  PASS  one UTC offset (+04:00)
+  PASS  one-hour steps, 8760 unique stamps
+  PASS  no missing values
+  PASS  pressure in hPa (not Pa or kPa)
+  PASS  irradiance consistent (DHI <= GHI)
+  PASS  provenance: generator and seed recorded
+  PASS  scenario cards: S0 no battery, S1 battery
+  PASS  unknown scenario refused
+  PASS  ledger A-001..A-099 complete

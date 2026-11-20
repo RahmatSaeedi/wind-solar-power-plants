@@ -1,0 +1,9 @@
+spares held in the country at 90 % confidence (ch 52 failure rates)
+  class                  units  rate/yr   lead 8 wk  16 wk  26 wk
+  PV inverter               10     0.50           2      3      5
+  wind turbine (major)      12     0.06           1      1      1
+  BESS PCS                   4     0.50           1      2      2
+  PV inverters: 2 spares at 8 weeks, 5 at 26 - a closed import
+  route that stretches the lead time raises the stock; a major
+  turbine part stays at one, but waiting 26 weeks for it IS the
+  outage: spares are a priced service decision (ch 52, AF-41)

@@ -1,0 +1,11 @@
+receiving inspection: what is checked before the driver leaves
+  [ ] shock and tilt indicators read                 nacelle, transformer
+  [ ] packing intact, seals and desiccant bags       all packed items
+  [ ] visible damage photographed before unloading   all loads
+  [ ] blade leading edge and tip protection          blades
+  [ ] transformer impact recorder downloaded         main transformer (ch 25)
+  [ ] serial numbers against the packing list        all loads
+  [ ] documents: certificates, preservation log      all loads
+  a damage noted while the driver is there is a transport
+  claim; found a week later it is the project's problem - so
+  the inspection happens at unloading, with photographs

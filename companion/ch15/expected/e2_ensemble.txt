@@ -1,0 +1,17 @@
+a 20-member ensemble of the day-ahead hybrid forecast (A-270):
+  test months: RMSE of the ensemble mean 8.92 MW; mean spread 4.82 MW
+  spread inflation fitted on the training months: x 1.51
+  rank of the observation among the members (21 ranks, flat = 4.8 %):
+    raw ensemble:        lowest 16.4 %, highest 10.1 %, middle  3.4 %
+    inflated ensemble:   lowest  6.1 %, highest  5.1 %, middle  4.3 %
+  spread-skill (test): spread quartile   mean spread   RMSE of mean
+                          0.0-  2.1           0.90        3.87
+                          2.1-  4.5           3.32        6.67
+                          4.5-  7.2           5.75       10.09
+                          7.2- 16.3           9.33       12.54
+  a U-shaped rank histogram means the truth falls outside the
+  ensemble too often: the members agree more than they should;
+  inflating the spread on past data flattens it; more spread does
+  go with larger errors, so the spread carries information
+  CRPS on the test months: raw 4.55 MW, inflated 4.50 MW;
+    ensemble mean as a point forecast (MAE) 6.06 MW

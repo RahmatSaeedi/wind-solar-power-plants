@@ -1,0 +1,8 @@
+the battery over the year with a fixed daily shift (6 MW in at
+  10-15, out at 18-22), reserve 5 MW for an hour kept (ch 20)
+  hours at the upper limit (36 MWh): 1454
+  hours at the service floor (9.4 MWh): 13
+  controller alarms: 375
+  a battery near its limits is the normal state of a plan that
+  does not look at the forecast: the shift of lesson D adjusts
+  the plan when the day is not ordinary

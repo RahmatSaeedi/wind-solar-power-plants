@@ -1,0 +1,16 @@
+% Chapter 52 - reliability of main bearings: Weibull (beta 2.5, eta 60,000 h) against an exponential
+% with the same mean life (companion/ch52/examples_e.py, exp_vs_weibull -> diagrams/data/ch52-weibull.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=120000, ymin=0, ymax=1.05,
+      xlabel={ساعتِ کار}, ylabel={قابلیتِ اطمینان}, scaled x ticks=false,
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/1000 sep={}},
+      xtick={0,30000,60000,90000,120000}, legend pos=north east, area legend=false]
+    \addplot[sWind, line width=1.1pt] table[x=t, y=weibull, col sep=comma] {data/ch52-weibull.csv};
+    \addlegendentry{وایبول}
+    \addplot[sPV, line width=1.1pt] table[x=t, y=exponential, col sep=comma] {data/ch52-weibull.csv};
+    \addlegendentry{نمایی، همان میانگین}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

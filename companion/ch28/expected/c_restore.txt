@@ -1,0 +1,14 @@
+reconnection, set-point following and telemetry (teaching values)
+  after a trip: 60 s of healthy voltage and frequency, then 10 %/min
+  back to 80 MW in 8 min; energy lost per trip about 6.7 MWh (+ the outage)
+  set-point 80 -> 60 MW at 20 s, ramp 10 MW/min, 4 s delay:
+  inside +/-2 MW after 111 s
+  (a placeholder requirement of 60 s would fail: the ramp
+  limit itself takes 2 min - the two requirements must agree)
+  telemetry latency budget, s:
+    unit/RTU scan                 1.0
+    plant gateway                 0.2
+    communications                0.3
+    operator SCADA processing     0.5
+  total 2.0 s against a placeholder requirement of 2.0 s: no margin -
+  an end-to-end test measures it; the budget shows where to cut

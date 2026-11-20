@@ -1,0 +1,12 @@
+reactive capability at the POC (S0: 22 units of 5.5 MVA; teaching):
+  P MW   units Mvar   transformers+line Mvar   at POC Mvar   pf at POC
+    10        120.6                      0.1         120.5       0.083
+    25        118.4                      0.8         117.6       0.208
+    50        110.2                      3.1         107.1       0.423
+    75         95.0                      6.9          88.0       0.649
+   100         68.1                     12.3          55.8       0.873
+  at full power the units give 68 Mvar but the transformers
+  and the line take 12: about 56 Mvar reaches the POC - more
+  than a 0.95 requirement (33 Mvar) asks; the requirement is
+  checked at the POC with the losses in between, and at the
+  edges of the voltage band (ch 28), not at the terminals

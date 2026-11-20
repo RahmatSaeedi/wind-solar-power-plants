@@ -1,0 +1,15 @@
+% Chapter 34 - POC voltage around a 2 % dip: true primary value, the filtered value the controller uses,
+% and the value on the operator display (lab_d, diagrams/data/ch34-trace.csv; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=110, xmax=135, ymin=128.5, ymax=132.8,
+      xlabel={زمان (s)}, ylabel={ولتاژ (kV)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sLimit, no marks] table[x=t, y=true, col sep=comma] {data/ch34-trace.csv};
+    \addplot[sWind, no marks] table[x=t, y=filtered, col sep=comma] {data/ch34-trace.csv};
+    \addplot[sLoss, no marks, const plot] table[x=t, y=hmi, col sep=comma] {data/ch34-trace.csv};
+    \legend{مقدارِ واقعی, ورودیِ کنترل‌گر, نمایشگرِ اپراتور}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,17 @@
+% Chapter 20 - reactive capability at the POC against plant active power, without and with the
+% battery inverters, and the teaching requirement pf 0.95 (A-302).
+% Data: diagrams/data/ch20-pq.csv (companion/ch20/examples_b.py envelope()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=62mm, xmin=0, xmax=110, ymin=0, ymax=70,
+      xlabel={توانِ اکتیو (MW)}, ylabel={توانِ راکتیو (Mvar)}, xtick={0,20,...,100},
+      ytick={0,10,...,70}, legend columns=1,
+      legend style={at={(1.03,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[sWind] table[x=p, y=qre, col sep=comma] {data/ch20-pq.csv};
+    \addplot[sBESS] table[x=p, y=qall, col sep=comma] {data/ch20-pq.csv};
+    \addplot[sLimit] table[x=p, y=asked, col sep=comma] {data/ch20-pq.csv};
+    \legend{بدونِ باتری, با باتری, خواسته}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

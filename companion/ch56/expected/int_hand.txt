@@ -1,0 +1,5 @@
+three numbers by hand
+  verified share: 12 / 44 = 27%
+  branch 1: S1 2 + S2 2 + S3 3 + S8 3 = 10.0 months
+  branch 2: S1 2 + S2 2 + S6 4 + S7 2 = 10.0 months (program: 10.0)
+  grid inputs given: 1 / 13 = 8%

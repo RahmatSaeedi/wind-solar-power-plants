@@ -1,0 +1,7 @@
+full-service or basic O&M (k u a year, 100,000 draws):
+  contract       mean    P90     P99
+  full service  3,100  3,100   3,100
+  basic         2,904  4,900   6,300
+  basic is cheaper on average and dearer in a bad year; the
+  full-service price buys a flat cost line that lenders value;
+  the choice also moves the availability guarantee (section B)

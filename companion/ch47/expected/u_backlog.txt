@@ -1,0 +1,7 @@
+NCR backlog by Little's law: open = rate x time to decide
+  the register: 7 NCRs in 136 days (0.36 a week), 5 open
+  so an NCR waits about 97 days for its decision on average
+  deciding in 21 days instead would leave about 1.1 open
+  the open list is not shortened by working harder on the old
+  NCRs once; only a shorter time to decide keeps it short - an
+  owner and a date on each (lesson C)

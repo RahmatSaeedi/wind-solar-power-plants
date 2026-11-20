@@ -1,0 +1,28 @@
+type-test clauses written from the register (dated, verifiable)
+  [requirement; vague: -]
+  The PV modules shall be type-tested to IEC 61215-2:2021 by a laboratory
+    accredited to ISO/IEC 17025 with IEC 61215-2:2021 in its scope; the report
+    shall name the model, the edition and the date.
+  [requirement; vague: -]
+  The PV modules shall be type-tested to IEC 61730-2:2023 by a laboratory
+    accredited to ISO/IEC 17025 with IEC 61730-2:2023 in its scope; the report
+    shall name the model, the edition and the date.
+  [requirement; vague: -]
+  The PV inverters shall be type-tested to IEC 62109-1:2010 by a laboratory
+    accredited to ISO/IEC 17025 with IEC 62109-1:2010 in its scope; the report
+    shall name the model, the edition and the date.
+  [requirement; vague: -]
+  The PV inverters shall be type-tested to IEC 62116:2014 by a laboratory
+    accredited to ISO/IEC 17025 with IEC 62116:2014 in its scope; the report
+    shall name the model, the edition and the date.
+  [requirement; vague: -]
+  The battery systems shall be type-tested to IEC 62619:2022 by a laboratory
+    accredited to ISO/IEC 17025 with IEC 62619:2022 in its scope; the report
+    shall name the model, the edition and the date.
+  [requirement; vague: -]
+  The MV switchgear shall be type-tested to IEC 62271-200:2021 by a laboratory
+    accredited to ISO/IEC 17025 with IEC 62271-200:2021 in its scope; the
+    report shall name the model, the edition and the date.
+  clauses with a vague word or no requirement: 0 of 6
+  the clause names the edition, the lab's scope and what the
+  report must show - the three checks of section C

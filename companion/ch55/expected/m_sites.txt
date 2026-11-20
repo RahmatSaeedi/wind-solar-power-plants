@@ -1,0 +1,18 @@
+research log: official sites tried on 2026-11-17
+  satba.gov.ir     no answer
+  moe.gov.ir       no answer
+  tavanir.org.ir   no answer
+  igmc.ir          no answer
+  doe.ir           no answer
+  irenex.ir        no answer
+  mcls.gov.ir      no answer
+  mcth.ir          no answer
+  qavanin.ir       blocked (script check)
+  cao.ir           blocked (HTTP 403)
+  inso.gov.ir      read
+  wrm.ir           read
+  frw.ir           read
+  read 3, no answer 8, blocked 2 of 13
+  the laws and bylaws came from the Majlis Research Center prints;
+  an unreachable site is a finding with a date and a retry, not
+  a reason to use a summary instead

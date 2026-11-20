@@ -1,0 +1,9 @@
+clamp torque records of 2027-08-25 against the maker's value
+  (placeholder 25 Nm +/- 10%)
+  T3-015 clamp 1: no value recorded
+  T3-021 clamp 2: 21.0 Nm outside the band
+  tool TW-07 was past its calibration date; its records are suspect:
+    T3-021 clamp 1, T3-021 clamp 2
+  a missing value is an untightened clamp until shown
+  otherwise; a tool past its calibration puts every joint it
+  made in doubt - the record names the tool for that reason

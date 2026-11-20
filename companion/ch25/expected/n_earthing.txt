@@ -1,0 +1,9 @@
+one unit, two jobs: an earthing transformer with an auxiliary winding
+  earthing: neutral current 400 A for 10 s -> 7.6 MVA short-time
+  auxiliary winding: 250 kVA continuous at 0.4 kV (the station
+  service transformer of ch 23)
+  the zigzag gives the 33 kV system its neutral (ch 26) and the
+  second winding feeds the auxiliaries: one tank, one bay,
+  one set of tests instead of two - but one failure takes
+  both the earthing and the auxiliary supply of that section,
+  which the other section's unit must then cover

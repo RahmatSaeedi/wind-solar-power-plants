@@ -1,0 +1,14 @@
+root-cause families for a power-quality complaint (teaching)
+  network: capacitor switching, resonance, other emitters
+      evidence: switching log, scan
+  plant: converter emission, filter detuned, settings
+      evidence: currents, unit bins
+  measurement: CVT error, clock offset, wrong window
+      evidence: transducer data
+  load: neighbour's capacitors, drives
+      evidence: their records
+  operation: new firmware, changed set-point
+      evidence: configuration log
+  every family stays open until its evidence closes it - the
+  investigation report lists all five, not only the one
+  that was suspected first

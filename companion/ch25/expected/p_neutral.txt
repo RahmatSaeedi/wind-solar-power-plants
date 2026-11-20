@@ -1,0 +1,12 @@
+the HV star point: earthed (YN) or not, seen by a 132 kV earth fault
+  grid Z1 14.6 ohm, Z0 20.4 ohm; each transformer Z0 29.9 ohm
+  plant star points earthed   earth-fault kA   share from the plant
+                            0              4.6                     0%
+                            1              5.5                    41%
+                            2              6.1                    58%
+  an earthed star point makes the plant a source of zero-
+  sequence current: the grid's earth faults grow and the
+  utility's earth-fault protection sees the plant - so the
+  utility decides whether the HV neutral is earthed, solid
+  or through an impedance (U-089), and the vector group
+  and neutral bushing follow that decision

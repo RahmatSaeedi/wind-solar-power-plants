@@ -1,0 +1,50 @@
+% Chapter 10 - the solar cell: a conceptual cross-section (light, pn junction, carriers, contacts)
+% and the single-diode equivalent circuit with its five parameters (section A).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \ctikzset{bipoles/length=0.85cm}
+  % ---------------- cross-section (left) ----------------
+  \fill[cPV!35] (0,3.55) rectangle (5.2,3.7);                      % anti-reflection coat
+  \fill[cPV!18] (0,3.15) rectangle (5.2,3.55);                     % n emitter
+  \fill[cMuted!18] (0,2.75) rectangle (5.2,3.15);                  % depletion region
+  \fill[cFill] (0,0.45) rectangle (5.2,2.75);                      % p base
+  \fill[cMuted!60] (0,0.15) rectangle (5.2,0.45);                  % back contact
+  \draw[cInkB] (0,0.15) rectangle (5.2,3.7);
+  \draw[cInkB, densely dashed] (0,3.15) -- (5.2,3.15) (0,2.75) -- (5.2,2.75);
+  \foreach \x in {0.6,1.9,3.2,4.5} \fill[cInk] (\x,3.7) rectangle ++(0.22,0.18);
+  % light
+  \foreach \x/\d in {1.2/1.2, 2.5/2.0, 3.8/0.4} {
+    \draw[->, cPV, line width=0.8pt, decorate, decoration={snake, amplitude=0.6mm, segment length=2.2mm, post length=1.5mm}]
+      (\x+0.3,4.9) -- (\x,3.75);
+  }
+  \node[note, anchor=south] at (2.6,4.9) {نور: فوتون‌ها با انرژیِ بیش از گافِ نواری};
+  % carriers
+  \foreach \x/\n in {1.2/a,2.5/b} {
+    \node[circle, draw=cInk, inner sep=0.6pt, font=\scriptsize] (e\n) at (\x,1.8) {$-$};
+    \node[circle, draw=cLoss, inner sep=0.6pt, font=\scriptsize] (h\n) at (\x+0.45,1.8) {$+$};
+    \draw[->, cInk] (e\n) -- (\x,3.35);
+    \draw[->, cLoss] (h\n) -- (\x+0.45,0.55);
+  }
+  \draw[cRule] (5.2,3.65) -- (5.5,4.15) (5.2,3.35) -- (5.5,3.5) (5.2,2.95) -- (5.5,2.8);
+  \node[note, anchor=west, text=cInk] at (5.5,4.15) {پوششِ ضدبازتاب و انگشتی‌ها};
+  \node[note, anchor=west, text=cInk] at (5.5,3.5) {لایهٔ نوعِ n};
+  \node[note, anchor=west, text=cInk] at (5.5,2.8) {ناحیهٔ تهی، میدانِ داخلی};
+  \node[note, anchor=west, text=cInk] at (5.35,1.6) {پایهٔ نوعِ p};
+  \node[note, anchor=west, text=cInk] at (5.35,0.3) {اتصالِ پشتی};
+  \node[note, text width=50mm] at (2.6,-0.45) {الکترون به سمتِ n و حفره به سمتِ p رانده می‌شود؛ جریان از اتصال‌ها بیرون می‌آید};
+  % ---------------- equivalent circuit (right) ----------------
+  \begin{scope}[xshift=9.4cm, yshift=0.6cm]
+    \draw (0,0) to[american current source, l={$I_\text{L}$}] (0,3);
+    \draw (0,3) -- (4.2,3);
+    \draw (1.4,3) to[D*, l={$I_\text{D}$}] (1.4,0);
+    \draw (2.8,3) to[R, l={$R_\text{sh}$}] (2.8,0);
+    \draw (4.2,3) to[R, l={$R_\text{s}$}, i>^={$I$}] (6.0,3) to[short, -o] (6.4,3);
+    \draw (0,0) to[short, -o] (6.4,0);
+    \draw[->, cInkB] (6.75,0.15) -- node[note, anchor=west] {$V$} (6.75,2.85);
+    \node[note, anchor=north] at (3.2,-0.3) {مدارِ معادلِ تک‌دیودی};
+  \end{scope}
+  \node[note, text=cInk, anchor=north] at (12.6,-0.45)
+    {$I = I_\text{L} - I_0\left[\exp\!\left(\dfrac{V+IR_\text{s}}{a}\right)-1\right]-\dfrac{V+IR_\text{s}}{R_\text{sh}}$};
+\end{tikzpicture}}
+\end{document}

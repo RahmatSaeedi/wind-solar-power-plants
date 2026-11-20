@@ -1,0 +1,11 @@
+Monte Carlo of six repairable classes over 400 simulated years
+  (exponential failures, lognormal repairs, every part waits its lead time)
+  mean loss 4,267 MWh a year (expected-value sum 4,446; lower
+  because an outage running past the year's end is cut there);
+  single years: P50 3,407, P90 7,739, max 13,198
+  with one spare inverter and one major turbine kit on the shelf:
+  mean 2,572, P90 3,535 MWh
+  the mean hides the tail: one year in ten loses more than
+  2.3 times the median - a major turbine repair or a long
+  line fault in the wrong month; the budget and the debt
+  case use the tail (ch 16, ch 21)

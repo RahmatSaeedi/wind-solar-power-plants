@@ -1,0 +1,11 @@
+month-by-month plan from the approval map (teaching durations)
+  step  start  finish  what
+  S1      0.0     2.0  proposal to the inter-ministerial investment committee
+  S2      2.0     4.0  Economic Commission approval
+  S5      2.0     6.0  ESIA screening and environmental permit
+  S3      4.0     7.0  contract with DABS
+  S4      4.0     6.0  licence and contract under the 2016 law
+  S6      4.0     8.0  state-land lease
+  S8      7.0    10.0  connection request and agreement
+  S9      7.0     9.0  import inspection of equipment
+  S7      8.0    10.0  water-use permit

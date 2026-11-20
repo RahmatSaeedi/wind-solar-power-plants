@@ -1,0 +1,5 @@
+E01 THD of 3 A and 4 A over 50 A: 10.0%
+E02 TDD of the same over 100 A demand: 5.0%
+E03 resonance of 365 MVA with 1.77 Mvar: h = 14.4
+E04 current at 100 MW, 132 kV, pf 0.9: 486 A
+E05 dU for -30 MW at 500 MVA, X/R 5: -1.18 %

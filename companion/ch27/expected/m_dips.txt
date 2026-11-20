@@ -1,0 +1,13 @@
+a year of voltage dips at the POC (synthetic, 40 events):
+  remaining voltage %   0.02-0.2 s   0.2-0.5 s   0.5-1 s   1-5 s
+        5 -  30 %              0         0         0         0
+       30 -  60 %              8         8         0         0
+       60 -  70 %              4         0         0         0
+       70 -  80 %              7         4         0         1
+       80 -  90 %              5         2         0         0
+  deepest dip leaves 39 % voltage; most dips are shallow and short
+  (faults on the network cleared by its protection): each
+  cell is compared with the ride-through envelope (ch 26) -
+  a plant that trips on dips the envelope covers fails its
+  requirement, and the dip table is the evidence of what the
+  network delivers

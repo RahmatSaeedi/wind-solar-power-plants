@@ -1,0 +1,46 @@
+P01 current of 100 MW at 132 kV: 437 A
+P02 current of 0.5 MVA at 0.4 kV: 722 A
+P03 phase voltage of 33 kV: 19.05 kV
+P04 loss ratio 0.69 kV vs 33 kV, same power: 2,287
+P05 section with 13 units of 5 MW at pf 0.95: 68.4 MVA
+P06 feeder of 4 x 5 MW, pf 0.95 at 33 kV: 368 A (90% of 410 A)
+P07 demand of 30 kW x 0.7 (pf 0.85) + 25 kW (pf 0.95): 46.0 kW, 50.7 kVA
+P08 standard size for 167 kVA + 20 %: 250 kVA
+P09 standard size for 167 kVA + 50 %: 315 kVA
+P10 fault current of 500 kVA, 0.4 kV, z 0.06: 12.0 kA
+P11 dip of 200 kVA start on 250 kVA, z 0.045: 3.5%
+P12 dip of 200 kVA start on 150 kVA generator, x 0.15: 16.7%
+P13 DC duty 30 A x 2 h + 120 A x 1 min: raw 62.0 Ah, sized 94.6 Ah
+P14 charger for 30 A standing, 150 Ah in 8 h: 50.6 A
+P15 UPS for 15 kW, pf 0.9, 30 min: 20.8 kVA, 8.15 kWh
+P16 room 10 kW, UA 0.3 kW/K, 40/24 C, sun 2 kW: 16.8 kW cooling, 5.60 kW in
+P17 series of 1,500, 5,910 and 525 MVA: 365 MVA = 6.38 kA at 33 kV
+P18 line impedance 7.06 km of 0.12 + j0.40: 2.948 ohm; 5,910 MVA
+P19 line loss at 80 MW: 0.311 MW
+P20 transformer 63 MVA z 0.12 as fault MVA: 525
+P21 resistor for 300 A at 33 kV: 63.5 ohm
+P22 lighting 3,000 m2 x 2 + 250 m2 x 10 W/m2: 8.5 kW
+P23 sump for 400 m2 at 40 mm/h: 4.44 L/s; 0.70 kW at 8 m head
+P24 22 kW at 0.85 over 120 m of 16 mm2: 37.4 A, drop 7.9 V (2.0%)
+P25 lead-acid life at 28 C (10 y at 20 C): 5.7 y
+P26 fuel for 60 kW for 6 h at 0.27 L/kWh: 97 L
+P27 UPS energy for 30 kW for 45 s: 0.38 kWh
+P28 inverter contribution 1.2 x 130 MW at 33 kV: 2.73 kA
+P29 earthing resistor energy 7.6 MW for 1 s: 7.6 MJ
+P30 per-phase power check: 3 x 19.05 kV x 350 A = 20.01 MW
+P31 base impedance 132 kV / 100 MVA: 174.24 ohm; 0.69 kV: 0.00476 ohm
+P32 2.5 MVA, 6 % on 100 MVA: 2.40 pu; 63 MVA, 12 %: 0.1905 pu
+P33 0.5 pu to a 33 kV bus: 200 MVA, 3.50 kA
+P34 64 MVA at 0.69 kV: 53.6 kA
+P35 unit transformer 5 %: 82.4 MVA, 68.9 kA
+P36 both transformers: 559 MVA
+P37 line 20 km x 0.4 ohm on 100 MVA: 0.0459 pu
+P38 chain of three links 0.99: 0.9703; two paths 0.98, 0.995: 0.9999
+P39 10 kW at 230 V: 43.5 A; neutral of 60/50/40 A: 17.3 A
+P40 line losses 100 MW / 140 MW on 0.85 ohm: 0.486 / 0.953 MW
+P41 start 60 kVA on 100 kVA, x'd 0.15: 8.3%
+P42 K of a 20 % 5th harmonic: 1.92; 250 kVA at K 4: 222 kVA
+P43 two sources of 6 h and 10 h a year: 0.0068 h
+P44 maintenance + 40 kW at 0.9: 207 kVA
+P45 500 MVA, X/R 5, 100 MW: 3.9 %
+P46 NER 300 A at 33 kV for 5 s: 28.6 MJ

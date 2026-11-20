@@ -1,0 +1,9 @@
+energy the plan leaves at midnight (terminal value):
+  e_end MWh   export value k u   vs e_end 4   mean SOC at 18 h MWh
+          4           14,249.4         +0.0                    35.8
+         10           14,218.7        -30.6                    35.8
+         20           14,161.6        -87.8                    35.9
+  energy kept overnight is energy not sold in the evening; with
+  prices known a day ahead and a plant that refills the battery
+  most days, ending low is best; a higher end target buys
+  readiness (island reserve, morning services) at a known cost

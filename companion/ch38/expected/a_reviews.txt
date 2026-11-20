@@ -1,0 +1,9 @@
+review cycles of a drawing (teaching shares)
+  cycle                                    share done   days
+  approved at the first review                   55 %     14
+  approved by the second review                  80 %     28
+  approved by the third review                   97 %     42
+  mean time to approval of those approved in three cycles: 23 days
+  a schedule that allows one review cycle for every
+  drawing is late by design; the plan allows two, and the
+  comment sheet records each comment with its reply

@@ -1,0 +1,8 @@
+normal against lognormal for the same median and relative spread:
+  spread   P90 normal   P90 lognormal   mean of lognormal / median
+     5 %       93.59         93.94           1.0012
+    10 %       87.18         88.50           1.0046
+    20 %       74.37         79.16           1.0168
+  at the 5 % spread of this plant the shape hardly matters; a
+  one-sided loss (outages, curtailment) or a wide spread makes
+  mean, median and P50 differ: the statement says which it is

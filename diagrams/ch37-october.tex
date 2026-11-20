@@ -1,0 +1,19 @@
+% Chapter 37 - October: daily PR on the faulty plane-of-array sensor against the reference sensor
+% (lab_c; synthetic, sensor 8 % low on days 285-304).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0, xmax=32, ymin=0.78, ymax=0.98,
+      xtick={1,5,10,15,20,25,30}, ytick={0.80,0.85,0.90,0.95},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      xlabel={روزِ ماه}, ylabel={نسبتِ عملکردِ روزانه}]
+    \fill[cLoss!8] (axis cs:12.5,0.78) rectangle (axis cs:32,0.98);
+    \addplot[sLoss, mark=triangle*, mark size=1.6pt] table[x expr=\thisrow{d}-272, y=pr_sensor,
+      col sep=comma] {data/ch37-october.csv};
+    \addplot[sInk, mark=*, mark size=1.2pt] table[x expr=\thisrow{d}-272, y=pr_ref, col sep=comma]
+      {data/ch37-october.csv};
+    \legend{با حسگرِ معیوب, با حسگرِ مرجع}
+    \node[note, anchor=north] at (axis cs:22,0.975) {حسگر ۸٪ کمتر می‌خوانَد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

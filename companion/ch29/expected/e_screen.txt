@@ -1,0 +1,18 @@
+screening the hazards the handoff lists, from the data-pack year
+  air temperature: lowest -8.6 C, hours below 0 C: 356, below -5 C: 46
+  hazard     relevant here?  basis and where it is handled
+  heat       yes             47-48 C extremes (e_returns, ch 9, 19, 25)
+  wind       yes             50-year gust 41 m/s (ch 11, 30, 31)
+  dust       yes             soiling, filters (ch 10, lesson H)
+  flood      yes             wadi beside the substation (lesson I, P)
+  drought    yes             wells, tank (lessons G, H)
+  erosion    yes             bare ground in construction (lesson B, C)
+  cold       yes (winter)    frost nights: cold-weather concreting,
+                             battery heating (ch 19), frost on pads
+  icing      unlikely        dry cold air; confirm with the turbine maker
+  snow       rare            no record here; loads by the code (ch 30)
+  wildfire   low             sparse rangeland - grass after wet years:
+                             firebreaks at the fence (lesson F)
+  a hazard is screened out with a reason and a source, not
+  left off the list; the screen is redone when the record
+  or the climate scenario changes

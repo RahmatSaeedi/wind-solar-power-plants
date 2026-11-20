@@ -1,0 +1,20 @@
+% Chapter 6 — available fault current: a PV string, a combiner box, a battery rack (log scale).
+% Data: diagrams/data/ch06-fault-currents.csv (battery values assumed)
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=105mm, height=56mm,
+      xbar, bar width=11pt, xmode=log, log basis x=10, log origin=infty,
+      ymajorgrids=false, xmajorgrids=true, clip=true,
+      xlabel={جریانِ اتصالِ کوتاه (A)، مقیاسِ لگاریتمی},
+      xmin=1, xmax=1e6, ymin=-0.6, ymax=2.6, ytick={0,1,2},
+      yticklabels={یک رشته, جعبهٔ تجمیعِ ۲۴ رشته‌ای, یک قفسهٔ باتری},
+      yticklabel style={font=\footnotesize, text=cInk}]
+    \addplot[fill=cPV, draw=none] coordinates {(13.98,0) (335.5,1)};
+    \addplot[fill=cBESS, draw=none] coordinates {(24200,2)};
+    \node[font=\footnotesize, text=cInk, anchor=west] at (axis cs:16,0) {$14\,\text{A}$};
+    \node[font=\footnotesize, text=cInk, anchor=west] at (axis cs:400,1) {$336\,\text{A}$};
+    \node[font=\footnotesize, text=cInk, anchor=west] at (axis cs:28000,2) {$24\,\text{kA}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

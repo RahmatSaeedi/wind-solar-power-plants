@@ -1,0 +1,6 @@
+main transformer T1 at first energisation, no load, tap 0
+  HV 132.6 kV, LV 33.42 kV: ratio 3.9677 against nameplate 4.0000
+  difference -0.81% (teaching tolerance 0.5%) - CHECK
+  the same check as the factory's (ch 43) read from the
+  plant's own VTs: a tap left off its position, or a VT
+  wired to the wrong ratio, shows here before any load

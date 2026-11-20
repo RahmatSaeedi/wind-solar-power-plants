@@ -1,0 +1,5 @@
+turbine tasks due within a month done during an unplanned stop: 9 stops
+  each saves a separate 6 h stop later: 101 MWh a year
+  (mean turbine output 1.87 MW); the rule needs the due tasks
+  listed per turbine and the parts in the van - the CMMS
+  shows them on the corrective order (lesson I)

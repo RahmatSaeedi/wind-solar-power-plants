@@ -1,0 +1,9 @@
+auxiliary load schedule at 400/230 V (A-103), peak with diversity:
+  S0: P   78.2 kW, Q  39.9 kvar, S   87.8 kVA, pf 0.891
+      phases 150.7, 105.0, 126.4 A; neutral (50 Hz) 32.8 A; |I2|/|I1| 0.127
+  S1: P  138.2 kW, Q  77.1 kvar, S  158.2 kVA, pf 0.873
+      phases 252.7, 207.3, 228.2 A; neutral (50 Hz) 32.8 A; |I2|/|I1| 0.070
+LED lighting on phase a (A-105): fundamental 27.5 A, harmonics 28.3 A RMS;
+  a single-phase load returns all of its current, harmonics included,
+  through the neutral: I_N = sqrt(32.8^2 + 28.3^2) = 43.3 A
+  (+32 % on the 50 Hz value); phase a RMS rises only from 150.7 to 153.3 A

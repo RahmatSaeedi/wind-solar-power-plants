@@ -1,0 +1,9 @@
+Plant P noon: 2023-06-21T12:00:00+04:00  =  2023-06-21T08:00:00+00:00
+  in Asia/Tehran    2023-06-21T11:30:00+03:30
+  in Asia/Kabul     2023-06-21T12:30:00+04:30
+  in Asia/Dushanbe  2023-06-21T13:00:00+05:00
+IANA time-zone database 2025b (Python tzdata package):
+  Asia/Tehran    2021: Jan +3.5 h, Jul +4.5 h; 2023: Jan +3.5 h, Jul +3.5 h
+  Asia/Kabul     2021: Jan +4.5 h, Jul +4.5 h; 2023: Jan +4.5 h, Jul +4.5 h
+  Asia/Dushanbe  2021: Jan +5.0 h, Jul +5.0 h; 2023: Jan +5.0 h, Jul +5.0 h
+  (legal time is set by national law; the database follows it with a delay)

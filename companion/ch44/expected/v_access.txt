@@ -1,0 +1,10 @@
+open joints 500 ppm a board; in-circuit test finds an open on a reachable net
+  with 0.97 (teaching); other stations as in lesson C
+  nets with a test point   ICT finds   open joints out ppm
+                     60%        0.58                  6.27
+                     80%        0.78                  3.36
+                     92%        0.89                  1.61
+                    100%        0.97                  0.45
+  from 60 % to 100 % access the escaping opens fall by 93%: test points are
+  placed in the layout (design for test, lesson B) - the
+  factory cannot test a net the board gives it no way to touch

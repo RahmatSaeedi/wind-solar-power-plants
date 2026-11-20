@@ -1,0 +1,20 @@
+% Chapter 5 - six 10-minute intervals that make one hour, labelled by their START (data pack
+% convention, A-025) or by their END (the raw logger file, A-089).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small, x=17mm]
+  \draw[cInkB, line width=0.6pt] (-0.4,0) -- (7.4,0);
+  \foreach \k in {0,...,7} {\draw[cInkB] (\k,-0.08) -- (\k,0.08);}
+  \foreach \k/\t in {0/{14:00},1/{14:10},2/{14:20},3/{14:30},4/{14:40},5/{14:50},6/{15:00},7/{15:10}}
+    {\node[note, anchor=north] at (\k,-0.12) {\texttt{\t}};}
+  \foreach \k in {0,...,5} {\fill[cWind!18, draw=cWind] (\k+0.04,0.25) rectangle (\k+0.96,0.65);}
+  \fill[cFill, draw=cInkB] (6.04,0.25) rectangle (6.96,0.65);
+  \draw[decorate, decoration={brace, amplitude=6pt}, cInkB] (0,0.75) -- (6,0.75)
+    node[midway, above=7pt, text=cInk] {ساعتی که از \texttt{14:00} آغاز می‌شود: شش بازهٔ ده‌دقیقه‌ای};
+  \node[blkBESS, anchor=west] at (0.0,-1.3) {برچسبِ آغازِ بازه: $\texttt{14:00, 14:10, ..., 14:50}$};
+  \node[blkWarn, anchor=west] at (0.0,-2.3) {برچسبِ پایانِ بازه: $\texttt{14:10, 14:20, ..., 15:00}$};
+  \draw[flowinfo] (6,-0.45) -- (6,-1.95);
+  \node[note, anchor=west] at (6.1,-1.3) {\texttt{15:00} هنوز مالِ ساعتِ \texttt{14} است};
+  \node[note, anchor=west] at (0.0,-3.15) {قاعده: پیش از هر میانگین، برچسبِ پایان را ده دقیقه به عقب ببرید، سپس به $\text{UTC}$ تبدیل کنید};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,20 @@
+register rows by topic (the handoff's 11 first, then three more)
+  PV                           33
+  wind                         15
+  inverters                     3
+  transformers                 13
+  switchgear                    4
+  protection                    3
+  grounding                     2
+  power quality                10
+  communications               24
+  environment                  13
+  safety                       11
+  cables and substations        3  (added)
+  metering and instruments      3  (added)
+  quality and reliability      19  (added)
+  other                        35
+  thin topics (3 rows or fewer): inverters, protection, grounding
+  a thin topic is a research gap only if the plant needs more
+  there: grounding and protection rest on few documents but
+  on many project calculations (ch 26)

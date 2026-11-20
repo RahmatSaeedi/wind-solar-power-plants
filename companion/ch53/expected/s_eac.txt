@@ -1,0 +1,8 @@
+inverters: keep repairing (7 years left) or new units (15-year life)
+  keep: 720 k u repairs and 2,738 MWh lost a year -> EAC 912 k u
+  new: 4,200 k u, then 40 k u and 30 MWh a year over 15 years -> EAC 518 k u
+  equivalent annual cost compares options of different lives on
+  one footing: new units cost 394 k u a year less; the 15 years
+  count fully only if the plant (or a buyer) uses them - here the
+  7-year NPV of the previous lesson agrees, so both views point
+  the same way

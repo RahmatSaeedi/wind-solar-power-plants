@@ -1,0 +1,7 @@
+spare modules (768 installed; lead time 16 weeks, A-294):
+  failures per module-year   mean in lead time   stock for 95 %
+                     0.001                0.24                1
+                     0.002                0.47                2
+                     0.005                1.18                3
+  a few modules on site turn a weeks-long wait into hours
+  and keep a rack out of service only for the swap

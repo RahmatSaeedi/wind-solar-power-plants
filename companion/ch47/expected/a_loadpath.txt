@@ -1,0 +1,12 @@
+simplified load path, extreme parked case (teaching, ch 30 loads)
+  rotor and nacelle 2.66 MN and tower 4.10 MN down the shell
+  base moment 184.6 MN m, shear 1.60 MN -> 120 bolts on 4.3 m:
+    worst flange bolt pulled by 1,375 kN; the joint stays closed
+    below 1,818 kN (preload 1,600 kN, ch 11)
+  at the underside of the base (3.5 m down): M = 190.2 MN m
+  vertical load 48.0 MN (top, tower, 893 m3 concrete, 1100 m3 fill)
+  eccentricity 3.96 m on a 24 m base; compressed area 266 m2 of 452
+  soil pressure 181 kPa against ch 30's dense ground
+  each link of the path is a product of this chapter: shell
+  plates and welds, flange and bolts, anchor cage and grout,
+  concrete and rebar - and each link has its own record

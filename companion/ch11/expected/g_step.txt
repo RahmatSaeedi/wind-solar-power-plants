@@ -1,0 +1,7 @@
+region 2 after a wind step 7 -> 9 m/s (J 36e6 kg m2, rho 1.056, A-228):
+  rotor speed 7.58 -> 9.74 rpm; 63 % reached after 4.2 s
+  linear estimate tau = J / (2 k omega - dTa/domega) = 3.8 s
+  power just after the step 1,593 kW, final 3,099 kW (ideal 3,099 kW)
+  the generator torque follows the speed, not the wind: the
+  rotor first speeds up on the surplus aerodynamic torque and
+  the power rises with it (the rotor stores energy meanwhile)

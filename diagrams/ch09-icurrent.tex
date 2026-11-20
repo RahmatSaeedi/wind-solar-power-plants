@@ -1,0 +1,16 @@
+% Chapter 9 - current-loop step response in the dq frame, ideal and with 1.5 samples of delay
+% (A-158). Data: diagrams/data/ch09-icurrent.csv (companion/ch09/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0, xmax=6, ymin=0, ymax=1.3,
+      xlabel={زمان، $\text{ms}$}, ylabel={جریانِ $i_d$، پریونیت}, xtick={0,1,...,6}, ytick={0,0.5,1}]
+    \addplot[sInk] table[x=t, y=ideal, col sep=comma] {data/ch09-icurrent.csv};
+    \addlegendentry{بی‌تأخیر}
+    \addplot[sLoss] table[x=t, y=delay, col sep=comma] {data/ch09-icurrent.csv};
+    \addlegendentry{با تأخیرِ $1.5$ نمونه}
+    \draw[cRule, densely dotted] (axis cs:0,1) -- (axis cs:6,1);
+    \node[note, text=cInk, anchor=south west] at (axis cs:2.0,1.15) {فراجهشِ $14\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

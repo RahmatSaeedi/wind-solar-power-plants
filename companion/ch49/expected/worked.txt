@@ -1,0 +1,8 @@
+E01 posts in block PVF1-3: 210 x 12 = 2,520; modules 21 x 20 x 26 = 10,920
+E02 piling days, 2,520 posts at 220 a rig-day, 2 rigs: 5.7
+E03 radial error of (25, -18) mm: 30.8 mm
+E04 torque band of 25 Nm +/- 10 %: 22.5 to 27.5 Nm
+E05 as-laid change 395 -> 452 m: +14.4%
+E06 joints in a 3,100 m section on 1,500 m drums: 2
+E07 rate of 5,600 modules in 1,250 crew-hours: 4.48 an hour
+E08 toilets for 450 at 1 per 15: 30

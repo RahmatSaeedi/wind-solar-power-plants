@@ -1,0 +1,6 @@
+one string, 18 modules at 900 W/m2 and 8 shaded at 300 W/m2 (A-164):
+  global peak 8.08 kW at 687 V (shaded modules bypassed)
+  P&O from 0.95 V_oc settles at 1084 V: 4.48 kW (a local peak)
+  global scan, then P&O: 680 V, 8.08 kW
+  gain of the scan 80 % while the shade lasts; the scan itself costs a
+  second or two of off-peak operation every few minutes

@@ -1,0 +1,15 @@
+inverter heat 84 kW to air through a heat exchanger, 4 fans;
+  UA 8.4 kW/K with all fans
+  (UA ~ airflow^0.6, teaching); hottest module Tj = inlet + 494 W x 0.0596 K/W
+  fans   air C   UA kW/K   coolant in C   Tj C   margin K
+     4      35      8.40           45.0   74.5       15.5
+     4      45      8.40           55.0   84.5        5.5
+     3      35      7.07           46.9   76.3       13.7
+     3      45      7.07           56.9   86.3        3.7
+     2      35      5.54           50.2   79.6       10.4
+     2      45      5.54           60.2   89.6        0.4
+  with all fans the coolant reaches 45 C at 35 C air - the 45 C
+  of the design is a cool-day value; on a 45 C day one failed
+  fan leaves a few kelvin, two leave almost none: N+1 fans,
+  a fan alarm and derating by temperature (ch 9) belong
+  together, and the heat run is judged at the hottest air

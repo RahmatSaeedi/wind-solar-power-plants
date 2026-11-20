@@ -1,0 +1,9 @@
+tower first bending frequency and rotor excitation (A-216):
+  equivalent tube D 4.4 m, t 31 mm: I 1.015 m4, 3,364 kg/m; top 271 t
+  tower f1 = 0.215 Hz
+  1P band 0.083 .. 0.192 Hz; 3P band 0.250 .. 0.575 Hz
+  margins: f1 is 12 % above 1P max and 14 % below 3P min
+  (soft-stiff); 3P would meet f1 at 4.3 rpm, just below
+  the 5 rpm minimum: the controller keeps the rotor out of a
+  narrow speed band there (an exclusion zone)
+  a 4.0 m, 30 mm tube would give 0.186 Hz: inside the 1P band

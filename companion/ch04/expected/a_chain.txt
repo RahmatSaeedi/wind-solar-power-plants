@@ -1,0 +1,8 @@
+energy chain at 10 m/s, rho 1.05 kg/m3 (efficiencies assumed, A-047):
+  after wind through the rotor area   9.278 MW
+  after rotor (C_p 0.45)              4.175 MW
+  after gearbox                       4.050 MW
+  after generator                     3.928 MW
+  after converter                     3.830 MW
+  after turbine transformer           3.792 MW
+  overall wind -> grid 0.409; product of the electrical stages 0.908

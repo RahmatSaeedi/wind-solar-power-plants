@@ -1,0 +1,27 @@
+% Chapter 26 - time-current grading of the 33 kV overcurrent relays (standard inverse; feeder
+% 480 A TMS 0.10, incomer 1,600 A TMS 0.11, T1 HV side 400 A TMS 0.18 referred to 33 kV);
+% data: diagrams/data/ch26-grading.csv from companion/ch26/examples_a.py. Markers: the three
+% grading cases (feeder current, incomer current) of a_grading.txt.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=112mm, height=74mm, xmode=log, ymode=log,
+      xmin=1.5, xmax=15, ymin=0.1, ymax=20, unbounded coords=jump,
+      xlabel={جریانِ خطا در $33\,\text{kV}$ $(\text{kA})$}, ylabel={زمانِ عملکرد $(\text{s})$},
+      xtick={2,3,5,7,10,14}, xticklabels={2,3,5,7,10,14},
+      ytick={0.1,0.2,0.5,1,2,5,10,20}, yticklabels={0.1,0.2,0.5,1,2,5,10,20},
+      xmajorgrids=true, legend columns=3]
+    \addplot[sInk] table[x=ka, y=feeder, col sep=comma] {data/ch26-grading.csv};
+    \addplot[sLimit, line width=1.1pt] table[x=ka, y=incomer, col sep=comma] {data/ch26-grading.csv};
+    \addplot[color=cLoss, line width=1.1pt, dash pattern=on 6pt off 2pt on 1.2pt off 2pt]
+      table[x=ka, y=hv, col sep=comma] {data/ch26-grading.csv};
+    \legend{فیدر, ورودی, سمتِ فشارقویِ T1}
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cInk, forget plot]
+      coordinates {(7.75,0.24) (12.5,0.21) (4.68,0.30)};
+    \addplot[only marks, mark=square*, mark size=1.8pt, color=cInkB, forget plot]
+      coordinates {(6.40,0.55) (4.90,0.68) (4.68,0.71)};
+    \node[note, anchor=south west] at (axis cs:7.9,0.25) {کوپلر باز};
+    \node[note, anchor=south west] at (axis cs:4.75,0.75) {انتهای فیدر};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

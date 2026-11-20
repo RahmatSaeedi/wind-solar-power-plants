@@ -1,0 +1,15 @@
+% Chapter 42 - net cable twist of a turbine following the data-pack wind direction through a year
+% (yaw deadband 8 degrees), against the +-3 turn untwist limit (diagrams/data/ch42-twist.csv from
+% companion/ch42/examples_v.py, v_twist).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=52mm, xmin=0, xmax=365, ymin=-3.6, ymax=3.6,
+      xlabel={روزِ سال}, ylabel={تابِ خالص (دور)}]
+    \fill[cLoss!8] (axis cs:0,3) rectangle (axis cs:365,3.6);
+    \fill[cLoss!8] (axis cs:0,-3.6) rectangle (axis cs:365,-3);
+    \addplot[sWind] table[x=day, y=turns, col sep=comma] {data/ch42-twist.csv};
+    \node[note, anchor=south east, text=cLoss] at (axis cs:360,3.05) {حدِ بازکردن};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

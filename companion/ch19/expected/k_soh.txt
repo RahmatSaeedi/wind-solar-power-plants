@@ -1,0 +1,9 @@
+capacity estimated from a partial charge, OCV error 2 mV each end:
+  endpoints     SOC error each   capacity error
+   10- 90 %     0.24 / 0.33 %        0.51 %
+   15- 85 %     0.65 / 0.81 %        1.49 %
+   30- 70 %     1.91 / 1.93 %        6.79 %
+  (true capacity 283 Ah, 90 % health)
+  on LFP a capacity estimate needs endpoints on the steep
+  ends of the curve; a battery that never leaves the middle
+  cannot report its own health well

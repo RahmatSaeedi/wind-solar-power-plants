@@ -1,0 +1,15 @@
+28-day strength by pour against a teaching conformity rule, class 35:
+  mean of three >= 39 MPa and each >= 31 MPa
+  pour   results MPa          mean   verdict
+  F01    41.2, 40.1, 42.3      41.2   ok
+  F02    43.7, 41.8, 44.0      43.2   ok
+  F03    38.0, 36.5, 37.9      37.5   FAIL mean
+  F04    40.8, 30.2, 41.5      37.5   FAIL mean, one result 30.2
+  F05    42.6, 43.1, 41.0      42.2   ok
+  F06    39.9, 40.4, 41.2      40.5   ok
+  not conforming: F03, F04
+  F03 is low all round (a weak delivery); F04 has one low
+  specimen among two good ones (a bad specimen or a bad truck) -
+  the tickets of that pour and the specimen records decide
+  which; the structural engineer decides on cores and on what
+  the foundation needs (ch 29 characteristic strength)

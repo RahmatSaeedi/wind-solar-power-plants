@@ -1,0 +1,11 @@
+impedance of the design from its geometry: 12.02 % (guarantee 12.0 %, +-7.5 %)
+  Dm 0.893 m, h 2.05 m, a12 75 mm, a1 65, a2 110 mm; Rogowski factor 0.961
+  change               ux %
+  gap +10 mm          13.04
+  gap -10 mm          11.01
+  height +50 mm       11.74
+  height -50 mm       12.30
+  band 11.10 - 12.90 %: the gap may move about 9 mm up or 9 mm down
+  the main gap is set by the insulation (lesson A, gap), so
+  the impedance is tuned with the height and the diameters -
+  and the test (lesson C) is where the copper meets the sum

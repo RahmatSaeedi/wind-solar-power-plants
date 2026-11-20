@@ -1,0 +1,31 @@
+% Chapter 52 - fault tree of 'no export at all': an OR gate over the line, the 132 kV bus and four AND
+% gates (both transformers; controller and fallback; each transformer with the shared breaker cause)
+% (companion/ch52/examples_e.py, fault_tree; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    ev/.style={blk, minimum width=11mm, minimum height=9mm, align=center, text width=10.5mm,
+               font=\footnotesize, inner sep=1pt},
+    gate/.style={circle, draw=cInkB, fill=white, line width=0.8pt, minimum size=7mm, inner sep=0pt,
+                 font=\footnotesize},
+    w/.style={line width=0.8pt, draw=cInkB}]
+  \node[ev, draw=cLoss, fill=cLoss!8, text width=30mm, minimum width=31mm] (top) at (6.0,3.4)
+    {هیچ صادراتی نیست};
+  \node[gate] (or) at (6.0,2.4) {یا};
+  \draw[w] (top) -- (or);
+  \node[ev, draw=cWind, fill=cWind!9] (line) at (12.0,1.0) {خطِ\\ $132\,\text{kV}$};
+  \node[ev] (bus) at (10.4,1.0) {شینهٔ\\ $132\,\text{kV}$};
+  \foreach \g/\x in {a1/8.2, a2/5.4, a3/2.6, a4/-0.2} {\node[gate] (\g) at (\x,1.0) {و};}
+  \foreach \n in {line, bus, a1, a2, a3, a4} {\draw[w] (or) -- (\n.north);}
+  \node[ev, draw=cPV, fill=cPV!9] (t1a) at (8.85,-0.6) {$T_1$};
+  \node[ev, draw=cPV, fill=cPV!9] (t2a) at (7.55,-0.6) {$T_2$};
+  \node[ev, draw=cBESS, fill=cBESS!9] (ppc) at (6.05,-0.6) {کنترل‌گر};
+  \node[ev, draw=cBESS, fill=cBESS!9] (fb) at (4.75,-0.6) {حالتِ\\ پشتیبان};
+  \node[ev, draw=cPV, fill=cPV!9] (t1b) at (3.25,-0.6) {$T_1$};
+  \node[ev, draw=cLoss, fill=cLoss!8] (c1) at (1.95,-0.6) {علتِ\\ مشترک};
+  \node[ev, draw=cPV, fill=cPV!9] (t2b) at (0.45,-0.6) {$T_2$};
+  \node[ev, draw=cLoss, fill=cLoss!8] (c2) at (-0.85,-0.6) {علتِ\\ مشترک};
+  \foreach \g/\a/\b in {a1/t1a/t2a, a2/ppc/fb, a3/t1b/c1, a4/t2b/c2}
+    {\draw[w] (\g) -- (\a.north); \draw[w] (\g) -- (\b.north);}
+\end{tikzpicture}
+\end{document}

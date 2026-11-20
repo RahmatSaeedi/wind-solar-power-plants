@@ -1,0 +1,11 @@
+frequency-response comparison before and after transport (synthetic):
+  resonance shift   correlation   reading
+             0.0%        1.0000   same
+             0.5%        0.9995   same
+             2.0%        0.9915   look closer
+             6.0%        0.9306   investigate
+  a winding that moved in transport changes its inductances
+  and capacitances and shifts the resonances: the trace taken
+  at the factory is the reference, the one on site the check
+  - the comparison methods and limits are the specialists'
+  (the thresholds here are teaching values)

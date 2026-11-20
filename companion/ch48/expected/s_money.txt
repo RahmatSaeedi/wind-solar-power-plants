@@ -1,0 +1,6 @@
+what the metering chain's error is worth (teaching price 70 u/MWh)
+  0.35 % of 295 GWh = 1,022 MWh = 72 k u a year either way
+  worst case 0.60 %: 124 k u a year
+  the meter, its transformers and their site test are paid for
+  many times over in the first year: settlement disputes are
+  settled by the test record, not by the meter's nameplate

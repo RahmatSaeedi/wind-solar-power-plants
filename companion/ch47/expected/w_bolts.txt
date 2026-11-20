@@ -1,0 +1,12 @@
+flange bolts of T05 by lot (teaching)
+  flange    lots
+  T05-F1    BL-71 x120
+  T05-F2    BL-71 x96, BL-72 x24
+  T05-F3    BL-73 x88
+  T05-F4    BL-73 x60, BL-69 x12
+  flanges with mixed lots: T05-F2, T05-F4
+  lot with a different lubricant: BL-69 in T05-F4
+  the tension a torque gives depends on the lubricant: bolts of
+  one flange are tensioned as one set, so a flange takes bolts
+  of one lot (or lots with the same certified lubricant), and
+  the lot of every flange is in the erection record (ch 30)

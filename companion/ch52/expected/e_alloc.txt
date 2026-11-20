@@ -1,0 +1,8 @@
+plant energy-availability target 97% (teaching): the same
+  unavailability budget for each source, weighted by energy
+  source   energy share   allocated   first year
+  wind            64%       97.0%        95.8%
+  PV              36%       97.0%        97.8%
+  first-year plant (energy-weighted): 96.5%; wind is short of its
+  share - the gap goes to the turbine service agreement and
+  its waiting times (lesson A), not spread over everything

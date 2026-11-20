@@ -1,0 +1,12 @@
+DC battery replacement interval against room temperature
+(rule of thumb from makers' data for lead-acid: life halves
+for every 10 C above 20 C; design life 10 years):
+  room C   expected life years
+      20         10.0
+      25          7.1
+      30          5.0
+      35          3.5
+  a cooled battery room pays for itself in fewer replacements;
+  the replacement strategy (whole string, planned date, test
+  results that trigger it) is part of the DC design, and the
+  maker's data for the chosen chemistry replaces this rule

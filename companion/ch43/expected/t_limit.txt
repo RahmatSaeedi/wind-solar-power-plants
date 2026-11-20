@@ -1,0 +1,8 @@
+winding rise 66.5 K against 65 K: what rating keeps it
+  inside? (teaching: rise ~ total loss^0.8)
+  losses must fall to 97.2%: load 0.984 pu = 62.0 MVA
+  the data-pack year reaches 0.90 pu: hours above the limit 0
+  for this plant a written rating limit costs no energy -
+  the owner may accept it instead of a cooling repair, but
+  only in writing, with the limit in the plant controller
+  and the reason in the asset record (lab D, open decisions)

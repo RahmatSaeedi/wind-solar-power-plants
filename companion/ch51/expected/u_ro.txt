@@ -1,0 +1,8 @@
+RO unit: normalised permeate flow by month (m3/h)
+  10.0  9.9  9.7  9.5  9.2  8.9  9.9  9.8  9.6  9.3
+  cleaning trigger at a 10% drop (teaching): month 6; cleaned in month 7
+  (1 month after the trigger)
+  normalising to feed temperature and pressure is what makes
+  the trend readable; the cleaning restored the flow, and the
+  next trigger is the record that books the chemicals and the
+  water for it (ch 29)

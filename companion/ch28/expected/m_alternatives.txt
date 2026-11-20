@@ -1,0 +1,15 @@
+connection alternatives for the study (teaching data, A-347)
+  option                          SCR   loss MW   MWh/yr   exposure   capex
+                                        at 100    losses     MWh/yr     M u
+  A radial 132 kV line, 7.06 km   15.0      0.49      755        828    4.38
+  B 132 kV tee, 2 km              11.0      0.14      214       1723    2.50
+  C 3 x 33 kV circuits, 12 km      3.6      2.20     3422        160    6.84
+  (exposure: faults and one maintenance day a year of every
+  circuit the export depends on; one of three 33 kV circuits
+  out leaves two-thirds of the capacity)
+  the tee is cheapest but doubles the exposure - the plant
+  also stops for every fault and maintenance day of a 40 km
+  host line - and needs a three-ended protection scheme; the
+  33 kV option is weak (SCR below 4) and loses four to five
+  times more - the radial 132 kV line stays (D-018), and the
+  study records why

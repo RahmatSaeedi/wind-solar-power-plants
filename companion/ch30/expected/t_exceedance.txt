@@ -1,0 +1,11 @@
+chance of meeting a return-period event within the design life
+  return period yr   in 25 years   in 30 years
+                10          93 %          96 %
+                50          40 %          45 %
+               100          22 %          26 %
+               475           5 %           6 %
+              2475           1 %           1 %
+  the '50-year' gust has a 40 % chance of arriving during a
+  25-year life: it is a likely event, not a remote one,
+  which is why it is a characteristic load with partial
+  factors on top, and the 475-year earthquake about 5 %

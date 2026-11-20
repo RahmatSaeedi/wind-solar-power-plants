@@ -1,0 +1,6 @@
+operating procedures past their yearly review on 2029-06-01
+  OP-03 loss of SCADA                    reviewed 2027-11-01
+  OP-05 restoration after a blackout     reviewed 2027-06-01
+  the two oldest are the ones used least and needed most:
+  loss of SCADA and restoration after a blackout - reviewed
+  against the plant as built and the ch 50 restart test

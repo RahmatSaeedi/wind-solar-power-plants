@@ -1,0 +1,9 @@
+two battery offers over 15 years (teaching, A-298):
+  offer    capex k u  opex  round trip  fade/yr   LCOS u/MWh
+  offer X     12,500  2.5 %        85 %    2.5 %        179.1
+  offer Y     14,000  2.0 %        88 %    1.8 %        178.9
+  almost the same cost per MWh: the dearer offer's better
+  round trip and slower fade just pay its price; the cost of
+  the charging energy, left out here, tips it towards Y; the
+  warranty terms and the evidence behind the fade (chapter 39)
+  decide whether either number holds

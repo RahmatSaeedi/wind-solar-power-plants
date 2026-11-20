@@ -1,0 +1,9 @@
+coordination plan: areas booked by more than one party on a day
+  day 252 PVF2-1 north   piling (Sub P) + trenching (Sub T)
+  day 253 PVF2-1 north   piling (Sub P) + trenching (Sub T)
+  day 254 PVF2-1 south   tables (Sub S) + module delivery
+  a piling rig and an open trench in one area is a struck
+  cable or a rig at an edge; a delivery into a table crew's
+  area blocks both - the daily coordination meeting resolves
+  each before the day, and the permit to work names the area
+  (ch 32)

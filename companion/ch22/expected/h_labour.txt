@@ -1,0 +1,11 @@
+labour influx during building (teaching):
+  peak workforce 450; worker-months 4,534; local share 40%
+  site       local people  outside workers  influx ratio  class
+  P-North          1,000              270           27 %  high
+  P-Central        3,500              270            8 %  low
+  P-South          1,500              270           18 %  medium
+  the same workforce is a small addition near a town and a
+  large one beside a village: housing, water, health, road
+  safety and conduct rules scale with the ratio; more local
+  hiring and training lowers it (worker camps and codes of
+  conduct are planned with the community, section G)

@@ -1,0 +1,11 @@
+LV cables grouped on a tray (teaching grouping factors):
+  circuits touching   factor   25 mm2 rating A
+                   1     1.00               127
+                   3     0.82               104
+                   6     0.73                93
+                   9     0.70                89
+                  12     0.68                86
+  each cable warms its neighbours: twelve circuits side by
+  side lose a third of their rating; spacing, a second tray
+  or a larger size restores it - the lesson E factor 0.8 was
+  a stand-in for this table

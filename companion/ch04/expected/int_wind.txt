@@ -1,0 +1,11 @@
+one WT-5.0-150 at Plant P through the data-pack year (S0, synthetic data):
+  mean hub density 1.046 kg/m3; mean wind power density 341 W/m2
+  energy carried through the rotor area: 52.8 GWh/yr
+  Betz limit 16/27 of it: 31.3 GWh/yr
+  turbine output (density-corrected power curve, no farm losses): 16.68 GWh/yr
+  capture: 31.6% of the wind, 53.3% of the Betz limit
+  capacity factor 38.1%
+  shear alpha 0.171: cube of the speed averaged over the disc = 0.9805 x hub;
+    rotor-equivalent speed = 0.9935 x hub speed (-0.65 %)
+  most of the wind's energy is never captured: above rated speed the turbine
+    sheds it on purpose, and below cut-in there is nothing to gain

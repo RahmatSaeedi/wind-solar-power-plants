@@ -1,0 +1,11 @@
+one repair, the records it touches (replacing inverter =PVF1-1-INV1)
+   1 work order with cause and parts
+   2 asset register: serial, date
+   3 configuration: firmware and settings checksum
+   4 warranty claim of the old unit
+   5 spares stock and reorder
+   6 test record of the new unit (site test)
+   7 SCADA point list (unchanged tags, new device id)
+   8 as-built drawing (no change)
+  8 records; a repair closed with fewer leaves the register
+  describing a machine that is no longer there

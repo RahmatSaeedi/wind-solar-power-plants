@@ -1,0 +1,8 @@
+hole and shaft limits (mm, assumed) and the resulting fit:
+  M36 bolt in a 39 mm flange hole: clearance +3.000 .. +4.240 mm -> clearance
+  bearing seat (shaft pressed in): clearance -0.124 .. -0.010 mm ->
+    interference
+  locating pin: clearance -0.015 .. +0.019 mm -> transition
+  two flanges, each hole position within 0.5 mm of nominal: the holes may
+    disagree by up to 1.0 mm; the 3.0 mm minimum clearance still passes
+    the bolt (a worst-case stack, chapter 2)

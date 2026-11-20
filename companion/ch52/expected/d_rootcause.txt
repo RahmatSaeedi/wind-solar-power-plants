@@ -1,0 +1,16 @@
+step 5 - root cause, each link with its evidence
+  why was CB14 dead?
+     -> fuses of strings 7 and 12 open [WO-0533]
+  why did they open?
+     -> fault current from string 7 to earth [IR sheet]
+  why the earth fault?
+     -> water in a half-mated connector [photos P-1..P-4]
+  why half-mated?
+     -> connector not pushed home at installation [installation QC sheet]
+  why not caught then?
+     -> the pull check was sampled, row 31 not sampled [ch 49 ITP sample]
+  links without evidence: 0
+  corrective action: check every connector in the 64 rows the same
+  crew built (the cause is a practice, not one connector);
+  preventive: a pull check on every connector in future work
+  (ch 49 ITP), not a sample

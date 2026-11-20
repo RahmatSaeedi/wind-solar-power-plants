@@ -1,0 +1,7 @@
+E20 240 mm2 Al: energy through feeder 568,031 kWh/yr, lost 4,215 kWh/yr = 0.74
+    % (peak-hour loss fraction 1.37 %)
+E20 400 mm2 Al: energy through feeder 568,031 kWh/yr, lost 2,529 kWh/yr = 0.45
+    % (peak-hour loss fraction 0.82 %)
+E20 data: Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS);
+    assumptions: I proportional to GHI, PR_dc = 0.85, conductor at 50 C all
+    year (conservative)

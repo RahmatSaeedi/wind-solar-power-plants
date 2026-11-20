@@ -1,0 +1,19 @@
+% Chapter 57 - Tajikistan dossier: facts by topic and status (verified / project-dependent / to-confirm),
+% from the source research of 2026-11-17 (companion/ch57/run.py -> diagrams/data/ch57-status.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=62mm, xbar stacked, bar width=5mm, ymin=0.4, ymax=6.6,
+      xmin=0, xmax=22, y dir=reverse, ytick={1,...,6},
+      yticklabels={مرجع‌ها و مجوزها, شبکه، آب و زمین, استاندارد و شاهد, خدماتِ شبکه,
+        مالی و مالیاتی, اجتماعی و زمین},
+      xlabel={شمارِ گزاره‌ها}, legend pos=south east, legend columns=1]
+    \addplot[draw=cBESS, fill=cBESS!45] table[x=ver, y=k, col sep=comma] {data/ch57-status.csv};
+    \addlegendentry{تأییدشده}
+    \addplot[draw=cLoad, fill=cLoad!35] table[x=dep, y=k, col sep=comma] {data/ch57-status.csv};
+    \addlegendentry{وابسته به پروژه}
+    \addplot[draw=cLoss, fill=cLoss!25] table[x=tbc, y=k, col sep=comma] {data/ch57-status.csv};
+    \addlegendentry{نیازمندِ تأیید}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

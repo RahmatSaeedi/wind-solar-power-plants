@@ -1,0 +1,7 @@
+12 turbines, each available 98% (independent)
+  at least 12 available: 0.785
+  at least 11 available: 0.977
+  at least 10 available: 0.998
+  all twelve run only 78% of the time: the plant
+  almost never has its full wind capacity - which is why
+  energy availability, not 'all units up', is the measure

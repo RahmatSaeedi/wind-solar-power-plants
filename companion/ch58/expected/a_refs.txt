@@ -1,0 +1,14 @@
+dated and undated references resolved against the register
+  IEC 62548-1        -> IEC 62548-1:2023 + AMD1:2025
+  IEC 62548-1:2023   -> IEC 62548-1:2023
+  IEC 60529          -> IEC 60529:1989 + AMD1:1999 + AMD2:2013
+  IEC 60529:1989     -> IEC 60529:1989
+  IEC 61400-24       -> IEC 61400-24:2019 + AMD1:2024
+  IEC 60076-2        -> IEC 60076-2:2011
+  IEC 60076-2:2011   -> IEC 60076-2:2011
+  if edition 4 of IEC 60076-2 is published (teaching placeholder):
+  IEC 60076-2        -> IEC 60076-2 Ed. 4 (teaching placeholder: in
+    development)
+  IEC 60076-2:2011   -> IEC 60076-2:2011
+  an undated reference moves with the standard; a dated one
+  stays - a specification chooses which, on purpose

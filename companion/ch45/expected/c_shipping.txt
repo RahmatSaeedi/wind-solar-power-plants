@@ -1,0 +1,10 @@
+energy in one container (5.02 MWh at full charge) by state of charge
+  SOC     MWh in the container
+  100%        5.02
+   50%        2.51
+   30%        1.50
+  cells and modules travel at a reduced state of charge as the
+  transport rules and the maker require (to verify for each
+  route); the cell type's transport test summary (STD-101) is
+  a receiving document, and the record shows the SOC at
+  dispatch and on arrival

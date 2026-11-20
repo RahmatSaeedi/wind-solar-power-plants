@@ -1,0 +1,9 @@
+export options over the plant life (ch 18 options; 70 u/MWh, WACC 7.5 %,
+25 years; energy priced at the PPA, teaching)
+  option                          capex  loss+out  PV energy   total
+  overhead line, single circuit    3.18       771       0.60    3.78
+  overhead line, double circuit    4.80       377       0.29    5.09
+  underground cable               11.30       303       0.24   11.53
+  lowest life cost: overhead line, single circuit (M u)
+  the cable's long repairs and the double circuit's capital are
+  priced in one number; route, permits and ownership still decide

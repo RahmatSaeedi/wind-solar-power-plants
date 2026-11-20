@@ -1,0 +1,13 @@
+availability of the voltage-control service over a year (teaching)
+  event                       hours
+  controller fault                6
+  comms link down                14
+  planned upgrade                24
+  battery HVAC trip               9
+  grid outage (excused)          30
+  required 8760 h, excused 30 h, lost 53 h
+  availability = 1 - lost / (required - excused) = 99.393%
+  against a teaching 99.5 % target: missed
+  whether a planned upgrade counts as lost, and which grid
+  events are excused, are clauses of the service contract
+  (ch 21) - the log is the evidence, the clauses the rule

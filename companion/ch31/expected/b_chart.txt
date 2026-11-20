@@ -1,0 +1,11 @@
+lifts against the teaching load chart (capacity at 112 m hook height)
+  lift                          load+rig t   radius m   capacity t   use
+  tower section 1                      130         14          230   0.57
+  tower section 4                       54         18          194   0.28
+  nacelle                              168         16          210   0.80
+  rotor (hub + blades)                 120         20          178   0.67
+  main transformer onto plinth          78         12          250   0.31
+  the nacelle uses four fifths of the crane at 16 m: a
+  metre more radius takes capacity away fast - the radius
+  is fixed by the crane's position on the pad, which is
+  why the pad and the crane's set-up are surveyed

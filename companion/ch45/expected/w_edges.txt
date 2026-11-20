@@ -1,0 +1,15 @@
+boundary tests of the educational charging rule (2 to 52 C, edges included)
+  cell C      expected   got
+       1.99   False      False
+       2.00   True       True
+       2.01   True       True
+      25.00   True       True
+      51.99   True       True
+      52.00   True       True
+      52.01   False      False
+     -20.00   False      False
+        nan   False      False
+  9 cases, 0 failing; a missing reading (nan) is refused because
+  every comparison with nan is false - a happy accident here,
+  so it gets its own case: a rule that must refuse on a lost
+  sensor is tested on a lost sensor, not trusted to

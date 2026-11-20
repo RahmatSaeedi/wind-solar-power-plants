@@ -1,0 +1,12 @@
+corrective failures of the year: count and cost (k u, labour + parts)
+  code        count   each   total
+  FUSE-OPEN      14    0.3     4.2
+  FAN            11    0.6     6.6
+  CNV-IGBT        9   14.0   126.0
+  PIT-BAT         7    2.2    15.4
+  HVAC-FLT        5    6.5    32.5
+  GBX-BRG         2   85.0   170.0
+  first by count: FUSE-OPEN; first by cost: GBX-BRG (48% of 355 k u)
+  the two Pareto charts point at different work: count tells
+  the crew's load, cost (and energy, lesson F) tells where
+  improvement pays - both need labour and parts on each order

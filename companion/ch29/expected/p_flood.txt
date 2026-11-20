@@ -1,0 +1,15 @@
+the wadi in flood beside the substation (channel 40 m wide, banks
+  1.5 m, n 0.035, bed slope 0.6 %; flows are placeholders until a
+  flood study gives them)
+  flow m3/s   depth in channel m   water level m   out of banks?
+         50                 0.72         1202.37   no
+        150                 1.41         1203.06   no
+        300                 2.17         1203.82   yes
+  ground: channel bed 1201.7 m, ridge 1210.5 m, substation 1203.4 m
+  at 300 m3/s the water stands above the substation's ground
+  level, but the ridge is 6.7 m higher still: here the flood
+  does not reach it; upstream the bed itself is higher than
+  the substation, and water leaving the channel there can
+  run down the plain towards it - the flood study follows
+  that path, and the platform level and any diversion bund
+  come from it

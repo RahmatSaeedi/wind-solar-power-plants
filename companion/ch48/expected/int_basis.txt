@@ -1,0 +1,23 @@
+D-052 instrumentation, metering, panel and network hardware basis
+  1 each sensor's datasheet turned into a site error budget; the
+    recalibration interval set from the drift the plant affords
+  2 calibration certificates read for accreditation, traceability,
+    uncertainty, conformity and date; metering chain tested at
+    low load and witnessed
+  3 cabinets rated for their place (IP, temperature, EMC, surge);
+    bonding and shield earthing recorded
+  4 port, connection and core schedules compared as built against
+    design; fibre and copper accepted on their results files
+  5 two power feeds from two sources, each supply able to carry
+    the cabinet alone
+  6 firmware against an approved baseline; backups after every
+    change; clocks within 2 ms; every redundancy test done
+  7 tag database validated on every revision and read against
+    the register map; loop checks to the display for every point
+  8 later findings: each anemometer's own transfer function
+    (the generic one moved the P50 by 4 %); the main/check meter
+    trend watched (16 days ahead of the limit); L-104's new
+    isolator needs its own supply; PoE, SCADA licence and WAN
+    video sized with room; the PR test names its sensors
+  open: makers' calibration and type-test records, the
+    integrator's as-built network files (U-129)

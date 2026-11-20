@@ -1,0 +1,8 @@
+PV energy 97.3 GWh/yr (Plant P Reference Data Pack 1.0.0, scenario S0 (no-
+    BESS))
+specific yield = 97,304 MWh / 60 MWp = 1,622 kWh/kWp
+full-load hours on AC = 97,304 MWh / 50 MW = 1,946 h
+capacity factor on DC basis = 0.185; on AC basis = 0.222
+wind: 192.5 GWh/yr, 3,209 full-load hours, CF 0.366
+BESS (S1): 40 MWh / 20 MW = 2.0 h duration; 20 MW / 40 MWh = 0.5 C;
+    usable 10-90 % window: 0.8 x 40 MWh = 32 MWh

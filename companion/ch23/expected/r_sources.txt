@@ -1,0 +1,13 @@
+hours a year without AC auxiliary supply (teaching expected values):
+  own 33 kV bus via the station-service transformers: 4.5 h (the plant
+    cannot island, so a line or grid outage takes both SSTs)
+  local distribution feeder alone: 8 h
+  both, independent: 0.0041 h  (outages must overlap)
+  own bus + diesel (2% fail to start): 0.09 h
+  the UPS and the DC battery bridge the minutes before the
+  diesel takes the load (lesson F); the second source buys
+  hours, not minutes - its value is in long outages: a
+  winter grid outage of a day leaves heaters, battery
+  HVAC and pumps (ch 19) on the diesel's fuel
+  a distribution feeder is a third-party asset with its
+  own meter, tariff and agreement - one more boundary

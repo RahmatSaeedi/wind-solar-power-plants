@@ -1,0 +1,9 @@
+clamping zones of a 2.278 m module under 2400 Pa (teaching)
+  load 6.20 kN; per clamp (four) 1.55 kN
+  supports at the ends: largest bending moment 1765 N m
+  supports 472 mm in from each end (0.207 L): 303 N m
+  5.8 times less bending in the glass and the cells: the maker's
+  clamping zones sit near this point, and a clamp outside
+  them can void the mechanical rating (cracked cells under
+  snow or wind); the mounting interface is part of the
+  module's design, checked at the site (lesson E)

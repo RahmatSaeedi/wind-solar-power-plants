@@ -1,0 +1,13 @@
+earth-fault grading on the resistance-earthed 33 kV:
+  the 33 kV side of each main transformer is a delta: it has
+  no neutral, so the earth-fault current comes only from the
+  earthing transformer and its resistor on the bus section;
+  the incomer's residual current is zero for a feeder earth
+  fault - the backup is a standby element on the resistor
+  feeder element 40 A after 0.5 s; standby 80 A after 1.5 s
+  sensitivity: 400 A is 10 x the feeder pickup -
+    faults with some arc resistance are still seen
+  the resistor is rated 400 A for 10 s:
+    the standby's 1.5 s plus breaker failure (1.75 s) is inside it
+  a core-balance CT around each feeder cable sees the earth
+  current without the load current - a check of CT choice

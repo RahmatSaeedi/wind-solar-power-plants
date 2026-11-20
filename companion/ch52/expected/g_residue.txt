@@ -1,0 +1,6 @@
+what the wash leaves behind: dissolved solids x water left to dry / area
+  RO permeate           2 mg/m2
+  raw well water       69 mg/m2  over the teaching limit
+  raw well water leaves a film of salts that soils faster than
+  the dust it removed - RO treatment (ch 29) is part of the
+  cleaning system, and its failure stops the campaign (ch 51)

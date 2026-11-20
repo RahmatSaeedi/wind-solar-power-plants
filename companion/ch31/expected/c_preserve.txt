@@ -1,0 +1,9 @@
+desiccant for sealed packages (teaching rate 0.25 kg per m3 a month)
+  package                 volume m3   3 months kg   9 months kg
+  converter cabinet             12           9.0          27.0
+  switchgear panel               6           4.5          13.5
+  control cabinet                2           1.5           4.5
+  storage beyond the packing's design time needs fresh
+  desiccant, heaters or a dry store: the maker's storage
+  instruction is a warranty condition, and the record of
+  checks (dates, humidity cards, heaters on) is the proof

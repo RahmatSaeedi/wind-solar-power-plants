@@ -1,0 +1,11 @@
+plane-of-array sensor mounted 2 deg off the module plane:
+  error in the direct beam by angle of incidence (teaching)
+  incidence deg   error %
+             10      +0.6
+             30      +2.0
+             50      +4.1
+             70      +9.5
+  near noon the error is small; in the morning and evening,
+  at large angles, it grows to several per cent - a sensor
+  is levelled to the module plane with a recorded
+  inclinometer reading, and checked again after the first storm

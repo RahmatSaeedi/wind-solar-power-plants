@@ -1,0 +1,13 @@
+fire-service arrival at the fire (Monte Carlo, 20,000 draws)
+  mobilise 5-15 min, 35 km at 60 +/- 8 km/h, road blocked 5 %
+  of the time (+10-40 min), access on site 5-20 min
+  P10 49, P50 57, P90 67, P99 91 min
+  share arriving within 45 min:   1.6 %
+  share arriving within 60 min:  68.7 %
+  share arriving within 75 min:  95.8 %
+  the reserve lasts 60 min at the transformer rate; in about
+  31 % of fires the fire service arrives after the site's own
+  water is gone - so the strategy, not the tank, sets what
+  the water is for (cooling exposures until help arrives),
+  and the fire service's own tankers and the meeting point
+  are agreed in advance

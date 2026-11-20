@@ -1,0 +1,7 @@
+where the meter sits decides who carries the line losses:
+  line R 0.847 ohm; loss at 100 MW 0.486 MW
+  yearly loss 754 MWh = 0.26 % of 295.3 GWh
+  meter at the site substation: the buyer receives less than is
+  metered (or the contract corrects for it); meter at the grid
+  bay: the project carries the loss; either way, the contract
+  and the model (chapter 15 boundary) must use the same point

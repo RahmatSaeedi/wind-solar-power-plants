@@ -1,0 +1,7 @@
+clear days in the station year (index > 0.95, steady, A-249):
+  Jan  9  Feb 10  Mar 15  Apr 12  May 12  Jun 12
+  Jul 18  Aug 13  Sep 12  Oct 16  Nov  8  Dec  7
+  144 clear days in the year
+  clear days check the clock (symmetry), the level and the
+  cosine response (morning against afternoon at the same sun
+  height), and the station's ratio to a clear-sky model

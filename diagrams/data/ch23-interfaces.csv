@@ -1,0 +1,11 @@
+package,power,grounding,control,comms,mechanical,cooling,aux_supply
+wind_turbine,1,1,1,1,1,1,1
+PV_block,1,1,1,1,1,1,1
+battery_block,1,1,1,1,1,1,1
+MV_switchgear,1,1,1,1,1,0,1
+main_transformer,1,1,1,0,1,1,1
+station_service,1,1,1,1,1,0,0
+DC_and_UPS,1,1,1,1,1,1,0
+PPC_and_SCADA,0,0,1,1,1,1,1
+HV_bay_and_meter,1,1,1,1,1,0,1
+export_line,1,1,0,1,1,0,0

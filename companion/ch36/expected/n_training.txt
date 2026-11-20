@@ -1,0 +1,11 @@
+security training a year by role (teaching)
+  role                 people   hours each
+  operators                 8            4
+  control engineers         3           16
+  maintenance staff        10            3
+  vendors on site          12            1
+  122 hours a year in all
+  operators learn what to report and to whom; engineers
+  learn the change path and restore; vendors learn the
+  site's rules before their first session - each course
+  ends with the person's name in the record

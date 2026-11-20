@@ -1,0 +1,8 @@
+three patterns of connection cost (teaching values, million u):
+  line 3.18, bay 1.80, site substation 9.50, upstream 14.00 (share 0.625)
+  assets to the plant side of the bay           12.68  (  115 k u per MW)
+  plus the bay (shallow)                        14.48  (  132 k u per MW)
+  plus a share of the reinforcement (deep)      23.23  (  211 k u per MW)
+  the pattern is set by national rules and the connection offer,
+  not by the engineer; the requirement register records which
+  pattern applies and the boundary follows from it

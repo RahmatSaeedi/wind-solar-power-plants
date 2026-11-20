@@ -1,0 +1,8 @@
+S1 battery used only for energy that would be lost (one year):
+  lost today: PV clipping 782 MWh (AC equivalent), export limit 227 MWh
+  AC-coupled: stores 227 MWh, returns 196 MWh
+  DC-coupled: stores 1,020 MWh, returns 885 MWh
+  only the DC coupling reaches the clipped DC energy; the AC
+  coupling can also charge from wind and the grid and discharge
+  at any hour without sharing the PV inverter; the market uses
+  of chapter 19, not clipping, decide the coupling here

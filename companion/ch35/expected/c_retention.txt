@@ -1,0 +1,10 @@
+retention plan of the historian (teaching; 12 bytes a value)
+  data                                   years   kept     GB
+  raw values, 1 s, 22,300 tags               2     10 %    1,688
+  1-min aggregates (min, mean, max)         25    100 %   10,549
+  events and alarms                         25    100 %        5
+  total about 12,242 GB
+  raw seconds for two years serve fault and dispute
+  analysis; aggregates for the plant's life serve trends,
+  warranties and the repowering study (ch 53) - the plan
+  is set with the owner, lenders and grid operator's rules

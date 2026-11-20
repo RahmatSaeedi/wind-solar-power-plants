@@ -1,0 +1,31 @@
+Iran, topic A (authorities and approvals):
+  IR-01 verified
+      MoE buys renewable power under long-term guaranteed contracts
+  IR-02 verified
+      SATBA is the counterparty of Art 61 contracts
+  IR-03 to-confirm
+      SATBA's current official name (two forms in texts)
+  IR-04 verified
+      Tavanir announces the export transmission tariff; upstream grid
+  IR-05 verified
+      IGMC issues grid-stability standards; all plants must comply
+  IR-06 verified
+      regional and distribution companies must take renewable power
+  IR-07 to-confirm (secondary)
+      regional company CEOs issue permits with governorates
+  IR-08 to-confirm
+      electricity market regulatory board: mandate not found
+  IR-09 verified
+      bylaw on removing barriers to renewable plants, 1402/12/23
+  IR-10 to-confirm (secondary)
+      that bylaw lapsed ~Mar 2026; replaced 1405/2/30 (news)
+  IR-11 verified
+      amended 1403/9/4 under Seventh Plan Art 46(a), aim 30,000 MW
+  IR-12 to-confirm
+      regulatory framework of amendment Art 12: adopted?
+  IR-13 to-confirm (secondary)
+      SATBA construction permit; steps devolved to provinces
+  IR-14 to-confirm
+      aviation obstacle rule for wind turbines not found
+  IR-15 to-confirm (secondary)
+      foreign investment through the investment organisation

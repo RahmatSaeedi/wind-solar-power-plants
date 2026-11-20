@@ -1,0 +1,8 @@
+two cases per kWh with uncertainty (Monte Carlo of the factors)
+  case   energy GWh/yr   g CO2e/kWh   P5 - P95        with EoL credit
+  S0             295.1         12.5    10.4 -  15.4          12.0
+  S1             293.5         13.3    11.1 -  16.2          12.7
+  the battery adds about a gram per kWh and its spread
+  overlaps the S0 range: the cases differ by less than the
+  factors' uncertainty, so the study reports both with
+  their ranges and does not rank them on the medians

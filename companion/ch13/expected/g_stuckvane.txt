@@ -1,0 +1,6 @@
+a stuck vane (100 m, three days in February, A-257):
+  records flagged as stuck: 432 (432 planted)
+  100 m minus 60 m direction: normal sd 4.4 deg, while stuck 19.9 deg
+  a constant direction while the 60 m vane and the speeds move
+  is a stuck vane, not a steady wind; the same test on the
+  cups finds a stuck anemometer (cold, bearing, cable)

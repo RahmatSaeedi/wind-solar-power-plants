@@ -1,0 +1,10 @@
+hand-arm vibration over a shift: A(8) = sqrt(sum a^2 t / 8)
+  tool                          a m/s2   hours
+  breaker (hand-held)             15.0     1.0
+  angle grinder                    5.0     1.5
+  impact wrench on flanges         8.0     2.0
+  daily exposure A(8) = 7.0 m/s2
+  the breaker hour alone gives most of the dose: tools with
+  low vibration, tension tools instead of impact wrenches
+  on flanges, and rotation between tasks come before
+  gloves; action and limit values are set by local law

@@ -1,0 +1,22 @@
+% Chapter 9 - product decomposition of a central inverter skid: subassemblies and their parts.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{top/.style={blkPV, minimum width=40mm, minimum height=9mm},
+           sub/.style={blk, minimum width=26mm, minimum height=9mm, text width=24mm, font=\footnotesize\bfseries},
+           leaf/.style={note, text=cInk, text width=26mm, align=center, font=\scriptsize}}
+  \node[top] (root) at (8.4,3.4) {اسکیدِ اینورترِ $5\ \text{MW}$};
+  \foreach \x/\n/\t/\l in {
+      0/a/پشتهٔ توان (×۴)/{ماژول‌های نیمه‌هادی، درایورِ گیت، شینهٔ لایه‌ای، خازن‌های پیوندِ DC، حس‌گرِ جریان، صفحهٔ سرد، مادهٔ رابطِ گرمایی},
+      2.8/b/صافیِ LCL/{سلف‌های $L_1$ و $L_2$، خازن‌ها، مقاومتِ میرایی، حس‌گرِ دمای سلف},
+      5.6/c/بخشِ ورودیِ DC/{کلید-جداکننده‌ها، فیوزها، برقگیرها، پایشِ عایق، اتصال‌دهنده‌ها},
+      8.4/d/بخشِ AC/{کلید، کنتاکتور، برقگیر، ترانسفورماتورِ جریان، کابل‌ها},
+      11.2/e/کنترل و ارتباط/{بردهای کنترل، میان‌افزار و پارامترها، منابعِ تغذیه، رابطِ ارتباطی، ثبت‌کنندهٔ رخداد},
+      14.0/f/خنک‌کاری/{پمپ، مبدّلِ گرما، فن‌ها، مایعِ خنک‌کن، حس‌گرهای دما و دبی},
+      16.8/g/پوسته و اسکید/{بدنه و درزگیر، گرم‌کن، قفل‌های ایمنیِ درها، ترانسفورماتورِ $33\ \text{kV}$، تابلوی حلقوی}} {
+    \node[sub] (\n) at (\x,1.6) {\t};
+    \draw[cInkB, line width=0.5pt] (root.south) -- ++(0,-0.4) -| (\n.north);
+    \node[leaf, anchor=north] at (\n.south) {\l};
+  }
+\end{tikzpicture}}
+\end{document}

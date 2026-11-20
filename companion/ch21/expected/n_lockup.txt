@@ -1,0 +1,7 @@
+cash trapped by the lock-up test (combined downside, no delay):
+  lock-up years 6 of 15
+  equity IRR, distributions as earned: 5.62 %
+  equity IRR, cash trapped and released later: 5.59 %
+  the cash is not lost, only late (the owners lose a little
+  time value here); the lenders keep it in the project while
+  the cover is weak, which is the purpose of the test

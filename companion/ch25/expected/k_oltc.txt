@@ -1,0 +1,7 @@
+tap-changer operations over a year (synthetic hourly voltages):
+  step 1.25 %, deadband +/- 0.875 %: 5,191 operations a year
+  at a teaching 100,000 operations between diverter services: every 19 years
+  the plant's own reactive control (ch 20) takes much of the
+  regulation: fewer tap changes, less wear; the count from
+  the tap changer's counter, not the calendar, schedules the
+  service (ch 52)

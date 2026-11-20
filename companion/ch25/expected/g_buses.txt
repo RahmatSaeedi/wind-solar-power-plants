@@ -1,0 +1,11 @@
+132 kV bus arrangements of the export substation (teaching):
+  arrangement             bays  breakers  export lost h/yr  cost index
+  single bus                 3         3               2.28        1.0
+  single bus, sectioned      3         4               2.22        1.2
+  double bus                 3         4               0.66        1.6
+  the line: 0.5 h/yr; one transformer: 131 h/yr at half export (ch 18)
+  the long repair of a transformer dominates; the double bus
+  saves under 2 h a year for 60 % more cost - a single bus
+  with a bus disconnector suits Plant P, and a spare-unit or
+  repair strategy matters more; the utility's rules for its
+  own bay may ask more (U-065)

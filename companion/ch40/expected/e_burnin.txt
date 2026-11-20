@@ -1,0 +1,13 @@
+burn-in of control boards: 60 boards, 2% latent (1.2 expected)
+  latent ones fail as Weibull beta 0.7, eta 300 h; rack 1 u a board-hour
+  hours  caught  left   cost if a field failure costs
+                          6 k u (swap)   40 k u (block trips)
+      0    0.00   1.20           7.20          48.00
+     24    0.19   1.01           7.51          41.91
+     48    0.29   0.91           8.34          39.26
+    168    0.58   0.62          13.78          34.73
+    336    0.79   0.41          22.60          36.42
+  cheapest: 0 h if a failure is a board swap, 168 h
+  if it trips a block: the field cost decides, not a habit
+  burn-in removes weak units; it does not remove the cause -
+  the supplier's corrective action does (lesson C)

@@ -1,0 +1,10 @@
+from the 100 m mast to higher hubs (true mast year):
+  hub m   one shear   shear row by row   difference
+    120     19,410      19,392          -0.09 %
+    150     20,922      20,871          -0.24 %
+  one shear exponent 0.233 (mean profile); row by row it is
+  high at night and low by day; for the energy of this site the
+  difference is small (a few tenths of a per cent), but it is
+  large for the loads of each hour and for comparing a lidar's
+  upper heights with an extrapolated mast
+  (MWh per turbine a year, data-pack power curve, 1.225 kg/m3)

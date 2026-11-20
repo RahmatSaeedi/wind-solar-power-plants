@@ -1,0 +1,14 @@
+process FMEA of the transformer factory, ranked severity first
+  (ch 40); RPN shown only for comparison
+  step          failure mode                 S  O  D  SxO  RPN
+  leads         poor brazed joint             9  3  6   27  162
+  clamping      force lost after drying       9  3  5   27  135
+  drying        end point not reached         9  2  5   18   90
+  winding       height out of tolerance       7  3  4   21   84
+  oil           wet oil filled                7  3  3   21   63
+  winding       transposition fault in CTC    8  2  6   16   96
+  tap leads     lead on the wrong tapping     8  2  2   16   32
+  core cutting  burr over limit               5  4  4   20   80
+  first by the ranking: poor brazed joint; by RPN: poor brazed joint
+  the failures the final tests cannot see (joints, clamping,
+  drying) rank high: their controls are the traveler's holds

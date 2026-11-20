@@ -1,0 +1,12 @@
+% Chapter 6 — the simplest circuit, with the two instruments placed correctly.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \draw (0,0) to[battery1, l={$V_\text{s}$}, invert] (0,3)
+        to[ammeter, l=A, i={$I$}] (3,3)
+        to[R, l={$R$}] (6,3) -- (6,0) -- (0,0);
+  \draw (3.6,3) to[voltmeter, l_=V] (3.6,0);
+  \node[note, anchor=north, text width=46mm] at (1.6,-0.4) {آمپرمتر \textbf{در مسیرِ} جریان (سری)، ولت‌متر \textbf{دو سرِ} عنصر (موازی)};
+  \node[note, anchor=west] at (6.4,1.5) {$V_R = R\,I$};
+\end{tikzpicture}}
+\end{document}

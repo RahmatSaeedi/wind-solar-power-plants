@@ -1,0 +1,5 @@
+20 strings of 26 modules in parallel, Monte Carlo (seed 37, A-193):
+  power binning 0/+5 W, current spread 0.7 % (one sigma)
+  sum of module maxima 287.36 kW; array maximum 287.24 kW
+  mismatch loss 0.04 % at STC; ageing and uneven
+  soiling widen the spread and the loss over the years

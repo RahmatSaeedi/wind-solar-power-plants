@@ -1,0 +1,9 @@
+blade-root bolts: preload scatter of two tightening methods (nominal 320 kN)
+  method            scatter   lowest preload   opening margin at operation
+  torque wrench         25%              240        1.41
+  hydraulic tension     10%              288        1.69
+  friction in the thread and under the nut decides how much
+  of a torque becomes preload: a quarter either way with a
+  wrench, a tenth with a tensioner - the joint is designed
+  on the lowest preload the method can give, and the method
+  is named in the work instruction (lesson E, torque)

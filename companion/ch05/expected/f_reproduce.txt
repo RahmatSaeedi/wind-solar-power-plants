@@ -1,0 +1,9 @@
+chapter 1 screening model on release 1.1.0 vs the published chapter 1 numbers:
+  pv_gwh                 97.3  published     97.3  PASS
+  wind_gwh              192.5  published    192.5  PASS
+  export_gwh            289.8  published    289.8  PASS
+  curtailed_mwh          13.8  published     13.8  PASS
+  s1_delivered_mwh       11.8  published     11.8  PASS
+  annual GHI 1947.2 kWh/m2, expected_results.json 1947.2: PASS
+S1 in this model: charged 13.8 MWh, delivered 11.8 MWh (one role only: store
+    what would be cut)

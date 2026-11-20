@@ -1,0 +1,11 @@
+camp beds (270, lesson A) against the workers from outside by month
+  month 3: 60 from outside
+  month 4: 105 from outside
+  month 5: 155 from outside
+  month 6: 208 from outside
+  month 7: 260 from outside
+  month 8: 290 from outside  OVER
+  month 8 needs 20 beds more than the camp has:
+  lesson A sized the camp at 60 % of the peak; local hiring
+  fell to a third (lesson J) and the outside share rose - the
+  two plans are one plan, and they are reviewed together

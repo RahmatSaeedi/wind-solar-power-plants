@@ -1,0 +1,12 @@
+voltage dip when a main transformer is energised from 132 kV
+  rough upper estimate: dU/U ~ (i_peak / sqrt2) / Ik, Ik 5.2 kA
+  case                                      i_peak A   dip
+  residual flux 0.8 Bn, worst instant           2086    28%
+  no residual, worst instant                    1047    14%
+  controlled switching (teaching 1.5 x In)       585     8%
+  a worst-case energising can dip the 132 kV bus by a quarter
+  for the first cycles; the grid operator limits such rapid
+  voltage changes (its own figure, open until the grid offer),
+  so controlled switching or a pre-insertion resistor may be
+  asked for - the electromagnetic transient study (ch 28)
+  gives the real value

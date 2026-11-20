@@ -1,0 +1,26 @@
+% Chapter 23 - loss of normal supply and restoration (teaching timeline, not to scale): grid lost,
+% UPS and DC carry, generator starts, essential loads back on the generator, grid back and the plant
+% resynchronised by the operator, generator stopped (A-318). Flows right to left.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    ev/.style={note, text width=24mm, anchor=north}]
+  \draw[flow] (15.5,0) -- (0.3,0);
+  \node[note] at (15.0,0.45) {زمان};
+  \foreach \x/\t/\lab in {14.2/{$0$}/{شبکه قطع شد؛ $\text{UPS}$ و $\text{DC}$ بار را می‌برند},
+                          11.2/{$15\,\text{s}$}/{مولد روشن می‌شود},
+                          8.2/{$1\,\text{min}$}/{$\text{ATS}$: بارهای ضروری روی مولد},
+                          4.6/{$240\,\text{min}$}/{شبکه برگشت؛ هم‌گام‌سازی با دستورِ بهره‌بردار},
+                          1.4/{$250\,\text{min}$}/{مولد خاموش؛ حالتِ عادی}} {
+    \draw[line width=0.8pt] (\x,0.15) -- (\x,-0.15);
+    \node[note] at (\x,0.45) {\t};
+    \node[ev] at (\x,-0.3) {\lab};
+  }
+  \fill[cBESS!25] (14.2,0.9) rectangle (8.2,1.2);
+  \node[note] at (11.2,1.5) {$\text{UPS}$ و $\text{DC}$: حدودِ $0.5\,\text{kWh}$};
+  \fill[cLoad!20] (8.2,0.9) rectangle (4.6,1.2);
+  \node[note] at (6.4,1.5) {مولد: $72\,\text{kW}$، حدودِ $78\,\text{L}$ سوخت};
+  \draw[boundary] (14.6,-2.0) rectangle (7.8,-3.0);
+  \node[note, text width=64mm] at (11.2,-2.5) {اگر مولد روشن نشود: $\text{UPS}$ یک ساعت و $\text{DC}$ چهار ساعت زمان می‌دهند};
+\end{tikzpicture}
+\end{document}

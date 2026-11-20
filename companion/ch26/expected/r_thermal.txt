@@ -1,0 +1,11 @@
+thermal replica of a 33 kV feeder cable (rating 400 A, tau 45 min):
+  current A   from cold min   from full load min
+        440           108.9                 30.1
+        480            65.3                 11.9
+        600            30.3                  3.9
+        800            14.5                  1.6
+  a cable warmed by full load reaches its limit much sooner
+  than a cold one: the replica remembers the heat, which an
+  overcurrent element cannot; tau and the rating come from
+  the cable's installed conditions (ch 24), and the replica
+  alarms before it trips so the controller can curtail

@@ -1,0 +1,13 @@
+board qualification by thermal cycling: field 20 K a day for 9,125 cycles,
+  test 100 K; acceleration (dT ratio)^2.26 = 38.1;
+  one field life = 239 test cycles
+  zero-failure demonstration of R 90% at 90% confidence, Weibull shape 2.0:
+  test length (field lives)   boards   test cycles   board-cycles
+                         1.0       22           239           5264
+                         1.5       10           359           3589
+                         2.0        6           479           2871
+                         3.0        3           718           2153
+  testing longer needs fewer boards (the shape makes late
+  failures likelier); the acceleration rests on the fatigue
+  law holding at the test swing - the maker's test plan and
+  failure analysis are the evidence, not this arithmetic

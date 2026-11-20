@@ -1,0 +1,9 @@
+the grandmaster loses its satellite fix: holdover (teaching)
+  oscillator                  drift   time to drift 1 ms
+  temperature-compensated      1000 ppb            0.3 h
+  oven-controlled                10 ppb           27.8 h
+  rubidium                      0.1 ppb         2777.8 h
+  a lost fix is an alarm; the holdover time of the chosen
+  oscillator must cover the repair of the receiver or its
+  antenna, and the time stamps carry the 'synchronised'
+  flag until the drift could exceed the need

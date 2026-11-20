@@ -1,0 +1,10 @@
+VT fuse-failure supervision (concept): what the relay sees and does
+  case                        voltage     current       action
+  VT fuse blown, one phase    V2 high     I2 low        block 21/67, alarm
+  real earth fault            V2 high     I2 high       allow
+  all three VT phases lost    V all low   I unchanged   block, alarm
+  line energised, far end     V rising    I small       allow after delay
+  a lost VT voltage looks like a close fault to a distance
+  relay (zero voltage, normal current); the supervision tells
+  them apart by the current - no current change, no fault;
+  the logic and its settings are tested like any function

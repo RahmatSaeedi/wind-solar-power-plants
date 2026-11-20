@@ -1,0 +1,15 @@
+interface matrix of the equipment packages (x = an interface):
+  package            pow   gnd   ctl   com  mech  cool   aux
+  wind turbine          x     x     x     x     x     x     x
+  PV block              x     x     x     x     x     x     x
+  battery block         x     x     x     x     x     x     x
+  MV switchgear         x     x     x     x     x     .     x
+  main transformer      x     x     x     .     x     x     x
+  station service       x     x     x     x     x     .     .
+  DC and UPS            x     x     x     x     x     x     .
+  PPC and SCADA         .     .     x     x     x     x     x
+  HV bay and meter      x     x     x     x     x     .     x
+  export line           x     x     .     x     x     .     .
+  59 interfaces across 10 packages; each one gets a
+  drawing or a schedule, an owner on both sides and a test
+  (the register of ch 18 carries them, PLP-GEN-REG-0004)

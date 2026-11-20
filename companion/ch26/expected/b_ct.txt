@@ -1,0 +1,8 @@
+current-transformer knee points (teaching check, k = 2):
+  CT              fault A   secondary A   R_ct+R_b   need V   knee V   ok
+  feeder 600/1    12,500          20.8        4.5      188      200   yes
+  feeder 600/1    12,500          20.8        4.5      188      100   no
+  incomer 1600/1  12,500           7.8        6.5      102      200   yes
+  a CT that saturates in a fault gives the relay a distorted
+  current: the knee point is specified from the fault level
+  and the burden, and proved by the CT's test (ch 43)

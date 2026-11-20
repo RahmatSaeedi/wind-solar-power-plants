@@ -1,0 +1,6 @@
+sanction-for-test permits on one test day: two on the same boundary
+  SFT-031 and SFT-033 on =PVF1-3.MV: both live 11:00-12:00
+  two test teams on one boundary is two sets of assumptions
+  about what is isolated: the permit office issues one at a
+  time per boundary, and the second waits for the first's
+  cancellation (ch 32 permits)

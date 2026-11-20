@@ -1,0 +1,8 @@
+raw logger file: 428 records; quality tests (True = fails):
+  ws60 range 0..45 m/s         1 records, first at 2023-04-04 03:20
+  ws80 flat >= 6 records      12 records, first at 2023-04-04 10:10
+  t_air range -40..55 C        1 records, first at 2023-04-04 18:30
+  p_air range 800..950 hPa     6 records, first at 2023-04-05 08:10
+  wd range 0..360 deg          1 records, first at 2023-04-03 21:00
+  ws80 step > 4 m/s            0 records, first at -
+flags: 0 valid, 1 adjusted (e.g. unit corrected), 2 suspect, 9 missing

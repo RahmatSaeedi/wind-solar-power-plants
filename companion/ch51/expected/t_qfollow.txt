@@ -1,0 +1,18 @@
+reactive set-point following, 10-minute values, tolerance +/-1.5 Mvar
+  k   set   capability   measured
+   0     0         33.0        0.0
+   1     0         33.0        0.0
+   2    10         33.0        8.0
+   3    10         32.0        9.6
+   4    10         31.0        9.9
+   5    20         30.6       18.0
+   6    20         30.6       19.6
+   7    20         18.0       18.3  OUT
+   8    20         18.0       18.1  OUT
+   9     5         30.0        7.6
+  10     5         33.0        5.5
+  11     0         33.0        1.1
+  intervals out of tolerance after settling: 2
+  each is a capability limit (two PV blocks off), not a control
+  fault: the operator tells the grid operator the reduced
+  capability at once, rather than letting the error stand

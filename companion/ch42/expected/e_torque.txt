@@ -1,0 +1,13 @@
+tightening operations on one turbine (teaching counts)
+  blade root inserts (3 x 96)    288
+  hub to main shaft               90
+  pitch bearings (3 x 120)       360
+  yaw bearing                    140
+  tower flanges (3 x 150)        450
+  anchor cage                    160
+  total 1,488 a turbine; 17,856 for the plant
+  a person missing one in 2,000: 8.9 loose joints expected
+  tools that log torque and angle per bolt: 0.09
+  a missed bolt is a fatigue crack waiting: the logged record
+  per bolt is the evidence, and the 500-hour re-tension of
+  the commissioning plan (ch 50) catches what is left

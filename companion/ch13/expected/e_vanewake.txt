@@ -1,0 +1,9 @@
+a vane mounted 20 deg off, and chapter 11's wake model (layout A):
+  prevailing sector: true 285 deg, with the offset 315 deg
+  case                                       wake loss   farm GWh
+  true directions, layout for the true wind     6.50 %    188.16
+  estimate with the offset directions           6.22 %    188.72
+  layout turned to the offset, true wind        6.95 %    187.25
+  a direction error moves energy between sectors: the wake
+  estimate and the layout follow the wrong rose; the vane's
+  north mark, photos and a second vane or the lidar find it

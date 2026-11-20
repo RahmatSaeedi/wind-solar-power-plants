@@ -1,0 +1,5 @@
+two-node model, winding and core, coolant 40 C (A-132):
+  steady state: winding 83.7 C, core 57.2 C
+  a 15-min gust at 130 % current (copper loss x 1.69): winding peaks at 97.8 C
+  the steady state at 130 % would be 109.3 C: the short gust
+  does not reach it; thermal mass is what makes short overloads acceptable

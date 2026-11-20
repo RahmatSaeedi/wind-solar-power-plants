@@ -1,0 +1,12 @@
+90 % interval of a failure rate after ten unit-years, by failures seen
+  failures   low /yr   high /yr   high/low
+         0     0.000      0.300        inf
+         1     0.005      0.474       92.5
+         2     0.036      0.630       17.7
+         5     0.197      1.051        5.3
+        10     0.543      1.696        3.1
+        20     1.325      2.906        2.2
+  the interval narrows to a factor 2 only after 26 failures:
+  a fleet of ten with two failures knows its rate within a
+  factor of about 18 - a supplier's 'MTBF' from a few units
+  is a claim, not a measurement (ch 39)

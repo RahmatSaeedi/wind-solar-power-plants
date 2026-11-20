@@ -1,0 +1,6 @@
+the CMMS interface is down for three days: the queue (teaching)
+  40 messages an hour x 72 h = 2,880 messages, 5.6 MB
+  the sender queues and replays in order when the link
+  returns; each message has an ID so a replayed one is
+  recognised and not booked twice - and the queue's age is
+  an alarm, so three days of silence are noticed in hours

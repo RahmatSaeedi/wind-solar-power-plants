@@ -1,0 +1,11 @@
+preservation work while 4 nacelles wait 8 weeks (teaching)
+  task                                          h each   every weeks
+  rotate drivetrain (maker's interval 4 weeks)     2.0       4
+  check desiccant and humidity cards               0.5       2
+  check heaters and power                          0.5       1
+  inspect covers and seals after wind              1.0       2
+  log and photograph                               0.5       4
+  total about 60 person-hours for the waiting period
+  a missed rotation can mark the bearings (false brinelling)
+  and void the warranty: the preservation log is evidence,
+  kept with the custody record (lesson C)

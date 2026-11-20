@@ -1,0 +1,8 @@
+normal-state kW by class:
+  continuous   essential        44.5
+  intermittent essential        42.9
+  intermittent non-essential    81.5
+  continuous essential loads (DC chargers, UPS) are small
+  but must never stop; the intermittent motors set the
+  starting duty; the non-essential loads are what a standby
+  supply may leave off

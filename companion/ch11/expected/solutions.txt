@@ -1,0 +1,105 @@
+P01: 0.5 x 1.056 x 17,671 x 9^3 = 6.80 MW
+P02: (1.1)^3 - 1 = 33.1 % more
+P03: 4 MW / (pi 70^2) = 260 W/m2
+P04: a 0.25: Cp 0.5625, Ct 0.750
+P05: 9 rpm, 8 m/s: TSR = 8.84
+P06: 10 rpm: tip speed 78.5 m/s
+P07: 11.5 rpm: 1P 0.192 Hz, 3P 0.575 Hz
+P08: 10 x (1.056/1.225)^(1/3) = 9.517 m/s
+P09: yaw 7 deg, cos^3: 2.22 % loss
+P10: 0.5 R, chord 4 m: Re = 45.2 x 4 / 1.5e-5 = 1.2e+07
+P11: 8 deg: Cl 1.096, Cd 0.01035, L/D 105.9
+P12: 5 MW / 0.94 / 1.204 = 4.42 MN m
+P13: 4.42 MN m / 35 = 126 kN m
+P14: 25 t x 9.81 x 23 m = 5.64 MN m
+P15: 22 t x 1.047^2 x 22 m = 531 kN
+P16: 0.5 x 1.225 x A x 49 x 0.852 = 452 kN
+P17: 0.5 x 32.0e6 x 1.047^2 = 17.5 MJ
+P18: 90 deg at 6 deg/s: 15 s
+P19: top mass +10 %: f x 1/sqrt(1.1) = 0.953 (-4.7 %)
+P20: Weibull k 2, c 8: mean 7.09 m/s
+P21: BPFO 16/2 x 25 x (1 - 0.15) = 170 Hz
+P22: Jensen Ct 0.8 at 6D: 0.216
+P23: lightning Ng 4: 4 x 0.866 x 12 = 42 a year
+P24: ice throw 1.5 x (136 + 112) = 372 m
+P25: paint for 12 towers: 12 x 1,795 = 21,540 L
+P26: 150 GWh / (60 MW x 8760 h) = 0.285
+P27: full-load hours 188.16 GWh / 60 MW = 3,136 h
+P28: 133 kW, 10 K: 483 L/min
+P29: DEL m 4: ((2^4 + 2^4 + 4^4) / 3)^(1/4) = 3.13
+P30: Miner: 1e6 x 0.5^4 / 1e7 = 0.00625
+P31: a 0.2: Cp 0.5120, Ct 0.640
+   : a 0.4: Cp 0.5760, Ct 0.960
+P32: phi = atan(6.7/60) = 6.37 deg = alpha with zero twist
+P33: BEM Cp: lambda 7 0.4544, lambda 10 0.4599
+P34: k at 1.056: 3,604 x 1.056/1.225 = 3,107 kN m s2
+P35: 9 m/s at 1.056: 3,099 kW (1.225: 3,595)
+P36: 10 m/s at 1.056: thrust 795 kN (1.225: 923)
+P37: rated wind 11.0 m/s at site, 10.5 at 1.225 (a_density)
+P38: yaw 5 deg, cos^2: 0.76 % of 188.16 GWh = 1.43 GWh
+P39: tube 4.6 m, 33 mm: f1 = 0.234 Hz
+P40: 1P meets 0.215 Hz at 12.9 rpm (above 11.5)
+P41: DEL ratio m 10 / m 4: 7.94 / 3.56 = 2.23
+P42: series 0 3 1 4 0: range 2 x 1, range 4 x 0.5, range 4 x 0.5
+P43: P(v > 13) = exp(-(13/8.02)^2.11) = 0.0621; data 0.0587
+P44: 7..13 m/s: 10.1 + 12.2 + 14.7 + 14.2 + 12.1 + 8.6 = 71.9 %
+P45: density correction per turbine: 18,233 - 16,769 = 1,464 MWh
+P46: layout C vs A: 188.16 - 179.98 = 8.18 GWh
+P47: at 50 u/MWh: 409 k u a year
+P48: one blade 0.2 t heavier: U 4,400 kg m, F 6.4 kN
+P49: tip 200 m: 2 x 9 pi 0.2^2 = 2.26 a year
+P50: icing screen 333 / 8760 = 3.8 %
+P51: section 1: pi x 4.3125 x 0.0465 x 25 x 7850 = 124 t
+P52: section 1 welds: (10 - 1 + 2) x pi x 4.3125 = 149 m
+P53: 23 teeth at 19.25 Hz: mesh 442.75 Hz
+P55: standard atmosphere at 1500 m: 1.058 kg/m3
+P56: 10 x (0.98/1.225)^(1/3) = 9.283 m/s
+P57: steady 4,932 vs smoothed 4,451 kW at 10 m/s: -9.8 %
+P58: bin 12.5 m/s: 314 x 4,985 = 1,565 MWh
+P59: full-load hours at 1.225: 18,233 / 5 = 3,647 h
+P60: Jensen Ct 0.35 at 8D: 0.0598
+P61: 12 m/s, 1.15 kg/m3: 5,000 kW, pitch 6.9 deg, thrust 550 kN
+P62: density alone: 218.79 - 201.23 = 17.56 GWh
+P63: wakes 201.23 - 188.16 = 13.07 GWh = 653 k u a year
+P64: cap 10.5 rpm at 10 m/s: 4,927 kW (11.5 rpm: 4,932); TSR 8.25
+P65: efficiency 0.92 vs 0.94: energy x 0.9787 (-2.1 %, below rated)
+P66: top 300 t: f1 = 0.207 Hz; 1P max 0.192 -> margin 8 %
+P68: 20 % of the 333 cold hours lost: 199 MWh per turbine, 2.39 GWh
+P69: CF 0.358 x 0.95 x 0.98 = 0.333
+P70: PV specific yield 1,854 kWh/kWp -> CF 0.212 (DC); wind 0.358
+P71: hub 120 m, shear 0.2: speed x 1.0371; energy +6.4 % (no wake, same curve)
+P72: oil sample every 6 months, 12 turbines: 24 samples a year
+P73: two rows, 4D x 10D: wake loss 5.40 % (8D: 6.50 %)
+P74: model curve, 1.225, smoothed: 18,616 MWh per turbine (pack 18,233)
+P75: see text: criteria
+P76: Glauert Cp_max at TSR 2: 0.5112
+P77: a 0.5: momentum 1.000, Buhl 1.056; a 0.6: momentum 0.960, Buhl 1.182
+P78: shear 0.14, 9 m/s at 100 m: lowest tip 25 m 7.41 m/s, top tip 9.73 m/s
+P79: sun 24, ring 96: ratio 5.00, planet 36 teeth, (24 + 96)/3 = 40 (ok)
+P80: load +10 %, rollers: life x 0.728 (-27.2 %)
+P81: two 40 dB sources: 43.0 dB; ten: 50.0 dB
+P82: slant distance sqrt(600^2 + 100^2) = 608.3 m
+P83: 9 x (1.10/1.056)^(1/3) = 9.123 m/s
+P84: J halved: tau = 1.9 s (full J: 3.8 s)
+P85: stage 2 at 10 rpm: carrier 0.952 Hz x 97 = 92.4 Hz
+P86: cap: 20e6 / (225e6 x 0.9 x 1.5) = 65.8 mm
+P87: uniform 4 kN/m over 72.5 m: q L^2 / 2 = 10.51 MN m
+P88: rotor energy 11.34 MJ -> 18.73 MJ (+7.38 MJ)
+P89: G doubled, same gains: wn x sqrt(2) = 1.414; 0.6 -> 0.85 rad/s
+P90: 8.1 rpm x 60 x 7,735 h = 3.76 million rev
+P91: shear 0.3: REWS 9.977 m/s for 10 m/s at hub
+P92: night mode 1.81 % of 188.16 GWh = 3.41 GWh
+P93: own use, 12 turbines: 2.02 GWh; imported 50 MWh
+P94: anemometer reads 2 % high: measured energy 16,100 vs 16,648 MWh (-3.3 %)
+P95: C 9 MN: L10 = 123 million rev = 32.6 years
+P96: erosion on 6 of 12 turbines: 3.42 GWh a year
+P97: prebend 4 m: clearance 18.3 m; less 18.1 m deflection: 0.2 m (rule 5.5 m)
+P98: see text: criteria
+P99: wall 40 mm: 145 MPa (46 mm: 126 MPa)
+P100: 100 bolts: 4 M / (n D) - W / n = 799 kN
+P101: joint opens, m = 4: damage x (1/0.12)^4 = 4,823
+P102: yaw at 0.3 deg/s: 16,546 / 0.3 / 3600 = 15.3 h
+P103: availability loss 12 x 326 MWh = 3.91 GWh = 196 k u at 50 u/MWh
+P104: gearbox stop halved: 132 h a year -> time availability about 98.49 %
+P105: 162 m rotor: 5e6 / (pi 81^2) = 243 W/m2
+P106: 12 x (18,921 - 17,168) = 21.0 GWh = 1,052 k u a year before curtailment

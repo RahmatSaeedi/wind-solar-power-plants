@@ -1,0 +1,18 @@
+% Chapter 4 — actuator-disc power and thrust coefficients against the induction factor a,
+% with the Betz optimum at a = 1/3. Data: diagrams/data/ch04-betz.csv (examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=62mm,
+      xlabel={ضریبِ القای محوری $a$}, ylabel={ضریب},
+      xmin=0, xmax=0.5, ymin=0, ymax=1.05, xtick={0,0.1,...,0.5}, ytick={0,0.2,...,1}]
+    \addplot[sWind] table[x=a, y=cp, col sep=comma] {data/ch04-betz.csv};
+    \addlegendentry{ضریبِ توان $C_p$}
+    \addplot[sLoad] table[x=a, y=ct, col sep=comma] {data/ch04-betz.csv};
+    \addlegendentry{ضریبِ رانش $C_T$}
+    \draw[cInkB, densely dotted] (axis cs:0.3333,0) -- (axis cs:0.3333,0.889);
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cWind, forget plot] coordinates {(0.3333,0.5926)};
+    \node[note, anchor=south east] at (axis cs:0.33,0.60) {حدِ بتز $16/27$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

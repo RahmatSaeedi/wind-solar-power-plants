@@ -1,0 +1,10 @@
+extra winding loss from converter harmonics (teaching):
+  F_HL = sum (Ih/I1)^2 h^2 / sum (Ih/I1)^2; eddy share of load
+  loss 8%
+  spectrum                    F_HL    load loss up   kW at 250 kW
+  modern converters          1.069           0.5%            1.4
+  a poor or resonant case    1.444           3.6%            8.9
+  today's converters add little; a resonance that amplifies
+  one harmonic (ch 27) can add several per cent - the
+  transformer specification states the expected spectrum so
+  the maker can design the windings and stray-loss shields

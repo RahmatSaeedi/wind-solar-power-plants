@@ -1,0 +1,6 @@
+Chvorinov's rule t = B (V/A)^2, B = 2.5 min/cm2 (assumed, A-073):
+  plate 50 mm thick  V/A =  2.5 cm:   15.6 min to solidify
+  plate 100 mm       V/A =  5.0 cm:   62.5 min to solidify
+  section 200 mm     V/A = 10.0 cm:  250.0 min to solidify
+  thick parts freeze last and shrink: risers feed them, and ultrasonic
+    testing looks there for shrinkage porosity

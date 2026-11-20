@@ -1,0 +1,17 @@
+risk allocation matrix of Plant P (teaching; commercial, not legal):
+  risk                     carried by             instrument
+  resource below P50       owner/equity           P90 debt sizing, DSRA
+  construction delay       EPC contractor         delay LDs up to the cap
+  cost overrun             EPC (fixed price)      contingency, standby equity
+  equipment performance    OEM                    performance LDs, tests
+  availability             O&M contractor         availability LDs, capped
+  curtailment by grid      offtaker or owner      deemed energy clause
+  buyer does not pay       owner/lenders          payment security, DSRA
+  change in law            offtaker (if agreed)   change-in-law clause
+  force majeure            shared                 insurance, relief periods
+  interest rate            owner                  rate hedge
+  currency                 owner                  hedge, indexed tariff
+  battery degradation      OEM to warranty limit  warranty, augmentation
+  a risk belongs with the party that can best control it or
+  carry it; what is not passed on stays with the owner and,
+  through the cover ratios, with the lenders

@@ -1,0 +1,12 @@
+four-beam lidar, beams 28 deg off vertical, west wind 7.5 m/s at 100 m:
+  scan circle diameter at 100 m: 106 m
+  vertical wind  west beam  east beam   reconstructed   error
+  difference 0.0   +0.00      -0.00         7.500 m/s     +0.0 %
+  difference 0.1   +0.05      -0.05         7.406 m/s     -1.3 %
+  difference 0.2   +0.10      -0.10         7.312 m/s     -2.5 %
+  difference 0.3   +0.15      -0.15         7.218 m/s     -3.8 %
+  on a hilltop the flow rises on the windward side and sinks on
+  the lee side: the beams see different vertical winds and the
+  homogeneous reconstruction reads the horizontal speed low;
+  flat sites keep the error small, complex sites need a flow
+  model correction or a mast (chapter 14)

@@ -1,0 +1,28 @@
+% Chapter 4 — tolerance zones of a hole and a shaft relative to the zero line (nominal size)
+% for a clearance, a transition and an interference fit. Schematic, not to scale.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small,
+    hole/.style={draw=cWind, fill=cWind!25, line width=0.6pt},
+    shaft/.style={draw=cLoss, fill=cLoss!25, line width=0.6pt}]
+  \draw[cInk, line width=0.8pt] (-0.4,0) -- (14.4,0);
+  \node[note, anchor=south east] at (14.4,0.02) {خطِ صفر: اندازهٔ اسمی};
+  % clearance
+  \draw[hole] (0.4,0) rectangle (1.4,1.4);
+  \draw[shaft] (1.8,-0.4) rectangle (2.8,-1.6);
+  \node[note] at (1.6,-2.3) {لقی‌دار};
+  % transition
+  \draw[hole] (4.4,0) rectangle (5.4,1.4);
+  \draw[shaft] (5.8,0.9) rectangle (6.8,-0.5);
+  \node[note] at (5.6,-2.3) {انتقالی};
+  % interference
+  \draw[hole] (8.4,0) rectangle (9.4,1.4);
+  \draw[shaft] (9.8,1.8) rectangle (10.8,3.0);
+  \node[note] at (9.6,-2.3) {تداخلی};
+  % legend
+  \draw[hole] (0.4,3.0) rectangle (0.9,3.35);
+  \node[note, anchor=west] at (1.0,3.18) {میدانِ رواداریِ سوراخ};
+  \draw[shaft] (4.4,3.0) rectangle (4.9,3.35);
+  \node[note, anchor=west] at (5.0,3.18) {میدانِ رواداریِ محور};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+transmittals reconciled with the register
+  TR-0141  PLP-ELE-CAL-0009: sent as IFA, register says IFR
+  TR-0142  PLP-CIV-DWG-0031: sent as IFC, register says APP
+  mismatches: 2 of 5
+  the contractor builds from what was sent: a drawing sent
+  'IFC' while the register says 'APP' may be built before
+  it is issued - the register and the transmittal are
+  reconciled weekly, and the transmittal is corrected

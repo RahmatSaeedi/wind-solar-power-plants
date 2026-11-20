@@ -1,0 +1,41 @@
+% Chapter 57 - approval map of Plant P in Tajikistan, right to left: S1 competitive procedure ->
+% S2 investment agreement, S3 PPA with the single buyer, S4 technical conditions -> S5 connection
+% agreement (SIB), S6 ecological expertise / EIA; S5 and S6 -> S8 state energy expertise -> S9 design
+% approval; S2 -> S7 land use right -> S11 water permit; S2 -> S10 permit under Law 1968 (if any).
+% Teaching durations (companion/ch57/run.py); critical path S1 > S6 > S8 > S9.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\scriptsize,
+    v/.style={draw=cBESS, fill=cBESS!14, text width=19mm, minimum height=11mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    t/.style={draw=cLoss, fill=cLoss!10, dashed, text width=19mm, minimum height=11mm,
+              align=center, rounded corners=1.5pt, text=cInk},
+    p/.style={draw=cLoad, fill=cLoad!10, text width=19mm, minimum height=11mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    ar/.style={-{Stealth[length=1.8mm]}, draw=cInk, line width=0.7pt}]
+  \node[v] (s1) at (0,0) {S1 رقابت: صلاحیت، پیشنهاد، برنده};
+  \node[v] (s3) at (-2.6,2.2) {S3 قراردادِ خرید با خریدارِ واحد};
+  \node[v] (s4) at (-2.6,0.8) {S4 شرایطِ فنیِ اتصال};
+  \node[t] (s6) at (-2.6,-0.6) {S6 کارشناسیِ زیست‌محیطی};
+  \node[v] (s2) at (-2.6,-2.0) {S2 موافقت‌نامهٔ سرمایه‌گذاری};
+  \node[v] (s5) at (-5.2,0.8) {S5 قراردادِ اتصال با SIB};
+  \node[p] (s7) at (-5.2,-2.0) {S7 حقِ استفاده از زمین};
+  \node[t] (s10) at (-5.2,-3.4) {S10 مجوزِ قانونِ ۱۹۶۸، اگر لازم};
+  \node[t] (s8) at (-7.8,0.1) {S8 کارشناسیِ دولتیِ انرژی};
+  \node[t] (s11) at (-7.8,-2.0) {S11 مجوزِ ویژهٔ آب};
+  \node[v] (s9) at (-10.4,0.1) {S9 تأییدِ طرح، نظارتِ انرژی};
+  \draw[ar] (s1) -- (s3);
+  \draw[ar] (s1) -- (s4);
+  \draw[ar, line width=1.3pt] (s1) -- (s6);
+  \draw[ar] (s1) -- (s2);
+  \draw[ar] (s4) -- (s5);
+  \draw[ar] (s5) -- (s8);
+  \draw[ar, line width=1.3pt] (s6) -- (s8);
+  \draw[ar, line width=1.3pt] (s8) -- (s9);
+  \draw[ar] (s2) -- (s7);
+  \draw[ar] (s2) -- (s10);
+  \draw[ar] (s7) -- (s11);
+  \node[note, font=\scriptsize, anchor=north] at (-5.2,-4.3)
+    {پیکانِ پررنگ: مسیرِ بحرانی؛ سبز: تأییدشده؛ قرمزِ خط‌چین: نیازمندِ تأیید؛ بنفش: وابسته به پروژه};
+\end{tikzpicture}
+\end{document}

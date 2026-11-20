@@ -1,0 +1,10 @@
+fault currents at a 33 kV bus section (coupler open, teaching):
+  Z1 = Z2 = 2.98 ohm; earthing transformer Z0 2.0 ohm
+  three-phase        6.39 kA
+  line to line       5.53 kA
+  line to earth, solidly earthed:     7.17 kA
+  line to earth through 47.6 ohm:      400 A
+  the resistor turns a 7.2 kA earth fault into about 400 A: the
+  cable screens, the earth grid and the touch voltages see
+  400 A, and the earth-fault relays must be sensitive enough
+  to see it (below)

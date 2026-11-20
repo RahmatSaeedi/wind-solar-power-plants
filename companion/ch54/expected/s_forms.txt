@@ -1,0 +1,13 @@
+the same 'reactive requirement' written three ways
+  pf 0.95 at the POC        -> Q = P x 0.329 (follows P)
+  tan phi 0.33              -> Q = P x 0.33 (the same, rounded)
+  Q/Pmax 0.33               -> Q = 33 Mvar at every P
+  P (MW)   pf 0.95   Q/Pmax 0.33
+      10       3.3        33.0
+      20       6.6        33.0
+      50      16.4        33.0
+      80      26.3        33.0
+     100      32.9        33.0
+  at 20 MW the two readings differ 5.0 times: the form
+  of the requirement, not its headline number, sets the
+  design case (ch 28 used the Q/Pmax form as a placeholder)

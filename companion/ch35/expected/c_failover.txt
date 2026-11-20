@@ -1,0 +1,11 @@
+network recovery after a fibre cut against the 3 s watchdog of ch 34
+  recovery method                     recovery s   fallback triggered?
+  redundant parallel networks               0.00   no
+  ring protocol (fast)                      0.02   no
+  rapid spanning tree (typical)             2.00   no
+  classic spanning tree                    30.00   YES
+  a network that heals in seconds is close to the watchdog;
+  one that heals in half a minute throws every battery PCS
+  into its fallback at each cut - recovery time and
+  watchdog are specified together, and the failover is
+  tested by pulling a fibre in the site acceptance test

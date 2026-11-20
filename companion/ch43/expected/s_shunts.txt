@@ -1,0 +1,8 @@
+leakage flux into the tank wall: stray loss with and without
+  magnetic shunts on the tank (teaching shares of I2R)
+  without: 30 kW; with shunts: 15 kW; saved 15 kW
+  evaluated with B = 0.88: 13 k u, against the shunts' steel and work
+  the higher the impedance, the more leakage flux and the more
+  the tank heats where it is struck - shunts also keep the
+  tank's local hot spots down, which the heat run's
+  thermography sees

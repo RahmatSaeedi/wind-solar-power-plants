@@ -1,0 +1,11 @@
+reference designations (aspects of IEC 81346, ch 18):
+  '=' says what a thing does, '-' what product it is, '+'
+  where it is; the same tag on the one-line, the layout, the
+  cable schedule, the label on site and the maintenance system
+  =WS1-W2          function WS1 (wind string 1), product W2 (cable 2)
+  =PVF1-1-T1       function PVF1-1 (PV block 1 of feeder 1), product T1
+  =T2-Q1           function T2 (main transformer 2), product Q1 (breaker)
+  =E1-Q9 +SS1.Y2   export bay E1, product Q9, place SS1 yard bay 2
+  letter codes of products (Q switching, T transforming, W
+  guiding power) come from the standard's classes; a project
+  rule-book fixes the rest before the first drawing

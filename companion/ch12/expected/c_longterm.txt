@@ -1,0 +1,9 @@
+long-term correction of the one-year ground record:
+  ground 2023 1,947.2 kWh/m2; provider 2023 1,937.8
+  provider 20-year mean 1,910.5 kWh/m2
+  ratio 0.9859: long-term site estimate 1,919.7 kWh/m2 (-1.4 %)
+  the ground year was sunnier than usual; using it as it is
+  would overstate every later year's energy by about that much
+  the method assumes the provider's error is the same in every
+  year (no trend, no change of satellite or algorithm)
+  monthly regression variant: 1,918.9 kWh/m2 (slope 1.033, intercept -4.6)

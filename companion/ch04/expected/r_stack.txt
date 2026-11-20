@@ -1,0 +1,6 @@
+PV mounting chain (A-068): pile +-20, bracket +-3, rail hole +-2, clamp +-1.5
+    mm
+  worst case 26.5 mm; root-sum-square 20.4 mm
+  Monte Carlo (uniform parts): 99.73 % of assemblies within +-23.4 mm
+  the pile dominates: slotted brackets absorb it; tighter parts elsewhere
+  buy almost nothing (a tolerance budget spends on the largest term first)

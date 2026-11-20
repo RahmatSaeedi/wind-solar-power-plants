@@ -1,0 +1,11 @@
+expected downtime by subsystem (rate x hours, A-238):
+  subsystem              failures/yr  hours each  h/yr   share
+  pitch system             0.50          24      12.0    7.1 %
+  converter                0.40          36      14.4    8.6 %
+  control and sensors      0.80          12       9.6    5.7 %
+  yaw system               0.20          24       4.8    2.9 %
+  hydraulics               0.30          24       7.2    4.3 %
+  generator                0.10         240      24.0   14.3 %
+  gearbox (major)          0.05        1440      72.0   42.9 %
+  blade repair             0.05         480      24.0   14.3 %
+  total 168 h a year = 1.92 % of the year (before overlaps)

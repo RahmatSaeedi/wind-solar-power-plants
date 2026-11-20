@@ -1,0 +1,10 @@
+the grid behind the plant's imports, and grid charging (teaching)
+  own-use imports 702 MWh a year
+    grid factor constant 0.5:            8,775 t over 25 years
+    falling 0.5 -> 0.2 over 25 years:    6,142 t  (0.36 g/kWh less)
+  S1 if 30 % of its charging came from the grid (NOT the base
+    scenario): 45,000 t = 6.1 g/kWh more
+  the grid's future matters little for a plant that powers
+  itself; grid charging would matter a lot, which is why it
+  is counted only where a scenario permits it and is stated
+  in the scope (lab I)

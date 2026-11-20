@@ -1,0 +1,10 @@
+staging: the second main transformer arrives late (teaching)
+  months late   energy above one unit's rating lost MWh   k u at 70
+            1                                      4425         310
+            3                                     13275         929
+            6                                     26550        1859
+  with one transformer the plant exports up to its rating and
+  curtails the rest: energising stage by stage (ch 23 lesson
+  C) with one unit first is possible, and the late unit's
+  cost is the energy above 63 MVA - a number for the
+  delivery contract's delay damages (ch 39)

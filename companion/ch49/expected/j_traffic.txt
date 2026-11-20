@@ -1,0 +1,8 @@
+heavy vehicles through the village by hour (mean of a week)
+  06  07  08  09  10  11  12  13  14  15  16  17
+   3   9   6   5   6   5   4   8   6   5   4   3
+  school hours 07:00, 13:00 should have none (approved traffic plan):
+  17 vehicles a day in them
+  the plan is enforced at the gate: deliveries are booked
+  outside the quiet hours and drivers briefed; a count like
+  this one is the evidence the plan works (ch 32, ch 33)

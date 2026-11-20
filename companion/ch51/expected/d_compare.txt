@@ -1,0 +1,9 @@
+the two shifts compared (same weather, same plant, same limits)
+  strategy           exported  curtailed  imbalance  SOC 17:00  alarms
+                          MWh        MWh          u        MWh
+  A follow the plan      1580       46.0      5,937       36.0       3
+  B act on update        1599       23.8      3,321       36.0       1
+  acting on the update saved 22.2 MWh of curtailment and 2,616 u
+  of imbalance, and the evening service energy was still held:
+  yes; the plan was not wrong when written - it was
+  overtaken by the update at 09:00 and the notice at 10:00

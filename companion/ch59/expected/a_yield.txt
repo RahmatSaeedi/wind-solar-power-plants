@@ -1,0 +1,7 @@
+energy at the POC of Plant P, recomputed (model 15.1, S0; ch 15, 16)
+  P50 year 1: 295.14 GWh (curtailed at 100 MW: 0.23 GWh)
+  sigma at the POC: long-term 11.76, year-to-year 9.31 GWh
+  one year 14.99: P90 275.9, P99 260.3 GWh
+  ten-year mean 12.12: P90 279.6 GWh
+  the same numbers as D-019 and D-020: the dossier recomputes,
+  it does not copy - a changed input would show here first

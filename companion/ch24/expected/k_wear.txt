@@ -1,0 +1,12 @@
+contact wear counted as the sum of I^2 interrupted (teaching model):
+  budget: 30 interruptions at 25 kA = 18,750 kA^2
+  duty over 25 years              kA each   count   kA^2 total
+  load switching, 0.4 kA             0.4    2000          320
+  feeder faults, 6 kA                6.0      10          360
+  close-in faults, 12 kA            12.0       3          432
+  used 1,112 kA^2 = 6% of the budget
+  thirteen faults wear the contacts more than two thousand
+  load operations; the exponent (2 here) is the maker's wear
+  model; the relay's counter of interrupted current tells
+  maintenance when to inspect the interrupter, not the
+  calendar alone (ch 52)

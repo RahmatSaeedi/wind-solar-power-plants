@@ -1,0 +1,10 @@
+cyclic rating of a PV feeder (daily loss factor 0.25, teaching):
+  continuous rating                           660 A
+  soil sees only the daily mean (too simple)   946 A  x1.43
+  near soil follows the day, far soil the mean   765 A  x1.16
+  the soil's long time constant lets a cable that carries
+  current only by day run hotter at noon; but a run of sunny
+  days warms the far soil too - the cyclic factor is a study
+  result with the soil's heat capacity, never taken from the
+  first line, and the ch 25 loading of the transformer uses
+  the same idea

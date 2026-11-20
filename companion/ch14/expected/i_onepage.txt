@@ -1,0 +1,14 @@
+Plant P site on one page (screening, synthetic A-259):
+  window 13 x 7 km; project land 6,300 ha west of x = 9 km
+  ground 1170 .. 1262 m; ridge in the west, wadi in the south
+  buildable for turbines 4,304 ha, for PV 4,828 ha (teaching setbacks A-260)
+  people: village of 25 houses (NE), 3 houses, 1 seasonal camp
+  users: state rangeland, 2 farms, herders (customary, Apr-Oct),
+    village lands, 8 farm strips on the export side
+  sensitive: raptor nest (ridge), wetland (wadi), spring, cemetery,
+    caravanserai ruin (export side)
+  grid: 132 kV substation 6.2 km east of the site substation
+  water: the spring has no spare water in Jun-Sep
+  first reading: wind on the plain, PV in the east, a corridor
+  north or south of the farm strips; the ridge only after a bird
+  survey

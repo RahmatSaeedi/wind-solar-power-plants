@@ -1,0 +1,18 @@
+physical-security risk screen (proportionate, teaching)
+  threat                                L  S  score  band
+  cable theft (copper earth, spares)    4  3     12  high
+      measures: aluminium where allowed, marked cable, stores locked
+  intrusion at the substation           2  5     10  high
+      measures: fence, signs, locks, alarm to control room
+  vandalism or stone throwing           3  2      6  medium
+      measures: community relations, quick repair
+  theft by insiders                     3  2      6  medium
+      measures: access badges, stores control, audits
+  module theft from the array edge      2  2      4  low
+      measures: fasteners, records, community links
+  arson of grass near the array         1  4      4  low
+      measures: firebreaks, patrols with the community
+  the measures are design, records and relations first;
+  detection reports to the control room and the police;
+  security staff follow a conduct code, are trained in it
+  and never act beyond what law and the lenders allow (G)

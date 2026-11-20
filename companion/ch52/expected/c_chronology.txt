@@ -1,0 +1,15 @@
+T03 trip: events from four sources on one time base (s from 14:02:00)
+   -0.120  WS1 relay        voltage dip 0.78 pu
+   -0.118  T04 controller   FRT active
+   +0.000  PCS-T03          DC-link overvoltage
+   +0.004  PCS-T03          converter trip
+   +0.020  T03 controller   emergency pitch
+   +0.150  SCADA            T03 grid loss alarm
+   +0.900  T04 controller   FRT ended
+   +2.300  SCADA            T03 stopped
+  first event: voltage dip 0.78 pu at WS1 relay (-0.120 s) - the cause
+  came from the grid; T04 rode through it and T03 did not:
+  the question is T03's own ride-through (DC-link chopper,
+  setting or firmware), not the dip - SCADA alone shows a
+  'grid loss' alarm at a polling time and would have blamed
+  the grid

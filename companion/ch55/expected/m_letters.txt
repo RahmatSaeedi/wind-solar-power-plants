@@ -1,0 +1,46 @@
+written questions, one letter per addressee
+  to SATBA (12):
+    IR-03: SATBA's current official name (two forms in texts)
+    IR-07: regional company CEOs issue permits with governorates
+    IR-13: SATBA construction permit; steps devolved to provinces
+    IR-18: transmission open for sale/export; no transmission fees
+    IR-23: national land allocated for wind/solar via SATBA and Agri. Jihad
+    IR-24: lease capped at 20 % of land value; land back if idle 1 year
+    IR-32: MoE sets criteria for renewable equipment, domestic priority
+    IR-36: output belongs to the investor; no mandated prices
+    IR-39: FX and rial financing package; import orders to 30,000 MW
+    IR-43: wind/solar above 100 MW: no EIA study, DOE inquiry instead
+    IR-45: setbacks: gas, power, roads, heritage, passive defence
+    IR-46: land applicant pays compensation and improvements
+  to IGMC (3):
+    IR-19: no published grid code or wind/PV connection document found
+    IR-20: metering, SCADA and 'visibility' rules: specification not found
+    IR-33: no ancillary-service product for wind/PV published
+  to Ministry of Energy (2):
+    IR-08: electricity market regulatory board: mandate not found
+    IR-12: regulatory framework of amendment Art 12: adopted?
+  to regional electricity company (2):
+    IR-16: industry plants: adjacent substation and line by developer
+    IR-17: connection voltages 63/230/400 kV named; 132 kV not found
+  to Cabinet secretariat / SATBA (1):
+    IR-10: that bylaw lapsed ~Mar 2026; replaced 1405/2/30 (news)
+  to Civil Aviation Organization (1):
+    IR-14: aviation obstacle rule for wind turbines not found
+  to Organization for Investment (OIETAI) (1):
+    IR-15: foreign investment through the investment organisation
+  to regional water company (1):
+    IR-22: which regional water company; water for cleaning
+  to local counsel (1):
+    IR-26: foreign persons eligible for land allocation?
+  to INSO (1):
+    IR-31: national adoptions of IEC 61215/61730/62109/61400 not found
+  to SATBA / local counsel (1):
+    IR-38: utility-scale PPA term, currency, indexation, security
+  to local tax advisor (1):
+    IR-42: renewable tax and customs exemptions
+  to Department of Environment (1):
+    IR-44: new EIA bylaw 1405 lists wind/solar of 300 MW and above
+  to Department of Environment / counsel (1):
+    IR-47: consultation or resettlement rule below 300 MW not found
+  to Ministry of Cultural Heritage (1):
+    IR-48: cultural-heritage clearance procedure

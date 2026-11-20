@@ -1,0 +1,10 @@
+one turbine down for 48 h in March: calm hours or windy hours
+  March: 744 h, turbine energy 1,500.2 MWh
+  outage in        time availability   production availability
+  calmest 48 h                93.55 %                   99.19 %
+  windiest 48 h               93.55 %                   88.08 %
+  the same 48 hours cost almost nothing in a calm spell and a
+  lot in a windy one: time-based availability cannot tell
+  them apart, production-based availability can - which is
+  why contracts and reports name the one they use
+  (STD-165 describes both as information categories)

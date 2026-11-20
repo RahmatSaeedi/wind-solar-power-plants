@@ -1,0 +1,8 @@
+records a buyer's reviewer reads for the towers (teaching counts)
+  per section: plate certificates 3, plate-to-can marks 10, weld map lines 22
+    welder checks 22, NDT reports 8, repairs 2
+    dimensional records 12, DFT records 4, NCRs 2, release 1
+  86 a section, 4,128 for 48 sections; at 1.5 minutes a record:
+  15 reviewer-days - which is why the checks of this chapter
+  are programs: a program reads every line in minutes and the
+  reviewer reads the findings, not the thousands of lines

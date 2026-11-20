@@ -1,0 +1,22 @@
+factory or site: where each product is made and who checks it
+  item                         where
+    checked by; independent check
+  tower sections               factory
+    fabricator QC, buyer's inspector; third-party NDT sample
+  tower erection and bolting   site
+    erector, turbine maker; torque records audit
+  anchor cage                  factory + site
+    maker; foundation contractor; survey before and after pour
+  foundation concrete          site (cast in place)
+    contractor, supplier; independent cubes
+  PV tables and posts          factory + site
+    maker; installer; post survey, pull tests
+  tracker rows                 factory + site
+    maker; installer; row survey, drive EOL
+  substation steel             factory
+    fabricator; zinc and bolt audit
+  a prefabricated item is accepted at the factory and checked
+  again only for transport damage; a cast-in-place item is
+  accepted where it is made - its records start on site, and
+  the independent check is the buyer's protection against
+  both

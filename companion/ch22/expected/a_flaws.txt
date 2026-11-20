@@ -1,0 +1,12 @@
+fatal-flaw screen, run before any scoring (A-311):
+  P-North    flags:
+    - protected bird area overlap > 25 %
+    - physical displacement without a plan
+  P-Central  passes
+  P-South    flags:
+    - no grid capacity within 50 km
+  a flag is a question, not a verdict: P-North's bird overlap
+  needs a survey and an avoidance layout before it is fatal,
+  and its displacement needs a resettlement plan that meets
+  the safeguards (section G) - or the site is dropped; a
+  flag that cannot be cleared cheaply stops the spending

@@ -1,0 +1,12 @@
+equivalent circuit from the tests (per unit on 63 MVA):
+  series r 0.00397, x 0.11993, z 0.120 (x/r 30)
+  shunt g 0.000556, b 0.001921
+  regulation and efficiency at full load:
+  pf      regulation %   efficiency %
+  1.00           1.12         99.550
+  0.95           4.76         99.526
+  0.90           6.15         99.500
+  efficiency is highest where load loss = no-load loss: at 0.37 of rating
+  the regulation is mostly the reactance: at pf 1 the
+  voltage falls little, at pf 0.9 lagging it falls ~6 %,
+  which the tap changer and the plant's reactive power absorb

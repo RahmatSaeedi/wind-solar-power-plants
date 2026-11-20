@@ -1,0 +1,14 @@
+documents a turbine shipment travels with (typical, not a rule)
+  document                   issued by          what it shows
+  commercial invoice         seller             value and terms of sale
+  packing list               seller             pieces, masses, dimensions
+  bill of lading             carrier            title to the goods at sea
+  certificate of origin      chamber / seller   where it was made
+  import licence or permit   importer           if the item needs one
+  insurance certificate      insurer            cover in transit
+  maker's certificates       maker              type tests, dangerous goods
+  one missing or inconsistent document holds the whole
+  shipment at the port: the forwarder checks the set before
+  the ship sails, and a battery's dangerous-goods papers
+  (ch 19) travel with it - the country's rules decide the
+  rest (ch 55-57)

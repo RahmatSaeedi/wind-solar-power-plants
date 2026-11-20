@@ -1,0 +1,13 @@
+uncertainty of extrapolating the speed from the top cup to the hub:
+  u(v)/v = ln(hub / top) x u(shear); energy x 1.6
+  top m  hub m   u(shear) 0.03       u(shear) 0.05
+                 speed   energy      speed   energy
+   100    100    0.0 %   0.0 %       0.0 %   0.0 %
+   100    120    0.5 %   0.9 %       0.9 %   1.5 %
+   100    150    1.2 %   1.9 %       2.0 %   3.2 %
+   100    175    1.7 %   2.7 %       2.8 %   4.5 %
+    80    120    1.2 %   1.9 %       2.0 %   3.2 %
+    60    150    2.7 %   4.4 %       4.6 %   7.3 %
+  measuring at (or near) hub height removes the largest term a
+  short mast adds; a lidar to the hub replaces it by its own
+  smaller verified uncertainty

@@ -1,0 +1,9 @@
+grout under the tower flange (ring 4.0-4.6 m, teaching)
+  from preload and weight: 50.8 MPa; plus extreme bending: 45.1 MPa
+  peak compression 95.9 MPa against a high-strength grout
+  (teaching 90 MPa class): use 1.07 - a wider flange ring or a
+  stronger grout follows from the higher preload
+  the grout is the highest-stressed material in the whole
+  foundation: its strength is tested (cubes), its curing
+  is controlled, and the bolts are tensioned only after it
+  has reached strength - a hold point (ch 29, n_itp)

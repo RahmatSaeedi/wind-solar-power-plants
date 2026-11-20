@@ -1,0 +1,13 @@
+one verified clause traced through Plant P (transformer temperature rise)
+  clause       IEC 60076-2:2011 (STD-173): the temperature-rise test and its
+               method, named by purpose; limits taken from the project
+  decision     D-029 transformer basis; D-047 design review and FAT basis
+  procurement  PLP-ELE-SPC-0010 clause C-2.5: top oil 60 K, winding 65 K
+  inspection   witness point at the heat run in the maker's test bay
+  test         heat run of T1, resistance read after shut-down (ch 43)
+  approval     acceptance of the test report by the owner's engineer
+  register     STD-173: edition 3.0 (2011); edition 4 reported - confirm
+  trigger      a new edition, an amendment, or a changed project limit
+  stages without a record: 0 of 8
+  the edition register and the change trigger are stages too:
+  a trace that ends at approval goes stale with the standard

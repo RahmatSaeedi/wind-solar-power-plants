@@ -1,0 +1,24 @@
+% Chapter 6 — Kelvin's law: annual capital charge rises with area, losses fall; the sum has a minimum.
+% Data: diagrams/data/ch06-kelvin.csv (fictional currency units)
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=115mm, height=68mm,
+      xlabel={سطحِ مقطعِ هادی ($\text{mm}^2$)}, ylabel={هزینهٔ سالانه (واحدِ پولیِ فرضی)},
+      xmin=100, xmax=700, ymin=0, ymax=560, xtick={100,200,...,700}, ytick={0,100,...,500},
+      legend style={at={(0.5,-0.25)}}]
+    \addplot[sWind] table[x=area, y=capital, col sep=comma] {data/ch06-kelvin.csv};
+    \addlegendentry{سرمایه (سالانه‌شده)}
+    \addplot[sLoss] table[x=area, y=losses, col sep=comma] {data/ch06-kelvin.csv};
+    \addlegendentry{ارزشِ انرژیِ تلف‌شده}
+    \addplot[sInk] table[x=area, y=total, col sep=comma] {data/ch06-kelvin.csv};
+    \addlegendentry{مجموع}
+    \draw[sLimit] (axis cs:342,0) -- (axis cs:342,295.6);
+    \fill[cInk] (axis cs:342,295.6) circle (1.8pt);
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:342,300) {کمینه: $A^\ast = 342\,\text{mm}^2$};
+    \node[font=\footnotesize, text=cInk, anchor=south east] at (axis cs:690,260) {سرمایه};
+    \node[font=\footnotesize, text=cInk, anchor=north east] at (axis cs:690,70) {تلفات};
+    \node[font=\footnotesize, text=cInk, anchor=south west] at (axis cs:120,480) {مجموع};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

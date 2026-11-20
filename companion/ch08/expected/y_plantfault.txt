@@ -1,0 +1,5 @@
+fault at the 33 kV bus of Plant P (chapter 7 and A-117):
+  grid 8.75 kA; 10 PV inverters 962 A; 12 turbines 1155 A
+  units add 24 % to the grid's contribution
+  a plant of synchronous machines of the same size would add about
+  9.6 kA (x_d'' 0.2 on 110 MVA): protection must work with less

@@ -1,0 +1,8 @@
+a temperature sensor in a pocket, time constant 120 s (teaching)
+  oil warming at 1 K a minute: the reading lags by 2.0 K
+  an alarm at 85 C is raised 120 s after the oil reaches it
+  after a step the reading reaches 63 % in 120 s, 95 % in 360 s
+  the pocket and the paste in it set the lag; a
+  protection-grade temperature trip is set with the lag
+  in mind, and the pocket is part of the instrument's
+  installation drawing

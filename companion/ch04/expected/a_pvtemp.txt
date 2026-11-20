@@ -1,0 +1,7 @@
+summer subset day, NOCT model T_cell = T_air + (45 - 20) G / 800, gamma -0.35
+    %/K
+  noon hour 11: G 1038 W/m2, air 34.2 C -> cell 66.6 C, power change -14.6 %
+  irradiance-weighted change over the day: -11.9 %
+  hottest cell temperature of the day 68.5 C
+  NOCT assumes 1 m/s wind and open-rack mounting; roof-mounted modules run
+    hotter

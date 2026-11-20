@@ -1,0 +1,10 @@
+daytime hours that stop work at height (data-pack year, 06-18 h)
+  daytime hours in the year: 4,380
+  rule (teaching)                                hours   share
+  hub wind above 12 m/s (no climbing)             307    7.0 %
+  hub wind above 15 m/s (leave the nacelle)        80    1.8 %
+  air 35 C or more (heavy work moved)             202    4.6 %
+  wind stops climbing on about 7 % of working hours, heat
+  moves heavy work on about 5 %; the maker's limits for the
+  service lift, the hub and the roof hatch, and the site's
+  heat rule, set the real thresholds

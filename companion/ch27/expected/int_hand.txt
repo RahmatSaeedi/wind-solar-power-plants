@@ -1,0 +1,4 @@
+by hand: current at pf 0.95 and a resonance order
+  I = 100 MW / (sqrt3 x 132 kV x 0.95) = 460 A
+  h = sqrt(365 MVA / 6.77 Mvar) = 7.34
+  code: 460 A and 7.34

@@ -1,0 +1,13 @@
+creepage along the board for the cabinet's pollution class 3
+  (teaching mm per kV: 5.0 for class 2, 12.5 for class 3;
+  under a coating, treated as class 2)
+  net pair                               V     has mm   needs mm   ok
+  DC+ to DC- on the gate board           1000     9.0      12.5   NO
+  gate drive to control (isolation)      1000    14.0      12.5   yes
+  24 V to chassis                          24     1.0       0.5   yes
+  DC+ to heat sink                       1000     6.0       5.0   yes
+  dust and condensation in an outdoor cabinet make the board
+  surface a weaker insulator: the spacing is set for the
+  pollution the cabinet lets in, and a coating changes it;
+  real spacings come from the tables of the safety standards
+  (STD-050, STD-044), not from a rate per kV

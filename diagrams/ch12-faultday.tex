@@ -1,0 +1,20 @@
+% Chapter 12 - a clear one-minute day with five injected faults (A-242): logged GHI and the clear-sky
+% curve. Data: diagrams/data/ch12-faultday.csv (companion/ch12/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=64mm, xmin=3, xmax=21, ymin=-50, ymax=1250,
+      xlabel={ساعتِ برچسب‌خورده}, ylabel={تابشِ افقی، $\text{W/m}^2$}, xtick={4,6,...,20},
+      ytick={0,200,...,1200}, yticklabel style={/pgf/number format/1000 sep={}},
+      legend pos=north west, legend columns=1, unbounded coords=jump, clip=true]
+    \addplot[sWind] table[x=h, y=clear, col sep=comma] {data/ch12-faultday.csv};
+    \addlegendentry{آسمانِ صاف}
+    \addplot[sLoss] table[x=h, y=meas, col sep=comma] {data/ch12-faultday.csv};
+    \addlegendentry{ثبت‌شده}
+    \node[note, anchor=west] at (axis cs:3.2,150) {سایهٔ صبحگاهی};
+    \node[note, anchor=south] at (axis cs:15.1,880) {شکاف};
+    \node[note, anchor=east] at (axis cs:20.8,450) {یک ساعت دیر};
+    \node[note, anchor=east] at (axis cs:11.4,1180) {جهش};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

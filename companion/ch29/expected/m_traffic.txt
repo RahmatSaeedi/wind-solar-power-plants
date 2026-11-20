@@ -1,0 +1,15 @@
+construction traffic on the site roads (fourth-power rule, 80 kN axle)
+  class                          loads   ESAL per round trip   ESAL   share
+  concrete trucks (8 m3)         1,042                  5.48    5,710     14 %
+  aggregate trucks (25 t)        4,800                  2.85   13,660     34 %
+  water trucks (20 m3)           3,780                  4.52   17,083     43 %
+  tower sections and nacelles       72                 25.04    1,803      5 %
+  blades                            36                  2.02       73      0 %
+  crane and ballast                 40                 32.27    1,291      3 %
+  total 39,619 standard axles
+  the turbine parts are the heaviest single loads, but the
+  many aggregate and water trucks wear the road most: a
+  pavement designed for the abnormal loads alone would
+  fail early; the spraying trucks wear the very road they
+  keep from dusting - binders on the busiest sections or a
+  lower speed (lesson N) cut both the water and the wear

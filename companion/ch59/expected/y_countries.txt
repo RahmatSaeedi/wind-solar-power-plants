@@ -1,0 +1,9 @@
+what each country changes in the design of Plant P (ch 55-57)
+  country      connection                     amb C  alt m approvals
+  Iran         63 or 230 kV (132 no source)      50   1500    11.5 mo
+  Afghanistan  110 or 220 kV (island first)      48   1800    10.0 mo
+  Tajikistan   220 kV at the tender site         44    600    16.0 mo
+  plus: Iran - INSO certificates for transformers, cables, batteries;
+  Afghanistan - import route and local service; Tajikistan - seismic
+  zone and the curtailment clause; site values and durations are
+  teaching values of the chapters

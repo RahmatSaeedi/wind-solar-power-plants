@@ -1,0 +1,18 @@
+% Chapter 37 - daily PV residual (actual over model - 1) through the year, with the two CUSUM
+% alarms (examples_b; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=115mm, height=60mm, xmin=0, xmax=365, ymin=-0.14, ymax=0.06,
+      xtick={0,60,120,180,240,300,360}, ytick={-0.12,-0.08,-0.04,0,0.04},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      xlabel={روزِ سال}, ylabel={باقی‌ماندهٔ روزانه}]
+    \addplot[sPV, line width=0.6pt] table[x=d, y=r, col sep=comma] {data/ch37-residual.csv};
+    \draw[sLoss] (axis cs:99,-0.14) -- (axis cs:99,0.03);
+    \draw[sLoss] (axis cs:160,-0.14) -- (axis cs:160,0.03);
+    \node[note, anchor=south east] at (axis cs:102,0.03) {هشدار: روزِ ۹۹};
+    \node[note, anchor=south west] at (axis cs:157,0.03) {هشدار: روزِ ۱۶۰};
+    \node[note, anchor=west] at (axis cs:230,-0.12) {کاهشِ تولید (اوت)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,13 @@
+road traffic noise past the village: change from the baseline
+  baseline 360 light + 40 heavy a day; one heavy ~ 10 light (teaching)
+  case                             equivalent flow   change dB
+  baseline                                     760         0.0
+  + buses and cars                             820         0.3
+  + trucks (peak month)                      1,980         4.2
+  the trucks raise the daily road noise by 4.2 dB - more
+  than the 3 dB a resident notices as a clear change; the
+  cars and buses alone add almost nothing. Holding trucks
+  in school hours moves them, it does not remove them: the
+  daily level is the same, so the remedy for noise is a
+  speed limit, a smooth surface and no night convoys
+  through the village except the abnormal loads (ch 31)

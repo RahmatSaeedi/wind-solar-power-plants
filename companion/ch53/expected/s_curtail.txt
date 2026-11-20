@@ -1,0 +1,7 @@
+grid curtailment by year (MWh): the region adds wind and solar
+   230  260  300  380  450  560  640  790  900
+  1050 1210 1380 1500 1680 1820 1950 2080 2200
+  last eight years: +142 +/- 6 MWh a year; year 25 by the line: 3,193 MWh
+  curtailment grows as the grid fills: a repowering adds most
+  energy in windy hours, when curtailment is also most likely -
+  its gain must be valued after curtailment, not before

@@ -1,0 +1,14 @@
+concession for the S-07 gland (it came 'agreed by phone')
+  number          CR-012
+  requirement     cable gland type G1, IP66
+  deviation       gland type G2 fitted
+  reason          G1 out of stock
+  risk            G2 is IP66 and same thread; no change to fire rating
+  affected        S-07
+  decided_by      owner's engineer
+  decision        accept, record in as-built
+  before_shipment yes
+  fields missing: 0
+  a concession accepts a known nonconformity in writing,
+  for named serials, before shipment, by the person with
+  the authority; a phone call is none of these

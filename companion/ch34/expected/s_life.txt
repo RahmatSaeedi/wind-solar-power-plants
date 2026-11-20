@@ -1,0 +1,14 @@
+electronics in the cabinet of lesson C (teaching)
+  room C   cabinet air C   failure-rate factor   capacitor life years
+      25              34                  1.00                   19.6
+      40              49                  3.43                    6.9
+      47              56                  5.86                    4.3
+  (failure rate against the cooled cabinet at 34 C, 0.7 eV;
+  capacitor 5,000 h at 105 C, life doubling for each 10 K
+  cooler, running 20 K above the cabinet air)
+  a cabinet that lives at 56 C fails its electronics about 6
+  times as often as the cooled one and wears out a power
+  supply's capacitors in about 4 years instead of 20 - the
+  cooling of lesson C is a reliability decision, and the
+  supplies get a replacement interval in the maintenance
+  plan (ch 51)

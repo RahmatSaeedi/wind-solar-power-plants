@@ -1,0 +1,15 @@
+the logical diagram as a table of allowed paths (teaching)
+  from                  to                    allowed
+  substation IEDs       SCADA servers         yes: telecontrol
+  turbines              SCADA servers         yes: turbine data
+  PV inverters          SCADA servers         yes: inverter data
+  battery containers    SCADA servers         yes: battery data
+  SCADA servers         historian             yes: one way
+  historian             business network      yes: read copy only
+  business network      SCADA servers         NO
+  turbines              PV inverters          NO (no need)
+  grid operator         gateway / RTU         yes: agreed profile
+  7 of 9 listed paths allowed; every path not
+  listed is denied. The physical diagram says where cables
+  run; the logical one says who may talk to whom - and it
+  is the logical one the firewall rules of ch 36 implement

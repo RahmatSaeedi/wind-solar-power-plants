@@ -1,0 +1,9 @@
+the exercise programme (teaching frequencies)
+  exercise                         how often           who
+  table-top of one scenario        quarterly           managers, control room
+  rescue drill at height           monthly per team    rescue teams
+  evacuation and muster            twice a year        everyone on site
+  full exercise with services      yearly              fire, ambulance, police
+  communications test              weekly              control room
+  each exercise ends with findings, owners and dates, and
+  the next one tests whether those fixes worked

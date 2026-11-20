@@ -1,0 +1,11 @@
+the grid operator's set point is ramping down at 0.5 MW/s when
+  the link fails (teaching values)
+  behaviour of the PPC          deviation after 60 s   after 5 min
+  hold the last set point                     +30.0 MW      +40.0 MW
+  hold 60 s, then fall back to the schedule    +30.0 MW      +20.0 MW
+  go to zero output                           -50.0 MW      -40.0 MW
+  no behaviour is right for every case: holding keeps the
+  plant steady but misses the ramp, zero output is safe for
+  the plant and a large disturbance for the grid. The
+  behaviour and its timers are agreed with the grid
+  operator (U-115) and tested at acceptance (ch 20, ch 34)

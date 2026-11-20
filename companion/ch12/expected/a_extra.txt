@@ -1,0 +1,17 @@
+extraterrestrial irradiation and clearness index at 34 deg N:
+  month  H0 kWh/m2/d  H kWh/m2/d  K_T
+  Jan       5.23        2.69    0.514
+  Feb       6.53        3.70    0.566
+  Mar       8.30        5.41    0.651
+  Apr       9.97        6.52    0.654
+  May      11.06        7.06    0.638
+  Jun      11.47        8.40    0.732
+  Jul      11.23        8.19    0.729
+  Aug      10.34        6.31    0.610
+  Sep       8.85        5.56    0.629
+  Oct       7.04        4.58    0.651
+  Nov       5.51        3.28    0.594
+  Dec       4.82        2.26    0.468
+  extraterrestrial normal: 1406 W/m2 in early January, 1316 W/m2 in early July
+  K_T is the share of the top-of-atmosphere energy that reaches
+  the ground: a dry site has high K_T in summer

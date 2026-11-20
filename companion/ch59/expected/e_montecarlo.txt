@@ -1,0 +1,8 @@
+energy lost to unplanned failures, MWh a year (ch 52 Monte Carlo of
+the failure classes, 400 simulated years; planned services apart)
+  mean    4,267
+  p50     3,407
+  p90     7,739
+  the P90 year loses 2.3 times the median year: the
+  yearly spread, not only the mean, enters the uncertainty
+  budget (ch 16) and the debt case (ch 21)

@@ -1,0 +1,24 @@
+P01 facts: 49; verified 19, project-dependent 2, to-confirm 28
+P02 to-confirm resting on secondary sources only: 6
+P03 topic with most to-confirm: A (8 of 15)
+P04 undated sources: 12; older than 3 years: 9
+P05 approval path (teaching): 11.5 months
+P06 critical path: S1 > S2 > S3 > S4 > S8
+P07 steps not verified: 8; on the critical path: S2, S3, S4, S8
+P08 slack of the connection studies: 1.5 months
+P09 grid inputs complete: 17%; missing 10
+P10 certificate items not shown: 5 of 12
+P11 open stages: IR-43 0, IR-05 6
+P12 services verified: 2 of 6
+P13 finance items verified: 6 of 9
+P14 open issues: 30 to 15 addressees
+P15 lease cap: 20 % of the regional land value a year (IR-24)
+P16 EIA rule of the 1402 bylaw: none above 100 MW, DOE inquiry (IR-43)
+P17 DOE answer period: one week; silence = consent (amendment)
+P18 bylaw validity: two years from entry into force (IR-10)
+P19 renewables target of the amendment: 30,000 MW (IR-11)
+P20 mandatory import list for inverters: up to 5 kW (IR-28)
+P21 if S5 takes 8 months: path 2 + 8 + 2 = 12.0 > 11.5 months
+P22 hybrid as two plants: 60 and 50 MW, each below 100 MW
+P23 if the bylaw lapsed: IR-23, 24, 43, 45, 46 need a new source
+P24 readiness review: see int_review

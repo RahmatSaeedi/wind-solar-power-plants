@@ -1,0 +1,20 @@
+% Chapter 4 — rotor excitation frequencies 1P and 3P against rotor speed and the first tower
+% frequency of the second design try (A-050). Data: diagrams/data/ch04-campbell.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=64mm,
+      xlabel={سرعتِ روتور (rpm)}, ylabel={بسامد (Hz)},
+      xmin=0, xmax=14, ymin=0, ymax=0.75, xtick={0,2,...,14}, ytick={0,0.1,...,0.7},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1}]
+    \addplot[sWind] table[x=rpm, y=p1, col sep=comma] {data/ch04-campbell.csv};
+    \addlegendentry{تحریکِ $1P$}
+    \addplot[sLoad] table[x=rpm, y=p3, col sep=comma] {data/ch04-campbell.csv};
+    \addlegendentry{تحریکِ $3P$}
+    \addplot[sInk] table[x=rpm, y=f1, col sep=comma] {data/ch04-campbell.csv};
+    \addlegendentry{بسامدِ اولِ برج}
+    \draw[cInkB, densely dotted] (axis cs:10.5,0) -- (axis cs:10.5,0.70);
+    \node[note, anchor=south] at (axis cs:10.5,0.70) {سرعتِ اسمی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

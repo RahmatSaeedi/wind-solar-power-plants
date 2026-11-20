@@ -1,0 +1,16 @@
+auto-reclosing the export line while the plant is islanded
+  phase drift between plant and grid during the dead time:
+  angle = 360 x df x t (degrees)
+  frequency difference Hz   dead time 0.5 s   1.0 s   3.0 s
+                       0.1                18      36     108
+                       0.5                90     180     540
+                       1.0               180     360    1080
+  the plant must have stopped before the reclose: detection
+  260 ms (island detection 200 ms + breaker 60 ms)
+  inside a 0.5 s dead time leaves little margin - closing
+  onto a live island 180 degrees out of phase doubles the
+  voltage across the breaker and stresses every machine and
+  transformer; so either transfer trip stops the plant at
+  once, or the operator lengthens the dead time or recloses
+  only onto a dead line - an item for the connection
+  agreement (ch 28)

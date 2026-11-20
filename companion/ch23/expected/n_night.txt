@@ -1,0 +1,10 @@
+what the plant takes from the grid on a calm night (kW, teaching):
+  12 turbines idle (yaw, heating, control)       72
+  10 PV inverter stations at night               15
+  battery blocks standby (S1)                    96
+  station service (normal)                      152
+  total 335 kW; 10 calm night hours a week: 174 MWh a year imported
+  the import is metered (the revenue meter runs both ways)
+  and priced under the connection agreement; it is part of
+  the own use that ch 17 counted (4.5 GWh a year in its
+  detailed list), now traced to the equipment

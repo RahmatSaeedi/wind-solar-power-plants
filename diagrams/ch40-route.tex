@@ -1,0 +1,36 @@
+% Chapter 40 - route of a PV station skid, OP10 to OP90, read right to left in three rows; each box
+% gives its station and hours, and the ITP points (H hold, W witness, R review) it carries
+% (companion/ch40/sources.py ROUTE and ITP; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    op/.style={blk, minimum width=36mm, minimum height=13mm, text width=34mm},
+    pt/.style={circle, draw=cLoss, fill=cLoss!10, inner sep=1.2pt, font=\scriptsize\bfseries}]
+  % row 1, right to left
+  \node[op] (o10) at (8.4,0) {\textbf{OP10} جوش و رنگِ شاسی\\ ایستگاهِ S1، ۱۶ ساعت};
+  \node[op] (o20) at (4.2,0) {\textbf{OP20} دریافت و بازرسیِ تجهیزات\\ ایستگاهِ S2، ۴ ساعت};
+  \node[op] (o30) at (0,0) {\textbf{OP30} نصبِ تجهیزات روی شاسی\\ ایستگاهِ S2، ۱۰ ساعت};
+  % row 2
+  \node[op, blkPV] (o40) at (8.4,-2.0) {\textbf{OP40} اتصال‌های شینه و کابلِ فشارضعیف\\ ایستگاهِ S3، ۱۴ ساعت};
+  \node[op, blkPV] (o50) at (4.2,-2.0) {\textbf{OP50} سرکابلِ فشارمتوسط\\ ایستگاهِ S4، ۶ ساعت};
+  \node[op] (o60) at (0,-2.0) {\textbf{OP60} سیم‌کشیِ کمکی و کنترل\\ ایستگاهِ S5، ۱۲ ساعت};
+  % row 3
+  \node[op, blkPV] (o70) at (8.4,-4.0) {\textbf{OP70} زمین و هم‌بندی\\ ایستگاهِ S4، ۴ ساعت};
+  \node[op, blkWarn] (o80) at (4.2,-4.0) {\textbf{OP80} آزمونِ پذیرشِ کارخانه\\ ایستگاهِ S6، ۸ ساعت};
+  \node[op] (o90) at (0,-4.0) {\textbf{OP90} نگهداری، بسته‌بندی، ارسال\\ ایستگاهِ S6، ۵ ساعت};
+  \draw[flow] (o10) -- (o20);  \draw[flow] (o20) -- (o30);
+  \draw[flow] (o30.south) -- ++(0,-0.35) -| (o40.north);
+  \draw[flow] (o40) -- (o50);  \draw[flow] (o50) -- (o60);
+  \draw[flow] (o60.south) -- ++(0,-0.35) -| (o70.north);
+  \draw[flow] (o70) -- (o80);  \draw[flow] (o80) -- (o90);
+  % ITP points
+  \node[pt] at ($(o40.north east)+(-0.2,0.22)$) {R};
+  \node[pt] at ($(o40.north east)+(-0.6,0.22)$) {W};
+  \node[pt] at ($(o50.north east)+(-0.2,0.22)$) {R};
+  \node[pt] at ($(o70.north east)+(-0.2,0.22)$) {R};
+  \node[pt] at ($(o80.north east)+(-0.2,0.22)$) {H};
+  \node[pt] at ($(o80.north east)+(-0.6,0.22)$) {W};
+  \node[pt] at ($(o90.north east)+(-0.2,0.22)$) {R};
+  \node[note, text width=110mm] at (4.2,-5.35) {رنگی: مشخصه‌های بحرانی (اتصال، سرکابل، زمین) و آزمونِ کارخانه. H نقطهٔ توقف، W نقطهٔ شاهد، R بازبینیِ سابقه.};
+\end{tikzpicture}
+\end{document}

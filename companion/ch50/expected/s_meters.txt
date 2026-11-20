@@ -1,0 +1,13 @@
+revenue main and check meters, first week of export (MWh a day)
+  day  main     check    difference
+    1    412.0    412.3    +0.073%
+    2    398.5    398.9    +0.100%
+    3    405.2    405.5    +0.074%
+    4    421.7    422.1    +0.095%
+    5    390.1    390.3    +0.051%
+    6    410.6    411.0    +0.097%
+    7    415.9    416.3    +0.096%
+  mean difference +0.084%: both inside their class (ch 48), and
+  the check meter reads a little higher every day - the
+  trend watch of ch 48 starts from this baseline, recorded
+  in the commissioning report

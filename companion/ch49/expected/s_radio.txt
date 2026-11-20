@@ -1,0 +1,11 @@
+communications at each work front (survey with the site radio)
+  PV block PVF1-3        site radio
+  PV block PVF3-3        site radio
+  T01 erection           site radio
+  T12 erection           weak (hill shadow)
+  substation             site radio and phone
+  132 kV line, tower 18  none
+  2 fronts need a fallback before work: a satellite phone
+  or a repeater - the same two fronts that sit at the edge of
+  the response time (lesson L); a call that does not go
+  through adds its own minutes to every number there

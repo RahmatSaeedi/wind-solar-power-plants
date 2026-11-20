@@ -1,0 +1,8 @@
+the SOC window: energy against life (lab D rule, one year):
+  window     discharged MWh   value k u   cycles/yr   health yr 10
+   20- 80 %            8,123         279         365          84.8 %
+   10- 90 %           10,817         371         365          80.7 %
+    5- 95 %           12,160         417         364          78.6 %
+  a wider window sells more energy each day but ages the cells
+  faster (deeper cycles, more time near the ends); the choice
+  is an economic one (chapter 21) bounded by the warranty

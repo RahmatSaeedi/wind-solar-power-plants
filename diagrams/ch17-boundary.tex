@@ -1,0 +1,28 @@
+% Chapter 17 - the chain of assets between Plant P and the grid (flows right to left: plant on the
+% right, grid on the left) and the two candidate points of connection (A-285, teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    blk/.style={draw=cInk, fill=white, rounded corners=2pt, minimum width=24mm, minimum height=12mm,
+                align=center, text=cInk},
+    own/.style={font=\footnotesize, text=cInkB, align=center}]
+  \node[blk] (gen) at (12.6,0) {ژنراتورها\\بادی و خورشیدی};
+  \node[blk] (col) at (9.6,0) {سامانهٔ جمع‌آوری\\$33\,\text{kV}$};
+  \node[blk] (sub) at (6.6,0) {پستِ صادرات\\$33/132\,\text{kV}$};
+  \node[blk] (line) at (3.6,0) {خطِ صادرات\\$7.06\,\text{km}$};
+  \node[blk] (bay) at (0.6,0) {بیِ اتصال\\پستِ شبکه};
+  \node[blk] (grid) at (-2.4,0) {شبکه};
+  \draw[flow] (gen.west) -- (col.east);
+  \draw[flow] (col.west) -- (sub.east);
+  \draw[flow] (sub.west) -- (line.east);
+  \draw[flow] (line.west) -- (bay.east);
+  \draw[flow] (bay.west) -- (grid.east);
+  \draw[sLimit, line width=1pt] (5.1,-1.3) -- (5.1,1.3);
+  \draw[sLimit, line width=1pt] (2.1,-1.3) -- (2.1,1.3);
+  \node[own] at (5.1,1.65) {گزینهٔ ۱};
+  \node[own] at (2.1,1.65) {گزینهٔ ۲};
+  \node[own] at (9.6,-1.4) {پروژه};
+  \node[own] at (3.6,-1.4) {باز};
+  \node[own] at (-0.9,-1.4) {شرکتِ برق};
+\end{tikzpicture}
+\end{document}

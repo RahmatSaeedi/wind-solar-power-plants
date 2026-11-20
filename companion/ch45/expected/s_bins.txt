@@ -1,0 +1,10 @@
+capacity bins of lot L4506 after the K and resistance screens
+  (1992 cells; teaching edges)
+  bin      Ah range          cells   share
+  A        >= 316             1853   93.0%
+  B        313 - 316           136    6.8%
+  reject   300 - 313             3    0.2%
+  bin A fills 35 modules of 52; bin B cells go to another order or a
+  lower-rated product, never mixed into an A module - mixing
+  bins undoes the matching (lesson B); the bin is printed
+  with the cell's ID

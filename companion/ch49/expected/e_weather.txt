@@ -1,0 +1,19 @@
+working hours 06-18 lost in the data-pack year: module handling above 9 m/s
+  at 10 m (scaled from 60 m), heat stop above 38 C (teaching limits)
+  month  hours  wind  heat  lost
+      1    372    31     0   8.3%
+      2    336    28     0   8.3%
+      3    372    11     0   3.0%
+      4    360    10     0   2.8%
+      5    372    30     0   8.1%
+      6    360     1     3   1.1%
+      7    372    15    15   8.1%
+      8    372     2     0   0.5%
+      9    360    27     0   7.5%
+     10    372    11     0   3.0%
+     11    360     0     0   0.0%
+     12    372    87     0  23.4%
+  worst month 12: 23% of the working hours; the year 6.2%
+  the plan carries these hours month by month, not as one
+  annual allowance - the limits themselves come from the
+  module maker's handling instruction and the heat plan (ch 32)

@@ -1,0 +1,5 @@
+source watch: 37 distinct sources behind 44 facts
+  checked monthly (a to-confirm fact rests on them): 24
+  checked before each gate (all verified): 13
+  the official pages of the current authorities are watched
+  for the outcome of the review of earlier laws

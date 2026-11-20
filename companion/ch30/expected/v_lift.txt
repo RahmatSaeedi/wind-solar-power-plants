@@ -1,0 +1,8 @@
+a tower section lifted horizontally at its two ends (section 2)
+  96 t over 25 m; tube 4.12 m x 40 mm
+  lugs at the ends         moment   2943 kN m, stress   5.7 MPa
+  lugs at quarter points   moment    736 kN m, stress   1.4 MPa
+  bending is trivial for a 4 m tube; what the lift does
+  threaten is the shape - the thin end ovalises under its
+  own weight at the lugs, which is why the sections travel
+  and lift with their flanges braced (lesson C, ch 31)

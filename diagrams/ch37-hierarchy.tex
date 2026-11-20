@@ -1,0 +1,23 @@
+% Chapter 37 - the equipment hierarchy every failure record is coded to: plant, unit, system,
+% component (examples_f; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    h/.style={blk, minimum width=20mm, minimum height=9mm, text width=19mm}]
+  \node[h, minimum width=30mm, text width=28mm] (p) at (0,0) {نیروگاهِ P};
+  \node[h, blkWind] (wf) at (3.6,-1.7) {مزرعهٔ بادی};
+  \node[h, blkPV] (pv) at (0,-1.7) {میدانِ خورشیدی};
+  \node[h, blkLoad] (ss) at (-3.6,-1.7) {پست};
+  \node[h, blkWind] (t) at (3.6,-3.4) {توربینِ T07};
+  \node[h, blkWind] (cv) at (5.4,-5.1) {مبدل};
+  \node[h, blkWind] (pi) at (3.0,-5.1) {سامانهٔ گام};
+  \node[h, blkWind] (gb) at (0.6,-5.1) {جعبه‌دنده};
+  \node[h, blkWarn] (cp) at (0.6,-6.8) {یاتاقانِ محورِ پرسرعت};
+  \node[h, blkPV] (b) at (0,-3.4) {بلوکِ B07};
+  \node[h, blkLoad] (tr) at (-3.6,-3.4) {ترانسفورماتورِ اصلی};
+  \foreach \a/\b in {p/wf, p/pv, p/ss, wf/t, t/cv, t/pi, t/gb, gb/cp, pv/b, ss/tr}
+    {\draw[flow] (\a.south) -- (\b.north);}
+  \node[note, text width=36mm, anchor=north] at (-3.6,-4.6)
+    {کدِ خرابی: نشانه، علت، اقدام؛ هر سطح ساعاتِ کارکردِ خودش را دارد};
+\end{tikzpicture}
+\end{document}

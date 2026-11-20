@@ -1,0 +1,22 @@
+% Chapter 26 - rolling-sphere method: a sphere of radius 45 m (teaching) rolled over a 20 m mast
+% touches the mast tip and the ground; the space under its arc is protected: 37.4 m at ground,
+% 11.8 m at 8 m height (companion/ch26/examples_g.py sphere()). Scale 1 unit = 1 m x 0.09.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt, x=1.1mm, y=1.1mm]
+  \begin{scope}
+  \clip (-30,-12) rectangle (96,52);
+  \draw[draw=cInkB] (-10,0) -- (95,0);
+  \foreach \k in {-8,-2,...,94} {\draw[draw=cInkB, line width=0.4pt] (\k,0) -- (\k-2,-2);}
+  \fill[cWind!14] (0,20) arc[start angle=-146.2, end angle=-90, radius=45] -- (0,0) -- cycle;
+  \draw[draw=cInk, line width=1.4pt] (0,0) -- (0,20);
+  \draw[draw=cLoss, line width=0.9pt, densely dashed] (37.4,45) circle (45);
+  \draw[draw=cInkB, densely dotted] (0,8) -- (11.8,8);
+  \draw[dimline] (0,-6) -- (37.4,-6); \node[note, fill=white] at (18.7,-6) {$37.4\,\text{m}$};
+  \node[note, anchor=west] at (13,8) {$11.8\,\text{m}$ در ارتفاعِ $8\,\text{m}$};
+  \node[note, anchor=east] at (-1,20) {دکل $20\,\text{m}$};
+  \node[note] at (60,40) {کرهٔ غلتانِ $45\,\text{m}$};
+  \node[note] at (9,3) {فضای حفاظت‌شده};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

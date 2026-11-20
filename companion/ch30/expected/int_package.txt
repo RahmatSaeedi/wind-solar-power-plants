@@ -1,0 +1,15 @@
+the structural design-review package of Plant P (teaching status)
+  document                                          status      review
+  design basis and load set (maker)                 received    checked
+  site-specific suitability (ch 11)                 received    checked
+  foundation geotechnical report (ch 29 Q1-Q10)     draft       open
+  foundation structural calculation (24 m)          received    1 major open
+  anchor cage and grout calculation                 received    checked
+  tower fabrication data books (12)                 3 of 12     in progress
+  PV structure calculation and pile tests           received    checked
+  line tower load cases and foundations             received    checked
+  substation structures and anchors                 draft       open
+  erection records: bolting, verticality            per turbine ongoing
+  3 items still open: the T07 foundation and the substation
+  structures wait for the geotechnical answers (ch 29) and
+  the checker's acceptance; nothing is built on an open item

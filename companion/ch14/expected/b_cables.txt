@@ -1,0 +1,7 @@
+33 kV collector network to the site substation (straight lines):
+  layout              tree (MST) km   radial strings km   strings
+  W1 ridge (1 row)        9.32           18.21           3
+  W2 plain (2 rows)       8.91           12.63           3
+  four turbines per string (20 MW at 33 kV, teaching; cable
+  sizing in chapter 24); the tree is a lower bound, the strings
+  are buildable; both follow roads in practice (longer)

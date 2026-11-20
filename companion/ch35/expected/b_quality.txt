@@ -1,0 +1,12 @@
+quality through a gateway: source flags and what survives (teaching)
+  source flag      target flag     kept?
+  invalid          invalid         yes
+  questionable     invalid         yes
+  substituted      -               LOST
+  old data         not topical     yes
+  test             -               LOST
+  lost in the gateway: ['substituted', 'test']
+  a substituted value (typed in by hand) or a test value
+  arrives at the control centre looking measured - the
+  mapping table is part of the interface specification
+  and each lost flag is either mapped or the value blocked

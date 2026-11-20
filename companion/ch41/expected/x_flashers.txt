@@ -1,0 +1,9 @@
+gauge study: 10 modules x 2 flash testers x 3 repeats (teaching)
+  case                       repeat W   between W   %GRR   6 sd / 5 W class
+  as found (B reads +1.2 W)      0.58        0.77     45               116%
+  after golden-module match      0.57        0.14     26                70%
+  the bias between testers is most of the error; matching
+  both to one golden module removes it, but repeatability
+  alone still spans 70% of a 5 W class - flashers
+  sort modules into classes with some misbinning, which the
+  0/+5 W tolerance and the buyer's decision rule absorb

@@ -1,0 +1,4 @@
+SOC error from a 5 mV reading error across the LFP teaching curve
+  error above 3 % between SOC 20% and 81%
+  largest 5.0%, smallest 0.16%
+  only the ends of the curve let the voltage correct the SOC

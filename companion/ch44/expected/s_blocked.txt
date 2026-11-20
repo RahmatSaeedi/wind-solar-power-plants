@@ -1,0 +1,10 @@
+4 cold plates in parallel on one pump, 3.9 kg/s;
+  plate 3 partly blocked (resistance x 2)
+  flow shares: 0.270, 0.270, 0.191, 0.270
+  plate 3 flow 0.74 kg/s instead of 0.975 (-24%); total unchanged
+  coolant rise on plate 3: 3.5 -> 4.6 K
+  plate-to-coolant resistance 0.016 -> 0.0199 K/W
+  first-row outer module: Tj 75.3 -> 77.5 C (+2.2 K)
+  the end-of-line flow test reads the total flow and passes;
+  only a reading per plate - a flow sensor or the outlet
+  temperature of each plate in the full-power run - finds it

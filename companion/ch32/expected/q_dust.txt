@@ -1,0 +1,10 @@
+working hours when strong wind blows site dust toward the village
+  village 3 km north of the PV block (ch 14): wind from 135-225 deg
+  working hours (06-18 h): 4,380
+  wind from that sector: 191
+  ... and above 8 m/s at 100 m: 51 (1.2 %)
+  the prevailing wind blows away from the village; in the few
+  hours it does not, grading and haul near the village stop
+  or get extra water - a wind-direction rule set with the
+  community and the dust plan (ch 29) costs about 1 % of
+  working time and removes a cause of lesson G's complaints

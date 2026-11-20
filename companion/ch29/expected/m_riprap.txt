@@ -1,0 +1,10 @@
+rock at a culvert outlet (Isbash: D = v^2 / (2 g C^2 (s - 1)), s 2.65)
+  velocity m/s   D50 exposed (C 0.86) m   D50 embedded (C 1.20) m
+           1.5                     0.09                      0.05
+           3.0                     0.38                      0.19
+           4.5                     0.85                      0.43
+  stone size grows with the square of velocity: the outlet
+  of the 0.9 m pipes (1.5 m/s full) needs little; the road
+  crest overtopped in a big storm (3-4.5 m/s on the
+  downstream face) needs rock of 0.4-0.8 m - the overtopping
+  path is designed, not left to chance

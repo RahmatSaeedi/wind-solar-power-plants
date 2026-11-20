@@ -1,0 +1,19 @@
+compliance-method basis of Plant P (D-058):
+  1 one register, one row per requirement: source type, issuer,
+    clause, edition, status (verified / project-dependent /
+    to-confirm), applicability, consequence, evidence, owner,
+    approver, date verified, revision
+  2 the strictest applicable source governs; rank decides only
+    a true conflict, and a conflict goes out as a written request
+  3 sources read in the official language and current
+    consolidated text; checked again before each gate and
+    monthly by a named person
+  4 every interpretation the design depends on is in writing
+  5 a requirement closes only with accepted evidence and the
+    named approver's decision; Z-001 waits on DEV-11 (TSOZ)
+  6 the ownership scenario of the line is an input, decided
+    before the search (O1 in the base)
+  7 finance and fiscal items: verified in the base case,
+    to-confirm only as sensitivities, each closed by a dated
+    opinion of a qualified local reviewer
+  8 the method, not Country Z's values, carries to ch 55-58

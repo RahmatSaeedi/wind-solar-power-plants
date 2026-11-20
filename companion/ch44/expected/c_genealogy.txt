@@ -1,0 +1,7 @@
+module lot L2212 reported weak by the module maker: which inverters?
+  genealogy: inverter -> module lots (A-471)
+  inverters with L2212: INV-05, INV-06, INV-07
+  3 of 10 inverters, found in one query; without
+  the record every inverter would be opened
+  the serial of each module, its lot and its position in the
+  stack are written at mounting - the cheapest record of all

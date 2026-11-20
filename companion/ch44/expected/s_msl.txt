@@ -1,0 +1,11 @@
+moisture-sensitive parts: floor life 168 h after the dry bag is opened
+  (teaching); dry storage pauses the clock
+  reel   exposure h   left h   verdict
+  R101           64      104   use
+  R102          174       -6   hold: maker procedure before use
+  R103           96       72   use
+  R104          180      -12   hold: maker procedure before use
+  2 reels over their floor life (R102, R104): moisture
+  in the package can crack it during soldering; the record of
+  every opening is the only way to know - the recovery is the
+  part maker's procedure, not a factory improvisation

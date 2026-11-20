@@ -1,0 +1,22 @@
+% Chapter 10 - hours of the data-pack year by string maximum-power voltage (26 modules, POA and
+% Faiman models) against the DC floors of three inverter AC voltages (U-032, D-012).
+% Data: diagrams/data/ch10-window.csv (companion/ch10/examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=880, xmax=1200, ymin=0, ymax=850,
+      xlabel={ولتاژِ نقطهٔ بیشینهٔ رشته، $\text{V}$}, ylabel={ساعت در سال}, xtick={900,950,...,1200},
+      ytick={0,200,400,600,800}, ybar, bar width=4.2mm]
+    \addplot[draw=cPV, fill=cPV!30, restrict x to domain=880:1160] table[x=v, y=h, col sep=comma] {data/ch10-window.csv};
+  \end{axis}
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=880, xmax=1200, ymin=0, ymax=850,
+      axis lines=none, ticks=none]
+    \draw[cInk, line width=0.9pt] (axis cs:933,0) -- (axis cs:933,820);
+    \node[note, text=cInk, anchor=south west] at (axis cs:935,770) {$600\ \text{V}$: کفِ $933\ \text{V}$};
+    \draw[cInkB, dash pattern=on 4pt off 2pt] (axis cs:980,0) -- (axis cs:980,740);
+    \node[note, anchor=south west] at (axis cs:982,690) {$630\ \text{V}$: کفِ $980\ \text{V}$};
+    \draw[cLoss, line width=0.9pt, dash pattern=on 2pt off 2pt] (axis cs:1073,0) -- (axis cs:1073,820);
+    \node[note, text=cLoss, anchor=south west] at (axis cs:1075,760) {$690\ \text{V}$: کفِ $1073\ \text{V}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

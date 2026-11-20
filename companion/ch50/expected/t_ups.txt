@@ -1,0 +1,6 @@
+UPS-1 autonomy: tested 26 min at 6.4 kW; the design load is 8.0 kW
+  teaching scaling t ~ P^-1.15: at the design load 20.1 min
+  30 min at 8.0 kW needs about 4.0 kWh delivered
+  a test at part load flatters a battery: the replacement
+  string of DEV-14 is sized and tested at the design load,
+  with the maker's discharge table, not this scaling

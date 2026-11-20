@@ -1,0 +1,6 @@
+intrinsic carriers grow as T^1.5 exp(-Eg / 2kT); ratio 150 C / 25 C:
+  silicon          Eg 1.12 eV: x 1.06e+03
+  silicon carbide  Eg 3.26 eV: x 2.33e+08
+  SiC at 150 C has 1.9e-10 x the intrinsic carriers of Si at 25 C
+  a wide gap keeps the material insulating when hot: higher blocking voltage
+    and junction temperature for wide-gap power devices (chapters 9 and 44)

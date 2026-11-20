@@ -1,0 +1,7 @@
+a week on standby, battery full (teaching, A-291):
+  self-discharge 0.084 % a day = 34 kWh a day
+  BMS and idle HVAC 6.5 kW x 8 containers = 1,248 kWh a day
+  in a week: 8.97 MWh, 27.9 % of the usable energy
+  standby costs more in auxiliaries than in chemistry; the
+  auxiliaries come from the battery or from the grid, and
+  the meter and the contract must say which (chapter 17)

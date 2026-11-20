@@ -1,0 +1,34 @@
+% Chapter 38 - PV block PVF2-3 in three linked drawings: one-line (power), control (commands) and
+% network (the port the command travels through); shared tags tie them (examples_c; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\scriptsize,
+    e/.style={blk, minimum width=19mm, minimum height=7mm, text width=18mm},
+    frame/.style={boundary}]
+  % one-line (right)
+  \node[note, font=\footnotesize\bfseries] at (0,3.0) {نمودارِ تک‌خطی};
+  \draw[bus] (-1.0,2.4) -- (1.0,2.4);
+  \node[e, blkLoad] (q) at (0,1.5) {\babelsublr{=PVF2-Q1}\\کلیدِ فیدر};
+  \node[e, blkPV] (t) at (0,0.3) {\babelsublr{=PVF2-3-T1}\\ترانسفورماتور};
+  \node[e, blkPV] (u) at (0,-0.9) {\babelsublr{=PVF2-3-U1}\\اینورتر};
+  \draw[line width=0.9pt] (0,2.4) -- (q.north) (q.south) -- (t.north) (t.south) -- (u.north);
+  \draw[frame] (-1.3,-1.5) rectangle (1.3,3.3);
+  % control (middle)
+  \node[note, font=\footnotesize\bfseries] at (-4.0,3.0) {نقشهٔ کنترل};
+  \node[e, blkWind] (ppc) at (-4.0,1.5) {PPC\\کنترل‌گرِ نیروگاه};
+  \node[e, blkPV] (uc) at (-4.0,-0.9) {\babelsublr{=PVF2-3-U1}\\P و Q};
+  \draw[flow] (ppc) -- (uc);
+  \draw[frame] (-5.3,-1.5) rectangle (-2.7,3.3);
+  % network (left)
+  \node[note, font=\footnotesize\bfseries] at (-8.0,3.0) {نقشهٔ شبکه};
+  \node[e, blkLoad] (core) at (-8.0,1.5) {سوئیچِ هستهٔ الف\\ناحیهٔ کنترل};
+  \node[e, blkLoad] (sw) at (-8.0,0.3) {SW-PV2\\حلقهٔ PV ۲};
+  \node[e, blkPV] (un) at (-8.0,-0.9) {\babelsublr{=PVF2-3-U1}\\درگاهِ ۷};
+  \draw[line width=0.9pt] (core.south) -- (sw.north) (sw.south) -- (un.north);
+  \draw[frame] (-9.3,-1.5) rectangle (-6.7,3.3);
+  % shared tags
+  \draw[flowinfo, <->] (u.west) -- (uc.east);
+  \draw[flowinfo, <->] (uc.west) -- (un.east);
+  \node[note, text width=60mm] at (-4.0,-2.2) {یک برچسب در هر سه نقشه؛ هر نقشه نقشه‌های ادامه را با بازنگری‌شان نام می‌برد};
+\end{tikzpicture}
+\end{document}

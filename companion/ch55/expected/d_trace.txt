@@ -1,0 +1,28 @@
+traces of sourced requirements - Iran
+  IR-30: power transformers to the mandatory national standard
+    source       INSO mandatory list: power transformers, INSO 2620-1
+    design       ch 25/43 rating and losses calc; one-line PLP-ELE-DWG-0005
+    procurement  order clause: INSO conformity certificate before shipping
+    construction certificate checked at receipt, before the transformer is set
+    test         factory tests (ch 43) plus any national test INSO requires
+    approval     INSO certificate; customs clearance; owner's acceptance
+    retained     certificate, test reports, receipt record (ch 50 handover)
+    open stages: 0 of 7
+  IR-43: DOE inquiry instead of an EIA study (wind/solar > 100 MW)
+    source       renewables bylaw Art 5, 1402/12/23 (text read 2026-11-17)
+    design       layout outside the setbacks (IR-45); habitat screen (ch 33)
+    procurement  E&S consultant scope: inquiry file, not a full EIA
+    construction works start only after the inquiry answer or silence
+    test         not applicable: a permit, not a technical test
+    approval     DOE answer, or a week of silence (amendment)
+    retained     inquiry letter, delivery proof, answer or silence date
+    open stages: 0 of 7
+  IR-05: comply with IGMC grid-stability standards
+    source       Art 4 bylaw Art 6 - but WHICH standards? (IR-19 to-confirm)
+    design       OPEN
+    procurement  OPEN
+    construction OPEN
+    test         OPEN
+    approval     OPEN
+    retained     OPEN
+    open stages: 6 of 7

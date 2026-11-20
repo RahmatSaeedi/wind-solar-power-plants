@@ -1,0 +1,9 @@
+first aid and drinking water for the peak workforce (teaching ratios)
+  peak workforce 450, two shifts, five work fronts
+  first aiders at 1 per 25 on each front: 18 (plus one per remote crew)
+  drinking water at 5 L a person on a hot day: 2.25 m3
+  at 8 L for heavy work in summer: 3.60 m3
+  shade and cool water at every front, not only at the
+  welfare cabins: the walk to water is a heat risk itself;
+  the ratios come from local law and the site's medical
+  provider, and a nurse on site at peak is a common choice

@@ -1,0 +1,12 @@
+leading indicators for one month of construction (synthetic)
+  indicator                                        value
+  inspections done / planned                       88 %
+  near misses reported per 100 workers a month     9
+  actions closed on time                           78 %
+  permits audited, found correct                   90 %
+  toolbox talks held / planned                     100 %
+  impaired barriers today                          1 of 12
+  lagging rates count harm after it happens; leading
+  indicators show whether the system works now - a fall in
+  near-miss reports is a warning (people stopped reporting),
+  not good news, until it is understood

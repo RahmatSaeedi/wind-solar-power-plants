@@ -1,0 +1,8 @@
+auxiliary energy of a year (lab D duty, mid-life resistance):
+  heat removed 200 MWh a container; HVAC at COP 3: 532 MWh for 8
+  BMS and controls: 35 MWh
+  total 568 MWh = 5.2 % of the 10,817 MWh discharged
+  with it the 0.5 C model's 91.5 % round trip (without
+  auxiliaries) falls to 86.7 %: the data pack's 86 % is this
+  winter heating is left out here; the site goes below
+  freezing in the data year, so it is one more auxiliary load

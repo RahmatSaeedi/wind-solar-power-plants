@@ -1,0 +1,14 @@
+register R2 (2026-09) against R3 (2027-02)
+  added:   Z-009, Z-010
+  removed: Z-015
+    Z-015: withdrawn: a bird-radar condition dropped from the final permit
+  changed:
+    Z-002 edition: draft 2 -> draft 3
+    Z-002 value: 0.9 -> 0.93
+    Z-006 edition: draft -> 2026
+    Z-006 status: project-dependent -> verified
+    Z-006 value: 42.0 -> 40.0
+  5 changes, each to be traced to a source
+  (contract draft 3, permit issued); a removal keeps its
+  reason - a requirement that disappears silently is the
+  one that returns at acceptance

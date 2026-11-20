@@ -1,0 +1,11 @@
+DC part of the fault current when the contacts part (teaching):
+  X/R   tau ms   10 ms + opening 30 ms   10 ms + opening 50 ms
+   10     31.8                     28%                     15%
+   17     54.1                     48%                     33%
+   30     95.5                     66%                     53%
+   45    143.2                     76%                     66%
+  near large transformers X/R is high and the DC part decays
+  slowly: a breaker that parts its contacts quickly must
+  interrupt a current with a large offset - the DC part at
+  separation is a rated value of the breaker, compared with
+  the study's X/R in the specification (ch 26)

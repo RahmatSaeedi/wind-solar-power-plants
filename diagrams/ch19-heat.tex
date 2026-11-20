@@ -1,0 +1,15 @@
+% Chapter 19 - inside temperature of one container through the hottest week with a 100 kW HVAC,
+% new and end-of-life cell resistance, and the outside air (A-291). Data: diagrams/data/ch19-heat.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=62mm, xmin=0, xmax=168, ymin=20, ymax=42,
+      xlabel={ساعت از آغازِ گرم‌ترین هفته}, ylabel={دما، درجهٔ سلسیوس}, xtick={0,24,...,168}, ytick={20,25,...,40},
+      legend style={at={(0.98,0.02)}, anchor=south east, font=\footnotesize}]
+    \addplot[sLoad] table[x=h, y=ta, col sep=comma] {data/ch19-heat.csv};
+    \addplot[sBESS] table[x=h, y=bol, col sep=comma] {data/ch19-heat.csv};
+    \addplot[sLoss] table[x=h, y=eol, col sep=comma] {data/ch19-heat.csv};
+    \legend{هوای بیرون, درون، باتریِ نو, درون، پایانِ عمر}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

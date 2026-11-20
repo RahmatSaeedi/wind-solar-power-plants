@@ -1,0 +1,14 @@
+formation and grading of lot L4506: 2000 cells (synthetic, A-475)
+  capacity median 318.0 Ah, pulse resistance median 250 uohm,
+  K-value median 0.030 mV/day (14-day rest)
+  records rejected before analysis: 1
+    (a negative voltage drop: a sign or entry error)
+  robust z beyond 3.5: K-value high 5, capacity low 3, resistance high 4
+  flagged K: C45-00211, C45-00640, C45-01187, C45-01530, C45-01902
+  planted leakers found: 5 of 5; low-capacity 3 of 3;
+    high-resistance 2 of 2
+  the other 2 resistance flags are the tail of a normal spread:
+  a flag is a question for the cell's record, not a verdict;
+  a slow leaker passes capacity and resistance and shows only
+  in its rest voltage - the K-value is the screen for internal
+  micro-shorts, and the rest period is part of the process

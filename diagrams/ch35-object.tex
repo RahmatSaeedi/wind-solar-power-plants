@@ -1,0 +1,21 @@
+% Chapter 35 - the POC voltage as a bare register whose scale lives in a manual, and as an object that
+% carries its value, unit, quality and time (examples_b; synthetic values).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    r/.style={blk, minimum width=40mm, minimum height=9mm, text width=38mm}]
+  \node[r, blkWarn] (reg) at (8.0,1.6) {ثبّاتِ \babelsublr{\texttt{40101}} = $1321$};
+  \node[r, blkWarn] (man) at (8.0,0.0) {ضریبِ $0.1\,\mathrm{kV}$ فقط در دفترچهٔ سازنده};
+  \draw[flowinfo] (reg) -- (man);
+  \node[note, text width=40mm] at (8.0,-1.3) {با ضریبِ درست $132.1\,\mathrm{kV}$؛ با ضریبِ $1$ مقدارِ $1321\,\mathrm{kV}$};
+  \node[r, blkBESS, minimum height=34mm, text width=44mm, minimum width=46mm] (obj) at (0.3,0.4) {%
+    شیءِ ولتاژِ نقطهٔ اتصال\\[2pt]
+    مقدار: $132.1$\\
+    یکا: $\mathrm{kV}$\\
+    کیفیت: خوب\\
+    زمان: \babelsublr{\texttt{2026-03-14T10:00:00.123Z}}\\
+    ساعت: همگام};
+  \draw[flow] (reg.west) -- (obj.east |- reg.west);
+  \node[note, anchor=south, text width=26mm] at (4.3,1.65) {نگاشت در مشخصاتِ واسط};
+\end{tikzpicture}
+\end{document}

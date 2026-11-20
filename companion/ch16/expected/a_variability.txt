@@ -1,0 +1,9 @@
+variability (how much a year moves) against uncertainty of the
+  mean (how well 20 years fix the long-term mean):
+  resource   sd of one year   uncertainty of the 20-year mean
+  wind            4.5 %                   1.0 %
+  PV              2.7 %                   0.6 %
+  hybrid          3.2 %                   0.7 %
+  the year-to-year spread does not shrink with more data: it is
+  how the future varies; the mean becomes better known with
+  more years: that part is uncertainty

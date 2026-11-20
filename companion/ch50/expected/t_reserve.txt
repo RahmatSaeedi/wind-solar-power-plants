@@ -1,0 +1,7 @@
+BESS reserve for a 20 MW frequency service held 30 min
+  energy needed each way: 10.0 MWh
+  at SOC 50% in a 10%-90% window: 16.0 MWh to give, 16.0 MWh to take
+  both directions covered: yes - the test checks
+  the controller keeps SOC near the middle (ch 20 reserve
+  energy); a service test at 85 % SOC would pass upward and
+  fail downward

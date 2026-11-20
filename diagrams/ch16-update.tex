@@ -1,0 +1,12 @@
+% Chapter 16 - one-year P90 of the net energy as operating years narrow the long-term part of the
+% uncertainty (teaching model A-282). Data: diagrams/data/ch16-update.csv (examples_f.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=-0.5, xmax=10.5, ymin=274, ymax=284,
+      xlabel={سال‌های بهره‌برداری با دادهٔ تمیز}, ylabel={$P_{90}$ یک‌ساله، گیگاوات‌ساعت},
+      xtick={0,1,2,3,5,10}, ytick={274,276,...,284}]
+    \addplot[sInk, mark=*, mark size=1.6pt] table[x=n, y=p90, col sep=comma] {data/ch16-update.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+P-F interval 8 weeks; inspections needed to catch the fault with 95%
+  method                      p(detect)   n   interval (weeks)
+  hand-held reading                0.60    4        2.0
+  route with data collector        0.80    2        4.0
+  online CMS                       0.95    1        8.0
+  the weaker the single check, the more often it must be done:
+  a hand reading every two weeks or a route every four weeks;
+  online monitoring reads continuously - its value is the
+  weeks it adds to plan the repair

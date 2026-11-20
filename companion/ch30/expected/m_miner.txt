@@ -1,0 +1,12 @@
+Miner's sum for a stress spectrum at a weld (teaching, detail 71)
+  range MPa   cycles in 20 yr   damage (bilinear)   damage (slope 3 only)
+         80           2.0e+04               0.014                   0.014
+         60           2.0e+05               0.060                   0.060
+         45           1.5e+06               0.141                   0.191
+         30           8.0e+06               0.099                   0.302
+         20           4.0e+07               0.065                   0.447
+  total                                      0.38                    1.01
+  the many small ranges below the knee hurt far less on the
+  shallower slope: the single-slope shortcut is safe but
+  pessimistic; the bilinear curve the code gives (with or
+  without a cut-off) is what the designer uses

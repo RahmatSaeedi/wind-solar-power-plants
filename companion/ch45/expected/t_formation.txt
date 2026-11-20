@@ -1,0 +1,8 @@
+formation of 12,000 cells a day, about 1.5 cycles of charge each (teaching)
+  energy charged into the cells: 18.1 MWh a day, 6.6 GWh a year
+  discharged into resistors: all of it lost; into a
+  regenerative cycler that returns 80%: 5.3 GWh a year back
+  value at 70 u/MWh: 0.37 M u a year
+  a cell factory consumes energy on the scale of a small
+  plant; how it forms its cells shows in its footprint data
+  (ch 33, ch 39) - a buyer can ask

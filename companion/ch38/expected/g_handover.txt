@@ -1,0 +1,15 @@
+handover package against its acceptance criteria (A-421)
+  item                              weight   complete   critical
+  as-built drawings                     3        92 %   yes
+  asset register attributes             3        85 %   yes
+  O&M manuals                           2        70 %
+  test and commissioning records        3       100 %   yes
+  spare parts lists                     1        60 %
+  software and settings backups         2        95 %   yes
+  warranties and certificates           1        80 %
+  weighted score 86.7 %
+  rule: every critical item at 98 % or better, the rest
+  scored; critical items short: 3
+  a weighted score of 87 % sounds nearly done; the rule
+  says the package is not accepted until the as-built
+  drawings, the asset attributes and the backups are

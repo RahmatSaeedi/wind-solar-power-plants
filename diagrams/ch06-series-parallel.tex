@@ -1,0 +1,21 @@
+% Chapter 6 — series and parallel resistors and their equivalents.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % series
+  \draw (0,0) to[battery1, l={$V$}, invert] (0,2.5)
+        to[R, l={$R_1$}, i={$I$}] (2.4,2.5) to[R, l={$R_2$}] (4.8,2.5) to[R, l={$R_3$}] (7.2,2.5) -- (7.2,0) -- (0,0);
+  \node[note, text=cInk, anchor=north, align=center] at (3.6,-0.35)
+       {سری: جریانِ یکسان، ولتاژها جمع می‌شوند\\$R_\text{eq} = R_1 + R_2 + R_3$};
+  % parallel
+  \begin{scope}[shift={(10.5,0)}]
+    \draw (0,0) to[battery1, l={$V$}, invert] (0,2.5) to[short, i={$I$}] (1.5,2.5) -- (6,2.5);
+    \draw (1.5,2.5) to[R, l={$R_1$}] (1.5,0);
+    \draw (3.75,2.5) to[R, l={$R_2$}] (3.75,0);
+    \draw (6,2.5) to[R, l={$R_3$}] (6,0);
+    \draw (0,0) -- (6,0);
+    \node[note, text=cInk, anchor=north, align=center] at (3,-0.35)
+         {موازی: ولتاژِ یکسان، جریان‌ها جمع می‌شوند\\$\dfrac{1}{R_\text{eq}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3}$};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

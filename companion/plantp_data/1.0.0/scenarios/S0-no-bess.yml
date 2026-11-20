@@ -1,0 +1,8 @@
+# Scenario S0: Plant P without battery storage (the comparison case).
+id: S0
+name: no-BESS
+status: assumed
+pv: {dc_mwp: 60, ac_mw: 50}
+wind: {ac_mw: 60, turbines: 12, turbine_id: WT-5.0-150}
+export_limit_mw: 100
+bess: null

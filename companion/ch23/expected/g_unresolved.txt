@@ -1,0 +1,12 @@
+unresolved utility and third-party interfaces:
+  1. U-065 owner of the 132 kV line and the point of connection
+  2. U-089 utility data: fault level, X/R, protection settings at G1
+  3. U-067 grid-code curves: reactive power, ride-through
+  4. U-068 connection cost and who builds the line
+  5. meter class, CT/VT ratios and the meter's place (A or B)
+  6. telecom path and protocol to the utility's control centre
+  7. intertrip scheme and its test with the utility
+  8. switching and earthing procedures across the boundary
+  each goes to the connection agreement or the operating
+  agreement with the utility; the one-line shows them as
+  open, never as assumed

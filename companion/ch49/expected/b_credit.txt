@@ -1,0 +1,10 @@
+module installation progress of block PVF1-3 by rules of credit
+  step                     weight  done
+  received and inspected       5%  100%
+  mounted                     55%   80%
+  clamps torqued              15%   60%
+  serial captured              5%   55%
+  inspected                   20%   30%
+  earned progress 66.8%, against the 80% a 'modules mounted' count reports
+  the mounted count looks good on a chart; the steps after it
+  (torque, serials, inspection) are where turnover waits

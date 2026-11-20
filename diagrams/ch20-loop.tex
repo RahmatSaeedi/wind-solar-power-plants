@@ -1,0 +1,24 @@
+% Chapter 20 - the plant-controller loop as a block diagram (flows right to left): set point,
+% error, PI controller, limits (value and rate), the park as a first-order plant, and the
+% measurement with its delay fed back (companion/plantp/control.py pi_response, examples_a delay).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=20mm, minimum height=11mm, align=center, text width=19mm}]
+  \node[note] (r) at (12.2,0) {نقطهٔ تنظیم\\$P_\text{set}$};
+  \node[draw=cInk, circle, inner sep=2.5pt, line width=0.7pt] (sum) at (10.6,0) {};
+  \node[b] (c) at (8.4,0) {کنترل‌گرِ PI\\$k_p,\ k_i$};
+  \node[b, draw=cLoss, fill=cLoss!7] (l) at (5.6,0) {محدودکننده\\مقدار و شیب};
+  \node[b, draw=cWind, fill=cWind!9] (g) at (2.8,0) {پارک\\$\tau$};
+  \node[note] (y) at (0.4,0) {توانِ نقطهٔ اتصال\\$P_\text{POC}$};
+  \node[b, draw=cInkB, fill=cFill] (m) at (5.6,-2.2) {اندازه‌گیری\\و تأخیر};
+  \draw[flow] (r.west) -- (sum.east);
+  \draw[flow] (sum.west) -- node[above, note] {$e$} (c.east);
+  \draw[flow] (c.west) -- node[above, note] {$u$} (l.east);
+  \draw[flow] (l.west) -- (g.east);
+  \draw[flow] (g.west) -- (y.east);
+  \draw[flow] (1.4,0) |- (m.west);
+  \draw[flow] (m.east) -| node[pos=0.9, right, note] {$-$} (sum.south);
+  \draw[flowinfo] (l.north) -- ++(0,0.75) -| node[pos=0.25, above, note] {ضدِ انباشت} (c.north);
+\end{tikzpicture}
+\end{document}

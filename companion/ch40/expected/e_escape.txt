@@ -1,0 +1,9 @@
+escape chain of an under-torqued joint (share that leaves)
+  stage                 before   after
+  paint mark at OP40      0.0     0.5
+  visual in process       0.3     0.3
+  resistance at FAT       0.0     0.95
+  escape                 0.70   0.0175
+  with 22 bad joints of 240: 15.1 reach site before, 0.38 after
+  detection is multiplied, not added: three modest checks
+  in a row beat one perfect check that is sometimes skipped

@@ -1,0 +1,12 @@
+axle loads on modular trailers (teaching permit limit 120 kN an axle)
+  (modular trailer; 5 % of the payload on a four-axle tractor)
+  load                trailer axles   tractor kN/axle   trailer kN/axle
+  nacelle                         12                93               157  over
+  nacelle                         16                93               119
+  tower section 1                 10                89               145  over
+  tower section 1                 14                89               106
+  main transformer                 8                82               115
+  the nacelle needs sixteen trailer axles and the base
+  section fourteen to stay under the limit: more axles
+  spread the load but lengthen and weigh the vehicle -
+  which then needs more room in every turn

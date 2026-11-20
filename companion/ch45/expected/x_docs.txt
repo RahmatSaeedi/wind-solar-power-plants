@@ -1,0 +1,8 @@
+transport documents of the 8 containers (8 each, teaching list)
+  C3: missing shock and tilt logs
+  C5: missing SOC at dispatch
+  C7: missing storage instructions
+  3 of 8 containers arrive with a gap; each
+  is held at receiving until the document comes - a missing
+  shock log means the container is inspected as if it had
+  been dropped, a missing SOC that it is measured first

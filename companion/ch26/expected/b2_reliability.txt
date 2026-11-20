@@ -1,0 +1,11 @@
+dependability: probability a fault is not cleared (teaching):
+  main fails 1%, backup fails 2%, independent: 2.0e-04
+  with a common cause (beta 0.05): 6.9e-04  (3 x worse)
+  with a common cause (beta 0.10): 1.2e-03  (6 x worse)
+  with a common cause (beta 0.20): 2.2e-03  (11 x worse)
+  shared DC supply, shared CT core, one trip coil: each makes
+  main and backup fail together; separate DC circuits, CT
+  cores and trip coils keep them independent
+  security is the other side: two relays in parallel trip
+  more often by mistake - main and backup are graded, and a
+  scheme that must not trip falsely may need two to agree

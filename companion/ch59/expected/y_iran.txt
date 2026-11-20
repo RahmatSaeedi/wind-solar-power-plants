@@ -1,0 +1,10 @@
+Iran appendix (ch 55): 49 statements, 19 verified (39%), 2 project-dependent,
+    28 to-confirm
+  approval plan 11.5 months (teaching); critical path S1 > S2 > S3 > S4 > S8
+  unverified on the critical path: S2, S3, S4, S8
+  grid-study inputs from public sources: 17%
+  open items: 30 to 15 addressees
+  risks scored 16 or more:
+    R06 sanctions block equipment, payment or lenders
+    R08 PPA terms unknown, revenue a range
+    R02 connection voltage other than 132 kV

@@ -1,0 +1,13 @@
+compliance summary at the POC for the measurement week
+  (95th percentiles where weekly; limits are TEACHING placeholders
+  for the operator's values - U-100)
+  index                      measured   limit   margin    status
+  5th harmonic voltage %         1.83     2.0       9%    within
+  voltage THD %                  2.14     3.0      29%    within
+  Plt (2 h)                      0.44     0.8      45%    within
+  voltage unbalance %            0.88     1.4      37%    within
+  rapid voltage change %         0.82     3.0      73%    within
+  the summary states the instrument class, the flagged
+  intervals, the uncertainty near a limit (lesson K) and the
+  operator's limit source - a table of numbers alone is not
+  a compliance statement

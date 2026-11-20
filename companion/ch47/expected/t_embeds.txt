@@ -1,0 +1,9 @@
+embedded items of the T05 foundation checked against the drawing
+  before the pour
+  missing: earthing tail S (1)
+  missing: spare duct (1)
+  2 items: about 2 h each to place now; after the pour
+  about 32 h each (core drilling through reinforced concrete,
+  a structural engineer's approval, a new earthing route) - in
+  lab D's plan the embedded items are a witness point; this
+  result is the argument for making them a hold point

@@ -1,0 +1,9 @@
+sampling the burnt battery yard (teaching grid)
+  yard 2,400 m2, one composite sample per 100 m2: 24 samples
+  plus 3 background samples upwind and 2 at the pond outlet
+  analytes (teaching): metals (Ni, Co, Mn, Cu, Al), lithium,
+  fluoride, hydrocarbons, PAH from burnt plastics
+  each result is compared with the screening values of the
+  permit (PLACEHOLDERS here): below -> no action; above ->
+  excavation of that cell and re-test - the grid tells
+  where, the background tells what was there before

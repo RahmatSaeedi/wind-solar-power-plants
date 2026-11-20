@@ -1,0 +1,7 @@
+aligning a PQ instrument with SCADA by cross-correlation
+  the instrument's 10-minute active power against SCADA's,
+  shifted by up to +/- 2 hours: best lag 3 samples = 30 minutes
+  the instrument's clock was set wrong by half an hour; every
+  comparison with plant output (lab D) would be blurred by
+  it - align first, then compare; and record the offset and
+  how it was found in the investigation file

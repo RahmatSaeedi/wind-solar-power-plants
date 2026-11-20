@@ -1,0 +1,11 @@
+a 32-bit value carried in two 16-bit registers (teaching)
+  energy 295,100 MWh: high word 4, low word 32,956
+  read with the words swapped: 2,159,804,420 MWh
+  the float 132.1 kV read with the words swapped: 1.595e-23
+    (true 132.1)
+  a protocol moves words; which word comes first is a
+  device setting the register map must state. Both errors
+  here are absurd and a range check catches them, but a
+  counter below 65,536 has a high word of 0 and reads
+  right until the day it passes it - so the point-to-point
+  test uses a known value with both words non-zero

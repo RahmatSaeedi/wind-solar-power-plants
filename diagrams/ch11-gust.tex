@@ -1,0 +1,26 @@
+% Chapter 11 - gust 18 -> 23 m/s at rated speed: rotor speed (top) and pitch (bottom) with fixed
+% PI gains tuned at 12 m/s and with the gain schedule (A-228).
+% Data: diagrams/data/ch11-gust.csv (companion/ch11/dynamics.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=112mm, height=46mm, xmin=0, xmax=60, ymin=11.3,
+      ymax=12.7, xticklabels={}, ylabel={سرعتِ روتور، $\text{rpm}$}, ytick={11.4,11.8,12.2,12.6},
+      yticklabels={$11.4$,$11.8$,$12.2$,$12.6$}, legend pos=north east, legend columns=1]
+    \addplot[sInk] table[x=t, y=rpm_fixed, col sep=comma] {data/ch11-gust.csv};
+    \addlegendentry{بهرهٔ ثابت}
+    \addplot[sLoss] table[x=t, y=rpm_sched, col sep=comma] {data/ch11-gust.csv};
+    \addlegendentry{برنامه‌ریزیِ بهره}
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south west)}, anchor=north west, yshift=-7mm, width=112mm,
+      height=46mm, xmin=0, xmax=60, ymin=14, ymax=21, xlabel={زمان، $\text{s}$},
+      ylabel={زاویهٔ گام، درجه}, ytick={14,16,...,20}, xtick={0,10,...,60},
+      legend pos=south east, legend columns=1]
+    \addplot[sInk] table[x=t, y=pitch_fixed, col sep=comma] {data/ch11-gust.csv};
+    \addlegendentry{بهرهٔ ثابت}
+    \addplot[sLoss] table[x=t, y=pitch_sched, col sep=comma] {data/ch11-gust.csv};
+    \addlegendentry{برنامه‌ریزیِ بهره}
+    \node[note, anchor=west] at (axis cs:15,15) {تندباد از ثانیهٔ ۱۰ تا ۱۴};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,6 @@
+production well W-1: water level by month (m below ground),
+  drought trigger 62 m
+  48.2 48.6 49.1 49.9 50.8 51.6 52.5 53.1 53.4 53.6 53.9 54.5
+  falling 0.61 m a month on average: trigger in about 12 months
+  the drought plan (ch 33) acts before the trigger: washing
+  by measured benefit only (lesson H) and tankers booked

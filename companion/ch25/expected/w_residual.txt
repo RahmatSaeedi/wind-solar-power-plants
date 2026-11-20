@@ -1,0 +1,14 @@
+a model-based cooling alarm: the fans fail at 11:00
+  model = top oil predicted with fans; measured = fans failed
+  (sensor noise 0.8 K); alarm when measured - model > 5 K for
+  three readings in a row (15 min); fixed alarm at 95 C top oil
+  day (mean air)   model alarm   fixed alarm   lead h   top oil max C
+  hot (35 C)             11.75 h       11.92 h     0.17             117
+  mild (20 C)            11.75 h       13.42 h     1.67             102
+  largest residual 18.2 K (both days)
+  the model alarm comes 45 min after the failure on both days;
+  the fixed alarm follows 10 min later on the hot day but
+  1.7 h later on the mild one, when the oil is already past
+  95 C: a fixed threshold waits for the weather, the residual
+  does not - the model's constants come from the heat run, and
+  the alarm logic belongs to the monitoring specification

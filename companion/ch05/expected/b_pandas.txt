@@ -1,0 +1,7 @@
+index: 2023-01-01 00:00:00+04:00 ... 2023-12-31 23:00:00+04:00 | tz: UTC+04:00
+June GHI 252.0 kWh/m2; December 70.0
+windiest hour 2:00 (7.86 m/s), calmest 14:00 (6.52 m/s)
+      t_air_c  p_hpa
+mean     16.8  877.7
+min      -8.6  866.4
+max      40.7  888.8

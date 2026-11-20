@@ -1,0 +1,10 @@
+trip matrix: 12 protection functions, designed against the FAT record
+  relay   function   should trip but does not   trips but should not
+  WS1     50BF       INC-A                      INC-B
+  INC-A   87T        HV-A                       -
+  WS1 sits on section A (with INC-A); its breaker-failure stage
+  opens section B's incomer instead, so a stuck WS1 breaker
+  leaves the fault fed through INC-A until a slower backup acts;
+  INC-A's transformer differential no longer opens the 132 kV
+  side - each function still 'works' in a functional test that
+  only watches its own breaker, so the whole matrix is checked

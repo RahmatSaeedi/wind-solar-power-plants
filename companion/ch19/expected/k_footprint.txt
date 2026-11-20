@@ -1,0 +1,9 @@
+footprint of 8 containers in 2 rows of 4 and 4 PCS skids
+  against a spacing s set by the authority (not given here):
+  s m    battery area m2   with PCS row and 6 m access
+   1.5               346                         1,404
+   3.0               462                         1,605
+   6.0               735                         2,049
+  the spacing the authority sets from the propagation evidence
+  can double the battery area; it belongs in the layout before the
+  substation and roads are fixed (chapter 14)

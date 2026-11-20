@@ -1,0 +1,13 @@
+reactive capability at full output against a teaching U-Q/Pmax profile
+  (grid min; the requirement is read at the POC voltage the grid
+  sets with Q = 0, then the plant's limit is computed there)
+  source   U POC at Q=0   give Q/Pmax  need   absorb Q/Pmax  need   ok
+    0.92          0.932          0.46  0.33           -0.52  -0.11   yes
+    0.95          0.962          0.46  0.33           -0.63  -0.21   yes
+    1.00          1.012          0.47  0.29           -0.82  -0.33   yes
+    1.05          1.062          0.40  0.12           -0.90  -0.33   yes
+    1.08          1.092          0.31  0.03           -0.90  -0.33   yes
+  at every swept voltage the plant meets the teaching profile
+  in both directions at 25 C (lesson F shows the hot day);
+  the profile's shape, not one number, is the requirement -
+  the operator's own profile replaces this one (U-102)

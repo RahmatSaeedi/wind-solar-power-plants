@@ -1,0 +1,8 @@
+how the farmland weight moves the least-cost route:
+  farmland x   km     farmland km
+       1      6.41      3.42
+       2      7.06      0.00
+       4      7.06      0.00
+       8      7.06      0.00
+  a heavier weight trades length for fields: the weight is a
+  value judgement and is agreed with the people it stands for

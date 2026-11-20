@@ -1,0 +1,8 @@
+E01 0.0826 ohm at 25 C to 20 C (Al): 0.0810 ohm
+E02 0.0748 ohm at 9 C to 20 C (Al): 0.0783 ohm
+E03 current of 20 MW at 33 kV, pf 0.95: 368 A
+E04 pole spread of 55.3 / 59.8 / 55.2 ms: 4.6 ms
+E05 states of three two-position switches: 8
+E06 states reachable with correct interlocks: 6
+E07 print 2012 to 2997 m: 985 m on the drum
+E08 loss of 368 A in 0.85 km at 0.0564 ohm/km: 19.5 kW

@@ -1,0 +1,18 @@
+equipment schedule: unresolved data (first 12 of 68 entries):
+  tag             kind          parameter  status
+  =E1-Q1          breaker       ka         provisional
+  =E1-W1          line          owner      open
+  =E1-W1          line          mva        provisional
+  =T1             transformer   z_pu       provisional
+  =T1             transformer   vector     provisional
+  =T1             transformer   tap        open
+  =T1-Q2          breaker       a          provisional
+  =A1-T1          transformer   kva        provisional
+  =T2             transformer   z_pu       provisional
+  =T2             transformer   vector     provisional
+  =T2             transformer   tap        open
+  =T2-Q2          breaker       a          provisional
+  by kind: breaker 4, cable 26, dc switch 1, inverter 1, line 2, transformer
+    34
+  each entry names who closes it: the maker's offer, a study
+  (fault level, load flow) or the utility's connection offer

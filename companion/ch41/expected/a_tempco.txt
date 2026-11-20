@@ -1,0 +1,10 @@
+Voc temperature coefficient from the diode law:
+  dVoc/dT = -(Eg0/q - Voc + gamma kT/q) / T, Eg0 1.206 V, gamma 3
+  cell Voc V   dVoc/dT mV/K   per cent per K
+      0.620          -2.22         -0.359
+      0.690          -1.99         -0.288
+      0.740          -1.82         -0.246
+  the PVM-550 data sheet gives -0.27 %/K for the module's
+  Voc; the 0.690 V cell gives -0.288 %/K: the same
+  physics - a higher Voc loses less per kelvin, worth about
+  4.5 % of Voc at a 65 C cell between the 0.62 and 0.74 V cells

@@ -1,0 +1,7 @@
+keeping a container at 10 C or more in winter (data-year air):
+  hours below 10 C outside: 2,516
+  heat needed 21.1 MWh a container a year; for 8: 169 MWh
+  (resistive heating; the cells' own heat helps on working
+  days and is left out here, so this is an upper bound)
+  about a third of the cooling electricity, and it decides whether midday
+  charging works in January (the power map)

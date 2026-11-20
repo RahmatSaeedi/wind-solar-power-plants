@@ -1,0 +1,16 @@
+factory capability audit, scores 0-5 with critical floors (A-426)
+  item                    weight   U-A   U-B   U-C   floor
+  quality system              2     4     3     4
+  process control             3     4     2     4     3.0
+  test laboratory             3     4     3     3     3.0
+  capacity                    2     3     4     2
+  sub-supplier control        2     3     2     3
+  traceability                2     4     2     4
+  labour and HSE              2     4     3     3     3.0
+  delivery record             1     4     3     2
+  U-A: weighted 3.76; below a floor: none
+  U-B: weighted 2.71; below a floor: process control
+  U-C: weighted 3.24; below a floor: none
+  a weighted score hides a weak critical process; the floor
+  makes it a fail whatever the other scores. U-C's low
+  capacity score is a delivery risk to watch, not a fail

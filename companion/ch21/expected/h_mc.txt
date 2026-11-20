@@ -1,0 +1,9 @@
+Monte Carlo of the base case, 400 draws, debt fixed:
+  quantity           P10      P50      P90
+  equity IRR %      9.10    10.35    11.56
+  min DSCR          1.14     1.20     1.26
+  draws with at least one lock-up year: 2 %
+  draws with a DSCR below 1.00: 0.0 %
+  one bad year alone rarely locks up; a low long-term resource
+  (the shared part) plus a bad year does: lenders size on P90,
+  owners should read the whole distribution

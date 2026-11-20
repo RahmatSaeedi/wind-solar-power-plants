@@ -1,0 +1,9 @@
+remanent flux left by the DC resistance tests, and the inrush
+  peak it adds on energising (ch 25 estimate)
+  core state                       residual   inrush peak A   x rated
+  after the DC tests                    0.8 Bn            2086       7.6
+  demagnetised                          0.1 Bn            1177       4.3
+  the DC current of the resistance test magnetises the core and
+  leaves it there; demagnetising after the DC tests (at the
+  factory and again at site) is a record on the checklist -
+  the inrush and the differential's blocking (ch 26) thank it

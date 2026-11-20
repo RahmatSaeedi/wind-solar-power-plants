@@ -1,0 +1,38 @@
+% Chapter 1 — development schedule of Plant P as bars (earliest dates) with float.
+% Data: diagrams/data/ch01-gantt.csv (companion/ch01/screening_report.py); durations fictional.
+% Time runs left to right here, as in every schedule chart; rows are read top to bottom.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\sx{0.42}  % cm per month
+  \foreach \k/\name/\es/\ef/\fl/\crit in {
+      0/{A: غربالگریِ ساختگاه}/0/3/0/1,
+      1/{B: دکلِ باد و یک سال اندازه‌گیری}/3/17/0/1,
+      2/{C: درخواست و مطالعهٔ اتصال}/3/15/4/0,
+      3/{D: قراردادهای زمین}/3/11/8/0,
+      4/{E: ارزیابیِ اثراتِ محیطی و اجتماعی}/3/15/4/0,
+      5/{F: مجوزها}/15/21/4/0,
+      6/{G: مطالعهٔ تولیدِ انرژی}/17/19/0/1,
+      7/{H: مذاکرهٔ قراردادِ خریدِ برق}/19/25/0/1,
+      8/{I: تأمینِ مالی تا تصمیمِ نهایی}/25/29/0/1}{
+    \pgfmathsetmacro{\y}{-0.62*\k}
+    \node[anchor=east, text=cInk] at (-0.2,\y) {\name};
+    \ifnum\crit=1
+      \fill[cLoss] ({\sx*\es},{\y-0.2}) rectangle ({\sx*\ef},{\y+0.2});
+    \else
+      \fill[cWind] ({\sx*\es},{\y-0.2}) rectangle ({\sx*\ef},{\y+0.2});
+      \draw[cInkB, line width=0.5pt, dash pattern=on 2pt off 1.5pt] ({\sx*\ef},\y) -- ({\sx*(\ef+\fl)},\y);
+      \draw[cInkB, line width=0.5pt] ({\sx*(\ef+\fl)},{\y-0.12}) -- ({\sx*(\ef+\fl)},{\y+0.12});
+    \fi
+  }
+  \draw[cRule] (0,0.45) -- (0,-5.4);
+  \foreach \m in {0,6,...,30}{
+    \draw[cGridline] ({\sx*\m},0.45) -- ({\sx*\m},-5.4);
+    \node[text=cMuted, anchor=north] at ({\sx*\m},-5.45) {\m};
+  }
+  \node[text=cInkB, anchor=north] at ({\sx*15},-5.9) {ماه از آغازِ پروژه};
+  \fill[cLoss] (0.2,-6.75) rectangle (0.7,-6.55); \node[anchor=west, text=cInk] at (0.8,-6.65) {مسیرِ بحرانی};
+  \fill[cWind] (3.6,-6.75) rectangle (4.1,-6.55); \node[anchor=west, text=cInk] at (4.2,-6.65) {فعالیتِ غیربحرانی};
+  \draw[cInkB, line width=0.5pt, dash pattern=on 2pt off 1.5pt] (7.4,-6.65) -- (7.9,-6.65); \node[anchor=west, text=cInk] at (8.0,-6.65) {شناوری};
+\end{tikzpicture}}
+\end{document}

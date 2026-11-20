@@ -1,0 +1,11 @@
+section masses for transport and lifting: ch 31's plan against
+  this chapter's take-off (fatigue steel low down, +12 % fittings)
+  section   ch 31 t   now t   change
+        1       124     159     +28%
+        2        96     122     +27%
+        3        71      79     +11%
+        4        50      57     +15%
+  section 1 is 35 t heavier than the transport plan:
+  ch 31's axle loads, bridge checks and crane chart were run on
+  the shell alone - the weighed mass of each section goes back
+  to the logistics plan before the first convoy (ch 31)

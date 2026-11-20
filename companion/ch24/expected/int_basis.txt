@@ -1,0 +1,27 @@
+circuit basis of Plant P (D-028; PLP-ELE-CAL-0009):
+  wind strings: 630 mm2 first section, 240 mm2 beyond
+    (graded; cost + losses least of the allowed plans)
+  PV feeders: PVF1's first section (4 blocks) 630 mm2, the
+    rest of PVF1, PVF2, PVF3 and the battery feeders 240 mm2;
+    route bends at least 15 x the cable's diameter
+  installation: 1.0 m depth, two circuits 0.4 m apart; soil
+    1.5 K m/W until the thermal survey (U-093)
+  33 kV gear 25 kA 3 s, 63 kA peak; LV board 15 kA
+  export: single-circuit 132 kV overhead line (D-022) - the
+    cable option kept for crossings the line cannot make
+  LV feeders: 25 mm2 Cu minimum unless a current-limiting
+    breaker's let-through allows less; long feeders by drop
+  DC: trip circuits checked at the end-of-discharge voltage
+  added after the first draft:
+    rating on a high percentile of the soil survey, hot spots
+    (crossings, dry stretches) backfilled or grouted; DTS fibre
+    in the collector trenches
+    screens checked with the feeder relay for cross-country
+    faults (35 mm2 at 0.3 s); incomers 1,600 A (ch 26)
+    PV string cables 6 mm2 (losses priced); LV checked for
+    loop impedance with the chosen breaker types
+    132 kV line: rating on hot, still days limits export
+    (study with the weather data); creepage from a site
+    pollution assessment; tower footing resistance recorded
+    vacuum-switched unit transformers: arresters or RC
+    snubbers per the makers' study; SF6 density monitored

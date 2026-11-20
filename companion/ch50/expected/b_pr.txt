@@ -1,0 +1,7 @@
+PR test, 10 days; days with data availability < 95% left out: 6
+  9 days: AC 2,988 MWh, POA 60.3 kWh/m2, DC 60,000 kWp
+  PR = 2,988 x 1000 / (60,000 x 60.3) = 0.826
+  guarantee 0.81; test uncertainty +/-0.02 -> lower bound 0.806
+  the measured PR meets the guarantee; its lower bound does
+  not - whether the uncertainty counts is the contract's
+  rule, written before the test (ch 37, ch 48 sensors)

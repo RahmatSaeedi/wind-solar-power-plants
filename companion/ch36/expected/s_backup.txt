@@ -1,0 +1,14 @@
+backup storage: weekly fulls kept 13 weeks, daily changes 2 %
+  system                 full TB   kept TB
+  SCADA servers             0.80      11.6
+  historian                 6.00      87.4
+  engineering files         0.40       5.8
+  configurations            0.05       0.7
+  directory and time        0.10       1.5
+  one copy 107.0 TB; two independent copies 214.0 TB
+  the historian sets the size; keeping its fulls for 13
+  weeks costs more than every other system together. A
+  historian that can be rebuilt from the field devices'
+  buffers and the plant's archive needs fewer fulls - a
+  decision taken with its recovery objective, not by the
+  size of the disk

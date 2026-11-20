@@ -1,0 +1,10 @@
+FAT punch list of the line-up: 14 items (A: before shipment, B: dated
+  plan to close at site, C: when convenient)
+  category   items   open on the shipping date
+  A             10   2
+  B              2   2
+  C              2   2
+  panels held at the factory (open A items): SST, WS3
+  the line-up ships as transport sections; a held panel holds
+  its section, so the A items decide the date - the open B
+  items travel with a dated plan and an owner

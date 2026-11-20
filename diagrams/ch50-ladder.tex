@@ -1,0 +1,26 @@
+% Chapter 50 - progressive verification: eight rungs from component certificates to final records,
+% each with the record it leaves; read right to left, bottom to top (chapter 50, lesson B).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    r/.style={blk, minimum width=34mm, minimum height=9mm, align=center, text width=33mm,
+              font=\footnotesize},
+    e/.style={font=\scriptsize, align=center, text width=40mm, text=cInk}]
+  \foreach \k/\t/\x in {1/گواهی‌ها و آزمون‌های کارخانه/پروندهٔ کارخانه (فصل‌های ۴۰ تا ۴۸),
+                       2/بازرسیِ دریافت/سابقهٔ دریافت و حفاظتِ انباری,
+                       3/وارسی‌های نصب/برگه‌های A و سابقه‌های نصب (فصلِ ۴۹),
+                       4/آزمون‌های زیرسامانه/رشته‌ها، عایق، رله‌ها، برگه‌های B,
+                       5/آزمونِ یکپارچهٔ کنترل و حفاظت/پله، نقطه‌ها، علت و معلول,
+                       6/آزمون‌های اتصال به شبکه/توانِ راکتیو، بسامد، قطعِ متقابل,
+                       7/نمایشِ عملکرد و قابلیتِ اطمینان/آزمونِ نسبتِ عملکرد، روزهای پیوسته,
+                       8/سابقه‌های نهایی و تحویل/پرونده، دادهٔ دارایی، پذیرشِ بهره‌برداری} {
+    \node[r, draw=cPV, fill=cPV!\fpeval{4+\k*2}] (n\k) at (6.2,{(\k-1)*1.25}) {\t};
+    \node[e, anchor=east] at (3.6,{(\k-1)*1.25}) {\x};
+  }
+  \foreach \k [evaluate=\k as \j using int(\k+1)] in {1,...,7} {
+    \draw[->, draw=cWind, line width=0.9pt] (n\k.north) -- (n\j.south);
+  }
+  \node[font=\footnotesize\bfseries, text=cInkB] at (6.2,10.0) {پله‌های راستی‌آزمایی};
+  \node[font=\footnotesize\bfseries, text=cInkB] at (1.6,10.0) {سابقه‌ای که می‌ماند};
+\end{tikzpicture}
+\end{document}

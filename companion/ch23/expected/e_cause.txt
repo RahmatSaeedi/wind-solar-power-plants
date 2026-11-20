@@ -1,0 +1,23 @@
+cause-and-effect matrix (events x actions; x = initiates):
+  8 events, 11 actions
+  loss of grid supply:
+    UPS and DC carry; start generator; shed non-essential; alarm
+  station transformer A trips:
+    transfer to B; alarm
+  both station supplies lost:
+    start generator; shed non-essential; alarm
+  DC charger fault:
+    standby charger on; alarm
+  fire alarm in a battery container:
+    stop that battery block; alarm; actions of the fire design (ch 31)
+  33 kV bus A fault:
+    trip feeders and incomer A; alarm
+  PPC comms lost:
+    PPC fallback (ch 20); alarm
+  high room temperature:
+    standby HVAC on; alarm
+  events without an alarm: none
+  checks: every event has an action and an alarm; every
+  action has an event that starts it; the fire actions are
+  only a pointer - the fire design and the authority set
+  them (ch 31), the matrix records the interface

@@ -1,0 +1,10 @@
+staleness of points that send only on change (synthetic, 1,000 points)
+  integrity scan every 15 min; stale limit   points flagged stale
+   10 min                                      792
+   20 min                                        0
+   60 min                                        0
+  with report-by-exception a quiet value is old but true;
+  the integrity scan refreshes it, so the stale limit is
+  set above the scan period - a limit below it flags
+  hundreds of healthy points (lab D used 10 s because its
+  synthetic points were sent every second)

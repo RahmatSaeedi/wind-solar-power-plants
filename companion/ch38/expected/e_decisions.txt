@@ -1,0 +1,8 @@
+the decision log: each decision with its source and record
+  id      decision                    from           record
+  D-022   architecture A1             ch 18          PLP-ELE-REP-0005
+  D-029   transformers, bid B         ch 25          PLP-ELE-REP-0008
+  D-030   protection basis            ch 26          PLP-ELE-CAL-0011
+  C-017   unit transformer 5.6 MVA    this chapter   change request
+  a later reader can follow any number in a drawing back to
+  the decision that set it and the evidence behind it

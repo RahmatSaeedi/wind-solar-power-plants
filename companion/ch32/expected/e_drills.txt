@@ -1,0 +1,10 @@
+four drills of the construction site (synthetic)
+  drill        people  counted  muster min  finding
+  D1 month 2       41       39        17.5  two contractors not on the list
+  D2 month 5       52       52        12.0  gate key could not be found
+  D3 month 8       47       47         9.5  radio dead spot at T07
+  D4 month 11      44       44         8.0  fire service took the wrong road
+  the muster time fell from 17.5 to 8.0 minutes and the count
+  became complete after D1; each drill found a new kind of
+  gap (people, keys, radio, road) - a drill is judged by what
+  it finds and fixes, not by being uneventful

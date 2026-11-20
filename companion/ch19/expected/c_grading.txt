@@ -1,0 +1,7 @@
+rack capacity limited by its weakest of 416 cells (A-294):
+  cells          spread (sd)  mean of the weakest  loss
+  ungraded          2.0 Ah         308.0 Ah         1.9 %
+  graded            0.6 Ah         312.2 Ah         0.6 %
+  grading (sorting cells into narrow capacity and resistance
+  bins before assembly) gives back most of the loss; balancing
+  equalises charge, not capacity

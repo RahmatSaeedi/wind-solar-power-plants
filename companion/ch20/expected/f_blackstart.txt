@@ -1,0 +1,13 @@
+black start of the plant's own network (if contracted, A-303):
+  item                                 MW
+  2 x 63 MVA main transformers         0.090
+  26 unit transformers (WTG, PV, BESS) 0.152
+  33 kV cables (charging, losses)      0.030
+  auxiliaries and HVAC                 1.200
+  total held                           1.472
+  energy for  1 h:   1.5 MWh of the 32 MWh window
+  energy for  4 h:   5.9 MWh of the 32 MWh window
+  energy for 12 h:  17.7 MWh of the 32 MWh window
+  energy is not the hard part: inrush of the transformers and
+  the strength of four inverters in front of a 132 kV line are;
+  both need a study and the operator's procedure first

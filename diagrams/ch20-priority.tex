@@ -1,0 +1,16 @@
+% Chapter 20 - the priority order of the hourly controller (companion/plantp/control.py
+% Controller): safety and SOC limits, operator instruction, contracted service headroom, schedule,
+% recapture of curtailment; a lower level acts only in the room the higher ones leave.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=70mm, minimum height=9mm, align=center, text width=68mm}]
+  \node[b, draw=cLoss, fill=cLoss!7] (a) at (0,0) {۱. ایمنی، حفاظت و حدهای SOC (همیشه)};
+  \node[b, draw=cLoad, fill=cLoad!8] (b) at (0,-1.3) {۲. دستورِ بهره‌بردار: سقفِ صادرات، توقف};
+  \node[b, draw=cBESS, fill=cBESS!10] (c) at (0,-2.6) {۳. ذخیرهٔ خدمتِ قراردادی: توان و انرژی};
+  \node[b] (d) at (0,-3.9) {۴. برنامه: شارژ و دشارژِ زمان‌بندی‌شده};
+  \node[b, draw=cPV, fill=cPV!9] (e) at (0,-5.2) {۵. بازگیریِ کاهشِ تولید با جای باقی‌مانده};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e} \draw[flow] (\x.south) -- (\y.north);
+  \node[note, text width=30mm] at (-5.6,-2.6) {هر سطح فقط در جایی کار می‌کند که سطح‌های بالاتر باقی گذاشته‌اند};
+\end{tikzpicture}
+\end{document}

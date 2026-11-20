@@ -1,0 +1,11 @@
+overhead line span (teaching conductor, level ground):
+  weight 11.0 N/m, breaking load 95 kN, everyday tension 20 % = 19 kN
+  span m   sag m   tower height for 7 m clearance + 2 m
+     250    4.52       13.5 m
+     300    6.51       15.5 m
+     350    8.87       17.9 m
+  hot conductor (tension 15 % lower): sag 7.66 m on 300 m
+  longer spans need fewer towers but taller ones; the
+  clearance, the wind and ice loads and the hot-conductor
+  case come from the approved line standard and the line
+  designer - this is a concept, not a line design

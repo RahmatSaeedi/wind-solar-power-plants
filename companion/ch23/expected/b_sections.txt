@@ -1,0 +1,10 @@
+loading of each 33 kV bus section (all sources at full output):
+  section  feeders                         MW   MVA pf .95  T rating
+  MV-A     WS1 4, WS2 4, PVF3 3, BESS-A 2   65       68.4  63 MVA
+  MV-B     WS3 4, PVF1 4, PVF2 3, BESS-B 2   65       68.4  63 MVA
+  each section can exceed its transformer when wind, PV and the
+  battery peak together: the plant controller limits each
+  transformer, not only the 100 MW at the POC (ch 20), or the
+  battery charges in those hours; with one transformer out,
+  the other carries the plant through the bus coupler, so the
+  export falls to about 60 MW until the repair (ch 18)

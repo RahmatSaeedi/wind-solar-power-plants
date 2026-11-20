@@ -1,0 +1,12 @@
+reactive capability at full power across the voltage band
+  (units current-limited: apparent power scales with voltage)
+  voltage pu   units S MVA   units Q at 100 MW Mvar
+        0.90         108.9                     43.1
+        0.95         114.9                     56.7
+        1.00         121.0                     68.1
+        1.05         127.1                     78.4
+        1.10         133.1                     87.8
+  at 0.9 pu the units give 43 Mvar instead of 68 - just when
+  a low voltage asks for more; the requirement is checked at
+  the band's edges; a capability chart drawn at 1.0 pu
+  promises too much at low voltage (ch 28 tests the corners)

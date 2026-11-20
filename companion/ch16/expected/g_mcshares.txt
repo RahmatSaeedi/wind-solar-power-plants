@@ -1,0 +1,12 @@
+variance shares read from 6,000 Monte Carlo draws (squared
+  correlation of each factor with the net energy):
+  year-to-year wind                             35.5 %
+  wind: long-term correction and period         24.8 %
+  wind: anemometer calibration, mounting        10.7 %
+  wind: cross-prediction to the turbines         9.0 %
+  year-to-year PV                                6.7 %
+  wind: power curve                              6.1 %
+  PV: irradiance sensor, maintenance             2.6 %
+  sum of all shares 103.3 % (near 100 %: the model is almost linear here)
+  the same order as the budget (lab D), found without writing
+  any formula: useful when the model is too complex for one

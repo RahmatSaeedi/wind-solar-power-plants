@@ -1,0 +1,13 @@
+imbalance cost by month (short 30, long 10 u/MWh, teaching)
+  month  deviation MWh  cost u
+      1           -450     13,500
+      2           +510      5,100
+      3           -680     20,400
+      4         -1,100     33,000
+      5           +650      6,500
+      6           -700     21,000
+  half-year 99,500 u; the short months cost three times
+  the long ones per MWh - a schedule that leans low (lesson I)
+  trades short penalties for long ones; whether that is
+  allowed is the market's or the contract's rule, verified
+  locally (ch 55-57)

@@ -1,0 +1,9 @@
+generator losses over the data-pack year (teaching: no-load
+  40 kW, load losses 90 kW at rated, growing with load^2;
+  a rough cubic power curve - ch 11 has the turbine's own)
+  efficiency at rated 97.47%; over the year 96.41%
+  energy out 13,037 MWh; losses 486 MWh (7734 running hours)
+  part load is where a turbine spends its hours, and there
+  the fixed no-load losses weigh more: a generator is judged
+  by its loss split from the factory test, not by one
+  efficiency at rated

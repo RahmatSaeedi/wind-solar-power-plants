@@ -1,0 +1,9 @@
+time-based availability of one turbine with and without exclusions
+  hours lost: turbine faults 120, scheduled service 60,
+    grid outage (operator's) 12, curtailment orders 40
+  nothing excluded: 97.35 %
+  grid outages and curtailment excluded: 97.93 %
+  scheduled service also excluded: 98.61 %
+  three numbers for one turbine and one year: an availability
+  figure means nothing without its list of exclusions, and
+  that list is the contract's, not the analyst's

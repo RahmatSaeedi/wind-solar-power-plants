@@ -1,0 +1,9 @@
+what proves a delivered grid service (REQ-G10, G24 contracted response)
+  a forecast score (ch 15, ch 37): how well the plant predicted
+    its output - it says nothing about a response delivered
+  a test result (lesson B): the controller answers an injected
+    signal with the droop asked - proof of capability
+  an event record: the plant's measured response to a real
+    frequency event, from the service meter at the agreed
+    measurement point - proof of delivery
+  only the last two go into the service's acceptance file

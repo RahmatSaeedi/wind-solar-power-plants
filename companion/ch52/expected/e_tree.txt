@@ -1,0 +1,13 @@
+fault tree 'no export at all': minimal cut sets
+  {bus132}   q = 5.00e-05
+  {line}   q = 9.59e-04
+  {PPC, fallback}   q = 5.00e-06
+  {T1, T2}   q = 5.93e-05
+  {T1, T2common}   q = 3.85e-06
+  {T2, T2common}   q = 3.85e-06
+  top: rare-event sum 1.08e-03, exact 1.08e-03
+  the line alone is 89% of it; both transformers together 5.5%,
+  the bus 4.6%, the common-cause pairs 0.7% - small here
+  only because the shared breaker ('T2common') was given a
+  small q: a tree lists the combinations a block diagram
+  hides, and each q is then a question for the data

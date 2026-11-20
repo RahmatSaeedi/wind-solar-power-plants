@@ -1,0 +1,20 @@
+% Chapter 21 - sources and uses of the base case, million u: capital cost, interest during
+% construction, fee and DSRA against senior debt and equity (A-304..A-309).
+% Data: diagrams/data/ch21-sources.csv (companion/ch21/examples_a.py sources_uses()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=90mm, height=66mm, ybar stacked, bar width=16mm, xmin=0.4, xmax=2.6,
+      ymin=0, ymax=190, ylabel={میلیون واحد}, xtick={1,2}, xticklabels={مصارف, منابع},
+      ytick={0,40,...,160}, xmajorgrids=false, area legend, legend columns=1,
+      legend style={at={(1.04,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[draw=cInk, fill=cInk!25] table[x=x, y=capex, col sep=comma] {data/ch21-sources.csv};
+    \addplot[draw=cLoss, fill=cLoss!35] table[x=x, y=idc, col sep=comma] {data/ch21-sources.csv};
+    \addplot[draw=cPV, fill=cPV!40] table[x=x, y=fee, col sep=comma] {data/ch21-sources.csv};
+    \addplot[draw=cLoad, fill=cLoad!35] table[x=x, y=dsra, col sep=comma] {data/ch21-sources.csv};
+    \addplot[draw=cBESS, fill=cBESS!40] table[x=x, y=debt, col sep=comma] {data/ch21-sources.csv};
+    \addplot[draw=cWind, fill=cWind!35] table[x=x, y=equity, col sep=comma] {data/ch21-sources.csv};
+    \legend{هزینهٔ سرمایه‌ای, بهرهٔ دورهٔ ساخت, کارمزد, اندوختهٔ DSRA, بدهی, سهام}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

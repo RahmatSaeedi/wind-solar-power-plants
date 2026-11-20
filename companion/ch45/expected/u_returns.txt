@@ -1,0 +1,14 @@
+module and rack returns of a fleet in two years by cause
+  (synthetic, 29 returns)
+  cause                          n   share   cumulative
+  weld or busbar joint           9     31%          31%
+  BMS sensor or wiring           7     24%          55%
+  cell leaker (self-discharge)   4     14%          69%
+  BMS configuration              3     10%          79%
+  HVAC fan or controller         3     10%          90%
+  contactor or fuse              2      7%          97%
+  transport damage               1      3%         100%
+  the two largest causes are 55% of returns, and both are
+  assembly controls of the integrator, not the cell: the cell
+  is not where most trouble starts - the joints and the
+  wiring around it are (as for inverters, ch 44)

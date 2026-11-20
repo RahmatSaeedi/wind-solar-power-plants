@@ -1,0 +1,9 @@
+protection inside the converters (the makers' settings):
+  wind converter  DC-link chopper, crowbar or blocking, AC and DC breakers
+  PV inverter     DC input fuses/switches, AC breaker, insulation check
+  battery PCS     DC breakers per rack (ch 19), AC breaker, contactors
+  all three       own voltage, frequency and current limits
+  these settings are the makers', but they meet the plant's at
+  two places: they must not trip inside the ride-through
+  envelope (lesson B), and their fault current feeds the
+  study - so the makers' setting lists are plant documents

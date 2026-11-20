@@ -1,0 +1,18 @@
+feeder WS1: one-line item -> compartment -> terminal drawing -> tests
+  item                      compartment          drawing     tests
+  Q1 circuit breaker        breaker compartment  TD-WS1-03   FAT, SAT
+  Q2 disconnector           busbar compartment   TD-WS1-04   FAT, SAT
+  Q8 earth switch           cable compartment    TD-WS1-04   FAT, SAT
+  T1 current transformers   cable compartment    TD-WS1-02   FAT, SAT
+  T5 voltage transformer    cable compartment    -           FAT
+  F11 feeder relay          LV compartment       TD-WS1-01   FAT, SAT
+  W001 cable to T01         cable compartment    TD-WS1-05   -
+  surge arresters           cable compartment    TD-WS1-05   SAT
+  gaps:
+    T5 voltage transformer: no terminal drawing
+    T5 voltage transformer: no site test
+    W001 cable to T01: no test
+  every item of the one-line must land in a compartment, on a
+  terminal drawing and in a site test (a factory test where
+  the item is made in the panel); a gap here is a gap in the
+  commissioning record later (ch 23, ch 50)

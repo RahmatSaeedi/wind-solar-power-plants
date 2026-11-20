@@ -1,0 +1,14 @@
+failure rate of one 5 MW inverter (teaching FIT values, A-163):
+  IGBT modules (24)              9600 FIT
+  DC-link film capacitors        4000 FIT
+  fans and pumps                15000 FIT
+  control and gate boards       12000 FIT
+  auxiliary power supplies       6000 FIT
+  contactors and breakers        5000 FIT
+  sensors and IMD                4800 FIT
+  total 56400 FIT = 0.49 failures/yr; MTBF 2.0 yr
+  with 72 h to restore: availability 0.9960
+  10 inverters, fan failures 1.31/yr: chance of needing more than 2 fans 0.146
+  fans and boards fail most often but are quick to change;
+  power modules fail rarely but take longest: stock spares by
+  both the rate and the repair time (chapter 52)

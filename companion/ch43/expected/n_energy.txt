@@ -1,0 +1,6 @@
+T1's tested losses against the guarantees in the energy model
+  no-load +0.2 kW all year; load +8.0 kW at loss load factor 0.128
+  extra loss 10.7 MWh a year for this unit
+  about ten MWh against 295 GWh (ch 15): negligible for the
+  yield, but the model uses the tested values from now on -
+  a plant change is announced to the model's owner (ch 37)

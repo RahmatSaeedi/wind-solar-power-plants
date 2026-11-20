@@ -1,0 +1,8 @@
+dry film thickness of the outer coating, 40 readings (um)
+  (teaching acceptance: mean >= nominal 320; none below 80 %;
+   the coating specification sets the real rule)
+  mean 341, s 35, lowest 248, above 400: 1
+  readings below 256: 1 -> repair the spot and re-measure
+  a good mean hides a thin spot: the rule has two parts,
+  and thick spots are noted too (they crack); adhesion
+  is tested on a witness panel, not on the tower

@@ -1,0 +1,7 @@
+33 kV bus, S_sc 500 MVA (A-100): X_sc = V^2 / S_sc = 2.178 ohm at 50 Hz
+PV plant 50 MW: fundamental 874.8 A; harmonic current = per-unit x 874.8 A
+  order 5: I  35.0 A, h X_sc  10.89 ohm, V  381 V = 2.00 % of 19.05 kV
+  order 7: I  26.2 A, h X_sc  15.25 ohm, V  400 V = 2.10 % of 19.05 kV
+  voltage THD 2.90 % if all inverters inject in phase (worst case);
+  inverters partly cancel each other and the network impedance is not pure X:
+  a harmonic study with measured background distortion decides (ch 27)

@@ -1,0 +1,25 @@
+% Chapter 7 - one day (23 June, synthetic A-106) at the auxiliary board: recorded and corrected
+% three-phase power (top) and the minimum voltage of phase a per 10-min interval (bottom).
+% Two separate charts, each with its own unit. Data: diagrams/data/ch07-meter.csv (lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=124mm, height=58mm,
+      ylabel={توانِ سه‌فاز، $\text{kW}$}, xticklabels={},
+      xmin=0, xmax=24, ymin=0, ymax=150, xtick={0,3,...,24}, ytick={0,25,...,150},
+      legend style={at={(0.5,1.03)}, anchor=south}]
+    \addplot[sInk] table[x=h, y=p_fix, col sep=comma] {data/ch07-meter.csv};
+    \addlegendentry{با قطبیتِ درستِ فازِ $\text{b}$}
+    \addplot[sLoss] table[x=h, y=p_rec, col sep=comma] {data/ch07-meter.csv};
+    \addlegendentry{ثبت‌شده}
+    \node[note, text=cInk, anchor=south] at (axis cs:14.67,131) {بیشینه $130.4$};
+    \node[note, text=cInk, anchor=north] at (axis cs:20.5,32) {ثبت‌شده: $42\,\%$ واقعیت};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south)}, anchor=north, yshift=-6mm, width=124mm, height=44mm,
+      xlabel={ساعتِ محلی}, ylabel={کمینهٔ ولتاژ، $\text{V}$},
+      xmin=0, xmax=24, ymin=150, ymax=245, xtick={0,3,...,24}, ytick={160,200,240}]
+    \addplot[sLoad] table[x=h, y=vmin, col sep=comma] {data/ch07-meter.csv};
+    \node[note, text=cInk, anchor=west] at (axis cs:14.6,168) {رخداد: $166\ \text{V}$ در $14{:}20$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

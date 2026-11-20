@@ -1,0 +1,15 @@
+% Chapter 20 - forecasting, scheduling and dispatch on three horizons (flows right to left): the
+% day-ahead plan made once, intraday updates, and real-time dispatch by the controller; each has
+% its own forecast, decision and record (teaching; market rules vary).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=36mm, minimum height=24mm, align=center, text width=34mm}]
+  \node[b, draw=cWind, fill=cWind!9] (da) at (8.4,0) {\textbf{روزِ بعد}\\پیش‌بینیِ ۱۲ تا ۳۶ ساعته\\برنامهٔ ساعتی و پیشنهاد\\برنامهٔ باتری};
+  \node[b, draw=cPV, fill=cPV!9] (id) at (4.2,0) {\textbf{درون‌روز}\\پیش‌بینیِ ۱ تا ۶ ساعته\\اصلاحِ برنامه\\جای‌گیریِ SOC};
+  \node[b, draw=cBESS, fill=cBESS!10] (rt) at (0,0) {\textbf{زمانِ واقعی}\\اندازه‌گیریِ اکنون\\اجرای ایمن، سقف‌ها\\پاسخِ خدمت};
+  \draw[flow] (da.west) -- (id.east);
+  \draw[flow] (id.west) -- (rt.east);
+  \draw[flowinfo] (rt.south) -- ++(0,-0.6) -| node[pos=0.25, below, note] {انحراف، هشدار و ثبت برای برنامهٔ بعدی} (da.south);
+\end{tikzpicture}
+\end{document}

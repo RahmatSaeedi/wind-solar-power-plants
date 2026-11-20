@@ -1,0 +1,11 @@
+data-quality rules on an asset register of 400 rows
+  tag format       395 pass  ( 98.8%)
+  tag unique       394 pass  ( 98.5%)
+  parent exists    396 pass  ( 99.0%)
+  serial present   388 pass  ( 97.0%)
+  unit valid       394 pass  ( 98.5%)
+  rows passing every rule: 367 (91.8%)
+  each rule is simple; together they reject one row in
+  twelve. A duplicated tag is the worst: two functions
+  answer to one name (ch 23). The register exposes it before
+  handover, not an operator during a fault

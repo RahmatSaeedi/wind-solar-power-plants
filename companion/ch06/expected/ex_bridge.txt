@@ -1,0 +1,4 @@
+T =   0 C: R =  100.00 ohm, output    0.00 mV, linear model   0.00 mV
+T =  25 C: R =  109.62 ohm, output  114.79 mV, linear model 120.31 mV
+T =  50 C: R =  119.25 ohm, output  219.50 mV, linear model 240.62 mV
+T = 100 C: R =  138.50 ohm, output  403.56 mV, linear model 481.25 mV

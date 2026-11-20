@@ -1,0 +1,15 @@
+step 4 - the safe diagnosis as a record (no procedure or test values here)
+  1. permit issued, CB14 isolated and proven dead
+     by authorised person; record PTW-0761
+  2. fuses checked: 3 open (+ and - of string 7, - of string 12)
+     by technician; record WO-0533 sheet 1
+  3. insulation test of strings 7 and 12 (qualified tester)
+     by test engineer; record IR sheet: string 7 fails, 12 passes
+  4. string 7 traced: connector at module 18 half-mated, water inside
+     by technician; record photos P-1..P-4
+  5. CB07: two strings with a blown fuse each, no insulation fault
+     by technician; record WO-0534
+  every step names who did it and where the evidence is: the
+  test was done by a qualified person under the permit, and
+  the CB14 fuses were not replaced before the fault was found
+  - a fuse put back on an insulation fault opens again

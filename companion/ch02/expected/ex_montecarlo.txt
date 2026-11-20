@@ -1,0 +1,15 @@
+annual energy of Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS),
+    uncertainty of the resource only
+wind: speed scale f_v, u(f_v) = 3 % (assumed); PV: irradiation scale f_H,
+    u(f_H) = 4 % (assumed)
+sensitivity of wind energy to speed: dE/E = 1.62 x dv/v (not 3: rated region
+    and cut-in)
+first-order (GUM) budget:
+input            value       u(x)           c       |c|u  share
+f_v                  1       0.03       311.7       9.35  85.2%
+f_H                  1       0.04        97.3       3.89  14.8%
+y = 289.84 GWh, u_c = 10.1 GWh (3.49 %), U(k=2) = 20.3 GWh
+Monte Carlo, 200,000 draws: mean 289.7 GWh, std 10.1 GWh, 95 % interval 269.5
+    .. 309.1 GWh
+value exceeded with 90 % probability (P90): 276.6 GWh
+reported: E = 290 GWh, U(k=2) = 20 GWh (resource only; teaching values)

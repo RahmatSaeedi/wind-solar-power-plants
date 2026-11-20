@@ -1,0 +1,25 @@
+% Chapter 26 - protection zones of Plant P on a simplified one-line (grid on the left as in the
+% chapter 23 figures): export line, 132 kV bus, main transformer, 33 kV bus section, collector
+% feeder; zones overlap at every breaker (CTs on both sides). Teaching sketch (D-030).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    brk/.style={draw=cInk, fill=white, minimum size=3mm, inner sep=0pt},
+    zn/.style={boundary, draw=cLoss}]
+  \draw[line width=0.9pt] (0,0) -- (13.6,0);
+  \node[blk, draw=cLoad, fill=cLoad!8, minimum width=14mm] at (-0.6,0) {شبکه};
+  \foreach \x in {1.4, 4.6, 7.2, 9.8, 12.0} {\node[brk] at (\x,0) {};}
+  \draw[bus] (3.6,-0.6) -- (3.6,0.6); \node[note] at (3.6,0.95) {$132\,\text{kV}$};
+  \draw[bus] (8.6,-0.6) -- (8.6,0.6); \node[note] at (8.6,0.95) {$33\,\text{kV}$};
+  \draw[draw=cInk, fill=white] (5.9,0) circle (0.32); \draw[draw=cInk, fill=white] (6.3,0) circle (0.32);
+  \node[note] at (6.1,-0.65) {T1};
+  \node[blk, draw=cWind, fill=cWind!9, minimum width=14mm] at (14.4,0) {فیدرِ بادی};
+  % zones (overlapping at breakers)
+  \draw[zn] (1.1,-1.2) rectangle (4.0,1.6);  \node[note, text=cLoss] at (2.5,1.95) {خط};
+  \draw[zn] (3.2,-1.45) rectangle (4.9,1.35);  \node[note, text=cLoss] at (4.0,-1.75) {شینهٔ ۱۳۲};
+  \draw[zn] (4.3,-1.2) rectangle (7.5,1.6);  \node[note, text=cLoss] at (5.9,1.95) {ترانسفورماتور};
+  \draw[zn] (6.9,-1.45) rectangle (10.1,1.35); \node[note, text=cLoss] at (8.6,-1.75) {شینهٔ ۳۳};
+  \draw[zn] (9.5,-1.2) rectangle (13.9,1.6); \node[note, text=cLoss] at (11.7,1.95) {فیدر};
+  \node[note, text width=140mm] at (6.8,-2.7) {هر کلید میانِ CTهای دو ناحیه است و ناحیه‌ها روی کلید همپوشانی دارند؛ پس هیچ بخشی بی‌حفاظت نمی‌ماند. خط با دیفرانسیلِ خط و دیستانس، ترانسفورماتور با دیفرانسیل، فیدر با جریانِ زیاد و خطای زمین};
+\end{tikzpicture}
+\end{document}

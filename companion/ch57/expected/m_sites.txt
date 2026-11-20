@@ -1,0 +1,15 @@
+research log: official sites, 2026-11-17
+  mewr.tj                  read (RFQ pdf, Resolution 449 docx)
+  barqitojik.tj            read (structure, tariffs)
+  shib.tj                  read
+  standard.tj              read
+  investcom.tj             read
+  khf.tj                   read (warnings)
+  adlia.tj (legal portal)  unreachable
+  mmk.tj (legal portal)    unreachable
+  egov.tj                  listing only
+  environment committee    no own site found
+  read 6, not read 4 of 10
+  with both legal portals down, laws were read in the FAOLEX and
+  UN-ESCAP repositories: the text is official, but whether it is
+  the latest consolidated version needs a dated check

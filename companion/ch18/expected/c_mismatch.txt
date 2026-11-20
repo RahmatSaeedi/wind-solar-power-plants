@@ -1,0 +1,15 @@
+mismatch check before procurement: 4 of 10 interfaces
+  IF-001 electrical PV inverter / block transformer: LV voltage kV:
+      0.6 against 0.69 (tol 2 %)
+  IF-005 electrical combiner box / string cable: DC connector:
+      type MC-B not in ['type MC-A']
+  IF-006 thermal    battery container / HVAC unit: heat to reject kW:
+      120.0 against 100.0 (tol 5 %)
+  IF-007 comms      BESS controller / plant controller: protocol:
+      Modbus TCP not in ['IEC 60870-5-104', 'IEC 61850']
+  fixes (to agree in the interface-control document):
+  IF-001 order the block transformer with a 0.60 kV winding (D-012)
+  IF-005 one connector type on both sides, from one maker
+  IF-006 HVAC sized on the container's rejected heat plus margin
+  IF-007 a protocol gateway, or require IEC 61850 in the BESS order
+  each is cheap on paper and costly after delivery

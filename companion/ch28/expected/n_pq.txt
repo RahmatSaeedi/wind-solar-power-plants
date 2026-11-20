@@ -1,0 +1,13 @@
+P-Q capability test points: the study's expected values (grid max, 1.00)
+  point   P POC MW   Q expected Mvar   requirement   pass if measured
+      1       20.7              82.7        >= +33    +79.1 ..  +86.4
+      2       20.5             -90.1        <= -33    -93.9 ..  -86.3
+      3       58.8              77.2        >= +33    +73.7 ..  +80.7
+      4       58.3             -96.1        <= -33   -100.0 ..  -92.2
+      5       97.9              50.8        >= +33    +47.8 ..  +53.8
+      6       96.9             -97.3        <= -33   -101.2 ..  -93.3
+  each point is held for a stated time (minutes) with the
+  POC voltage and the units' temperatures recorded; a
+  measured value outside the band is investigated before
+  the model or the test is blamed - and the requirement
+  column is judged on its own, against the operator's value

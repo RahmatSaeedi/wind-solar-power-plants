@@ -1,0 +1,6 @@
+tag names against the designation pattern (teaching pattern):
+  10 tags checked, 3 malformed: WS2-Q1, =ws3-q1, =A1 T1
+  a missing '=' prefix, lower case and a space each break
+  searching, sorting and the link to the schedule; the
+  pattern itself comes from the project's designation rules
+  (IEC 81346, ch 18 and lesson A); the program only applies it

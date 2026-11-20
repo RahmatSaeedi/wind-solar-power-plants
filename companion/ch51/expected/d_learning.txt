@@ -1,0 +1,8 @@
+post-event learning, recorded the next morning
+  1. the day-ahead forecast was 19 MW low at 09-15: feed back
+     to the forecast provider with the version and the weather (ch 37)
+  2. the battery began the day at 30 of 36 MWh: the overnight plan
+     leaves room when a sunny, windy day is forecast
+  3. the restriction came with one hour's notice: ask the grid operator
+     whether planned restrictions can be notified day-ahead (ch 28)
+  4. the log missed one 'told' entry: add it to the shift-lead check

@@ -1,0 +1,29 @@
+% Chapter 11 - subassembly and interface tree of WT-5.0-150 (worked example 2, part 1): four
+% groups, their parts, and the main interfaces between groups.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{hd/.style={blkWind, minimum width=30mm, minimum height=8mm, text width=28mm, font=\small},
+           it/.style={blk, minimum width=28mm, minimum height=6mm, text width=27mm, inner sep=2pt},
+           ifc/.style={note, text=cLoss, text width=22mm}}
+  \node[blkWind, minimum width=40mm, minimum height=9mm, font=\small] (root) at (6,0) {توربینِ \babelsublr{WT-5.0-150}};
+  \node[hd] (g1) at (0,-1.6) {روتور};
+  \node[hd] (g2) at (4,-1.6) {ناسل و پیشرانه};
+  \node[hd] (g3) at (8,-1.6) {سازهٔ نگه‌دارنده};
+  \node[hd] (g4) at (12,-1.6) {برق، کنترل و ایمنی};
+  \foreach \g in {g1,g2,g3,g4} \draw[cInk] (root.south) -- ++(0,-0.35) -| (\g.north);
+  \foreach \t [count=\k] in {پره‌ها (۳)، ریشه و پیچ‌ها, توپی (چدنی), یاتاقان‌های گام, محرک‌ها و باتریِ گام, گیرنده‌ها و رسانای صاعقه}
+    \node[it] at (0,-1.8-0.75*\k) {\t};
+  \foreach \t [count=\k] in {یاتاقانِ اصلی و محور, جعبه‌دنده و روغن‌کاری, کوپلینگ و ترمز, ژنراتور و خنک‌کاری, شاسی، پوسته و جرثقیلِ داخلی, یاتاقان و محرک‌های یاو}
+    \node[it] at (4,-1.8-0.75*\k) {\t};
+  \foreach \t [count=\k] in {برجِ فولادیِ چهار قطعه, فلنج‌ها و پیچ‌ها, قفسهٔ پیچِ مهار, فونداسیونِ بتنی, سکوها، نردبان و بالابر}
+    \node[it] at (8,-1.8-0.75*\k) {\t};
+  \foreach \t [count=\k] in {مبدّلِ کامل, ترانسفورماتورِ توربین, کنترل‌گر و ارتباط, سامانهٔ ایمنیِ مستقل, حس‌گرها و پایشِ وضعیت}
+    \node[it] at (12,-1.8-0.75*\k) {\t};
+  % interfaces between groups
+  \draw[<->, cLoss, densely dashed] (g1.east) -- (g2.west) node[midway, circle, draw=cLoss, fill=white, inner sep=1pt, font=\scriptsize] {۱};
+  \draw[<->, cLoss, densely dashed] (g2.east) -- (g3.west) node[midway, circle, draw=cLoss, fill=white, inner sep=1pt, font=\scriptsize] {۲};
+  \draw[<->, cLoss, densely dashed] (g3.east) -- (g4.west) node[midway, circle, draw=cLoss, fill=white, inner sep=1pt, font=\scriptsize] {۳};
+  \node[note, text width=150mm, anchor=north] at (6,-6.6) {رابط‌ها: ۱ فلنجِ توپی و محورِ اصلی (بار و گشتاور)؛ ۲ یاتاقانِ یاو و فلنجِ بالای برج (بار)؛ ۳ کابل‌های برج و ترانسفورماتور (انرژی و داده). هر رابط مسئول، سند و آزمونِ خودش را دارد};
+\end{tikzpicture}}
+\end{document}

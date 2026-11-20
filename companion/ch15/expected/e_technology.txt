@@ -1,0 +1,8 @@
+day-ahead (lead 24 h) error by technology on the test months:
+  output        bias MW   MAE MW   RMSE MW   RMSE % of rating
+  wind           +0.42     6.70    10.42      17.4
+  PV, daylight   -0.42     3.10     4.29       8.6
+  hybrid         +0.23     7.27    10.72       9.7
+  PV errors are scored on daylight hours only (night zeros make
+  any forecast look good); the hybrid error is less than the sum
+  of its parts because their errors are not fully correlated

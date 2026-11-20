@@ -1,0 +1,20 @@
+% Chapter 6 — a two-source network for the node-voltage worked example.
+% Sources are V_s1, V_s2; the unknown node voltage is V_x (no clash of names).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \draw (0,0) to[battery1, l={$V_\text{s1} = 10\,\text{V}$}, invert] (0,3)
+        to[R, l={$R_1 = 2\,\Omega$}] (3.5,3)
+        to[R, l={$R_3 = 3\,\Omega$}] (7,3)
+        to[battery1, l_={$V_\text{s2} = 5\,\text{V}$}] (7,0) -- (0,0);
+  \draw (3.5,3) to[R, l_={$R_2 = 4\,\Omega$}] (3.5,0);
+  % current arrows drawn separately so they do not crowd the node
+  \draw[-{Stealth[length=2mm]}, line width=0.6pt] (2.3,2.65) -- (3.0,2.65) node[note, text=cInk, below, midway] {$I_1$};
+  \draw[-{Stealth[length=2mm]}, line width=0.6pt] (4.9,2.65) -- (4.2,2.65) node[note, text=cInk, below, midway] {$I_3$};
+  \draw[-{Stealth[length=2mm]}, line width=0.6pt] (4.0,1.9) -- (4.0,1.2) node[note, text=cInk, right, midway] {$I_2$};
+  \fill[cInk] (3.5,3) circle (0.07);
+  \node[note, text=cInk, anchor=south] at (3.5,3.75) {گرهِ $x$};
+  \node[ground] at (3.5,0) {};
+  \node[note, text=cInkB, anchor=north] at (3.5,-0.55) {گرهِ مرجع (صفر ولت)};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,22 @@
+D-053 construction and installation basis
+  1 a package is issued only through its readiness gate:
+    approvals, method statement, competent crew, drawings IFC,
+    predecessors released, emergency response in reach
+  2 packages sequenced with crews and hold points; booking the
+    package that can start first; ready work only in the
+    six-week look-ahead
+  3 installation records name the tool, the inspector and the
+    value: positions, torque, as-laid, terminations, continuity
+  4 turnover by subsystem: A sheets complete, no open A punch,
+    the package listing what is still missing
+  5 asset data captured at receipt, installation, test and
+    turnover; reconciled with the design register (tags,
+    serials, positions within 2 m)
+  6 auxiliary, fire and export systems turned over as their own
+    packages; fire impairments with measure, notice and end
+  7 construction water metered apart from the plant's; tickets
+    checked against the meter weekly
+  8 social-plan records reported as they are: grievances,
+    hiring, village traffic, chance finds
+  open: the contractor's method statements, permits and
+    approved plans (U-130)

@@ -1,0 +1,13 @@
+near-miss causes ranked (164 in the construction year, synthetic)
+  cause                         count   cumulative
+  load or tool not secured         41          25 %
+  vehicle reversing                33          45 %
+  access route blocked             22          59 %
+  heat, fatigue                    21          71 %
+  other                            20          84 %
+  housekeeping                     18          95 %
+  isolation step skipped            9         100 %
+  three causes give about 60 % of the near misses and are
+  where most effort goes - but the nine skipped isolation
+  steps rank low by count and highest by what they could
+  have done (lesson A): count and severity are read together

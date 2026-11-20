@@ -1,0 +1,15 @@
+REQ-S01: hold 5 MW up for 1 h, 18-22 h daily, 95 % of window hours (A-300)
+  energy floor = e_min + 5 MW x 1 h / eta = 9.39 MWh
+  case                        days  held %  revenue k u  EFC  alarms
+  arbitrage only                 0     0.0     14,249.4  337      77
+  controller holds reserve     365   100.0     14,191.4  318    1147
+  reserve in the plan          365   100.0     14,191.7  336     104
+  declared day-ahead           365   100.0     14,191.7  336     104
+  declared + calls + outages   365    99.2     14,192.4  336     153
+  revenue includes all export; differences are the service's cost;
+  EFC = equivalent full cycles of the 32 MWh window a year
+  the controller alone holds the reserve by refusing the plan
+  (1,147 alarms); a plan that knows the floor and the 15 MW
+  left for scheduling keeps the same reserve with 104 alarms;
+  the cautious check (10 % quantile forecast) declared every
+  day: the plant fills 9.4 MWh before 18:00 on all of them

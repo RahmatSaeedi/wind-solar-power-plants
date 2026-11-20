@@ -1,0 +1,18 @@
+# Run file of the chapter 5 resource-analysis tool (teaching values).
+run_id: PLP-CH05-S0
+data_release: "1.1.0"
+scenario: S0
+pv:
+  dc_mwp: 60
+  ac_mw: 50
+  noct_c: 45
+  gamma_per_k: -0.0035
+  k_other: 0.90
+  eta_inverter: 0.98
+wind:
+  turbines: 12
+  loss: 0.12
+  density_correction: true
+export_limit_mw: 100
+outputs:
+  folder: companion/ch05/output/S0

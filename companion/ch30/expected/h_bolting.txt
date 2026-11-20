@@ -1,0 +1,13 @@
+bolt tightening during erection (two passes, 2.5 min a bolt a pass,
+  two tools working; teaching)
+  joint                 bolts   hours
+  base (anchor cage)      160     6.7
+  flange 1-2              120     5.0
+  flange 2-3              108     4.5
+  flange 3-4               96     4.0
+  tower-top / yaw          90     3.8
+  total about 24 hours of tightening for one turbine
+  the next section is lifted only after the joint below has
+  its first pass at the maker's value: bolting, not the
+  crane, often sets the pace of erection (ch 31), and every
+  bolt's final value is recorded for the data book

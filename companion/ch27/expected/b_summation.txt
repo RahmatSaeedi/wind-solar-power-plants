@@ -1,0 +1,11 @@
+5th-harmonic current of the 26 units at the 33 kV side (teaching):
+  summation               exponent   5th A   % of plant current
+  all in phase                 1.0    32.7                 1.31
+  partly random                1.4    13.0                 0.52
+  fully random                 2.0     6.5                 0.26
+  identical converters with the same control and the same
+  operating point emit low-order harmonics nearly in phase;
+  higher orders mix more randomly - the assessment report
+  (STD-130) uses summation exponents between these limits;
+  the in-phase sum is the safe first screening, the measured
+  plant emission replaces it

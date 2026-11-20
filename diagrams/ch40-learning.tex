@@ -1,0 +1,14 @@
+% Chapter 40 - hours of each of the ten skids on an 85 % learning curve from 125 h, down to the
+% route's standard 79 h (diagrams/data/ch40-learning.csv from companion/ch40/examples_a.py,
+% a_learning; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0.5, xmax=10.5, ymin=60, ymax=130,
+      xtick={1,...,10}, xlabel={شمارهٔ اسکید}, ylabel={ساعتِ کار}]
+    \addplot[sWind, mark=*, mark size=1.6pt] table[x=n, y=hours, col sep=comma] {data/ch40-learning.csv};
+    \draw[sLimit] (axis cs:0.5,79) -- (axis cs:10.5,79);
+    \node[note, anchor=north east] at (axis cs:10.4,78) {زمانِ استانداردِ مسیر: ۷۹ ساعت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

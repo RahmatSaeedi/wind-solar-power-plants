@@ -1,0 +1,10 @@
+the indicators of the synthetic operating year
+  PV energy 107,426 MWh; specific yield 1,789 kWh/kWp
+  PV performance ratio (reference sensor) 0.832
+  PV capacity factor on 50 MW AC 24.5 %
+  wind energy 192,786 MWh; capacity factor on 60 MW 36.7 %
+  plant energy at MV 300,212 MWh; curtailed 609 MWh
+  each indicator answers a different question: yield and PR
+  how well the PV turns sunlight into energy, capacity
+  factor how much of its rating the plant uses, curtailed
+  energy what the grid did not take

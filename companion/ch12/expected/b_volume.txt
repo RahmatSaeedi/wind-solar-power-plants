@@ -1,0 +1,7 @@
+data volume of the Plant P weather station (teaching):
+  14 channels sampled every second: 1,766 MB a year raw
+  one-minute mean, minimum, maximum: 88 MB a year
+  store the one-minute record with flags, the calibration
+  factors in force, the cleaning and maintenance log, and the
+  clock synchronisation log: data without metadata is not
+  evidence

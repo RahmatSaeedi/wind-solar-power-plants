@@ -1,0 +1,10 @@
+wash-water conductivity against the module maker's limit (teaching 500 uS/cm)
+  well W-1 after RO         180
+  tanker load 14            620  OVER
+  tanker load 15            410
+  storage tank (week 23)    530  OVER
+  well W-2 after RO         220
+  over: tanker load 14, storage tank (week 23)
+  washing with it risks deposits and the module warranty
+  (ch 10, ch 41); the tank is sampled before each wash
+  campaign, and a failed sample stops the trucks

@@ -1,0 +1,15 @@
+start sequence of a battery container as steps with timeouts
+  step                                     nominal s   timeout s
+  S1 permissives (fire healthy, HVAC on)           2          10
+  S2 DC pre-charge                                15          30
+  S3 main DC contactor closed                      1           5
+  S4 converter started, synchronised              20          60
+  S5 AC breaker closed                             1           5
+  S6 ramp to the set point                        30          90
+  nominal 69 s; the longest a healthy-looking start can
+  take before a timeout ends it: 200 s
+  every step has a timeout and every timeout a defined exit:
+  open what the sequence closed, in reverse order, and say
+  which step failed; a step without one waits for ever
+  (the dead end of the ch 20 state machine), and the
+  timeout is set from the measured time in the factory test

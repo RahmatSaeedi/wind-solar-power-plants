@@ -1,0 +1,6 @@
+interior-magnet machine (A-130): psi 0.9 Wb, L_d 0.20 mH, L_q 0.28 mH, 6 poles
+  T = 1.5 (p/2) [psi i_q + (L_d - L_q) i_d i_q]
+  current 6000 A peak, all in q: T 24.3 kN m
+  best angle 22.5 deg into negative d: T 27.0 kN m (+11.2 %)
+  the reluctance torque adds to the magnet torque: more torque per
+  ampere and less magnet; the converter must know L_d and L_q

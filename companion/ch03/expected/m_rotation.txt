@@ -1,0 +1,6 @@
+wind FROM 163 deg blows TO 343 deg: downwind unit vector (-0.2924, +0.9563)
+second turbine 600 m east and 1100 m north of the first (assumed)
+  rotated coordinates: downwind 877 m = 5.84 D, crosswind 895 m = 5.97 D (D =
+    150 m)
+  check: sqrt(downwind^2 + crosswind^2) = 1253 m = 1253 m (rotation keeps
+    lengths)

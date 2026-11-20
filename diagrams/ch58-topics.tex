@@ -1,0 +1,18 @@
+% Chapter 58 - rows of the book's standards register by topic: the handoff's eleven topics, three
+% added topics and the rest (companion/ch58/run.py, topics -> diagrams/data/ch58-topics.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=96mm, xbar, bar width=3.6mm, ymin=0.4, ymax=15.6,
+      xmin=0, xmax=40, y dir=reverse, ytick={1,...,15}, ymajorgrids=false, xmajorgrids=true,
+      yticklabels={فتوولتائیک, باد, اینورتر, ترانسفورماتور, تابلو و کلید, حفاظت, زمین و صاعقه,
+        کیفیتِ برق, ارتباطات و داده, محیطِ زیست, ایمنی, کابل و پست, کنتور و ابزار,
+        کیفیت و قابلیتِ اطمینان, دیگر},
+      xlabel={شمارِ ردیف‌های دفتر},
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk, anchor=west}]
+    \addplot[draw=cInkB, fill=cInkB!30] table[x=n, y=k, col sep=comma] {data/ch58-topics.csv};
+    \draw[cMuted, dashed] (axis cs:0,11.5) -- (axis cs:40,11.5);
+    \node[font=\footnotesize, text=cMuted, anchor=south east] at (axis cs:39,11.5) {یازده موضوعِ برنامهٔ کتاب};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

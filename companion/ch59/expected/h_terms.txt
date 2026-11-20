@@ -1,0 +1,13 @@
+the stated assumptions of the finance model (ch 21, teaching A-304..310)
+  currency: one unit 'u', nominal; costs in year-1 money indexed
+  inflation 2.5% a year; PPA 70 u/MWh +2% a year for 20 years,
+    then 45 u/MWh in year-1 money (merchant)
+  unpaid curtailment 1% of energy; receivables 45 days, payables 30
+  tax 25%, straight-line depreciation over 20 years
+  debt 6% a year, fee 1.5%, tenor 15 years, sculpted
+  sizing: DSCR 1.30 on P50, 1.20 on P90 one year; gearing <= 75%
+  DSRA 6 months; lock-up 1.10; default 1.05
+  WACC 7.5%; cost of equity 10%
+  energy: P50 year 1 of model 15.1; P90 one year = 0.935 x P50
+  every line is a teaching value; a real model states the same
+  list with sources, and the lenders' auditor checks it (ch 21 D)

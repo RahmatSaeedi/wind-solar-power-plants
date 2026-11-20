@@ -1,0 +1,33 @@
+% Chapter 8 - four drivetrain architectures: DFIG with a 3-stage gearbox and a partial converter,
+% geared high-speed PMSG with a full converter, medium-speed PMSG, direct drive.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=17mm, minimum height=8mm, font=\footnotesize},
+    gb/.style={b, fill=cFill},
+    gen/.style={b, draw=cWind, fill=cWind!10},
+    cv/.style={b, draw=cLoad, fill=cLoad!8},
+    grid/.style={b, draw=cInk, fill=white, minimum width=12mm}]
+  % rows from top: DFIG, HS-PMSG, MS-PMSG, DD
+  \foreach \y/\name/\gear/\gen/\conv in {
+      0/{دوسوتغذیه}/{گیربکسِ ۳ مرحله}/{القاییِ دوسوتغذیه}/{مبدّلِ ۳۰٪},
+      -1.6/{آهن‌ربا، تندگرد}/{گیربکسِ ۳ مرحله}/{آهن‌ربا ۱۱۵۵ دور}/{مبدّلِ کامل},
+      -3.2/{آهن‌ربا، سرعتِ متوسط}/{گیربکسِ ۲ مرحله}/{آهن‌ربا ۴۲۰ دور}/{مبدّلِ کامل},
+      -4.8/{بی‌گیربکس}/{بی‌گیربکس}/{آهن‌ربا ۱۰٫۵ دور}/{مبدّلِ کامل}} {
+    \node[note, text=cInk, font=\small\bfseries, anchor=west] at (11.9,\y) {\name};
+    \node[b, draw=cInkB, fill=white, minimum width=12mm] (r) at (10.8,\y) {روتور};
+    \node[gb] (g) at (8.6,\y) {\gear};
+    \node[gen] (m) at (6.0,\y) {\gen};
+    \node[cv] (c) at (3.4,\y) {\conv};
+    \node[grid] (n) at (1.0,\y) {شبکه};
+    \draw[line width=1.2pt, cInk] (r) -- (g);
+    \draw[line width=1.2pt, cInk] (g) -- (m);
+    \draw[line width=0.8pt, cInk] (m) -- (c);
+    \draw[line width=0.8pt, cInk] (c) -- (n);
+  }
+  % DFIG: stator directly to the grid
+  \draw[line width=0.8pt, cInk] (6.0,0.4) -- (6.0,0.75) -- (1.0,0.75) -- (1.0,0.4);
+  \node[note, anchor=south] at (3.4,0.75) {استاتور مستقیم به شبکه؛ مبدّل فقط روی روتور};
+  \node[note, anchor=north] at (6.0,-5.35) {گشتاورِ ژنراتور از بالا به پایین بیشتر و مبدّل از دوسوتغذیه به بقیه بزرگ‌تر};
+\end{tikzpicture}}
+\end{document}

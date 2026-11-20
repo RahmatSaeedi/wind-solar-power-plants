@@ -1,0 +1,10 @@
+post records of a sample of 12 in block PVF1-3
+  (tolerance 30 mm radial, teaching)
+  P3-006: off by 42 mm
+  P3-012: off by 36 mm
+  P3-004: embedded 1.98 m of 2.00 m - short
+  P3-007: embedded 1.71 m of 2.00 m - short
+  an off-position post is checked against the table's slotted
+  holes before the table goes on; a short post is the
+  designer's decision (a load test or a second post), never
+  the crew's - both are non-conformities with a disposition

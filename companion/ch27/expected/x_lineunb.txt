@@ -1,0 +1,10 @@
+unbalance caused by an untransposed 132 kV line at full current
+  (negative-sequence coupling 0.03 ohm/km, teaching)
+  line km   V2 V   unbalance %
+     7.06      93          0.12
+    30.00     393          0.52
+    70.00     918          1.20
+  Plant P's short line adds almost nothing; a long untransposed
+  line adds unbalance in proportion to its length and current,
+  and the plant's own converters (which control positive
+  sequence) see it as a background they did not cause

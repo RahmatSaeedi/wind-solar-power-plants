@@ -1,0 +1,10 @@
+data leakage in a learned correction of the day-ahead forecast:
+  model                                         RMSE test MW
+  raw day-ahead forecast                           10.72
+  corrected, trained Jan-Aug, tested Sep-Dec       10.38
+  + last hour's observation, random split            7.20
+  + last hour's observation, time split              7.59
+  the last hour's observation is not known a day ahead: any
+  model that uses it scores well in a test and cannot run in
+  operation; a random split also lets neighbouring hours leak
+  into the test; features must exist at the issue time

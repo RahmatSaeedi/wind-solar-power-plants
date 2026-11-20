@@ -1,0 +1,35 @@
+% Chapter 11 - blade element: velocity triangle, inflow angle, angle of attack, twist plus pitch,
+% lift and drag (section A, BEM). Conceptual angles: phi 14 deg, theta + beta 8 deg, alpha 6 deg.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize, scale=1.15]
+  % rotor plane
+  \draw[cRule, densely dashed] (-4.6,0) -- (3.4,0);
+  \node[note, anchor=south east] at (3.4,0.02) {صفحهٔ روتور};
+  % aerofoil (chord 8 deg below the plane, nose on the left)
+  \fill[cWind!20, draw=cWind, rotate=-8] (0,0) ellipse (1.5 and 0.2);
+  \draw[cInkB, rotate=-8] (-1.5,0) -- (1.5,0);
+  % relative wind W along -14 deg
+  \draw[->, cInk, line width=1pt] ({-3.4*cos(14)},{3.4*sin(14)}) -- ({-1.7*cos(14)},{1.7*sin(14)});
+  \node[note, text=cInk, anchor=south] at ({-2.8*cos(14)},{2.8*sin(14)+0.08}) {$W$};
+  \draw[cInkB, densely dotted] (0,0) -- ({2.6*cos(14)},{-2.6*sin(14)});
+  % velocity triangle (upper left)
+  \draw[->, cInk] (-4.6,1.9) -- (-2.4,1.9) node[midway, note, anchor=south] {$\Omega r\,(1+a')$};
+  \draw[->, cWind, line width=0.9pt] (-2.4,1.9) -- (-2.4,{1.9-2.2*tan(14)}) node[midway, note, text=cWind, anchor=west] {$V(1-a)$};
+  \draw[->, cInk, line width=1pt] (-4.6,1.9) -- (-2.4,{1.9-2.2*tan(14)});
+  % angles at the aerofoil
+  \draw[cInkB] (2.4,0) arc[start angle=0, end angle=-14, radius=2.4];
+  \node[note, anchor=west] at (2.45,-0.32) {$\varphi$};
+  \draw[cWind] (1.75,0) arc[start angle=0, end angle=-8, radius=1.75];
+  \node[note, text=cWind, anchor=west] at (1.85,-0.12) {$\theta+\beta$};
+  \draw[cLoss] (1.15,{-1.15*tan(8)}) arc[start angle=-8, end angle=-14, radius=1.16];
+  % lift and drag
+  \draw[->, cLoss, line width=1pt] (0,0) -- ({-1.9*sin(14)},{-1.9*cos(14)}) node[note, text=cLoss, anchor=north] {برا $L$};
+  \draw[->, cInkB, line width=0.9pt] (0,0) -- ({0.8*cos(14)},{-0.8*sin(14)});
+  \node[note, anchor=north] at (0.9,-0.25) {پسا $D$};
+  \node[note, text=cLoss, anchor=west] at (1.25,-0.55) {$\alpha$};
+  % motion and wind
+  \draw[->, cInk] (0.9,-2.2) -- (-0.9,-2.2) node[note, anchor=east] {حرکتِ پره};
+  \draw[->, cWind, line width=1pt] (2.9,2.0) -- (2.9,0.9) node[note, text=cWind, anchor=north] {باد};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,18 @@
+% Chapter 41 - mean Pmax of 30 module lots on an individuals chart (centre and lower limit from
+% lots 1-15); a glass batch change lowers the lots from lot 23 by 1.6 W (diagrams/data/ch41-lots.csv
+% from companion/ch41/examples_w.py, w_lots; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0, xmax=31, ymin=549.5, ymax=554,
+      xlabel={محموله}, ylabel={میانگینِ توان (وات)}]
+    \addplot[sWind, mark=*, mark size=1.3pt] table[x=lot, y=mean, col sep=comma] {data/ch41-lots.csv};
+    \draw[densely dashed, cInk!60] (axis cs:0,552.19) -- (axis cs:31,552.19);
+    \draw[sLimit] (axis cs:0,550.95) -- (axis cs:31,550.95);
+    \node[note, anchor=south east] at (axis cs:30.8,552.25) {خطِ مرکزی};
+    \node[note, anchor=north west] at (axis cs:0.5,550.9) {حدِ پایین};
+    \draw[densely dotted, cLoss] (axis cs:22.5,549.5) -- (axis cs:22.5,554);
+    \node[note, anchor=north east, text=cLoss] at (axis cs:22.3,553.9) {دستهٔ تازهٔ شیشه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

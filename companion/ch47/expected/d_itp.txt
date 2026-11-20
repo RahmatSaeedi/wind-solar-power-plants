@@ -1,0 +1,31 @@
+assumed geotechnical basis of the foundation plan (teaching):
+  - founding layer: dense sand and gravel, G 80 MPa (T07: medium sand, 25 MPa)
+  - groundwater below founding level except T07 (0.5 m in the wet season)
+  - allowable pressure set by the geotechnical engineer, not by this book
+inspection and quality plan of one turbine foundation: 11 steps,
+  6 hold points; accepted by a licensed engineer: 4
+  [H] excavation to level, founding layer inspected
+      inspection record, photos; geotechnical engineer
+  [W] blinding level and setting out
+      survey record; surveyor
+  [H] anchor cage position and level
+      survey before pour; turbine maker's representative
+  [H] reinforcement against drawings and BBS, cover
+      checklist, photos; structural engineer
+  [W] embedded items: earthing, ducts
+      checklist; electrical engineer
+  [R] pour: tickets, temperature, specimens
+      tickets, specimen log; contractor's QC
+  [R] curing record
+      temperature and moisture log; contractor's QC
+  [H] anchor cage level after pour
+      survey after pour; turbine maker's representative
+  [H] 28-day strength conformity
+      laboratory reports; structural engineer
+  [W] backfill compaction
+      density tests; geotechnical engineer
+  [H] grouting and anchor tensioning
+      grout tests, tension records; turbine maker's representative
+  the plan names who accepts each step; a hold point is a step
+  the work may not pass until that person signs - the pour does
+  not start before the reinforcement and the cage are accepted

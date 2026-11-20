@@ -1,0 +1,14 @@
+materials of one container's 4,992 cells (teaching shares; A-479)
+  material                    in t    recovered t
+  cathode (LFP)                 8.0           6.8
+  graphite                      4.7           2.4
+  copper foil                   2.2           2.1
+  aluminium foil and case       6.0           5.5
+  electrolyte                   3.7           0.0
+  separator                     0.6           0.0
+  binders, tabs, other          2.6           0.5
+  total 28.0 t of cells, 17.3 t recovered (62% by mass)
+  recovery by mass flatters LFP: its cathode holds no costly
+  metal, so the value is in aluminium, copper and the lithium
+  compound; the take-back route and its record are set in
+  the purchase contract, not at the end (ch 39, ch 53)

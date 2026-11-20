@@ -1,0 +1,13 @@
+interface requirements of the PCI-5500 traced to evidence
+  requirement                     verified by                   status
+  DC window 933-1300 V (D-012)    DC voltage tests at FAT       done
+  Q(V) with 4 % droop (ch 20)     fingerprint, functional test  done
+  island detection on             fingerprint                   failed: INV-04
+  DC injection limit (ch 43)      type test of the design       open
+  SCADA point list (ch 35)        point-to-point at FAT         done
+  cooling 45 C coolant            full-power run                done
+  ride-through (ch 26, 28)        type test, model validation   open
+  done 4, failed 1, open 2
+  the type-test rows belong to the design, the others to each
+  unit: one failed unit row (INV-04) is a re-test, the open
+  type rows are questions to the maker (U-125)

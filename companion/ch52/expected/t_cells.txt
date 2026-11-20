@@ -1,0 +1,5 @@
+BESS-A rack 7: cell voltage spread at rest (mV), monthly
+   18  19  21  22  26  31
+  up 13 mV in five months, faster lately: balancing is
+  losing - the BMS log of balancing duty (ch 45) tells a weak
+  cell from a weak balancer before the rack is derated

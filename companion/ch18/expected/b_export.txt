@@ -1,0 +1,11 @@
+export limit for the Plant P sizes (12 turbines, 50 MW PV):
+  limit MW  delivered GWh  curtailed GWh  extra GWh per 10 MW
+      70        285.16          9.81
+      80        290.54          4.86           5.38
+      90        293.98          1.76           3.44
+     100        295.78          0.23           1.80
+     110        296.23          0.00           0.45
+     120        296.41          0.00           0.18
+  each step of 10 MW buys less: the last hours above a limit
+  are few; the limit is a grid decision (chapter 17) and a
+  price, not a free design variable

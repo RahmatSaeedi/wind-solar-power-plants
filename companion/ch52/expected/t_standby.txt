@@ -1,0 +1,6 @@
+two auxiliary units for a month (each 0.5 failures a year when running)
+  one unit 0.95974; two running in parallel 0.998379;
+  one running, one cold standby (perfect switch) 0.999178
+  the standby wins on paper because it does not age while it
+  waits - and loses in practice if its start is never tested:
+  the diesel test of ch 51 is the switch in this formula

@@ -1,0 +1,6 @@
+heat input Q = eta V I / v (assumed parameters):
+  submerged arc, tower plate seam: 32 V, 650 A, 8 mm/s, eta 1.0 -> 2.60 kJ/mm
+  gas-shielded wire, bracket fillet: 25 V, 220 A, 4 mm/s, eta 0.8 -> 1.10
+    kJ/mm
+  more heat input: slower cooling, larger heat-affected zone, possible loss of
+    toughness; qualified procedures fix the window (chapters 42 and 47)

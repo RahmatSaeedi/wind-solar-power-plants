@@ -1,0 +1,8 @@
+energy taken from the grid when the plant's own use and no-load
+  losses exceed its output (model 15.1, at the POC):
+  hours with import            457
+  energy imported                151 MWh
+  energy exported             295.29 GWh
+  net (export - import)       295.14 GWh
+  import and export are metered apart and may be priced apart:
+  the yield statement shows both, not only the net (chapter 26)

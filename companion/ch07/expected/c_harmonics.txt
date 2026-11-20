@@ -1,0 +1,9 @@
+PV inverter current (A-040):
+  THD 5.0 %, RMS 1.001 pu, crest 1.43, true pf 0.999 (cos phi1 = 1), K 1.08
+LED driver current (A-105):
+  THD 103.0 %, RMS 1.436 pu, crest 2.84, true pf 0.696 (cos phi1 = 1), K 10.35
+three phases of LED lighting, 1.0 pu fundamental each, balanced:
+  phase current 1.436 pu RMS; the neutral carries the
+  triplen orders (3rd, 9th) of all three phases
+  neutral = 3 x sqrt(0.80^2 + 0.15^2) = 2.442 pu: 1.70 times a phase current
+  a neutral sized for 'balanced load = no neutral current' overheats

@@ -1,0 +1,11 @@
+information requirements by asset class (what the handover must carry)
+  inverter      9: tag, floc, serial, firmware, settings checksum,
+                  FAT, SAT, warranty end, maintenance plan
+  transformer   8: tag, floc, serial, FAT report, oil and DGA baseline,
+                  FRA baseline, warranty end, maintenance plan
+  turbine       8: tag, floc, serial, type certificate, SAT,
+                  service contract, SCADA points, maintenance plan
+  relay         6: tag, floc, serial, settings file, test record,
+                  firmware
+  31 fields over four classes; the CMMS import checks each one
+  is filled and points to a record that exists (ch 50)

@@ -1,0 +1,12 @@
+an anomaly detector and the people who read its output
+  threshold   flags a day   true faults among them   reviewer hours
+  loose                40                      3.2             10.0
+                       12                      3.0              3.0
+                        4                      2.4              1.0
+  tight                 1                      0.9              0.2
+  (15 minutes to review a flag; synthetic precision values)
+  a loose detector buries 3.2 real faults a day under 37
+  false ones and ten hours of reading; a tight one is
+  believed but misses faults that start small. Every flag
+  goes to a person who decides; the detector only sorts
+  the queue (a score is never an instruction to act)

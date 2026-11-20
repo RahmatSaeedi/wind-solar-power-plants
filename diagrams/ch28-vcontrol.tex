@@ -1,0 +1,16 @@
+% Chapter 28 - POC voltage deviation after a -2 % grid step with an integral voltage controller:
+% tuned on SCR 15, the same gains on SCR 3, retuned on SCR 3; data diagrams/data/ch28-vcontrol.csv
+% from companion/ch28/examples_c.py vcontrol().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, xmin=0, xmax=8, ymin=-2.2, ymax=1.4,
+      xlabel={زمان $(\text{s})$}, ylabel={انحرافِ ولتاژ $(\%)$}, xmajorgrids=true,
+      legend columns=3]
+    \addplot[sWind] table[x=t, y=s15, col sep=comma] {data/ch28-vcontrol.csv};
+    \addplot[sLoss] table[x=t, y=s3, col sep=comma] {data/ch28-vcontrol.csv};
+    \addplot[sPV] table[x=t, y=s3r, col sep=comma] {data/ch28-vcontrol.csv};
+    \legend{SCR ۱۵, SCR ۳ با همان بهره, SCR ۳ بازتنظیم}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

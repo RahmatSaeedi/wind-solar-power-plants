@@ -1,0 +1,13 @@
+interfaces of the PCI-5500 to the plant
+  interface                     crosses              check
+  PV combiners - DC input       1000 V DC, 6 MWp     DC window, polarity, IMD
+  inverter - unit transformer   600 V AC, 5,300 A    phases, torque, DC limit
+  plant controller - inverter   P and Q set-points   range, rate, fallback
+  SCADA - inverter              data points, alarms  point list, time stamps
+  auxiliary supply              400 V AC, 24 V DC    hold-up, ride-through
+  cooling                       glycol loop, 45 C    flow, pressure, leak
+  earthing                      PE, frame, IMD       continuity, bonding
+  7 interfaces, each with two owners and a check made at
+  the factory or on site; the DC-injection limit sits on the
+  transformer row (ch 43) and the fallback on the controller
+  row (ch 20)

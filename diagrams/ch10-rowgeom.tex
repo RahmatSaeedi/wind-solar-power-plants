@@ -1,0 +1,47 @@
+% Chapter 10 - north-south section of two south-facing rows: slope length L, tilt beta, pitch d,
+% ground coverage ratio and the shadow cast at a low sun profile angle (A-183, A-192).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  % scale 0.75 cm per metre; L = 4.556 m, beta = 25 deg, d = 11.39 m, alpha_p = 12 deg
+  \def\s{0.75}
+  \pgfmathsetmacro{\Lx}{4.556*cos(25)*\s}
+  \pgfmathsetmacro{\Ly}{4.556*sin(25)*\s}
+  \pgfmathsetmacro{\d}{11.39*\s}
+  \pgfmathsetmacro{\h}{0.6*\s}
+  % ground
+  \draw[cInkB, line width=0.6pt] (-1.4,0) -- (\d+\Lx+1.0,0);
+  \foreach \x in {-1.2,-0.6,...,12.6} \draw[cRule] (\x,0) -- (\x-0.25,-0.22);
+  % rows (legs + modules)
+  \foreach \x/\n in {0/1, \d/2} {
+    \draw[cInkB, line width=0.8pt] (\x+0.25,0) -- (\x+0.25,\h+0.1) (\x+\Lx-0.25,0) -- (\x+\Lx-0.25,\h+\Ly-0.12);
+    \draw[cPV, line width=3pt] (\x,\h) -- (\x+\Lx,\h+\Ly);
+  }
+  % sun ray over the top edge of row 1
+  \pgfmathsetmacro{\f}{1 - (1/0.4)*sin(12)/sin(37)}
+  \pgfmathsetmacro{\hx}{\d + \f*\Lx}
+  \pgfmathsetmacro{\hy}{\h + \f*\Ly}
+  \draw[cLoss, line width=0.8pt, ->] (\Lx-3.2,\h+\Ly+3.2*0.2126) -- (\hx,\hy);
+  \fill[cInk, opacity=0.35] (\d,\h) -- (\hx,\hy) -- (\hx,\hy-0.12) -- (\d,\h-0.12) -- cycle;
+  \draw[cInkB, densely dotted] (\Lx,\h+\Ly) -- ++(2.2,0);
+  \draw[cLoss] (\Lx+1.6,\h+\Ly) arc[start angle=0, end angle=-12, radius=1.6];
+  \node[note, text=cLoss, anchor=west] at (\Lx+1.65,\h+\Ly-0.15) {$\alpha_\text{p}$};
+  % tilt angle at row 2
+  \draw[cInkB, densely dotted] (\d,\h) -- ++(1.6,0);
+  \draw[cInkB] (\d+1.2,\h) arc[start angle=0, end angle=25, radius=1.2];
+  \node[note, anchor=west] at (\d+1.25,\h+0.25) {$\beta$};
+  % dimensions
+  \draw[dimline] (0,-0.6) -- node[note, fill=white, inner sep=1pt] {$d = L/\text{GCR}$} (\d,-0.6);
+  \draw[dimline] (-0.25,\h+0.2) -- node[note, anchor=south east] {$L$} (\Lx-0.25,\h+\Ly+0.2);
+  \draw[dimline] (\d+\Lx+0.45,\h) -- node[note, anchor=west] {$L\sin\beta$} (\d+\Lx+0.45,\h+\Ly);
+  \draw[cInkB, densely dotted] (\d+\Lx,\h+\Ly) -- (\d+\Lx+0.55,\h+\Ly) (\d+\Lx,\h) -- (\d+\Lx+0.55,\h);
+  % labels
+  \node[note, anchor=south, text=cInk] at (-0.9,\h+2.4) {جنوب};
+  \node[note, anchor=south, text=cInk] at (\d+\Lx+0.6,\h+2.4) {شمال};
+  \node[note, anchor=north, text=cInk] at (\Lx/2,-0.95) {ردیفِ جلو};
+  \node[note, anchor=north, text=cInk] at (\d+\Lx/2,-0.95) {ردیفِ پشت};
+  \node[note, text=cInk, anchor=north west, text width=58mm] at (\Lx+0.6,\h+\Ly+2.0)
+    {سهمِ سایه‌خورده از طولِ شیب:\\ $f = 1 - \dfrac{1}{\text{GCR}}\,\dfrac{\sin\alpha_\text{p}}{\sin(\alpha_\text{p}+\beta)}$};
+  \node[note, text=cLoss, anchor=north west] at (\d+0.9,\h-0.05) {سایه: $f \approx 0.14$};
+\end{tikzpicture}}
+\end{document}

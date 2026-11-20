@@ -1,0 +1,12 @@
+M1: 97.3 GWh / (50 MW x 8760 h) = 0.222; '97.3 GW' is a power, not an energy
+M2: wind power through the rotor 1/2 rho A v^3 = 0.5 x 1.056 x 17,671 x 512 =
+    4.777 MW; in 1 h 4.777 MWh (kg/m3 m2 m3/s3 = W)
+M3: 289 812 000 in a column read as kWh = 289.8 GWh (plausible); read as MWh
+    it would be 290 TWh (impossible)
+M4: wind: chapter 1 192.5 GWh (1.225 kg/m3), chapter 5 177.08 GWh (hourly
+    density, mean 1.056)
+M10: 23 June 12:00: G 1030.3 W/m2, T 36.3 C -> 46.223 MW
+M11: DSCR year 1 = 10.926 / 7.207 = 1.52
+M12: annual GHI from the data pack = 1947.2 kWh/m2 (expected_results.json
+    1947.2)
+M13: same speeds, hourly vs one annual mean: 218.8 vs 184.8 GWh gross

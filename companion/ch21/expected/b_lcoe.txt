@@ -1,0 +1,10 @@
+levelised cost of energy, real, at a 5 % real rate:
+  case                         LCOE u/MWh
+  S0 (no battery)                    50.2
+  S1 (battery)                       54.3
+  the battery raises the cost of each MWh and adds no MWh;
+  LCOE cannot see that it moves energy to dearer hours, holds
+  reserve or recaptures curtailment; LCOE also hides when
+  the energy comes, curtailment of delivered energy, and the
+  financing: use it to compare like with like, never to judge
+  a battery or a service (section E)

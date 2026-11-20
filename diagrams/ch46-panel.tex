@@ -1,0 +1,19 @@
+% Chapter 46 - one 33 kV feeder panel (WS1) as four compartments with the one-line items placed in
+% them and the terminal drawing of each (companion/ch46/sources.py ONELINE; teaching layout).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    comp/.style={draw=cInk, rounded corners=2pt, minimum width=60mm, align=center, text width=56mm},
+    tag/.style={note, anchor=west}]
+  \node[comp, minimum height=12mm, fill=cLoad!6] (lv) at (0,4.6) {محفظهٔ فشارِ ضعیف \\ رلهٔ $\mathrm{F11}$ و ترمینال‌ها};
+  \node[comp, minimum height=12mm, fill=cWind!6] (bb) at (0,3.1) {محفظهٔ شینه \\ جداکنندهٔ $\mathrm{Q2}$};
+  \node[comp, minimum height=14mm, fill=cPV!6] (cb) at (0,1.4) {محفظهٔ کلید \\ کلیدِ قدرتِ $\mathrm{Q1}$};
+  \node[comp, minimum height=18mm, fill=cBESS!6] (cc) at (0,-0.9) {محفظهٔ کابل \\ ترانسفورماتورهای جریان و ولتاژ \\ کلیدِ زمینِ $\mathrm{Q8}$، برقگیرها، کابل};
+  \node[tag] at (3.2,4.6) {$\texttt{TD-WS1-01}$};
+  \node[tag] at (3.2,3.1) {$\texttt{TD-WS1-04}$};
+  \node[tag] at (3.2,1.4) {$\texttt{TD-WS1-03}$};
+  \node[tag] at (3.2,-0.3) {$\texttt{TD-WS1-02}$};
+  \node[tag] at (3.2,-0.8) {$\texttt{TD-WS1-05}$};
+  \node[tag, text=cLoss] at (3.2,-1.4) {ترانسفورماتورِ ولتاژ: بی‌نقشه};
+\end{tikzpicture}}
+\end{document}

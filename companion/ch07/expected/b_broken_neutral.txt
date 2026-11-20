@@ -1,0 +1,8 @@
+the same loads after the neutral conductor breaks (star point floats):
+  star-point voltage 79.3 V
+  phase a: voltage across the load  165.1 V (-28 %)
+  phase b: voltage across the load  244.7 V (+6 %)
+  phase c: voltage across the load  300.7 V (+31 %)
+the lightly loaded phase sees far more than 230 V: equipment on it
+  can be damaged;
+  neutral integrity is a design and maintenance item (chapters 24, 52)

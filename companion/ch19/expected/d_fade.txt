@@ -1,0 +1,12 @@
+fade of the S1 battery under this duty (A-292, cells at 25 C):
+  cycling: 1.36 % a year; calendar at mean SOC 36 %: k sqrt(t)
+  year   calendar   cycling   total   health   data pack
+     1       1.8 %     1.4 %    3.1 %   96.9 %    98.0 %
+     5       4.0 %     6.8 %   10.8 %   89.2 %    90.0 %
+    10       5.6 %    13.6 %   19.3 %   80.7 %    80.0 %
+    15       6.9 %    20.4 %   27.3 %   72.7 %    70.0 %
+    20       8.0 %    27.3 %   35.2 %   64.8 %    60.0 %
+  health falls below 80 % in year 11 with this model; the data
+  pack's linear 2 %/yr is close to it; the warranty curve,
+  measured capacity tests and the actual duty replace both
+  (chapter 51)

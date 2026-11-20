@@ -1,0 +1,6 @@
+unsigned 32-bit counter in Wh: largest value 4,294,967,295 Wh = 4,295 MWh
+  a 5 MW turbine at capacity factor 0.366 fills it in 98 days
+reading before 4,294,000,000 Wh, after 1,032,704 Wh: naive difference
+    -4,292,967,296 Wh
+  corrected for one wrap: 2,000,000 Wh = 2.000 MWh
+  plausible? one hour at 5 MW is at most 5.000 MWh: yes

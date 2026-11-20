@@ -1,0 +1,32 @@
+who decides what for Plant P (14 topics, fictional)
+  generation licence                 national   verified
+      ERZ
+  grid connection and studies        national   verified
+      TSOZ
+  environmental permit               national   verified
+      Environment Agency of Z
+  construction permit                provincial verified
+      Province Q building office
+  land lease and access              provincial verified
+      Province Q land office
+  water abstraction                  regional   to-confirm
+      basin authority (which one?)
+  aviation obstacle                  national   verified
+      Civil Aviation Authority of Z
+  cultural heritage                  national   project-dependent
+      Heritage Office of Z
+  labour and safety                  national   verified
+      Labour Inspectorate
+  fire and emergency                 provincial to-confirm
+      Province Q fire service (or national?)
+  transport of abnormal loads        national   verified
+      Roads Agency
+  telecommunications (radio links)   national   to-confirm
+      (not identified)
+  tax registration and incentives    national   project-dependent
+      Revenue Office of Z
+  foreign exchange and repatriation  national   to-confirm
+      Central Bank of Z
+  verified 8, project-dependent 2, to-confirm 4
+  open: 6 topics - an unidentified authority is an
+  approval nobody has asked for yet

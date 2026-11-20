@@ -1,0 +1,9 @@
+passive balancing of a 2 % charge gap (A-294):
+  bleed mA   hours of bleeding   days at 2 h a day
+        50                 126                   63
+       100                  63                   31
+       200                  31                   16
+  balancing only near the top of charge is slow; a cell that
+  leaks more than the bleed can return drifts away anyway
+  (the defect example); active balancing moves charge instead
+  of burning it, at more cost and complexity

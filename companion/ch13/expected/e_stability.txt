@@ -1,0 +1,11 @@
+stability from two temperatures (10 and 92 m, A-257) and the
+  shear of the 60 and 100 m means:
+  period         T10   T92   dtheta/dz K/m   Ri bulk   class
+  night 22-04     6.0   7.6   +0.0293         +1.24   very stable
+  morning 07      9.0   8.3   +0.0013         +0.12   stable
+  midday 13      18.0  16.6   -0.0073         -2.46   unstable
+  evening 18     14.0  13.3   +0.0013         +0.13   stable
+  potential temperature adds 0.0098 K/m to the measured
+  gradient: air that cools more slowly than that with height
+  is stable; well above Ri 0.25 the night layer barely mixes
+  (the steep night shear and low turbulence of section A)

@@ -1,0 +1,26 @@
+% Chapter 23 - station DC system 110 V (A-318): two chargers (duty and standby) from the essential
+% LV half, a 250 Ah battery, the DC board with an insulation monitor, outgoing circuits to trip and
+% close circuits, protection relays, controls, communications (through DC/DC) and alarms.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small, line width=0.7pt,
+    b/.style={blk, minimum width=24mm, minimum height=11mm, text width=23mm, font=\footnotesize}]
+  \draw[bus] (2.0,6.0) -- (12.0,6.0);
+  \node[note] at (7.0,6.4) {نیمهٔ ضروریِ تابلوی $0.4\,\text{kV}$};
+  \node[b] (c1) at (9.5,4.4) {شارژرِ ۱ (کار)\\$70\,\text{A}$};
+  \node[b] (c2) at (4.5,4.4) {شارژرِ ۲ (آماده)\\$70\,\text{A}$};
+  \draw[flow] (9.5,6.0) -- (c1.north); \draw[flow] (4.5,6.0) -- (c2.north);
+  \draw[bus] (2.0,2.8) -- (12.0,2.8);
+  \node[note] at (7.0,3.2) {تابلوی $\text{DC}$ $110\,\text{V}$};
+  \draw[flow] (c1.south) -- (9.5,2.8); \draw[flow] (c2.south) -- (4.5,2.8);
+  \node[b, draw=cBESS, fill=cBESS!10] (bat) at (13.8,2.8) {باتریِ ایستگاه\\$250\,\text{Ah}$};
+  \draw[{Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (bat.west) -- (12.0,2.8);
+  \node[b, draw=cLoss, fill=cLoss!7] (im) at (0.4,2.8) {پایشِ عایق\\و هشدار};
+  \draw (im.east) -- (2.0,2.8);
+  \foreach \x/\lab in {2.6/{مدارهای قطع\\و وصل}, 5.4/{رله‌های\\حفاظت}, 8.2/{کنترل و\\نشانگرها}, 11.0/{ارتباطات\\(از $\text{DC/DC}$)}} {
+    \draw[flow] (\x,2.8) -- (\x,1.6);
+    \node[b] at (\x,1.0) {\lab};
+  }
+  \node[note, text width=120mm] at (7.0,-0.3) {خودمختاری $4$ ساعت (الزامِ موقت، $\text{U-091}$)؛ جایگزینیِ باتری با برنامه و نتیجهٔ آزمونِ ظرفیت؛ تک یا دو باتری با فلسفهٔ حفاظت};
+\end{tikzpicture}
+\end{document}

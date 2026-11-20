@@ -1,0 +1,6 @@
+a leaker found in container C5: hours to the cell (teaching)
+  with the record: trace 3 h, open 1 module (6 h): 9 h, one rack out
+  without it: open all 96 modules of the container, 2 crews: 288 h
+  energy not shifted meanwhile: rack 1.9 MWh against container 726 MWh
+  the record turns a search into a lookup; opening 96 healthy
+  modules also risks damaging them - the record is safety too

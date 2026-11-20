@@ -1,0 +1,19 @@
+% Chapter 10 - daily cost of cleaning and of lost energy against the cleaning interval, truck wet
+% cleaning in the dry season (A-196). Data: diagrams/data/ch10-cleaning.csv (companion/ch10/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=0, xmax=60, ymin=0, ymax=4500,
+      xlabel={فاصلهٔ شست‌وشو، روز}, ylabel={هزینه در روز، واحد}, xtick={0,10,...,60},
+      ytick={0,1000,2000,3000,4000}, legend pos=north east]
+    \addplot[sInk, restrict x to domain=4:60] table[x=t, y=clean, col sep=comma] {data/ch10-cleaning.csv};
+    \addlegendentry{شست‌وشو}
+    \addplot[sLoss] table[x=t, y=lost, col sep=comma] {data/ch10-cleaning.csv};
+    \addlegendentry{انرژیِ ازدست‌رفته}
+    \addplot[sLimit, restrict x to domain=4:60] table[x=t, y expr=\thisrow{clean}+\thisrow{lost}, col sep=comma] {data/ch10-cleaning.csv};
+    \addlegendentry{جمع}
+    \draw[cRule, densely dotted] (axis cs:27.3,0) -- (axis cs:27.3,4500);
+    \node[note, anchor=south west] at (axis cs:28,150) {$T^* = 27.3\ \text{d}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

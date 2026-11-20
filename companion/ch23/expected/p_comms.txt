@@ -1,0 +1,12 @@
+the communications one-line on the power one-line (teaching):
+  fibre runs in every collector trench beside the cable;
+  12 turbines on 3 strings, PV stations and BESS on their feeders
+  each string as a chain of switches back to the substation:
+    first turbine: 1 links, available 0.9950
+    last turbine: 4 links, available 0.9801
+  closing the chain into a ring (fibre back along the next string):
+    last turbine available 0.999901 - two paths instead of one
+  a fibre ring is cheap where trenches already exist, unlike
+  the power ring of ch 18; the comms one-line shows each
+  switch, its supply (UPS of lesson F) and its owner, and
+  joins the interface register (lesson B)

@@ -1,0 +1,20 @@
+what the route still needs before it is built (teaching register)
+  topographic survey of the route
+      by survey contractor, before line design
+  ground investigation at angle towers
+      by geotechnical, before foundation design
+  ecology walkover in the bird season
+      by ecologist, before routing is fixed
+  cultural heritage check (ruin buffer)
+      by heritage authority, before access tracks
+  drainage paths and flood levels near the route
+      by hydrologist, before tower siting
+  site-track crossing; access from the public road
+      by road authority, before stringing
+  land access for each parcel
+      by developer (U-085), before entry
+  reinstatement standard and sign-off
+      by landowners, after construction
+  the corridor register keeps each constraint with the
+  survey or permit that closes it; ch 33 (environment and
+  social) and ch 49 (construction) take it on

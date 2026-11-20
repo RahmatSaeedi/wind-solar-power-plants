@@ -1,0 +1,8 @@
+encapsulant rolls on receipt and in store (teaching: 180 days
+  at 25 C, halving every 10 K warmer)
+  40 rolls: 8 past their life, 4 within 30 days
+  past: R17, R19, R25, R28, R29, R31, R35, R36
+  an encapsulant past its life may still laminate, but cures
+  differently (gel content, lesson C): rolls are used first in
+  first out by their remaining life, not by arrival, and the
+  store's temperature is logged as part of the material's record

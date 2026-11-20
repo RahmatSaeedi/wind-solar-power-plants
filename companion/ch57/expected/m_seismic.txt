@@ -1,0 +1,10 @@
+seismic zones of SNiP RT 22-07-2018 (TJ-34) with TEACHING ground
+accelerations (ch 30 spectrum; ch 30 basis ag = 0.25 g)
+  zone  ag g  transformer kN  vs ch 30  turbine MN m
+     7  0.10             233      0.40            11
+     8  0.20             466      0.80            22
+     9  0.40             932      1.60            45
+  turbine: wind (185 MN m) still governs in zone 9;
+  transformer: zone 9 is 1.6 times the ch 30 basis - anchors,
+  plinth and bushings are re-checked; the code's own coefficients
+  (not read here) replace the teaching ag (TJ-34; Khujand 8, Dushanbe 9)

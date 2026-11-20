@@ -1,0 +1,16 @@
+monthly operating water demand (m3; cleaning = truck at 4 % loss):
+  month  cleanings  cleaning  sanitation  battery  total
+      1       0           0        93        15      108
+      2       0           0        84        15       99
+      3       0           0        93        15      108
+      4       0           0        90        15      105
+      5       2         218        93        15      326
+      6       3         328        90        15      433
+      7       2         218        93        15      326
+      8       2         218        93        15      326
+      9       3         328        90        15      433
+     10       2         218        93        15      326
+     11       0           0        90        15      105
+     12       0           0        93        15      108
+  year: 2,804 m3 (7.7 m3 a day on average); peak month 433 m3
+  consumptive use; the fire reserve below is held, not consumed

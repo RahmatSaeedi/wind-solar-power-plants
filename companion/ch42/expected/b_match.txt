@@ -1,0 +1,8 @@
+36 blades weighed: first mass moments 479.9 to 490.2 t m
+  mean residual unbalance, sets taken at random  3.55 t m
+  sets of neighbours after sorting               0.59 t m
+  check on six blades: sorting 4.00, best of all partitions 4.00 t m
+  sorting by moment matches the best here and needs no search;
+  what is left is removed with balance mass at the root -
+  each blade's moment and set number go on its record so a
+  replacement blade can be matched later (ch 11, balance)

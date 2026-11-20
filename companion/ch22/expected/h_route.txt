@@ -1,0 +1,11 @@
+export route options for P-Central (teaching):
+  route              km  type   parcels  crossings  cost k u  months
+  A direct line       12  OHL          2          3     2,340      10
+  B along the road    15  OHL          0          1     2,760       6
+  C cable             12  cable        2          3    10,980       8
+  route B is 3 km longer but crosses no private land and one
+  road: it costs 420 k u more than A and saves 4 months of
+  land and permits on a chain with no slack left (section C);
+  the cable avoids visual effects at 4.7 times the cost; the
+  grid operator confirms the connection scope and the
+  boundary of who builds and owns each part (ch 23)

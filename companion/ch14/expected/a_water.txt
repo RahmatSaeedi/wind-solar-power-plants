@@ -1,0 +1,20 @@
+water: the spring against existing uses and the plant (A-261):
+  month   flow L/s   existing uses   spare
+  Jan       4.0         1.5          +2.5
+  Feb       4.5         1.5          +3.0
+  Mar       5.5         1.5          +4.0
+  Apr       6.0         1.5          +4.5
+  May       5.0         4.0          +1.0
+  Jun       3.5         4.0          -0.5
+  Jul       2.5         4.0          -1.5
+  Aug       2.0         4.0          -2.0
+  Sep       2.0         4.0          -2.0
+  Oct       2.5         1.5          +1.0
+  Nov       3.0         1.5          +1.5
+  Dec       3.5         1.5          +2.0
+  construction 12,204 m3 (concrete 1,404, dust 10,800); cleaning 843 m3/yr
+  dust suppression alone needs 0.46 L/s on working days
+  in Jul-Sep the spring has no spare water: the plant must not
+  draw on it;
+  options: a licensed well, treated water trucked in, dry or
+  robotic cleaning; rights and permits are verified, not assumed

@@ -1,0 +1,18 @@
+parameter sets read at the end-of-line test; released set 7a46617a1a47d4d4
+  inverter   fingerprint        verdict
+  INV-01     7a46617a1a47d4d4   released
+  INV-02     7a46617a1a47d4d4   released
+  INV-03     7a46617a1a47d4d4   released
+  INV-04     6bf052480b986dbf   DIFFERS
+  INV-05     7a46617a1a47d4d4   released
+  INV-06     7a46617a1a47d4d4   released
+  INV-07     7a46617a1a47d4d4   released
+  INV-08     7a46617a1a47d4d4   released
+  INV-09     e84c6209c4540ca4   DIFFERS
+  INV-10     7a46617a1a47d4d4   released
+  INV-04: island_detect = off
+  INV-09: firmware = 4.2.0
+  one inverter left the bench with island detection off, one
+  with an older firmware image: a fingerprint finds both in
+  seconds, a list of 200 parameters read by eye would not -
+  the released set and its fingerprint go to the site (ch 50)

@@ -1,0 +1,10 @@
+root bolt fatigue: damage-equivalent pull range 120 kN, 1e+08 cycles
+  bolt stress area 1120 mm2, detail category 50 MPa (teaching)
+  joint state            bolt share   stress range MPa   damage
+  closed (preload kept)        0.15               16.1     0.32
+  open (preload lost)          1.00              107.1   491.98
+  losing the preload multiplies the damage by 1,557:
+  the bolt that sees only a share of the load lasts the
+  turbine's life; the same bolt carrying all of it fails in
+  about 15 days - why the preload record is a critical
+  characteristic

@@ -1,0 +1,16 @@
+% Chapter 36 - recovery objectives of each system: recovery time against data that may be lost
+% (examples_m; teaching objectives).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=55, ymin=-4, ymax=28,
+      xlabel={زمانِ بازیابی (h)}, ylabel={دادهٔ مجازِ ازدست‌رفته (h)}]
+    \addplot[only marks, mark=*, mark size=2pt, color=cWind] coordinates {(8,0) (4,0) (8,0.25) (2,0) (24,1) (48,24)};
+    \node[note, anchor=south west] at (axis cs:2,0.6) {شبکه};
+    \node[note, anchor=north] at (axis cs:4,-0.4) {کنترل‌گر};
+    \node[note, anchor=south west] at (axis cs:8.4,0.8) {رله‌ها و اسکادا};
+    \node[note, anchor=south] at (axis cs:24,1.6) {تاریخ‌نگار};
+    \node[note, anchor=east] at (axis cs:47,24) {سامانهٔ نگهداری};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

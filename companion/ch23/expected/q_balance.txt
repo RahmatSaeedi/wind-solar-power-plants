@@ -1,0 +1,10 @@
+single-phase loads on the 400/230 V station board (teaching):
+  as first drawn:  L1  91.3 A  L2  39.1 A  L3  21.7 A   N  62.7 A
+    unbalance (max - mean)/mean: 80%
+  lighting B to L3, heaters to L2:
+                   L1  43.5 A  L2  60.9 A  L3  47.8 A   N  15.7 A
+    unbalance: 20%
+  the busiest phase sets the cable and breaker; the neutral
+  carries the difference (and the third harmonics of UPS and
+  LED drivers, which add instead of cancel - ch 27); the
+  phase of each circuit is a column of the schedule

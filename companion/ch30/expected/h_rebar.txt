@@ -1,0 +1,11 @@
+bending schedule of one 24 m foundation (teaching bar marks)
+  mark                    dia mm   length m   number   mass t
+  B1 bottom radial           32       11.0      320     22.2
+  B2 bottom ring             32       70.0       26     11.5
+  T1 top radial              25       10.0      300     11.6
+  P1 pedestal vertical       32        4.5      180      5.1
+  L1 shear links             16        3.0     1400      6.6
+  total 57 t, about 64 kg per m3 of concrete
+  the schedule is the cutting and bending factory's order;
+  cages are tied to it, checked bar by bar against it (cover
+  and spacing, ch 29) and released at a hold point

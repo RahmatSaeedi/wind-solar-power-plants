@@ -1,0 +1,7 @@
+132 kV conductor and stringing (teaching; route of ch 29)
+  conductor 21.8 km + earth wire: 12 reels of about 2.8 t
+  stringing sections between angle and terminal towers: 5
+  puller and tensioner sites: 10 (one at each section end)
+  each site needs a level pad, access for a low-loader and
+  anchors; the site track crossing needs a guard structure
+  so a dropped conductor never reaches the track

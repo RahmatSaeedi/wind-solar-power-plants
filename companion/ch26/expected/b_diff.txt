@@ -1,0 +1,9 @@
+transformer differential with bias (pickup 0.2 pu, slope 30 %):
+  through fault, CTs matched       I1   8.3  I2  -8.3  -> restrain
+  through fault, 5 % CT mismatch   I1   8.3  I2  -7.9  -> restrain
+  internal fault fed from HV only  I1   8.3  I2   0.0  -> trip
+  internal fault, light load       I1   1.0  I2  -0.2  -> trip
+  inrush on energising is all on one side and would look like
+  an internal fault: its 2nd harmonic blocks the element
+  (threshold set with the maker); the 30-degree shift of YNd11
+  is compensated in the relay (ch 25)

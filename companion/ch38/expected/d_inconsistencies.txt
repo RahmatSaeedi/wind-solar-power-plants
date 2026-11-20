@@ -1,0 +1,13 @@
+linked registers checked against each other (planted, A-418)
+  pair                        tag          field    first    second
+  one-line / equipment list   =PVF2-3-T1   mva         5.5      5.0
+  one-line / equipment list   =T1-Q2       a          1600     1250
+  one-line / equipment list   =WS1-2-T1    vector    Dyn11     Dyn5
+  one-line / cable schedule   =PVF2-W1     km          0.6      0.9
+  settings / CT data sheets   =PVF2-Q1     ct          800      600
+  5 disagreements; who is right is a rule, not a vote:
+  ratings come from the approved one-line (rev 2 carries the
+  1,600 A incomers of ch 26), CT ratios from the switchgear
+  data sheets, lengths from the route survey. Each finding
+  becomes a correction of the other document, with a new
+  revision

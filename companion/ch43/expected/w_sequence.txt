@@ -1,0 +1,18 @@
+factory test sequence of T1 (teaching hours; 16 h a day)
+  test                              hours   why in this place
+  ratio and vector group                3   first: wrong taps spoil the rest
+  winding resistance, cold              4   base for losses and the heat run
+  no-load loss and current              3   core as built
+  load loss and impedance               4   windings as built
+  heat run (short-circuit method)      14   before dielectrics, oil sampled
+  dissolved gas after heat run          2   within hours of the heat run
+  dielectric tests with PD             10   after the heat run
+  lightning impulse                     6   insulation of discs and leads
+  no-load loss repeated                 2   nothing changed by the dielectrics
+  sound                                 4   fans and core
+  frequency response, all windings      4   baseline at the end
+  functional tests, OLTC, devices       6   accessories
+  62 hours, about 4 working days in the bay
+  the order is evidence too: a repeated no-load test after the
+  dielectrics shows they changed nothing, and the frequency
+  response taken last is the state that will travel

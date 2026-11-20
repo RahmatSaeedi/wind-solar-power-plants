@@ -1,0 +1,32 @@
+% Chapter 55 - the instruments of the Iran dossier on a time line, right to left: Art 61 law (1389),
+% Law on removing obstacles (1401), Art 14 and Art 4 bylaws (1402/8), renewables bylaw (1402/12/23),
+% land directive (1403/7/29), amendment (1403/9/4), end of the two-year validity (~1404/12), and the
+% reported 1405 EIA bylaw (to-confirm, dashed). Source research 2026-11-17.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\scriptsize,
+    m/.style={circle, fill=cBESS, inner sep=1.7pt},
+    q/.style={circle, draw=cLoss, fill=white, inner sep=1.7pt},
+    lab/.style={align=center, text width=24mm, text=cInk}]
+  \draw[->, line width=0.9pt, draw=cInkB] (0.6,0) -- (-15.6,0);
+  % x = -(year - 2010) * 0.95
+  \foreach \y/\x in {2011/-0.95, 2016/-5.7, 2022/-11.4, 2026/-15.2} {
+    \draw[cInkB] (\x,0.08) -- (\x,-0.08);
+    \node[text=cMuted, anchor=north] at (\x,-0.1) {$\y$};
+  }
+  \node[m] at (-1.15,0) {};
+  \node[lab, anchor=south] at (-1.15,0.35) {قانونِ اصلاحِ الگوی مصرف، مادهٔ ۶۱ (۱۳۸۹)};
+  \node[m] at (-11.75,0) {};
+  \node[lab, anchor=north] at (-11.0,-0.55) {قانونِ رفعِ موانعِ توسعهٔ صنعتِ برق (۱۴۰۱)};
+  \node[m] at (-12.6,0) {};
+  \node[lab, anchor=south] at (-12.2,0.35) {آیین‌نامه‌های مواد ۱۴ و ۴ (آبانِ ۱۴۰۲)};
+  \node[m] at (-12.95,0) {};
+  \node[lab, anchor=north] at (-13.4,-0.55) {آیین‌نامهٔ رفعِ موانعِ احداثِ نیروگاه‌های تجدیدپذیر (۱۴۰۲/۱۲/۲۳)};
+  \node[m] at (-13.55,0) {};
+  \node[m] at (-13.65,0) {};
+  \node[lab, anchor=south] at (-14.4,0.35) {دستورالعملِ زمین (۱۴۰۳/۷/۲۹) و اصلاحیه (۱۴۰۳/۹/۴)};
+  \node[q] at (-14.85,0) {};
+  \draw[cLoss, dashed] (-14.85,-0.1) -- (-14.85,-1.9);
+  \node[lab, anchor=north, text=cLoss] at (-15.3,-1.95) {پایانِ دو سالِ اعتبار؟ آیین‌نامهٔ ارزیابیِ ۱۴۰۵؟};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,10 @@
+reactive capability at the POC (ch 28 REQ-G01: +/-33 Mvar, teaching)
+  P MW  required  lagging  leading
+    20        33     34.1    -33.6
+    50        33     33.8    -34.0
+    80        33     33.2    -33.4
+   100        33     30.6    -33.1  SHORT
+  at 100 MW the plant reaches 30.6 Mvar lagging: the converter
+  current limit and the hot day of ch 28 meet; the result is
+  a deviation for the network operator to accept or a
+  compensator to add - not a test to repeat until it passes

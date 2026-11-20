@@ -1,0 +1,17 @@
+% Chapter 3 — free vibration of the tower top modelled as a mass-spring-damper (f_n = 0.25 Hz,
+% damping ratio 1 %, assumed), RK4 solution and its exponential envelope. Data: ch03-m-tower.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=62mm,
+      xlabel={زمان (s)}, ylabel={جابه‌جاییِ بالای برج (m)},
+      xmin=0, xmax=60, ymin=-0.55, ymax=0.55, xtick={0,10,...,60}, ytick={-0.5,-0.25,...,0.5},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[sWind, line width=0.8pt] table[x=t, y=x, col sep=comma] {data/ch03-m-tower.csv};
+    \addlegendentry{پاسخِ رونگه-کوتا}
+    \addplot[sLimit] table[x=t, y=env, col sep=comma] {data/ch03-m-tower.csv};
+    \addlegendentry{پوشِ $0.5\,e^{-\zeta\omega_n t}$}
+    \addplot[sLimit, forget plot] table[x=t, y expr=-\thisrow{env}, col sep=comma] {data/ch03-m-tower.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

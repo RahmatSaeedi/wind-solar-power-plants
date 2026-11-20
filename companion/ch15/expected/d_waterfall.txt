@@ -1,0 +1,26 @@
+loss waterfall (model 15.1), each step as % of the energy entering it:
+  wind  gross, 1.225 kg/m3, free stream      218.79 GWh    -0.00 %
+  wind  air density at the hub               200.12 GWh    -8.53 %
+  wind  terrain (W2b)                        199.56 GWh    -0.28 %
+  wind  wakes (W2b)                          191.56 GWh    -4.01 %
+  wind  long-term correction                 196.88 GWh    +2.77 %
+  wind  availability                         193.14 GWh    -1.90 %
+        total 11.73 % (product of steps); simple sum 11.95 %
+  pv    POA at STC efficiency                129.15 GWh    -0.00 %
+  pv    IAM, temperature, low light          119.32 GWh    -7.61 %
+  pv    DC wiring and mismatch               115.74 GWh    -3.00 %
+  pv    inverter efficiency                  113.82 GWh    -1.66 %
+  pv    clipping at 49 MW                    113.03 GWh    -0.69 %
+  pv    soiling and shading                  111.34 GWh    -1.50 %
+  pv    long-term correction                 110.00 GWh    -1.20 %
+  pv    degradation, year 1                  109.45 GWh    -0.50 %
+  pv    availability                         108.36 GWh    -1.00 %
+        total 16.10 % (product of steps); simple sum 17.16 %
+  plant wind + PV at MV                      301.49 GWh    -0.00 %
+  plant MV and transformer losses            298.20 GWh    -1.09 %
+  plant own use                              295.86 GWh    -0.79 %
+  plant export limit 100 MW                  295.63 GWh    -0.08 %
+  plant grid outages                         295.14 GWh    -0.17 %
+        total  2.11 % (product of steps); simple sum  2.12 %
+  a correction can be a gain (long-term wind); percentages of
+  successive steps multiply and do not add

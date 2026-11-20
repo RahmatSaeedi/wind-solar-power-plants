@@ -1,0 +1,19 @@
+X-bar and R charts of joint resistance, limits from S-01..S-04
+  X-bar: centre 12.32, UCL 14.17, LCL 10.47
+  R:     centre 3.20, UCL 6.77
+  skid   mean   range  signal
+  S-01  12.24   4.80   -
+  S-02  12.28   2.10   -
+  S-03  13.04   4.00   -
+  S-04  11.72   1.90   -
+  S-05  15.04   5.30   mean
+  S-06  15.86   6.30   mean
+  S-07  16.64   1.40   mean
+  S-08  12.64   4.40   -
+  S-09  12.28   3.10   -
+  S-10  12.86   2.60   -
+  out of control: S-05, S-06, S-07
+  with four skids the limits are rough; they are refined as
+  data grows. The chart would have flagged the drift on the
+  first skid built with it - had joint resistance been
+  measured at all (lesson D)

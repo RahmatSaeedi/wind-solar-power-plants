@@ -1,0 +1,8 @@
+one turbine, day 142 of the data year, 11:00 (S0):
+  wind at hub 9.50 m/s from 302 deg; air 31.0 C, 875 hPa -> 1.002 kg/m3
+  rotor (BEM, steady): 10.28 rpm, TSR 8.50, pitch 0.0 deg, Cp 0.485
+  power 3,459 kW; aero torque 3.42 MN m; thrust 681 kN
+  generator 1032 rpm through the 1:100.4 gearbox (D-011)
+  data-pack curve at the equivalent speed 8.88 m/s: 3,417 kW
+  the steady model and the measured-style curve differ by the
+  turbulence averaging of a real ten-minute mean

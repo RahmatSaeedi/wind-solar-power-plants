@@ -1,0 +1,10 @@
+30 annual maxima of the 10-minute mean wind at hub height (synthetic, A-036)
+  mean 26.69 m/s, std 3.35 m/s, largest 34.81 m/s
+  Gumbel by moments: mu = 25.19, beta = 2.61 m/s
+  Gumbel by line on the Gumbel plot: mu = 25.12, beta = 2.94 m/s
+   10-year value: moments 31.1 m/s, plot 31.7 m/s
+   50-year value: moments 35.4 m/s, plot 36.6 m/s
+  100-year value: moments 37.2 m/s, plot 38.7 m/s
+  chance the 50-year value is exceeded in a 25-year life: 39.7 %
+  50-year value from 10 years: 90 % bootstrap range 30.7 .. 39.4 m/s
+  50-year value from 30 years: 90 % bootstrap range 32.8 .. 37.6 m/s

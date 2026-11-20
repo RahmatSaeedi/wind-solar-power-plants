@@ -1,0 +1,10 @@
+curtailment in the high-water months under two readings (ch 21
+model, debt as sized; permitted = 2% of the year, teaching)
+  summer cut  year cut   A: min DSCR    IRR   B: min DSCR    IRR
+          0%      0.0%          1.20  10.2%          1.20  10.2%
+         10%      4.2%          1.15   9.1%          1.18   9.7%
+         20%      8.5%          1.09   7.9%          1.18   9.7%
+         40%     16.9%          0.95   5.5%          1.18   9.7%
+  at 20 % of summer energy (8.5% of the year) the readings give
+  a minimum DSCR of 1.09 against 1.18; equity IRR 7.9% against
+  9.7%: the reading (IN-02) is settled in writing before the bid

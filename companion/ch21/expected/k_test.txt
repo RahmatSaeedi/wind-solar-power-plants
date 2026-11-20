@@ -1,0 +1,11 @@
+a power-curve test with measurement uncertainty (tolerance 1 %):
+  true shortfall %   test u 1.5 %: P(pay)   test u 4 %: P(pay)
+               0.0                   0.25                 0.40
+               1.0                   0.50                 0.50
+               2.0                   0.75                 0.60
+               4.0                   0.98                 0.77
+  with a 4 % test uncertainty a real 2 % shortfall is paid only
+  six times in ten, and a perfect machine pays four times in
+  ten if the contract counts the measured value; contracts
+  therefore subtract the uncertainty before damages - which
+  makes the test method (chapter 11) the real value of the LD

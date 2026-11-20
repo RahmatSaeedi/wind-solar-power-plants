@@ -1,0 +1,16 @@
+% Chapter 36 - devices of each OT zone and the ones that send security logs (examples_s;
+% synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xbar, bar width=3.6mm, xmin=0, xmax=46,
+      ymin=-0.6, ymax=5.6, ytick={0,...,5}, y dir=reverse,
+      yticklabels={رله‌ها و اندازه‌گیری, توربین‌ها, اینورترها, باتری, کنترل, ناحیهٔ میانی},
+      xlabel={شمارِ دستگاه‌ها}, xmajorgrids=true, ymajorgrids=false,
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[fill=cInkB!20, draw=cInkB] table[x=n, y=i, col sep=comma] {data/ch36-coverage.csv};
+    \addplot[fill=cWind!45, draw=cWind] table[x=s, y=i, col sep=comma] {data/ch36-coverage.csv};
+    \legend{همهٔ دستگاه‌ها, دستگاه‌هایی که سابقه می‌فرستند}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

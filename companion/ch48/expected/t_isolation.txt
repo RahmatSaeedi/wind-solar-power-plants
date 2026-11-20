@@ -1,0 +1,11 @@
+4-20 mA loops that cross from one earthing system to another
+  L-101  met mast       -> MET-1          crosses: no   isolator: no
+  L-102  MET-1          -> SUB-RTU        crosses: yes  isolator: yes
+  L-103  WTG-T05 tower  -> WTG-T05 base   crosses: no   isolator: no
+  L-104  PV-B07         -> SUB-RTU        crosses: yes  isolator: no
+  L-105  BESS-C3        -> SUB-RTU        crosses: yes  isolator: yes
+  crossing without an isolator: L-104
+  in an earth fault the two earths can differ by hundreds of
+  volts for a moment: the loop carries it into the RTU's input
+  card - an isolator at the boundary, recorded in the loop
+  schedule (ch 26 earth potential rise, ch 34 earthing)

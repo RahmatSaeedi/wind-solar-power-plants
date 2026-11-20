@@ -1,0 +1,33 @@
+% Chapter 7 - broken neutral (example of section B): the load star point n' moves 79.3 V
+% towards the heavily loaded phase a; the light phase c sees 300.7 V.
+% Scale 2.6 cm = 230 V; star-point position from companion/ch07/examples_b.py.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \coordinate (N) at (0,0);
+  \coordinate (A) at (2.6,0);
+  \coordinate (B) at (-1.3,-2.2517);
+  \coordinate (C) at (-1.3,2.2517);
+  \coordinate (n) at (0.7847,-0.4333);
+  \draw[cRule, dashed, line width=0.5pt] (A) -- (B) -- (C) -- cycle;
+  \foreach \p/\t in {A/{\text{a}}, B/{\text{b}}, C/{\text{c}}}{
+    \draw[line width=1.0pt, cInkB, ->] (N) -- (\p);
+  }
+  \draw[line width=1.2pt, cLoss, ->] (N) -- (n);
+  \foreach \p in {A, B, C}{
+    \draw[line width=1.1pt, cLoad, ->] (n) -- (\p);
+  }
+  \fill[cInk] (N) circle (1.6pt);
+  \fill[cLoss] (n) circle (1.8pt);
+  \node[note, text=cInk, anchor=east] at (-0.08,0.12) {$\text{N}$};
+  \node[note, text=cInk, anchor=north] at ($(n)+(0,-0.08)$) {$\text{n}'$};
+  \node[note, text=cInk, anchor=west] at (A) {$\text{a}$: $165.1\ \text{V}$ ($-28\,\%$)};
+  \node[note, text=cInk, anchor=north east] at (B) {$\text{b}$: $244.7\ \text{V}$ ($+6\,\%$)};
+  \node[note, text=cInk, anchor=south east] at (C) {$\text{c}$: $300.7\ \text{V}$ ($+31\,\%$)};
+  \node[note, text width=40mm, anchor=west] at (1.4,-1.7) {جابه‌جاییِ نقطهٔ ستاره $79.3\ \text{V}$ به سوی فازِ پربار};
+  \draw[cInkB, line width=1.0pt] (3.4,1.9) -- (4.1,1.9);
+  \node[note, text=cInk, anchor=west] at (4.15,1.9) {ولتاژِ فازِ شبکه};
+  \draw[cLoad, line width=1.1pt] (3.4,1.4) -- (4.1,1.4);
+  \node[note, text=cInk, anchor=west] at (4.15,1.4) {ولتاژِ دو سرِ بار};
+\end{tikzpicture}}
+\end{document}

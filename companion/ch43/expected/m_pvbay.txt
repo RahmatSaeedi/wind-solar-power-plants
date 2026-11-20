@@ -1,0 +1,7 @@
+test bay for the ten PV unit transformers (teaching)
+  routine tests 6 h a unit x 10: 3.75 days
+  type tests on the first unit: 2.0 days; sound on one: 0.5 day
+  6.2 bay days; the buyer witnesses the first unit fully and
+  samples the rest (ch 39, witness sampling) - a design fault
+  shows on unit 1, a workmanship fault may sit on any unit,
+  which is why routine tests run on all ten

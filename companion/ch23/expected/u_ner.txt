@@ -1,0 +1,11 @@
+sizing the neutral earthing resistor and its transformer (teaching):
+  R = 19,053 / 400 = 47.6 ohm
+  energy in 10 s: I^2 R t = 76 MJ
+  stainless-steel grid, c 500 J/(kg K), allowed rise 720 K:
+    at least 212 kg of element (adiabatic: all heat stays in it)
+  earthing transformer: 7.6 MVA for 10 s (short-time),
+    a small continuous rating for the neutral's standing current
+  the 10 s rating covers the slowest clearing with breaker
+  failure (ch 26: 1.75 s) with margin for a repeat fault
+  before the element cools; the makers rate both from the
+  specification

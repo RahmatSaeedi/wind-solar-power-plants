@@ -1,0 +1,16 @@
+interpretations the Tajikistan dossier needs in writing
+  IN-01 (TJ-11) does a 100 MW plant need a permit under Law 1968?
+      decides: an approval step and its time (S10)
+  IN-02 (TJ-26) curtailment: rules say no breach, the model PPA pays
+      decides: lost profit - which governs, and what is 'permitted'?
+  IN-03 (TJ-50) what are the 'state guarantees' for late payment?
+      decides: the payment security lenders will ask for
+  IN-04 (TJ-40) GOST 32144-2013 or GOST 13109-97 for power quality?
+      decides: the limits the plant is tested against
+  IN-05 (TJ-56) which EIA rules apply while the new Code enters force?
+      decides: the content and time of S6
+  IN-06 (TJ-13) who is the single buyer and dispatcher before 2027?
+      decides: the PPA counterparty and the SCADA end point
+  IN-07 (TJ-45) is the RES conformity certificate still required?
+      decides: a test and a certificate before first sale
+  7 readings, each a written question with a dated answer

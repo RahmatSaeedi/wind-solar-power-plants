@@ -1,0 +1,9 @@
+a 10 % fall of the local currency before financial close:
+  70 % of the capital cost is priced in a hard currency (A-310)
+  case                    capex k u   debt k u   equity k u   equity IRR %
+  base                      156,450    121,025       49,163          10.22
+  currency -10 %            168,618    121,025       61,331           8.51
+  the debt is sized on the cash flows, which did not change:
+  the whole increase lands on the equity; hedging the
+  currency until the price is fixed, or a tariff indexed to
+  the hard currency, moves this risk elsewhere (section E)

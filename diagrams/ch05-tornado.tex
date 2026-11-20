@@ -1,0 +1,19 @@
+% Chapter 5 - one-at-a-time sensitivity of the project NPV (fictional money, A-093):
+% change from the base NPV for the low and high value of each input.
+% Data: diagrams/data/ch05-tornado.csv (companion/ch05/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=62mm, xbar, bar width=5mm, bar shift=0pt,
+      xlabel={تغییرِ ارزشِ خالصِ فعلی (میلیون واحد)},
+      xmin=-18, xmax=18, ymin=-0.6, ymax=4.6, ytick={0,1,2,3,4},
+      yticklabels={هزینهٔ بهره‌برداری $\pm20\%$, سرمایه $\pm10\%$, نرخِ تنزیل $\pm1$ واحد, قیمت $\pm10\%$, انرژی $\pm10\%$},
+      xtick={-15,-10,...,15}]
+    \addplot[draw=cLoss, fill=cLoss!30] table[y=k, x=lo, col sep=comma] {data/ch05-tornado.csv};
+    \addplot[draw=cBESS, fill=cBESS!30] table[y=k, x=hi, col sep=comma] {data/ch05-tornado.csv};
+    \draw[cInk] (axis cs:0,-0.6) -- (axis cs:0,4.6);
+    \node[note, anchor=north west] at (axis cs:-17.5,4.5) {مقدارِ نامطلوب};
+    \node[note, anchor=north east] at (axis cs:17.5,4.5) {مقدارِ مطلوب};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

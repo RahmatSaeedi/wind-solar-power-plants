@@ -1,0 +1,9 @@
+POC voltage control after a -2 % grid step (integral controller)
+  case                         ki Mvar/pu/s   overshoot %   settles (10 %) s
+  SCR 15, tuned for it                 1500             0                1.8
+  SCR 3, same gains                    1500            56                2.8
+  SCR 3, retuned                        300             0                1.8
+  the same gains that settle smoothly on the strong grid ring
+  on the weak one: the grid's voltage sensitivity (1/S_sc) is
+  part of the loop gain - controller settings are studied at
+  the minimum strength and retuned (or scheduled) for it

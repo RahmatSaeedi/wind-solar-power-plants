@@ -1,0 +1,29 @@
+finance and fiscal sources of the project (12 items, fictional)
+  corporate income tax rate                verified
+      source: law; review: local tax advisor
+  tax depreciation of plant                to-confirm
+      source: regulation; review: local tax advisor
+  import duty on modules and turbines      project-dependent
+      source: regulation; review: customs broker + local tax advisor
+  production premium 5 u/MWh               to-confirm
+      source: draft regulation; review: local counsel
+  PPA tariff and indexation                verified
+      source: contract; review: commercial lead + local counsel
+  currency of payment and convertibility   to-confirm
+      source: central-bank rule; review: local bank + local counsel
+  repatriation of dividends                to-confirm
+      source: law + central-bank rule; review: local counsel
+  foreign ownership limit                  verified
+      source: law; review: local counsel
+  security over land lease                 project-dependent
+      source: law; review: lenders' counsel
+  compulsory insurances                    verified
+      source: regulation; review: insurance broker
+  settlement of imbalance                  verified
+      source: grid code; review: commercial lead
+  withholding tax on interest              to-confirm
+      source: law; review: local tax advisor
+  rule for the model:
+    verified           -> base case (5 items)
+    project-dependent  -> base case, flagged (2 items)
+    to-confirm         -> sensitivity only (5 items)

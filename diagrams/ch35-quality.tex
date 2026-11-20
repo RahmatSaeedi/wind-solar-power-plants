@@ -1,0 +1,26 @@
+% Chapter 35 - quality flags of a value at the source and after a gateway whose mapping table drops two
+% of them (examples_b; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    q/.style={blk, minimum width=26mm, minimum height=7mm, text width=24mm}]
+  \node[note] at (8.0,0.9) {پرچمِ مبدأ};
+  \node[note] at (4.0,0.9) {دروازهٔ ارتباطی};
+  \node[note] at (0.0,0.9) {پرچمِ مقصد};
+  \node[q, blkWind] (s1) at (8.0,0) {نامعتبر};
+  \node[q, blkWind] (s2) at (8.0,-1.25) {مشکوک};
+  \node[q, blkWind] (s3) at (8.0,-2.5) {جایگزین‌شده};
+  \node[q, blkWind] (s4) at (8.0,-3.75) {کهنه};
+  \node[q, blkWind] (s5) at (8.0,-5.0) {آزمون};
+  \node[blk, blkBESS, minimum width=14mm, minimum height=62mm] (gw) at (4.0,-2.5) {};
+  \node[q, blkLoad] (t1) at (0.0,-0.6) {نامعتبر};
+  \node[q, blkLoad] (t4) at (0.0,-3.75) {نابه‌روز};
+  \node[q, blkWarn] (lost) at (0.0,-6.3) {گم می‌شود};
+  \draw[flow] (s1.west) -- (gw.east |- s1.west); \draw[flow] (gw.west |- s1.west) -- (t1.east);
+  \draw[flow] (s2.west) -- (gw.east |- s2.west); \draw[flow] (gw.west |- s2.west) -- (t1.east);
+  \draw[flow] (s4.west) -- (gw.east |- s4.west); \draw[flow] (gw.west |- s4.west) -- (t4.east);
+  \draw[flow, draw=cLoss] (s3.west) -- (gw.east |- s3.west); \draw[flow, draw=cLoss] (gw.west |- s3.west) -- (lost.north east);
+  \draw[flow, draw=cLoss] (s5.west) -- (gw.east |- s5.west); \draw[flow, draw=cLoss] (gw.west |- s5.west) -- (lost.east);
+  \node[note, text width=60mm] at (4.0,-7.5) {مقدارِ دستی یا آزمونی، در مرکزِ کنترل اندازه‌گیری‌شده به نظر می‌رسد: هر پرچمِ گم‌شده یا نگاشت می‌شود یا مقدار مسدود};
+\end{tikzpicture}
+\end{document}

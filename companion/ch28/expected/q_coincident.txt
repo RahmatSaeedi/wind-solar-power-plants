@@ -1,0 +1,11 @@
+a dip (needs reactive current) and a frequency event (needs active
+  power) together: 1.1 pu current limit, battery exporting 0.5 pu
+  with a 0.25 pu frequency reserve; the dip asks for 1.0 pu reactive
+  priority   reactive got/need   active got/need   reserve delivered
+  Q first        1.00 / 1.00      0.46 / 0.75                   0 %
+  P first        0.80 / 1.00      0.75 / 0.75                 100 %
+  the current limit cannot serve both in full: with reactive
+  priority (usual for ride-through) the reserve and even part
+  of the export vanish during the dip; with active priority
+  the voltage gets a fifth less support - the requirement or
+  the contract states which wins, and the study shows the cost

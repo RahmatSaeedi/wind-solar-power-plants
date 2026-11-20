@@ -1,0 +1,17 @@
+% Chapter 32 - the safety management system as a plan-do-check-act loop around the workers'
+% participation, read anticlockwise from the top right (section A; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    q/.style={blk, minimum width=44mm, minimum height=17mm, text width=42mm}]
+  \node[q, blkLoad] (p) at (5.2,2.4) {\textbf{برنامه‌ریزی}\\[2pt]شناساییِ خطر، ارزیابیِ ریسک، الزامات، هدف‌ها};
+  \node[q, blkWind] (d) at (0,2.4) {\textbf{اجرا}\\[2pt]کنترل‌ها، مجوزِ کار، صلاحیت، پیمانکاران، آمادگیِ اضطراری};
+  \node[q, blkPV] (c) at (0,-0.4) {\textbf{بررسی}\\[2pt]بازرسی، پایش، رویدادها و شبه‌حادثه‌ها، ممیزی};
+  \node[q, blkBESS] (a) at (5.2,-0.4) {\textbf{اقدام}\\[2pt]درس‌آموزی، اقدامِ اصلاحی، مدیریتِ تغییر};
+  \node[blkWarn, minimum width=24mm, text width=22mm] at (2.6,1.0) {مشارکتِ کارکنان و رهبری};
+  \draw[flow] (p.west) -- (d.east);
+  \draw[flow] (d.south) -- (c.north);
+  \draw[flow] (c.east) -- (a.west);
+  \draw[flow] (a.north) -- (p.south);
+\end{tikzpicture}
+\end{document}

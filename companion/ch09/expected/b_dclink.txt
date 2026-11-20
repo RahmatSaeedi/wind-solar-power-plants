@@ -1,0 +1,8 @@
+DC link of one stack: phase current 1,323 A RMS, m 0.95:
+  capacitor ripple current 718 A RMS (closed form)
+  film capacitors 1 mF / 1300 V / 65 A each (A-152): 12 needed for the ripple
+  bank 12 mF; energy at 1500 V (cold open circuit) 13.5 kJ
+  holds 1.25 MW for 1.0 ms from 1050 to 950 V
+  50 kohm bleeder: 1500 -> 50 V in 2,041 s (34 min);
+    the maker states the real wait time on the label
+  the ripple current, not the capacitance, sizes the bank

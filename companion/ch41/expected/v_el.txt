@@ -1,0 +1,10 @@
+EL image of one module: 24 x 6 half cells, 6 x 6 pixels each (synthetic)
+  pixel darker than half the module's mean = inactive
+  half cell (row, col)   inactive share
+  ( 5, 2)                       36%
+  ( 9, 0)                        3%
+  (17, 4)                       11%
+  worst cell 36%: grade C (teaching rule: C above 10 %, B above 2 %)
+  the grade is a rule on numbers, so two graders agree when
+  they apply it (lesson C, kappa); the image is kept with the
+  serial as the module's baseline for later claims

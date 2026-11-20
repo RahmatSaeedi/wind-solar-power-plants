@@ -1,0 +1,39 @@
+% Chapter 13 - a four-beam profiling lidar on flat ground and on a hilltop: the beams sample
+% different places of the scan circle; over a hill the windward beam sees rising and the lee beam
+% sinking air (conceptual, teaching beam angle 28 degrees, A-257).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  % flat ground
+  \begin{scope}
+    \fill[cGridline] (-3,-0.12) rectangle (3,0);
+    \draw[cInkB, line width=0.6pt] (-3,0) -- (3,0);
+    \node[blkWind, minimum width=8mm, minimum height=4mm] at (0,0.2) {};
+    \draw[cWind, line width=0.6pt, densely dashed] (0,0.4) -- (-1.6,3.4);
+    \draw[cWind, line width=0.6pt, densely dashed] (0,0.4) -- (1.6,3.4);
+    \draw[dimline] (-1.6,3.6) -- (1.6,3.6);
+    \node[note, anchor=south] at (0,3.65) {دایرهٔ اسکن: $106\ \text{m}$ در $100\ \text{m}$};
+    \foreach \y in {1.4,2.4,3.2} {\draw[flow, cInk] (-2.8,\y) -- (-2.0,\y);}
+    \node[note, anchor=north] at (0,-0.25) {زمینِ هموار: جریانِ یکسان در هر دو پرتو};
+  \end{scope}
+  % hilltop
+  \begin{scope}[shift={(7.5,0)}]
+    \fill[cGridline] (-3,-0.12) -- (-3,0) .. controls (-1.2,0.2) and (-0.8,0.9) .. (0,0.9)
+      .. controls (0.8,0.9) and (1.2,0.2) .. (3,0) -- (3,-0.12) -- cycle;
+    \draw[cInkB, line width=0.6pt] (-3,0) .. controls (-1.2,0.2) and (-0.8,0.9) .. (0,0.9)
+      .. controls (0.8,0.9) and (1.2,0.2) .. (3,0);
+    \node[blkWind, minimum width=8mm, minimum height=4mm] at (0,1.1) {};
+    \draw[cWind, line width=0.6pt, densely dashed] (0,1.3) -- (-1.4,4.0);
+    \draw[cWind, line width=0.6pt, densely dashed] (0,1.3) -- (1.4,4.0);
+    \draw[flow, cLoss] (-1.15,2.6) -- (-0.95,3.15);
+    \node[note, anchor=east, text=cLoss] at (-1.2,2.8) {بالارو};
+    \draw[flow, cLoss] (0.95,3.15) -- (1.15,2.6);
+    \node[note, anchor=west, text=cLoss] at (1.2,2.8) {پایین‌رو};
+    \foreach \y in {1.6,2.6,3.4} {\draw[flow, cInk] (-2.8,\y) -- (-2.0,\y);}
+    \node[note, anchor=north, text width=60mm] at (0,-0.25)
+      {روی تپه: دو پرتو باد را جای دیگری می‌بینند؛ بازسازیِ هم‌گن تندی را کم نشان می‌دهد};
+  \end{scope}
+  \node[note, anchor=south] at (-2.4,3.4) {باد};
+  \node[note, anchor=south] at (5.1,3.5) {باد};
+\end{tikzpicture}}
+\end{document}

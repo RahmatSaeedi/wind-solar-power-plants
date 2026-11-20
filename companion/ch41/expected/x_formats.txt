@@ -1,0 +1,10 @@
+cell format and what it does to the plant (half-cut, 144 cells,
+  current scales with cell area; teaching)
+  format     module Isc A   fuse 1.5 x Isc   area m2   mass kg
+  182 mm          13.98             21.0      2.58      28.1
+  210 mm          18.61             27.9      3.37      36.7
+  a larger cell carries a third more current: string fuses,
+  cables and the inverter's input current change (ch 24, ch 26),
+  and a 37 kg module of 3.4 m2 is a two-person lift that
+  catches more wind on the way to the table (ch 32, lifting);
+  the format is a plant decision as much as a module one

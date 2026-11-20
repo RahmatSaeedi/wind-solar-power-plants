@@ -1,0 +1,17 @@
+the buyer's inspection points at the factory (teaching plan)
+  point                                kind
+  design review closed                 H
+  core steel certificates              R
+  bare-core loss                       W
+  winding dimensions                   R
+  active part before drying            W
+  drying end point                     R
+  oil before filling                   R
+  routine and type tests               H
+  frequency response, DGA baselines    R
+  preparation for shipment             W
+  2 holds, 3 witness, 5 record reviews; 5 visits, about 15 days
+  three of T1's five gaps sit on 'R' rows (winding heights,
+  drying, oil), the burr on no row at all, the recorder on a
+  witness still ahead - a witnessed drying end point would
+  have been cheap; the plan is set from the FMEA (lesson C)

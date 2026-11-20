@@ -1,0 +1,10 @@
+major replacements in 12 turbines over 25 years (expected counts)
+  component                expected   chance of at least one
+  gearbox replacement           4.5                      99%
+  main bearing                  3.0                      95%
+  generator replacement         3.0                      95%
+  blade replacement             1.5                      78%
+  about 12 crane campaigns in the plant's life: the
+  heavy-lift plan, road access and spare strategy of ch 31
+  and ch 52 are sized on this, and the component's quality
+  record (this chapter) is where its rate starts

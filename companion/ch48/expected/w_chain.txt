@@ -1,0 +1,11 @@
+traceability chain of a pyranometer's calibration (teaching values)
+  level                                  adds u %   chain u %
+  national reference                         0.10        0.10
+  accredited laboratory standard             0.25        0.27
+  laboratory transfer to the instrument      0.45        0.52
+  expanded (k = 2): 1.05 %; the instrument's tolerance +/-1.5 %
+  ratio tolerance / uncertainty: 1.4 (ch 40 asks for 4)
+  the last step adds the most: a calibration whose own
+  uncertainty is two thirds of the tolerance cannot tell a
+  good sensor from a marginal one - the certificate's
+  uncertainty is read before its 'pass'

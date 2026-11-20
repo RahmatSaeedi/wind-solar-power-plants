@@ -1,0 +1,6 @@
+a shortage: 5% of 3,000 purchased part lines bought from brokers (teaching)
+  2% of broker lines doubtful: 3.0 doubtful lines
+  incoming screening finds 80%: 0.6 lines left in production
+  a counterfeit part passes a functional test and fails in the
+  field: franchised sourcing is the control, screening the
+  backstop, and the BOM record names the channel (ch 39)

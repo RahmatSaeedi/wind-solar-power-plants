@@ -1,0 +1,9 @@
+k,item,dt
+1,=WS1-Q1 cable lug L1,6
+2,=WS1-Q1 cable lug L2,31
+3,=WS1-Q1 cable lug L3,5
+4,+H01 busbar joint 4,48
+5,=A1-T1 LV bushing,12
+6,LV board main breaker,3
+7,+H07 earthing transformer,9
+8,UPS input breaker,17

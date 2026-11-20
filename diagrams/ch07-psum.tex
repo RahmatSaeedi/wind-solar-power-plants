@@ -1,0 +1,19 @@
+% Chapter 7 - instantaneous power of one phase and the sum of three balanced phases.
+% Data: diagrams/data/ch07-psum.csv (companion/ch07/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=64mm,
+      xlabel={زمان، $\text{ms}$}, ylabel={توانِ لحظه‌ای، $\text{kW}$},
+      xmin=0, xmax=40, ymin=-10, ymax=70, xtick={0,5,...,40}, ytick={-10,0,...,60}]
+    \addplot[sLoad] table[x=t_ms, y=pa, col sep=comma] {data/ch07-psum.csv};
+    \addlegendentry{یک فاز}
+    \addplot[sInk] table[x=t_ms, y=total, col sep=comma] {data/ch07-psum.csv};
+    \addlegendentry{جمعِ سه فاز}
+    \addplot[sLimit, domain=0:40, samples=2] {19.92};
+    \node[note, anchor=south, text=cInk] at (axis cs:20,60.5) {جمعِ سه فاز: $59.76\ \text{kW}$، ثابت};
+    \node[note, anchor=west] at (axis cs:40.5,19.92) {میانگینِ یک فاز};
+    \node[note, anchor=north, text=cInk] at (axis cs:11.6,-3.4) {یک فاز: از $-3.1$ تا $42.9$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

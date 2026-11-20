@@ -1,0 +1,15 @@
+% Chapter 32 - frequency of a container explosion after each barrier (LOPA-style teaching count);
+% the fifth barrier shares sensors with the first and earns no credit (data/ch32-barriers.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, ymode=log, xmin=0.5, xmax=5.5, ymin=3e-7, ymax=1e-2,
+      xtick={1,...,5}, xticklabels={پایش, فیوز, گاز, انفجار, کانالِ دوم},
+      x tick label style={font=\scriptsize}, ylabel={بسامد در سال}]
+    \addplot[sLoss, mark=*, mark size=1.6pt] table[x=barrier, y=freq, col sep=comma] {data/ch32-barriers.csv};
+    \draw[sLimit] (axis cs:0.5,1.25e-6) -- (axis cs:5.5,1.25e-6);
+    \node[note, anchor=north east] at (axis cs:5.4,1.15e-6) {هدفِ آموزشی برای هر کانتینر};
+    \node[note, anchor=south] at (axis cs:5,4e-6) {بی‌اعتبار};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

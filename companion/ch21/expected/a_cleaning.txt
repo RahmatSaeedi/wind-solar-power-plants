@@ -1,0 +1,13 @@
+cleaning strategies on 25-year lifecycle cost (NPV at 7.5 %):
+  policy               capital   energy value   running+water   NPV k u
+  (water 3 u/m3; robot capital 2,600 k u and 4 % upkeep; A-305)
+  truck every 30 d           0          6,991           2,797     4,194
+  truck at 4 % loss          0          8,366           3,251     5,114
+  robot every 12 d       2,600          8,610           2,812     3,198
+  truck at 4 % with a 60-day water shortage each year: NPV 3,739
+  the robot recovers the most energy and is immune to water
+  shortage, but its capital must be paid back: on lifecycle
+  cost the trigger truck wins here, even with a yearly water
+  shortage; judged on energy alone the robot would win; a
+  lower robot price, a higher tariff or a longer shortage turns
+  the answer (D-014 revisited)

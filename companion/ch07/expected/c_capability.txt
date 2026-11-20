@@ -1,0 +1,7 @@
+inverter rated 5.0 MW and 5.5 MVA (A-101): Q available = sqrt(S^2 - P^2)
+  P = 5.0 MW: |Q| <= 2.29 Mvar; pf range down to 0.909
+  P = 4.0 MW: |Q| <= 3.77 Mvar; pf range down to 0.727
+  P = 2.5 MW: |Q| <= 4.90 Mvar; pf range down to 0.455
+  P = 0.0 MW: |Q| <= 5.50 Mvar; pf range down to 0.000
+  with S equal to the active rating, no reactive power at full output
+  (the real P-Q chart comes from the manufacturer and depends on voltage)

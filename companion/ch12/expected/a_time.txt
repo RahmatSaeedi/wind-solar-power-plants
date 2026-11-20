@@ -1,0 +1,9 @@
+timestamps: the pack labels each hourly mean by its START
+(local standard time +04:00); the sun must be taken over the hour
+  POA, sun averaged over the hour (chapter 10):     2150 kWh/m2
+  sun at the centre of the hour     2154 kWh/m2 (+0.2 %); hourly RMS 0.2 %
+  sun at the label (start)          2139 kWh/m2 (-0.5 %); hourly RMS 10.4 %
+  sun at the end of the hour        2140 kWh/m2 (-0.5 %); hourly RMS 10.4 %
+  solar noon on 23 June: 12:02 local standard time (equation of time)
+  a half-hour error in the time convention moves the beam onto
+  the wrong side of noon: morning and evening hours swap

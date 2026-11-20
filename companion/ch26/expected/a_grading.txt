@@ -1,0 +1,10 @@
+overcurrent grading on the 33 kV: the current each relay SEES
+  case                                  feeder kA  s   incomer kA  s   HV s
+  coupler open, fault at feeder head     7.75  0.24    6.40  0.55  0.90
+  coupler closed, fault at feeder head  12.50  0.21    4.90  0.68  1.11
+  coupler open, LL fault at far end      4.68  0.30    4.68  0.71  1.16
+  margins of at least 0.3 s in every case: yes
+  with the coupler closed each incomer carries only half of
+  the grid's current: its relay is slower, the margin wider;
+  the converters feed the feeder relay but not the incomer;
+  the HV relay sees the 33 kV current divided by the ratio 4

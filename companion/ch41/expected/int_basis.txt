@@ -1,0 +1,25 @@
+D-045 module manufacturing and acceptance basis (PVM-550)
+  1 purchase by BOM revision: a certificate (IEC 61215,
+    IEC 61730) counts only for the BOM it tested; any change
+    follows the retesting guideline (IEC TS 62915)
+  2 the maker's quality system (IEC 62941) and its control
+    plan seen before award; golden-module checks every 100
+  3 flash files parsed on receipt: data, drift, outliers;
+    labels reissued when a drift is found
+  4 EL of one pallet a container; whole container if two or
+    more cracked; site EL sample of 299 a block after
+    installation (1 % at 95 %)
+  5 laboratory flash 12 per 10 MWp under the contract's
+    decision rule (ch 10)
+  6 strings along one table row; returns beside outgoing
+    cables; clamps in the maker's zones, checked by crew
+  7 connectors of one maker and type; frame bonding tested
+    on every table
+  8 spares of the same class and connector; string-current
+    CUSUM against each string's own history
+  9 light-induced loss data priced in the bid evaluation;
+    EL before and after lamination in the maker's plan
+ 10 power claims by relative measurement: control modules
+    kept in the dark, same laboratory, same reference
+  open: the chosen maker's qualification evidence for the
+    exact BOM and its PID result (U-122)

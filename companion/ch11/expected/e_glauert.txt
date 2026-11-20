@@ -1,0 +1,15 @@
+ideal rotor with wake rotation (Glauert) against the rotor of
+Plant P (BEM with drag and tip losses):
+  TSR   Glauert Cp_max   rotor Cp   rotor / Glauert
+   0.5   0.2894           -
+   1.0   0.4155           -
+   2.0   0.5112           -
+   4.0   0.5615           0.0098     0.017
+   6.0   0.5759           0.3576     0.621
+   8.5   0.5830           0.4847     0.831
+  10.0   0.5852           0.4599     0.786
+  Betz 16/27 = 0.5926; at TSR 8.5 wake rotation costs 1.6 % of Betz,
+  drag, tip loss and the finite blade cost another 16.9 %
+  slow rotors (water pumps, old mills) give much of the power
+  away as wake swirl; fast rotors need little torque for the
+  same power and so leave little swirl behind

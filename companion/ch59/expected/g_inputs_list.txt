@@ -1,0 +1,32 @@
+grid-study and protection inputs, item by item (ch 28 register)
+  id     owner     status     item
+  IN-01  operator  received   short-circuit level at POC, max/min
+  IN-02  operator  received   X/R at POC
+  IN-03  operator  requested  network model around the POC
+  IN-04  operator  received   steady-state voltage range at POC
+  IN-05  operator  assumed    frequency ranges and durations
+  IN-06  operator  requested  fault clearing, auto-reclose times
+  IN-07  operator  requested  protection settings at the grid end
+  IN-08  operator  missing    background harmonics at POC (U-101)
+  IN-09  operator  missing    emission allocation (U-100)
+  IN-10  operator  missing    applicable code, version (U-102)
+  IN-11  operator  requested  neighbouring plants and their size
+  IN-12  plant     received   one-line diagram (D-027)
+  IN-13  plant     received   main transformer guaranteed data
+  IN-14  plant     missing    main transformer test data (FAT)
+  IN-15  plant     received   33 kV cable lengths and sections
+  IN-16  plant     received   132 kV line conductor and route
+  IN-17  plant     missing    line measured impedance
+  IN-18  OEM       received   unit data sheets (wind, PV, BESS)
+  IN-19  OEM       received   unit P-Q capability vs voltage
+  IN-20  OEM       received   unit RMS models with versions
+  IN-21  OEM       requested  unit EMT models with versions
+  IN-22  OEM       received   unit type tests (ride-through)
+  IN-23  OEM       received   plant controller model and settings
+  IN-24  OEM       requested  BESS PCS model and limits (S1)
+  IN-25  plant     received   auxiliary loads (ch 23)
+  IN-26  plant     received   earthing and neutral data
+  IN-27  operator  received   metering point and class
+  IN-28  operator  requested  telemetry signal list
+  IN-29  plant     received   weather data for line rating
+  IN-30  plant     assumed    outage rates of plant elements

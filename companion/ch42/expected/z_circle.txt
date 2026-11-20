@@ -1,0 +1,7 @@
+96 root inserts measured on a 3.2 m circle (coordinate machine)
+  fitted centre (+0.44, -0.24) mm; radius +0.01 mm from nominal
+  worst insert 58: +2.79 mm radially; over +-1.5 mm: 1
+  the fit takes out where the circle sits; what is left is each
+  insert's own error, which the bolt must pass through the
+  bearing's hole - one bad insert is an NCR, not a re-machined
+  bearing

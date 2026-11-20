@@ -1,0 +1,9 @@
+backup radio to a met mast 5 km away at 5.8 GHz (teaching values)
+  free-space loss 121.7 dB
+  received 20 + 2 x 23 - 121.7 - 2 = -57.7 dBm
+  against a sensitivity of -80 dBm: fade margin 22.3 dB
+  first Fresnel zone at mid-path: radius 8.0 m - kept
+    clear of the ground, the trees and the turbine blades
+  rain, dust and a mast that moves in wind eat the margin;
+  the link is a backup, sized with margin and tested by
+  switching to it, and its licence is the operator's to get

@@ -1,0 +1,13 @@
+% Chapter 21 - NPV of the project's pre-tax cash flow against the discount rate; the crossing of
+% zero is the pre-tax project IRR. Data: diagrams/data/ch21-npv.csv (companion/ch21/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=0, xmax=0.15, ymin=-80, ymax=300,
+      xlabel={نرخِ تنزیل}, ylabel={ارزشِ فعلیِ خالص (میلیون واحد)}, xtick={0,0.025,...,0.15},
+      xticklabels={0,2.5,5,7.5,10,12.5,15}, ytick={-50,0,50,...,300}]
+    \addplot[sInk, mark=*, mark size=1.2pt] table[x=rate, y=npv, col sep=comma] {data/ch21-npv.csv};
+    \addplot[sLimit, domain=0:0.15, samples=2] {0};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

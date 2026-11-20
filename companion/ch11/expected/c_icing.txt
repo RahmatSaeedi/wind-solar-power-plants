@@ -1,0 +1,9 @@
+icing screen from the data pack (A-220):
+  hours at or below 0 C with wind above cut-in: 333 (3.8 % of the year)
+  ice also needs moisture (cloud, fog, freezing rain): the pack
+  has no humidity, so this is an upper bound (U-040)
+  rule-of-thumb ice-throw distance 1.5 (D + H) = 375 m for an
+    operating turbine: roads, buildings and the PV field inside it
+    need an ice risk assessment and a stop-on-ice control
+  iced blades lose lift and gain mass: power drops and the rotor
+  becomes unbalanced; ice detection stops or derates the turbine

@@ -1,0 +1,9 @@
+525.6 GWh
+25.56 km/h
+3999.66 N m
+refused: cannot add MW [L^2 M T^-3] and GWh [L^2 M T^-2]
+PLP-ELE-CAL-0012
+C
+0
+f22959441a648c60
+6b430ee2d0d18599

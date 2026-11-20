@@ -1,0 +1,15 @@
+campaign acceptance report of the Plant P mast (PLP-GEN-REP-0005):
+  period: 12 months, ten-minute data, logger PLP-MET-01
+  recovery after QC: 100 m 98.6 %, 60 m 98.9 %, 80 m 36.9 %
+    (80 m: shadow sector excluded, bearing wear from July)
+  instruments: calibration certificates per serial; 80 m cup
+    replaced and recalibrated (action), boom turned out of the
+    prevailing sector (action)
+  icing: 6 events, detected at the start; heated sensors advised
+  lidar: verified against the 100 m cup (slope 1.005, r^2 0.997)
+  long term: variance-ratio MCP with a 20-year reference, r 0.95
+  shear: from 60 and 100 m by hour of day; veer recorded
+  turbulence: mean and 90 % quantile by bin for the class check
+  extremes: Gumbel fit of 20 annual maxima, 50-year value
+  accepted for: hub-height energy at 100 m; conditional for a
+    higher hub (lidar to hub height); not for loads at 80 m

@@ -1,0 +1,12 @@
+point-to-point loop checks: points tested from the field device to
+  the SCADA display
+  system           points   tested   coverage
+  wind turbines       576      576     100.0%
+  PV blocks           360      340      94.4%
+  battery             192      192     100.0%
+  substation          310      296      95.5%
+  met stations         40       31      77.5%
+  all: 1435 of 1478 (97.1%); 43 points untested
+  the met stations are the worst: 9 of 40 points never seen at
+  the display - including two that feed the PR of ch 37; each
+  untested point is a line in the punch list, not a footnote

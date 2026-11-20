@@ -1,0 +1,13 @@
+monthly operating report: each figure with the record it comes from
+  exported energy MWh                  24,800  main meter
+  PR (PV, %)                             81.2  SCADA + met
+  energy availability wind (%)           96.4  SCADA
+  energy availability PV (%)             98.1  SCADA
+  lost energy with a cause (%)           31.0  lost-energy log
+  imbalance cost u                    112,400  settlement statement
+  service availability (%)               94.2  service log
+  recordable incidents                      0  HSE log
+  one data set per figure, frozen at the report date: the
+  energy is the meter's, not SCADA's (round u); the lost-energy
+  share shows the record still has gaps (lesson B) - the
+  report says so instead of hiding it in an average

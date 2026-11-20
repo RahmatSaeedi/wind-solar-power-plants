@@ -1,0 +1,302 @@
+# =====================================================================
+#  OUTLINE — single source of the book's structure.
+#  Source of scope: ../Hybrid_Wind_Solar_Power_Plant_Book_Plan_Handoff.md
+#
+#  After editing, run:   python tools/gen_stubs.py
+#  (creates a stub for every entry with no file yet and rewrites the chapter
+#   list between the markers in _quarto-full.yml)
+#
+#  Chapter fields:
+#    n         chapter number            -> chapters/NN-slug.qmd, label @sec-chNN
+#    slug      kebab-case ASCII file slug
+#    title_fa  Persian title (reader-facing)
+#    title_en  handoff title (planning only)
+#    pages     page budget (weighted depth; planning only)
+#    prereqs   chapter numbers
+#    status    planned | drafting | written | verified
+#              written  = all sections, examples, exercises, solutions present
+#              verified = code tested, figures inspected, draft PDF checked,
+#                         coverage check passed
+# =====================================================================
+
+parts:
+  - title_fa: "بخشِ یکم — اندیشیدن و محاسبه مانندِ مهندس"
+    chapters:
+      - {n: 1, slug: book-and-project, pages: 50, prereqs: [], status: verified,
+         title_fa: "راهنمای کتاب و چیستیِ پروژهٔ نیروگاه",
+         title_en: "How to use the book and what a plant project entails"}
+      - {n: 2, slug: units-and-records, pages: 60, prereqs: [1], status: verified,
+         title_fa: "یکاها، ابعاد و سوابقِ مهندسی",
+         title_en: "Units, dimensions, and engineering records"}
+      - {n: 3, slug: mathematics, pages: 120, prereqs: [2], status: verified,
+         title_fa: "ریاضیات برای مهندسیِ نیروگاه",
+         title_en: "Mathematics for plant engineering"}
+      - {n: 4, slug: physics-materials-manufacturing, pages: 120, prereqs: [2, 3], status: verified,
+         title_fa: "مبانیِ فیزیک، مواد و ساخت",
+         title_en: "Physics, materials, and manufacturing foundations"}
+      - {n: 5, slug: computing-and-data, pages: 120, prereqs: [2, 3], status: verified,
+         title_fa: "رایانش و دادهٔ مهندسی",
+         title_en: "Computing and engineering data"}
+
+  - title_fa: "بخشِ دوم — برق و تجهیزاتِ تبدیلِ انرژی"
+    chapters:
+      - {n: 6, slug: dc-circuits-safety, pages: 90, prereqs: [2, 3, 4], status: verified,
+         title_fa: "مدارهای جریانِ مستقیم و مبانیِ ایمنیِ برق",
+         title_en: "DC circuits and electrical safety fundamentals"}
+      - {n: 7, slug: ac-three-phase, pages: 95, prereqs: [3, 6], status: verified,
+         title_fa: "مدارهای جریانِ متناوب و توانِ سه‌فاز",
+         title_en: "AC circuits and three-phase power"}
+      - {n: 8, slug: electrical-machines, pages: 105, prereqs: [4, 7], status: verified,
+         title_fa: "ژنراتورها و ماشین‌های الکتریکی",
+         title_en: "Generators and electrical machines"}
+      - {n: 9, slug: power-electronics, pages: 115, prereqs: [6, 7], status: verified,
+         title_fa: "الکترونیکِ قدرت و اینورترها",
+         title_en: "Power electronics and inverters"}
+      - {n: 10, slug: pv-modules-arrays, pages: 120, prereqs: [4, 6, 9], status: verified,
+         title_fa: "ماژول‌های فتوولتائیک و طراحیِ آرایهٔ خورشیدی",
+         title_en: "Solar PV modules and array design"}
+      - {n: 11, slug: wind-turbines, pages: 115, prereqs: [4, 8, 9], status: verified,
+         title_fa: "توربین‌های بادی و تبدیلِ انرژیِ باد",
+         title_en: "Wind turbines and wind-energy conversion"}
+
+  - title_fa: "بخشِ سوم — ارزیابیِ منابع و برآوردِ تولیدِ انرژی"
+    chapters:
+      - {n: 12, slug: solar-resource, pages: 85, prereqs: [3, 5, 10], status: verified,
+         title_fa: "ارزیابیِ منبعِ خورشیدی",
+         title_en: "Solar-resource assessment"}
+      - {n: 13, slug: wind-measurement, pages: 85, prereqs: [3, 5, 11], status: verified,
+         title_fa: "اندازه‌گیری و ارزیابیِ باد",
+         title_en: "Wind measurement and assessment"}
+      - {n: 14, slug: site-screening-micrositing, pages: 80, prereqs: [12, 13], status: verified,
+         title_fa: "غربالگریِ ساختگاه و ریزجانماییِ مزرعهٔ بادی",
+         title_en: "Site screening and wind-farm micro-siting"}
+      - {n: 15, slug: energy-yield-losses, pages: 105, prereqs: [10, 11, 12, 13], status: verified,
+         title_fa: "مدل‌سازیِ تولیدِ انرژی و تلفات",
+         title_en: "Energy-yield modeling and losses"}
+      - {n: 16, slug: uncertainty-yield, pages: 75, prereqs: [3, 15], status: verified,
+         title_fa: "عدمِ قطعیت و ارزیابیِ تولید",
+         title_en: "Uncertainty and yield assessment"}
+
+  - title_fa: "بخشِ چهارم — معماریِ نیروگاه، ذخیره‌سازی و اقتصاد"
+    chapters:
+      - {n: 17, slug: load-grid-requirements, pages: 60, prereqs: [7, 15], status: verified,
+         title_fa: "بار، شبکه و الزاماتِ پروژه",
+         title_en: "Load, grid, and project requirements"}
+      - {n: 18, slug: hybrid-architecture, pages: 90, prereqs: [9, 10, 11, 17], status: verified,
+         title_fa: "معماریِ نیروگاهِ هیبریدی",
+         title_en: "Hybrid-plant architecture"}
+      - {n: 19, slug: battery-storage, pages: 115, prereqs: [4, 6, 9, 18], status: verified,
+         title_fa: "ذخیره‌سازیِ انرژی با باتری",
+         title_en: "Battery energy storage"}
+      - {n: 20, slug: plant-control-ems, pages: 105, prereqs: [15, 18, 19], status: verified,
+         title_fa: "کنترلِ نیروگاه و مدیریتِ انرژی",
+         title_en: "Plant control and energy management"}
+      - {n: 21, slug: economics-contracts, pages: 110, prereqs: [3, 5, 16], status: verified,
+         title_fa: "اقتصادِ پروژه و قراردادها",
+         title_en: "Project economics and contracts"}
+      - {n: 22, slug: feasibility-options, pages: 60, prereqs: [14, 16, 17, 21], status: verified,
+         title_fa: "امکان‌سنجی و انتخابِ گزینه",
+         title_en: "Feasibility and option selection"}
+
+  - title_fa: "بخشِ پنجم — مهندسیِ تفصیلی و اتصال به شبکه"
+    chapters:
+      - {n: 23, slug: one-line-boundaries, pages: 100, prereqs: [7, 18], status: verified,
+         title_fa: "نمودارِ تک‌خطی و مرزهای سامانهٔ برق",
+         title_en: "Electrical one-line and system boundaries"}
+      - {n: 24, slug: cables-switchgear, pages: 105, prereqs: [6, 7, 23], status: verified,
+         title_fa: "کابل‌ها، تابلوهای قطع‌ووصل و تأسیساتِ برقی",
+         title_en: "Cables, switchgear, and electrical installation"}
+      - {n: 25, slug: transformers-substations, pages: 115, prereqs: [7, 8, 23], status: verified,
+         title_fa: "ترانسفورماتورها و پست‌های برق",
+         title_en: "Transformers and substations"}
+      - {n: 26, slug: protection-grounding-lightning, pages: 110, prereqs: [7, 23, 24, 25], status: verified,
+         title_fa: "حفاظت، زمین‌کردن و صاعقه",
+         title_en: "Protection, grounding, and lightning"}
+      - {n: 27, slug: power-quality, pages: 80, prereqs: [7, 9], status: verified,
+         title_fa: "کیفیتِ توان و رفتارِ نیروگاه",
+         title_en: "Power quality and plant behavior"}
+      - {n: 28, slug: grid-studies, pages: 90, prereqs: [3, 23, 26, 27], status: verified,
+         title_fa: "مطالعاتِ شبکه و الزاماتِ عملکردی",
+         title_en: "Grid studies and performance requirements"}
+
+  - title_fa: "بخشِ ششم — عمران، مکانیک، ایمنی، حریق و محیطِ‌زیست"
+    chapters:
+      - {n: 29, slug: site-investigation-civil, pages: 95, prereqs: [4, 14], status: verified,
+         title_fa: "شناساییِ ساختگاه و کارهای عمرانی",
+         title_en: "Site investigation and civil works"}
+      - {n: 30, slug: structures-foundations, pages: 95, prereqs: [4, 11, 29], status: verified,
+         title_fa: "سازه‌ها، پیِ توربین و بارهای مکانیکی",
+         title_en: "Structures, turbine foundations, and mechanical loads"}
+      - {n: 31, slug: transport-lifting, pages: 55, prereqs: [29, 30], status: verified,
+         title_fa: "حمل، بالابری و لجستیکِ نصب",
+         title_en: "Transport, lifting, and installation logistics"}
+      - {n: 32, slug: safety-fire-emergency, pages: 100, prereqs: [6, 19, 25], status: verified,
+         title_fa: "ایمنیِ کار، حفاظت در برابرِ حریق و واکنش در شرایطِ اضطراری",
+         title_en: "Occupational safety, fire protection, and emergency response"}
+      - {n: 33, slug: environment-social, pages: 85, prereqs: [14, 22, 29], status: verified,
+         title_fa: "مدیریتِ محیطِ‌زیستی و اجتماعی",
+         title_en: "Environmental and social management"}
+
+  - title_fa: "بخشِ هفتم — کنترل، ارتباطات و امنیتِ سایبری"
+    chapters:
+      - {n: 34, slug: instrumentation-control, pages: 95, prereqs: [7, 20, 23], status: verified,
+         title_fa: "ابزارِ دقیق و کنترل",
+         title_en: "Instrumentation and control"}
+      - {n: 35, slug: scada-communications, pages: 95, prereqs: [5, 34], status: verified,
+         title_fa: "اسکادا و ارتباطات",
+         title_en: "SCADA and communications"}
+      - {n: 36, slug: ot-cybersecurity, pages: 75, prereqs: [5, 35], status: verified,
+         title_fa: "فناوریِ اطلاعات و امنیتِ سایبریِ صنعتی",
+         title_en: "IT and industrial cybersecurity"}
+      - {n: 37, slug: performance-analytics, pages: 85, prereqs: [5, 15, 35], status: verified,
+         title_fa: "پایشِ عملکرد و تحلیلِ داده",
+         title_en: "Performance monitoring and analytics"}
+
+  - title_fa: "بخشِ هشتم — تدارکات، تولیدِ صنعتی، اجرا و راه‌اندازی"
+    chapters:
+      - {n: 38, slug: detailed-design-documents, pages: 60, prereqs: [23, 28], status: verified,
+         title_fa: "طراحیِ تفصیلی و کنترلِ مدارک",
+         title_en: "Detailed design and document control"}
+      - {n: 39, slug: procurement-suppliers, pages: 65, prereqs: [21, 38], status: verified,
+         title_fa: "تدارکات، قراردادها و ارزیابیِ تأمین‌کنندگان",
+         title_en: "Procurement, contracts, and supplier evaluation"}
+      - {n: 40, slug: manufacturing-quality, pages: 85, prereqs: [4, 39], status: verified,
+         title_fa: "سامانه‌های تولید، مهندسیِ کیفیت و آزمون‌های کارخانه‌ای",
+         title_en: "Manufacturing systems, quality engineering, and factory tests"}
+      - {n: 41, slug: pv-manufacturing, pages: 95, prereqs: [10, 40], status: verified,
+         title_fa: "مهندسیِ ساختِ سلول و ماژولِ خورشیدی",
+         title_en: "PV cells and module manufacturing engineering"}
+      - {n: 42, slug: wind-turbine-manufacturing, pages: 100, prereqs: [11, 30, 40], status: verified,
+         title_fa: "طراحی و ساختِ اجزای توربینِ بادی",
+         title_en: "Wind-turbine component design and manufacturing"}
+      - {n: 43, slug: transformer-manufacturing, pages: 100, prereqs: [25, 40], status: verified,
+         title_fa: "ترانسفورماتورِ قدرت: نظریه، طراحی و ساختِ کارخانه‌ای",
+         title_en: "Power-transformer theory, design, and factory manufacture"}
+      - {n: 44, slug: converter-manufacturing, pages: 95, prereqs: [9, 40], status: verified,
+         title_fa: "ساختِ مبدل‌های قدرت، اینورترها و الکترونیکِ کنترل",
+         title_en: "Power converters, inverters, and control-electronics manufacturing"}
+      - {n: 45, slug: battery-manufacturing, pages: 95, prereqs: [19, 40], status: verified,
+         title_fa: "ساختِ سلول، بستهٔ باتری، سامانهٔ مدیریتِ باتری و کانتینرِ ذخیره‌ساز",
+         title_en: "Battery cells, packs, BMS, and storage-container manufacturing"}
+      - {n: 46, slug: cable-switchgear-manufacturing, pages: 85, prereqs: [24, 26, 40], status: verified,
+         title_fa: "ساختِ کابل، اتصال‌دهنده، تابلوی قطع‌ووصل و تابلوی حفاظت",
+         title_en: "Cable, connector, switchgear, and protection-panel manufacture"}
+      - {n: 47, slug: civil-structural-manufacturing, pages: 75, prereqs: [30, 40], status: verified,
+         title_fa: "ساختِ اجزای عمرانی، سازه‌ای، برج، ردیاب و تجهیزاتِ جانبیِ نیروگاه",
+         title_en: "Civil, structural, tower, tracker, and balance-of-plant manufacture"}
+      - {n: 48, slug: instrumentation-network-manufacturing, pages: 75, prereqs: [34, 35, 40], status: verified,
+         title_fa: "ساختِ ابزارِ دقیق، تجهیزاتِ اندازه‌گیری، تابلوی کنترل و سخت‌افزارِ شبکه",
+         title_en: "Instrumentation, metering, control-panel, and plant-network hardware manufacture"}
+      - {n: 49, slug: construction-installation, pages: 60, prereqs: [29, 31, 32, 38], status: verified,
+         title_fa: "اجرا و نصب",
+         title_en: "Construction and installation"}
+      - {n: 50, slug: commissioning-handover, pages: 60, prereqs: [26, 28, 34, 49], status: verified,
+         title_fa: "راه‌اندازی، پذیرشِ شبکه و تحویل",
+         title_en: "Commissioning, grid acceptance, and handover"}
+
+  - title_fa: "بخشِ نهم — بهره‌برداری، نگهداری و پایانِ عمر"
+    chapters:
+      - {n: 51, slug: operations, pages: 90, prereqs: [20, 37, 50], status: verified,
+         title_fa: "بهره‌برداری از نیروگاه",
+         title_en: "Operating the plant"}
+      - {n: 52, slug: maintenance-ram, pages: 95, prereqs: [3, 37, 51], status: verified,
+         title_fa: "نگهداری و عیب‌یابی",
+         title_en: "Maintenance and troubleshooting"}
+      - {n: 53, slug: repowering-retirement, pages: 65, prereqs: [21, 33, 52], status: verified,
+         title_fa: "بهبودِ عملکرد، بازتوانی و برچیدنِ نیروگاه",
+         title_en: "Performance improvement, repowering, and retirement"}
+
+  - title_fa: "بخشِ دهم — انطباق با مقرراتِ کشورها و پروژهٔ پایانی"
+    chapters:
+      - {n: 54, slug: applicable-requirements, pages: 45, prereqs: [22, 38], status: verified,
+         title_fa: "شناساییِ الزاماتِ حاکم بر پروژه",
+         title_en: "How to identify applicable requirements"}
+      - {n: 55, slug: iran-dossier, pages: 50, prereqs: [54], status: verified,
+         title_fa: "پروندهٔ مقررات و استانداردهای ایران",
+         title_en: "Iran regulatory and standards dossier"}
+      - {n: 56, slug: afghanistan-dossier, pages: 50, prereqs: [54], status: verified,
+         title_fa: "پروندهٔ مقررات و استانداردهای افغانستان",
+         title_en: "Afghanistan regulatory and standards dossier"}
+      - {n: 57, slug: tajikistan-dossier, pages: 50, prereqs: [54], status: verified,
+         title_fa: "پروندهٔ مقررات و استانداردهای تاجیکستان",
+         title_en: "Tajikistan regulatory and standards dossier"}
+      - {n: 58, slug: international-standards, pages: 45, prereqs: [54], status: verified,
+         title_fa: "استانداردهای بین‌المللی: یافتن، تفسیر و به‌کارگیری",
+         title_en: "International standards: finding, interpreting, and applying them"}
+      - {n: 59, slug: capstone-plant-p, pages: 110, prereqs: [1, 16, 22, 28, 33, 37, 50, 53, 58], status: verified,
+         title_fa: "پروژهٔ پایانی: طراحی، تحویل و بهره‌برداریِ نیروگاهِ P",
+         title_en: "Capstone: design, deliver, and operate Plant P"}
+
+# One appendix per group in the handoff's "Appendices and reusable templates".
+appendices:
+  - {id: A, slug: glossary-notation, title_fa: "واژه‌نامهٔ فارسی–انگلیسی، نمادها و کوته‌نوشت‌ها",
+     title_en: "Persian–English glossary, symbols, abbreviations, notation"}
+  - {id: B, slug: units-constants-formulas, title_fa: "یکاهای SI، ثابت‌ها، تبدیل‌ها و فرمول‌نامه",
+     title_en: "SI units, constants, prefixes, conversions, formula reference"}
+  - {id: C, slug: drawing-symbols, title_fa: "نمادهای نقشه و قراردادهای نمودارِ تک‌خطی",
+     title_en: "Drawing symbols and one-line diagram conventions"}
+  - {id: D, slug: calculation-templates, title_fa: "الگوهای برگهٔ محاسبه و بازبینیِ مستقل",
+     title_en: "Engineering calculation and independent-check templates"}
+  - {id: E, slug: auxiliary-templates, title_fa: "الگوهای سامانه‌های کمکی: فهرستِ بار، تک‌خطی، خودگردانیِ باتری و بارزدایی",
+     title_en: "Auxiliary load-list, AC/DC one-line, UPS/battery autonomy, backup-source, load-shed templates"}
+  - {id: F, slug: fire-templates, title_fa: "الگوهای حفاظت در برابرِ حریق",
+     title_en: "Fire-hazard register, protection matrix, cause-and-effect, firewater/runoff, impairment, inspection, drill"}
+  - {id: G, slug: ram-templates, title_fa: "الگوهای قابلیتِ اطمینان، دسترس‌پذیری و نگهداشت‌پذیری",
+     title_en: "RAM event taxonomy, criticality, FMEA/FMECA, RBD, fault tree, repair/spares, assumptions"}
+  - {id: H, slug: water-templates, title_fa: "الگوهای مدیریتِ آب",
+     title_en: "Water-source inventory, quality, monthly/annual balance, cleaning comparison, metering, reuse, drought"}
+  - {id: I, slug: forecast-templates, title_fa: "الگوهای پیش‌بینیِ کوتاه‌مدت",
+     title_en: "Forecast data dictionary, source/quality log, split, scorecard, calibration/drift, forecast-to-dispatch"}
+  - {id: J, slug: grid-service-templates, title_fa: "الگوهای خدماتِ شبکه",
+     title_en: "Grid-service applicability register, capability envelope, stacking, traceability, test record, settlement"}
+  - {id: K, slug: grid-connection-templates, title_fa: "الگوهای اتصال به شبکه و تأسیساتِ خروجیِ نیروگاه",
+     title_en: "Connection/export scope and ownership matrix, corridor register, POC schedule, handover checklist"}
+  - {id: L, slug: land-social-templates, title_fa: "الگوهای زمین، جامعه و ملاحظاتِ اجتماعی",
+     title_en: "Land-tenure and stakeholder register, livelihood plan, consultation, grievance, labor, community, heritage, monitoring"}
+  - {id: M, slug: finance-templates, title_fa: "الگوهای تأمینِ مالیِ پروژه",
+     title_en: "Sources/uses and cash-flow model, DSCR/LLCR, assumptions, due diligence, covenants, risk allocation, scenarios"}
+  - {id: N, slug: asset-information-templates, title_fa: "الگوهای اطلاعاتِ دارایی و تحویلِ دیجیتال",
+     title_en: "Asset-information requirements, tag register, GIS/as-built, vendor index, validation, CMMS import, retention, migration"}
+  - {id: O, slug: emergency-security-templates, title_fa: "الگوهای آمادگیِ اضطراری و حفاظتِ فیزیکی",
+     title_en: "All-hazards emergency plan, rescue/medical, drill record, physical-security register, interface checklist"}
+  - {id: P, slug: ghg-worksheet, title_fa: "کاربرگِ ردپای چرخهٔ عمر و گازهای گلخانه‌ای",
+     title_en: "Lifecycle footprint/GHG inventory worksheet and claim-review checklist"}
+  - {id: Q, slug: plant-p-data-pack, title_fa: "بستهٔ دادهٔ مرجعِ نیروگاهِ P",
+     title_en: "Plant P Reference Data Pack manifest, scenario cards, data dictionary, provenance, expected results, change log"}
+  - {id: R, slug: measurement-forms, title_fa: "برگه‌های اندازه‌گیری، کیفیتِ داده، بازرسی، آزمون و نگهداری",
+     title_en: "Wind/solar measurement, data-quality, inspection, test, maintenance forms"}
+  - {id: S, slug: equipment-templates, title_fa: "الگوهای مشخصاتِ تجهیز، فهرستِ مواد و ارزیابیِ تأمین‌کننده",
+     title_en: "Equipment specification, bill of materials, supplier-evaluation templates"}
+  - {id: T, slug: risk-safety-templates, title_fa: "الگوهای ریسک، تحلیلِ خطر، مجوزِ کار و درس‌آموزی از حادثه",
+     title_en: "Risk register, hazard analysis, permit-to-work, incident-learning templates"}
+  - {id: U, slug: compliance-register, title_fa: "دفترِ استانداردها و انطباق، پیگیریِ تأییدیه‌ها و سیاههٔ راستی‌آزماییِ منابع",
+     title_en: "Standards/compliance register, approval tracker, source-verification log"}
+  - {id: V, slug: commissioning-checklists, title_fa: "چک‌لیست‌های راه‌اندازی، پذیرش، تحویل و بهره‌برداری",
+     title_en: "Commissioning, acceptance, handover, operating checklists"}
+  - {id: W, slug: official-sources, title_fa: "کتاب‌نامهٔ منابعِ رسمیِ راستی‌آزمایی‌شده",
+     title_en: "Verified official-source bibliography with edition and date checked"}
+  - {id: X, slug: mastery-tests, title_fa: "آزمون‌های تشخیصیِ تسلط و راهنمای مدرس",
+     title_en: "Exercise solutions or instructor guidance and diagnostic mastery tests"}
+
+# ---------------------------------------------------------------------
+# VOLUMES of the print and e-book editions (the website is always the
+# whole book). Decided at the end of Part I, 2026-11-15, from measured
+# pages: Part I = 504 pp against a budget of 470 (factor 1.07); later
+# Parts are projected with that factor and re-checked at each Part end.
+# Rule: one Part per volume; split a Part at a chapter boundary when a
+# volume would pass about 800 pages; combine neighbours that stay below.
+#   status: fixed (measured) | provisional (projected)
+# Plan approved by the author on 2026-11-15.
+# Per-volume profiles and the cross-volume reference filter are built
+# when Volume 2 is complete (the first time two volumes exist).
+# ---------------------------------------------------------------------
+volumes:
+  - {n: 1, chapters: "1-5",   parts: [I],       pages: 513, status: fixed}
+  - {n: 2, chapters: "6-11",  parts: [II],      pages: 660, status: fixed}
+  - {n: 3, chapters: "12-16", parts: [III],     pages: 440, status: fixed}
+  - {n: 4, chapters: "17-22", parts: [IV],      pages: 553, status: fixed}
+  - {n: 5, chapters: "23-28", parts: [V],       pages: 612, status: fixed}
+  - {n: 6, chapters: "29-37", parts: [VI, VII], pages: 812, status: fixed}
+  - {n: 7, chapters: "38-43", parts: [VIII],    pages: 516, status: fixed}
+  - {n: 8, chapters: "44-50", parts: [VIII],    pages: 558, status: fixed}
+  - {n: 9, chapters: "51-59 and appendices A-X", parts: [IX, X], pages: 994, status: fixed}

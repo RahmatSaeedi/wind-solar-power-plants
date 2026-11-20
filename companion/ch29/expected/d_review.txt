@@ -1,0 +1,35 @@
+review of the geotechnical summary, borehole by borehole
+  (turbines: 10 m below founding level or rock; PV and substation 6 m)
+  BH-01 (T01)         no chloride
+                        -> concrete exposure class open
+  BH-02 (T03)         no chloride, sulphate
+                        -> concrete exposure class open
+  BH-03 (T05)         stops at 6 m, no rock
+                        -> ground below founding level unknown
+  BH-03 (T05)         groundwater not recorded
+                        -> uplift, dewatering, concrete exposure
+  BH-03 (T05)         no chloride, moisture, sulphate
+                        -> concrete exposure class open
+  BH-04 (T07)         no chloride, sulphate
+                        -> concrete exposure class open
+  BH-04 (T07)         soft layer 0.0-2.5 m
+                        -> settlement and stiffness need a design check
+  BH-06 (T11)         no chloride, moisture, sulphate
+                        -> concrete exposure class open
+  BH-07 (T12)         groundwater not recorded
+                        -> uplift, dewatering, concrete exposure
+  BH-07 (T12)         no chloride, sulphate
+                        -> concrete exposure class open
+  BH-07 (T12)         gypsum in the near surface
+                        -> sulphate attack, dissolution
+  BH-08 (substation)  no chloride
+                        -> concrete exposure class open
+  BH-09 (PV north)    no chloride, moisture, sulphate
+                        -> concrete exposure class open
+  BH-10 (PV south)    no chloride, moisture, sulphate
+                        -> concrete exposure class open
+  14 findings; turbines without a borehole: T02, T04, T06, T08, T10
+  also absent from the summary: SPT hammer energy, seismic
+  site class, flood levels at the wadi, thermal resistivity
+  of the soil for the cables (ch 24), and the laboratory
+  strength and stiffness of the soft clay

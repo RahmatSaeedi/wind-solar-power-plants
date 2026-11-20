@@ -1,0 +1,14 @@
+further investigation before design (teaching costs, k u)
+  5 boreholes to 15 m at T02/T04/T06/T08/T10         45
+  deeper borehole or CPT at T05                       6
+  2 CPTs and lab tests at T07 (soft clay)            10
+  sulphate/chloride tests (all missing)               4
+  pumping test of W-1 (7 days)                       12
+  drone topographic survey of site and route         18
+  wadi flood study                                   15
+  total                                             110
+  against it: one foundation redesigned during construction
+  (crane and crew standing, a month late) easily costs more
+  than the whole list - the investigation is the cheapest
+  risk reduction in the civil works (ch 22 value of
+  information)

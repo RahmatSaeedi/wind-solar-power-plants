@@ -1,0 +1,6 @@
+average outgoing quality of rectifying inspection
+  (n = 132, c = 3; a rejected lot of 2,000 is sorted 100 %)
+  worst average outgoing quality: 1.37% at 2.2% incoming
+  good lots pass; bad lots are sorted clean; in between the
+  plan lets through at most this share on average - the
+  limit is a property of the plan, not of the supplier

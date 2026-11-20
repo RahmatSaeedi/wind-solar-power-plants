@@ -1,0 +1,11 @@
+clarification log of the tender (answers due in 7 days)
+  U-A  loss tolerance basis     3 days
+  U-B  heat-run witness         no answer  price changes
+  U-B  data schedule items      12 days  price changes
+  U-C  coating class proof      5 days
+  U-C  sound level method       4 days
+  U-A  monitoring relay link    6 days  price changes
+  late or missing: 2; each is treated as stated in
+  the instructions to bidders - here, the least favourable
+  reading priced as a deviation; a clarification that
+  changes the price is recorded and applied to all bidders

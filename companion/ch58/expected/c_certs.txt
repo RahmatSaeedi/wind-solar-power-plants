@@ -1,0 +1,13 @@
+certificates against the specification and the lab's scope
+  equipment                    edition  scope  verdict
+  PV module                    same     yes    accept
+  PV module safety             older    yes    gap analysis (older edition)
+  PV inverter safety           same     yes    accept
+  PV inverter anti-islanding   same     no     reject: not in the lab's scope
+  battery cells and system     same     yes    accept
+  MV switchgear                older    yes    gap analysis (older edition)
+  revenue meter                same     yes    accept
+  accept: 4; gap analysis (older edition): 2; reject: not in the lab's scope:
+    1
+  an older edition is not a failure, it is a question: which
+  clauses changed, and does the change touch this product?

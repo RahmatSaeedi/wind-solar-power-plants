@@ -1,0 +1,7 @@
+modules of the whole PV plant (109,200): planned S-curve and actual
+  week 10: actual 36,200, planned 49,067, SPI 0.74
+  at the last four weeks' rate (5,075 a week) the last module goes
+  up in week 24.4, against week 20 planned
+  the plan's steepest week needs 12,521; the crews reach 41%
+  of that - the gap is crews and deliveries, and the recovery
+  of lesson E is sized from this curve

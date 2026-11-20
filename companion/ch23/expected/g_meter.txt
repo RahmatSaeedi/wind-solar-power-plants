@@ -1,0 +1,6 @@
+line losses between meter option A (plant bay) and B (grid bay):
+  line resistance 0.847 ohm; at 100 MW: 0.486 MW
+  over the year: 755 MWh of 295,631 MWh delivered (0.26%)
+  with option A the buyer pays for energy that is lost on the
+  line; with option B the plant bears the loss - the meter's
+  place is a commercial term with a number (ch 17, 21)

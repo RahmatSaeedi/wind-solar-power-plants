@@ -1,0 +1,7 @@
+kinetic energy of the rotor at 11.5 rpm (A-214):
+  J = 3 x 22 t x 22^2 + hub 45 t x 1.5^2 = 32.0e6 kg m2
+  E = J omega^2 / 2 = 23.2 MJ (6.5 kWh)
+  pitching 90 deg at 8 deg/s takes 11.2 s: the blades
+  brake the rotor aerodynamically; the mechanical brake holds a
+  stopped rotor and is not sized to absorb a full-speed stop in
+  storm conditions (each design states its own limits)

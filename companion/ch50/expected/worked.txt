@@ -1,0 +1,8 @@
+E01 strings of CB07 and modules: 20 x 26 = 520
+E02 SI curve at 5 x pickup, TMS 1: 4.28 s
+E03 tolerance of 0.86 s at 5 % + 40 ms: +/-0.083 s
+E04 PR of 353 MWh on 60 MWp and 7.1 kWh/m2: 0.829
+E05 droop 4 % as pu per Hz: 0.50
+E06 UPS shortfall 26 of 30 min: 13%
+E07 cause-effect pairs proven 14 of 17: 82%
+E08 contact age 2027-11-02 to 2028-04-01: 151 days

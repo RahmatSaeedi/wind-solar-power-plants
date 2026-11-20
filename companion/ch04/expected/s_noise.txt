@@ -1,0 +1,6 @@
+12 turbines on a 3 x 4 grid (750 m x 1050 m, assumed); a house 800 m
+  west of the middle row; each 105 dB(A), spherical spreading only
+  nearest turbine 800 m: 35.9 dB(A); farthest 3226 m: 23.8 dB(A)
+  all twelve together: 40.5 dB(A)
+  the three nearest alone: 38.3 dB(A)
+  the nearest few turbines decide the level; distant ones add little

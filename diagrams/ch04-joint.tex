@@ -1,0 +1,20 @@
+% Chapter 4 — temperature of a degrading bolted joint, month by month, for three starting
+% contact resistances (A-062), capped at 160 C for display. Data: diagrams/data/ch04-joint.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=64mm,
+      xlabel={ماه از راه‌اندازی}, ylabel={دمای اتصال (درجهٔ سلسیوس)},
+      xmin=0, xmax=120, ymin=0, ymax=165, xtick={0,12,...,120}, ytick={0,40,...,160},
+      unbounded coords=jump]
+    \addplot[sWind] table[x=month, y=r10, col sep=comma] {data/ch04-joint.csv};
+    \addlegendentry{مقاومتِ آغازینِ ۱۰ میکرواهم}
+    \addplot[sPV] table[x=month, y=r30, col sep=comma] {data/ch04-joint.csv};
+    \addlegendentry{۳۰ میکرواهم}
+    \addplot[sLoss] table[x=month, y=r60, col sep=comma] {data/ch04-joint.csv};
+    \addlegendentry{۶۰ میکرواهم}
+    \addplot[sLimit, domain=0:120, samples=2] {105};
+    \addlegendentry{حدِ فرضیِ خرابی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

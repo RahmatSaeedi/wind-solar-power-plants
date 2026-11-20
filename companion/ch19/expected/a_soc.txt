@@ -1,0 +1,15 @@
+SOC from coulomb counting with a current-sensor error
+  (one cycle a day at 0.5 C, no reset):
+  sensor error           after 1 day   7 days   30 days
+  offset 0.05 A              0.38 %     2.7 %    11.5 %
+  offset 0.5 A               3.82 %    26.8 %   114.6 %
+  gain +0.5 %                0.00 %     0.0 %     0.0 %
+  an offset adds up every hour; a gain error cancels over a
+  cycle with equal charge and discharge, but not over a day of
+  charging only
+  an OCV reset at rest removes the drift, if the curve is steep:
+  voltage error 2 mV gives an SOC error of
+    LFP:   0.7 % at 15 % SOC,   2.0 % at 50 % SOC
+    NMC:   0.2 % at 15 % SOC,   0.3 % at 50 % SOC
+  LFP must be reset near the ends of its window (or by a full
+  charge), NMC anywhere: the BMS design follows the chemistry

@@ -1,0 +1,13 @@
+scenarios: expected energy lost a year (MWh) and the change from the base
+  base                                           6,209       +0
+  repair time +50 %                              7,014     +806
+  main transformer spare held                    6,073     -136
+  turbine crane contract (wait /2)               5,400     -809
+  common cause on both transformers              6,357     +148
+  turbine services all in June                   5,553     -656
+  turbine services all in December               6,922     +713
+  grid outages 3 x 2 h (outside the boundary)    6,411     +203
+  the services moved from December to June save 1,369 MWh (95,839 u) a year
+  for no cost; a transformer spare saves 136 MWh a year - its
+  price is weighed against that (ch 18 shared spare);
+  the largest single change: turbine crane contract (wait /2)

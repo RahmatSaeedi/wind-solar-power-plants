@@ -1,0 +1,2714 @@
+en,fa,dari,tajik,notes,first_chapter
+hybrid power plant,نیروگاهِ هیبریدی,,,also نیروگاهِ ترکیبی,1
+Plant P,نیروگاهِ P,,,the book's fictional teaching plant,1
+power plant,نیروگاه,دستگاهِ تولیدِ برق,нерӯгоҳ (نیروگاه),,1
+solar photovoltaic (PV),خورشیدیِ فتوولتائیک,آفتابی,офтобӣ (آفتابی),,1
+wind turbine,توربینِ بادی,,,,1
+battery energy storage system (BESS),سامانهٔ ذخیره‌سازِ باتری‌ای,,,keep the acronym BESS in Latin,1
+point of connection (POC),نقطهٔ اتصال به شبکه,,,,1
+export limit,سقفِ توانِ تحویلی به شبکه,,,,1
+collector system,شبکهٔ جمع‌آوری,,,medium-voltage network inside the plant,1
+export substation,پستِ خروجیِ نیروگاه,,,,1
+grid,شبکهٔ برق,,,,1
+owner,مالک,,,,1
+developer,توسعه‌دهندهٔ پروژه,,,,1
+utility,شرکتِ برق,شرکتِ برشنا,,Dari: name of the national utility is used generically,1
+grid operator,بهره‌بردارِ شبکه,,,also system operator,1
+regulator,نهادِ تنظیم‌گر,,,,1
+lender,وام‌دهنده,,,,1
+consultant,مشاور,,,,1
+EPC contractor,پیمانکارِ EPC,قراردادیِ EPC,,engineering-procurement-construction; پیمانکارِ طرح‌وساخت,1
+original equipment manufacturer (OEM),سازندهٔ اصلیِ تجهیز,,,,1
+operator,بهره‌بردار,,,,1
+inspector,بازرس,,,,1
+feasibility study,مطالعهٔ امکان‌سنجی,,,,1
+permitting,اخذِ مجوزها,,,,1
+procurement,تدارکات,,,,1
+construction,اجرا,,,also ساخت‌وساز,1
+commissioning,راه‌اندازی,,,,1
+operation,بهره‌برداری,,,,1
+maintenance,نگهداری,,,,1
+repowering,بازتوانی,,,,1
+decommissioning,برچیدن,,,,1
+stage gate,دروازهٔ تصمیم,,,,1
+assumption,فرض,,,,1
+evidence,شاهد,,,plural شواهد,1
+deliverable,تحویل‌دادنی,,,,1
+dossier,پرونده,دوسیه,,,1
+assumptions ledger,دفترِ فرض‌ها,,,,1
+scenario,سناریو,,,,1
+synthetic data,دادهٔ ساختگی,,,,1
+interface,مرزِ مشترک,,,also رابط; use اینترفیس only in quotations,1
+responsibility matrix,ماتریسِ مسئولیت,,,,1
+mastery gate,دروازهٔ تسلط,,,,1
+electric charge,بارِ الکتریکی,,,,6
+voltage,ولتاژ,ولتیج,шиддат (شدت),,6
+electric current,جریانِ الکتریکی,,ҷараён (جریان),,6
+resistance,مقاومت,,,,6
+resistivity,مقاومتِ ویژه,,,,6
+conductance,رسانایی,,,,6
+power,توان,,иқтидор (اقتدار),,6
+energy,انرژی,,,,6
+direct current (DC),جریانِ مستقیم,,,,6
+alternating current (AC),جریانِ متناوب,,,,6
+series connection,اتصالِ سری,,,,6
+parallel connection,اتصالِ موازی,,,,6
+node,گره,,,,6
+loop,حلقه,,,,6
+equivalent circuit,مدارِ معادل,,,,6
+voltage source,منبعِ ولتاژ,,,,6
+current source,منبعِ جریان,,,,6
+internal resistance,مقاومتِ درونی,,,,6
+open-circuit voltage,ولتاژِ مدارِ باز,,,,6
+short-circuit current,جریانِ اتصالِ کوتاه,,,,6
+voltage drop,افتِ ولتاژ,,,,6
+power loss,تلفاتِ توان,,,,6
+conductor,رسانا,,,for a wire: هادی,6
+cable,کابل,کیبل,кабел,,6
+cross-sectional area,سطحِ مقطع,,,,6
+temperature coefficient,ضریبِ دمایی,,,,6
+string,رشته,,,PV modules in series,6
+array,آرایه,,,,6
+combiner box,جعبهٔ تجمیع,,,,6
+fuse,فیوز,,,,6
+circuit breaker,کلیدِ خودکار,,,,6
+disconnector,کلیدِ جداکننده,,,also سکسیونر in substations,6
+isolation,جداسازی,,,making a circuit dead and separated from sources,6
+overcurrent,اضافه‌جریان,,,,6
+electric arc,قوسِ الکتریکی,,,,6
+ground fault,خطای زمین,,,,6
+earthing,زمین‌کردن,,,also grounding,6
+polarity,قطبیت,,,,6
+multimeter,مولتی‌متر,,,,6
+clamp meter,آمپرمترِ انبری,,,,6
+measurement loading,اثرِ بارگذاریِ دستگاهِ اندازه‌گیری,,,,6
+lockout/tagout,قفل و برچسب‌گذاری,,,,6
+permit to work,مجوزِ کار,,,,6
+transformer,ترانسفورماتور,ترانسفارمر,трансформатор,,7
+generator,ژنراتور,جنراتور,генератор,,8
+inverter,اینورتر,,,,9
+commercial power plant,نیروگاهِ تجاری,,,,1
+special-purpose vehicle (SPV),شرکتِ پروژه,,,,1
+power purchase agreement (PPA),قراردادِ خریدِ برق,,,,1
+independent engineer,مهندسِ مستقل,,,lender's technical adviser,1
+owner's engineer,مهندسِ مالک,,,,1
+permitting authority,مرجعِ مجوز,,,,1
+RACI matrix,ماتریسِ مسئولیت,,,,1
+approver,تأییدکنندهٔ بیرونی,,,,1
+approval authority,مرجعیتِ تأیید,,,,1
+life cycle,چرخهٔ عمر,,,,1
+final investment decision (FID),تصمیمِ نهاییِ سرمایه‌گذاری,,,,1
+commercial operation date (COD),بهره‌برداریِ تجاری,,,,1
+fatal flaw,مانعِ قطعی,,,,1
+capacity factor,ضریبِ ظرفیت,,,,1
+DC/AC ratio,نسبتِ DC/AC,,,,1
+clipping,بُرشِ توان,,,inverter limit,1
+curtailment,کاهشِ تولید به دستورِ شبکه,,,,1
+collector bus,شینهٔ جمع‌آوری,,,,1
+revenue meter,کنتورِ فروش,,,,1
+connection agreement,موافقت‌نامهٔ اتصال,,,,1
+reference data pack,بستهٔ دادهٔ مرجع,,,,1
+unknowns register,فهرستِ مجهول‌ها,,,,1
+approvals register,فهرستِ تأییدیه‌ها,,,,1
+decision log,دفترِ تصمیم,,,,1
+country overlay,لایهٔ رویینِ کشوری,,,,1
+wind-farm envelope,پوششِ مزرعهٔ بادی,,,vs land actually occupied,1
+data status: synthetic,ساختگی,,,,1
+data status: assumed,فرضی,,,,1
+data status: vendor,اعلامِ سازنده,,,,1
+data status: measured,اندازه‌گیری‌شده,,,,1
+data status: verified,تأییدشدهٔ رسمی,,,,1
+conventional current direction,جهتِ قراردادیِ جریان,,,,6
+drift velocity,سرعتِ رانش,,,,6
+potential difference,اختلافِ پتانسیل,,,,6
+reference node,گرهِ مرجع,,,,6
+temperature coefficient of resistance,ضریبِ دماییِ مقاومت,,,,6
+Ohm's law,قانونِ اُهم,,,,6
+efficiency,بازده,,,,6
+voltage divider,تقسیم‌کنندهٔ ولتاژ,,,,6
+Kirchhoff's current law (KCL),قانونِ جریانِ کیرشهف,,,,6
+Kirchhoff's voltage law (KVL),قانونِ ولتاژِ کیرشهف,,,,6
+node-voltage method,روشِ ولتاژِ گره,,,,6
+Thevenin equivalent,معادلِ تونن,,,,6
+Norton equivalent,معادلِ نورتون,,,,6
+maximum power transfer,بیشینهٔ انتقالِ توان,,,,6
+I-V curve,منحنیِ جریان–ولتاژ,,,,6
+maximum power point,نقطهٔ بیشینهٔ توان,,,,6
+operating point,نقطهٔ کار,,,,6
+feeder,فیدر,,,,6
+thermal resistance,مقاومتِ گرمایی,,,,6
+thermal runaway,فرارِ گرمایی,,,,6
+current-carrying capacity (ampacity),ظرفیتِ جریانِ کابل,,,,6
+four-wire (Kelvin) measurement,اندازه‌گیریِ چهارسیمه,,,,6
+measurement category,ردهٔ اندازه‌گیری,,,,6
+insulation monitoring,پایشِ عایق,,,,6
+reverse (back-feed) current,جریانِ برگشتی,,,,6
+operating envelope,پوششِ کاری,,,,6
+load-break switch,کلیدِ قابلِ قطع زیرِ بار,,,,6
+off-load disconnector,جداکنندهٔ بی‌بار,,,,6
+maximum series fuse rating,بیشینهٔ فیوزِ سریِ ماژول,,,,6
+connector,اتصال‌دهنده,,,,6
+contact resistance,مقاومتِ تماس,,,,6
+series arc,قوسِ سری,,,,6
+parallel arc,قوسِ موازی,,,,6
+test for absence of voltage,آزمونِ بی‌برقی,,,,6
+quantity,کمیت,,,,2
+unit (of measurement),یکا,,,,2
+base unit / derived unit,یکای پایه / یکای فرعی,,,,2
+coherent (unit system),همدوس,,,,2
+defining constant,ثابتِ تعریف‌کننده,,,,2
+SI prefix,پیشوند,,,,2
+unit-factor method,روشِ ضریبِ واحد,,,,2
+irradiance,شدتِ تابش,,,G; W/m2,2
+irradiation,تابشِ دریافتی,,,H; kWh/m2,2
+full-load hours,ساعت‌های بارِ کامل,,,,2
+specific yield,تولیدِ ویژه,,,kWh/kWp,2
+ramp rate,شیبِ تغییرِ توان,,,,2
+root-mean-square value,مقدارِ مؤثر,,,RMS,2
+active / reactive / apparent power,توانِ اکتیو / راکتیو / ظاهری,,,W / var / VA,2
+energy pattern factor,ضریبِ الگوی انرژی,,,,2
+percentage point,واحدِ درصد,,,,2
+dimension,بُعد,,,,2
+dimensionless,بی‌بُعد,,,,2
+dimensional homogeneity,همگنیِ ابعادی,,,,2
+Rayleigh's method,روشِ ریلی,,,,2
+tip-speed ratio,نسبتِ سرعتِ نوک,,,,2
+significant figures,رقم‌های بامعنا,,,,2
+false precision,دقتِ کاذب,,,,2
+tolerance,رواداری,,,also تلرانس,2
+tolerance stack-up,انباشتِ رواداری,,,,2
+azimuth,سمت,,,,2
+generator sign convention,قراردادِ مولد,,,,2
+interval-beginning label,برچسبِ آغازِ بازه,,,,2
+order-of-magnitude estimate,برآوردِ مرتبهٔ بزرگی,,,,2
+measurand,کمیتِ مورد اندازه‌گیری,,,,2
+systematic error,خطای سامانمند,,,,2
+random error,خطای تصادفی,,,,2
+accuracy (of measurement),صحت,,,qualitative concept,2
+trueness,درستی,,,,2
+precision,دقت,,,in this book: closeness of repeated results,2
+repeatability,تکرارپذیری,,,,2
+reproducibility (of measurement),تجدیدپذیری,,,,2
+resolution,تفکیک‌پذیری,,,,2
+drift,رانش,,,,2
+hysteresis,پسماند,,,,2
+calibration,کالیبراسیون,,,Academy term واسنجی,2
+adjustment (of an instrument),تنظیم,,,,2
+metrological traceability,ردیابی‌پذیری,,,,2
+accreditation,اعتباردهی,,,,2
+standard uncertainty,عدمِ قطعیتِ استاندارد,,,,2
+combined standard uncertainty,عدمِ قطعیتِ ترکیبی,,,,2
+expanded uncertainty,عدمِ قطعیتِ گسترده,,,,2
+coverage factor,ضریبِ پوشش,,,k,2
+sensitivity coefficient,ضریبِ حساسیت,,,,2
+uncertainty budget,بودجهٔ عدمِ قطعیت,,,,2
+Type A / Type B evaluation,ارزیابیِ نوعِ الف / نوعِ ب,,,,2
+guard band,باندِ محافظ,,,,2
+decision rule,قاعدهٔ تصمیم,,,,2
+data provenance,خاستگاهِ داده,,,,2
+quality flag,پرچمِ کیفیت,,,,2
+cryptographic hash,چکیدهٔ رمزنگاشتی,,,SHA-256,2
+calculation sheet,برگهٔ محاسبه,,,,2
+revision,بازنگری,,,,2
+document status,وضعیتِ سند,,,,2
+comment-resolution sheet,برگهٔ پاسخ به نظرها,,,,2
+independent check,وارسیِ مستقل,,,,2
+reproducibility (of a calculation),بازتولیدپذیری,,,,2
+bias,سوگیری,,,,2
+scaling law,قانونِ مقیاس,,,,3
+solar declination,میلِ خورشید,,,delta,3
+hour angle,زاویهٔ ساعتی,,,omega (solar chapters),3
+solar elevation,ارتفاعِ خورشید,,,,3
+ground coverage ratio,نسبتِ پوششِ زمین,,,,3
+dot product,ضربِ داخلی,,,,3
+cross product,ضربِ خارجی,,,,3
+piecewise-linear function,تابعِ تکه‌ای‌خطی,,,,3
+interpolation,درون‌یابی,,,,3
+extrapolation,برون‌یابی,,,,3
+derivative,مشتق,,,,3
+partial derivative,مشتقِ جزئی,,,,3
+gradient,گرادیان,,,,3
+relative sensitivity (elasticity),حساسیتِ نسبی,,,,3
+Lagrange multiplier,ضریبِ لاگرانژ,,,,3
+definite integral,انتگرالِ معین,,,,3
+Gaussian elimination,حذفِ گاوسی,,,,3
+partial pivoting,محورگیریِ جزئی,,,,3
+DC power flow,پخشِ توانِ DC,,,an approximation for AC networks,3
+normal equations,معادله‌های نرمال,,,,3
+eigenvalue,مقدارِ ویژه,,,,3
+eigenvector,بردارِ ویژه,,,,3
+phasor,فازور,,,,3
+impedance,امپدانس,,,,3
+complex power,توانِ مختلط,,,,3
+symmetrical components,مؤلفه‌های متقارن,,,,3
+Clarke transform,تبدیلِ کلارک,,,,3
+time constant,ثابتِ زمانی,,,tau,3
+state variable,متغیرِ حالت,,,,3
+stiff system,سامانهٔ سخت,,,,3
+order of accuracy,مرتبهٔ دقت,,,,3
+median,میانه,,,,3
+quartile,چارک,,,,3
+skewness,چولگی,,,,3
+probability density function,تابعِ چگالیِ احتمال,,,,3
+expected value,امیدِ ریاضی,,,,3
+Weibull distribution,توزیعِ وایبول,,,shape k; scale c,3
+maximum likelihood,درست‌نمایی بیشینه,,,,3
+central limit theorem,قضیهٔ حدِ مرکزی,,,,3
+autocorrelation,خودهمبستگی,,,,3
+effective sample size,اندازهٔ مؤثرِ نمونه,,,,3
+bootstrap,بوت‌استرپ,,,,3
+coefficient of determination,ضریبِ تعیین,,,r^2,3
+correlation coefficient,ضریبِ همبستگی,,,,3
+outlier,دادهٔ پرت,,,,3
+covariance matrix,ماتریسِ کوواریانس,,,,3
+catastrophic cancellation,حذفِ فاجعه‌بار,,,,3
+condition number,عددِ وضعیت,,,,3
+bisection method,روشِ دوبخشی,,,,3
+Runge phenomenon,پدیدهٔ رونگه,,,,3
+trapezoidal rule,قاعدهٔ ذوزنقه‌ای,,,,3
+Simpson's rule,قاعدهٔ سیمپسون,,,,3
+discretisation error,خطای گسسته‌سازی,,,,3
+linear programming,برنامه‌ریزیِ خطی,,,,3
+feasible region,ناحیهٔ شدنی,,,,3
+tornado chart,نمودارِ گردباد,,,,3
+model card,کارتِ مدل,,,,3
+bus impedance matrix,ماتریسِ امپدانسِ باس,,,Z_bus = Y_bus^-1,3
+bus admittance matrix,ماتریسِ ادمیتانسِ باس,,,,3
+wind rose,گلِ باد,,,,3
+inverse-transform sampling,نمونه‌برداری با تبدیلِ وارون,,,,3
+random seed,بذرِ مولدِ عددهای تصادفی,,,,3
+duration curve,منحنیِ تداوم,,,,1
+quantile,چندک,,,,3
+gradient descent,کاهشِ گرادیان,,,,3
+step size (learning rate),اندازهٔ گام (نرخِ یادگیری),,,,3
+local minimum,کمینهٔ محلی,,,,3
+convexity,محدب بودن,,,,3
+negative log-likelihood,منفیِ لگاریتمِ درست‌نمایی,,,,3
+discriminant,ممیز,,,of a quadratic equation,3
+compound growth,رشدِ ترکیبی,,,,3
+decibel,دسی‌بل,,,,3
+sound power level,ترازِ توانِ صوتی,,,,3
+measurement campaign,کمپینِ اندازه‌گیری,,,Academy form: کارزارِ اندازه‌گیری,3
+block bootstrap,بوت‌استرپِ بلوکی,,,,3
+arithmetic series,سریِ حسابی,,,,3
+geometric series,سریِ هندسی,,,,3
+discount rate,نرخِ تنزیل,,,,3
+present value,ارزشِ فعلی,,,,3
+annuity factor,ضریبِ ارزشِ فعلیِ اقساط,,,,3
+capital recovery factor,ضریبِ بازیافتِ سرمایه,,,,3
+levelised cost of energy (LCOE),هزینهٔ تراز‌شدهٔ انرژی,,,,3
+Fourier series,سریِ فوریه,,,,3
+harmonic,هارمونیک,,,,3
+total harmonic distortion (THD),اعوجاجِ هارمونیکیِ کل,,,,3
+discrete Fourier transform (DFT),تبدیلِ فوریهٔ گسسته,,,,3
+fast Fourier transform (FFT),تبدیلِ فوریهٔ سریع,,,,3
+sampling frequency,بسامدِ نمونه‌برداری,,,,3
+aliasing,دگرنمایی,,,,3
+spectral leakage,نشتِ طیفی,,,,3
+anti-aliasing filter,فیلترِ ضدِدگرنمایی,,,,3
+Gibbs phenomenon,پدیدهٔ گیبس,,,,3
+frequency response,پاسخِ فرکانسی,,,,3
+corner frequency,بسامدِ گوشه,,,,3
+low-pass filter,فیلترِ پایین‌گذر,,,,3
+distance constant,ثابتِ فاصله,,,of a cup anemometer,3
+extreme-value statistics,آمارِ مقادیرِ حدی,,,,3
+Gumbel distribution,توزیعِ گامبل,,,,3
+return period,دورهٔ بازگشت,,,,3
+reduced variate,متغیرِ کاهش‌یافته,,,,3
+Markov chain,زنجیرهٔ مارکوف,,,,3
+transition matrix,ماتریسِ گذار,,,,3
+stationary distribution,توزیعِ پایا,,,,3
+mean time between failures (MTBF),میانگینِ زمانِ میانِ خرابی‌ها,,,,3
+mean time to repair (MTTR),میانگینِ زمانِ تعمیر,,,,3
+Hessian matrix,ماتریسِ هِسی,,,,3
+curvature,انحنا,,,,3
+dynamic programming,برنامه‌ریزیِ پویا,,,,3
+Bellman principle of optimality,اصلِ بهینگیِ بلمن,,,,3
+curse of dimensionality,نفرینِ ابعاد,,,,3
+Pareto front,جبهٔ پارتو,,,,3
+dominated option,گزینهٔ مغلوب,,,,3
+Kelvin's law,قانونِ کلوین,,,economic conductor size,3
+haversine formula,فرمولِ هاورسین,,,,3
+great circle,دایرهٔ عظیمه,,,,3
+geodetic datum,مبنای مختصات (دیتوم),,,,3
+local east-north coordinates,مختصاتِ محلیِ شرق-شمال,,,,3
+conditional probability,احتمالِ شرطی,,,,3
+Bayes' theorem,قضیهٔ بیز,,,,3
+prior / posterior probability,احتمالِ پیشین / پسین,,,,3
+sensitivity (of a test),حساسیت,,,true-positive rate,3
+false-alarm rate,نرخِ هشدارِ کاذب,,,,3
+alarm fatigue,خستگیِ هشدار,,,,3
+partial differential equation,معادلهٔ دیفرانسیلِ جزئی,,,,3
+diffusion (heat) equation,معادلهٔ پخش (گرما),,,,3
+thermal diffusivity,ضریبِ پخشِ گرمایی,,,,3
+explicit finite-difference scheme,روشِ تفاضلِ محدودِ صریح,,,,3
+damping depth,عمقِ میرایی,,,,3
+quadratic convergence,همگراییِ مربعی,,,,3
+quasi-Newton method,روشِ شبه‌نیوتن,,,,3
+Hann window,پنجرهٔ هَن,,,,3
+coherent gain,بهرهٔ هم‌دوس,,,of a window,3
+synchronised window,پنجرهٔ همگام,,,,3
+reliability block diagram,نمودارِ بلوکیِ قابلیتِ اطمینان,,,,3
+series / parallel system,سامانهٔ سری / موازی,,,reliability,3
+redundancy,افزونگی,,,,3
+common-cause failure,خرابیِ با علتِ مشترک,,,,3
+Latin hypercube sampling,نمونه‌برداریِ ابرمکعبِ لاتین,,,,3
+variance reduction,کاهشِ واریانس,,,,3
+stratum (pl. strata),لایه,,,in stratified sampling,3
+Park (dq) transform,تبدیلِ پارک (dq),,,,3
+rotating reference frame,قابِ چرخان,,,,3
+phase-locked loop (PLL),حلقهٔ قفلِ فاز,,,,3
+free-body diagram,نمودارِ جسمِ آزاد,,,,4
+thrust coefficient,ضریبِ رانش,,,C_T,4
+overturning moment,گشتاورِ واژگونی,,,,4
+moment of inertia,ممانِ لختی,,,,4
+inertia constant,ثابتِ لختی,,,H,4
+dynamic pressure,فشارِ دینامیکی,,,,4
+ideal gas law,قانونِ گازِ کامل,,,,4
+equivalent wind speed,تندیِ هم‌ارز,,,density correction,4
+actuator disc,قرصِ محرک,,,,4
+Betz limit,حدِ بتز,,,,4
+axial induction factor,ضریبِ القای محوری,,,,4
+atmospheric boundary layer,لایهٔ مرزیِ جو,,,,4
+wind shear exponent,نمای برشِ باد,,,,4
+roughness length,طولِ زبری,,,,4
+conduction,رسانش,,,,4
+convection,همرفت,,,,4
+thermal radiation,تابشِ گرمایی,,,,4
+dielectric strength,استقامتِ دی‌الکتریک,,,,4
+loss factor (tan delta),ضریبِ تلفاتِ دی‌الکتریک,,,,4
+partial discharge,تخلیهٔ جزئی,,,,4
+core saturation,اشباعِ هسته,,,,4
+eddy current,جریانِ گردابی,,,,4
+band gap,گافِ انرژی,,,,4
+anti-reflection coating,لایهٔ ضدبازتاب,,,,4
+stress,تنش,,,,4
+strain,کرنش,,,,4
+elastic modulus,مدولِ کشسانی,,,,4
+yield strength,تنشِ تسلیم,,,,4
+tensile strength,استحکامِ کششی,,,,4
+second moment of area,ممانِ دومِ سطح,,,,4
+section modulus,مدولِ مقطع,,,,4
+fatigue,خستگی,,,,4
+S-N curve,منحنیِ تنش-عمر,,,,4
+Palmgren-Miner rule,قاعدهٔ پالمگرن-ماینر,,,,4
+fracture toughness,چقرمگیِ شکست,,,,4
+creep,خزش,,,,4
+stress relaxation,رهایشِ تنش,,,,4
+galvanic corrosion,خوردگیِ گالوانیک,,,,4
+hot-dip galvanizing,گالوانیزهٔ گرم,,,,4
+material index,شاخصِ ماده,,,,4
+weighted decision matrix,ماتریسِ تصمیمِ وزن‌دار,,,,4
+weld heat input,گرمای ورودیِ جوش,,,,4
+break-even point,نقطهٔ سربه‌سر,,,,4
+fit (clearance / transition / interference),انطباق (لقی‌دار / انتقالی / تداخلی),,,,4
+geometrical tolerance,رواداریِ هندسی,,,,4
+datum,مبنا,,,,4
+surface roughness,زبریِ سطح,,,,4
+process capability,توانِ فرایند,,,,4
+control chart,نمودارِ کنترل,,,,4
+non-destructive testing,آزمونِ غیرمخرب,,,,4
+probability of detection,احتمالِ آشکارسازی,,,,4
+rainflow counting,شمارشِ جریانِ باران,,,,4
+inspection and test plan,برنامهٔ بازرسی و آزمون,,,,4
+centrifugal force,نیروی گریز از مرکز,,,,4
+magnetic circuit,مدارِ مغناطیسی,,,,4
+reluctance,رلوکتانس,,,,4
+magnetising current,جریانِ مغناطیس‌کننده,,,,4
+no-load loss,تلفِ بی‌باری,,,,4
+theoretical specific capacity,ظرفیتِ ویژهٔ نظری,,,mAh/g,4
+altitude derating,کاهشِ ظرفیت با ارتفاع,,,,4
+von Mises equivalent stress,تنشِ معادلِ فون میزس,,,,4
+buckling,کمانش,,,,4
+effective length factor,ضریبِ طولِ مؤثر,,,K,4
+rule of mixtures,قاعدهٔ آمیزه‌ها,,,,4
+fibre volume fraction,کسرِ حجمیِ الیاف,,,,4
+hardness,سختی,,,,4
+insulation ageing,پیریِ عایق,,,,4
+activation energy,انرژیِ فعال‌سازی,,,,4
+intrinsic carrier density,چگالیِ حامل‌های ذاتی,,,,4
+wide-band-gap semiconductor,نیمه‌رسانای گافِ پهن,,,,4
+heat of hydration,گرمای آبگیری,,,,4
+mass concrete,بتنِ حجیم,,,,4
+embodied energy,انرژیِ نهفته,,,,4
+test uncertainty ratio,نسبتِ رواداری به عدمِ قطعیتِ آزمون,,,TUR,4
+gauge repeatability and reproducibility,تکرارپذیری و بازتولیدپذیریِ سنجه,,,,4
+acceptance sampling,نمونه‌گیریِ پذیرش,,,,4
+operating characteristic curve,منحنیِ مشخصهٔ عملیاتی,,,,4
+producer's risk / consumer's risk,خطرِ تولیدکننده / خطرِ خریدار,,,,4
+tolerance budget,بودجه‌بندیِ رواداری,,,,4
+aerofoil,ایرفویل,,,,4
+lift / drag,بالابر / پسار,,,,4
+angle of attack,زاویهٔ حمله,,,,4
+inflow angle,زاویهٔ ورود,,,,4
+air mass,جرمِ هوا,,,optical,4
+direct normal irradiance,تابشِ مستقیمِ عمود,,,DNI,4
+skin effect,اثرِ پوستی,,,,4
+skin depth,عمقِ پوستی,,,,4
+proximity effect,اثرِ مجاورت,,,,4
+synchronous speed,سرعتِ هم‌گام,,,,4
+slip,لغزش,,,,4
+junction temperature,دمای پیوند,,,,4
+heat sink,چاهکِ گرمایی,,,,4
+stress concentration factor,ضریبِ تمرکزِ تنش,,,K_t,4
+soil thermal resistivity,مقاومتِ گرماییِ ویژهٔ خاک,,,,4
+cathodic protection,حفاظتِ کاتدی,,,,4
+sacrificial anode,آندِ فداشونده,,,,4
+Weibull modulus,مدولِ وایبول,,,,4
+tempered glass,شیشهٔ سکوریت,,,,4
+Coffin-Manson relation,رابطهٔ کافین-منسون,,,,4
+accelerated test,آزمونِ شتاب‌یافته,,,,4
+Chvorinov's rule,قاعدهٔ شورینوف,,,,4
+riser,تغذیه,,,casting,4
+shrinkage porosity,حفرهٔ انقباضی,,,,4
+cutting speed / feed,سرعتِ برش / پیشروی,,,,4
+material removal rate,آهنگِ برداشتِ ماده,,,,4
+current density,چگالیِ جریان,,,,4
+true position,موقعیتِ واقعی,,,,4
+ultrasonic thickness measurement,اندازه‌گیریِ فراصوتیِ ضخامت,,,,4
+geometric mean distance,میانگینِ هندسیِ فاصله,,,GMD,4
+drag coefficient,ضریبِ پسار,,,C_d,4
+load case,حالتِ بار,,,,4
+vibration isolation,جداسازیِ ارتعاش,,,,4
+transmissibility,ضریبِ انتقال,,,vibration,4
+thermal time constant,ثابتِ زمانیِ گرمایی,,,,4
+short-time overload,اضافه‌بارِ کوتاه‌مدت,,,,4
+adiabatic short-circuit heating,گرم شدنِ بی‌دررو در اتصالِ کوتاه,,,,4
+fault clearing time,زمانِ رفعِ خطا,,,,4
+joint load factor,ضریبِ بارِ اتصال,,,,4
+fillet weld,جوشِ گوشه‌ای,,,,4
+weld throat,گلوگاهِ جوش,,,,4
+resin infusion,تزریقِ رزین,,,,4
+Darcy's law,قانونِ دارسی,,,,4
+permeability (porous medium),نفوذپذیری,,,,4
+thermography,گرمانگاری,,,infrared,4
+emissivity,گسیلندگی,,,,4
+Wien's displacement law,قانونِ وین,,,,4
+relative air density,چگالیِ نسبیِ هوا,,,delta,4
+ultraviolet dose,دوزِ فرابنفش,,,,4
+slip-critical joint,اتصالِ لغزش‌بحرانی,,,,4
+rain erosion,فرسایشِ بارانی,,,,4
+water-hammer pressure,فشارِ ضربهٔ آب,,,,4
+hydrogen embrittlement,تردیِ هیدروژنی,,,,4
+heat number,شمارهٔ ذوب,,,,4
+mill certificate,گواهی‌نامهٔ کارخانه,,,,4
+carbon equivalent,هم‌ارزِ کربن,,,CE,4
+cold cracking,ترکِ سرد,,,,4
+preheat,پیش‌گرم,,,,4
+failure mode and effects analysis,تحلیلِ حالت‌ها و اثرهای خرابی,,,FMEA,4
+risk priority number,عددِ اولویتِ خطر,,,RPN,4
+buoyancy,شناوری,,,,4
+eccentricity (of a load),خروج از مرکزی,,,,4
+gravity foundation,فونداسیونِ وزنی,,,,4
+end of life,پایانِ عمر,,,,4
+thermoset composite,کامپوزیتِ گرماسخت,,,,4
+bit,بیت,,,,5
+byte,بایت,,,,5
+binary,دودویی,,,,5
+hexadecimal,شانزده‌شانزدهی,,,,5
+register (device),ثبّات,,,16-bit word in a controller,5
+register map,نقشهٔ ثبّات‌ها,,,,5
+two's complement,مکملِ دو,,,,5
+status word,کلمهٔ وضعیت,,,,5
+counter rollover,سرریزِ شمارنده,,,,5
+floating point,ممیزِ شناور,,,,5
+machine epsilon,اپسیلونِ ماشین,,,,5
+code point,نقطهٔ کد,,,,5
+character encoding,کدگذاریِ نویسه,,,,5
+byte-order mark,نشانهٔ ترتیبِ بایت,,,BOM,5
+mojibake,نویسه‌های درهم,,,,5
+text normalisation,یکسان‌سازیِ متن,,,NFC,5
+tidy data,دادهٔ مرتب,,,,5
+time zone,منطقهٔ زمانی,,,,5
+daylight saving time,ساعتِ تابستانی,,,DST,5
+interval-end label,برچسبِ پایانِ بازه,,,,5
+sentinel value,مقدارِ نگهبان,,,,5
+data recovery rate,نرخِ بازیابیِ داده,,,,5
+metadata,فراداده,,,,5
+data dictionary,فرهنگِ داده,,,,5
+data lineage,پیشینهٔ داده,,,also provenance,5
+schema,طرح‌واره,,,,5
+named range,ناحیهٔ نام‌دار,,,,5
+algorithm,الگوریتم,,,,5
+pseudocode,شبه‌کد,,,,5
+pure function,تابعِ محض,,,,5
+side effect,اثرِ جانبی,,,,5
+exception (software),استثنا,,,,5
+exit code,کدِ خروج,,,,5
+vectorisation,برداری‌سازی,,,,5
+dependency lock file,پروندهٔ قفلِ وابستگی,,,,5
+user story,داستانِ کاربر,,,,5
+acceptance criterion,معیارِ پذیرش,,,,5
+traceability matrix,ماتریسِ ردیابی,,,,5
+logging,ثبتِ رویداد,,,,5
+primary key,کلیدِ اصلی,,,,5
+foreign key,کلیدِ خارجی,,,,5
+transaction (database),تراکنش,,,,5
+unit test,آزمونِ واحد,,,,5
+property-based test,آزمونِ ویژگی,,,,5
+regression test,آزمونِ بازگشت,,,,5
+mutation testing,آزمونِ جهش,,,,5
+static analysis,وارسیِ ایستا,,,,5
+continuous integration,یکپارچه‌سازیِ پیوسته,,,CI,5
+version control,کنترلِ نسخه,,,,5
+commit,ثبت,,,version control,5
+branch,شاخه,,,version control,5
+semantic versioning,نسخه‌گذاریِ معنایی,,,,5
+changelog,تغییرنامه,,,,5
+calibration (model),واسنجی,,,fitting model parameters to measurements,5
+owner's information requirements,الزام‌های اطلاعاتیِ مالک,,,,5
+functional location,جایگاهِ کارکردی,,,,5
+reference designation,نشانهٔ مرجع,,,,5
+system of record,سامانهٔ مرجع,,,,5
+historian,تاریخ‌نگار,,,SCADA data store,5
+digital twin,همتای دیجیتال,,,"optional, needs a named use case",5
+change notice,دستورِ تغییر,,,,5
+reconciliation,آشتی,,,register vs change notice,5
+cash flow available for debt service,جریانِ نقدیِ در دسترس برای پرداختِ بدهی,,,CFADS,5
+debt-service coverage ratio,نسبتِ پوششِ بدهی,,,DSCR,5
+sine wave (sinusoid),موجِ سینوسی,,,,7
+amplitude (peak value),دامنه (مقدارِ قله),,,V_m,7
+frequency,بسامد,,,Hz; also فرکانس,7
+period,دوره,,,T_1 = 1/f,7
+angular frequency,بسامدِ زاویه‌ای,,,omega = 2 pi f,7
+phase angle / phase difference,زاویهٔ فاز / اختلافِ فاز,,,,7
+lagging / leading,پس‌فاز / پیش‌فاز,,,always state with a power factor,7
+crest factor,ضریبِ قله,,,peak / RMS,7
+form factor,ضریبِ شکل,,,RMS / mean of |x|,7
+complex number / conjugate,عددِ مختلط / مزدوج,,,,7
+inductor / inductance,سلف / ضریبِ خودالقایی,,,henry,7
+capacitor / capacitance,خازن / ظرفیت,,,farad,7
+reactance,راکتانس,,,X_L and X_C,7
+admittance,ادمیتانس,,,Y = 1/Z,7
+susceptance,سوسپتانس,,,B,7
+resonance / resonant frequency,تشدید / بسامدِ تشدید,,,,7
+quality factor,ضریبِ کیفیت,,,Q_f,7
+charging current,جریانِ شارژ,,,of a cable,7
+short-circuit power,توانِ اتصالِ کوتاه,,,S_sc,7
+transient / inrush current,گذرا / جریانِ هجومی,,,,7
+three-phase system,سامانهٔ سه‌فاز,,,,7
+phase sequence (phase rotation),توالیِ فاز,,,abc / acb,7
+wye (star) / delta connection,اتصالِ ستاره / مثلث,,,Y / D,7
+neutral / star point,نول / نقطهٔ ستاره,,,,7
+line voltage / phase voltage,ولتاژِ خط / ولتاژِ فاز,,,V_LL = sqrt3 V_ph,7
+vector group,گروهِ برداری,,,of a transformer,7
+per-phase equivalent circuit,مدارِ معادلِ تک‌فاز,,,,7
+per unit / base value,پریونیت / مبنا,,,pu,7
+unbalanced load,بارِ نامتعادل,,,,7
+Millman's theorem,قضیهٔ میلمن,,,,7
+broken (open) neutral,قطعیِ نول,,,,7
+protective conductor,هادیِ حفاظتی,,,earth,7
+positive / negative / zero sequence,توالیِ مثبت / منفی / صفر,,,,7
+unbalance factor,ضریبِ نامتعادلی,,,u_2 = |V2|/|V1|,7
+two-wattmeter method (Blondel's theorem),روشِ دوواتمتری (قضیهٔ بلوندل),,,,7
+current transformer / voltage transformer,ترانسفورماتورِ جریان / ولتاژ,,,CT / VT,7
+instantaneous power,توانِ لحظه‌ای,,,,7
+power triangle,مثلثِ توان,,,,7
+load convention / generator convention,قراردادِ بار / قراردادِ مولد,,,D-010,7
+power factor,ضریبِ توان,,,with direction,7
+displacement power factor,ضریبِ توانِ جابه‌جایی,,,cos phi_1,7
+power-factor correction,اصلاحِ ضریبِ توان,,,,7
+capability chart (P-Q chart),نمودارِ قابلیت,,,,7
+non-linear load,بارِ غیرخطی,,,,7
+fundamental component,مؤلفهٔ اصلی,,,,7
+distortion factor,ضریبِ اعوجاج,,,I_1 / I,7
+K-factor,ضریبِ K,,,transformer derating,7
+triplen harmonics,هارمونیک‌های مضربِ سه,,,,7
+background distortion,اعوجاجِ زمینه,,,,7
+tuned filter / detuned capacitor,صافیِ تنظیم‌شده / خازنِ میرا,,,workshop word فیلتر given once in ch 27; a power filter is صافی,7
+true RMS / average-responding meter,دستگاهِ مؤثرِ واقعی / میانگین‌پاسخ,,,,7
+power-quality analyser,تحلیل‌گرِ کیفیتِ توان,,,,7
+accuracy class,کلاسِ دقت,,,,7
+voltage dip (sag) / swell / interruption,افتِ کوتاه‌مدتِ ولتاژ / فرازِ ولتاژ / قطعی,,,short form فرورفتِ ولتاژ (ch 27),7
+flicker,سوسو,,,also فلیکر (given in parentheses at first use in ch 7 and 27); flickermeter سوسوسنج,7
+load schedule,فهرستِ بار,,,,7
+coincidence factor,ضریبِ هم‌زمانی,,,peak of the sum / sum of the peaks,7
+auxiliary supply,تغذیهٔ کمکی,,,,7
+short-circuit ratio (SCR),نسبتِ اتصالِ کوتاه,,,,7
+harmonic summation law,قانونِ جمعِ هارمونیک,,,alpha,7
+mutual induction / turns ratio,القای متقابل / نسبتِ تبدیل,,,,7
+impedance referral,انتقالِ امپدانس,,,n^2,7
+leakage reactance / magnetising branch,راکتانسِ نشتی / شاخهٔ مغناطیس‌کننده,,,,7
+load flow (power flow),پخشِ بار,,,,7
+symmetrical short-circuit current,جریانِ اتصالِ کوتاهِ متقارن,,,I_k,7
+decaying DC component / first peak,مؤلفهٔ مستقیمِ میرا / قلهٔ نخست,,,,7
+kilovar-hour,کیلووارساعت,,,kvarh,7
+demand / maximum demand,تقاضا / بیشینهٔ تقاضا,,,,7
+load factor,ضریبِ بار,,,mean / peak demand,7
+phasor display,نمودارِ فازوریِ دستگاه,,,wiring check,7
+distortion power,توانِ اعوجاجی,,,D,7
+electrical machine,ماشینِ الکتریکی,,,,8
+motor,موتور,,,,8
+Faraday's law,قانونِ فارادی,,,,8
+Lenz's law,قانونِ لنز,,,,8
+motional EMF,نیروی محرکهٔ حرکتی,,,Bell v,8
+air gap,فاصلهٔ هوایی,,,,8
+saturation,اشباع,,,,8
+rotating magnetic field,میدانِ گردان,,,,8
+pole,قطب,,,,8
+winding factor,ضریبِ سیم‌پیچ,,,,8
+distribution factor,ضریبِ پخش,,,,8
+pitch factor,ضریبِ گام,,,,8
+synchronous machine,ماشینِ هم‌گام,,,,8
+synchronous reactance,راکتانسِ هم‌گام,,,,8
+load angle,زاویهٔ بار,,,delta,8
+excitation,تحریک,,,,8
+over-excited,پرتحریک,,,,8
+under-excited,کم‌تحریک,,,,8
+V-curve,منحنیِ V,,,,8
+synchronisation,هم‌گام‌سازی,,,,8
+synchroniser,هم‌گام‌ساز,,,,8
+brushless excitation,تحریکِ بی‌جاروبک,,,,8
+automatic voltage regulator,تنظیم‌کنندهٔ خودکارِ ولتاژ,,,AVR,8
+salient pole,قطب‌برجسته,,,,8
+cylindrical rotor,روتورِ استوانه‌ای,,,,8
+induction machine,ماشینِ القایی,,,,8
+squirrel-cage rotor,روتورِ قفسه‌ای,,,,8
+wound rotor,روتورِ سیم‌پیچی‌شده,,,,8
+air-gap power,توانِ فاصلهٔ هوایی,,,,8
+pull-out torque,گشتاورِ بیشینه,,,,8
+starting torque,گشتاورِ راه‌اندازی,,,,8
+direct-on-line start,راه‌اندازیِ مستقیم,,,,8
+star-delta start,راه‌اندازیِ ستاره–مثلث,,,,8
+soft start,راه‌اندازیِ نرم,,,,8
+variable-frequency drive,مبدّلِ بسامد,,,,8
+self-excitation,خودتحریکی,,,,8
+doubly-fed induction generator,ژنراتورِ القاییِ دوسوتغذیه,,,DFIG,8
+slip power,توانِ لغزش,,,,8
+slip ring,حلقهٔ لغزان,,,,8
+brush,جاروبک,,,,8
+full converter,مبدّلِ کامل,,,,8
+back-to-back converter,مبدّلِ پشت‌به‌پشت,,,,8
+permanent-magnet synchronous generator,ژنراتورِ هم‌گامِ آهن‌ربای دائم,,,PMSG,8
+direct drive,رانهٔ بی‌گیربکس,,,,8
+medium-speed drivetrain,رانهٔ سرعت‌متوسط,,,,8
+high-speed drivetrain,رانهٔ تندگرد,,,,8
+air-gap shear stress,تنشِ برشیِ فاصلهٔ هوایی,,,sigma,8
+output equation,معادلهٔ خروجی,,,,8
+duty type,نوعِ کار,,,,8
+additional load losses,تلفاتِ اضافیِ بار,,,,8
+eddy-current loss,تلفاتِ گردابی,,,,8
+hysteresis loss,تلفاتِ پسماند,,,,8
+electrical steel,فولادِ الکتریکی,,,,8
+lamination,ورق,,,,8
+grain-oriented steel,فولادِ دانه‌گرا,,,,8
+non-oriented steel,فولادِ غیردانه‌گرا,,,,8
+form-wound winding,سیم‌پیچِ کلافیِ شکل‌داده,,,,8
+random-wound winding,سیم‌پیچِ تصادفی,,,,8
+transposition,جابه‌جاییِ رشته‌ها,,,,8
+turn insulation,عایقِ دور,,,,8
+groundwall,دیوارهٔ زمین,,,,8
+vacuum pressure impregnation,آغشته‌سازیِ خلأ–فشار,,,VPI,8
+thermal class,کلاسِ گرمایی,,,,8
+impulse stress,تنشِ پالس,,,,8
+reflected wave,موجِ بازتابی,,,,8
+demagnetisation,مغناطیس‌زدایی,,,,8
+rolling bearing,یاتاقانِ غلتشی,,,,8
+basic rating life,عمرِ پایه,,,,8
+bearing current,جریانِ یاتاقان,,,,8
+common-mode voltage,ولتاژِ حالتِ مشترک,,,,8
+insulated bearing,یاتاقانِ عایق,,,,8
+shaft grounding brush,جاروبکِ زمینِ شفت,,,,8
+IP code,کدِ حفاظتِ پوسته,,,,8
+critical speed,سرعتِ بحرانی,,,,8
+balance grade,درجهٔ بالانس,,,,8
+residual unbalance,نابالانسیِ باقیمانده,,,,8
+routine test,آزمونِ جاری,,,,8
+type test,آزمونِ نوعی,,,,8
+heat run,آزمونِ گرمایی,,,,8
+resistance method,روشِ مقاومت,,,,8
+polarisation index,شاخصِ پلاریزاسیون,,,,8
+open-circuit test,آزمونِ بی‌باری,,,,8
+short-circuit test,آزمونِ اتصالِ کوتاه,,,,8
+short-circuit ratio,نسبتِ اتصالِ کوتاهِ ماشین,,,1/x_d,8
+hold point,نقطهٔ توقف,,,,8
+witness point,نقطهٔ شاهد,,,,8
+drivetrain test bench,میزِ آزمونِ رانه,,,,8
+condition monitoring,پایشِ وضعیت,,,,8
+envelope spectrum,طیفِ پوش,,,,8
+"BPFO, BPFI",بسامدِ خرابیِ حلقهٔ بیرونی و درونی,,,,8
+CUSUM,مجموعِ تجمعی,,,,8
+capitalised losses,تلفاتِ سرمایه‌ای,,,,8
+temperature derating,کاهشِ توان با دما,,,,8
+subtransient reactance,راکتانسِ زیرگذرا,,,,8
+transient reactance,راکتانسِ گذرا,,,,8
+direct axis,محورِ مستقیم,,,,8
+quadrature axis,محورِ عمود,,,,8
+swing equation,معادلهٔ نوسان,,,,8
+affinity laws,قانون‌های تشابه,,,,8
+interior permanent magnet,آهن‌ربای درونی,,,,8
+reluctance torque,گشتاورِ رلوکتانسی,,,,8
+field weakening,تضعیفِ میدان,,,,8
+motor current signature analysis,تحلیلِ طیفِ جریانِ موتور,,,,8
+broken bar,میلهٔ شکسته,,,,8
+negative sequence,مؤلفهٔ منفی,,,,8
+voltage unbalance,نامتعادلیِ ولتاژ,,,,8
+deep-bar effect,اثرِ میلهٔ عمیق,,,,8
+run-up time,زمانِ شتاب‌گیری,,,,8
+safe stall time,زمانِ مجازِ قفل,,,,8
+cogging torque,گشتاورِ دندانه‌ای,,,,8
+torque ripple,ضربانِ گشتاور,,,,8
+fractional-slot winding,سیم‌پیچِ کسری,,,,8
+tooth coil,کلافِ دندانه‌ای,,,,8
+star of slots,ستارهٔ شیارها,,,,8
+magnetic pressure,فشارِ مغناطیسی,,,,8
+unbalanced magnetic pull,کششِ مغناطیسیِ نامتقارن,,,,8
+eccentricity,خروج از مرکز,,,,8
+misalignment,ناهم‌محوری,,,,8
+fault ride-through,عبور از افتِ ولتاژ,,,,8
+power electronics,الکترونیکِ قدرت,,,,9
+rectifier,یکسوساز,,,,9
+buck converter,مبدّلِ کاهنده,,,,9
+boost converter,مبدّلِ افزاینده,,,,9
+duty cycle,چرخهٔ کار,,,D,9
+switching frequency,بسامدِ کلیدزنی,,,f_sw,9
+IGBT,آی‌جی‌بی‌تی,,,,9
+MOSFET,ماسفت,,,,9
+thyristor,تریستور,,,,9
+silicon carbide,کاربیدِ سیلیسیم,,,,9
+gallium nitride,نیتریدِ گالیم,,,,9
+safe operating area,محدودهٔ کارِ امن,,,,9
+reverse recovery,بازیابیِ معکوس,,,E_rr,9
+commutation,کموتاسیون,,,,9
+active front end,یکسوسازِ فعال,,,,9
+leg,ساق,,,,9
+bridge,پل,,,,9
+modulation index,ضریبِ مدولاسیون,,,,9
+carrier frequency ratio,نسبتِ بسامدِ حامل,,,,9
+pulse-width modulation,مدولاسیونِ پهنای پالس,,,PWM,9
+space-vector modulation,مدولاسیونِ بردارِ فضایی,,,,9
+overmodulation,فرامدولاسیون,,,,9
+neutral-point clamped converter,مبدّلِ سه‌سطحیِ با نقطهٔ میانیِ کلمپ‌شده,,,NPC,9
+modular multilevel converter,مبدّلِ ماژولارِ چندسطحی,,,,9
+conduction loss,تلفاتِ هدایت,,,,9
+switching loss,تلفاتِ کلیدزنی,,,,9
+transient thermal impedance,امپدانسِ گرماییِ گذرا,,,Z_th,9
+power cycling,چرخهٔ توان,,,,9
+European efficiency,بازدهٔ اروپایی,,,,9
+weighted efficiency,بازدهٔ وزنی,,,,9
+derating,کاهشِ توان,,,,9
+component derating,کاهشِ ردهٔ قطعه,,,,9
+maximum power point tracking,ردیابیِ نقطهٔ بیشینهٔ توان,,,MPPT,9
+perturb and observe,آشفتن و مشاهده,,,,9
+incremental conductance,رسانایی افزایشی,,,,9
+global scan,جست‌وجوی سراسری,,,,9
+DC link,پیوندِ DC,,,,9
+self-healing,خودترمیمی,,,خازنِ فیلمی,9
+LCL filter,صافیِ LCL,,,,9
+damping,میرایی,,,,9
+laminated busbar,شینهٔ لایه‌ای,,,,9
+stray inductance,اندوکتانسِ پراکنده,,,,9
+snubber,اسنابر,,,,9
+gate driver,درایورِ گیت,,,,9
+dead time,زمانِ مرده,,,,9
+desaturation protection,حفاظتِ اشباع‌زدایی,,,,9
+insulation monitoring device,پایشگرِ عایق,,,,9
+creepage distance,فاصلهٔ خزشی,,,,9
+pollution degree,درجهٔ آلودگی,,,,9
+overvoltage category,ردهٔ اضافه‌ولتاژ,,,,9
+firmware,میان‌افزار,,,,9
+parameter set,مجموعهٔ پارامتر,,,,9
+grid-following,پیروِ شبکه,,,,9
+grid-forming,سازندهٔ شبکه,,,,9
+virtual inertia,لختیِ مجازی,,,,9
+fast frequency response,پاسخِ سریعِ بسامد,,,,9
+islanding detection,تشخیصِ جزیره,,,,9
+first-pass yield,بازدهِ نخستین‌گذر,,,,9
+configuration control,کنترلِ پیکربندی,,,,9
+baseline,خط‌مبنا,,,,9
+factory acceptance test,آزمونِ پذیرشِ کارخانه,,,,9
+site acceptance test,آزمونِ پذیرشِ ساختگاه,,,,9
+pre-charge,پیش‌شارژ,,,,9
+inrush current,جریانِ هجومی,,,,9
+dual active bridge,پلِ دوگانهٔ فعال,,,,9
+power conversion system,مبدّلِ باتری,,,,9
+brake chopper,چاپرِ ترمز,,,,9
+interleaving,درهم‌تنیدگی,,,,9
+circulating current,جریانِ گردشی,,,,9
+functional earthing,زمینِ کارکردی,,,,9
+potential-induced degradation,تخریبِ ناشی از پتانسیل,,,,9
+double-conversion UPS,منبعِ بی‌وقفهٔ دوتبدیلی,,,,9
+impedance-based stability,پایداریِ امپدانسی,,,,9
+unintentional island,جزیرهٔ ناخواسته,,,,9
+non-detection zone,ناحیهٔ کور,,,,9
+calorimetric method,روشِ گرماسنجی,,,,9
+photovoltaic module,ماژولِ فتوولتائیک,,,,10
+photon,فوتون,,,,10
+cut-off wavelength,طولِ موجِ قطع,,,,10
+thermalisation,گرمایی‌شدن,,,,10
+detailed-balance limit,حدِ تعادلِ تفصیلی,,,,10
+minority carrier,حاملِ اقلیت,,,,10
+diffusion length,طولِ پخش,,,,10
+carrier lifetime,طولِ عمرِ حامل,,,,10
+surface passivation,غیرفعال‌سازیِ سطح,,,,10
+doping,آلایش,,,,10
+n-type,نوعِ n,,,,10
+p-type,نوعِ p,,,,10
+depletion region,ناحیهٔ تهی,,,,10
+photocurrent,جریانِ نوری,,,,10
+dark saturation current,جریانِ اشباعِ تاریک,,,,10
+ideality factor,ضریبِ ایده‌آلی,,,,10
+modified ideality factor,ضریبِ ایده‌آلیِ اصلاح‌شده,,,,10
+series resistance,مقاومتِ سری,,,,10
+shunt resistance,مقاومتِ موازی,,,,10
+single-diode model,مدلِ تک‌دیودی,,,,10
+Lambert W function,تابعِ لمبرت,,,W,10
+fill factor,ضریبِ پرشدگی,,,FF,10
+voltage deficit,کسریِ ولتاژ,,,,10
+tandem cell,سلولِ پشته‌ای,,,,10
+heterojunction,ناهم‌پیوند,,,,10
+passivated contact,اتصالِ غیرفعال,,,,10
+interdigitated back contact,تماسِ پشتیِ درهم,,,,10
+datasheet,برگهٔ داده,,,,10
+power bin,ردهٔ توان,,,,10
+"flash tester, solar simulator",شبیه‌سازِ خورشیدیِ فلشی,,,,10
+NOCT,دمای کارِ اسمیِ سلول,,,,10
+NMOT,دمای کارِ اسمیِ ماژول,,,,10
+Faiman model,مدلِ فایمن,,,U_0; U_1,10
+bifacial module,ماژولِ دوطرفه,,,,10
+bifaciality,ضریبِ دوطرفگی,,,,10
+incidence angle modifier,ضریبِ اصلاحِ زاویهٔ تابش,,,IAM; K(theta),10
+spectral mismatch,ناهمسانیِ طیفی,,,,10
+ingot,شمش,,,,10
+wafer,ویفر,,,,10
+diamond wire,سیمِ الماسه,,,,10
+texturing,بافت‌دهی,,,,10
+metallisation,فلزکاری,,,,10
+electroluminescence imaging,تصویرِ الکترولومینسانس,,,EL,10
+encapsulant,کپسوله‌کننده,,,,10
+backsheet,پشت‌پوش,,,,10
+glass-glass module,ماژولِ دوشیشه,,,,10
+junction box,جعبه‌تقسیم,,,,10
+bypass diode,دیودِ میان‌گذر,,,,10
+substring,زیررشته,,,,10
+interconnect ribbon,نوارِ اتصال,,,,10
+busbar,شینه,,,,10
+half-cut cell,نیم‌سلول,,,,10
+quality gate,دروازهٔ کیفیت,,,,10
+traceability,ردیابی,,,,10
+attribute sampling,نمونه‌برداریِ وصفی,,,,10
+acceptance number,عددِ پذیرش,,,,10
+operating characteristic,منحنیِ مشخصهٔ عملکرد,,,,10
+producer's risk,ریسکِ تولیدکننده,,,,10
+consumer's risk,ریسکِ مصرف‌کننده,,,,10
+microcrack,ریزترک,,,,10
+delamination,لایه‌لایه شدن,,,,10
+hot spot,نقطهٔ داغ,,,,10
+avalanche breakdown,شکستِ بهمنی,,,V_br,10
+light-induced degradation,تخریبِ نوری,,,,10
+light and elevated temperature induced degradation,تخریبِ نوری در دمای بالا,,,,10
+design qualification,تأییدِ صلاحیتِ طراحی,,,,10
+safety qualification,تأییدِ صلاحیتِ ایمنی,,,,10
+product warranty,ضمانتِ محصول,,,,10
+power warranty,ضمانتِ توان,,,,10
+Hay-Davies model,مدلِ هِی–دیویس,,,,10
+plane-of-array irradiance,تابشِ صفحهٔ آرایه,,,POA,10
+pitch (row),گام,,,,10
+sun profile angle,زاویهٔ نیم‌رخ,,,,10
+table,میز,,,,10
+single-axis tracker,ردیابِ تک‌محوره,,,,10
+backtracking,عقب‌گرد,,,,10
+mismatch loss,تلفاتِ ناهمسانی,,,,10
+surge protective device,برقگیرِ ضربه,,,SPD,10
+equipotential bonding,هم‌پتانسیل‌سازی,,,,10
+performance ratio,نسبتِ عملکرد,,,,10
+soiling ratio,نسبتِ آلودگی,,,,10
+soiling station,ایستگاهِ آلودگی,,,,10
+soiling rate,آهنگِ آلودگی,,,,10
+removal efficiency,سهمِ برداشت,,,eta,10
+optimal cleaning interval,فاصلهٔ بهینهٔ شست‌وشو,,,T^*,10
+trigger-based policy,سیاستِ ماشه‌ای,,,,10
+horizontal-axis wind turbine,توربینِ بادیِ محورافقی,,,,11
+swept area,سطحِ جاروب,,,A_r,11
+specific rating,نسبتِ ویژه,,,W/m2 of swept area,11
+tangential induction factor,ضریبِ القای مماسی,,,a',11
+power coefficient,ضریبِ توان,,,C_p,11
+stall,واماندگی,,,,11
+blade element momentum theory,نظریهٔ المانِ پره–تکانه,,,BEM,11
+local solidity,صلبیتِ محلی,,,sigma_r,11
+tip loss,تلفاتِ نوکِ پره,,,Prandtl factor F,11
+chord (blade),وتر,,,c_b,11
+twist (blade),پیچش,,,theta_tw,11
+pitch angle,زاویهٔ گام,,,theta_p,11
+feather,وضعِ بادنما,,,blade edge-on to the wind,11
+operating regions,ناحیه‌های کار,,,,11
+variable-speed operation,کارِ سرعت‌متغیر,,,,11
+torque control law,قانونِ کنترلِ گشتاور,,,T_g = k omega^2,11
+gain scheduling,برنامه‌ریزیِ بهره,,,,11
+individual pitch control,گامِ انفرادی,,,,11
+yaw system,سامانهٔ چرخشِ ناسل,,,,11
+yaw bearing,یاتاقانِ چرخش,,,,11
+aerodynamic brake,ترمزِ آیرودینامیکی,,,,11
+mechanical brake,ترمزِ مکانیکی,,,,11
+emergency stop,توقفِ اضطراری,,,,11
+thrust,رانش,,,F_T,11
+warranted power curve,منحنیِ توانِ ضمانت‌شده,,,,11
+spar cap,کلاهکِ تیرِ اصلی,,,,11
+shear web,جانِ برشی,,,,11
+hub,توپی,,,,11
+pitch bearing,یاتاقانِ گام,,,,11
+main bearing,یاتاقانِ اصلی,,,,11
+main shaft,محورِ اصلی,,,,11
+gearbox,جعبه‌دنده,,,,11
+planetary stage,مرحلهٔ سیاره‌ای,,,,11
+bedplate,شاسی,,,,11
+nacelle,ناسل,,,,11
+anchor bolt cage,قفسهٔ پیچِ مهار,,,,11
+load path,مسیرِ بار,,,,11
+design load case,حالتِ بارِ طراحی,,,,11
+turbine class,ردهٔ توربین,,,,11
+site suitability,سازگاریِ ساختگاه,,,,11
+damage-equivalent load,بارِ هم‌ارزِ آسیب,,,S_eq,11
+Campbell diagram,نمودارِ کمپبل,,,,11
+soft-stiff tower,برجِ نرم–سفت,,,first frequency between 1P and 3P,11
+ball pass frequency outer race,بسامدِ عبورِ غلتک از مسیرِ بیرونی,,,BPFO,11
+vacuum resin infusion,تزریقِ رزین زیرِ خلأ,,,,11
+fibre wrinkle,چینِ الیاف,,,,11
+ductile cast iron,چدنِ نشکن,,,,11
+case hardening,سخت‌کاریِ سطحی,,,,11
+white etching cracks,ترک‌های سفیدِ حکاکی‌پذیر,,,,11
+tower can,قوطیِ برج,,,,11
+flange flatness,تختیِ فلنج,,,,11
+end-of-line test,آزمونِ پایانِ خط,,,,11
+lightning protection system,سامانهٔ حفاظت در برابرِ صاعقه,,,,11
+ice throw,پرتابِ یخ,,,,11
+type certificate,گواهیِ نوع,,,,11
+route survey,بازرسیِ مسیر,,,,11
+wake (turbine),دنباله,,,,11
+Jensen (Park) wake model,مدلِ دنبالهٔ جنسن,,,k_w,11
+wake rotation,چرخشِ دنباله,,,Glauert,11
+turbulent wake state,حالتِ دنبالهٔ متلاطم,,,Buhl correction,11
+tower shadow,سایهٔ برج,,,,11
+rotor-equivalent wind speed,تندیِ هم‌ارزِ روتور,,,v_rews,11
+leading-edge erosion,سایشِ لبهٔ حمله,,,,11
+leading-edge protection,حفاظتِ لبهٔ حمله,,,,11
+vortex generator,مولدِ گردابه,,,,11
+trailing-edge serration,دندانهٔ لبهٔ فرار,,,,11
+drivetrain inertia,لختیِ پیشرانه,,,J_m,11
+tracking loss,تلفاتِ تعقیب,,,,11
+aerodynamic damping,میراییِ آیرودینامیکی,,,D,11
+pole placement,جای‌گذاریِ قطب,,,,11
+sun gear,خورشید (چرخ‌دنده),,,,11
+planet gear,سیاره (چرخ‌دنده),,,,11
+ring gear,حلقهٔ دندانه‌دار,,,,11
+planet carrier,حامل,,,,11
+gear mesh frequency,بسامدِ درگیری,,,f_mesh,11
+planet pass frequency,بسامدِ عبورِ سیاره,,,,11
+order analysis,تحلیلِ مرتبه,,,,11
+equivalent bearing load,بارِ هم‌ارزِ یاتاقان,,,P_eq,11
+auxiliary consumption,مصرفِ داخلی,,,own use,11
+prebend,پیش‌خم,,,,11
+tower clearance,فاصلهٔ نوک تا برج,,,,11
+method of bins,روشِ بازه‌ها,,,,11
+density normalisation,نرمال‌سازیِ چگالی,,,v_n,11
+sound pressure level,ترازِ فشارِ صوت,,,L_p,11
+noise-reduced mode,حالتِ کم‌صدا,,,,11
+preload,پیش‌بار,,,,11
+ring flange,فلنجِ حلقوی,,,,11
+dead band,نوارِ مرده,,,,11
+cable twist,تابِ کابل,,,,11
+time-based availability,دسترس‌پذیریِ زمانی,,,,11
+energy-based availability,دسترس‌پذیریِ انرژیایی,,,,11
+resource assessment,ارزیابیِ منبع,,,,12
+global horizontal irradiance,تابشِ افقیِ کل,,,GHI,12
+diffuse horizontal irradiance,تابشِ پخشیدهٔ افقی,,,DHI,12
+extraterrestrial irradiance,تابشِ بیرون از جو,,,G_0n,12
+solar constant,ثابتِ خورشیدی,,,G_sc,12
+clearness index,ضریبِ صافی,,,"k_t, K_T",12
+diffuse fraction,سهمِ پخشیده,,,k_d,12
+clear-sky index,شاخصِ آسمانِ صاف,,,k_c,12
+solar time,زمانِ خورشیدی,,,,12
+equation of time,معادلهٔ زمان,,,E_t,12
+timestamp,برچسبِ زمانی,,,,12
+clear-sky model,مدلِ آسمانِ صاف,,,,12
+decomposition model,مدلِ تفکیک,,,,12
+transposition model,مدلِ انتقال,,,,12
+isotropic sky,آسمانِ هم‌سانگرد,,,,12
+circumsolar,دورِ خورشید,,,,12
+closure test,آزمونِ بستن,,,,12
+horizon profile,نیم‌رخِ افق,,,,12
+pyranometer,تابش‌سنجِ نیم‌کره‌ای,,,,12
+pyrheliometer,تابش‌سنجِ مستقیم,,,,12
+thermopile,ترموپیل,,,,12
+reference cell,سلولِ مرجع,,,,12
+shading ball,گوی سایه,,,,12
+rotating shadowband irradiometer,تابش‌سنجِ نوارِ چرخان,,,RSI,12
+directional (cosine) error,خطای زاویه‌ای,,,,12
+thermal offset,جابه‌جاییِ حرارتی,,,,12
+calibration certificate,گواهیِ واسنجی,,,,12
+data logger,ثبت‌کننده,,,,12
+station log,دفترِ ایستگاه,,,,12
+physically possible limit,حدِ ممکنِ فیزیکی,,,,12
+extremely rare limit,حدِ بسیار نادر,,,,12
+stuck value,مقدارِ گیرکرده,,,,12
+cross-correlation,هم‌بستگیِ متقابل,,,,12
+gap filling,پرکردنِ شکاف,,,,12
+sensor drift,رانشِ حس‌گر,,,,12
+satellite-derived irradiance,تابشِ ماهواره‌ای,,,,12
+reanalysis,بازتحلیل,,,,12
+typical year,سالِ نوعی,,,,12
+mean bias error,سوگیریِ میانگین,,,MBE,12
+root-mean-square error,خطای جذرِ میانگینِ مربعات,,,RMSE,12
+site adaptation,تطبیقِ ساختگاهی,,,,12
+long-term correction,تصحیحِ بلندمدت,,,,12
+interannual variability,تغییرپذیریِ سال‌به‌سال,,,,12
+combined uncertainty,عدمِ قطعیتِ ترکیبی,,,u_c,12
+P90,احتمالِ فزونیِ ۹۰ درصد,,,P_90,12
+data recovery,بازیابیِ داده,,,,12
+cloud enhancement,تقویتِ لبهٔ ابر,,,,12
+atmospheric stability,پایداریِ جو,,,"stable, neutral, unstable",13
+stable boundary layer,لایهٔ مرزیِ پایدار,,,,13
+unstable boundary layer,لایهٔ مرزیِ ناپایدار,,,,13
+low-level jet,جتِ سطحِ پایین,,,,13
+power law (wind profile),قانونِ توانی,,,v ~ z^alpha,13
+log law (wind profile),قانونِ لگاریتمی,,,v = u*/kappa ln(z/z0),13
+friction velocity,تندیِ اصطکاکی,,,u_*,13
+von Karman constant,ثابتِ فون کارمن,,,kappa = 0.4,13
+wind veer,چرخشِ جهت با ارتفاع,,,,13
+turbulence intensity,شدتِ تلاطم,,,I = sigma/mean,13
+representative turbulence intensity,تلاطمِ نماینده,,,mean + 1.28 sd,13
+effective turbulence,تلاطمِ مؤثر,,,with wakes,13
+cup anemometer,بادسنجِ فنجانی,,,,13
+transfer function (anemometer),تابعِ انتقال,,,slope and offset,13
+overspeeding,بیش‌سنجی,,,of a cup in turbulence,13
+sonic anemometer,بادسنجِ صوتی,,,,13
+wind vane,بادنما,,,,13
+lidar,لیدار,,,,13
+sodar,سودار,,,,13
+remote sensing,سنجشِ از دور,,,,13
+flow homogeneity,هم‌گنیِ جریان,,,lidar assumption,13
+met mast,دکلِ اندازه‌گیری,,,,13
+boom (met mast),بازو,,,,13
+tower shadow (met mast),سایهٔ دکل,,,,13
+sensor icing,یخ‌زدگیِ حس‌گر,,,,13
+bearing wear,فرسایشِ یاتاقان,,,,13
+campaign acceptance report,گزارشِ پذیرشِ کمپین,,,,13
+vertical extrapolation,برون‌یابیِ عمودی,,,,13
+direction sector,بخشِ جهت,,,,13
+measure-correlate-predict,اندازه‌گیری–هم‌بستگی–پیش‌بینی,,,MCP,13
+variance-ratio method,روشِ نسبتِ واریانس,,,,13
+long-term reference,منبعِ مرجعِ بلندمدت,,,,13
+annual maximum,بیشینهٔ سالانه,,,,13
+energy-to-speed sensitivity,حساسیتِ انرژی به تندی,,,,13
+potential temperature,دمای پتانسیل,,,theta,13
+temperature inversion,وارونگیِ دما,,,,13
+dry adiabatic lapse rate,نرخِ کاهشِ بی‌دررو,,,0.0098 K/m,13
+bulk Richardson number,عددِ ریچاردسونِ تودهای,,,Ri_b,13
+gust factor,ضریبِ تندباد,,,G,13
+peak factor,ضریبِ قله,,,g,13
+vector-mean direction,میانگینِ برداریِ جهت,,,,13
+magnetic declination,انحرافِ مغناطیسی,,,,13
+scan circle,دایرهٔ اسکن,,,of a profiling lidar,13
+conditional data loss,دادهٔ از دست رفتهٔ شرطی,,,,13
+spatial representativeness,نمایندگیِ مکانی,,,,13
+homogeneity test,آزمونِ همگنی,,,of a reference series,13
+inter-annual variability,تغییرِ سال‌به‌سال,,,IAV,13
+hub-height density,چگالیِ ارتفاعِ توپی,,,,13
+site screening,غربالگریِ ساختگاه,,,,14
+micro-siting,ریزجانمایی,,,,14
+spatial layer,لایهٔ مکانی,,,,14
+coordinate reference system,دستگاهِ مختصات,,,CRS,14
+spatial resolution,تفکیکِ مکانی,,,,14
+digital terrain model,مدلِ رقومیِ زمین,,,DTM,14
+aspect (terrain),جهتِ شیب,,,,14
+speed-up (terrain),افزایشِ تندی روی تپه,,,,14
+setback,فاصلهٔ حریم,,,,14
+buildable area,زمینِ قابلِ ساخت,,,,14
+formal tenure,مالکیتِ رسمی,,,,14
+customary use,کاربریِ عرفی,,,,14
+right of way,حقِ عبور,,,,14
+easement,حقِ ارتفاق,,,,14
+constraint register,دفترِ قیدها,,,,14
+added turbulence,تلاطمِ افزوده,,,,14
+turbine shadow on PV,سایهٔ توربین روی خورشیدی,,,,14
+collector cable,کابلِ جمع‌آوری,,,,14
+radial string,رشتهٔ شعاعی,,,,14
+minimum spanning tree,درختِ پوشای کمینه,,,,14
+crane pad,سکوی جرثقیل,,,,14
+cut and fill,برداشت و ریختن,,,,14
+culvert,آبرو,,,,14
+shadow flicker,سوسوی سایه,,,,14
+worst-case flicker,سوسوی بدترین حالت,,,,14
+aviation obstacle evaluation,ارزیابیِ مانعِ هوانوردی,,,,14
+cost raster,رسترِ هزینه,,,,14
+least-cost path,کم‌هزینه‌ترین مسیر,,,,14
+accumulated cost,هزینهٔ انباشته,,,,14
+route corridor,دالانِ مسیر,,,,14
+crossing (line route),گذرگاه,,,,14
+participatory mapping,نقشه‌برداریِ مشارکتی,,,,14
+vulnerable groups,گروه‌های آسیب‌پذیر,,,,14
+physical displacement,جابه‌جاییِ فیزیکی,,,,14
+economic displacement,جابه‌جاییِ اقتصادی,,,,14
+chance-find procedure,رویهٔ یافتهٔ تصادفی,,,,14
+grievance mechanism,سازوکارِ شکایت,,,,14
+footprint (land),ردِ پا,,,,14
+stakeholder register,دفترِ ذی‌نفعان,,,,14
+seasonal camp,چادرهای فصلی,,,,14
+wadi,وادی,,,dry river bed,14
+energy-yield model,مدلِ تولیدِ انرژی,,,,15
+model chain,زنجیرهٔ مدل,,,,15
+model boundary,مرزِ مدل,,,,15
+time resolution,تفکیکِ زمانی,,,,15
+time alignment,هم‌ترازیِ زمانی,,,,15
+versioned configuration,پیکربندیِ نسخه‌دار,,,,15
+reproducibility,بازتولیدپذیری,,,,15
+gross-to-net reconciliation,آشتیِ ناخالص و خالص,,,,15
+loss waterfall,آبشارِ تلف,,,,15
+monthly energy balance,موازنهٔ ماهانه,,,,15
+loss register,دفترِ تلف‌ها,,,,15
+load loss,تلفِ بار,,,,15
+double counting,شمارشِ دوباره,,,,15
+coincidence (wind and solar),هم‌زمانی,,,,15
+complementarity,مکمل بودن,,,,15
+short-term forecast,پیش‌بینیِ کوتاه‌مدت,,,,15
+forecast horizon,افقِ پیش‌بینی,,,,15
+issue time,زمانِ صدور,,,,15
+persistence forecast,ماندگاری,,,,15
+smart persistence,ماندگاریِ هوشمند,,,,15
+numerical weather prediction,پیش‌بینیِ عددیِ هوا,,,NWP,15
+forecast ensemble,همادِ پیش‌بینی,,,,15
+probabilistic forecast,پیش‌بینیِ احتمالاتی,,,,15
+mean absolute error,میانگینِ قدرِ مطلقِ خطا,,,MAE,15
+skill score,مهارت,,,,15
+pinball loss,زیانِ پینبال,,,quantile loss,15
+coverage (interval),پوشش,,,,15
+ramp (power),رمپ,,,,15
+false-alarm ratio,نسبتِ هشدارِ نادرست,,,FAR,15
+data leakage,نشتِ داده,,,,15
+drift (model),رانش,,,,15
+retraining,بازآموزی,,,,15
+time-based split,تقسیمِ زمانی,,,,15
+offered quantile,کمیتِ عرضه,,,,15
+downward reserve,ذخیرهٔ پایین‌رو,,,,15
+imbalance,انحراف,,,,15
+newsvendor problem,مسئلهٔ روزنامه‌فروش,,,,15
+energy-yield statement,بیانیهٔ تولید,,,,15
+transposition (irradiance),انتقالِ تابش به صفحه,,,,15
+circumsolar diffuse,تابشِ پیرامونِ خورشید,,,,15
+isotropic sky model,مدلِ هم‌سان‌گردِ آسمان,,,,15
+power-curve smoothing (turbulence),هموارسازیِ منحنیِ توان,,,,15
+wake decay constant,ضریبِ افتِ دنباله,,,,15
+method of moments (Weibull),روشِ گشتاورها,,,,15
+temperature-corrected performance ratio,نسبتِ عملکردِ تصحیح‌شدهٔ دمایی,,,,15
+ordered curtailment (grid),بُرشِ دستوریِ شبکه,,,,15
+import (from the grid),برداشت از شبکه,,,,15
+overbuild (PV behind a shared connection),بزرگ‌تر کردنِ بلوکِ خورشیدی,,,,15
+marginal delivered share,سهمِ رسیده,,,,15
+Jensen's inequality,نابرابریِ ینسن,,,,15
+first operating year,سالِ نخستِ بهره‌برداری,,,,15
+fleet median comparison,مقایسه با میانهٔ ناوگان,,,,15
+rank histogram,نمودارِ رتبه,,,,15
+under-dispersive (ensemble),کم‌پراکنده,,,,15
+spread-skill relation,رابطهٔ پراکندگی و مهارت,,,,15
+reliability (probabilistic forecast),قابلیتِ اعتمادِ کمیت‌ها,,,,15
+forecast blending,آمیختنِ پیش‌بینی‌ها,,,,15
+sky imager,تصویرِ آسمان از زمین,,,,15
+satellite nowcast,پیش‌بینیِ کوتاه با تصویرِ ماهواره‌ای,,,,15
+statistical post-processing,تصحیحِ آماری,,,MOS,15
+intraday update,به‌روزرسانیِ درون‌روزی,,,,15
+bat curtailment,توقف برای خفاش‌ها,,,,15
+environmental curtailment,کاهشِ تولید به سببِ محیطِ‌زیست,,,,15
+full cycle (battery),چرخهٔ کامل,,,,15
+spreadsheet model (monthly),مدلِ ماهانهٔ صفحه‌گسترده,,,,15
+continuous ranked probability score,امتیازِ احتمالاتیِ رتبه‌ایِ پیوسته,,,CRPS,15
+energy-yield report,گزارشِ تولید,,,,15
+long-term uncertainty,عدمِ قطعیتِ بلندمدت,,,,16
+probability of exceedance,احتمالِ فزونی,,,"P50, P90",16
+energy sensitivity ratio,نسبتِ حساسیتِ انرژی,,,,16
+root sum of squares,ریشهٔ مجموعِ مربعات,,,RSS,16
+correlation matrix,ماتریسِ هم‌بستگی,,,,16
+variance share,سهمِ واریانس,,,,16
+lognormal distribution,توزیعِ لگ‌نرمال,,,,16
+triangular distribution,توزیعِ مثلثی,,,,16
+Monte Carlo convergence,همگراییِ مونت‌کارلو,,,,16
+cross-prediction,پیش‌بینیِ متقابل,,,,14
+probabilistic yield statement,بیانیهٔ احتمالاتیِ تولید,,,,16
+financing case,حالتِ مالی,,,,16
+binding case,حالتِ تعیین‌کننده,,,,16
+debt sizing,اندازهٔ بدهی,,,,16
+downside case,حالتِ بد,,,,16
+delivery guarantee,تضمینِ تحویل,,,,16
+portfolio (of plants),سبدِ نیروگاه‌ها,,,,16
+lender's technical advisor,مشاورِ فنیِ وام‌دهنده,,,,16
+confidence interval,بازهٔ اطمینان,,,,16
+horizon (years averaged),افقِ میانگین,,,,16
+diversity factor,ضریبِ تنوع,,,inverse of the coincidence factor,17
+interval data,دادهٔ بازه‌ای,,,,17
+peak demand,پیکِ تقاضا,,,,17
+load duration curve,منحنیِ تداومِ بار,,,,17
+load growth,رشدِ بار,,,,17
+critical load,بارِ حیاتی,,,,17
+controllable load,بارِ کنترل‌پذیر,,,,17
+interruptible load,بارِ قطع‌شدنی,,,,17
+resilience,تاب‌آوری,,,,17
+islanding,جزیره,,,,17
+energy security,امنیتِ انرژی,,,,17
+net flow (at a node),جریانِ خالص,,,,17
+upstream transfer limit,حدِ بالادست,,,,17
+N-1 criterion,معیارِ یکی کمتر,,,,17
+bounded (screening) check,وارسیِ کران‌دار,,,,17
+voltage rise,افزایشِ ولتاژ,,,,17
+data request (grid),درخواستِ داده,,,,17
+measurable requirement,الزامِ سنجش‌پذیر,,,,17
+verification method,روشِ راستی‌آزمایی,,,,17
+requirements register,دفترِ الزامات,,,,17
+baseline (requirements),مبنا,,,,17
+change control,کنترلِ تغییر,,,,17
+connection bay,بیِ اتصال,,,,17
+shallow connection,اتصالِ کم‌عمق,,,,17
+deep connection,اتصالِ عمیق,,,,17
+interface document,سندِ رابط,,,,17
+architecture,معماری,,,,18
+operating mode,حالتِ بهره‌برداری,,,,18
+islanded,جزیره‌ای,,,,18
+planned island,جزیرهٔ برنامه‌ریزی‌شده,,,,18
+AC coupling,کوپلِ متناوب,,,,18
+DC coupling,کوپلِ مستقیم,,,,18
+mixed coupling,کوپلِ آمیخته,,,,18
+co-located plant,نیروگاهِ هم‌جا,,,,18
+integrated hybrid plant,نیروگاهِ یکپارچه,,,,18
+power-flow boundary,مرزِ جریانِ توان,,,,18
+single-line diagram,نمودارِ تک‌خطی,,,,18
+split busbar,شینهٔ دوبخشی,,,,18
+bus-section breaker,کلیدِ میان‌بخش,,,,18
+capacity ratio,نسبتِ ظرفیت,,,,18
+upward reserve,ذخیرهٔ افزایشی,,,,18
+expected unserved energy,امیدِ انرژیِ ازدست‌رفته,,,,18
+maintainability,نگهداشت‌پذیری,,,,18
+string inverter,اینورترِ رشته‌ای,,,,18
+central inverter,اینورترِ مرکزی,,,,18
+staged expansion,گسترشِ مرحله‌ای,,,,18
+technology maturity,بلوغِ فناوری,,,,18
+product breakdown structure,درختِ محصول,,,,18
+line-replaceable unit,واحدِ تعویض‌پذیر,,,,18
+make or buy,ساختن یا خریدن,,,,18
+N-squared matrix,ماتریسِ رابط,,,,18
+interface register,دفترِ رابط‌ها,,,,18
+interface control document,سندِ کنترلِ رابط,,,,18
+environmental rating,ردهٔ محیطی,,,,18
+commissioning boundary,مرزِ راه‌اندازی,,,,18
+held volume,ذخیرهٔ نگه‌داشته,,,,18
+consumptive use,مصرفِ مصرفی,,,,18
+open ring,حلقهٔ باز,,,,18
+cable charging,توانِ واکنشیِ شارژ,,,,18
+double-circuit line,خطِ دومداره,,,,18
+dominance,چیرگی,,,,18
+negative electrode,الکترودِ منفی,,,,19
+positive electrode,الکترودِ مثبت,,,,19
+separator,جداکننده,,,,19
+electrolyte,الکترولیت,,,,19
+state of charge,حالتِ شارژ,,,,19
+state of health,سلامت,,,,19
+C-rate,نرخِ C,,,,19
+equivalent-circuit model,مدلِ مدارِ معادل,,,,19
+polarisation,قطبش,,,,19
+round-trip efficiency,بازدهِ رفت‌وبرگشت,,,,19
+SOC window,پنجرهٔ حالتِ شارژ,,,,19
+coulomb counting,شمارشِ کولن,,,,19
+calendar ageing,فرسایشِ تقویمی,,,,19
+cycle ageing,فرسایشِ چرخه‌ای,,,,19
+equivalent full cycle,چرخهٔ معادلِ کامل,,,,19
+solid-electrolyte interphase,لایهٔ سطحی,,,,19
+lithium plating,ته‌نشینیِ لیتیم,,,,19
+battery management system,سامانهٔ مدیریتِ باتری,,,,19
+cell balancing,متعادل‌سازی,,,,19
+augmentation,افزایشِ ظرفیت,,,,19
+formation,شکل‌دهی,,,,19
+grading,درجه‌بندی,,,,19
+self-discharge,خودتخلیه,,,,19
+internal short circuit,اتصالِ کوتاهِ درونی,,,,19
+production lot,محموله,,,,19
+propagation,گسترش,,,,19
+off-gas,گازِ خروجی,,,,19
+hazard mitigation analysis,تحلیلِ کاهشِ خطر,,,,19
+exposure protection,حفاظتِ مجاورها,,,,19
+runoff,روان‌آب,,,,19
+second life,کاربردِ دوم,,,,19
+recycling,بازیافت,,,,19
+cell format,قالبِ سلول,,,,19
+flow battery,باتریِ جریانی,,,,19
+constant-current constant-voltage charging,شارژِ جریان‌ثابت و ولتاژثابت,,,,19
+reversible heat,گرمای برگشت‌پذیر,,,,19
+floating system,سامانهٔ شناور,,,,19
+value stacking,انباشتنِ کاربردها,,,,19
+levelised cost of storage,هزینهٔ ترازشدهٔ ذخیره,,,,19
+first-cycle efficiency,بازدهِ نخستین چرخه,,,,19
+degradation cost,هزینهٔ فرسایش,,,,19
+battery passport,گذرنامهٔ باتری,,,,19
+control hierarchy,سلسله‌مراتبِ کنترل,,,,20
+power plant controller,کنترل‌گرِ نیروگاه,,,,20
+energy management system,سامانهٔ مدیریتِ انرژی,,,,20
+closed loop,حلقهٔ بسته,,,,20
+proportional-integral controller,کنترل‌گرِ تناسبی‌انتگرالی,,,,20
+natural frequency,بسامدِ طبیعی,,,,20
+damping ratio,ضریبِ میرایی,,,,20
+overshoot,فراجهش,,,,20
+integrator windup,انباشتِ انتگرال,,,,20
+anti-windup,ضدِ انباشت,,,,20
+droop,افتِ مشخصه,,,,20
+deadband,باند مرده,,,,20
+headroom,جای بالارو,,,,20
+footroom,جای پایین‌رو,,,,20
+capability curve,منحنیِ توانایی,,,,20
+ramp-rate limit,حدِ شیب,,,,20
+dispatch,دیسپاچ,,,,20
+scheduling,برنامه‌ریزی (زمان‌بندی),,,,20
+re-dispatch,به‌روزرسانیِ برنامه,,,,20
+energy floor,کفِ انرژی,,,,20
+soc positioning,جای‌گیریِ حالتِ شارژ,,,,20
+state machine,ماشینِ حالت,,,,20
+control narrative,روایتِ کنترل,,,,20
+configuration management,مدیریتِ پیکربندی,,,,20
+fingerprint,اثرانگشت (چکیده),,,,20
+hardware in the loop,سخت‌افزار در حلقه,,,,20
+fallback mode,حالتِ پشتیبان,,,,20
+degraded mode,حالتِ کارِ کاهش‌یافته,,,,20
+operator override,لغوِ بهره‌بردار,,,,20
+load shedding,کاستنِ بار,,,,20
+black start,راه‌اندازیِ سیاه,,,,20
+slip frequency,لغزش,,,,20
+synchro-check relay,رلهٔ بررسیِ هم‌زمانی,,,,20
+delta control,کنترلِ دلتا,,,,20
+opportunity cost,هزینهٔ فرصت,,,,20
+service register,ثبت‌نامهٔ خدمت‌ها,,,,20
+zero-order hold,نگه‌دارِ مرتبهٔ صفر,,,,20
+sample period,دورهٔ نمونه‌برداری,,,,20
+cascaded loops,حلقه‌های تو در تو,,,,20
+frequency nadir,کفِ بسامد,,,,20
+terminal value,ارزشِ پایانی,,,,20
+receding horizon,افقِ لغزان,,,,20
+model validation,اعتبارسنجیِ مدل,,,,20
+latency budget,بودجهٔ تأخیر,,,,20
+dynamic reserve,ذخیرهٔ پویا,,,,20
+rate of change of frequency,آهنگِ تغییرِ بسامد,,,,20
+value of information,ارزشِ اطلاعات,,,,20
+synthetic inertia,پاسخِ شبه‌لختی,,,,20
+capital expenditure,هزینهٔ سرمایه‌ای,,,,21
+operating expenditure,هزینهٔ بهره‌برداری,,,,21
+contingency,احتیاط,,,,21
+salvage value,ارزشِ اسقاط,,,,21
+discounting,تنزیل,,,,21
+nominal and real,اسمی و واقعی,,,,21
+net present value,ارزشِ فعلیِ خالص,,,,21
+internal rate of return,نرخِ بازدهِ داخلی,,,,21
+levelised cost of energy,هزینهٔ ترازشدهٔ انرژی,,,,21
+weighted average cost of capital,میانگینِ موزونِ هزینهٔ سرمایه,,,,21
+project finance,تأمینِ مالیِ پروژه,,,,21
+special purpose vehicle,شرکتِ پروژه,,,,21
+senior debt,بدهیِ ارشد,,,,21
+gearing,اهرم,,,,21
+tenor,مدتِ وام,,,,21
+sculpted repayment,بازپرداختِ تراشیده,,,,21
+annuity repayment,قسطِ برابر,,,,21
+interest during construction,بهرهٔ دورهٔ ساخت,,,,21
+sources and uses,منابع و مصارف,,,,21
+debt service cover ratio,نسبتِ پوششِ خدمتِ بدهی,,,,21
+loan life cover ratio,نسبتِ پوششِ عمرِ وام,,,,21
+debt service reserve account,اندوختهٔ خدمتِ بدهی,,,,21
+distribution lock-up,قفلِ توزیع,,,,21
+event of default,نکول,,,,21
+covenant headroom,حاشیهٔ تعهد,,,,21
+refinancing,بازتأمینِ مالی,,,,21
+cash-flow waterfall,آبشارِ جریانِ نقد,,,,21
+power purchase agreement,قراردادِ خریدِ برق,,,,21
+deemed energy,انرژیِ فرضی,,,,21
+liquidated damages,خسارتِ مقطوع,,,,21
+change in law,تغییرِ قانون,,,,21
+force majeure,نیروی قاهره,,,,21
+letter of credit,اعتبارِ اسنادی,,,,21
+technical due diligence,بررسیِ دقیقِ فنی,,,,21
+condition precedent,شرطِ پیشین,,,,21
+break-even,سربه‌سر,,,,21
+bankability,بانک‌پذیری,,,,21
+life-cycle cost,هزینهٔ چرخهٔ عمر,,,,21
+indexation,شاخص‌بندی,,,,21
+sinking fund,صندوقِ ذخیره,,,,21
+real option,اختیارِ واقعی,,,,21
+deductible,فرانشیز,,,,21
+interest rate swap,سوآپِ نرخِ بهره,,,,21
+termination payment,مبلغِ فسخ,,,,21
+payback period,دورهٔ بازگشت,,,,21
+standby equity,سهامِ آماده‌باش,,,,21
+income statement,صورتِ سود و زیان,,,,21
+balance sheet,ترازنامه,,,,21
+winner's curse,نفرینِ برنده,,,,21
+decision tree,درختِ تصمیم,,,,21
+price floor,کفِ قیمت,,,,21
+long-term service agreement,قراردادِ خدمتِ بلندمدت,,,,21
+balance of plant,تعادلِ نیروگاه,,,,21
+screening sequence,ترتیبِ غربالگری,,,,22
+missing information,اطلاعاتِ کم‌شده,,,,22
+estimate class,ردهٔ برآورد,,,,22
+multi-criteria analysis,مقایسهٔ چندمعیاره,,,,22
+min-max normalisation,نرمال‌سازیِ کمینه-بیشینه,,,,22
+rank stability,پایداریِ رتبه,,,,22
+evidence quality,کیفیتِ شاهد,,,,22
+trade-off rate,نرخِ مبادله,,,,22
+critical path method,روشِ مسیرِ بحرانی,,,,22
+float (slack),شناوری,,,"schedules (ch 1, 22, 28, 38); in mechanics «شناوری» is buoyancy (ch 4) - context decides",22
+criticality index,شاخصِ بحرانی‌بودن,,,,22
+merge bias,اثرِ ادغام,,,,22
+three-point estimate,برآوردِ سه‌نقطه‌ای,,,,22
+progress review,بازبینیِ پیشرفت,,,,22
+rollback,برگشت از انتها,,,,22
+final investment decision,تصمیمِ سرمایه‌گذاری,,,,22
+development funding,پولِ توسعه,,,,22
+development premium,صرفِ ریسکِ توسعه,,,,22
+land control rights,حقِ کنترلِ زمین,,,,22
+export route,مسیرِ خطِ صادرات,,,,22
+connection scope,دامنهٔ اتصال,,,,22
+stakeholder commitment,تعهدِ ذی‌نفعان,,,,22
+bankable evidence,شاهدِ بانک‌پذیر,,,,22
+financeability,تأمین‌پذیری,,,,22
+lead time,زمانِ تحویل,,,,22
+manufacturing slot,نوبتِ تولید,,,,22
+weather window,پنجرهٔ آب‌وهوایی,,,,22
+constructability,ساخت‌پذیری,,,,22
+social safeguard,پادمانِ اجتماعی,,,,22
+livelihood,معیشت,,,,22
+physical and economic displacement,جابه‌جاییِ فیزیکی و اقتصادی,,,,22
+resettlement,اسکانِ مجدد,,,,22
+livelihood restoration,بازگردانیِ معیشت,,,,22
+labour influx,هجومِ کارگری,,,,22
+Indigenous Peoples,مردمانِ بومی,,,,22
+cultural heritage,میراثِ فرهنگی,,,,22
+chance find,یافتهٔ اتفاقی,,,,22
+cumulative impact,اثرِ انباشته,,,,22
+consultation,مشاوره,,,,22
+sunk cost,هزینهٔ ازدست‌رفته,,,,22
+voltage level,سطحِ ولتاژ,,,,23
+bus section,بخشِ شینه,,,,23
+bus coupler,کوپلرِ شینه,,,,23
+normally open,عادیِ باز,,,,23
+ring main unit,واحدِ حلقوی,,,,23
+earthing switch,کلیدِ زمین,,,,23
+earthing transformer,ترانسفورماتورِ زمین,,,,23
+neutral earthing resistor,مقاومتِ زمینِ نول,,,,23
+protection zone,ناحیهٔ حفاظت,,,,23
+isolation point,نقطهٔ جداسازی,,,,23
+test boundary,مرزِ آزمون,,,,23
+ownership boundary,مرزِ مالکیت,,,,23
+scope of supply boundary,مرزِ عرضه,,,,23
+delivery point,نقطهٔ تحویل,,,,23
+equipment schedule,فهرستِ تجهیزات,,,,23
+circuit schedule,فهرستِ مدارها,,,,23
+interface drawing,نقشهٔ رابط,,,,23
+provisional value,مقدارِ موقت,,,,23
+auxiliary services,خدماتِ کمکی,,,,23
+station service,خدماتِ ایستگاه,,,,23
+essential load,بارِ ضروری,,,,23
+continuous load,بارِ پیوسته,,,,23
+intermittent load,بارِ متناوب,,,,23
+duty factor,ضریبِ کار,,,,23
+LV switchboard,تابلوی فشارِ ضعیف,,,,23
+automatic transfer switch,کلیدِ انتقالِ خودکار,,,,23
+standby generator,مولدِ آماده‌به‌کار,,,,23
+cause-and-effect matrix,ماتریسِ علت و معلول,,,,23
+operating philosophy,فلسفهٔ بهره‌برداری,,,,23
+station battery,باتریِ ایستگاه,,,,23
+autonomy,خودمختاری,,,,23
+battery charger,شارژر,,,,23
+uninterruptible power supply,منبعِ تغذیهٔ بی‌وقفه,,,,23
+motor-starting voltage dip,افتِ ولتاژِ راه‌اندازی,,,,23
+MVA method,روشِ MVA,,,,23
+fault level,سطحِ اتصالِ کوتاه,,,,23
+intertrip,قطعِ متقابل,,,,23
+restoration,بازگردانی,,,,23
+insulation,عایق,,,,24
+cross-linked polyethylene,پلی‌اتیلنِ شبکه‌ای,,,,24
+conductor screen,پردهٔ رسانا,,,,24
+insulation screen,پردهٔ عایق,,,,24
+metallic screen,پردهٔ فلزی,,,,24
+sheath,غلاف,,,,24
+armour,زره,,,,24
+current rating (ampacity),جریانِ مجاز,,,,24
+installation (derating) factor,ضریبِ نصب,,,,24
+adiabatic,بی‌دررو,,,,24
+short-time withstand,تحملِ کوتاه‌مدت,,,,24
+peak current,جریانِ قله,,,,24
+graded (tapered) string,رشتهٔ پله‌ای,,,,24
+extrusion,اکستروژن,,,,24
+sample test,آزمونِ نمونه‌ای,,,,24
+site test,آزمونِ محل,,,,24
+pulling tension,کشش,,,,24
+sidewall pressure,فشارِ جانبی,,,,24
+bending radius,شعاعِ خمش,,,,24
+capstan equation,معادلهٔ کاپستان,,,,24
+cable drum,قرقره,,,,24
+joint,مفصل,,,,24
+termination,سرکابل,,,,24
+panel (cubicle),پانل,,,,24
+compartment,محفظه,,,,24
+vacuum interrupter,قطع‌کنندهٔ خلأ,,,,24
+operating mechanism,مکانیزم,,,,24
+insulating support,تکیه‌گاهِ عایق,,,,24
+internal arc,قوسِ داخلی,,,,24
+interlock,اینترلاک,,,,24
+main-circuit resistance,مقاومتِ مدارِ اصلی,,,,24
+cable gland,گلند,,,,24
+current-limiting breaker,کلیدِ محدودکنندهٔ جریان,,,,24
+let-through energy,انرژیِ عبوری,,,,24
+trip coil,بوبینِ قطع,,,,24
+string fuse,فیوزِ رشته,,,,24
+DC load-break switch,کلیدِ قطع‌زیرِبارِ DC,,,,24
+single-point bonding,پیوندِ تک‌نقطه‌ای,,,,24
+cross-bonding,پیوندِ متقاطع,,,,24
+sheath voltage limiter,محدودکنندهٔ ولتاژِ غلاف,,,,24
+overhead line,خطِ هوایی,,,,24
+shield (earth) wire,سیمِ محافظ,,,,24
+insulator,مقره,,,,24
+fittings,یراق‌آلات,,,,24
+sag,فلش,,,,24
+span,دهانه,,,,24
+corridor (right of way),دالان,,,,24
+cable schedule,فهرستِ کابل,,,,24
+flux density,چگالیِ شار,,,,25
+turns ratio,نسبتِ دور,,,,25
+leakage reactance,راکتانسِ نشتی,,,,25
+no-load test,آزمونِ بی‌باری,,,,25
+short-circuit impedance,امپدانسِ اتصالِ کوتاه,,,,25
+voltage regulation,تنظیمِ ولتاژ,,,,25
+on-load tap changer,تپ‌چنجرِ زیرِ بار,,,,25
+parallel operation,کارِ موازی,,,,25
+over-excitation,اضافه‌تحریک,,,,25
+ONAN / ONAF cooling,سرمایشِ طبیعی و فن,,,,25
+top oil,روغنِ بالایی,,,,25
+ageing rate,آهنگِ پیرشدن,,,,25
+loss capitalisation,ارزیابیِ تلف,,,,25
+loss load factor,ضریبِ تلفِ بار,,,,25
+active part,بخشِ فعال,,,,25
+core,هسته,,,,25
+building factor,ضریبِ ساخت,,,,25
+step-lap joint,اتصالِ پله‌ای,,,,25
+winding,سیم‌پیچ,,,,25
+bushing,بوشینگ,,,,25
+conservator,کنسرواتور,,,,25
+radiator,رادیاتور,,,,25
+gas (Buchholz) relay,رلهٔ گاز,,,,25
+pressure relief device,شیرِ فشارشکن,,,,25
+drying,خشک‌کردن,,,,25
+dry-type transformer,ترانسفورماتورِ خشک,,,,25
+cast resin,رزینِ ریخته,,,,25
+test dossier,پروندهٔ آزمون,,,,25
+impact recorder,ثبت‌کنندهٔ ضربه,,,,25
+oil containment bund,حوضچهٔ نگه‌داشتِ روغن,,,,25
+oil separator,جداکنندهٔ روغن,,,,25
+fire barrier wall,دیوارِ آتش,,,,25
+sound level,ترازِ صدا,,,,25
+bus arrangement,آرایشِ شینه,,,,25
+single bus,تک‌شینه,,,,25
+double bus,دوشینه,,,,25
+line bay,بِیِ خط,,,,25
+surge arrester,برقگیر,,,,25
+three-winding transformer,ترانسفورماتورِ سه‌سیم‌پیچه,,,,25
+off-circuit tap changer,تپ‌چنجرِ بی‌برق,,,DETC,25
+amorphous core,هستهٔ آمورف,,,,25
+degree of polymerisation,درجهٔ پلیمرشدن,,,DP,25
+furan (2-furaldehyde),فوران,,,2-FAL,25
+health index,شاخصِ سلامت,,,HI,25
+residual (measured minus model),باقی‌مانده,,,,25
+temperature-rise test (heat run),آزمونِ افزایشِ دما,,,,25
+hot-spot factor,ضریبِ نقطهٔ داغ,,,H,25
+spare pool,ذخیرهٔ مشترکِ یدک,,,,25
+magnetostriction,مغناطوتنگش,,,,25
+tubular busbar,شینهٔ لوله‌ای,,,,25
+controlled switching,کلیدزنیِ کنترل‌شده,,,,25
+technical schedule,جدولِ فنی,,,,25
+knee point,نقطهٔ زانو,,,CT,26
+core-balance CT,CTِ هسته‌توازن,,,CBCT,26
+time multiplier setting,ضریبِ زمانی,,,TMS,26
+pickup window,پنجرهٔ راه‌اندازی,,,,26
+restraint (bias),مهار,,,differential,26
+zone reach,دسترسِ ناحیه,,,distance,26
+breaker-failure protection,حفاظتِ خرابیِ کلید,,,50BF,26
+trip-circuit supervision,نظارت بر مدارِ قطع,,,TCS,26
+lockout relay,رلهٔ قفل,,,86,26
+setting file,فایلِ تنظیم,,,,26
+zone of protection,ناحیهٔ حفاظت,,,,26
+transfer trip,انتقالِ قطع,,,,26
+ground potential rise,افزایشِ پتانسیلِ زمین,,,GPR,26
+touch voltage,ولتاژِ تماس,,,,26
+step voltage,ولتاژِ گام,,,,26
+flash density,چگالیِ آذرخش,,,Ng,26
+rolling sphere,کرهٔ غلتان,,,,26
+arc flash,آرک‌فلش,,,,26
+incident energy,انرژیِ رویداد,,,,26
+secondary injection,تزریقِ ثانویه,,,,26
+end-to-end test,آزمونِ سربه‌سر,,,,26
+sequence of events,دنبالهٔ رویدادها,,,SOE,26
+punch list,فهرستِ نواقص,,,,26
+spill current,جریانِ نشتیِ دیفرانسیل,,,,26
+restricted earth fault,خطای زمینِ محدود,,,REF,26
+second-harmonic restraint,مهارِ هارمونیکِ دوم,,,,26
+sympathetic tripping,قطعِ هم‌دردانه,,,,26
+auto-reclose,بازبستِ خودکار,,,79,26
+synchrocheck,هم‌زمانی,,,25,26
+thermal replica,تصویرِ گرمایی,,,49,26
+damage curve,منحنیِ آسیب,,,,26
+high-impedance differential,دیفرانسیلِ امپدانسِ بالا,,,,26
+blocking scheme,طرحِ مسدودسازی,,,,26
+channel asymmetry,عدمِ تقارنِ کانال,,,,26
+hidden failure,خرابیِ پنهان,,,,26
+dependability,اطمینان‌پذیری,,,protection,26
+security (of protection),امنیت,,,protection,26
+Wenner method,روشِ ونر,,,,26
+fall-of-potential test,آزمونِ افتِ پتانسیل,,,,26
+fault locator,مکان‌یابِ خطا,,,,26
+acceptance band,نوارِ پذیرش,,,,26
+cold load pickup,برق‌دار کردنِ بارِ سرد,,,,26
+power quality,کیفیتِ توان,,,,27
+total demand distortion (TDD),اعوجاجِ کلِ تقاضا,,,,27
+short-term flicker severity (Pst),شدتِ سوسوی کوتاه‌مدت,,,,27
+long-term flicker severity (Plt),شدتِ سوسوی بلندمدت,,,cube-mean of twelve Pst,27
+flicker coefficient,ضریبِ سوسو,,,,27
+rapid voltage change (RVC),تغییرِ سریعِ ولتاژ,,,,27
+residual voltage,ولتاژِ باقی‌مانده,,,,27
+supraharmonics,ابرهارمونیک‌ها,,,2-150 kHz,27
+parallel resonance,تشدیدِ موازی,,,,27
+series resonance,تشدیدِ سری,,,,27
+harmonic impedance scan,اسکنِ امپدانسِ هارمونیکی,,,,27
+planning level,ترازِ برنامه‌ریزی,,,,27
+emission allocation,تخصیصِ گسیل,,,,27
+harmonic sink,جاذبِ هارمونیک,,,a converter drawing the background's current,27
+flagged interval,بازهٔ پرچم‌خورده,,,,27
+compliance statement,بیانِ انطباق,,,,27
+meter reconciliation,ترازِ کنتورها,,,,27
+logarithmic decrement,کاهشِ لگاریتمی,,,,27
+power oscillation damping,میرا کردنِ نوسانِ توان,,,the function: میراکنندهٔ نوسان,27
+area of vulnerability,ناحیهٔ آسیب‌پذیری,,,,27
+reactive current injection,تزریقِ جریانِ واکنشی,,,,27
+line-drop compensation,جبرانِ افتِ خط,,,,27
+capacitive voltage transformer (CVT),ترانسفورماتورِ ولتاژِ خازنی,,,,27
+ripple control signal,سیگنالِ کنترلِ ریپل,,,,27
+blocking circuit,مدارِ سدکننده,,,,27
+DC current injection,تزریقِ جریانِ مستقیم,,,,27
+even harmonics,هارمونیک‌های زوج,,,,27
+untransposed line,خطِ بی‌جابه‌جاییِ فاز,,,,27
+3p power modulation,نوسانِ 3p,,,blade passing the tower,27
+Q(U) control,کنترلِ Q(U),,,,27
+active damping,میراییِ فعال,,,,27
+damped filter,صافیِ میرا,,,,27
+reactor tap,سربندیِ راکتور,,,,27
+alarm threshold,آستانهٔ هشدار,,,,27
+before-and-after comparison,مقایسهٔ پیش و پس,,,,27
+voltage step test,آزمونِ پلهٔ ولتاژ,,,,27
+interconnection study,مطالعهٔ اتصال,,,,28
+interconnection process,فرایندِ اتصال,,,generic stages; no country process assumed,28
+slack bus,شینهٔ مرجع,,,,28
+Gauss-Seidel method,روشِ گاوس–زایدل,,,,28
+capability envelope (P-Q at POC),پوشِ توانایی,,,,28
+U-Q/Pmax profile,نمودارِ U-Q/Pmax,,,voltage-dependent reactive requirement,28
+equivalent voltage source method,روشِ منبعِ ولتاژِ معادل,,,STD-131,28
+voltage factor c,ضریبِ ولتاژ c,,,,28
+peak factor (kappa),ضریبِ قله,,,,28
+apparent impedance,امپدانسِ ظاهری,,,,28
+infeed (fault),تغذیهٔ دوسویه,,,,28
+zero-sequence source,منبعِ دنبالهٔ صفر,,,earthed star of a YNd transformer,28
+negative-sequence current injection,تزریقِ جریانِ دنبالهٔ منفی,,,,28
+P-V (nose) curve,منحنیِ P-V,,,,28
+voltage stability limit,حدِ پایداریِ ولتاژ,,,,28
+non-detection zone (NDZ),ناحیهٔ کور,,,passive islanding relays,28
+RMS (phasor) model,مدلِ RMS,,,,28
+EMT model,مدلِ EMT,,,electromagnetic transient,28
+compliance matrix,ماتریسِ انطباق,,,,28
+study input checklist,فهرستِ ورودیِ مطالعه,,,,28
+operating restriction,محدودیتِ بهره‌برداری,,,,28
+model handover package,بستهٔ تحویلِ مدل‌ها,,,,28
+weighted short-circuit ratio (WSCR),نسبتِ اتصالِ کوتاهِ وزنی,,,,28
+effective short-circuit ratio (ESCR),نسبتِ اتصالِ کوتاهِ مؤثر,,,,28
+resynchronisation,هم‌گام‌سازیِ دوباره,,,,28
+slip (frequency difference),لغزش,,,,28
+N-1 contingency,پیشامدِ N-1,,,not a cost contingency (احتیاط in ch 21),28
+energy at risk,انرژیِ در خطر,,,,28
+impedance locus (harmonic),مکانِ امپدانس,,,,28
+shallow / deep connection charge,هزینهٔ اتصالِ کم‌عمق / عمیق,,,commercial concept,28
+Q(U) slope,شیبِ Q(U),,,,28
+study trigger (re-study event),رویدادِ بازکنندهٔ مطالعه,,,,28
+site investigation,شناساییِ ساختگاه,,,,29
+ground model,مدلِ زمین,,,,29
+borehole,گمانه,,,,29
+standard penetration test,آزمایشِ نفوذِ استاندارد,,,SPT,29
+cone penetration test,آزمایشِ نفوذِ مخروط,,,CPT,29
+seismic refraction,شکستِ لرزه‌ای,,,,29
+crossover distance,فاصلهٔ تقاطع,,,,29
+groundwater,آبِ زیرزمینی,,,,29
+survey control,شبکهٔ کنترلِ نقشه‌برداری,,,,29
+benchmark (survey),نقطهٔ مبنای ارتفاعی,,,BM,29
+levelling misclosure,خطای بستارِ ترازیابی,,,,29
+ground sample distance,فاصلهٔ نمونهٔ زمینی,,,GSD,29
+bearing capacity,ظرفیتِ باربری,,,,29
+settlement (ground),نشست,,,,29
+angle of internal friction,زاویهٔ اصطکاکِ داخلی,,,,29
+plasticity index,نشانهٔ خمیری,,,PI,29
+liquid limit,حدِ روانی,,,LL,29
+soil classification,رده‌بندیِ خاک,,,,29
+collapsible soil,خاکِ رمبنده,,,,29
+uplift (groundwater),نیروی برکنش,,,,29
+soft lens,عدسیِ نرم,,,,29
+subgrade,بسترِ راه,,,,29
+California bearing ratio,نسبتِ باربریِ کالیفرنیا,,,CBR,29
+aggregate,سنگ‌دانه,,,,29
+geotextile,ژئوتکستایل,,,,29
+curve widening,تعریضِ قوس,,,,29
+swept path,مسیرِ جاروبِ خودرو,,,,29
+rational method,روشِ استدلالی,,,Q = 0.278 C i A,29
+time of concentration,زمانِ تمرکز,,,,29
+Manning formula,فرمولِ مانینگ,,,,29
+headwater,ترازِ آبِ پشتِ آبرو,,,,29
+overtopping,سرریز از روی راه,,,,29
+riprap,سنگ‌چین,,,,29
+check dam,سدِ تأخیری,,,,29
+roadside ditch,کانالِ کنارِ راه,,,,29
+universal soil loss equation,معادلهٔ جهانیِ هدررفتِ خاک,,,USLE,29
+sediment pond,حوضچهٔ رسوب‌گیر,,,,29
+topsoil,خاکِ رویی,,,,29
+reinstatement,بازگرداندنِ زمین,,,,29
+mass-haul diagram,نمودارِ جابه‌جاییِ خاک,,,,29
+shrinkage factor (earthworks),ضریبِ کاهشِ حجم,,,,29
+spoil,خاکِ مازاد,,,,29
+borrow pit,منبعِ قرضه,,,,29
+compaction,تراکم,,,,29
+relative compaction,درصدِ تراکم,,,,29
+maximum dry density,بیشینهٔ چگالیِ خشک,,,,29
+optimum moisture content,رطوبتِ بهینه,,,,29
+plate load test,آزمایشِ بارگذاریِ صفحه,,,Ev1 / Ev2,29
+characteristic strength,مقاومتِ مشخصه,,,,29
+non-conformance report,گزارشِ عدمِ انطباق,,,NCR,29
+concrete cover,پوششِ بتنیِ میلگرد,,,,29
+batching plant,کارخانهٔ بتن,,,,29
+ready-mix concrete,بتنِ آماده,,,,29
+hot-weather concreting,بتن‌ریزی در هوای گرم,,,,29
+equivalent standard axle,محورِ استانداردِ هم‌ارز,,,ESAL,29
+fourth-power law,قانونِ توانِ چهارم,,,,29
+dust suppression,غبارنشانی,,,,29
+design hazard,خطرِ طراحی,,,,29
+climate adaptation,سازگاری با اقلیم,,,,29
+emergency vehicle access,دسترسیِ خودروی امدادی,,,,29
+turning area,فضای دورزدن,,,,29
+firewater,آبِ آتش‌نشانی,,,,29
+runoff containment,مهارِ روان‌آب,,,,29
+oil interceptor,جداکنندهٔ روغن,,,,29
+water balance,ترازنامهٔ آب,,,,29
+safe yield,آبدهیِ مطمئن,,,,29
+drawdown,افتِ سطحِ آب,,,,29
+transmissivity,قابلیتِ انتقال,,,,29
+storativity,ضریبِ ذخیره,,,,29
+pumping test,آزمایشِ پمپاژ,,,,29
+water right,حقابه,,,,29
+abstraction permit,پروانهٔ برداشتِ آب,,,,29
+reverse osmosis,اسمزِ معکوس,,,RO,29
+recovery (RO),نسبتِ بازیافت,,,,29
+brine,شورابه,,,ch 18 says پسابِ اسمزِ معکوس,29
+evaporation pond,حوضچهٔ تبخیر,,,,29
+pan evaporation,تبخیرِ تشت,,,,29
+angle tower,دکلِ زاویه,,,,29
+suspension tower,دکلِ آویزی,,,,29
+channel invert,کفِ آبراهه,,,,29
+normal depth,عمقِ نرمال,,,,29
+flood study,مطالعهٔ سیل,,,,29
+return level,مقدارِ بازگشت,,,,29
+vortex shedding,ریزشِ گردابه,,,,30
+lock-in (vortex),قفل‌شدنِ گردابه,,,,30
+Strouhal number,عددِ استروهال,,,St,30
+response spectrum,طیفِ پاسخ,,,,30
+base shear,برشِ پایه,,,,30
+behaviour factor,ضریبِ رفتار,,,,30
+partial factor,ضریبِ جزئی,,,,30
+load combination,ترکیبِ بارها,,,,30
+shell buckling,کمانشِ پوسته,,,,30
+knock-down factor,ضریبِ کاهشِ نقص,,,,30
+detail category,ردهٔ جزئیات,,,fatigue,30
+effective area,سطحِ مؤثر,,,foundation,30
+kern (of a section),هسته,,,,30
+rocking stiffness,سختیِ دورانی,,,foundation,30
+skin friction,اصطکاکِ جداره,,,,30
+pull-out test,آزمایشِ بیرون‌کشیدن,,,,30
+lateral load test,آزمایشِ بارِ جانبی,,,,30
+purlin,پرلین,,,,30
+door frame (tower),قابِ در,,,,30
+grout,گروت,,,,30
+fabrication traveler,برگهٔ همراهِ ساخت,,,,30
+welding procedure specification,دستورالعملِ جوشکاری,,,WPS,30
+procedure qualification record,سابقهٔ تأییدِ روشِ جوشکاری,,,PQR,30
+heat input (welding),گرمای ورودی,,,,30
+ovality,بیضی‌شدگی,,,,30
+dry film thickness,ضخامتِ فیلمِ خشک,,,DFT,30
+data book,پروندهٔ داده,,,,30
+verticality,شاقولی,,,,30
+bar bending schedule,جدولِ خمِ میلگرد,,,,30
+independent verification,وارسیِ مستقل,,,,30
+design review,بازبینیِ طراحی,,,,30
+carbonation,کربناته‌شدن,,,,30
+broken-wire case,حالتِ سیمِ پاره,,,,30
+wind span,دهانهٔ باد,,,,30
+gantry,دروازه,,,substation,30
+abnormal load,بارِ ترافیکیِ غیرعادی,,,oversized or overweight,31
+modular trailer,تریلیِ ماژولار,,,,31
+axle load,بارِ محور,,,,31
+vertical clearance,ارتفاعِ آزاد,,,,31
+route permit,مجوزِ مسیر,,,,31
+crane load chart,جدولِ بارِ جرثقیل,,,,31
+lift utilisation,بهره‌وریِ بالابری,,,,31
+lift plan,طرحِ بالابری,,,,31
+critical lift,بالابریِ بحرانی,,,,31
+appointed person (lifting),فردِ مسئولِ بالابری,,,,31
+exclusion zone,ناحیهٔ ممنوع,,,,31
+standby cost,هزینهٔ انتظار,,,,31
+receiving inspection,بازرسیِ دریافت,,,,31
+desiccant,رطوبت‌گیر,,,,31
+chain of custody,زنجیرهٔ تحویل,,,,31
+laydown area,فضای انبار,,,,31
+stringing section,بخشِ سیم‌کشی,,,,31
+guard structure,سازهٔ محافظ,,,,31
+work package,بستهٔ کار,,,,31
+response time (emergency),زمانِ پاسخ,,,,31
+hazard,خطر,,,source of possible harm (risk = ریسک),32
+hazard identification,شناساییِ خطر,,,,32
+risk matrix,ماتریسِ ریسک,,,likelihood x severity,32
+hierarchy of controls,سلسله‌مراتبِ کنترل‌ها,,,,32
+residual risk,ریسکِ باقیمانده,,,,32
+safety management system,نظامِ مدیریتِ ایمنی,,,,32
+near miss,شبه‌حادثه,,,,32
+lost-time injury,حادثهٔ منجر به ازکارافتادگی,,,,32
+recordable injury,حادثهٔ ثبت‌شدنی,,,,32
+competency matrix,ماتریسِ صلاحیت,,,,32
+contractor prequalification,پیش‌ارزیابیِ پیمانکار,,,,32
+simultaneous operations,عملیاتِ همزمان,,,,32
+job hazard analysis,تحلیلِ خطرِ شغلی,,,JHA,32
+confined space,فضای بسته,,,,32
+fall arrest,مهارِ سقوط,,,,32
+fall restraint,بازداشتن از سقوط,,,no free fall,32
+self-retracting lifeline,مهارِ خودجمع‌شو,,,,32
+heat stress,تنشِ گرمایی,,,,32
+wind chill temperature,دمای سوزِ باد,,,,32
+stopping distance,فاصلهٔ توقف,,,,32
+noise exposure,مواجهه با صدا,,,,32
+stranded energy,انرژیِ به‌جامانده,,,battery after damage,32
+fire strategy,راهبردِ حریق,,,,32
+fire protection design basis,مبنای طراحیِ حفاظت از حریق,,,,32
+fire-hazard register,دفترِ خطرِ حریق,,,,32
+fire stopping,آتش‌بندیِ نفوذها,,,,32
+authority having jurisdiction,مقامِ مسئول,,,AHJ,32
+radiant heat flux,شارِ تابشی,,,,32
+impairment (fire protection),ازکارافتادگیِ حفاظت,,,,32
+fire watch,نگهبانِ آتش,,,,32
+hot work,کارِ گرم,,,,32
+incident command,فرماندهیِ رویداد,,,,32
+muster point,محلِ تجمع,,,,32
+mutual aid,کمکِ متقابل,,,,32
+emergency drill,مانورِ اضطراری,,,,32
+management of change,مدیریتِ تغییر,,,,32
+probability of failure on demand,احتمالِ خرابی هنگامِ نیاز,,,PFD,32
+all-hazards emergency plan,برنامهٔ اضطراری برای همهٔ مخاطرات,,,,32
+first aid,کمک‌های اولیه,,,,32
+rescue at height,نجات از ارتفاع,,,,32
+worker accommodation,اقامتگاهِ کارگران,,,,32
+code of conduct,آیین‌نامهٔ رفتار,,,,32
+community health and safety,سلامت و ایمنیِ جامعه,,,,32
+public access,دسترسیِ عمومی,,,,32
+physical security,امنیتِ فیزیکی,,,not OT cybersecurity,32
+access control (site),کنترلِ دسترسیِ ساختگاه,,,,32
+escalation,ارجاع به سطحِ بالاتر,,,,32
+screening (environmental),غربالگری,,,magnitude x sensitivity,33
+scoping,تعیینِ دامنه,,,,33
+environmental and social impact assessment,ارزیابیِ اثرهای محیطی و اجتماعی,,,ESIA,33
+receptor,گیرنده,,,,33
+impact pathway,مسیرِ اثر,,,source -> pathway -> receptor,33
+background noise,صدای زمینه,,,,33
+collision risk,ریسکِ برخورد,,,,33
+cut-in wind speed,سرعتِ شروعِ کار,,,,33
+photomontage,عکسِ شبیه‌سازی‌شده,,,,33
+biodiversity offset,جبرانِ تنوعِ زیستی,,,last step of the mitigation hierarchy,33
+mitigation hierarchy,سلسله‌مراتبِ کاهشِ اثر,,,"avoid, minimise, restore, offset",33
+corrective action,اقدامِ اصلاحی,,,,33
+statistical power,توانِ آزمون,,,,33
+closure criteria,معیارهای پایان,,,,33
+stakeholder,ذی‌نفع,,,,33
+disclosure,افشا,,,,33
+supply-chain due diligence,بررسیِ زنجیرهٔ تأمین,,,,33
+forced labour,کارِ اجباری,,,,33
+commitments register,دفترِ تعهدها,,,,33
+"free, prior and informed consent",رضایتِ آزاد، پیشین و آگاهانه,,,FPIC; only where the governing framework requires it,33
+aquifer,آبخوان,,,,33
+recharge (groundwater),تغذیهٔ آبخوان,,,,33
+water intensity,شدتِ مصرفِ آب,,,L/MWh,33
+drought plan,برنامهٔ خشکسالی,,,,33
+life cycle assessment,ارزیابیِ چرخهٔ عمر,,,LCA,33
+functional unit,واحدِ کارکردی,,,,33
+system boundary,مرزِ سامانه,,,,33
+emission factor,ضریبِ انتشار,,,greenhouse gases (harmonic emission = گسیل),33
+avoided emissions,انتشارِ پرهیزشده,,,never guaranteed or transferable,33
+counterfactual,فرضِ جانشینی,,,,33
+carbon footprint,ردپای کربن,,,land footprint = ردِ پا (ch 14),33
+lifecycle footprint,ردپای چرخهٔ عمر,,,,33
+cradle to gate,گهواره تا دروازه,,,,33
+end-of-life credit,اعتبارِ بازیافتِ پایانِ عمر,,,shown apart,33
+data quality,کیفیتِ داده,,,,33
+environmental product declaration,اظهارنامهٔ محیطیِ محصول,,,EPD,33
+product category rules,قاعده‌های دستهٔ محصول,,,PCR,33
+red/amber/green status,وضعیتِ سبز، زرد و قرمز,,,RAG,33
+sensor,حس‌گر,,,,34
+transmitter,فرستنده,,,"instrument transmitter, e.g. 4-20 mA",34
+transducer,مبدلِ اندازه‌گیری,,,,34
+live zero,صفرِ زنده,,,4 mA represents zero,34
+analogue input module,کارتِ ورودیِ آنالوگ,,,AI,34
+resolution (measurement),وضوح,,,not accuracy,34
+resistance temperature detector,دماسنجِ مقاومتی,,,"RTD, e.g. Pt100",34
+thermocouple,ترموکوپل,,,,34
+cold junction,اتصالِ سرد,,,compensated at the terminals,34
+programmable logic controller,کنترل‌گرِ منطقیِ برنامه‌پذیر,,,PLC,34
+remote terminal unit,پایانهٔ دوردست,,,RTU,34
+scan time,زمانِ پویش,,,,34
+permissive,شرطِ اجازه,,,,34
+watchdog,نگهبانِ زمانی,,,,34
+heartbeat,ضربان,,,,34
+fail-safe,ایمن در خرابی,,,,34
+I/O list,فهرستِ ورودی و خروجی,,,,34
+loop check,وارسیِ حلقه,,,"on de-energised equipment, signal injected",34
+undervoltage,کم‌ولتاژی,,,,34
+end-of-discharge voltage,ولتاژِ پایانِ تخلیه,,,,34
+telemetry,دورسنجی,,,,34
+burn-in,پیش‌کارکرد,,,,34
+interposing relay,رلهٔ واسط,,,,34
+energise to trip,عملکرد با برق‌دارشدن,,,trip coils,34
+de-energise to act,عملکرد با بی‌برق‌شدن,,,alarms and stops,34
+common-mode rejection ratio,نسبتِ حذفِ حالتِ مشترک,,,CMRR,34
+hunting (tap changer),نوسانِ بیهوده,,,deadband narrower than half a tap step,34
+marshalling cabinet,تابلوی واسط,,,,34
+span (of a measuring range),گسترهٔ اندازه‌گیری,,,upper minus lower range value; not «دهانه»,34
+extended-range accuracy class,کلاسِ با بردِ گسترده,,,CT classes with suffix S,34
+burden (instrument transformer),بارِ ثانویه,,,VA drawn by the secondary circuit,34
+self-heating,خودگرمایی,,,of a resistance thermometer,34
+contact bounce,لرزشِ کنتاکت,,,,34
+debounce filter,صافیِ حذفِ لرزش,,,,34
+leakage current,جریانِ نشتی,,,,34
+median selection,انتخابِ میانه,,,two-out-of-three by median,34
+thermowell,غلافِ دماسنج,,,,34
+phase margin,حاشیهٔ فاز,,,,34
+gain crossover frequency,بسامدِ گذرِ بهره,,,,34
+discrepancy alarm,هشدارِ ناهمخوانی,,,command against feedback,34
+uncommanded change,تغییرِ بی‌فرمان,,,,34
+bumpless transfer,انتقالِ بی‌ضربه,,,,34
+tracking (of a controller),ردگیری,,,integrator follows the output,34
+hold-up time,زمانِ نگه‌داشت,,,of a power supply,34
+multicore cable,کابلِ چندرشته,,,,34
+step timeout,مهلتِ گام,,,sequence step,34
+SCADA,اسکادا,,,supervisory control and data acquisition («سامانهٔ سرپرستی و گردآوریِ داده»),35
+interface (between systems),واسط,,,ch 34-35; interface documents keep «رابط» (ch 18),35
+gateway (communications),دروازهٔ ارتباطی,,,"not «دروازه» (gantry, site gate)",35
+protocol,پروتکل,,,,35
+interoperability,هم‌کنش‌پذیری,,,,35
+bit rate,نرخِ بیت,,,,35
+serialisation delay,تأخیرِ فرستادن,,,time to put a frame on the link,35
+single-mode fibre,فیبرِ تک‌حالته,,,,35
+multimode fibre,فیبرِ چندحالته,,,,35
+fusion splice,جوشِ فیبر,,,,35
+optical loss budget,بودجهٔ افتِ نوری,,,,35
+daisy chain,زنجیرهٔ پیاپی,,,network topology,35
+ring topology,توپولوژیِ حلقوی,,,,35
+subnet,زیرشبکه,,,,35
+polling,پرسش‌گری,,,master asks each device in turn,35
+report by exception,گزارش با تغییر,,,,35
+integrity scan,پویشِ درستی,,,periodic full read,35
+precision time protocol,پروتکلِ زمانِ دقیق,,,"PTP, IEEE 1588",35
+grandmaster clock,ساعتِ اصلی,,,,35
+tag (point name),برچسبِ نقطه,,,,35
+data model,مدلِ داده,,,,35
+general interrogation,پرسشِ همگانی,,,,35
+asset register,ثبتِ دارایی‌ها,,,,35
+computerised maintenance management system,سامانهٔ مدیریتِ نگهداری,,,CMMS,35
+enterprise asset management,مدیریتِ دارایی‌های سازمان,,,EAM,35
+work request,درخواستِ کار,,,,35
+work order,دستورِ کار,,,,35
+source of truth,مبدأِ معتبر,,,authoritative source of a data item,35
+alarm flood,سیلِ هشدار,,,,35
+chattering alarm,هشدارِ لرزان,,,,35
+alarm philosophy,فلسفهٔ هشدار,,,,35
+alarm rationalisation,بازنگریِ هشدارها,,,,35
+data retention,دورهٔ نگهداریِ داده,,,not «نگه‌داشت» (hold-up),35
+buffer (data),میانگیر,,,,35
+failover,جابه‌جایی به پشتیبان,,,,35
+least privilege,کمترین دسترسی,,,,35
+firewall (network),دیوارهٔ آتش,,,"not «دیوارِ آتش» (fire barrier wall, ch 32)",35
+point-to-point test,آزمونِ نقطه‌به‌نقطه,,,,35
+deduplication,حذفِ تکرار,,,,35
+time base,پایهٔ زمانی,,,UTC or local,35
+queue (messages),صفِ پیام,,,,35
+dashboard,داشبورد,,,,35
+configuration baseline,خط‌مبنای پیکربندی,,,,35
+priority class (QoS),ردهٔ اولویت,,,switch-port traffic class,35
+protocol overhead,سرباریِ پروتکل,,,header bytes,35
+fade margin,حاشیهٔ محوشدگی,,,radio link,35
+Fresnel zone,ناحیهٔ فرنل,,,,35
+alarm suppression,سرکوبِ هشدار,,,state-based,35
+shelved alarm,هشدارِ کنارگذاشته,,,,35
+recovery point,نقطهٔ بازیابی,,,data that may be lost,35
+recovery time,زمانِ بازیابی,,,,35
+holdover (time),نگه‌داشتِ زمان,,,clock running on its oscillator,35
+data completeness,کامل بودنِ داده,,,,35
+word order,ترتیبِ کلمه‌ها,,,32-bit values in two registers,35
+swinging-door compression,فشرده‌سازیِ درِ گردان,,,straight-line historian compression,35
+back-fill,پر کردنِ دوباره,,,historian,35
+idempotent receiver,گیرندهٔ بی‌اثر در تکرار,,,,35
+cybersecurity,امنیتِ سایبری,,,,36
+operational technology,فناوریِ عملیاتی,,,OT,36
+information technology (business),فناوریِ اطلاعات,,,IT,36
+security zone,ناحیهٔ امنیتی,,,«ناحیه» in context,36
+conduit (security),مجرا,,,the one controlled path between two zones,36
+demilitarised zone,ناحیهٔ میانی,,,DMZ,36
+target security level,سطحِ هدف,,,IEC 62443 concept,36
+default deny,بستنِ پیش‌فرض,,,,36
+shadowed rule,قاعدهٔ سایه‌خورده,,,firewall rule never reached,36
+jump host,میزبانِ پرش,,,,36
+second factor (MFA),عاملِ دوم,,,,36
+hardening,سخت‌سازی,,,,36
+secrets vault,گاوصندوقِ رازها,,,,36
+asset inventory (security),فهرستِ دارایی‌ها,,,as ch 5; the EAM register is «ثبتِ دارایی‌ها»,36
+single point of failure,نقطهٔ تکِ خرابی,,,,36
+compensating control,کنترلِ جبرانی,,,,36
+tabletop exercise,تمرینِ رومیزی,,,,36
+business continuity,پیوستگیِ کار,,,,36
+recovery time objective,هدفِ زمانِ بازیابی,,,RTO,36
+recovery point objective,هدفِ نقطهٔ بازیابی,,,RPO,36
+end of support,پایانِ پشتیبانی,,,,36
+classification (records),رده,,,,36
+custodian,متولی,,,,36
+sanitised model,مدلِ پالایش‌شده,,,for vendor design reviews,36
+provenance (of a device),خاستگاه,,,,36
+media sanitisation,پاک‌کردنِ رسانه,,,,36
+certificate (digital),گواهیِ دیجیتال,,,«گواهی» in context,36
+risk register,دفترِ ریسک,,,as ch 22,36
+key performance indicator,شاخصِ عملکرد,,,KPI,37
+reference yield,تولیدِ مرجع,,,"Y_r, hours of full sun",37
+availability,دسترس‌پذیری,,,share of time or energy a unit was ready,37
+production-based availability,دسترس‌پذیریِ انرژیایی,,,same as energy-based availability (ch 11); IEC 61400-26-1 wording,37
+exclusion (availability),استثنا,,,hours or energy left out by contract,37
+reporting window,پنجرهٔ گزارش,,,,37
+expected energy,انرژیِ مورد انتظار,,,from model 15.1,37
+normalisation (like for like),هم‌سنجی,,,numerator and denominator on the same hours,37
+root cause,علتِ ریشه‌ای,,,,37
+predictive maintenance,نگهداریِ پیش‌بینانه,,,,37
+peer comparison,مقایسه با همتایان,,,,37
+median absolute deviation,میانهٔ قدرِمطلقِ انحراف,,,MAD,37
+anomaly detection,آشکارسازیِ ناهنجاری,,,,37
+year-on-year (degradation),سال‌به‌سال,,,,37
+model drift,رانشِ مدل,,,,37
+event taxonomy,رده‌بندیِ رویدادها,,,,37
+outage (of a unit),ازکارافتادگی,,,not «خاموشی» (blackout),37
+forced outage,ازکارافتادگیِ اجباری,,,,37
+planned outage,ازکارافتادگیِ برنامه‌ریزی‌شده,,,,37
+downtime,زمانِ ازکارافتادگی,,,trip to return to service,37
+equipment hierarchy,سلسله‌مراتبِ تجهیزات,,,"plant, unit, system, component",37
+failure code,کدِ خرابی,,,"symptom, cause, action from closed lists",37
+exposure (reliability),زمانِ در معرض,,,operating hours,37
+censored record,سابقهٔ سانسورشده,,,item still running at the end of the record,37
+reliability growth,رشدِ قابلیتِ اطمینان,,,,37
+Crow-AMSAA model,مدلِ کرو-امسا,,,slope beta_g,37
+held-out data,دادهٔ کنارگذاشته,,,,37
+overfitting,بیش‌برازش,,,,37
+ramp event,رویدادِ رمپ,,,,37
+tracking error (service),خطای ردگیری,,,as «ردگیری» in ch 34,37
+settlement evidence,شاهدِ تسویه,,,,37
+settlement (of a service),تسویه,,,not ground settlement «نشست»,37
+acceptance specification (service),مشخصهٔ پذیرش,,,placeholder U-118 in ch 37,37
+production batch (manufacturing lot),دستهٔ تولید,,,as ch 9-10; a lot in an acceptance-sampling plan is «محموله» (ch 19),37
+profile (protocol),پروفایل,,,"agreed subset of a protocol's objects, options and timings (as used in ch 35-36)",35
+master document register,دفترِ اصلیِ مدارک,,,MDR,38
+document control,کنترلِ مدارک,,,,38
+design maturity,بلوغِ طراحی,,,,38
+comment sheet,برگهٔ دیدگاه‌ها,,,,38
+technical query,پرسشِ فنی,,,TQ,38
+deviation (design),عدول,,,deviation request; imbalance stays «انحراف» (ch 15),38
+change request,درخواستِ تغییر,,,,38
+as-built,چون‌ساخت,,,status ASB (ch 2),38
+redline (field mark-up),خط‌قرمز,,,,38
+design basis,مبنای طراحی,,,,38
+requirements verification traceability matrix,ماتریسِ الزام تا راستی‌آزمایی,,,RVTM,38
+interface item,موردِ رابط,,,interface documents keep «رابط» (ch 18),38
+hold (on a drawing),نگه‌دار,,,,38
+design for manufacture,طراحی برای ساخت,,,"DfM; also for assembly, test, maintenance",38
+title block,جدولِ عنوان,,,,38
+work breakdown structure,ساختارِ شکستِ کار,,,WBS,38
+scope baseline,خط‌مبنای محدوده,,,,38
+earned value,ارزشِ کسب‌شده,,,EV,38
+rules of credit,قاعده‌های اعتبارِ پیشرفت,,,,38
+estimate at completion,برآورد در پایان,,,EAC,38
+common data environment,محیطِ مشترکِ داده,,,CDE,38
+release for manufacture,رهاسازی برای ساخت,,,,38
+interface schedule (grid),جدولِ رابطِ فنی,,,,38
+continuity of supply,پیوستگیِ تأمین,,,,39
+sub-supplier,زیرتأمین‌کننده,,,tier 2 and below,39
+performance specification,مشخصهٔ عملکردی,,,,39
+build to print,ساخت بر پایهٔ نقشه,,,,39
+design ownership,مالکیتِ طراحی,,,,39
+compliance and deviation matrix,ماتریسِ انطباق و عدول,,,,39
+evaluated price,قیمتِ ارزیابی‌شده,,,,39
+capability audit,ممیزیِ توانمندی,,,,39
+critical floor (audit),کفِ بحرانی,,,,39
+nonconformity,عدم‌انطباق,,,,39
+concession,امتیازِ کتبی,,,acceptance of a nonconformity in writing,39
+change order,دستورِ تغییر,,,,39
+claim (contract),ادعا,,,,39
+obsolescence,منسوخ شدن,,,,39
+financial close,بستنِ مالی,,,,39
+step-in right,حقِ جانشینی,,,concept only,39
+assignment (contract),واگذاریِ حقوق,,,concept only,39
+supplier data schedule,جدولِ دادهٔ تأمین‌کننده,,,,39
+warranty (general),ضمانت,,,product and power warranty as ch 10,39
+guarantee (performance),تضمین,,,delivery guarantee as ch 16,39
+security management plan,طرحِ مدیریتِ امنیت,,,,32
+expected annual loss,زیانِ سالانهٔ مورد انتظار,,,,32
+exercise inject,پیامِ سناریو,,,timed message in a tabletop exercise,32
+role clarity,روشنیِ نقش,,,share of decisions with exactly one owner,32
+lessons learned,درس‌آموخته‌ها,,,,32
+access authorisation,مجوزِ ورود,,,by area,32
+call list,فهرستِ تماس,,,,32
+integrated readiness exercise,تمرینِ یکپارچهٔ آمادگی,,,,32
+allocation rule,قاعدهٔ تخصیص,,,recycled content and scrap,39
+controlled method (estimates),روشِ کنترل‌شده,,,estimate scored at its upper bound,39
+Little's law,قانونِ لیتل,,,,38
+return code (review),کدِ بازگشت,,,"A, B, C",38
+design structure matrix,ماتریسِ ساختارِ طراحی,,,DSM,38
+to-complete performance index,شاخصِ عملکردِ لازم برای تکمیل,,,TCPI,38
+requirements volatility,نوسانِ الزام‌ها,,,,38
+critical path,مسیرِ بحرانی,,,,38
+transmittal,ارسال‌نامه,,,,38
+revision note,یادداشتِ بازنگری,,,,38
+milestone payment,مرحلهٔ پرداخت,,,,39
+advance payment guarantee,ضمانت‌نامهٔ پیش‌پرداخت,,,concept only,39
+performance bond,ضمانت‌نامهٔ حسنِ انجامِ کار,,,concept only,39
+last-time buy,خریدِ پایانِ تولید,,,,39
+prolongation (claim),طولانی‌شدن,,,time-related cost,39
+disruption (claim),اختلال,,,lost productivity,39
+outage window,پنجرهٔ قطع,,,,39
+forward contract (currency),قراردادِ آتیِ ارز,,,concept only,39
+accepted data,دادهٔ پذیرفته‌شده,,,,39
+prequalification,پیش‌صلاحیت,,,,39
+delivery term (trade),شرطِ تحویل,,,where risk passes; concept only,39
+clarification (tender),روشن‌سازی,,,,39
+business interruption insurance,بیمهٔ وقفهٔ کار,,,"waiting period, indemnity period; concept only",39
+production system,سامانهٔ تولید,,,,40
+bill of materials,فهرستِ مواد,,,BOM,40
+routing,مسیرِ ساخت,,,,40
+rolled throughput yield,بازدهِ زنجیره‌ای,,,RTY,40
+takt time,زمانِ تکت,,,,40
+bottleneck,گلوگاه,,,,40
+line balance,توازنِ خط,,,,40
+learning curve,منحنیِ یادگیری,,,,40
+genealogy (serial/lot),تبارنامه,,,,40
+pilot build,ساختِ آزمایشی,,,,40
+first-article inspection,بازرسیِ نخستین‌نمونه,,,FAI,40
+quality plan,طرحِ کیفیت,,,,40
+criticality,بحرانیت,,,,40
+control plan,طرحِ کنترل,,,,40
+traveler,برگهٔ مسیر,,,,40
+type qualification,صلاحیت‌سنجیِ نوعی,,,,40
+critical characteristic,مشخصهٔ بحرانی,,,,40
+defect escape,فرارِ عیب,,,,40
+skid (equipment),اسکید,,,,40
+work instruction,دستورالعملِ کار,,,«دستورِ کار» is a work order (ch 35),40
+containment (nonconformity),مهارِ عیب,,,short «مهار» in context; not restraint (ch 26),40
+overall equipment effectiveness,اثربخشیِ کلیِ تجهیزات,,,OEE,40
+work in progress,کارِ در جریان,,,WIP,40
+safety stock,موجودیِ اطمینان,,,,40
+reorder point,نقطهٔ سفارش,,,,40
+Cohen's kappa,کاپای کوهن,,,,40
+p-chart,نمودارِ نسبت,,,,40
+average outgoing quality,کیفیتِ میانگینِ خروجی,,,AOQ,40
+Pareto chart,نمودارِ پارتو,,,,40
+8D report,گزارشِ هشت‌گامی,,,,40
+cost of quality,هزینهٔ کیفیت,,,,40
+design FMEA,تحلیلِ خرابیِ طراحی,,,,40
+rectifying inspection,بازرسیِ اصلاحی,,,,40
+cause-and-effect diagram,نمودارِ علت و اثر,,,fishbone,40
+time study,زمان‌سنجی,,,,40
+standard time,زمانِ استاندارد,,,,40
+rating factor,ضریبِ ارزیابی,,,,40
+allowance (work study),ضریبِ مجاز,,,,40
+kanban,کانبان,,,,40
+economic order quantity,اندازهٔ اقتصادیِ سفارش,,,EOQ,40
+average run length,میانگینِ طولِ دنباله,,,ARL,40
+supplier scorecard,کارنامهٔ تأمین‌کننده,,,,40
+supplier corrective action request,درخواستِ اقدامِ اصلاحیِ تأمین‌کننده,,,SCAR,40
+environmental stress screening,غربالِ تنشِ محیطی,,,ESS,40
+zero-failure demonstration test,آزمونِ اثباتِ بی‌خرابی,,,,40
+lifting lug,گوشوارهٔ بالابری,,,as ch 31,40
+two-level factorial experiment,آزمایشِ عاملیِ دوسطحی,,,DOE,40
+interaction (DOE),برهمکنش,,,,40
+variables sampling,نمونه‌گیریِ متغیری,,,,40
+attributes sampling,نمونه‌گیریِ وصفی,,,,40
+stress-strength interference,تداخلِ تنش و استحکام,,,,40
+first-article package,بستهٔ نخستین‌نمونه,,,,40
+multi-vari chart,نمودارِ چندمتغیره,,,,40
+variance components,مؤلفه‌های واریانس,,,,40
+all-or-none inspection rule,قاعدهٔ همه یا هیچ,,,Deming kp rule,40
+cut-in point (engineering change),نقطهٔ ورود,,,,40
+configuration register,دفترِ پیکربندی,,,,40
+recombination,بازترکیب,,,,41
+surface recombination velocity,سرعتِ بازترکیبِ سطحی,,,S,41
+emitter (solar cell),گسیلنده,,,,41
+finger (cell grid),انگشتی,,,as ch 10,41
+built-in voltage,ولتاژِ داخلیِ پیوند,,,V_bi,41
+implied open-circuit voltage,ولتاژِ مدارِ بازِ ضمنی,,,iVoc,41
+saturation current density,چگالیِ جریانِ اشباع,,,J0,41
+effective lifetime,طولِ عمرِ مؤثر,,,,41
+bulk lifetime,طولِ عمرِ حجمی,,,,41
+sheet resistance,مقاومتِ لایه‌ای,,,ohm/sq,41
+feedstock (silicon),مادهٔ خام,,,,41
+segregation coefficient,ضریبِ جدایش,,,,41
+kerf loss,افتِ برش,,,,41
+firing (contact formation),پختِ تماس,,,,41
+edge isolation,جداسازیِ لبه,,,,41
+cell sorting,دسته‌بندیِ سلول,,,,41
+current bin,ردهٔ جریان,,,,41
+cell-to-module ratio,نسبتِ سلول به ماژول,,,CTM,41
+laminate (module),لمینیت,,,,41
+lamination (module process),لمینیت‌کاری,,,not the core 'ورق',41
+gel content,درصدِ ژل,,,,41
+stringer (machine),رشته‌ساز,,,,41
+lay-up,چیدمانِ لایه‌ها,,,,41
+flash test,آزمونِ فلش,,,as ch 10,41
+potting (junction box),رزین‌ریزی,,,,41
+frame sealant,درزگیرِ قاب,,,,41
+process window,پنجرهٔ فرایند,,,,41
+quarter-wave coating,پوششِ ربع‌موج,,,,41
+four-point probe,کاوهٔ چهارنقطه‌ای,,,,41
+light trapping,به‌دام‌اندازیِ نور,,,,41
+check digit,رقمِ وارسی,,,Luhn,41
+peel strength,استحکامِ کندن,,,,41
+control module (kept reference),ماژولِ شاهد,,,,41
+two-curve method (series resistance),روشِ دو منحنی,,,,41
+water vapour transmission rate,آهنگِ عبورِ بخارِ آب,,,WVTR,41
+specific contact resistivity,مقاومتِ ویژهٔ تماس,,,rho_c,41
+transfer length,طولِ انتقال,,,,41
+shelf life,عمرِ انبار,,,,41
+pulled monocrystalline (Czochralski) wafer,ویفرِ تک‌بلورِ کشیده,,,Cz,41
+cast wafer,ویفرِ ریختگی,,,,41
+sideband (vibration),مؤلفهٔ کناری,,,,42
+run-in test,آزمونِ کارکردِ آغازین,,,gearbox,42
+back-to-back test (gearbox),آزمونِ پشت‌به‌پشتِ جعبه‌دنده,,,,42
+root insert (blade),بوشِ ریشهٔ پره,,,,42
+first mass moment,گشتاورِ اولِ جرم,,,,42
+degree of cure,درجهٔ پخت,,,,42
+glass transition temperature,دمای گذارِ شیشه‌ای,,,Tg,42
+void content,درصدِ تخلخل,,,,42
+bond line,خطِ چسب,,,as before,42
+down conductor,رسانای پایین‌رو,,,as ch 11,42
+shrink fit,جازدنِ گرم,,,,42
+interference (fit),تداخلِ جازدن,,,,42
+filter beta ratio,نسبتِ بتای صافی,,,,42
+transmission error (gears),خطای انتقالِ دنده,,,,42
+yaw brake,ترمزِ چرخش,,,,42
+brake caliper,کالیپرِ ترمز,,,,42
+false brinelling,فرورفتگیِ کاذب,,,,42
+serial defect,عیبِ سریالی,,,,42
+supplier tier,ردهٔ تأمین‌کننده,,,,42
+damage category (blade),ردهٔ آسیب,,,,42
+joint factor (bolted),ضریبِ اتصال,,,phi,42
+unbalance (rotor),نابالانسی,,,as ch 11,42
+characteristic value,مقدارِ مشخصه,,,,42
+nodular graphite,گرافیتِ کروی,,,,42
+casting modulus,مدولِ ریخته‌گری,,,V/A,42
+feeder (casting),تغذیه‌کننده,,,,42
+emergency feathering,پرِ اضطراری,,,,42
+design for maintainability,طراحی برای نگهداری‌پذیری,,,,42
+case depth,عمقِ لایهٔ سخت,,,,42
+carburising,کربوره‌کردن,,,,42
+Vickers hardness,سختیِ ویکرز,,,HV,42
+hardness traverse,خطِ سختی‌سنجی,,,,42
+scarf repair,تعمیرِ پخ‌دار,,,,42
+shock recorder,ضربه‌نگار,,,,42
+process FMEA,تحلیلِ خرابیِ فرایند,,,,42
+Hertzian contact,تماسِ هرتزی,,,,42
+joint settling (embedding),نشستِ اتصال,,,,42
+load cell,نیروسنج,,,,42
+loading saddle (blade test),زینِ بارگذاری,,,,42
+pressure-decay test,آزمونِ افتِ فشار,,,,42
+least squares,کمترین مربعات,,,,42
+circumferential weld,جوشِ محیطی,,,,42
+longitudinal weld,جوشِ طولی,,,,42
+load sharing factor (planets),ضریبِ سهمِ بار,,,K_gamma,42
+elastic interaction (bolting),برهم‌کنشِ کشسان,,,,42
+C-scan map (ultrasonic),نقشهٔ پویش,,,,42
+full waveform (ultrasonic A-scan),شکلِ موجِ کامل,,,,42
+mould set (blade),دستِ قالب,,,,42
+core limb,ستونِ هسته,,,,43
+yoke (core),یوغ,,,,43
+core window,پنجرهٔ هسته,,,,43
+core step,پلهٔ هسته,,,,43
+stacking factor,ضریبِ انباشت,,,,43
+volts per turn,ولت بر دور,,,,43
+principal tap,تپِ اصلی,,,,43
+ampere-turns,آمپر-دور,,,,43
+Rogowski factor,ضریبِ روگوفسکی,,,,43
+stray loss,تلفِ پراکنده,,,,43
+continuously transposed conductor,هادیِ ترانهادهٔ پیوسته,,,CTC,43
+disc winding,سیم‌پیچِ دیسکی,,,,43
+foil winding,سیم‌پیچِ ورقه‌ای,,,,43
+kraft paper,کاغذِ کرافت,,,,43
+pressboard,پرس‌بورد,,,,43
+pressboard barrier,مانعِ پرس‌بورد,,,,43
+oil duct,مجرای روغن,,,,43
+hoop stress,تنشِ حلقوی,,,,43
+free buckling,کمانشِ آزاد,,,,43
+supported buckling,کمانشِ مهارشده,,,,43
+magnetic centre,مرکزِ مغناطیسی,,,,43
+water solubility in oil,حلالیتِ آب در روغن,,,,43
+relative saturation (water in oil),اشباعِ نسبی,,,RS,43
+waveform correction,تصحیحِ شکلِ موج,,,,43
+mean-value voltmeter,ولت‌سنجِ مقدارِ میانگین,,,,43
+cooling curve (heat run),منحنیِ سردشدن,,,,43
+ratio test,آزمونِ نسبتِ دور,,,,43
+magnetic shunt (tank),شانتِ مغناطیسی,,,,43
+condenser bushing,بوشینگِ خازنی,,,,43
+burr (cut edge),پلیسه,,,,43
+lamination (core sheet),ورقِ هسته,,,,43
+thermally upgraded paper,کاغذِ ارتقایافتهٔ گرمایی,,,,43
+step capacity (tap changer),ظرفیتِ پله,,,,43
+background noise (partial discharge),نوفهٔ زمینه,,,,43
+creep path (surface),مسیرِ خزش,,,,43
+remanent flux,شارِ پسماند,,,,43
+thermal interface material,مادهٔ رابطِ گرمایی,,,,9
+solder joint,اتصالِ لحیمی,,,,44
+cold plate,صفحهٔ سرد,,,,44
+printed circuit board (PCB),بردِ مدارِ چاپی,,,,44
+conformal coating,پوششِ محافظ (هم‌شکل),,,,9
+in-circuit test,آزمونِ درون‌مداری,,,,9
+automated optical inspection,بازرسیِ نوریِ خودکار,,,,44
+solder paste inspection,بازرسیِ خمیرِ لحیم,,,,44
+X-ray inspection,بازرسیِ پرتوِ ایکس,,,,44
+counterfeit part,قطعهٔ تقلبی,,,,44
+franchised distributor,توزیع‌کنندهٔ مجاز,,,,44
+broker (parts),دلالِ قطعه,,,,44
+fault injection,تزریقِ خطا,,,,44
+equivalent series resistance (ESR),مقاومتِ سریِ معادل,,,,44
+film capacitor,خازنِ فیلمی,,,,44
+failure rate (FIT),نرخِ خرابی,,,,44
+current sharing,تقسیمِ جریان,,,,44
+power module (IGBT),ماژولِ قدرت,,,,44
+perturb-hold-compare tracker,ردیاب با آشفتن، نگه‌داشتن و مقایسه,,,,44
+"clearance (insulation, through air)",فاصلهٔ هوایی,,,,44
+mistake-proofing (poka-yoke),خطاناپذیرسازی,,,,44
+floor life (moisture-sensitive part),عمرِ مجازِ بیرون از بسته,,,,44
+moisture-sensitive device,قطعهٔ حساس به رطوبت,,,,44
+electrostatic discharge (ESD),تخلیهٔ الکتریسیتهٔ ساکن,,,,44
+torque mark,علامتِ گشتاور,,,,44
+transition coverage,پوششِ گذار,,,,44
+staged rollout,انتشارِ پله‌ای,,,,44
+anti-condensation heater,گرم‌کنِ ضدِّ میعان,,,,44
+canonical form (of parameters),شکلِ متعارف,,,,44
+acceleration factor,ضریبِ شتاب,,,,44
+birthday bound (hash collisions),کرانِ روزِ تولد,,,,44
+layer spacing (laminated busbar),فاصلهٔ لایه‌ها,,,,44
+sensor offset,آفستِ حس‌گر,,,,44
+short-circuit withstand time,زمانِ تحملِ اتصالِ کوتاه,,,,44
+blanking time (desaturation),زمانِ کورکردن,,,,44
+serviceability,قابلیتِ سرویس,,,,44
+as-left configuration,پیکربندیِ پایانِ راه‌اندازی,,,,44
+N/P ratio,نسبتِ ظرفیتِ منفی به مثبت,,,,45
+areal capacity,ظرفیتِ سطحی,,,,45
+coating weight (electrode loading),بارگذاریِ پوشش,,,,45
+K-value (self-discharge screen),مقدارِ K,,,,45
+rest test (OCV),آزمونِ استراحت,,,,45
+dry room,اتاقِ خشک,,,,45
+current collector,جمع‌کنندهٔ جریان,,,,45
+laser weld,جوشِ لیزری,,,,45
+cell matching,هم‌گروه‌سازیِ سلول‌ها,,,,45
+balancing duty,سهمِ زمانِ متعادل‌سازی,,,,45
+take-back (battery),بازپس‌گیری,,,,45
+invariant (software),ناوردا,,,,45
+aging (cell rest after formation),پیرسازی,,,,19
+dew point,نقطهٔ شبنم,,,,45
+evidence chain,زنجیرهٔ شاهد,,,,45
+crimp (connection),پرس,,,crimped lug: کابل‌شوی پرسی (as ch 41),46
+pull test (crimp),آزمونِ کشش,,,,46
+travel curve (breaker),منحنیِ جابه‌جایی,,,,46
+trip matrix,ماتریسِ قطع,,,,46
+wire marker,نشانهٔ سیم,,,,46
+terminal plan,طرحِ ترمینال,,,,46
+constriction resistance,مقاومتِ تنگش,,,Holm,46
+contact spot (a-spot),لکهٔ تماس,,,,46
+electrical stress control,کنترلِ تنشِ الکتریکی,,,,46
+stress cone,مخروطِ تنش,,,,46
+insulation compound,آمیزهٔ عایق,,,,46
+changeover point (of a lot),نقطهٔ تعویض,,,,46
+heat cycling (qualification),چرخهٔ گرمایی,,,,46
+switchgear line-up,ردیفِ تابلوها,,,,46
+transport section,بخشِ حمل,,,,46
+impact test (Charpy),آزمونِ ضربه,,,toughness: چقرمگی (as ch 30),47
+welder qualification,گواهیِ جوشکار,,,,47
+weld map,نقشهٔ جوش,,,,47
+magnetic particle testing,آزمونِ ذراتِ مغناطیسی,,,,47
+ultrasonic testing,آزمونِ فراصوتی,,,as ch 30,47
+torque tube,لولهٔ پیچشی,,,,47
+slew drive,رانهٔ گردشی,,,,47
+backlash (drive),لقیِ رانه,,,clearance alone is لقی (ch 4),47
+concrete delivery ticket,بارنامهٔ بتن,,,,47
+curing (concrete),عمل‌آوری,,,as ch 29,47
+strength conformity (concrete),انطباقِ مقاومت,,,,47
+material take-off,برآوردِ مقادیر,,,as ch 29,47
+nonconformance report,گزارشِ عدم‌انطباق,,,NCR,47
+release note (inspection),گواهیِ ترخیص,,,,47
+tower section,بخشِ برج,,,,47
+can (rolled shell ring),حلقه,,,rolled plate ring of a tower,47
+port schedule,جدولِ پورت‌ها,,,,48
+patch panel,پنلِ اتصال,,,,48
+tag database,پایگاهِ برچسب‌ها,,,,48
+enclosure (cabinet),پوسته,,,as in IP code «کدِ حفاظتِ پوسته»; compartment stays محفظه,48
+conformity statement (calibration),بیانیهٔ انطباق,,,,48
+electromagnetic compatibility,سازگاریِ الکترومغناطیسی,,,EMC (as ch 34-36),48
+data flow (sensor to historian),جریانِ داده,,,,48
+linearity (error),خطی‌بودن,,,,48
+copper link certification,گواهیِ پیوندِ مسی,,,,48
+spare port,پورتِ یدک,,,,48
+fibre core,هستهٔ فیبر,,,,48
+power supply unit,منبعِ تغذیه,,,PSU,48
+network switch,سوئیچ,,,as ch 35-36,48
+configuration backup,نسخهٔ پشتیبانِ پیکربندی,,,,48
+clock offset,انحرافِ ساعت,,,,48
+galvanic isolator,جداسازِ گالوانیک,,,loop crossing two earthing systems,48
+check meter,کنتورِ وارسی,,,beside the main meter at the POC,48
+inclinometer,شیب‌سنج,,,,48
+staging rack (network FAT),قفسهٔ آماده‌سازی,,,,48
+audit trail,ردِ ممیزی,,,who/when/why of a data correction,48
+power over Ethernet,توان روی اترنت,,,PoE,48
+cable segregation,جداسازیِ کابل‌ها,,,power apart from signals in trays,48
+software licence (tag count),مجوزِ نرم‌افزار,,,,48
+calibration traceability chain,زنجیرهٔ ردیابیِ واسنجی,,,,48
+stow position (tracker),حالتِ ایمن,,,ch 10 form; also the safe state of a converter or a BMS,10
+interval-end label (metering),برچسبِ پایانِ بازه,,,,48
+thermostat,دماپا,,,,48
+breather (cabinet),دریچهٔ تنفس,,,,48
+seal (revenue meter),پلمب,,,seal register = دفترِ پلمب‌ها,2
+as-found reading,خوانشِ پیش از تنظیم,,,as-left = خوانشِ پس از تنظیم (ch 2),2
+test block (metering),بلوکِ آزمون,,,,48
+mobilisation (site),تجهیزِ کارگاه,,,,49
+temporary works,کارهای موقت,,,,49
+method statement,روش‌نامهٔ اجرا,,,short روش‌نامه,49
+look-ahead plan,برنامهٔ پیش‌نگر,,,six-week look-ahead,49
+mechanical completion,تکمیلِ مکانیکی,,,as ch 1,1
+systemization,سامانه‌بندی,,,,49
+subsystem,زیرسامانه,,,,18
+turnover package (construction to commissioning),بستهٔ تحویل,,,as ch 28 handover package,49
+check sheet (ITR),برگهٔ وارسی,,,A: installed; B: checked,49
+walkdown,بازدیدِ مشترک,,,,49
+crew productivity,بهره‌وریِ نیروی کار,,,ch 31 بهره‌وریِ بالابری is lift utilisation,49
+preservation (stored equipment),حفاظتِ انباری,,,,49
+submittal (equipment),سندِ تأییدِ تجهیز,,,,49
+induction (site),آموزشِ بدوِ ورود,,,,32
+joint bay,چالهٔ مفصل,,,,49
+set-out (survey),پیاده‌کردنِ نقشه,,,,49
+post driving (PV),کوبیدنِ پایه,,,refusal = توقفِ کوبش پیش از عمقِ طراحی,47
+crew,گروهِ کاری,,,,49
+work front,جبههٔ کار,,,,49
+recovery plan (schedule),برنامهٔ جبران,,,,49
+clash (area booking),تداخل,,,,49
+earned progress,پیشرفتِ کسب‌شده,,,rules of credit,49
+readiness gate,دروازهٔ آمادگی,,,,49
+quiet hours (traffic plan),ساعت‌های آرام,,,,49
+spill kit,جعبهٔ نشت,,,as ch 32,32
+S-curve,منحنیِ S,,,,49
+burn-down (check sheets),نمودارِ پایین‌آمدن,,,,49
+concurrent delay,تأخیرِ هم‌زمان,,,,49
+sectional turnover,تحویلِ بخش به بخش,,,,49
+energisation,برق‌دارکردن,,,,50
+authorised person (switching),فردِ مجاز,,,appointed in writing,50
+sanction for test,مجوزِ آزمون,,,,50
+pre-energisation checks,وارسی‌های پیش از برق‌دارکردن,,,,50
+insulation resistance,مقاومتِ عایقی,,,,50
+step test (controller),آزمونِ پله,,,,50
+operational acceptance,پذیرشِ بهره‌برداری,,,,50
+disposition (failed test),تعیینِ تکلیف,,,,50
+supervisory signal (fire),سیگنالِ نظارتی,,,,50
+phasing check,وارسیِ هم‌فازی,,,,50
+switching programme,برنامهٔ کلیدزنی,,,,50
+supply transfer,انتقالِ منبع,,,normal to alternate,50
+progressive verification,راستی‌آزماییِ پله‌ای,,,,50
+trial import (CMMS),ورودِ آزمایشی,,,,50
+call tree,درختِ تماس,,,,50
+day-ahead (forecast; schedule),روزِ بعد,,,ch 15 form; used book-wide,15
+control room,اتاقِ کنترل,,,also اتاقِ فرمان in a few chapters,18
+shift handover,تحویلِ شیفت,,,,51
+operating log,دفترِ بهره‌برداری,,,,51
+shift lead,سرپرستِ شیفت,,,,51
+re-declaration (schedule),اعلامِ دوبارهٔ برنامه,,,,51
+line patrol,بازدیدِ خط,,,,51
+vegetation clearance,فاصلهٔ ایمنِ پوشش‌گیاهی,,,,51
+outage request,درخواستِ خاموشی,,,,51
+update trigger (asset records),محرکِ به‌روزرسانی,,,,51
+set point,نقطهٔ تنظیم,,,,9
+spares (stock),یدک‌ها,,,,8
+dynamic line rating,جریانِ مجازِ پویای خط,,,,51
+operating-limit register,دفترِ حدهای بهره‌برداری,,,,51
+calibration charge (SOC),شارژِ واسنجی,,,,51
+light-load running (diesel),کارِ کم‌بار,,,wet stacking,51
+flame detector,آشکارسازِ شعله,,,,51
+aspirating smoke detector,آشکارسازِ دودِ مکشی,,,,51
+invoice,صورت‌حساب,,,,51
+credit note,اصلاحیهٔ صورت‌حساب,,,,51
+churn pressure (fire pump),فشارِ بی‌جریان,,,,51
+permeate (RO),آبِ تراوش‌یافته,,,,51
+membrane cleaning,شستشوی غشا,,,,51
+Wilson interval,بازهٔ ویلسون,,,,51
+payment curve (service),منحنیِ پرداخت,,,,51
+night import (POC),برداشتِ شبانه از شبکه,,,,51
+override (temporary),دورزدنِ موقت,,,bypass of a function,51
+alarm inhibit,مسدودسازیِ هشدار,,,,51
+forced value,مقدارِ تحمیلی,,,,51
+asset criticality,بحرانیتِ دارایی,,,,51
+unwanted trip,قطعِ ناخواسته,,,,51
+compensation claim (curtailment),ادعای جبران,,,,51
+fallback schedule,برنامهٔ جایگزین,,,,51
+preventive maintenance,نگهداریِ پیشگیرانه,,,time-based,52
+corrective maintenance,نگهداریِ اصلاحی,,,after a failure,52
+condition-based maintenance,نگهداریِ وضعیت‌محور,,,,52
+run to failure,کار تا خرابی,,,,52
+fault tree,درختِ خطا,,,,52
+minimal cut set,مجموعهٔ برشِ کمینه,,,,52
+rare-event approximation,تقریبِ رخدادِ نادر,,,,52
+beta factor (common cause),ضریبِ بتا,,,,52
+inherent availability,دسترس‌پذیریِ ذاتی,,,,52
+achieved availability,دسترس‌پذیریِ حاصل,,,,52
+operational availability,دسترس‌پذیریِ عملیاتی,,,,52
+P-F interval,فاصلهٔ P-F,,,potential to functional failure,52
+age replacement,جایگزینیِ سنی,,,,52
+repairable system,سامانهٔ تعمیرپذیر,,,,52
+logistics delay,تأخیرِ پشتیبانی,,,,52
+mean time between maintenance,میانگینِ زمانِ میانِ نگهداری‌ها,,,MTBM,52
+warranty claim,ادعای ضمانت,,,,52
+hand-back (after work),تحویلِ پس از کار,,,,52
+m-out-of-n system,سامانهٔ m از n,,,,52
+failure intensity,شدتِ خرابی,,,repairable fleet,52
+data sufficiency,کفایتِ داده,,,,52
+reliability allocation,تخصیصِ قابلیتِ اطمینان,,,,52
+wash residue,پسماندِ شستشو,,,,52
+vibration velocity,سرعتِ ارتعاش,,,mm/s RMS,52
+alert level,ترازِ هشدار,,,,52
+alarm level,ترازِ آلارم,,,,52
+Birnbaum importance,اهمیتِ بیرن‌باوم,,,,52
+maintenance backlog,کارِ عقب‌مانده,,,in crew-weeks,52
+rate ratio,نسبتِ نرخ,,,,52
+failure-finding test,آزمونِ یافتنِ خرابی,,,,52
+reliability-centred maintenance,نگهداریِ قابلیتِ اطمینان‌محور,,,RCM,52
+cold standby,آماده‌به‌کارِ سرد,,,,52
+opportunistic maintenance,نگهداریِ فرصت‌طلبانه,,,,52
+key-person risk,خطرِ یک‌نفره,,,,52
+bootstrap (resampling),بازنمونه‌گیری,,,,52
+site restoration,بازگرداندنِ ساختگاه,,,,53
+land return (to the landholder),تحویلِ زمین به مالک,,,,53
+remaining life,عمرِ باقی‌مانده,,,,53
+life extension,تمدیدِ عمر,,,,53
+equivalent annual cost,هزینهٔ سالانهٔ هم‌ارز,,,EAC,53
+decommissioning provision,ذخیرهٔ مالیِ برچیدن,,,,53
+cement-kiln co-processing,هم‌پردازش در کورهٔ سیمان,,,,53
+waste transfer note,برگهٔ انتقالِ پسماند,,,,53
+workforce transition,گذارِ نیروی کار,,,,53
+performance benchmarking,مقایسهٔ عملکرد با همتایان,,,,53
+virtual age,سنِ مجازی,,,repairable units,53
+long-lead item,قلمِ دیرتحویل,,,,53
+records retention schedule,جدولِ نگهداریِ سابقه‌ها,,,,53
+access removal,برداشتنِ دسترسی,,,,53
+restoration factor (repair),ضریبِ بازیابیِ تعمیر,,,,53
+grid code,کدِ شبکه,,,in use since ch 17,54
+law (statute),قانون,,,,54
+regulation (secondary legislation),آیین‌نامه,,,,54
+permit condition,شرطِ مجوز,,,,54
+generation licence,پروانهٔ تولید,,,,54
+utility rule,قاعدهٔ شرکتِ برق,,,,54
+owner's specification,مشخصاتِ مالک,,,,54
+requirement hierarchy,سلسله‌مراتبِ الزام‌ها,,,teaching order; the legal order is local,54
+applicability,کاربردپذیری,,,,54
+compliance register,دفترِ انطباق,,,,54
+written clarification request,استعلامِ کتبی,,,,54
+interpretation (of a requirement),تفسیرِ الزام,,,,54
+derogation,معافیت از الزام,,,,54
+amendment,اصلاحیه,,,,54
+consolidated text,متنِ تلفیقی,,,,54
+official gazette,روزنامهٔ رسمی,,,,54
+transitional provision,حکمِ انتقالی,,,,54
+normative (text),الزامی,,,,54
+informative (text),آگاهی‌بخش,,,,54
+official language,زبانِ رسمی,,,,54
+research record,سابقهٔ جست‌وجو,,,,54
+regulatory watch,پایشِ مقررات,,,,54
+verified (status),تأییدشده,,,,54
+project-dependent (status),وابسته به پروژه,,,,54
+to confirm (status),نیازمندِ تأیید,,,,54
+production premium (incentive),پاداشِ تولید,,,,54
+incentive,مشوق,,,,54
+currency convertibility,تبدیل‌پذیریِ ارز,,,,54
+repatriation (of funds),انتقالِ وجوه به خارج,,,,54
+withholding tax,مالیاتِ تکلیفی,,,,54
+gross-up,افزایش برای جبرانِ کسر,,,,54
+tax depreciation,استهلاکِ مالیاتی,,,,54
+security package (lending),بستهٔ وثایق,,,,54
+qualified local reviewer,بازبینِ صلاحیت‌دارِ محلی,,,,54
+decision gate,دروازهٔ تصمیم,,,,54
+notice to proceed,دستورِ آغازِ کار,,,,54
+guaranteed purchase (contract),خریدِ تضمینی,,,,55
+construction permit (power plant),پروانهٔ احداث,,,,55
+environmental inquiry,استعلامِ محیط‌زیستی,,,,55
+green electricity board,تابلوی برقِ سبز,,,Iran Energy Exchange,55
+fuel-basket draft,حوالهٔ سبدِ سوخت,,,payment for fuel saved (Iran),55
+setback (legal),حریم,,,,55
+passive defence,پدافندِ غیرعامل,,,,55
+mandatory standard,استانداردِ اجباری,,,,55
+secondary source,منبعِ ثانوی,,,,55
+visibility (to the control centre),رؤیت‌پذیری,,,,55
+land allocation,واگذاریِ زمین,,,,55
+value of improvements,ارزشِ اعیانی,,,,55
+import-order registration,ثبتِ سفارش,,,,55
+de facto authorities,مقام‌های بالفعل,,,,56
+Economic Commission (Afghanistan),کمیسیونِ اقتصادی,,,,56
+inter-ministerial investment committee,کمیتهٔ بین‌وزارتیِ سرمایه‌گذاری,,,,56
+grid island (isolated system),بخشِ جدای شبکه,,,,56
+water usage permit guideline,رهنمودِ جوازِ آب,,,,56
+import inspection,بازرسیِ واردات,,,,56
+general licence (sanctions),مجوزِ عمومی,,,,56
+payment security,ضمانتِ پرداخت,,,,56
+local service capability,توانِ خدماتِ محلی,,,,56
+single buyer,خریدارِ واحد,,,,57
+technical conditions (connection),شرایطِ فنیِ اتصال,,,,57
+competitive procedure,فرایندِ رقابتی,,,auction or tender,57
+state ecological expertise,کارشناسیِ زیست‌محیطی,,,,57
+state energy expertise,کارشناسیِ دولتیِ انرژی,,,,57
+investment agreement,موافقت‌نامهٔ سرمایه‌گذاری,,,,57
+evacuation infrastructure,تأسیساتِ تخلیهٔ توان,,,,57
+seismic zone,پهنهٔ لرزه‌ای,,,,57
+mudflow,سیلابِ گِلی,,,,57
+Key Biodiversity Area,منطقهٔ کلیدیِ تنوعِ زیستی,,,,57
+land use right,حقِ استفاده از زمین,,,,57
+certificate of conformity,گواهیِ انطباق,,,,57
+interstate standard (GOST),استانداردِ میان‌دولتی,,,,57
+rules for electrical installations (PUE),قواعدِ تأسیساتِ برقی,,,,57
+special water use,بهره‌برداریِ ویژه از آب,,,,57
+antimonopoly body,نهادِ ضدانحصار,,,,57
+normative reference,مرجعِ الزامی,,,,58
+dated reference,ارجاعِ تاریخ‌دار,,,,58
+undated reference,ارجاعِ بی‌تاریخ,,,,58
+verbal form,صورتِ بیانی,,,shall / should / may / can,58
+national adoption,پذیرشِ ملی,,,,58
+identical adoption (IDT),پذیرشِ یکسان,,,,58
+modified adoption (MOD),پذیرشِ اصلاح‌شده,,,,58
+not equivalent (NEQ),ناهم‌ارز,,,,58
+corrigendum,اصلاحیهٔ ویرایشی,,,,58
+scope of accreditation,دامنهٔ اعتباردهی,,,,58
+certification body,نهادِ گواهی‌دهی,,,,58
+inspection body,نهادِ بازرسی,,,,58
+supplier's declaration of conformity,اظهارنامهٔ انطباقِ تأمین‌کننده,,,,58
+gap analysis,تحلیلِ شکاف,,,,58
+standards watch,پایشِ استانداردها,,,,58
+change trigger,ماشهٔ تغییر,,,,58
+staged dossier,پروندهٔ مرحله‌ای,,,,59
+dossier index,نمایهٔ پرونده,,,,59
+defense exercise,تمرینِ دفاع,,,,59
+change case,حالتِ تغییر,,,,59
+design-interface check,وارسیِ واسط‌های طراحی,,,,59
+gamma-Poisson update,به‌روزرسانیِ گاما–پواسون,,,,59
+availability allocation,تخصیصِ دسترس‌پذیری,,,,59
+contract-risk allocation,تخصیصِ ریسکِ قرارداد,,,,59
+financeability recommendation,پیشنهادِ تأمین‌پذیری,,,,59
+readiness review,بازبینیِ آمادگی,,,,59
+design margin,حاشیهٔ طراحی,,,,59
+safe state (converter; BMS),حالتِ ایمن,,,same word as the tracker stow position,9
+campaign (erection; crane; repair; decommissioning),کارزار,,,the measurement campaign is کمپینِ اندازه‌گیری,31

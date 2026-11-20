@@ -1,0 +1,24 @@
+P01 inverter mass, cost and FIT: 3.0 t, 160 k u, 56,400
+P02 largest failure contributor: pump, fans, heat exchanger
+P03 interfaces: 7
+P04 configuration items: 5
+P05 modules and boards in the PV fleet: 960, 520
+P06 Tj as designed / dried interface: 74 / 96 C
+P07 cycle life with a dried interface: 7%
+P08 Tj rise with a 6 % spread: 1.8 K
+P09 hottest capacitor current, heat and life: 1.22, 1.20, x0.87
+P10 shunt cycles at 40 K: 2,913
+P11 creepage pairs failing: 1
+P12 parts over the derating rule: 2
+P13 joint heat at 25 % preload: 18.9 W
+P14 escaping ppm and most frequent escape: 14.1, solder bridge
+P15 paste target and reprints: 6.65 g, 2
+P16 inverters with a different fingerprint: INV-04, INV-09
+P17 inverters with lot L2212: 3
+P18 tree items without an end-of-line test: 1
+P19 doubtful broker lines left: 0.6
+P20 hottest module and its Tj: 38, 87.6 C
+P21 test cases passed, v1.0 / v0.9: 12 / 11
+P22 ramp MPPT efficiency, P&O / hold-compare: 77.40% / 99.99%
+P23 trace rows done / open: 4 / 2
+P24 stack current, module loss and Tj: 1,323 A, 494 W, 74.5 C

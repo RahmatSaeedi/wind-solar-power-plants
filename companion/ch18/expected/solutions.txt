@@ -1,0 +1,34 @@
+P01: PV via AC battery at 0.97/0.97/0.92 cells: 0.851
+P02: DC gain on 1,000 MWh shifted, 86.7 % vs 85.0 %: 17 MWh
+P03: current at 66 kV, 20 MW, pf 0.95: 0.184 kA
+P04: loss ratio 33 to 66 kV, same R: 4
+P05: drop, R 0.64, X 0.47 ohm, 20 MW, pf 0.95, 33 kV: 1.46 %
+P06: charging of an overhead line, 0.009 uF/km: 0.35 Mvar
+P07: cable 240 h repair, 0.002/km, 7.06 km, 33.7 MW: 114 MWh/yr
+P08: double circuit loss: half of 754: 377 MWh
+P09: yearly cost of 1,620 k u at 0.1072: 173.7 k u
+P10: value of 394 MWh at 50 u/MWh: 19.7 k u
+P11: wind + PV AC / export: (60 + 50) / 100 = 1.10
+P12: transformer capacity, 2 x 63 MVA x 0.95 / 110 MW: 1.09
+P13: N-1 export with one 63 MVA unit at pf 0.95: 59.8 MW
+P14: battery energy / power 40 / 20: 2 h
+P15: mean POC power 295.86 GWh / 8760: 33.77 MW
+P16: half-year transformer event at 33.76 MW: 147.9 GWh
+P17: value of that event at 50 u/MWh: 7.39 million u
+P18: tank for 1,518 m3 in steps of 100 m3: 1600 m3
+P19: tank with a 900 m3 reserve: 2500 m3
+P20: staff water 25 x 120 L x 31 d: 93 m3
+P21: cleaning 3 x 109.2 m3: 327.6 m3
+P22: well 1,500 m3/month as L/s: 0.58 L/s
+P23: dust 10,800 m3 at 40 m3 a working day: 270 days; 40 m3 a day as L/s: 0.46
+P24: N-squared pairs of 9 systems: 36
+P25: interface share 18 of 36: 50 %
+P26: failures, 200 x 0.1 against 10 x 0.5: 20 and 5
+P27: tie cable 3.0 km at 95 k u/km: 285 k u
+P28: two strings at 33 kV, 40 MW, pf 0.95: 0.737 kA
+P29: derate 2 %/K at 45 C: 90 % of rating
+P30: weighted score 25x4 + 20x5 + 15x5 + 10x(4+4+5+4): 445
+P31: curtailment at 100 MW of 295.86 GWh at POC: 0.08 %
+P32: extra GWh per MW from 90 to 100 MW: 0.18
+P33: collector cost 13.26 km at 165 k u/km: 2,188 k u
+P34: busbar fault, half of 33.76 MW for 48 h: 810 MWh

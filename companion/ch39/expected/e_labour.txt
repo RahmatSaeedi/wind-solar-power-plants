@@ -1,0 +1,15 @@
+labour due-diligence screen of suppliers (synthetic, A-430)
+  party                      tier   risk   evidence             status
+  U-A factory                   1   low    audit + interviews   verified
+  U-A core steel                2   medium declaration          claimed only
+  U-B factory                   1   medium declaration          claimed only
+  U-B copper winding wire       2   high   none                 unknown
+  U-C factory                   1   low    audit                verified
+  U-C bushings                  2   medium declaration          claimed only
+  site contractor               1   medium audit + interviews   verified
+  a high risk with no evidence (U-B's winding wire) is not a
+  finding of abuse - it is a gap: the supplier is asked to
+  map the source and allow an audit, with a remedy plan if
+  problems are found; a declaration is recorded as a claim,
+  never as a verified result. Workers of the site contractor
+  get the project's grievance channel (ch 33)

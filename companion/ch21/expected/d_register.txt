@@ -1,0 +1,11 @@
+assumption register read by the model (all teaching):
+  id     what                                       value
+  A-304  capital cost S1 / S0, k u                  156,450 / 142,800
+  A-305  operating cost year 1, k u                 4,270
+  A-306  replacements years 8, 12, 13, 15; decommissioning year 25
+  A-307  PPA 70 u/MWh +2 %/yr for 20 yr, then 45 u real
+  A-308  debt 6 %, 15 yr, fee 1.5 %, DSCR 1.30 P50 / 1.20 P90, gearing <= 75 %
+  A-309  inflation 2.5 %, tax 25 % (straight line 20 yr), WC 45/30 days
+  A-310  WACC 7.5 %, cost of equity 10 %, 70 % of capex in hard currency
+  D-019  energy: model 15.1, 295.14 GWh in year 1, PV -0.5 %/yr
+  D-020  P90 1-yr 276 GWh; one-year sigma 5.1 %

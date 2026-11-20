@@ -1,0 +1,9 @@
+does the 3-year environmental permit outlast the works? (teaching)
+  permit issued, month P50/P90: 7.5 / 9.3
+  construction start P50/P90: 24.1 / 28.3
+  end of construction P50/P90: 42.1 / 46.3
+  chance the start falls after the permit's 3 years: 0.0%
+  chance the end of construction falls after it:    33%
+  what the validity covers (start, works or operation) is a
+  written question to NEPA (AF-35); the plan carries a renewal
+  step if it covers the works

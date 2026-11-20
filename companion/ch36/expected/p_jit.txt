@@ -1,0 +1,7 @@
+administrator rights always held or given when needed (teaching)
+  3 engineers holding rights all year: 26,280 h
+  rights given for each approved task, 200 h each a year: 600 h
+  privileged hours cut by 97.7 %
+  everyday work is done with an everyday account; the
+  administrator right is asked for, given for the task and
+  taken back, and each grant is in the log

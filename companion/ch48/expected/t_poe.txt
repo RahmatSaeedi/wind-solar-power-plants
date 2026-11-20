@@ -1,0 +1,8 @@
+power over Ethernet on switch SW-FENCE: budget 60 W
+  camera 1 12.9 W, camera 2 12.9 W, camera 3 (PTZ) 25.5 W
+  access point 13.0 W, camera 4 12.9 W
+  total 77.2 W: over the budget by 17.2 W
+  over budget, the switch refuses power to the last device to
+  start - after a power cut, a different camera each time; the
+  budget is summed from the devices' class, not their typical
+  draw, and checked when a device is added

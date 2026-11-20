@@ -1,0 +1,15 @@
+% Chapter 42 - modulus of a unidirectional glass ply (V_f 0.60) loaded at an angle to its fibres:
+% 44.5 GPa along the fibres, about 12 GPa at 45 degrees (diagrams/data/ch42-offaxis.csv from
+% companion/ch42/examples_t.py, t_offaxis; teaching laminate theory).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=54mm, xmin=0, xmax=90, ymin=0, ymax=50,
+      xtick={0,15,30,45,60,75,90}, xlabel={زاویهٔ بار نسبت به الیاف (درجه)},
+      ylabel={مدول (گیگاپاسکال)}]
+    \addplot[sWind] table[x=theta, y=e, col sep=comma] {data/ch42-offaxis.csv};
+    \node[note, anchor=south west] at (axis cs:1,44.5) {کلاهک: الیاف در راستای پره};
+    \node[note, anchor=south] at (axis cs:45,12.5) {پوسته: لایه‌های ۴۵ درجه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,14 @@
+recovery time of each system against its target (teaching steps, h)
+  system                      steps h   target h   meets?
+  plant controller                3.5        4.0   yes
+  SCADA server                    6.2        8.0   yes
+  historian                      22.0       24.0   yes
+  protection relay settings       6.0        8.0   yes
+  firewall                        2.2        2.0   NO
+  misses: firewall - by minutes; a configured spare on the
+    shelf removes the gap
+  the historian meets its target only just (22 of 24 h):
+    12 h of it is restoring data; a standby copy in the DMZ
+    (ch 35) would shorten it
+  recovery times are measured in a restore test, not only
+  added up on paper

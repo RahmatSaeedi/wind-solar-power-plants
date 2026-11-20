@@ -1,0 +1,8 @@
+PM generator, psi 1.553 Wb; converter limit about 603 V peak phase (A-131):
+  900 rpm: EMF   439 V peak; i_d needed       0 A peak
+  1155 rpm: EMF   564 V peak; i_d needed       0 A peak
+  1300 rpm: EMF   634 V peak; i_d needed    -379 A peak
+  1450 rpm: EMF   707 V peak; i_d needed   -1143 A peak
+  above about 1240 rpm the EMF exceeds the limit: a negative i_d
+  cancels part of the magnet flux; if the converter trips at
+  speed, nothing holds the EMF down (section D, overspeed)

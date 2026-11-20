@@ -1,0 +1,10 @@
+maintenance state with a temporary oil-treatment plant (60 kW):
+  register, maintenance state: 163 kVA
+  plus the treatment plant: 233 kVA on one 250 kVA transformer
+    (93% of rating, 99% of the 236 kVA left after harmonics)
+  the second transformer may be out for its own maintenance
+  at the same time: then the plan must keep the workshop and
+  the socket outlets off while the plant runs, or bring a
+  temporary generator - a line in the maintenance plan (ch 52)
+  temporary loads enter the register as a state of their own,
+  with their own supply point and protection

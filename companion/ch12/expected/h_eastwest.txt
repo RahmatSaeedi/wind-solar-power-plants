@@ -1,0 +1,7 @@
+east-west tables at 10 deg against south-facing 25 deg (per m2):
+  annual POA: south 2,150, east-west 1,926 kWh/m2 (-10.4 %)
+  highest hourly mean: south 796, east-west 687 W/m2
+  east-west gives less per module but a flatter day (less
+  clipping, a better fit to a morning or evening peak) and more
+  modules per hectare: a resource question and a land question
+  (chapters 14 and 18)

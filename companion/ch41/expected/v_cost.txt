@@ -1,0 +1,16 @@
+module cost per watt (teaching shares, not a market price)
+  item                              u/W     share
+  silicon and wafer                 0.034     30%
+  cell processing (incl. silver)    0.026     23%
+  glass                             0.012     11%
+  frame                             0.010      9%
+  encapsulant and backsheet         0.010      9%
+  junction box and cables           0.006      5%
+  ribbon, sealant, labels           0.004      4%
+  module labour and overhead        0.012     11%
+  total 0.114 u/W
+  frame 30 % dearer: +2.6% on the module
+  CTM 1 % higher: every cost per watt falls 1% - worth
+  1.14 u per kW, as much as making the frame 11% cheaper
+  design for manufacture is also design for watts: a gain in
+  CTM spreads over every line of the bill

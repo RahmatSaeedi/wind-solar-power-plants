@@ -1,0 +1,11 @@
+energy-yield statement of Plant P, model 15.1 (P50, long term, S0):
+  wind at MV  193.14 GWh   (gross 218.79; density, terrain,
+    wakes, long term, availability)
+  PV at MV    108.36 GWh   (POA at STC 129.15; year 1)
+  electrical losses and own use    5.64 GWh
+  curtailment at 100 MW            0.23 GWh
+  grid outages (12 h)             0.49 GWh
+  net at the point of connection   295.14 GWh; capacity factor 0.337
+  not included: uncertainty and P90 (chapter 16), life-mean
+  degradation, the S1 battery, price and dispatch effects
+  basis: model 15.1: lt_wind=1.028, lt_pv=0.988, av_wind=0.981, av_pv ...

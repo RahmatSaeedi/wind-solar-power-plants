@@ -1,0 +1,9 @@
+blade section at r = 50 m, wind 10 m/s, induction 1/3, 10.5 rpm (A-069)
+  axial 6.67 m/s, tangential omega r = 55.0 m/s
+  relative speed W = 55.4 m/s, inflow angle phi = 6.91 deg
+  chord 2 m, C_L 1.0, C_D 0.01: lift 3.22 kN/m, drag 32 N/m
+  force along the rotation (drives torque): 356 N/m
+  force along the wind (thrust):            3201 N/m
+  without drag the driving force would be 388 N/m: drag costs 8 %
+  the section moves 8 x faster than the air reaching the rotor: the lift
+  points almost along the wind, and only a small part of it turns the rotor

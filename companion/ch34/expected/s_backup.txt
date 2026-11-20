@@ -1,0 +1,10 @@
+repair time of one plant controller (teaching; MTBF 150,000 h)
+  case                             MTTR h   down min a year
+  tested backup, spare on site        4.0              14.0
+  no tested backup                   57.5             201.4
+  backup, spare from the maker       75.5             264.4
+  the repair time is mostly paperwork and waiting: a backup
+  that was restored once in a test, a spare on the shelf
+  with the same firmware, and a written verification turn
+  days into hours; the backup is taken after every change
+  and its fingerprint compared with the running program

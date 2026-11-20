@@ -1,0 +1,7 @@
+project NPV +20.66 million u; one input changed at a time:
+  energy -/+10 %           +5.39 ..  +35.93  (swing 30.54)
+  price -/+10 %            +5.39 ..  +35.93  (swing 30.54)
+  discount rate +/-1 pt   +10.81 ..  +32.00  (swing 21.18)
+  capex +/-10 %           +10.66 ..  +30.66  (swing 20.00)
+  opex +/-20 %            +14.25 ..  +27.07  (swing 12.82)
+break-even price (NPV = 0): 43.24 u/MWh

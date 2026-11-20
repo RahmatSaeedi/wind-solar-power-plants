@@ -1,0 +1,12 @@
+avoided emissions: a claim kept apart from the inventory
+  counterfactual: the same energy from the regional grid mix
+  grid factor t/MWh   avoided t CO2e/yr   project t/yr (life avg)
+                0.3              88,530                      3,610
+                0.5             147,550                      3,610
+                0.7             206,570                      3,610
+  the avoided number depends on a counterfactual that is
+  an assumption (which plants the energy displaces, now and
+  in 20 years); it is not a property of the plant, not
+  guaranteed, and not transferable to another grid - it is
+  reported with its counterfactual, never added to or
+  subtracted from the project's own inventory

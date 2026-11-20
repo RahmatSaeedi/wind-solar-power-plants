@@ -1,0 +1,15 @@
+export-path inspections on day 365: interval and last done
+  132 kV line towers T01-T38        network owner 12 mo  day 160
+  line insulators and fittings      network owner 12 mo  day   0  OVERDUE
+  line corridor vegetation          plant          6 mo  day 200
+  plant HV bay (E1)                 plant         12 mo  day 300
+  grid HV bay                       network owner 12 mo  day 120
+  33 kV cable terminations          plant         12 mo  day 330
+  protection relays (plant end)     plant         48 mo  day   0
+  line differential teleprotection  shared        12 mo  day 250
+  access road to line towers        plant          6 mo  day 120  OVERDUE
+  overdue: 2, of which the plant's own: 1
+  the plant chases the network owner's overdue insulator
+  inspection through the interface agreement (ch 23) and fixes
+  its own road; the relays at the plant end were last tested
+  at commissioning (day 0) - due in the fourth year, not late

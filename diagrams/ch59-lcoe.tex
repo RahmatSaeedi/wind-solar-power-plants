@@ -1,0 +1,14 @@
+% Chapter 59 - LCOE of Plant P by part (u/MWh): capital, operation, replacements, decommissioning
+% (ch 21 model at WACC 7.5 %; companion/ch59/cases6.py, a_lcoe -> diagrams/data/ch59-lcoe.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, xbar, bar width=6mm, ymin=0.4, ymax=4.6,
+      xmin=0, xmax=60, y dir=reverse, ytick={1,...,4}, ymajorgrids=false, xmajorgrids=true,
+      yticklabels={سرمایه, بهره‌برداری, جایگزینی‌ها, برچیدن},
+      xlabel={واحد بر مگاوات‌ساعت},
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk, anchor=west}]
+    \addplot[draw=cInkB, fill=cInkB!30] table[x=v, y=k, col sep=comma] {data/ch59-lcoe.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

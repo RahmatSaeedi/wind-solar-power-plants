@@ -1,0 +1,5 @@
+module temperature over the data-pack year, hours above 600 W/m2:
+  NOCT rule (chapter 6): mean 48.9 C, max 70.7 C
+  Faiman with wind at 2 m: mean 42.3 C, max 71.7 C (U0 25, U1 6.84; A-186)
+  mean difference -6.6 K: the wind term cools windy hours;
+  mounting (open rack, roof) changes U0

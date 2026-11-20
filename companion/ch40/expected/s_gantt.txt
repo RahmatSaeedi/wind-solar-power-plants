@@ -1,0 +1,9 @@
+flow-shop schedule of the ten skids (frames bought)
+  stations: S1 2.1 h, S2 14.1 h, S3 14.2 h, S4 10.1 h, S5 12.2 h, S6 13.5 h
+  first skid through: 66.3 h; then one every 14.25 h
+  ten skids: 194.5 h = 4.9 weeks of 40 h
+  check: 66.3 + 9 x 14.25 = 194.5 h
+  takt is met in steady state, yet ten skids need more than
+  four weeks: the first skid takes 66 h to come through.
+  The window needs a start a week earlier or a second shift
+  in the first week - takt alone hides the time to fill

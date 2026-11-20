@@ -1,0 +1,10 @@
+minority electrons: D = kT/q x mu = 27.1 cm2/s
+  lifetime     diffusion length   against a 150 um wafer
+      1 us            52 um            0.3 x thickness
+     10 us           165 um            1.1 x thickness
+    100 us           521 um            3.5 x thickness
+   1000 us          1648 um           11.0 x thickness
+  an electron made at the back must wander to the junction;
+  with 1 us it rarely arrives, with 100 us it crosses the
+  wafer several times - a lifetime above about 100 us lets
+  the surfaces, not the bulk, decide the losses

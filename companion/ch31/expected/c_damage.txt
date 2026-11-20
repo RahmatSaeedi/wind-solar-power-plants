@@ -1,0 +1,11 @@
+damage reports during the delivery campaign (synthetic)
+  damage                          n   k u each   action
+  blade leading edge chip          4        3.0   repair on site by maker
+  tower flange scratch, coating    6        0.5   touch-up to coating spec
+  nacelle cover crack              1        8.0   maker's assessment
+  transformer impact over limit    1       40.0   maker's inspection, tests
+  cable drum flange broken         2        1.5   re-drum, test the cable
+  total about 66 k u; the transformer's impact alarm costs
+  the most because nothing can be energised until the maker
+  has inspected and tested it (ch 25, ch 50) - the recorder
+  is read before the transformer leaves the trailer

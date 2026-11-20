@@ -1,0 +1,10 @@
+configuration compared with its last backup every N days: how long
+  does an unrecorded change stay unseen on average?
+  every N days   mean days unseen   change-days a year
+             1                0.5                    3
+             7                3.5                   21
+            30               15.0                   90
+            90               45.0                  270
+  a daily comparison finds a change within a day; a quarterly
+  audit leaves it in place for six weeks on average - the
+  comparison of lesson C is cheap enough to run every day

@@ -1,0 +1,19 @@
+% Chapter 32 - the hierarchy of controls, most effective at the top, with the score of the
+% dropped-tool hazard after each step (companion/ch32/examples_a.py, a_hierarchy; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize]
+  \foreach \w/\y/\t/\s/\c in {
+      11.0/0.0/حذف یا کاهش: ابزار بسته به طناب، در کیسهٔ بسته/{$15 \rightarrow 10$}/cBESS,
+       9.4/-1.1/مهندسی: ناحیهٔ ممنوع زیرِ توربین/{$10 \rightarrow 5$}/cBESS,
+       7.8/-2.2/اداری: مجوزِ کار، نگهبانِ در/{$5$}/cPV,
+       6.2/-3.3/حفاظتِ فردی: کلاهِ ایمنی/{$5 \rightarrow 4$}/cLoss} {
+    \fill[\c!14, draw=\c, line width=0.6pt]
+      (-\w/2,\y) -- (\w/2,\y) -- (\w/2-0.8,\y-0.95) -- (-\w/2+0.8,\y-0.95) -- cycle;
+    \node at (0.6,\y-0.47) {\t};
+    \node[text=cInkB] at (-\w/2+1.3,\y-0.47) {\s};
+  }
+  \draw[flow] (6.3,-4.25) -- (6.3,0.0);
+  \node[note, rotate=90] at (6.65,-2.1) {اثربخشی بیشتر};
+\end{tikzpicture}
+\end{document}

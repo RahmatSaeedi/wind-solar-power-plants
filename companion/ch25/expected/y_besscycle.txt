@@ -1,0 +1,10 @@
+the battery unit transformer on a hot day: charge 11-13 h at
+  0.95 pu, discharge 19-21 h at 0.95 pu, idle otherwise
+  hottest spot 97 C; a steady 0.95 pu at 45 C would give 117 C
+  life used in this day: 0.06 days
+  two hours at full load do not heat the oil to its steady
+  value (time constant three hours): the cyclic battery duty
+  ages the unit far less than its rating suggests - but the
+  winding follows within minutes, so the hot-spot gradient
+  and the gas relay's view of each cycle still matter; the
+  maker's dynamic rating may allow a smaller unit

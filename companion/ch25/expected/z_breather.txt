@@ -1,0 +1,11 @@
+water caught by the conservator's breather (teaching):
+  oil 22 m3, expansion 0.00075 per K, daily swing of oil
+  temperature 25 K: the conservator breathes in 0.41 m3 of air a day
+  air (at 25 C)   water g/m3   water a year kg   gel 3 kg lasts (25 %)
+  50 % RH               11.5              1.73               5.2 months
+  80 % RH               18.4              2.77               3.2 months
+  without the breather this water would reach the oil and
+  then the paper (lesson moisture): a few kilograms a year;
+  the gel's colour change is a routine inspection item, or a
+  self-drying breather removes the visit - a choice for the
+  specification and the maintenance plan (ch 52)

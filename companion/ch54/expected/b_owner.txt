@@ -1,0 +1,14 @@
+requirements added by who builds and owns the 132 kV line
+  O1 utility builds and owns the line    +0
+  O2 plant builds, transfers at COD      +4
+  O3 plant builds and owns for life      +7
+  under O3 the plant takes on:
+    - line design to TSOZ standard
+    - TSOZ witness of line tests
+    - right-of-way under the transmission law
+    - transmission licence or exemption
+    - line maintenance and patrol obligations
+    - third-party connection to the line
+    - line decommissioning at the end
+  the ownership scenario is an input to the register, decided
+  before the search, not found out at the line's handover

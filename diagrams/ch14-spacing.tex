@@ -1,0 +1,15 @@
+% Chapter 14 - wake loss of two rows of six turbines (4D along the row) against the distance
+% between the rows, data-year wind rose, Jensen model, 2-degree direction bins (D-015).
+% Data: diagrams/data/ch14-spacing.csv (companion/ch14/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, xmin=2, xmax=11, ymin=0, ymax=14,
+      xlabel={فاصلهٔ دو ردیف، برابرِ قطرِ روتور}, ylabel={تلفِ دنباله، درصد},
+      xtick={3,4,5,6,8,10}, ytick={0,2,...,14}]
+    \addplot[sWind, mark=*, mark size=1.6pt] table[x=k, y=loss, col sep=comma]
+      {data/ch14-spacing.csv};
+    \node[note, anchor=west, text width=42mm] at (axis cs:6.3,11) {هر قطرِ بیشتر انرژی می‌آورد اما زمین، کابل و راه هم می‌خواهد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,29 @@
+manifest of release 1.1.0 (2026-11-15)
+  status: synthetic teaching data; no real site, grid or product
+  generator: companion/plantp_data/generate_release.py, seed 20260101
+  site: 34.0 N, 1200 m, UTC+04:00; year label 2023
+  time stamps: start of hour, local standard time, no daylight saving
+  supersedes 1.0.0: minor release: additions only; all 1.0.0 time series,
+    subsets, equipment files and scenarios byte-identical
+  files: 21 (first 10 hex digits of the SHA-256, bytes)
+    CHANGELOG.md                                       b6f1e5eb17     1,106
+    README.md                                          f886a1c1c8     2,094
+    assets/asset_register_rev_A.csv                    92b62b4f99    11,191
+    assets/asset_register_rev_B.csv                    fa81125b06    11,646
+    assets/change_notice.csv                           7a3a635893       784
+    assumptions.csv                                    b2acc82b8a    10,526
+    data_dictionary.csv                                af17f07dc8     3,023
+    equipment/pv_module_PVM-550.yml                    f2406e7d1f       717
+    equipment/wind_turbine_WT-5.0-150.yml              5b3a3a3dca       430
+    equipment/wind_turbine_WT-5.0-150_power_curve.csv  672c82e3bf       558
+    expected_results.json                              58960c141d       505
+    raw/met_mast_10min_raw.csv                         124901d16c    24,843
+    raw/met_mast_defects_key.csv                       3ecf512790       674
+    raw/pv_scada_export.csv                            cb264bf754     2,380
+    scenarios/S0-no-bess.yml                           1bbe995db7       223
+    scenarios/S1-bess.yml                              876cf7179e       728
+    seed_ratings.csv                                   a01926ec5a       691
+    timeseries/plantp_hourly_8760.csv                  0b179863ba   637,995
+    timeseries/subset_day_summer.csv                   423f5f9bb8     1,857
+    timeseries/subset_day_winter.csv                   f1f8e28f47     1,817
+    timeseries/subset_week_spring.csv                  4be27a853e    12,395

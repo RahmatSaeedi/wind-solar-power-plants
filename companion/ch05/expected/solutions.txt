@@ -1,0 +1,63 @@
+P01: 2023 = 11111100111 (binary) = 0x7E7
+P02: 0x1F4 = 500; needs 9 bits
+P03: 0x8000 signed -32768; 0xFFFE signed -2
+P04: (0x42C8, 0x0000) = 100.0; (0x3F00, 0x0000) = 0.5
+P05: 45 = 0000000000101101: bits [0, 2, 3, 5]
+P06: 4 letters: UTF-8 8 bytes; Windows-1256 fails at U+06CC (no Persian yeh in
+    that code page);
+     with Arabic yeh instead: 4 bytes
+P07: 2023-04-03T10:10:00+00:00
+P08: Kabul 12:30 = 08:00 UTC = 12:00 Plant P
+P09: 36 km/h = 10 m/s; 950 hPa = 95 kPa; 3.6e9 J = 1 MWh
+P13: 17 // 5 = 3; 17 % 5 = 2; 2 ** 10 = 1024
+P15: from 2.3.1: fix 2.3.2; feature 2.4.0; break 3.0.0
+P16: ['1.2.0', '1.9.3', '1.10.0'] (as text: ['1.10.0', '1.2.0', '1.9.3'])
+P20: PLP-WTG-07-GEN ok, PLP-WTG-7-GEN no, PLP-XYZ-01 no, PLP-INV-10 ok, PLP-
+    MET-01-ANM2 no, plp-swg-01 no
+P21: vector mean of 10 and 350 = 0.0 deg; arithmetic 180 deg
+P23: mean(v^3) = 427, (mean v)^3 = 343, ratio 1.245
+P26: float32 spacing near 1e6: 0.0625; near 1e9: 64.0
+P27: 60 MW at CF 0.337 fills a 32-bit Wh counter in 8.9 days
+P28: 12,705 - 4,294,960,000 + 2^32 = 20,001 Wh = 0.020001 MWh
+P29: 12 x 5 MW x 8760 h x 0.337 = 177.1 GWh
+P30: T_cell = 30 + 25/800 x 900 = 58.12 C; factor 0.8841
+P31: P_AC = 60 x 0.9 x 0.8841 x 0.90 x 0.98 = 42.11 MW
+P32: rho = 87900 / (287.05 x 289.95) = 1.0561 kg/m3
+P33: v_eq = 10 x (1.0561/1.225)^(1/3) = 9.518 m/s; P = 4049 kW (at 1.225: 4442
+    kW)
+P34: I = 460.4 A; loss in 6 km at 70 C = 458.4 kW
+P35: S = 63.16 MVA; loss = 60 + 400 x (63.16/120)^2 = 170.8 kW
+P36: CRF(6 %, 15) = 0.10296; service on 70 million = 7.207 million/yr
+P37: DSCR = 10.0 / 7.207 = 1.387
+P38: NPV(7 %) = 39.84 million; IRR = 11.15 %
+P39: after 1 h at 20 MW: 18.55 MWh stored; at 20 MW out it lasts 0.860 h
+P40: gain per MWh delivered = 100 - 30 / 0.86 = 65.1 u
+P41: annual GHI = 222 x 8760 / 1000 = 1944.7 kWh/m2 (valid only if gaps are
+    random)
+P42: recovery = 8100 / 8760 = 92.47 %
+P43: order = log2(0.5/0.031) = 4.01; error at 8 elements ~ 0.0019 %
+P45: correlated +- 3,840 MWh; independent +- 1,108.5 MWh
+P46: cycles = 10 000 / 0.9274 / 32 = 337
+P47: 26 March 2023 in Europe/Berlin: 23 h = 138 ten-minute records
+P50: data_release: '1.1' does not match \d+\.\d+\.\d+
+P50: pv.eta_inverter: 98 above maximum 1.0
+P50: scenario S1 without a bess block passes the schema
+P51: 2023-04-03 12:00+04:00 local; 12.3456 MWh; availability 0.985
+P52: interval start 2023-04-04T19:50:00+00:00
+P53: PLP-PVB-02: description is missing
+P53: PLP-TRF-1: tag does not follow PLP-<sys>-<nn>[-<XXX>]
+P53: PLP-TRF-1: parent PLP-SUB-01 not in the register
+P53: PLP-MET-01-ANM: parent PLP-MET-01 not in the register
+P53: PLP-MET-01-ANM: commissioned 2025-02-01 is before installed 2025-03-01
+P53: PLP-MET-01-ANM: commissioned component without a serial number
+P59: valid 5 of 6; mean 7.20 m/s (with the sentinel: -1660.5)
+P62: PV on DC basis: 96.43 / (60 x 8.76) = 0.1835
+P63: cable loss at 100 MW 1.834 MW (1.83 %); at 50 MW 0.458 MW (0.92 %)
+P64: NPV swing 30.54 million for +-5 u/MWh -> 3.054 million per u/MWh
+P67: warranty from 2025-07-01 for 2 years ends 2027-07-01
+P78: charged 34.51 MWh, delivered 29.68 MWh, left 0.00 MWh
+P86: price 45: DSCR year 1 1.326, minimum 1.210
+P87: 75 % debt: DSCR year 1 1.415, minimum 1.295
+P88: R at 90 C / R at 70 C = 1.0671
+P89: loss ratio for 240 -> 300 mm2 (R ~ 1/A): 0.80; R20 0.1282 ohm/km at 90 C
+    for 0.10 at 20 C

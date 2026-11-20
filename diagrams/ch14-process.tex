@@ -1,0 +1,28 @@
+% Chapter 14 - the site screening and micro-siting workflow of Plant P: evidence layers, constraints,
+% buildable land, layout options, comparison with fatal flaws, corridor, consultation and surveys,
+% and the records it leaves (conceptual).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{st/.style={blk, minimum width=30mm, minimum height=11mm, text width=28mm, align=center},
+           ev/.style={blkLoad, minimum width=30mm, minimum height=11mm, text width=28mm, align=center},
+           gt/.style={blkWarn, minimum width=30mm, minimum height=11mm, text width=28mm, align=center},
+           pe/.style={blkBESS, minimum width=30mm, minimum height=11mm, text width=28mm, align=center}}
+  \node[ev] (lay) at (10.8,0) {لایه‌ها: زمین، کاربری، مالکیت، آب، مردم، طبیعت، شبکه};
+  \node[st] (con) at (7.2,0) {قیدها و فاصله‌ها، شیب};
+  \node[st] (bld) at (3.6,0) {زمینِ قابلِ ساخت برای توربین و خورشیدی};
+  \node[st] (opt) at (0,0) {گزینه‌های چیدمان: باد، خورشیدی، پست، راه، کابل};
+  \node[st] (cmp) at (0,-2.2) {مقایسه: انرژی، کابل، راه، خاک‌برداری، صدا، سوسو، کاربران، آب};
+  \node[gt] (fat) at (3.6,-2.2) {ایرادِ کشنده؟ اول حذف، بعد امتیاز};
+  \node[st] (cor) at (7.2,-2.2) {دالانِ صادرات و گزینه‌های مسیر};
+  \node[pe] (cns) at (10.8,-2.2) {مشورت با کاربران؛ بررسی‌های میدانی};
+  \node[ev] (out) at (5.4,-4.3) {نقشهٔ چیدمانِ مختصات‌دار، دفترِ قیدها، نقشهٔ کاربران، گزارشِ غربالگری};
+  \draw[flow] (lay) -- (con); \draw[flow] (con) -- (bld); \draw[flow] (bld) -- (opt);
+  \draw[flow] (opt) -- (cmp); \draw[flow] (cmp) -- (fat); \draw[flow] (fat) -- (cor);
+  \draw[flow] (cor) -- (cns);
+  \draw[flowinfo] (cns.north) -- ++(0,0.5) -| ([xshift=-4mm]opt.south east);
+  \node[note, fill=white] at (5.4,-1.25) {یافته‌های مشورت و بررسی چیدمان را تغییر می‌دهند};
+  \draw[flow] (cns.south) |- (out.east);
+  \draw[flow] (fat.south) -- ++(0,-0.55) -| (out.north);
+\end{tikzpicture}}
+\end{document}

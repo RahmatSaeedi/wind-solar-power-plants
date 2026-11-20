@@ -1,0 +1,12 @@
+% Chapter 34 - noise of the measured rate of change of frequency against the window length (5 mHz noise
+% per cycle; examples_m, diagrams/data/ch34-rocof.csv; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, xmin=0, xmax=1.1, ymin=0, ymax=0.07,
+      xlabel={طولِ پنجره (s)}, ylabel={انحرافِ معیارِ نوفه ($\mathrm{Hz/s}$)},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[sBESS, mark=*, mark size=1.8pt] table[x=window, y=sd, col sep=comma] {data/ch34-rocof.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

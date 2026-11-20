@@ -1,0 +1,8 @@
+two structural results checked by hand
+  T07 rocking: K = 8 x 25e6 x 10^3 / (3 x 0.65) = 102.6 GN m/rad;
+    f_rot = 0.858 Hz; 1/f^2 = 1/0.215^2 + 1/0.858^2 -> f = 0.209 Hz
+    code 0.209 Hz
+  24 m base, e = 3 m: A' = 2 (144 acos(0.25) - 3 sqrt(135)) = 309.9 m2;
+    code 309.9 m2 (of 452)
+  a hand check of one number from each formula protects
+  the whole table against a wrong unit or exponent

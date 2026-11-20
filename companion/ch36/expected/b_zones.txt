@@ -1,0 +1,15 @@
+zones of Plant P and their target levels (teaching labels, STD-158 concept)
+  zone        devices   target   function
+  field-ied        30   high     protection and measurement
+  field-wtg        24   high     turbine control
+  field-pv         40   medium   inverters
+  field-bes        24   high     battery control
+  control          12   high     SCADA servers, HMIs, PPC
+  dmz               3   medium   historian copy, patch store, jump host
+  business        200   low      office, CMMS, reports
+  remote            0   low      vendors and grid operator outside
+  a zone groups devices that share a function and a need for
+  protection; a conduit is the one controlled way between
+  two zones (lesson A); the target level says how hard
+  the zone must be to reach - it is decided by the risk
+  assessment of the design (STD-157), not by habit

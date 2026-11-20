@@ -1,0 +1,12 @@
+sag of a 300 m span as the conductor heats (elongation only):
+  at 15 C: sag 6.51 m (tension 19 kN)
+  conductor C   length m   sag m   clearance lost m
+           15    300.377    6.51               0.00
+           50    300.577    8.06               1.54
+           75    300.720    9.00               2.48
+           90    300.805    9.52               3.00
+  a few centimetres more conductor in a 300 m span drops the
+  low point by metres: the clearance is checked at the
+  highest design temperature (and with ice where it falls),
+  and the elastic stretch, ignored here, reduces it a
+  little - the line designer's state-change calculation

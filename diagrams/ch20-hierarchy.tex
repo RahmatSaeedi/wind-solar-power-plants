@@ -1,0 +1,28 @@
+% Chapter 20 - control hierarchy of Plant P: scheduling, energy management, plant controller,
+% subsystem controllers and devices, with time scales, and the operator's authority beside them
+% (companion/ch20/examples_a.py layers()).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=58mm, minimum height=10mm, align=center, text width=56mm},
+    t/.style={note, text width=24mm}]
+  \node[b] (s) at (0,0) {زمان‌بندی: برنامهٔ روزِ بعد و درون‌روز};
+  \node[b] (e) at (0,-1.6) {مدیریتِ انرژی: برنامهٔ باتری، کاهشِ تولید};
+  \node[b, draw=cInk, fill=cInk!6] (p) at (0,-3.2) {کنترل‌گرِ نیروگاه: P و Q در نقطهٔ اتصال، شیب};
+  \node[b, draw=cBESS, fill=cBESS!10] (k) at (0,-4.8) {کنترل‌گرهای زیرسامانه: پارکِ بادی، PV، BMS};
+  \node[b, draw=cWind, fill=cWind!9] (d) at (0,-6.4) {دستگاه‌ها: مبدل، گام، گشتاور};
+  \foreach \a/\b in {s/e, e/p, p/k, k/d} \draw[flow] (\a.south) -- (\b.north);
+  \node[t] at (5.3,0) {ساعت‌ها};
+  \node[t] at (5.3,-1.6) {۱ تا ۱۵ دقیقه};
+  \node[t] at (5.3,-3.2) {$0.1$ تا $1\,\text{s}$};
+  \node[t] at (5.3,-4.8) {$0.1$ تا $1\,\text{s}$};
+  \node[t] at (5.3,-6.4) {میلی‌ثانیه};
+  \node[blk, draw=cLoad, fill=cLoad!8, text width=26mm, align=center, minimum height=20mm] (o)
+    at (-5.2,-2.4) {بهره‌بردارِ شبکه\\و بهره‌بردارِ نیروگاه};
+  \draw[flowinfo] (o.east) -- ++(0.55,0) |- (s.west);
+  \draw[flowinfo] (o.east) -- ++(0.55,0) |- (p.west);
+  \node[note, text width=26mm] at (-5.2,-4.1) {دستور و سقف\\بالاتر از هر برنامه};
+  \draw[flowinfo] (3.35,-6.4) -- (3.35,0);
+  \node[note, rotate=90] at (3.65,-3.2) {گزارشِ توانایی};
+\end{tikzpicture}
+\end{document}

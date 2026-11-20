@@ -1,0 +1,5 @@
+zinc on the PV field's 3,211 t of steel (teaching: 30 m2 a tonne)
+  surface 96,330 m2; at 85 um and 7.14 t/m3: 58 t of zinc
+  the zinc is the PV structure's corrosion life (ch 30) and a
+  share of its footprint (ch 33): a lot below the thickness
+  rule (lesson B) shortens both

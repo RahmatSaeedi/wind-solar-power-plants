@@ -1,0 +1,28 @@
+% Chapter 3 — the angle of incidence as a dot product: sun vector s and panel normal n in
+% east-north-up coordinates. 21 June, 10:00 solar time at 34 deg N; panel 25 deg facing south.
+% Values: companion/ch03/expected/a_vectors.txt. Oblique projection (x east, y north, z up).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    x={(1cm,0cm)}, y={(0.55cm,0.4cm)}, z={(0cm,1cm)}, scale=2.6]
+  % axes
+  \draw[cMuted, -{Stealth[length=1.6mm]}] (0,0,0) -- (1.5,0,0) node[anchor=west, text=cInkB] {شرق $x$};
+  \draw[cMuted, -{Stealth[length=1.6mm]}] (0,0,0) -- (0,1.6,0) node[anchor=south west, text=cInkB] {شمال $y$};
+  \draw[cMuted, -{Stealth[length=1.6mm]}] (0,0,0) -- (0,0,1.35) node[anchor=south, text=cInkB] {بالا $z$};
+  % panel: tilted 25 deg facing south (normal leans towards -y)
+  \fill[cPV!22, draw=cPV, line width=0.8pt]
+     (-0.55,-0.25,-0.117) -- (0.55,-0.25,-0.117) -- (0.55,0.25,0.117) -- (-0.55,0.25,0.117) -- cycle;
+  % normal n = (0, -0.4226, 0.9063)
+  \draw[cPV, line width=1.3pt, -{Stealth[length=2.4mm]}] (0,0,0) -- (0,-0.4226,0.9063)
+       node[anchor=east, text=cInk] {$\mathbf{n}$ (نرمالِ ماژول)};
+  % sun vector s = (0.4587, -0.1144, 0.8812)
+  \draw[cLoss, line width=1.3pt, -{Stealth[length=2.4mm]}] (0,0,0) -- (0.4587,-0.1144,0.8812)
+       node[anchor=south west, text=cInk] {$\mathbf{s}$ (به سوی خورشید)};
+  % angle between them
+  \draw[cInk, line width=0.6pt] (0,-0.21,0.45) .. controls (0.07,-0.15,0.47) .. (0.22,-0.06,0.43);
+  \node[text=cInk, anchor=south] at (0.1,-0.2,0.5) {$\theta$};
+  \node[note, anchor=north, text width=96mm, text=cInk] at (0.5,-0.4,-0.45)
+     {$\cos\theta = \mathbf{s}\cdot\mathbf{n} = s_x n_x + s_y n_y + s_z n_z = 0.847$،
+      یعنی $\theta = 32.1^\circ$؛ شدتِ تابشِ مستقیم روی ماژول $G_\text{b}\cos\theta$ است.};
+\end{tikzpicture}}
+\end{document}

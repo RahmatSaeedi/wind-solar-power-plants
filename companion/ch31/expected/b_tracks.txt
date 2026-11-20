@@ -1,0 +1,7 @@
+the crawler crane on its pad (teaching masses; two tracks 1.5 x 12 m)
+  crane 600 t, counterweight 250 t, nacelle with rigging 168 t
+  average track pressure 277 kPa; under the loaded track edge about 555 kPa
+  timber or steel mats spread the edge pressure; the pad
+  (ch 29) was checked for one outrigger load - the crawler
+  case is checked again with the crane maker's ground-
+  bearing data and the pad's tested bearing (ch 30, ch 29)

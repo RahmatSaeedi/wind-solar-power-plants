@@ -1,0 +1,11 @@
+heat from the data-pack year (air temperature only)
+  hottest hour 40.7 C; hours at or above 35 C: 213, above 40 C: 5
+  of the 35 C hours, 3 fall between 05 and 11 h and 199 between 11 and 18 h
+  a 05-11 h summer shift meets 1 % of them; a day shift 93 %
+  heat stress depends on humidity, sun, wind and the work, not
+  on air temperature alone: the index used on site (for
+  example WBGT) needs a measured humidity and globe
+  temperature the data pack does not hold. The year shows
+  when to plan heavy work (early shifts in summer) and where
+  to put shade, water and rest; the limits come from the
+  site's heat-stress procedure and local law

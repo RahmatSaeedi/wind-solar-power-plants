@@ -1,0 +1,8 @@
+2 x 2 factorial on crimp pull force (two repeats a run)
+  factor A: die closing force; factor B: insertion depth
+  effect of A +0.61 kN; of B +0.46 kN; interaction AB +0.20 kN
+  repeat sd 0.053 kN; standard error of an effect 0.038 kN
+  all three effects are many standard errors from zero: the
+  interaction says depth matters most when the force is high -
+  one factor at a time would have missed it; the result sets
+  the control-plan check, not a machine recipe

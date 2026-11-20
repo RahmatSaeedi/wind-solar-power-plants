@@ -1,0 +1,12 @@
+evidence kept with an event (teaching)
+  item                                   kept as
+  raw SCADA and historian data           untouched copy, hash recorded
+  event and alarm logs                   with their time base
+  settings and configurations            as found, before any change
+  photographs and failed parts           labelled, stored
+  operator and maker statements          dated, signed
+  analysis scripts and their outputs     with the data's hash
+  evidence is collected before the fix changes it, and an
+  analysis can be repeated from it by someone else - the
+  basis of a warranty claim, an insurance claim or a
+  dispute with the grid operator

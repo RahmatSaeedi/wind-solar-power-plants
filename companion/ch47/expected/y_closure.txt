@@ -1,0 +1,8 @@
+closed NCRs: is the closure itself complete?
+  NCR       decision                 approver              verification
+  NCR-201   re-rolled                QC                    -
+  NCR-204   repaired to repair WPS   welding coordinator   UT report R-77
+  closed without verification: NCR-201
+  a re-rolled can is closed only when its ovality is measured
+  again; an NCR is closed by the record that proves the fix,
+  not by the decision to fix it (ch 40)

@@ -1,0 +1,18 @@
+% Chapter 43 - water a mineral oil can hold against temperature (teaching empirical curve
+% log10 S = 7.42 - 1670 / T) and the 18 ppm of the sample before filling, against a 10 ppm teaching
+% limit (diagrams/data/ch43-water.csv from companion/ch43/examples_c.py, water).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=-10, xmax=90, ymin=5, ymax=800, ymode=log,
+      xlabel={دمای روغن (درجهٔ سلسیوس)}, ylabel={آب (ppm)},
+      log basis y=10, yticklabels={,10,100}]
+    \addplot[sInk] table[x=t, y=ppm, col sep=comma] {data/ch43-water.csv};
+    \addplot[sPV, domain=-10:90] {18};
+    \addplot[sLimit, domain=-10:90] {10};
+    \node[note, anchor=south west] at (axis cs:45,330) {اشباع};
+    \node[note, anchor=south, text=cPV] at (axis cs:75,18) {نمونه ۱۸};
+    \node[note, anchor=north] at (axis cs:75,10) {حدِ ۱۰};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

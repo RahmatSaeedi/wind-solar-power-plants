@@ -1,0 +1,11 @@
+four grid-forming battery inverters share a 4 MW island load:
+  case                         f Hz    P1    P2    P3    P4 (MW)
+  equal settings                49.80  1.00  1.00  1.00  1.00
+  unit 1 set 0.1 Hz high        49.83  1.37  0.87  0.87  0.87
+  unit 4 droop twice as steep   49.77  1.14  1.14  1.14  0.57
+  secondary control (+0.2 Hz)   50.00  1.00  1.00  1.00  1.00
+  (droop 1 Hz per rated power; teaching, A-303)
+  units share by their droop settings: a unit set high takes
+  more; a steeper droop takes less; the frequency falls with
+  the load until secondary control moves all set points
+  together and brings it back to 50 Hz

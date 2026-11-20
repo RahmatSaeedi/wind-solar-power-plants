@@ -1,0 +1,8 @@
+hours when one inverter could be tested near full power
+(DC above 4.5 MW, data-pack year 1.1.0):
+  Jan 0  Feb 0  Mar 11  Apr 68  May 94  Jun 116
+  Jul 99  Aug 47  Sep 17  Oct 0  Nov 0  Dec 0
+  total 452 hours a year; a site test at full power
+  waits for clear middays, so the factory heat run at full power
+  on a test bench carries the thermal proof (FAT), and the site
+  test (SAT) checks function, settings and integration

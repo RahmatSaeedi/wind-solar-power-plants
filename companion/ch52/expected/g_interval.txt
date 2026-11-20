@@ -1,0 +1,12 @@
+cleaning interval: soiling 0.12 %/day of 300 MWh/day at 70 u/MWh
+  cost per day = C/T + r E p T / 2 ; best T = sqrt(2 C / (r E p))
+  method                C u    best T days   u per day
+  truck + brush, RO    6,608          23         577
+  truck, HP lance      5,811          21         541
+  dry robot            2,120          13         327
+  manual, low P, RO   21,862          42       1,050
+  a cheap campaign is worth doing often; the formula assumes a
+  steady soiling rate and full recovery (the robot recovers
+  less, breakage is not priced) - a dust storm resets it, so
+  the trigger of ch 10 (measured soiling ratio) overrides the
+  calendar

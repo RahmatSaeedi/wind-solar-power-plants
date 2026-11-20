@@ -1,0 +1,17 @@
+clear-sky index GHI / GHI_clear (Haurwitz) by month:
+  month  GHI kWh/m2  clear kWh/m2  index  clear-sky hours
+  Jan       83.3       109.4     0.761   178
+  Feb      103.5       127.1     0.814   212
+  Mar      167.6       184.6     0.907   300
+  Apr      195.5       220.9     0.885   309
+  May      218.8       258.1     0.848   335
+  Jun      252.0       262.0     0.962   418
+  Jul      253.8       265.0     0.958   401
+  Aug      195.5       240.8     0.812   284
+  Sep      166.9       195.0     0.856   275
+  Oct      142.1       154.9     0.917   288
+  Nov       98.3       113.1     0.869   191
+  Dec       70.0        99.9     0.701   119
+  year: 1,947 of 2,231 kWh/m2 clear-sky (0.873)
+  Haurwitz uses only the sun's height; it has no aerosol or
+  water vapour, so it is a check, not a model of the site

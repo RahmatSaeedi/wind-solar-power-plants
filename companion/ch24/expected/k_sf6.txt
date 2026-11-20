@@ -1,0 +1,12 @@
+SF6 in 33 kV gas-insulated switchgear (teaching quantities):
+  panels   kg each   leak %/yr   t CO2e per year   over 30 years
+      18       3.0         0.1              1.30            38.9
+      18       3.0         0.5              6.48           194.4
+      18       3.0         1.0             12.96           388.8
+  losing 2 % of the gas at end of life: 25.9 t CO2e more
+  (GWP taken as about 24,000; published values differ
+  slightly between assessments)
+  small leaks matter because the gas is so potent: gas
+  handling, recovery at end of life, and the SF6-free
+  alternatives (vacuum with dry air, other gas mixtures) are
+  choices with a number (ch 31, ch 53)

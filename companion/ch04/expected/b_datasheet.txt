@@ -1,0 +1,7 @@
+unit traps on material data sheets:
+  dielectric strength 500 V/mil = 19.7 kV/mm
+  tensile strength 3600 psi = 24.8 MPa
+  thermal conductivity 0.2 BTU/(h ft F) = 0.346 W/(m K)
+  volume resistivity 1e16 ohm cm = 1e+14 ohm m
+  'typical' is not 'minimum'; values hold at the stated temperature and test
+    method

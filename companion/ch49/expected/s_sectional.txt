@@ -1,0 +1,9 @@
+sectional turnover of the export works: signatures still missing
+  (None = the network operator is not a party to that section)
+  line T01-T08         network operator
+  WS1 S3-S4            owner
+  bay E1 (grid side)   owner, network operator
+  the line and bay E1 cross the ownership boundary of ch 23:
+  the network operator's signature is the one that lets them
+  be energised - planned with its notice period, not asked for
+  in the last week

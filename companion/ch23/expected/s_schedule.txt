@@ -1,0 +1,52 @@
+switchgear, line and cable schedule (open items flagged *):
+  tag          kind         from -> to            rating          open
+  =E1-Q1       breaker      HV -> E1              31.5 kA 145 kV  *ka
+  =E1-Q9       disconnector E1 -> LINE-P
+  =E1-W1       line         LINE-P -> LINE-G      7.06 km 140 MVA *owner, mva
+  =G1-Q9       disconnector LINE-G -> GRID-BAY
+  =G1-Q1       breaker      GRID-BAY -> GRID
+  =T1-Q1       breaker      HV -> T1-HV           145 kV
+  =T1-Q2       breaker      T1-MV -> MV-A         1250 A 25 kA    *a
+  =A1-Q1       breaker      MV-A -> A1-MV         630 A 25 kA
+  =T2-Q1       breaker      HV -> T2-HV           145 kV
+  =T2-Q2       breaker      T2-MV -> MV-B         1250 A 25 kA    *a
+  =A2-Q1       breaker      MV-B -> A2-MV         630 A 25 kA
+  =MV-Q0       breaker      MV-A -> MV-B          2500 A 25 kA    *ka
+  =WS1-Q1      breaker      MV-A -> WS1-0         630 A 25 kA
+  =WS1-W1      cable        WS1-0 -> WS1-1        1.1 km 240 mm2  *km
+  =WS1-W2      cable        WS1-1 -> WS1-2        1.1 km 240 mm2  *km
+  =WS1-W3      cable        WS1-2 -> WS1-3        1.1 km 240 mm2  *km
+  =WS1-W4      cable        WS1-3 -> WS1-4        1.1 km 240 mm2  *km
+  =WS2-Q1      breaker      MV-A -> WS2-0         630 A 25 kA
+  =WS2-W1      cable        WS2-0 -> WS2-1        1.1 km 240 mm2  *km
+  =WS2-W2      cable        WS2-1 -> WS2-2        1.1 km 240 mm2  *km
+  =WS2-W3      cable        WS2-2 -> WS2-3        1.1 km 240 mm2  *km
+  =WS2-W4      cable        WS2-3 -> WS2-4        1.1 km 240 mm2  *km
+  =PVF3-Q1     breaker      MV-A -> PVF3-0        630 A 25 kA
+  =PVF3-W1     cable        PVF3-0 -> PVF3-1      0.6 km 240 mm2  *km
+  =PVF3-W2     cable        PVF3-1 -> PVF3-2      0.6 km 240 mm2  *km
+  =PVF3-W3     cable        PVF3-2 -> PVF3-3      0.6 km 240 mm2  *km
+  =BESS-A-Q1   breaker      MV-A -> BESS-A-0      630 A 25 kA
+  =BESS-A-W1   cable        BESS-A-0 -> BESS-A-1  0.6 km 240 mm2  *km
+  =BESS-A-W2   cable        BESS-A-1 -> BESS-A-2  0.6 km 240 mm2  *km
+  =WS3-Q1      breaker      MV-B -> WS3-0         630 A 25 kA
+  =WS3-W1      cable        WS3-0 -> WS3-1        1.1 km 240 mm2  *km
+  =WS3-W2      cable        WS3-1 -> WS3-2        1.1 km 240 mm2  *km
+  =WS3-W3      cable        WS3-2 -> WS3-3        1.1 km 240 mm2  *km
+  =WS3-W4      cable        WS3-3 -> WS3-4        1.1 km 240 mm2  *km
+  =PVF1-Q1     breaker      MV-B -> PVF1-0        630 A 25 kA
+  =PVF1-W1     cable        PVF1-0 -> PVF1-1      0.6 km 240 mm2  *km
+  =PVF1-W2     cable        PVF1-1 -> PVF1-2      0.6 km 240 mm2  *km
+  =PVF1-W3     cable        PVF1-2 -> PVF1-3      0.6 km 240 mm2  *km
+  =PVF1-W4     cable        PVF1-3 -> PVF1-4      0.6 km 240 mm2  *km
+  =PVF2-Q1     breaker      MV-B -> PVF2-0        630 A 25 kA
+  =PVF2-W1     cable        PVF2-0 -> PVF2-1      0.6 km 240 mm2  *km
+  =PVF2-W2     cable        PVF2-1 -> PVF2-2      0.6 km 240 mm2  *km
+  =PVF2-W3     cable        PVF2-2 -> PVF2-3      0.6 km 240 mm2  *km
+  =BESS-B-Q1   breaker      MV-B -> BESS-B-0      630 A 25 kA
+  =BESS-B-W1   cable        BESS-B-0 -> BESS-B-1  0.6 km 240 mm2  *km
+  =BESS-B-W2   cable        BESS-B-1 -> BESS-B-2  0.6 km 240 mm2  *km
+  46 rows; 31 with open items - each open item names
+  the chapter or the party that will close it (ch 24: cable
+  lengths and sections; ch 25-26: ratings and fault duties;
+  U-065: the line's owner)

@@ -1,0 +1,19 @@
+cause and effect: the draft matrix checked (teaching logic)
+  input  device                        location   outputs
+  I1     off-gas detector              BESS-1     O1 O2 O3 O4
+  I2     smoke detector                BESS-1     O3 O4
+  I3     BMS thermal alarm             BESS-1     O1 O3
+  I4     nacelle smoke                 T03        O1 O2 O5
+  I5     aspirating smoke, alert       building   O1
+  I6     aspirating smoke, fire        building   O1 O2 O6 O7
+  I7     transformer protection trip   TR1        O1 O8
+  I8     manual call point             building   O1 O2 O7
+  checker findings: 3
+    I2 smoke detector at BESS-1: no alarm to the control room
+    I4 at T03 drives O5 'turbine stop and MV switch open' at T04
+    O4 'DC contactors open' has no position feedback
+  after the three fixes: 0 findings
+  the wrong turbine, the silent smoke detector and the open
+  contactor with no feedback are each easy to miss by eye;
+  which outputs an input drives at all (and whether a second
+  detector must confirm) is the strategy's decision

@@ -1,0 +1,7 @@
+noise-reduced mode (-2 dB) to meet a target at the camp:
+  layout  target dB(A)  turbines in mode  level   energy cost
+  W2        40.0           12           43.4   1.06 % (NOT met)
+  W2b       36.0            5           35.9   0.44 % (met)
+  a mode lowers the level a little at the cost of energy; it
+  cannot rescue a turbine 400 m from a dwelling: there the layout
+  changes (W2b); targets here are teaching values, not limits

@@ -1,0 +1,6 @@
+anchor-bolt re-tension check after six months (160 bolts, synthetic)
+  remaining preload: mean 95.6 %, lowest 86 %
+  below 90 %: 4 bolts -> re-tensioned and recorded
+  some loss is expected (grout creep, embedding); two bolts
+  far below the rest point at a local cause - grout under
+  that sector is inspected before they are simply retightened

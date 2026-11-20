@@ -1,0 +1,25 @@
+% Chapter 36 - timeline of the tabletop exercise: an unknown login on an HMI, from detection to return
+% to service; numbered steps on the time axis and their list (examples_c; synthetic scenario).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize]
+  \begin{scope}[x=0.62mm, y=10mm]
+    \draw[->, cRule] (0,0) -- (195,0);
+    \node[note, anchor=west] at (196,0) {دقیقه};
+    \foreach \t in {0,30,60,90,120,150,180} {\node[below, font=\scriptsize, text=cMuted] at (\t,-0.05) {$\t$};}
+    \foreach \t/\n/\y in {0/1/0.5, 5/2/1.0, 15/3/1.5, 30/4/0.5, 60/5/0.5, 120/6/0.5, 180/7/0.5} {
+      \draw[cInkB] (\t,0) -- (\t,\y);
+      \fill[cWind] (\t,0) circle (1.4pt);
+      \node[circle, draw=cInk, fill=white, inner sep=1pt, font=\scriptsize] at (\t,\y+0.15) {$\n$};
+    }
+  \end{scope}
+  \node[note, anchor=north, text width=120mm, align=right] at (6.0,-0.6) {%
+    ۱ اپراتور ورودی ناشناس روی یک نمایشگر می‌بیند؛
+    ۲ تماس با مسئولِ امنیتِ فناوریِ عملیاتی، و حراست اتاقِ کنترل را وارسی می‌کند؛
+    ۳ نمایشگر از شبکه جدا می‌شود و نیروگاه با کنترل‌گرش کار می‌کند؛
+    ۴ سابقه‌ها گردآوری و نگه داشته می‌شوند و حساب بسته می‌شود؛
+    ۵ خبر به بهره‌بردارِ شبکه، چنان‌که توافق شده؛
+    ۶ نمایشگر از تصویرِ آزموده بازسازی و اثرانگشتش مقایسه می‌شود؛
+    ۷ بازگشت به کار و آغازِ بررسیِ علت};
+\end{tikzpicture}
+\end{document}

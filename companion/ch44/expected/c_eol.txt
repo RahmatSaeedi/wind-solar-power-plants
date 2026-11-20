@@ -1,0 +1,12 @@
+end-of-line tests of each inverter and the product tree they cover
+  test                                    finds
+  protective earth continuity             loose or missing bonds
+  insulation test                         creepage faults, damaged insulation
+  low-voltage functional test             wiring, sensors, gate signals
+  cooling loop pressure and flow          leaks, blocked plates
+  full-power run on a back-to-back bench  losses, heat, sharing
+  firmware and parameter fingerprint      wrong image or settings
+  items of the tree not reached by any test: AUX
+  the auxiliary supplies have no test of their own: a
+  hold-up test would reach them (ch 34) - every item of the
+  tree should meet at least one test before shipment

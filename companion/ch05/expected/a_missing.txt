@@ -1,0 +1,6 @@
+annual GHI of the complete series: 1947.2 kWh/m2
+10 % of hours missing at random, mean x 8760: 1940.4 (-0.3 %)
+605 midday hours missing (10-14 h), mean x 8760: 1656.8 (-14.9 %)
+  filled with the mean of the same clock hour: 1949.9 (+0.1 %)
+logger that drops zero values (nights): mean x 8760 = 3733.3 (+92 %)
+data recovery with midday gaps: 93.1 % of hours (but 13.2 % of daylight hours)

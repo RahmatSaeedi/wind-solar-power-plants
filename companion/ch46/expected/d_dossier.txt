@@ -1,0 +1,12 @@
+records of each of the 26 cables: drum, routine report,
+  termination at each end, site test
+  124 of 130 records present (95.4%); complete cables: 21 of 26
+  missing:
+    W002: term_b
+    W010: report
+    W013: site
+    W023: term_a, term_b
+    W026: drum
+  95% of the records sounds nearly complete; 5 of 26 cables
+  cannot be handed over - completeness is counted by item,
+  accepted by cable (ch 38 handover score, ch 50)

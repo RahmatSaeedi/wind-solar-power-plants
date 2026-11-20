@@ -1,0 +1,9 @@
+losses of T1 from the test report, corrected (teaching forms)
+  no-load: measured 43.5 kW with the rms voltage +3% above
+    the mean-value reading: d = -0.03, P0 = 42.2 kW
+  resistances at 22 C -> 75 C: HV 0.6385, LV 0.0836 ohm
+  load: measured 268.0 kW at 25 C; I2R there 207 kW,
+    the rest 61 kW; at 75 C: 247 + 51 = 298 kW
+  I2R rises with temperature, eddy and stray losses fall:
+  each part is moved on its own before comparing with the
+  guarantee at 75 C

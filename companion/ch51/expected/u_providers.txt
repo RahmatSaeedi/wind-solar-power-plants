@@ -1,0 +1,11 @@
+day-ahead providers over the year (schedule = forecast, capped at
+  the export limit): mean absolute error, bias, imbalance cost
+  provider       MAE MW   bias MW   cost u
+  A (in use)        7.0     +0.2  1,247,486
+  B (trial)         6.9     +2.9  1,469,725
+  smaller error: B (trial); lower cost: A (in use) - they disagree
+  a positive bias schedules more than the plant gives, and a
+  shortfall costs 3 times a surplus (A-301): bias, not only the
+  size of the error, sets the cost - a provider is judged on
+  the plant's own cost over a full year of trial before the
+  contract changes

@@ -1,0 +1,21 @@
+% Chapter 22 - development plan of P-Central as bars from the critical-path calculation (months);
+% critical tasks dark, others light; dashed line: the review at month 14 (A-314).
+% Data: diagrams/data/ch22-gantt.csv (companion/ch22/examples_c.py plan()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=82mm, xbar stacked, bar width=4mm, ymin=0.4, ymax=11.6,
+      xmin=0, xmax=30, y dir=reverse, ytick={1,...,11}, ymajorgrids=false, xlabel={ماه},
+      xtick={0,6,...,30}, area legend, legend columns=1,
+      legend style={at={(0.97,0.97)}, anchor=north east, font=\footnotesize},
+      yticklabels={کارزارِ باد, مطالعهٔ شبکه, ارزیابیِ محیطی, گزینهٔ زمین, توافقِ زمین, ژئوتکنیک,
+        گزارشِ تولید, مجوزها, طراحیِ مقدماتی, قراردادِ خرید, تأمینِ مالی}]
+    \addplot[draw=none, fill=none, forget plot] table[x=start, y=k, col sep=comma] {data/ch22-gantt.csv};
+    \addplot[draw=cBESS, fill=cBESS!55] table[x=dcrit, y=k, col sep=comma] {data/ch22-gantt.csv};
+    \addplot[draw=cInkB, fill=cInkB!15] table[x=dnon, y=k, col sep=comma] {data/ch22-gantt.csv};
+    \legend{مسیرِ بحرانی, دیگر کارها}
+    \draw[cLoss, dashed, thick] (axis cs:14,0.4) -- (axis cs:14,11.6);
+    \node[font=\footnotesize, text=cLoss, anchor=south] at (axis cs:14,0.4) {بازبینی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,7 @@
+factory test of one container (5.02 MWh, 4.01 MWh in the window):
+  2 full cycles at round trip 86%: 1.12 MWh lost = 0.08 k u
+  at 2.5 MW of factory supply a cycle takes 3.2 h; the factory needs that
+  much grid or a second container to cycle against
+  (back-to-back, as for inverters in ch 44)
+  the test energy is small money; the grid connection and the
+  hours set how many containers a factory can test a week

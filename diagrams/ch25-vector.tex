@@ -1,0 +1,19 @@
+% Chapter 25 - phasors of a YNd11 transformer in clock notation: the HV phase-to-neutral voltage at 12
+% o'clock, the corresponding LV voltage at 11 o'clock (leading by 30 degrees); teaching sketch.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, >=Stealth]
+  \draw[cRule] (0,0) circle (2.2);
+  \foreach \h in {1,...,12} {
+    \pgfmathsetmacro{\a}{90-30*\h}
+    \node[font=\footnotesize, text=cMuted] at (\a:2.55) {\h};
+  }
+  \draw[->, line width=1.4pt, cInk] (0,0) -- (90:2.0);
+  \draw[->, line width=1.4pt, cLoad] (0,0) -- (120:1.6);
+  \draw[cInkB] (90:0.8) arc (90:120:0.8);
+  \node[font=\footnotesize, text=cInkB] at (105:1.05) {$30^\circ$};
+  \node[note, anchor=west] at (2.9,0.8) {سیاه: ولتاژِ فشارِ قوی (ساعتِ ۱۲)};
+  \node[note, anchor=west, text=cLoad] at (2.9,0.2) {بنفش: ولتاژِ فشارِ متوسط (ساعتِ ۱۱)};
+  \node[note, anchor=west] at (2.9,-0.4) {$\mathrm{YNd11}$: فشارِ متوسط $30^\circ$ جلوتر};
+\end{tikzpicture}
+\end{document}

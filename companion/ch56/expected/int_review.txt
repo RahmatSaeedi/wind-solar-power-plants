@@ -1,0 +1,16 @@
+Plant P - Afghanistan: dossier readiness on 2026-11-17
+  [x] approval route sourced from current official pages
+  [ ] application of the 2016 law confirmed
+  [ ] grid island and connection voltage named by DABS
+  [ ] connection requirements in writing
+  [x] written grid-data request prepared
+  [x] water route sourced (guideline)
+  [ ] land body and title confirmed
+  [ ] import inspection standards known
+  [ ] tariff, currency and payment terms known
+  [ ] all sanctions regimes reviewed by counsel
+  [ ] ESIA category confirmed
+  [ ] local service plan for turbines and inverters
+  3 of 12: the route, the water permit and the data request
+  stand on sources; the law in force, the grid, land, payment and
+  service capability do not

@@ -1,0 +1,6 @@
+breaker-failure timing (teaching):
+  relay 30 ms + breaker 60 ms = normal clearing 90 ms
+  if the breaker fails: BF timer 150 ms, then the adjacent breakers (60 ms)
+  backup clearing 240 ms - the duty the cables and gear must carry (ch 24)
+  for the line bay the adjacent breaker is at the grid end:
+  a transfer-trip signal over the telecom link opens it

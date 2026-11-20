@@ -1,0 +1,11 @@
+goal and scope of the footprint (stated before any number)
+  functional unit: 1 kWh delivered at the point of connection
+  reporting period: 25 years of operation, P50 energy (ch 15)
+  boundary: materials and manufacture, transport, construction,
+    operation (grid imports for own use, backup diesel; no grid
+    charging of the battery - S1 charges from the plant only),
+    replacements, end of life (credits shown separately)
+  factors: teaching values with a stated spread (A-383); the
+    real study uses supplier EPDs where verified (lesson K)
+  excluded: land-use change, staff travel, office overheads
+  every comparison below holds only inside this scope

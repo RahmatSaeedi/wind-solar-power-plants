@@ -1,0 +1,19 @@
+% Chapter 23 - fault level (grid part, MVA, log scale) after each element on the energy path
+% from the grid to the farthest turbine's LV terminals, coupler open; reactances on a 100 MVA
+% base from companion/ch23/examples_p.py path_profile(): 1,500 -> 1,196 -> 365 -> 350 -> 336
+% -> 323 -> 312 -> 64 MVA.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=112mm, height=64mm, ymode=log, ymin=40, ymax=2500,
+      xmin=0.5, xmax=8.5, xtick={1,...,8}, ylabel={سطحِ اتصالِ کوتاه $(\text{MVA})$},
+      xticklabels={شبکه, خط, T1, W1, W2, W3, W4, ترانسفورماتورِ واحد},
+      x tick label style={font=\scriptsize, rotate=35, anchor=north east},
+      ytick={50,100,200,500,1000,2000}, yticklabels={50,100,200,500,1000,2000}]
+    \addplot[sWind, mark=*, mark size=1.8pt, const plot mark mid]
+      coordinates {(1,1500) (2,1196) (3,365) (4,350) (5,336) (6,323) (7,312) (8,64)};
+    \node[note, anchor=west] at (axis cs:3.1,420) {$365\,\text{MVA}$ در شینهٔ $33\,\text{kV}$};
+    \node[note, anchor=east] at (axis cs:7.9,64) {$64\,\text{MVA}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

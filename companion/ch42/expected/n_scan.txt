@@ -1,0 +1,8 @@
+ultrasonic scan of one blade: caps 126 m2, bond lines 25 m2, every 2 mm
+  37.8 million points
+  C-scan maps (amplitude and time, 4 bytes each): 0.30 GB a blade
+  full waveforms (256 samples x 2 bytes): 19 GB a blade, 0.7 TB for the plant
+  the maps answer today's question; only the waveforms let a
+  later finding be re-read in the factory data - which to keep,
+  and for how long, is a retention decision (ch 35) written
+  into the contract, not left to the factory's disk

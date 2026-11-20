@@ -1,0 +1,23 @@
+constants as the companion code holds them
+  speed of light in vacuum             c      299792458 m/s
+      exact
+  Planck constant                      h      6.62607015e-34 J s
+      exact
+  elementary charge                    e      1.602176634e-19 C
+      exact
+  Boltzmann constant                   k      1.380649e-23 J/K
+      exact
+  Stefan-Boltzmann constant            sigma  5.670374419e-08 W/(m2 K4)
+      from exact constants
+  molar gas constant                   R      8.314462618 J/(mol K)
+      from exact constants
+  magnetic constant (as used)          mu0    1.256637061e-06 H/m
+      4 pi 1e-7
+  standard acceleration of gravity     g_n    9.80665 m/s2
+      defined
+  specific gas constant, dry air       R_d    287.05 J/(kg K)
+      value used in the book
+  air density, 1013.25 hPa and 15 C    rho_0  1.225012266 kg/m3
+      computed: p/(R_d T)
+  pressure at 1000 m, standard lapse   p      898.7445516 hPa
+      computed: physics.standard_pressure

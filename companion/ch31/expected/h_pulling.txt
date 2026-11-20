@@ -1,0 +1,12 @@
+pulling a 33 kV cable through a duct run (capstan equation)
+  T_out = T_in exp(mu theta) at each bend; friction mu 0.35 (teaching)
+  allowed pull on the conductors: 48 kN (40 N/mm2 x 3 x 400 mm2)
+  route                                    pull at the end kN
+  300 m straight                                         10.3
+  300 m, two 90 deg bends                                19.7
+  300 m, four 90 deg bends                               41.1
+  500 m, four bends                                      68.5  OVER
+  each 90 degree bend multiplies the pull by 1.7, so bends
+  and length together end a pull - the duct route is drawn with
+  few bends, and joint bays placed where the pull would
+  exceed the cable maker's limit

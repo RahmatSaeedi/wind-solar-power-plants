@@ -1,0 +1,21 @@
+% Chapter 24 - thermal circuit of a buried cable: heat W from the conductor through the cable's
+% internal resistance T_int and the soil T4 to ambient; a neighbouring circuit adds T_mut
+% (companion/ch24/examples_h.py: T_int 0.276, T4 0.597 K m/W at the reference). RTL: conductor
+% on the right, ambient on the left.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    res/.style={draw=cInk, fill=white, minimum width=20mm, minimum height=7mm, font=\footnotesize},
+    nd/.style={circle, fill=cInk, inner sep=1.3pt}]
+  \node[blk, draw=cLoss, fill=cLoss!10, minimum width=22mm] (w) at (12,0) {رسانا\\$W = 3I^2R$};
+  \node[res] (ti) at (8.6,0) {$T_\text{int}$ $0.276$};
+  \node[res] (t4) at (5.0,0) {$T_4$ $0.597$};
+  \node[res, draw=cWind] (tm) at (5.0,-1.6) {$T_\text{mut}$ گرمای همسایه};
+  \node[blk, draw=cLoad, fill=cLoad!8, minimum width=22mm] (amb) at (1.2,0) {محیط\\$\theta_\text{amb}$};
+  \draw (w.west) -- (ti.east); \draw (ti.west) -- (t4.east); \draw (t4.west) -- (amb.east);
+  \node[nd] at (10.5,0) {}; \node[note, anchor=south] at (10.5,0.15) {$\theta_\text{c}$};
+  \node[nd] at (6.8,0) {}; \node[note, anchor=south] at (6.8,0.15) {سطحِ کابل};
+  \draw[flowinfo] (tm.north) -- (5.0,-0.35);
+  \node[note, text width=120mm] at (6.6,-2.9) {$\theta_\text{c} - \theta_\text{amb} = W\,(T_\text{int} + T_4 + T_\text{mut})$؛ مقاومت‌ها بر حسبِ $\text{K}\,\text{m}/\text{W}$، در شرایطِ مرجع بی‌همسایه};
+\end{tikzpicture}
+\end{document}

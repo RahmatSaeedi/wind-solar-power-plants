@@ -1,0 +1,13 @@
+PV string DC cable and fuse (teaching string of 26 modules):
+  Imp 13.0 A, Isc 13.9 A, Vmp 1150 V; cable out and back
+    4 mm2,   60 m: drop   8.0 V = 0.70%, loss   105 W
+    6 mm2,   60 m: drop   5.4 V = 0.47%, loss    70 W
+    6 mm2,  120 m: drop  10.7 V = 0.93%, loss   139 W
+   10 mm2,  120 m: drop   6.4 V = 0.56%, loss    84 W
+  string fuse: at least 1.5 x Isc = 20.9 A -> 25 A (teaching
+  rule; the module's reverse-current rating caps it from
+  above, the maker's data and the applicable standard set
+  both), DC-rated, in both poles where the earthing asks
+  DC isolation: a load-break DC switch at the combiner and
+  at the inverter input, so a section can be made dead
+  without opening a DC arc on an ordinary AC device

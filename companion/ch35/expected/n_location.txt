@@ -1,0 +1,14 @@
+functional location against equipment (synthetic history)
+  turbine T07 has run 42,000 h; at 27,000 h its gearbox was
+  replaced by G-4471, which had run 20,000 h in turbine T03
+  location 'T07 gearbox':   42,000 h of turbine operation
+  equipment G-4471:          35,000 h of its own (20,000 in T03
+    + 15,000 in T07)
+  the gearbox removed from T07 took its 27,000 h with it
+    to the workshop
+  SCADA counts hours at a LOCATION (the turbine); the
+  maintenance plan and the warranty need hours of the
+  EQUIPMENT (the serial number); the asset register links
+  the two with dates of installation and removal, and the
+  interface sends location hours that the register turns
+  into equipment hours

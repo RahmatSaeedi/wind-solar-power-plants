@@ -1,0 +1,12 @@
+cabinets on a summer day: inside temperature against each device's
+  rating
+  cabinet   IP     inside C   devices over their rating
+  MET-1     IP55         52   modem
+  WTG-T05   IP54         48   -
+  SUB-RTU   IP42         41   -
+  PV-B07    IP65         58   datalogger, switch
+  (teaching rule: a device keeps 5 K below its rating)
+  the PV block cabinet in full sun is the worst; a device run
+  near its limit ages fast (ch 34 life in a hot cabinet) - the
+  choice is a sun shield, a cooler or a device rated higher,
+  and the IP rating keeps dust out but also heat in

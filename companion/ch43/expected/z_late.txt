@@ -1,0 +1,8 @@
+T1 held 3 weeks: the plant exports through T2 alone (63 MVA, pf 0.95)
+  hours above 59.8 MW in the data-pack year: 1544
+  energy above it 19,912 MWh
+  3 weeks of an average year: 1,146 MWh = 80 k u at 70 u/MWh
+  small against a hold that finds a wrong tap lead or a PD
+  source in the factory; the two-transformer split of ch 18
+  is what makes a late unit cheap, and lets commissioning
+  (ch 50) begin with T2 alone

@@ -1,0 +1,13 @@
+energisation stages traced through the one-line (states only):
+  stage                                   live buses  newly live
+  S0 utility bay live                              2  GRID, GRID-BAY
+  S1 line live to the plant bay                    5  E1, LINE-G, LINE-P
+  S2 132 kV bus and T1                             8  HV, T1-HV, T1-MV
+  S3 33 kV section A, station service             11  A1-MV, LV-A, MV-A
+  S4 first wind string                            20  WS1-0, WS1-1, WS1-1-LV
+    +6
+  each stage moves the boundary between live and dead plant:
+  the tests of everything newly live come before it, the
+  permits and the operator's switching rules change with it,
+  and the drawings of the stage must be issued for
+  construction - the one-line becomes a series of states

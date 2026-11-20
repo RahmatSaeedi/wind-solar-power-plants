@@ -1,0 +1,11 @@
+what is backed up and how long it takes (teaching sizes)
+  item                     count   GB each   total GB   hours at 0.5 Gbit/s
+  device configurations       28      0.05        1.4       0.01
+  controller programs          3      0.20        0.6       0.00
+  server images                3    200.00      600.0       2.67
+  HMI images                   6     80.00      480.0       2.13
+  1,082 GB in about 4.8 h; the historian's data is not
+  imaged but copied continuously to the DMZ (ch 35)
+  configurations are small and change often: kept after
+  every change; images are large and change rarely: kept
+  after each patch window and before each upgrade

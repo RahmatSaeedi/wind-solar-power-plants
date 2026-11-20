@@ -1,0 +1,6 @@
+confidence of the P90 when the sigma is estimated (one year):
+  P90 with the stated sigma 14.99 GWh: 275.93 GWh
+  if the sigma came from 20 values, the P90 itself spans
+    270.96 to 281.13 GWh (90 % of cases)
+  the P90 is an estimate with its own uncertainty; a statement
+  gives it to the nearest GWh and names how the sigma was found

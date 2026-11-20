@@ -1,0 +1,10 @@
+the safety, fire and emergency package of Plant P in numbers
+  fire scenarios in the register: 9, of them high: 1
+  protection matrix: 7 areas x 6 questions
+  cause-and-effect: 8 inputs, 8 outputs; draft findings 3
+  fire-service arrival P50 57 min; reserve 60 min
+  JHA of the yaw motor: 9 steps, residual at most 5 after revision
+  emergency scenarios: 12; exercise gaps found: 8
+  the package is mostly registers, matrices and plans: the
+  numbers in it are few, sourced and marked placeholders
+  where the strategy or the authority must set them

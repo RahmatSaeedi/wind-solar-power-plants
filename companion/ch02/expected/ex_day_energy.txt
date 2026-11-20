@@ -1,0 +1,5 @@
+day 2023-06-23 (data pack 1.0.0, summer subset), hourly means
+PV:   peak  50.0 MW, energy  436.3 MWh, mean power  18.2 MW
+wind: peak  46.0 MW, energy  420.6 MWh, mean power  17.5 MW
+sum:  peak  62.1 MW, energy  856.9 MWh
+full-load hours of the day: PV 8.73 h (on 50 MW AC), wind 7.01 h (on 60 MW)

@@ -1,0 +1,14 @@
+connection line for 100 MW: voltage change and loss by length
+  (teaching conductor 0.10 + j0.40 ohm/km for both levels)
+    kV    km  dV % pf 1  dV % pf 0.95  loss %
+   110    20        1.7           3.8     1.8
+   110    50        4.1           9.6     4.6
+   110   100        8.3          19.1     9.2
+   110   150       12.4          28.7    13.7
+   220    20        0.4           1.0     0.5
+   220    50        1.0           2.4     1.1
+   220   100        2.1           4.8     2.3
+   220   150        3.1           7.2     3.4
+  5 % change at pf 0.95 is reached at 26 km (110 kV) and 105 km (220 kV)
+  a site far from the grid (AF-16: Farah has none) brings the
+  line, its owner and its losses into the connection agreement

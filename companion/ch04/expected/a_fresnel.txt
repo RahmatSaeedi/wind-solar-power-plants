@@ -1,0 +1,10 @@
+air-glass interface, n = 1.5, unpolarised:
+    0 deg: reflectance 0.040, transmission relative to normal 1.000
+   30 deg: reflectance 0.042, transmission relative to normal 0.998
+   45 deg: reflectance 0.050, transmission relative to normal 0.989
+   60 deg: reflectance 0.089, transmission relative to normal 0.949
+   70 deg: reflectance 0.171, transmission relative to normal 0.863
+   80 deg: reflectance 0.388, transmission relative to normal 0.638
+   85 deg: reflectance 0.613, transmission relative to normal 0.403
+  quarter-wave anti-reflection layer: n = sqrt(1.5) = 1.225, thickness 550 /
+    (4 n) = 112 nm

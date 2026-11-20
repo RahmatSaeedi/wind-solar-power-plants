@@ -1,0 +1,6 @@
+torsional shear stress tau = 16 T / (pi d^3) (A-126):
+  generator shaft          T    44.0 kN m, d 0.18 m:  38.4 MPa
+  main shaft (rotor side)  T  4840.0 kN m, d 0.75 m:  58.4 MPa
+  a short-circuit torque peak of 6 x rated on the generator shaft: 231 MPa
+  the coupling's slip clutch limits what reaches the gearbox;
+  fatigue under millions of torque cycles decides the size (chapter 4)

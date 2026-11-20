@@ -1,0 +1,5 @@
+CMMS history migrated: 80 records sampled against the source, 6 differ
+  error share 7.5%, 95 % interval 3.5% to 15.4% (Wilson, ch 51)
+  dates shifted by a time-zone setting and two failure codes
+  mapped to 'OTHER' (ch 52) - fixed and re-sampled before the
+  old system is switched off

@@ -1,0 +1,1969 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fa" xml:lang="fa" dir="rtl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>پیوست B — یکاهای SI، ثابت‌ها، تبدیل‌ها و فرمول‌نامه – نیروگاه‌های هیبریدیِ بادی–خورشیدی</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../appendices/C-drawing-symbols.html" rel="next">
+<link href="../appendices/A-glossary-notation.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bf0a93587e161b84f29c5f5d0dcbd6c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "نتیجه‌ای یافت نشد",
+    "search-matching-documents-text": "سندِ منطبق",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "جست‌وجو",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "جست‌وجو"
+  }
+}</script>
+<!-- MathJax config: make Persian (Arabic-script) text render correctly INSIDE
+     equations in HTML. By default MathJax types \text{...} in its own math font
+     (no Persian glyphs) and lays glyphs out individually, so Persian appears as
+     broken, disconnected left-to-right letters. `mtextInheritFont: true` makes
+     \text{...} use the surrounding page font (Vazirmatn), and the browser then
+     shapes the connected Arabic letters correctly. (PDF already renders these
+     correctly via LaTeX + babel.) -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [["$", "$"], ["\\(", "\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    tags: "ams",
+    tagSide: "right"
+  },
+  chtml: { mtextInheritFont: true },
+  svg: { mtextInheritFont: true }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="نمایش/پنهان‌کردنِ نوارِ کناری" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/A-glossary-notation.html">پیوست‌ها</a></li><li class="breadcrumb-item"><a href="../appendices/B-units-constants-formulas.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">یکاهای <span class="ltr" dir="ltr">SI</span>، ثابت‌ها، تبدیل‌ها و فرمول‌نامه</span></a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="جست‌وجو" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">نیروگاه‌های هیبریدیِ بادی–خورشیدی</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="جست‌وجو"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">یادداشتِ نویسنده</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-1-label">بخشِ یکم — اندیشیدن و محاسبه مانندِ مهندس</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-book-and-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">راهنمای کتاب و چیستیِ پروژهٔ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-units-and-records.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">یکاها، ابعاد و سوابقِ مهندسی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-mathematics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">ریاضیات برای مهندسیِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-physics-materials-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">مبانیِ فیزیک، مواد و ساخت</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-computing-and-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">رایانش و دادهٔ مهندسی</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-controls="quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-2-label">بخشِ دوم — برق و تجهیزاتِ تبدیلِ انرژی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-2" aria-labelledby="quarto-sidebar-section-2-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-dc-circuits-safety.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">مدارهای جریانِ مستقیم و مبانیِ ایمنیِ برق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-ac-three-phase.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">مدارهای جریانِ متناوب و توانِ سه‌فاز</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-electrical-machines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">ژنراتورها و ماشین‌های الکتریکی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09-power-electronics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">الکترونیکِ قدرت و اینورترها</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-pv-modules-arrays.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">ماژول‌های فتوولتائیک و طراحیِ آرایهٔ خورشیدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-wind-turbines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">توربین‌های بادی و تبدیلِ انرژیِ باد</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-controls="quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-3-label">بخشِ سوم — ارزیابیِ منابع و برآوردِ تولیدِ انرژی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-3" aria-labelledby="quarto-sidebar-section-3-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/12-solar-resource.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">ارزیابیِ منبعِ خورشیدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/13-wind-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">اندازه‌گیری و ارزیابیِ باد</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/14-site-screening-micrositing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">غربالگریِ ساختگاه و ریزجانماییِ مزرعهٔ بادی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/15-energy-yield-losses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">مدل‌سازیِ تولیدِ انرژی و تلفات</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/16-uncertainty-yield.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">عدمِ قطعیت و ارزیابیِ تولید</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-controls="quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-4-label">بخشِ چهارم — معماریِ نیروگاه، ذخیره‌سازی و اقتصاد</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-4" aria-labelledby="quarto-sidebar-section-4-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/17-load-grid-requirements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">بار، شبکه و الزاماتِ پروژه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/18-hybrid-architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">معماریِ نیروگاهِ هیبریدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/19-battery-storage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">ذخیره‌سازیِ انرژی با باتری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/20-plant-control-ems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">کنترلِ نیروگاه و مدیریتِ انرژی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/21-economics-contracts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">اقتصادِ پروژه و قراردادها</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/22-feasibility-options.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">امکان‌سنجی و انتخابِ گزینه</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-controls="quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-5-label">بخشِ پنجم — مهندسیِ تفصیلی و اتصال به شبکه</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-5" aria-labelledby="quarto-sidebar-section-5-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/23-one-line-boundaries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">نمودارِ تک‌خطی و مرزهای سامانهٔ برق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/24-cables-switchgear.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">کابل‌ها، تابلوهای قطع‌ووصل و تأسیساتِ برقی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/25-transformers-substations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">ترانسفورماتورها و پست‌های برق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/26-protection-grounding-lightning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">حفاظت، زمین‌کردن و صاعقه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/27-power-quality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">کیفیتِ توان و رفتارِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/28-grid-studies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">مطالعاتِ شبکه و الزاماتِ عملکردی</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-controls="quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-6-label">بخشِ ششم — عمران، مکانیک، ایمنی، حریق و محیطِ‌زیست</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-6" aria-labelledby="quarto-sidebar-section-6-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/29-site-investigation-civil.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">شناساییِ ساختگاه و کارهای عمرانی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/30-structures-foundations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">سازه‌ها، پیِ توربین و بارهای مکانیکی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/31-transport-lifting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">حمل، بالابری و لجستیکِ نصب</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/32-safety-fire-emergency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">ایمنیِ شغلی، حفاظت از حریق و پاسخِ اضطراری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/33-environment-social.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">مدیریتِ محیطِ‌زیستی و اجتماعی</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-controls="quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-7-label">بخشِ هفتم — کنترل، ارتباطات و امنیتِ سایبری</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-7" aria-labelledby="quarto-sidebar-section-7-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/34-instrumentation-control.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">ابزارِ دقیق و کنترل</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/35-scada-communications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">اسکادا و ارتباطات</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/36-ot-cybersecurity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">فناوریِ اطلاعات و امنیتِ سایبریِ صنعتی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/37-performance-analytics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">پایشِ عملکرد و تحلیلِ داده</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-controls="quarto-sidebar-section-8" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-8-label">بخشِ هشتم — تدارکات، تولیدِ صنعتی، اجرا و راه‌اندازی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-8" aria-labelledby="quarto-sidebar-section-8-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/38-detailed-design-documents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">طراحیِ تفصیلی و کنترلِ مدارک</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/39-procurement-suppliers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">تدارکات، قراردادها و ارزیابیِ تأمین‌کنندگان</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/40-manufacturing-quality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">سامانه‌های تولید، مهندسیِ کیفیت و آزمون‌های کارخانه‌ای</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/41-pv-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">مهندسیِ ساختِ سلول و ماژولِ خورشیدی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/42-wind-turbine-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">طراحی و ساختِ اجزای توربینِ بادی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/43-transformer-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">ترانسفورماتورِ قدرت: نظریه، طراحی و ساختِ کارخانه‌ای</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/44-converter-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">ساختِ مبدل‌های قدرت، اینورترها و الکترونیکِ کنترل</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/45-battery-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">ساختِ سلول، بستهٔ باتری، سامانهٔ مدیریتِ باتری و کانتینرِ ذخیره‌ساز</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/46-cable-switchgear-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">46</span>&nbsp; <span class="chapter-title">ساختِ کابل، اتصال‌دهنده، تابلوی قطع‌ووصل و تابلوی حفاظت</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/47-civil-structural-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">47</span>&nbsp; <span class="chapter-title">ساختِ اجزای عمرانی، سازه‌ای، برج، ردیاب و تجهیزاتِ جانبیِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/48-instrumentation-network-manufacturing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">ساختِ ابزارِ دقیق، تجهیزاتِ اندازه‌گیری، تابلوی کنترل و سخت‌افزارِ شبکه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/49-construction-installation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">اجرا و نصب</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/50-commissioning-handover.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">راه‌اندازی، پذیرشِ شبکه و تحویل</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-controls="quarto-sidebar-section-9" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-9-label">بخشِ نهم — بهره‌برداری، نگهداری و پایانِ عمر</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-9" aria-labelledby="quarto-sidebar-section-9-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/51-operations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">51</span>&nbsp; <span class="chapter-title">بهره‌برداری از نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/52-maintenance-ram.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">نگهداری و عیب‌یابی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/53-repowering-retirement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">بهبودِ عملکرد، بازتوانی و برچیدنِ نیروگاه</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-controls="quarto-sidebar-section-10" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-10-label">بخشِ دهم — انطباق با مقرراتِ کشورها و پروژهٔ پایانی</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-10" aria-labelledby="quarto-sidebar-section-10-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/54-applicable-requirements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">شناساییِ الزاماتِ حاکم بر پروژه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/55-iran-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">55</span>&nbsp; <span class="chapter-title">پروندهٔ مقررات و استانداردهای ایران</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/56-afghanistan-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">پروندهٔ مقررات و استانداردهای افغانستان</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/57-tajikistan-dossier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">پروندهٔ مقررات و استانداردهای تاجیکستان</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/58-international-standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">استانداردهای بین‌المللی: یافتن، تفسیر و به‌کاربستن</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/59-capstone-plant-p.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">پروژهٔ پایانی: طراحی، تحویل و بهره‌برداریِ نیروگاهِ P</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-controls="quarto-sidebar-section-11" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-11-label">پیوست‌ها</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
+      </div>
+      <ul id="quarto-sidebar-section-11" aria-labelledby="quarto-sidebar-section-11-label" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/A-glossary-notation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">واژه‌نامهٔ فارسی–انگلیسی، نمادها و کوته‌نوشت‌ها</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/B-units-constants-formulas.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">یکاهای <span class="ltr" dir="ltr">SI</span>، ثابت‌ها، تبدیل‌ها و فرمول‌نامه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/C-drawing-symbols.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">نمادهای نقشه و قراردادهای نمودارِ تک‌خطی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/D-calculation-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">الگوهای برگهٔ محاسبه و بازبینیِ مستقل</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/E-auxiliary-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">الگوهای سامانه‌های کمکی: فهرستِ بار، تک‌خطی، خودگردانیِ باتری و بارزدایی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/F-fire-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">الگوهای حفاظت در برابرِ حریق</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/G-ram-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">الگوهای قابلیتِ اطمینان، دسترس‌پذیری و نگهداشت‌پذیری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/H-water-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">الگوهای مدیریتِ آب</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/I-forecast-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">الگوهای پیش‌بینیِ کوتاه‌مدت</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/J-grid-service-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">J</span>&nbsp; <span class="chapter-title">الگوهای خدماتِ شبکه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/K-grid-connection-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">K</span>&nbsp; <span class="chapter-title">الگوهای اتصال به شبکه و تأسیساتِ خروجیِ نیروگاه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/L-land-social-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">L</span>&nbsp; <span class="chapter-title">الگوهای زمین، جامعه و ملاحظاتِ اجتماعی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/M-finance-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">M</span>&nbsp; <span class="chapter-title">الگوهای تأمینِ مالیِ پروژه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/N-asset-information-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">N</span>&nbsp; <span class="chapter-title">الگوهای اطلاعاتِ دارایی و تحویلِ دیجیتال</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/O-emergency-security-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">O</span>&nbsp; <span class="chapter-title">الگوهای آمادگیِ اضطراری و حفاظتِ فیزیکی</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/P-ghg-worksheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">P</span>&nbsp; <span class="chapter-title">کاربرگِ ردپای چرخهٔ عمر و گازهای گلخانه‌ای</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/Q-plant-p-data-pack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">Q</span>&nbsp; <span class="chapter-title">بستهٔ دادهٔ مرجعِ نیروگاهِ P</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/R-measurement-forms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">R</span>&nbsp; <span class="chapter-title">برگه‌های اندازه‌گیری، کیفیتِ داده، بازرسی، آزمون و نگهداری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/S-equipment-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">S</span>&nbsp; <span class="chapter-title">الگوهای مشخصاتِ تجهیز، فهرستِ مواد و ارزیابیِ تأمین‌کننده</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/T-risk-safety-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">T</span>&nbsp; <span class="chapter-title">الگوهای ریسک، تحلیلِ خطر، مجوزِ کار و درس‌آموزی از حادثه</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/U-compliance-register.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">U</span>&nbsp; <span class="chapter-title">دفترِ استانداردها و انطباق، پیگیریِ تأییدیه‌ها و سیاههٔ راستی‌آزماییِ منابع</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/V-commissioning-checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">V</span>&nbsp; <span class="chapter-title">چک‌لیست‌های راه‌اندازی، پذیرش، تحویل و بهره‌برداری</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/W-official-sources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">W</span>&nbsp; <span class="chapter-title">کتاب‌نامهٔ منابعِ رسمیِ راستی‌آزمایی‌شده</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/X-mastery-tests.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">X</span>&nbsp; <span class="chapter-title">آزمون‌های تشخیصیِ تسلط و راهنمای مدرس</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">فهرست</h2>
+   
+  <ul>
+  <li><a href="#sec-app-b-base" id="toc-sec-app-b-base" class="nav-link active" data-scroll-target="#sec-app-b-base"><span class="header-section-number">B.1</span> یکاهای پایهٔ <span class="ltr" dir="ltr">SI</span></a></li>
+  <li><a href="#sec-app-b-derived" id="toc-sec-app-b-derived" class="nav-link" data-scroll-target="#sec-app-b-derived"><span class="header-section-number">B.2</span> یکاهای فرعی با نامِ ویژه</a></li>
+  <li><a href="#sec-app-b-prefixes" id="toc-sec-app-b-prefixes" class="nav-link" data-scroll-target="#sec-app-b-prefixes"><span class="header-section-number">B.3</span> پیشوندهای <span class="ltr" dir="ltr">SI</span></a></li>
+  <li><a href="#sec-app-b-accepted" id="toc-sec-app-b-accepted" class="nav-link" data-scroll-target="#sec-app-b-accepted"><span class="header-section-number">B.4</span> یکاهای بیرون از <span class="ltr" dir="ltr">SI</span> که با آن به کار می‌روند</a></li>
+  <li><a href="#sec-app-b-conversions" id="toc-sec-app-b-conversions" class="nav-link" data-scroll-target="#sec-app-b-conversions"><span class="header-section-number">B.5</span> ضریب‌های تبدیل</a></li>
+  <li><a href="#sec-app-b-constants" id="toc-sec-app-b-constants" class="nav-link" data-scroll-target="#sec-app-b-constants"><span class="header-section-number">B.6</span> ثابت‌ها</a></li>
+  <li><a href="#sec-app-b-formulas" id="toc-sec-app-b-formulas" class="nav-link" data-scroll-target="#sec-app-b-formulas"><span class="header-section-number">B.7</span> فرمول‌نامه</a>
+  <ul class="collapse">
+  <li><a href="#اندازهگیری-و-آمار" id="toc-اندازهگیری-و-آمار" class="nav-link" data-scroll-target="#اندازهگیری-و-آمار"><span class="header-section-number">B.7.1</span> اندازه‌گیری و آمار</a></li>
+  <li><a href="#مدار-الکتریکی-و-جریان-متناوب" id="toc-مدار-الکتریکی-و-جریان-متناوب" class="nav-link" data-scroll-target="#مدار-الکتریکی-و-جریان-متناوب"><span class="header-section-number">B.7.2</span> مدارِ الکتریکی و جریانِ متناوب</a></li>
+  <li><a href="#ماشین-و-الکترونیک-قدرت" id="toc-ماشین-و-الکترونیک-قدرت" class="nav-link" data-scroll-target="#ماشین-و-الکترونیک-قدرت"><span class="header-section-number">B.7.3</span> ماشین و الکترونیکِ قدرت</a></li>
+  <li><a href="#فتوولتائیک-و-منبع-خورشیدی" id="toc-فتوولتائیک-و-منبع-خورشیدی" class="nav-link" data-scroll-target="#فتوولتائیک-و-منبع-خورشیدی"><span class="header-section-number">B.7.4</span> فتوولتائیک و منبعِ خورشیدی</a></li>
+  <li><a href="#باد-و-منبع-بادی" id="toc-باد-و-منبع-بادی" class="nav-link" data-scroll-target="#باد-و-منبع-بادی"><span class="header-section-number">B.7.5</span> باد و منبعِ بادی</a></li>
+  <li><a href="#ذخیرهسازی" id="toc-ذخیرهسازی" class="nav-link" data-scroll-target="#ذخیرهسازی"><span class="header-section-number">B.7.6</span> ذخیره‌سازی</a></li>
+  <li><a href="#کابل-ترانسفورماتور-حفاظت-و-شبکه" id="toc-کابل-ترانسفورماتور-حفاظت-و-شبکه" class="nav-link" data-scroll-target="#کابل-ترانسفورماتور-حفاظت-و-شبکه"><span class="header-section-number">B.7.7</span> کابل، ترانسفورماتور، حفاظت و شبکه</a></li>
+  <li><a href="#قابلیت-اطمینان-و-نگهداری" id="toc-قابلیت-اطمینان-و-نگهداری" class="nav-link" data-scroll-target="#قابلیت-اطمینان-و-نگهداری"><span class="header-section-number">B.7.8</span> قابلیتِ اطمینان و نگهداری</a></li>
+  <li><a href="#اقتصاد-و-مالی" id="toc-اقتصاد-و-مالی" class="nav-link" data-scroll-target="#اقتصاد-و-مالی"><span class="header-section-number">B.7.9</span> اقتصاد و مالی</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/A-glossary-notation.html">پیوست‌ها</a></li><li class="breadcrumb-item"><a href="../appendices/B-units-constants-formulas.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">یکاهای <span class="ltr" dir="ltr">SI</span>، ثابت‌ها، تبدیل‌ها و فرمول‌نامه</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-app-b" class="quarto-section-identifier">پیوست B — یکاهای <span class="ltr" dir="ltr">SI</span>، ثابت‌ها، تبدیل‌ها و فرمول‌نامه</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>این پیوست یکاها، پیشوندها، تبدیل‌ها و ثابت‌هایی را که کتاب به کار می‌برد یک‌جا می‌آورد و فرمول‌های اصلیِ فصل‌ها را با ارجاع به جای خودشان فهرست می‌کند. ضریب‌های تبدیل و ثابت‌ها را برنامهٔ همراه با همان کتابخانهٔ یکاها و ماژولِ فیزیکی حساب کرده است که فصل‌ها به کار می‌برند (<a href="../chapters/02-units-and-records.html" class="quarto-xref"><span>فصل 2</span></a>). فرمول‌ها از معادله‌های فصل‌ها رونوشت شده‌اند و نمادهایشان در <a href="A-glossary-notation.html#sec-app-a-symbols" class="quarto-xref"><span>بخش A.6</span></a> تعریف شده است.</p>
+<section id="sec-app-b-base" class="level2" data-number="B.1">
+<h2 data-number="B.1" class="anchored" data-anchor-id="sec-app-b-base"><span class="header-section-number">B.1</span> یکاهای پایهٔ <span class="ltr" dir="ltr">SI</span></h2>
+<div id="tbl-app-b-base" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-app-b-base-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+جدول&nbsp;B.1: هفت یکای پایهٔ <span class="ltr" dir="ltr">SI</span>
+</figcaption>
+<div aria-describedby="tbl-app-b-base-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>کمیت</th>
+<th>یکا</th>
+<th>نماد</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>طول</td>
+<td>متر</td>
+<td><span class="ltr" dir="ltr">m</span></td>
+</tr>
+<tr class="even">
+<td>جرم</td>
+<td>کیلوگرم</td>
+<td><span class="ltr" dir="ltr">kg</span></td>
+</tr>
+<tr class="odd">
+<td>زمان</td>
+<td>ثانیه</td>
+<td><span class="ltr" dir="ltr">s</span></td>
+</tr>
+<tr class="even">
+<td>جریانِ الکتریکی</td>
+<td>آمپر</td>
+<td><span class="ltr" dir="ltr">A</span></td>
+</tr>
+<tr class="odd">
+<td>دمای ترمودینامیکی</td>
+<td>کلوین</td>
+<td><span class="ltr" dir="ltr">K</span></td>
+</tr>
+<tr class="even">
+<td>مقدارِ ماده</td>
+<td>مول</td>
+<td><span class="ltr" dir="ltr">mol</span></td>
+</tr>
+<tr class="odd">
+<td>شدتِ نور</td>
+<td>کاندلا</td>
+<td><span class="ltr" dir="ltr">cd</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>از بازنگریِ ۲۰۱۹ همهٔ یکاهای <span class="ltr" dir="ltr">SI</span> از هفت ثابتِ تعریف‌شده با مقدارِ دقیق ساخته می‌شوند (<a href="#sec-app-b-constants" class="quarto-xref"><span>بخش B.6</span></a>).</p>
+</section>
+<section id="sec-app-b-derived" class="level2" data-number="B.2">
+<h2 data-number="B.2" class="anchored" data-anchor-id="sec-app-b-derived"><span class="header-section-number">B.2</span> یکاهای فرعی با نامِ ویژه</h2>
+<div id="tbl-app-b-derived" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-app-b-derived-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+جدول&nbsp;B.2: یکاهای فرعیِ پرکاربرد در کتاب
+</figcaption>
+<div aria-describedby="tbl-app-b-derived-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 21%">
+<col style="width: 12%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>کمیت</th>
+<th>یکا</th>
+<th>نماد</th>
+<th>برحسبِ یکاهای پایه</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>بسامد</td>
+<td>هرتز</td>
+<td><span class="ltr" dir="ltr">Hz</span></td>
+<td><span class="math inline">\(\text{s}^{-1}\)</span></td>
+</tr>
+<tr class="even">
+<td>نیرو</td>
+<td>نیوتن</td>
+<td><span class="ltr" dir="ltr">N</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}\,\text{s}^{-2}\)</span></td>
+</tr>
+<tr class="odd">
+<td>فشار</td>
+<td>پاسکال</td>
+<td><span class="ltr" dir="ltr">Pa</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}^{-1}\,\text{s}^{-2}\)</span></td>
+</tr>
+<tr class="even">
+<td>انرژی</td>
+<td>ژول</td>
+<td><span class="ltr" dir="ltr">J</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}^{2}\,\text{s}^{-2}\)</span></td>
+</tr>
+<tr class="odd">
+<td>توان</td>
+<td>وات</td>
+<td><span class="ltr" dir="ltr">W</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}^{2}\,\text{s}^{-3}\)</span></td>
+</tr>
+<tr class="even">
+<td>بارِ الکتریکی</td>
+<td>کولن</td>
+<td><span class="ltr" dir="ltr">C</span></td>
+<td><span class="math inline">\(\text{A}\,\text{s}\)</span></td>
+</tr>
+<tr class="odd">
+<td>ولتاژ</td>
+<td>ولت</td>
+<td><span class="ltr" dir="ltr">V</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}^{2}\,\text{s}^{-3}\,\text{A}^{-1}\)</span></td>
+</tr>
+<tr class="even">
+<td>ظرفیتِ خازنی</td>
+<td>فاراد</td>
+<td><span class="ltr" dir="ltr">F</span></td>
+<td><span class="math inline">\(\text{kg}^{-1}\,\text{m}^{-2}\,\text{s}^{4}\,\text{A}^{2}\)</span></td>
+</tr>
+<tr class="odd">
+<td>مقاومت</td>
+<td>اهم</td>
+<td><span class="math inline">\(\Omega\)</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}^{2}\,\text{s}^{-3}\,\text{A}^{-2}\)</span></td>
+</tr>
+<tr class="even">
+<td>رسانایی</td>
+<td>زیمنس</td>
+<td><span class="ltr" dir="ltr">S</span></td>
+<td><span class="math inline">\(\text{kg}^{-1}\,\text{m}^{-2}\,\text{s}^{3}\,\text{A}^{2}\)</span></td>
+</tr>
+<tr class="odd">
+<td>شارِ مغناطیسی</td>
+<td>وبر</td>
+<td><span class="ltr" dir="ltr">Wb</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}^{2}\,\text{s}^{-2}\,\text{A}^{-1}\)</span></td>
+</tr>
+<tr class="even">
+<td>چگالیِ شارِ مغناطیسی</td>
+<td>تسلا</td>
+<td><span class="ltr" dir="ltr">T</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{s}^{-2}\,\text{A}^{-1}\)</span></td>
+</tr>
+<tr class="odd">
+<td>اندوکتانس</td>
+<td>هانری</td>
+<td><span class="ltr" dir="ltr">H</span></td>
+<td><span class="math inline">\(\text{kg}\,\text{m}^{2}\,\text{s}^{-2}\,\text{A}^{-2}\)</span></td>
+</tr>
+<tr class="even">
+<td>دمای سلسیوس</td>
+<td>درجهٔ سلسیوس</td>
+<td><span class="math inline">\(^\circ\text{C}\)</span></td>
+<td><span class="math inline">\(t/^\circ\text{C} = T/\text{K} - 273.15\)</span></td>
+</tr>
+<tr class="odd">
+<td>زاویهٔ مسطح</td>
+<td>رادیان</td>
+<td><span class="ltr" dir="ltr">rad</span></td>
+<td><span class="math inline">\(\text{m}/\text{m}\)</span></td>
+</tr>
+<tr class="even">
+<td>زاویهٔ فضایی</td>
+<td>استرادیان</td>
+<td><span class="ltr" dir="ltr">sr</span></td>
+<td><span class="math inline">\(\text{m}^{2}/\text{m}^{2}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><strong>توان در جریانِ متناوب.</strong> توانِ اکتیو با وات (<span class="ltr" dir="ltr">W</span>)، توانِ ظاهری با ولت‌آمپر (<span class="ltr" dir="ltr">VA</span>) و توانِ راکتیو با وار (<span class="ltr" dir="ltr">var</span>) نوشته می‌شود. ابعادِ هر سه یکی است، ولی نامِ جدا نشان می‌دهد کدام کمیت منظور است (<a href="../chapters/07-ac-three-phase.html" class="quarto-xref"><span>فصل 7</span></a>). وات‌پیک (<span class="ltr" dir="ltr">Wp</span>) توانِ ماژول در شرایطِ آزمونِ استاندارد است.</p>
+</section>
+<section id="sec-app-b-prefixes" class="level2" data-number="B.3">
+<h2 data-number="B.3" class="anchored" data-anchor-id="sec-app-b-prefixes"><span class="header-section-number">B.3</span> پیشوندهای <span class="ltr" dir="ltr">SI</span></h2>
+<div id="tbl-app-b-prefixes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-app-b-prefixes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+جدول&nbsp;B.3: پیشوندهای <span class="ltr" dir="ltr">SI</span> که در کتاب به کار می‌روند
+</figcaption>
+<div aria-describedby="tbl-app-b-prefixes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>پیشوند</th>
+<th>نماد</th>
+<th>ضریب</th>
+<th>پیشوند</th>
+<th>نماد</th>
+<th>ضریب</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>کیلو</td>
+<td><span class="ltr" dir="ltr">k</span></td>
+<td><span class="math inline">\(10^{3}\)</span></td>
+<td>میلی</td>
+<td><span class="ltr" dir="ltr">m</span></td>
+<td><span class="math inline">\(10^{-3}\)</span></td>
+</tr>
+<tr class="even">
+<td>مگا</td>
+<td><span class="ltr" dir="ltr">M</span></td>
+<td><span class="math inline">\(10^{6}\)</span></td>
+<td>میکرو</td>
+<td><span class="math inline">\(\mu\)</span></td>
+<td><span class="math inline">\(10^{-6}\)</span></td>
+</tr>
+<tr class="odd">
+<td>گیگا</td>
+<td><span class="ltr" dir="ltr">G</span></td>
+<td><span class="math inline">\(10^{9}\)</span></td>
+<td>نانو</td>
+<td><span class="ltr" dir="ltr">n</span></td>
+<td><span class="math inline">\(10^{-9}\)</span></td>
+</tr>
+<tr class="even">
+<td>ترا</td>
+<td><span class="ltr" dir="ltr">T</span></td>
+<td><span class="math inline">\(10^{12}\)</span></td>
+<td>پیکو</td>
+<td><span class="ltr" dir="ltr">p</span></td>
+<td><span class="math inline">\(10^{-12}\)</span></td>
+</tr>
+<tr class="odd">
+<td>پتا</td>
+<td><span class="ltr" dir="ltr">P</span></td>
+<td><span class="math inline">\(10^{15}\)</span></td>
+<td>فمتو</td>
+<td><span class="ltr" dir="ltr">f</span></td>
+<td><span class="math inline">\(10^{-15}\)</span></td>
+</tr>
+<tr class="even">
+<td>اگزا</td>
+<td><span class="ltr" dir="ltr">E</span></td>
+<td><span class="math inline">\(10^{18}\)</span></td>
+<td>آتو</td>
+<td><span class="ltr" dir="ltr">a</span></td>
+<td><span class="math inline">\(10^{-18}\)</span></td>
+</tr>
+<tr class="odd">
+<td>هکتو</td>
+<td><span class="ltr" dir="ltr">h</span></td>
+<td><span class="math inline">\(10^{2}\)</span></td>
+<td>سانتی</td>
+<td><span class="ltr" dir="ltr">c</span></td>
+<td><span class="math inline">\(10^{-2}\)</span></td>
+</tr>
+<tr class="even">
+<td>دکا</td>
+<td><span class="ltr" dir="ltr">da</span></td>
+<td><span class="math inline">\(10^{1}\)</span></td>
+<td>دسی</td>
+<td><span class="ltr" dir="ltr">d</span></td>
+<td><span class="math inline">\(10^{-1}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>پیشوند به نمادِ یکا می‌چسبد و توان شاملِ هر دو می‌شود: <span class="math inline">\(\text{km}^2 = (10^3\,\text{m})^2 = 10^6\,\text{m}^2\)</span>. پیشوندِ جرم روی «گرم» می‌نشیند: <span class="ltr" dir="ltr">mg</span>، نه <span class="ltr" dir="ltr">µkg</span>. کتابخانهٔ یکاهای همراه پیشوندهای بزرگ‌تر و کوچک‌تر (<span class="ltr" dir="ltr">Z</span>، <span class="ltr" dir="ltr">Y</span>، <span class="ltr" dir="ltr">R</span>، <span class="ltr" dir="ltr">Q</span> و قرینه‌هایشان) را هم می‌شناسد.</p>
+</section>
+<section id="sec-app-b-accepted" class="level2" data-number="B.4">
+<h2 data-number="B.4" class="anchored" data-anchor-id="sec-app-b-accepted"><span class="header-section-number">B.4</span> یکاهای بیرون از <span class="ltr" dir="ltr">SI</span> که با آن به کار می‌روند</h2>
+<div id="tbl-app-b-accepted" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-app-b-accepted-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+جدول&nbsp;B.4: یکاهای پذیرفته‌شده در کنارِ <span class="ltr" dir="ltr">SI</span>
+</figcaption>
+<div aria-describedby="tbl-app-b-accepted-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 16%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>یکا</th>
+<th>نماد</th>
+<th>برابر با</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>دقیقه، ساعت، روز</td>
+<td><span class="ltr" dir="ltr">min</span>، <span class="ltr" dir="ltr">h</span>، <span class="ltr" dir="ltr">d</span></td>
+<td><span class="ltr" dir="ltr">60 s</span>، <span class="ltr" dir="ltr">3600 s</span>، <span class="ltr" dir="ltr">86400 s</span></td>
+</tr>
+<tr class="even">
+<td>هکتار</td>
+<td><span class="ltr" dir="ltr">ha</span></td>
+<td><span class="math inline">\(10^{4}\,\text{m}^2\)</span></td>
+</tr>
+<tr class="odd">
+<td>لیتر</td>
+<td><span class="ltr" dir="ltr">L</span></td>
+<td><span class="math inline">\(10^{-3}\,\text{m}^3\)</span></td>
+</tr>
+<tr class="even">
+<td>تن</td>
+<td><span class="ltr" dir="ltr">t</span></td>
+<td><span class="math inline">\(10^{3}\,\text{kg}\)</span></td>
+</tr>
+<tr class="odd">
+<td>بار</td>
+<td><span class="ltr" dir="ltr">bar</span></td>
+<td><span class="math inline">\(10^{5}\,\text{Pa}\)</span></td>
+</tr>
+<tr class="even">
+<td>وات‌ساعت</td>
+<td><span class="ltr" dir="ltr">Wh</span></td>
+<td><span class="ltr" dir="ltr">3600 J</span></td>
+</tr>
+<tr class="odd">
+<td>آمپرساعت</td>
+<td><span class="ltr" dir="ltr">Ah</span></td>
+<td><span class="ltr" dir="ltr">3600 C</span></td>
+</tr>
+<tr class="even">
+<td>الکترون‌ولت</td>
+<td><span class="ltr" dir="ltr">eV</span></td>
+<td><span class="math inline">\(1.602\,176\,634\times10^{-19}\,\text{J}\)</span></td>
+</tr>
+<tr class="odd">
+<td>درجهٔ زاویه</td>
+<td><span class="math inline">\(^\circ\)</span></td>
+<td><span class="math inline">\(\pi/180\,\text{rad}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="sec-app-b-conversions" class="level2" data-number="B.5">
+<h2 data-number="B.5" class="anchored" data-anchor-id="sec-app-b-conversions"><span class="header-section-number">B.5</span> ضریب‌های تبدیل</h2>
+<p>یکاهای غیرِ <span class="ltr" dir="ltr">SI</span> هنوز در برگه‌های داده و گزارش‌های قدیمی دیده می‌شوند. هر عدد در فصل‌ها پیش از محاسبه به <span class="ltr" dir="ltr">SI</span> برده می‌شود (<a href="../chapters/02-units-and-records.html" class="quarto-xref"><span>فصل 2</span></a>).</p>
+<pre class="text"><code>conversion factors computed with plantp.units.convert
+        from  to                   factor  note
+       1 kWh  MJ                      3.6  energy
+       1 MWh  GJ                      3.6  energy
+       1 toe  MWh                   11.63  tonne of oil equivalent
+       1 Btu  kJ                1.0550559  data sheets
+      1 kcal  kJ                    4.184  thermochemical calorie
+        1 eV  J             1.6021766e-19  photon and band-gap energy
+        1 Ah  C                      3600  cell capacity
+       1 bar  kPa                     100  pressure
+       1 psi  kPa               6.8947573  data sheets
+        1 mm  in              0.039370079  length
+        1 ft  m                    0.3048  length
+        1 mi  km                 1.609344  length
+       1 nmi  km                    1.852  nautical mile
+      1 km/h  m/s              0.27777778  speed
+        1 kn  m/s              0.51444444  speed, aviation and sea
+       1 mph  m/s                 0.44704  speed
+        1 lb  kg               0.45359237  mass
+       1 lbf  N                 4.4482216  force
+        1 ha  m^2                   10000  area
+      1 km^2  ha                      100  area
+         1 L  m^3                   0.001  volume
+       1 deg  rad             0.017453293  plane angle
+       1 rad  deg                57.29578  plane angle
+    1 kW/m^2  W/m^2                  1000  irradiance
+   1 kWh/m^2  MJ/m^2                  3.6  irradiation
+         1 d  h                        24  time
+  temperature is an offset, not a factor:
+    T(K) = t(C) + 273.15; 25 C = 298.15 K
+    a temperature DIFFERENCE of 1 C equals 1 K</code></pre>
+<p><strong>دما.</strong> دما جابه‌جایی دارد، نه ضریب. اختلافِ دمای یک درجهٔ سلسیوس برابرِ یک کلوین است، ولی خودِ دما ۲۷۳٫۱۵ واحد جابه‌جاست. خطای رایج ضرب‌کردنِ دمای سلسیوس در رابطه‌ای است که کلوین می‌خواهد، مانندِ قانونِ گازها یا تابشِ گرمایی.</p>
+</section>
+<section id="sec-app-b-constants" class="level2" data-number="B.6">
+<h2 data-number="B.6" class="anchored" data-anchor-id="sec-app-b-constants"><span class="header-section-number">B.6</span> ثابت‌ها</h2>
+<pre class="text"><code>constants as the companion code holds them
+  speed of light in vacuum             c      299792458 m/s
+      exact
+  Planck constant                      h      6.62607015e-34 J s
+      exact
+  elementary charge                    e      1.602176634e-19 C
+      exact
+  Boltzmann constant                   k      1.380649e-23 J/K
+      exact
+  Stefan-Boltzmann constant            sigma  5.670374419e-08 W/(m2 K4)
+      from exact constants
+  molar gas constant                   R      8.314462618 J/(mol K)
+      from exact constants
+  magnetic constant (as used)          mu0    1.256637061e-06 H/m
+      4 pi 1e-7
+  standard acceleration of gravity     g_n    9.80665 m/s2
+      defined
+  specific gas constant, dry air       R_d    287.05 J/(kg K)
+      value used in the book
+  air density, 1013.25 hPa and 15 C    rho_0  1.225012266 kg/m3
+      computed: p/(R_d T)
+  pressure at 1000 m, standard lapse   p      898.7445516 hPa
+      computed: physics.standard_pressure</code></pre>
+<p><strong>یادداشت.</strong> شش ثابتِ نخست در <span class="ltr" dir="ltr">SI</span> مقدارِ دقیق دارند (دوتای آخر، ثابتِ استفان–بولتزمن و ثابتِ گازِ مولی، از ثابت‌های دقیق ساخته می‌شوند و این‌جا گرد شده‌اند). ثابتِ مغناطیسی از ۲۰۱۹ اندازه‌گیری‌شده است و <span class="math inline">\(4\pi\times10^{-7}\)</span> فقط حدودِ یک ده‌میلیاردم با آن فرق دارد. برنامه‌های کتاب همین مقدارِ گرد را به کار می‌برند. ثابتِ ویژهٔ گازِ هوای خشک و چگالیِ هوای استاندارد مقدارهایی‌اند که فصل‌های ۱۱ و ۱۳ به کار برده‌اند. چگالیِ واقعیِ ساختگاه از فشار، دما و رطوبتِ اندازه‌گیری‌شده حساب می‌شود (<a href="../chapters/13-wind-measurement.html" class="quarto-xref"><span>فصل 13</span></a>).</p>
+</section>
+<section id="sec-app-b-formulas" class="level2" data-number="B.7">
+<h2 data-number="B.7" class="anchored" data-anchor-id="sec-app-b-formulas"><span class="header-section-number">B.7</span> فرمول‌نامه</h2>
+<p>هر فرمول همان معادلهٔ فصلی است که شماره‌اش آمده. فرض‌ها، محدوده‌های اعتبار و مثال‌ها در همان فصل‌اند. فرمولی را بیرون از فرض‌هایش به کار نبرید.</p>
+<section id="اندازهگیری-و-آمار" class="level3" data-number="B.7.1">
+<h3 data-number="B.7.1" class="anchored" data-anchor-id="اندازهگیری-و-آمار"><span class="header-section-number">B.7.1</span> اندازه‌گیری و آمار</h3>
+<p><strong>عدمِ قطعیتِ گسترده</strong> (<a href="../chapters/02-units-and-records.html#eq-ch02-expanded" class="quarto-xref">معادلهٔ&nbsp;<span>2.12</span></a>):</p>
+<p><span class="math display">\[
+U = k\,u_\text{c}(y)
+\]</span></p>
+<p><strong>ترکیبِ عدمِ قطعیت‌های مستقل</strong> (<a href="../chapters/16-uncertainty-yield.html#eq-ch16-rss" class="quarto-xref">معادلهٔ&nbsp;<span>16.3</span></a>):</p>
+<p><span class="math display">\[
+u_\text{c} = \sqrt{u_1^2 + u_2^2 + \dots + u_n^2}
+\]</span></p>
+<p><strong>توزیعِ وایبول</strong> (<a href="../chapters/03-mathematics.html#eq-ch03-weibull" class="quarto-xref">معادلهٔ&nbsp;<span>3.41</span></a>):</p>
+<p><span class="math display">\[
+f(v) = \frac{k}{c}\Big(\frac{v}{c}\Big)^{k-1} e^{-(v/c)^{k}}, \qquad
+F(v) = 1 - e^{-(v/c)^{k}}
+\]</span></p>
+<p><strong>برآوردِ احتمالِ فراگذشت</strong> (<a href="../chapters/16-uncertainty-yield.html#eq-ch16-pp" class="quarto-xref">معادلهٔ&nbsp;<span>16.7</span></a>):</p>
+<p><span class="math display">\[
+\begin{aligned}
+P_p &amp;= P_{50}\,(1 - z_p\, u) \\
+z_{0.75} = 0.674,\quad z_{0.90} &amp;= 1.2816,\quad z_{0.95} = 1.645,\quad z_{0.99} = 2.326
+\end{aligned}
+\]</span></p>
+<p><strong>تابعِ زیانِ چندکی</strong> (<a href="../chapters/15-energy-yield-losses.html#eq-ch15-pinball" class="quarto-xref">معادلهٔ&nbsp;<span>15.12</span></a>):</p>
+<p><span class="math display">\[
+L_\tau(q, y) = \max\{\tau (y - q),\ (\tau - 1)(y - q)\} .
+\]</span></p>
+<p><strong>احتمالِ دست‌کم یک رویدادِ پواسون</strong> (<a href="../chapters/54-applicable-requirements.html#eq-ch54-watch" class="quarto-xref">معادلهٔ&nbsp;<span>54.2</span></a>):</p>
+<p><span class="math display">\[
+\Pr(N \ge 1) = 1 - e^{-\lambda_\text{r} t}.
+\]</span></p>
+</section>
+<section id="مدار-الکتریکی-و-جریان-متناوب" class="level3" data-number="B.7.2">
+<h3 data-number="B.7.2" class="anchored" data-anchor-id="مدار-الکتریکی-و-جریان-متناوب"><span class="header-section-number">B.7.2</span> مدارِ الکتریکی و جریانِ متناوب</h3>
+<p><strong>توانِ الکتریکی</strong> (<a href="../chapters/06-dc-circuits-safety.html#eq-ch06-power" class="quarto-xref">معادلهٔ&nbsp;<span>6.8</span></a>):</p>
+<p><span class="math display">\[
+P = V\,I
+\]</span></p>
+<p><strong>افتِ ولتاژ و تلفِ رسانا</strong> (<a href="../chapters/06-dc-circuits-safety.html#eq-ch06-drop" class="quarto-xref">معادلهٔ&nbsp;<span>6.22</span></a>):</p>
+<p><span class="math display">\[
+\Delta V = R_\text{c}\,I
+\qquad
+P_\text{loss} = R_\text{c}\,I^2
+\qquad
+\frac{\Delta V}{V} = \frac{P_\text{loss}}{P}
+\]</span></p>
+<p><strong>زمانِ تخلیهٔ مدارِ مقاومت–خازن</strong> (<a href="../chapters/06-dc-circuits-safety.html#eq-ch06-rc-time" class="quarto-xref">معادلهٔ&nbsp;<span>6.19</span></a>):</p>
+<p><span class="math display">\[
+t = \tau\,\ln\frac{V_0}{V_\text{target}}
+\]</span></p>
+<p><strong>مقدارِ مؤثرِ موجِ سینوسی</strong> (<a href="../chapters/07-ac-three-phase.html#eq-ch07-rms-sine" class="quarto-xref">معادلهٔ&nbsp;<span>7.5</span></a>):</p>
+<p><span class="math display">\[
+I = \sqrt{\tfrac12 I_\text{m}^2} = \frac{I_\text{m}}{\sqrt2} \approx 0.7071\,I_\text{m}
+\]</span></p>
+<p><strong>توانِ سه‌فاز</strong> (<a href="../chapters/07-ac-three-phase.html#eq-ch07-p3" class="quarto-xref">معادلهٔ&nbsp;<span>7.23</span></a>):</p>
+<p><span class="math display">\[
+P = 3\,V_\text{ph}\,I\cos\varphi = \sqrt3\,V_\text{LL}\,I\cos\varphi, \qquad
+S = \sqrt3\,V_\text{LL}\,I
+\]</span></p>
+<p><strong>توانِ مختلط</strong> (<a href="../chapters/07-ac-three-phase.html#eq-ch07-pf" class="quarto-xref">معادلهٔ&nbsp;<span>7.37</span></a>):</p>
+<p><span class="math display">\[
+\text{pf} = \frac{P}{S}
+\]</span></p>
+<p><strong>مبناهای پریونیت</strong> (<a href="../chapters/07-ac-three-phase.html#eq-ch07-pu" class="quarto-xref">معادلهٔ&nbsp;<span>7.25</span></a>):</p>
+<p><span class="math display">\[
+I_\text{base} = \frac{S_\text{base}}{\sqrt3\,V_\text{base}}, \qquad
+Z_\text{base} = \frac{V_\text{base}^2}{S_\text{base}}, \qquad
+z = \frac{Z}{Z_\text{base}}
+\]</span></p>
+<p><strong>توانِ راکتیوِ لازم برای یک ضریبِ توان</strong> (<a href="../chapters/54-applicable-requirements.html#eq-ch54-q" class="quarto-xref">معادلهٔ&nbsp;<span>54.1</span></a>):</p>
+<p><span class="math display">\[
+Q_\text{req} = P \tan\varphi, \qquad \tan\varphi = \frac{\sqrt{1-\cos^2\varphi}}{\cos\varphi}.
+\]</span></p>
+</section>
+<section id="ماشین-و-الکترونیک-قدرت" class="level3" data-number="B.7.3">
+<h3 data-number="B.7.3" class="anchored" data-anchor-id="ماشین-و-الکترونیک-قدرت"><span class="header-section-number">B.7.3</span> ماشین و الکترونیکِ قدرت</h3>
+<p><strong>سرعتِ هم‌گام</strong> (<a href="../chapters/08-electrical-machines.html#eq-ch08-nsync" class="quarto-xref">معادلهٔ&nbsp;<span>8.4</span></a>):</p>
+<p><span class="math display">\[
+n_\text{s} = \frac{120\,f}{p}\ \ \text{rpm}
+\]</span></p>
+<p><strong>لغزش</strong> (<a href="../chapters/08-electrical-machines.html#eq-ch08-slip" class="quarto-xref">معادلهٔ&nbsp;<span>8.8</span></a>):</p>
+<p><span class="math display">\[
+s = \frac{n_\text{s} - n}{n_\text{s}}
+\]</span></p>
+<p><strong>دمای پیوندِ نیمه‌هادی</strong> (<a href="../chapters/09-power-electronics.html#eq-ch09-tj" class="quarto-xref">معادلهٔ&nbsp;<span>9.9</span></a>):</p>
+<p><span class="math display">\[
+T_j = T_\text{coolant} + P_\text{loss}\,(R_\text{jc} + R_\text{ch} + R_\text{hc}), \qquad
+Z_\text{th}(t) = \sum_i R_i\left(1 - e^{-t/\tau_i}\right)
+\]</span></p>
+</section>
+<section id="فتوولتائیک-و-منبع-خورشیدی" class="level3" data-number="B.7.4">
+<h3 data-number="B.7.4" class="anchored" data-anchor-id="فتوولتائیک-و-منبع-خورشیدی"><span class="header-section-number">B.7.4</span> فتوولتائیک و منبعِ خورشیدی</h3>
+<p><strong>مدلِ تک‌دیودیِ سلول و ماژول</strong> (<a href="../chapters/10-pv-modules-arrays.html#eq-ch10-sdm" class="quarto-xref">معادلهٔ&nbsp;<span>10.6</span></a>):</p>
+<p><span class="math display">\[
+I = I_\text{L} - I_0\left[\exp\!\left(\frac{V + I R_\text{s}}{a}\right) - 1\right] - \frac{V + I R_\text{s}}{R_\text{sh}},
+\qquad a = \frac{n N_\text{s} k_\text{B} T_\text{c}}{q}
+\]</span></p>
+<p><strong>ولتاژِ مدارِ باز</strong> (<a href="../chapters/10-pv-modules-arrays.html#eq-ch10-voc" class="quarto-xref">معادلهٔ&nbsp;<span>10.3</span></a>):</p>
+<p><span class="math display">\[
+V_\text{oc} = n V_t \ln\!\left(\frac{I_\text{L}}{I_0} + 1\right)
+\]</span></p>
+<p><strong>ضریبِ پرشدگی و بازده</strong> (<a href="../chapters/10-pv-modules-arrays.html#eq-ch10-ff" class="quarto-xref">معادلهٔ&nbsp;<span>10.4</span></a>):</p>
+<p><span class="math display">\[
+\text{FF} = \frac{V_\text{mp}\,I_\text{mp}}{V_\text{oc}\,I_\text{sc}}, \qquad
+\eta = \frac{P_\text{max}}{G\,A} = \frac{\text{FF}\,V_\text{oc}\,I_\text{sc}}{G\,A}
+\]</span></p>
+<p><strong>دمای ماژول</strong> (<a href="../chapters/10-pv-modules-arrays.html#eq-ch10-faiman" class="quarto-xref">معادلهٔ&nbsp;<span>10.10</span></a>):</p>
+<p><span class="math display">\[
+T_\text{c} = T_\text{a} + \frac{T_\text{NOCT} - 20}{800}\,G, \qquad
+T_\text{c} = T_\text{a} + \frac{G}{U_0 + U_1\,v}
+\]</span></p>
+<p><strong>نسبتِ عملکرد</strong> (<a href="../chapters/10-pv-modules-arrays.html#eq-ch10-pr" class="quarto-xref">معادلهٔ&nbsp;<span>10.18</span></a>):</p>
+<p><span class="math display">\[
+\text{PR} = \frac{E_\text{AC}}{P_\text{STC}\,H_\text{POA}/G_\text{STC}}, \qquad Y_\text{f} = \frac{E_\text{AC}}{P_\text{STC}}
+\]</span></p>
+<p><strong>تابشِ فرازمینیِ عمودی</strong> (<a href="../chapters/12-solar-resource.html#eq-ch12-g0n" class="quarto-xref">معادلهٔ&nbsp;<span>12.2</span></a>):</p>
+<p><span class="math display">\[
+G_\text{0n} = G_\text{sc}\left[1 + 0.033\cos\!\left(\frac{2\pi n}{365}\right)\right], \qquad G_\text{sc} = 1361\ \text{W/m}^2 ,
+\]</span></p>
+<p><strong>رابطهٔ بستنِ مؤلفه‌های تابش</strong> (<a href="../chapters/12-solar-resource.html#eq-ch12-closure" class="quarto-xref">معادلهٔ&nbsp;<span>12.4</span></a>):</p>
+<p><span class="math display">\[
+G_\text{h} = G_\text{b,n}\cos\theta_z + G_\text{d} .
+\]</span></p>
+<p><strong>نسبتِ عملکرد از بهره‌دهی‌ها</strong> (<a href="../chapters/37-performance-analytics.html#eq-ch37-pr" class="quarto-xref">معادلهٔ&nbsp;<span>37.1</span></a>):</p>
+<p><span class="math display">\[
+\text{PR} = \frac{Y_\text{f}}{Y_\text{r}} = \frac{E/P_\text{dc}}{H_\text{POA}/G_\text{stc}}
+\]</span></p>
+</section>
+<section id="باد-و-منبع-بادی" class="level3" data-number="B.7.5">
+<h3 data-number="B.7.5" class="anchored" data-anchor-id="باد-و-منبع-بادی"><span class="header-section-number">B.7.5</span> باد و منبعِ بادی</h3>
+<p><strong>توانِ باد</strong> (<a href="../chapters/11-wind-turbines.html#eq-ch11-pwind" class="quarto-xref">معادلهٔ&nbsp;<span>11.1</span></a>):</p>
+<p><span class="math display">\[
+P_\text{wind} = \tfrac12\,\rho\,A_\text{r}\,v^3
+\]</span></p>
+<p><strong>حدِ بتز</strong> (<a href="../chapters/11-wind-turbines.html#eq-ch11-betz" class="quarto-xref">معادلهٔ&nbsp;<span>11.2</span></a>):</p>
+<p><span class="math display">\[
+C_p = 4a(1-a)^2, \qquad C_T = 4a(1-a), \qquad C_{p,\max} = \frac{16}{27}\ \ \left(a = \tfrac13\right)
+\]</span></p>
+<p><strong>کمبودِ سرعت در دنباله (ینسن)</strong> (<a href="../chapters/11-wind-turbines.html#eq-ch11-jensen" class="quarto-xref">معادلهٔ&nbsp;<span>11.24</span></a>):</p>
+<p><span class="math display">\[
+\frac{\Delta v}{v} = \left(1 - \sqrt{1 - C_T}\right)\left(\frac{D}{D + 2 k_\text{w} x}\right)^2
+\]</span></p>
+<p><strong>نیم‌رخِ سرعتِ باد</strong> (<a href="../chapters/13-wind-measurement.html#eq-ch13-profiles" class="quarto-xref">معادلهٔ&nbsp;<span>13.1</span></a>):</p>
+<p><span class="math display">\[
+v(z) = v_\text{ref}\left(\frac{z}{z_\text{ref}}\right)^{\alpha}, \qquad
+v(z) = \frac{u_*}{\kappa}\ln\frac{z}{z_0} ,
+\]</span></p>
+<p><strong>شدتِ آشفتگی</strong> (<a href="../chapters/13-wind-measurement.html#eq-ch13-ti" class="quarto-xref">معادلهٔ&nbsp;<span>13.2</span></a>):</p>
+<p><span class="math display">\[
+I = \frac{\sigma_v}{\bar v} .
+\]</span></p>
+</section>
+<section id="ذخیرهسازی" class="level3" data-number="B.7.6">
+<h3 data-number="B.7.6" class="anchored" data-anchor-id="ذخیرهسازی"><span class="header-section-number">B.7.6</span> ذخیره‌سازی</h3>
+<p><strong>شمارشِ کولن برای وضعیتِ شارژ</strong> (<a href="../chapters/19-battery-storage.html#eq-ch19-coulomb" class="quarto-xref">معادلهٔ&nbsp;<span>19.4</span></a>):</p>
+<p><span class="math display">\[
+\widehat{\text{SOC}}(t) = \text{SOC}_0 - \frac{1}{3600\,Q}\int_0^t \bigl(k\,i(\tau) + b\bigr)\,d\tau
+\]</span></p>
+</section>
+<section id="کابل-ترانسفورماتور-حفاظت-و-شبکه" class="level3" data-number="B.7.7">
+<h3 data-number="B.7.7" class="anchored" data-anchor-id="کابل-ترانسفورماتور-حفاظت-و-شبکه"><span class="header-section-number">B.7.7</span> کابل، ترانسفورماتور، حفاظت و شبکه</h3>
+<p><strong>افتِ ولتاژِ سه‌فاز</strong> (<a href="../chapters/24-cables-switchgear.html#eq-ch24-drop" class="quarto-xref">معادلهٔ&nbsp;<span>24.4</span></a>):</p>
+<p><span class="math display">\[
+\Delta U = \sqrt{3}\, I L\,(R\cos\varphi + X\sin\varphi)
+\]</span></p>
+<p><strong>سطحِ مقطعِ کمینه برای اتصالِ کوتاه</strong> (<a href="../chapters/24-cables-switchgear.html#eq-ch24-adiabatic" class="quarto-xref">معادلهٔ&nbsp;<span>24.5</span></a>):</p>
+<p><span class="math display">\[
+S \geq \frac{I_\text{k}\sqrt{t}}{k}
+\]</span></p>
+<p><strong>بازدهِ ترانسفورماتور</strong> (<a href="../chapters/25-transformers-substations.html#eq-ch25-efficiency" class="quarto-xref">معادلهٔ&nbsp;<span>25.3</span></a>):</p>
+<p><span class="math display">\[
+\eta = \frac{k S \cos\varphi}{k S \cos\varphi + P_0 + k^2 P_\text{k}}
+\]</span></p>
+<p><strong>تنظیمِ ولتاژِ ترانسفورماتور</strong> (<a href="../chapters/25-transformers-substations.html#eq-ch25-regulation" class="quarto-xref">معادلهٔ&nbsp;<span>25.2</span></a>):</p>
+<p><span class="math display">\[
+\varepsilon \approx u_r\cos\varphi + u_x\sin\varphi + \frac{(u_x\cos\varphi - u_r\sin\varphi)^2}{200}
+\]</span></p>
+<p><strong>رلهٔ جریانیِ زمانِ معکوس</strong> (<a href="../chapters/26-protection-grounding-lightning.html#eq-ch26-idmt" class="quarto-xref">معادلهٔ&nbsp;<span>26.6</span></a>):</p>
+<p><span class="math display">\[
+t = \text{TMS}\,\frac{k}{(I/I_\text{s})^{\alpha} - 1}
+\]</span></p>
+<p><strong>اعوجاجِ هارمونیکی</strong> (<a href="../chapters/27-power-quality.html#eq-ch27-thd" class="quarto-xref">معادلهٔ&nbsp;<span>27.1</span></a>):</p>
+<p><span class="math display">\[
+\begin{aligned}
+\mathrm{THD} &amp;= \frac{\sqrt{\sum_{h \ge 2} I_h^2}}{I_1} \\
+\mathrm{TDD} &amp;= \frac{\sqrt{\sum_{h \ge 2} I_h^2}}{I_\text{L}}
+\end{aligned}
+\]</span></p>
+<p><strong>نسبتِ اتصالِ کوتاهِ وزنی</strong> (<a href="../chapters/28-grid-studies.html#eq-ch28-wscr" class="quarto-xref">معادلهٔ&nbsp;<span>28.8</span></a>):</p>
+<p><span class="math display">\[
+\mathrm{WSCR} = \frac{\sum_i S_{\text{sc},i}\,P_i}{\left(\sum_i P_i\right)^{2}}
+\]</span></p>
+</section>
+<section id="قابلیت-اطمینان-و-نگهداری" class="level3" data-number="B.7.8">
+<h3 data-number="B.7.8" class="anchored" data-anchor-id="قابلیت-اطمینان-و-نگهداری"><span class="header-section-number">B.7.8</span> قابلیتِ اطمینان و نگهداری</h3>
+<p><strong>دسترس‌پذیری</strong> (<a href="../chapters/52-maintenance-ram.html#eq-ch52-avail" class="quarto-xref">معادلهٔ&nbsp;<span>52.1</span></a>):</p>
+<p><span class="math display">\[
+A_\text{i} = \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}}, \qquad
+A_\text{o} = \frac{\text{MTBM}}{\text{MTBM} + \text{MDT}}
+\]</span></p>
+<p><strong>جفتِ افزونه با علتِ مشترک</strong> (<a href="../chapters/52-maintenance-ram.html#eq-ch52-ccf" class="quarto-xref">معادلهٔ&nbsp;<span>52.5</span></a>):</p>
+<p><span class="math display">\[
+Q_\text{pair} = \bigl((1 - \beta_\text{c})\,q\bigr)^2 + \beta_\text{c}\,q
+\]</span></p>
+<p><strong>فاصلهٔ آزمونِ خرابیِ پنهان</strong> (<a href="../chapters/52-maintenance-ram.html#eq-ch52-hidden" class="quarto-xref">معادلهٔ&nbsp;<span>52.7</span></a>):</p>
+<p><span class="math display">\[
+T \approx \frac{2U}{\lambda}
+\]</span></p>
+</section>
+<section id="اقتصاد-و-مالی" class="level3" data-number="B.7.9">
+<h3 data-number="B.7.9" class="anchored" data-anchor-id="اقتصاد-و-مالی"><span class="header-section-number">B.7.9</span> اقتصاد و مالی</h3>
+<p><strong>ضریبِ اقساط و بازیابیِ سرمایه</strong> (<a href="../chapters/03-mathematics.html#eq-ch03-annuity" class="quarto-xref">معادلهٔ&nbsp;<span>3.7</span></a>):</p>
+<p><span class="math display">\[
+\begin{aligned}
+\text{AF}(r, n) &amp;= \frac{1 - (1 + r)^{-n}}{r} \\
+\text{CRF}(r, n) &amp;= \frac{1}{\text{AF}(r, n)}
+\end{aligned}
+\]</span></p>
+<p><strong>ارزشِ فعلیِ خالص و نرخِ بازده</strong> (<a href="../chapters/21-economics-contracts.html#eq-ch21-npv" class="quarto-xref">معادلهٔ&nbsp;<span>21.6</span></a>):</p>
+<p><span class="math display">\[
+\text{NPV} = \sum_{t} \frac{C_t}{(1+r)^t}, \qquad \text{NPV}(\text{IRR}) = 0
+\]</span></p>
+<p><strong>هزینهٔ ترازشدهٔ انرژی</strong> (<a href="../chapters/21-economics-contracts.html#eq-ch21-lcoe" class="quarto-xref">معادلهٔ&nbsp;<span>21.7</span></a>):</p>
+<p><span class="math display">\[
+\text{LCOE} = \frac{\text{CAPEX} + \sum_t \dfrac{\text{OPEX}_t + \text{REPL}_t}{(1+r)^t}}{\sum_t \dfrac{E_t}{(1+r)^t}}
+\]</span></p>
+<p><strong>میانگینِ موزونِ هزینهٔ سرمایه</strong> (<a href="../chapters/21-economics-contracts.html#eq-ch21-wacc" class="quarto-xref">معادلهٔ&nbsp;<span>21.5</span></a>):</p>
+<p><span class="math display">\[
+\text{WACC} = \frac{E}{V}\,r_\text{e} + \frac{D}{V}\,r_\text{d}\,(1 - \tau_\text{tax})
+\]</span></p>
+<p><strong>نسبت‌های پوششِ بدهی</strong> (<a href="../chapters/21-economics-contracts.html#eq-ch21-ratios" class="quarto-xref">معادلهٔ&nbsp;<span>21.10</span></a>):</p>
+<p><span class="math display">\[
+\text{DSCR}_t = \frac{\text{CFADS}_t}{I_t + P_t}, \qquad
+\text{LLCR}_t = \frac{\sum_{k=t}^{n_\text{d}} \text{CFADS}_k\,(1+r_\text{d})^{-(k-t+1)}}{B_t}
+\]</span></p>
+<p><strong>پرداختِ صندوقِ ذخیره</strong> (<a href="../chapters/53-repowering-retirement.html#eq-ch53-fund" class="quarto-xref">معادلهٔ&nbsp;<span>53.3</span></a>):</p>
+<p><span class="math display">\[
+p = F\,\frac{i}{(1+i)^n - 1}
+\]</span></p>
+<p><strong>نرخِ بهرهٔ افزوده برای مالیاتِ تکلیفی</strong> (<a href="../chapters/54-applicable-requirements.html#eq-ch54-gross" class="quarto-xref">معادلهٔ&nbsp;<span>54.4</span></a>):</p>
+<p><span class="math display">\[
+r_\text{g} = \frac{r}{1 - w}.
+\]</span></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "کپی شد");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "کپی شد");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation" aria-label="Page">
+  <div class="nav-page nav-page-previous">
+      <a href="../appendices/A-glossary-notation.html" class="pagination-link" aria-label="واژه‌نامهٔ فارسی–انگلیسی، نمادها و کوته‌نوشت‌ها">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">واژه‌نامهٔ فارسی–انگلیسی، نمادها و کوته‌نوشت‌ها</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../appendices/C-drawing-symbols.html" class="pagination-link" aria-label="نمادهای نقشه و قراردادهای نمودارِ تک‌خطی">
+        <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">نمادهای نقشه و قراردادهای نمودارِ تک‌خطی</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

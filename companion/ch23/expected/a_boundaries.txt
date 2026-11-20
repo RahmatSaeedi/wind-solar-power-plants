@@ -1,0 +1,6 @@
+ownership boundaries and the isolation point at each:
+  =E1-Q9   plant | open (U-065): isolation point
+  =G1-Q9   open (U-065) | utility: isolation point
+  two boundaries, both at disconnectors on the line; who owns
+  the line between them is open (U-065): the drawing marks it
+  open, it does not guess

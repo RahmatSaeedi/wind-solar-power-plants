@@ -1,0 +1,15 @@
+three temperature sensors; C drifts to +5 K over 10 min from
+  minute 30 (synthetic, noise 0.2 K each)
+  error of the average once C has drifted: 1.67 K
+  error of the median once C has drifted:  0.16 K
+  deviation alarm |A - B| > 3 x sqrt(2) x sigma, healthy pair:
+    theory 9.7 a hour at 1 s; simulated over a day 9.3 a hour
+    with 10 s of persistence: 0 in the day
+  sensor C flagged (10 s held) 146 s after it began to drift,
+    at about 1.22 K off
+  the median ignores one wild sensor where the average
+  follows it a third of the way; the deviation alarm that
+  tells which one drifted needs a threshold from the
+  combined uncertainty and a persistence time, or it
+  chatters on noise; real noise is correlated from sample
+  to sample, so the persistence is tuned on recorded data

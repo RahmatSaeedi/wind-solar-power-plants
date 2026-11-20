@@ -1,0 +1,15 @@
+a converter's measured 5th current: its own emission plus the current
+  the grid's background 5th voltage drives into its filter (teaching)
+  background V5 %   converter Z5 pu   driven %   measured % (random sum)
+              0.5              0.15        3.3                      3.5
+              0.5              0.40        1.2                      1.7
+              1.0              0.15        6.7                      6.8
+              1.0              0.40        2.5                      2.8
+              2.0              0.15       13.3                     13.4
+              2.0              0.40        5.0                      5.1
+  with a low-impedance output filter most of the 'emission'
+  measured at the terminals is the grid's background flowing
+  in: the converter acts as a sink, not a source; an emission
+  test is done with the background known (or measured before
+  and after), and the maker's harmonic impedance is part of
+  the evidence

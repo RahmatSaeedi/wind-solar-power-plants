@@ -1,0 +1,10 @@
+what a clock error does to the reading:
+  if the incomer's recorder ran 40 ms slow, its open would read 0.676 s
+  breaker failure at 0.655 s and the incomer open 0.021 s later:
+  an opening time shorter than any breaker's - the reader
+  would suspect the breaker-failure logic, not the clocks
+  so every recorder takes its time from one source (a
+  satellite clock with a network time protocol); the record
+  of time quality is part of the evidence
+  a check: an event every recorder sees (the fault's start)
+  must carry the same time in all of them

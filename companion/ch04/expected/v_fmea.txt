@@ -1,0 +1,14 @@
+process FMEA, busbar bolted joint: RPN = severity x occurrence x detection
+  (scores 1..10 assumed, A-086; higher = worse)
+  failure mode                          S  O  D   RPN
+  hot joint missed by thermography      8  4  7   224
+  dirty or oxidised contact surface     8  4  6   192
+  low bolt preload                      8  5  4   160
+  Al-Cu contact without transition      7  3  5   105
+  wrong washer type                     6  3  3    54
+after actions (detection improved for the two highest):
+  dirty or oxidised contact surface: D 6 -> 3, RPN 192 -> 96 (cleaning step
+    with sign-off)
+  hot joint missed by thermography: D 7 -> 3, RPN 224 -> 96 (taped targets,
+    load record)
+  RPN ranks attention; a severity-10 mode deserves action whatever its RPN

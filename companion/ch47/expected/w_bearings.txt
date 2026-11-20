@@ -1,0 +1,11 @@
+tracker bearing gap set at installation, end bearing 30 m from the fixed point
+  (tube from -10 to 70 C; steel alpha 1.2e-05)
+  install C   room to grow mm   room to shrink mm
+          5              23.4                 5.4
+         20              18.0                10.8
+         35              12.6                16.2
+         50               7.2                21.6
+  the same bearing set at noon and at dawn needs different
+  room on each side: the installer reads the tube temperature
+  and sets the gap from this table - and writes both down, so
+  the record explains any bearing found tight later (round s)

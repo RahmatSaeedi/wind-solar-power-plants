@@ -1,0 +1,8 @@
+outdoor cabinet, air sealed in at 30 C and 50 % in the evening:
+  dew point 18.4 C (Magnus); night low outside 14 C
+  cabinet with its own 2 K of device heat: 5.8 h a night below the dew point
+  with a heater of up to 6 K held 3 K above the dew point: 0.0 h
+  water condenses on the coldest surface - terminals and the
+  door - in the hours around 03:00; a heater with a thermostat
+  and a breather keep the cabinet above the dew point, and
+  the heater circuit is on the FAT list like any other

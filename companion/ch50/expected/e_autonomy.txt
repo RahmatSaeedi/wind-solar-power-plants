@@ -1,0 +1,9 @@
+autonomy tests on the real load (results from the approved procedure)
+  UPS-1 at 6.4 kW: 26 min against 30 required - FAIL
+  110 V station battery at 42 A: 4.6 h against 4.0 h required,
+    but the voltage at the end was 95 V against the 96 V the loads need
+    - FAIL: the hours were there, the volts were not
+  an autonomy test has two criteria, time and the lowest
+  voltage the loads accept (ch 23 battery sizing); the UPS
+  becomes DEV-14, the battery a retest after the string is
+  checked cell by cell

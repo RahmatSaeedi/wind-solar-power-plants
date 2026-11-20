@@ -1,0 +1,55 @@
+P03 energy: 14.30 kW x 6 h = 85.8 kWh
+P09 48 V into 12 ohm: I = 4.0 A, P = 192 W
+P10 10||15||30 = 5.00 ohm; total = 10.00 ohm; I = 2.40 A; branch currents
+    1.20, 0.80, 0.40 A (V across = 12.00 V)
+P11 250 m of 6 mm2 Cu: R20 = 0.7167 ohm, R70 = 0.8575 ohm
+P12 node voltage = 12.0000 V; current in the 3 ohm resistor = 0.0000 A
+P13 V_th = 8.000 V, R_th = 2.0000 ohm; P_max = V_th^2/(4 R_th) = 8.000 W
+P13 with 8 ohm: I = 0.800 A, P = 5.120 W, efficiency = 0.80
+P14 R_s = 20.0 mOhm; V(150 A) = 48.20 V; internal loss = 450 W
+P15 loop R = 0.1341 ohm; drop = 2.681 V = 22.3 %; loss = 53.6 W
+P16 area for 3 % = 29.79 mm2 -> 35 mm2 (drop 2.55 %)
+P17 6 mm2 Cu: R20 = 2.867 mOhm/m; I_c = 140.4 A
+P18 V_oc 27 modules at -15 C = 1492.8 V; max modules for 1500 V at -15 C = 27
+P19 4 strings: backfeed = 3 x 13.98 = 41.94 A vs 25 A
+P20 +-(0.2 % x 1076.0 + 1 x 0.1) = +-2.25 V
+P21 see feeder_report: Cu 185 mm2 -> 1.08 %, Cu 240 mm2 -> 0.83 %; Al 300 ->
+    1.09 %, Al 400 -> 0.82 %
+P22 saving per feeder = 1686 kWh/yr; x 175 = 295 MWh/yr; over 25 years = 7.38
+    GWh
+P23 V_mp(70 C) ~ 958 V vs assumed MPPT minimum 850 V: margin 108 V
+P24 40 ohm: 559 V, 13.97 A, 7.81 kW; best resistor 82.6 ohm (examples E17)
+P25 113 degraded connectors x 3.44 W = 388 W at STC
+P26 loop resistance to expect = 47.41 mOhm at 50 C; at 20 C = 42.30 mOhm; at
+    10 A test current the drop is 423 mV
+P40 23 June 12:00, GHI = 1030.3 W/m2: P_dc = 343.2 kWp x 1.0303 x 0.85 = 300.6
+    kW; I = 275.5 A
+P29 16 strings: I = 209.76 A; area for 1 % = 145.9 mm2 -> 150 mm2; drop 10.61
+    V (0.97 %), loss 2225 W
+P31 V_oc/module at -25 C = 56.636 V -> 26 modules (1472.5 V); V_mp at 75 C ~
+    943.7 V vs 850 V
+P36 1000 V system: 18 modules/string, V_mp = 755.3 V; same 343.2 kW -> I =
+    454.4 A; loss 9790 W = 2.85 % (was 1.37 %); strings for 60 MWp = 6061
+P39 one string of 24 missing: 4.17 % less power; 2 % is about half a string
+P45 R_ins 250 m = 6.00 GOhm (100 m: 15.00); r2 2.9 -> 4.67 mm multiplies R_ins
+    by 1.506
+P46 PT100 at 75 C: R = 128.875 ohm, bridge output = 315.40 mV; 0.5 ohm of lead
+    = 1.30 C error
+P47 mesh: 9 Ia - 6 Ib = 12, -6 Ia + 12 Ib = 0 -> Ia = 2.000 A, Ib = 1.000 A;
+    load 4 ohm: 4.00 V
+P48 4.7 mF at 800 V: E = 1504 J; tau = 470 s; to 50 V: 1303 s = 21.7 min
+P49 200 uH at 400 A: E = 16 J
+P50 95 mm2 Cu, 12 kA: t = 1.28 s; 20 kA for 0.5 s needs 98.9 mm2 -> 120 mm2
+P51 160 m, 2.5 mm2, 6 A: drop 13.73 V; coil sees 81.27 V (needs 80 V)
+P52 A* = 342 mm2; price x2 -> 484; cable cost x2 -> 242 mm2
+P53 T_cell = 38 + 25/800 x 950 = 67.7 C
+P54 shares: 150 A and 100 A
+P55 6 mm2 strings + 240 mm2 feeder: 0.29 + 0.74 = 1.03 %; 6 mm2 + 400 mm2:
+    0.29 + 0.45 = 0.74 % (from ex_dcbudget)
+P57 2 m2 loop, 100 m: dB/dt = 60 T/s -> v = 120 V
+P58 Euler dt = 0.05 s: error -0.00336 V (dt = 0.1 s: -0.00672 V)
+P59 bleeder for 50 V within 300 s: R <= 9705 ohm; continuous loss at 1100 V =
+    124.7 W (50 kOhm: 24.2 W)
+P60 3 coils = 15 A, allowed drop 16.5 V: A >= 8.13 mm2 -> 10 mm2
+P62 6 mm2 instead of 4 mm2 saves 34.6 kWh per string per year; x 4196 = 145
+    MWh/yr

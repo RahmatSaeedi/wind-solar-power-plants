@@ -1,0 +1,15 @@
+dust control on the site roads: water against speed and binders
+  (teaching: emission in proportion to speed; watering at 1.5 L/m2
+   a day removes 75 %, half that rate 50 %, a binder 80 %)
+  option                                   emission %   water m3
+  no control, 50 km/h                              100          0
+  watering, 50 km/h (lesson G)                      25     75,600
+  speed 30 km/h, watering                           15     75,600
+  speed 30 km/h, half the watering                  30     37,800
+  binder on main track (40 % of traffic)            14     45,360
+    + speed 30 km/h elsewhere
+  a lower speed is the cheapest control: half the watering
+  at 30 km/h gives about the dust of full watering at 50
+  and saves nearly 38,000 m3; a binder on the busiest
+  stretch with the lower speed gives the least dust of all
+  on 40 % less water - and less wear (lesson M)

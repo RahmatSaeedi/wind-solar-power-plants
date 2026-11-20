@@ -1,0 +1,14 @@
+one 33 kV feeder, 5 km, half the plant output, pf 0.95, data pack 1.0.0, S0
+  R = 0.125 ohm/km at 240 mm2 (A-032), scaled as 1/area (assumption)
+  cable cost 5 km x (60 000 + 300 A) units; losses valued 40 units/MWh;
+  25 years at 7 % (annuity factor 11.654); all money fictional (A-038)
+  area   capex     loss    loss    PV of losses   total
+  (mm2)  (k)      (MWh/y) (%)     (k)            (k)
+    240     660      2268   1.57         1057      1717
+    300     750      1814   1.25          846      1596
+    400     900      1361   0.94          634      1534
+    500    1050      1089   0.75          507      1557
+    630    1245       864   0.60          403      1648
+  2 x 150 mm2 in parallel: capex 1050 k, losses as 300 mm2 -> dominated
+  Kelvin optimum (d total / dA = 0): A* = sqrt(k / (L c1)) = 411 mm2
+  cheapest standard size: 400 mm2; thermal minimum stays 240 mm2

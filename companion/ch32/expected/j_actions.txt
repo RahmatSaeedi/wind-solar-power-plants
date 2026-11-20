@@ -1,0 +1,18 @@
+lessons learned: the eleven actions at day 90
+  id   action                                    due  status
+  A1   second trained rescuer on each crew         60  closed, evidence
+  A2   night on-call team within 30 min            90  open
+  A3   satellite phone in every duty vehicle       30  closed, evidence
+  A4   second ambulance route agreed               45  closed, claimed
+  A5   visitor log reconciled weekly               30  closed, evidence
+  A6   guide for services at the gate              30  closed, claimed
+  A7   village told of night traffic               14  closed, evidence
+  A8   debrief and crew support held               14  closed, evidence
+  A9   one owner for the link fallback             30  closed, evidence
+  A10  village-call script in the control room     30  overdue
+  A11  fixes tested in the next table-top         120  open
+  reported closed: 8 of 11 (73%); closed with evidence: 6 of 11 (55%)
+  claimed only: A4, A6; overdue: A10
+  the next table-top tests the claimed closures first; a
+  fix counts when the exercise shows it working, not when
+  the tracker says closed

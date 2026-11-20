@@ -1,0 +1,17 @@
+intrusion alarm at the substation control building, 02:10
+  notification                   target  actual  status
+  control room acknowledges           5       2  ok
+  police informed                    15      21  LATE
+  on-call manager                    15      10  ok
+  OT incident lead (ch 36)           30     390  LATE
+  grid operator *                    60       -  not needed
+  insurer (as the policy states)   2880    1980  ok
+  * only if export or protection is affected (it was not)
+  late: 2 - police informed; OT incident lead (ch 36)
+  cause of the long delay: the OT lead was not on the call
+  list; fix: add the role, and make 'entry to a control
+  building' a trigger in the OT response plan (ch 36)
+  the OT check found the configuration matching its
+  baseline; door and alarm logs were exported and kept
+  unchanged for the police; no one entered the building
+  until the police and the electrical authority allowed it

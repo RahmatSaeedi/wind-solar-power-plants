@@ -1,0 +1,13 @@
+month-by-month plan from the approval map (teaching durations)
+  step  start  finish  what
+  S1      0.0     2.0  eligibility and technical competence (SATBA)
+  S2      2.0     6.0  national land allocation and land-use change
+  S5      2.0     8.0  connection application and studies
+  S3      6.0     6.5  DOE inquiry after allocation (one week)
+  S7      6.0     9.0  water-use permit for construction and cleaning
+  S4      6.5     8.5  construction permit
+  S6      8.0    10.0  connection agreement or commitment letter
+  S8      8.5    11.5  sale route: Art 61 contract, green board or bilateral
+  S9      8.5    10.5  import-order registration and FX allocation
+  month 0: S1 and every letter of section D;
+  the written answers decide whether these months hold

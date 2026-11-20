@@ -1,0 +1,19 @@
+% Chapter 37 - share of main bearings failed against age on the Weibull fit (k 2.89, scale 56,180 h)
+% with the end of the record at 50,000 h (examples_f; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=105mm, height=60mm, xmin=0, xmax=100, ymin=0, ymax=1.05,
+      xlabel={سن (هزار ساعت)}, ylabel={سهمِ خراب‌شده}, ytick={0,0.25,0.5,0.75,1},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[sWind, domain=0:100, samples=80] {1-exp(-(x/56.18)^2.89)};
+    \addplot[sLoad, domain=0:100, samples=60] {1-exp(-x/84.43)};
+    \legend{وایبول (رو به فرسودگی), نرخِ ثابت روی همان سابقه}
+    \draw[sLimit] (axis cs:50,0) -- (axis cs:50,1.0);
+    \node[note, anchor=south] at (axis cs:50,1.0) {پایانِ سابقه};
+    \draw[sLimit] (axis cs:80,0) -- (axis cs:80,0.94);
+    \node[note, anchor=west] at (axis cs:81,0.90) {$94\,\%$};
+    \node[note, anchor=west] at (axis cs:81,0.57) {$61\,\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

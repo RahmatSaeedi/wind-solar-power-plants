@@ -1,0 +1,26 @@
+% Chapter 6 — a changing magnetic field induces a voltage proportional to the loop area.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  % lightning channel
+  \draw[cLoss, line width=1.2pt, decorate, decoration={zigzag, segment length=3mm, amplitude=1mm}] (0,4.2) -- (0,0);
+  \node[note, text=cInk, anchor=south] at (0,4.3) {کانالِ صاعقه، $i(t)$};
+  \foreach \r in {0.6,1.1,1.6}{\draw[cInkB, line width=0.4pt, dash pattern=on 2pt off 2pt] (0,2.1) ellipse (\r*0.35 and \r);}
+  \draw[dimline] (0.15,-0.3) -- (3.4,-0.3) node[note, midway, below] {$d$};
+  % large loop: + and - routed apart
+  \draw[cInk, line width=0.8pt] (3.4,3.6) -- (7.4,3.6);
+  \draw[cInk, line width=0.8pt] (3.4,0.6) -- (7.4,0.6);
+  \draw[cInk, line width=0.8pt] (3.4,3.6) -- (3.4,0.6);
+  \fill[cLoss!10] (3.45,0.65) rectangle (7.35,3.55);
+  \node[note, text=cInk] at (5.4,2.1) {حلقهٔ بزرگ: $A = 10\,\text{m}^2$\\$\approx 1200\,\text{V}$};
+  \node[note, text=cInk, anchor=west] at (7.5,3.6) {$+$};
+  \node[note, text=cInk, anchor=west] at (7.5,0.6) {$-$};
+  % small loop: + and - together
+  \draw[cInk, line width=0.8pt] (9.0,2.2) -- (13.0,2.2);
+  \draw[cInk, line width=0.8pt] (9.0,2.0) -- (13.0,2.0);
+  \draw[cInk, line width=0.8pt] (9.0,2.2) -- (9.0,2.0);
+  \node[note, text=cInk, anchor=north] at (11.0,1.85) {$+$ و $-$ کنارِ هم: $A = 0.1\,\text{m}^2$، $\approx 12\,\text{V}$};
+  \node[note, text=cInk, anchor=north, text width=120mm, align=center] at (6.8,-0.9)
+       {\mbox{$v = A\,\dfrac{\mathrm{d}B}{\mathrm{d}t}$} و \mbox{$B = \dfrac{\mu_0 i}{2\pi d}$}: ولتاژِ القایی با مساحتِ حلقه متناسب است (مقادیرِ صاعقه نمایشی‌اند؛ فصلِ ۲۶).};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,10 @@
+load shedding in priority order as the island runs short:
+  source MW   loads kept (priority <= )   load MW   shed MW
+        5.0                          3      4.67      0.00
+        2.5                          2      1.57      3.10
+        1.2                          1      1.05      3.62
+        0.5                          0      0.00      4.67
+  priority 1 loads are never shed by the controller; if the
+  source cannot carry them, the island is not formed and the
+  safety systems run on their own batteries (UPS); the list
+  and its priorities are an operator decision (chapter 51)

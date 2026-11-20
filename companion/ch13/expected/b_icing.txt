@@ -1,0 +1,7 @@
+icing exposure of the mast year:
+  ten-minute records below +1 C: 2,970 (5.7 % of the year)
+  injected icing events: 288 records (6 x 8 h)
+  detection by 'almost no variability while cold' finds the
+  start of each event; the end is missed when the air warms
+  before the ice melts (lab D); heated cups and vanes and a
+  second, differently heated sensor make the gaps smaller

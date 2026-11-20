@@ -1,0 +1,7 @@
+weights of 30 blades from one mould (t, individuals chart)
+  centre 22.010 t, upper limit 22.132 t (from blades 1-15)
+  first blade above the limit: 20
+  heavier blades from blade 19: more resin taken up - a
+  bag, an inlet or a fabric batch has changed; the weight is
+  the cheapest process signal a blade factory has, and it
+  also moves the set matching (lesson B)

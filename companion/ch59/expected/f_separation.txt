@@ -1,0 +1,11 @@
+four claims a service offer must keep apart (ch 59 F)
+  forecast skill               shown
+      proof: archived forecasts scored by horizon (ch 15, 37)
+  technical capability         partly shown
+      proof: model and plant tests of the PPC and battery (ch 20, 50)
+  contractual qualification    not offered
+      proof: the operator's prequalification test (ch 20, 51)
+  delivered performance        none yet
+      proof: settlement data, activations met (ch 51)
+  a good forecast is not a qualified service; a capable plant
+  is not a delivered one - the base case books no service revenue

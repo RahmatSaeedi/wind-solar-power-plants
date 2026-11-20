@@ -1,0 +1,13 @@
+winding clamped with 2.0 MN; pressboard spacers 300 mm in all (teaching)
+  clamping stiffness 0.25 MN per mm of stack shortening
+  shrink %   stack shortens mm   force left MN   share
+       0.0                 0.0            2.00    100%
+       0.5                 1.5            1.62     81%
+       1.0                 3.0            1.25     62%
+       2.0                 6.0            0.50     25%
+       3.0                 9.0            0.00      0%
+  pressboard that dries in the tank shrinks, and the clamping
+  it carried goes with it; a winding that is not held moves
+  in the first short circuit - pre-shrunk board and clamping
+  checked after drying are the controls, the clamping record
+  is the evidence (traveler, active part)

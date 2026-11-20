@@ -1,0 +1,11 @@
+day-ahead bid that knows short costs more than long:
+  best quantile = long / (short + long) = 0.25
+  bid                      energy bid GWh   penalty k u (Sep-Dec)
+  forecast as is                    101.7            424
+  median by bin                     100.6            411
+  quantile 0.25 by bin               86.7            355
+  bidding low lowers the penalty although less energy is
+  sold ahead: the rest is sold as 'long' at a small
+  discount; the rule is chapter 15's newsvendor applied by
+  the scheduling function, and it holds only while the
+  penalties stay as assumed (A-301)

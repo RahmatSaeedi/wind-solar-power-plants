@@ -1,0 +1,10 @@
+factory heat run, hottest module temperature (A-179):
+  limit 90 C; expanded uncertainty 1.5 K (k 2); acceptance
+  below 90 - 1.5 = 88.5 C (guard band, chapter 2)
+  unit A: final 86.2 C, slope in the last hour +0.22 K/h
+    -> accept
+  unit B: final 88.8 C, slope in the last hour +0.08 K/h
+    -> not proven (guard band)
+  a reading below the limit is not yet a pass: with the
+  uncertainty it may lie above it; the contract states the
+  decision rule before the test (chapter 2, conformity)

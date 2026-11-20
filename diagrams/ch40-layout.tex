@@ -1,0 +1,39 @@
+% Chapter 40 - two hall layouts of the skid line along a 140 m hall: as built (store at one end,
+% S1 out of order) and a straight line; arrows are the moves of one skid, labelled by count where
+% more than one (companion/ch40/examples_u.py LAYOUTS and FLOW, u_layout: 360 m vs 220 m).
+% Scale 0.08 cm a metre.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\footnotesize,
+    ar/.style={blk, minimum width=9mm, minimum height=6mm, inner sep=1pt},
+    mv/.style={-{Stealth[length=1.6mm]}, line width=0.7pt, draw=cWind},
+    mvs/.style={-{Stealth[length=1.6mm]}, line width=0.7pt, draw=cLoss}]
+  % row 1: as built (y = 0)
+  \node[anchor=east, text=cInkB] at (-0.6,0) {وضعِ موجود: ۳۶۰ متر};
+  \foreach \n/\x in {store/0, S2/1.6, S3/3.2, S1/4.8, S4/6.4, S5/8.0, S6/9.6, yard/11.2} {
+    \node[ar] (a\n) at (\x,0) {\n};
+  }
+  \draw[mvs] (astore) to[bend left=35] (aS1);
+  \draw[mvs] (aS1) to[bend left=30] (aS2);
+  \draw[mv] (astore) to[bend left=25] node[above, font=\scriptsize] {۳} (aS2);
+  \draw[mv] (aS2) -- (aS3);
+  \draw[mv] (astore) to[bend right=30] node[below, font=\scriptsize] {۲} (aS3);
+  \draw[mvs] (aS3) to[bend right=30] (aS4);
+  \draw[mv] (aS4) -- (aS5); \draw[mv] (aS5) -- (aS6); \draw[mv] (aS6) -- (ayard);
+  % row 2: straight line (y = -3)
+  \node[anchor=east, text=cInkB] at (-0.6,-3) {خطِ راست: ۲۲۰ متر};
+  \foreach \n/\x in {S1/0, S2/1.6, S3/3.2, S4/4.8, S5/6.4, S6/8.0, yard/9.6} {
+    \node[ar] (b\n) at (\x,-3) {\n};
+  }
+  \node[ar] (bstore) at (0.8,-3.95) {store};
+  \draw[mv] (bS1) to[bend right=40] (bS2);
+  \draw[mv] (bstore) -- node[below right, font=\scriptsize] {۳} (bS2);
+  \draw[mv] (bS2) -- (bS3);
+  \draw[mv] (bstore) to[bend right=20] node[below, font=\scriptsize] {۲} (bS3);
+  \draw[mv] (bS3) -- (bS4); \draw[mv] (bS4) -- (bS5); \draw[mv] (bS5) -- (bS6); \draw[mv] (bS6) -- (byard);
+  \draw[cRule] (0,-4.7) -- (11.2,-4.7);
+  \foreach \m in {0,20,...,140} { \draw[cRule] (\m*0.08,-4.7) -- (\m*0.08,-4.8); \node[text=cMuted] at (\m*0.08,-5.05) {\m}; }
+  \node[text=cInkB] at (5.6,-5.5) {متر در طولِ سوله};
+  \node[note, anchor=west] at (0.2,1.25) {جابه‌جایی‌های قرمز در خطِ راست کوتاه یا حذف می‌شوند};
+\end{tikzpicture}}
+\end{document}

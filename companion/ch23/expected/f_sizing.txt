@@ -1,0 +1,14 @@
+station service and standby supply (teaching):
+  normal demand 167 kVA; with 20 % margin 201 kVA:
+    two 250 kVA transformers, each for the whole plant (N-1)
+  emergency demand 80 kVA; with 25 % margin: generator 125 kVA
+  largest start on a transformer (well pump 200 kVA): dip 3.5%
+  largest essential start on the generator: control room HVAC,
+    120 kVA: dip 12.6% on 125 kVA, 10.7% on 150 kVA
+  with a 12 % dip limit (teaching; the makers' limits apply)
+    the generator is 150 kVA: starting, not running, sizes it
+  fault current at the 0.4 kV board: 7.9 kA (LV board rating
+  chosen above it with the maker; ch 24)
+  the well pump may start direct on a transformer but not on
+  the generator: it is non-essential and shed in emergency;
+  a soft starter would be needed if it were essential

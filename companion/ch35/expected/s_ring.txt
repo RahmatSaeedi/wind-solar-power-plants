@@ -1,0 +1,12 @@
+what a ring break costs while the ring heals (teaching rates)
+  recovery time        messages lost: protection   telecontrol   historian
+         20 ms                      20             0           2
+        200 ms                     200             2          20
+       2000 ms                    2000            20         200
+  tolerable gap: protection 4 ms, telecontrol 1 s, historian
+    60 s (buffered)
+  no ring recovery is fast enough for protection messages,
+  which therefore run on paths that need no recovery
+  (duplicated, both sent at once - ch 34, ch 35 lesson A);
+  telecontrol rides through a 200 ms heal, not a 2 s one;
+  the historian rides through all of them from its buffer

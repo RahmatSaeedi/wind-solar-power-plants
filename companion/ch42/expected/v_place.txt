@@ -1,0 +1,9 @@
+cable from nacelle to tower base, 110 m, at rated (teaching cables)
+  what runs down                  voltage V   current A   copper mm2   loss kW
+  690 V from the converter            690        4404         2160      66.7
+  33 kV from a nacelle transformer  33000          92           95       0.7
+  low voltage needs nine parallel cables and still loses more;
+  a nacelle transformer saves copper and loss but lifts 8 t
+  to the top and adds a medium-voltage fire and access question
+  - Plant P's turbines keep it at the tower base (D-029, dry
+  type, ch 25); the split is a design choice the plant inherits

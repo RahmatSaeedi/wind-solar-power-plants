@@ -1,0 +1,6 @@
+moving the asset records to a new CMMS at mid-life (teaching)
+  equipment records to move: 2,419 (ch 18 hierarchy)
+  sample checked with zero errors for < 1 % at 95 %: 299 records
+  checking all at 2 min a record: 81 hours; the sample: 10 h
+  the sample proves the migration, not each record: errors found
+  stop it and send it back to the mapping rules (ch 53, ch 58)

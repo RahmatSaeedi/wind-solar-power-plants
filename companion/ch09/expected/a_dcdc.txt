@@ -1,0 +1,6 @@
+buck 1000 -> 400 V: duty 0.40; L 1 mH at 10 kHz: ripple 24 A peak-to-peak
+boost stage of a 50 kW string inverter, 600 -> 1000 V (A-149):
+  duty 0.40, input current 83.3 A
+  L for 20 % ripple at 16 kHz: 0.90 mH
+  C for 1 % output ripple: 125 uF
+  volt-second balance: V_in D T = (V_out - V_in)(1 - D) T

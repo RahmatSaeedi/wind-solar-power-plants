@@ -1,0 +1,29 @@
+approval map of Plant P - Tajikistan (durations are TEACHING values)
+  step  status             months  slack  authority
+  S1    verified              6.0    0.0  MEWR
+        competitive procedure (qualification, bid, award)
+  S2    verified              3.0    1.0  State Committee on Investments
+        investment agreement with the Government
+  S3    verified              3.0    7.0  single buyer
+        PPA with the single buyer (>= 15 years)
+  S4    verified              1.5    1.5  network company
+        technical conditions for connection
+  S5    verified              3.0    1.5  SIB
+        grid connection agreement
+  S6    to-confirm            6.0    0.0  environment committee
+        ecological expertise / EIA conclusion
+  S7    project-dependent     4.0    1.0  land authority / Barqi Tojik
+        land use right and lease
+  S8    to-confirm            2.0    0.0  (issuer to confirm)
+        state energy-expertise conclusion
+  S9    verified              2.0    0.0  supervision agency
+        design approval, state energy supervision
+  S10   to-confirm            2.0    5.0  (to confirm)
+        permit under Law 1968, if any
+  S11   to-confirm            2.0    1.0  water-management body
+        special water-use permit
+  time to the last approval: 16.0 months; critical path:
+    S1 > S6 > S8 > S9
+  steps not verified: 5 of 11; on the critical path: S6, S8
+  a step that is not verified on the critical path is the first
+  written clarification to send

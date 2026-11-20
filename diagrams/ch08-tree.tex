@@ -1,0 +1,21 @@
+% Chapter 8 - subassembly tree of the hypothetical Plant P generator, down to main parts.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small,
+    top/.style={blk, blkWind, minimum width=34mm, minimum height=10mm},
+    sub/.style={blk, minimum width=23mm, minimum height=9mm, text width=21mm, font=\footnotesize},
+    leaf/.style={note, text=cInk, text width=23mm, align=center, font=\scriptsize}]
+  \node[top] (g) at (6.6,3.2) {ژنراتورِ آهن‌ربای دائم};
+  \node[sub] (s) at (12.0,1.5) {استاتور};
+  \node[sub] (r) at (9.3,1.5) {روتور};
+  \node[sub] (sh) at (6.6,1.5) {شفت و یاتاقان‌ها};
+  \node[sub] (c) at (3.9,1.5) {خنک‌کاری و پوسته};
+  \node[sub] (t) at (1.2,1.5) {پایانه‌ها و حسگرها};
+  \foreach \n in {s, r, sh, c, t} {\draw[line width=0.7pt, cInkB] (g.south) -- ++(0,-0.4) -| (\n.north);}
+  \node[leaf, anchor=north] at (12.0,0.9) {هستهٔ ورقه‌ای\\کلاف‌ها و عایق\\سرِ سیم‌پیچ و اتصال\\رزینِ آغشته‌سازی};
+  \node[leaf, anchor=north] at (9.3,0.9) {هستهٔ روتور\\آهن‌رباها و پوشش\\بستن و نوار\\وزنه‌های بالانس};
+  \node[leaf, anchor=north] at (6.6,0.9) {شفتِ آهنگری\\یاتاقانِ سمتِ محرک\\یاتاقانِ عایقِ مقابل\\جاروبکِ زمین};
+  \node[leaf, anchor=north] at (3.9,0.9) {ژاکت یا مبدّلِ گرمایی\\قاب و پایه‌ها\\سپرهای انتهایی\\گرم‌کنِ ضدِ میعان};
+  \node[leaf, anchor=north] at (1.2,0.9) {جعبهٔ اتصال\\دماسنج‌های سیم‌پیچ\\شتاب‌سنج‌ها\\حسگرِ سرعت};
+\end{tikzpicture}}
+\end{document}

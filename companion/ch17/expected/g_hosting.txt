@@ -1,0 +1,8 @@
+hosting capacity of the grid node for a plant shaped like Plant P
+  (export limit in MW, teaching constraints A-285):
+  upstream  up to  105 MW
+  voltage   up to  225 MW
+  thermal   up to  140 MW
+  the binding constraint: upstream; Plant P's 100 MW is
+  within all three; hosting depends on the local load's minimum,
+  which is why the measured load is the first item of the request

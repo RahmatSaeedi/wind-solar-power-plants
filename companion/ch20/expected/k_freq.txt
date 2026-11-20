@@ -1,0 +1,9 @@
+a frequency event answered by the battery (4 % droop on 110 MW,
+0.02 Hz deadband, battery 20 MW, response tau 0.2 s; A-303):
+  service cap MW   peak MW   time to 90 % s   energy MWh   recovery min
+              20      20.0              3.4         1.68             22
+               5       5.0              1.0         1.19             15
+  the droop asks 20.9 MW at the nadir: a 20 MW battery is at
+  its limit, a 5 MW service is cut to its contract; the energy
+  is small, the recovery (refill before the next event) is
+  what the energy floor and the plan must allow for

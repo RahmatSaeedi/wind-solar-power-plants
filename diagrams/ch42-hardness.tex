@@ -1,0 +1,16 @@
+% Chapter 42 - hardness traverse of the test coupon of heat HT-43: Vickers hardness against depth,
+% falling through 550 HV at about 2.1 mm, before the 2.4-3.2 mm teaching specification band
+% (diagrams/data/ch42-hardness.csv from companion/ch42/examples_w.py, w_case; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=54mm, xmin=0, xmax=4.1, ymin=250, ymax=760,
+      xlabel={عمق (میلی‌متر)}, ylabel={سختیِ ویکرز}]
+    \fill[cPV!12] (axis cs:2.4,250) rectangle (axis cs:3.2,760);
+    \addplot[sWind, mark=*, mark size=1.2pt] table[x=d, y=hv, col sep=comma] {data/ch42-hardness.csv};
+    \draw[sLoss] (axis cs:0,550) -- (axis cs:4.1,550);
+    \node[note, anchor=south west, text=cLoss] at (axis cs:3.25,552) {حدِ ۵۵۰};
+    \node[note, anchor=north] at (axis cs:2.8,745) {بازهٔ مشخصه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

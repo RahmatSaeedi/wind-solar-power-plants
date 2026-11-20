@@ -1,0 +1,13 @@
+hybrid long-term sigma against the correlation of the wind and
+  PV long-term errors (wind 11.31, PV 3.84 GWh):
+  r       sigma GWh   P90 (long-term, at MV) GWh
+  -0.50      9.96       288.73
+  -0.25     11.00       287.40
+  +0.00     11.94       286.19
+  +0.25     12.82       285.07
+  +0.50     13.64       284.02
+  +0.75     14.41       283.03
+  +1.00     15.15       282.08
+  shared inputs (one long-term reference used for both, one
+  modeller's habits) make r positive; treat r as an assumption
+  with its own evidence (A-279 sets 0)

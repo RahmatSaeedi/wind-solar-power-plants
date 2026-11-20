@@ -1,0 +1,11 @@
+repowering timeline (months, teaching; steps partly overlap in practice)
+  permit amendment (teaching)         14.0
+  grid study and agreement            10.0
+  procurement of turbines             12.0
+  dismantling, 2 turbines a week       1.5  wind farm down
+  foundation adaptation                2.0  wind farm down
+  erection and commissioning           3.0  wind farm down
+  36 months before any turbine stops; 6.5 months with the farm
+  down in sequence - about 105 GWh of wind energy lost if
+  all stopped together; turbine by turbine it is a fraction,
+  and the PV keeps exporting (lesson F)

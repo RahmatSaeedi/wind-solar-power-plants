@@ -1,0 +1,12 @@
+Arrhenius life relative to 130 C (Ea 100 kJ/mol, A-065):
+  hot spot 110 C: life x  4.75
+  hot spot 120 C: life x  2.14
+  hot spot 130 C: life x  1.00
+  hot spot 140 C: life x  0.49
+  hot spot 150 C: life x  0.24
+converter-fed winding (A-118): DC link 1100 V, fast switching
+  a reflected wave on a long cable can reach about
+  2200 V peak line to line at the terminals, against
+  976 V peak of a 690 V sine: about 2.3 times
+  so converter-fed insulation is designed and tested for repetitive
+  impulses (partial discharge), not only for the sine

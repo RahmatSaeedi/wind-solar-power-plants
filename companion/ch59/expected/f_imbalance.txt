@@ -1,0 +1,10 @@
+imbalance against the forecast schedule (teaching prices A-301:
+short 30, long 10 u/MWh)
+  lead h  short MWh   long MWh  cost k u  with 20 MW
+       1     22,452     20,125       875         224
+       6     24,560     22,020       957         257
+      24     32,203     30,328     1,269         393
+      36     38,782     34,043     1,504         496
+  day-ahead: the battery could cut the imbalance cost from 1,269 to
+  393 k u - an upper bound, ignoring its state of charge and the
+  energy it must hold for other duties (ch 20 E)

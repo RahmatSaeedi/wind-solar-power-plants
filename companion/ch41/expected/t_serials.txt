@@ -1,0 +1,7 @@
+serial numbers with a check digit (Luhn), 2,000 keyed at receipt
+  one wrong digit caught: 100%
+  two neighbours swapped caught: 97%
+  a scanner rarely errs, a person typing does: the check
+  digit stops a mistyped serial from linking a module to
+  another module's flash record (lab D), which would make
+  a warranty claim argue about the wrong module

@@ -1,0 +1,13 @@
+heat hours of the data-pack year, shifted by the warming of lesson E
+  (inverter derating from 40 C at 2 %/K, ch 9; cooling degree-hours
+   above 25 C as a measure of battery and building HVAC energy)
+  case               h > 35 C   h > 40 C   PV energy derated %   CDH k
+  today                    198          4                 0.001    10.8
+  end of life +1.35 K      388         12                 0.008    13.9
+  pessimistic +2.7 K       579         40                 0.029    17.6
+  the PV energy lost to derating stays tiny (the hottest
+  hours are few and the knee is high), but the cooling
+  load grows by about 30 % (+1.35 K) to 60 % (+2.7 K):
+  HVAC for the battery and the buildings, not the
+  inverters, is where warming costs
+  - sized with margin now or planned as a later addition

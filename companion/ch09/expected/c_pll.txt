@@ -1,0 +1,9 @@
+synchronous-frame PLL, bandwidth 20 Hz, damping 0.707 (A-158):
+  30 deg phase jump at 0.1 s: error back within 2 deg after 33 ms;
+    meanwhile the frequency estimate jumps to 64.3 Hz for a few ms
+  frequency step 50 -> 50.5 Hz at 0.3 s: estimate overshoots to 50.60 Hz
+    and reads 50.500 Hz at 0.6 s; peak transient error 0.7 deg
+  a faster PLL follows sooner but passes more noise and, in a
+  weak grid, can interact with the converter's own current;
+  a frequency or RoCoF protection fed from such an estimate
+  needs filtering, or a phase jump trips it falsely

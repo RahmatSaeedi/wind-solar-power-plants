@@ -1,0 +1,17 @@
+% Chapter 8 - relative insulation life against hot-spot temperature (Arrhenius, A-065).
+% Data: diagrams/data/ch08-life.csv (companion/ch08/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm, ymode=log,
+      xlabel={دمای نقطهٔ داغ، درجهٔ سلسیوس}, ylabel={عمرِ نسبی},
+      xmin=100, xmax=160, ymin=0.1, ymax=12, xtick={100,110,...,160},
+      ytick={0.1,0.25,0.5,1,2,4,10}, yticklabels={$0.1$,$0.25$,$0.5$,$1$,$2$,$4$,$10$}]
+    \addplot[sInk] table[x=t, y=life, col sep=comma] {data/ch08-life.csv};
+    \draw[cRule, densely dotted] (axis cs:130,0.1) -- (axis cs:130,1);
+    \draw[cRule, densely dotted] (axis cs:100,1) -- (axis cs:130,1);
+    \node[note, text=cInk, anchor=south west] at (axis cs:131,1.05) {مرجع $130\,^\circ\text{C}$};
+    \node[note, text width=40mm] at (axis cs:146,4) {هر ده درجه گرمِ بیشتر، عمر تقریباً نصف};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

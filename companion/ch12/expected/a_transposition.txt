@@ -1,0 +1,13 @@
+isotropic and Hay-Davies skies for the Plant P plane:
+  tilt  isotropic  Hay-Davies  difference
+     0       1947        1947   -0.02 %
+    10       2047        2067   +0.97 %
+    20       2099        2136   +1.73 %
+    25       2107        2150   +2.03 %
+    30       2103        2151   +2.30 %
+    40       2058        2113   +2.70 %
+    50       1966        2024   +2.95 %
+  Hay-Davies peaks at about 30 deg tilt;
+  Plant P uses 25 deg (row spacing, wind load, D-013)
+  the circumsolar part of the diffuse light follows the sun:
+  an isotropic sky under-rates a tilted plane at a sunny site

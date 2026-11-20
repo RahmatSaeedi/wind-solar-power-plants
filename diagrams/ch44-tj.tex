@@ -1,0 +1,13 @@
+% Chapter 44 - junction temperature of the 48 outer-switch IGBT modules (T1, T4) of one PCI-5500 with
+% the factory's spread (loss, interface print, voids, cold plate); module 38 with a bad print stands
+% out (diagrams/data/ch44-tj.csv from companion/ch44/lab_d.py, montecarlo; teaching values).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=54mm, xmin=0, xmax=49, ymin=68, ymax=91,
+      xlabel={شمارهٔ ماژول}, ylabel={دمای پیوند (درجهٔ سلسیوس)}]
+    \addplot[only marks, mark=*, mark size=1.4pt, color=cWind] table[x=pos, y=tj, col sep=comma] {data/ch44-tj.csv};
+    \node[note, anchor=east, text=cLoss] at (axis cs:36.5,87.6) {چاپِ بد، ماژولِ ۳۸};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,6 @@
+fibre core allocation of two cables against the plan
+  FO-W1: spare cores 2; differences: ring T01 uses 3, plan 2
+  FO-E1: spare cores 2; differences: none
+  FO-W1's ring uses a third core that the plan does not show:
+  a technician who takes 'spare' core 5 for a repair cuts the
+  ring - the core table is part of the as-built schedule

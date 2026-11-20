@@ -1,0 +1,10 @@
+currents from the units to the point of connection (POC):
+  POC 132 kV, 100 MW at pf 1.00:  437.4 A
+  POC 132 kV, 100 MW at pf 0.95:  460.4 A
+  33 kV bus: 100.37 MW at pf 0.95:   1848 A (transformer losses 368 kW, A-092)
+  one feeder at the export limit   25.0 MW:  460.4 A
+  one feeder at full output        27.5 MW:  506.4 A
+  one 5 MW unit at 33 kV:  92.1 A; at its own 0.69 kV terminals:   4404 A
+  25 MW at 33 kV and 100 MW at 132 kV carry the same current:
+  100/132 = 25/33, the voltage ratio equals the power ratio
+  busbar and switchgear currents are a design decision of chapters 23-25

@@ -1,0 +1,14 @@
+grading at an LV fault in the turbine (seen as 1,400 A at 33 kV):
+  turbine LV breaker clears in 50 ms (teaching)
+  unit HV relay: pickup 127 A, TMS for 0.3 s above it: 0.13 -> 0.37 s
+  feeder relay at the same current: 0.65 s
+  margin unit -> feeder: 0.28 s (SHORT of 0.3 s)
+  window for the unit stage at this current:
+    margins 0.30 s: 0.350 to 0.347 s -> NO window
+    margins 0.25 s: 0.300 to 0.397 s -> feasible
+  with 0.3 s on both sides the unit stage has no room: the
+  feeder answers in 0.65 s, and 0.05 + 0.3 + 0.3 needs more;
+  a finding of the study - 0.25 s margins justified by
+  numerical relays and fast breakers (then a definite-time
+  unit stage at 0.35 s fits), or a slower feeder if lesson
+  B's grading allows; decided in the coordination report

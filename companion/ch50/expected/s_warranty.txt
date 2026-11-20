@@ -1,0 +1,10 @@
+warranty start dates in the asset records against the contract
+  (teaching: warranties start at taking-over, turbines per their own
+  contract)
+  PV modules         record 2027-10-15  contract 2028-06-01
+  unit transformers  record 2028-01-10  contract 2028-06-01
+  BESS               record none        contract 2028-06-01
+  PV modules: 7.6 months of warranty lost on paper
+  unit transformers: 4.7 months of warranty lost on paper
+  started at delivery instead of taking-over: found only at
+  the first claim; the record takes the contract's date

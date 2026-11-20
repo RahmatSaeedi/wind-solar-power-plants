@@ -1,0 +1,18 @@
+acceptance of the 33 kV cables, switchgear and panels, summarised
+  cable schedule: 6 problems - back to the author before ordering
+  drums: D403, D404, D406 rejected after the 20 C correction
+  crimps: 2 low pulls, all from tool B - re-made, tool calibrated
+  switchgear: PVF1 pole L2 resistance, WS3 pole timing -
+    corrected at the factory
+  interlocks: logic correct (0 forbidden states reached)
+  panel WS1: 3 missing and 3 extra connections - rewired, rechecked
+  relays: PVF2, SST differ from the register - reloaded
+  one-line mapping: 3 gaps - VT drawing and the cable's site test added
+  drum reports: 7 findings; thickness: 2 drum ends fail
+  type tests: 4 gaps (the 1,600 A incomer not covered)
+  interfaces: 3 (connector family, cable positions)
+  CTs: PVF3, BESS-B; earths: 2 circuits wrong
+  trip matrix: 2 functions with wrong trip outputs
+  a functional test alone would have found only the missing
+  CT wire; everything else passes it - the gear works, and only
+  the records and the checks show what is wrong

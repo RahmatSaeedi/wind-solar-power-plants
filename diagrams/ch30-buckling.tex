@@ -1,0 +1,17 @@
+% Chapter 30 - extreme bending stress in the four tower sections against their strength with
+% shell buckling (Rankine, knock-down 0.4; teaching): sections 2 and 3 exceed it
+% (diagrams/data/ch30-buckling.csv from companion/ch30/examples_b.py, b_buckling).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=60mm, ybar, bar width=9pt, ymin=0, ymax=380,
+      xtick={1,2,3,4}, xmin=0.4, xmax=4.6, xlabel={بخشِ برج}, ylabel={تنش $(\text{MPa})$},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[fill=cWind!35, draw=cWind] table[x=sec, y=stress, col sep=comma] {data/ch30-buckling.csv};
+    \addplot[fill=cLoss!25, draw=cLoss] table[x=sec, y=strength, col sep=comma] {data/ch30-buckling.csv};
+    \legend{تنشِ حدی, مقاومت با کمانش}
+    \draw[sLimit] (axis cs:0.4,355) -- (axis cs:4.6,355);
+    \node[note, anchor=south east] at (axis cs:4.55,356) {تسلیمِ فولاد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

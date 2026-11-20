@@ -1,0 +1,10 @@
+two connection alternatives for the 132 kV line (teaching):
+  A: POC at the plant's line bay - the utility builds, owns
+     and maintains the line; the plant pays a connection charge
+  B: POC at the utility's bay - the plant builds and owns it
+  the line: 3,177 k u to build; losses 52.9 k u a year;
+  upkeep about 32 k u a year
+  in B the plant also carries the line's outages, repairs,
+  access rights and permits; in A it pays for them through
+  the charge - which is cheaper is a number in the grid offer
+  (U-065, U-068), and the one-line is redrawn for either

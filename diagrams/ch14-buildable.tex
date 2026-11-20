@@ -1,0 +1,23 @@
+% Chapter 14 - land left after the teaching setbacks and slope limits (A-260): buildable for
+% turbines only, PV only, both, or neither, on the project land (x < 9 km).
+% Data: diagrams/data/ch14-buildable.csv (companion/ch14/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\scriptsize]
+  \begin{axis}[plantp, width=128mm, height=100mm, xmin=0, xmax=9, ymin=0, ymax=7,
+      axis equal image, xlabel={شرق، $\text{km}$}, ylabel={شمال، $\text{km}$},
+      xtick={0,1,...,9}, ytick={0,1,...,7}, ymajorgrids=false, clip=true,
+      colormap={cat}{rgb255(0)=(232,232,228) rgb255(1)=(168,198,236) rgb255(2)=(246,196,170)
+                     rgb255(3)=(160,214,190)},
+      point meta min=0, point meta max=3]
+    \addplot[matrix plot*, mesh/cols=45, point meta=explicit, forget plot]
+      table[x=x, y=y, meta=c, col sep=comma] {data/ch14-buildable.csv};
+  \end{axis}
+  \begin{scope}[shift={(0.4,-1.55)}]
+    \fill[fill={rgb,255:red,160;green,214;blue,190}] (0,0) rectangle (0.35,0.25); \node[note, anchor=west, text=cInk] at (0.4,0.12) {هر دو};
+    \fill[fill={rgb,255:red,168;green,198;blue,236}] (2.2,0) rectangle (2.55,0.25); \node[note, anchor=west, text=cInk] at (2.6,0.12) {فقط توربین};
+    \fill[fill={rgb,255:red,246;green,196;blue,170}] (4.6,0) rectangle (4.95,0.25); \node[note, anchor=west, text=cInk] at (5.0,0.12) {فقط خورشیدی};
+    \fill[fill={rgb,255:red,232;green,232;blue,228}] (7.2,0) rectangle (7.55,0.25); \node[note, anchor=west, text=cInk] at (7.6,0.12) {هیچ‌کدام};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

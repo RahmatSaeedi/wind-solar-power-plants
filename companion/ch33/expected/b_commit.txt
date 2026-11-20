@@ -1,0 +1,11 @@
+commitments register: only approved and funded promises (teaching)
+  commitment                         approved   funded   owner
+  local hiring share 40 %            True       True     HR manager
+  water point for herders            True       True     E&S manager
+  new school roof                    False      False    -  DO NOT PROMISE
+  paved village road                 False      False    -  DO NOT PROMISE
+  school-hour truck hold             True       True     logistics lead
+  community fund 0.5 % of revenue    True       False    owner  fund first
+  3 items are not ready to be promised: an unfunded promise
+  made in a meeting becomes a grievance later; the register
+  is what staff may say, and it is reported back each year

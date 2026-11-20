@@ -1,0 +1,26 @@
+% Chapter 40 - the eight failure modes of the skid PFMEA on a severity-occurrence grid: the shaded
+% bands are the severity classes 9-10 and 7-8 (companion/ch40/sources.py FMEA, b_fmea; teaching).
+% Numbers: 1 joint under-torqued, 2 wrong crimp die, 3 MV stress cone, 4 control wire, 5 earth
+% bond, 6 paint film, 7 handling damage, 8 desiccant.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=86mm, height=70mm, xmin=0.5, xmax=6.5, ymin=0.5, ymax=10.5,
+      xtick={1,...,6}, ytick={1,...,10}, xlabel={رخداد (O)}, ylabel={شدت (S)}]
+    \fill[cLoss!12] (axis cs:0.5,8.5) rectangle (axis cs:6.5,10.5);
+    \fill[cPV!12] (axis cs:0.5,6.5) rectangle (axis cs:6.5,8.5);
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cInk] coordinates
+      {(3,9) (3,8) (2,10) (5,5) (2,9) (4,4) (2,7) (3,5)};
+    \node[anchor=west] at (axis cs:3.1,9) {۱};
+    \node[anchor=west] at (axis cs:3.1,8) {۲};
+    \node[anchor=west] at (axis cs:2.1,10) {۳};
+    \node[anchor=west] at (axis cs:5.1,5) {۴};
+    \node[anchor=west] at (axis cs:2.1,9) {۵};
+    \node[anchor=west] at (axis cs:4.1,4) {۶};
+    \node[anchor=west] at (axis cs:2.1,7) {۷};
+    \node[anchor=west] at (axis cs:3.1,5) {۸};
+    \node[note, anchor=east] at (axis cs:6.4,9.9) {ردهٔ ۹ و ۱۰};
+    \node[note, anchor=east] at (axis cs:6.4,7.9) {ردهٔ ۷ و ۸};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

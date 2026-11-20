@@ -1,0 +1,12 @@
+96 root bolts tightened one at a time; each tightening relaxes
+  tight neighbours by 6, 3 and 1 % of the preload it gains
+  (teaching)
+  order        pass 1 min / mean   pass 2 min / mean   pass 3 min / mean
+  in sequence     80% /  90%      98% /  99%     100% / 100%
+  crosswise       80% /  90%      98% /  99%     100% / 100%
+  one pass leaves most bolts short of target whatever the
+  order; a second pass at the same target recovers most of it
+  and a third closes the gap - the work instruction names the
+  passes, and the logged tool shows each bolt's last value;
+  on a flat flange the order changes little, on a flange with
+  a gap it decides where the gap closes (not modelled here)

@@ -1,0 +1,9 @@
+cell current bins 13.8-14.2 A by 0.1 A (cells: mean 14.00, sd 0.08)
+  tester repeatability sd 0.02 A: 15.3% of cells land in a neighbour bin
+  with a +0.5 % reference drift as well: 63.1%
+  cells per bin, true / measured with the drift:
+    2028/295, 7815/3600, 7852/8793, 975/5982
+  a cell one bin off costs little (its string runs at the
+  weakest current, lesson D); a drift shifts every bin and
+  every module's label - the tester's reference is checked
+  each shift against a golden cell (lesson D, the flasher)

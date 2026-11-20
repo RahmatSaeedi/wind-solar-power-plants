@@ -1,0 +1,9 @@
+main-circuit resistance of breakers against the type-tested
+value (40 micro-ohm, limit 1.2 x, teaching):
+  +H01:  41.0 micro-ohm -> ok
+  +H02:  44.5 micro-ohm -> ok
+  +H03:  52.0 micro-ohm -> investigate
+  +H04:  43.8 micro-ohm -> ok
+  a high value points to a poor contact or a loose joint,
+  which heats in service; the routine test sets the
+  baseline that site and maintenance tests are compared to

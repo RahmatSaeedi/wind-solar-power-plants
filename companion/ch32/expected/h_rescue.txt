@@ -1,0 +1,17 @@
+rescue from a nacelle: time budget (minutes, teaching)
+  step                                        day   night
+  alarm by radio, location confirmed            2      2
+  colleague starts first aid in the nacelle     1      1
+  rescue team reaches the tower                 6     35
+  climb by service lift                        12     12
+  assess, package, prepare descent             15     15
+  lower to the ground by rescue device         10     10
+  casualty on the ground after 46 min by day, 75 by night
+  ambulance at the tower after about 55 min (mobilise 10,
+  35 km, access 10); hospital 45 min further
+  by day the casualty is down before the ambulance arrives;
+  by night the on-call team adds half an hour. The plan's
+  answer is not a faster formula: two trained people on
+  every crew, rescue kit in each nacelle, and night work
+  only with the team on site - with times agreed with the
+  medical provider, who sets what is acceptable

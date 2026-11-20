@@ -1,0 +1,22 @@
+finance and fiscal sources - Iran
+  Art 61 guaranteed purchase (contract form)   verified
+      source: law + bylaw; review: SATBA, counsel
+  fuel-saving energy drafts                    verified
+      source: law 1401 Art 14 + bylaw; review: counsel
+  sale by green board or bilateral contract    verified
+      source: amended bylaw; review: counsel
+  PPA term, currency, indexation, security     to-confirm
+      source: not found; review: counsel
+  FX package and import orders                 verified
+      source: amended bylaw; review: bank, counsel
+  repatriation of profit (FIPPA)               to-confirm
+      source: unofficial translation; review: counsel
+  tax and customs exemptions                   to-confirm
+      source: not found; review: tax advisor
+  US and EU sanctions                          verified
+      source: OFAC, EUR-Lex; review: sanctions counsel
+  land lease and compensation cost             verified
+      source: renewables bylaw; review: counsel
+  verified 6, project-dependent 0, to-confirm 3
+  only verified items enter the base case (ch 54 E); every item
+  closes with a dated opinion of a qualified local reviewer

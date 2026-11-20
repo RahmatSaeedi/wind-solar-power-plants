@@ -1,0 +1,13 @@
+132 kV metering core 600/1 A at the plant's operating points
+  point                         I A    % rated   class 0.2   0.2S
+  night: own use and 2 Mvar       8.8      1.5      undef.   0.70 %
+  low wind, no sun: 5 MW         21.9      3.6      undef.   0.49 %
+  20 MW                          87.5     14.6      0.49 %   0.25 %
+  60 MW                         262.4     43.7      0.31 %   0.20 %
+  export limit 100 MW           437.4     72.9      0.25 %   0.20 %
+  a plant that runs for hours at a few per cent of its
+  export - every calm night - spends those hours where an
+  ordinary class is not defined; the metering and control
+  core is specified as an extended-range class (or with a
+  lower ratio), while the protection core keeps the ratio
+  the fault currents need (ch 26)

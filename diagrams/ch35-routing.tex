@@ -1,0 +1,21 @@
+% Chapter 35 - routing a fire alarm from an often unmanned site by two independent paths: through SCADA
+% to the site room and the remote centre, and through the fire panel's own dialler to the on-call person
+% (examples_e; teaching times).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=26mm, minimum height=11mm, text width=24mm}]
+  \node[s, blkWarn] (fp) at (10.5,0) {تابلوی حریق};
+  \node[s, blkBESS] (sc) at (6.5,1.4) {اسکادا};
+  \node[s, blkWind] (room) at (2.0,2.6) {اتاقِ کنترلِ ساختگاه، ۸ ساعت در روز: $1\,\mathrm{s}$};
+  \node[s, blkWind] (rc) at (2.0,0.9) {مرکزِ کنترلِ دور، ۲۴ ساعت: $5\,\mathrm{s}$};
+  \node[s, blkLoad] (dial) at (6.5,-1.4) {شماره‌گیرِ خودِ تابلو};
+  \node[s, blkWind] (call) at (2.0,-1.4) {فردِ آماده‌به‌کار: تلفن $60\,\mathrm{s}$، پیامک $30\,\mathrm{s}$};
+  \draw[flow] (fp) -- (sc);
+  \draw[flow] (sc) -- (room);
+  \draw[flow] (sc) -- (rc);
+  \draw[flow] (fp) -- (dial);
+  \draw[flow] (dial) -- (call);
+  \node[note, anchor=north, text width=100mm] at (6.0,-2.4) {دو مسیرِ مستقل برای ۱۶ ساعتی که اتاق خالی است؛ برنامهٔ اضطراری (فصلِ ۳۲) از همین تماس آغاز می‌شود و مسیرها جای آژیرها و تماس‌های خودِ سامانهٔ حریق را نمی‌گیرند};
+\end{tikzpicture}
+\end{document}

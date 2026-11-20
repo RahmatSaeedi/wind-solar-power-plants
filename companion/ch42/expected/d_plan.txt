@@ -1,0 +1,19 @@
+blade inspection and quality plan (H hold, W witness, R record)
+  step                        point  method                    record
+  materials receipt           R      certificates, shelf life  batch log
+  mould preparation           R      release, surface check    mould card
+  lay-up of caps and shell    W      ply count, orientation    ply map
+  infusion                    R      fill, vacuum hold         infusion record
+  cure                        H      DSC samples, Tg           cure record
+  bonding of shells and webs  W      bond width, squeeze-out   bond log
+  ultrasonic scan             H      caps, bond lines (POD)    scan maps
+  lightning system            H      receptor-root resistance  LPS test
+  root machining, inserts     W      flatness, insert pulls    root sheet
+  weighing                    H      mass, first mass moment   weighing sheet
+  dimensions                  W      twist, chord, pre-bend    3D scan
+  finish and coating          R      thickness, edge layer     paint log
+  final release               H      dossier, NCRs closed      release note
+  5 holds, 4 witness points, 4 records
+  a hold stops the blade until released; a witness lets the
+  buyer attend; a record is reviewed later - holds sit where
+  a defect becomes hidden (cure, scan) or costly (release)

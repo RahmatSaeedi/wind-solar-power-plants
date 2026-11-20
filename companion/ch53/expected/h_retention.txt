@@ -1,0 +1,12 @@
+records at closure: years to keep, migrated to the successor system?, size
+  as-built drawings             10 yr  yes      42.0 GB
+  protection settings            5 yr  yes       0.4 GB
+  maintenance history (CMMS)    10 yr  NO       18.0 GB
+  SCADA history                  3 yr  NO    2,400.0 GB
+  environmental monitoring      15 yr  yes       6.0 GB
+  land and commitments          25 yr  yes       1.2 GB
+  OT accounts and keys           0 yr  NO        0.0 GB
+  2 record sets to keep are not yet migrated:
+  maintenance history (CMMS), SCADA history
+  (2,468 GB in all); the periods are teaching values - the
+  real ones come from verified obligations (ch 54-58)

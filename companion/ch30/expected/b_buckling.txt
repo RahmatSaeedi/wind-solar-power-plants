@@ -1,0 +1,13 @@
+extreme bending up the tower against buckling (teaching, A-356)
+  (moment falls with height; knock-down 0.4 on 0.605 E t/r;
+   Rankine: 1/s = 1/fy + 1/s_el)
+  section  D m   t mm   r/t   stress MPa   strength MPa   use   t for use 1
+        1  4.50    46    49          260            265   0.98         46 mm
+        2  4.12    40    52          267            261   1.02         41 mm
+        3  3.75    32    59          268            252   1.06         34 mm
+        4  3.38    26    65          202            244   0.83         23 mm
+  with this teaching knock-down, sections 2 and 3 of the
+  ch 11 wall schedule are thin: buckling, not yield, sets
+  the wall (strength far below 355 MPa); the real check
+  uses the code's reduction for the fabrication quality
+  class - which is why ovality and dents are measured

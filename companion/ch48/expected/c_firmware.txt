@@ -1,0 +1,8 @@
+firmware of 9 network and control devices against the approved baseline
+  SW-SPARE: model RS-9 not in the baseline
+  SW-T09: 6.1.4 (approved 6.2.1)
+  SW-T09 runs an older release than the other turbine switches - the
+  one switch the integrator replaced at site from its own
+  stock; SW-SPARE is a model nobody approved: a spare that
+  differs from the installed fleet is not a spare, it is a
+  change (ch 36 inventory, ch 44 configuration)

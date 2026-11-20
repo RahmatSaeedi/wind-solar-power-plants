@@ -1,0 +1,11 @@
+soil thermal resistivity along the collector routes (20 probes,
+  dry season, teaching):
+  mean 1.14, median 1.06, 90th percentile 1.48, highest 1.75 K m/W
+  design on the mean     rho 1.14: 630 mm2 rating 631 A
+  design on the 90th     rho 1.48: 630 mm2 rating 573 A
+  design on the worst    rho 1.75: 630 mm2 rating 537 A
+  the mean hides the dry patches that set the hot spot (lesson
+  H's DTS profile); designing on a high percentile, or on the
+  worst with thermal backfill where the probes found it, is
+  the usual answer - the survey (season, depth, spacing) is
+  evidence the rating rests on (U-093)

@@ -1,0 +1,14 @@
+% Chapter 6 — Wheatstone bridge with a PT100 temperature sensor.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \draw (0,0) to[battery1, l={$V_\text{e} = 5\,\text{V}$}, invert] (0,4) -- (2,4);
+  \draw (2,4) -- (2,4) to[R, l_={$R_1$}] (2,2) to[R, l_={$R_2$}] (2,0) -- (0,0);
+  \draw (2,4) -- (5,4) to[R, l={$R_3$}] (5,2) to[R, l={$R_t$ (PT100)}] (5,0) -- (2,0);
+  \draw (2,2) to[voltmeter, l={$V_\text{out}$}] (5,2);
+  \fill (2,2) circle (0.06) node[note, text=cInk, left=2pt] {A};
+  \fill (5,2) circle (0.06) node[note, text=cInk, right=2pt] {B};
+  \node[note, text=cInk, anchor=north, align=center] at (2.5,-0.5)
+       {تعادل: \mbox{$V_\text{out}=0$} وقتی \mbox{$R_t/R_3 = R_2/R_1$}};
+\end{tikzpicture}}
+\end{document}

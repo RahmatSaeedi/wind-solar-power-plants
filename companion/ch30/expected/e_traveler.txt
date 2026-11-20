@@ -1,0 +1,28 @@
+fabrication traveler of tower section 1 (H hold, W witness, R record)
+   1 [H] plate receipt             mill inspection certificate, heat no.
+         accept: grade, toughness; signed by QC
+   2 [R] cutting and bevels        cut list, bevel gauge
+         accept: drawing; signed by fitter
+   3 [W] rolling of cans           ovality on the roll
+         accept: tolerance; signed by QC
+   4 [W] longitudinal seams (SAW)  WPS no., welder, parameters
+         accept: WPS window; signed by welding coord.
+   5 [W] circumferential seams     WPS no., welder, parameters
+         accept: WPS window; signed by welding coord.
+   6 [H] flange fit-up and weld    flatness before and after
+         accept: flatness; signed by QC
+   7 [H] door frame weld           WPS, preheat record
+         accept: WPS window; signed by welding coord.
+   8 [H] UT of seams, MT of door   NDT reports
+         accept: no rejectable flaw; signed by NDT level 2
+   9 [H] dimensional survey        length, ovality, straightness
+         accept: tolerances; signed by surveyor
+  10 [H] blast and coating         profile, DFT, adhesion
+         accept: coating spec; signed by coating insp.
+  11 [R] internals and marking     checklist, serial no.
+         accept: drawing; signed by QC
+  12 [H] release for shipping      data book complete
+         accept: all above closed; signed by client insp.
+  7 hold points; every record carries the section's serial
+  number and the plates' heat numbers, so any later finding
+  traces back to the steel mill (supplier traceability)

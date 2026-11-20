@@ -1,0 +1,6 @@
+carbon equivalent CE = C + Mn/6 + (Cr + Mo + V)/5 + (Ni + Cu)/15 (mass %)
+  (a widely used weldability indicator; certificate values assumed, A-085)
+  heat A: C 0.18, Mn 1.45 -> CE 0.453
+  heat B: C 0.12, Mn 1.30 -> CE 0.355
+  higher CE: a harder heat-affected zone and more risk of cold cracking; the
+    welding procedure sets preheat from CE, thickness and heat input

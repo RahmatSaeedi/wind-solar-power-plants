@@ -1,0 +1,18 @@
+% Chapter 20 - yearly cost of an upward-reserve service by its size, held by the controller alone or
+% by a plan that knows the service (A-300). Data: diagrams/data/ch20-sizes.csv
+% (companion/ch20/lab_e.py sizes()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=62mm, ybar, bar width=7mm, xmin=0.4, xmax=4.6,
+      ymin=0, ymax=280, ylabel={هزینه (هزار واحد در سال)}, xtick={1,2,3,4},
+      xticklabels={{$5\,\text{MW}\times1\,\text{h}$}, {$10\,\text{MW}\times1\,\text{h}$},
+                   {$10\,\text{MW}\times2\,\text{h}$}, {$15\,\text{MW}\times1.5\,\text{h}$}},
+      ytick={0,50,...,250}, xmajorgrids=false, area legend, legend columns=1,
+      legend style={at={(0.03,0.97)}, anchor=north west, font=\footnotesize}]
+    \addplot[draw=cLoss, fill=cLoss!35] table[x=k, y=ctrl, col sep=comma] {data/ch20-sizes.csv};
+    \addplot[draw=cBESS, fill=cBESS!40] table[x=k, y=plan, col sep=comma] {data/ch20-sizes.csv};
+    \legend{فقط کنترل‌گر, برنامهٔ آگاه از خدمت}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

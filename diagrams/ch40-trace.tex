@@ -1,0 +1,20 @@
+% Chapter 40 - the torque defect traced from cause through escape and event to the plant
+% consequence, containment, corrective action and closure with evidence, read right to left in
+% two rows (companion/ch40/lab_d.py, d_trace; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=32mm, minimum height=15mm, text width=30mm}]
+  \node[s, blkWarn] (c) at (10.5,0) {\textbf{علت}\\ آچارِ TW-14 افتاد؛ ۱۲٪ بیشتر نشان می‌داد؛ چهار روز بی‌وارسی};
+  \node[s, blkWarn] (e) at (7.0,0) {\textbf{فرار}\\ بی‌علامتِ رنگ، بی‌مقاومتِ اتصال در آزمونِ کارخانه: ۷۰٪};
+  \node[s, blkWarn] (v) at (3.5,0) {\textbf{رویداد}\\ تیرِ اول؛ اتصالِ شینه گرم شد؛ S-06 قطع شد};
+  \node[s, blkWarn] (q) at (0,0) {\textbf{پیامد}\\ انرژی ۲۰٫۴، تعمیر ۳۵، وارسی ۸: ۶۳٫۴ هزار واحد};
+  \node[s, blkPV] (m) at (0,-2.3) {\textbf{مهار}\\ تبارنامه: S-05 تا S-07؛ اندازه‌گیری در ساختگاه};
+  \node[s, blkPV] (a) at (3.5,-2.3) {\textbf{اقدامِ اصلاحی}\\ وارسیِ هر نوبت، علامتِ رنگ، مقاومت در هر آزمون};
+  \node[s, blkBESS] (z) at (7.0,-2.3) {\textbf{بستن با شاهد}\\ سه ماه سابقه، FMEA بازنگری‌شده، فرار ۱٫۸٪};
+  \draw[flow] (c) -- (e); \draw[flow] (e) -- (v); \draw[flow] (v) -- (q);
+  \draw[flow] (q) -- (m); \draw[flow] (m) -- (a); \draw[flow] (a) -- (z);
+  \draw[flowinfo] (z.east) -| (c.south);
+  \node[note, anchor=east] at (10.35,-1.15) {بازخورد به FMEA};
+\end{tikzpicture}
+\end{document}

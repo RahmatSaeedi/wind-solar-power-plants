@@ -1,0 +1,26 @@
+cell-to-container interfaces (worked example 2, part 1):
+  cell -> module:
+    busbar weld, voltage and temperature leads, compression frame, thermal pad
+  module -> rack:
+    power connector, BMS daisy chain, module fuse, mounting and earthing
+  rack -> container:
+    rack switch and fuse, DC bus, rack BMS link, airflow, gas and smoke
+    detection
+  container -> PCS and plant:
+    DC cables, protocol (IF-007), auxiliary power, earthing, remote isolation,
+    fire panel
+hypothetical defect: an internal leak of 60 mA (normal 11 mA)
+  1 receiving inspection (OCV now and after 7 days, 30 % SOC):
+    drop normal 0.62 mV, defective 3.45 mV; a limit of 1.5 mV
+    catches it, but only if this cell is in the sample (125 of
+    2,000: 6 %)
+  2 in operation, a series string carries one current; the
+    leak drains the cell 0.37 % SOC a day more; balancing
+    (100 mA, 2 h a day) returns 0.06 %; net 0.31 % a day
+    its voltage at the top of charge falls 30 mV below the others
+    after 35 days: the BMS deviation alarm (teaching limit)
+    and the balancing log (the same cell every day) both show it
+  3 containment: the rack controller limits current, then opens
+    the rack switch; 11 of 12 racks keep running; the module (the
+    replaceable unit) is changed under the maker's procedure; the
+    cell goes to failure analysis and its lot is traced (c_lots)

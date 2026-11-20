@@ -1,0 +1,12 @@
+asset criticality = consequence x likelihood (1-5 each, teaching)
+  main transformer T1      5 x 2 = 10
+  132 kV line              5 x 2 = 10
+  turbine gearbox (each)   3 x 3 =  9
+  SCADA server             4 x 2 =  8
+  fire pump                4 x 2 =  8
+  PV inverter (each)       2 x 4 =  8
+  BESS PCS (each)          3 x 2 =  6
+  PPC                      5 x 1 =  5
+  the ranking decides spares, inspection intervals and who
+  gets the maintainer first; ties are broken by consequence -
+  ch 52 builds the maintenance plan from it

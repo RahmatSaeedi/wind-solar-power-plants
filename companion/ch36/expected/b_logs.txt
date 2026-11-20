@@ -1,0 +1,12 @@
+security logs kept for a year (teaching volumes)
+  source                         devices   events/day each   GB/year
+  zone firewalls                       2           400,000      87.6
+  switches                            34             2,000       5.0
+  servers and HMIs                    12            20,000      35.0
+  jump host                            1             5,000       0.9
+  controllers: changes, logins         3                50       0.0
+  total about 129 GB a year
+  the controllers write few events, and each one matters:
+  a configuration change or a login on a plant controller
+  is read by a person the same day; the firewall's many
+  events are searched when a question is asked

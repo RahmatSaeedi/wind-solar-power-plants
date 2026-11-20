@@ -1,0 +1,14 @@
+forced outages of the first year (hours down, of which waiting)
+  T03 converter        46 h  waiting  30 h
+  T07 pitch            18 h  waiting   6 h
+  PVF2-1 inverter      70 h  waiting  52 h
+  T11 yaw               9 h  waiting   2 h
+  WS2 feeder            4 h  waiting   1 h
+  PVF1-3 combiner      26 h  waiting  20 h
+  T05 gearbox oil      31 h  waiting  12 h
+  BESS-A PCS           22 h  waiting  15 h
+  8 outages, 226 h; mean time to restore 28.2 h
+  waiting for parts, access or permits 138 h = 61% of the time
+  the repair itself is the smaller part: spares, access and
+  permits are where availability is won (ch 37 waiting,
+  ch 52 maintenance)

@@ -1,0 +1,6 @@
+equity IRR with delay (15 % chance of a year), capex overrun
+(half-normal 5 %) and energy uncertainty, 300 draws:
+  P10 7.83 %, P50 9.48 %, P90 11.03 %; base 10.22 %
+  draws below the 6 % debt rate: 0 %
+  the median falls below the base: delay and overrun only go
+  one way, so the base case is not the expected case

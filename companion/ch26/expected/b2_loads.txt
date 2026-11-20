@@ -1,0 +1,7 @@
+largest load currents the relays must ride through:
+  feeder =WS1: 21.0 MVA -> 368 A at 1.0 pu, 387 A at 0.95 pu
+  incomer: 68.4 MVA -> 1197 A at 1.0 pu, 1260 A at 0.95 pu
+  finding: the incomer breaker of ch 23 (1,250 A, marked
+  provisional) is below 1,260 A; the protection work raises it
+  and its CT to 1,600 A (recorded in D-030; ch 24's panel +H01
+  follows) - settings work checks ratings, not only relays

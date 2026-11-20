@@ -1,0 +1,7 @@
+stringing weather (wind at 20 m from the data pack; teaching limit
+  10 m/s for 8 h)
+  972 windows of 8 h a year at any hour (daylight work keeps about half)
+  stringing is rarely stopped by wind on this plain; heat
+  is the limit in summer (work hours, crew welfare, ch 32)
+  and the conductor's sag is set to the temperature on the
+  day with the line designer's sag tables (ch 24)

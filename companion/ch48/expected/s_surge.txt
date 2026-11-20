@@ -1,0 +1,10 @@
+outdoor signal lines entering cabinets: surge protector at the entry?
+  C-201  met mast pyranometer   -> MET-1    yes
+  C-202  met mast anemometer    -> MET-1    yes
+  C-203  met mast wind vane     -> MET-1    NO
+  C-204  PV string monitor      -> PV-B07   yes
+  C-205  fence camera           -> CAM-12   NO
+  2 lines without: the wind vane's cable runs down the same
+  mast as the others and brings a lightning surge straight to
+  the logger the others protect - a protector on every line,
+  bonded to the cabinet's earth bar (lesson A), or none works

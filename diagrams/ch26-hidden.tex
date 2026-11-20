@@ -1,0 +1,15 @@
+% Chapter 26 - unavailability of protection from hidden failures against the test interval
+% (lambda T / 2), with and without self-supervision catching 80 % of failures; data
+% diagrams/data/ch26-hidden.csv from companion/ch26/examples_p.py hidden().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=9, ymin=0, ymax=9,
+      xlabel={فاصلهٔ آزمون $(\text{y})$}, ylabel={ناآمادگی، درصد}, xmajorgrids=true,
+      legend columns=2]
+    \addplot[sLoss, mark=*, mark size=1.5pt] table[x=t, y=plain, col sep=comma] {data/ch26-hidden.csv};
+    \addplot[sWind, mark=square*, mark size=1.5pt] table[x=t, y=supervised, col sep=comma] {data/ch26-hidden.csv};
+    \legend{بی‌خودنظارتی, با خودنظارتیِ $80\,\%$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

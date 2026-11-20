@@ -1,0 +1,12 @@
+inspecting a sample of flange bolts: the chance to find a loose one
+  120 bolts in a flange; k of them loose
+  sample   k = 1   k = 3   k = 6
+       6    0.05    0.14    0.27
+      12    0.10    0.27    0.48
+      24    0.20    0.49    0.75
+      60    0.50    0.88    0.99
+  a 10 % sample (12 bolts) finds one of three loose bolts only
+  a quarter of the time: early in life, when settling
+  relaxes preload, every bolt is checked (lesson C); a
+  sample is for later years, and a loose one found in it
+  turns the sample into a full check

@@ -1,0 +1,17 @@
+% Chapter 34 - tap-changer operations in a day against the controller deadband, tap step 1.25 % (half a
+% step 0.625 %), synthetic bus voltage (examples_n, diagrams/data/ch34-taps.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, ybar, bar width=9mm, xmin=0.4, xmax=5.6,
+      ymode=log, ymin=1, ymax=2000, log origin=infty,
+      xtick={1,...,5}, xticklabels={$0.5$, $0.6$, $0.75$, $1.0$, $1.25$},
+      xlabel={باند مرده (درصد)}, ylabel={کارکردِ تپ در روز},
+      point meta=rawy, nodes near coords,
+      nodes near coords style={font=\scriptsize, /pgf/number format/fixed, /pgf/number format/precision=0}]
+    \addplot[fill=cLoad!40, draw=cLoad] table[x=k, y=ops, col sep=comma] {data/ch34-taps.csv};
+    \draw[sLoss] (axis cs:2.65,1) -- (axis cs:2.65,1500);
+    \node[note, anchor=north west] at (axis cs:2.7,1400) {نیمِ گامِ تپ};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

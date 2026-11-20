@@ -1,0 +1,13 @@
+over-excitation: flux follows V/f (teaching core, 1.7 T rated):
+  V/f pu   flux T   core loss x   magnetising current x
+    1.00     1.70          1.00                     1.0
+    1.05     1.78          1.10                     2.0
+    1.10     1.87          1.21                     3.9
+    1.15     1.95          1.32                     7.7
+    1.20     2.04          1.44                    15.2
+  above about 1.1 the core runs into saturation: the loss and
+  the magnetising current grow fast, flux leaks into the tank
+  and the clamps and heats them - high voltage at the plant
+  end of a long line, or low frequency in an island, does it;
+  a V/Hz protection (24) with a time curve from the maker
+  guards it, and the plant's voltage control keeps away from it

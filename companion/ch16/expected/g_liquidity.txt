@@ -1,0 +1,6 @@
+liquidity: monthly cash against level monthly debt service
+  (service 8,164 k u a year, 680 k u a month):
+  months short of the service in 20 years: 33 of 240
+  largest shortfall in one year 298 k u; a six-month reserve holds 4,082 k u
+  seasonal shortfalls are normal and the reserve absorbs them;
+  a reserve is sized on monthly data, not on the annual P90

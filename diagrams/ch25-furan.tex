@@ -1,0 +1,18 @@
+% Chapter 25 - degree of polymerisation of the paper estimated from 2-furaldehyde in oil by the Chendong
+% correlation (teaching use); data diagrams/data/ch25-furan.csv from companion/ch25/examples_v.py furan().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, xmode=log, width=104mm, height=60mm, xmin=0.01, xmax=10, ymin=0, ymax=1100,
+      xlabel={$\text{2-FAL}$ در روغن $(\text{mg/kg})$}, ylabel={درجهٔ پلیمرشدن $\text{DP}$},
+      xmajorgrids=true, log basis x=10]
+    \addplot[sInk] table[x=fal, y=dp, col sep=comma] {data/ch25-furan.csv};
+    \draw[sLimit] (axis cs:0.01,200) -- (axis cs:10,200);
+    \node[note, anchor=south west] at (axis cs:0.012,205) {نزدیکِ پایانِ عمر $\approx 200$};
+    \draw[draw=cInkB, densely dotted] (axis cs:0.01,600) -- (axis cs:10,600);
+    \node[note, anchor=south west] at (axis cs:0.012,605) {کاغذِ سالم};
+    \draw[draw=cInkB, densely dotted] (axis cs:0.01,400) -- (axis cs:10,400);
+    \node[note, anchor=south west] at (axis cs:0.012,405) {پیرشدنِ پیشرفته زیرِ $400$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

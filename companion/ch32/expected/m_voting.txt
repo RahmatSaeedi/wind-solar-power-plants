@@ -1,0 +1,10 @@
+voting: false alarms against missed fires (teaching rates)
+  40 detectors, each 0.05 false alarms a year; failure rate 0.02 a year
+  logic                  unwanted actions a year   PFD in the fire zone
+  any one detector acts                     2.00                 0.0050
+  two must agree                         0.00089                 0.0100
+  voting cuts unwanted trips from about two a year to almost
+  none, and doubles the chance of missing a real fire - so
+  a single detector may raise the ALARM while the trip of a
+  container or a building waits for a second: the cause-
+  and-effect matrix states which (lesson C)

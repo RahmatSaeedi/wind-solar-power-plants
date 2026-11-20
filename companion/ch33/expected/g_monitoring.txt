@@ -1,0 +1,9 @@
+livelihood monitoring of the families (synthetic results)
+  year   animals   income k u   families satisfied
+     0       600         72.0                    -
+     1       590         69.0                 60 %
+     2       610         73.5                 80 %
+     3       620         74.4                 80 %
+  closeout when incomes are back at the baseline (year 2)
+  and stay there (year 3), and when the families agree in
+  a final review - closure is evidence, not a date

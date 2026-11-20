@@ -1,0 +1,9 @@
+protection operations of the first year reviewed: 18
+  correct (fault cleared by the right relay)    14
+  unwanted (no fault, or not its zone)           3
+  failed to operate (backup cleared)             1
+  dependability 93% of operations on a fault;
+  3 unwanted trips, each investigated with its
+  settings file and event record (ch 26); the failure to
+  operate is the most serious - a relay that did not see
+  its fault is retested before it is trusted again

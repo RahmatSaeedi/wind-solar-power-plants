@@ -1,0 +1,9 @@
+a gas detector that fails silently, found at the proof test
+  (failure rate 0.05 a year, teaching A-297):
+  test interval   one detector   two detectors (1 of 2)
+         3 months          0.63 %                 0.0052 %
+         6 months          1.25 %                 0.0208 %
+        12 months          2.50 %                 0.0833 %
+  testing more often and adding a second detector both cut the
+  time the protection is silently missing; the test interval
+  is a maintenance requirement with an owner (chapter 52)

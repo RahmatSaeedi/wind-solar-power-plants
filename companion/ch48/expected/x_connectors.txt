@@ -1,0 +1,8 @@
+links of 4 connectors against an allowance of 0.5 dB each (20,000 trials)
+  practice                fails the allowance
+  mate as received           8.73%
+  inspect, clean, mate       0.45%
+  a dirty end-face adds more than the allowance it was given;
+  inspecting each end before mating cuts the failed links
+  about 19-fold - and a mated dirty face can scratch the clean one,
+  so the inspection is a step of the procedure, not a repair

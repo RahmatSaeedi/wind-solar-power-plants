@@ -1,0 +1,9 @@
+current a wafer can absorb (blackbody sun as ch 10, 39.6 max)
+  optics                      50 um   100 um   150 um   180 um
+  one pass                     32.5    34.5    35.5    35.8
+  two passes (mirror)          34.5    36.0    36.8    37.1
+  light trapping (4n2)         38.3    38.9    39.1    39.1
+  mA/cm2; light trapping (texture plus a reflecting rear)
+  lets a 100 um wafer absorb more than a 180 um wafer in one
+  pass - why texture and the rear mirror allowed thinner
+  wafers (lesson B, silicon per watt)

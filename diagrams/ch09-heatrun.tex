@@ -1,0 +1,17 @@
+% Chapter 9 - factory heat run of two inverters: hottest module temperature, limit and guard band
+% (A-179). Data: diagrams/data/ch09-heatrun.csv (companion/ch09/examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0, xmax=240, ymin=40, ymax=95,
+      xlabel={زمان، $\text{min}$}, ylabel={دما، $^\circ\text{C}$}, xtick={0,60,...,240}, ytick={40,50,...,90}]
+    \fill[cLoss!10] (axis cs:0,88.5) rectangle (axis cs:240,90);
+    \draw[cLoss, line width=0.8pt] (axis cs:0,90) -- (axis cs:240,90);
+    \node[note, text=cLoss, anchor=south west] at (axis cs:4,90) {حدِ $90\ ^\circ\text{C}$ و نوارِ حفاظتیِ عدمِ قطعیت زیرِ آن};
+    \addplot[sInk, line width=0.8pt] table[x=t, y=a, col sep=comma] {data/ch09-heatrun.csv};
+    \addlegendentry{واحدِ A}
+    \addplot[sLoss, line width=0.8pt] table[x=t, y=b, col sep=comma] {data/ch09-heatrun.csv};
+    \addlegendentry{واحدِ B}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

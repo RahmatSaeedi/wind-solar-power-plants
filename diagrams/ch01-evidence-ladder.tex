@@ -1,0 +1,21 @@
+% Chapter 1 — the status labels of every number in the book, as a ladder of confidence.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    stp/.style={blk, minimum width=29mm, minimum height=12mm, inner sep=2pt, anchor=south west}]
+
+  % five steps, climbing from right to left (reading direction)
+  \node[stp]                 (s1) at (12.4,0.0) {\textbf{ساختگی}\\دادهٔ آموزشی};
+  \node[stp]                 (s2) at ( 9.3,1.1) {\textbf{فرضی}\\برآوردِ اولیه};
+  \node[stp, fill=cWind!7]   (s3) at ( 6.2,2.2) {\textbf{اعلامِ سازنده}\\برگهٔ داده، گزارشِ آزمون};
+  \node[stp, fill=cWind!13]  (s4) at ( 3.1,3.3) {\textbf{اندازه‌گیری‌شده}\\ابزارِ کالیبره، سابقه};
+  \node[stp, fill=cWind!20]  (s5) at ( 0.0,4.4) {\textbf{تأییدشدهٔ رسمی}\\مرجعِ صلاحیت‌دار};
+
+  \draw[flow, line width=1.1pt] (15.6,-0.55) -- node[note, below, pos=0.5] {از فرض تا شاهد: هر فصل چند عدد را یک پله بالا می‌برد} (0,-0.55);
+
+  \node[note, anchor=west, align=right, text width=52mm] at (9.6,4.6)
+       {هر عددِ نیروگاهِ P یکی از این پنج برچسب را دارد. عددِ پلهٔ پایین را هرگز به‌جای
+        عددِ پلهٔ بالا جا نمی‌زنیم.};
+
+\end{tikzpicture}}
+\end{document}

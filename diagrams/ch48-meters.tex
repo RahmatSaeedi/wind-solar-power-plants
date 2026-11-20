@@ -1,0 +1,18 @@
+% Chapter 48 - daily difference between the main and the check meter at the POC over 60 days: no trend,
+% then a drift from day 30 that is significant by day 37 and passes 0.3 % on day 53 (synthetic;
+% companion/ch48/examples_t.py, check_meter -> diagrams/data/ch48-meters.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=60, ymin=-0.1, ymax=0.45,
+      xlabel={روز}, ylabel={اختلاف (درصد)}, xtick={0,10,...,60},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1}]
+    \addplot[sWind, mark=*, mark size=1.1pt, mark options={solid}]
+      table[x=day, y=diff, col sep=comma] {data/ch48-meters.csv};
+    \draw[cLoss, line width=1pt, dash pattern=on 3pt off 2pt] (axis cs:0,0.3) -- (axis cs:60,0.3);
+    \node[note, anchor=south west, text=cLoss] at (axis cs:1,0.3) {حدِ آموزشی};
+    \draw[cInk!60, dashed] (axis cs:37,-0.1) -- (axis cs:37,0.42);
+    \node[note, anchor=south east] at (axis cs:36.5,0.36) {روندِ معنادار};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,18 @@
+records to re-check when an edition changes (ch 54 helper)
+  STD-173: 7 records
+    REQ-T1: D-047 item on the heat run
+    REQ-T1: PLP-ELE-SPC-0010 C-2.5
+    REQ-T1: ITP witness point (ch 43)
+    REQ-T1: T1 test report review
+    REQ-T1: LossTempCalc settings (ch 43)
+    REQ-T3: hot-spot factor from fibre sensors (ch 43)
+    REQ-T3: loading guide inputs (ch 25)
+  STD-120: 3 records
+    REQ-T2: PLP-ELE-SPC-0010 C-2.1 to C-2.4
+    REQ-T2: rating plate check
+    REQ-T2: routine-test list (ch 43)
+  STD-013: 2 records
+    REQ-M1: meter specification (ch 48)
+    REQ-M1: metering trace (ch 57)
+  each record gets a dated decision: unchanged, revised, or
+  kept on the old edition by contract (and why)

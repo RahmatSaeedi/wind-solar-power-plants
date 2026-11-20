@@ -1,0 +1,11 @@
+documents read in their official language, or only in translation
+  GCZ     official yes  translation yes
+  TCR     official NO   translation yes
+          translation 'should' where the official text says 'shall'
+  EP-117  official yes  translation no
+  GLR     official NO   translation yes
+          translation omits a footnote on hybrid plants
+  CA-P    official yes  translation no
+  read only in translation: TCR, GLR - a translation is a
+  reading aid; the official text decides, and a qualified
+  reader confirms the clauses the design depends on

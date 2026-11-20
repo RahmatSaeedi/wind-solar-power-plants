@@ -1,0 +1,7 @@
+data: Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS)
+mean wind speed at 100 m: 7.103 m/s = 25.57 km/h = 13.81 kn = 15.89 mph
+annual GHI: 1947.2 kWh/m2 = 7010 MJ/m2
+  as a mean irradiance over 8760 h: 222.3 W/m2
+  as a daily mean: 5.335 kWh/m2 per day
+mean station pressure: 877.67 hPa = 87.767 kPa = 87767 Pa = 0.8777 bar = 12.73
+    psi

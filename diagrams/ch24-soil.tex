@@ -1,0 +1,20 @@
+% Chapter 24 - soil thermal resistivity from 20 needle-probe readings (dry season, teaching;
+% companion/ch24/examples_v.py PROBES) as a histogram of 0.1-wide bins (bars at bin centres),
+% with the mean 1.14 and the 90th percentile 1.48 K m/W.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, ybar, bar width=7.5mm, xmin=0.75, xmax=1.85,
+      ymin=0, ymax=8, enlargelimits=false,
+      xlabel={مقاومتِ گرماییِ خاک $(\text{K}\,\text{m}/\text{W})$}, ylabel={شمارِ اندازه‌ها},
+      xtick={0.8,1.0,...,1.8}, xticklabel style={/pgf/number format/.cd, fixed, precision=1},
+      xmajorgrids=false]
+    \addplot[draw=cWind, fill=cWind!25] coordinates {(0.85,3) (0.95,5) (1.05,3) (1.15,2) (1.25,2)
+      (1.35,2) (1.45,1) (1.55,0) (1.65,1) (1.75,1)};
+    \draw[sLimit] (axis cs:1.14,0) -- (axis cs:1.14,8);
+    \draw[color=cLoss, line width=1pt] (axis cs:1.48,0) -- (axis cs:1.48,8);
+    \node[note, anchor=south west] at (axis cs:1.15,6.8) {میانگین};
+    \node[note, anchor=south west, text=cLoss] at (axis cs:1.49,6.8) {صدکِ نود};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

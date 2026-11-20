@@ -1,0 +1,10 @@
+halving one component at a time: one-year P90 (now 275.93 GWh):
+  year-to-year (wind and PV, r 0.12)   future +3.01 GWh
+  long-term correction and period      wind   +1.84 GWh
+  anemometer calibration, mounting     wind   +0.77 GWh
+  cross-prediction to the turbines     wind   +0.70 GWh
+  power curve                          wind   +0.46 GWh
+  irradiance sensor, maintenance       PV     +0.18 GWh
+  the year-to-year term cannot be halved (it is the future); of
+  the rest, the wind long-term correction and the measurement
+  chain pay most: better data, not a cleverer model

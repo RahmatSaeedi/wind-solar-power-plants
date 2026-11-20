@@ -1,0 +1,8 @@
+spares for the export path: needed by the repair plan and held
+  132 kV insulator string    needed   6  held   2  short 4
+  33 kV termination kit      needed  12  held   8  short 4
+  CT 600/1 A                 needed   2  held   0  short 2
+  surge arrester 132 kV      needed   3  held   1  short 2
+  4 lines short; the CT has none - a failed CT holds the
+  bay out for its lead time (ch 39: months), with the line
+  differential (ch 28) needing a matched replacement

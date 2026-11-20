@@ -1,0 +1,15 @@
+tower without top mass; exact f1 = beta^2/(2 pi) sqrt(EI/(m L^4)), beta =
+    1.875104 (root of cos b cosh b = -1): 0.455901 Hz
+  elements  frequency (Hz)  error
+         1  0.458069        +4.75e-01 %
+         2  0.456121        +4.83e-02 %
+         4  0.455916        +3.27e-03 %
+         8  0.455902        +2.08e-04 %
+        16  0.455901        +1.31e-05 %
+with the 350 t top mass: 0.2310, 0.2310, 0.2310 Hz (4, 8, 16 elements)
+synthetic 'measured' frequency 0.221 Hz: model is +4.5 % high
+  a converged mesh does not make a model right: the clamped base ignores
+  foundation and soil flexibility (chapter 30) - calibrate, then re-check
+  a rotational base spring of 116 GN m/rad reproduces the measurement (one
+    fitted parameter)
+  check the calibrated model against a SECOND measurement before trusting it

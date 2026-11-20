@@ -1,0 +1,8 @@
+decibels: L = 10 log10(W / W_ref); levels of independent sources add as powers
+  two equal sources: +10 log10(2) = +3.01 dB; twelve: +10.79 dB
+  12 turbines of sound power level 105 dB (assumed): 115.8 dB
+  85 dB + 85 dB = 88.0 dB; 85 dB + 75 dB = 85.4 dB (the quieter adds 0.4 dB)
+  free-field spreading from a point source: -20 log10(r2/r1); from 100 to 500
+    m -14.0 dB
+  real noise assessment uses standardised methods and local limits (chapter
+    33)

@@ -1,0 +1,17 @@
+% Chapter 33 - stakeholder map: influence against interest or impact (teaching scores), with the
+% high-impact, low-voice corner shaded (diagrams/data/ch33-map.csv, examples_b).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=72mm, xmin=0.5, xmax=5.5, ymin=0.5, ymax=5.5,
+      xtick={1,...,5}, ytick={1,...,5}, xlabel={نفوذ}, ylabel={ذی‌نفعی یا اثرپذیری}]
+    \fill[cLoss!10] (axis cs:0.5,3.5) rectangle (axis cs:2.5,5.5);
+    \node[note, anchor=north west] at (axis cs:0.55,5.45) {اثرپذیرِ کم‌صدا};
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cLoad] table[x=influence, y=interest, col sep=comma] {data/ch33-map.csv};
+    \node[note, anchor=west] at (axis cs:2.08,5) {دامداران};
+    \node[note, anchor=west] at (axis cs:1.08,4) {زنان};
+    \node[note, anchor=west] at (axis cs:4.08,4) {شورای روستا};
+    \node[note, anchor=east] at (axis cs:4.92,2) {بهره‌بردارِ شبکه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

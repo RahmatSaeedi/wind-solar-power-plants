@@ -1,0 +1,10 @@
+available capacity declared to the grid operator vs actual;
+  re-declare within the hour when it moves > 5 MW (teaching)
+  turbine out 06-10, PV block out 13-18; re-declarations sent at
+  07:00, 14:00, 18:00
+  hours with the declaration wrong by more than 5 MW: 5 (06, 10, 11, 12, 13)
+  both outages were re-declared an hour late, and the turbine's
+  return at 10:00 not at all: in two hours the grid operator
+  counted on 12 MW that was not there, in three it planned
+  without 12 MW that was - re-declaration is part of the
+  outage procedure, not an afterthought

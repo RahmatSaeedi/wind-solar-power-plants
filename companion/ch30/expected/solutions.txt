@@ -1,0 +1,25 @@
+P01 wind at 120 m from 8 m/s at 10 m, alpha 0.2: 13.15 m/s
+P02 peak gust, 20 m/s mean, TI 0.12, g 3.5: 28.4 m/s
+P03 drag, q 1,000 Pa, Cd 0.6, 3 m x 10 m: 18.0 kN
+P04 vortex lock-in, f 0.45 Hz, D 3.0 m, St 0.2: 6.75 m/s
+P05 elastic buckling, t 40 mm, r 2.06 m, knock-down 0.4: 987 MPa
+P06 Rankine with fy 355 and that: 261 MPa
+P07 S-N life at 40 MPa, detail 71: 1.91e+07 cycles
+P08 S-N life at 100 MPa, detail 71: 7.16e+05 cycles
+P09 damage of 1e7 cycles at 45 MPa, detail 71: 0.94
+P10 effective area, r 10 m, e 3 m: 196.0 m2
+P11 pressure, V 40 MN, M 120 MN m, r 12 m: 129 kPa
+P12 rocking stiffness, G 25 MPa, r 12 m, nu 0.35: 177 GN m/rad
+P13 f1 with f_fixed 0.215 Hz, K 177 GN m/rad, m 353 t, h 100 m: 0.2112 Hz
+P14 pile uplift, perimeter 0.55 m, 2 m, 25 kPa: 27.5 kN
+P15 Broms, d 0.15, L 1.6, gamma 18, Kp 3, e 1.2: 5.9 kN
+P16 zinc 85 um at 8 um/yr: 10.6 years
+P17 expansion of a 29.5 m rail over 74 K: 26 mm
+P18 base shear, 95 t, Sa 0.625 g: 582 kN
+P19 slip resistance, 4 bolts, mu 0.3, 80 kN, 1 surface: 96 kN
+P20 rebar, M 2.4 MN m/m, d 1.6 m, fyd 435 MPa: 3,831 mm2/m
+P21 transverse pull, 35 kN at 60 deg: 35.0 kN a wire
+P22 force between bars, ip 30 kA, a 0.5 m: 360 N/m
+P23 worst anchor bolt, M 185 MN m, 160 bolts, D 4.3 m, V 6 MN: 1038 kN
+P24 carbonation to 50 mm with k 5 mm/sqrt(yr): 100 years
+P25 verticality, 1.2 mm/m at 100 m: 120 mm

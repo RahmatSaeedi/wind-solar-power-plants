@@ -1,0 +1,28 @@
+% Chapter 1 — conceptual curves: ability to influence the outcome falls while
+% committed spending rises. No scale: the shapes carry the message.
+% Time runs right-to-left, like the life-cycle figure.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=66mm,
+      x dir=reverse, axis y line*=right,
+      xmin=0, xmax=1, ymin=0, ymax=1.08,
+      ymajorgrids=false,
+      xtick={0.06,0.22,0.40,0.56,0.74,0.92},
+      xticklabels={غربالگری, امکان‌سنجی, طراحی, تدارکات, اجرا, بهره‌برداری},
+      xticklabel style={font=\footnotesize, text=cInkB},
+      ytick=\empty,
+      legend style={at={(0.5,-0.2)}}]
+    \addplot[sWind, domain=0:1, samples=80] {exp(-4.2*x)};
+    \addlegendentry{توانِ اثرگذاری بر هزینه و عملکردِ نهایی}
+    \addplot[sLoss, domain=0:1, samples=80] {1/(1+exp(-13*(x-0.60)))};
+    \addlegendentry{هزینهٔ انباشتهٔ انجام‌شده}
+    \draw[sLimit] (axis cs:0.48,0) -- (axis cs:0.48,1.04);
+    \node[note, anchor=south] at (axis cs:0.48,1.04) {تصمیمِ نهاییِ سرمایه‌گذاری (G4)};
+    \node[font=\footnotesize, text=cInk, anchor=east] at (axis cs:0.12,0.74) {اثرگذاری};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:0.90,0.99) {هزینه};
+    \node[font=\footnotesize, text=cInkB, anchor=west] at (axis cs:0,1.0) {زیاد};
+    \node[font=\footnotesize, text=cInkB, anchor=west] at (axis cs:0,0.04) {کم};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

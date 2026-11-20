@@ -1,0 +1,15 @@
+test families of a protection relay and its panel:
+  type tests (once per design):
+    EMC immunity and emission, insulation,
+    climatic, mechanical, functional accuracy - certificates
+  routine tests (every unit):
+    functions, calibration of inputs,
+    self-supervision - the unit's test report
+  firmware and configuration:
+    version recorded, checksum, release
+    notes - part of the configuration record
+  panel FAT (the assembly):
+    wiring, functions, trips, interlocks
+    with the project's schematics - FAT record and punch list
+  the type test proves the design; the routine test proves
+  this unit; the FAT proves this panel as wired for Plant P

@@ -1,0 +1,6 @@
+long-term flicker Plt from twelve 10-minute Pst values (2 hours)
+  Pst: 0.25 0.30 0.28 0.35 0.90 0.32 0.27 0.26 0.31 0.29 0.30 0.28
+  Plt = (sum Pst^3 / 12)^(1/3) = 0.438;  mean Pst = 0.343
+  the cube weights the one high value (0.90, a switching
+  event) strongly: Plt sits above the plain mean - a rule
+  chosen so that short severe flicker is not averaged away

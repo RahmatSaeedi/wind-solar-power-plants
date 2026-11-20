@@ -1,0 +1,15 @@
+tag database of 15 tags (planted faults) checked
+  tag          problem
+  MET1.POA     alarms outside the range or out of order
+  T05.P        deadband 900 for a span of 5500
+  T05.WS       unit km/h does not fit speed
+  PVF1.P       duplicate tag
+  BESS.T       range low >= high
+  SUB.TX1.T    missing deadband
+  6 problems in 6 tags: an alarm
+  pair in the wrong order never raises one of them; a range
+  upside down makes every value 'out of range'; a deadband of
+  900 kW on a 5.5 MW turbine hides a sixth of its output from
+  the historian; km/h on a wind speed breaks every power
+  curve of ch 37 - the validator runs on every revision of
+  the database, before it is loaded

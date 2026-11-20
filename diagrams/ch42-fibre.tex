@@ -1,0 +1,17 @@
+% Chapter 42 - modulus along the fibres of glass and carbon unidirectional laminates against the
+% fibre volume fraction (rule of mixtures, ch 4), with the 45 GPa spar caps of ch 11 reached by
+% glass at V_f 0.61 (diagrams/data/ch42-fibre.csv from companion/ch42/examples_b.py, b_fibre).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0.4, xmax=0.7, ymin=0, ymax=170,
+      xlabel={کسرِ حجمیِ الیاف}, ylabel={مدولِ طولی (گیگاپاسکال)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sWind] table[x=vf, y=glass, col sep=comma] {data/ch42-fibre.csv};
+    \addplot[sLoss] table[x=vf, y=carbon, col sep=comma] {data/ch42-fibre.csv};
+    \legend{شیشه, کربن}
+    \draw[densely dotted, cInk!60] (axis cs:0.4,45) -- (axis cs:0.608,45) -- (axis cs:0.608,0);
+    \node[note, anchor=south west] at (axis cs:0.41,46) {کلاهکِ فصلِ ۱۱: ۴۵};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

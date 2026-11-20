@@ -1,0 +1,8 @@
+one module from cell to string, by hand
+  cell Voc = 0.02569 ln(0.0418 / 9.1e-14) = 0.690 V
+  cell FF (Green, Rs 0.64 ohm cm2) = 0.812
+  cell power = 0.690 x 0.0418 x 0.812 x 330 = 7.73 W
+  module = 72 x 7.73 x CTM 0.992 = 552 W (label class 550)
+  string Voc at -15 C = 26 x 49.90 x 1.108 = 1438 V < 1,500 V
+  a hand check of this chain catches a cell area in m2, a
+  CTM above 1 without a reason, or a string sized at 25 C

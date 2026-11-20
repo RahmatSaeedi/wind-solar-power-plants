@@ -1,0 +1,7 @@
+transport and placing (teaching masses, A-296):
+  container about 38 t loaded with cells; 8 containers
+  304 t: abnormal loads on some roads (chapter 14 access)
+  shipped at a low SOC (transport rules may set it); energy
+  stored on the truck at 30 % SOC: 1.5 MWh a container
+  crane, lifting points and the foundation level are interfaces
+  with the civil contractor; lifting plans are specialists' work

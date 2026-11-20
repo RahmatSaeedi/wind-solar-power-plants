@@ -1,0 +1,6 @@
+returns 29 in 2 years of a 3,000-module fleet (round u): 0.0048 a module-year
+  Plant P's 768 modules: 3.7 returns a year expected
+  in a 16-week resupply: 1.14; stock for 90%: 3 modules
+  the stock is held at the right SOC and age (lesson C) and
+  rotated: a spare is part of the battery's record from the
+  day it arrives (ch 52)

@@ -1,0 +1,16 @@
+grid services for Plant P - Afghanistan: what a source requires or allows
+  energy sale to DABS                verified
+      AF-02, AF-32: contracts with DABS
+  reactive power / voltage control   to-confirm
+      AF-14: no rule found
+  frequency response and reserve     to-confirm
+      AF-24: no product found
+  ride-through                       to-confirm
+      AF-14: no rule found
+  operation within an island system  to-confirm
+      AF-10: grid structure
+  curtailment compensation           to-confirm
+      AF-29: contract terms unpublished
+  verified 1, project-dependent 0, to-confirm 5
+  a service not found is not offered in the base: no capability,
+  test or revenue is assumed for it (ch 20, 54)

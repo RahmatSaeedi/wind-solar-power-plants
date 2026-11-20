@@ -1,0 +1,8 @@
+the thicker walls of lesson B change the tower's frequency
+  +32 t of steel low in the tower: stiffness up about 8 % (estimate),
+  effective mass up 2.2 %
+  fixed-base f1: 0.215 -> 0.221 Hz
+  thicker walls low down raise the frequency a little: one
+  fix (fatigue) helps another check (1P margin) - but every
+  change to the tower goes back through the whole loop:
+  loads, frequency, fatigue, foundation (lesson D)

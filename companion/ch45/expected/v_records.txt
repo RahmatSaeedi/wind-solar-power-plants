@@ -1,0 +1,10 @@
+record of a battery of 39,936 cells (teaching sizes, kB a cell)
+  record                                             GB
+  ID, lot, bin, capacity, resistance, K, fill weights      0.02
+  formation and grading curves                          2.40
+  module build: cells, welds, torques, insulation       0.02
+  BMS history, 1-minute cell data for 20 years        139.78
+  total 142 GB - small next to what it protects; the
+  question is not space but keeping the record readable and
+  linked for twenty-five years: IDs that never change, formats
+  that can still be opened, and an owner (ch 38)

@@ -1,0 +1,11 @@
+waiting time in a switch port against its load (M/M/1, teaching)
+  load %   mean wait ms   x the frame time
+       4          0.005                0.0
+      30          0.051                0.4
+      70          0.280                2.3
+      90          1.080                9.0
+      99         11.880               99.0
+  at the plant's 4 % the wait is nothing; it grows without
+  limit as the load nears 100 % - a link sized for the
+  average sits near the knee in every burst, which is why
+  links get headroom and control traffic gets priority

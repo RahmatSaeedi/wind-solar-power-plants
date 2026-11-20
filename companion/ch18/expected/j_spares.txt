@@ -1,0 +1,13 @@
+spares from the breakdown, 95 % cover over the lead time
+  (failure rates A-288):
+  item                   installed  failures/yr  lead wk  mean  stock
+  PV module                109,200       54.60       12  12.60    19
+  string fuse                8,400       16.80        4   1.29     3
+  inverter power stage          40        5.00        8   0.77     2
+  turbine blade                 36        0.11       26   0.05     1
+  gearbox                       12        0.24       26   0.12     1
+  main transformer               2        0.02       52   0.02     0
+  cheap many-unit items get a stock from demand; rare costly
+  items get zero or one, or a shared spare among plants; the
+  main transformer's answer (0) is why section B weighed
+  the second unit for the tail, not the mean

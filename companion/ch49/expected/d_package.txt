@@ -1,0 +1,13 @@
+turnover package of block =PVF1-3 (construction to commissioning)
+  [x] subsystem boundary drawing (marked-up one-line, layout)
+  [ ] A check sheets for every item
+  [x] hold-point releases of WP02-WP14
+  [ ] installation records: posts, torque, as-laid, terminations, earthing
+  [x] punch list with category, owner and date
+  [ ] asset records at installation stage
+  [x] as-built red-lines
+  [ ] preservation records of stored items
+  [x] permits and isolations in force, energisation status
+  5 of 9 parts complete: the missing ones are the
+  records of lessons B and K - the package can go subsystem by
+  subsystem (MV and inverter now), with what is missing named

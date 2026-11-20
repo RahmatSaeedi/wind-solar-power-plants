@@ -1,0 +1,16 @@
+what Plant P offers against the obligations of Resolution 449
+  real-time data to the dispatcher (TJ-24)   ch 35
+      SCADA gateway, IEC 60870-5-104
+  remote curtailment (TJ-24)                 ch 20
+      PPC set point, any value asked
+  hourly forecasts (TJ-24)                   ch 15
+      day-ahead and intraday forecasts
+  power-factor control (TJ-23)               ch 28
+      +46 / -63 Mvar at 100 MW (study model)
+  anti-islanding and f/V tripping (TJ-23)    ch 26
+      protection settings file
+  metering class 0.5S (TJ-25)                ch 48
+      revenue metering chain
+  each obligation has a design answer in earlier chapters; what
+  is missing are the values (protocol, forecast format, tripping
+  settings) that the technical conditions will give

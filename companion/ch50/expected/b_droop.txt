@@ -1,0 +1,5 @@
+frequency-response test: injected deviations outside a 0.2 Hz deadband
+  measured droop 4.30 %, required 4.0 +/- 0.5 % - pass
+  the test injects a signal into the controller, not a real
+  frequency event; a real event later is compared with this
+  result before the service is paid for (lesson G)

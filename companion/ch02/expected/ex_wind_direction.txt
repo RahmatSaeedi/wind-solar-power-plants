@@ -1,0 +1,6 @@
+first hour of the data pack: 4.44 m/s from 163 deg (FROM, clockwise from
+    north)
+blows towards 343 deg; components u (east) = -1.298 m/s, v (north) = +4.246
+    m/s
+check: sqrt(u^2 + v^2) = 4.44 m/s
+directions 350 and 10 deg: arithmetic mean 180 deg (wrong); vector mean 0 deg

@@ -1,0 +1,5 @@
+v100 = a v80 + b, least squares on 8760 hours
+  a = 1.0403 (95 % CI 1.0395 .. 1.0412), b = -0.0089 m/s
+  r^2 = 0.9985, residual std 0.134 m/s
+  predicted mean at 100 m from the 80 m mean: 7.103 m/s (data 7.103)
+  warning: the CI assumes independent residuals; hourly residuals are not

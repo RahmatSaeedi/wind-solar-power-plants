@@ -1,0 +1,24 @@
+% Chapter 28 - traceability of one requirement: requirement -> study -> model -> test -> evidence,
+% read right to left, with the owner of each link and the register that holds it.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=24mm, minimum height=12mm, text width=22mm},
+    who/.style={note, text width=24mm}]
+  \node[st, blkLoad] (r) at (14.0,0) {الزام \\ REQ-G01};
+  \node[st] (s) at (10.8,0) {مطالعه \\ B و F};
+  \node[st] (m) at (7.6,0) {مدل \\ نسخه و میان‌افزار};
+  \node[st] (t) at (4.4,0) {آزمون \\ توانایی P-Q};
+  \node[st, blkWind] (e) at (1.2,0) {شاهد \\ گزارش در برابرِ مدل};
+  \draw[flow] (r) -- (s);
+  \draw[flow] (s) -- (m);
+  \draw[flow] (m) -- (t);
+  \draw[flow] (t) -- (e);
+  \node[who, below=2mm of r] {بهره‌بردار (کد)};
+  \node[who, below=2mm of s] {مهندسِ مطالعه، کنترل‌گرِ مستقل};
+  \node[who, below=2mm of m] {سازنده؛ اعتبارسنجی با نیروگاه};
+  \node[who, below=2mm of t] {نیروگاه، با شاهدِ بهره‌بردار};
+  \node[who, below=2mm of e] {بهره‌بردار می‌پذیرد};
+  \draw[flowinfo] (e.north) -- ++(0,0.9) -| node[note, pos=0.25, above] {بسته شدنِ الزام در ماتریسِ انطباق} (r.north);
+\end{tikzpicture}
+\end{document}

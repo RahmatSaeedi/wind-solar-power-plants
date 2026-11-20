@@ -1,0 +1,21 @@
+% Chapter 25 - top oil on a mild day: predicted by the thermal model with fans, and measured after the
+% fans fail at 11:00 (with sensor noise); the residual alarm (5 K) sounds at 11:45, the fixed 95 C alarm
+% at 13:25. Data diagrams/data/ch25-residual.csv from companion/ch25/examples_w.py residual_alarm().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=106mm, height=62mm, xmin=0, xmax=24, ymin=30, ymax=110,
+      xtick={0,3,...,24}, xlabel={ساعتِ روز $(\text{h})$}, ylabel={دمای روغنِ بالا $(^\circ\text{C})$},
+      xmajorgrids=true, legend columns=2]
+    \addplot[sInk] table[x=h, y=model, col sep=comma] {data/ch25-residual.csv};
+    \addplot[sLoss] table[x=h, y=meas, col sep=comma] {data/ch25-residual.csv};
+    \legend{مدل (با فن), اندازه‌گیری (فن از کار افتاده)}
+    \draw[sLimit] (axis cs:0,95) -- (axis cs:24,95);
+    \node[note, anchor=south west] at (axis cs:0.3,95.5) {هشدارِ ثابتِ $95\,^\circ\text{C}$};
+    \draw[draw=cInkB, densely dotted] (axis cs:11.75,30) -- (axis cs:11.75,110);
+    \node[note, anchor=north east] at (axis cs:11.6,108) {هشدارِ مدل};
+    \draw[draw=cInkB, densely dotted] (axis cs:13.42,30) -- (axis cs:13.42,110);
+    \node[note, anchor=north west] at (axis cs:13.6,108) {هشدارِ ثابت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

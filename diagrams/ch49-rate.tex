@@ -1,0 +1,18 @@
+% Chapter 49 - modules mounted per crew-hour by week against the planned rate; three crews to week
+% 34, four from week 35 (teaching; companion/ch49/examples_e.py, productivity ->
+% diagrams/data/ch49-rate.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, ybar, bar width=6mm,
+      xmin=30.4, xmax=38.6, ymin=0, ymax=6, xtick={31,...,38},
+      xlabel={هفته}, ylabel={ماژول در هر نفر-ساعتِ گروه}]
+    \addplot[draw=cPV, fill=cPV!45] table[x=week, y=rate, col sep=comma] {data/ch49-rate.csv};
+    \draw[cLoss, line width=1pt, dash pattern=on 3pt off 2pt] (axis cs:30.4,4.6) -- (axis cs:38.6,4.6);
+    \node[note, anchor=south east, text=cLoss] at (axis cs:38.5,4.65) {برنامه};
+    \draw[cInk!60, dashed] (axis cs:34.5,0) -- (axis cs:34.5,5.7);
+    \node[note, anchor=north west] at (axis cs:34.55,5.9) {چهار گروه};
+    \node[note, anchor=north east] at (axis cs:34.45,5.9) {سه گروه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

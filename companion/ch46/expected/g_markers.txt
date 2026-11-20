@@ -1,0 +1,8 @@
+wire markers of panel WS1: 18 wires, both ends read
+  wire 107: end B marked 170
+  wire 112: no marker at end B
+  wire 116: end A marked 115
+  marker 115 on wires 115, 116
+  4 findings on 3 wires: a technician who follows marker
+  115 at site arrives at two places; a marker is the drawing's
+  address on the wire, and both ends are read at the FAT

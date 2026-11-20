@@ -1,0 +1,12 @@
+worked example 1: power factor and current at the POC (100 MW)
+  pf     current A   line loss kW   reactive Mvar   vs 437 A at pf 1
+  1.00         437            486             0.0             +0.0%
+  0.95         460            539            32.9             +5.3%
+  0.90         486            600            48.4            +11.1%
+  0.85         515            673            62.0            +17.6%
+  the same active power at pf 0.9 needs 11 % more current
+  and 23 % more line loss; on a hot, still day the line's
+  rating (ch 24: 419 A at 45 C and 0.6 m/s) is already below
+  437 A - every Mvar the plant is asked to export or absorb
+  at full power deepens the curtailment; the reactive
+  requirement and the line rating are read together

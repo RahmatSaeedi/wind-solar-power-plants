@@ -1,0 +1,12 @@
+how far is the storm? flash-to-bang (sound 343 m/s)
+  seconds   distance km
+        5           1.7
+       10           3.4
+       20           6.9
+       30          10.3
+       45          15.4
+  under 30 s the storm is within about 10 km: work at height,
+  on the line and in open areas stops, and restarts 30
+  minutes after the last thunder; a lightning detector
+  with a warning radius replaces counting where fitted -
+  the site rule sets the distances (ch 26 for protection)

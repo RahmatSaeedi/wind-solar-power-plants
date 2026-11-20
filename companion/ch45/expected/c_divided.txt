@@ -1,0 +1,11 @@
+opening a contactor divides a battery; it does not discharge it
+  part                                        cells   volts   kWh
+  rack, contactors open                         416    1331   418.0
+  module                                         52     166    52.2
+  half module (service disconnect, teaching)     26      83    26.1
+  quarter module (teaching)                      13      42    13.1
+  parts at or below a 60 V teaching threshold: quarter module (teaching)
+  every module stays live at well over a hundred volts with
+  tens of kilowatt-hours behind it: the design divides it
+  into parts that can be handled, the procedure that uses
+  them is the integrator's and is done by qualified people

@@ -1,0 +1,12 @@
+spares: register against a physical count at the end of the year
+  IGBT stack PCI-5500      register    2  counted    2
+  pitch motor              register    3  counted    2  -1
+  33 kV cable joint kit    register    6  counted    6
+  yaw brake pads (set)     register   10  counted   14  +4
+  module PVM-550           register  120  counted  104  -16
+  SCADA switch             register    4  counted    3  -1
+  battery module           register    8  counted    8
+  4 lines differ; missing value 13.5 k u
+  the pitch motor and the switch were used and not booked out:
+  the work orders exist, the store transactions do not - the
+  register thinks the spare is there on the night it is needed

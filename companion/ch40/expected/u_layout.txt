@@ -1,0 +1,6 @@
+material-flow distance of a skid in two hall layouts
+  as built         360 m of moves a skid
+  straight line    220 m of moves a skid
+  the straight line saves 140 m a skid; every metre is a crane or
+  trolley move with a skid of 26 t in the air or on wheels -
+  fewer moves are also fewer lifts to plan (lesson on EHS)

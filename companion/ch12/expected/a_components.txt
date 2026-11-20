@@ -1,0 +1,7 @@
+component closure GHI = DNI cos z + DHI over the pack year:
+  hours tested (sun above 15 deg, GHI > 50 W/m2): 3,430
+  within 2 %: 100.0 %; within 8 %: 100.0 %
+  median ratio 1.0000
+  the pack's DNI and DHI were computed from its GHI, so they
+  close by construction; three real instruments disagree, and
+  the closure test finds which one drifts (section C)

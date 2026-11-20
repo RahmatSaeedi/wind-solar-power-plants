@@ -1,0 +1,9 @@
+asset register checked before the CMMS import (10 rows, teaching)
+  missing: 1
+    =PVF1-2-INV1: serial
+  duplicate: 1
+    =WS1-T02: tag
+  dangling: 1
+    =SUB-T2: test
+  3 problems: the import waits until each is fixed at its
+  source record, not in the CMMS (ch 38, ch 50)

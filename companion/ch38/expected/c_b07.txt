@@ -1,0 +1,12 @@
+PV block PVF2-3 in three linked drawings (tags shared, teaching)
+  tag          drawing    shows                         links to
+  =PVF2-Q1     one-line   feeder breaker 630 A          protection zone Z-PVF2
+  =PVF2-3-T1   one-line   unit transformer 5.6 MVA      zone Z-PVF2-3
+  =PVF2-3-U1   control    inverter, set points P, Q     port SW-PV2:7
+  SW-PV2       network    field switch, PV ring 2       zone field-pv
+  PPC          control    plant controller              control zone
+  the same tag appears in every drawing that shows the item;
+  each drawing lists the drawings it continues on, with
+  their revision. The one-line shows the breaker, the
+  control drawing the command, the network drawing the
+  port the command travels through

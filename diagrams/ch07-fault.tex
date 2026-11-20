@@ -1,0 +1,18 @@
+% Chapter 7 - fault current at the 33 kV bus with the largest DC offset (X/R 15.7, tau 50 ms),
+% in per unit of the symmetrical peak. Data: diagrams/data/ch07-fault.csv (examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=64mm,
+      xlabel={زمان پس از خطا، $\text{ms}$}, ylabel={جریان بر قلهٔ متقارن},
+      xmin=0, xmax=60, ymin=-1.2, ymax=2.1, xtick={0,10,...,60}, ytick={-1,0,1,2}]
+    \addplot[sLoss] table[x=t_ms, y=i, col sep=comma] {data/ch07-fault.csv};
+    \addlegendentry{جریانِ خطا}
+    \addplot[sLimit] table[x=t_ms, y=dc, col sep=comma] {data/ch07-fault.csv};
+    \addlegendentry{مؤلفهٔ مستقیم}
+    \node[note, text=cInk, anchor=south west] at (axis cs:10.5,1.83) {قلهٔ نخست $1.82$};
+    \node[note, text=cInk, anchor=west] at (axis cs:60.5,0.30) {مؤلفهٔ مستقیم};
+    \node[note, text=cInk, anchor=north] at (axis cs:20,-0.42) {جریانِ خطا};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

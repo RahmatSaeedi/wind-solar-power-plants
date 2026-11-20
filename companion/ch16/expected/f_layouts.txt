@@ -1,0 +1,9 @@
+the ridge layout W1 against W2b, one year, teaching terms A-281:
+  layout             P50 net   sigma   P90 1y   P99 1y   debt k u   case
+  W2b plain            295.1    15.0    275.9    260.3     79,287   P90 1y
+  W1 ridge             333.5    35.8    287.6    250.2     78,726   P99 1y
+  W1, ridge mast       333.5    17.7    310.8    292.3     93,418   P90 1y
+  the ridge gives a fifth more energy but carries it with an
+  uncertainty that the P99 case punishes: it supports less debt
+  than the plain until the ridge is measured, then 18 % more;
+  the bird survey (U-051) decides first (D-018)

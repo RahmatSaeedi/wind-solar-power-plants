@@ -1,0 +1,7 @@
+two procurement results checked by hand
+  A = 70 u/MWh x 8,760 h x annuity(7.5 %, 25 y) = 6.84 k u/kW
+  B = 0.20 A = 1.37 k u/kW
+  U-A losses per unit: 6.84 x 4.1 + 1.37 x 41 = 84.1 k u; x 10 = 841
+  delay damages, 8 weeks at 0.5 % of 1,160 k u: 46.4 k u
+  a hand check of A catches the slip of annuity years vs
+  months, or of MWh vs kWh in the energy price

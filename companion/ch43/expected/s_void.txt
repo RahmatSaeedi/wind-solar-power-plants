@@ -1,0 +1,12 @@
+a flat gas void in impregnated insulation
+  (field 4.0 kV/mm in the solid, eps 4.4)
+  the void carries eps x E = 17.6 kV/mm
+  void mm   gas strength kV/mm (teaching)   discharges?
+     0.05                             22.1   no
+     0.20                             12.5   yes
+     1.00                              7.3   yes
+  a void sees the field multiplied by the permittivity of the
+  solid around it, and gas is weaker than oil-filled paper:
+  voids left by poor drying or impregnation discharge - the
+  PD measurement of the dielectric test is where they show
+  (T1's 120 pC, lab D)

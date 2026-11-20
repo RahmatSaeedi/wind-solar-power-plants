@@ -1,0 +1,8 @@
+winding end to yoke at a teaching 100 kV: through oil and board the gap
+  holds about 4.0 kV/mm (25 mm); along a board surface only 1.0 kV/mm
+  a creep path of 100 mm is needed - more than the straight gap
+  angle rings and caps lengthen the surface path without
+  lengthening the window much: the 0.35 m of end insulation
+  in the design (lesson A) is shaped by creep as much as by
+  the gap
+  (field values are teaching; the maker's design sets them)

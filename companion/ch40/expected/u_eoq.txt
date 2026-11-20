@@ -1,0 +1,7 @@
+economic order quantity of bought frames (teaching)
+  40 frames a year (all projects); ordering 0.6 k u an order
+  holding 20% a year of 11.0 k u
+  EOQ = sqrt(2 D S / H) = 4.7 frames
+  for Plant P the order is ten frames anyway; EOQ matters to
+  the integrator's whole year, and a first-article check
+  goes with every new order, whatever its size

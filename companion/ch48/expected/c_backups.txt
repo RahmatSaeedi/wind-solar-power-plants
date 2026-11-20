@@ -1,0 +1,13 @@
+configuration backups against the last configuration change
+  device    last change   last backup   status
+  SW-T01    2027-03-02    2027-03-02    ok
+  SW-T05    2027-05-18    2027-03-02    STALE
+  SW-SUB    2027-04-09    2027-04-10    ok
+  GW-PV1    2027-05-02    2027-05-02    ok
+  RTU-1     2027-05-20    2027-02-14    STALE
+  CLK-1     2027-01-05    2027-01-05    ok
+  stale: SW-T05, RTU-1 - a restore from these
+  backups would bring back the configuration of February or
+  March: the RTU's point map would lose the changes of May;
+  a backup is taken after every change and its fingerprint
+  compared with the running configuration (ch 36 recovery)

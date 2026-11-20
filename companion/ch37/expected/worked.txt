@@ -1,0 +1,6 @@
+E01 PR, 9,000 MWh, 60 MWp, 180 kWh/m2: 0.833
+E02 PR 0.80 at 45 C cell, -0.35 %/K, to 25 C: 0.860
+E03 time availability, 700 up of 720, 10 excluded: 98.59 %
+E04 production availability, 950 MWh made, 50 lost: 95.0 %
+E05 MTBF, 3 failures in 30,000 h of exposure: 10,000 h
+E06 events (0,4),(2,6),(10,12) merged: 8 h

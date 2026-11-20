@@ -1,0 +1,23 @@
+% Chapter 15 - tornado of the net energy at the POC (295.14 GWh, model 15.1): change when one input
+% at a time moves to its less favourable and more favourable teaching value (A-272).
+% Data: diagrams/data/ch15-tornado.csv (companion/ch15/examples_m.py); rank 0 = widest range.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=86mm,
+      xbar, bar width=4.2mm, bar shift=0pt, xmin=-6.5, xmax=6.5, ymin=-0.6, ymax=8.6,
+      xlabel={تغییرِ انرژیِ خالص، گیگاوات‌ساعت در سال},
+      ytick={0,...,8}, yticklabels={{ضریبِ بلندمدتِ بادی},{ضریبِ بلندمدتِ خورشیدی},{مدلِ دمای سلول},
+        {دسترس‌پذیریِ بادی},{ضریبِ افتِ دنباله},{دسترس‌پذیریِ خورشیدی},{تلفِ بار},{حدِ صادرات},
+        {گرد و غبار}},
+      y dir=reverse, yticklabel style={font=\footnotesize, text=cInk},
+      ymajorgrids=false, xmajorgrids=true, xtick={-6,-4,...,6},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[draw=cLoss, fill=cLoss!35] table[x=lo, y=rank, col sep=comma] {data/ch15-tornado.csv};
+    \addlegendentry{حالتِ نامساعد}
+    \addplot[draw=cInkB, fill=cInkB!25] table[x=hi, y=rank, col sep=comma] {data/ch15-tornado.csv};
+    \addlegendentry{حالتِ مساعد}
+    \draw[cInk, line width=0.8pt] (axis cs:0,-0.6) -- (axis cs:0,8.6);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

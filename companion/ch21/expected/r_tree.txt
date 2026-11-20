@@ -1,0 +1,10 @@
+development as a decision tree (k u, no discounting):
+  stage                       cost    pass chance
+  measurement and studies       800          0.70
+  permits and grid offer      1,200          0.60
+  PPA award and financing     1,000          0.65
+  chance of reaching financial close 27 %
+  expected value of starting development 167 k u
+  each stage is an option to stop: spending is cheap early
+  and grows as the chance of success rises; a developer
+  needs a portfolio, because most projects stop

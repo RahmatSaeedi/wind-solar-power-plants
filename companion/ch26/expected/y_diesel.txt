@@ -1,0 +1,12 @@
+the 400 V board on the standby diesel (ch 24 decrement, teaching)
+  source           fault A   source ohm   longest 4 mm2 run, 32 A C
+  grid via SST        7900        0.029       63 m
+  diesel, 0.1-1 s      866        0.266       41 m
+  diesel, steady       108        2.130      none (never instantaneous)
+  on the diesel the source impedance is far larger: the runs
+  that disconnect in time shrink, and with the steady
+  current (no field boost) the instantaneous trips never
+  operate; so the island board needs residual-current
+  devices on long runs, the diesel's own protection set for
+  its decrement curve, and a check of every final circuit
+  with the diesel as the source (ch 23 island mode)

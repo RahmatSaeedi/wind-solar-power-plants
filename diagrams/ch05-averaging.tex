@@ -1,0 +1,15 @@
+% Chapter 5 - gross energy of the 12 turbines computed from the same speeds averaged over an
+% hour, a day or a year. Data: diagrams/data/ch05-averaging.csv (companion/ch05/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, ybar, bar width=14mm,
+      ylabel={انرژیِ ناخالص (GWh)}, ymin=0, ymax=250, ytick={0,50,...,250},
+      xtick={0,1,2}, xmin=-0.6, xmax=2.6,
+      xticklabels={میانگینِ ساعتی, میانگینِ روزانه, یک میانگینِ سالانه},
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk},
+      point meta=y, every node near coord/.append style={/pgf/number format/fixed, /pgf/number format/precision=1}]
+    \addplot[draw=cWind, fill=cWind!35] table[x=case, y=gwh, col sep=comma] {data/ch05-averaging.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

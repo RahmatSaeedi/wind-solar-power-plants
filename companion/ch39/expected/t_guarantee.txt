@@ -1,0 +1,8 @@
+one year, three guarantees that measure different things
+  EPC: time-based, grid outages excluded: 98.58% (guarantee 98 %)
+  O&M: energy-based, grid excluded:      98.00% (guarantee 97 %)
+  PPA: contracted energy delivered:       95.50% (minimum 96 %)
+  EPC and O&M pass; the PPA falls short because grid
+  outages count against the plant there - the gap belongs
+  to no contractor unless the grid contract or insurance
+  covers it: the interface matrix names its owner (ch 21)

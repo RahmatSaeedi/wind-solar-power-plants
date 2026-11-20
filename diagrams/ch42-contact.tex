@@ -1,0 +1,19 @@
+% Chapter 42 - shear stress below the centre of a gear tooth contact (Hertz line contact,
+% 2,500 N/mm, equivalent radius 40 mm) against depth, with the case-depth specification band
+% 2.4-3.2 mm and heat HT-43 at 2.09 mm (diagrams/data/ch42-contact.csv from
+% companion/ch42/examples_y.py, y_contact; teaching values).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0, xmax=4, ymin=0, ymax=560,
+      xlabel={عمق زیرِ سطح (میلی‌متر)}, ylabel={تنشِ برشی (مگاپاسکال)}]
+    \fill[cPV!12] (axis cs:2.4,0) rectangle (axis cs:3.2,560);
+    \addplot[sWind] table[x=z, y=tau, col sep=comma] {data/ch42-contact.csv};
+    \draw[sLoss] (axis cs:2.09,0) -- (axis cs:2.09,520);
+    \draw[sInk, densely dotted] (axis cs:0.83,0) -- (axis cs:0.83,454);
+    \node[note, anchor=north] at (axis cs:2.8,550) {بازهٔ مشخصه};
+    \node[note, anchor=south, text=cLoss] at (axis cs:2.09,520) {ذوبِ \babelsublr{HT-43}};
+    \node[note, anchor=south west] at (axis cs:0.9,462) {بیشینهٔ برش};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

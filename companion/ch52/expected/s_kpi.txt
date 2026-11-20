@@ -1,0 +1,7 @@
+maintenance indicators for a quarter (teaching targets in brackets)
+  PM done on time 88% [90 %]; corrective share of orders 18% [<20 %]
+  backlog 1,240 h = 5.5 crew-weeks at 225 h a week [2-4]
+  backlog above the band and PM on time below target:
+  work is late and piling up; the late PM tasks are the ones
+  that wait for an outage window (ch 51) - the cause is in the
+  plan, and a crew with spare hours (lesson A) cannot fix it

@@ -1,0 +1,15 @@
+choosing the Q(U) slope (full 46 Mvar for a deviation of 'slope')
+  slope %   grid    source 0.95: U POC  Q Mvar    source 1.05: U POC  Q Mvar
+        2   max                 0.980    45.4                 1.020   -45.4
+        2   min                 0.986    32.3                 1.014   -32.3
+        4   max                 0.972    32.5                 1.028   -32.5
+        4   min                 0.978    25.2                 1.022   -25.2
+        8   max                 0.964    20.8                 1.036   -20.8
+        8   min                 0.969    17.5                 1.031   -17.5
+  a steep characteristic (2 %) spends nearly the whole
+  capability on a 5 % grid deviation; a shallow one (8 %)
+  uses less than half and lets the voltage wander more;
+  even the steepest brings 0.95 only to 0.98 on this POC
+  (lesson B: 0.7 % per 10 Mvar) - the slope is chosen with
+  the operator for the grid's needs, inside the
+  requirement's range (REQ-G02)

@@ -1,0 +1,9 @@
+an alarm flood after a feeder trip (synthetic day)
+  normal hours: 2.0 alarms an hour on average
+  hour of the trip, raw: 151 alarms
+  with consequence alarms suppressed by the feeder state: 13
+  the trip of one feeder raises every inverter, transformer
+  and communication alarm behind it; suppressing what follows
+  from a known state leaves the first cause and what needs
+  action - each suppression is designed, documented and
+  tested like an alarm, and shelved alarms are listed

@@ -1,0 +1,7 @@
+day-ahead P33 against an intraday update 6 hours ahead (test):
+  schedule              short MWh   surplus MWh   revenue k u
+  day-ahead only             8,348       13,882       4,377
+  intraday update            6,371       10,228       4,567
+  updating the schedule closer to the hour cuts both shortfall and
+  surplus: the market or grid rules decide whether such updates
+  are possible and at what cost (chapters 19 and 28)

@@ -1,0 +1,13 @@
+from the design one-line to the operator's mimic (counts from the model):
+  breaker        17
+  cable          26
+  disconnector    2
+  line            1
+  transformer    30
+  isolation points (each with an earthing switch on the mimic): 17
+    (19 with the DC detail of one PV block, as counted in lesson A)
+  the mimic keeps every switchable device, its state and its
+  interlocks, the live/dead colouring and the earths; it
+  drops ratings, cable lengths and the status of data; the
+  design one-line is the reverse - one model feeds both, so
+  a change on one shows on the other (ch 34 for SCADA)

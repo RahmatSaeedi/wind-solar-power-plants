@@ -1,0 +1,11 @@
+trust boundaries of the logical diagram (ch 35)
+  zones: 8; conduits crossing a boundary: 8
+  conduits into the control zone: 5
+    field-ied  -> control  telecontrol    measurements, events
+    field-wtg  -> control  turbine-data   turbine data
+    field-pv   -> control  inverter-data  inverter data
+    field-bes  -> control  battery-data   battery data
+    dmz        -> control  jump-session   supervised support
+  every arrow into the control zone is a door: each has a
+  purpose, an owner and a rule; the fewer doors, the fewer
+  things to watch - the business zone has none

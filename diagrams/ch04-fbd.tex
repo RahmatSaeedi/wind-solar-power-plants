@@ -1,0 +1,32 @@
+% Chapter 4 — free-body diagram of a wind turbine: rotor thrust at the hub, weight of the
+% rotor-nacelle assembly, and the reactions at the tower base (axial force, shear force,
+% overturning moment). Values from companion/ch04/expected/a_thrust.txt (A-046).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small, line join=round]
+  % ground
+  \fill[cFill] (-2.6,-0.35) rectangle (2.6,0);
+  \draw[cInkB, line width=0.6pt] (-2.6,0) -- (2.6,0);
+  % tower (tapered)
+  \draw[cInk, line width=0.8pt, fill=white] (-0.45,0) -- (-0.25,6.0) -- (0.25,6.0) -- (0.45,0) -- cycle;
+  % nacelle and rotor
+  \draw[cInk, line width=0.8pt, fill=white, rounded corners=2pt] (-0.55,6.0) rectangle (1.25,6.6);
+  \draw[cInk, line width=0.8pt, fill=white] (-0.55,6.3) ellipse (0.15 and 0.25);
+  \draw[cWind, line width=1.4pt] (-0.75,6.3) -- (-0.75,8.7);
+  \draw[cWind, line width=1.4pt] (-0.75,6.3) -- (-0.75,3.9);
+  % wind
+  \foreach \y in {5.0,6.3,7.6} {\draw[->, cInkB, line width=0.6pt] (-3.6,\y) -- (-2.4,\y);}
+  \node[note, anchor=south] at (-3.0,7.8) {باد};
+  % loads
+  \draw[->, cLoss, line width=1.3pt] (-0.75,6.3) -- (0.9,6.3) node[pos=1.0, anchor=south west, text=cInk] {رانشِ روتور $F$};
+  \draw[->, cLoss, line width=1.3pt] (0.35,6.0) -- (0.35,4.9) node[pos=1.0, anchor=west, text=cInk] {وزن $W$};
+  % reactions at the base
+  \draw[->, cBESS, line width=1.2pt] (0,-1.5) -- (0,-0.45) node[pos=0.0, anchor=north, text=cInk] {نیروی محوری $N$};
+  \draw[->, cBESS, line width=1.2pt] (1.9,-0.2) -- (0.6,-0.2) node[pos=0.0, anchor=west, text=cInk] {نیروی برشی $V$};
+  \draw[->, cBESS, line width=1.2pt] (-1.25,-0.15) arc (200:340:1.33) node[pos=0.0, anchor=east, text=cInk] {گشتاورِ واژگونی $M$};
+  % dimension
+  \draw[dimline] (2.3,0) -- (2.3,6.3);
+  \node[note, anchor=west] at (2.4,3.2) {ارتفاعِ توپی $h$};
+  \node[note, anchor=north, align=center] at (0,-1.95) {$V = F$ و $M = F\,h$ (وزن روی محور فرض شده)};
+\end{tikzpicture}}
+\end{document}

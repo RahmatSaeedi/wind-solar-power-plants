@@ -1,0 +1,12 @@
+the fire panel's own clock against the synchronised SCADA clock
+  fire panel drift (teaching): 30 s a month, never set
+  months   offset s
+       1         30
+       6        180
+      12        360
+  after a year the panel's log says the detector went off
+  six minutes before the SCADA saw the alarm; for the
+  investigation both stamps are kept - the panel's own and
+  SCADA's on arrival - and the offset is checked at every
+  maintenance visit, or the panel synchronised if its maker
+  and the fire-system designer allow it

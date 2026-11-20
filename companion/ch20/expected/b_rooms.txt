@@ -1,0 +1,11 @@
+power the S1 battery can hold for a service, by stored energy:
+  stored MWh   up 1 h   down 1 h   up 15 min   down 15 min
+           4      0.0       20.0         0.0          20.0
+          10      5.6       20.0        20.0          20.0
+          20     14.8       17.3        20.0          20.0
+          30     20.0        6.5        20.0          20.0
+          36     20.0        0.0        20.0           0.0
+  (capped at the 20 MW converter)
+  a full battery cannot hold downward reserve, an empty one
+  cannot hold upward; a service sets a band for the SOC, not
+  just a power; shorter services need less energy

@@ -1,0 +1,12 @@
+worked example: the regional load from hourly data
+  1 data check: 8760 values, gaps 0, negative 0: usable
+  2 annual energy: sum of hourly MW x 1 h = 245,178 MWh (245.2 GWh)
+  3 peak: 51.83 MW, day 190, 17:00 (month 7, weekday)
+  4 load factor: 27.99 / 51.83 = 0.540
+  5 resolution: 15-minute peak 53.33 MW (+2.9 %)
+  6 minimum 16.39 MW: the plant's 100 MW export flows up
+    whenever it exceeds the local load
+  7 what the analysis cannot tell, and must be asked (request list):
+    the measured load, its resolution and quality; transformer and
+    line ratings; the outage cases the operator plans for; the
+    short-circuit power; other generators and planned loads

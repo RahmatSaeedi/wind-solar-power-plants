@@ -1,0 +1,30 @@
+verbal forms in a teaching Plant P specification
+  S01 requirement     vague: -
+      The revenue meter shall be class 0.5S at the ownership boundary.
+  S02 prohibition     vague: -
+      Cable joints shall not be placed inside road crossings.
+  S03 recommendation  vague: -
+      The inverter should be rated for the site's maximum ambient temperature.
+  S04 permission      vague: -
+      The supplier may offer an alternative earthing material with evidence.
+  S05 possibility     vague: -
+      Site tests can be witnessed by the network company.
+  S06 requirement     vague: adequate
+      Earthing shall be adequate for the fault level.
+  S07 requirement     vague: suitable
+      Transformer bushings shall be suitable for the site.
+  S08 prohibition     vague: -
+      The average winding temperature rise shall not exceed 65 K.
+  S09 requirement     vague: good practice
+      Corrosion protection shall follow good practice.
+  S10 statement       vague: -
+      The plant exports at the point of connection.
+  S11 recommendation  vague: where necessary
+      Spare parts should be held where necessary.
+  S12 requirement     vague: -
+      The contractor shall submit type-test reports with the bid.
+  permission 1, possibility 1, prohibition 2, recommendation 2, requirement 5,
+    statement 1
+  3 of 7 requirements cannot be verified as written (a
+  vague word); they are rewritten with a value and a test
+  before the specification is issued

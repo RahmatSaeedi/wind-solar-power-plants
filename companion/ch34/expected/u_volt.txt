@@ -1,0 +1,10 @@
+voltage measurement error against the Q-V droop (4 %, 33 Mvar)
+  chain                        error % (k = 2)   reactive error Mvar
+  VT class 0.5 chain (lesson A)            0.66                   5.4
+  VT class 0.2 chain                       0.39                   3.2
+  a voltage error of a few tenths of a per cent becomes
+  several megavars through a steep droop - a sixth of the
+  33 Mvar with the class 0.5 core; this is why the
+  controller reads the class 0.2 core, and why the voltage
+  set point and its measurement are agreed with the grid
+  operator as a pair (U-115)

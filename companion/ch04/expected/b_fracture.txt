@@ -1,0 +1,6 @@
+edge crack in a plate, K = 1.12 sigma sqrt(pi a):
+  K_IC 100 MPa sqrt(m), sigma 200 MPa: critical crack   63.4 mm
+  K_IC  50 MPa sqrt(m), sigma 200 MPa: critical crack   15.9 mm
+  K_IC  30 MPa sqrt(m), sigma 200 MPa: critical crack    5.7 mm
+  toughness falls in the cold for many steels: the same crack can be safe in
+    summer and critical in winter (impact-tested grades, chapter 30)

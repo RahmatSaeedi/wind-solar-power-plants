@@ -1,0 +1,5 @@
+round U to two significant figures, the result to the same decimal place
+  annual energy, GWh     y = 289.84     U = 20.3     -> 290 +- 20
+  air density, kg/m3     y = 1.0546     U = 0.0146   -> 1.055 +- 0.015
+  string current, A      y = 10.408     U = 0.0207   -> 10.408 +- 0.021
+  power density, W/m2    y = 188.73     U = 22.8     -> 189 +- 23

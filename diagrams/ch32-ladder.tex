@@ -1,0 +1,21 @@
+% Chapter 32 - the verification ladder of a fire system, from product certificate to periodic
+% inspection; each rung proves something the one below cannot (companion/ch32/examples_e.py).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    r/.style={blk, minimum width=34mm, minimum height=9mm, text width=32mm},
+    p/.style={note, anchor=east, text width=58mm, align=right}]
+  \foreach \y/\t/\c/\p in {
+      0.0/گواهیِ محصول/blk/{طرح می‌تواند کار کند},
+      1.2/آزمونِ کارخانه/blkLoad/{همین تابلو چنان‌که ساخته شده کار می‌کند},
+      2.4/آزمونِ کارکردیِ ساختگاه/blkWind/{هر آشکارساز به تابلو می‌رسد},
+      3.6/آزمونِ یکپارچهٔ علت و معلول/blkPV/{هر ورودی به همهٔ خروجی‌هایش، با بازخورد},
+      4.8/مانورِ اضطراری/blkBESS/{افراد به‌موقع پاسخ می‌دهند},
+      6.0/بازرسیِ دوره‌ای/blkWarn/{هنوز کار می‌کند}} {
+    \node[r, \c] (n\y) at (4.0,\y) {\t};
+    \node[p] at (1.9,\y) {\p};
+  }
+  \draw[flow] (6.3,-0.3) -- (6.3,6.3);
+  \node[note, rotate=90] at (6.65,3.0) {از طرح تا بهره‌برداری};
+\end{tikzpicture}
+\end{document}

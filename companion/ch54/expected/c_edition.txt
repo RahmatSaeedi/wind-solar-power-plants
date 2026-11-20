@@ -1,0 +1,12 @@
+the grid code is re-issued: records to re-check (from the trace links)
+  Z-001: ch 28 load-flow PLP-ELE-CAL-0014
+  Z-001: ch 27 Q budget
+  Z-001: ch 50 Q test
+  Z-004: ch 20 PPC ramp setting
+  Z-004: ch 50 ramp test
+  Z-009: ch 28 FRT study
+  Z-009: ch 44 converter type test
+  Z-009: ch 50 FRT record
+  8 records across chapters 20, 27, 28, 44, 50: an edition
+  change is a design change (ch 38 change impact), reviewed
+  record by record, not by re-reading the new code alone

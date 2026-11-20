@@ -1,0 +1,22 @@
+% Chapter 37 - the categories an hour of a unit can fall in (examples_d; teaching taxonomy; the
+% contract decides which categories count against availability).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    c/.style={blk, minimum width=22mm, minimum height=10mm, text width=21mm}]
+  \node[c, minimum width=40mm, text width=38mm] (all) at (0,0) {هر ساعتِ تقویمیِ هر واحد};
+  \node[c, blkPV] (av) at (5.75,-2.0) {در دسترس};
+  \node[c, blkWarn] (un) at (0.6,-2.0) {در دسترس نیست};
+  \node[c, blkLoad] (ex) at (-3.6,-2.0) {بیرونی: شبکه، فرمانِ محدودیت، یخ};
+  \node[c, blkLoad] (uk) at (-6.6,-2.0) {نامعلوم: داده نیست};
+  \node[c, blkPV] (op) at (7.1,-4.2) {در کار};
+  \node[c, blkPV] (id) at (4.4,-4.2) {بی‌کار: باد یا آفتاب نیست};
+  \node[c, blkWarn] (fo) at (1.9,-4.2) {ازکارافتادگیِ اجباری};
+  \node[c, blkWind] (po) at (-0.7,-4.2) {ازکارافتادگیِ برنامه‌ریزی‌شده};
+  \foreach \x in {av, un, ex, uk} {\draw[flow] (all.south) -- (\x.north);}
+  \foreach \x in {op, id} {\draw[flow] (av.south) -- (\x.north);}
+  \foreach \x in {fo, po} {\draw[flow] (un.south) -- (\x.north);}
+  \node[note, text width=60mm, anchor=north] at (-1.0,-5.2)
+    {هر ساعت دقیقاً در یک دسته؛ قاعده‌های ورود، خروج و تقدم پیش از اختلاف نوشته می‌شوند};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,6 @@
+frame-to-earth continuity on 60 tables (teaching limit 0.5 ohm)
+  median 0.08 ohm; above the limit: tables [18, 45]
+  a missing serrated washer leaves the frame bonded through
+  paint and anodising - the reading jumps by orders of
+  magnitude, not by a little: the test finds an absent
+  joint, so it is done on every table, not on a sample

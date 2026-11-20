@@ -1,0 +1,13 @@
+port settings against the design (synthetic extract of 6)
+  switch   port   design     found
+  SW-R01      1   wtg        wtg
+  SW-R01      2   wtg        wtg
+  SW-R01      9   unused     wtg
+  SW-C01      4   control    control
+  SW-C01      5   bes        control
+  SW-C01      6   unused     disabled
+  2 findings: an unused port left in a working VLAN and a
+  battery port in the control zone's VLAN - each joins two
+  zones without a conduit. Port settings are compared with
+  the design by program at the factory test and after
+  every change

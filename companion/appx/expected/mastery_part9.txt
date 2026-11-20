@@ -1,0 +1,23 @@
+M125: station battery 44 kWh, load 4.6 kW, 20 % kept: 7.7 h on battery; the
+    diesel start is the hidden failure behind it
+M126: reserve held in 113 of 120 window hours: 94.2% against 95 % - short, and
+    each lost hour declared at once, never left to look held
+M127: four posts around the clock, 1,804 h a person a year: 19.4 people, not
+    16 - leave and training are counted before the roster
+M128: 17 of 24 tasks done with the current procedure: 71%, 95 % interval 51%
+    to 85% (Wilson) - a small sample says 'not always'
+M129: MTBF 17,520 h, MTTR 24 h: inherent availability 0.99863; operational
+    availability adds the waits for parts and people
+M130: two of three units needed, each 0.95: 0.99275 (independent units)
+M131: redundant pair, each 0.5 % unavailable, 10 % common cause: 0.000520, 21
+    times the independent 0.000025
+M132: hidden diesel start failure, 0.5 a year, target 1 %: test every 2.1
+    weeks (T = 2U/lambda); a monthly test gives about 2 %
+M133: gearbox run 146,642 h, Weibull k 2.5, c 150,000 h: median remaining life
+    36,096 h - less than a new unit's mean suggests
+M134: decommissioning fund of 4,635 k u in 7 years at 4 %: 587 k u a year -
+    about five times a fund started in year 1
+M135: 1,000 k u over 10 years at 7.5 %: equivalent annual cost 145.7 k u - for
+    options of different lives, valid only if the life is used
+M136: 1,000 t CO2e over 2,000,000 MWh: 0.50 g CO2e/kWh on one boundary;
+    avoided emissions are reported apart and never added

@@ -1,0 +1,14 @@
+a third-party generator (40 MW) shares Plant P's 132 kV line:
+  losses at full output: alone 0.486 MW, shared 0.953 MW
+  allocation of the shared losses        Plant P   third party
+  pro rata to output                       0.681         0.272
+  third party connected last               0.486         0.467
+  Plant P connected last                   0.875         0.078
+  the losses grow with the square of the current: whoever is
+  counted 'last' carries the cross term 2 I1 I2 R; the rule
+  moves about 0.4 MW at full output from one owner to the
+  other - a commercial term, decided in the agreement
+  the line becomes a third-party connection asset: a meter
+  for each generator before the shared part, the rule for
+  losses in the agreement, one more owner on the isolation
+  and test boundaries, and protection that serves both

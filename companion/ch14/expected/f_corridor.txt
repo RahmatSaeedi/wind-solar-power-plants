@@ -1,0 +1,16 @@
+the least-cost export route and the eight farm strips (x 9.0 to
+  12.4 km, each 425 m wide, y 2.3 to 3.9 km):
+  strip   route length inside   distance to the strip
+     1          0 m                 25 m
+     2          0 m                 25 m
+     3          0 m                 25 m
+     4          0 m                 25 m
+     5          0 m                 25 m
+     6          0 m                 25 m
+     7          0 m                 25 m
+     8          0 m                 25 m
+  the route hugs the edge of all eight strips: a least-cost path
+  runs along the border of a costly area; no tower stands in a
+  field, but the line's easement, access tracks and stringing
+  touch them; add a buffer to the cost raster, ask each owner
+  (rights of way, crops, damage) and move inside the corridor

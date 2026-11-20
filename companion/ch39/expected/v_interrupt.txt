@@ -1,0 +1,11 @@
+a unit transformer fails in operation: who carries the loss?
+  one block out costs 1.85 k u a day (5 MW, CF 0.22)
+  case                       days out  insured  not insured
+  no spare (new unit)             210      277          111
+  spare on site                    14        0           26
+  (business interruption pays after a 60-day waiting period;
+  the repair claim carries a 25 k u deductible)
+  without a spare the owner still carries the first 60 days;
+  with one, the outage ends inside the waiting period - the
+  spare, not the policy, protects the cash flow, and the
+  lenders read both (concepts only, not advice)

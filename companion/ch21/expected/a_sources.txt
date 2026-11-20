@@ -1,0 +1,12 @@
+construction and sources and uses (base case, A-307..A-309):
+  capital cost                   156,450 k u
+  interest during construction     6,165
+  upfront fee 1.5 % of debt        1,815
+  DSRA (6 months of service)       5,757
+  uses                           170,188
+  senior debt                    121,025   (71.1 %)
+  equity                          49,163   (28.9 %)
+  debt sized by: DSCR 1.20 on P90 1-yr
+  IDC and fees are paid with the same money as the plant: they
+  are uses, they are financed, and the lenders size the debt on
+  cash flows, not on the cost

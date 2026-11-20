@@ -1,0 +1,6 @@
+water a year: 13 washes x 109.2 m3 = 1,420 m3 + other uses 8,030 m3
+  well at 40 m3/day: 14,600 m3; in a drought year at 50%: 7,300 m3
+  normal year covers (+5,150 m3); drought year does not cover (-2,150 m3)
+  in a drought, washes go by measured benefit only (ch 51) or
+  to the dry robot - the method choice of lesson G is also a
+  water decision

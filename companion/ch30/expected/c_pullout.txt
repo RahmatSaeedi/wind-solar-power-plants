@@ -1,0 +1,8 @@
+pull-out tests on posts driven 1.6 m (required 2 x design = 16.3 kN)
+  zone                 mean kN   s     5 % fractile   below required
+  PV north (BH-09)        24.0   2.2           20.5     0 of 10
+  PV south (BH-10)        18.6   4.7           10.8     3 of 10
+  in pull-out north passes at 1.6 m; south, on looser silty
+  sand, does not: deeper posts there (or a test at 2.2 m) - the
+  embedment is set zone by zone from the test results,
+  and the test procedure and load are in the specification

@@ -1,0 +1,8 @@
+ground albedo as a measured resource (bifacial, B_f 0.70, A-249):
+  albedo                     rear / front   bifacial gain
+  constant 0.20 (assumed)    0.1087         7.61 %
+  measured, seasonal         0.1210         8.47 %
+  constant 0.30              0.1539        10.78 %
+  an albedometer (one pyranometer up, one down) over a year of
+  seasons, plus rear-side reference cells, replaces the assumed
+  0.20; each 0.1 of albedo is about 3.2 points of bifacial gain

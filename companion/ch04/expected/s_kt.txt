@@ -1,0 +1,5 @@
+stress concentration at a round hole in a wide plate under tension: Kt = 3
+  nominal 100 MPa -> 300 MPa at the edge of the hole
+  for fatigue the local stress counts: holes, door openings, weld toes and
+    sharp corners are where cracks start; generous radii and reinforcement
+    help

@@ -1,0 +1,38 @@
+P25 circulating, 3 steps, 10 % each: 18.75%
+P26 unit for 4.4 MW to pf 0.9: 4.89 MVA
+P27 amorphous, 12 units 7.0 -> 2.2 kW: 394 k u
+P28 air for 40 kW, 10 K rise: 3.32 m3/s
+P29 loss error, pf 0.05, 0.3 mrad: 0.60%
+P30 time to 99 % with tau 2.67 h: 12.3 h
+P31 ageing H 1.2 vs 1.1: 1.26
+P32 Q of each T at 80 MW, pf 0.95: 3.38 Mvar
+P33 no-load limit 4.5 kW +15 %: 5.17 kW
+P34 3 months late, 12 % share: 8,850 MWh
+P35 two 40 dB(A) sources: 43.0 dB(A)
+P36 copper for 200 kW at 3.5 A/mm2: 6.9 t
+P37 water from 6 t paper, 7 -> 0.5 %: 390 kg
+P38 vacuum force on 5 x 3 m: 1,520 kN
+P39 12 wind units, LLF 0.25: 1,314 MWh
+P40 5 % and 1 % of a 600/1 CT: 30 A, 6 A
+P41 star of 7/7/12 %: 1.0%, 6.0%, 6.0%
+P42 5th residual, second group at 75 %: 0.5 %
+P43 DP at 0.1 mg/kg 2-FAL: 717
+P44 T1 health index with DGA score 4: 70
+P45 12-month repair: 4,620 k u
+P46 carbon of losses at 0.3 t/MWh over materials: 22 x
+P47 20 % advance 24 months before COD: 42.0 k u
+P48 deflection of a 9 m span (10 m: 44 mm): 29 mm
+P49 dip, worst case, 10.4 kA: 14%
+P50 Q of 10 km of 33 kV cable, 0.21 uF/km: 0.72 Mvar
+P51 LV tower cable loss at 130 m: 54 kW
+P52 gas pressure expected at 20 C: 0.208 bar(g)
+P53 maintenance PV at 6 %, 25 y: 102 k u
+P54 air density at 1,800 m: 0.80
+P55 noise at 0.8 pu (72 core, 68 load): 72.7 dB(A)
+P56 arc energy, 150 ms, 6.4 kA, 2 kV: 1.92 MJ
+P57 oil share of the way in 4 h, tau 3 h: 0.74
+P58 reference loss measured at 30 C: 242.9 kW
+P59 fault level at uk 11.0 %: 10.02 kA
+P60 breather water at 6.9 g/m3: 1.03 kg
+P61 break-even pool fee at rate 0.01: 37 k u
+P62 mild-day fan failure: residual alarm 11.75 h, fixed 13.42 h: lead 1.67 h

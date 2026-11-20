@@ -1,0 +1,11 @@
+integer layout of 60 MWp (A-191):
+  strings needed: 60e6 / (26 x 550) = 4195.8
+  16 strings per combiner: 26.25 combiners per inverter
+  18 strings per combiner: 23.33 combiners per inverter
+  20 strings per combiner: 21.00 combiners per inverter (integer)
+  21 strings per combiner: 20.00 combiners per inverter (integer)
+  24 strings per combiner: 17.50 combiners per inverter
+  choice (D-013): 420 strings per inverter = 21 combiners x 20
+    strings; 4200 strings, 60.06 MWp
+  combiner output, 20 x I_sc x 1.25 = 350 A for cable and switch
+    sizing (the factor and its basis come from the standard)

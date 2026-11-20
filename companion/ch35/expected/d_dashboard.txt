@@ -1,0 +1,13 @@
+dashboard mock-up (text) at t = 599 s
+  +------------------------------------------------------------+
+  | Plant P - SCADA overview (SYNTHETIC, NOT A LIVE PLANT)     |
+  +------------------------------------------------------------+
+  | PLP-E1-VT.Voltage               132.0 kV    ok             |
+  | PLP-WTG-T01.ActivePower        3018.6 MW    CHECK SCALE    |
+  | PLP-TRF-T1.OilTemp               90.2 C     ok             |
+  | PLP-BES-C03.Soc                  50.0 %     ok             |
+  | PLP-MET-M1.Ghi                  848.3 W/m2  STALE          |
+  +------------------------------------------------------------+
+  interface refusals in the window: 3
+  a dashboard shows quality and age next to every value;
+  a number without them invites the operator to trust it

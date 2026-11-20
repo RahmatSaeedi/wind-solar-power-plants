@@ -1,0 +1,5 @@
+sacrificial zinc anodes for 0.5 A over 20 years (assumed demand, A-071)
+  zinc n F / M = 820 Ah/kg (theory); efficiency 0.95, utilisation 0.85
+  charge needed 0.5 A x 20 x 8760 h = 87,600 Ah -> 132 kg of zinc
+  the demand comes from coating quality and soil: a coated structure needs
+  far less; cathodic protection is designed and monitored by specialists

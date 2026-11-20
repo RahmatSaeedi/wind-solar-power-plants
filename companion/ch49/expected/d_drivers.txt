@@ -1,0 +1,14 @@
+what drives the finish, walking back from the last package
+  WP16 walkdown           waits for WP15 earthing
+  WP15 earthing           waits for WP13 DC terminations
+  WP13 DC terminations    waits for WP12 strings
+  WP12 strings            waits for WP10 modules
+  WP10 modules            waits for WP04 tables
+  WP04 tables             waits for WP03 piling
+  WP03 piling             waits for WP02 grading
+  WP02 grading            waits for WP01 set-out
+  WP01 set-out            starts the block
+  the spine is piling, tables, modules, strings and DC
+  terminations: the module crew is the first lever; the hold
+  points on the spine hold it 6 of the 48 days - an
+  inspector booked ahead is the second lever

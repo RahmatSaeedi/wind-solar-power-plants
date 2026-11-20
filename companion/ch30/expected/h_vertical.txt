@@ -1,0 +1,7 @@
+verticality of the erected tower (teaching tolerance 3 mm per m)
+  differential settlement across the 24 m base: 15 mm -> 0.62 mm/m
+  from flange tolerances: 0.60 mm/m
+  total 1.23 mm/m -> 123 mm at the hub; limit 300 mm
+  within the limit, and the settlement survey continues:
+  a foundation that keeps tilting is a finding long before
+  it is a failure (lesson K)

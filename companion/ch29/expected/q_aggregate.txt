@@ -1,0 +1,10 @@
+aggregate for roads and pads (60,000 m3 = 120,000 t, teaching)
+  source                         km   truck trips   truck-km   diesel m3
+  quarry                          35         4,800    336,000         134
+  on-site crushing of cut rock     2         2,880     11,520           5
+    + quarry for the rest         35         1,920    134,400          54
+  crushing the weathered sandstone met in the cuts would
+  save most of the haul, if its grading and strength pass
+  the road specification - a test, not an assumption; the
+  quarry's own permits and the route's bridges are checked
+  before the contract names it

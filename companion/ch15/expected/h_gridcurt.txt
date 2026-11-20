@@ -1,0 +1,5 @@
+a grid operator's spring limit (teaching rule, A-269):
+  18 days x 5 midday hours at 70 MW: 485 MWh lost (0.16 % of the year)
+  ordered curtailment is not a plant loss but a grid one: it is
+  recorded separately (it may be compensated, chapter 28), it
+  falls on the sunniest hours, and a battery can take part of it

@@ -1,0 +1,21 @@
+% Chapter 23 - MVA method chain from the grid to the 0.4 kV board (A-320): grid 1,500 MVA, line
+% 5,910 MVA, two transformers of 525 MVA, station-service transformer 5.6 MVA; fault MVA and kA at
+% each bus. Values from companion/ch23/lab_g.py mva_method(). The grid sits on the left (the grid
+% side, as in the other chapter 23 figures) and the fault powers combine toward the plant.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    el/.style={blk, minimum width=22mm, minimum height=11mm, text width=21mm, font=\footnotesize},
+    bs/.style={note, text width=22mm}]
+  \node[el, draw=cLoad, fill=cLoad!8] (g) at (0,0) {شبکه\\$1{,}500\,\text{MVA}$};
+  \node[el] (l) at (3.4,0) {خط\\$5{,}910\,\text{MVA}$};
+  \node[el] (t) at (6.8,0) {دو ترانسفورماتور\\$2 \times 525\,\text{MVA}$};
+  \node[el] (a) at (10.2,0) {خدمات $250\,\text{kVA}$\\$5.6\,\text{MVA}$};
+  \draw[flow] (g.east) -- (l.west); \draw[flow] (l.east) -- (t.west); \draw[flow] (t.east) -- (a.west);
+  \draw[bus] (1.7,-0.9) -- (1.7,-1.5); \node[bs] at (1.7,-2.1) {نقطهٔ اتصال\\$6.6\,\text{kA}$};
+  \draw[bus] (5.1,-0.9) -- (5.1,-1.5); \node[bs] at (5.1,-2.1) {$132\,\text{kV}$ نیروگاه\\$1{,}196\,\text{MVA}$، $5.2\,\text{kA}$};
+  \draw[bus] (8.5,-0.9) -- (8.5,-1.5); \node[bs] at (8.5,-2.1) {$33\,\text{kV}$، کوپلر بسته\\$559\,\text{MVA}$، $9.8\,\text{kA}$};
+  \draw[bus] (11.9,-0.9) -- (11.9,-1.5); \node[bs] at (11.9,-2.1) {$0.4\,\text{kV}$\\$7.9\,\text{kA}$};
+  \node[note, text width=110mm] at (6.0,-3.4) {$1/S_\text{k} = \sum 1/S_i$؛ منابعِ مبدل‌دار حدودِ $2.7\,\text{kA}$ در $33\,\text{kV}$ می‌افزایند: جمع حدودِ $12.5\,\text{kA}$};
+\end{tikzpicture}
+\end{document}

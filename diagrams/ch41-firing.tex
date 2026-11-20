@@ -1,0 +1,18 @@
+% Chapter 41 - firing as a process window on a normalised setting (0-1, no units): fill factor of
+% the teaching cell, falling on the left by contact resistance and on the right by shunting; the
+% shaded band is the window within 0.005 of the best (diagrams/data/ch41-firing.csv from
+% companion/ch41/examples_b.py, b_firing; teaching, not a recipe).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0.2, xmax=0.9, ymin=0.45, ymax=0.86,
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      xlabel={تنظیمِ نرمال‌شدهٔ پخت}, ylabel={ضریبِ پرشدگی}]
+    \fill[cPV!12] (axis cs:0.34,0.45) rectangle (axis cs:0.74,0.86);
+    \addplot[sWind] table[x=x, y=ff, col sep=comma] {data/ch41-firing.csv};
+    \node[note, anchor=north] at (axis cs:0.54,0.75) {پنجرهٔ فرایند};
+    \node[note, anchor=west, text=cLoss] at (axis cs:0.21,0.74) {مقاومتِ تماس};
+    \node[note, anchor=east, text=cLoss] at (axis cs:0.84,0.55) {نشتیِ پیوند};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,7 @@
+768 modules after 20 years (synthetic): health mean 74%, resistance x 1.39
+  second-life screen: health >= 70% and resistance <= x 1.6
+  pass on health 683, on resistance 693, on both 633 (82%)
+  the modules that pass carry their whole history - lot,
+  temperatures, replacements: without the record a buyer of
+  used modules must test every one, and the price falls
+  (ch 19 second life, ch 53)

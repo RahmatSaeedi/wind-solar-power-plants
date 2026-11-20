@@ -1,0 +1,23 @@
+% Chapter 4 — modulus against density for six material classes (indicative values, A-059),
+% with a line of constant E^0.5/rho through steel. Data: diagrams/data/ch04-ashby.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=118mm, height=72mm,
+      xlabel={چگالی، $\text{kg/m}^3$}, ylabel={مدولِ کشسانی (GPa)},
+      xmin=300, xmax=12000, ymin=5, ymax=300,
+      xtick={300,1000,3000,10000}, xticklabels={300,1000,3000,10000},
+      ytick={10,30,100,300}, yticklabels={10,30,100,300}]
+    \addplot[only marks, mark=*, mark size=2pt, color=cBESS] table[x=rho, y=e, col sep=comma] {data/ch04-ashby.csv};
+    \addlegendentry{رده‌های ماده}
+    \addplot[sLimit, domain=1220:9380, samples=2] {210*(x/7850)^2};
+    \addlegendentry{هم‌ارز با فولاد برای تیرِ سبک}
+    \node[note, anchor=west] at (axis cs:8200,210) {فولاد};
+    \node[note, anchor=west] at (axis cs:2850,70) {آلومینیوم};
+    \node[note, anchor=east] at (axis cs:1850,42) {کامپوزیتِ شیشه};
+    \node[note, anchor=east] at (axis cs:1480,135) {کامپوزیتِ کربن};
+    \node[note, anchor=west] at (axis cs:470,11) {چوب};
+    \node[note, anchor=north] at (axis cs:2400,29) {بتن};
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

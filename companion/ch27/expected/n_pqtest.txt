@@ -1,0 +1,14 @@
+P-Q capability test at the POC against the claim (teaching; 5 % tolerance)
+  P MW   direction   claimed Mvar   measured Mvar   result
+    10   produce            115.0           118.2   pass
+    50   produce            100.0            98.1   pass
+   100   produce             52.0            53.9   pass
+    10   absorb            -110.0          -111.5   pass
+    50   absorb             -95.0           -96.2   pass
+   100   absorb             -48.0           -44.0   FAIL
+  absorbing at full power falls short (44 against 48 Mvar):
+  the record of that point - POC voltage, unit terminal
+  voltages, temperatures, any unit at its current limit -
+  shows whether the units or the network conditions set the
+  limit; the finding goes to the operator with the measured
+  conditions and a plan (repeat, or a revised capability)

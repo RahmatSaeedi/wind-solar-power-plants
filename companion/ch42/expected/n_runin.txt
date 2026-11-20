@@ -1,0 +1,8 @@
+gearbox run-in: 3 of 10 units held (lab D); value in field exchanges avoided
+  a held defect fails early in service with chance 40% (teaching)
+  one exchange: crane 450 + repair 500 + lost energy 60 = 1,010 k u
+  expected saving 1,212 k u against a test cost of 120 k u (10 x)
+  break-even chance of failure: 4%
+  the run-in pays even if only one held defect in 25
+  would have failed - the case for testing every unit, not a
+  sample, when a field failure costs a crane campaign

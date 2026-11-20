@@ -1,0 +1,9 @@
+why the sale terms matter: the chapter 21 model at three prices
+(teaching; the real price comes from the contract or the market)
+  price vs base   debt k u  min DSCR  equity IRR
+             80%    88,894      1.22        4.8%
+            100%   121,025      1.20       10.2%
+            120%   124,378      1.40       15.9%
+  a 20 % lower price takes 32,131 k u of debt away and moves
+  the equity IRR by -5.4 points: without IR-38 (term, currency,
+  indexation, security) there is no base case, only a range

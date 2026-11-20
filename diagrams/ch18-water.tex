@@ -1,0 +1,35 @@
+% Chapter 18 - water-service architecture of Plant P (flows right to left): sources, treatment,
+% the tank with a held reserve, the uses with their priority, meters; construction water kept
+% apart. Volumes are teaching values (A-286); the reserve is a placeholder for the authority.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=26mm, minimum height=10mm, align=center, text width=25mm},
+    mtr/.style={draw=cInk, fill=white, circle, inner sep=1pt, font=\scriptsize, text=cInk}]
+  \node[b] (well) at (13.0,1.4) {چاهِ مجاز\\$1{,}500\,\text{m}^3$ در ماه};
+  \node[b] (spr) at (13.0,-0.2) {چشمه (پشتیبان)\\بیرون از ژوئن تا سپتامبر};
+  \node[b] (tank) at (8.6,0.6) {مخزن $2{,}500\,\text{m}^3$};
+  \node[blkWarn, minimum width=26mm, minimum height=9mm, align=center, text width=25mm] (res)
+    at (8.6,-1.45) {ذخیرهٔ نگه‌داشته\\$900\,\text{m}^3$};
+  \draw[boundary] (7.0,-2.05) rectangle (10.2,1.35);
+  \node[note] at (8.6,1.65) {قابلِ مصرف $1{,}600\,\text{m}^3$};
+  \draw[flow] (well.west) -- node[mtr, pos=0.4] {W1} (tank.east |- 0,1.0);
+  \draw[flow] (spr.west) -- (tank.east |- 0,0.3);
+  \node[b] (trt) at (4.6,2.4) {تصفیهٔ آبِ آشامیدنی};
+  \node[b] (u2) at (0.8,2.4) {۱. آشامیدن و بهداشت};
+  \node[blkBESS, minimum width=26mm, minimum height=10mm, align=center, text width=25mm] (u3)
+    at (0.8,0.9) {۲. جبرانِ چیلرِ باتری};
+  \node[blkPV, minimum width=26mm, minimum height=10mm, align=center, text width=25mm] (u4)
+    at (0.8,-0.6) {۳. شست‌وشوی پنل‌ها};
+  \node[b, text width=31mm] (u1) at (4.6,-1.45) {آتش و اضطرار\\(مقام تعیین می‌کند)};
+  \draw[flow] (tank.west |- 0,1.0) -| (trt.south);
+  \draw[flow] (trt.west) -- node[mtr, pos=0.45] {W2} (u2.east);
+  \draw[flow] (tank.west |- 0,0.6) -- node[mtr, pos=0.6] {W3} (u3.east |- 0,0.9);
+  \draw[flow] (tank.west |- 0,0.3) -- (6.2,0.3) |- node[mtr, pos=0.75] {W4} (u4.east);
+  \draw[flow] (res.west) -- (u1.east);
+  \node[b] (con) at (13.0,-2.4) {آبِ تانکری یا چاهِ موقت};
+  \node[b] (cu) at (8.6,-3.2) {ساخت و غبارنشانی\\مخزنِ جدا};
+  \draw[flow] (con.west) -- (cu.east);
+  \node[note, text width=80mm] at (3.0,-3.0) {عددِ کنارِ هر مصرف اولویتِ آن در کمبود است؛ ذخیره هرگز برای بهره‌برداری برداشته نمی‌شود};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,5 @@
+two monitoring results checked by hand
+  April PR: (10,039 MWh / 60.06 MWp) / 206.2 kWh/m2 = 0.811; code 0.811
+  fan MTBF: (38,600 h of the 4 failed + 8 x 17,520 h) / 4 = 44,690 h
+  a hand check of PR catches the commonest slip: MWh against
+  kWh/kWp, a factor of a thousand in one place only

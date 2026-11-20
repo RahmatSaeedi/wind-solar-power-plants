@@ -1,0 +1,9 @@
+P10-P90 band learned on Jan-Jun, coverage on Jul-Dec, by lead
+  lead h          band MW  coverage
+       1    -8.9 to   8.1       83%
+       6    -9.7 to   8.8       83%
+      24   -13.9 to  12.3       85%
+      36   -15.7 to  14.1       83%
+  a band learned in one season and used in another can be too
+  wide or too narrow: coverage is checked by season and by lead,
+  and the band is relearned as data arrive (ch 15 E)

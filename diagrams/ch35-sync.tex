@@ -1,0 +1,15 @@
+% Chapter 35 - the precision-time chain of Plant P from the satellite receiver to the end device, each
+% link with its share of the 1.45 us worst-case error (examples_a; teaching values).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=22mm, minimum height=12mm, text width=20mm}]
+  \node[s, blkLoad] (sat) at (12.0,0) {ماهواره‌های مکان‌یابی};
+  \node[s, blkWind] (rx) at (9.2,0) {گیرنده\\ $0.10\,\mu\mathrm{s}$};
+  \node[s, blkWind] (gm) at (6.4,0) {ساعتِ اصلی\\ $0.05\,\mu\mathrm{s}$};
+  \node[s, blkBESS] (sw) at (3.6,0) {شش سوئیچ با تصحیحِ ماندن\\ $0.30\,\mu\mathrm{s}$};
+  \node[s, blkPV] (ied) at (0.8,0) {برچسب‌زنیِ دستگاهِ پایانی\\ $1.00\,\mu\mathrm{s}$};
+  \foreach \a/\b in {sat/rx, rx/gm, gm/sw, sw/ied} {\draw[flow] (\a) -- (\b);}
+  \node[note, text width=96mm] at (6.4,-1.6) {بدترین مجموع $1.45\,\mu\mathrm{s}$: برای دنبالهٔ رویدادها با دقتِ $1\,\mathrm{ms}$ بسیار بس است و برای نیازِ $1\,\mu\mathrm{s}$ نه؛ بیشترِ بودجه را دستگاهِ پایانی می‌گیرد};
+\end{tikzpicture}
+\end{document}

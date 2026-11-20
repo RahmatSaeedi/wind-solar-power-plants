@@ -1,0 +1,8 @@
+saved configurations read against the hardening checklist of ch 36
+  SW-T09: default SNMP community
+  GW-PV1: telnet enabled
+  SW-SUB: unused ports not shut
+  3 findings, all read from files the integrator handed
+  over - no probing of the network; each closes with a
+  changed configuration, a new backup and its fingerprint
+  (lesson C, ch 36 hardening)

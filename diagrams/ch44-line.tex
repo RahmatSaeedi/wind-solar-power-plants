@@ -1,0 +1,20 @@
+% Chapter 44 - board assembly line with its inspections; defects in and out of the line (ppm of all
+% types, from companion/ch44/examples_c.py, line; teaching values). Read right to left.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=22mm, minimum height=10mm, text width=20mm, align=center}]
+  \node[st] (a) at (0,0) {چاپِ خمیر};
+  \node[st] (b) at (-2.7,0) {بازرسیِ خمیر};
+  \node[st] (c) at (-5.4,0) {چیدن و لحیم};
+  \node[st] (d) at (-8.1,0) {بازرسیِ نوری};
+  \node[st] (e) at (-10.8,0) {پرتوی ایکس};
+  \node[st] (f) at (-8.1,-2.2) {آزمونِ درون‌مداری};
+  \node[st] (g) at (-5.4,-2.2) {آزمونِ کارکرد};
+  \node[blkWind, minimum width=22mm, minimum height=10mm, text width=20mm, align=center] (h) at (-2.7,-2.2) {بردِ پذیرفته};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e} {\draw[flow] (\x) -- (\y);}
+  \draw[flow] (e.south) |- (f.west);
+  \draw[flow] (f) -- (g); \draw[flow] (g) -- (h);
+  \node[note, anchor=north] at (-5.4,-3.4) {۱۷۵۰ عیب در میلیون برد وارد، حدودِ ۱۴ خارج};
+\end{tikzpicture}}
+\end{document}

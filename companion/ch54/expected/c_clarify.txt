@@ -1,0 +1,12 @@
+written clarification requests on 2027-03-01 (escalate after 30 days)
+  CQ-01 to TSOZ               sent 2027-01-10  OPEN
+        ride-through: GCZ 150 ms at 0 pu vs TCR trip after 100 ms
+  CQ-02 to ERZ                sent 2026-12-01  answered 2027-02-10
+        does the 50 MW licence threshold count export or installed MW?
+  CQ-03 to Environment Agency sent 2027-02-20  OPEN
+        noise limit: free field or at the facade?
+  CQ-04 to TSOZ               sent 2026-11-15  OPEN
+        which edition of GCZ applies to an application filed in 2026?
+  open past 30 days: CQ-01 (50 days), CQ-04 (106 days)
+  CQ-04 (which grid-code edition applies) has waited longest -
+  and 3 requirements depend on its answer (Z-001, Z-004, Z-009)

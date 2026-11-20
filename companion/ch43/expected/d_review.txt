@@ -1,0 +1,18 @@
+test report TR-T1 reviewed (corrected values; contract teaching
+  tolerances)
+  quantity               guarantee   measured   verdict
+  no-load loss kW             42.0       42.2   pass
+  load loss kW, 75 C         290.0      298.0   pass
+  total loss kW              332.0      340.2   pass
+  impedance %                 12.0       12.6   pass
+  ratio error %, worst         0.5        0.6   FAIL
+  top-oil rise K              60.0       57.0   pass
+  winding rise K              65.0       66.5   FAIL
+  sound power dB(A)           88.0       87.2   pass
+  partial discharge pC       100.0      120.0   FAIL
+  deductions for losses above guarantee:
+    0.2 kW x 6.84 + 8.0 kW x 0.88 = 8.4 k u
+  3 failures; acetylene +0.8 ppm after the heat run; FRA files
+  for the LV winding missing; short-circuit proof still open
+  the report said 'all pass': it used the uncorrected 2-minute
+  reading and left the failed tap and the PD level unremarked

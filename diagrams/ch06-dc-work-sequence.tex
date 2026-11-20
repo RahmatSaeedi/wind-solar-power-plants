@@ -1,0 +1,16 @@
+% Chapter 6 — why PV DC work is different: the strings stay live in daylight.
+% A reading-order (right-to-left) sequence of the principles, not a procedure.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    st/.style={blk, minimum width=30mm, minimum height=15mm, text width=28mm, inner sep=2pt}]
+  \node[st] (s1) at (13.6,0) {\textbf{۱ شناساییِ منابع}\\رشته‌ها در روشنایی همیشه برق‌دارند؛ باتری و خازنِ اینورتر هم};
+  \node[st] (s2) at (10.2,0) {\textbf{۲ جداسازی}\\کلیدهای $Q_2$ و $Q_1$ باز؛ اتصال‌دهنده‌ها فقط بی‌بار جدا شوند};
+  \node[st] (s3) at (6.8,0)  {\textbf{۳ قفل و برچسب}\\هر نقطهٔ جداسازی قفل، با نامِ شخص و زمان};
+  \node[st] (s4) at (3.4,0)  {\textbf{۴ آزمونِ بی‌برقی}\\با ولت‌مترِ ردهٔ مناسبِ DC، دو قطب نسبت به هم و به زمین};
+  \node[st, blkWarn] (s5) at (0,0) {\textbf{۵ رشته هنوز زنده است}\\پوشاندن، فاصله، ابزارِ عایق، دستکش؛ مجوزِ کار و فردِ مجاز};
+  \foreach \a/\b in {s1/s2,s2/s3,s3/s4,s4/s5}{ \draw[flow] (\a.west) -- (\b.east); }
+  \node[note, text=cInk, anchor=north, text width=130mm, align=center] at (6.8,-1.25)
+       {این شکل اصولِ کار را نشان می‌دهد، نه رویهٔ اجرایی: رویه، آموزش و مجوزِ کار را کارفرما و مقرراتِ محل تعیین می‌کنند.};
+\end{tikzpicture}}
+\end{document}

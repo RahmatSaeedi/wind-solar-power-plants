@@ -1,0 +1,9 @@
+synthetic telemetry: produced, accepted and refused records
+  produced 2,824; accepted 2,821; refused 3
+  refusals by reason:
+    time not increasing          1
+    unknown or malformed tag     1
+    value not a number           1
+  the consumer refuses what it cannot trust and says why;
+  it never repairs a record silently, and the refusal
+  counts are themselves a health signal of the interface

@@ -1,0 +1,11 @@
+interface register: 10 interfaces; by kind:
+  electrical 4, mechanical 1, thermal 1, comms 1
+  protection 1, civil 1, water 1
+  owner of each interface:
+    EPC electrical  IF-001, IF-002, IF-005
+    PV supplier     IF-003, IF-004
+    BESS supplier   IF-006
+    integrator      IF-007
+    grid operator   IF-008
+    civil           IF-009
+    O&M             IF-010

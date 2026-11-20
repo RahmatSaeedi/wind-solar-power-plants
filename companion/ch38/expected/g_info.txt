@@ -1,0 +1,13 @@
+owner's information requirements checked on six asset records
+  tag           tag rule   asset id   location   item
+  =WS1-2-T1     ok         ok         ok         wind unit transformer
+  =PVF2-3-T1    ok         ok         ok         PV unit transformer
+  =PVF2-3-U1    ok         NO         ok         PV inverter
+  =T1           ok         ok         NO         main transformer
+  PVF2-Q1       NO         ok         ok         feeder breaker
+  =BESS-A-1     ok         ok         ok         battery container
+  complete records: 3 of 6
+  (locations in the local grid of the fictional site, ch 14)
+  the requirement is written as a check a program can run:
+  tag pattern, stable asset id (ch 35), a location in the
+  site's GIS - and the acceptance is the share that passes

@@ -1,0 +1,21 @@
+% Chapter 6 — highest string open-circuit voltage of each day in the data-pack year.
+% Data: diagrams/data/ch06-voc-year.csv (26 modules; the 27-module line is scaled by 27/26)
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=64mm,
+      xlabel={روزِ سال}, ylabel={بیشینهٔ روزانهٔ $V_\text{oc}$ رشته (V)},
+      xmin=1, xmax=365, ymin=1100, ymax=1560, xtick={1,60,120,180,240,300,365},
+      ytick={1100,1200,...,1500}, legend style={at={(0.5,-0.25)}}]
+    \addplot[sWind, line width=0.8pt] table[x=day, y=voc_max, col sep=comma] {data/ch06-voc-year.csv};
+    \addlegendentry{۲۶ ماژول}
+    \addplot[sLoss, line width=0.8pt] table[x=day, y expr=\thisrow{voc_max}*27/26, col sep=comma] {data/ch06-voc-year.csv};
+    \addlegendentry{۲۷ ماژول}
+    \addplot[sLimit, domain=1:365, samples=2] {1500};
+    \addlegendentry{حدِ $1500\,\text{V}$}
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:182,1505) {حدِ ولتاژِ سامانه};
+    \node[font=\footnotesize, text=cInk, anchor=north] at (axis cs:182,1235) {۲۶ ماژول};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:330,1460) {۲۷ ماژول};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

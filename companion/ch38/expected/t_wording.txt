@@ -1,0 +1,15 @@
+wording of ten requirement statements
+  R-01  ok
+  R-02  vague: 'adequate'
+  R-03  ok
+  R-04  number without a unit; no 'shall': a wish, not a requirement
+  R-05  3 requirements in one
+  R-06  vague: 'approximately'
+  R-07  vague: 'as required'
+  R-08  ok
+  R-09  vague: 'user-friendly'
+  R-10  ok
+  statements with a problem: 6 of 10
+  a requirement that cannot be verified cannot be closed in
+  the RVTM: 'adequate' has no test; 'approximately 45 dB'
+  has no limit; three 'shall's in one line need three IDs

@@ -1,0 +1,14 @@
+% Chapter 31 - weather windows a month in the data-pack year for the nacelle (6 h below 10 m/s)
+% and the rotor (8 h below 8 m/s) at hub height (diagrams/data/ch31-windows.csv, examples_b).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0.5, xmax=12.5, ymin=0, ymax=130,
+      xtick={1,...,12}, xlabel={ماه}, ylabel={پنجره در ماه},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sWind, mark=square*, mark size=1.3pt] table[x=m, y=nacelle, col sep=comma] {data/ch31-windows.csv};
+    \addplot[sPV, mark=triangle*, mark size=1.6pt] table[x=m, y=rotor, col sep=comma] {data/ch31-windows.csv};
+    \legend{ناسل، ۶ ساعت زیرِ ۱۰ متر بر ثانیه, روتور، ۸ ساعت زیرِ ۸ متر بر ثانیه}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

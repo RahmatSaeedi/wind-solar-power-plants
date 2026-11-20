@@ -1,0 +1,8 @@
+inverter 1 at 13:00 on 23 June (data pack 1.1.0, S0):
+  GHI 980 W/m2, air 37.4 C -> cell 68.0 C (NOCT rule)
+  string of 26: MPP 931 V, 11.90 kW; 419.5 strings, 3 % DC losses
+  DC power at the inverter 4.844 MW at 931 V: 5,203 A
+  DC window floor for 600 V AC: 933 V -> BELOW, margin -3 V
+  efficiency at 0.97 pu: 0.9834 -> AC 4.763 MW, loss 80 kW
+  AC current at 600 V, pf 1: 4,584 A (1,146 A per stack)
+  reactive power still available within 5.5 MVA: 2.75 Mvar

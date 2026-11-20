@@ -1,0 +1,14 @@
+commissioning and first-year spares: listed against received
+  inverter power stack        2 listed,    2 received
+  string fuses              200 listed,  200 received
+  RMU spares kit              1 listed,    0 received
+  SCADA switch RS-8           2 listed,    2 received
+  anemometer                  3 listed,    1 received
+  UPS battery string          1 listed,    0 received
+  short:
+    RMU spares kit: 1
+    anemometer: 2
+    UPS battery string: 1
+  the UPS battery string is the one DEV-14 needs; spares are
+  part of handover and of the asset records (ch 18 spares,
+  ch 49 K)

@@ -1,0 +1,6 @@
+data pack: global horizontal irradiation 1,947 kWh/m2 per year
+  ultraviolet share about 5 % (assumed, A-082): 97 kWh/m2 = 350 MJ/m2 per year
+  a UV chamber at 60 W/m2 delivers one site-year in 1,623 h (68 days)
+  25 years outdoors = 4.6 years of chamber time: tests
+    accelerate dose but not every ageing path (heat, moisture, cycling) at
+    once

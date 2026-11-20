@@ -1,0 +1,69 @@
+P01: slope, 9 m over 150 m: 6.0 %
+P02: hub 120 m, rotor 160 m: tip 200 m, 1.1 x tip = 220 m
+P03: trapezoid (0,0) (1200,0) (1000,800) (0,800): 88 ha
+P04: GCR, 2 x 2.278 m table, pitch 9.1 m: 0.50
+P05: Jensen deficit at 8 D, Ct 0.75, D 150 m: 0.1543
+P06: added turbulence at 4 D, Ct 0.6: 0.178
+P07: 106 dB(A) at 800 m: 36.0 dB(A)
+P08: 38 + 35 + 33 dB(A): 40.6 dB(A)
+P09: tip shadow at a 15 deg sun: 653 m
+P10: speed-up of a 25 m hill over 600 m: 8.3 %
+P11: pad 50 x 35 m on 8 %: 875 m3 each way
+P12: tree of (0,0), (3,0), (3,4) km: 7 km
+P13: climb 45 m at 8 %: 562 m of road at least
+P14: 25 m3 a day: 0.29 L/s
+P15: 30 MWp: glass 14.1 ha / 0.40 x 1.25 = 44 ha
+P16: expected flicker = 112 h x 0.7 x 0.8 x 0.5 = 31 h
+P17: two rows: 3 D 11.62 %, 8 D 6.75 % wake loss; +10.0 GWh a year
+P18: (2, 1) to (5, 5) km: 5 km
+P19: 10 deg as a slope: 17.6 %
+P20: corridor at 5 % margin: 784 ha, 700 m wide at x = 10.5 km
+P21: buildable: turbines 4,304 ha, PV 4,828 ha of 6,300 ha
+P22: slope classes: 81.9 % under 2 %, 5.0 % above 10 %
+P23: 50 m raster 15.3 % steepest, 200 m raster 13.2 %
+P24: spring spare water: -0.5 to -2.0 L/s in Jun-Sep
+P25: W1 236.9 GWh (wake 0.50 %), W2 193.1 GWh (5.85 %)
+P26: ridge without speed-up 204.7 GWh: the hill adds 16 %
+P27: effective TI at 15 m/s: 0.197 at 4 D, 0.169 at 6 D (curve 0.184)
+P28: PV: 28.2 ha glass, 70.5 ha rows, 88 ha with roads (1.47 ha/MWp)
+P29: collector tree W1 9.32, W2 8.91 km; strings 18.21, 12.63 km
+P30: roads W1 9.50 km (12.4 %), W2 9.90 km (6.4 %)
+P31: pads: W1 2,174 m3, W2 522 m3 each way
+P32: noise at camp B: W1 34.9, W2 45.4, W2b 37.7 dB(A)
+P33: flicker at camp B, worst case: W1 36, W2 112, W2b 0 h/yr
+P34: W1: 5 turbines within 1 km of the nest, nearest 78 m
+P35: W2b: 196.9 GWh, wake loss 4.01 %, strings 13.26 km
+P36: routes: straight 6.41 km (inf), least cost 7.06 km, south 8.72 km
+P37: corridor 1 % 187 ha, 3 % 527 ha, 5 % 784 ha, 10 % 1,397 ha
+P38: farmland weight 1: 6.41 km with 3.42 km of fields; 2 to 8: 7.06 km
+P39: exposure: rangeland 126.0 ha (2.59 %), herders 3.1 ha (0.40 %)
+P40: export route 25 m from all eight strips
+P41: W1 against W2b: +40.0 GWh a year, 2.0 M u a year at 50 u/MWh
+P42: W2b against W2: +3.8 GWh, 190 k u a year
+P43: extra strings W2b against W2: 0.63 km
+P44: least-cost against south route: 1.66 km shorter
+P45: construction water by truck, 20 m3 a load: 610 loads
+P46: PV block used 74 % (88 of 119 ha)
+P47: tip height above sea level on the crest: 1437 m at most
+P48: rows 8 D instead of 4 D: +7.11 GWh a year
+P49: one degree of longitude at 34 N: 92.3 km
+P50: area computed in degrees at 34 N: +21 %
+P51: pitch on a 4 % slope to the north: 13.43 m (GCR 0.339)
+P52: grading the PV block to a plane: 283,086 m3 each way, 0.48 m mean
+P53: temporary land of W2b: 8.1 ha; crane walk 7.20 km
+P54: one turbine at 575 m: 39.9 dB(A)
+P55: W2b, target 36 dB(A) at the camp: 5 turbines in mode, 0.44 % energy
+P56: strings along the roads 21.34 km against 13.26 km straight (+61 %)
+P57: stagger 1,200 m: 196.88 GWh, 37.7 dB(A); 1,500 m inside the buffer
+P58: turn -20 deg: -2.3 GWh; +20 deg: +0.4 GWh
+P59: herders' straight routes cross W2b roads 1 and 2 times
+P60: night mode for 5 of 12 turbines in 7 months: 1.81 x 5/12 x 7/12 = 0.44 %
+P61: cross-prediction, 2 km and 30 m higher: 0.5 + 0.5 x 2 + 1.0 x 3 = 4.5 %
+P62: cross-prediction mean: W1 7.64 %, W2b 1.35 %
+P63: ice-throw radius, D 160 m, hub 120 m: 1.5 x 280 = 420 m
+P64: W2b ice zones 476 ha; 7.1 km of site roads inside; no dwelling
+P65: visible from the west of the ridge: W1 12, W2b 6 turbines
+P66: ruggedness index: 0 % here, 17.8 % on terrain three times steeper
+P67: DC feeders: east edge 579 m mean, middle row 215 m, 5 x 2 grid 119 m
+P68: substation: chosen 27.20, best (7.00, 2.75) 25.07 weighted km (-7.8 %)
+P69: PV between the rows: 504 ha, 288 outside ice zones, 154 outside grazing

@@ -1,0 +1,6 @@
+8 irradiance sensors on a 3-year calibration interval, 8 weeks away each time
+  share of the time one sensor is away: 5.1%; expected away at once: 0.41
+  spares: ceil(8 x 0.051) + 1 = 2 (one for a failure)
+  staggered, one sensor leaves every 19.5 weeks and a spare takes its place
+  - the stations never stop measuring, and each swap is a line
+  in the instrument's record (lesson A interval)

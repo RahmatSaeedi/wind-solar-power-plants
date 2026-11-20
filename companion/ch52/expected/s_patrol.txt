@@ -1,0 +1,7 @@
+132 kV line patrol, 14.5 km (teaching rates)
+  method   hours   cost u   share of defects found
+  foot      23.2    1,044          70%
+  drone      5.1      812          85%
+  the drone is cheaper and finds more from above (insulators,
+  fittings); the foot patrol still sees the corridor and the
+  tower bases - the network owner's plan uses both (ch 51 K)

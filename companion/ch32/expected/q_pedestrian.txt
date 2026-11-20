@@ -1,0 +1,13 @@
+pedestrian fatality risk against impact speed (teaching curve)
+  P = 1 / (1 + exp(-(v - 50) / 7)), v in km/h (illustrative)
+  speed km/h   risk
+          20     1 %
+          30     5 %
+          40    19 %
+          50    50 %
+          60    81 %
+          70    95 %
+  the risk climbs steeply between 30 and 60 km/h: a village
+  speed limit of 30 for site traffic and a marshal at the
+  school crossing (lesson G) do more than any sign; the
+  real curve and limits come from road-safety authorities

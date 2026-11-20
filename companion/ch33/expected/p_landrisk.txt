@@ -1,0 +1,17 @@
+land and livelihood risk register (teaching scores 1-5)
+  risk                                 L  I  score  owner
+  herders' route cut by the fence       4  4     16  E&S manager
+      control: gap and crossing
+  informal user left off the list       3  4     12  community liaison
+      control: walk-over census
+  customary grazing lost (3.1 ha)       5  2     10  E&S manager
+      control: agreement + plan
+  strip owner not found for easement    3  3      9  land agent
+      control: notice, escrow
+  dust on farm 1 crops                  3  3      9  construction lead
+      control: watering, buffer
+  water point not maintained            2  4      8  E&S manager
+      control: handover, budget
+  the informal user and the absent owner are the risks a
+  title search misses; the census walks the land with the
+  village before any list is published (lesson B)

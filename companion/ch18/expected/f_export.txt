@@ -1,0 +1,10 @@
+export options for the 7.06 km route at 132 kV (A-286):
+  option                            loss  charging    outage    cost
+                                  MWh/yr      Mvar    MWh/yr     M u
+  overhead line, single circuit       754      0.35        17    3.18
+  overhead line, double circuit       377      0.70         0    4.80
+  underground cable                   188      7.73       114   11.30
+  the double circuit halves losses and carries the plant through
+  a single fault; the cable loses little, but its repairs are
+  long and it produces reactive power to manage; the route,
+  permits and owner (chapter 17) decide before the numbers do

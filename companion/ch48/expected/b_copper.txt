@@ -1,0 +1,11 @@
+copper links certified (teaching: permanent link <= 90 m, NEXT margin >= 0 dB)
+  link      length m   NEXT margin dB   report   our verdict
+  CTRL-01         42              6.2   pass     ok
+  CTRL-02         67              3.1   pass     ok
+  CTRL-03         96              1.1   pass     FAIL
+  CTRL-04         55             -0.4   pass     FAIL
+  CTRL-05         31              7.5   pass     ok
+  the report says 'pass' for all; CTRL-03, CTRL-04 fail when the
+  numbers are read: one is too long, one has a negative margin
+  - a tester set to the wrong limit prints 'pass'; the
+  results file, not the summary, is accepted

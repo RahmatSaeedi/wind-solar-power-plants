@@ -1,0 +1,13 @@
+% Chapter 58 - edition age of the dated rows of the book's standards register on 2026-11-18, in five
+% classes (companion/ch58/run.py, ages -> diagrams/data/ch58-ages.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, ybar, bar width=10mm, xmin=0.4, xmax=5.6,
+      ymin=0, ymax=75, xtick={1,...,5}, xticklabels={0--2, 3--5, 6--10, 11--20, 21+},
+      xlabel={سنِ ویرایش (سال)}, ylabel={شمارِ ردیف‌ها},
+      nodes near coords, every node near coord/.append style={font=\scriptsize}]
+    \addplot[draw=cBESS, fill=cBESS!35] table[x=k, y=n, col sep=comma] {data/ch58-ages.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

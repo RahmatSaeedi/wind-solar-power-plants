@@ -1,0 +1,17 @@
+% Chapter 41 - module power under three shade cases (none, a bottom row at 50 % light, one column
+% at 50 %) for full cells and half-cut cells, both with three bypass diodes, as a share of the
+% unshaded power (diagrams/data/ch41-layout.csv from companion/ch41/examples_c.py, c_layout;
+% teaching, ch 15 curve model).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, ybar, bar width=12pt, ymin=0, ymax=115,
+      xtick={1,2,3}, xticklabels={بی‌سایه, ردیفِ پایین, یک ستون}, xmin=0.5, xmax=3.5,
+      ylabel={توانِ ماژول (درصد)}, nodes near coords, nodes near coords style={font=\scriptsize},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[fill=cLoss!45, draw=cLoss] table[x=case, y=full, col sep=comma] {data/ch41-layout.csv};
+    \addplot[fill=cPV!50, draw=cPV] table[x=case, y=half, col sep=comma] {data/ch41-layout.csv};
+    \legend{سلولِ کامل, نیم‌سلول}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,7 @@
+T05.WS was stored as km/h-labelled values read from an m/s register
+  from 2027-02-01 to 2027-06-01: 120 days of wind speed wrong in label
+  the values are m/s; a report that converted 'km/h' to m/s divided by 3.6
+  the correction: relabel the stored values for that period,
+  keep the original rows, record who, when and why, and rerun
+  the reports that used them (the power curve of ch 37) - data
+  are corrected with an audit trail, never silently

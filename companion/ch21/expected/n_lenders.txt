@@ -1,0 +1,7 @@
+the lenders' case against the sponsor's (teaching haircuts):
+  lenders add 10 % to opex, 1 % more curtailment, 1 % less
+  energy and size on a price 3 % lower:
+  sponsor case: debt 121,025, equity IRR 10.22 %
+  lenders' case: debt 116,205, equity IRR 8.91 % (if the haircuts come true)
+  the debt follows the lenders' case, not the sponsor's: every
+  optimistic input the lenders do not accept becomes equity

@@ -1,0 +1,7 @@
+shallow or deep connection charges (reinforcement 10,000 k u):
+  regime                       capex k u   tariff for 10 % equity
+  shallow (grid pays)            156,450                     69.5
+  deep (plant pays)              166,450                     73.0
+  a deep charge (the plant pays for upstream reinforcement)
+  raises the tariff it needs by several units; who pays is set
+  by the connection rules and agreement (ch 17, 28, U-081)

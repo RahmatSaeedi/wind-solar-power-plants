@@ -1,0 +1,7 @@
+four stacks with carriers shifted by a quarter period (A-169):
+  ripple of one stack 364 A peak-to-peak
+  ripple of the sum   317 A, against 1455 A if the carriers were aligned
+  the ripples partly cancel and the remaining ripple sits at four
+  times the switching frequency: a smaller grid-side filter
+  price: circulating currents between stacks, which their own
+  inductors must limit

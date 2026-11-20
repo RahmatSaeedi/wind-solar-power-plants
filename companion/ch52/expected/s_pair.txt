@@ -1,0 +1,6 @@
+two main transformers, each 0.01 failures a year, 4,380 h to replace
+  both out, two repair crews (independent): 2.48e-05
+  both out, one repair at a time:           4.95e-05
+  2.0 times worse with one at a time - for a
+  six-month replacement the 'crew' is the factory slot and
+  the crane; two failures in one window queue for them

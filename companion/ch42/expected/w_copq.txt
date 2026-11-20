@@ -1,0 +1,10 @@
+cost of quality of one year's blades (36, teaching k u)
+  category            k u    share
+  prevention           130       5%
+  appraisal            240      10%
+  internal failure     730      31%
+  external failure    1280      54%
+  total 2,380 k u, 66 k u a blade
+  failures cost 15 times prevention: a blade exchanged in
+  the field costs more than all prevention together - the
+  same lesson as the skids of ch 40, in a heavier product

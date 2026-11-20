@@ -1,0 +1,12 @@
+main transformer T1: top-oil rise over ambient (K) at the same loads,
+  model of the clean unit (heat run, ch 43) against this summer
+  load pu   clean   now   excess
+     0.55    22.6  25.3     2.7
+     0.62    25.7  28.8     3.1
+     0.70    29.5  33.0     3.5
+     0.75    32.0  35.8     3.8
+     0.80    34.6  38.7     4.2
+     0.85    37.3  41.8     4.5
+  4.5 K more at 0.85 pu: dust on the radiators - washed in
+  the next outage; a residual against the model finds it, a
+  fixed alarm level on top-oil temperature would not

@@ -1,0 +1,13 @@
+the load path from rotor to soil and what governs each link
+  link                       governing check          lesson: result
+  tower wall, section 1      fatigue of the welds     B: walls 50/45/36 mm
+  tower wall, section 1      shell buckling           B: use 1.02-1.06
+  base flange bolts          slip and separation      Q: method sets min
+  anchor cage                joint stays closed       G: 1,250 kN preload
+  grout under the flange     bearing stress           G: 96 MPa class
+  pedestal and slab          reinforcement            H: 64 kg/m3
+  base on the ground         lift-off and bearing     D: 24 m at T07
+  ground stiffness           1P frequency margin      B, D: governs T07
+  no single check sizes the turbine's structure: fatigue sets
+  the walls, preload the joints, stiffness the base - and
+  each link is only as good as the evidence for it

@@ -1,0 +1,7 @@
+SCADA link to the controller lost for 3 h from 14:00 (day 34)
+  timeout 1 h, then the battery goes to its fallback (idle)
+  hours on fallback: 2 (15:00, 16:00)
+  the export cap in force is held; no new instruction reaches
+  the plant: the operator rings the grid operator, logs the
+  time, and the OT team (ch 36) owns the link - the service
+  is suspended while the controller cannot be reached (lesson J)

@@ -1,0 +1,10 @@
+tower section 1 at 159 t (was 124 t in ch 31): axles and lift again
+  trailer axles   trailer t   tractor kN/axle   trailer kN/axle
+             14          34                93               130  over
+             16          38                93               116
+             18          42                93               105
+  lift at 14 m: (159 + 6) t against 230 t: use 0.72 (was 0.57)
+  fourteen axles, ch 31's choice, are now over the permit; the
+  section needs the nacelle's sixteen-axle trailer and a new
+  permit, and the bridge checks are run again - the crane
+  still lifts it with margin

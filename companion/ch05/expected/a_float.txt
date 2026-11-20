@@ -1,0 +1,7 @@
+0.1 + 0.2 = 0.30000000000000004; equal to 0.3? False; math.isclose: True
+spacing of float32 numbers near 2.898e+11 Wh: 32,768 Wh
+  near 1 000 000: 0.0625; float64 near 2.898e+11: 6.10e-05 Wh
+a year of 10-minute energy increments of 5 MW (52 560 additions):
+  float64 sum 43,800.000 MWh; float32 running sum 43,786.195 MWh; error -0.032
+    %
+difference of two large meter readings in float32: 256.0 kWh (true 245.4)

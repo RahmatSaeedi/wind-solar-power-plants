@@ -1,0 +1,6 @@
+step 4, oversize or augment (teaching prices A-293):
+  augmentation: 40 MWh now, 4 MWh blocks in years 8, 13
+  present cost (energy part, 6 %, price -4 %/yr): augment 10,728 k u,
+    oversize 12,035 k u (48.1 MWh at 250 k u/MWh)
+  augmentation buys later and cheaper, but needs space, bays
+  and a battery that accepts mixed ages (chapter 18)

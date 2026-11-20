@@ -1,0 +1,13 @@
+% Chapter 31 - logistics cost of one turbine by item (teaching, k u) (examples_f, f_cost).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xbar, bar width=3.8mm, xmin=0, xmax=400,
+      ymin=0.4, ymax=6.6, ytick={1,...,6}, y dir=reverse,
+      yticklabels={حملِ دریایی, بندر, حملِ جاده‌ای, اسکورت و مجوز, جرثقیل‌ها, دریافت و انبار},
+      xlabel={k u برای هر توربین}, xmajorgrids=true, ymajorgrids=false,
+      nodes near coords, nodes near coords style={font=\scriptsize, text=cInkB, anchor=west}, point meta=x]
+    \addplot[fill=cWind!45, draw=cWind] coordinates {(210,1) (35,2) (160,3) (55,4) (345,5) (25,6)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

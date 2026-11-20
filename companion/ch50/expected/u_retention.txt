@@ -1,0 +1,11 @@
+retention configured at handover against the owner's requirement (years)
+  1-second plant data            kept  1  required  1
+  10-minute SCADA history        kept  5  required 25  SHORT
+  event and alarm logs           kept 10  required 10
+  revenue metering               kept 10  required 10
+  test records and certificates  kept 25  required 25
+  configuration backups          kept  2  required 25  SHORT
+  the 10-minute history feeds every performance claim of the
+  plant's life (ch 37), and old configurations are the only
+  record of what was changed (ch 36) - retention is set
+  before the first year is lost, not after (ch 35)

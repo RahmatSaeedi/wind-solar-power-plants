@@ -1,0 +1,8 @@
+two term sheets for the same plant (sculpted on P90 1-yr):
+  offer                                   debt k u   equity IRR %   min DSCR
+  A: 6.0 %, 15 yr, DSCR 1.20, fee 1.5 %    121,025          10.22       1.20
+  B: 6.5 %, 18 yr, DSCR 1.25, fee 2.0 %    124,378          10.74       1.28
+  the dearer offer with the longer tenor lends more (up to the
+  75 % gearing cap) and pays the owners better despite its
+  rate and fee: compare offers in the model, never by their
+  headline rate

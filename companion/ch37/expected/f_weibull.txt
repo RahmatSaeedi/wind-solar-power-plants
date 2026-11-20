@@ -1,0 +1,9 @@
+Weibull fit of 40 main bearings after 50,000 h (synthetic)
+  failed 20, still running 20
+  shape k = 2.89, scale = 56,180 h (true 2.5 and 60,000)
+  share failed by 80,000 h on this fit: 94 %
+  a constant rate on the same record (MTBF 84,427 h) predicts 61 %
+  a shape above 1 means wear-out: the rate rises with age,
+  and a constant rate reads it as chance and under-plans the
+  later years; spares and exchanges are planned by age, not
+  by an average rate (STD-166)

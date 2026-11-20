@@ -1,0 +1,28 @@
+% Chapter 3 — amplitude ratio of a first-order lag against f tau (log-log), with the two
+% asymptotes and the corner at f tau = 1/(2 pi). Data: diagrams/data/ch03-p-bode.csv
+% (companion/ch03/examples_more3.py). Marked points: anemometer gust at 0.5 Hz with tau 0.375 s
+% (f tau = 0.1875) and buried cable with tau 3 h under the daily cycle (f tau = 0.125).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=120mm, height=66mm,
+      xlabel={بسامد ضرب در ثابتِ زمانی $f\tau$}, ylabel={نسبتِ دامنه},
+      xmin=0.001, xmax=10, ymin=0.01, ymax=2,
+      xtick={0.001,0.01,0.1,1,10}, xticklabels={0.001,0.01,0.1,1,10},
+      ytick={0.01,0.1,1}, yticklabels={0.01,0.1,1}]
+    \addplot[sInk] table[x=ftau, y=gain, col sep=comma] {data/ch03-p-bode.csv};
+    \addlegendentry{سامانهٔ مرتبهٔ اول}
+    \addplot[sLimit, domain=0.159:10, samples=2] {1/(2*pi*x)};
+    \addlegendentry{مجانب‌ها}
+    \addplot[sLimit, domain=0.001:0.159, samples=2, forget plot] {1};
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cWind, forget plot] coordinates {(0.1875,0.647)};
+    \addplot[only marks, mark=square*, mark size=1.8pt, color=cLoss, forget plot] coordinates {(0.125,0.786)};
+    \node[note, anchor=west] (cab) at (axis cs:0.0015,0.25) {کابلِ دفن‌شده، چرخهٔ روزانه};
+    \node[note, anchor=west] (ane) at (axis cs:0.0015,0.08) {بادسنج، تندبادِ $0.5\,\text{Hz}$};
+    \draw[->, cInkB, line width=0.5pt] (cab.east) -- (axis cs:0.12,0.74);
+    \draw[->, cInkB, line width=0.5pt] (ane.east) -- (axis cs:0.18,0.60);
+    \draw[cInkB, densely dotted] (axis cs:0.159,0.01) -- (axis cs:0.159,1);
+    \node[note, anchor=south west] at (axis cs:0.165,0.012) {بسامدِ گوشه $f\tau = 1/2\pi$};
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

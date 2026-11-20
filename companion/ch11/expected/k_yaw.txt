@@ -1,0 +1,8 @@
+yaw demand from the data-pack hourly directions (A-237):
+  hours with wind above cut-in and a change over 8 deg: 1,048
+  yaw travel at least 16,546 deg a year = 46 full turns
+  at 0.5 deg/s: 9.2 h of yaw motor time (lower bound)
+  net cable twist reaches 2.5 turns: 1 unwind(s) a year
+  real yaw systems act on ten-minute or shorter averages and
+  move many times more often; brakes, motors and the yaw
+  bearing's gear are sized for that duty

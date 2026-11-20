@@ -1,0 +1,7 @@
+daily arbitrage of the 20 MW / 4..36 MWh battery (fictional prices, A-035)
+  base price profile: revenue 1584 units (perfect foresight)
+  300 random days: level x exp(N(0, 0.15)), each hour x exp(N(0, 0.10))
+  revenue: mean 1821, std 352, P10 1426, P90 2270 units
+  mean of the random-day revenues is +15 % from the base-day revenue:
+    noisier prices give a battery more to exploit (convexity of the optimum)
+  every value assumes perfect foresight: an UPPER bound, not a forecast

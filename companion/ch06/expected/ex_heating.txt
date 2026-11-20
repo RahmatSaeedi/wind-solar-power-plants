@@ -1,0 +1,7 @@
+E21 4 mm2 Cu: R20 = 4.30 mOhm/m; R_th = 1/(h pi d) = 1/(10.0 x pi x 0.006) =
+    5.31 K m/W
+E21 I = 14 A, T_a = 30 C: one-step estimate 34.6 C, exact 34.7 C
+E21 I = 40 A, T_a = 30 C: one-step estimate 67.9 C, exact 74.3 C
+E21 I = 60 A, T_a = 50 C: one-step estimate 141.8 C, exact 185.6 C
+E22 runaway current of the linear model: I_c = 1/sqrt(R20 alpha R_th) = 105.6
+    A

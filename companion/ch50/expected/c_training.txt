@@ -1,0 +1,14 @@
+training by role: people needed, trained, assessed competent
+  role                         need  trained  assessed
+  control-room operator           8        8         6
+  authorised person (HV)          4        3         3
+  PV technician                   6        6         6
+  wind technician                10        7         5
+  fire warden                     6        6         6
+  short of assessed people:
+    control-room operator: 2
+    authorised person (HV): 1
+    wind technician: 5
+  attendance is not competence: a role is staffed by people
+  assessed in it, and an authorised person is appointed in
+  writing (lesson A) - the wind technicians are the largest gap

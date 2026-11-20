@@ -1,0 +1,7 @@
+12 generators, gross data-pack year (A-111 loss model):
+  losses with fixed share 35 %: 8,685 MWh/yr; with 20 %: 7,164 MWh/yr
+  difference 1,521 MWh/yr = 76,058 u/yr at 50 u/MWh
+  over 25 years at 7 %: annuity factor 11.65 -> 886,344 u today
+  a buyer can put this value on the loss figures in a tender
+  (capitalised losses, chapter 39): lower losses are worth up
+  to that much more in price

@@ -1,0 +1,7 @@
+day-ahead schedule at the forecast (P50) or lowered to its P90
+  P90 offset -12.4 MW (10 % of hours fall below it)
+  imbalance over the year: P50 1,247,486 u, P90 1,163,241 u
+  lowering the schedule trades short penalties for long ones
+  (cheaper here); it also sells less energy ahead -
+  the choice is a commercial one, written in the operating
+  procedure with its rule, not made hour by hour

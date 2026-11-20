@@ -1,0 +1,15 @@
+region 3: rotor torque sensitivity to pitch at rated speed (rho 1.056):
+  v m/s  pitch deg  dT/dpitch kN m/deg  dT/domega MN m s   Kp s   Ki
+   12.0    6.30        -589.6             -4.36        0.766  0.384
+   14.0    9.63        -859.1             -6.97        0.473  0.263
+   16.0   12.24       -1134.7            -10.42        0.305  0.199
+   18.0   14.55       -1316.9            -15.60        0.194  0.172
+   20.0   16.68       -1511.4            -20.19        0.116  0.150
+   22.0   18.69       -1700.5            -22.93        0.075  0.133
+   24.0   20.57       -1896.3            -29.94        0.003  0.119
+  linear fit: G = 0.5 + 91.3 x pitch (kN m/deg, pitch in deg),
+    almost proportional to pitch on this rotor
+  G at 24 m/s is 3.2 times G at 12 m/s: gains tuned at 12 m/s are
+  multiplied by the factor G(pitch_12) / G(pitch)
+  fixed gains at 22 m/s: natural frequency 1.02 rad/s, damping 1.33
+    (design 0.60 rad/s and 0.70; tower 1.35 rad/s)

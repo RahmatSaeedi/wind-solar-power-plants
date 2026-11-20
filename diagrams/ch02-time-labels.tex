@@ -1,0 +1,36 @@
+% Chapter 2 — interval labels and time zones: one hour of data, two labels, two clocks.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  % local clock axis
+  \draw[cInkB, line width=0.8pt, -{Stealth[length=2mm]}] (0,0) -- (12.6,0);
+  \foreach \x/\t in {0/{00:00}, 4/{01:00}, 8/{02:00}, 12/{03:00}} {
+    \draw[cInkB, line width=0.6pt] (\x,-0.12) -- (\x,0.12);
+    \node[text=cInk, anchor=north] at (\x,-0.15) {\texttt{\t}};
+  }
+  \node[text=cInk, anchor=west] at (12.7,0) {وقتِ محلی $+04{:}00$};
+  % UTC clock axis
+  \draw[cMuted, line width=0.6pt, -{Stealth[length=2mm]}] (0,-1.3) -- (12.6,-1.3);
+  \foreach \x/\t in {0/{20:00}, 4/{21:00}, 8/{22:00}, 12/{23:00}} {
+    \draw[cMuted, line width=0.5pt] (\x,-1.42) -- (\x,-1.18);
+    \node[text=cInkB, anchor=north] at (\x,-1.45) {\texttt{\t}};
+  }
+  \node[text=cInkB, anchor=west] at (12.7,-1.3) {$\text{UTC}$ (روزِ پیش)};
+
+  % the hour 01:00-02:00
+  \fill[cWind!14] (4,0.25) rectangle (8,1.25);
+  \draw[cWind, line width=0.9pt] (4,0.25) rectangle (8,1.25);
+  \node[text=cInk, align=center] at (6,0.75) {میانگینِ یک ساعت\\$3.91\,\text{m/s}$};
+  \draw[-{Stealth[length=2mm]}, cInk, line width=0.7pt] (4,2.3) -- (4,1.3);
+  \node[text=cInk, anchor=south, align=center] at (4,2.3) {برچسبِ آغازِ بازه:\\\texttt{01:00} (قراردادِ بستهٔ داده)};
+  \draw[-{Stealth[length=2mm]}, cInkB, line width=0.7pt, densely dashed] (8,2.3) -- (8,1.3);
+  \node[text=cInkB, anchor=south, align=center] at (8,2.3) {برچسبِ پایانِ بازه:\\\texttt{02:00} (قراردادِ برخی کنتورها)};
+
+  \node[note, anchor=north, text width=128mm] (n1) at (6.3,-2.2)
+     {یک ساعت داده، دو برچسبِ ممکن و دو ساعتِ جهانی. نوشتنِ کامل به شکلِ زیر هم روز، هم ساعت، هم
+      اختلاف با $\text{UTC}$ را روشن می‌کند:};
+  \node[anchor=north, text=cInk, font=\small] (n2) at (n1.south) {\texttt{2023-01-01T01:00:00+04:00}};
+  \node[note, anchor=north, text width=128mm] at (n2.south)
+     {اما قراردادِ برچسب (آغاز یا پایانِ بازه) را باید جداگانه در فرهنگِ داده نوشت.};
+\end{tikzpicture}}
+\end{document}

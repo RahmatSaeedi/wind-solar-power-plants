@@ -1,0 +1,8 @@
+backup generator 200 kVA, 400 V, x_d 2.5 pu (A-113):
+  Z_base 0.800 ohm, X_s 2.00 ohm, I_r 288.7 A
+  rated, pf 0.8 lagging  E   739 V = 3.20 pu, delta 38.7
+  rated, pf 1            E   622 V = 2.69 pu, delta 68.2
+  rated, pf 0.9 leading  E   520 V = 2.25 pu, delta 92.3 > 90: impossible
+P = 3 E V sin(delta) / X_s; with E 2.0 pu the maximum (delta 90 deg) is 160 kW
+more excitation (E) -> more reactive power delivered; less -> absorbed
+  a weakly excited machine near delta 90 deg loses synchronism

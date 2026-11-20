@@ -1,0 +1,13 @@
+which grid island would Plant P join? (AF-10, secondary)
+  north-east system (NEPS)
+      fed by: imports from Uzbekistan and Tajikistan
+      question: frequency set by the exporting system or by the island itself?
+  Herat zone
+      fed by: imports from Iran and Turkmenistan
+      question: the wind resource is here (AF-16); isolated from NEPS
+  south (Kandahar)
+      fed by: described as unconnected to the central grid
+      question: small system: a 100 MW plant could be most of its load
+  the island decides the fault level, the frequency behaviour
+  and how much variable output it can absorb - it is the first
+  question of the grid-data request, before any study

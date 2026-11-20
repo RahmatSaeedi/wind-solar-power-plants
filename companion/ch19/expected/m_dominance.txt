@@ -1,0 +1,8 @@
+which fade dominates after ten years (25 C, depth 80 %):
+  cycles a day   calendar   cycling   larger
+         0.25       5.8 %      3.4 %   calendar
+         0.50       5.8 %      6.8 %   cycling
+         1.00       5.8 %     13.7 %   cycling
+         2.00       5.8 %     27.3 %   cycling
+  a battery used rarely ages by the calendar, a busy one by its
+  cycles; the duty decides which fade law matters

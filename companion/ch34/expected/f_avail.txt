@@ -1,0 +1,6 @@
+availability of the alarm path to the plant (teaching rates)
+  hard-wired contact path: 0.070 h a year unavailable
+  two switches and the PLC in series: 0.82 h a year
+  the networked path is also good, but it fails with every
+  network or PLC fault, the ones a fire may cause; the
+  hard-wired path is short, supervised and independent

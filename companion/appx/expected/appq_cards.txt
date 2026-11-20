@@ -1,0 +1,9 @@
+scenario cards (every BESS exercise states these or the ones it changes)
+  S0 no-BESS (assumed): PV 60 MWp DC / 50 MW AC; wind 60 MW (12 x WT-5.0-150);
+    export 100 MW
+      battery: none
+  S1 BESS (assumed): PV 60 MWp DC / 50 MW AC; wind 60 MW (12 x WT-5.0-150);
+    export 100 MW
+      battery 20 MW / 40 MWh nominal, window 10-90 %, usable 32 MWh
+      round trip 86 % AC, fade 2.0 %/yr, reserve 0 MWh
+      charging: on-site PV and wind only; grid charging no

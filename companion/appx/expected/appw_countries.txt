@@ -1,0 +1,322 @@
+== Iran: 49 statements from 46 sources, accessed 2026-11-17
+   to-confirm 28, verified 19, project-dependent 2; secondary source only: 6
+  (no source found)
+      IR-08, IR-47 | to-confirm | latest text undated
+  INSO mandatory standards list
+      IR-30, IR-49 | verified | latest text 2026-06-30
+  (no source found)
+      IR-38, IR-42 | to-confirm | latest text undated
+  Art 14 bylaw Art 6 note; amendment Art 10(b); Majlis Research Center print
+    (via FAOLEX)
+      IR-34 | verified | latest text 2024-11-24
+  Art 14 bylaw No. 142419/T61198H, 1402/8/10, Art 1; Majlis Research Center
+    print (via FAOLEX)
+      IR-02 | verified | latest text 2023-11-01
+  Art 4 bylaw Art 3(d); Majlis Research Center print (via FAOLEX)
+      IR-16 | project-dependent | latest text 2023-11-07
+  Art 4 bylaw No. 146796/T61218H, Art 6; Majlis Research Center print (via
+    FAOLEX)
+      IR-05 | verified | latest text 2023-11-07
+  Art 6 of the bylaw; ANA and Iran Daily reports
+      IR-10 | to-confirm | latest text 2026-05-20
+  Art 61 Note 2; dastour.ir print of the law (2016, via FAOLEX)
+      IR-06 | verified | latest text 2011-02-23
+  Cabinet No. 238700/T62054H; Majlis Research Center print (via FAOLEX); text
+    read
+      IR-09 | verified | latest text 2024-03-13
+  EUR-Lex
+      IR-41 | verified | latest text 2025-09-29
+  FIPPA Art 5, unofficial translation
+      IR-15 | to-confirm | latest text 2002-05-31
+  INSO catalogue did not load
+      IR-31 | to-confirm | latest text undated
+  INSO import list, Aban 1405
+      IR-28 | verified | latest text 2026-10-23
+  INSO lists (file of 30 Jun 2026)
+      IR-29 | verified | latest text 2026-06-30
+  ISNA/Tejarat News, 12 May 2026
+      IR-20 | to-confirm | latest text 2026-05-12
+  Law 1401 Art 17 note; Art 4 bylaw Art 3(d); Majlis Research Center print
+    (via FAOLEX)
+      IR-04 | verified | latest text 2022-11-06
+  Law 1401 Arts 4, 17; Majlis Research Center print (via FAOLEX)
+      IR-37 | verified | latest text 2022-11-06
+  Law of 1401/8/15 Art 14 and its bylaw; Majlis Research Center print (via
+    FAOLEX)
+      IR-35 | verified | latest text 2023-11-01
+  Law on Reform of Energy Consumption Pattern, Art 61; dastour.ir print of the
+    law (2016, via FAOLEX)
+      IR-01 | verified | latest text 2011-02-23
+  Mehr news, 21 Sep 2025
+      IR-17 | to-confirm | latest text 2025-09-21
+  Mehr news, 5 Apr 2026
+      IR-07 | to-confirm | latest text 2026-04-05
+  Ministry of Agriculture Jihad (via FAOLEX)
+      IR-25 | verified | latest text 2024-10-20
+  No. 134137/T63365H, Gazette 23237; Majlis Research Center print (via FAOLEX)
+      IR-11 | verified | latest text 2024-11-24
+  Nov 2024 amendment wording
+      IR-03 | to-confirm | latest text 2024-11-24
+  OFAC Iran sanctions page
+      IR-40 | verified | latest text 2026-11-09
+  Taadol 7 Dec 2025; Mehr 20 Jul 2026
+      IR-13 | to-confirm | latest text 2026-07-20
+  amendment Art 10(a),(c); Majlis Research Center print (via FAOLEX);
+    1402/1403 text read; bylaw reported replaced by No. 26073/T65655H of
+    1405/2/30 (news) - re-read the new text
+      IR-18 | to-confirm | latest text 2024-11-24
+  amendment Art 12
+      IR-12 | to-confirm | latest text 2024-11-24
+  amendment Art 7(a); Majlis Research Center print (via FAOLEX); 1402/1403
+    text read; bylaw reported replaced by No. 26073/T65655H of 1405/2/30
+    (news) - re-read the new text
+      IR-32 | to-confirm | latest text 2024-11-24
+  amendment Arts 7-8; Majlis Research Center print (via FAOLEX); 1402/1403
+    text read; bylaw reported replaced by No. 26073/T65655H of 1405/2/30
+    (news) - re-read the new text
+      IR-39 | to-confirm | latest text 2024-11-24
+  amendment Arts 9-10; Majlis Research Center print (via FAOLEX); 1402/1403
+    text read; bylaw reported replaced by No. 26073/T65655H of 1405/2/30
+    (news) - re-read the new text
+      IR-36 | to-confirm | latest text 2024-11-24
+  bylaw says 'Iranian persons'
+      IR-26 | to-confirm | latest text 2024-03-13
+  cao.ir unreachable (403)
+      IR-14 | to-confirm | latest text undated
+  inso.gov.ir
+      IR-27 | verified | latest text undated
+  mcth.ir unreachable
+      IR-48 | to-confirm | latest text undated
+  renewables bylaw Art 1(3); Majlis Research Center print (via FAOLEX);
+    1402/1403 text read; bylaw reported replaced by No. 26073/T65655H of
+    1405/2/30 (news) - re-read the new text
+      IR-46 | to-confirm | latest text 2024-03-13
+  renewables bylaw Art 3; Majlis Research Center print (via FAOLEX); 1402/1403
+    text read; bylaw reported replaced by No. 26073/T65655H of 1405/2/30
+    (news) - re-read the new text
+      IR-45 | to-confirm | latest text 2024-03-13
+  renewables bylaw Art 5 (text read); Majlis Research Center print (via
+    FAOLEX); 1402/1403 text read; bylaw reported replaced by No. 26073/T65655H
+    of 1405/2/30 (news) - re-read the new text
+      IR-43 | to-confirm | latest text 2024-03-13
+  renewables bylaw Arts 1, 4; Majlis Research Center print (via FAOLEX);
+    1402/1403 text read; bylaw reported replaced by No. 26073/T65655H of
+    1405/2/30 (news) - re-read the new text
+      IR-24 | to-confirm | latest text 2024-03-13
+  renewables bylaw Arts 1-4; amendment Art 2; Majlis Research Center print
+    (via FAOLEX); 1402/1403 text read; bylaw reported replaced by No.
+    26073/T65655H of 1405/2/30 (news) - re-read the new text
+      IR-23 | to-confirm | latest text 2024-11-24
+  scanned text via FAOLEX, not re-read
+      IR-44 | to-confirm | latest text 2026-05-25
+  searches
+      IR-33 | to-confirm | latest text undated
+  searches; sites unreachable
+      IR-19 | to-confirm | latest text undated
+  wrm.ir
+      IR-22 | project-dependent | latest text undated
+  wrm.ir service list
+      IR-21 | verified | latest text undated
+== Afghanistan: 44 statements from 42 sources, accessed 2026-11-17
+   to-confirm 31, verified 12, project-dependent 1; secondary source only: 16
+  World Bank 2018
+      AF-16, AF-44 | to-confirm | latest text 2018-06-26
+  searches
+      AF-12, AF-24 | to-confirm | latest text undated
+  (no source found)
+      AF-30 | to-confirm | latest text undated
+  Afghanistan International, Jun 2025
+      AF-43 | to-confirm | latest text 2025-06-08
+  DPMEA Committee8 (2023), node/2613 (2026)
+      AF-03 | verified | latest text 2026-03-03
+  DPMEA node/1852 (re-read by the author)
+      AF-32 | verified | latest text 2025-03-27
+  DPMEA node/2580
+      AF-33 | verified | latest text 2026-02-11
+  DPMEA pages
+      AF-04 | to-confirm | latest text 2026-03-03
+  DPMEA pages give MW, not prices
+      AF-29 | to-confirm | latest text undated
+  DPMEA pages node/1852, node/2580
+      AF-02 | verified | latest text 2026-02-11
+  GIZ/AREU/BSW-Solar report 2017
+      AF-21 | to-confirm | latest text 2017-08-01
+  MEW guideline for water usage permit
+      AF-17 | verified | latest text 2026-03-01
+  MEW tender page; DPMEA
+      AF-11 | verified | latest text 2026-11-14
+  NEPA permit pages (showDariPage/25, /56)
+      AF-34 | verified | latest text 2026-11-17
+  OFAC Afghanistan-related sanctions page
+      AF-25 | verified | latest text 2022-02-25
+  OG PDF on MEW page; application unknown
+      AF-19 | to-confirm | latest text 2020-02-04
+  OSCE 2024 report
+      AF-10 | to-confirm | latest text 2024-01-01
+  Pajhwok 22 Jul 2026; ASQA battery item
+      AF-22 | to-confirm | latest text 2026-07-22
+  Power Services Regulation law, OG 1231 (2016), MEW translation, Art 23
+      AF-37 | to-confirm | latest text 2016-10-18
+  Power Services Regulation law, OG 1231 (2016), MEW translation, Arts 19, 21
+    - application unknown
+      AF-20 | to-confirm | latest text 2016-10-18
+  Power Services Regulation law, OG 1231 (2016), MEW translation, Arts 32-34
+      AF-13 | to-confirm | latest text 2016-10-18
+  Power Services Regulation law, OG 1231 (2016), MEW translation, Arts 5, 7 -
+    text read, application unknown
+      AF-05 | to-confirm | latest text 2016-10-18
+  Power Services Regulation law, OG 1231 (2016), MEW translation, Arts 8-11 -
+    text read, application unknown
+      AF-06 | to-confirm | latest text 2016-10-18
+  RFE/RL 4 Oct 2026; Pajhwok 2026
+      AF-41 | to-confirm | latest text 2026-10-04
+  UNCTAD navigator
+      AF-31 | to-confirm | latest text 2005-12-21
+  WIPO Lex
+      AF-40 | to-confirm | latest text 2004-01-01
+  World Bank 2026
+      AF-27 | to-confirm | latest text 2026-04-26
+  Xinhua via The Star, 2 Aug 2026
+      AF-42 | to-confirm | latest text 2026-08-02
+  asqa.gov.af; rename from ISO member page
+      AF-08 | verified | latest text 2026-07-15
+  law-firm list
+      AF-38 | to-confirm | latest text 2017-03-04
+  mew.gov.af (posts to 1405/8/26)
+      AF-01 | verified | latest text 2026-11-17
+  ministry of urban development / land (sites partly down)
+      AF-09 | to-confirm | latest text undated
+  nepa.gov.af
+      AF-07 | verified | latest text 2026-11-17
+  news
+      AF-28 | to-confirm | latest text 2026-07-31
+  news citing DABS
+      AF-15 | to-confirm | latest text 2025-08-13
+  news, Aug 2026
+      AF-39 | to-confirm | latest text 2026-08-01
+  (no source found)
+      AF-23 | to-confirm | latest text undated
+  not read
+      AF-26 | to-confirm | latest text undated
+  same guideline (no category)
+      AF-18 | project-dependent | latest text 2026-03-01
+  same pages
+      AF-35 | verified | latest text 2026-11-17
+  searches of MEW, DABS, DPMEA
+      AF-14 | to-confirm | latest text undated
+  summary only
+      AF-36 | to-confirm | latest text undated
+== Tajikistan: 61 statements from 53 sources, accessed 2026-11-17
+   to-confirm 32, verified 28, project-dependent 1; secondary source only: 21
+  (no source found)
+      TJ-37, TJ-38, TJ-44, TJ-60 | to-confirm | latest text undated
+  MEWR Sughd 200 MW solar RFQ (21.08.2024)
+      TJ-33, TJ-54, TJ-61 | verified | latest text 2024-08-21
+  press
+      TJ-29, TJ-30, TJ-52 | to-confirm | latest text 2026-06-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules
+      TJ-25, TJ-50 | verified | latest text 2026-07-01
+  ADB TA report (draft)
+      TJ-22 | to-confirm | latest text 2019-05-01
+  ADB TA report with the 2018 draft grid code
+      TJ-21 | to-confirm | latest text 2019-05-01
+  Asia-Plus 24.12.2025
+      TJ-05 | to-confirm | latest text 2025-12-24
+  Energy Law No. 33, Art 15 (FAOLEX); Law 1909 (2022)
+      TJ-06 | verified | latest text 2022-07-19
+  Energy Saving Law amendment No. 1911 (FAOLEX)
+      TJ-17 | verified | latest text 2022-07-19
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules (defines the
+    role)
+      TJ-13 | project-dependent | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules and its model PPA
+    (inconsistent)
+      TJ-26 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules and model PPA
+      TJ-49 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules and model PPA
+    (inconsistent)
+      TJ-40 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules, item 19
+      TJ-46 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules, items 14-19
+      TJ-23 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules, items 16, 25, 45
+      TJ-07 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules, items 20-21,
+    39-41
+      TJ-24 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules, items 7, 34
+      TJ-12 | verified | latest text 2026-07-01
+  Gov. Resolution 449 (01.07.2026), RES entry and sale rules, model PPA
+      TJ-32 | verified | latest text 2026-07-01
+  IMF documents; Law 1299 not read
+      TJ-51 | to-confirm | latest text 2024-01-01
+  Interfax
+      TJ-39 | to-confirm | latest text 2026-08-20
+  Interfax 12.11.2026
+      TJ-28 | to-confirm | latest text 2026-11-12
+  Khovar 13.01.2026
+      TJ-16 | to-confirm | latest text 2026-01-13
+  Land Code (unofficial 2012 translation)
+      TJ-36 | to-confirm | latest text 2012-01-01
+  MEWR Sughd 200 MW solar RFQ (21.08.2024) (laws listed, not read)
+      TJ-53 | verified | latest text 2024-08-21
+  MEWR Sughd 200 MW solar RFQ (21.08.2024) (re-read by the author)
+      TJ-20 | verified | latest text 2024-08-21
+  MEWR Sughd 200 MW solar RFQ (21.08.2024) lists them; status after the 2026
+    Code unknown
+      TJ-57 | to-confirm | latest text 2018-11-01
+  MEWR Sughd 200 MW solar RFQ (21.08.2024), 2.4 (re-read by the author)
+      TJ-14 | verified | latest text 2024-08-21
+  Permit System Law No. 1968 (FAOLEX); list not read
+      TJ-11 | to-confirm | latest text 2023-06-22
+  RES Law 587, Arts 17-18 (2010 text); 2022 effect unread
+      TJ-45 | to-confirm | latest text 2010-01-12
+  SNiP RT 22-07-2018, Annex 2 (copy hosted by KazNIISA)
+      TJ-34 | verified | latest text 2018-07-01
+  STB site
+      TJ-04 | verified | latest text 2026-11-17
+  Spinform listing
+      TJ-56 | to-confirm | latest text 2026-10-21
+  US Commercial Guide 21.01.2026
+      TJ-43 | to-confirm | latest text 2026-01-21
+  barqitojik.tj/tariffs (decision 29.12.2025)
+      TJ-48 | verified | latest text 2025-12-29
+  barqitojik.tj; MEWR Sughd 200 MW solar RFQ (21.08.2024)
+      TJ-02 | verified | latest text 2024-08-21
+  cited without edition
+      TJ-41 | to-confirm | latest text undated
+  easc.by
+      TJ-42 | to-confirm | latest text undated
+  egov.tj listing; no own site found
+      TJ-09 | to-confirm | latest text undated
+  investcom.tj; MEWR Sughd 200 MW solar RFQ (21.08.2024)
+      TJ-10 | verified | latest text 2024-08-21
+  khf.tj
+      TJ-35 | verified | latest text 2026-10-31
+  listing
+      TJ-59 | to-confirm | latest text 2017-05-30
+  mewr.tj; MEWR Sughd 200 MW solar RFQ (21.08.2024)
+      TJ-01 | verified | latest text 2024-08-21
+  not stated in the amendment
+      TJ-18 | to-confirm | latest text undated
+  press 25.11.2025 (number unknown)
+      TJ-55 | to-confirm | latest text 2025-11-25
+  press and IFI reports
+      TJ-27 | to-confirm | latest text 2026-11-12
+  press, Jan 2025
+      TJ-19 | to-confirm | latest text 2025-01-15
+  searches; Gov. Resolution 449 (01.07.2026), RES entry and sale rules
+    'recommends' storage response
+      TJ-47 | to-confirm | latest text undated
+  shib.tj; MEWR Sughd 200 MW solar RFQ (21.08.2024)
+      TJ-03 | verified | latest text 2024-08-21
+  shortlist in the press
+      TJ-15 | to-confirm | latest text undated
+  standard.tj
+      TJ-08 | verified | latest text 2026-11-17
+  table of contents only
+      TJ-58 | to-confirm | latest text 2026-10-21
+  unofficial translation
+      TJ-31 | to-confirm | latest text 2020-04-02

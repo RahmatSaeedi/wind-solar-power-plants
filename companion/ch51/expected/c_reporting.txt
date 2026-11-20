@@ -1,0 +1,11 @@
+reportable events: reported within 1 day?
+  feeder WS2 trip                            0 d
+  inverter fire alarm (false)                1 d
+  worker slipped on the PV access track      4 d  LATE
+  oil leak at T5 base                        0 d
+  SCADA link lost 3 h                        2 d  LATE
+  near miss: crane boom near the 33 kV line  5 d  LATE
+  3 late; two are safety events - the slip and the crane
+  near miss, whose lessons expire fastest; the SCADA loss is an
+  OT event with its own notice rule (ch 36) - a near miss
+  reported after five days is a memory, not a record

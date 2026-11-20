@@ -1,0 +1,8 @@
+P, Q, S and pf (load convention: Q > 0 for lagging current):
+  auxiliary board      180.0 kW  135.0 kvar  225.0 kVA pf 0.800 lagging
+  motor at light load   20.0 kW   30.0 kvar   36.1 kVA pf 0.555 lagging
+  resistive heater      15.0 kW    0.0 kvar   15.0 kVA pf 1.000 unity
+  capacitor bank         0.0 kW  -75.0 kvar   75.0 kVA pf 0.000 leading
+plant convention (A-024): export P > 0; the plant 'supplies' Q when it
+  acts like a capacitor towards the grid and 'absorbs' Q like an
+  inductor: always state which convention a number uses

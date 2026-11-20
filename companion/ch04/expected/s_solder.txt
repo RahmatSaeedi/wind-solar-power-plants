@@ -1,0 +1,5 @@
+solder joint fatigue, Coffin-Manson N ~ (plastic strain range)^(-beta), beta 2
+  strain ~ temperature swing: cycles to failure at 60 K vs 100 K swing: x 2.78
+  one daily cycle per year in the field = 365; a 200-cycle chamber test at a
+    larger swing stands in for many field years (acceleration factor)
+  the exponent comes from tests of the real joint; this is the idea only

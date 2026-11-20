@@ -1,0 +1,8 @@
+first flap frequency of 36 blades (nominal 0.75 Hz, teaching):
+  stiffness sd 2 %, mass sd 1 %, frequency read to 0.2 %
+  frequency spread: sd 1.08%; outside +-3 %: 0
+  stiffness from frequency and weight, E_est = (f/f0)^2 (1+m) - 1:
+  error of the estimate: mean +0.01 %, sd 0.39 % (points)
+  a frequency test on the stand and the weighing together give
+  every blade's stiffness to about half a per cent - a check
+  the static test (lesson B) does on one blade only

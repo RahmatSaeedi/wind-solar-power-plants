@@ -1,0 +1,17 @@
+M21: PV 23 June 13:00: string 965 V; array DC 49.24 MW after 3 % DC losses
+   : inverters' AC 48.42 MW (98.3 % of DC)
+M22: wind day 142 11:00: air 7.59 MW, Cp 0.485, electric 3,459 kW
+   : generator torque 34.0 kN m at 1032 rpm; 33 kV current 60.5 A at pf 1
+M23: PV year: 606 GWh of sunlight on the modules -> AC 111.3 GWh (18.4 %)
+   : wind at the hour above: 45.6 % of the air's power
+M24: DC window, 23 June 13:00: 965 V against the 933 V floor (D-012)
+   : margin 32 V; 17 h a year below the floor (U-032 closed)
+M25: tower: 1P 0.192 Hz < f1 0.215 Hz < 3P 0.575 Hz; margins 12 % and 63 %
+M26: 33 kV: wind 184.58 GWh (wakes, availability), PV 110.23 GWh
+   : together 294.81 GWh
+M27: electrical losses 3.16 GWh; own use 2.35 GWh
+   : curtailed at 100 MW: 0.012 GWh in 21 h
+M28: delivered (export) 289.42 GWh; imported 136 MWh in 445 h
+   : capacity factor at the POC 0.330
+M29: peak at 33 kV 102.8 MW; 61 h above 100 MW at 33 kV
+   : gross before any loss: wind 218.79 GWh + PV 129.15 GWh

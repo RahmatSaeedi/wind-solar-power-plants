@@ -1,0 +1,12 @@
+process variation of 20,000 teaching cells (A-442)
+  Jsc sd 0.6 %, J0 lognormal sd 25 %, Rs sd 0.08 ohm cm2,
+  shunt lognormal, 2 % of cells shunted (300 ohm cm2)
+  efficiency mean 23.34%, sd 0.34%; 1st percentile 22.36%
+  share of the variance from each parameter alone:
+    recombination (J0)        55%
+    shunts                    17%
+    current (optics)          17%
+    series resistance         12%
+  the shunted 2 % form a separate tail: they are found by
+  sorting (low-light test, EL) and must not be mixed into
+  strings - the rest of the spread is binned by current

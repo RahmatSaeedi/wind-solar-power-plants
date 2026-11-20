@@ -1,0 +1,9 @@
+one module of a five-year-old rack replaced (rack health 90%, teaching)
+  rack modules 283 Ah, new module 314 Ah: the string gives 283 Ah
+  the new module's extra capacity is not used until the rest
+  of the rack is replaced
+  new module at 50% SOC into a rack at 70%: 63 Ah to even out
+  with 100 mA passive balancing: 628 h (26 days)
+  a replacement module is brought to the rack's state of
+  charge before it goes in, and a spare of similar age, if
+  the stock holds one, fits better than a new one (ch 52)

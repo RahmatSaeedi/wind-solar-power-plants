@@ -1,0 +1,10 @@
+flash test: module temperature read wrong by dT (gamma -0.35 %/K)
+  error K   power error W at 550 W   share moved to the next class
+      0.5                     0.96                             19%
+      1.0                     1.92                             38%
+      2.0                     3.85                             77%
+  a module that waited in a warm hall reads low unless its
+  temperature is measured, not assumed; a 2 K error moves 77%
+  of modules (spread evenly in a 5 W class) across a boundary -
+  the hall's temperature and the module's soak time are
+  part of the flash procedure (IEC 60891 corrections)

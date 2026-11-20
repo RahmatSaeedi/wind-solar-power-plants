@@ -1,0 +1,9 @@
+construction delay as a distribution (100,000 draws):
+  chance of any delay 40 %; P50 of a delay when late 3.0 months
+  quantity            mean k u    P90 k u    P99 k u
+  delay cost            4,155     12,940     35,764
+  LDs received          2,785     10,380     13,298
+  kept by owners        1,371      2,560     22,466
+  the LDs cover most of an ordinary delay; the tail beyond
+  the cap is the owners' - sized by the standby equity or a
+  delay-in-start-up insurance (lenders' condition precedent)

@@ -1,0 +1,17 @@
+seasons and years at the Plant P site:
+  month  GHI kWh/m2  day length h  mean T C
+  Jan       83.3        9.99         4.4
+  Feb      103.5       10.75         6.3
+  Mar      167.6       11.78        10.2
+  Apr      195.5       12.86        15.3
+  May      218.8       13.79        23.3
+  Jun      252.0       14.25        28.0
+  Jul      253.8       14.04        29.0
+  Aug      195.5       13.24        27.8
+  Sep      166.9       12.20        22.2
+  Oct      142.1       11.09        16.6
+  Nov       98.3       10.19        11.8
+  Dec       70.0        9.74         5.8
+  20-year provider record: mean 1,910 kWh/m2, year-to-year sd 2.7 %
+  lowest year 1,790, highest 1,986; 2023 1,938 (+1.4 %)
+  one measured year is one draw from this spread (section C)

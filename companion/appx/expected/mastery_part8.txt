@@ -1,0 +1,34 @@
+M109: design hours PV 1,200, EV 1,020, AC 1,150, BAC 4,000 (test): SPI 0.85,
+    CPI 0.89, estimate at completion 4,510 h - late and over, both from the
+    same records
+M110: 9 weeks late at 0.5 % a week on 2,072 k u with a 10 % cap (test): 93 k
+    u, cap reached: False - damages are a ceiling, not a cure for the plant's
+    lost energy
+M111: sample 50, accept on at most 1 defective, lot 4 % defective: accepted
+    40% of the time - the OC curve is read before a plan is agreed
+M112: 20 of 120 documents checked, 6 wrong (test): chance of finding at least
+    one 67% - a sample finds a problem, it does not prove its absence
+M113: blade root moment 42 MNm (test) on 128 inserts on a 4.2 m circle:
+    largest insert tension 312 kN by 4M/(nD)
+M114: oil saturation water at 60 C (teaching form): 255 ppm - the relative
+    saturation, not the ppm alone, is read in a transformer
+M115: IGBT position 988 W through 0.028 + 0.0156 + 0.016 K/W to 45 C coolant:
+    junction 103.9 C (ch 9, ch 44)
+M116: rest test 3.3105 -> 3.3062 V in 14 days (test): K = 0.31 mV a day - a
+    leaker is read against the lot's distribution, not a fixed number
+M117: conductor 0.0812 ohm/km measured at 32 C, aluminium: 0.0775 ohm/km at 20
+    C - compared with the standard's maximum, not the reading
+M118: plate with C 0.17, Mn 1.45, Cr 0.05, Mo 0.02, V 0.01, Ni 0.05, Cu 0.10
+    (test): CEV 0.44 against the order's 0.43
+M119: 25 mm bar: 3.86 kg/m by d^2/162 - the BBS mass is checked line by line
+    against the delivery tickets
+M120: metering chain of 0.2, 0.2 and 0.5 % classes: 0.57 % RSS, 0.9 % worst
+    case - the site test at low load closes it
+M121: four packages with one crew of each kind and hold days (test): finished
+    on day 11; the hold after 'a' sits on the path
+M122: rules of credit 60/20/20, steps done 100/50/0 %: earned 70%, not the 100
+    % a 'mounted' count reports
+M123: string of 26 PVM-550 at 900 W/m2 and 40 C: expected Voc 1,240 V, Isc
+    12.67 A; a string 49 V short is one module short
+M124: cause-and-effect pairs proven: 75%; never proven: smoke A -> HVAC stop -
+    a function nobody has seen work; no live discharge to prove it

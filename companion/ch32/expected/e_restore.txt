@@ -1,0 +1,11 @@
+back to service after a fire (H = hold point)
+  1. [H] scene released by the fire service and the investigator
+  2. [-] damage survey; residue and water handled by the permit
+  3. [H] cause found, or a stated reason why it cannot be
+  4. [-] repairs and replaced parts with their records
+  5. [H] detection and isolation re-tested (rungs 3 and 4)
+  6. [-] strategy and C&E updated for what was learned
+  7. [H] return to service approved by the named person
+  restarting a battery or a transformer after a fire is a
+  decision of the maker, the insurer and the asset owner,
+  with evidence; the plan names who signs each hold point

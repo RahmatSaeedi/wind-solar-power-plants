@@ -1,0 +1,25 @@
+P01 PR, 10,500 MWh, 60.06 MWp, 210 kWh/m2: 0.833
+P02 specific yield of 107,426 MWh on 60.06 MWp: 1,789 kWh/kWp
+P03 capacity factor, 192,786 MWh on 60 MW: 36.7 %
+P04 PR 0.785 at 54 C, to 25 C: 0.874
+P05 time availability 8,500 of 8,760 h, 60 h excluded: 97.70 %
+P06 production availability 4,800 MWh, 120 lost, 40 excluded: 98.36 %
+P07 50 h outage in a 744 h month: 93.28 %
+P08 same over a year: 99.43 %
+P09 downtime 08:00 trip to 15:30 restart: 7.5 h
+P10 MTBF censored, failed 2,000 and 6,000 h, 6 running at 10,000 h: 34,000 h
+P11 naive mean of the failed ones: 4,000 h
+P12 90 % interval, 3 failures in 50,000 h: 1.64-15.51 per 1e5 h
+P13 Weibull share failed at t = scale with k = 2.5: 63.2 %
+P14 Crow-AMSAA, failures at 100, 400, 900 h, end 1,000: 0.90
+P15 skill, RMSE 14.4 against persistence 24.8: 0.42
+P16 skill, RMSE 8.8 against 8.8: 0.00
+P17 coverage, 830 of 900 hours inside: 92.2 %
+P18 service availability, 500 called, 10 excluded, 6 failed: 98.78 %
+P19 first-order response, tau 3 s, delay 1 s: 90 % at 7.9 s
+P20 CUSUM steps of 0.75 to pass h = 2: 3 days
+P21 loss share, 314 + 339 + 163 MWh of 301,494: 0.27 %
+P22 fault 10 h with 3 h external inside, 744 h month: 99.055 %
+P23 planned 24 h, took 30 h: forced 6 h
+P24 two turbines added to 12: bias about -3.7 MW at 22 MW mean wind
+P25 alarms acted on, 410 of 3,420: 12 %

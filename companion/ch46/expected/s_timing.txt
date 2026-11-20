@@ -1,0 +1,19 @@
+pole close-time spread of the 12 breakers, ms; scores against the
+  line-up (flag above 3.5)
+  panel    spread   ordinary z   robust z
+  INC-A       0.5         -0.3        0.0
+  WS1         0.4         -0.4       -0.7
+  WS2         0.4         -0.4       -0.7
+  PVF3        0.6         -0.2        0.7
+  BESS-A      0.3         -0.4       -1.3
+  BC          0.5         -0.3        0.0
+  INC-B       0.4         -0.4       -0.7
+  WS3         4.6          3.2       27.7
+  PVF1        0.5         -0.3        0.0
+  PVF2        0.7         -0.1        1.3
+  BESS-B      0.4         -0.4       -0.7
+  SST         0.6         -0.2        0.7
+  ordinary z flags: none; robust z flags: WS3
+  with 12 values the ordinary z can never pass 3.18: the
+  outlier inflates the very sd it is measured by; the median
+  and MAD are not moved by it (ch 41)

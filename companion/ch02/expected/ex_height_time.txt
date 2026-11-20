@@ -1,0 +1,7 @@
+mean speed: 60 m 6.508 m/s, 100 m 7.103 m/s (ratio 1.091)
+farm energy with 60 m speeds in the hub-height curve: 165.4 GWh vs 192.5 GWh
+    (-14 %)
+PV hourly series shifted by one hour: correlation 0.951; mean absolute
+    difference 5.6 MW in daylight hours (annual energy unchanged)
+8760 h in 2023; 8784 h in a leap year (2024): CF with the wrong hours is -0.27
+    % off

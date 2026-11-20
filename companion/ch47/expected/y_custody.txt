@@ -1,0 +1,7 @@
+pour F04: each specimen against the truck it was taken from
+  F04-1 <- truck 21, F04-2 <- ?, F04-3 <- truck 24
+  the low result (30.2 MPa) is specimen F04-2, whose truck was not
+  written: whether a truck was weak or the specimen was badly
+  made can no longer be told - the engineer must core the
+  foundation; one line on the specimen label would have pointed
+  to one truck's ticket (lesson B) and perhaps saved the cores

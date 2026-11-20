@@ -1,0 +1,9 @@
+PV posts of block PVF1-1 surveyed: 10 rows x 12 posts, offset from design (mm)
+  tolerance +/-25 mm; posts outside: 9 of 120
+  row median offsets: -1, +3, +4, +0, +2, -2, +31, -6, +2, -2
+  rows shifted as a whole: 7; spread inside rows sd 7.1 mm
+  9 of the 9 posts outside sit in row 7, shifted as a
+  whole - the string line was set from a wrong survey mark, not
+  a careless crew; the fix is the mark and the row (the table
+  rails can take the shift or the row is re-driven), recorded
+  in the as-built survey

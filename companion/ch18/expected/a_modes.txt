@@ -1,0 +1,9 @@
+operating modes and what each needs (summary, teaching):
+  grid-connected (Plant P's mode): grid sets voltage and
+    frequency; units follow it (grid-following inverters)
+  islanded: a grid-forming source sets voltage and frequency;
+    storage or a generator balances every second; protection
+    must work with small fault currents
+  hybrid (grid-connected with a planned island for critical
+    loads): a transfer switch, a grid-forming battery inverter
+    and the operator's permission (chapters 19, 25, 28)

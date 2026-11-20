@@ -1,0 +1,14 @@
+audit of the yield sheet with planted mistakes:
+  C17: number 0.85 typed inside the formula
+  C22: refers to empty cell B7
+  C22: division by zero (#DIV/0!)
+  E3: circular reference E3 -> E4 -> E3
+  E4: number 2 typed inside the formula
+  E4: circular reference E4 -> E3 -> E4
+  C17: breaks the pattern of column C (=$B$2*B17*0.85*$B$4)
+  C19: breaks the pattern of column C (=$B$2*B18*$B$3*$B$4)
+  C14: typed number 15000 among formulas (overwritten formula?)
+  C21: range C9:C19 stops before C20, which holds data
+total with mistakes 98,422 MWh; corrected sheet 97,326 MWh, capacity factor
+    0.222
+check cell C23 (sum of months - data pack): +0.1 kWh/m2

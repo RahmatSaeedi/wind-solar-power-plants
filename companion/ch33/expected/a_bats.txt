@@ -1,0 +1,8 @@
+bat curtailment: rotors stopped below 6 m/s on autumn nights
+  hours curtailed: 558 of 1353 autumn night hours
+  energy lost: 2.10 GWh of 218.8 GWh (0.96 %)
+  expected reduction of bat collisions: about 50 % (teaching)
+  bats fly mostly in low wind, when turbines make little
+  energy: a cut-in raised on autumn nights halves the
+  risk for a fraction of a per cent of energy - the
+  months, hours and speed come from the bat survey

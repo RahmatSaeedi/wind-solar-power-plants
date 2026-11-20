@@ -1,0 +1,11 @@
+calibration certificates reviewed on day 20
+  TW-11 torque wrench      ok
+  TW-14 torque wrench      ok
+  IR-03 insulation tester  expired; no conformity rule
+  MO-01 micro-ohmmeter     range does not cover the use
+  SI-02 relay test set     no uncertainty
+  DFT-02 coating gauge     no traceability
+  certificates with a finding: 4 of 6
+  a certificate is evidence only if it covers the range used,
+  states its uncertainty and traceability, and says how the
+  pass was decided; 'calibrated' alone is a declaration

@@ -1,0 +1,11 @@
+failures needed before a rate is known within a factor 2: 26
+  class                            units  per yr   years
+  PV inverter                         10    5.00     5.2
+  wind turbine (minor)                12   60.00     0.4
+  wind turbine (major)                12    0.72    36.1
+  PV unit transformer                 10    0.20   130.0
+  main transformer                     2    0.02  1300.0
+  BESS PCS                             4    2.00    13.0
+  the plant itself never shows the rate of rare failures: for
+  major turbine parts and main transformers the evidence is the
+  maker's fleet data, asked for in the contract (ch 39, 52)

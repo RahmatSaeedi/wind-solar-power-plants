@@ -1,0 +1,16 @@
+route of one skid: hours, first-pass yield, rework
+  op    work                                station  h    FPY
+  OP10  weld, inspect, paint base frame     S1      16.0  0.97
+  OP20  receive and inspect equipment       S2       4.0  0.99
+  OP30  set and bolt equipment on frame     S2      10.0  0.99
+  OP40  LV busbar and cable terminations    S3      14.0  0.95
+  OP50  MV cable termination at RMU         S4       6.0  0.98
+  OP60  auxiliary and control wiring        S5      12.0  0.94
+  OP70  earthing and bonding                S4       4.0  0.99
+  OP80  factory acceptance test             S6       8.0  0.92
+  OP90  preserve, pack, dispatch            S6       5.0  1.00
+  touch hours a skid: 79; expected rework: 1.41 h
+  rolled throughput yield: 0.758 - 24% of skids
+  need rework somewhere, though no step is worse than 92 %
+  the FAT yield (92 %) finds the faults of earlier steps:
+  it measures the line, it does not make quality

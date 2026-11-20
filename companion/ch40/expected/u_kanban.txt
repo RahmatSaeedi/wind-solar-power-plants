@@ -1,0 +1,6 @@
+kanban cards for LV busbar kits (made in the own shop)
+  use 0.625 kits a day (one a takt of 16 h at 10 h days); refill 3 days
+  cards = ceil(d x L x (1 + safety) / kits a card) = 3
+  a card returned is the order to make a kit; no card, no
+  kit - the shop cannot build ahead of the line, and work in
+  progress stays where lesson A wants it

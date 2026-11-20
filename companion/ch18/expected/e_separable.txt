@@ -1,0 +1,11 @@
+A2 against A1, choice by choice (k u a year; + favours A2):
+  choice        A1       A2        MWh/yr  value  capex/yr    net
+  collector     240 mm2  630 mm2    1,180   59.0      99.5   -40.5
+  export line   single   double       394   19.7     174.0  -154.3
+  transformers  2 x 63   1 x 125   -1,301  -65.0     -75.0    10.0
+  coupling      AC       DC           689   34.4     -98.6   133.0
+  total                               962   48.1      99.9   -51.8
+  A2 gains energy but costs more each year; the totals hide
+  that the choices are separable: the coupling pays in A2,
+  the larger cable and the second circuit do not, and the
+  single transformer saves money but loses energy

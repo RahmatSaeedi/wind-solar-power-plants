@@ -1,0 +1,13 @@
+weighted criteria (scores 1-5, teaching judgements):
+  criterion                       weight  A1  A2
+  yearly money (above)               25    4   3
+  tail risk (longest outage)         20    5   2
+  battery market uses                15    5   2
+  maintainability and spares         10    4   3
+  interfaces and integration         10    4   2
+  technology maturity                10    5   4
+  expansion                          10    4   3
+  weighted total (out of 500)            445 265
+  A1 scores at least as high on every criterion, so no choice
+  of weights makes A2 win; only different scores could, and
+  each score must be argued in the record, not tuned

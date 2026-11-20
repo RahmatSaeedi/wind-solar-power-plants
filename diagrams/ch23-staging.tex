@@ -1,0 +1,20 @@
+% Chapter 23 - energisation stages S0-S4 as the live boundary moving along the path from the
+% grid (right, RTL) to the first wind string (left); live parts shaded, from
+% companion/ch23/examples_p.py staging(). States only, no switching procedure.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    seg/.style={draw=cInkB, minimum width=22mm, minimum height=7mm, font=\footnotesize, inner sep=1pt},
+    live/.style={seg, fill=cLoss!22, draw=cLoss}]
+  \foreach \lab/\x in {شبکه/12, خط/9.6, {شینهٔ ۱۳۲ و T1}/7.2, {بخشِ A و خدمات}/4.8, {رشتهٔ WS1}/2.4} {
+    \node[note] at (\x,0.9) {\lab};
+  }
+  \foreach \s/\n/\y in {S0/1/0, S1/2/-0.9, S2/3/-1.8, S3/4/-2.7, S4/5/-3.6} {
+    \node[note, anchor=west] at (13.3,\y) {$\texttt{\s}$};
+    \foreach \k/\x in {1/12, 2/9.6, 3/7.2, 4/4.8, 5/2.4} {
+      \ifnum\k>\n \node[seg] at (\x,\y) {}; \else \node[live] at (\x,\y) {}; \fi
+    }
+  }
+  \node[note, text width=130mm] at (7,-4.8) {هر مرحله مرزِ برق‌دار و بی‌برق را جابه‌جا می‌کند: آزمون‌های بخشِ تازه برق‌دار پیش از آن، مجوزها و قاعده‌های کلیدزنی همراهِ آن، و نقشه‌های آن مرحله صادرشده برای ساخت};
+\end{tikzpicture}
+\end{document}

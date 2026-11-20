@@ -1,0 +1,47 @@
+module defects: cause, how found, what follows
+  cell micro-crack
+    cause: handling, stringer, lamination pressure
+    found by: EL image
+    then: inactive area grows in the field -> power loss
+  cold solder / weak bond
+    cause: temperature, flux, contact force
+    found by: peel test, EL, flash Rs
+    then: hot joint, power loss
+  lamination void / bubble
+    cause: moisture, vacuum, contamination
+    found by: visual, pre-lam EL
+    then: delamination, moisture path
+  low gel content
+    cause: lamination cure
+    found by: gel-content sample
+    then: creep, delamination
+  delamination
+    cause: adhesion, contamination
+    found by: visual, damp heat
+    then: moisture ingress, corrosion
+  corrosion of contacts
+    cause: moisture, acetic acid
+    found by: EL after stress
+    then: series resistance rises
+  hot spot
+    cause: shaded or cracked cell, shunt
+    found by: IR under bias
+    then: burn mark, glass breakage, fire risk
+  bypass diode open or short
+    cause: assembly, surge
+    found by: diode check, flash
+    then: string loses a third, or hot spot unprotected
+  insulation failure
+    cause: backsheet, edge seal
+    found by: insulation test
+    then: leakage, earth fault in the plant
+  failure analysis ladder, non-destructive steps first:
+    1. visual inspection and records (serial, lot, flash)
+    2. I-V curve against the flash record
+    3. electroluminescence image (cracks, dark cells, contacts)
+    4. infrared image under current (hot cells, joints, diodes)
+    5. insulation and wet leakage
+    6. junction box opened: diodes, joints, potting
+    7. destructive: cross-section, peel, chemical analysis
+  each step keeps the evidence for the next; a module cut
+  open first cannot be flashed again

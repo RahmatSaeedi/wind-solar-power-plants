@@ -1,0 +1,18 @@
+the first three years as statements (k u):
+  line                         year 1     year 2     year 3
+  EBITDA                         16,183     16,448     16,718
+  depreciation                    8,222      8,222      8,222
+  EBIT                            7,962      8,227      8,496
+  interest                        7,261      7,006      6,725
+  tax                               175        305        443
+  net income                        525        915      1,329
+  distributions                   2,323      4,405      4,347
+  total assets                  164,137    155,952    147,769
+  debt at year end              116,772    112,078    106,912
+  equity (paid + retained)       47,365     43,875     40,857
+  assets - debt - equity              0         -0         -0
+  the balance closes (gap 0) only if every cash line of the
+  model has its place in the statements: a balance check is
+  the strongest identity an auditor runs; distributions above
+  net income in the early years shrink the book equity - the
+  depreciation is cash the owners take back

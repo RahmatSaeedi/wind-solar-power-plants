@@ -1,0 +1,11 @@
+harmonic currents of one NPC stack after its LCL (A-173):
+  rated stack current 1,323 A; largest lines at h 55, 59, 61
+    h 59: 12.6 A (0.95 % of rated)
+  total distortion of the stack current to h 200: 1.29 %
+  40 stacks seen at 33 kV (current x 0.6/33):
+    phases aligned (worst case)   1.42 % of 50 MW current
+    random phases (sqrt N law)    0.22 %
+  voltage distortion at 33 kV with 500 MVA short-circuit power: 1.368 %
+  carrier harmonics are small after the filter and partly cancel;
+  the study of chapter 27 adds background distortion, cable
+  capacitance and resonance of the whole collector

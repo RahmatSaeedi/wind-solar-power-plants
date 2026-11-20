@@ -1,0 +1,22 @@
+asset protection: expected annual loss and measures (k u/yr)
+  baseline expected loss: 18.05
+  measure alone                 cost  benefit     net
+  marking and records            4.0     5.42   +1.42
+  stores control                 6.0    10.00   +4.00
+  community links                3.0     3.61   +0.61
+  longer fence at PV stations   20.0     1.50  -18.50
+  benefits alone add to 20.52 > the loss 18.05:
+  measures overlap, so sets are compared, not items
+  best sets of the 15 (net saving):
+     +4.00  stores control
+     +2.61  stores control + community links
+     +2.42  marking and records + stores control
+  earth-conductor thefts a year, stores control alone: 1.00
+  earth-conductor thefts a year, with marking and community: 0.56
+  station-days without earth a year, monthly inspection: 15.0
+  station-days without earth a year, weekly look: 3.5
+  money ranks the measures; it does not rank the hazard: a
+  missing earth conductor leaves a station without its fault
+  path, so after any theft on site the stations' earthing is
+  inspected before anyone works there (ch 26); the owner
+  decides with both numbers in front of them

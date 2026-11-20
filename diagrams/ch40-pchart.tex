@@ -1,0 +1,17 @@
+% Chapter 40 - p-chart of FAT first-pass failures, ten weeks, with the upper limit that moves with
+% each week's number of tests; week 9 is above it (diagrams/data/ch40-pchart.csv from
+% companion/ch40/examples_t.py, t_pchart; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0.5, xmax=10.5, ymin=0, ymax=0.55,
+      xtick={1,...,10}, xlabel={هفته}, ylabel={سهمِ مردودی در نخستین گذر},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sInk, mark=*, mark size=1.8pt] table[x=week, y=p, col sep=comma] {data/ch40-pchart.csv};
+    \addplot[sLoss, const plot mark mid] table[x=week, y=ucl, col sep=comma] {data/ch40-pchart.csv};
+    \legend{سهمِ هفته, حدِ بالا}
+    \draw[sLimit] (axis cs:0.5,0.115) -- (axis cs:10.5,0.115);
+    \node[note, anchor=south west] at (axis cs:0.6,0.12) {میانگین ۰٫۱۱۵};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

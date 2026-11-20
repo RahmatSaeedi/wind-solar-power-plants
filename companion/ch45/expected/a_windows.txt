@@ -1,0 +1,9 @@
+voltage windows (cells in series) against the BMS limits and the PCS
+  level      cells   cell limits V       BMS limits V      nominal V
+  module        52      130 -    190      135 -    187         166
+  rack         416     1040 -   1518     1082 -   1498        1331
+  PCS: full power above 1,150 V (ch 19, A-296), top 1,500 V (teaching)
+  the rack's BMS window 1082 - 1498 V: below 1150 V the PCS derates,
+  above 1500 V it may not start - the cell count is chosen against two
+  makers' limits at once; changing the BMS limits changes the
+  rack window, so the BMS setting is an interface item

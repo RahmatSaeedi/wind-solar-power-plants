@@ -1,0 +1,16 @@
+% Chapter 19 - health of the S1 battery over 20 years: teaching fade model under the lab D duty
+% against the data pack's linear 2 %/yr, with the 80 % line. Data: diagrams/data/ch19-health.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=62mm, xmin=0, xmax=20, ymin=55, ymax=102,
+      xlabel={سال}, ylabel={سلامت، درصدِ ظرفیتِ نامی}, xtick={0,5,...,20}, ytick={60,70,...,100},
+      legend style={at={(0.98,0.98)}, anchor=north east, font=\footnotesize}]
+    \addplot[sBESS] table[x=y, y=model, col sep=comma] {data/ch19-health.csv};
+    \addplot[sInk, dash pattern=on 4pt off 2pt] table[x=y, y=pack, col sep=comma] {data/ch19-health.csv};
+    \legend{مدلِ آموزشی, بستهٔ داده}
+    \draw[sLimit] (axis cs:0,80) -- (axis cs:20,80);
+    \node[note, anchor=south west] at (axis cs:0.5,80.5) {مرزِ ۸۰ درصد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

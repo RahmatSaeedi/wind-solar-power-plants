@@ -1,0 +1,20 @@
+P01 SPI, EV 3,012 h, PV 4,451 h: 0.68
+P02 CPI, EV 3,012 h, AC 3,553 h: 0.85
+P03 EAC, BAC 7,342 h: 8,661 h
+P04 earned hours of a 60 h drawing at IFA (60 %): 36 h
+P05 detection chance, 40 of 200, 6 errors: 0.74
+P06 detection chance, 80 of 200, 6 errors: 0.96
+P07 expected errors found, 40 of 200 with 6: 1.2
+P08 LV current at 5.0 MVA, 0.6 kV: 4,811 A
+P09 parallel cables at 620 A: 8
+P10 heat at 98.5 %, 5.0 MVA: 75 kW
+P11 short-circuit at 33 kV, 500 MVA + 0.12 ohm: 8.3 kA
+P12 rework hours of C-017: 102 h
+P13 rework cost at 95 u/h: 9.7 k u
+P14 handover score, weights 3,3,2,3,1,2,1: 86.7 %
+P15 metadata completeness, 9 of 120 owners missing: 92.5 %
+P16 RVTM design coverage, 10 of 12: 83 %
+P17 TQ share older than 14 days, 18 of 42: 43 %
+P18 mean approval time, 55/25/17 % at 14/28/42 d: 23 d
+P19 pairwise interfaces among 8 subsystems: 28
+P20 hazard actions closed, 18 of 20: 90 %

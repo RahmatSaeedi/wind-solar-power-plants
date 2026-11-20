@@ -1,0 +1,10 @@
+two decomposition models on the same GHI (the pack's own DNI and
+DHI were made with Erbs when the pack was built, A-013):
+  Erbs reproduces the pack: DHI bias +0.0 W/m2 (a circular test)
+  model          DNI kWh/m2  DHI kWh/m2  POA at 25 deg
+  Erbs               2,287         545        2,150
+  Orgill-Hollands    2,248         568        2,147
+  POA differs by -0.1 %, DNI by -1.7 %
+  when only GHI is measured, the choice of decomposition model
+  is an uncertainty of the plane-of-array estimate (section C);
+  a synthetic dataset cannot test the model that made it

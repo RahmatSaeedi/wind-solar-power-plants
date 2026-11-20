@@ -1,0 +1,10 @@
+forecast error by technology and lead (RMSE, % of each capacity:
+wind 60 MW, PV 50 MW AC; same archive and seeds)
+  lead h    wind      PV   plant
+       1   12.1%    3.6%    6.8%
+       6   13.3%    4.1%    7.4%
+      24   17.2%    6.0%    9.7%
+      36   19.7%    7.1%   11.2%
+  day-ahead in MW: wind 10.3, PV 3.0, plant 10.7; root-sum-
+  square of the two 10.7: the errors are nearly independent and the
+  wind error dominates - the wind forecast is where better data pays

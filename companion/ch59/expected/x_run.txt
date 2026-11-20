@@ -1,0 +1,8 @@
+rebuilding the capstone dossier in one run
+  data pack 1.1.0: 0 checksum problems
+  scripts run in order: index, dossier, defense, cases, cases2, cases3,
+    cases4, cases5, cases6, cases7, cases8, cases9, integrated, sheets
+  outputs: 63 text files; digest 0676363729e7
+  second run of the core scripts: digest 0676363729e7 (same)
+  same inputs, same seeds, same files: the dossier is reproducible;
+  a changed digest names a changed input or model

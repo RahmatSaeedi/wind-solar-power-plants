@@ -1,0 +1,13 @@
+site first-aid team to each front: 6 min to mobilise, 25 km/h on site roads
+  target 30 min (teaching; the approved emergency plan sets it)
+  front                        km    minutes
+  PV block PVF1-3               2.1     11.0
+  PV block PVF3-3               4.6     17.0
+  T01 erection                  6.8     22.3
+  T12 erection                  9.4     28.6
+  substation                    0.6      7.4
+  132 kV line, tower 18        14.5     40.8  OVER
+  over the target: 132 kV line, tower 18
+  the line works sit beyond the reach of one medical point: a
+  second equipped vehicle stays with the line crew, and the
+  work does not start until it is there

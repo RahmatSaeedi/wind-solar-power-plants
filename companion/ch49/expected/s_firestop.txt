@@ -1,0 +1,11 @@
+fire-stopped penetrations in the substation building: 120;
+  suppose 6 are faulty
+  inspected   chance of finding at least one
+         10        41%
+         20        67%
+         32        85%
+         50        96%
+  a sample of ten misses them more often than it finds one;
+  fire stopping is inspected before it is hidden (before the
+  cable tray cover or the ceiling), and every penetration
+  gets its photo and label - lesson G's records

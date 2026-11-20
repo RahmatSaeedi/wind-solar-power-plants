@@ -1,0 +1,7 @@
+DC-link 10 mF at 1100 V (assumed): E = 6050 J
+bleeder 50 kOhm: tau = RC = 500 s; time to 50 V = tau ln(1100/50) = 1546 s =
+    25.8 min
+feeder loop inductance (180 m, 50 mm spacing, r = 8.74 mm): L = 126 uH; energy
+    at 314.64 A = 6.2 J
+bench RC: 1000 uF, 10 kOhm, tau = 10 s; from 9 V: 5 s -> 5.46 V, 10 s -> 3.31
+    V, 20 s -> 1.22 V, 30 s -> 0.45 V

@@ -1,0 +1,102 @@
+P01 PM / CM hours / crew load: 4,683 / 851 / 47%
+P02 classes given 'condition-based': 4
+P03 operational availability, PV inverter: 0.9941
+P04 first request: BESS-A container 2 HVAC fault
+P05 in-house / contractor / break-even: 92,000 / 102,000 u / 950 h
+P06 spares inverter / PCS: 2 / 1
+P07 sample size / chance to find one bad string: 210 / 46%
+P08 vibration alert / alarm week: 35 / 38
+P09 hand readings needed / interval: 4 / 2.0 weeks
+P10 fastest oil iron rise: T07 +5.7 ppm/month
+P11 heat-sink slope / filters changed: 0.89 K/month / month 8
+P12 H2 rise in a quarter: x2.7
+P13 WS2 wear used: 2.8%
+P14 container below median - 1.5: [7]
+P15 pyranometer drop before cleaning: 2.1%
+P16 west ring margin: 0.4 dB
+P17 PV preventive hours: 3,629
+P18 first event / unit that rode through: WS1 relay / T04
+P19 tasks needing the grid operator: 2
+P20 RCA links without evidence: 1
+P21 detect / wait-parts share of down time: 68% / 30%
+P22 failing bins / thin bins: [6] / [4]
+P23 assets with repeats: =WT03-PIT, =PVF2-3-CB01
+P24 missing permit / isolation / hand-back: [1, 2, 2]
+P25 frozen days / PR in the drift: [88, 89] / 1.078
+P26 CUSUM day / delay / found: 53 / 1 / 95
+P27 low combiners: CB07, CB14
+P28 diagnosis steps recorded: 5
+P29 root-cause links without evidence / rows to check: 0 / 64
+P30 accept mean / +/- / lost / avoidable: 0.9964 / 0.0056 / 81.7 / 76.3 MWh
+P31 Weibull mean life: 53,236 h
+P32 inverter MTBF / one-year survival: 17,520 h / 61%
+P33 failures for a factor-2 interval: 26
+P34 Crow-AMSAA slope: 0.57
+P35 some / full export availability: 0.99893 / 0.98366
+P36 cut sets / top / line share: 6 / 1.08e-03 / 89%
+P37 server pair at beta 0.10: 0.000520
+P38 all 12 turbines up: 0.785
+P39 all four blocks out, independent / shared: 1.3e-09 / 8.6e-04
+P40 plant energy availability (first year): 96.5%
+P41 highest RPN: combiner fuses open (earth fault)
+P42 energy lost / availability / gap to model: 6,209 MWh / 97.97% / 1.4 GWh
+P43 MC mean / P90 / with spares: 4,267 / 7,739 / 2,572 MWh
+P44 services June vs December: 1,369 MWh
+P45 water a campaign, truck + brush: 109 m3
+P46 best interval, truck + brush: 23 days
+P47 residue, raw well water: 69 mg/m2
+P48 modules broken a year by the lance: 78.6
+P49 hot day hours / night hours: 202 / 3,650
+P50 runoff a year, lance: 699 m3
+P51 robots down on an average day: 13.8
+P52 export inspections overdue / plant's: 2 / 1
+P53 export spare lines short: 4
+P54 outage energy day / night: 410 / 201 MWh
+P55 line restore mean / P90 / mean with part: 23.1 / 66.4 / 7.5 h
+P56 assets by owner: {'network owner': 3, 'plant': 5, 'shared': 1}
+P57 orders failing a check: 3
+P58 repeat pairs from orders: 1
+P59 warranty candidates / ready: 6 / 5
+P60 MTBF orders / SCADA: 11,680 / 7,509 h
+P61 handoffs over a day: 2
+P62 hand checks: A_i 0.99863, q_T 0.0050, m 0.82
+P63 maintenance review: 5 of 12
+P64 PM on time / backlog weeks: 88% / 5.5
+P65 category 3 lost energy: 483 MWh/yr
+P66 T03 pitch battery life: 2.0 years
+P67 tracker rows flagged: row 540, row 1310
+P68 contractor late / median: 4 / 3.1 h
+P69 rate ratio / p: 0.22 / 0.033
+P70 best age / cost rate / run to failure: 3.25 yr / 0.461 / 0.747
+P71 both transformers out, two crews / one: 2.48e-05 / 4.95e-05
+P72 importance of the line / of T1: 0.99989 / 0.00769
+P73 most sensitive input: wind turbine (major) rate +971 MWh
+P74 NPV truck / robots: 778,120 / 5,001,577 u
+P75 patrol cost foot / drone: 1,044 / 812 u
+P76 share of 'OTHER' codes: 28%
+P77 closing median / over a week: 2.0 d / 3
+P78 budget / per MW: 2,613 / 23.8 k u
+P79 opportunistic energy kept: 101 MWh
+P80 hot spots to replace: 4
+P81 radiator excess at 0.85 pu: 4.5 K
+P82 SF6 months to alarm: 4
+P83 cell spread rise: 13 mV
+P84 yaw loss: 1.1% = 176 MWh
+P85 two likeliest causes: 72%
+P86 active pair / cold standby: 0.998379 / 0.999178
+P87 availability / 90 % interval: 0.9979 / 0.9969-0.9987
+P88 hail expected / in the event: 48 / 2,400 MWh
+P89 days without loss / by quarter: 217 / [49, 58, 53, 57]
+P90 washes / mean ratio: 13 / 0.987
+P91 fastest location: 5 h
+P92 register mismatch / interval: 14% / 7%-26%
+P93 IDs breaking the rule: 3
+P94 modes given a failure-finding test: 3
+P95 test interval detector / relay / diesel: 4.8 / 12.0 / 0.5 months
+P96 inverter spares one plant / pooled two: 3 / 4
+P97 fallback dead, yearly / half-yearly test: 0.025 / 0.0125
+P98 water margin normal / drought: +5,150 / -2,150 m3
+P99 first by count / by cost: FUSE-OPEN / GBX-BRG
+P100 4 h / 24 h response a year: 18,913 / 113,480 u
+P101 single-person / no-person skills: 2 / 1
+P102 outage median / mean / P90: 24 / 28.2 / 53 h

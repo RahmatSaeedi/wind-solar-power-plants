@@ -1,0 +1,18 @@
+stakeholder map: influence and interest (teaching scores)
+  group                        infl  int   engagement
+  herding families (5)            2    5   involve: high impact, low voice
+  village council                 4    4   collaborate
+  farm 1 owner                    2    4   involve: high impact, low voice
+  corridor strip owners (8)       2    3   inform
+  women's group                   1    4   involve: high impact, low voice
+  rangeland authority             5    3   consult and inform
+  environment authority           5    3   consult and inform
+  grid operator                   5    2   consult and inform
+  lenders                         5    3   consult and inform
+  local contractors               3    4   collaborate
+  road users                      1    2   inform
+  regional NGO                    3    3   inform
+  the groups most affected and least able to be heard - the
+  herders, the women's group, the farm owner - get the most
+  deliberate engagement: their own meetings, languages and
+  times, not a seat at the authority's table

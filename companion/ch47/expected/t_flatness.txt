@@ -1,0 +1,12 @@
+flange flatness at 12 points after removing the best plane
+  (teaching limit 1.2 mm)
+  flange   raw range mm   tilt part mm   flatness mm   verdict
+  F1               0.60           0.09          0.55   ok
+  F2               1.70           0.41          1.60   OVER (NCR-202)
+  F3               0.60           0.61          0.04   ok
+  F4               0.40           0.02          0.41   ok
+  F3's raw range is mostly a tilt of the whole flange, which the
+  survey's plane removes (the tower stands on the plane); F2
+  is wavy - two humps that no plane removes, and a wavy flange
+  opens on one side under load (ch 11 flange, ch 30 joint);
+  the flatness is read after the plane, never as a raw range

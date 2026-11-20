@@ -1,0 +1,14 @@
+interpretations the design depends on
+  INT-01 Z-001 written  agreed: TSOZ
+      pf 0.95 at the POC = Q of 32.9 Mvar at 100 MW, both signs
+  INT-02 Z-006 NOT WRITTEN  agreed: phone call with the agency
+      40 dB(A) at the facade, 22:00-06:00
+  INT-03 Z-014 written  agreed: ERZ letter
+      50 MW threshold = export capacity 100 MW, so licence applies
+  INT-04 Z-004 NOT WRITTEN  agreed: meeting minutes, unsigned
+      ramp limit applies to the plant, not to each unit
+  INT-05 Z-009 NOT WRITTEN  agreed: -
+      150 ms counted from fault start to clearing
+  3 of 5 rest on a call, unsigned minutes or nobody:
+  INT-02, INT-04, INT-05 - each goes out as a written request
+  (INT-05 decides the ride-through conflict of CQ-01)

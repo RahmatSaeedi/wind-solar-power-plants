@@ -1,0 +1,12 @@
+four changes to the basis, recomputed (ch 15 yield, ch 21 finance;
+debt held at the size of the base case except for 'no battery')
+  case                       GWh  min DSCR  equity IRR   NPV k u
+  base                     295.1      1.20       10.2%     5,159
+  wind resource -10 %      276.4      1.12        8.5%    -7,059
+  export limit 80 MW       289.9      1.18        9.7%     1,747
+  capex +15 %              295.1      1.22        7.3%   -16,023
+  no battery (S0)          295.1      1.27       12.8%    19,610
+  lowest minimum DSCR: wind resource -10 %, 1.12 - above the 1.10 lock-up,
+    below the 1.20 sizing target
+  (ch 21 terms); each case names the decision it reopens and
+  the evidence that would close it

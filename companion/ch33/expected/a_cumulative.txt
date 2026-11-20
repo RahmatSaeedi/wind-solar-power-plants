@@ -1,0 +1,8 @@
+cumulative night noise at the seasonal camp (teaching)
+  background 28, road 33, turbines 38.5 dB(A)
+  all together: 39.8 dB(A)
+  without the turbines: 34.2 dB(A)
+  decibels add as energy: the turbines dominate and the
+  road adds little - but a second project on the next
+  ridge would add its own share, which is why cumulative
+  effects are assessed with the other projects, not alone

@@ -1,0 +1,11 @@
+drawings each package needs, by status (ch 38 statuses)
+  WP03 piling            PLP-CIV-DWG-0011 C02  IFC
+  WP04 tables            PLP-CIV-DWG-0012 C01  IFC
+  WP06 cables in trench  PLP-ELE-DWG-0021 B03  IFA  - not for construction
+  WP06 cables in trench  PLP-ELE-LST-0012 C01  IFC
+  WP08 station base      PLP-CIV-DWG-0014 C02  IFC
+  WP13 DC terminations   PLP-ELE-DWG-0022 C01  IFC
+  WP14 MV terminations   PLP-ELE-DWG-0023 B02  IFR  - not for construction
+  2 packages wait for a drawing issued for construction:
+  building from a drawing 'issued for approval' is building a
+  revision that may still change

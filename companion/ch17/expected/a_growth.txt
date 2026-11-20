@@ -1,0 +1,11 @@
+the regional load in ten years at three growth rates (same shape):
+  rate    peak MW   energy GWh   minimum MW
+  2.0 %    63.18      298.9        19.97
+  3.5 %    73.11      345.8        23.11
+  5.0 %    84.43      399.4        26.69
+  with one of the two 63 MVA transformers out, the peak (at unity
+  power factor) passes 63 MW from about 2 % a year: growth helps
+  the plant (more local use, less upward flow) but brings the
+  substation's reinforcement closer;
+  'same shape' is an assumption: cooling and electric cars
+  change the shape (A-284)

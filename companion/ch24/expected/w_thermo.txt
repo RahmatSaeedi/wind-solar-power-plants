@@ -1,0 +1,15 @@
+infrared survey at full load: rise over a like part (teaching classes)
+  item                           rise K   action
+  =WS1-Q1 cable lug L1                6   normal
+  =WS1-Q1 cable lug L2               31   repair at next outage
+  =WS1-Q1 cable lug L3                5   normal
+  +H01 busbar joint 4                48   act now
+  =A1-T1 LV bushing                  12   watch, re-scan
+  LV board main breaker               3   normal
+  +H07 earthing transformer           9   normal
+  UPS input breaker                  17   repair at next outage
+  the busbar joint at 48 K and the lug at 31 K are the loose or
+  dirty contacts of the torque lesson; the survey is taken at
+  high load (the rise grows with I^2), from outside closed
+  covers through infrared windows where the gear has them -
+  the thresholds and the access are the owner's procedure

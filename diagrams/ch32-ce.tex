@@ -1,0 +1,26 @@
+% Chapter 32 - cause and effect in a fire system, read right to left: detection and manual inputs,
+% the logic of the strategy, and the outputs with position feedback (companion/ch32/lab_c.py).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    i/.style={blkWarn, minimum width=30mm, minimum height=8mm, text width=28mm},
+    o/.style={blkLoad, minimum width=34mm, minimum height=8mm, text width=32mm}]
+  \node[i] (i1) at (11,2.4) {آشکارسازِ گازِ خروجی};
+  \node[i] (i2) at (11,1.2) {آشکارسازِ دود};
+  \node[i] (i3) at (11,0.0) {هشدارِ دماییِ مدیریتِ باتری};
+  \node[i] (i4) at (11,-1.2) {شستیِ اعلامِ دستی};
+  \node[blk, minimum width=26mm, minimum height=44mm, text width=24mm] (lg) at (6.6,0.6)
+    {منطقِ علت و معلول\\[2pt]{\scriptsize (راهبردِ حریق)}};
+  \node[o] (o1) at (1.8,2.4) {هشدار در اتاقِ کنترل};
+  \node[o] (o2) at (1.8,1.2) {تماس با آتش‌نشانی طبقِ برنامه};
+  \node[o] (o3) at (1.8,0.0) {توقفِ مبدل};
+  \node[o] (o4) at (1.8,-1.2) {باز شدنِ کنتاکتورهای DC};
+  \foreach \n in {i1,i2,i3,i4} {\draw[flow] (\n.west) -- (\n.west -| lg.east);}
+  \foreach \n in {o1,o2} {\draw[flow] (\n.east -| lg.west) -- (\n.east);}
+  \foreach \n in {o3,o4} {
+    \draw[flow] ([yshift=1.5mm]\n.east -| lg.west) -- ([yshift=1.5mm]\n.east);
+    \draw[flowinfo] ([yshift=-1.5mm]\n.east) -- ([yshift=-1.5mm]\n.east -| lg.west);
+  }
+  \node[note] at (4.15,-1.95) {خط‌چین: بازخوردِ وضعیت};
+\end{tikzpicture}
+\end{document}

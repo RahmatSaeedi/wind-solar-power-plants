@@ -1,0 +1,17 @@
+thermal rating of the 132 kV conductor from its heat balance:
+  I^2 R + solar = convection + radiation (teaching forms)
+  air C   wind m/s   rating A
+     25        0.6        590
+     35        0.6        512
+     45        0.6        419
+     35        0.0        277
+     35        2.0        660
+  wind cools a line far more than anything else: the same
+  conductor carries much less on a still, hot, sunny day -
+  ratings are given for stated weather: the 650 A of the line
+  data needs a cooler or windier day than 35 C and 0.6 m/s
+  the plant's 437 A needs wind of at least 0.23 m/s at 35 C and
+  0.74 m/s at 45 C: on a hot, still, sunny noon the line is
+  the limit - a larger conductor, a higher design temperature,
+  or export held down in those hours; the line's design basis
+  (ch 28) and the weather data decide which

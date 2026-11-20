@@ -1,0 +1,18 @@
+% Chapter 5 - PV power on 23 June (clearest day of June, data pack 1.1.0, S0): the chapter 5
+% model with an explicit cell temperature against the chapter 1 lumped model.
+% Data: diagrams/data/ch05-pvday.csv (companion/ch05/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=64mm,
+      xlabel={ساعتِ محلی (میانهٔ بازه)}, ylabel={توانِ متناوب، $\text{MW}$},
+      xmin=0, xmax=24, ymin=0, ymax=55, xtick={0,3,...,24}, ytick={0,10,...,50}]
+    \addplot[sPV] table[x=hour, y=p5, col sep=comma] {data/ch05-pvday.csv};
+    \addlegendentry{مدلِ فصلِ ۵ (دمای سلول)}
+    \addplot[sInk] table[x=hour, y=p1, col sep=comma] {data/ch05-pvday.csv};
+    \addlegendentry{مدلِ فصلِ ۱ (ضریبِ یکجا)}
+    \addplot[sLimit, domain=0:24, samples=2] {50};
+    \node[note, anchor=south] at (axis cs:3,50) {سقفِ اینورتر};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

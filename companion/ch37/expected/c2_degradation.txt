@@ -1,0 +1,8 @@
+degradation of the PV from 5 years of monthly PR (synthetic)
+  true rate -0.50 %/yr
+  year-on-year median: -0.49 %/yr, 90 % interval -0.66 to -0.28
+  a straight line through the first 12 months: +0.6 %/yr
+  the one-year line reads the season as a trend; pairing
+  each month with the same month a year later removes the
+  season, and the interval says how sure the rate is - a
+  warranty claim on degradation needs that interval

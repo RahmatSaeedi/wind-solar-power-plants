@@ -1,0 +1,7 @@
+ramps of GHI on the broken-cloud day:
+  one-minute steps: largest 215 W/m2, 99th percentile 207 W/m2
+  ten-minute steps: largest 489 W/m2
+  one sensor's largest minute step times the plant: about 11 MW in a minute
+  the plant's 28 ha smooth this (clouds cover blocks one after
+  another): the plant ramp is smaller than one sensor's; grid
+  ramp limits and storage sizing need the plant's ramps (ch 19, 27)

@@ -1,0 +1,12 @@
+Newton's method on the Weibull negative log-likelihood
+  (start k 1.5, c 6.0 m/s; finite-difference gradient and Hessian)
+  iteration  |gradient|
+          0  1.65e-01
+          1  1.54e-02
+          2  1.53e-03
+          3  3.44e-06
+          4  6.17e-11
+  result k = 2.1141, c = 8.0174 m/s after 4 Newton steps
+  closed-form MLE: k = 2.1141, c = 8.0174; gradient descent needed 227 steps
+    (step 0.5) to reach 1e-4
+  each Newton step costs a Hessian (here 2 x 2) and a linear solve

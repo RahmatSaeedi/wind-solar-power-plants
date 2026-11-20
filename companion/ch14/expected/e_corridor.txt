@@ -1,0 +1,10 @@
+corridor of near-optimal routes (cells whose best route through
+  them costs at most the given share more than the best):
+  margin    corridor area ha   width at x = 10.5 km
+     1 %            187               100 m
+     3 %            527               350 m
+     5 %            784               700 m
+    10 %           1397              1700 m
+  a corridor, not a line, goes to the surveys and the land
+  talks: the final alignment moves inside it as owners, ground
+  and crossings are known (route uncertainty)

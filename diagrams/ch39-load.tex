@@ -1,0 +1,16 @@
+% Chapter 39 - mean wait for a factory slot against the factory's load (single-server queue,
+% two-week service), with U-A at 73 % and U-C at 90 % once our order is booked
+% (diagrams/data/ch39-load.csv from companion/ch39/examples_u.py, u_load; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0.3, xmax=0.96, ymin=0, ymax=42,
+      xlabel={بارِ کارخانه (سهم از ظرفیت)}, ylabel={میانگینِ انتظار (هفته)},
+      xtick={0.3,0.4,0.5,0.6,0.7,0.8,0.9}]
+    \addplot[sWind, smooth] table[x=rho, y=wait, col sep=comma] {data/ch39-load.csv};
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cInk] coordinates {(0.729,5.4) (0.904,18.8)};
+    \node[note, anchor=south east] at (axis cs:0.72,6) {U-A};
+    \node[note, anchor=south east] at (axis cs:0.895,19.5) {U-C};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

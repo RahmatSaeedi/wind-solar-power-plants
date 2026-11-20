@@ -1,0 +1,28 @@
+% Chapter 56 - country risk register of Plant P - Afghanistan on a 5 x 5 grid of likelihood and
+% impact (TEACHING scores; companion/ch56/more.py, risks -> diagrams/data/ch56-risks.csv). Cells with
+% score >= 16 shaded red, 9-15 amber-light, below 9 neutral.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\scriptsize, x=11mm, y=9mm]
+  \foreach \l in {1,...,5} {\foreach \i in {1,...,5} {
+    \pgfmathtruncatemacro{\s}{\l*\i}
+    \ifnum\s>15 \fill[cLoss!22] (\l-0.5,\i-0.5) rectangle (\l+0.5,\i+0.5);
+    \else\ifnum\s>8 \fill[cPV!14] (\l-0.5,\i-0.5) rectangle (\l+0.5,\i+0.5);
+    \else \fill[cFill] (\l-0.5,\i-0.5) rectangle (\l+0.5,\i+0.5); \fi\fi
+    \draw[cRule] (\l-0.5,\i-0.5) rectangle (\l+0.5,\i+0.5);
+  }}
+  \node[text=cInk] at (4,5.18) {R01};  \node[text=cInk] at (4,4.82) {R02};
+  \node[text=cInk] at (4,4.28) {R03};  \node[text=cInk] at (4,4.0) {R06};
+  \node[text=cInk] at (4,3.72) {R07};
+  \node[text=cInk] at (3,5) {R05};
+  \node[text=cInk] at (4,3) {R04};
+  \node[text=cInk] at (3,4) {R08};
+  \node[text=cInk] at (3,3.18) {R09};  \node[text=cInk] at (3,2.82) {R10};
+  \foreach \k in {1,...,5} {
+    \node[text=cMuted, anchor=north] at (\k,0.45) {$\k$};
+    \node[text=cMuted, anchor=east] at (0.45,\k) {$\k$};
+  }
+  \node[font=\small, text=cInkB] at (3,-0.35) {احتمال};
+  \node[font=\small, text=cInkB, rotate=90] at (-0.3,3) {اثر};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,101 @@
+========================================================================
+PLP-GEN-CAL-0002  Rev 0  status APP (approved)
+Plant P - screening annual energy, scenario S0, data pack 1.0.0
+========================================================================
+Purpose: first-pass annual generation and export of Plant P for the
+    screening gate; not for design, finance or guarantees
+
+Revision history
+   A  2026-11-02  IFR  first issue for review; prepared A
+   B  2026-11-09  IFR  comments C-01..C-12 incorporated; prepared A,
+      checked B
+   0  2026-11-14  APP  approved for screening use; prepared A, checked
+      B, approved C
+
+Inputs (id, quantity, value, status, source)
+  I1    PV DC capacity = 60 MWp [assumed] <- SR-01, data pack 1.0.0
+  I2    PV AC (inverter) limit = 50 MW [assumed] <- SR-02
+  I3    wind capacity = 12 x 5 MW [assumed] <- SR-03, A-005
+  I4    export limit = 100 MW [assumed] <- SR-06
+  I5    hourly GHI, wind speed = 8760 h - [synthetic] <-
+      timeseries/plantp_hourly_8760.csv
+  I6    power curve WT-5.0-150 = 61 rows kW [synthetic] <-
+      equipment/...power_curve.csv
+  I7    PR_DC = 0.85 - [assumed] <- plantp.screening, chapter 1
+  I8    inverter efficiency = 0.98 - [assumed] <- plantp.screening
+  I9    wind losses (lumped) = 0.12 - [assumed] <- plantp.screening
+  I10   reference irradiance G_STC = 1000 W/m2 [verified] <- definition
+      of STC (chapter 10)
+  inputs digest (SHA-256) 6d0dffd6157906c7...
+  file timeseries/plantp_hourly_8760.csv sha256 0b179863ba8707a5...
+  file equipment/wind_turbine_WT-5.0-150_power_curve.csv sha256
+      672c82e3bfaee9a1...
+  file scenarios/S0-no-bess.yml sha256 1bbe995db7e158fa...
+
+Method
+  1. PV: hourly AC power = min(60 MWp x GHI/1000 W/m2 x 0.85 x 0.98, 50
+      MW)
+  2. wind: hourly speed into the power curve (linear interpolation) x 12
+      x 0.88
+  3. export = min(PV + wind, 100 MW); energy = sum of hourly power x 1 h
+  4. capacity factors on stated bases with 8760 h
+
+Results
+  PV energy: 97.3 GWh/yr (clipped 15.7 MWh)
+  wind energy: 192.5 GWh/yr
+  generation: 289.8 GWh/yr
+  curtailed / exported: 13.8 MWh / 289.8 GWh per year
+  export capacity factor (100 MW): 0.331
+  resource uncertainty (teaching): U(k=2) about 20 GWh, see example
+      ex_montecarlo
+
+Checks
+  [PASS] PV hand method vs hourly model: difference 15.7 MWh = clipping
+  [PASS] wind binned vs hourly: +0.11 %
+  [PASS] order of magnitude 280 GWh: +3.5 %
+  [PASS] bounds on CF and energy: within 0..1 and below 876 GWh
+  [PASS] dimension guard (plantp.units): all steps
+  [PASS] data pack checksums: 3 input files listed below
+
+Limitations
+  - L-1 screening model: lumped losses, horizontal irradiance, no
+      geometry
+  - L-2 air density not modelled: about -8.5 % on wind energy (U-013,
+      A-028)
+  - L-3 synthetic one-year data: no interannual variability
+
+Review comments (id, by, category, status)
+  C-01 B major CLOSED: PV model needs DC capacity (60 MWp), not the 50
+      MW AC limit
+      response: corrected; AC limit applied by clipping
+  C-02 B minor CLOSED: MW x kWh/m2 is not MWh; divide by G_STC
+      response: formula rewritten with H/G_STC
+  C-03 B minor CLOSED: kelvin minus degC in the first attempt
+      response: line removed (see C-04)
+  C-04 B major CLOSED: temperature loss counted twice (inside PR_DC)
+      response: separate factor removed
+  C-05 B major CLOSED: hPa and degC in the gas law; density silently
+      replaced by 1.225; screening ignores site density
+      response: rho = 1.055 kg/m3 computed; effect quantified
+          (audit_density); accepted as limitation L-2, tracked as U-013
+  C-06 B major CLOSED: divided by 1e6 but labelled MWh
+      response: 192,538 MWh = 192.5 GWh
+  C-07 B major CLOSED: sum mixes kWh-scale and GWh-scale numbers
+      response: follows from C-06
+  C-08 B question CLOSED: is curtailment really zero?
+      response: 13.8 MWh/yr computed and shown
+  C-09 B major CLOSED: 120 MW mixes MWp and MW; 2023 has 8760 h
+      response: CF on export basis 100 MW and per technology
+  C-10 B editorial CLOSED: false precision
+      response: reported to 3 significant figures
+  C-11 B minor CLOSED: 5 percentage points is 6.25 %
+      response: corrected
+  C-12 B editorial CLOSED: km/h should be m/s
+      response: corrected
+
+References
+  - Plant P Reference Data Pack 1.0.0 (manifest, SHA-256)
+  - companion/ch01/screening_report.py; companion/ch02/yield_audit.py
+  - comment-resolution sheet: section D of chapter 2
+========================================================================
+open comments: 0

@@ -1,0 +1,10 @@
+campaign length and the uncertainty of the mean wind speed:
+  monthly means vary by 14.7 % (sd, synthetic year)
+  months   relative standard error (if months were independent)
+     3       8.5 %
+     6       6.0 %
+    12       4.2 %
+    24       3.0 %
+  a short campaign also misses the seasons: twelve months is the
+  usual minimum, and the long-term correction (section C) carries
+  the year to the decades the project needs

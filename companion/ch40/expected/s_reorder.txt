@@ -1,0 +1,7 @@
+crimp lugs: reorder point with safety stock
+  use 60 a day (sd 18); restock 10 days
+  safety stock = 1.645 x 18 x sqrt(10) = 94
+  reorder point = 60 x 10 + 94 = 694
+  the safety stock covers the variation of use in the lead
+  time, not a late supplier; a supplier change (lesson C)
+  also resets it - the new lot is held until released

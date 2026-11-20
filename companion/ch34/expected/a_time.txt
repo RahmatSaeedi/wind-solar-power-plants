@@ -1,0 +1,9 @@
+clocks and the order of events (teaching)
+  GPS-disciplined time: about 1 us
+  an IED clock that lost its sync drifts 20 ppm: 1.73 s a day
+  two events 10 ms apart, recorded by two IEDs - one in
+  sync, one a day out of sync: their order can be off by 1.7 s
+  the sequence-of-events record is evidence only while
+  every clock is synchronised and says so: each time stamp
+  carries a 'clock synchronised' flag, and a lost sync is
+  an alarm, not a footnote (ch 26, lesson E; ch 35)

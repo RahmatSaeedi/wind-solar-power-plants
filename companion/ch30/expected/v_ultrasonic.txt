@@ -1,0 +1,11 @@
+bolt preload from ultrasonic elongation (M48, teaching)
+  dL = F L / (E As); instrument resolution 0.01 mm
+  preload kN   elongation mm
+         500           0.647
+         773           1.000
+         928           1.200
+        1031           1.333
+  0.01 mm of elongation is about 8 kN of preload: the
+  instrument reads the bolt's own stretch, not the friction
+  of the nut, so a sample measured this way checks the
+  torque method's scatter (lesson Q) on the real flange

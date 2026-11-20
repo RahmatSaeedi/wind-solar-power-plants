@@ -1,0 +1,9 @@
+intertrip timing budget (ms, teaching)
+  grid-end protection operates         30
+  grid-end breaker opens               50
+  intertrip send and channel           20
+  plant breaker opens                  50
+  plant off after about 150 ms; with the fastest reclose of
+  300 ms the margin is 150 ms (lesson B, reclose) - the
+  channel's latency is a requirement of its own, tested end
+  to end before energisation (ch 26, 50)

@@ -1,0 +1,11 @@
+water in the air at a dew point (Magnus, teaching accuracy)
+  air                       dew point C   water g/m3   share of hall
+  outside, humid day                 20       17.243         183.77%
+  ordinary factory hall              10        9.383         100.00%
+  controlled room                   -10        2.364          25.19%
+  dry room (teaching)               -40        0.177           1.88%
+  water reacts with the electrolyte salt and makes gas and
+  acid: electrode and cell assembly are done in air with about
+  2% of a hall's water - the dew point is
+  logged continuously, and a record above the limit puts the
+  hours' cells on hold (the limit is the cell maker's)

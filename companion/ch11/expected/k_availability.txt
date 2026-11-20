@@ -1,0 +1,11 @@
+availability from simulated failures, one turbine, 2000 years (A-238):
+  rates and downtimes are fictional teaching values
+  time-based availability   98.26 %
+  energy-based availability 98.10 %
+  energy lost a year: 326 MWh of 17,168 MWh
+  load-driven failures start more often in windy hours, so
+  energy availability is lower than time availability
+  48 h of service in the calmest month (6): 53 MWh lost;
+    in the windiest month (12): 142 MWh
+  the gearbox's few long stops (crane, parts) dominate the
+  energy loss: spares and crane access are availability levers

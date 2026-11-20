@@ -1,0 +1,7 @@
+vendor sessions left open by mistake (teaching)
+  48 sessions a year, 1 in 10 not closed by hand
+  without a timeout, found at the next quarterly review: 5,184 h open
+  closed automatically after 4 h: 19 h open
+  a forgotten session is ordinary human error; the jump host
+  closes every session after its approved time, whatever
+  the person remembers

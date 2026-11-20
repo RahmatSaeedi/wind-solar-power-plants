@@ -1,0 +1,11 @@
+repair of a 33 kV cable fault (teaching hours, spares on site):
+  locate the fault (time-domain reflection, pinpointing)    12 h
+  permits, isolation and earthing (owner's rules)            8 h
+  excavate and expose                                       16 h
+  cut, joint (two joints with a cable insert)               24 h
+  test and re-energise                                       8 h
+  total about 68 h (2.8 days) if the jointing kit and a
+  cable length are in the store; add weeks if they must be
+  ordered - the spares list (ch 18) is a repair-time decision;
+  a wind string loses about 490 MWh in that time (at its
+  average capacity factor 0.36)

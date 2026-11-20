@@ -1,0 +1,11 @@
+energy of an internal arc in a 33 kV panel (teaching):
+  arc voltage about 500 V per phase; three phases
+  current kA   duration s   energy MJ
+        25.0          1.0        37.5
+        25.0          0.1         3.8
+        12.5          0.5         9.4
+  tens of megajoules in a closed box: the pressure must go
+  somewhere - flaps and ducts lead it away from people, and
+  the internal-arc type test proves the panel does that; an
+  arc sensor that trips in 0.1 s cuts the energy ten times
+  (ch 26); the room's volume and vents are part of it

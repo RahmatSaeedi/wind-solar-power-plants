@@ -1,0 +1,5 @@
+three numbers by hand
+  verified share: 19 / 49 = 39%
+  longest approval path: S1 2 + S2 4 + S3 0.5 + S4 2 + S8 3 = 11.5 months
+  connection path S1 + S5 + S6 = 2 + 6 + 2 = 10.0 months: slack 1.5 months
+  grid inputs given: 2 / 12 = 17%

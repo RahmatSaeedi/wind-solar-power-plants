@@ -1,0 +1,14 @@
+settings register of section A (intermediate example, teaching):
+  relay        function         CT      prim A   sec A   curve
+  =WS1-Q1-F1   51 phase OC       600/1      480   0.800   SI, TMS 0.10
+  =WS1-Q1-F1   51N earth fault   100/1       40   0.400   DT 0.5 s (CBCT)
+  =T1-Q2-F1    51 incomer OC    1600/1     1600   1.000   SI, TMS 0.11
+  =T1-Q1-F1    51 T1 HV backup   400/1      400   1.000   SI, TMS 0.18
+  =NER-A-F51N  51N standby       400/1       80   0.200   DT 1.5 s
+  =WS1-Q1-F1   50BF              600/1       60   0.100   timer 0.15 s
+  each row names the study that set it (lessons B and E) and
+  the test that proved it (secondary injection); the earth
+  fault uses a core-balance CT because 40 A through a 600/1
+  phase-CT residual is only 0.067 A - too little for a
+  reliable setting; the register, the file and its checksum
+  travel together

@@ -1,0 +1,9 @@
+load shedding of the station board: planned step against observed
+  HVAC 2                   planned 1, observed 1
+  lighting non-essential   planned 2, observed 2
+  workshop                 planned 3, observed 4  WRONG
+  HVAC 1                   planned 4, observed 3  WRONG
+  HVAC 1 and the workshop shed in the wrong order: the
+  control-room cooling went before the workshop - two wires
+  swapped at the shedding relay, found by testing the chain,
+  not each relay alone

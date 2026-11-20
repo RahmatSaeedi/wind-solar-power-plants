@@ -1,0 +1,6 @@
+transformer hum at 100 Hz on resilient pads (damping ratio 0.05):
+  pad natural frequency   10 Hz: transmissibility  0.014 (-36.9 dB)
+  pad natural frequency   25 Hz: transmissibility  0.072 (-22.9 dB)
+  pad natural frequency   80 Hz: transmissibility  1.749 (+4.9 dB)
+  isolation works only well above the mount's natural frequency; a mount
+    tuned near 100 Hz would amplify the hum it was meant to stop

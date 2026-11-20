@@ -1,0 +1,12 @@
+current-sensor gain error of 10 inverters (teaching):
+  sd 0.3% uncalibrated, 0.05% after calibration
+  case                         worst unit   plant total   worst unit GWh
+  uncalibrated                   +0.55%     +0.053%        0.061
+  calibrated at end of line      +0.15%     -0.037%        0.016
+  one sensor lot biased +0.4%    +0.95%     +0.453%        0.105
+  random errors shrink in the plant total (sd / sqrt(10) = 0.09%);
+  a shared bias does not: it shows in every unit and in the
+  total, and makes one block look better than another in
+  monitoring (ch 37) - calibration constants are a
+  configuration item, checked against a reference at the end
+  of the line

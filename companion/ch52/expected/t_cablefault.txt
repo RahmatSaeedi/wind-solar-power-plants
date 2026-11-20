@@ -1,0 +1,7 @@
+33 kV collector fault on a 4.5 km feeder: hours to locate (teaching)
+  sectionalise at joints and re-test     26 h
+  TDR from the end, then walk             9 h
+  TDR plus acoustic pinpointing           5 h
+  the location equipment and a trained contractor are part of
+  the spares plan; locating, not repairing, decided the 120 h
+  of ch 18 - measurements by qualified people under a permit

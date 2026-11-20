@@ -1,0 +1,13 @@
+process traveler of skid S-07 (one line an operation)
+  op    work                              record
+  OP10  weld, inspect, paint base frame   sign, date
+  OP20  receive and inspect equipment     transformer TX-5107
+  OP30  set and bolt equipment on frame   sign, date
+  OP40  LV busbar and cable terminations  tool TW-14, lugs L-2208, days 15-16
+  OP50  MV cable termination at RMU       jointer, kit lot
+  OP60  auxiliary and control wiring      sign, date
+  OP70  earthing and bonding              sign, date
+  OP80  factory acceptance test           dossier, ITP points
+  OP90  preserve, pack, dispatch          sign, date
+  the traveler goes with the skid: each signature is a
+  record, and the genealogy is built from its fields

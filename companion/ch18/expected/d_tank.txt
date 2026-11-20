@@ -1,0 +1,6 @@
+tank to carry the operating demand through Jun-Sep from the spring:
+  demand in Jun-Sep 1,518 m3; smallest usable tank with
+    no unmet demand 1,600 m3
+  plus the held reserve 900 m3: total 2,500 m3
+  or: robots for dry cleaning (chapter 10) cut the cleaning water
+  to zero and leave sanitation and make-up only

@@ -1,0 +1,7 @@
+bid B as evaluated and T1 as tested, with the same A and B
+  evaluated at award: 1,700 + 6.84 x 42 + 0.88 x 290 = 2,242.5 k u
+  as tested:          1,700 + 6.84 x 42.2 + 0.88 x 298 = 2,250.9 k u
+  difference 8.4 k u = the deduction 8.4 k u
+  a deduction priced with the enquiry's own A and B puts the
+  owner where the evaluation assumed: the bids stay compared
+  on the same footing after the test (ch 25, penalty)

@@ -1,0 +1,9 @@
+authorised persons (HV) assessed: 3; shifts on the roster: 4
+  shift A: N. Tehrani
+  shift B: A. Hosseini, K. Saberi
+  shift C: none
+  shift D: none
+  shifts without an authorised person: C, D
+  a fault on those shifts waits for a call-out before any
+  switching: the fourth person of lesson C is needed for
+  the roster, and shift B's second could move to C or D

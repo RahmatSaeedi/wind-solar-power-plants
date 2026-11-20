@@ -1,0 +1,34 @@
+% Chapter 7 - symmetrical components: a positive set (1 /_ 0), a negative set (0.35 /_ 40 deg)
+% and a zero set (0.25 /_ -20 deg) add up to an unbalanced set. Scale 1.5 cm per unit.
+% Reading order (RTL): positive + negative + zero = sum.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \newcommand{\ph}[4]{\draw[line width=1.1pt, #1, ->] (0,0) -- (#2*1.5,#3*1.5);
+    \node[note, text=cInk, anchor=center] at (#2*1.77,#3*1.77) {$\text{#4}$};}
+  % positive (rightmost)
+  \begin{scope}[xshift=13.0cm]
+    \node[note, text=cInk, font=\small\bfseries] at (0,2.2) {مثبت};
+    \ph{cInk}{1.0}{0.0}{a}\ph{cInk}{-0.5}{-0.866}{b}\ph{cInk}{-0.5}{0.866}{c}
+  \end{scope}
+  \node[note, text=cInk, font=\large] at (10.6,0) {$+$};
+  % negative
+  \begin{scope}[xshift=9.0cm]
+    \node[note, text=cInk, font=\small\bfseries] at (0,2.2) {منفی};
+    \ph{cLoad}{0.268}{0.225}{a}\ph{cLoad}{-0.329}{0.120}{b}\ph{cLoad}{0.061}{-0.345}{c}
+  \end{scope}
+  \node[note, text=cInk, font=\large] at (7.6,0) {$+$};
+  % zero
+  \begin{scope}[xshift=6.2cm]
+    \node[note, text=cInk, font=\small\bfseries] at (0,2.2) {صفر};
+    \draw[line width=1.1pt, cLoss, ->] (0,0) -- (0.3525,-0.129);
+    \node[note, text=cInk, anchor=north] at (0.2,-0.3) {$\text{a} = \text{b} = \text{c}$};
+  \end{scope}
+  \node[note, text=cInk, font=\large] at (4.5,0) {$=$};
+  % sum (leftmost)
+  \begin{scope}[xshift=1.3cm]
+    \node[note, text=cInk, font=\small\bfseries] at (0,2.2) {جمع: نامتعادل};
+    \ph{cInk}{1.503}{0.139}{a}\ph{cInk}{-0.594}{-0.832}{b}\ph{cInk}{-0.204}{0.436}{c}
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

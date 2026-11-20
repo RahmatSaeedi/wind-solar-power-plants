@@ -1,0 +1,7 @@
+make or buy the base frames (k u a frame, hours at S1)
+  make: 9.5 k u, 16.18 h; welding procedures, own
+  buy:  11.0 k u, 2.06 h; maker's, by specification
+  buying costs 15 k u more for ten frames and frees
+  the bottleneck; the integrator keeps the frame drawing,
+  the weld inspection plan and a first-article inspection
+  so design ownership stays where it was (ch 39)

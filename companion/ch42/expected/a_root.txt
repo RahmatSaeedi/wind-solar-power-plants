@@ -1,0 +1,13 @@
+blade-root joint: 96 inserts on a 3.2 m circle, preload 320 kN each (A-451)
+  joint factor 0.15: a bolt sees 15% of the external pull
+  until the joint opens
+  case                moment MN m   pull kN   bolt kN   opening
+  operating (ch 11)        15.4       201       350   x 1.9 to open
+  extreme (2 x)            30.8       401       380   x 0.9 to open
+  preload keeps the joint closed, so the bolt sees only a
+  small share of each load cycle - fatigue depends on the
+  preload being there: tightening records per insert and
+  re-tension checks are part of the blade's quality record;
+  at the extreme the teaching joint opens (x0.9): more
+  inserts, a larger circle or more preload is needed - the
+  maker's design must show the joint closed at the extreme

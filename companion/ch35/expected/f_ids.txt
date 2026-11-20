@@ -1,0 +1,16 @@
+asset register against SCADA tag prefixes (synthetic extract)
+  asset ID            SCADA prefix        result
+  PLP-WTG-T01         PLP-WTG-T01         ok
+  PLP-WTG-T02         PLP-WTG-T02         ok
+  PLP-PVI-B01-I1      PLP-PVI-B01-I1      ok
+  PLP-BES-C01         PLP-BES-C1          ID MISMATCH
+  PLP-TRF-T1          PLP-TRF-T1          ok
+  PLP-TRF-T2          -                   NO SCADA POINTS
+  PLP-MET-M1          PLP-MET-M1          ok
+  2 of 7 assets do not line up
+  'C1' against 'C01' breaks every automatic link: the
+  battery's alarms never reach its work orders, and its
+  running hours never reach its maintenance plan; T2 has
+  no points at all - a missing interface, not a typo. The
+  asset ID is set once, in the register, and copied, never
+  retyped

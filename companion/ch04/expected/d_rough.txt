@@ -1,0 +1,6 @@
+synthetic profile: 2 micrometre sine of 0.25 mm wavelength plus 0.5 micrometre
+    noise
+  Ra = mean |z| = 1.30 micrometre; Rq = rms = 1.49 micrometre
+  pure sine: Ra = 2A/pi = 1.27, Rq = A/sqrt(2) = 1.41
+  very different surfaces can share one Ra value: a drawing states the
+    parameter, the filter and the evaluation length together

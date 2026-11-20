@@ -1,0 +1,9 @@
+transferred potential: a metal path leaving the earth grid
+  during a 132 kV earth fault the grid rises to about 1,783 V
+  a copper telecom pair or an LV supply bonded to the grid
+  carries those 1,783 V to remote earth (a house, an office)
+  - and remote earth back into the substation the other way
+  remedies: optical fibre (no metal) for telecom, isolation
+  transformers, no shared LV earth with neighbours, and a
+  fence either bonded to the grid with the grid extended past
+  it, or kept separate - each decided in the earthing study

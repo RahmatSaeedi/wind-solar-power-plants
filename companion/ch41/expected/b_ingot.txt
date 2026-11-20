@@ -1,0 +1,13 @@
+resistivity along a pulled ingot (seed end 1.1 ohm cm, window 0.4-1.1)
+  share solidified   boron (k 0.8)   gallium (k 0.008)
+              0.00            1.10                1.10
+              0.25            1.04                0.83
+              0.50            0.96                0.55
+              0.75            0.83                0.28
+              0.90            0.69                0.11
+  usable length in the window: boron 99%, gallium 64%
+  gallium stays in the melt, so the tail gets heavily doped;
+  boron is even but pairs with oxygen into a defect that
+  costs power in the first hours of sunlight - the choice is
+  a trade-off the module buyer sees only through the maker's
+  degradation data (light-induced degradation in the dossier)

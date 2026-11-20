@@ -1,0 +1,10 @@
+annual energy with four uncertain factors (A-045, assumed):
+  E = 192.5 (1 + dv)^2 (1 + dl) + 97.3 (1 + dg)(1 + dp) GWh
+  std: wind speed 3 %, wind losses 2 %, irradiance 4 %, PV losses 2 %
+  reference (400 000 samples): mean 290.00 GWh, P90 273.53 GWh
+  200 repeated studies of n samples: spread (std) of the estimates
+      n   mean: plain MC   LHS     P90: plain MC   LHS
+     50         1.818   0.152          2.722   1.800
+    200         0.939   0.041          1.416   0.915
+   1000         0.420   0.009          0.655   0.424
+  (GWh) LHS shrinks the spread of the mean most; tails gain less

@@ -1,0 +1,10 @@
+concentric stranding: 1 + 6 + 12 + 18 + ... wires
+  layers  wires  wire mm   area mm2   round dia mm   compacted mm
+       3     19     3.25        158           16.2           14.8
+       4     37     3.45        346           24.2           21.9
+       5     61     3.60        621           32.4           29.3
+  each layer adds six wires; a round strand fills about 75 %
+  of its circle, a compacted one about 92 %: a smaller
+  conductor diameter means less insulation volume, a smoother
+  screen and less stress - the conductor's resistance, not
+  its nominal area, is what the routine test checks

@@ -1,0 +1,13 @@
+checks on a submitted study data sheet (planted errors, teaching)
+  check                          result   note
+  uk stated on own rating        FAIL     uk 12.0 % on 100 MVA, not 63
+  line length agrees             FAIL     7.6 km sheet, 7.06 km drawing
+  line capacitance plausible     FAIL     9.0 uF/km: 1,000 x too large
+  unit count agrees              FAIL     13 in model, 12 on one-line
+  MV nominal voltage             FAIL     34.5 kV, the plant is 33 kV
+  min below max                  FAIL     min 1700 > max 1500 MVA
+  X/R plausible                  pass
+  6 of 7 checks fail; each would have cost a study run
+  (or worse, passed into an approved result) - a submission
+  is checked for units, bases, counts and consistency with
+  the drawings before any study starts

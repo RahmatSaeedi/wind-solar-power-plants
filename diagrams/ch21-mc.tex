@@ -1,0 +1,15 @@
+% Chapter 21 - distribution of the minimum DSCR of the base case in 400 Monte Carlo draws of the
+% yearly and shared energy uncertainty (debt fixed), with lock-up and default levels (A-308).
+% Data: diagrams/data/ch21-mc.csv (companion/ch21/examples_h.py mc()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, ybar, bar width=3.2mm, xmin=0.95, xmax=1.45,
+      ymin=0, ymax=140, xlabel={کمینهٔ DSCR}, ylabel={شمارِ قرعه‌ها}, xtick={1.0,1.1,...,1.4},
+      ytick={0,25,...,125}, xmajorgrids=false, /pgf/number format/fixed, /pgf/number format/precision=1]
+    \addplot[draw=cBESS, fill=cBESS!40, restrict x to domain=0.95:1.45] table[x=x, y=n, col sep=comma] {data/ch21-mc.csv};
+    \draw[sLimit] (axis cs:1.10,0) -- (axis cs:1.10,140);
+    \draw[sLoss] (axis cs:1.05,0) -- (axis cs:1.05,140);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

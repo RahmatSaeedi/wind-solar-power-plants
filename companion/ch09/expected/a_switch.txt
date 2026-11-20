@@ -1,0 +1,7 @@
+500 V at 100 A from 1000 V (50 kW):
+  series resistor or transistor in its linear region:
+    loss 50 kW, efficiency 0.50
+  switch with filter, duty 0.5: conduction 100 W (2 V drop),
+    switching 500 W (0.05 J per cycle at 10 kHz); efficiency 0.9881
+  a switch is either fully on (small V) or fully off (small I):
+  the product V I, the loss, stays small except while switching

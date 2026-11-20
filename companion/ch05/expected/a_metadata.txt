@@ -1,0 +1,8 @@
+header block of the raw logger file (read, do not guess):
+  # logger PLP-MET-01 (synthetic), Plant P Reference Data Pack 1.1.0
+  # interval 10 min; each time stamp marks the END of its interval
+  # clock: local standard time UTC+04:00 (offset not written)
+  # units: ws m/s; wd deg from north; t_air degC; p_air hPa; ghi W/m2
+SHA-256 of the raw file: 124901d16cc4ae682f201ad336063257...
+provenance: logger file -> validated 10-min table -> hourly table -> report;
+  every step records its input hash, software version and settings

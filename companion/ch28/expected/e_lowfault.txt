@@ -1,0 +1,14 @@
+fault current at the 400 V auxiliary board: grid-fed or islanded
+  grid-fed through the 250 kVA station transformer (uk 4 %):  9.02 kA
+  islanded from a 250 kVA grid-forming source at 1.2 pu:       0.43 kA
+  type C breaker   instantaneous trip at 10 x In   grid-fed   islanded
+             16 A                         0.16 kA      trips      trips
+             32 A                         0.32 kA      trips      trips
+             63 A                         0.63 kA      trips       slow
+            100 A                         1.00 kA      trips       slow
+            160 A                         1.60 kA      trips       slow
+  in an island fed only by converters every breaker above
+  about 40 A clears a fault on its slow thermal curve, if at
+  all: the protection of an islanded supply is designed for
+  it (undervoltage, differential, a source that can give
+  more current) - it is not the grid-connected design

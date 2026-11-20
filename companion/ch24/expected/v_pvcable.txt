@@ -1,0 +1,10 @@
+PV string cable size over the plant's life (120 m loop, 13 A,
+  1,600 equivalent full-load hours, teaching costs):
+  mm2   loss W   MWh/yr (all strings)   PV of loss k u   extra copper k u
+    4      129                    870              679                  0
+    6       86                    580              452                126
+   10       52                    348              271                353
+  6 mm2 saves more in losses than its copper costs over 4 mm2;
+  10 mm2 does not pay back at these prices - the economic size
+  is a number from the hours and the price, checked against
+  the drop (lesson E) and the connectors' size range

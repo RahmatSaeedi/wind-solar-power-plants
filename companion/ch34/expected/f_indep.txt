@@ -1,0 +1,8 @@
+BESS container fire: HVAC off and PCS stop - by which path?
+  hard-wired from the fire panel: relay about 20 ms
+  through the plant PLC: up to 160 ms
+  both are fast enough; the reason for the hard-wired path
+  is independence: a PLC that is stopped, being programmed
+  or faulty cannot block a life-safety action; the PLC gets
+  a copy of the signal to log and display, and its own
+  stop of the PCS is a second, not the only, path

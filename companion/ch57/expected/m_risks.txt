@@ -1,0 +1,25 @@
+country risk register of Plant P - Tajikistan (TEACHING scores 1-5)
+  id   L  I  score  owner             fact
+  R01  4  4     16  commercial lead   TJ-26
+       summer curtailment, compensation unclear
+  R02  4  4     16  commercial lead   TJ-13
+       single buyer and dispatcher not designated
+  R03  3  5     15  finance lead      TJ-50
+       late-payment remedy undefined
+  R04  3  5     15  finance lead      TJ-51
+       convertibility and repatriation
+  R05  4  3     12  grid engineer     TJ-22
+       no adopted grid code, studies on assumptions
+  R06  3  4     12  electrical lead   TJ-34
+       seismic qualification of substation equipment
+  R07  4  3     12  E&S lead          TJ-56
+       EIA rules in transition
+  R08  3  4     12  logistics lead    TJ-37
+       heavy loads on mountain routes
+  R10  3  4     12  counsel           TJ-36
+       land use rights for a foreign-owned company
+  R09  3  2      6  grid engineer     TJ-40
+       two power-quality standards cited
+  score 16 and above: R01, R02
+  the scores are teaching values; the facts behind them carry
+  their own labels

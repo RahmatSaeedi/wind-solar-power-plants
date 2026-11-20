@@ -1,0 +1,10 @@
+two independent E&S audits of the construction (synthetic)
+  audit                              findings  major  closed 60 d  repeated
+  audit 1 (construction month 6)           14      3         64 %         0
+  audit 2 (construction month 12)           9      1         89 %         2
+  fewer findings and faster closure say the system works;
+  the two repeated findings say two fixes did not hold - a
+  repeat is raised one level (a major becomes a lender
+  notice) and its root cause is re-opened; the auditor is
+  independent of the contractor and reports to the owner
+  and the lenders, and the summary goes to the village

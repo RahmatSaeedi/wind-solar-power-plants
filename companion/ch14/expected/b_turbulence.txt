@@ -1,0 +1,12 @@
+turbulence behind a turbine at 15 m/s (ambient representative
+  0.132, Ct 0.36; design curve 0.184, ch 13 A-258):
+  distance   added    effective   below the design curve?
+    3 D      0.182    0.225       no
+    4 D      0.146    0.197       no
+    6 D      0.105    0.169       yes
+    8 D      0.082    0.155       yes
+   10 D      0.067    0.148       yes
+  directly behind a close neighbour the effective turbulence can
+  pass the design curve; it occurs only for the sectors where the
+  neighbour stands upwind, so the real check weights by direction
+  (chapter 16 and the manufacturer's site suitability)

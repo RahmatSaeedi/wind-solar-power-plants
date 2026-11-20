@@ -1,0 +1,8 @@
+interlocks derived from the one-line: a disconnector may move
+  only with its neighbouring breaker open (no load breaking):
+  =E1-Q9 needs =E1-Q1 open
+  =G1-Q9 needs =G1-Q1 open
+  an interlock inside one owner's gear is wired; one across
+  the boundary (the utility's breaker, the plant's
+  disconnector) needs a key system or a joint operating
+  procedure - an item for the connection agreement (U-065)

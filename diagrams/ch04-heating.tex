@@ -1,0 +1,16 @@
+% Chapter 4 — steady temperature of a copper busbar 80 x 10 mm against current, with
+% R(T) and h = 10 W/m2K at 40 C ambient (A-051). Data: diagrams/data/ch04-heating.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=62mm,
+      xlabel={جریان (A)}, ylabel={دمای پایدار (درجهٔ سلسیوس)},
+      xmin=0, xmax=4000, ymin=0, ymax=400, xtick={0,1000,...,4000}, ytick={0,100,...,400},
+      scaled x ticks=false, unbounded coords=jump]
+    \addplot[sLoss] table[x=current, y=temp, col sep=comma] {data/ch04-heating.csv};
+    \addlegendentry{شینهٔ مسیِ ۸۰ در ۱۰ میلی‌متر}
+    \addplot[sLimit, domain=0:4000, samples=2] {90};
+    \addlegendentry{حدِ دمای فرضی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

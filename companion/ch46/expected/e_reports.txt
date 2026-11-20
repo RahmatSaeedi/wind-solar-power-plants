@@ -1,0 +1,16 @@
+routine test reports of 7 drums read as records (results only)
+  drum   finding
+  D403   conductor result FAIL - the drum may not ship
+  D404   tested before it was made (date slip or wrong drum)
+  D404   conductor result FAIL - the drum may not ship
+  D405   report length 985 m, label 1000 m
+  D406   conductor result FAIL - the drum may not ship
+  D406   PD result missing
+  D407   instrument calibration expired on the test date
+  7 findings on 5 drums: three drums were shipped
+  although the maker's own report failed them on conductor
+  resistance (the buyer's corrected check of lesson A found the
+  same three), a test dated before the drum was
+  made, a short length the report admits but the label hides,
+  a missing PD result and a test on an expired instrument -
+  a report is accepted line by line, not by its front page

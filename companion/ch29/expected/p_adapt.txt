@@ -1,0 +1,11 @@
+adaptation register: what is watched, the trigger, and the planned action
+  hazard   indicator                      trigger  action
+  heat     hours > 40 C a year            > 30     add HVAC (space kept)
+  rain     culvert blocked after a flow   any      clear; review pipe count
+  flood    water within 50 m of platform  any      raise bund (study)
+  dust     soiling loss a month           > 4 %    extra wash or robot pass
+  drought  tank below 40 % in June        yes      cut washes, truck water
+  wind     gust > 50-year value           any      inspect structures (ch 30)
+  each trigger is measured by the plant's own records (ch
+  51-53) and reviewed each year; the design kept the space
+  and the margins that make each action possible

@@ -1,0 +1,16 @@
+the 132 kV line's rating hour by hour against the plant's export (one year)
+  static rating at 35 C, 0.6 m/s, full sun: 512 A; full export 437 A
+  wind across the line = factor x hub wind x (12/100)^0.2
+  factor   lowest rating A   hours < 437 A   hours over   least margin A
+    0.60               466               0            0              271
+    0.25               408               9            0              200
+  least margin (factor 0.6): 37 C, 0.4 m/s at the line, sun 972 W/m2,
+  export 45 MW = 195 A against 466 A
+  the 5 % of hours with the lowest rating average 30 MW of export
+  (year: 34 MW) and never reach 437 A: the wind that brings
+  full export also cools the line - the hot, still, sunny
+  hour of ch 24 comes with PV output only; even with wind
+  along the line (factor 0.25) no hour binds in this year,
+  but the least margin falls by a quarter: the study asks for
+  the line's real orientation and keeps a weather-based limit
+  in the controller as a fallback

@@ -1,0 +1,59 @@
+one PV block traced from module terminals to the grid meter:
+  step  tag              kind
+        verification record
+     1  =PVF1-1-S01-W1   dc cable
+        string record: polarity, open-circuit voltage, insulation
+     2  =PVF1-1-CB01-Q1  dc switch
+        combiner inspection: fuses, labels, torque record
+     3  =PVF1-1-U1       inverter
+        maker FAT report; site functional and grid-code tests
+     4  =PVF1-1-T1       transformer
+        routine test report; site ratio, insulation, vector
+     5  =PVF1-W1         cable
+        cable test record after laying; route as-built
+     6  =PVF1-Q1         breaker
+        switchgear FAT; site tests of trip circuits, relay settings
+     7  =T2-Q2           breaker
+        switchgear FAT; site tests of trip circuits, relay settings
+     8  =T2              transformer
+        routine test report; site ratio, insulation, vector
+     9  =T2-Q1           breaker
+        switchgear FAT; site tests of trip circuits, relay settings
+    10  =E1-Q1           breaker
+        switchgear FAT; site tests of trip circuits, relay settings
+    11  =E1-Q9           disconnector
+        operation and interlock checks; earthing switch record
+    12  =E1-W1           line
+        line as-built, clearances, insulation; utility acceptance
+    13  =G1-Q9           disconnector
+        operation and interlock checks; earthing switch record
+    14  =G1-Q1           breaker
+        switchgear FAT; site tests of trip circuits, relay settings
+  interfaces crossed (23):
+    =PVF1-1-S01-W1: test boundary (string checks (ch 10))
+    =PVF1-1-CB01-Q1: isolation point
+    =PVF1-1-U1: voltage 1.5 -> 0.6 kV
+    =PVF1-1-U1: protection zone Z-PVF1-1
+    =PVF1-1-U1: isolation point
+    =PVF1-1-U1: test boundary (maker FAT, site tests)
+    =PVF1-1-T1: voltage 0.6 -> 33 kV
+    =PVF1-W1: protection zone Z-PVF1
+    =PVF1-Q1: isolation point
+    =T2-Q2: protection zone Z-T2
+    =T2-Q2: isolation point
+    =T2: voltage 33 -> 132 kV
+    =T2-Q1: isolation point
+    =E1-Q1: protection zone Z-L1
+    =E1-Q1: revenue (option A) meter
+    =E1-Q9: owner plant -> open (U-065)
+    =E1-Q9: isolation point
+    =E1-Q9: test boundary (plant and utility)
+    =G1-Q9: owner open (U-065) -> utility
+    =G1-Q9: protection zone Z-GRID
+    =G1-Q9: isolation point
+    =G1-Q9: test boundary (utility)
+    =G1-Q1: revenue (option B) meter
+  every step has a record that closes it; the records are
+  named by purpose and evidence - how the tests are done
+  belongs to the testing chapters (ch 48-50) and their
+  qualified staff

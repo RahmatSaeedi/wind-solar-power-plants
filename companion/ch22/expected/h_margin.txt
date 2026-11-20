@@ -1,0 +1,15 @@
+how far one P-Central score may fall before it loses first place
+(developer weights; lead over the second 0.19):
+  criterion           weight  score  fall needed  possible
+  energy               0.30   0.49         0.64  no
+  cost incl. grid      0.25   0.71         0.77  no
+  time to COD          0.15   1.00         1.28  no
+  grid readiness       0.10   1.00         1.92  no
+  environment          0.05   1.00         3.83  no
+  social               0.05   1.00         3.83  no
+  constructability     0.10   0.78         1.92  no
+  no single score can fall far enough: even the energy score
+  would have to drop by more than it has; only several errors
+  together, or other weights (lab B), could change the first
+  place - the evidence effort goes to energy and cost, the two
+  heaviest criteria

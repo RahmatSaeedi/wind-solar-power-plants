@@ -1,0 +1,10 @@
+E01 wind at 100 m from 10 m/s at 10 m, alpha 0.14: 13.80 m/s
+E02 pressure of a 40 m/s gust in air 1.09 kg/m3: 872 Pa
+E03 vortex lock-in, f 0.5 Hz, D 3 m: 7.5 m/s
+E04 elastic buckling, t 30 mm, r 2 m, knock-down 0.4: 762 MPa
+E05 Rankine with fy 355 and 1,000 MPa: 262 MPa
+E06 S-N life at 50 MPa, detail 71: 6.27e+06 cycles
+E07 effective area, r 12 m, e 4 m: 264.0 m2
+E08 rocking stiffness, G 80 MPa, r 12 m, nu 0.3: 527 GN m/rad
+E09 Broms, d 0.15, L 2.0, gamma 18, Kp 3, e 1.2: 10.1 kN
+E10 zinc 85 um at 3 um/yr: 28 years

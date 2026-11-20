@@ -1,0 +1,12 @@
+settlement inputs by month: scheduled, metered, missing meter intervals
+  month  scheduled MWh  metered MWh  deviation  missing intervals
+      1         21,400       20,950       -450                  0
+      2         22,800       23,310       +510                 12
+      3         27,100       26,420       -680                  0
+      4         24,000       22,900     -1,100                  4
+      5         30,200       30,850       +650                  0
+      6         19,800       19,100       -700                 30
+  months with missing intervals: 2, 4, 6 - each is filled
+  from the check meter (ch 48) with a flag before the file goes
+  to settlement; June's 30 intervals are a day's work to
+  validate, not a figure to estimate

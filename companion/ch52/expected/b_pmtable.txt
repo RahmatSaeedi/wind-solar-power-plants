@@ -1,0 +1,14 @@
+preventive hours a year by subsystem (and those needing an outage)
+  PV             3,629 h   outage     290 h
+  wind             768 h   outage     756 h
+  storage           64 h   outage       0 h
+  converter         48 h   outage      48 h
+  transformer       48 h   outage      40 h
+  cables            36 h   outage       0 h
+  switchgear        32 h   outage      32 h
+  civil             32 h   outage       0 h
+  sensors           14 h   outage       0 h
+  comms             12 h   outage       0 h
+  total 4,683 h; the outage hours are the ones planned into
+  low-resource months (lesson F) and agreed in the outage
+  request (ch 51)

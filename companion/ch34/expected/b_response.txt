@@ -1,0 +1,10 @@
+worst-case response through the PLC (input + 2 scans + output + network)
+  20 + 2 x 50 + 10 + 30 = 160 ms
+  function                                 needs ms   PLC fits?
+  trip a breaker on a fault                     100   NO - protection
+  stop HVAC on a fire alarm                    1000   yes
+  fast frequency response (hypothetical)        500   yes
+  follow an export-limit set point             5000   yes
+  the change may arrive just after an input scan, so two
+  scans count; a fault trip belongs to protection relays
+  wired to the breaker, the rest fits the PLC with margin

@@ -1,0 +1,8 @@
+removable media at the HMIs (teaching counts)
+  6 HMIs, about 20 insertions a month in commissioning
+  policy: ports blocked on HMIs and servers; files enter
+    through one scanning station in the DMZ, logged
+  insertions refused and logged in a month: 20
+  the refusals are not a nuisance to be switched off; each
+  is a person who needed a file and now uses the station -
+  and the log shows when somebody keeps trying

@@ -1,0 +1,9 @@
+acceptance of turbine T05's tower and foundation, summarised
+  plates: 4 of 8 certificates do not match the order
+  welds: 3 joints by welders not qualified on the day; NDT short: attachments
+  sections releasable: 4; held: 1 (8), 2 (3), 3 (2)
+  foundation pour: 3 trucks outside the rules; pours not conforming: F03, F04
+  anchor cage: 0.92 mm/m after the pour, 92 mm at the hub - grout decision
+  nothing here shows in the finished tower: the steel looks
+  the same, the concrete is grey - only the records carry the
+  difference between a proven and an unproven structure

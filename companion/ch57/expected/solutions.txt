@@ -1,0 +1,20 @@
+P01 facts: 61; verified 28, project-dependent 1, to-confirm 32
+P02 to-confirm on secondary sources only: 21
+P03 approval path (teaching): 16.0 months
+P04 critical path: S1 > S6 > S8 > S9
+P05 not verified on the critical path: S6, S8
+P06 grid inputs complete: 15%; missing 11 of 13
+P07 certificate items not shown: 4 of 13
+P08 open stages: TJ-25 0, TJ-24 3, TJ-22 6
+P09 services verified: 2 of 6
+P10 finance items verified: 3 of 9
+P11 open issues: 33 to 15 addressees
+P12 options with every constraint met and known: string inverters 0.3 MVA
+P13 current at 220 kV: 276 A
+P14 PPA minimum term above 1 MW: 15 years (TJ-12); Sughd: 25 (TJ-14)
+P15 technical conditions: free, within 30 working days (TJ-23)
+P16 payment: in somoni, 10 banking days, <= 30 days after month-end (TJ-49)
+P17 meter class at the boundary: 1.0 or 0.5S (TJ-25)
+P18 seismic zone: Khujand 8, Dushanbe 9 MSK-64 (TJ-34)
+P19 household / industry tariff incl. VAT: 0.4137 / 0.9465 TJS/kWh (TJ-48)
+P20 SCADA, real-time data, remote curtailment, forecasts above 1 MW (TJ-24)

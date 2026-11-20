@@ -1,0 +1,9 @@
+the same debt repaid as an annuity or sculpted to the cash flow:
+  shape       min DSCR   year of min   max DSCR   min LLCR
+  sculpted        1.20             1       1.38       1.23
+  annuity         1.11             1       1.39       1.24
+  largest annuity debt at DSCR 1.20 on P90: 111,827 k u
+  (92 % of the sculpted debt)
+  an annuity is level while the cash flow is not (indexed
+  tariff, replacement years): its weakest year sets the debt;
+  sculpting matches service to cash flow and carries more debt

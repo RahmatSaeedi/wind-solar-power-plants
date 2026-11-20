@@ -1,0 +1,7 @@
+uncertainty column D = C x 4 % (A-029, annual irradiation, one standard
+    deviation):
+  June 12,595 +- 504 MWh; December 3,499 +- 140 MWh
+  year, months fully correlated (one common error): +- 3,893 MWh (4.0 %)
+  year, months independent (root-sum-square):     +- 1,200 MWh (1.2 %)
+  say which case applies: a pyranometer calibration error is common to
+  all months; weather noise is not

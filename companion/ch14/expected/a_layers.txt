@@ -1,0 +1,14 @@
+layer inventory of the screening window (synthetic, A-259):
+  window 13.0 x 7.0 km, raster 50 m; project land west of x = 9 km: 6,300 ha
+  land use and tenure (screening survey, to verify with users):
+    private farm 1                     168 ha
+    private farm 2                     100 ha
+    customary grazing (Apr-Oct)        780 ha
+    village lands                      396 ha
+    corridor farmland                  544 ha
+    state rangeland (rest)           4,856 ha
+  dwellings: 4 isolated (one seasonal) and 25 in the village
+  points: spring, raptor nest, wetland, cemetery, caravanserai ruin
+  lines: road, village track, 20 kV line, irrigation channel, wadi
+  each layer carries its source, date, accuracy and owner in the
+  constraint register; a layer without them is a rumour

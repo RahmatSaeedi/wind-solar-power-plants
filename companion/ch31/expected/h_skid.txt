@@ -1,0 +1,10 @@
+skidding the main transformer onto its plinth (72 t, oil out)
+  skid surface             friction   pull kN
+  greased steel on steel       0.10        71
+  PTFE pads                    0.05        35
+  dry steel on steel           0.25       177
+  jacks lift it on its jacking points, skid beams carry it
+  over, and a pull of a few tens of kN moves it - slowly,
+  with a restraint on the other side; the maker's
+  drawings fix the jacking and lashing points and the
+  impact recorder is read before and after (lesson C)

@@ -1,0 +1,14 @@
+% Chapter 25 - efficiency of the 63 MVA unit against load at pf 1 (P0 35 kW, Pk 250 kW; A-326), with
+% the maximum where load loss equals no-load loss. Data: diagrams/data/ch25-efficiency.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, xmin=0, xmax=1.2, ymin=98.8, ymax=99.8,
+      xlabel={بار نسبت به نامی}, ylabel={بازده درصد}, xtick={0,0.2,...,1.2},
+      ytick={98.8,99.0,...,99.8}, /pgf/number format/fixed, /pgf/number format/precision=1]
+    \addplot[sInk, mark=none] table[x=load, y=eta, col sep=comma] {data/ch25-efficiency.csv};
+    \draw[cInkB, dashed] (axis cs:0.37,98.8) -- (axis cs:0.37,99.8);
+    \node[font=\footnotesize, text=cInkB, anchor=west] at (axis cs:0.39,98.95) {بیشینه در $0.37$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

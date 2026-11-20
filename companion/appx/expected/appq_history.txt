@@ -1,0 +1,7 @@
+releases and their checksum verification
+  1.0.0: all checksums match
+  1.1.0: all checksums match
+  change log entries: 1.1.0 of 2026-11-15; 1.0.0 of 2026-11-14
+  rule in the change log: additions only, backwards compatible ->
+  minor release; each entry states its reason and the dependent
+  artefacts (ch 5)

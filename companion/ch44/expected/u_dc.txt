@@ -1,0 +1,13 @@
+DC current into the unit transformer from current-sensor offsets (teaching):
+  sensor range +-3000 A, four stacks a phase, rated 5,292 A rms,
+  limit 0.5% of rated
+  offset sd (% of range)   DC sd A   DC sd % rated   phases over
+                    0.05       3.0           0.06%         0.00%
+                    0.10       6.0           0.11%         0.00%
+                    0.30      18.1           0.34%        14.17%
+                    0.50      30.1           0.57%        38.25%
+  an offset of a few amperes in a 3,000 A sensor looks small,
+  but the transformer sees it as DC (ch 43: half a percent is
+  2.7 x its magnetising ampere-turns) - offsets are trimmed
+  and checked at the end of the line, and the limit is
+  verified once by type test with its sensors

@@ -1,0 +1,13 @@
+arc-flash boundary against clearing time (teaching scaling only)
+  incident energy 8 cal/cm2 at 455 mm for 1.0 s clearing;
+  energy ~ t / d^x with x = 2 (open air); boundary where the
+  energy falls to 1.2 cal/cm2 (onset of a second-degree burn)
+  clearing s   energy at 455 mm   boundary m
+        1.00                8.0         1.17
+        0.50                4.0         0.83
+        0.20                1.6         0.53
+        0.08                0.6         0.33
+  a faster clearing shrinks both the energy and the boundary;
+  the real values come from the arc-flash assessment by
+  qualified engineers with an accepted method and the
+  equipment's data - this table only shows the direction

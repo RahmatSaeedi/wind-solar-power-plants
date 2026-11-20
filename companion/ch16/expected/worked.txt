@@ -1,0 +1,12 @@
+E01: z for P90, P95, P99: 1.2816, 1.6449, 2.3263
+E02: P90 of 300 GWh at 5 %: 280.78 GWh
+E03: independent 3 % and 4 %: 5.0 %; fully correlated 7 %
+E04: r 0.5: sqrt(9 + 16 + 2 x 0.5 x 12) = 6.08 %
+E05: speed 2.6 % x sensitivity 1.82 = 4.73 % of energy
+E06: long-term 3 %, year-to-year 4 %: one year 5.0 %, ten years 3.26 %
+E07: shares of 3 and 4: 0.36 and 0.64
+E08: MC noise of a P90 with 10,000 draws, sigma 15 GWh: about 0.26 GWh
+E09: annuity factor 6 %, 15 years: 9.7122
+E10: CFADS 9,796 k u at ratio 1.20: debt 79,284 k u
+E11: lognormal P90 at 10 %: 88.50 against normal 87.18
+E12: uniform half-width for sigma 5 %: 8.66 %

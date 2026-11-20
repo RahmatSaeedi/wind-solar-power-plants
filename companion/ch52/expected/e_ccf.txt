@@ -1,0 +1,9 @@
+two SCADA servers, each unavailable 0.5%; share beta of that is common
+  (same firmware, same room cooling, same power)
+  beta    pair unavailable   hours a year
+  0.00           0.000025         0.22
+  0.05           0.000273         2.39
+  0.10           0.000520         4.56
+  a beta of 0.10 makes the pair 21 times worse than the
+  independent model: redundancy is only as good as what the
+  two do not share (ch 35 rings, ch 36 recovery)

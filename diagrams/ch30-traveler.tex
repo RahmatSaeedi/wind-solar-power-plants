@@ -1,0 +1,29 @@
+% Chapter 30 - the fabrication flow of a tower section read right to left, with hold points
+% (red) and witness points; the data book collects every record (lab E; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=19mm, minimum height=10mm, text width=17mm},
+    hold/.style={blkWarn, minimum width=19mm, minimum height=10mm, text width=17mm}]
+  \node[hold] (a) at (15.0,0) {پذیرشِ ورق و گواهی};
+  \node[st] (b) at (12.6,0) {برش و نوردِ حلقه‌ها};
+  \node[st] (c) at (10.2,0) {جوشِ طولی و محیطی};
+  \node[hold] (d) at (7.8,0) {فلنج و تختی};
+  \node[hold] (e) at (5.4,0) {قابِ در};
+  \node[hold] (f) at (15.0,-2.2) {آزمونِ فراصوتی و مغناطیسی};
+  \node[hold] (g) at (12.6,-2.2) {نقشه‌برداریِ ابعادی};
+  \node[hold] (h) at (10.2,-2.2) {زنگ‌زدایی و پوشش};
+  \node[st] (i) at (7.8,-2.2) {تجهیزاتِ درونی};
+  \node[hold, blkWind] (j) at (5.4,-2.2) {آزادسازی و ارسال};
+  \draw[flow] (a) -- (b);
+  \draw[flow] (b) -- (c);
+  \draw[flow] (c) -- (d);
+  \draw[flow] (d) -- (e);
+  \draw[flow] (e.west) -- ++(-0.3,0) |- (16.3,-1.1) |- (f.east);
+  \draw[flow] (f) -- (g);
+  \draw[flow] (g) -- (h);
+  \draw[flow] (h) -- (i);
+  \draw[flow] (i) -- (j);
+  \node[note, anchor=north] at (10.2,-3.1) {قرمز: نقطهٔ توقف؛ همهٔ سوابق با شمارهٔ بخش و شمارهٔ ذوبِ ورق به پروندهٔ داده می‌رود};
+\end{tikzpicture}
+\end{document}

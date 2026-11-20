@@ -1,0 +1,13 @@
+month-by-month plan from the approval map (teaching durations)
+  step  start  finish  what
+  S1      0.0     6.0  competitive procedure (qualification, bid, award)
+  S2      6.0     9.0  investment agreement with the Government
+  S3      6.0     9.0  PPA with the single buyer (>= 15 years)
+  S4      6.0     7.5  technical conditions for connection
+  S6      6.0    12.0  ecological expertise / EIA conclusion
+  S5      7.5    10.5  grid connection agreement
+  S7      9.0    13.0  land use right and lease
+  S10     9.0    11.0  permit under Law 1968, if any
+  S8     12.0    14.0  state energy-expertise conclusion
+  S11    13.0    15.0  special water-use permit
+  S9     14.0    16.0  design approval, state energy supervision

@@ -1,0 +1,10 @@
+on-site check of a PQ instrument with a reference source (teaching)
+  quantity   reference   reading   tolerance   result
+  U1 %         100.000   100.050   +/- 0.100   pass
+  U5 %           2.000     2.040   +/- 0.050   pass
+  U7 %           1.000     0.990   +/- 0.050   pass
+  Pst            1.000     1.030   +/- 0.050   pass
+  f Hz          50.000    50.002   +/- 0.010   pass
+  the check proves the instrument on site, not the
+  transducers - those need their own data (lesson A); the
+  record joins the calibration certificate in the dossier

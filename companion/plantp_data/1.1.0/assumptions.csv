@@ -1,0 +1,100 @@
+id,quantity,value,unit,status,source,introduced_in,note
+A-001,Site latitude,34.0,deg N,assumed,data pack 1.0.0,ch01,fictional; no longitude is defined (non-geolocated)
+A-002,Site elevation,1200,m,assumed,data pack 1.0.0,ch01,fictional
+A-003,Time zone of all timestamps,UTC+04:00,-,assumed,data pack 1.0.0,ch01,fixed offset; no daylight saving; site meridian = zone meridian
+A-004,Nominal grid frequency,50,Hz,assumed,data pack 1.0.0,ch01,teaching value
+A-005,Wind turbine count and rating,12 x 5,MW,assumed,data pack 1.0.0,ch01,fictional turbine WT-5.0-150
+A-006,Wind turbine hub height,100,m,assumed,data pack 1.0.0,ch01,equals the top measurement height
+A-007,PV module,PVM-550,-,synthetic,data pack 1.0.0,ch01,fictional 550 Wp module
+A-008,PV DC/AC ratio,1.2,-,assumed,derived from SR-01 and SR-02,ch01,60 MWp / 50 MW
+A-009,BESS usable state-of-charge window (S1),10 to 90,percent,assumed,scenario S1,ch01,usable 32 MWh at beginning of life
+A-010,BESS round-trip efficiency AC to AC (S1),86,percent,assumed,scenario S1,ch01,one-way 92.7 percent
+A-011,BESS capacity fade (S1),2.0,percent per year,assumed,scenario S1,ch01,linear teaching model
+A-012,BESS charging source (S1),on-site PV and wind only,-,assumed,scenario S1,ch01,grid charging NOT permitted unless a scenario says so
+A-013,Hourly resource data,synthetic 8760 h,-,synthetic,generate_release.py seed 20260101,ch01,replaced by measured data in later scenarios
+A-014,Strings per combiner box,24,-,assumed,chapter 6 text,ch06,
+A-015,Modules per string,26,-,assumed,chapter 6 text,ch06,
+A-016,Minimum cell temperature for the voltage check,-10,degC,assumed,chapter 6 text,ch06,site climate data replace it (chapter 12)
+A-017,Maximum DC system voltage,1500,V,assumed,chapter 6 text,ch06,
+A-018,Combiner-box-to-inverter feeder,180 m aluminium,-,assumed,chapter 6 text,ch06,
+A-019,Conductor temperature for DC loss calculations,50,degC,assumed,chapter 6 text,ch06,
+A-020,Inverter MPPT voltage range,850 to 1300,V,assumed,chapter 6 text,ch06,
+A-021,Feeder voltage-drop target at STC,1,percent,assumed,chapter 6 text,ch06,"a design target, not a rule"
+A-022,Mean one-way string cable,70 m copper 4 mm2,-,assumed,chapter 6 text,ch06,
+A-023,Wind direction convention,"from geographic north, clockwise, direction FROM",deg,assumed,chapter 2 text,ch02,convention
+A-024,Active-power sign,export at the point of connection positive; battery discharge positive,-,assumed,chapter 2 text,ch02,convention
+A-025,Interval label,start of interval; interval-ending data shifted on import,-,assumed,chapter 2 text,ch02,convention; see raw/ files of 1.1.0
+A-026,Data units,SI; unit in the column header; MWp is a label only,-,assumed,chapter 2 text,ch02,convention
+A-027,Capacity-factor basis,own AC rating per technology; plant on the connection limit; hours from the data,-,assumed,chapter 2 text,ch02,convention
+A-028,Air density in the screening model,"power curve at 1.225 kg/m3, uncorrected",-,assumed,chapter 2 text,ch02,superseded for the dossier by D-008 (ch04)
+A-029,Resource uncertainty (teaching),speed 3; annual irradiation 4; independent,percent,assumed,chapter 2 text,ch02,
+A-030,Document numbering and revision scheme,PLP-DIS-TYP-NNNN,-,assumed,chapter 2 text,ch02,see tbl-ch02-doc-scheme
+A-031,PV table geometry,slope 4.6 m; tilt 25 deg; facing south,-,assumed,chapter 3 text,ch03,
+A-032,33 kV cable impedance,0.125 + j0.110,ohm/km,assumed,chapter 3 text,ch03,240 mm2 class; fictional
+A-033,Cable thermal model,time constant 0.5 h (buried 3 h); 40 K at 552.5 A,-,assumed,chapter 3 text,ch03,
+A-034,Transformer two-state thermal model,C 2e5 and 4e6 J/K; G 4000 and 2500 W/K,-,assumed,chapter 3 text,ch03,winding and oil
+A-035,Hourly price profile,synthetic,u/MWh,synthetic,chapter 3 text,ch03,fictional currency unit u
+A-036,Annual maxima of 10-min mean wind,"30 values, Gumbel mu 26, beta 2.5",m/s,synthetic,chapter 3 text,ch03,fixed seed
+A-037,Plant costs,capex 100 million u; opex 2.75 million u/yr; 7 %; 25 years,u,assumed,chapter 3 text,ch03,fictional money
+A-038,Cable cost model and value of losses,60 000 + 300 A u/km; 40 u/MWh,u,assumed,chapter 3 text,ch03,fictional money
+A-039,Turbine MTBF and MTTR,2000; 60,h,assumed,chapter 3 text,ch03,
+A-040,Inverter current harmonics,5th 0.04; 7th 0.03,pu,assumed,chapter 3 text,ch03,
+A-041,"Local coordinates of three turbines, mast and substation",relative to a reference meridian,deg,synthetic,chapter 3 text,ch03,not geolocated
+A-042,Gearbox condition-monitoring rates,prior 2; sensitivity 90; false alarm 5,percent,assumed,chapter 3 text,ch03,
+A-043,Soil thermal diffusivity and cable depth,0.5e-6 m2/s; 0.8 m,-,assumed,chapter 3 text,ch03,
+A-044,"Availability of breaker, transformer, export line",0.999; 0.995; 0.997,-,assumed,chapter 3 text,ch03,
+A-045,Uncertain factors of the simple energy model,3; 2; 4; 2,percent,assumed,chapter 3 text,ch03,one standard deviation each
+A-046,Thrust coefficient and rotor-nacelle mass,C_T 0.8; 350 t,-,assumed,chapter 4 text,ch04,
+A-047,"Rotor speed, gearbox ratio, drivetrain efficiencies",10.5 rpm; 1:110; 0.94,-,assumed,chapter 4 text,ch04,
+A-048,Blade mass and length,20 t; 73 m; mass tapering to the tip,-,assumed,chapter 4 text,ch04,
+A-049,Gust and force coefficient,30 m/s; 1.2,-,assumed,chapter 4 text,ch04,
+A-050,Tower geometry and steel,uniform tube 100 m; E 210 GPa; 7850 kg/m3,-,assumed,chapter 4 text,ch04,
+A-051,Sample busbar and heat-transfer coefficient,80 x 10 mm; h 10 W/m2K; 40 C,-,assumed,chapter 4 text,ch04,
+A-052,Cable geometry and dielectric constants,r 10/18 mm; eps_r 2.3; tan d 4e-4,-,assumed,chapter 4 text,ch04,
+A-053,Export transformer core,0.5 m2; 1.7 T,-,assumed,chapter 4 text,ch04,
+A-054,"Short-circuit current, peak factor, busbar spacing",21.9 kA; 1.8; 0.3 m,-,assumed,chapter 4 text,ch04,
+A-055,Sound power level per turbine,105,dB(A),assumed,chapter 4 text,ch04,as in chapter 3
+A-056,Tensile curve and sample bolt,S355-like; M36 grade 10.9,-,synthetic,chapter 4 text,ch04,
+A-057,Tracker torque tube,D 140 mm; t 4 mm; span 7 m,-,assumed,chapter 4 text,ch04,
+A-058,"Fatigue, fracture, relaxation and corrosion data","e.g. 71 MPa at 2e6, m 3",-,assumed,chapter 4 text,ch04,
+A-059,Material properties and selection scores,indicative,-,assumed,chapter 4 text,ch04,certified supplier data replace them
+A-060,"Prices, process costs, process-control data",Cu 9.0 u/kg; Al 2.6 u/kg,-,assumed,chapter 4 text,ch04,fictional money
+A-061,Switchgear room and busbar temperature limit,air + 15 K; 90 C,-,assumed,chapter 4 text,ch04,
+A-062,Contact-resistance growth model,1.2 W/K; 0.08 1/yr at 40 C; 70 kJ/mol,-,assumed,chapter 4 text,ch04,
+A-063,Transformer core path and permeability,6 m; mu_r 30 000; 175 turns,-,assumed,chapter 4 text,ch04,
+A-064,Cell internal resistance; inverter for cooling,0.25 mOhm; 4.2 MW; 0.985,-,assumed,chapter 4 text,ch04,
+A-065,Insulation ageing,Ea 100 kJ/mol; reference 90 C,-,assumed,chapter 4 text,ch04,
+A-066,Foundation concrete,380 kg/m3 cement; 330 kJ/kg,-,assumed,chapter 4 text,ch04,
+A-067,Embodied-energy intensities,steel 25; composite 100; Cu 60; concrete 1.5,MJ/kg,assumed,chapter 4 text,ch04,indicative
+A-068,PV mounting tolerance chain,20; 3; 2; 1.5,mm,assumed,chapter 4 text,ch04,"plus-minus, uniform"
+A-069,Blade section,r 50 m; chord 2 m; Cl 1.0; Cd 0.01; a 1/3,-,assumed,chapter 4 text,ch04,
+A-070,Power-module thermal resistances,2 kW; 0.020; 0.010; 0.015 K/W,-,assumed,chapter 4 text,ch04,
+A-071,Cathodic-protection current,0.5 A for 20 years,-,assumed,chapter 4 text,ch04,
+A-072,Glass strength Weibull parameters,50 and 150 MPa; m 7,-,assumed,chapter 4 text,ch04,
+A-073,Chvorinov constant,2.5,min/cm2,assumed,chapter 4 text,ch04,
+A-074,Transformer winding,175 turns of 2.5 m; 3 A/mm2,-,assumed,chapter 4 text,ch04,
+A-075,Resistivity of materials,orders of magnitude,ohm m,assumed,chapter 4 text,ch04,indicative
+A-076,Tower drag,rho 1.05; v 11 m/s; alpha 0.171; Cd 0.6,-,assumed,chapter 4 text,ch04,
+A-077,Cable-screen earth fault,35 mm2 Cu; 2 kA for 1 s from 70 C,-,assumed,chapter 4 text,ch04,
+A-078,Flange bolt pattern and moment swing,140 x M36 on 4.7 m; +-20 MN m,-,assumed,chapter 4 text,ch04,
+A-079,Resin infusion,mu 0.25 Pa s; phi 0.5; K 2e-10 m2; dP 0.9e5 Pa,-,assumed,chapter 4 text,ch04,
+A-080,Thermography camera setting,joint 80 C; room 30 C; camera eps 0.95,-,assumed,chapter 4 text,ch04,
+A-081,Cable sheath in sun,D 50 mm; absorptance 0.6; 1000 W/m2,-,assumed,chapter 4 text,ch04,
+A-082,Ultraviolet share and test-chamber intensity,5 %; 60 W/m2,-,assumed,chapter 4 text,ch04,
+A-083,Faying-surface friction coefficient,0.35; 8 x M36,-,assumed,chapter 4 text,ch04,
+A-084,Rain-erosion speed exponent,7,-,assumed,chapter 4 text,ch04,
+A-085,Chemical composition of two steel heats,see chapter 4,-,assumed,chapter 4 text,ch04,
+A-086,Process FMEA scores,1 to 10,-,assumed,chapter 4 text,ch04,
+A-087,Sample foundation,600 m3 concrete; 20 m square base; 800 m3 backfill,-,assumed,chapter 4 text,ch04,
+A-088,Flange flatness survey,16 points on 4.7 m; seed 20260304,-,synthetic,chapter 4 text,ch04,
+A-089,Raw met-mast logger file,10 min; interval-END labels; UTC+04:00 not written,-,synthetic,raw/met_mast_10min_raw.csv,ch05,defects listed in the key file
+A-090,PV SCADA export,hourly kWh; UTC with Z; semicolon and decimal comma,-,synthetic,raw/pv_scada_export.csv,ch05,one hour missing on purpose
+A-091,Collector system for the loss calculator,4 feeders x 6 km; 33 kV; pf 0.95; R20 0.10 ohm/km; 70 C,-,assumed,chapter 5 text,ch05,equal shares
+A-092,Export transformer losses,120 MVA; no-load 60 kW; load 400 kW at rated,-,assumed,chapter 5 text,ch05,fictional
+A-093,Cash-flow inputs,50 u/MWh; 0.5 %/yr; 70 % debt at 6 % over 15 years; 25 years; no tax,-,assumed,chapter 5 text,ch05,fictional money
+A-094,Asset register,teaching tag scheme PLP-SYS-nn[-XXX],-,synthetic,assets/asset_register_rev_A.csv,ch05,not a published designation standard
+A-095,Mock CMMS,fixed field names; 40-character text field,-,synthetic,chapter 5 text,ch05,no vendor implied
+A-096,Spreadsheet model sample,cell formulas of a yield sheet,-,synthetic,chapter 5 text,ch05,
+A-097,PV model of chapter 5,NOCT cell temperature; -0.35 %/K; k_other 0.90; inverter 0.98; horizontal irradiance,-,assumed,chapter 5 text,ch05,refined in chapters 10 and 15
+A-098,Measured first tower frequency,0.221,Hz,synthetic,chapter 5 text,ch05,invented commissioning value for the CAE example
+A-099,"Warranty, test and work-order records","GEN, GBX, INV 5 years; transformers 2 years",-,synthetic,chapter 5 text,ch05,asset-information laboratory

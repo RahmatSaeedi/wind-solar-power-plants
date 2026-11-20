@@ -1,0 +1,12 @@
+award recommendation for the PV unit transformers (A-428)
+  U-A: evaluated 2,072 k u; acceptable
+  U-B: evaluated 2,141 k u; not acceptable - T07, T14, process control
+  U-C: evaluated 2,093 k u; acceptable
+  recommended: U-A, lowest evaluated price among acceptable offers,
+    21 k u (1 %) below the next - a margin inside
+    the uncertainty of the loss evaluation; the audit (3.76
+    against 3.24) and the data schedule decide it as well
+  conditions: close U-A's two deviations (fluid, monitoring
+  interface) and its data update duty before signature;
+  the recommendation is the procurement team's; the award
+  is the owner's decision

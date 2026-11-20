@@ -1,0 +1,94 @@
+% Chapter 18 - system-level interface (N-squared) matrix of Plant P: the diagonal names the
+% systems; an off-diagonal cell lists the interface kinds between the two (E electrical,
+% M mechanical, T thermal, P protection, C control/comms, V civil, W water, G grid code).
+% Generated from companion/ch18/examples_g.py LINKS; teaching.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    dg/.style={draw=cInkB, fill=cFill, minimum size=1.55cm, inner sep=1pt, align=center, text width=1.45cm, font=\scriptsize\bfseries},
+    cl/.style={draw=cRule, minimum size=1.55cm, inner sep=1pt, font=\ttfamily, text=cInk},
+    on/.style={cl, fill=cWind!10}]
+  \node[dg] at (12.40,0.00) {مزرعهٔ بادی};
+  \node[cl] at (10.85,0.00) {};
+  \node[cl] at (9.30,0.00) {};
+  \node[on] at (7.75,0.00) {\babelsublr{EPC}};
+  \node[cl] at (6.20,0.00) {};
+  \node[cl] at (4.65,0.00) {};
+  \node[on] at (3.10,0.00) {\babelsublr{C}};
+  \node[cl] at (1.55,0.00) {};
+  \node[on] at (0.00,0.00) {\babelsublr{MV}};
+  \node[cl] at (12.40,-1.55) {};
+  \node[dg] at (10.85,-1.55) {نیروگاهِ خورشیدی};
+  \node[cl] at (9.30,-1.55) {};
+  \node[on] at (7.75,-1.55) {\babelsublr{EPC}};
+  \node[cl] at (6.20,-1.55) {};
+  \node[cl] at (4.65,-1.55) {};
+  \node[on] at (3.10,-1.55) {\babelsublr{C}};
+  \node[on] at (1.55,-1.55) {\babelsublr{W}};
+  \node[on] at (0.00,-1.55) {\babelsublr{MV}};
+  \node[cl] at (12.40,-3.10) {};
+  \node[cl] at (10.85,-3.10) {};
+  \node[dg] at (9.30,-3.10) {باتری};
+  \node[on] at (7.75,-3.10) {\babelsublr{EPC}};
+  \node[cl] at (6.20,-3.10) {};
+  \node[cl] at (4.65,-3.10) {};
+  \node[on] at (3.10,-3.10) {\babelsublr{CT}};
+  \node[on] at (1.55,-3.10) {\babelsublr{W}};
+  \node[on] at (0.00,-3.10) {\babelsublr{MV}};
+  \node[on] at (12.40,-4.65) {\babelsublr{EPC}};
+  \node[on] at (10.85,-4.65) {\babelsublr{EPC}};
+  \node[on] at (9.30,-4.65) {\babelsublr{EPC}};
+  \node[dg] at (7.75,-4.65) {جمع‌آوری};
+  \node[on] at (6.20,-4.65) {\babelsublr{EP}};
+  \node[cl] at (4.65,-4.65) {};
+  \node[cl] at (3.10,-4.65) {};
+  \node[cl] at (1.55,-4.65) {};
+  \node[on] at (0.00,-4.65) {\babelsublr{V}};
+  \node[cl] at (12.40,-6.20) {};
+  \node[cl] at (10.85,-6.20) {};
+  \node[cl] at (9.30,-6.20) {};
+  \node[on] at (7.75,-6.20) {\babelsublr{EP}};
+  \node[dg] at (6.20,-6.20) {پست};
+  \node[on] at (4.65,-6.20) {\babelsublr{EPCG}};
+  \node[on] at (3.10,-6.20) {\babelsublr{CP}};
+  \node[cl] at (1.55,-6.20) {};
+  \node[on] at (0.00,-6.20) {\babelsublr{MV}};
+  \node[cl] at (12.40,-7.75) {};
+  \node[cl] at (10.85,-7.75) {};
+  \node[cl] at (9.30,-7.75) {};
+  \node[cl] at (7.75,-7.75) {};
+  \node[on] at (6.20,-7.75) {\babelsublr{EPCG}};
+  \node[dg] at (4.65,-7.75) {شبکه};
+  \node[on] at (3.10,-7.75) {\babelsublr{CG}};
+  \node[cl] at (1.55,-7.75) {};
+  \node[cl] at (0.00,-7.75) {};
+  \node[on] at (12.40,-9.30) {\babelsublr{C}};
+  \node[on] at (10.85,-9.30) {\babelsublr{C}};
+  \node[on] at (9.30,-9.30) {\babelsublr{CT}};
+  \node[cl] at (7.75,-9.30) {};
+  \node[on] at (6.20,-9.30) {\babelsublr{CP}};
+  \node[on] at (4.65,-9.30) {\babelsublr{CG}};
+  \node[dg] at (3.10,-9.30) {کنترل};
+  \node[cl] at (1.55,-9.30) {};
+  \node[cl] at (0.00,-9.30) {};
+  \node[cl] at (12.40,-10.85) {};
+  \node[on] at (10.85,-10.85) {\babelsublr{W}};
+  \node[on] at (9.30,-10.85) {\babelsublr{W}};
+  \node[cl] at (7.75,-10.85) {};
+  \node[cl] at (6.20,-10.85) {};
+  \node[cl] at (4.65,-10.85) {};
+  \node[cl] at (3.10,-10.85) {};
+  \node[dg] at (1.55,-10.85) {آب};
+  \node[on] at (0.00,-10.85) {\babelsublr{V}};
+  \node[on] at (12.40,-12.40) {\babelsublr{MV}};
+  \node[on] at (10.85,-12.40) {\babelsublr{MV}};
+  \node[on] at (9.30,-12.40) {\babelsublr{MV}};
+  \node[on] at (7.75,-12.40) {\babelsublr{V}};
+  \node[on] at (6.20,-12.40) {\babelsublr{MV}};
+  \node[cl] at (4.65,-12.40) {};
+  \node[cl] at (3.10,-12.40) {};
+  \node[on] at (1.55,-12.40) {\babelsublr{V}};
+  \node[dg] at (0.00,-12.40) {عمران};
+  \node[note, text width=120mm] at (6.20,-13.72) {E برقی، M مکانیکی، T حرارتی، P حفاظت، C کنترل و ارتباطات، V عمرانی، W آب، G کدِ شبکه};
+\end{tikzpicture}
+\end{document}

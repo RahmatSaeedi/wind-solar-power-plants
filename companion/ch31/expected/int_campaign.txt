@@ -1,0 +1,10 @@
+the delivery campaign of Plant P in numbers (teaching)
+  turbine abnormal loads: 108 (12 x 9)
+  crane: one main crawler crane, about 10 days a turbine plus
+    3 days of moving between pads -> about 156 crane days
+  weather standby expected: about 14 k u a nacelle lift (lab D),
+    with a worst case near 300 k u
+  collector drums 186, conductor reels 12, transformer 1 heavy haul
+  laydown: about 9,600 m2 at peak (four turbines staged)
+  bridges: 2 of 3 need the owner's assessment before any convoy
+  hold points per nacelle lift: 8 (lab D)

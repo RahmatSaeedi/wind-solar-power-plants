@@ -1,0 +1,7 @@
+factory load with our order and the wait it adds
+  supplier  capacity  booked + ours  load   mean wait, weeks
+  U-A            900            656   73%      5.4
+  U-C            250            226   90%     18.8
+  a queue's wait grows as load/(1 - load): at 73 % it is
+  about 5 weeks, at 90 % three times that; a busy factory
+  is not a better one - the audit asks for its order book

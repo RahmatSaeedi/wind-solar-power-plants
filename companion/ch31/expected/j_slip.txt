@@ -1,0 +1,9 @@
+will the nacelle be at the pad when the crane is? (Monte Carlo)
+  ship +/- 4 days, permit delay mean 1.5 days, road 0-2 nights
+  planned buffer between delivery and lift: 7 days
+  share of nacelles later than the buffer: 12.5 %
+  expected crane idle days per nacelle: 0.28 (at 29 k u a day: 8.2 k u)
+  with a 3-day buffer instead: 40 % late, 36.8 k u
+  a week of buffer costs laydown space and preservation; a
+  short buffer costs crane days - the plan sets it from
+  these two costs, and the buffer is the cheaper one here

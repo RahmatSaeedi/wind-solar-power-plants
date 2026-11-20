@@ -1,0 +1,12 @@
+finance cases (ch 21 model, debt held at the base size)
+  case                    min DSCR   LLCR  equity IRR
+  base                        1.20   1.23       10.2%
+  P90 one-year energy         1.12   1.14        8.5%
+  capex +10 %                 1.22   1.25        8.1%
+  one year late               1.20   1.23        8.7%
+  price -10 %                 1.06   1.09        7.5%
+  P90 + capex +10 %           1.12   1.15        6.6%
+  break-even tariff for min DSCR 1.05 (default): 62.7 u/MWh
+  break-even tariff for NPV 0 at WACC: 68.0 u/MWh
+  lowest case: price -10 %, min DSCR 1.06 (+0.01 against the default);
+  financeable at teaching terms, with the tariff as the thin margin

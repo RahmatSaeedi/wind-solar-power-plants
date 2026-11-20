@@ -1,0 +1,10 @@
+a device clock that drifts 20 ppm, corrected at each time poll
+  poll every   largest error just before the poll
+      16 s          0.32 ms
+      64 s          1.28 ms
+    1024 s         20.48 ms
+    3600 s         72.00 ms
+  the error between polls grows with the interval; a
+  device that time-stamps its own events needs a poll short
+  enough for its accuracy class, and its holdover (lesson
+  N) covers the time server's loss, not the poll gap

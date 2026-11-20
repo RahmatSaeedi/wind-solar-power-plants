@@ -1,0 +1,9 @@
+spare channels in the RTU by card type (teaching rule 15%)
+  analogue in    96 channels,   88 used,   8% spare
+  digital in    192 channels,  151 used,  21% spare
+  digital out    64 channels,   61 used,   5% spare
+  RTD in         32 channels,   24 used,  25% spare
+  below the rule: analogue in, digital out - the next breaker added to
+  the substation needs analogue and output channels the RTU no
+  longer has; a card added later needs a slot, power and a
+  configuration change - spares are bought with the RTU

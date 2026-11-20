@@ -1,0 +1,8 @@
+main shaft: crack size that fails at once (fracture mechanics)
+  K_IC 60 MPa sqrt(m), stress 150 MPa, Y 1.12 (teaching)
+  critical crack depth a_c = (K / (Y sigma))^2 / pi = 40.6 mm
+  ultrasonic testing of the forging finds about 3.0 mm:
+  a margin of 14 x in depth for fatigue growth
+  the forging is accepted on what UT finds; the time a crack
+  needs to grow from there to a_c is the fatigue design, and
+  the inspection interval in service follows from it

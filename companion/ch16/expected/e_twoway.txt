@@ -1,0 +1,9 @@
+debt (million u) by price and P90 cover ratio (one-year sigma 15.0 GWh):
+  price u/MWh   1.15   1.20   1.25   1.30   1.35
+        40       58.3   57.0   54.7   52.6   50.6
+        45       69.3   68.1   65.4   62.9   60.6
+        50       80.4   79.3   76.1   73.2   70.5
+        55       91.4   90.5   86.8   83.5   80.4
+        60      102.4  101.6   97.6   93.8   90.3
+  price moves the debt more than the cover ratio does within
+  these ranges: the energy statement is one input of several

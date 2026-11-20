@@ -1,0 +1,10 @@
+grievance log on day 226 (acknowledge in 3 days, close in 30)
+  acknowledged late: G-23, G-26
+  open: G-23 (wages (subcontractor)) for 64 days
+  open: G-26 (wages (subcontractor)) for 36 days
+  open: G-28 (hiring) for 12 days
+  past the closing time: G-23, G-26
+  the two oldest open ones are one subcontractor's wages (G-23, G-26):
+  a pattern, not two cases - it goes to the EPC contractor's
+  management under the approved labour plan, and the
+  workers are told what happens next (ch 33 workflow)

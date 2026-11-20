@@ -1,0 +1,12 @@
+standard uncertainty of the annual PR (teaching values, %)
+  source                                     u %
+  plane-of-array irradiation (sensor class)   1.5
+  energy meter at MV                          0.2
+  DC rating (flash-test tolerance)            1.0
+  combined (root sum of squares)              1.8
+  PR 0.832 +/- 0.015 (k = 1), +/- 0.030 (k = 2)
+  the sensor dominates. A PR of 0.83 cannot be told from
+  0.85 by this sensor alone; month-to-month changes on the
+  same sensor are far better known, because its bias is
+  the same in both months and cancels - trends are
+  sharper than absolute values (ch 2, uncertainty)

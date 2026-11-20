@@ -1,0 +1,5 @@
+12 grid-outage hours a year: energy lost depends on when they fall
+  model run (seed 151): 491 MWh
+  500 random years: mean 401 MWh, 10-90 % 286 .. 516 MWh
+  outages in storms (windy hours) cost more than the mean: a
+  grid-availability figure needs its timing as well (chapter 27)

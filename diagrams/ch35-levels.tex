@@ -1,0 +1,40 @@
+% Chapter 35 - the levels of the SCADA of Plant P: field devices, station level, plant SCADA and the
+% systems outside the plant, joined by the plant network and separated by the firewall of ch 36
+% (examples_c; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=27mm, minimum height=9mm, text width=25mm},
+    f/.style={blk, minimum width=17mm, minimum height=8mm, text width=15mm},
+    lv/.style={note, anchor=west, text width=20mm}]
+  \coordinate (n1) at (0,1.0);
+  \coordinate (n2) at (0,3.0);
+  \coordinate (n3) at (0,5.0);
+  \node[s, blkLoad] (g) at (9.0,6.2) {مرکزِ کنترلِ بهره‌بردارِ شبکه};
+  \node[s, blkLoad] (o) at (5.5,6.2) {مرکزِ کنترلِ دورِ مالک};
+  \node[s, blkLoad] (b) at (2.0,6.2) {سامانه‌های نگهداری و دارایی};
+  \node[s, blkBESS] (srv) at (9.0,4.0) {سرورهای اسکادا، دوتایی};
+  \node[s, blkBESS] (his) at (5.5,4.0) {تاریخ‌نگار};
+  \node[s, blkBESS] (hmi) at (2.0,4.0) {نمایشگرهای اپراتور};
+  \node[s, blkWind] (rtu) at (9.0,2.0) {دروازهٔ ارتباطی و پایانهٔ دوردست};
+  \node[s, blkWind] (ppc) at (5.5,2.0) {کنترل‌گرِ نیروگاه (فصلِ ۳۴)};
+  \node[s, blkWind] (sw) at (2.0,2.0) {سوئیچ‌های حلقه و پست};
+  \node[f, blkPV] (f1) at (10.6,0) {توربین‌ها};
+  \node[f, blkPV] (f2) at (8.1,0) {اینورترها};
+  \node[f, blkPV] (f3) at (5.6,0) {ظرف‌های باتری};
+  \node[f, blkPV] (f4) at (3.1,0) {رله‌های پست};
+  \node[f, blkPV] (f5) at (0.6,0) {ایستگاه‌های هواشناسی};
+  \draw[bus] (-0.4,1.0) -- (11.5,1.0);
+  \draw[bus] (-0.4,3.0) -- (11.5,3.0);
+  \foreach \a in {f1, f2, f3, f4, f5} {\draw (\a.north) -- (\a.north |- n1);}
+  \foreach \a in {rtu, ppc, sw} {\draw (\a.south) -- (\a.south |- n1); \draw (\a.north) -- (\a.north |- n2);}
+  \foreach \a in {srv, his, hmi} {\draw (\a.south) -- (\a.south |- n2);}
+  \draw[boundary] (-0.4,5.0) -- (11.5,5.0);
+  \node[lv] at (11.7,5.0) {دیوارهٔ آتش (فصلِ ۳۶)};
+  \foreach \a in {g, o, b} {\draw[flowinfo] (\a.south) -- (\a.south |- n3);}
+  \node[lv] at (11.7,6.2) {بیرون از نیروگاه};
+  \node[lv] at (11.7,4.0) {سامانهٔ اسکادا};
+  \node[lv] at (11.7,2.0) {ایستگاه};
+  \node[lv] at (11.7,0.0) {میدان};
+\end{tikzpicture}
+\end{document}

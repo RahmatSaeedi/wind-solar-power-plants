@@ -1,0 +1,106 @@
+% =====================================================================
+%  SHARED FIGURE PREAMBLE — every figure of the book starts with
+%      \input{_preamble}
+%  (the leading underscore keeps the figure builder from treating this file
+%   as a figure). After changing it: python tools/build_all.py --force-diagrams
+%
+%  Engine rules are those of figure-template.tex / README "The figure pipeline":
+%  LuaLaTeX + babel bidi=basic, Vazirmatn with Renderer=Node, and the WHOLE
+%  tikzpicture inside \babelsublr{...}.
+%
+%  Colour: one fixed colour per ENTITY, in every figure of the book. The five
+%  hues were checked with the dataviz palette validator on white paper
+%  (adjacent CVD dE 9.2, normal-vision dE 27.6; wind/PV/BESS also pass all-pairs).
+%  cBESS is below 3:1 contrast on white, so colour never carries identity
+%  alone: every series also has its own dash pattern and a direct label
+%  (this is also what keeps the figures readable in a grey-scale print).
+%  Text is always ink (cInk / cInkB), never the series colour.
+% =====================================================================
+\documentclass{article}
+\usepackage[paperwidth=120cm,paperheight=120cm,margin=10mm]{geometry}
+\pagestyle{empty}
+\usepackage{fontspec}
+\usepackage[bidi=basic]{babel}
+\babelprovide[import]{english}
+\babelprovide[main, import]{persian}
+\babelfont{rm}[Renderer=Node, Path=../fonts/, Extension=.ttf, UprightFont=*-Regular, BoldFont=*-Bold]{Vazirmatn}
+\babelfont{sf}[Renderer=Node, Path=../fonts/, Extension=.ttf, UprightFont=*-Regular, BoldFont=*-Bold]{Vazirmatn}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+% IEC-style symbols (rectangular resistors), as used in the region's drawings.
+\usepackage[european, straightvoltages]{circuitikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric, shapes.misc, shapes.multipart,
+                calc, fit, backgrounds, patterns, decorations.pathreplacing, matrix}
+
+% ---- entity colours (fixed for the whole book) ------------------------
+\definecolor{cWind}{HTML}{2A78D6}   % wind
+\definecolor{cPV}{HTML}{EB6834}     % solar PV
+\definecolor{cBESS}{HTML}{1BAF7A}   % battery storage
+\definecolor{cLoad}{HTML}{6250D6}   % load / demand / grid side
+\definecolor{cLoss}{HTML}{E34948}   % loss, fault, curtailment, hazard
+% ---- ink and chrome ----------------------------------------------------
+\definecolor{cInk}{HTML}{0B0B0B}    % primary text and main outlines
+\definecolor{cInkB}{HTML}{52514E}   % secondary text
+\definecolor{cMuted}{HTML}{898781}  % axis text, minor notes
+\definecolor{cRule}{HTML}{C3C2B7}   % axis lines, light outlines
+\definecolor{cGridline}{HTML}{E1E0D9}
+\definecolor{cFill}{HTML}{F4F3EF}   % neutral block fill
+
+% ---- block-diagram styles ----------------------------------------------
+\tikzset{
+  blk/.style      = {draw=cInkB, line width=0.6pt, rounded corners=2pt, fill=cFill,
+                     minimum width=24mm, minimum height=11mm, align=center, text=cInk},
+  blkWind/.style  = {blk, draw=cWind, fill=cWind!9},
+  blkPV/.style    = {blk, draw=cPV,   fill=cPV!9},
+  blkBESS/.style  = {blk, draw=cBESS, fill=cBESS!10},
+  blkLoad/.style  = {blk, draw=cLoad, fill=cLoad!8},
+  blkWarn/.style  = {blk, draw=cLoss, fill=cLoss!7},
+  flow/.style     = {-{Stealth[length=2.2mm]}, line width=0.8pt, draw=cInk},
+  flowinfo/.style = {-{Stealth[length=2mm]}, line width=0.6pt, draw=cInkB, densely dashed},
+  bus/.style      = {line width=2pt, draw=cInk, line cap=round},
+  note/.style     = {font=\footnotesize, text=cInkB, align=center},
+  boundary/.style = {draw=cInkB, line width=0.6pt, dash pattern=on 5pt off 3pt, rounded corners=3pt},
+  dimline/.style  = {{Stealth[length=1.8mm]}-{Stealth[length=1.8mm]}, line width=0.4pt, draw=cInkB},
+  % ---- data-series styles: colour + dash pattern, always together -----
+  sWind/.style    = {color=cWind, line width=1.1pt, solid},
+  sPV/.style      = {color=cPV,   line width=1.1pt, dash pattern=on 6pt off 2.5pt},
+  sBESS/.style    = {color=cBESS, line width=1.1pt, dash pattern=on 6pt off 2pt on 1.2pt off 2pt},
+  sLoad/.style    = {color=cLoad, line width=1.1pt, dash pattern=on 1.4pt off 1.8pt},
+  sLoss/.style    = {color=cLoss, line width=1.1pt, dash pattern=on 3pt off 2pt},
+  sInk/.style     = {color=cInk,  line width=1.1pt, solid},
+  sLimit/.style   = {color=cInkB, line width=0.8pt, dash pattern=on 8pt off 3pt},
+}
+
+% ---- node text reads right-to-left, as in the book body -------------------
+% The picture sits inside \babelsublr so that its GEOMETRY is left-to-right.
+% That also makes the BASE direction of every node's text left-to-right: a
+% Persian sentence that contains a Latin word ("ذخیره‌ساز (S1)") then comes out
+% with its parts in the wrong order (checked with character coordinates,
+% tools/fig_words.py). Setting babel's text and paragraph direction to RTL at
+% the start of each node restores the order of the book body. Pure Latin or
+% math labels are unaffected.
+\makeatletter
+\newcommand{\NodeRTL}{\bbl@pardir\@ne\bbl@textdir\@ne}
+\makeatother
+\tikzset{every node/.append style={execute at begin node=\NodeRTL}}
+
+% ---- plot style: recessive axes and grid, one y-axis, ink-coloured text --
+\pgfplotsset{
+  plantp/.style = {
+    width=115mm, height=68mm,
+    axis lines=left, axis line style={draw=cRule, line width=0.6pt, -},
+    tick style={draw=cRule, line width=0.4pt}, tick align=outside,
+    tick label style={font=\footnotesize, text=cMuted},
+    label style={font=\small, text=cInkB},
+    title style={font=\small\bfseries, text=cInk},
+    ymajorgrids=true, grid style={draw=cGridline, line width=0.4pt},
+    legend style={draw=none, fill=none, font=\footnotesize, text=cInk,
+                  legend cell align=left, at={(0.5,-0.24)}, anchor=north, legend columns=-1,
+                  /tikz/every even column/.append style={column sep=4mm}},
+    /pgf/number format/1000 sep={\,},
+    scaled ticks=false,
+    clip=false,
+  },
+}

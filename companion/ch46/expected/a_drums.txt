@@ -1,0 +1,14 @@
+conductor resistance of 400 mm2 Al drums, corrected to 20 C;
+  limit 0.0778 ohm/km
+  drum   measured ohm   at C   ohm/km at 20 C   verdict
+  D401         0.0790     24           0.0777   ok
+  D402         0.0781     22           0.0775   ok
+  D403         0.0756     12           0.0781   REJECT
+  D404         0.0826     25           0.0810   REJECT
+  D405         0.0779     21           0.0776   ok
+  D406         0.0748      9           0.0783   REJECT
+  rejected after the correction: D403, D404, D406
+  read raw, the limit would reject D401, D402, D405 (warm, good)
+  and pass D403, D406 (cold, high) - D404 is high at any temperature;
+  only the reading corrected to 20 C is compared, with the
+  temperature kept in the drum's record

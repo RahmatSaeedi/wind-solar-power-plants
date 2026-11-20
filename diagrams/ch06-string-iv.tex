@@ -1,0 +1,30 @@
+% Chapter 6 — a PV string is a current-limited source: I-V curves of 26 x PVM-550
+% (simplified one-diode teaching model) and the power curve at STC.
+% Data: diagrams/data/ch06-string-iv.csv
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=64mm, name=iv,
+      xlabel={ولتاژِ رشته $V$ (V)}, ylabel={جریان $I$ (A)},
+      xmin=0, xmax=1500, ymin=0, ymax=16, xtick={0,300,...,1500},
+      legend style={at={(0.03,0.30)}, anchor=south west, legend columns=1,
+                    fill=white, fill opacity=0.9, text opacity=1}]
+    \addplot[sInk]   table[x=v, y=i_1000_25, col sep=comma] {data/ch06-string-iv.csv};
+    \addlegendentry{$1000\,\text{W/m}^2$، $25\,^\circ\text{C}$}
+    \addplot[sLoss]  table[x=v, y=i_1000_65, col sep=comma] {data/ch06-string-iv.csv};
+    \addlegendentry{$1000\,\text{W/m}^2$، $65\,^\circ\text{C}$}
+    \addplot[sLimit] table[x=v, y=i_500_25, col sep=comma] {data/ch06-string-iv.csv};
+    \addlegendentry{$500\,\text{W/m}^2$، $25\,^\circ\text{C}$}
+    \node[font=\footnotesize, text=cInk, anchor=south west] at (axis cs:30,14.1) {$I_\text{sc} = 13.98\,\text{A}$};
+    \node[font=\footnotesize, text=cInk, anchor=south east] at (axis cs:1295,0.3) {$V_\text{oc}$};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:750,7.2) {نیم‌تابش};
+    \node[font=\footnotesize, text=cInk, anchor=east] at (axis cs:1060,4.5) {داغ: ولتاژِ کمتر};
+  \end{axis}
+  \begin{axis}[plantp, width=118mm, height=46mm, at={(iv.south west)}, anchor=north west, yshift=-14mm,
+      xlabel={ولتاژِ رشته $V$ (V)}, ylabel={توان $P = V I$ (kW)},
+      xmin=0, xmax=1500, ymin=0, ymax=16, xtick={0,300,...,1500}, ytick={0,5,10,15}]
+    \addplot[sPV] table[x=v, y=p_1000_25, col sep=comma] {data/ch06-string-iv.csv};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:1060,13.9) {نقطهٔ بیشینهٔ توان};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

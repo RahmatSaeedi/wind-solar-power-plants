@@ -1,0 +1,11 @@
+unit transformer 33/0.69 kV, 5.5 MVA, 6 % (A-102): ratio n = 47.83, n^2 =
+    2,287
+  Z_base LV 86.56 mohm -> X = 5.194 mohm seen from 0.69 kV
+  Z_base HV 198.0 ohm -> X = 11.88 ohm seen from 33 kV; ratio 2,287 = n^2
+  a 1.0 mohm LV busbar appears as 2.29 ohm from the 33 kV side
+  the same 6 % on both sides: per unit hides the turns ratio
+export transformer 120 MVA at 132 kV: rated current 524.9 A; magnetising 0.3 %
+    = 1.57 A
+  its reactive power 0.36 Mvar flows whenever the transformer is energised
+ideal transformer: V1 I1 = V2 I2 (no loss); the real one adds leakage,
+  winding resistance and the magnetising branch (chapter 25)

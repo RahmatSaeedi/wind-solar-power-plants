@@ -1,0 +1,12 @@
+hazard review of the inverter skid design (synthetic record)
+  guideword              findings   actions closed
+  electrical                    6                6
+  fire                          4                3
+  mechanical / lifting          3                3
+  thermal                       2                1
+  access / falls                3                3
+  environment                   2                2
+  18 of 20 actions closed (90 %); the two open ones
+  (fire separation, heat at the inlet) wait for the ICD
+  values - a hazard review is part of the design, and its
+  open actions are holds like any other (ch 32)

@@ -1,0 +1,14 @@
+fatal flaws and red flags (screening; each needs its evidence):
+  W1 ridge (1 row)
+    - FATAL until surveyed: 5 turbines within 1 km of the nest (nearest 78 m)
+    - AMBER: herders' camp B (seasonal) 36 h/yr worst-case flicker
+    - AMBER: road grade 12.4 % on the flank
+  W2 plain (2 rows)
+    - RED: herders' camp B (seasonal) at 45.4 dB(A)
+    - AMBER: herders' camp B (seasonal) 112 h/yr worst-case flicker
+    - AMBER: 4.4 ha of customary grazing used: consult the users
+  W2b plain, adjusted
+    - AMBER: 3.1 ha of customary grazing used: consult the users
+  flicker flags: check the authority's limit and plan shutdown;
+  a fatal flaw is not scored away: the matrix ranks only the
+  layouts that survive it

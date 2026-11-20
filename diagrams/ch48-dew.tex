@@ -1,0 +1,21 @@
+% Chapter 48 - an outdoor cabinet over a night: outside air, the cabinet with its own device heat,
+% the cabinet with a heater, and the dew point of the air sealed in at 30 C / 50 % (teaching;
+% companion/ch48/examples_y.py, condensation -> diagrams/data/ch48-dew.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=62mm, xmin=0, xmax=24, ymin=4, ymax=38,
+      xlabel={ساعتِ روز}, ylabel={دما ($^\circ\mathrm{C}$)}, xtick={0,3,...,24},
+      legend style={at={(0.5,0.03)}, anchor=south}, legend columns=3,
+      legend cell align=right]
+    \addplot[sLoad, line width=1pt, dashed] table[x=h, y=amb, col sep=comma] {data/ch48-dew.csv};
+    \addlegendentry{هوای بیرون}
+    \addplot[sPV, line width=1.1pt] table[x=h, y=cab, col sep=comma] {data/ch48-dew.csv};
+    \addlegendentry{تابلو بی گرمکن}
+    \addplot[sWind, line width=1.1pt, dash pattern=on 6pt off 2pt] table[x=h, y=heated, col sep=comma] {data/ch48-dew.csv};
+    \addlegendentry{تابلو با گرمکن}
+    \draw[cLoss, line width=1pt, dash pattern=on 3pt off 2pt] (axis cs:0,18.4) -- (axis cs:24,18.4);
+    \node[note, anchor=north east, text=cLoss] at (axis cs:23.8,18.1) {نقطهٔ شبنم};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

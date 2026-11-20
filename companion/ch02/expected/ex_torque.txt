@@ -1,0 +1,4 @@
+WT-5.0-150 at rated power 5 MW (synthetic) and 10 rpm (assumed rotor speed)
+omega = 10 x 2 pi / 60 = 1.0472 rad/s
+torque = P / omega = 4.77 MN m = 4,775 kN m
+check: 5.000 MW

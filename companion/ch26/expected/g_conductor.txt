@@ -1,0 +1,13 @@
+earth-grid conductor by the adiabatic rule S = I sqrt(t) / k
+  (copper, teaching k = 143 as in ch 24 - bare conductors may
+  use a higher final temperature and k)
+  fault kA   time s   S mm2
+       5.2      0.5      26
+       5.2      1.0      36
+      31.5      1.0     220
+      31.5      3.0     382
+  the 132 kV earth fault sets the size (the 33 kV earth faults
+  are held to 400 A by the resistor); many owners size the
+  grid for the switchgear rating (31.5 kA) and its time, so
+  the grid outlives fault-level growth; corrosion allowance
+  and mechanical strength add to the electrical minimum

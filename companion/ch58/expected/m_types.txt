@@ -1,0 +1,9 @@
+document types in the register
+  international or European standard      149
+  industry, national or other              24
+  guide                                    10
+  technical specification (TS)              7
+  technical report (TR)                     1
+  a technical specification or report is not an International
+  Standard: it can be cited, but its status (and its likely
+  revision into a standard) is recorded with it

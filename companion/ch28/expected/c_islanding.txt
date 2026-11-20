@@ -1,0 +1,11 @@
+could the plant and the regional load form an undetected island?
+  (the grid substation's 132 kV supply opens; passive relays only)
+  blind zone for dP/P: -0.174 to +0.384 (U 0.85-1.10 pu);
+  for dQ/P: -0.041 to +0.039 (f 49-51 Hz, quality factor 1)
+  hours of the year with the active-power mismatch inside it: 1760
+  regional load 16-52 MW, plant 0-100 MW
+  in those hours voltage relays alone may not see the island
+  (frequency relays only if reactive power is also matched);
+  an intertrip from the grid substation's breaker closes the
+  gap whatever the balance - the study states which scheme
+  the operator requires (REQ-G12)

@@ -1,0 +1,15 @@
+representative turbulence (mean + 1.28 sd in each bin) against
+  the manufacturer's design curve (synthetic, A-258):
+  bin m/s   n      mean    sd     represent.  design   margin
+      5    5287   0.219  0.045   0.276       0.340    +23.0 %
+      7    5851   0.170  0.035   0.215       0.277    +28.9 %
+      9    4174   0.144  0.030   0.182       0.240    +31.6 %
+     11    2969   0.126  0.026   0.159       0.215    +34.9 %
+     13    1468   0.110  0.023   0.140       0.197    +40.9 %
+     15     607   0.103  0.022   0.132       0.184    +39.7 %
+     17     230   0.101  0.019   0.126       0.173    +37.9 %
+     19      77   0.091  0.019   0.114       0.165    +44.3 %
+  the site sits under the curve in every bin: ambient turbulence
+  is compatible; wakes of neighbours add to it (effective
+  turbulence, chapter 14), and the manufacturer confirms with
+  its own load calculation (chapter 16)

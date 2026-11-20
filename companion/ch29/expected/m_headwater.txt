@@ -1,0 +1,14 @@
+headwater at the wadi culverts (inlet as an orifice, Cd 0.6: fair
+  once HW/D > ~1.2, rough below it; road crest 1.5 m above the invert)
+  storm                 Q m3/s   pipes open   HW m   overtops?
+  10-year                  7.7           10   0.66   no
+  50-year                  9.8           10   0.78   no
+  100-year                10.6           10   0.85   no
+  50-year, 3 blocked       9.8            7   1.13   no
+  50-year, 5 blocked       9.8            5   1.79   yes
+  2 x 50-year             19.6           10   1.79   yes
+  the pipes carry the design storm with room to spare, but
+  wadi floods carry sediment and brush: with half the pipes
+  blocked the 50-year storm overtops the road - inspection
+  after every flow and a designed overtopping path matter
+  as much as the pipe count

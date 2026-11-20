@@ -1,0 +1,17 @@
+% Chapter 26 - fall-of-potential test of a hemispherical electrode: the reading against the position
+% of the potential probe (% of the current-probe distance), the true resistance (15.92 ohm) and the
+% 61.8 % point; data diagrams/data/ch26-fop.csv from companion/ch26/examples_n.py fall_of_potential().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=62mm, xmin=0, xmax=100, ymin=12, ymax=20,
+      xlabel={جای کاوشگرِ ولتاژ، درصدِ فاصلهٔ کاوشگرِ جریان},
+      ylabel={قرائت $(\Omega)$}, xmajorgrids=true]
+    \addplot[sInk, mark=*, mark size=1.3pt] table[x=pct, y=r, col sep=comma] {data/ch26-fop.csv};
+    \draw[sLimit] (axis cs:0,15.92) -- (axis cs:100,15.92);
+    \node[note, anchor=south west] at (axis cs:2,16.0) {مقدارِ واقعی $15.92\,\Omega$};
+    \draw[draw=cInkB, densely dotted] (axis cs:61.8,12) -- (axis cs:61.8,20);
+    \node[note, anchor=north west] at (axis cs:62.5,19.6) {$61.8\,\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

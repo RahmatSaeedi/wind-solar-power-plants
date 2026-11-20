@@ -1,0 +1,22 @@
+P01 N/P as designed and at the worst spot: 1.047, 0.986
+P02 facing area of one cell: 5.79 m2
+P03 system cells and MWh: 39,936, 40.13
+P04 rack BMS window: 1082-1498 V
+P05 interfaces cell to plant: 7
+P06 Cpk of coating lines A and B: 1.20, 0.36
+P07 dry-room water share of a hall: 1.9%
+P08 flags K / capacity / resistance: 5, 3, 4
+P09 module capacity gain by sorting: 2.87 Ah
+P10 cold welds and worst heat: 2, 1.50 W
+P11 BMS limits wrong: t_charge_max
+P12 module volts and kWh: 166 V, 52.2 kWh
+P13 container MWh at 30 % SOC: 1.50
+P14 string Ah after a new module; days to balance: 283, 26
+P15 container cells recovered: 17.3 of 28.0 t
+P16 SOC range and cut steps (charge/discharge): 0.10-0.90, 8/2
+P17 chance a 50-cell sample finds a leaker; cells for 90 %: 11.9%, 738
+P18 leakers caught at 14 / 7 days: 4.8, 4.5
+P19 extra leak current and balancing duty: 4.4 mA, 4%
+P20 trail deviations and gaps: 2, 1
+P21 S1 nominal and usable MWh, C-rate: 40.13, 32.10, 0.50
+P22 usable MWh in year 10 (linear fade): 25.68

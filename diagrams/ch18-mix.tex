@@ -1,0 +1,20 @@
+% Chapter 18 - teaching cost per delivered MWh against PV size for 8, 12 and 16 turbines at the
+% 100 MW limit (A-287 costs, model 15.1 shapes). Data: diagrams/data/ch18-mix.csv (examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=66mm, xmin=20, xmax=105, ymin=44, ymax=51.5,
+      xlabel={توانِ خورشیدی، مگاوات}, ylabel={هزینه، واحدِ پول بر مگاوات‌ساعت},
+      xtick={25,50,75,100}, ytick={44,46,...,50},
+      legend style={at={(0.98,0.98)}, anchor=north east, font=\footnotesize}]
+    \addplot[sInk, mark=*, mark size=1.8pt] table[x=pv, y=cost, col sep=comma,
+        restrict expr to domain={\thisrow{n}}{8:8}] {data/ch18-mix.csv};
+    \addplot[sWind, mark=square*, mark size=1.8pt] table[x=pv, y=cost, col sep=comma,
+        restrict expr to domain={\thisrow{n}}{12:12}] {data/ch18-mix.csv};
+    \addplot[sLoad, mark=triangle*, mark size=2.2pt] table[x=pv, y=cost, col sep=comma,
+        restrict expr to domain={\thisrow{n}}{16:16}] {data/ch18-mix.csv};
+    \legend{۸ توربین, ۱۲ توربین, ۱۶ توربین}
+    \node[note, anchor=east] at (axis cs:48.5,46.45) {نیروگاهِ P};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

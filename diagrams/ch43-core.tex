@@ -1,0 +1,18 @@
+% Chapter 43 - cross-section of a limb of the 63 MVA core with nine steps that fill 94.8 % of the
+% 638 mm circle (step half-widths and heights from plantp.xfmrdesign.stepped_fill(9); cm, 1:10).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small, x=1mm, y=1mm]
+  \draw[cRule, line width=0.6pt] (0,0) circle (31.9);
+  \foreach \x/\a/\b in {31.14/0.00/6.90, 29.61/6.90/11.86, 27.63/11.86/15.95, 25.27/15.95/19.47,
+                        22.56/19.47/22.56, 19.47/22.56/25.27, 15.95/25.27/27.63, 11.86/27.63/29.61,
+                        6.90/29.61/31.14} {
+    \fill[cWind!14, draw=cWind, line width=0.4pt] (-\x,\a) rectangle (\x,\b);
+    \fill[cWind!14, draw=cWind, line width=0.4pt] (-\x,-\a) rectangle (\x,-\b);
+  }
+  \draw[dimline] (-31.9,-36) -- (31.9,-36);
+  \node[note, anchor=north] at (0,-37) {قطرِ ۶۳۸ میلی‌متر};
+  \node[note, anchor=west, text width=40mm] at (36,10) {نُه پله، هر پله یک پهنای ورق؛};
+  \node[note, anchor=west, text width=40mm] at (36,2) {پرشدگیِ دایره ۹۴٫۸ درصد};
+\end{tikzpicture}}
+\end{document}

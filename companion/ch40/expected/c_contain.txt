@@ -1,0 +1,9 @@
+containment of the drifted torque wrench TW-14
+  check on day 16: 78.9 N m shown at 70 set (limit 1.4)
+  last good check: day 11; days without a check: 12, 13, 14, 15
+  suspect skids: S-05, S-06, S-07
+  without genealogy: every skid with TW-14 (5) or all ten
+  S-03 and S-04 used TW-14 too, but checks on days 8-11
+  bracket their work: the record clears them
+  the three suspects had shipped: containment moves to site
+  (a lug-lot query works the same: L-2208 -> S-05, S-06, S-07, S-08)

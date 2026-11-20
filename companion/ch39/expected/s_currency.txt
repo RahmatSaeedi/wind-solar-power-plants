@@ -1,0 +1,9 @@
+currency exposure over the year to delivery (10 % spread)
+  offer  price k u  foreign  90 % adverse move k u
+  U-A       1,160     70%                 104
+  U-B       1,010     20%                  26
+  U-C       1,080     90%                 125
+  the evaluated price of lesson D carries an 8 % allowance;
+  a 90 % adverse move is larger for U-C (90 % foreign);
+  a forward contract fixes the rate at a cost - a
+  treasury decision, named here as a concept only

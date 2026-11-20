@@ -1,0 +1,13 @@
+cost of dealing with one leaking cell, by where it is found (k u, teaching)
+  stage                              cost k u   x first stage
+  cell maker, rest test                  0.05               1
+  integrator, receiving                  0.15               3
+  module assembly                        1.00              20
+  factory test of the container          4.00              80
+  site acceptance                       12.00             240
+  operation, before an incident         25.00             500
+  after an incident                    400.00            8000
+  each stage that misses multiplies the cost; the cheapest
+  find is a cell maker's rest test that runs its full time -
+  paying for fourteen days of racks is cheap insurance
+  against the last row (lesson B, lab D)

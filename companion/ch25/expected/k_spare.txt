@@ -1,0 +1,10 @@
+a spare main transformer: does it pay? (teaching)
+  failure rate 0.015 a year each; without spare 6 months out, with
+  a spare one month
+  energy above one transformer's capacity: 18% of 295 GWh
+  expected loss a year: 796 MWh without spare, 131 MWh with
+  value of the spare: 47 k u a year against ~1,890 k u
+  -> payback about 41 years: not for one plant;
+  a spare shared by several plants (or the utility's pool),
+  or a smaller mobile unit for the critical loads, are the
+  usual answers - with the transport route kept open (ch 18)

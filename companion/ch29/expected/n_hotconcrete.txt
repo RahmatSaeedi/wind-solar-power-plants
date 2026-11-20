@@ -1,0 +1,12 @@
+fresh concrete temperature from its ingredients (heat balance with
+  solids at 0.22 of water's specific heat; ice melting = 80 K of water)
+  case                             aggregate  cement  water  ice   fresh C
+  summer day, as delivered                40      45     32    0%     38.7
+  chilled mixing water (5 C)              40      45      5    0%     32.4
+  half the water as ice                   40      45      5   50%     22.5
+  night pour, shaded stockpiles           28      35      5    0%     23.5
+  (teaching specification limit: 32 C at placing)
+  the aggregate carries most of the heat: chilled water
+  alone is not enough on a summer day; ice or a night pour
+  with shaded, sprayed stockpiles brings the mix within the
+  limit - and the ice is part of the water balance (lesson G)

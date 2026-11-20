@@ -1,0 +1,12 @@
+spares to cover the lead time with 90% confidence (Poisson demand)
+  class                 demand in lead time   spares
+  PV inverter                         0.82          2
+  BESS PCS                            0.49          1
+  PV unit transformer                 0.10          0
+  main transformer                    0.02          0
+  the unit and main transformers need none at 90 %, while the
+  strategy rule above asks for a critical unit-transformer
+  spare: one failure without a spare costs months of a block
+  (or of half the export, lesson F) - a rule on confidence alone
+  misses the consequence, so the big spares are decided on
+  expected loss, not on Poisson

@@ -1,0 +1,11 @@
+learned corrections of the day-ahead forecast, features known at
+  the issue time only, trained Jan-Aug, tested Sep-Dec:
+  raw forecast                       RMSE  10.72 MW
+  forecast only                      RMSE  10.38 MW
+  + hour of day                      RMSE  10.31 MW
+  + hour and season                  RMSE  10.43 MW
+  + wind and PV parts apart          RMSE  10.26 MW
+  each honest feature buys a few tenths of a megawatt; a season
+  feature can even hurt when the test months fall outside the
+  training seasons; the big errors are the weather forecast's own,
+  which no correction of the plant model removes

@@ -1,0 +1,14 @@
+equipment options against local constraints (teaching
+constraints; an unknown is never a pass)
+  option                        ok  fails  unknown
+  central inverters 5.5 MVA      2      0        2
+      unknown  seismic zone qualified
+      unknown  service techs in country
+  string inverters 0.3 MVA       4      0        0
+  wind 5 MW, 150 m rotor         1      2        1
+      fails    min ambient rating C
+      fails    max part mass t
+      unknown  service techs in country
+  wind 3 MW, 120 m rotor         3      0        1
+      unknown  service techs in country
+  options with every constraint met and known: string inverters 0.3 MVA

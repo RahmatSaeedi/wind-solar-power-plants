@@ -1,0 +1,10 @@
+RMSE of the day-ahead hybrid forecast by month and hour (MW):
+  by month: 14.7 13.0 12.5 10.5  9.8  7.5
+             7.4  7.4  9.7  9.6 12.0 11.4
+  by hour:  10.7 10.4 11.1  9.9 10.4 11.2 11.5 11.9 11.0 11.3 12.1 11.2
+            10.9 10.5 10.3 10.7 10.2 10.3  9.4 10.8  9.7 10.7  9.6 10.3
+  largest cell 20.7 MW (month 1, hour 05), smallest 3.9 MW
+  errors follow the season (14.7 MW in January, 7.4 in July)
+  far more than the hour of day (9.4 to 12.1 MW): the
+  winter wind is strong and its forecast uncertain; reserve and
+  quantiles can follow the month

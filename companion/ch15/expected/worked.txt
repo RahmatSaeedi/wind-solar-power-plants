@@ -1,0 +1,16 @@
+E01: 10 MW for 6 h and 30 MW for 2 h: 120 MWh
+E02: losses 10 % then 20 %: 1 - 0.9 x 0.8 = 0.28 (not 0.30)
+E03: capacity factor of 295.14 GWh at 100 MW: 0.337
+E04: density 1.046 against 1.225 kg/m3: -14.6 % in region 2
+E05: inverter 98.3 % on 115.74 GWh DC: 113.77 GWh
+E06: clipping: 51.55 MW AC limited to 49.0 MW: 2.55 MW lost
+E07: load loss 1.5 % at 100 MW scaled to 60 MW: 0.54 % of 100 MW = 0.54 MW
+E08: degradation 0.5 %/yr, year 10: x 0.950
+E09: 25-year mean factor at 0.5 %/yr: 0.9350
+E10: persistence error, observed 40 then 55 MW: 15 MW
+E11: RMSE of errors 3, -4, 5 MW: 4.08 MW
+E12: skill of RMSE 8.3 against 23.8: 0.65
+E13: pinball, tau 0.1, forecast 40, observed 30: 9.0
+E14: newsvendor quantile: (50 - 25) / (100 - 25) = 0.333
+E15: water 0.5 L/m2 x 281,000 m2: 140 m3 per cleaning
+E16: one 32 MWh battery over a 10.7 MW RMSE for 24 h: 0.12 of the error energy

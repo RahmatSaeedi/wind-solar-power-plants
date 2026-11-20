@@ -1,0 +1,17 @@
+% Chapter 38 - the four states of the common data environment with the checks between them and the
+% statuses of chapter 2 in each, read right to left (examples_g; STD-031 concept).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    st/.style={blk, minimum width=24mm, minimum height=13mm, text width=22mm}]
+  \node[st, blkLoad] (w) at (0,0) {در دستِ کار\\WIP};
+  \node[st, blkPV] (s) at (-3.6,0) {مشترک\\IFR، IFI، IFA};
+  \node[st, blkWind] (p) at (-7.2,0) {منتشرشده\\APP، IFC};
+  \node[st, blkBESS] (a) at (-10.8,0) {بایگانی\\ASB، SUP};
+  \draw[flow] (w) -- node[note, above] {وارسی} (s);
+  \draw[flow] (s) -- node[note, above] {تأیید} (p);
+  \draw[flow] (p) -- node[note, above] {جایگزینی} (a);
+  \draw[flowinfo] (s.south) -- ++(0,-0.7) -| node[note, pos=0.25, below] {دیدگاه‌ها} (w.south);
+  \node[note, text width=80mm, anchor=north] at (-5.4,-1.6) {هیچ‌کس از «مشترک» نمی‌سازد؛ از «بایگانی» چیزی پاک نمی‌شود};
+\end{tikzpicture}
+\end{document}

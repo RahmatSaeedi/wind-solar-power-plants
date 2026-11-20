@@ -1,0 +1,10 @@
+checking logins of a quarter against work permits (teaching)
+  2,000 logins; suppose 2 % have no permit behind them
+  sample size   chance the sample finds at least one
+           20           33 %
+           50           64 %
+          100           87 %
+          150           95 %
+  149 logins give 95 % confidence of finding the problem
+  if 2 % or more are unexplained; the sample is drawn at
+  random by program, and every miss is followed up

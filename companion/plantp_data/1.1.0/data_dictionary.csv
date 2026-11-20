@@ -1,0 +1,26 @@
+file,column,unit,description,valid_range,status
+timeseries/plantp_hourly_8760.csv,timestamp,ISO 8601,start of the hour in local standard time with fixed offset +04:00,2023-01-01T00:00:00+04:00 to 2023-12-31T23:00:00+04:00,synthetic
+timeseries/plantp_hourly_8760.csv,ghi_wm2,W/m2,global horizontal irradiance; mean over the hour,0 to 1200,synthetic
+timeseries/plantp_hourly_8760.csv,dni_wm2,W/m2,direct normal irradiance; mean over the hour,0 to 1050,synthetic
+timeseries/plantp_hourly_8760.csv,dhi_wm2,W/m2,diffuse horizontal irradiance; mean over the hour,0 to 700,synthetic
+timeseries/plantp_hourly_8760.csv,t_air_c,degC,air temperature at 2 m; mean over the hour,-25 to 50,synthetic
+timeseries/plantp_hourly_8760.csv,ws_100m_ms,m/s,wind speed at 100 m (hub height); mean over the hour,0 to 45,synthetic
+timeseries/plantp_hourly_8760.csv,ws_80m_ms,m/s,wind speed at 80 m; mean over the hour,0 to 45,synthetic
+timeseries/plantp_hourly_8760.csv,ws_60m_ms,m/s,wind speed at 60 m; mean over the hour,0 to 45,synthetic
+timeseries/plantp_hourly_8760.csv,wd_100m_deg,deg,wind direction at 100 m; direction the wind blows FROM; 0 = north; clockwise,0 to 359,synthetic
+timeseries/plantp_hourly_8760.csv,p_hpa,hPa,station air pressure,840 to 920,synthetic
+timeseries/plantp_hourly_8760.csv,qc_flag,-,quality flag: 0 valid; 1 gap-filled; 2 suspect (all 0 in this clean release),0 to 2,synthetic
+equipment/wind_turbine_WT-5.0-150_power_curve.csv,wind_speed_ms,m/s,hub-height wind speed at the centre of a 0.5 m/s bin,0 to 30,synthetic
+equipment/wind_turbine_WT-5.0-150_power_curve.csv,power_kw,kW,electrical power at air density 1.225 kg/m3,0 to 5000,synthetic
+raw/met_mast_10min_raw.csv,timestamp,local time,END of the 10-min interval; UTC+04:00 implied (header comment),2023-04-03 00:10 to 2023-04-06 00:00,synthetic
+raw/met_mast_10min_raw.csv,ws100_avg ws80_avg ws60_avg,m/s,10-min mean wind speeds at 100/80/60 m,0 to 45,synthetic
+raw/met_mast_10min_raw.csv,ws100_sd,m/s,standard deviation of the 100 m speed within the interval,0 to 10,synthetic
+raw/met_mast_10min_raw.csv,wd100_avg,deg,10-min mean direction at 100 m (FROM; 0 = north),0 to 359,synthetic
+raw/met_mast_10min_raw.csv,t_air p_air ghi,degC hPa W/m2,10-min means,see hourly file,synthetic
+raw/met_mast_defects_key.csv,all,-,the defects placed in the raw file on purpose,-,synthetic
+raw/pv_scada_export.csv,time_utc,ISO 8601 UTC (Z),START of the hour; semicolon-delimited; decimal comma,2023-04-02T20:00:00Z to 2023-04-05T19:00:00Z,synthetic
+raw/pv_scada_export.csv,energy_kwh,kWh,AC energy of the PV plant in the hour (decimal comma),0 to 50000,synthetic
+raw/pv_scada_export.csv,availability_pct,percent,inverter availability in the hour,0 to 100,synthetic
+assets/asset_register_rev_A.csv,(13 fields),-,released register at handover (rev A),-,synthetic
+assets/asset_register_rev_B.csv,(13 fields),-,register six months later: intended changes AND editing defects,-,synthetic
+assets/change_notice.csv,(5 fields),-,changes approved between rev A and rev B,-,synthetic

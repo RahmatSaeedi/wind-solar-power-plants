@@ -1,0 +1,17 @@
+mill certificates against the order: S355, 20-50 mm,
+  impact at -20 C >= 27 J (each of three), CEV <= 0.43
+  plate  heat    t mm   CEV    finding
+  P101   H5521    46   0.41   ok
+  P102   H5521    46   0.41   ok
+  P103   H5523    46   0.41   impact tested at 0 C (ordered -20 C)
+  P104   H5524    40   0.38   impact energy 22 J below 27 J
+  P105   H5530    40   0.49   CEV 0.49 above 0.43
+  P106   H5531    32   0.34   grade S275 (ordered S355)
+  P107   H5532    32   0.39   ok
+  P108   H5533    26   0.38   ok
+  4 of 8 plates do not match the order:
+  a certificate tested at 0 C says nothing about -20 C; a mean
+  of three impacts can pass while one specimen fails; a high
+  CEV needs more preheat than the qualified procedure assumed;
+  a lower grade is a different steel - each is a hold, not a
+  remark (ch 30 preheat, ch 40 certificates)

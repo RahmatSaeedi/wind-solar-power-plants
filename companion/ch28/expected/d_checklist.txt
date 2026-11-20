@@ -1,0 +1,36 @@
+study-input checklist for the POC (owner, status, quality A/B/C)
+  id     item                                 owner     status    q  for
+  IN-01  short-circuit level at POC, max/min  operator  received  B  B E
+  IN-02  X/R at POC                           operator  received  B  B
+  IN-03  network model around the POC         operator  requested -  B C E G
+  IN-04  steady-state voltage range at POC    operator  received  B  B
+  IN-05  frequency ranges and durations       operator  assumed   C  C
+  IN-06  fault clearing, auto-reclose times   operator  requested -  C
+  IN-07  protection settings at the grid end  operator  requested -  B
+  IN-08  background harmonics at POC (U-101)  operator  missing   -  ch27
+  IN-09  emission allocation (U-100)          operator  missing   -  ch27
+  IN-10  applicable code, version (U-102)     operator  missing   -  all
+  IN-11  neighbouring plants and their size   operator  requested -  E
+  IN-12  one-line diagram (D-027)             plant     received  A  all
+  IN-13  main transformer guaranteed data     plant     received  B  B
+  IN-14  main transformer test data (FAT)     plant     missing   -  B
+  IN-15  33 kV cable lengths and sections     plant     received  B  B
+  IN-16  132 kV line conductor and route      plant     received  B  B G
+  IN-17  line measured impedance              plant     missing   -  B G
+  IN-18  unit data sheets (wind, PV, BESS)    OEM       received  B  B
+  IN-19  unit P-Q capability vs voltage       OEM       received  B  B F
+  IN-20  unit RMS models with versions        OEM       received  B  C E F
+  IN-21  unit EMT models with versions        OEM       requested -  E
+  IN-22  unit type tests (ride-through)       OEM       received  A  C
+  IN-23  plant controller model and settings  OEM       received  C  C F
+  IN-24  BESS PCS model and limits (S1)       OEM       requested -  F
+  IN-25  auxiliary loads (ch 23)              plant     received  B  B
+  IN-26  earthing and neutral data            plant     received  B  B
+  IN-27  metering point and class             operator  received  B  G
+  IN-28  telemetry signal list                operator  requested -  C
+  IN-29  weather data for line rating         plant     received  B  G
+  IN-30  outage rates of plant elements       plant     assumed   C  G
+  16 received, 7 requested, 2 assumed, 5 missing of 30
+  quality: A measured or certified, B declared by the owner,
+  C assumed by the study team - a C input carries an entry
+  in the assumption log

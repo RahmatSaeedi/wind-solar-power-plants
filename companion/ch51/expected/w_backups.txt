@@ -1,0 +1,12 @@
+configuration backups against the last change, by device (day of year)
+  PPC                    changed 250  backed up 251
+  RTU-1                  changed  90  backed up  91
+  RTU-2                  changed 310  backed up 120  STALE
+  firewall FW-1          changed 330  backed up 300  STALE
+  BESS-A EMS             changed 180  backed up 182
+  turbine SCADA server   changed 275  backed up 276
+  core switch SW-C1      changed 340  backed up 200  STALE
+  3 devices changed after their last backup: RTU-2 is the
+  unrecorded second RTU of round s; a restore would bring back
+  the old rule base on the firewall and switch (ch 36
+  recovery) - a backup is due after every change, not by date

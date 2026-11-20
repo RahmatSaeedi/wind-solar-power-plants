@@ -1,0 +1,13 @@
+voltage during a dip with the plant's reactive current (k = 2,
+  current limited to 1.0 pu of 121 MVA; teaching quasi-steady model)
+  SCR   x pu    U without pu   U with pu   reactive current pu
+   15   0.081           0.50        0.57                  0.86
+   15   0.081           0.80        0.83                  0.34
+    5   0.242           0.50        0.66                  0.67
+    5   0.242           0.80        0.87                  0.27
+    3   0.403           0.50        0.72                  0.55
+    3   0.403           0.80        0.89                  0.22
+  on a strong grid the plant's reactive current lifts the
+  voltage a little; on a weak grid much more - which also
+  means the plant must stop injecting quickly when the fault
+  clears, or the voltage overshoots (lesson E, recovery)

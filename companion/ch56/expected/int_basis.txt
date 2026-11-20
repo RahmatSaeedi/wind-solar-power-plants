@@ -1,0 +1,15 @@
+Afghanistan dossier basis of Plant P (D-060):
+  1 44 statements AF-01..AF-44: 12 verified,
+    1 project-dependent, 31 to-confirm
+  2 route: investment committee, Economic Commission, contract
+    with DABS; the 2016 licence regime kept as to-confirm
+  3 a pre-2021 text is designed to AND labelled to-confirm until
+    its application is confirmed in writing
+  4 first grid question: which island; 110 or 220 kV as DABS names
+  5 equipment chosen with local service capability and import
+    route; unknowns never count as a pass
+  6 base case: no service revenue; no base case without tariff,
+    currency and payment terms; payment security sought
+  7 land and title reviewed in the field before any contract
+  8 review by engineers and regulatory specialists familiar with
+    current practice in Afghanistan before any use or publication

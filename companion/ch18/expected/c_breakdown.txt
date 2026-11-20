@@ -1,0 +1,25 @@
+product breakdown of Plant P (counts multiply down the tree):
+  Plant P x1
+    wind farm x1
+      wind turbine x12 [buy]
+    PV plant x1
+      PV block x10 [buy+integrate]
+    battery (S1) x1
+      battery container x8 [buy]
+      BESS inverter x4 [buy]
+    collection and export x1
+      33 kV collector x1 [make]
+      export substation x1 [buy+integrate]
+      export line x1 [make]
+    control and SCADA x1 [buy+integrate]
+      plant controller x2
+    water service x1 [make]
+      tank x2
+      pump set x2
+    civil works x1 [make]
+  items by level: plant 1, system 7, subsystem 37
+    equipment 2,419, unit 118,016
+  make/buy marks: unmarked 23, buy 13, buy+make 2, buy+integrate 3, make 4
+  the replaceable units are what O&M stocks and changes; the
+  'buy+integrate' nodes are where the project owns the interface
+  between bought parts (chapters 39-48)

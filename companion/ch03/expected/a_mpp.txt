@@ -1,0 +1,6 @@
+P(V) = V I(V), simplified one-diode model of PVM-550 (no series resistance)
+dP/dV = 0 solved with Newton from 40 V: 5 iterations
+  iterates: 40.0000, 40.7836, 40.7067, 40.7058, 40.7058, 40.7058
+V_mpp = 40.706 V, I_mpp = 12.815 A, P_max = 521.7 W
+datasheet: 41.96 V, 13.11 A, 550 W -> the model's V_mpp is -3.0 % (no series
+    resistance; chapter 10)

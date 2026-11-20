@@ -1,0 +1,8 @@
+verifying a corrective action (filter retuned): one week before and after
+  95th percentile of V5: before 2.29 %, after 1.91 %
+  reduction 0.38 % (90 % bootstrap interval 0.34 to 0.41)
+  teaching acceptance: after-week 95th percentile below 2.0 %
+  and a reduction whose interval excludes zero: accepted
+  the same network state and season are needed for the
+  comparison to mean anything; the acceptance rule is set
+  before the 'after' week, not fitted to its result

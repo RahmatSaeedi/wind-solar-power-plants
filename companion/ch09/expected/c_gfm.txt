@@ -1,0 +1,9 @@
+frequency after losing 10 % of generation (system base, A-159):
+  60 % synchronous (H 4 s, governor droop 5 %, 5 s lag), 40 %
+  converters; converter headroom 5 % (curtailed or battery)
+  GFL, no response              RoCoF  -0.97 Hz/s, nadir  48.75 Hz at  2.2 s
+  GFL, fast frequency response  RoCoF  -0.83 Hz/s, nadir  49.34 Hz at  1.8 s
+  GFM, inertia and droop        RoCoF  -0.44 Hz/s, nadir  49.48 Hz at  2.7 s
+  grid-forming adds inertia at once (a voltage source behind an
+  impedance); grid-following must first measure the frequency
+  (PLL, filter), so its help arrives later; both need energy

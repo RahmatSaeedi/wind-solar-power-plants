@@ -1,0 +1,15 @@
+weighted matrix of the layouts that survive the fatal flaws
+  (scores 0-10, best = 10, linear between the two; weights
+  teaching, A-260):
+  criterion   weight         W2     W2b
+  energy       0.30        0.0    10.0
+  cable        0.10       10.0     0.0
+  roads        0.10       10.0    10.0
+  noise        0.15        0.0    10.0
+  flicker      0.15        0.0    10.0
+  grazing      0.20        0.0    10.0
+  total                    2.0     9.0
+  W2b is better on every criterion but cable; with two options
+  the scores are all 0 or 10, so the matrix only records the
+  comparison: the reasons are written in the decision (D-018),
+  not hidden in the weights

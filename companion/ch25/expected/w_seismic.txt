@@ -1,0 +1,14 @@
+the transformer on its foundation (teaching coefficients only)
+  mass 95 t, weight 932 kN, base 4.5 m wide, centre of mass
+  2.0 m up; friction steel on concrete 0.30
+  horizontal coeff   force kN   overturning kNm   resisting kNm   slides?
+              0.10         93               186            2097   no
+              0.20        186               373            2097   no
+              0.30        280               559            2097   no
+              0.40        373               746            2097   yes
+  the unit does not tip, but from about 0.3 it would slide on its
+  rails: it is anchored to the foundation; the tall bushings
+  on the tank top shake harder than the ground (amplified),
+  so their seismic qualification is part of the bid evidence;
+  the site's design acceleration comes from the seismic
+  hazard study and the structural engineer (ch 29), not here

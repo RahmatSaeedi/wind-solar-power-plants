@@ -1,0 +1,11 @@
+access matrix review (synthetic accounts)
+  rights beyond the role:
+    op-2       operator         extra: settings
+    ven-1      vendor           extra: software
+  unused for more than 90 days: ven-1
+  shared accounts: shared-hmi
+  each finding is a door left open by habit: an operator
+  who once needed settings, a vendor who loaded software
+  in commissioning, a shift login nobody owns. Rights are
+  reviewed against roles every quarter, unused accounts
+  closed, and shared logins replaced by named ones

@@ -1,0 +1,6 @@
+unknowns named in the dossier: 134; in two items or more: 17
+    U-013, U-016, U-039, U-049, U-065, U-066, U-067, U-068, U-104, U-105
+    U-106, U-107, U-112, U-113, U-114, U-115, U-133
+  items with most unknowns: 5 (29), 1 (22), 6 (18), 13 (14)
+  triage: an unknown shared by two items is closed first; then
+  those of the next gate (ch 59 A); the rest are dated conditions

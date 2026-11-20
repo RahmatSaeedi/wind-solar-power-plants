@@ -1,0 +1,7 @@
+crimp pull force of 60 lugs (lower limit 4.4 kN)
+  mean 5.15 kN, sd 0.27 kN; Cpk 0.94; 2,385 ppm under
+  Cpk 0.94 is below 1.33: about 2.4 crimps in 1,000
+  under the minimum - the mean must rise (the factorial below
+  shows how); one-sided, since a stronger crimp is no defect;
+  the pull test is destructive, so it runs on samples at each
+  die change and shift, and the die check guards the rest

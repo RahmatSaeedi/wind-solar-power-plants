@@ -1,0 +1,11 @@
+defect containment by design reviews (teaching rates)
+  stage       made  found  passed on
+  30 %          40   20.0       20.0
+  60 %          50   42.0       28.0
+  90 %          30   34.8       23.2
+  IFC check      0   11.6       11.6
+  made 120; reach construction 11.6 (10%)
+  each review finds a share of what is there, never all:
+  the escapes are found on site at ten times the cost
+  (rule of thumb above); a better checklist at 60 % pays
+  more than a longer IFC check

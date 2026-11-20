@@ -1,0 +1,14 @@
+defects per million boards entering and leaving the board line
+  stations: paste inspection, optical, X-ray, in-circuit, functional
+  defect                     in ppm   escaping ppm
+  solder bridge                 800            5.8
+  open joint                    500            3.0
+  missing part                  200            0.4
+  wrong part or polarity        150            0.9
+  tombstone                     100            4.0
+  all: 1,750 in, 14.1 out (0.80% escape)
+  on the plant's 520 boards: 0.01 escaped defects expected
+  solder bridges escape most here; no station is perfect and the
+  escape is the product of what each misses - open joints are
+  the worst kind to let through: they may pass today and crack
+  later, which is why X-ray and in-circuit test are kept

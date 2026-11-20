@@ -1,0 +1,15 @@
+factory hours for 10 inverters (teaching): two crews,
+  the bench 16 h a day
+  station                              h a unit   h for all
+  board line (per inverter set)             6.0          60
+  stack assembly                           10.0         100
+  cabinet integration and wiring           24.0         240
+  low-voltage tests and firmware            4.0          40
+  full-power bench (per unit)               6.0          60
+  bench runs: 5 pairs + 3 re-runs (INV-04, INV-09,
+    the reprinted unit, each with a partner) = 96 h
+  bench 6.0 days (without re-runs 3.75); cabinet station 7.5 days
+  the cabinet station sets the pace; the bench takes over after 6 re-runs,
+  because a re-test costs a whole run: the partner runs too -
+  re-tests grouped into pairs, or a second bench, keep it
+  from setting the shipping date

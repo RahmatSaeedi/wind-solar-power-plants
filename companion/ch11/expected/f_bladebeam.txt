@@ -1,0 +1,18 @@
+blade as a beam at the peak-thrust point (10 m/s, 1.225 kg/m3, A-232):
+  thrust 923 kN, one blade 308 kN; flap moment at the root 15.0 MN m
+    (first-order estimate T/3 x 2R/3 = 15.4 MN m)
+  extreme = 2 x operating (teaching); caps E 45 GPa, strain 0.5 %, width 0.9 m
+  at r = 30.6 m: chord 4.80 m, height 1.39 m, moment 13.4 MN m -> cap 47 mm
+  cap thickness 65 mm at 10 m falling to 5 mm at the tip; two caps 7.9 t
+    (36 % of the 22 t blade)
+  tip deflection: 9.0 m at peak thrust, 18.1 m at the extreme load
+  unloaded tip-tower clearance 17.3 m (overhang 6 m, tilt 5 deg, cone 3 deg,
+    prebend 3 m, tower radius 2.2 m); left at the extreme -0.8 m
+  sized for strength, the blade would touch the tower:
+  stiffness, not stress, decides the caps of a long blade
+  keep 30 % of the clearance (teaching): deflection at most 12.1 m,
+    so the caps need 1.49 times the bending stiffness
+  glass caps (45 GPa, 1950 kg/m3):  11.8 t
+  carbon caps (135 GPa, 1600 kg/m3):  3.2 t
+  a cap sized for strain has EI = M h / (2 strain) whatever
+  its fibre: only a stiffness-driven design gains from carbon

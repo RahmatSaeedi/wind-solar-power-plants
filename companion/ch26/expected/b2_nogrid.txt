@@ -1,0 +1,11 @@
+the plant without the grid: only converters feed a fault
+  all converters at about 1.2 x rated current: 2.7 kA at 33 kV
+  the faulted feeder's relay sees the others: 2,263 A -> trips in 0.44 s
+  the incomer sees nothing (the grid is gone); a converter's
+  fault current is only 1.2 x the full-load current of the
+  same units - an overcurrent relay can hardly tell a fault
+  from a heavy load, and many converters inject little
+  negative sequence, which directional elements rely on
+  so: the plant must not run as an island (ch 20 keeps only
+  critical loads); grid loss is detected by under-voltage,
+  frequency and transfer trip, and the converters stop

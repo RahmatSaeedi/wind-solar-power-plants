@@ -1,0 +1,9 @@
+1 - cos(1e-8): naive 0.000e+00; stable 2 sin^2(x/2) 5.000e-17 (true 5.0e-17)
+sum of 8760 hourly PV values: float64 97304.2129 MWh; numpy float32
+    97304.2109;
+    running float32 sum 97304.1328 (error -0.0801 MWh)
+condition number of polynomial-fit matrices on 0..25 m/s:
+  degree  1: 2.84e+01
+  degree  3: 2.26e+04
+  degree  6: 5.44e+08
+  degree 10: 7.36e+14

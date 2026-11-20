@@ -1,0 +1,11 @@
+the environmental and social package of Plant P in numbers
+  register rows: 9; draft findings 3; permit rows 6
+  receptors under the night-noise placeholder: 5 of 5
+  flicker at the dwellings with W2b: 0 h (W2: 112 h at the camp)
+  raptor collisions estimated: about 5 a year (study first)
+  bat curtailment: about 1 % of wind energy
+  land: 147 ha taken, 3.1 ha of customary grazing, one route
+  water: plant 13 % of local withdrawals in operation;
+    construction water trucked in, never pumped locally
+  footprint: about 12.5 g CO2e/kWh (S0), 13.3 (S1), ranges overlap
+  budget of the E&S plan: 270 k u a year, 1.3 % of revenue

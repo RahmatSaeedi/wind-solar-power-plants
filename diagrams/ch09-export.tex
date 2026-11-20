@@ -1,0 +1,15 @@
+% Chapter 9 - the 1200 highest hours of PV plus wind output in the data-pack year against the
+% 100 MW export limit (A-178). Data: diagrams/data/ch09-export.csv (companion/ch09/examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=60mm, xmin=0, xmax=1200, ymin=40, ymax=110,
+      xlabel={ساعت‌های مرتب‌شده}, ylabel={توانِ تولید، $\text{MW}$}, xtick={0,200,...,1200},
+      ytick={40,60,80,100}]
+    \addplot[sWind] table[x=k, y=p, col sep=comma] {data/ch09-export.csv};
+    \draw[cLoss, line width=0.8pt, dash pattern=on 4pt off 2pt] (axis cs:0,100) -- (axis cs:1200,100);
+    \node[note, text=cLoss, anchor=south west] at (axis cs:300,100.5) {حدِ صادراتِ $100\ \text{MW}$};
+    \node[note, text=cInk, anchor=north west] at (axis cs:70,108) {۶۰ ساعت بالای حد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

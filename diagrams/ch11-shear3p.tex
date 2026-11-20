@@ -1,0 +1,21 @@
+% Chapter 11 - torque of each blade and of the rotor over one turn with wind shear 0.2 and tower
+% shadow (quasi-steady teaching model, A-226). Data: diagrams/data/ch11-shear3p.csv (examples_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=64mm, xmin=0, xmax=360, ymin=60, ymax=125,
+      xlabel={زاویهٔ چرخشِ پرهٔ ۱، درجه}, ylabel={گشتاورِ نسبی}, xtick={0,60,...,360},
+      ytick={60,70,...,120}, legend style={at={(0.5,1.03)}, anchor=south}, legend columns=4]
+    \addplot[sWind] table[x=psi, y=b1, col sep=comma] {data/ch11-shear3p.csv};
+    \addlegendentry{پرهٔ ۱}
+    \addplot[sPV] table[x=psi, y=b2, col sep=comma] {data/ch11-shear3p.csv};
+    \addlegendentry{پرهٔ ۲}
+    \addplot[sLoss] table[x=psi, y=b3, col sep=comma] {data/ch11-shear3p.csv};
+    \addlegendentry{پرهٔ ۳}
+    \addplot[sInk, line width=1.6pt] table[x=psi, y=total, col sep=comma] {data/ch11-shear3p.csv};
+    \addlegendentry{روتور}
+    \node[note, anchor=west] at (axis cs:205,64) {سایهٔ برج: پرهٔ ۱ رو به پایین};
+    \draw[->, cRule] (axis cs:204,65) -- (axis cs:183,69.5);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,7 @@
+DC-link capacitor (12 mF, 1000 V) into a cable fault,
+  50 mohm and 20 uH (A-172):
+  damping ratio 0.61; peak current 12.1 kA after 0.56 ms
+  stored energy 6.0 kJ goes into the fault and the cable
+  the inverter's own capacitors feed a DC-side fault even when the
+  array cannot: fuses and cable withstand must see this pulse
+  (chapter 6, U-008; the maker states the real figure)

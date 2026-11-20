@@ -1,0 +1,17 @@
+% Chapter 44 - ripple-current share of the twelve DC-link film capacitors of one stack relative to an
+% even split: ESR spread of the parts plus busbar paths up to 10 % longer
+% (companion/ch44/examples_b.py, caps -> diagrams/data/ch44-caps.csv; teaching values).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=104mm, height=52mm,
+      ybar, bar width=4.5mm, xmin=0.3, xmax=12.7, ymin=0.7, ymax=1.3,
+      xlabel={شمارهٔ خازن (دور شدن از کلیدها)}, ylabel={سهمِ جریانِ ریپل},
+      xtick={1,...,12}, ymajorgrids=true, ytick={0.8,0.9,...,1.25}]
+    \addplot[draw=cBESS, fill=cBESS!35, line width=0.6pt]
+      table[x=cap, y=share, col sep=comma] {data/ch44-caps.csv};
+    \draw[sInk, dashed] (axis cs:0.3,1) -- (axis cs:12.7,1);
+    \node[note, anchor=south west] at (axis cs:9.6,1.17) {تقسیمِ برابر};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+PV inverter output (per unit) by ambient and altitude (teaching curve)
+   C / m       0    1000    1800    2500
+      35   1.000   1.000   0.920   0.850
+      40   1.000   1.000   0.920   0.850
+      45   0.900   0.900   0.828   0.765
+      48   0.840   0.840   0.773   0.714
+      50   0.800   0.800   0.736   0.680
+  at 48 C and 1,800 m (A-558): 0.773 - ten 5.5 MVA units give 42.5 MVA
+  for 50 MW AC at that corner: 12 units, or accept a lower
+  output on the hottest hours and record it in the capability
+  statement given to DABS (ch 9, 28)

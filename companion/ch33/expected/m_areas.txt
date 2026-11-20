@@ -1,0 +1,14 @@
+study area of each topic: set by the reach of the impact (teaching)
+  topic            study area                     reason
+  noise            2 km from any turbine          below background beyond
+  shadow flicker   1.5 km (10 rotor diameters)    too faint beyond
+  raptors          10 km around the nest          range of a pair
+  bats             site + 2 km                    routes, roosts
+  landscape        20 km (visibility)             a dot beyond
+  water            the aquifer (20 km2)           shared resource
+  traffic          route from port to site        where trucks are
+  social           village, camps, strips         who is affected
+  a single fence-line boundary would miss the aquifer, the
+  raptors' range and the haul route; each topic's boundary
+  is written down with its reason at scoping, so a reviewer
+  can see why a receptor is in or out

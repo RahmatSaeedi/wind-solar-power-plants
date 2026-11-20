@@ -1,0 +1,10 @@
+a recorder's clock without its satellite time (teaching drifts)
+  drift ppm   after 1 h s   after 1 day s   after 1 week s
+          1         0.004            0.09              0.6
+          5         0.018            0.43              3.0
+         20         0.072            1.73             12.1
+         50         0.180            4.32             30.2
+  a 20 ppm clock is 1.7 s wrong after a day: 10-minute values
+  barely notice, an event sequence (ch 26) is ruined; the
+  recorder logs when it lost and regained the time source,
+  and that log is checked before events are read

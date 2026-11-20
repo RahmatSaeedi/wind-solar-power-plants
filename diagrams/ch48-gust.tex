@@ -1,0 +1,18 @@
+% Chapter 48 - ten minutes of 1-second wind at a PV block: the 3-second gust crosses the 18 m/s
+% stow trigger once, the one-minute means never do (synthetic; companion/ch48/examples_x.py,
+% gust -> diagrams/data/ch48-gust.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=600, ymin=4, ymax=22,
+      xlabel={زمان (s)}, ylabel={سرعتِ باد (m/s)}, xtick={0,60,...,600},
+      legend pos=north west, legend cell align=right]
+    \addplot[sWind, line width=0.7pt] table[x=t, y=g3, col sep=comma] {data/ch48-gust.csv};
+    \addlegendentry{تندباد سه‌ثانیه‌ای}
+    \addplot[sLoad, line width=1.2pt, dashed] table[x=t, y=m60, col sep=comma] {data/ch48-gust.csv};
+    \addlegendentry{میانگینِ یک‌دقیقه‌ای}
+    \draw[cLoss, line width=1pt, dash pattern=on 3pt off 2pt] (axis cs:0,18) -- (axis cs:600,18);
+    \node[note, anchor=south east, text=cLoss] at (axis cs:598,18.2) {آستانهٔ حالتِ ایمن};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

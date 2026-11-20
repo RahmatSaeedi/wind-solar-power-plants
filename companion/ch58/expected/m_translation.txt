@@ -1,0 +1,17 @@
+does the Persian translation keep each provision type?
+  S01 English requirement     Persian requirement
+  S02 English prohibition     Persian prohibition
+  S03 English recommendation  Persian requirement     MISMATCH
+  S04 English permission      Persian permission
+  S05 English possibility     Persian possibility
+  S06 English requirement     Persian requirement
+  S07 English requirement     Persian requirement
+  S08 English prohibition     Persian prohibition
+  S09 English requirement     Persian requirement
+  S10 English statement       Persian statement
+  S11 English recommendation  Persian recommendation
+  S12 English requirement     Persian permission      MISMATCH
+  mismatches: S03, S12
+  a recommendation translated as 'baayad' becomes a requirement,
+  and a requirement as 'mojaaz ast' a permission: the type is
+  checked sentence by sentence before a translation is issued

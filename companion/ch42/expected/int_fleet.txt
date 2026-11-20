@@ -1,0 +1,9 @@
+the twelve-turbine fleet's manufacturing quality in numbers
+  downtime 67 h a turbine-year; major replacements 49% of it
+  about 12 crane campaigns in 25 years
+  blade sets after sorting 0.59 t m against 3.55 at random
+  run-in: 3 of 10 gearboxes held, each with a diagnosis
+  1,488 tightening operations a turbine; logged tools take the expected loose
+    joints from 9 to 0.1
+  the fleet's reliability starts in the factory records: each
+  number here is a record the plant can ask for

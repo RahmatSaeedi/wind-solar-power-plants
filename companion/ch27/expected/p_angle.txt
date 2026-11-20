@@ -1,0 +1,11 @@
+reactive power error from a transducer phase error (100 MW, pf 1)
+  phase error deg   Q error Mvar   share of a 33 Mvar requirement
+              0.1           0.17                             0.5%
+              0.3           0.52                             1.6%
+              0.5           0.87                             2.7%
+              1.0           1.75                             5.3%
+  at full power and unity power factor a small angle error
+  shows up as reactive power that is not there: half a degree
+  is nearly a megavar; the reactive measurement for a service
+  uses a metering-class chain with its angle stated, and the
+  error budget is part of the acceptance (lesson K)

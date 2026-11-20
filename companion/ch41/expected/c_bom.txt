@@ -1,0 +1,16 @@
+bill of materials of one PVM-550 (28.1 kg)
+  part                                mass kg  share  control
+  front glass, tempered, AR-coated      20.70    74%  thickness, flatness
+  half-cut cells                         0.85     3%  current bin, EL grade
+  interconnect ribbon / wire             0.35     1%  solder or bond peel
+  encapsulant sheets                     1.20     4%  gel content, laminated
+  backsheet                              0.60     2%  adhesion, insulation
+  aluminium frame                        3.50    12%  dimensions, corners
+  frame sealant / adhesive               0.30     1%  bead, cure
+  junction box, 3 bypass diodes          0.25     1%  diode test, potting
+  cables and connectors                  0.35     1%  type matches the plant
+  labels (rating, serial)                0.00     0%  serial = flash record
+  glass is 74% of the mass; for 109,200 modules the plant receives 3,069 t
+  every line has a control: the BOM is also the list of
+  incoming inspections and of the parts whose change needs
+  re-qualification (lesson C, tests)

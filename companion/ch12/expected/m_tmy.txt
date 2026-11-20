@@ -1,0 +1,19 @@
+a typical year from the 20-year provider record (A-241):
+  month  chosen year  sum kWh/m2  20-year mean
+  Jan     2018          82.7         82.6
+  Feb     2005         103.4        103.0
+  Mar     2010         163.7        163.5
+  Apr     2015         194.9        195.1
+  May     2006         210.9        211.0
+  Jun     2013         248.1        247.3
+  Jul     2015         245.5        245.4
+  Aug     2013         189.9        190.2
+  Sep     2011         166.8        166.7
+  Oct     2020         140.1        139.8
+  Nov     2009          96.1         96.1
+  Dec     2007          69.8         69.9
+  typical year 1,911.9 kWh/m2 against the long-term mean 1,910.5
+  a low year (10th percentile of the twenty) 1,814.8 kWh/m2
+  a typical year keeps realistic weather sequences for hourly
+  models (storage, clipping); it is a P50-like year, not a P90
+  year: a 'P90 year' is built by scaling, with care

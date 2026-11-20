@@ -1,0 +1,11 @@
+critical sub-suppliers of a transformer and their on-time chance (teaching)
+  supplier               tier   on time
+  transformer factory       1       99 %
+  core steel mill           2       95 %
+  copper wire drawer        2       97 %
+  bushing maker             2       96 %
+  tap changer maker         2       98 %
+  all on time together: 86 %
+  the factory's own record is 99 %, the chain's 86 %; the
+  audit maps the second tier, and a single-source part with
+  a long lead (core steel) gets a buffer or a second source

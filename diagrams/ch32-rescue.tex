@@ -1,0 +1,17 @@
+% Chapter 32 - cumulative time of a rescue from a nacelle by day and by night, against the
+% ambulance's arrival at the tower (about 55 min) (diagrams/data/ch32-rescue.csv, lab_h; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0.7, xmax=6.3, ymin=0, ymax=85,
+      xtick={1,...,6}, xticklabels={هشدار, کمکِ نخست, رسیدنِ تیم, بالا رفتن, آماده‌سازی, پایین آوردن},
+      x tick label style={font=\scriptsize}, ylabel={دقیقه از هشدار},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sBESS, mark=*, mark size=1.4pt] table[x expr=\coordindex+1, y=day, col sep=comma] {data/ch32-rescue.csv};
+    \addplot[sLoad, mark=square*, mark size=1.3pt] table[x expr=\coordindex+1, y=night, col sep=comma] {data/ch32-rescue.csv};
+    \draw[sLimit] (axis cs:0.7,55) -- (axis cs:6.3,55);
+    \node[note, anchor=south west] at (axis cs:0.75,55.5) {آمبولانس پای برج};
+    \legend{روز, شب}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

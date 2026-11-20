@@ -1,0 +1,11 @@
+Tajikistan: 61 facts by topic and status (sources read 2026-11-17)
+  topic                         verified  proj-dep  to-confirm
+  A authorities and approvals         11         1           7
+  B grid, export, water, land          9         0          11
+  C standards and evidence             2         0           5
+  E grid services                      0         0           1
+  F finance and fiscal                 5         0           3
+  G social and land                    1         0           5
+  all                                 28         1          32
+  of the to-confirm items, 21 rest only on secondary sources
+  (news, lenders' or law firms' summaries): a lead, not a source

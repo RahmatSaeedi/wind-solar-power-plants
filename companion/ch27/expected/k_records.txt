@@ -1,0 +1,11 @@
+product limits and the evidence chain (factory to site):
+  item                 checked                           record
+  filter capacitors    capacitance, losses, insulation   routine tests
+  filter reactor       inductance, Q, temperature rise   routine/type tests
+  filter assembly      tuning measured on site           commissioning
+  PQ instrument        class A certificate, calibration  certificate
+  plant controller     FAT of the control functions      FAT (ch 46)
+  service tests        steps, droop, P-Q points          site tests (ch 48)
+  the factory proves the product, the site proves the plant;
+  both records sit in the dossier next to the investigation
+  and the monitoring plan

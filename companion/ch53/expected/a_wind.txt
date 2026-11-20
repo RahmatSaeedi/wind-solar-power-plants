@@ -1,0 +1,7 @@
+wind energy availability by year (%)
+  96.4 97.2 97.5 97.6 97.3 97.4 97.0 96.8 96.9
+  96.3 96.1 95.8 95.9 95.2 95.0 94.6 94.4 93.9
+  years 4-9: -0.15 points a year; years 10-18: -0.30 +/- 0.04
+  the fall steepens after year 9: the major components enter
+  wear-out (ch 52 Weibull) - one straight line through all
+  18 years would hide the break and the cause

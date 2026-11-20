@@ -1,0 +1,7 @@
+internals of tower section 3 against its list
+  missing: platform (1)
+  missing: platform hatch (1)
+  the 6 % mass gap of round t is the platform and its hatch;
+  the dossier said 'complete' because the list was signed at
+  the coating step - the internals list is signed after the
+  last item is fitted, and the weighing confirms it

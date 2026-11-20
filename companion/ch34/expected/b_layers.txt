@@ -1,0 +1,13 @@
+layers of Plant P's control and how fast each one acts (teaching)
+  layer                         cycle          job
+  protection relays (ch 26)     1-10 ms        trip on faults
+  equipment controllers         1-100 ms       inverter, PCS, pitch
+  PLC / RTU                     50 ms scan     interlocks, sequences, I/O
+  plant controller (PPC)        100-200 ms     P, Q, V, f at the POC
+  EMS / SCADA                   1 s - 15 min   schedules, operators
+  grid operator                 s - minutes    limits, set points
+  each layer is about ten times slower than the one below
+  it and trusts it to do its own job: a PLC never replaces
+  protection, and the PPC never drives an inverter's
+  current loop - it sends set points the inverter's own
+  controller follows (ch 9, ch 20)

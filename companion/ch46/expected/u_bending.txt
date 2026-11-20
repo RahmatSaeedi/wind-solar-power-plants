@@ -1,0 +1,12 @@
+bending space in the cable compartment (teaching: radius >= 12 x OD;
+  1300 mm from the floor plate to the connector)
+  size mm2   OD mm   radius mm   fits
+       240      92        1104   yes
+       400     106        1272   yes
+       630     120        1440   NO
+  the 630 mm2 cable of WS1-WS3 needs 1,440 mm and the
+  compartment gives 1,300: the cable would be forced into a
+  tighter bend than its maker allows, straining the
+  termination; a deeper cable trench under the panel or a
+  cable cellar is a civil interface (ch 29), found from the
+  cable data and the panel drawing, not on the day of pulling

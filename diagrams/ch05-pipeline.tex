@@ -1,0 +1,22 @@
+% Chapter 5 - the validation chain for the raw logger file (resource_tool/rawdata.py):
+% each stage writes what it did into the summary that the report quotes.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small, node distance=4mm]
+  \tikzset{st/.style={blk, minimum width=36mm, minimum height=10mm, font=\footnotesize}}
+  \node[st] (r) at (0,0) {خواندن\\سرسطرها جدا};
+  \node[st] (p) at (0,-1.5) {تبدیلِ زمان\\برچسبِ پایان به آغاز، به $\text{UTC}$};
+  \node[st] (c) at (0,-3.0) {مرتب‌سازی و تکراری‌ها\\گزارشِ شکاف‌ها};
+  \node[st] (f) at (0,-4.5) {پرچم‌گذاری\\حد، نگهبان، یکا، گیرکردن};
+  \node[st] (h) at (0,-6.0) {میانگینِ ساعتی\\دستِ‌کم ۵ از ۶ مقدار};
+  \node[blkBESS, minimum width=36mm, minimum height=10mm, font=\footnotesize] (o) at (0,-7.5) {جدولِ ساعتی + خلاصه};
+  \foreach \a/\b in {r/p, p/c, c/f, f/h, h/o} {\draw[flow] (\a) -- (\b);}
+  \node[blkWarn, minimum width=52mm, minimum height=8mm, font=\footnotesize, anchor=east] (k1) at (-2.6,-1.5) {مُهرِ بی‌اختلاف: $\texttt{2023-04-03 14:10}$};
+  \node[blkWarn, minimum width=52mm, minimum height=8mm, font=\footnotesize, anchor=east] (k2) at (-2.6,-3.0) {یک رکوردِ تکراری، دو رکوردِ جابه‌جا، ۵ رکوردِ گم‌شده};
+  \node[blkWarn, minimum width=52mm, minimum height=8mm, font=\footnotesize, anchor=east] (k3) at (-2.6,-4.5) {نگهبانِ \mbox{$-9999$}، فشار به $\text{kPa}$، تندیِ ثابت، جهتِ $400^\circ$};
+  \foreach \k/\s in {k1/p, k2/c, k3/f} {\draw[flowinfo] (\k.east) -- (\s.west);}
+  \node[blkLoad, minimum width=40mm, minimum height=10mm, font=\footnotesize, anchor=west] (s) at (2.6,-6.0) {مقایسه با سریِ ساعتیِ\\بستهٔ داده: اختلاف کمتر از $0.01\ \text{m/s}$};
+  \draw[flowinfo] (h.east) -- (s.west);
+  \node[note, anchor=north] at (0,-8.3) {هیچ مقداری بی‌صدا حذف یا عوض نمی‌شود؛ هر تغییر شمرده و گزارش می‌شود};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,32 @@
+% Chapter 7 - the power triangle (right) and the four quadrants in the generator convention of
+% Plant P (left): export / import of active power, supplying / absorbing reactive power.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % ---------------- power triangle (right) ----------------
+  \begin{scope}[xshift=8.6cm, yshift=-1.4cm]
+    \draw[line width=1.2pt, cInk, ->] (0,0) -- (4.0,0);
+    \draw[line width=1.2pt, cLoad, ->] (4.0,0) -- (4.0,3.0);
+    \draw[line width=1.2pt, cInkB, ->] (0,0) -- (4.0,3.0);
+    \node[note, text=cInk, anchor=north] at (2.0,-0.08) {$P = S\cos\varphi\ (\text{W})$};
+    \node[note, text=cInk, anchor=west] at (4.08,1.5) {$Q = S\sin\varphi\ (\text{var})$};
+    \node[note, text=cInk, anchor=south east] at (1.9,1.5) {$S\ (\text{VA})$};
+    \draw[cInkB, line width=0.5pt] (1.1,0) arc (0:36.87:1.1);
+    \node[note, anchor=west] at (18:1.15) {$\varphi$};
+    \draw[cRule] (3.75,0) -- (3.75,0.25) -- (4.0,0.25);
+    \node[note, text=cInk, font=\small\bfseries] at (2.0,3.6) {مثلثِ توان};
+  \end{scope}
+  % ---------------- four quadrants (left) ----------------
+  \draw[cRule, line width=0.6pt, ->] (0,0) -- (6.4,0);
+  \draw[cRule, line width=0.6pt, ->] (3.2,-2.3) -- (3.2,2.6);
+  \node[note, text=cInk, anchor=west] at (6.45,0) {$P$};
+  \node[note, text=cInk, anchor=south] at (3.2,2.62) {$Q$};
+  \node[note, text=cInk, text width=26mm] at (4.85,1.25) {صدورِ اکتیو\\دادنِ راکتیو};
+  \node[note, text=cInk, text width=26mm] at (4.85,-1.25) {صدورِ اکتیو\\گرفتنِ راکتیو};
+  \node[note, text=cInk, text width=26mm] at (1.55,1.25) {ورودِ اکتیو\\دادنِ راکتیو};
+  \node[note, text=cInk, text width=26mm] at (1.55,-1.25) {ورودِ اکتیو\\گرفتنِ راکتیو};
+  \fill[cPV!15] (3.2,0) -- (5.8,0) arc (0:18.19:2.6) -- cycle;
+  \fill[cPV!15] (3.2,0) -- (5.8,0) arc (0:-18.19:2.6) -- cycle;
+  \node[note, text width=58mm, anchor=north] at (3.2,-2.45) {قراردادِ مولدِ نیروگاهِ P؛ ناحیهٔ رنگی: ضریبِ توانِ $0.95$ در دو جهت};
+\end{tikzpicture}}
+\end{document}

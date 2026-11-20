@@ -1,0 +1,9 @@
+findings of the yearly tabletop and their follow-up (synthetic)
+  finding                                  owner             days  closed
+  call list with an old number             OT lead              7  yes
+  HMI image older than the last patch      control engineer    30  yes
+  grid operator contact not in the plan    asset owner         14  yes
+  no spare HMI on site                     control engineer    90  NO
+  3 of 4 closed by their date; the open one is in the
+  findings record of lesson D with a new date
+  an exercise is worth its findings only if they are closed

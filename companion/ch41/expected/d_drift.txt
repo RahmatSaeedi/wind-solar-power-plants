@@ -1,0 +1,8 @@
+golden module flashed every 100 modules (its value 551.0 W)
+  checks before seq 2400: mean 551.0 W, sd 0.36
+  first check outside +-1.1 W: seq 2400
+  shift after it: +2.52 W (+0.46%)
+  the modules flashed since the last good check read high:
+  they are corrected or re-flashed after the reference is
+  restored - and the cause (reference cell, lamp, spectrum)
+  is found before the line restarts

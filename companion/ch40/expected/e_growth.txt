@@ -1,0 +1,8 @@
+reliability growth in the pilot extended-run test
+  failures 9 in 2,000 h; beta 0.58 (below 1: improving)
+  cumulative MTBF 222 h; MTBF now 385 h
+  target 1,000 h is reached at about 19,145 h of test
+  if the corrective actions keep coming at the same pace;
+  five skids on test share it: 3,829 h each (about 5 months)
+  growth is not time passing - it is failures found, their
+  causes removed and the fixes built into later skids

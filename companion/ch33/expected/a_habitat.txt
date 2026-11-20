@@ -1,0 +1,12 @@
+habitat the project takes and a teaching offset (ha)
+  use                          area   habitat              offset ratio
+  PV block (fenced)             119.0   rangeland              1.0
+  roads and pads                 18.7   rangeland, wadi edge   2.0
+  substation and BESS             2.5   rangeland              1.0
+  laydown (temporary)             6.0   rangeland (restored)   0.0
+  export line towers              0.6   farmland strips        1.0
+  total 146.8 ha; offset area at these ratios 159.5 ha
+  avoidance comes first (the wadi edge, the nest), then
+  restoration of temporary areas, and an offset only for
+  what remains - the ratios and whether an offset applies
+  come from the framework and the biodiversity study

@@ -1,0 +1,18 @@
+% Chapter 16 - share of projects with k of 15 loan years below the one-year P90: independent years
+% against a long-term error shared by all years (200,000 simulated projects). The last group is six or
+% more. Data: diagrams/data/ch16-yearsbelow.csv (companion/ch16/lab_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=62mm, ybar=1pt, bar width=5mm,
+      xmin=-0.6, xmax=6.6, ymin=0, ymax=65,
+      xlabel={شمارِ سال‌های زیرِ $P_{90}$ در پانزده سال}, ylabel={سهمِ پروژه‌ها، درصد},
+      xtick={0,...,6}, xticklabels={0,1,2,3,4,5,{۶ یا بیشتر}}, ytick={0,10,...,60},
+      xmajorgrids=false, legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[draw=cInkB, fill=cInkB!25] table[x=k, y=ind, col sep=comma] {data/ch16-yearsbelow.csv};
+    \addlegendentry{سال‌های مستقل}
+    \addplot[draw=cLoss, fill=cLoss!40] table[x=k, y=sh, col sep=comma] {data/ch16-yearsbelow.csv};
+    \addlegendentry{خطای بلندمدتِ مشترک}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

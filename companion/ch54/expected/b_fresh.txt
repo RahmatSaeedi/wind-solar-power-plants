@@ -1,0 +1,10 @@
+source checks on 2027-03-01: checked within 365 days, current edition,
+  official source
+  Z-004: verification stale; edition 2019 superseded by 2024
+  Z-011: verification stale; no official source
+  Z-012: verification stale; edition 2016 superseded by 2020
+  3 of 14 requirements need work: the ramp rate was
+  copied from the 2019 grid code (a later edition exists), the
+  transformer standard is an older edition, and one rule has
+  no official source - a requirement is only as current as
+  its last check

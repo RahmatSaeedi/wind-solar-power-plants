@@ -1,0 +1,18 @@
+% Chapter 2 — the mean-speed shortcut versus hour-by-hour use of the power curve.
+% Data: diagrams/data/ch02-cube-trap.csv (companion/ch02/examples.py), data pack 1.0.0, scenario S0.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=46mm,
+      xbar, bar width=9mm, xmin=0, xmax=230, ymin=0.4, ymax=2.6,
+      xlabel={انرژیِ سالانهٔ مزرعهٔ بادی (GWh)},
+      ytick={1,2}, yticklabels={{سرعتِ میانگین در منحنیِ توان},{سرعتِ ساعت‌به‌ساعت در منحنیِ توان}},
+      yticklabel style={font=\footnotesize, text=cInk},
+      ymajorgrids=false, xmajorgrids=true, xtick={0,50,...,200},
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk, anchor=west},
+      point meta=x]
+    \addplot[draw=cWind, fill=cWind!35, line width=0.6pt, pattern color=cWind]
+      table[x=value, y=case, col sep=comma] {data/ch02-cube-trap.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

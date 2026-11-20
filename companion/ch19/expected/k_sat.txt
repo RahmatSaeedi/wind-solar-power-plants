@@ -1,0 +1,7 @@
+site capacity test of S1 (teaching plan, A-296):
+  charge to 90 % from the plant, rest 1 h, discharge at 20 MW
+  to 10 %: about 29.8 MWh in 1.5 h at the revenue meter,
+  rest 1 h, recharge; with the round trip measured on the same
+  cycle; needs 20 MW of export room for 1.5 h and a sunny or
+  windy morning to charge: a test window agreed with the
+  operator and the buyer (chapter 50)

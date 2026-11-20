@@ -1,0 +1,11 @@
+tower in four 25 m sections, cans 2.5 m (A-218):
+  section  D base..top m  t mm  mass t  circ. welds  long. weld m
+        1   4.50..4.12       46     124       149 m           25
+        2   4.12..3.75       40      96       136 m           25
+        3   3.75..3.38       32      71       123 m           25
+        4   3.38..3.00       26      50       110 m           25
+  total 341 t steel; welds 518 m circumferential, 100 m longitudinal
+  coated area inside and outside 2,356 m2; paint for 320 um dry film at
+    70 % solids and 60 % transfer efficiency: 1,795 L per tower
+  base diameter 4.5 m is near the limit of road transport
+  under bridges; larger towers use split or concrete sections

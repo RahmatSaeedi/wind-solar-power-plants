@@ -1,0 +1,11 @@
+ground potential rise for a 132 kV earth fault in the substation:
+  grid 0.857 ohm; fault 5.2 kA, share to earth 40% = 2,080 A
+  GPR = 2,080 x 0.857 = 1,782 V
+  the earth wire of the line and the cable screens carry the
+  rest of the current back; the split is a study result
+  (U-089), not a constant
+  touch and step voltages are fractions of the GPR set by the
+  mesh geometry; the tolerable limits fall as the clearing
+  time grows (roughly with 1/sqrt t): halving the clearing
+  time raises the limit by 1.41 x - fast protection is
+  part of the earthing design

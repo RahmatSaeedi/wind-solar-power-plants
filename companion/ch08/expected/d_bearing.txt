@@ -1,0 +1,6 @@
+synthetic acceleration, fs 10240 Hz, 2 s, outer-race defect (A-116):
+  expected outer-race frequency 110.2 Hz; shaft 19.25 Hz
+  largest raw-spectrum peaks below 500 Hz: 19.0, 19.5, 38.5 Hz
+  largest envelope-spectrum peaks (band 2-4 kHz): 220.5, 110.5, 441.0 Hz
+  the raw spectrum shows the shaft; the envelope shows the defect
+  at the outer-race frequency and its harmonics

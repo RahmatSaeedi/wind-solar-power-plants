@@ -1,0 +1,20 @@
+% Chapter 19 - the teaching propagation chain: one line of cells in a module, the failed cell in the
+% middle, each neighbour following with probability p; barriers between cells lower p. A teaching
+% abstraction, not a design method (companion/plantp/storage.py chain_expected).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    c/.style={draw=cInkB, fill=white, minimum width=6mm, minimum height=12mm, inner sep=0pt}]
+  \foreach \k in {0,...,14} {
+    \node[c] (c\k) at (0.75*\k,0) {};
+  }
+  \node[c, fill=cLoss!60] at (0.75*7,0) {};
+  \foreach \k in {6,8} { \node[c, fill=cLoss!30] at (0.75*\k,0) {}; }
+  \foreach \k in {5,9} { \node[c, fill=cLoss!12] at (0.75*\k,0) {}; }
+  \draw[flow, draw=cLoss] (0.75*7-0.15,0.85) to[bend right=30] node[above, text=cInk] {$p$} (0.75*6+0.15,0.85);
+  \draw[flow, draw=cLoss] (0.75*7+0.15,0.85) to[bend left=30] node[above, text=cInk] {$p$} (0.75*8-0.15,0.85);
+  \draw[flow, draw=cLoss] (0.75*6-0.15,0.85) to[bend right=30] node[above, text=cInk] {$p$} (0.75*5+0.15,0.85);
+  \draw[flow, draw=cLoss] (0.75*8+0.15,0.85) to[bend left=30] node[above, text=cInk] {$p$} (0.75*9-0.15,0.85);
+  \node[note, text width=90mm] at (5.25,-1.2) {سلولِ معیوب در میانه؛ هر همسایه با احتمالِ $p$ دنبال می‌کند؛ دیواره میانِ سلول‌ها $p$ را کم می‌کند};
+\end{tikzpicture}
+\end{document}

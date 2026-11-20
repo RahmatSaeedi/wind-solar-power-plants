@@ -1,0 +1,6 @@
+permanent line fault: time to restore (Monte Carlo of the stages, h)
+  mobilise 2.0, find 1.5, repair 3.2 (medians); 30 % of faults need a part
+  restore: median 8.4 h, P90 66.4 h, mean 23.1 h
+  with the part always on site: mean 7.5 h, P90 10.6 h
+  the part, not the crew, makes the tail: insulators held on
+  site (lesson H spares) cut the worst outages

@@ -1,0 +1,23 @@
+% Chapter 38 - the interfaces of the PV inverter skid: each line is one interface item with its
+% owner; dashed items are still open (examples_b; teaching ICD A-419).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\scriptsize,
+    c/.style={blk, minimum width=20mm, minimum height=8mm, text width=19mm}]
+  \node[blk, blkPV, minimum width=34mm, minimum height=22mm, text width=32mm] (skid) at (0,0)
+    {اسکیدِ اینورتر\\اینورتر، ترانسفورماتورِ واحد، کلیدِ فشارمتوسط};
+  \node[c, blkLoad] (civ) at (0,3.0) {عمران: پی، زهکشی};
+  \node[c, blkLoad] (mv) at (4.4,1.4) {شبکهٔ ۳۳ کیلوولت: کابل، اتصالِ کوتاه};
+  \node[c, blkWind] (ctl) at (4.4,-1.4) {کنترل و ارتباط: نقطه‌ها، زمان};
+  \node[c, blkLoad] (dc) at (-4.4,1.4) {سمتِ DC: جعبه‌های ترکیب};
+  \node[c, blkWarn] (th) at (-4.4,-1.4) {گرما: هوای ورودی و خروجی};
+  \node[c, blkWarn] (grid) at (0,-3.0) {رفتار در شبکه: عبور از خطا، توانِ راکتیو};
+  \draw[flow, <->] (civ) -- (skid);
+  \draw[flow, <->] (dc) -- (skid);
+  \draw[flowinfo, <->] (mv) -- (skid);
+  \draw[flow, <->] (ctl) -- (skid);
+  \draw[flowinfo, <->] (th) -- (skid);
+  \draw[flowinfo, <->] (grid) -- (skid);
+  \node[note, text width=44mm, anchor=north] at (0,-3.7) {خط‌چین: موردِ باز (سه از دوازده)؛ هر مورد یک مقدار و دو امضا};
+\end{tikzpicture}
+\end{document}

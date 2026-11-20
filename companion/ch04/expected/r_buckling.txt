@@ -1,0 +1,7 @@
+Euler load pi^2 E I / (K L)^2 (ideal elastic column):
+  tracker post, tube 150 x 5 mm, 2 m free cantilever (K = 2): 776 kN
+  angle brace 50 x 50 x 5, pinned, 1 m:   95.3 kN (yield load 170 kN)
+  angle brace 50 x 50 x 5, pinned, 2 m:   23.8 kN (yield load 170 kN)
+  angle brace 50 x 50 x 5, pinned, 3 m:   10.6 kN (yield load 170 kN)
+  short stocky parts yield first; long slender ones buckle long before
+  real columns have imperfections: design curves sit below Euler (chapter 30)

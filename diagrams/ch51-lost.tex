@@ -1,0 +1,15 @@
+% Chapter 51 - energy available but not exported in the first operating year, by recorded cause
+% (companion/ch51/examples_b.py, lost_by_cause -> diagrams/data/ch51-lost.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xbar, bar width=5mm, ymin=0.4, ymax=4.6,
+      xmin=0, xmax=3200, y dir=reverse, ytick={1,2,3,4},
+      yticklabels={بی‌علتِ ثبت‌شده, گردوغبار, ازکارافتادگیِ بلوک, محدودیتِ شبکه},
+      xlabel={انرژی (MWh)}, scaled x ticks=false,
+      xticklabel style={/pgf/number format/fixed}, nodes near coords,
+      nodes near coords align={horizontal}, every node near coord/.append style={anchor=west}]
+    \addplot[draw=cLoss, fill=cLoss!35] table[x=mwh, y=k, col sep=comma] {data/ch51-lost.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

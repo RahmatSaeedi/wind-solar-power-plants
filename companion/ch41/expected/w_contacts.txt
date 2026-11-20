@@ -1,0 +1,9 @@
+contact resistance in the series-resistance budget (total 0.64 ohm cm2)
+  rho_c mOhm cm2   contact part ohm cm2   share of the budget
+               1                  0.043                    7%
+               3                  0.130                   20%
+              10                  0.433                   68%
+  a well-fired contact takes under a tenth of the budget; a
+  poorly formed one takes most of it - the left wall of the
+  firing window (lesson B) is this term growing, and the
+  transfer-length test on sample cells measures it

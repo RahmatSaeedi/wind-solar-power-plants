@@ -1,0 +1,10 @@
+evaluated price, k u (losses at A 6.84, B 1.37 k u/kW; ch 25)
+  offer   price   deviations   losses   late delivery   currency    total
+  U-A     1,160            6      841               0         65    2,072
+  U-B     1,010           28    1,066              20         16    2,141
+  U-C     1,080           12      923               0         78    2,093
+  lowest price: U-B; lowest evaluated price: U-A
+  the losses over 25 years cost about as much as the units;
+  the cheapest offer is the most expensive to own. Late
+  delivery is priced at the delay damages it would cost the
+  project, currency at an allowance on the foreign share

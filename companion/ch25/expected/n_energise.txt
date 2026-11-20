@@ -1,0 +1,11 @@
+first energisation of a main transformer: states and records
+  before           insulation and ratio checks done, baseline oil sample
+  first energising inrush recorded by the protection relays
+  soak, no load    sound, temperatures, gas relay watched for a set period
+  after soak       second oil sample compared with the baseline
+  first load       thermal readings against the heat-run results
+  records          event and disturbance files, readings, signatures
+  each state has a hold point and a record; the switching
+  itself follows the operator's programme and the owner's
+  safety rules (ch 48-50) - this list says what is shown,
+  not how it is done

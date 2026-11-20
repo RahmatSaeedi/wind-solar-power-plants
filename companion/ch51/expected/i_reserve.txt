@@ -1,0 +1,6 @@
+intraday (3 h) forecast error, daytime hours of the year
+  95% of hours the plant delivers no less than the forecast minus 12.9 MW
+  a schedule backed to that level needs 12.9 MW of reserve from the
+  battery or a margin in the declaration; the battery's 20 MW
+  covers it, but not together with the 5 MW service and a
+  full charge plan - the three compete for one battery

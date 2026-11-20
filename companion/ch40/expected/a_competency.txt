@@ -1,0 +1,12 @@
+competency coverage (at least two qualified people an op)
+  OP10  3  W1, W2, W3
+  OP40  3  E1, E2, E4
+  OP50  1  J1  <- single point
+  OP60  3  E2, E3, E4
+  OP70  2  E1, E3
+  OP80  2  T1, T2
+  single points: OP50 - the MV termination
+  rests on one certified jointer; leave, illness or a
+  second shift stops the line at OP50
+  fix: a second jointer certified by the termination-kit
+  maker before serial production (a hold in the ITP)

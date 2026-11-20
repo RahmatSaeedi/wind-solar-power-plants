@@ -1,0 +1,11 @@
+development risk register (probability, impact k u):
+  risk                                 p     impact   expected
+  grid offer later than 12 months      0.40    2,500      1,000
+  ESIA finds a sensitive species       0.15    8,000      1,200
+  land parcel holdout                  0.20    3,000        600
+  wind lower than modelled by 3 %      0.30    4,500      1,350
+  turbine price +8 %                   0.25    6,200      1,550
+  expected cost 5,700 k u; the largest impact is the ESIA species
+  risk (low chance, large impact): a cheap early survey buys
+  most of it down (below); the largest expected cost is the
+  turbine price, which only a firm price at G4 removes

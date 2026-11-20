@@ -1,0 +1,11 @@
+twist of a PV table when one post settles (teaching)
+  post settles mm   twist mrad   module corner out of plane mm
+                5         0.85                              1.9
+               10         1.69                              3.9
+               20         3.39                              7.7
+               40         6.78                             15.4
+  a module tolerates only a few millimetres of twist before
+  the glass and frame are stressed; posts in the loose top
+  layer (ch 29) that settle or heave 20 mm warp the table -
+  driving to the tested depth and a survey of post heads
+  after a wet season catch it

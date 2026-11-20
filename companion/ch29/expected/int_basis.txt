@@ -1,0 +1,27 @@
+civil and water basis of Plant P (D-033):
+  ground: model from 10 boreholes and 2 seismic lines,
+    interpolated only with stated limits; the further
+    investigation of int_investigation before design; no
+    foundation chosen here (ch 30 with the engineers)
+  roads and pads: grades within the transport limits (U-106),
+    curve widening by swept path, aggregate by CBR section,
+    crane pads checked where soft ground lies (T07); the
+    grade line never dams the wadi (fill capped at the crest)
+  drainage: rational method on the 1-hour Gumbel record,
+    culvert or ford at the wadi crossing with an overtopping
+    path; sediment ponds while ground is bare
+  climate: design values with the record's trend, not as if
+    stationary; hazards linked to the parts they govern
+  fire: access, firewater and runoff containment from the
+    fire strategy and the authority (U-105), placeholders here
+  water: W-1 for operation with the tank carrying summer;
+    construction water from another source (trucked or
+    treated) - 54,000 m3 short; cleaning by robots preferred
+    on water grounds (D-014 robot vs truck at bid confirmed)
+  corridor: the ch 14 route straightened (4 angle points,
+    28 towers) with its register of surveys and permits;
+    substation 1.8 m above the channel bed: platform level
+    and any diversion bund after a flood study (U-107)
+  open: water right and abstraction volume (U-104); fire
+    strategy values (U-105); transport limits (U-106);
+    wadi flood levels and flow paths (U-107)

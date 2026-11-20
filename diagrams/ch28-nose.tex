@@ -1,0 +1,19 @@
+% Chapter 28 - P-V ('nose') curves at the POC: the plant's output raised in the study beyond its
+% size until the load flow has no solution, for the strong (1,500 MVA) and the weak (900 MVA)
+% grid, units at q = 0; data diagrams/data/ch28-nose.csv from companion/ch28/examples_h.py.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=240, ymin=0.84, ymax=1.06,
+      xlabel={توان در نقطهٔ اتصال $(\text{MW})$}, ylabel={ولتاژِ نقطهٔ اتصال $(\text{pu})$},
+      xmajorgrids=true, legend columns=2, unbounded coords=jump,
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/fixed zerofill,
+                        /pgf/number format/precision=2}]
+    \addplot[sWind, mark=*, mark size=1pt] table[x=pmax, y=vmax, col sep=comma] {data/ch28-nose.csv};
+    \addplot[sLoss, mark=square*, mark size=1pt] table[x=pmin, y=vmin, col sep=comma] {data/ch28-nose.csv};
+    \legend{شبکهٔ بیشینه, شبکهٔ کمینه}
+    \draw[densely dotted, draw=cInkB] (axis cs:100,0.84) -- (axis cs:100,1.06);
+    \node[note, anchor=south west] at (axis cs:102,0.85) {اندازهٔ نیروگاه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

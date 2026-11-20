@@ -1,0 +1,10 @@
+pulse resistance of the cell at 1 C from rest, 50 % SOC:
+  pulse s    25 C mohm   10 C mohm
+      0.1        0.251       0.465
+      1.0        0.255       0.469
+     10.0        0.293       0.511
+     30.0        0.347       0.583
+     60.0        0.385       0.653
+  the 'resistance' of a cell depends on how long the pulse
+  lasts and on temperature; a test report states both, and a
+  trend is valid only between tests made the same way

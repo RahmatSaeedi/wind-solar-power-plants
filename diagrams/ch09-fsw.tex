@@ -1,0 +1,19 @@
+% Chapter 9 - semiconductor losses of the turbine grid-side converter against switching frequency.
+% Data: diagrams/data/ch09-fsw.csv (companion/ch09/examples_a.py, A-144).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm, xmin=1000, xmax=5000, ymin=0, ymax=50,
+      xlabel={بسامدِ کلیدزنی، $\text{Hz}$}, ylabel={تلفات، $\text{kW}$}, xtick={1000,2000,...,5000},
+      ytick={0,10,...,50}]
+    \addplot[sInk] table[x=f, y=cond, col sep=comma] {data/ch09-fsw.csv};
+    \addlegendentry{هدایت}
+    \addplot[sLoss] table[x=f, y=sw, col sep=comma] {data/ch09-fsw.csv};
+    \addlegendentry{کلیدزنی}
+    \node[note, text=cInk, anchor=south] at (axis cs:1600,43) {ثابت با بسامد};
+    \node[note, text=cInk, anchor=north west] at (axis cs:3600,30) {متناسب با بسامد};
+    \draw[cRule, densely dotted] (axis cs:2500,0) -- (axis cs:2500,50);
+    \node[note, anchor=north west] at (axis cs:2520,48) {نقطهٔ کارِ $2.5\ \text{kHz}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

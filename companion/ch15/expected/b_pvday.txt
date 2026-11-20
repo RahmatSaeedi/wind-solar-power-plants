@@ -1,0 +1,12 @@
+one clear June day, PV chain, MW (model 15.1):
+  hour   STC    DC gross   DC     inverter  clipped  at MV
+  06    10.55     8.25    8.00     7.82     7.82     7.50
+  08    36.51    33.28   32.28    31.81    31.81    30.50
+  10    56.21    50.56   49.05    48.23    48.23    46.23
+  12    61.33    54.08   52.45    51.55    49.00    46.97
+  14    47.36    41.84   40.59    39.96    39.96    38.31
+  16    25.44    21.84   21.18    20.88    20.88    20.02
+  18     2.60     2.00    1.94     1.80     1.80     1.72
+  day: STC 482, after inverter 406, clipped 5.7, at MV 384 MWh
+  midday the temperature takes the most; clipping takes the top
+  of the noon hours only

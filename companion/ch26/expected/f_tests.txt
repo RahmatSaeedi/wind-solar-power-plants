@@ -1,0 +1,25 @@
+protection tests and what each proves (purpose, not procedure):
+  factory functional test (FAT):
+    proves the panel does what the schematics say
+    record: FAT record
+  CT tests:
+    proves ratio, polarity, magnetising curve, insulation
+    record: CT test sheet
+  secondary injection:
+    proves each function operates at its setting and time
+    record: injection record
+  trip and interlock checks:
+    proves each output reaches its breaker coil
+    record: functional record
+  end-to-end (line ends):
+    proves both ends act together over the channel
+    record: joint record
+  stability check of differential:
+    proves no trip for a through current
+    record: test record
+  first energising observations:
+    proves relays read the right currents
+    record: commissioning log
+  tests on secondary circuits are done by qualified staff
+  under permits; the energised checks follow the owner's
+  safety rules (ch 48-50)

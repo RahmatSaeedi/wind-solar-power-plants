@@ -1,0 +1,7 @@
+33 kV breaker WS2: gas density (MPa, temperature-compensated),
+  monthly; alarm 0.62
+  0.660 0.658 0.652 0.650 0.647 0.643 0.638 0.636
+  falling 3.6 kPa a month: alarm in about 4 months
+  a slow leak found by the trend, not by the alarm: the repair
+  is planned with the maker (gas handling by certified people,
+  ch 25, ch 46) before the breaker is blocked

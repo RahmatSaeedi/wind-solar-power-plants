@@ -1,0 +1,22 @@
+% Chapter 6 — superposition: each source acting alone, the other turned off.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % 10 V alone (5 V source shorted)
+  \draw (0,0) to[battery1, l={$10\,\text{V}$}, invert] (0,3)
+        to[R, l={$2\,\Omega$}] (3.2,3) to[R, l={$3\,\Omega$}] (6.2,3) -- (6.2,0) -- (0,0);
+  \draw (3.2,3) to[R, l_={$4\,\Omega$}] (3.2,0);
+  \node[note, text=cInk, anchor=west] at (6.3,1.5) {اتصالِ کوتاه\\به‌جای $5\,\text{V}$};
+  \node[note, text=cInk, anchor=north, align=center] at (3.1,-0.4) {$V_x' = 10\,\dfrac{3\parallel 4}{2 + 3\parallel 4} = 4.615\,\text{V}$};
+  % 5 V alone (10 V source shorted)
+  \begin{scope}[shift={(9.6,0)}]
+    \draw (0,3) -- (0,0);
+    \draw (0,3) to[R, l={$2\,\Omega$}] (3.2,3) to[R, l={$3\,\Omega$}] (6.2,3)
+          to[battery1, l_={$5\,\text{V}$}] (6.2,0) -- (0,0);
+    \draw (3.2,3) to[R, l_={$4\,\Omega$}] (3.2,0);
+    \node[note, text=cInk, anchor=east] at (-0.1,1.5) {اتصالِ کوتاه\\به‌جای $10\,\text{V}$};
+    \node[note, text=cInk, anchor=north, align=center] at (3.1,-0.4) {$V_x'' = 5\,\dfrac{2\parallel 4}{3 + 2\parallel 4} = 1.538\,\text{V}$};
+  \end{scope}
+  \node[note, text=cInk, anchor=north] at (7.9,-1.75) {$V_x = V_x' + V_x'' = 6.154\,\text{V}$};
+\end{tikzpicture}}
+\end{document}

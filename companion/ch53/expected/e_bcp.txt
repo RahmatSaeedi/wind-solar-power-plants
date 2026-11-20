@@ -1,0 +1,11 @@
+business continuity: loss, the fallback, and hours to restore operation
+  control room unusable (fire, access)    2.0 h
+     -> operate from the substation panel
+  SCADA servers lost                      0.5 h
+     -> PPC fallback + local HMI
+  WAN to grid operator lost               0.1 h
+     -> phone instructions, logged
+  key staff unavailable                   8.0 h
+     -> contractor on call (ch 52 skills)
+  each fallback is exercised once a year (ch 51 drills) - an
+  untested fallback is a hidden failure (ch 52)

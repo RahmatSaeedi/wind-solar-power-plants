@@ -1,0 +1,8 @@
+development funding routes for P-Central from today (k u):
+  route                          EV for developer  expected spend
+  own money to close                        569           4,075
+  sell 49 % at G3 (+600 premium)            890           2,078
+  a partner halves the money at risk and keeps part of the
+  value; the premium pays for the risk already taken; a
+  development loan is rare - lenders lend against a built
+  plant, not against permits that may never come

@@ -1,0 +1,8 @@
+one day of events through a redundant pair of gateways (synthetic)
+  events at the source: 500; received at SCADA: 969
+  kept when duplicates are recognised by source, point and
+    source time stamp: 500
+  kept if the stamp were taken on arrival: up to 969 - the copies
+    arrive milliseconds apart and look like two events
+  the source stamp of lesson B is also what lets redundancy
+  work without doubling the event list and the work requests

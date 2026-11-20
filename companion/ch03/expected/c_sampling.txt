@@ -1,0 +1,12 @@
+monthly mean speeds (m/s): 6.81 7.74 7.33 6.80 8.17 5.65 6.65 5.81 8.13 6.45
+    6.38 9.34
+  spread of monthly means (std) 1.077 m/s
+lag-1 autocorrelation of hourly speeds r1 = 0.959
+effective number of independent hours n_eff = n (1 - r1)/(1 + r1) = 184 of
+    8760
+95 % CI of the annual mean: naive (n = 8760) 7.029 .. 7.177; with n_eff 6.589
+    .. 7.616 m/s
+block bootstrap by day (400 resamples): std of the mean 0.157 m/s, std of farm
+    energy 7.37 GWh (3.8 %)
+    (sampling within ONE synthetic year only; year-to-year variability is
+    extra)

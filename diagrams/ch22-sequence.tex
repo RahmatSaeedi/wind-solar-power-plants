@@ -1,0 +1,17 @@
+% Chapter 22 - the screening sequence as a funnel (flows top to bottom): cheap, decisive questions
+% first (fatal flaws, grid, protected areas, people), then resource, land, permitting, logistics,
+% cost, schedule and constructability; each step can stop the spending.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum height=8mm, align=center}]
+  \node[b, draw=cLoss, fill=cLoss!7, minimum width=96mm] (a) at (0,0) {۱. بررسیِ ایرادهای کشنده: شبکه، منطقهٔ حفاظت‌شده، جابه‌جاییِ مردم، زمانِ مجوز};
+  \node[b, draw=cWind, fill=cWind!9, minimum width=86mm] (b) at (0,-1.2) {۲. منبع: باد و تابش، کیفیتِ شاهد};
+  \node[b, draw=cPV, fill=cPV!9, minimum width=76mm] (c) at (0,-2.4) {۳. زمین، شبکه، محیطِ‌زیست و جامعه};
+  \node[b, minimum width=66mm] (d) at (0,-3.6) {۴. مجوزها و لجستیک};
+  \node[b, draw=cBESS, fill=cBESS!10, minimum width=56mm] (e) at (0,-4.8) {۵. هزینه، زمان‌بندی، ساخت‌پذیری};
+  \node[b, draw=cInk, fill=cInk!8, minimum width=46mm] (f) at (0,-6.0) {۶. مقایسهٔ گزینه‌ها و دروازه};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e, e/f} \draw[flow] (\x.south) -- (\y.north);
+  \node[note, text width=28mm] at (6.6,-3.0) {هزینهٔ هر گام بالا می‌رود؛ پرسش‌های ارزان و تعیین‌کننده اول};
+\end{tikzpicture}
+\end{document}

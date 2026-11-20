@@ -1,0 +1,9 @@
+fuse selectivity by energy (teaching I2t values, A2s):
+  pair                                   down total  up pre-arc  selective
+  63 A upstream, 25 A downstream              1,400       9,500  yes
+  63 A upstream, 40 A downstream              4,200       9,500  yes
+  100 A (make X) up, 63 A (make Y) down      11,000      10,500  NO
+  the small fuse must clear (its total I2t) before the large
+  one starts to melt (its pre-arcing I2t); a size ratio of
+  about 1.6 often works, but the makers' tables decide - the
+  100/63 pair of two makes fails at that very ratio

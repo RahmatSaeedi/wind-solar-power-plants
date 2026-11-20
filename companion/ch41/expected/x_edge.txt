@@ -1,0 +1,8 @@
+module 2.278 x 1.134 m = 2.583 m2; cells 2.376 m2 (92.0% active)
+  one more millimetre of edge all round: +0.0068 m2 of glass (0.26%)
+  module efficiency falls by the same 0.26% (same cells, larger module)
+  the edge keeps a creepage and clearance distance between
+  live cells and the earthed frame: its width comes from the
+  safety qualification for the system voltage (IEC 61730), so
+  a 1500 V module needs more edge than a 1000 V one - one of
+  the costs of a higher string voltage

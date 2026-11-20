@@ -1,0 +1,12 @@
+uncertainty of the long-term hub-height wind speed (A-254):
+  anemometer calibration and class               1.0 %
+  mounting, flow distortion, tower shadow        1.0 %
+  long-term correction (MCP)                     2.0 %
+  long-term period, 20 years at sd 3.5 %         0.8 %
+  vertical extrapolation (hub at 100 m: none)    0.0 %
+  combined wind speed                            2.6 %
+  energy: sensitivity 1.60 x 2.6 % = 4.1 % (before power curve and losses)
+  a hub at 150 m from the 100 m mast with a shear uncertainty of
+    0.03 adds 1.2 % of speed: 2.0 % of energy
+  measuring at hub height (or a lidar to it) is cheaper than
+  the energy this uncertainty costs in financing (chapter 16)

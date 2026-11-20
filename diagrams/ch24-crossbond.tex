@@ -1,0 +1,29 @@
+% Chapter 24 - cross-bonding of single-core cable sheaths in three minor sections: sheaths are
+% transposed at the two link boxes so each sheath run passes all three phases; earthed at the
+% major-section ends. Teaching sketch (companion/ch24/examples_s.py bonding()).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    sh/.style={draw=cWind, line width=1.1pt},
+    box/.style={draw=cInkB, densely dashed, fill=none, minimum width=10mm, minimum height=20mm}]
+  \foreach \y/\p in {1.6/a, 0.8/b, 0/c} {
+    \draw[draw=cInk, line width=0.5pt] (0,\y) -- (13.5,\y);
+    \node[note, anchor=east] at (-0.2,\y) {$\p$};
+  }
+  % sheath runs (drawn just above each core), transposed at x=4.5 and x=9
+  \draw[sh] (0,1.75) -- (4.3,1.75); \draw[sh] (0,0.95) -- (4.3,0.95); \draw[sh] (0,0.15) -- (4.3,0.15);
+  \draw[sh] (4.7,1.75) -- (8.8,1.75); \draw[sh] (4.7,0.95) -- (8.8,0.95); \draw[sh] (4.7,0.15) -- (8.8,0.15);
+  \draw[sh] (9.2,1.75) -- (13.5,1.75); \draw[sh] (9.2,0.95) -- (13.5,0.95); \draw[sh] (9.2,0.15) -- (13.5,0.15);
+  \draw[draw=cWind, line width=0.6pt] (4.3,1.75) -- (4.7,0.95); \draw[draw=cWind, line width=0.6pt] (4.3,0.95) -- (4.7,0.15);
+  \draw[draw=cWind, line width=0.6pt] (4.3,0.15) -- (4.7,1.75);
+  \draw[draw=cWind, line width=0.6pt] (8.8,1.75) -- (9.2,0.95); \draw[draw=cWind, line width=0.6pt] (8.8,0.95) -- (9.2,0.15);
+  \draw[draw=cWind, line width=0.6pt] (8.8,0.15) -- (9.2,1.75);
+  \node[box] at (4.5,0.95) {}; \node[box] at (9.0,0.95) {};
+  \node[note] at (4.5,2.5) {جعبهٔ اتصال}; \node[note] at (9.0,2.5) {جعبهٔ اتصال};
+  \foreach \x in {0, 13.5} {
+    \draw (\x,0.15) -- (\x,-0.6); \draw (\x-0.25,-0.6) -- (\x+0.25,-0.6); \draw (\x-0.15,-0.72) -- (\x+0.15,-0.72);
+  }
+  \node[note] at (2.25,-0.5) {زیربخشِ ۱}; \node[note] at (6.75,-0.5) {زیربخشِ ۲}; \node[note] at (11.25,-0.5) {زیربخشِ ۳};
+  \node[note, text width=135mm] at (6.75,-1.6) {هر غلاف در سه زیربخش از کنارِ هر سه فاز می‌گذرد و ولتاژهای القایی جمعِ نزدیک به صفر دارند؛ دو سرِ بخشِ اصلی زمین شده‌اند و جعبه‌های اتصال برای آزمونِ غلاف باز می‌شوند};
+\end{tikzpicture}
+\end{document}

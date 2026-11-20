@@ -1,0 +1,17 @@
+spares for the two main transformers (teaching costs k u, lead weeks):
+  item                         cost   lead   stops the unit   hold
+  HV bushing (one)                25     26              yes   on site
+  LV bushing (one)                 8     16              yes   on site
+  OLTC diverter insert            60     30              yes   on site
+  complete tap changer           250     40              yes   pool
+  gasket set, valves               5      8               no   on site
+  cooling fans (two)               4      6               no   on site
+  radiator section                15      8               no   no
+  gas relay, PRD                   6     10              yes   on site
+  winding temperature sensors      3      8               no   on site
+  held on site: 111 k u. Rule: cheap parts, and parts that stop
+  the unit and take months, are held; a whole tap changer is
+  shared with other plants (pool); a radiator is not held - the
+  unit runs derated without it. A bushing failure without a
+  spare is half a year out (lesson above); with one, weeks
+  (the spares list joins ch 18 and ch 52)

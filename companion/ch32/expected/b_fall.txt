@@ -1,0 +1,11 @@
+clear height needed below an anchor (teaching, maker data governs)
+  system                          lanyard  decel  total   anchor  ok?
+  energy-absorbing lanyard 1.8 m    1.8   1.75   6.35    5.0   NO
+  energy-absorbing lanyard 1.8 m    1.8   1.75   6.35    7.0   yes
+  short lanyard 1.0 m               1.0   1.20   5.00    5.0   yes
+  self-retracting device            0.3   0.60   3.70    5.0   yes
+  on a transformer top or a short platform the usual lanyard
+  hits the ground before it stops the fall, and the short one
+  has only the 1 m margin in the sum: restraint (no free
+  fall at all) or a retracting device is chosen, and the
+  rescue of a suspended person is planned before work starts

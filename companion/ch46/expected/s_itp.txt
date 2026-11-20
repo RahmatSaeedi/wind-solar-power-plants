@@ -1,0 +1,9 @@
+inspection and test plan against 16 failure modes of this chapter
+  modes with no check: 2
+    joint loosening in service
+    design change not in drawings
+  modes with one check only: 12 of 16
+  joint loosening shows only in service: thermography and
+  torque marks go into the maintenance plan (ch 52); drawing
+  revisions after FAT changes get their own check (lesson C) -
+  an ITP is complete when every failure mode has a check

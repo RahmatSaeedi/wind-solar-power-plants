@@ -1,0 +1,11 @@
+preliminary cost ranges (Monte Carlo of items, k u):
+  site       base     P50      P80      P90    contingency to P80
+  P-North   173,571  187,039  199,335  205,652     14.8 %
+  P-Central 149,000  153,249  158,443  161,115      6.3 %
+  P-South   139,524  143,493  148,343  150,864      6.3 %
+  the base is the sum of most-likely values; skewed ranges
+  put the P50 above it, so a 5 % allowance is too thin even
+  for P-Central; P-North's screening-class range and its grid
+  works widen everything - its P80 is far above the others
+  (items drawn independently: correlated prices would widen
+  the range further)

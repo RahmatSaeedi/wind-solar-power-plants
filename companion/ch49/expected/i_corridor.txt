@@ -1,0 +1,16 @@
+132 kV line: 3 of 8 foundations done; no access agreement for T05, T06
+  (landowner L-03) - the line crew's sequence skips them
+  and the agreement is the item on the critical path
+  crossings and who approves them:
+    X1: regional road - road authority; duct under, traffic plan
+    X2: wadi - water authority; deep duct, outside flood season
+    X3: 33 kV distribution line - network owner; outage window
+    X4: herders' track - community (ch 33); kept open, crossing plate
+  WS1 cable sections against 1,500 m drums:
+    section  length m  joints needed  joint bays
+    S1           1450              0           0
+    S2           1620              1           1
+    S3            980              0           0
+    S4           3100              2           1
+  S4 needs one more joint bay than the route drawing
+  shows: it is added before the trench, not found at the drum's end

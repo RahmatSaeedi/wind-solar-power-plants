@@ -1,0 +1,14 @@
+exercise review: hand crushed, conscious at T07 nacelle, 22:40
+  gaps found: 8
+  competence      one rescuer on the crew: no one to rescue the rescuer
+  response time   on-call team 40 min at night
+  communications  no working link from T07 at all
+  response time   ambulance route flooded, no second route
+  access control  unknown vehicle, incomplete visitor log
+  access control  no one to meet the ambulance at the gate
+  community       village not told of the flooded road and night traffic
+  recovery        no debrief or support for the crew planned
+  each gap gets an owner and a fix in the emergency plan;
+  the unknown vehicle is reported to the control room and
+  the police and recorded - no one goes to challenge it;
+  the review prescribes no security tactics

@@ -1,0 +1,26 @@
+protection zones read back from the one-line model:
+  zone          branches  breakers  transformers  cables/lines
+  Z-BESS-A             3         1             0             2
+  Z-BESS-B             3         1             0             2
+  Z-GRID               2         1             0             0
+  Z-L1                 3         1             0             1
+  Z-LVA                2         1             1             0
+  Z-LVB                2         1             1             0
+  Z-MVA                1         1             0             0
+  Z-PVF1               5         1             0             4
+  Z-PVF2               4         1             0             3
+  Z-PVF3               4         1             0             3
+  Z-T1                 3         2             1             0
+  Z-T2                 3         2             1             0
+  Z-WS1                5         1             0             4
+  Z-WS2                5         1             0             4
+  Z-WS3                5         1             0             4
+  + 26 unit-transformer zones, one transformer each
+  breakers between buses of two zones: 16 of 17; inside one zone: =G1-Q1
+  each such breaker is where two zones must overlap: its CTs
+  feed the protection on both sides (ch 26); the one inside a
+  zone is the utility's breaker between two utility buses -
+  its zones are the utility's to draw
+  busbar zones (Z-MVA, Z-MVB) are carried by the buses; the
+  coupler is listed under Z-MVA
+  the table is the first input of the protection one-line

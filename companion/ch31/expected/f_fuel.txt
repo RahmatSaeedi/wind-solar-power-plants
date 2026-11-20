@@ -1,0 +1,7 @@
+diesel for the erection campaign (teaching consumptions)
+  main crane 900, assist crane 250, generators 300 L a day; 156 crane days
+  total 226 m3 of diesel; 8 tanker loads of 30 m3
+  CO2 at 2.7 kg/L: about 611 t
+  fuel is a logistics stream of its own: a bunded store on
+  site, a delivery schedule, spill kits and a refuelling
+  procedure - and an environmental permit item (ch 33)

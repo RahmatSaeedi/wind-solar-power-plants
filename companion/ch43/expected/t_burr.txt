@@ -1,0 +1,13 @@
+burr on the cut edges of 270 um sheets, coating 2 um a side (teaching)
+  a burr props the sheets apart along their edges: the stack
+  holds less steel in the same height
+  burr um   stacking factor   flux T   P0 kW
+        0             0.985    1.673    41.1
+       10             0.968    1.704    41.9
+       20             0.951    1.735    42.6
+       40             0.918    1.796    44.1
+  the design's stacking factor 0.97 assumed about 10 um;
+  less steel in the same section runs at a higher flux, and
+  loss grows with its square; a burr also bridges the coating
+  between sheets - the burr record per batch is the control
+  (T1's batch 8 has none, lab D)

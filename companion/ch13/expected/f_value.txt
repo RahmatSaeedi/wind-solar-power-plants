@@ -1,0 +1,12 @@
+what a better campaign is worth (farm P50 191.87 GWh, 50 u/MWh):
+  option                                  u(v)   u(E)   P90 GWh
+  hub 100 m, campaign as built           2.58 %  4.1 %    181.8
+  hub 150 m, mast only (extrapolated)    2.85 %  4.6 %      (*)
+  hub 150 m, lidar to the hub (0.8 %)    2.70 %  4.3 %      (*)
+  hub 100 m, second year (MCP 1.5 %)     2.21 %  3.5 %    183.3
+  hub 100 m, second year + second mast   2.09 %  3.3 %    183.8
+  (*) a 150 m hub also has a larger P50 (lab E)
+  a second year raises P90 by 1.48 GWh a year: about 74 k u a year
+  of energy that lenders count (debt is sized on P90, chapter 21);
+  the extra campaign costs are compared with that, not with the
+  P50 (which measuring does not change)

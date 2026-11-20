@@ -1,0 +1,22 @@
+finance and fiscal sources - Tajikistan
+  offtaker and PPA form (model PPA)            verified
+      source: Resolution 449; review: counsel
+  price by competitive procedure               project-dependent
+      source: Resolution 449; review: bid team
+  currency: USD-fixed, paid in somoni          project-dependent
+      source: Sughd RFQ (one tender); review: counsel, bank
+  payment within 10 banking days               verified
+      source: Resolution 449; review: counsel
+  assignment to lenders                        verified
+      source: model PPA; review: lenders' counsel
+  late-payment remedy ('state guarantees')     to-confirm
+      source: Resolution 449, undefined; review: counsel
+  convertibility and repatriation              to-confirm
+      source: IMF (secondary); Law 1299 unread; review: counsel, bank
+  VAT exemption for equipment                  to-confirm
+      source: press; review: tax advisor
+  investment agreement and arbitration law     to-confirm
+      source: listed in the RFQ, not read; review: counsel
+  verified 3, project-dependent 2, to-confirm 4
+  only verified items enter the base case (ch 54 E); every item
+  closes with a dated opinion of a qualified local reviewer

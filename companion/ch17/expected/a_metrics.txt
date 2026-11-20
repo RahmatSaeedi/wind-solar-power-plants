@@ -1,0 +1,7 @@
+regional load, hourly, one year (synthetic, A-284):
+  energy 245.2 GWh; mean 27.99 MW
+  peak 51.83 MW on day 190 (month 7) at 17:00; minimum 16.39 MW
+  load factor 0.540
+  peak of 15-minute values 53.33 MW; of their hourly means 51.83 MW
+  the peak depends on the averaging interval: the request names
+  it, and equipment is rated on the shorter one

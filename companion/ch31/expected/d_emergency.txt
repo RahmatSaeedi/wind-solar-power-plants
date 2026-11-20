@@ -1,0 +1,11 @@
+emergency response to a casualty in the nacelle (teaching times, min)
+  responder                            km   mobilise  drive  access  total
+  on-site first aider and rescue team    0          5      0      25     30
+  district ambulance                    35         15     35      30     80
+  hospital (by road)                    70         15     60      30    105
+  outside help needs well over an hour to reach a casualty
+  at height: rescue from the nacelle is the site team's job
+  (trained, equipped, on site during lifts), and the medical
+  transfer plan is agreed with the local services (ch 32);
+  mobile coverage is patchy on the plain - radios or a
+  satellite link are part of the lift's hold points

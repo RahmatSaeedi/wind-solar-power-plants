@@ -1,0 +1,16 @@
+the maintenance system after year one: what is in place
+  [x] a strategy for each asset class
+  [x] preventive plan with outage hours
+  [ ] hierarchy complete in the CMMS
+  [ ] a failure code on every corrective order
+  [ ] test record before an order closes
+  [x] RAM model inside a stated boundary
+  [ ] spares by Poisson and by consequence
+  [x] export boundary and response times agreed
+  [x] cleaning method chosen on six criteria
+  [ ] peer-ratio CUSUM watched every day
+  [ ] repeat-failure query run monthly
+  [ ] warranty records complete for claims
+  5 of 12 in place: the plans exist, the records that
+  prove and improve them do not yet - the open items are
+  data work (lesson I) and one daily habit (lesson D)

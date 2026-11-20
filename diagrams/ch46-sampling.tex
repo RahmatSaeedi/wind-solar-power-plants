@@ -1,0 +1,14 @@
+% Chapter 46 - chance that a sample of n drums from a lot of 40 with 3 thin-insulation drums finds at
+% least one (hypergeometric; companion/ch46/examples_s.py, sampling -> diagrams/data/ch46-sampling.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=40, ymin=0, ymax=100,
+      xlabel={شمارِ قرقره‌های نمونه}, ylabel={شانسِ یافتن (درصد)}, xtick={0,8,...,40}]
+    \addplot[sWind] table[x=n, y=p, col sep=comma] {data/ch46-sampling.csv};
+    \draw[cInk!50, dashed] (axis cs:8,0) -- (axis cs:8,49.8) -- (axis cs:0,49.8);
+    \node[note, anchor=west] at (axis cs:9,44) {هشت قرقره: یک در دو};
+    \node[note, anchor=north east] at (axis cs:39.5,95) {همهٔ قرقره‌ها: یقین};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

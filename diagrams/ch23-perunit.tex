@@ -1,0 +1,27 @@
+% Chapter 23 - per-unit impedance diagram on a 100 MVA base: source behind the grid reactance
+% (1,500 MVA -> 0.0667), line 0.0169, main transformer 0.1905, four cable sections 0.0117 each,
+% unit transformer 1.25 pu (companion/ch23/examples_p.py per_unit()). Grid on the right (RTL).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    imp/.style={draw=cInk, fill=white, minimum width=17mm, minimum height=6mm, inner sep=1pt, font=\footnotesize}]
+  \draw (0.4,0) -- (14.6,0);
+  \node[circle, draw=cLoad, fill=cLoad!10, minimum size=8mm] at (15.1,0) {$E$};
+  \node[imp] at (13.4,0) {$j0.0667$};
+  \node[imp] at (11.2,0) {$j0.0169$};
+  \node[imp] at (9.0,0) {$j0.1905$};
+  \node[imp] at (6.6,0) {$4 \times j0.0117$};
+  \node[imp, draw=cWind] at (3.6,0) {$j1.25$};
+  \node[note] at (13.4,0.65) {شبکه};
+  \node[note] at (11.2,0.65) {خط};
+  \node[note] at (9.0,0.65) {T1};
+  \node[note] at (6.6,0.65) {کابلِ WS1};
+  \node[note] at (3.6,0.65) {ترانسفورماتورِ واحد};
+  \foreach \x/\l in {12.3/{$1{,}196$}, 10.1/{$365$}, 7.8/{}, 4.95/{$312$}, 1.4/{$64$}} {
+    \fill[cInk] (\x,0) circle (1.4pt);
+    \node[note, anchor=north] at (\x,-0.2) {\l};
+  }
+  \node[note, anchor=north] at (7.8,-0.2) {$33\,\text{kV}$};
+  \node[note, text width=140mm] at (7.8,-1.4) {پایهٔ $100\,\text{MVA}$؛ عددهای زیرِ گره‌ها سطحِ اتصالِ کوتاهِ سهمِ شبکه به $\text{MVA}$ است. ترانسفورماتور در پریونیت نسبتِ دور ندارد و همهٔ سطح‌های ولتاژ روی یک خط می‌نشینند};
+\end{tikzpicture}
+\end{document}

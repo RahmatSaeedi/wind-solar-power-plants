@@ -1,0 +1,7 @@
+i,name,start,end
+0,firewall,0.0,2.2
+1,time-server,2.2,3.2
+2,OT-directory,3.2,5.2
+3,SCADA-servers,5.2,11.4
+4,HMIs,11.4,13.4
+5,historian,5.199999999999999,27.2

@@ -1,0 +1,18 @@
+equipment classes of Plant P against the INSO mandatory lists
+  main and unit power transformers   IR-30
+      mandatory national standard
+  33 kV cables                       IR-30
+      mandatory national standard
+  battery cells (lithium)            IR-49
+      listed; scope for large ESS to confirm
+  UPS and station batteries (VRLA)   IR-49
+      mandatory national standard
+  PV inverters 5.5 MVA               IR-28
+      not on the list (list stops at 5 kW)
+  PV modules                         IR-29
+      not on the lists
+  wind turbines                      IR-29
+      not on the lists
+  3 classes need a national conformity certificate on the
+  evidence found; for the others 'not listed' is not 'no rule':
+  each goes into the questions to INSO (IR-31) before ordering

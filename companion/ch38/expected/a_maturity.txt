@@ -1,0 +1,13 @@
+design maturity by discipline at week 40 (counts)
+  discipline   WIP   IFR   IFA   APP   IFC   share IFC
+  CIV            7     6     7     0     4         17 %
+  CTL            8     3     4     0     5         25 %
+  ELE           21    17     8     3     9         16 %
+  GEN            1     2     1     0     2         33 %
+  MEC            3     0     2     0     1         17 %
+  PRJ            0     2     1     0     1         25 %
+  planned before week 40 but still WIP or IFR: 23
+  maturity is read from the statuses, not from the hours
+  spent; a discipline with many documents in review is
+  waiting for comments, one with many in WIP has not
+  started - two different problems with two cures

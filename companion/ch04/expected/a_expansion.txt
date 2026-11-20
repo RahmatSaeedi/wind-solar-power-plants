@@ -1,0 +1,6 @@
+steel torque tube 100 m, alpha 12e-6 /K, -20 .. +70 C: 108 mm
+aluminium busbar 3 m, alpha 23e-6 /K, 80 K: 5.5 mm
+copper cable conductor 500 m, alpha 17e-6 /K, 50 K: 425 mm
+fully restrained steel, 50 K: stress E alpha dT = 126 MPa (a third of S355
+    yield)
+  expansion joints, slotted holes and cable snaking exist for this reason

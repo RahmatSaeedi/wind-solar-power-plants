@@ -1,0 +1,16 @@
+% Chapter 16 - debt that the teaching financing rules (A-281) allow against the one-year relative
+% uncertainty of the net energy. Data: diagrams/data/ch16-debt.csv (lab_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=2.5, xmax=8.5, ymin=72, ymax=82,
+      xlabel={عدمِ قطعیتِ یک‌ساله، درصد}, ylabel={بدهیِ مجاز، میلیون واحد},
+      xtick={3,...,8}, ytick={72,74,...,82}]
+    \addplot[sInk, mark=*, mark size=1.6pt] table[x=u, y=debt, col sep=comma] {data/ch16-debt.csv};
+    \draw[sLimit] (axis cs:5.08,72) -- (axis cs:5.08,82);
+    \node[note, anchor=north west] at (axis cs:5.15,81.6) {نیروگاهِ P};
+    \node[note, anchor=south west] at (axis cs:2.7,80.6) {$P_{50}$ تعیین‌کننده};
+    \node[note, anchor=south east] at (axis cs:8.3,74.4) {$P_{99}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

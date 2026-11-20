@@ -1,0 +1,11 @@
+ageing of paper with water in it (teaching factors on lesson A's year):
+  water in paper %   ageing x   life used per year days
+               0.5        1.0                       3.8
+               1.0        1.5                       5.7
+               2.0        3.0                      11.4
+               3.0        5.0                      19.0
+  dry paper ages several times slower than wet: drying in the
+  factory (lesson B), a sealed or breathing-dried conservator
+  and oil sampling for water keep it dry; the factors here
+  are teaching values - the loading guide gives the real
+  ones with oxygen and acidity

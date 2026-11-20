@@ -1,0 +1,8 @@
+E01 hours on shift of a 4-shift 12-h roster in a year: 2,190 each
+E02 battery energy for 5 MW over 1 h at eta 0.927: 5.39 MWh
+E03 imbalance of 450 MWh short at 30 u: 13,500 u
+E04 week of 1-hour logs: 168 rounds
+E05 permits overrun 17 of 283: 6.0%
+E06 diesel tank 1,200 L at 24 L/h: 50 h
+E07 wash net 46 MWh x 50 - 1,800: +500 u
+E08 local share 15 of 46: 33%

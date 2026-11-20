@@ -1,0 +1,9 @@
+preparing the first stage for an extension (teaching, A-287):
+  prepare now: 400 k u; retrofit later: 1,500 k u plus three
+    days of outage (2,431 MWh, 122 k u): 1,622 k u
+  break-even chance of the extension: 25 %
+  (no discounting; a later retrofit costs less in today's
+  money, which raises the break-even chance)
+  if the owner rates the extension more likely than that,
+  preparing pays; the preparation is also an option on a
+  higher export limit or a larger battery

@@ -1,0 +1,5 @@
+independent spot check in Python (hourly, chapter 1 model):
+  without the inverter limit 97,320 MWh (sheet: 97,326)
+  with the 50 MW limit       97,304 MWh; the monthly sheet cannot see clipping
+    (15.7 MWh)
+  one hand check, January: 60 x 83.3 x 0.85 x 0.98 = 4,163 MWh = cell C9 4,163

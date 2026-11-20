@@ -1,0 +1,13 @@
+power classes (label = class, tolerance 0/+5 W)
+  class W   as flashed   corrected
+      535            3           3
+      540            2           2
+      545          153         201
+      550         2451        2622
+      555          382         165
+      560            3           1
+      565            1           1
+  269 modules change class with the correction: they
+  were labelled one class too high - the labels and the
+  flash records of those serials are reissued before
+  shipping (the label is a claim the buyer will test)

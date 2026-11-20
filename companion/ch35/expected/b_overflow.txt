@@ -1,0 +1,8 @@
+an energy counter in MWh through a 16-bit signed register
+  plant energy 808 MWh a day (ch 15)
+  16-bit counter: wraps after 41 days
+  32-bit counter: wraps after 7,277 years
+  a counter that wraps in six weeks looks like a sudden
+  loss of energy in every report that does not expect it;
+  the data type of each point is chosen from its range over
+  the plant's life, not from what the gateway offers

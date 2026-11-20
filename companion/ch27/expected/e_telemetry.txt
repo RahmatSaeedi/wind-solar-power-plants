@@ -1,0 +1,7 @@
+telemetry to the operator for a week (4 s samples, synthetic):
+  expected 151,200, received 149,835: completeness 99.10%
+  latency: median 0.67 s, 99th percentile 2.66 s
+  one hour-long gap holds 66% of the loss: a contract that
+  counts availability by the month hides it, one that counts
+  gaps longer than a set time shows it - the counting rule is
+  part of the service definition

@@ -1,0 +1,10 @@
+UT finds a lamination in can 1-08 of T05:
+  back to the plate, forward to its siblings
+  can 1-08 <- plate P103 <- heat H5523
+  same plate, same tower: cans 1-07, 1-09, 1-10
+  same heat, other towers (the fabricator's heat register):
+    P203 -> T06: cans 1-07, 1-08
+    P311 -> T09: cans 2-02, 2-03, 2-04
+  8 other cans get a UT scan for laminations before release;
+  the heat register is the fabricator's, so the buyer asks for
+  it - one record turns 'check every tower' into a list

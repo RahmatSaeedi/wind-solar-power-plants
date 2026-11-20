@@ -1,0 +1,17 @@
+fire-system interface signals and their checks (teaching)
+  signal                              path                failure state
+  fire alarm, any zone                hardwired NC        alarm
+  fault / supervisory                 hardwired NC        alarm
+  BESS container fire, per container  hardwired NC        alarm
+  HVAC shutdown command               hardwired           HVAC off
+  PCS trip request                    hardwired           trip
+  zone status and text                serial, read-only   stale flag
+  plant controller healthy            hardwired NC        alarm on fire panel
+  draft findings (3):
+    fire alarm, any zone: alarm contact not fail-safe
+    BESS container fire, per container: reset outside the fire panel
+    PCS trip request: command over the serial link
+  the list above: 0 findings
+  the alarm contacts open on alarm and on a broken wire, so
+  a cut cable looks like an alarm, not like silence; the
+  serial link only adds detail and carries no command

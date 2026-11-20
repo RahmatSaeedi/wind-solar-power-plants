@@ -1,0 +1,7 @@
+water indicators of the operating plant (teaching)
+  water intensity: 13.5 L per MWh
+  share of washing water reused: 0 % (target 30 % by year 3)
+  village well level change: within the agreed trigger
+  the plant's intensity is tiny beside thermal plants, but
+  the relevant comparison is local: what its water means
+  to the village wells in the driest month

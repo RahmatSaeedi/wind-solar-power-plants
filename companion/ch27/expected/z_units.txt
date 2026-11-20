@@ -1,0 +1,13 @@
+the 33 kV resonance against converters online (cables 1.77 Mvar,
+  0.15 Mvar of filter capacitance per converter; grid 365 MVA, X/R 10)
+  online   C Mvar   resonance h   amplification at 11th   at 13th
+       0     1.77         14.36                     2.4       5.4
+       3     2.22         12.82                     3.7      41.5
+       8     2.97         11.09                    45.1       2.7
+      16     4.17          9.36                     2.7       1.1
+      26     5.67          8.02                     1.1       0.6
+  the resonance falls from the 14th (nothing online) to the
+  8th (all 26 online); with about 3 units online it sits on
+  the 13th and with about 8 on the 11th - low-output hours
+  with few units running are the risky ones, so the scan is
+  run for every unit count, not only 'all online'

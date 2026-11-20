@@ -1,0 +1,9 @@
+effort of the factory test and of the site loop checks (teaching)
+  FAT: 71 AI x 3 min + 185 DI x 1 min + 44 DO x 2 min
+    + 40 h of functional tests = 48 h
+  site loop checks: 300 points at 40 a crew-day = 8 crew-days
+  loop checks run on de-energised equipment with a signal
+  injected at the field end (a calibrator in place of the
+  transmitter, a jumper in place of a contact): no work on
+  live parts; each point gets an as-found and as-left value
+  and the signature of the checker (ch 49)

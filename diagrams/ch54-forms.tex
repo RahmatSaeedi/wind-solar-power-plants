@@ -1,0 +1,18 @@
+% Chapter 54 - the same headline number, two forms: reactive power needed at the POC for power
+% factor 0.95 (follows P) and for Q/Pmax 0.33 (33 Mvar at every P), 10-100 MW
+% (companion/ch54/examples_s.py, forms -> diagrams/data/ch54-forms.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=100, ymin=0, ymax=40,
+      xlabel={توانِ اکتیو در نقطهٔ اتصال (MW)}, ylabel={توانِ راکتیوِ لازم (Mvar)},
+      xtick={0,20,...,100}, legend pos=south east, legend columns=1]
+    \addplot[sPV] table[x=p, y=pf, col sep=comma] {data/ch54-forms.csv};
+    \addlegendentry{ضریبِ توانِ ۰٫۹۵}
+    \addplot[sLoad] table[x=p, y=qpmax, col sep=comma] {data/ch54-forms.csv};
+    \addlegendentry{نسبتِ ثابتِ ۰٫۳۳ به توانِ نامی}
+    \draw[cInkB, dashed] (axis cs:20,6.6) -- (axis cs:20,33);
+    \node[font=\scriptsize, text=cInk, anchor=west] at (axis cs:21,20) {پنج برابر در $20\,\text{MW}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

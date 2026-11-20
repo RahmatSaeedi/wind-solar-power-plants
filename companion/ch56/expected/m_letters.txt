@@ -1,0 +1,49 @@
+written questions, one letter per addressee
+  to DABS (8):
+    AF-10: no unified national grid; regional systems fed by imports
+    AF-12: no source names 132 kV
+    AF-13: 2016 law: connection request answered in 40 business days
+    AF-14: no grid code, VRE connection, metering or telemetry rules found
+    AF-15: domestic generation ~250 MW, imports ~800 MW (Aug 2025)
+    AF-16: wind resource mostly in Herat, Farah, Nimroz; Farah unconnected
+    AF-24: no published grid-service product or requirement
+    AF-29: purchase tariffs of 2022-2026 contracts not published
+  to counsel (5):
+    AF-20: 2016 law: state land leased by ministry, private by agreement
+    AF-31: private investment law (OG 869, 2005): status
+    AF-37: 2016 law: resettlement plan with affected people
+    AF-38: land acquisition law (OG 1258, 2017): status
+    AF-40: heritage law (2004) and clearance procedure
+  to Ministry of Water and Energy (3):
+    AF-05: 2016 law: regulator is a ministry department; none found working
+    AF-06: 2016 law: licence + ministry contract; generation licence <= 25 yr
+    AF-19: Water Affairs Management Law, OG 1367 (2020): text read
+  to ASQA (3):
+    AF-21: 2017: ~200 IEC standards adopted, IEC 61215/61730 not listed
+    AF-22: ASQA inspects imports; returned solar panels after lab tests
+    AF-23: mandatory certification for PV, inverters, turbines
+  to local bank / counsel (2):
+    AF-27: no access to international banking; fragile banks
+    AF-28: contracts in afghani urged; foreign-currency use banned 2021
+  to Economic Commission secretariat (1):
+    AF-04: no written procedure, criteria or timelines published
+  to land ministry / counsel (1):
+    AF-09: which body leases state land for energy projects
+  to water affairs directorate (1):
+    AF-18: permit category for a power plant or cleaning water
+  to sanctions counsel (1):
+    AF-26: UN, EU and UK sanctions regimes
+  to local tax advisor (1):
+    AF-30: renewable tax or customs incentive not found
+  to NEPA (1):
+    AF-36: public participation detail of the ESIA regulation
+  to counsel / social specialist (1):
+    AF-39: state-land declarations in 2026: title risk high
+  to logistics forwarder (1):
+    AF-41: Pakistan crossings closed since Oct 2025; Iran, Uzbek routes used
+  to market survey (1):
+    AF-42: retail solar market, products mainly from China; no utility O&M
+  to DABS / developer (1):
+    AF-43: Herat wind phase 1 described as the first wind turbines
+  to site measurement (ch 12) (1):
+    AF-44: GHI about 6.5 kWh/m2/day, higher in the south and west

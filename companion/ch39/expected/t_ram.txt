@@ -1,0 +1,11 @@
+PV block target 97%: 263 h a year of downtime to share
+  part              expected h  share of budget  allowed h
+  inverter               48.0            58.3%      153.1
+  unit transformer       20.0            24.3%       63.8
+  MV switchgear           2.4             2.9%        7.7
+  SCADA link             12.0            14.6%       38.3
+  expected downtime 82 h: inside the budget, with 180 h margin
+  an equal split (lesson E) would give the transformer 66 h
+  and the SCADA link 66 h; weighting by expected downtime
+  asks each supplier for what its part can deliver, and the
+  transformer's rare, long outage is covered by the spare

@@ -1,0 +1,25 @@
+trace of Z-001, stage by stage
+  source       GCZ 2024 cl 6.2 + A1 (consolidated on the filing date)
+  design       ch 28 PLP-ELE-CAL-0014: +46 Mvar at 25 C, +29 at 45 C
+  procurement  ch 44 PLP-ELE-SPC-0011: unit P-Q curve, clause 4.3
+  construction ch 48/50 as-left PPC settings, Q mode and limits
+  test         ch 50 Q test: 30.6 Mvar at 100 MW against 32.9 (DEV-11)
+  approval     OPEN
+  retained     OPEN
+  open stages: approval, retained - the test failed, so no
+  approval and nothing to retain as closure yet; the design
+  record had already shown the hot-day shortfall (29 Mvar)
+  and left it as 'an operator decision' nobody took
+
+trace of Z-009 (ride-through)
+  source       GCZ 2024 cl 8.4 (150 ms) - and TCR 2022 sec 5 (trip at 100 ms)
+  design       OPEN
+  procurement  ch 44 converter type test covers 150 ms
+  construction OPEN
+  test         OPEN
+  approval     OPEN
+  retained     OPEN
+  open stages: 5 of 7 - two sources disagree
+  (CQ-01), so design cannot start where the conflict bites:
+  the protection settings wait; the converter's 150 ms type
+  test is evidence for one reading only

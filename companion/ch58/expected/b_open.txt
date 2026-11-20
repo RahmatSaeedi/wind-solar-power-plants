@@ -1,0 +1,14 @@
+open items in the register: 39 of 191 rows ask to confirm
+  an edition, a status or a reported revision
+  other                       10
+  environment                  5
+  safety                       5
+  transformers                 4
+  communications               4
+  PV                           3
+  duplicates (same document and edition): 3 groups:
+    STD-032 = STD-094
+    STD-037 = STD-128
+    STD-084 = STD-125
+  duplicates are kept as aliases because chapters cite both ids;
+  a register meant for a project merges them before issue

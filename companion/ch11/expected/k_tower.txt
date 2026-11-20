@@ -1,0 +1,8 @@
+tower base, D 4.5 m, wall 46 mm (A-235):
+  peak operating thrust 923 kN x hub 100 m = 92.3 MN m
+  bending stress M / (pi r^2 t) = 126 MPa; weight 5.99 MN gives 9.2 MPa
+  teaching extreme (2 x operating): 261 MPa, against 355 MPa yield
+    of S355 steel: utilisation 0.74 before partial factors
+  a thin shell this size fails by local buckling before yield;
+  the buckling check, the fatigue of welds and flanges and the
+  door opening are the real sizing checks (chapter 30)

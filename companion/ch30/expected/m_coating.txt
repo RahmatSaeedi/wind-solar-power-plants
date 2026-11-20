@@ -1,0 +1,8 @@
+tower coating: years to first major maintenance (teaching durability
+  for the 320 um system of ch 11; the coating maker states real values)
+  inland desert, dry (low)                25 years
+  near a saline flat (medium)             15 years
+  splash of irrigation or brine (high)     8 years
+  the inside of the tower and the base flange, where
+  condensation and dust collect, often fail first; the
+  O&M plan inspects there before the outside (ch 52)

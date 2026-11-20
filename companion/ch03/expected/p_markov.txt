@@ -1,0 +1,8 @@
+one turbine: MTBF 2000 h, MTTR 60 h (A-039, assumed)
+  transition matrix per hour: [[0.9995 0.0005] [0.0167 0.9833]]
+  stationary distribution (pi P = pi): up 0.9709, down 0.0291
+  MTBF / (MTBF + MTTR) = 0.9709
+12 turbines simulated for 10 years, hourly: availability 0.9713
+  hours with 2 or more down: simulated 4.5 %, binomial 4.6 %
+  a turbine down now is still down 24 h later with probability 0.670
+    (an independent hourly draw would give 0.029)

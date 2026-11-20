@@ -1,0 +1,13 @@
+what a passed sample can claim: n units tested, none failed
+      n    95 % upper bound on the defect rate
+      1                                  95.0%
+      3                                  63.2%
+      5                                  45.1%
+     13                                  20.6%
+     32                                   8.9%
+     80                                   3.7%
+    125                                   2.4%
+    315                                   0.9%
+  to claim below 1 % with no failure: n >= 299 (rule of three: 3/n)
+  a type test on 1 to 3 samples proves the design can pass; it
+  says almost nothing about the rate of defects in production

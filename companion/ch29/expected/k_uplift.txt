@@ -1,0 +1,13 @@
+groundwater at T07 (BH-04: 3.0 m below ground) and a foundation
+  whose base would sit 3.5 m down (20 m footprint, teaching)
+  water depth m   submerged m   uplift kN   bearing q_ult kPa (sand phi 31)
+  deep (dry)             0.0           0          5,362
+         3.0             0.5       1,541          3,206
+         2.0             1.5       4,623          3,003
+         0.5             3.0       9,246          2,698
+  (water within one footprint width below the base halves
+  the soil weight in the width term: the dry row is a_spt's)
+  a rise of the water table from 3.0 to 0.5 m multiplies the
+  uplift by six and lowers the ultimate bearing by a sixth:
+  the seasonal and flood range of groundwater (question Q6
+  of lab D) is a design input, not a borehole footnote

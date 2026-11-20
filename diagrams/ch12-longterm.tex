@@ -1,0 +1,16 @@
+% Chapter 12 - annual GHI of the 20-year provider record (synthetic, A-241) and its mean; 2023 is
+% the ground-station year. Data: diagrams/data/ch12-longterm.csv (companion/ch12/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, ybar, bar width=3.2mm, xmin=2003.3, xmax=2023.7,
+      ymin=1750, ymax=2020, xlabel={سال}, ylabel={تابشِ افقیِ سالانه، $\text{kWh/m}^2$},
+      xtick={2004,2008,...,2020}, xticklabel style={/pgf/number format/1000 sep={}},
+      ytick={1750,1800,...,2000}, yticklabel style={/pgf/number format/1000 sep={}}]
+    \addplot[fill=cPV!45, draw=cPV] table[x=year, y=ghi, col sep=comma] {data/ch12-longterm.csv};
+    \draw[cInk, line width=0.9pt, dash pattern=on 6pt off 3pt] (axis cs:2003.3,1910.5) -- (axis cs:2023.7,1910.5);
+    \node[note, anchor=south west] at (axis cs:2003.6,1912) {میانگینِ بیست‌ساله};
+    \node[note, anchor=south east] at (axis cs:2023.6,1945) {۲۰۲۳};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

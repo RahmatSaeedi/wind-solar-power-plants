@@ -1,0 +1,7 @@
+warranties ending by 2027-12-31: 13 (first PLP-TRF-01 on 2027-06-15)
+open work orders: [('WO-0019', 'PLP-INV-04', 'fan alarm')]
+transformers without a linked test document: 12 of 13 (the turbine
+    transformers: documents never received?)
+work orders opened inside a warranty period: ['PLP-WTG-07-GEN', 'PLP-INV-04']
+  -> claim against the supplier is possible only if the link tag -> serial ->
+     warranty -> work order is complete and trustworthy

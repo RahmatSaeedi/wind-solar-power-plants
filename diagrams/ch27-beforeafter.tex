@@ -1,0 +1,18 @@
+% Chapter 27 - cumulative distributions of the 10-minute 5th-harmonic voltage in the week before and the
+% week after a corrective action (synthetic), with the 95 % level and the teaching 2.0 % acceptance;
+% data diagrams/data/ch27-beforeafter.csv from companion/ch27/examples_s.py before_after().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=62mm, xmin=0.8, xmax=2.75, ymin=0, ymax=1.02,
+      xlabel={هارمونیکِ پنجمِ ولتاژ، درصد}, ylabel={سهمِ مقدارهای کمتر}, xmajorgrids=true,
+      legend columns=2]
+    \addplot[sLoss] table[x=v, y=before, col sep=comma] {data/ch27-beforeafter.csv};
+    \addplot[sWind] table[x=v, y=after, col sep=comma] {data/ch27-beforeafter.csv};
+    \legend{هفتهٔ پیش, هفتهٔ پس}
+    \draw[sLimit] (axis cs:0.8,0.95) -- (axis cs:2.75,0.95);
+    \draw[draw=cInkB, densely dotted] (axis cs:2.0,0) -- (axis cs:2.0,1.02);
+    \node[note, anchor=north west] at (axis cs:2.02,0.5) {معیارِ $2.0\,\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+work in progress and lead time (Little's law, L = lambda W)
+  throughput 2.5 skids a week
+  lean flow (WIP 6)      lead time    96 h = 2.4 weeks
+  batches of 5 (WIP 15)  lead time   240 h = 6.0 weeks
+  the same line, the same throughput: more skids waiting
+  between stations only stretches the time each one spends
+  in the factory - and the time before a defect made at OP40
+  is found at OP80

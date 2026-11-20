@@ -1,0 +1,9 @@
+salinity of the site well W-1 (teaching trend)
+  electrical conductivity 1450 uS/cm at the start, rising 3 % a year
+  trigger (PLACEHOLDER, the village's drinking limit): 2000 uS/cm
+  reached after about 11 years if nothing changes
+  a rising salinity says the well draws older, deeper or
+  saltier water - the same aquifer the village drinks; the
+  quarterly sample is part of the water plan, and the trend,
+  not one value, triggers a review: less pumping, the second
+  well, or water brought in - long before the trigger

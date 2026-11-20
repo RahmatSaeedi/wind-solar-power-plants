@@ -1,0 +1,10 @@
+bending stiffness per width (relative to t^3 of 3.2 mm glass)
+  build                          stiffness   glass mm
+  3.2 mm glass + backsheet            1.00        3.2
+  2 + 2 mm glass, slipping            0.49        4.0
+  2 + 2 mm glass, fully bonded        2.78        4.0
+  two thin sheets act as one only if the encapsulant grips
+  them in shear; it softens when hot, so a glass-glass
+  module is stiff on a cold morning and much less so at
+  70 C - the mechanical load test is run on the BOM as
+  built, and the clamping zones (lesson C) follow it

@@ -1,0 +1,7 @@
+insulation ageing, Arrhenius with Ea = 100 kJ/mol, reference 90 C (A-065):
+  near 90 C the rate doubles every 7.8 K
+  Cu 80 x 10       :     289 equivalent hours at 90 C per year (hottest 100 h:
+    47 % of it)
+  Cu 2 x (80 x 10) :      44 equivalent hours at 90 C per year (hottest 100 h:
+    10 % of it)
+  a few hot hours use most of the life: ageing follows the peaks, not the mean

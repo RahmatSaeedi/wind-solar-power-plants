@@ -1,0 +1,8 @@
+BMS configuration of the 96 racks read back at site acceptance;
+  released 8c2ecacbeae7b936
+  C2-R07: differs in firmware = 3.8.1
+  C6-R11: differs in limits = L-2026-05
+  2 of 96 racks differ; one older firmware, one
+  older limit table (the one before the charging-temperature
+  fix of lesson B) - the fingerprint finds both in a second,
+  as for the inverters (ch 44)

@@ -1,0 +1,9 @@
+first-order loads from the operating points (A-214):
+  peak rotor thrust 923 kN at 10.0 m/s (just below rated)
+  blade-root flap moment ~ T/3 x 2R/3 = 15.4 MN m (mean)
+  blade-root edge moment from gravity +-m g r_cg = 4.75 MN m, once per turn
+  centrifugal pull at 11.5 rpm m w^2 r_cg = 702 kN per blade
+  tower-base moment from thrust T x H = 92 MN m
+  gravity reverses every turn: 20 years at about 10 rpm is of
+  the order of 10^8 edgewise cycles; fatigue, not one storm,
+  sizes much of a blade

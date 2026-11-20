@@ -1,0 +1,10 @@
+long-term mean (variance ratio) from a shorter concurrent period:
+  months used          start Jan   start Jul
+   3                    7.202       7.300   (-0.5 / +0.8 %)
+   6                    7.171       7.313   (-1.0 / +1.0 %)
+   9                    7.213       7.274   (-0.4 / +0.5 %)
+  12                    7.241       7.241   (+0.0 / +0.0 %)
+  twelve months: 7.241 m/s
+  a few months correlate well but carry their season's
+  relation: the result depends on which months; twelve
+  months (or several whole years) remove the seasonal bias

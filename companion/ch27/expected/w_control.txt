@@ -1,0 +1,11 @@
+voltage at the plant's 132 kV bus against the POC (100 MW, 7.06 km line)
+  Q at the POC Mvar   bus above POC %
+                -33              -0.05
+                  0               0.49
+                 33               1.02
+  the controller that measures at the plant bus sees a
+  voltage up to a per cent away from the POC's: the voltage
+  set-point is either measured at the POC (remote signal)
+  or corrected for the line (line-drop compensation) - the
+  requirement is at the POC, wherever the controller reads
+  (lesson E, location)

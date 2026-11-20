@@ -1,0 +1,10 @@
+distance zones on the 132 kV export line (teaching reaches):
+  line 2.95 ohm (7.06 km), next line 8.36 ohm (20 km)
+  Z1:  2.36 ohm  (  80 % of this line)
+  Z2:  7.13 ohm  ( 242 % of this line)
+  Z3: 12.98 ohm  ( 440 % of this line)
+  zone 1 trips at once but stops short of the far end (errors
+  in CTs, VTs, line data); zones 2 and 3 reach further with
+  delay; a short line makes zone 1 small - line differential
+  over the fibre in the earth wire is the usual answer, with
+  distance as backup; the utility approves both ends

@@ -1,0 +1,16 @@
+grid-study inputs for Plant P - Afghanistan: what the public
+sources give against what the studies need (ch 28 register)
+  needed 13; complete 8%; missing 12; too weak 0
+    missing: fault levels max and min at the POC
+    missing: network equivalent for dynamic studies
+    missing: substation and line capacity available
+    missing: remote-end protection and reclosing
+    missing: background harmonics and allocation
+    missing: reactive power requirement
+    missing: fault ride-through requirement
+    missing: frequency response requirement
+    missing: telemetry list and protocol
+    missing: revenue metering specification
+    missing: curtailment and dispatch rules
+    missing: island or import system the POC belongs to
+  the request goes to: DABS (dispatch and transmission), in writing

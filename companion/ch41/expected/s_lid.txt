@@ -1,0 +1,9 @@
+light-induced loss: PV energy 110 GWh a year (model 15.1), 70 u/MWh
+  first-hours loss   energy lost GWh/yr   value k u/yr   PV 25 y @ 7.5%
+              0.3%                 0.33             23         257 k u
+              1.0%                 1.10             77         858 k u
+              2.0%                 2.20            154       1,717 k u
+  2 % against 0.3 % is worth about 1,459 k u over the life:
+  the maker's light-soaking data (and the dopant choice behind
+  it, lesson B) is a priced item in the bid evaluation, not a
+  footnote (ch 39, evaluated price)

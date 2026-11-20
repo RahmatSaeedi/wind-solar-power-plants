@@ -1,0 +1,6 @@
+field audit: 24 tasks observed, 17 done with the current procedure
+  share 71%, 95 % interval 51% to 85% (Wilson)
+  even the top of the interval is short of 'always': of the 7,
+  five were routine tasks done from memory and two used a
+  superseded copy - the audit finds what the procedure
+  register cannot

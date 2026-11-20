@@ -1,0 +1,15 @@
+export-limit set points as received and as accepted (MW, teaching)
+  range 0-100 MW; ramp 10 MW a minute, so one message
+  may move the limit by at most 30 MW (messages 60 s apart, 3x margin)
+  time s   received   accepted   reason
+       0        100        100   accepted
+      60         80         80   accepted
+     120        140         80   out of range
+     180         40         80   step too large
+     240         70         70   accepted
+     300         60         60   accepted
+  a set point outside its range is a corrupted or wrong
+  message; a jump larger than allowed may be real (an
+  emergency) - the rule and what happens next (reject and
+  alarm, or ramp to it) is agreed with the grid operator,
+  written in the interface specification and tested

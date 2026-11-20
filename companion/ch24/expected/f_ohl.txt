@@ -1,0 +1,12 @@
+132 kV export: overhead line against underground cable (ch 18 data):
+  item                    overhead        cable
+  cost k u                 3,177.00    11,296.00
+  failures a year              0.04         0.01
+  repair hours                12.00       240.00
+  outage h a year              0.51         3.39
+  charging Mvar                0.35         7.73
+  the line is cheaper and quicker to repair; the cable fails
+  less, is out longer when it does, makes more Mvar and fits
+  where a line cannot (a town, an airfield, a landscape);
+  the choice is made route by route - neither is right
+  everywhere (ch 14 landscape, ch 18 option)

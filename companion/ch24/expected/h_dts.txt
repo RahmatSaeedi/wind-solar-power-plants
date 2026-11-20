@@ -1,0 +1,10 @@
+fibre temperature profile along WS1 at full output (synthetic):
+  hottest point 67.1 C at 1650 m (road crossing in a duct)
+  dry stretch 3,000-3,350 m: 58.0 C
+  elsewhere about 53 C
+  distributed temperature sensing in the fibre beside the
+  cable finds the few metres that set the rating: the
+  crossing, not the kilometres of open trench; the duct can
+  be filled with bentonite, the dry stretch backfilled - or
+  the rating of the whole feeder stays set by a few tens of
+  metres of it

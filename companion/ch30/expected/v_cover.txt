@@ -1,0 +1,8 @@
+cover-meter survey of one foundation (60 readings, synthetic)
+  nominal cover 75 mm, minimum 65 mm (teaching)
+  mean 71.5 mm, standard deviation 5.2 mm
+  readings below the minimum: 6 of 60; 5 % fractile 62.9 mm
+  the mean looks fine; the fractile and the low readings
+  do not - where they cluster (one face, one pour) decides
+  between a local repair (coating, added cover) and an
+  assessment of durability (lesson B)

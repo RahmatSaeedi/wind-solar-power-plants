@@ -1,0 +1,19 @@
+a PV inverter's 5th-harmonic current by power bin (two weeks,
+  synthetic 10-minute values; 95th percentile per bin):
+  power bin    values   5th A (95 %)   % of rated
+    0- 10 %      193           49.0         0.93
+   10- 20 %      199           50.9         0.96
+   20- 30 %      195           55.3         1.04
+   30- 40 %      215           58.6         1.11
+   40- 50 %      181           63.0         1.19
+   50- 60 %      215           66.9         1.26
+   60- 70 %      191           68.4         1.29
+   70- 80 %      186           72.2         1.36
+   80- 90 %      209           75.0         1.42
+   90-100 %      216           78.1         1.48
+  the amperes grow slowly with output - far slower than the
+  fundamental (lesson A); the unit's emission is reported
+  per power bin, as the turbine measurement standard does
+  (STD-053) - not as one number; the binned table feeds the
+  plant's summation of lesson B with the right current at
+  each output

@@ -1,0 +1,15 @@
+% Chapter 10 - linear power warranty floor and a typical degradation path over 25 years (A-189).
+% Data: diagrams/data/ch10-degr.csv (companion/ch10/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=58mm, xmin=0, xmax=26, ymin=0.82, ymax=1.0,
+      xlabel={سال}, ylabel={توان نسبت به نامی}, xtick={0,5,...,25}, ytick={0.85,0.90,0.95,1.0},
+      yticklabels={$0.85$,$0.90$,$0.95$,$1.00$}, legend pos=south west]
+    \addplot[sLimit] table[x=y, y=w, col sep=comma] {data/ch10-degr.csv};
+    \addlegendentry{کفِ ضمانت}
+    \addplot[sPV] table[x=y, y=t, col sep=comma] {data/ch10-degr.csv};
+    \addlegendentry{مسیرِ نمونه}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

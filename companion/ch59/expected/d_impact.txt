@@ -1,0 +1,27 @@
+what a change reopens in the dossier (ch 38 helper on a teaching graph)
+  wind resource basis (D-017): 9 documents
+    yield model (D-019)
+    turbine selection (D-015)
+    uncertainty statement (D-020)
+    finance model (D-025)
+    O&M budget (D-056)
+    foundation design (D-034)
+    transport plan (D-035)
+    CP register
+    PPA price bid
+  export limit: 13 documents
+    yield model (D-019)
+    grid study (D-032)
+    PPC settings (D-024)
+    uncertainty statement (D-020)
+    finance model (D-025)
+    O&M budget (D-056)
+    protection study (D-030)
+    PQ study (D-031)
+    connection agreement
+    FAT and SAT procedures (D-054)
+    CP register
+    PPA price bid
+    relay settings files
+  the finance model and the CP register are reached from both:
+  every change case ends at the lenders' conditions

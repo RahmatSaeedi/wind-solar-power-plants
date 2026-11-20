@@ -1,0 +1,11 @@
+frequency measurement error against the droop (4 %, 110 MW)
+  frequency error mHz   power error MW   share of the 20 mHz deadband
+                    1             0.06                        5 %
+                    5             0.28                       25 %
+                   10             0.55                       50 %
+                   20             1.10                      100 %
+  a 10 mHz error moves the edge of the deadband by half its
+  width and the response by half a megawatt, in the same
+  direction for hours: the frequency input is specified in
+  millihertz, with its window, and checked in the
+  frequency-response test (ch 27, ch 50)

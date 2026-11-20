@@ -1,0 +1,7 @@
+a year of duty and twenty years of health (lab D):
+  10,817 MWh discharged at the POC side, 365 full cycles
+  health 96.9 % after year 1, 80.7 % after year 10, 72.7 %
+    after year 15 (teaching fade model; data pack 2 %/yr)
+  warranty limits held, but the cycle allowance is used up:
+    any added service (reserve, a second daily cycle) needs a
+    warranty with more cycles or a larger battery

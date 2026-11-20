@@ -1,0 +1,8 @@
+local hiring and buying: the claim against the evidence (synthetic)
+  measure                      claimed   with evidence   rule
+  local hires                      45 %            36 %   resident > 12 months
+  local purchases                  12 %             7 %   local invoices
+  the claims counted anyone with a local address and every
+  purchase through a local agent: the definitions are
+  written first, the evidence is kept, and only verified
+  numbers go to the village and the lenders

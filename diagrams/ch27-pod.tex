@@ -1,0 +1,14 @@
+% Chapter 27 - the 0.8 Hz power oscillation without and with the plant's damping modulation (gain 1.0,
+% modal teaching model); data diagrams/data/ch27-pod.csv from companion/ch27/examples_ac.py pod().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=10, ymin=-3.2, ymax=3.2,
+      xlabel={زمان $(\text{s})$}, ylabel={نوسانِ توان $(\text{MW})$}, xmajorgrids=true,
+      legend columns=2]
+    \addplot[sLoss] table[x=t, y=g0, col sep=comma] {data/ch27-pod.csv};
+    \addplot[sWind] table[x=t, y=g1, col sep=comma] {data/ch27-pod.csv};
+    \legend{بی‌میراکننده, با میراکننده}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

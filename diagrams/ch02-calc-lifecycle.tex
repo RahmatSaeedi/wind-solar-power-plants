@@ -1,0 +1,37 @@
+% Chapter 2 — life of a Plant P calculation record: statuses, revisions and the review loop.
+% Status codes and revision scheme are the book's teaching convention (plantp.records).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    st/.style={blk, minimum width=24mm, minimum height=13mm, inner sep=2pt},
+    rv/.style={font=\scriptsize\bfseries, text=cInk, fill=white, draw=cInkB, rounded corners=1.5pt,
+               inner sep=1.5pt, line width=0.4pt}]
+  \node[st]                     (wip) at (0,0)    {$\text{WIP}$\\در دستِ کار};
+  \node[st, blkLoad]            (ifr) at (3.8,0)  {$\text{IFR}$\\برای بازبینی};
+  \node[st, blkWarn]            (crs) at (3.8,-2.6) {برگهٔ پاسخ\\به نظرها};
+  \node[st, blkLoad]            (ifa) at (7.6,0)  {$\text{IFA}$\\برای تأیید};
+  \node[st, draw=cBESS, fill=cBESS!12] (app) at (11.4,0) {$\text{APP}$\\تأییدشده};
+  \node[st]                     (ifc) at (15.2,0) {$\text{IFC}$\\برای اجرا};
+  \node[st]                     (asb) at (15.2,-2.6) {$\text{ASB}$\\چون‌ساخت};
+  \node[st, draw=cMuted, text=cInkB] (sup) at (11.4,-2.6) {$\text{SUP}$\\جایگزین‌شده};
+
+  \draw[flow] (wip) -- (ifr);
+  \draw[flow] (ifr) -- node[above, note, font=\scriptsize] {بدونِ نظرِ باز} (ifa);
+  \draw[flow] (ifa) -- (app);
+  \draw[flow] (app) -- (ifc);
+  \draw[flow] (ifc) -- (asb);
+  \draw[flow] (ifr.south) -- node[right, note, font=\scriptsize] {نظرهای بازبین} (crs.north);
+  \draw[flow] (crs.west) -| node[below, pos=0.25, note, font=\scriptsize] {اصلاح؛ بازنگریِ بعدی} (wip.south);
+  \draw[flowinfo] (app.south) -- node[right, note, font=\scriptsize] {بازنگریِ تازه} (sup.north);
+  \draw[flowinfo] (asb.west) -- (sup.east);
+
+  \node[rv] at (0,0.95)    {$\text{A}\to\text{B}\to\cdots$};
+  \node[rv] at (11.4,0.95) {$0$};
+  \node[rv] at (15.2,0.95) {$1, 2, \ldots$};
+
+  \node[note, anchor=north, text width=150mm] at (7.6,-3.7)
+     {بازنگری‌های پیش از نخستین تأیید با حرف‌های لاتین و پس از آن با عدد شماره می‌خورند (برچسب‌های
+      بالای جعبه‌ها). سند فقط وقتی تأیید می‌شود که نظرِ بازِ عمده نداشته باشد. سندِ جایگزین‌شده پاک نمی‌شود:
+      بایگانی می‌شود تا معلوم باشد هر تصمیم بر پایهٔ کدام بازنگری گرفته شده است.};
+\end{tikzpicture}}
+\end{document}

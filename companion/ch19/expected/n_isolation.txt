@@ -1,0 +1,10 @@
+time budget from detection to isolation (teaching, A-297):
+  step                                                seconds
+  BMS sees the cell outside its limit (scan)            1.00
+  rack controller decides (logic, filter)               0.50
+  rack switch opens                                     0.05
+  message reaches the plant controller                  1.00
+  plant controller stops the PCS and HVAC as designed   2.00
+  total 4.55 s; the rack opens locally in about 1.6 s without
+  waiting for the network; actions that need the network come
+  later and must not be needed for the first protection

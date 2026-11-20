@@ -1,0 +1,11 @@
+export system data: owner and gap (from the input register)
+  id     item                                 owner     status
+  IN-03  network model around the POC         operator  requested
+  IN-07  protection settings at the grid end  operator  requested
+  IN-14  main transformer test data (FAT)     plant     missing
+  IN-17  line measured impedance              plant     missing
+  IN-30  outage rates of plant elements       plant     assumed
+  the plant owns the line to the POC and must measure its
+  impedance at commissioning; the operator owns the bay at
+  the grid substation, its protection and the network model -
+  each gap has an owner who closes it, and a date

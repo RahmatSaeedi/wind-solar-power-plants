@@ -1,0 +1,10 @@
+availability guarantee of the O&M contract (97 %, LD at tariff,
+cap 20 % of the O&M fee; teaching, A-308):
+  availability %   lost GWh   lost k u   LD paid k u   owner keeps loss k u
+              97        0.0          0             0                      0
+              96        3.0        213           213                      0
+              95        6.1        426           426                      0
+              93       12.2        852           460                    392
+  the cap limits what the contractor pays: below about 94.8 %
+  the owner carries the rest; a guarantee is worth what the
+  cap and the contractor's balance sheet make it

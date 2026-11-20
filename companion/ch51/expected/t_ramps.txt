@@ -1,0 +1,6 @@
+ramp warnings from the 3-h forecast: |change| > 20 MW in an hour
+  actual ramps 341, warned 123, missed 218, false warnings 236
+  probability of detection 36%, false-alarm ratio 66%
+  a warning gives the shift time to free battery room or warn
+  the grid operator; the miss rate says why the shift still
+  watches the plant and not only the forecast (ch 15 ramps)

@@ -1,0 +1,16 @@
+knee point from a CT magnetising-curve test (teaching data):
+  voltage V   current A
+         10       0.004
+         50       0.008
+        100       0.012
+        150       0.016
+        200       0.022
+        230       0.030
+        250       0.045
+        265       0.070
+        275       0.110
+        285       0.180
+  knee (10 % more volts needs 50 % more amps): 230 V at 0.030 A
+  lesson A's feeder CT needs 188 V: this core has margin;
+  the curve in the test record is the evidence, not the
+  nameplate

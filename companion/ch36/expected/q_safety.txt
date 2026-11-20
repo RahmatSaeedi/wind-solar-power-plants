@@ -1,0 +1,12 @@
+which functions depend on the network (teaching)
+  function                         done by                          network?
+  protection trips                 relays, hard-wired to breakers   no
+  emergency stop of a turbine      hard-wired safety chain          no
+  fire alarm and its actions       fire panel (ch 32, 35)           no
+  battery shut-down on fault       BMS and its own contactors       no
+  overspeed of a rotor             turbine safety system            no
+  plant set points                 PPC over the network             yes
+  every function that keeps people and equipment safe works
+  without the network; only optimisation and sight do not.
+  This independence, designed in chapters 26, 32 and 34, is
+  the strongest security control of the plant

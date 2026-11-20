@@ -1,0 +1,7 @@
+probability of detection POD(a) = 1 / (1 + exp(-(ln a - ln a50) / s))
+    (assumed)
+  a50 = 1.5 mm, s = 0.4: a90 = a50 exp(s ln 9) = 3.61 mm
+  a crack of 1 mm is found with probability 0.27
+  compared with the critical cracks of b_fracture (5.7 .. 63 mm), a90 leaves a
+    margin for growth between inspections; for the 5.7 mm case the margin is
+    thin

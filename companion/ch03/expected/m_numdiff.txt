@@ -1,0 +1,7 @@
+derivative of e^x at x = 1 (exact e) by finite differences:
+  forward (f(x+h) - f(x))/h: smallest error near h = 1.0e-08 (theory sqrt(eps)
+    = 1.5e-08)
+  central (f(x+h) - f(x-h))/2h: smallest error near h = 3.2e-06 (theory
+    eps^(1/3) = 6.0e-06)
+  smaller h is NOT always better: truncation error falls, round-off error
+    grows

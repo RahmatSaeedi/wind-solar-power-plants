@@ -1,0 +1,10 @@
+bolted busbar joint on the DC side of a stack, 1375 A (teaching:
+  contact resistance ~ clamping force^-0.5)
+  preload left   contact uOhm   heat W
+          100%            5.0      9.5
+           75%            5.8     10.9
+           50%            7.1     13.4
+           25%           10.0     18.9
+  a joint that loses its preload heats, oxidises and loses
+  more: torque marks and a torque record per joint at the
+  factory, thermography in the heat run (lesson C)

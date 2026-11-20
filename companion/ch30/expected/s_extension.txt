@@ -1,0 +1,12 @@
+fatigue life from measured loads (teaching; damage ~ DEL^m)
+  design DEL 30 MN m for 25 years
+  measured DEL MN m   m = 3: life years   m = 5: life years
+                 30                 25.0                 25.0
+                 28                 30.7                 35.3
+                 26                 38.4                 51.1
+                 24                 48.8                 76.3
+  five years of strain-gauge or SCADA-based load estimates
+  showing 26 instead of 30 MN m would leave the welds about
+  13 more years (m = 3) - a case for life extension that an
+  inspection, the measured data's uncertainty and the
+  certifier's assessment must all support

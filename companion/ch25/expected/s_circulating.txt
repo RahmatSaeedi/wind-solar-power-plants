@@ -1,0 +1,10 @@
+two transformers in parallel on different taps (12 % each):
+  tap difference   steps   circulating current % of rated   extra loss kW
+           1.25%       1                              5.2%             1.4
+           2.50%       2                             10.4%             5.4
+           5.00%       4                             20.8%            21.7
+  a voltage difference across two impedances drives a current
+  round the loop with no load at all: it heats both units and
+  wastes reactive power - paralleled tap changers run as master
+  and follower, or by circulating-current control (Plant P
+  runs the sections split, ch 23, but may close the coupler)

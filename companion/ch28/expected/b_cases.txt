@@ -1,0 +1,13 @@
+load-flow cases at full output, Q = 0 at the POC (S0, teaching)
+  grid  source   tap %   V POC   V MV-A   V unit max   unit q pu   loss MW
+  max     0.95    -2.5   0.956    0.995        1.013       0.121      1.84
+  max     1.00    +2.5   1.006    0.995        1.013       0.120      1.79
+  max     1.05    +7.5   1.056    0.995        1.013       0.118      1.74
+  min     0.95    -2.5   0.962    1.001        1.018       0.120      1.82
+  min     1.00    +2.5   1.012    1.001        1.018       0.118      1.77
+  min     1.05    +7.5   1.062    1.001        1.018       0.116      1.72
+  night, units idle: POC gets +2.4 Mvar from cables and line, V POC 1.002
+  the taps keep the 33 kV bus near 1.00 and the units inside
+  their band in every case; the units supply about 12 % of
+  their rating as reactive power just to cancel what the
+  transformers and line absorb at full output

@@ -1,0 +1,19 @@
+% Chapter 35 - two events stamped at their devices against the same events stamped by a gateway on
+% arrival: network delays swap their order (examples_b; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\footnotesize, x=0.55mm, y=10mm]
+  \draw[->, cRule] (0,0) -- (210,0) node[right, text=cInkB] {$t\,(\mathrm{ms})$};
+  \foreach \t in {0,50,100,150,200} {\draw[cRule] (\t,0.08) -- (\t,-0.08) node[below, font=\scriptsize, text=cMuted] {$\t$};}
+  \draw[cRule] (0,2.6) -- (210,2.6);
+  \node[note, anchor=east] at (-4,2.6) {دستگاه‌ها};
+  \node[note, anchor=east] at (-4,0) {دروازهٔ ارتباطی};
+  \fill[cWind] (0,2.6) circle (1.6pt) node[above, text=cInk] {A};
+  \fill[cPV] (40,2.6) circle (1.6pt) node[above, text=cInk] {B};
+  \draw[flowinfo, draw=cWind] (0,2.6) -- (150,0.05);
+  \draw[flowinfo, draw=cPV] (40,2.6) -- (60,0.05);
+  \fill[cWind] (150,0) circle (1.6pt) node[below=9pt, text=cInk] {A};
+  \fill[cPV] (60,0) circle (1.6pt) node[below=9pt, text=cInk] {B};
+  \node[note, anchor=west, text width=50mm] at (95,1.6) {A دیرتر می‌رسد؛ برچسبِ دروازهٔ ارتباطی ترتیب را وارونه می‌کند. برچسبِ مبدأ با ساعتِ همگام ترتیب را نگه می‌دارد};
+\end{tikzpicture}}
+\end{document}

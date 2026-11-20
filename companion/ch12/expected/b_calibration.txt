@@ -1,0 +1,9 @@
+calibration factor of a thermopile pyranometer (A-248):
+  certificate: 8.50 uV per W/m2; reading 7.65 mV -> 900 W/m2
+  after two years the recalibration gives 8.41 uV per W/m2 (-1.1 %)
+  the same reading is then 910 W/m2: data logged
+    with the old factor read 1.1 % low
+  the correction is applied from the date of the change (or
+  linearly between the two calibrations) and logged as such
+  recalibration interval and method follow the instrument's
+  class and the campaign's plan (ISO 9060:2018 classes)

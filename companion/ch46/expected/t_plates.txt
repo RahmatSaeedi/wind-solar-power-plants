@@ -1,0 +1,8 @@
+nameplates read along the installed line-up against the one-line order
+  position   one-line   nameplate
+         4   PVF3       PVF2
+        10   PVF2       PVF3
+  two plates swapped between the sections: an operator who
+  opens 'PVF2' opens PVF3's breaker in section A - the plate
+  is a safety item, read against the one-line at the FAT, at
+  installation and before the first switching programme (ch 23)

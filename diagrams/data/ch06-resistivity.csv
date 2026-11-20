@@ -1,0 +1,12 @@
+index,material,log10_rho
+0,silver,-7.80
+1,copper,-7.76
+2,aluminium,-7.55
+3,iron,-7.01
+4,stainless steel,-6.16
+5,nichrome,-5.96
+6,sea water,-0.70
+7,intrinsic silicon,3.36
+8,glass,12.00
+9,PVC,13.00
+10,XLPE,16.00

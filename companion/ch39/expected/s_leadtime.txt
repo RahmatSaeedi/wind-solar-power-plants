@@ -1,0 +1,11 @@
+lead time of the transformers: median 30 weeks, spread 15 %
+(lognormal); needed on site 34 weeks after the order
+  chance of arriving in time if ordered as planned: 80%
+  chance   lead weeks   order this much earlier
+    50%         30.0          0.0
+    80%         34.0          0.0
+    90%         36.4          2.4
+    95%         38.4          4.4
+  the four weeks between the median and the need buy only
+  an 80% chance; a 90 % chance means ordering 2.4 weeks
+  earlier - which the critical path of ch 38 must find

@@ -1,0 +1,11 @@
+Iran: 49 facts by topic and status (sources read 2026-11-17)
+  topic                         verified  proj-dep  to-confirm
+  A authorities and approvals          7         0           8
+  B grid, export, water, land          2         2           7
+  C standards and evidence             5         0           2
+  E grid services                      1         0           1
+  F finance and fiscal                 4         0           4
+  G social and land                    0         0           6
+  all                                 19         2          28
+  of the to-confirm items, 6 rest only on secondary sources
+  (news, lenders' or law firms' summaries): a lead, not a source

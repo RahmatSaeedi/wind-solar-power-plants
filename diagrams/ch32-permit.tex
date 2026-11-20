@@ -1,0 +1,22 @@
+% Chapter 32 - the life of a permit to work, right to left then back: request, plan and
+% isolation, authorisation, briefing, work, hand back, cancellation; shared isolation points stay
+% in place until every permit on them is closed (companion/ch32/examples_a.py, a_permits).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=21mm, minimum height=11mm, text width=19mm},
+    h/.style={blkWarn, minimum width=21mm, minimum height=11mm, text width=19mm}]
+  \node[s] (a) at (13.2,0) {درخواست و ارزیابیِ کار};
+  \node[h] (b) at (10.6,0) {برنامهٔ جداسازی و قفل‌ها};
+  \node[h] (c) at (8.0,0) {صدور توسطِ فردِ مجاز};
+  \node[s] (d) at (5.4,0) {توجیهِ گروه در محل};
+  \node[s] (e) at (2.8,0) {انجامِ کار و پایش};
+  \node[s] (f) at (2.8,-2.2) {تحویلِ کار و جمع‌کردنِ ابزار};
+  \node[h] (g) at (6.7,-2.2) {ابطالِ مجوز};
+  \node[h] (k) at (10.6,-2.2) {برداشتنِ جداسازی وقتی همهٔ مجوزها بسته‌اند};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e, e/f} {\draw[flow] (\x) -- (\y);}
+  \draw[flow] (f) -- (g);
+  \draw[flow] (g) -- (k);
+  \node[note] at (13.2,-2.2) {قرمز: نقطه‌های توقف};
+\end{tikzpicture}
+\end{document}

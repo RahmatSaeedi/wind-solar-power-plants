@@ -1,0 +1,23 @@
+Iran, topic B (grid, export, water, land):
+  IR-16 project-dependent
+      industry plants: adjacent substation and line by developer
+  IR-17 to-confirm (secondary)
+      connection voltages 63/230/400 kV named; 132 kV not found
+  IR-18 to-confirm
+      transmission open for sale/export; no transmission fees
+  IR-19 to-confirm
+      no published grid code or wind/PV connection document found
+  IR-20 to-confirm (secondary)
+      metering, SCADA and 'visibility' rules: specification not found
+  IR-21 verified
+      groundwater and surface-water use need permits (WRM services)
+  IR-22 project-dependent
+      which regional water company; water for cleaning
+  IR-23 to-confirm
+      national land allocated for wind/solar via SATBA and Agri. Jihad
+  IR-24 to-confirm
+      lease capped at 20 % of land value; land back if idle 1 year
+  IR-25 verified
+      land directive No. 020/184659, 1403/7/29 (header read)
+  IR-26 to-confirm
+      foreign persons eligible for land allocation?

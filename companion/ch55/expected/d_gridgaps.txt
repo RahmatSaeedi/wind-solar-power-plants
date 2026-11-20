@@ -1,0 +1,14 @@
+grid-study inputs for Plant P - Iran: what the public
+sources give against what the studies need (ch 28 register)
+  needed 12; complete 17%; missing 10; too weak 0
+    missing: fault levels max and min at the POC
+    missing: network equivalent for dynamic studies
+    missing: substation and line capacity available
+    missing: remote-end protection and reclosing
+    missing: background harmonics and allocation
+    missing: reactive power requirement
+    missing: fault ride-through requirement
+    missing: frequency response requirement
+    missing: telemetry list and protocol
+    missing: revenue metering specification
+  the request goes to: IGMC and the regional company, in writing

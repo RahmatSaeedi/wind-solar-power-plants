@@ -1,0 +1,7 @@
+value of one container's cells at the recycler (teaching prices)
+  recovered 17.3 t worth 28.4 k u; processing 28.0 t costs 33.5 k u
+  net for LFP: -5.2 k u a container
+  the same mass with a nickel-cobalt cathode: +112.9 k u
+  an LFP battery is likely to cost money to recycle, not earn
+  it: the take-back fee and who pays it belong in the purchase
+  contract, with the route and its records (ch 39, ch 53)

@@ -1,0 +1,9 @@
+PV model choices, one change at a time (relative to the model's
+  Hay-Davies + IAM + Faiman chain; simple DC model):
+  plane irradiation: Hay-Davies 2,150, isotropic 2,107 kWh/m2 (-2.0 %)
+  DC energy with isotropic sky         -2.1 %
+  DC energy without IAM                 +3.1 %
+  DC energy, NOCT temperature model     -2.1 %
+  each choice moves the energy by a few per cent: the model
+  report names every one, and the reviewer checks them against
+  measured data of similar plants (chapter 16)

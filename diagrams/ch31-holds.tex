@@ -1,0 +1,23 @@
+% Chapter 31 - the nacelle route-to-install case as a chain of hold points (red) and checks,
+% read right to left, top row then bottom row (companion/ch31/lab_d.py, d_plan; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    hp/.style={blkWarn, minimum width=19mm, minimum height=10mm, text width=17mm},
+    ck/.style={blk, minimum width=19mm, minimum height=10mm, text width=17mm}]
+  \node[hp] (a) at (15.0,0) {مجوزِ مسیر و اسکورت};
+  \node[hp] (b) at (12.6,0) {ارزیابیِ دو پل};
+  \node[hp] (c) at (10.2,0) {اندازه‌گیریِ روگذر و خطِ برق};
+  \node[hp] (d) at (7.8,0) {بازرسیِ جرثقیل};
+  \node[hp] (e) at (5.4,0) {پذیرشِ سکو و تشک‌ها};
+  \node[ck] (f) at (3.0,0) {برج آماده};
+  \node[ck] (g) at (15.0,-2.2) {بازرسیِ دریافت};
+  \node[hp] (h) at (12.6,-2.2) {پیش‌بینیِ هوا: ۶ ساعت زیرِ ۱۰};
+  \node[hp] (i) at (10.2,-2.2) {تأییدِ طرحِ بالابری، توجیه};
+  \node[hp] (j) at (7.8,-2.2) {ناحیهٔ ممنوع، تیمِ نجات};
+  \node[ck] (k) at (5.4,-2.2) {آزمونِ بی‌سیم};
+  \node[blkWind, minimum width=19mm, minimum height=10mm, text width=17mm] (l) at (3.0,-2.2) {بالابری و نخستین پیچ‌ها};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e, e/f, g/h, h/i, i/j, j/k, k/l} {\draw[flow] (\x) -- (\y);}
+  \draw[flow] (f.west) -- ++(-0.35,0) |- (16.35,-1.1) |- (g.east);
+\end{tikzpicture}
+\end{document}

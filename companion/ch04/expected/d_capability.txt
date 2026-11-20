@@ -1,0 +1,8 @@
+bolt preload measured on 25 subgroups of 5 bolts (kN; synthetic, A-060)
+  specification 475 +- 47.5 kN; first 18 subgroups: Cp 1.27, Cpk 1.15,
+    expected 299 ppm outside
+  last 7 subgroups (mean moved +15 kN): Cp 1.11, Cpk 0.71, 16,725 ppm
+  X-bar chart from the first 18: centre 479.7, limits 462.8 .. 496.5 (A2 =
+    0.577 for n = 5)
+  subgroups outside the limits: 21, 23
+  Cp ignores where the mean is; Cpk punishes an off-centre process

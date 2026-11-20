@@ -1,0 +1,9 @@
+0.5% of 109,200 modules with a crack at installation (546 modules)
+  inactive area grows with thermal and wind cycles (teaching:
+  +6 % on average over some years, ch 10 loss curve)
+  loss at installation 0.4 kW; after growth 7.5 kW
+  of 60.1 MWp: 0.012% of the array
+  small for the plant, larger for each owner of a cracked
+  module: the cracked ones also run hotter (hot spots, ch 10)
+  - which is why EL at receipt and after installation sets
+  the baseline for warranty claims later

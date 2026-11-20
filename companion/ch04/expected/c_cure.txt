@@ -1,0 +1,8 @@
+resin cure, time to the same degree of cure (Arrhenius, Ea 60 kJ/mol assumed):
+   50 C:  29.4 h (8 h at 70 C as reference)
+   60 C:  15.0 h (8 h at 70 C as reference)
+   70 C:   8.0 h (8 h at 70 C as reference)
+   80 C:   4.4 h (8 h at 70 C as reference)
+   90 C:   2.5 h (8 h at 70 C as reference)
+  thick laminates heat themselves while curing (exotherm): the core can
+    run far hotter than the mould, so curing is controlled, not just timed

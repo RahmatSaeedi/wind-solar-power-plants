@@ -1,0 +1,8 @@
+main transformer on its plinth in the teaching earthquake (a_seismic)
+  shear 582 kN at 2.5 m: overturning 1,456 kN m
+  weight 932 kN on a 3.0 m anchor base: resisting 1,398 kN m
+  net uplift on one side: 19 kN -> anchors in tension
+  without anchors a heavy, short transformer can still tip
+  or slide in a strong earthquake; anchors, the plinth and
+  the bushings' qualification (tall porcelain is fragile)
+  come from the local seismic code and the maker (ch 25)

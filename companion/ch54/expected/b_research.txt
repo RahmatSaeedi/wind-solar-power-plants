@@ -1,0 +1,10 @@
+research record of each requirement: official reference, date
+accessed, who read it, who checked it
+  official_ref   88% filled
+  accessed       88% filled
+  verifier       100% filled
+  second_check   50% filled
+  cells filled 81%; records with all four: 4 of 8
+  weak records: Z-004, Z-010, Z-011, Z-014
+  Z-011 rests on a consultant's slide - not a source; Z-004
+  was read once, from an edition since replaced

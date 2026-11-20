@@ -1,0 +1,77 @@
+P01: (2.5e3)^3 = 1.5625e+10; log10(2.5e3) = 3.3979
+P02: 45 deg = 0.7854 rad; sin = cos = 0.7071
+P06: (2+3j)(1-j) = 5+1j; |z| = 5.0990; angle 11.31 deg
+P08: mean 8.00; median 7; s = 2.6458
+P11: declination +10: noon elevation 66 deg
+P11: declination -15: noon elevation 41 deg
+P12: shadow of 2 m at 30 deg: 2 / tan 30 = 3.4641 m
+P13: cos theta = 0.5000; theta = 60.0 deg
+P15: f = x e^-x: f' = (1 - x) e^-x = 0 at x = 1; f(1) = 0.3679 (maximum)
+P16: solution 2.0000, 3.0000, -1.0000
+P17: slope 0.90; intercept 0.90
+P18: eigenvalues -3, -1; time constants 0.3333, 1.0000
+P19: S = 1840.0 + j1380.0 VA; |S| = 2300 VA
+P20: Euler: 0.5000, 0.2500; exact e^-1 = 0.3679
+P21: mean 8 Gamma(1.5) = 7.090 m/s; P(v < 4) = 0.2212
+P22: n_eff = 1000 x 0.1/1.9 = 52.6
+P23: tilt 30: h 2.300 m, pitch 7.587 m, GCR 0.606
+P24: equinox noon: theta = latitude - tilt = 34 - 25 = 9 deg; cos 9 = 0.9877
+P25: per turbine 4261.4 kW; v = 9.7781 m/s (30 halvings)
+P26: 10 km: drop 1471 V (4.46 %); loss 1145 kW (3.82 %)
+P27: |I0| = 6.67, |I1| = 93.33, |I2| = 6.67 A; unbalance 7.1 %
+P28: 40 (1 - e^(-1/3)) = 11.34 K
+P29: (20 - 4) x 0.927 / 5 = 2.968 h at 5 MW
+P30: Weibull k 2.0, c 8.0: 190.0 GWh (fit k 2.11: 191.4 GWh)
+P31: 1.0403 x 9 - 0.0089 = 9.354 m/s
+P32: z = (24.28 - 7.103) / 3.529 = 4.87 -> flagged, but real
+P33: 3.04 / 4^2 = 0.19 MWh (table: 0.19)
+P34: range roughly halves: about -4.7 .. +4.6 GWh
+P44: variance of 1e9 + [4, 7, 13, 16]: naive E[x^2] - E[x]^2 = -128.0; two-
+     pass 22.50 (true 22.50)
+P46: k 2.114 +- 0.10, c 8.017 +- 0.20: mean 191.2 GWh, std 7.9 GWh; P90 181.1
+     GWh
+P47: wear cost 0/MWh: net 1584 units, discharged 59.4 MWh
+P47: wear cost 5/MWh: net 1288 units, discharged 59.4 MWh
+P48: tau 6 h: maximum rise 31.0 K (steady state 42.9 K)
+P49: daily r = -0.117; bootstrap 95 % interval -0.216 .. -0.010
+P51: degree-6 fit: cond(A) 6.20e+08, cond(A^T A) 3.85e+17; rms residual normal
+     eqs 181.5 kW, lstsq 181.5 kW
+P53: 1 + ... + 60 = 1830; 10 terms of 0.95^k: 8.025; infinite: 20
+P54: RMS = sqrt(sum A^2 / 2) = 70.93 A; THD = 7.81 %
+P55: 20-year value in 20 years: 64.2 %; in any one year: 5.0 %
+P56: I = 1 / 0.10 = 10 pu; base 1749.5 A; 17.50 kA
+P57: AF(8 %, 20) = 9.818; CRF(8 %, 20) = 0.1019; 50 million over 15 y at 6 %:
+     5.148 million/yr
+P58: 150 Hz -> 150 Hz, 650 Hz -> 350 Hz, 1050 Hz -> 50 Hz, 1950 Hz -> 50 Hz;
+     50th harmonic needs fs > 5000 Hz
+P59: f_c = 1/(2 pi 2) = 0.0796 Hz; 0.05 Hz: ratio 0.847, lag 32.1 deg; 0.5 Hz:
+     ratio 0.157, lag 81.0 deg
+P60: A = 90.91 %; still down after 24 h: 0.788; failures per year 7.96
+P61: base 39.65; capex +10 %: 42.65; opex +20 %: 41.58; energy -5 %: 41.74
+     units/MWh
+P62: cap 80 MW: 2.35 GWh curtailed in 276 h; 0.81 % of export
+P63: DP with wear 5/MWh (0.25 MWh grid): net 1287.0 units; discharged 59.4 MWh
+     (LP of P47: 1288)
+P64: west sectors 240..300 hold 68.7 % of energy; farm loss 3 % x 0.687 = 2.06
+     %
+P65: loss value 80/MWh: A* = 582 mm2; 400: 2168 k, 500: 2065 k, 630: 2050 k
+P66: step 1.0: 112 steps; step 2.0: 54 steps; step 4.0: leaves the valid
+     region after 6 steps; step 6.0: leaves the valid region after 4 steps;
+     largest curvature at the start 0.955: step limit there 2.1
+P67: 50-year value from the first 10 maxima 38.1 m/s, from all 30 35.4 m/s
+P68: sqrt((73.5/sqrt N)^2 + 6^2 + 2^2) < 7 needs N > 600 days (20 months)
+P70: 1 arc-minute of latitude: 1853.3 m; 1 deg of longitude at 60 N: 55.60 km;
+     0.001 deg each way at 34 N: 144.4 m
+P71: prior 0.02, sensitivity 0.9, false alarms 0.01: P(fault | alarm) = 0.647
+P72: dt_max = 0.5 dz^2 / alpha = 1250 s; daily damping depth sqrt(2 alpha /
+     omega) = 0.166 m; annual / daily = sqrt(365) = 19.1
+P73: bearing T3 -> T1 = 208.5 deg; T1-T3 = 5.15 D
+P75: series 3 x 0.99: 0.9703; parallel 2 x 0.9: 0.9900; 2-out-of-3 of 0.9:
+     0.9720
+P76: true d 0.940, q -0.342; frame 10 deg behind: d 0.985, q -0.174
+P77: common-cause unavailability 0.0: path A 0.99498, loss 1.45 GWh/yr
+P77: common-cause unavailability 0.0005: path A 0.99448, loss 1.60 GWh/yr
+P78: plain MC samples to match LHS n = 50 on the mean: 50 x (1.818 / 0.152)^2
+     = 7153
+P74: grid 50.2 Hz, fixed 200 ms rectangular: A5 0.0368, A7 0.0249;
+     synchronised (1992 samples): A5 0.0400, A7 0.0300

@@ -1,0 +1,28 @@
+traces of sourced requirements - Tajikistan
+  TJ-25: revenue metering at the ownership boundary
+    source       Resolution 449: class 1.0 or 0.5S, ASKUE, State Register
+    design       metering one-line with class 0.5S cores (ch 48)
+    procurement  meter type checked on the State Register
+    construction meters installed and sealed at the boundary
+    test         accuracy certificates and ASKUE link test
+    approval     acceptance by the network company
+    retained     register entry, seal records, certificates
+    open stages: 0 of 7
+  TJ-24: SCADA and real-time data above 1 MW
+    source       Resolution 449 items 20-21, 39-41
+    design       PPC and SCADA gateway (ch 34, 35)
+    procurement  gateway and protocol in the SCADA order
+    construction links to the dispatch centre
+    test         OPEN
+    approval     OPEN
+    retained     OPEN
+    open stages: 3 of 7
+  TJ-22: fault ride-through and reactive requirements
+    source       none adopted (TJ-22) - a request to SIB
+    design       OPEN
+    procurement  OPEN
+    construction OPEN
+    test         OPEN
+    approval     OPEN
+    retained     OPEN
+    open stages: 6 of 7

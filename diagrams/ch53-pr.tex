@@ -1,0 +1,21 @@
+% Chapter 53 - PV performance ratio by operating year with its least-squares line (-0.300 points a
+% year), and wind energy availability by year with the steeper fall after year 9
+% (companion/ch53/examples_a.py -> diagrams/data/ch53-trends.csv). Two panels, one measure each.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, name=pr, width=78mm, height=56mm, xmin=0, xmax=19, ymin=75, ymax=83,
+      xlabel={سالِ بهره‌برداری}, ylabel={نسبتِ عملکردِ فتوولتائیک (\%)}, xtick={0,3,...,18}]
+    \addplot[only marks, mark=*, mark size=1.4pt, cPV] table[x=year, y=pr, col sep=comma]
+      {data/ch53-trends.csv};
+    \addplot[sInk, line width=0.9pt, domain=1:18] {81.998 - 0.2998*x};
+  \end{axis}
+  \begin{axis}[plantp, at={(pr.east)}, anchor=west, xshift=16mm, width=78mm, height=56mm,
+      xmin=0, xmax=19, ymin=93, ymax=98.5, xlabel={سالِ بهره‌برداری},
+      ylabel={دسترس‌پذیریِ انرژیاییِ باد (\%)}, xtick={0,3,...,18}]
+    \addplot[only marks, mark=square*, mark size=1.4pt, cWind] table[x=year, y=avail, col sep=comma]
+      {data/ch53-trends.csv};
+    \draw[cInk!60, dashed] (axis cs:9.5,93) -- (axis cs:9.5,98.5);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

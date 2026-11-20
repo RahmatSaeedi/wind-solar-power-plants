@@ -1,0 +1,11 @@
+geared generator at rating: 5.13 MW out at efficiency 0.97: losses 158.7 kW
+  stator copper              40 %    63.5 kW
+  core (hysteresis, eddy)    25 %    39.7 kW
+  rotor and magnet            5 %     7.9 kW
+  friction, windage, fan     10 %    15.9 kW
+  stray load                 20 %    31.7 kW
+efficiency against load (fixed share of rated losses):
+  fixed 20 %: at 10/25/50/100 % load 0.940 0.970 0.976 0.970
+  fixed 35 %: at 10/25/50/100 % load 0.901 0.954 0.969 0.970
+  fixed 50 %: at 10/25/50/100 % load 0.865 0.938 0.963 0.970
+  fixed losses (core, friction) dominate at part load

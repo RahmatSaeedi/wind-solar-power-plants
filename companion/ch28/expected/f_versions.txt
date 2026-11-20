@@ -1,0 +1,14 @@
+model and firmware versions: study against site (register, teaching)
+  model              kind        in the study           on site        check
+  wind converter     RMS generic G-4.0 (61400-27-1)     G-4.0          ok
+  wind converter     EMT vendor  W-EMT 7.2              W-EMT 7.3      CHECK
+  PV inverter        RMS vendor  PV-RMS 2.3 / FW 4.1.7  FW 4.2.0       CHECK
+  PV inverter        EMT vendor  PV-EMT 5.0 / FW 4.1.7  FW 4.2.0       CHECK
+  BESS PCS           RMS vendor  not received           FW 2.0.3       CHECK
+  plant controller   RMS vendor  PPC 1.4, settings 7a91 settings 7a91  ok
+  collector network  aggregated  rev C (this chapter)   rev C          ok
+  132 kV line        pi model    calculated             to be measured CHECK
+  5 of 8 need action: a firmware change after the
+  study (PV 4.1.7 -> 4.2.0) needs the OEM's statement that the
+  model still holds or a new model; a missing model blocks the
+  study it feeds; a calculated line is replaced by measurement

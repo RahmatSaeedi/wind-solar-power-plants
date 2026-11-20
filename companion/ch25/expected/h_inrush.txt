@@ -1,0 +1,15 @@
+inrush on energising from the 132 kV side (teaching estimate):
+  i_peak = sqrt2 In / x_air x (2 Bn + Br - Bs) / Bn
+  In 276 A, Bn 1.7 T, Bs 2.03 T, air-core reactance 0.3 pu
+  residual flux    switched at voltage zero    peak A    x rated rms
+    0.0 x Bn       worst case                    1047           3.8
+    0.4 x Bn       worst case                    1566           5.7
+    0.8 x Bn       worst case                    2086           7.6
+  switched at the voltage peak the flux starts symmetric and
+  there is almost no inrush; at the zero with residual flux
+  of the same sign the core saturates for many cycles - the
+  current decays over seconds and is rich in the 2nd
+  harmonic (the differential's blocking, ch 26); a second
+  transformer already in service can draw a 'sympathetic'
+  inrush; controlled switching at the right instant is an
+  option the utility may ask for

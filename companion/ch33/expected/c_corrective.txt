@@ -1,0 +1,6 @@
+corrective actions of the construction year (synthetic)
+  actions raised: 46; median days to close 30
+  closed within 30 days: 50 %; longest 113 days
+  closure means the cause is fixed and checked on site -
+  an action closed by a new procedure nobody follows is
+  reopened at the next audit (ch 32, lesson A)

@@ -1,0 +1,6 @@
+PR just before and just after the four washes of year 18 (%)
+  before 76.1 75.4 75.0 74.6
+  after  76.8 76.7 76.6 76.7
+  soiling costs 1.4 points on average before a wash; the after-wash
+  level 76.7 % is the aged plant - the 76.6 % of lesson A
+  is an after-wash series, so the 0.37 %/yr is ageing, not dirt

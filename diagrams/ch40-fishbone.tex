@@ -1,0 +1,23 @@
+% Chapter 40 - cause-and-effect (fishbone) diagram of the overheated LV joint on S-06: five cause
+% categories, each box holding the finding of the investigation (companion/ch40/examples_c.py
+% CAUSES, c_rootcause). Read right to left: the effect is at the head on the left.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    cat/.style={blk, minimum width=38mm, minimum height=14mm, text width=36mm}]
+  \draw[cInk, line width=1.2pt, -{Stealth[length=3mm]}] (12.2,0) -- (0.7,0);
+  \node[blkWarn, minimum width=24mm, text width=22mm, minimum height=14mm] at (-0.7,0) {\textbf{اتصالِ داغِ شینه در S-06}};
+  % upper bones
+  \node[cat, blkLoad] (m) at (10.3,2.6) {\textbf{روش}\\ وارسیِ روزانه بی‌توقف وقتی جا می‌افتاد};
+  \node[cat, blkLoad] (s) at (6.0,2.6) {\textbf{اندازه‌گیری}\\ مقاومتِ اتصال در آزمونِ کارخانه سنجیده نمی‌شد};
+  \node[cat, blkLoad] (k) at (1.9,2.6) {\textbf{ماشین}\\ آچار نشانگرِ افتادن نداشت};
+  \draw[cInkB, line width=0.8pt] (m.south) -- (9.0,0);
+  \draw[cInkB, line width=0.8pt] (s.south) -- (4.8,0);
+  \draw[cInkB, line width=0.8pt] (k.south) -- (1.1,0);
+  % lower bones
+  \node[cat, blkPV] (p) at (8.4,-2.6) {\textbf{افراد}\\ عادتِ گزارشِ ابزارِ افتاده نبود};
+  \node[cat, blkPV] (g) at (4.0,-2.6) {\textbf{مدیریت}\\ آشکارسازیِ ۸ در تحلیلِ خرابی بی‌اقدام ماند};
+  \draw[cInkB, line width=0.8pt] (p.north) -- (7.1,0);
+  \draw[cInkB, line width=0.8pt] (g.north) -- (2.8,0);
+\end{tikzpicture}
+\end{document}

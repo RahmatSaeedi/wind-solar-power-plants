@@ -1,0 +1,11 @@
+camera set to emissivity 0.95, surroundings 30 C (broadband teaching model)
+  surface                        true C   emissivity   camera C
+  good joint, painted dot            55         0.90       53.8
+  good joint, bare copper            55         0.10       32.9
+  hot joint, bare copper             90         0.10       38.1
+  hot joint, oxidised copper         90         0.60       71.4
+  hot joint, painted dot             90         0.90       87.5
+  a hot joint on bare copper reads colder than a good joint
+  with a painted dot: shiny metal reflects its surroundings
+  and emits little - joints get an emissivity dot or tape at
+  assembly, so that the heat run's camera reads true

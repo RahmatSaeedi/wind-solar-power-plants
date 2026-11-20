@@ -1,0 +1,9 @@
+how often each site ranks first when the weights are uncertain
+(5,000 random weight sets around each stakeholder's view):
+  stakeholder            P-North  P-Central    P-South
+  developer                   0%        99%         1%
+  lender                      0%       100%         0%
+  community                   0%       100%         0%
+  the developer's ranking turns to P-North only when energy weighs 63 %
+  a ranking that survives most plausible weights is robust;
+  one that needs a single extreme weight is an argument

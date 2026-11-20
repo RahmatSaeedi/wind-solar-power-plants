@@ -1,0 +1,30 @@
+% Chapter 4 — velocity triangle at a blade section. The wind blows up the page (thrust
+% direction); the section moves to the left (rotation direction). Seen from the blade, the
+% relative wind W combines the axial speed v (1 - a) and the section speed omega r; lift is
+% normal to W and tilts towards the rotation, drag lies along W. Schematic (A-069).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small, line join=round]
+  % velocity triangle ending at the leading edge O
+  \coordinate (O) at (0,0);
+  \coordinate (S) at (-6.2,-0.75);
+  \coordinate (C) at (0,-0.75);
+  \draw[->, cInkB, line width=0.9pt] (S) -- (C) node[pos=0.5, anchor=north, text=cInk] {سرعتِ نسبی از چرخشِ مقطع $\omega r$};
+  \draw[->, cInkB, line width=0.9pt] (C) -- (O) node[pos=0.5, anchor=west, text=cInk] {$v(1-a)$};
+  \draw[->, cWind, line width=1.3pt] (S) -- (O) node[pos=0.5, anchor=south, text=cInk] {باد نسبی $W$};
+  \draw[cInkB] (S) ++(1.6,0) arc (0:6.9:1.6);
+  \node[note, anchor=west] at (-4.5,-0.62) {$\phi$};
+  % aerofoil aligned near W
+  \begin{scope}[shift={(O)}, rotate=12]
+    \draw[cInk, line width=0.8pt, fill=cFill] (0,0) .. controls (0.6,0.42) and (2.6,0.28) .. (3.6,0)
+      .. controls (2.6,-0.10) and (0.6,-0.18) .. (0,0) -- cycle;
+  \end{scope}
+  % forces at the quarter chord
+  \coordinate (F) at (0.9,0.25);
+  \draw[->, cLoss, line width=1.3pt] (F) -- ++(-0.35,2.9) node[anchor=south, text=cInk] {بالابر $L$};
+  \draw[->, cLoad, line width=1.1pt] (F) -- ++(1.3,0.16) node[anchor=west, text=cInk] {پسار $D$};
+  % reference directions
+  \draw[->, cInkB, densely dashed] (5.2,-1.4) -- (5.2,0.6) node[anchor=south, text=cInk] {جهتِ باد: رانش};
+  \draw[->, cInkB, densely dashed] (5.2,-1.4) -- (3.0,-1.4) node[anchor=east, text=cInk] {جهتِ حرکتِ مقطع: گشتاور};
+\end{tikzpicture}}
+\end{document}

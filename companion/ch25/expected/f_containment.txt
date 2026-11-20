@@ -1,0 +1,10 @@
+oil containment and fire interfaces of the main transformers:
+  bund 60 m2: 110 % of 22 m3 oil + 50 mm of rain = 27.2 m3
+  bund 90 m2: 110 % of 22 m3 oil + 50 mm of rain = 28.7 m3
+  interfaces the fire design fixes (ch 31), not this chapter:
+    separation or a barrier wall between the two units and
+    the control building; containment and its drain to an
+    oil separator; detection; any suppression or exposure
+    protection; access for the fire service
+  dry-type unit transformers in the towers carry no oil but
+  their own fire and ventilation interfaces

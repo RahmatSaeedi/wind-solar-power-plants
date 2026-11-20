@@ -1,0 +1,6 @@
+battery: eight containers, hours out of service in the first year
+     0    0  120    0   36    0  410    0
+  energy availability 99.19%; containers never out: 5 of 8
+  container 7 alone is 72% of the lost container-hours
+  (a cooling fault waiting for a part): one bad unit sets the
+  battery's availability (ch 19 spares)

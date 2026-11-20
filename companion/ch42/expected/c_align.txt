@@ -1,0 +1,9 @@
+gearbox - generator coupling, laser readings (vertical, teaching)
+  offset at the coupling +0.30 mm; angle +0.12 mm/m
+  generator feet 0.6 m and 1.8 m from the coupling
+  shims: front -0.37 mm, back -0.52 mm
+  after the move both readings within +-0.05 (teaching)
+  misalignment shows as a strong 2x line in the run-in
+  spectrum (lab D, G09); the frame flexes on the tower, so
+  the coupling allows for it and the alignment is checked
+  again at the site after the nacelle is lifted

@@ -1,0 +1,18 @@
+is the type test still valid after a change? (teaching rules)
+  [major ] same model, new production site
+           factory audit + routine tests; type test reviewed
+  [minor ] new firmware, control parameters only
+           regression test of the affected functions
+  [major ] new firmware, protection functions
+           repeat the affected type tests
+  [major ] power semiconductor from another maker
+           repeat thermal and safety type tests
+  [none  ] enclosure paint colour
+           no test; record in the configuration
+  [minor ] larger DC capacitor, same rating
+           engineering assessment by the cert body
+  [review] new edition of the safety standard
+           gap analysis of changed clauses
+  major 3, minor 2, none 1, review 1
+  the certification body decides the class; the purchaser asks
+  to be told of every change, in the contract (ch 44)

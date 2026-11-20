@@ -1,0 +1,10 @@
+how many of ten factory tests to witness?
+  witnessed  chance to see at least one of 2 faulty units
+          1   20.0%
+          2   37.8%
+          3   53.3%
+          5   77.8%
+         10  100.0%
+  witnessing three gives about a half chance; the first
+  unit always (design faults show there), then a random two,
+  and every test report reviewed (lesson C, ch 38 sampling)

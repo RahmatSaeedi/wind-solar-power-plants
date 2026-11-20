@@ -1,0 +1,8 @@
+components of the regional load (peaks do not add):
+  town      peak  35.03 MW, energy  167.6 GWh
+  pump      peak   8.71 MW, energy   17.5 GWh
+  industry  peak  13.18 MW, energy   60.1 GWh
+  sum of the peaks 56.92 MW; peak of the sum 51.83 MW
+  coincidence factor 0.911; diversity factor 1.098
+  the components peak at different hours: rating each feeder
+  for its own peak is right, adding them for the substation is not

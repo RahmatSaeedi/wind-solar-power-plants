@@ -1,0 +1,10 @@
+a week of flows (synthetic) checked against the conduit table
+  flows seen: 10 kinds; allowed by a conduit: 8
+  not allowed by any conduit:
+    business   -> control   file-share            14 in a week
+    field-pv   -> business  cloud-telemetry   50,400 in a week
+  a file share from the business zone straight into control,
+  and inverters sending data to a maker's cloud past every
+  zone: neither has a purpose on the conduit table, so
+  each is closed or, if it is needed, given a conduit with
+  a purpose, an owner and a rule - through the DMZ

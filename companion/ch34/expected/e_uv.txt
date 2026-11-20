@@ -1,0 +1,19 @@
+110 V DC undervoltage alarms and what the devices need (teaching)
+  float 122.7 V; end of discharge 96.2 V (55 cells x 1.75)
+  alarm 'DC low' at 104.5 V (1.90 V/cell), 'DC very low' at 99.0 V (1.80)
+  feeder to the far panel as drawn, 2.5 mm2:
+    drop 12.6 V at 15 A, the panel sees 83.7 V
+    protection IED (teaching: 80 % of 110 V)    needs   88   FAILS
+    trip coil (teaching: 70 %)                  needs   77   ok
+    DC/DC converter input (teaching)            needs   85   FAILS
+  the same feeder enlarged to 10 mm2:
+    drop 3.2 V at 15 A, the panel sees 93.1 V
+    protection IED (teaching: 80 % of 110 V)    needs   88   ok
+    trip coil (teaching: 70 %)                  needs   77   ok
+    DC/DC converter input (teaching)            needs   85   ok
+  at the end of the autonomy the far panel's IED loses its
+  supply on the thin feeder: the DC drop is checked at the
+  end-of-discharge voltage, not at float; the alarms come
+  first - 'DC low' to restore the charger, 'DC very low' to
+  start the orderly shedding - so the protection keeps its
+  voltage to the end of the autonomy

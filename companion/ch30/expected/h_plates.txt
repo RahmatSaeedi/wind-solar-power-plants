@@ -1,0 +1,10 @@
+cans cut from plate for the four sections (teaching; ch 11 geometry)
+  section  cans   plate length m   steel t   ordered t (8 % scrap)
+        1    10            13.54       122                     132
+        2    10            12.36        97                     105
+        3    10            11.20        70                      76
+        4    10            10.02        51                      55
+  shell steel 341 t (flanges, door frame and internals extra);
+  each can is one plate rolled into a ring: the plate's heat
+  number goes onto the can and into the data book, so a
+  later finding traces to the mill (lab E)

@@ -1,0 +1,9 @@
+validating the plant model against a measured step (teaching):
+  model                 tau s   delay s   mean |err| 0-10 s   steady err
+  design model           2.00      0.00               0.090        0.002
+  fitted to the step     2.60      0.35               0.008        0.000
+  teaching acceptance: mean |err| <= 0.02 in the transient,
+  <= 0.01 in steady state; the design model fails the first,
+  the fitted one passes and finds the slower plant (2.6 s) and
+  the measurement delay (0.35 s) that the tuning must respect;
+  real acceptance bands come from the grid study (ch 27-28)

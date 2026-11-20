@@ -1,0 +1,21 @@
+% Chapter 35 - the synthetic-data lab: a producer with planted faults, a validating consumer that refuses
+% with a reason, the diagnosis, alarm rules as data and a text dashboard; nothing connects to a plant
+% (lab_d).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=24mm, minimum height=13mm, text width=22mm}]
+  \node[s, blkLoad] (prod) at (12.0,0) {تولیدکنندهٔ ساختگی با خطاهای کاشته};
+  \node[s, blkWind] (val) at (9.0,0) {اعتبارسنج: برچسب، زمان، عدد، یکا};
+  \node[s, blkWind] (cons) at (6.0,0) {مصرف‌کننده و ثبت‌کننده};
+  \node[s, blkBESS] (diag) at (3.0,0) {تشخیص: کهنگی، مقیاس، کیفیت};
+  \node[s, blkPV] (dash) at (0.0,0) {داشبوردِ متنی با کیفیت و سن};
+  \node[s, blkWarn] (rej) at (9.0,-2.3) {ردشده‌ها با دلیل};
+  \node[s, blkBESS] (alm) at (6.0,-2.3) {قاعده‌های هشدار به‌صورتِ داده};
+  \foreach \a/\b in {prod/val, val/cons, cons/diag, diag/dash} {\draw[flow] (\a) -- (\b);}
+  \draw[flow] (val) -- (rej);
+  \draw[flow] (cons) -- (alm);
+  \draw[boundary] (-1.6,1.2) rectangle (13.6,-3.4);
+  \node[note, anchor=south west] at (-1.5,1.22) {فقط دادهٔ ساختگی؛ هیچ اتصالی به کنترل‌های نیروگاه نیست};
+\end{tikzpicture}
+\end{document}

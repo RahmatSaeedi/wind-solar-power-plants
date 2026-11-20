@@ -1,0 +1,10 @@
+incident rates per 200,000 h with 90 % Poisson intervals (synthetic)
+  period          hours      kind          n    rate   interval
+  construction  1,050,000  lost_time      3    0.57    0.16- 1.48
+  construction  1,050,000  recordable    11    2.10    1.18- 3.47
+  operation        52,000  lost_time      0    0.00    0.00-11.52
+  operation        52,000  recordable     1    3.85    0.20-18.25
+  operation's zero lost-time injuries in 52,000 h says little:
+  its interval reaches 11.5 per 200,000 h, 20 times
+  the construction rate - a small workforce needs many years,
+  or leading indicators, before its rate means anything

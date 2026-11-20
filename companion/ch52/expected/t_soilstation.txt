@@ -1,0 +1,8 @@
+soiling station: ratio over the year, wash when it falls below 0.97
+  washes triggered: 13; mean ratio 0.987
+  shortest gap 1 day(s), longest 104 days
+  storms bring the trigger early, rain postpones it: the
+  measured trigger (ch 10) spaces washes as the weather does,
+  where a fixed 23-day calendar would not; a one-day gap (a
+  storm right after a wash) shows the rule also needs a
+  minimum interval or a look at the dust forecast

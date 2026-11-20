@@ -1,0 +1,11 @@
+cross-references that use an old revision or a missing document
+  from               to                 rev used   current
+  PLP-ELE-CAL-0011   PLP-ELE-DWG-0005          1         2
+  PLP-CTL-DWG-0001   PLP-CTL-LST-0001          1         2
+  PLP-CIV-DWG-0101   PLP-ELE-DWG-0009          0      None
+  the protection study was made on one-line rev 1, before the
+  incomers were raised - its results must be re-checked; the
+  network drawing lists points from an old I/O list; the
+  foundation drawing cites a drawing the register does not
+  know. A link carries the revision it used, so a new
+  revision shows who must look again

@@ -1,0 +1,14 @@
+weight span of a suspension tower lower than its neighbours
+  spans 300 m each side, conductor 11.8 N/m, cold tension 35 kN
+  tower below both neighbours m   weight span m   vertical load N
+                              0             300             3,540
+                              5             201             2,373
+                             10             102             1,207
+                             15               3                40
+                             20             -95            -1,127
+                             25            -194            -2,293
+  the weight span reaches zero at a drop of 15.2 m; any deeper
+  and the wires pull the insulator UP on the coldest night -
+  a suspension string cannot take that; the profile
+  places a tension tower or heavier attachment there, and
+  the wadi crossing of ch 29 is checked for exactly this

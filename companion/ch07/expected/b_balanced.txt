@@ -1,0 +1,9 @@
+three-phase current I = P / (sqrt3 V_LL pf) and apparent power S = P / pf:
+  auxiliary board 400 V                225.0 kVA  I =   324.8 A
+  auxiliary board 400 V, pf raised     189.5 kVA  I =   273.5 A
+  one 33 kV feeder                      26.3 MVA  I =   460.4 A
+  export at 132 kV                     105.3 MVA  I =   460.4 A
+  export at 132 kV, pf 0.90            111.1 MVA  I =   486.0 A
+the export transformer (120 MVA, A-092) carries 100 MW at pf 0.90
+  as 111.1 MVA:
+  heating follows the current, so ratings are in VA, not in W

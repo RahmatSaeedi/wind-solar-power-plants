@@ -1,0 +1,17 @@
+quality gates in the factory (purpose, not procedure):
+  gate                               proves that
+  material certificates              core steel, copper, pressboard, oil are
+    as specified
+  dimensional checks                 core and windings are as designed
+  winding and lead inspection        no damage, joints and clearances right
+  moisture control after drying      insulation is dry before tanking
+  leak check                         the tank and seals hold
+  ratio, polarity, vector group      the windings are connected right
+  winding resistance                 joints are sound; base for the load-loss
+    test
+  losses and impedance               the guarantees and the system values
+  dielectric tests                   the insulation withstands its levels
+  temperature rise (type or special) the cooling meets the rating
+  each gate leaves a record; the factory acceptance test
+  (FAT) is witnessed by the owner, and the dossier is
+  reviewed against the contract (worked example, section D)

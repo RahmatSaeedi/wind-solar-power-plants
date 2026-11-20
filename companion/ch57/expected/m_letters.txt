@@ -1,0 +1,49 @@
+written questions, one letter per addressee
+  to MEWR (6):
+    TJ-05: no separate system operator; one planned with single buyer 2027
+    TJ-13: the single buyer is not yet designated
+    TJ-15: award of the Sughd tender
+    TJ-18: which body issues the energy-expertise conclusion
+    TJ-19: a new Energy Law was ordered in 2025; none adopted found
+    TJ-55: power-sector programme 2026-2030: 1,500 MW solar
+  to SIB (5):
+    TJ-21: transmission 500/220/110 kV; distribution 35 kV and below
+    TJ-22: no adopted grid code; the 2018 code is a consultant draft
+    TJ-29: south-west back in CAPS June 2024; north expected 2026
+    TJ-30: CASA-1000: 1,300 MW summer export; Afghan section by 2027
+    TJ-47: no reserve, ancillary or grid-forming product published
+  to environment committee (4):
+    TJ-09: environmental protection committee: site and remit
+    TJ-56: Environmental Code No. 2299 (2026) adopted; in force when?
+    TJ-57: ecological expertise and EIA rules (Law 818, Res. 532, 697)
+    TJ-58: the new Code has EIA chapters with public participation
+  to Tajikstandart (4):
+    TJ-42: Tajikistan takes part in the interstate (EASC) standards system
+    TJ-43: imports certified by Tajikstandart; regulations mostly unpublished
+    TJ-44: GOST IEC adoption of PV and wind standards
+    TJ-45: RES law: conformity certificate for RES energy and products
+  to Barqi Tojik (2):
+    TJ-27: hydro is ~98 % of energy; output falls in autumn and winter
+    TJ-28: installed > 6,700 MW; 2025 generation 24 TWh
+  to counsel (2):
+    TJ-36: land is state property; foreign persons get use rights only
+    TJ-59: heritage law, last revised 2017
+  to market survey (2):
+    TJ-38: wind O&M capability in the country
+    TJ-39: a national EPC (TGEM) builds the Ayon plants and Rogun works
+  to MEWR / counsel (1):
+    TJ-11: does generation need a permit under Law 1968 (2023), from whom
+  to State Committee on Investments (1):
+    TJ-16: investment agreement Jan 2026 for two 250 MW solar plants
+  to water-management body (1):
+    TJ-31: Water Code 1688 (2020): special water use needs a permit
+  to logistics forwarder (1):
+    TJ-37: heavy-load routes and logistics for blades and transformers
+  to state energy supervision (1):
+    TJ-41: which edition of the PUE is in force
+  to counsel / bank (1):
+    TJ-51: convertibility: IMF Article VIII (2004); repatriation guarantees
+  to tax advisor (1):
+    TJ-52: VAT exemption for renewable equipment to 2031 (Dec 2025)
+  to counsel / social specialist (1):
+    TJ-60: compensation and resettlement rules

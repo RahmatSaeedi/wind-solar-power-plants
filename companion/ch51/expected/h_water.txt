@@ -1,0 +1,14 @@
+water metered against the ch 29 model, first half-year (m3)
+  month  metered  modelled  difference
+      1      190       180         +6%
+      2      205       180        +14%
+      3      360       330         +9%
+      4      420       330        +27%
+      5      380       360         +6%
+      6      395       360        +10%
+  months more than 10 % over: 2, 4
+  February's 14 % has no recorded cause and is investigated
+  (a leak, a meter); April's 27 % is an extra wash after a dust
+  storm: the cleaning trigger fired as designed (ch 10); the model is
+  updated with the measured washes, and the well's share is
+  watched against the drought trigger of ch 29

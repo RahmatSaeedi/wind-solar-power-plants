@@ -1,0 +1,9 @@
+RMS over whole cycles and the danger of the wrong window
+  ten cycles (200 ms): RMS 1.0000 (true 1.0000)
+  windows of 12.5 ms (5/8 of a cycle): 0.922 to 1.073
+  a 50 Hz signal sampled at 49 Hz looks like 1 Hz
+  a window of whole cycles (or one that tracks frequency)
+  gives a steady value; a fractional window ripples with
+  where it starts; sampling below twice the highest
+  frequency folds it down - an anti-alias filter comes
+  before the converter (ch 3)

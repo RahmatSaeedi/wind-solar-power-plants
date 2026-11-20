@@ -1,0 +1,17 @@
+% Chapter 39 - the transformer factory and its critical second-tier suppliers with their on-time
+% chance; all on time together 86 % (examples_a; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=24mm, minimum height=10mm, text width=23mm}]
+  \node[s, blkPV] (f) at (0,0) {کارخانهٔ ترانسفورماتور\\$99\,\%$};
+  \node[s, blkLoad] (a) at (-4.2,2.1) {فولادِ هسته\\$95\,\%$};
+  \node[s, blkLoad] (b) at (-4.2,0.7) {سیمِ مسی\\$97\,\%$};
+  \node[s, blkLoad] (c) at (-4.2,-0.7) {بوشینگ\\$96\,\%$};
+  \node[s, blkLoad] (d) at (-4.2,-2.1) {تپ‌چنجر\\$98\,\%$};
+  \foreach \x in {a, b, c, d} {\draw[flow] (\x.east) -- (f.west);}
+  \node[s, blkWind] (p) at (4.2,0) {نیروگاهِ P\\همه به‌موقع: $86\,\%$};
+  \draw[flow] (f.east) -- (p.west);
+  \node[note, text width=40mm, anchor=north] at (-4.2,-2.8) {ردهٔ دوم؛ فولادِ هسته تک‌منبع است و ذخیره می‌گیرد};
+\end{tikzpicture}
+\end{document}

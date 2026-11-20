@@ -1,0 +1,7 @@
+a transformer oil-temperature alarm at 80 C, one hour (synthetic)
+  no deadband, no delay: 358 alarms in the hour
+  1 K deadband and 10 s delay: 6 alarm(s)
+  the raw rule chatters on noise around the limit and buries
+  the operator; a delay before raising and a deadband before
+  clearing turn the same hour into what really happened -
+  both are written in the alarm philosophy and tested

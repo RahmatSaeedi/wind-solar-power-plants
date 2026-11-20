@@ -1,0 +1,11 @@
+resin flow distance against fill time (teaching permeability,
+  viscosity and pressure; Darcy's law)
+  flow length m   fill time min   within the resin's working time?
+            0.5              13   yes
+            1.0              52   yes
+            2.0             208   no
+            4.0             833   no
+  time grows with the square of the distance: a 75 m blade is
+  filled from many inlets a metre or two apart, never from
+  one end; the inlet plan is the maker's qualified design, and
+  a dry spot (NCR-101) is a flow front that did not meet

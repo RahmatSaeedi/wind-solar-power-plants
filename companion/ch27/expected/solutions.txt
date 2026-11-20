@@ -1,0 +1,22 @@
+P01 THD at 20 % output when TDD is 1.6 %: 8.0 %
+P02 TDD of 3 A and 4 A over a 100 A demand: 5.0%
+P03 resonance, 365 MVA with 3 Mvar: h = 11.0
+P04 filter 3 Mvar at 33 kV tuned 4.7: X_C 380 ohm, X_L 17.2 ohm, C 8.37 uF
+P05 current at 100 MW, 132 kV, pf 0.8: 547 A
+P06 line loss at that current (0.847 ohm): 760 kW
+P07 dU for -20 MW at 500 MVA, X/R 5: -0.78 %
+P08 Q to cancel it: 4.0 Mvar
+P09 SCR of 800 MVA for a 100 MW plant: 8
+P10 ten sources of 2 A, alpha 1.4: 10.4 A
+P11 unbalance with phase b at 0.95 pu: 1.69 %
+P12 first order tau 0.4 s: rise 0.88 s, settle (5 %) 1.20 s
+P13 droop 5 % on 100 MW, 0.4 Hz with 0.2 Hz deadband: 8 MW
+P14 one-minute steps 0, 6, 3, 12, 13 MW over 5 MW/min: 50%
+P15 samples lost at 99.5 % completeness, 4 s for a week: 756
+P16 two of ten capacitor units failed: tuned to 5.25
+P17 4 % and 3 % combined: 5.0 %
+P18 sign of P5 at 85 +/- 10 deg: inconclusive
+P19 the top 5 % of 1,008 values: 50 values = 8.4 h
+P20 Q at 90 MW from 121 MVA of units: 80.9 Mvar
+P21 capacitor voltage in a filter tuned 4.7: 1.047 pu
+P22 PF true with displacement 0.98 and THD_I 10 %: 0.975

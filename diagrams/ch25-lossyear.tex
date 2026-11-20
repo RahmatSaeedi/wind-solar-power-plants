@@ -1,0 +1,17 @@
+% Chapter 25 - the transformers' energy losses over a year by group, no-load (cores) and load
+% (windings); data diagrams/data/ch25-lossyear.csv from companion/ch25/examples_u.py loss_budget().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, xbar stacked, width=100mm, height=56mm, bar width=9pt,
+      xmin=0, xmax=2500, ymin=-0.6, ymax=3.6, ytick={0,1,2,3},
+      yticklabels={ترانسفورماتورهای اصلی, واحدهای خورشیدی, واحدهای بادی, واحدهای باتری},
+      xlabel={انرژیِ تلف در سال $(\text{MWh})$}, xmajorgrids=true, legend columns=2,
+      legend style={at={(0.5,1.03)}, anchor=south}]
+    \addplot[fill=cLoss!55, draw=cLoss] table[y=k, x=noload, col sep=comma] {data/ch25-lossyear.csv};
+    \addplot[fill=cInkB!25, draw=cInkB, postaction={pattern=north east lines, pattern color=cInkB}]
+      table[y=k, x=load, col sep=comma] {data/ch25-lossyear.csv};
+    \legend{بی‌باری (هسته), بار (سیم‌پیچ)}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,18 @@
+the main site track (x = 7,600 m, 5.6 km) from the ch 14 terrain
+  highest grade 6.1 % over a 50 m step; mean 0.4 %
+  teaching limits for blade and tower transport (from the
+  transport company and OEM, U-106): 8 % loaded, 12 % with
+  a tow vehicle; the steepest 50 m step (6.1 %) is below
+  the first, but the survey's 1 m resolution, not the 50 m
+  grid, decides the short steep pieces (culvert approaches,
+  wadi banks)
+
+widening on a curve for a rigid length L (w = R - sqrt(R^2 - L^2))
+  inside radius m   L 20 m (rear-steered)   L 40 m (fixed), teaching
+               60                    3.4            15.3
+               80                    2.5            10.7
+              120                    1.7             6.9
+              200                    1.0             4.0
+  a tight bend needs metres of extra width (and cleared
+  overhang for the blade tip) - the swept path of the real
+  vehicle is checked on the drawing, junction by junction

@@ -1,0 +1,8 @@
+robot or truck? (yearly totals of d_policies, A-197):
+  robot every 12 d saves 145,242 u/yr against the truck
+  on a 4 % trigger, before the robots' own capital and upkeep
+  break-even capital over 15 years at 7 %: 1.32 million u
+    = 12.1 u per module, or 630 u per robot for 2100 table rows of 52 modules
+  if robots cost less (with upkeep) and the module maker accepts
+  them in the warranty, robots win; else the truck on a trigger
+  water saved by robots: about 1,500 m3 a year (d_policies)

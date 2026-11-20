@@ -1,0 +1,8 @@
+26 modules side by side on a table row (teaching tolerances)
+  module width 1134 +- 2.0 mm; clamp gap 20 +- 1.0 mm
+  nominal length 29.984 m
+  worst case +- 77 mm; statistical (3 sigma) +- 11 mm
+  the end clamps need room for the statistical stack, not the
+  worst case - but a lot cut from one glass batch can all sit
+  near one tolerance edge, so the table keeps a margin and
+  installers set gaps with a gauge, not by eye

@@ -1,0 +1,11 @@
+cooler fouled by dust: capacity x factor; the turbine derates
+  to what the cooler can carry (load share from the data-pack
+  wind, heat proportional to load; teaching)
+  cooler kept   hours derated   energy lost MWh/yr (12 turbines)
+         100%              19                 67
+          85%              61                391
+          70%             312               2071
+  a clean cooler sized for 35 C hardly ever limits: the hot
+  hours are rarely windy ones; dust takes the margin away, so
+  cleaning the fins is on the maintenance plan and the
+  cooler's pressure drop is a monitored signal (ch 37)

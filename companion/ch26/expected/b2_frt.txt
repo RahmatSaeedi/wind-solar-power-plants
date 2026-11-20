@@ -1,0 +1,11 @@
+under-voltage stages against a ride-through envelope (teaching):
+  envelope: 0 pu to 0.15 s, rising to 0.85 pu at 1.5 s
+  stage   pickup pu   delay s   envelope there   result
+  27-1        0.80      0.20             0.03   TRIPS INSIDE
+  27-1        0.80      2.00             0.85   ok
+  27-2        0.30      0.10             0.00   TRIPS INSIDE
+  27-2        0.20      0.30             0.09   TRIPS INSIDE
+  a stage trips inside the envelope when it can operate on a
+  voltage the plant must ride through: pickup above the
+  envelope at its delay; a protection that trips on a grid
+  dip breaks the connection requirement (ch 20, ch 28)

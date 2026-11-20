@@ -1,0 +1,7 @@
+cleaning over 10 years at 6% (teaching costs)
+  truck + brush: 16 campaigns a year 105,722 u/yr -> NPV 778,120 u
+  dry robots: capital 3,150,000 u, weekly runs and upkeep 236,240 u/yr,
+  plus energy not recovered 15,330 u/yr -> NPV 5,001,577 u
+  the truck is cheaper here; the robot uses no
+  water - in a drought year (ch 51) water may decide what money
+  does not, so both are kept in the comparison

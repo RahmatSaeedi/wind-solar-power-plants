@@ -1,0 +1,14 @@
+% Chapter 5 - stored energy of the S1 battery during 3-9 April under the rule "charge 09-15 h,
+% discharge 18-22 h" (data pack 1.1.0). Data: diagrams/data/ch05-soc.csv (companion/ch05/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=128mm, height=58mm,
+      xlabel={ساعت از آغازِ ۳ آوریل}, ylabel={انرژیِ ذخیره (MWh)},
+      xmin=0, xmax=168, ymin=0, ymax=38, xtick={0,24,...,168}, ytick={0,8,...,32}]
+    \addplot[sBESS, const plot] table[x=k, y=soc, col sep=comma] {data/ch05-soc.csv};
+    \addplot[sLimit, domain=0:168, samples=2] {32};
+    \node[note, anchor=south] at (axis cs:84,32) {انرژیِ قابلِ استفاده: $32\ \text{MWh}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

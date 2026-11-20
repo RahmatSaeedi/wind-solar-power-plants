@@ -1,0 +1,7 @@
+theoretical specific capacity of LiFePO4 (one electron per formula unit):
+  F / (3.6 M) = 96485 / (3.6 x 157.76) = 169.9 mAh/g
+  a 280 Ah cell needs at least 1.65 kg of cathode material (theory only)
+cell internal resistance 0.25 milliohm, current 140 A (0.5 C) (A-064):
+  heat I^2 R = 4.9 W per cell; for 44,643 cells 219 kW to remove
+  ohmic loss one way 1.09 % of the cell power; round trip about 2.2 %
+  doubling the current quadruples the heat: fast cycling needs more cooling

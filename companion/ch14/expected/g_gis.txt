@@ -1,0 +1,11 @@
+distances and areas on a flat local patch (latitude 34 N):
+  13 km east-west: great circle 13,000.0 m (flat patch exact
+    along the reference parallel)
+  diagonal to 0.06 deg north: flat 14,612.0 m, great circle 14,607.9 m
+    (+4.1 m, +0.028 %)
+  a 0.01 x 0.01 deg cell: 102.5 ha; computed in degrees as if
+    square: 123.6 ha (+21 %)
+  over a 13 km window a flat patch errs by a few metres: fine
+  for screening, not for setting out; areas and lengths are never
+  computed in degrees; design and survey use a projected grid
+  with a stated datum (chapter 29)

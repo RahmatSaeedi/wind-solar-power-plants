@@ -1,0 +1,21 @@
+# Fictional PV module for Plant P teaching examples. Not a real product.
+id: PVM-550
+status: synthetic            # vendor-style datasheet values invented for teaching
+technology: monocrystalline silicon, 144 half-cut cells, monofacial
+stc:                         # standard test conditions: 1000 W/m2, 25 C cell, AM1.5
+  p_max_w: 550.0
+  v_mp_v: 41.96
+  i_mp_a: 13.11
+  v_oc_v: 49.90
+  i_sc_a: 13.98
+  efficiency_pct: 21.29
+power_tolerance_w: [0, 5]
+temperature_coefficients:    # percent per degree Celsius
+  p_max_pct_per_c: -0.35
+  v_oc_pct_per_c: -0.27
+  i_sc_pct_per_c: 0.048
+noct_c: 45.0
+max_system_voltage_v: 1500
+max_series_fuse_a: 25
+dimensions_mm: {length: 2278, width: 1134, thickness: 35}
+mass_kg: 28.0

@@ -1,0 +1,9 @@
+main-shaft torque at rated: 4.42 MN m at 11.5 rpm (A-211)
+  architecture              generator rpm   ratio   generator torque
+  geared, high speed (D-011)         1155.0   100.4          44 kN m
+  geared, medium speed                400.0    34.8         127 kN m
+  direct drive                         11.5     1.0        4417 kN m
+  a machine's active volume grows with its torque (chapter 8):
+  the direct-drive generator is about a hundred times larger
+  than the high-speed one; the gearbox moves that size into
+  gears and bearings that need oil, cooling and maintenance

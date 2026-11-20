@@ -1,0 +1,11 @@
+fibre loss budget of the turbine rings (teaching losses, 10 dB optics)
+  ring                       km   splices   loss + 3 dB margin   fits?
+  ring W-east (T07-T12)      9.2        17                  9.9   yes
+  ring W-west (T01-T06)     11.5        18                 10.8   NO
+  ring W-west (T01-T06) exceeds the 10 dB optics by 0.8 dB:
+    longer-reach optics or a switch midway, decided before
+    the fibre is ordered
+  the budget is checked for the whole ring, because when one
+  span is cut the farthest turbine is reached the long way
+  round; the 3 dB margin covers repair splices and ageing,
+  and the as-built loss of each span is measured (lesson C)

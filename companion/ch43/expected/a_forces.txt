@@ -1,0 +1,10 @@
+windings at the peak short-circuit current (uk 12.0 %,
+  peak factor 1.8 x sqrt2)
+  HV 2,296 A rms, 4.05 MA-turns at the peak
+  HV hoop tension 50 MPa; LV hoop compression 35 MPa
+  LV conductor 10 mm thick on a 0.75 m winding: free buckling at 19 MPa
+  held by 24 sticks (99 mm apart): buckling at 3,725 MPa
+  free, the inner winding would buckle below the fault stress;
+  sticks on a strong cylinder hold it, and the copper's proof
+  strength becomes the limit - a design review asks for the
+  calculation or the test that shows it (STD-175)

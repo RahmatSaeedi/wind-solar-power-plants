@@ -1,0 +1,11 @@
+substation thermography: temperature rise over a similar part (K)
+  T1 HV bushing B            4 K  monitor
+  WS2 cable box L2          14 K  plan repair
+  SST LV fuse F3            32 K  repair now
+  BESS-A feeder joint        9 K  monitor
+  coupler disconnector L1   21 K  repair now
+  VT secondary MCB           2 K  monitor
+  repair now: 2; plan repair: 1 (teaching classes)
+  the survey is done under load with the readings normalised to
+  it; repairs are done dead, under a permit, never on the hot
+  part live

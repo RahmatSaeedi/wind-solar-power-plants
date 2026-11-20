@@ -1,0 +1,15 @@
+nodal solution, per unit on 100 MVA (75 MW at the bus, 25 MW at the end of one
+    feeder):
+  units at pf 1:
+    POC 132 kV  |V| 0.9949 pu =  131.33 kV, angle  5.76 deg
+    bus 33 kV   |V| 0.9927 pu =   32.76 kV, angle 11.54 deg
+    feeder end  |V| 1.0098 pu =   33.32 kV, angle 12.40 deg
+    to the grid 99.30 MW, -9.98 Mvar; losses 0.70 MW
+  feeder-end units absorb 5 Mvar:
+    POC 132 kV  |V| 0.9895 pu =  130.61 kV, angle  5.82 deg
+    bus 33 kV   |V| 0.9820 pu =   32.41 kV, angle 11.71 deg
+    feeder end  |V| 0.9962 pu =   32.88 kV, angle 12.79 deg
+    to the grid 99.26 MW, -15.26 Mvar; losses 0.74 MW
+  pf 1 at the units is not pf 1 at the POC: the transformer absorbs
+  about 10 Mvar, so the POC voltage falls a little instead of rising
+  1 % as with pf 1 at the POC (integrated example 3)

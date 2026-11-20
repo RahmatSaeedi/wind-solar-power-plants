@@ -1,0 +1,26 @@
+% Chapter 5 - version control in one picture: commits on the main line, a branch for a
+% change, review, merge and a release tag (concepts only; no particular tool implied).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{cmt/.style={circle, draw=cInk, fill=white, minimum size=5mm, inner sep=0pt, line width=0.7pt},
+           cbr/.style={circle, draw=cPV, fill=cPV!15, minimum size=5mm, inner sep=0pt, line width=0.7pt}}
+  \node[cmt] (a) at (0,0) {}; \node[cmt] (b) at (2,0) {}; \node[cmt] (c) at (4,0) {};
+  \node[cmt] (m) at (9.8,0) {}; \node[cmt] (e) at (11.8,0) {};
+  \node[cbr] (x) at (5.4,1.4) {}; \node[cbr] (y) at (8.4,1.4) {};
+  \draw[cInk, line width=0.9pt] (a) -- (b) -- (c) -- (m) -- (e);
+  \draw[cPV, line width=0.9pt] (c) -- (x) -- (y) -- (m);
+  \draw[-{Stealth[length=2mm]}, cInk] (e) -- (13.2,0);
+  \node[note, anchor=north] at (0,-0.35) {نسخهٔ اول};
+  \node[note, anchor=north] at (2,-0.35) {رفعِ اشکال};
+  \node[note, anchor=north] at (4,-0.35) {برچسبِ \texttt{v1.0.0}};
+  \node[note, anchor=south] at (5.4,1.7) {شاخه: فایل‌های خام};
+  \node[note, anchor=south] at (8.4,1.7) {آزمون‌های تازه};
+  \node[blkWarn, minimum width=24mm, minimum height=8mm, font=\footnotesize] (rv) at (10.6,2.5) {بازبینیِ نفرِ دوم};
+  \draw[flowinfo] (rv.south) -- (m);
+  \node[note, anchor=north] at (9.8,-0.35) {ادغام پس از تأیید};
+  \node[blkBESS, minimum width=20mm, minimum height=7mm, font=\footnotesize] at (12.4,1.1) {\texttt{v1.1.0}};
+  \draw[flowinfo] (12.2,0.72) -- (e);
+  \node[note, anchor=north, text width=126mm] at (6.6,-1.1) {هر نقطه یک «ثبت» است: تغییرِ کامل و توضیح‌دار با نامِ نویسنده و تاریخ. شاخهٔ اصلی همیشه سالم و آزموده می‌ماند؛ برچسب، نسخه‌ای را که به کار رفته برای همیشه نشان‌دار می‌کند.};
+\end{tikzpicture}}
+\end{document}

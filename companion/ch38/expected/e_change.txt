@@ -1,0 +1,9 @@
+impact of change C-017 (teaching rates)
+  engineering rework 102 h x 95 u = 9.7 k u
+  transformer price step, 10 PV units x 4 k u = 40 k u
+  schedule: 10 working days on the transformer order, off the
+    critical path if placed before week 44
+  decision: approved - 50 k u against a 1 % shortfall
+    in reactive capability at full power (ch 25)
+  the change log records the reason, the cost, the schedule
+  effect and who approved it - the decision log links to it

@@ -1,0 +1,11 @@
+supplies against the demand, tank 2400 m3 with a held reserve of 900 m3:
+  supply                         unmet m3/yr   lowest usable stock m3
+  spring spare only (permit)            18              0
+  licensed well 1,500 m3/month           0          1,500
+  well at half in a drought              0          1,500
+  the well covers even at half its permit (750 m3 a month against
+  a peak month of 433 m3); the tank stays full
+  the spring has no spare water in Jun-Sep (chapter 14), when
+  cleaning needs most; a tank can bridge it only if the months
+  before refill it, and only under a permit (U-053); the reserve
+  stays untouched by design: a separate tank or a low suction

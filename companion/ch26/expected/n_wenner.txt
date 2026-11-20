@@ -1,0 +1,15 @@
+Wenner soil survey: four probes a metres apart, rho_a = 2 pi a R
+  (teaching readings for the substation plot, U-098)
+  spacing a m   reading R ohm   apparent rho ohm m
+            1           31.80                  200
+            2           14.30                  180
+            4            5.10                  128
+            8            2.40                  121
+           16            1.55                  156
+           32            0.82                  165
+  near the surface about 200 ohm m, falling to 121 at 4-8 m
+  spacing and rising again to 165 at 32 m: a dry top layer,
+  a wetter middle layer and denser ground below - three
+  layers that a fitted soil model describes, not one
+  average; the grid design (lesson C) uses the model, and
+  the survey is repeated in the dry season

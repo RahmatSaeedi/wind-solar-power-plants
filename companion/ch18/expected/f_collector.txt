@@ -1,0 +1,11 @@
+W2b collector: 3 radial strings of 4 turbines, 13.26 km of cable route
+  option            peak kA   loss MWh/yr   loss %   drop % (peak)   cost k u
+  33 kV 240 mm2      0.368 ok       1,966    1.02       1.79          1,260
+  33 kV 630 mm2      0.368 ok         787    0.41       0.88          2,188
+  66 kV 240 mm2      0.184 ok         492    0.25       0.45          1,989
+  the whole string current through the whole length overstates
+  the loss (the far sections carry less): a screening bound;
+  66 kV cuts losses four times for the same section but costs
+  more in cable and switchgear; the larger 33 kV section cuts
+  them by 60 %; whether either pays is lab E's question (at the
+  teaching costs the 240 mm2 cable stays)

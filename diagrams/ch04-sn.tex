@@ -1,0 +1,15 @@
+% Chapter 4 — S-N line of a welded detail (71 MPa at 2 million cycles, m = 3; A-058) with the
+% synthetic 20-year stress-range histogram. Data: diagrams/data/ch04-sn.csv, ch04-sn-load.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=120mm, height=64mm,
+      xlabel={تعدادِ چرخه}, ylabel={گسترهٔ تنش (MPa)},
+      xmin=1e3, xmax=1e9, ymin=8, ymax=300, ytick={10,20,50,100,200}, yticklabels={10,20,50,100,200}]
+    \addplot[sInk] table[x=n, y=s, col sep=comma] {data/ch04-sn.csv};
+    \addlegendentry{منحنیِ تنش-عمر}
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cLoad] table[x=n, y=s, col sep=comma] {data/ch04-sn-load.csv};
+    \addlegendentry{چرخه‌های بار در ۲۰ سال}
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

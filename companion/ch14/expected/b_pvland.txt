@@ -1,0 +1,7 @@
+land of the 60 MWp block (fixed tilt, GCR 0.40, D-013):
+  modules 109,200 x 2.58 m2 = 28.2 ha of glass
+  rows at GCR 0.40: 70.5 ha; with roads, inverter stations,
+    fence and buffers (x 1.25, teaching): 88 ha (1.47 ha/MWp)
+  the screening block: 119 ha (74 % used)
+  trackers need more land per MWp (larger pitch), bifacial rows
+  gain from a higher pitch: the block size follows chapter 10

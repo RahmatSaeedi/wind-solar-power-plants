@@ -1,0 +1,8 @@
+silicon in the PVM-550's cells (wafer + kerf, A-443)
+  wafer um  kerf um  g a wafer  g with kerf   g/W   t for 60 MWp
+       180      120       13.8         23.1   2.99          180
+       150       55       11.5         15.8   2.04          123
+       130       45       10.0         13.5   1.75          105
+  thinner wafers and thinner wire cut the silicon a watt;
+  the cost is handling: a thin wafer breaks more easily and
+  cracks hide until stringing and lamination (lesson C)

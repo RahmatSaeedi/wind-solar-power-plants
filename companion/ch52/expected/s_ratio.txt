@@ -1,0 +1,7 @@
+converter trips on voltage dips, fleet of 12, before and after the
+  settings check at hand-back (turbine-months)
+  before 9 in 72 turbine-months; after 2 in 72
+  rate ratio 0.22; chance of so few by luck if nothing changed: 0.033
+  the drop is unlikely to be chance, but two failures are few:
+  the record is kept another six months before the action is
+  closed as effective (ch 37, ch 40 8D)

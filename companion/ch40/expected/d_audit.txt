@@ -1,0 +1,22 @@
+audit of the S-07 test dossier: 13 entries, 8 findings
+  insulation resistance LV
+      IR-03 calibration ran out on day 17
+  insulation resistance MV
+      IR-03 calibration ran out on day 17
+  MV termination record
+      no jointer certificate number
+  torque record OP40
+      tool unchecked since day 11 (failed day 16)
+  functional test
+      hold point passed without the owner's release
+  secondary injection of relays
+      procedure rev B used, rev C released day 18
+  serials against genealogy
+      TX-5106 recorded, genealogy says TX-5107
+  preservation check
+      deviation without a concession number
+  entries with no finding: 5
+  every result in the dossier 'passed'; the audit does not
+  question the numbers, it questions whether they count:
+  valid instrument, right procedure, right serial, the
+  owner's release, a written concession

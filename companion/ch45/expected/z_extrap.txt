@@ -1,0 +1,10 @@
+capacity loss of test cells over 6 months (synthetic, fade ~ sqrt(t));
+  two fits carried to 20 years
+  straight line: 0.0756 a year -> loss at 20 years 151%
+  sqrt(t) curve: 0.0460 a sqrt(year) -> loss at 20 years 21%
+  true model at 20 years: 20%
+  both fit six months well; carried to twenty years the line
+  predicts more loss than the cell has - the shape, not the
+  fit, decides, and a short test shows the shape only with a
+  model of the mechanism: the maker's ageing model and its
+  evidence are what the warranty rests on (ch 19)

@@ -1,0 +1,20 @@
+requirements-to-verification matrix, detailed design (A-418)
+  requirement  design  verification   evidence   text
+  REQ-001      yes     test           -          export cap 100 MW at POC
+  REQ-004      yes     analysis       -          reactive capability at POC
+  REQ-G03      yes     test           -          fault ride-through
+  REQ-G07      yes     measurement    -          power quality emissions
+  REQ-S01      yes     test           -          frequency service
+  REQ-007      yes     test           -          auxiliary autonomy 4 h
+  REQ-009      yes     inspection     -          SCADA retention 10 years
+  REQ-010      NO      inspection     -          fire detection, BESS area
+  REQ-011      yes     -              -          noise at the camp
+  REQ-012      NO      -              -          water use within permit
+  REQ-003      yes     test           yes        time stamps to 1 ms
+  REQ-002      yes     test           yes        protection clearing time
+  covered: design 83 %, verification method 83 %, evidence 17 %
+  at detailed design, missing evidence is normal - it comes
+  from FAT, SAT and commissioning (ch 48, 50); a requirement
+  without a design document or without a verification
+  method is not normal: fire detection and water use have
+  no design owner yet, noise and water no method

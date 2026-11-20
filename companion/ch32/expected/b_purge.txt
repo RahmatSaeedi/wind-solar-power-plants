@@ -1,0 +1,9 @@
+purging a confined space by dilution (well mixed, teaching)
+  space 30 m3 (a hub or a cable vault), fan 300 m3/h: 10 air changes an hour
+  time to bring a contaminant to   50 % of its start:   4.2 min
+  time to bring a contaminant to   10 % of its start:  13.8 min
+  time to bring a contaminant to    1 % of its start:  27.6 min
+  real spaces mix badly: corners and low points keep gas long
+  after the formula says it has gone. The atmosphere is
+  measured before and during entry, never calculated; the
+  formula only says how long a fan needs before measuring

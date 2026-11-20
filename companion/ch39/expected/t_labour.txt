@@ -1,0 +1,11 @@
+how many supplier sites to audit (90 % to find one, if any)
+  share of sites with a problem   sites to audit
+                             30%               7
+                             20%              11
+                             10%              22
+                              5%              45
+  a timesheet sample at one sub-supplier: 9 of 120 weeks
+  over 60 hours = 7.5% (90 % interval 4.4% to 12.5%)
+  the finding is the sample and its interval - a verified
+  fact for the remediation plan, kept apart from the
+  supplier's declaration that 'no one works overtime'

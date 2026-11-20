@@ -1,0 +1,90 @@
+P01 over-excited flux at 1.7 T design: 1.97 T
+P02 no-load loss at 1.5 / 1.8 T: 37.5 / 43.9 kW
+P03 volts a turn and HV ratio error: 110.0 V, +0.03 %
+P04 worst tap ratio error, 8 / 9 turns a step: +0.85 / -0.43 %
+P05 HV and LV phase currents: 275.6 / 636.4 A
+P06 conductor areas at 3.5 A/mm2: 78.7 / 181.8 mm2
+P07 impedance from the geometry: 12.02 %
+P08 impedance change per mm of gap: 0.102 %
+P09 I2R and load loss at 75 C: 243 / 287 kW
+P10 efficiency at 0.5 pu, pf 0.95: 99.622%
+P11 oil margin all-oil / barriers: 1.82 / 3.00
+P12 HV tension and LV compression: 50 / 35 MPa
+P13 free / supported buckling: 19 / 3,725 MPa
+P14 fill of 9 steps: 0.948
+P15 no-load loss in high-permeability steel: 30.0 kW
+P16 two-term optimum current density: 1.9 A/mm2
+P17 eddy share of 2.5 mm strands (axial): 4.30%
+P18 shipping mass: 62 t
+P19 PV unit volts a turn with 16 LV turns: 21.65 V
+P20 no-load current, step-lap / mitred: 0.10 / 0.22 %
+P21 relative saturation of 18 ppm at 20 C: 34%
+P22 failing tap and turns implied: +8.75 %, 2.3
+P23 corrected P0 and Pk at 75 C: 42.2 / 298 kW
+P24 winding rise, extrapolated / 2-minute: 66.5 / 62.0 K
+P25 sound power: 87.2 dB(A)
+P26 acetylene rise in the heat run: +0.8 ppm
+P27 trace rows done / open: 9 / 2
+P28 traveler gaps: 5
+P29 test failures and deductions: 3, 8.4 k u
+P30 open decisions: 8
+P31 fan hours and starts: 532, 83
+P32 differential spill at -10 % tap, 1 pu: 0.111 pu
+P33 maker data partial: 3
+P34 baselines available: 6 of 8
+P35 PV unit HV turns and peak flux: 1524, 97.5 mWb
+P36 PV unit efficiency at 0.6 load: 99.44%
+P37 flux energised from 132 kV at the -10 % tap: 1.89 T
+P38 void field and discharge in a 0.2 mm void: 17.6 kV/mm, yes
+P39 clamping left after 2 % shrinkage: 25%
+P40 poor joint heat and phase resistance change: 20 W, 0.057%
+P41 test supply and heat-run current: 7.56 MVA, 1.068 x
+P42 shunts: kW saved and value: 15, 13 k u
+P43 bushing field ungraded / graded: 2.75 / 1.27 kV/mm
+P44 no-load loss at 10 / 40 um burr: 41.9 / 44.1 kW
+P45 classical eddy loss, 0.27 mm sheet: 0.236 W/kg
+P46 HV radial build and discs: 106 mm, 58
+P47 resistance reading to 0.1 %: 2.7 min
+P48 TUR and guard band: 5, 0.40 %
+P49 rating limit for 65 K: 62.0 MVA; hours over: 0
+P50 factory weeks and winding float: 32, 2
+P51 life used at 130 % load, kraft / upgraded: 74.2 / 18.6 days
+P52 aluminium windings mass and conductor saving: 4.2 t, 63 k u
+P53 winding rise in a 2 s fault: 10 K
+P54 DC ampere-turns against magnetising: 431 / 161
+P55 PV unit at 45 C: 0.942 pu, 5.9 MVA at 40 C
+P56 core earthed twice: 750 A, 1.1 kW
+P57 OLTC step voltage and step capacity: 953 V, 315 kVA
+P58 bushing ratings HV / LV: 630 / 2000 A
+P59 first process failure mode: poor brazed joint
+P60 critical characteristics: 9
+P61 fan hours and those at night: 532, 2
+P62 drying end point and water removed: hour 102, 597 L
+P63 natural oil flow at ONAN: 5.9 kg/s, 6.8 L/s
+P64 test hours and working days: 62, 4
+P65 tan delta at 20 C of the two readings: 0.0031 / 0.0028
+P66 breakdown mean and CV, sample B: 61.5 kV, 27%
+P67 buyer's visits: 5
+P68 technical queries open: 4 of 7
+P69 evaluated cost as tested minus at award: 8.4 k u
+P70 PD charge and signal to background: 120 pC, 4.0
+P71 line-reading spread for a 2 % phase fault: 0.99%
+P72 findings on hold: 4
+P73 PV unit deduction: 4.04 k u
+P74 expected cost: no proof / review / test: 175 / 82 / 220 k u
+P75 bracing force along the road: 1.30 MN
+P76 gas trends in the first month: H2 +4.4, C2H4 +1.2 ppm
+P77 rating-plate items that differ: 4
+P78 no-load exponents below / above rated: 2.1 / 2.6
+P79 load loss ratio full / half current: 4.13
+P80 energy lost with T1 three weeks late: 1,146 MWh, 80 k u
+P81 corrective actions before T2: 5
+P82 132 kV earth fault with / without the neutral: 6.95 / 6.15 kA
+    current in the neutral 2.14 kA
+P83 straight gap and creep path at 100 kV: 25 / 100 mm
+P84 inrush peak after DC tests / demagnetised: 2,086 / 1,177 A
+P85 auxiliary peak and energy: 10.7 kW, 11.7 MWh
+P86 bay days for ten PV units: 6.2
+P87 hot-spot factor from the sensors: 1.24
+P88 extra loss energy of T1 a year: 10.7 MWh
+P89 weighed shipping mass and margin: 62.7 t, 9.3 t

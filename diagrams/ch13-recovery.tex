@@ -1,0 +1,27 @@
+% Chapter 13 - monthly data recovery of the three mast anemometers after quality control,
+% synthetic mast year with planted faults (A-251).
+% Data: diagrams/data/ch13-recovery.csv (companion/ch13/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=70mm, xmin=0.4, xmax=12.6, ymin=0, ymax=128,
+      xlabel={ماه}, ylabel={بازیابی، درصد}, xtick={1,...,12}, ytick={0,20,...,100},
+      ybar=0.4pt, bar width=2.2mm, legend style={at={(0.5,1.03)}, anchor=south},
+      legend columns=3, legend image code/.code={\draw[#1] (0cm,-0.1cm) rectangle (0.3cm,0.12cm);}]
+    \addplot[draw=cWind, fill=cWind!70] table[x=month, y=r100, col sep=comma]
+      {data/ch13-recovery.csv};
+    \addlegendentry{$100\ \text{m}$}
+    \addplot[draw=cLoss, fill=cLoss!55] table[x=month, y=r80, col sep=comma]
+      {data/ch13-recovery.csv};
+    \addlegendentry{$80\ \text{m}$}
+    \addplot[draw=cInkB, fill=cInkB!35] table[x=month, y=r60, col sep=comma]
+      {data/ch13-recovery.csv};
+    \addlegendentry{$60\ \text{m}$}
+    \draw[cRule, densely dashed] (axis cs:6.5,0) -- (axis cs:6.5,124);
+    \node[note, text width=44mm] at (axis cs:9.5,115)
+      {از ژوئیه: بادسنجِ $80\ \text{m}$ با فرسایشِ یاتاقان کنار گذاشته شد};
+    \node[note, text width=44mm] at (axis cs:3.5,115)
+      {تا ژوئن: فقط بخشِ سایهٔ دکل و قطعی حذف شد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

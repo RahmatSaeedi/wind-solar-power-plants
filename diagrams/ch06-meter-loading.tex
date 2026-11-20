@@ -1,0 +1,22 @@
+% Chapter 6 — an instrument changes the circuit it measures.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % voltmeter loading a high-resistance divider
+  \draw (0,0) to[battery1, l={$12\,\text{V}$}, invert] (0,3.4)
+        to[R, l={$1\,\text{M}\Omega$}] (3,3.4) -- (4.6,3.4);
+  \draw (3,3.4) to[R, l={$1\,\text{M}\Omega$}] (3,0) -- (0,0);
+  \draw (4.6,3.4) to[voltmeter, l={$R_\text{V}$}] (4.6,0) -- (3,0);
+  \node[note, text=cInk, anchor=north, align=center] at (2.3,-0.5)
+       {ولت‌متر با $R_\text{V}$ موازیِ مقاومتِ پایینی می‌نشیند.\\
+        با $R_\text{V}$ بی‌نهایت: $6.00\,\text{V}$؛ با \mbox{$R_\text{V} = 10\,\text{M}\Omega$}: $5.71\,\text{V}$};
+  % ammeter burden in a low-resistance loop
+  \begin{scope}[shift={(9.5,0)}]
+    \draw (0,0) to[battery1, l={$1.5\,\text{V}$}, invert] (0,3.4)
+          to[ammeter, l={$R_\text{A}$}] (3,3.4) to[R, l={$R = 1\,\Omega$}] (3,0) -- (0,0);
+    \node[note, text=cInk, anchor=north, align=center] at (1.5,-0.5)
+         {آمپرمتر با $R_\text{A}$ در مسیر می‌نشیند.\\
+          با $R_\text{A}$ صفر: $1.50\,\text{A}$؛ با \mbox{$R_\text{A} = 0.1\,\Omega$}: $1.36\,\text{A}$};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,12 @@
+what each extreme does to the design (and where it is handled)
+  hazard               design consequence                         where
+  heat (47-48 C)       derating of inverters, transformers; HVAC  ch 9, 19, 25
+  rain (1 h, 50 yr)    culverts, ditches, ponds, pad levels       B, C
+  gusts (50 yr)        PV structures, cranes' wind limits         ch 30, 31
+  dust and sand        soiling, filters, cleaning water           ch 10, H
+  flood at the wadi    substation level, crossings, access        I
+  drought              well yield, water balance                  G
+  every hazard in the design basis names its source, its
+  return period and the parts it governs; adaptation over
+  the life (more cooling, higher pads) is planned, not
+  improvised

@@ -1,0 +1,11 @@
+protection zones of Plant P (overlapping at every breaker):
+  unit transformer and its cable   RMU fuse or breaker, feeder backup
+  collector feeder cable           feeder overcurrent and earth fault
+  33 kV bus section                bus protection or incomer backup
+  main transformer                 differential, gas relay, overcurrent backup
+  132 kV bus                       bus or transformer HV protection
+  export line                      line differential or distance, both ends
+  grid side                        utility's protection; transfer trip
+  zones overlap so no part is unprotected: each breaker sits
+  between the CTs of two zones; settings and schemes at the
+  boundary are approved by the operator (U-089)

@@ -1,0 +1,9 @@
+a delay claim and a change order, priced (concepts only)
+  owner's data six weeks late: prolongation 6 x 9.5 = 57 k u
+  disruption: productivity 1.00 -> 0.80 on 4,000 h: 1,000 h extra = 45 k u
+  change order C-022 (extra feeder) at contract unit rates: 86.4 k u
+  a claim stands on records: the late transmittal (ch 38),
+  the planned and actual productivity, the notice given in
+  time; without them it is an opinion. Entitlement is for
+  the contract and the lawyers - the engineer supplies the
+  facts and the arithmetic

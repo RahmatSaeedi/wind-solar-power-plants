@@ -1,0 +1,7 @@
+field record of 10 inverters for 2 years (175,200 unit-hours)
+  claimed 56,400 FIT: 9.9 failures expected; observed 14
+  90 % interval of the true rate: 48,310 - 124,923 FIT
+  the claim lies inside the interval: two years of ten units cannot
+  tell 56,400 FIT from 90,000 - a fleet this small judges a
+  claim only when the record is far off; the maker's wider
+  fleet record is the evidence (ch 37)

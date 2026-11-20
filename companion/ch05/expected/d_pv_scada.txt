@@ -1,0 +1,6 @@
+71 SCADA hours (3-5 April, one hour missing) vs the chapter 5 model:
+  SCADA 964.0 MWh, model 978.8 MWh, difference +1.5 %
+  hourly RMS difference 0.51 MW
+  the synthetic 'SCADA' was made with the chapter 1 model: on cool April days
+  the explicit temperature factor exceeds the lumped one; a real comparison
+  would also separate availability, soiling and meter error (chapters 15, 37)

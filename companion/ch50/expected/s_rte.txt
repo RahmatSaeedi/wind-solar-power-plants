@@ -1,0 +1,6 @@
+BESS-A commissioning cycle, full charge then full discharge (POC side)
+  energy in 41.8 MWh, out 35.4 MWh, auxiliaries 1.1 MWh
+  round trip 84.7% without, 82.5% with auxiliaries; ch 19 design 86%
+  the design figure included the auxiliary energy (ch 19); the
+  comparison is made on the same basis or the battery looks
+  better than it is - the warranty test names the basis

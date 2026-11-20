@@ -1,0 +1,13 @@
+% Chapter 4 — wind drag per metre along a tapered tower at 11 m/s hub wind with a power-law
+% profile (C_d 0.6, A-076). Data: diagrams/data/ch04-t-drag.csv (examples_final.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=90mm, height=80mm,
+      xlabel={نیروی پسار بر متر (N/m)}, ylabel={ارتفاع (m)},
+      xmin=0, xmax=200, ymin=0, ymax=100, xtick={0,50,...,200}, ytick={0,20,...,100}]
+    \addplot[sWind] table[x=w, y=z, col sep=comma] {data/ch04-t-drag.csv};
+    \addlegendentry{پسارِ برج}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+vendor remote access: always open or opened on request (teaching)
+  always open: 8,760 h a year that the path exists
+  on request, 12 sessions of 4 h: 48 h a year
+  exposure cut by 99.5 %
+  a session on request: asked for with a reason, approved by
+  the plant, through the jump host in the DMZ, with a second
+  factor, watched or recorded, closed at the end - the path
+  does not exist the rest of the year

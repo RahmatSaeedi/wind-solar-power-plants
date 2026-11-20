@@ -1,0 +1,22 @@
+finance and fiscal sources - Afghanistan
+  offtaker and contract form (DABS)            verified
+      source: official pages; review: counsel
+  tariff, term, indexation, security           to-confirm
+      source: not published; review: counsel
+  currency of payment and convertibility       to-confirm
+      source: news; review: bank, counsel
+  banking channel for payments                 to-confirm
+      source: World Bank (secondary); review: bank
+  US General License 20                        verified
+      source: OFAC page; review: sanctions counsel
+  UN, EU, UK regimes                           to-confirm
+      source: not read; review: sanctions counsel
+  tax and customs incentives                   to-confirm
+      source: not found; review: tax advisor
+  investment law and protections               to-confirm
+      source: secondary; review: counsel
+  land lease cost and security                 to-confirm
+      source: 2016 law text; review: counsel
+  verified 2, project-dependent 0, to-confirm 7
+  only verified items enter the base case (ch 54 E); every item
+  closes with a dated opinion of a qualified local reviewer

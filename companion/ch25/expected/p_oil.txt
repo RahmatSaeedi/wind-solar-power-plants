@@ -1,0 +1,11 @@
+oil tests read against teaching limits (breakdown voltage kV min,
+  water mg/kg max, acidity mg KOH/g max):
+  sample                BDV   water   acidity   result
+  new oil, delivery       75       8      0.01   ok
+  after processing        72       6      0.01   ok
+  in service, year 8      48      22      0.08   ok
+  in service, year 15     32      35      0.15   BDV, water, acidity - act
+  new oil is accepted to tighter limits than oil in service;
+  the trend of water and acidity tells when to dry or
+  regenerate the oil - the limits are the oil standard's and
+  the maker's, these are teaching values

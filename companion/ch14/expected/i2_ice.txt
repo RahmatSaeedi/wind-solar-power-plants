@@ -1,0 +1,8 @@
+ice-throw screening of W2b (rule of thumb 1.5 x (D + H), teaching):
+  zone radius 375 m around each turbine; zone area 476 ha
+  site roads inside the zones: 7.1 km (the plant's own access)
+  dwellings inside: 0; nearest public track 2,800 m from a turbine
+  icing hours at the mast (chapter 13) say how often; ice
+  detection with automatic stop, signs and staff rules manage
+  the plant's own roads; public roads and paths inside a zone
+  need the specialist icing assessment

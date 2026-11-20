@@ -1,0 +1,20 @@
+% Chapter 40 - multi-vari chart of joint resistance: five joints of each of the ten skids (dots)
+% and the skid means (line); skids 5-7 were made with the faulty wrench (diagrams/data/
+% ch40-multivari.csv and ch40-multimean.csv from companion/ch40/examples_w.py, w_components;
+% teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0.4, xmax=10.6, ymin=8, ymax=20.5,
+      xtick={1,...,10}, xlabel={شمارهٔ اسکید}, ylabel={مقاومتِ اتصال (میکرواهم)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \fill[cLoss!10] (axis cs:4.5,8) rectangle (axis cs:7.5,20.5);
+    \addplot[only marks, mark=*, mark size=1.4pt, cWind!70] table[x=skid, y=r, col sep=comma] {data/ch40-multivari.csv};
+    \addplot[sLoss, mark=square*, mark size=1.6pt] table[x=skid, y=mean, col sep=comma] {data/ch40-multimean.csv};
+    \legend{هر اتصال, میانگینِ اسکید}
+    \draw[densely dashed, cInk!60] (axis cs:0.4,17) -- (axis cs:10.6,17);
+    \node[note, anchor=south west] at (axis cs:7.6,17) {آستانهٔ ۱۷};
+    \node[note, anchor=north, text=cLoss] at (axis cs:6,20.3) {آچارِ معیوب};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

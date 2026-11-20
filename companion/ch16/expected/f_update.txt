@@ -1,0 +1,13 @@
+narrowing the long-term part with operating years (teaching):
+  years   long-term sigma   one-year P90   ten-year P90   (GWh)
+      0       11.76          275.93        279.61
+      1        7.30          279.99        285.06
+      2        5.74          281.13        286.87
+      3        4.89          281.67        287.83
+      5        3.92          282.20        288.86
+     10        2.85          282.67        289.89
+  in this teaching model (exact meter, independent years) three
+  years take more than half off the long-term part; the
+  year-to-year part stays; this is why projects are often
+  refinanced after some years of operation (if the data are
+  clean and corrected to a long-term reference, chapter 52)

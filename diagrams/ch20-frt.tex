@@ -1,0 +1,18 @@
+% Chapter 20 - plant output through a 1.5 s voltage dip with the plant PI running, frozen during the
+% dip, and held until the units recover (teaching). Data: diagrams/data/ch20-frt.csv
+% (companion/ch20/examples_k.py frt()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm, xmin=8, xmax=24, ymin=0, ymax=1.45,
+      xlabel={زمان (s)}, ylabel={توانِ نقطهٔ اتصال (pu)}, xtick={8,10,...,24}, ytick={0,0.25,...,1.25},
+      /pgf/number format/fixed, /pgf/number format/precision=2,
+      legend columns=1, legend style={at={(1.03,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[sLoss] table[x=t, y=none, col sep=comma] {data/ch20-frt.csv};
+    \addplot[sPV] table[x=t, y=freeze, col sep=comma] {data/ch20-frt.csv};
+    \addplot[sBESS] table[x=t, y=hold, col sep=comma] {data/ch20-frt.csv};
+    \addplot[sLimit, domain=8:24, samples=2] {1};
+    \legend{بی توقف, توقف در افت, نگه‌داشت تا بازیابی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+lot file of L4506 as delivered: 1999 rows for 2000 cells (planted faults)
+  duplicate IDs: C45-01499
+  IDs missing: C45-00700, C45-01500
+  K values a thousand times too small (unit): C45-01201
+  capacities outside 250-400 Ah: C45-01801
+  negative K (sign or entry): C45-00999
+  five checks, each a line of code, run before any analysis;
+  a file that fails goes back to the cell maker - grading data
+  with silent faults would flag good cells and pass bad ones

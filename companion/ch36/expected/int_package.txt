@@ -1,0 +1,9 @@
+the security package of Plant P in numbers (synthetic model)
+  8 zones, 8 conduits, each with a purpose; default deny
+  rule review: 1 any-any, 3 shadowed, 2 unused, 1 undocumented
+  flows outside the conduits: 2; single points of failure: 2
+  access: 2 accounts with extra rights, 1 dormant, 1 shared
+  inventory: 4 of 10 rows with a gap; 2 baselines drifted
+  recovery: 1 of 5 systems over its target; restores quarterly
+  vendor access: 48 h a year on request instead of 8,760
+  review record: 7 findings, each with an owner and a date

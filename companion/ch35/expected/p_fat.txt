@@ -1,0 +1,14 @@
+factory test of the network (teaching durations)
+  per device (x 28):
+    firmware and configuration fingerprint      0.25 h
+    port settings, priority classes, address    0.50 h
+    time synchronisation and its alarm          0.25 h
+  whole system:
+    ring broken at each span (14 spans)         3.50 h
+    server switch-over                          1.00 h
+    back-fill rate limit                        0.50 h
+    general interrogation burst                 0.50 h
+  total 33.5 h of testing, about 5 working days
+  the network is assembled once in the factory as it will
+  stand on site; what is not tested there is found by the
+  commissioning team at the turbine base (ch 48, ch 50)

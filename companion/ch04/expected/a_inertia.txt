@@ -1,0 +1,8 @@
+three blades of 20 t, 73 m (A-048); hub and generator neglected
+  uniform rod about the root: I = 3 m L^2 / 3 = 1.066e+08 kg m2
+  mass tapering linearly to zero at the tip: I = 3 m L^2 / 6 = 5.329e+07 kg m2
+    (numerical 5.329e+07)
+  kinetic energy at 10.5 rpm: 1/2 I omega^2 = 32.2 MJ = 8.9 kWh
+  inertia constant H = E / S = 32.2 MJ / 5.5 MVA = 5.9 s
+  a converter-connected rotor does not share this energy with the grid by
+    itself

@@ -1,0 +1,11 @@
+water removed from the insulation in the factory's drying (teaching):
+  8 t of paper and pressboard
+  from %   to %   water removed kg
+     8.0    0.5                600
+     8.0    1.0                560
+     5.0    0.5                360
+  hundreds of kilograms of water come out under heat and
+  vacuum over days; the end point is proved by the drying
+  record (water extracted per hour falling to the maker's
+  limit) - the paper stays dry only if the tank is filled
+  and sealed without delay (lesson B, quality gates)

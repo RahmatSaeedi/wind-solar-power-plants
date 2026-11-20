@@ -1,0 +1,13 @@
+load loss of the design at 75 C, built up (teaching shares):
+  R per phase: LV 82.4 mOhm, HV 629 mOhm
+  I2R 243 kW + eddy 15 + stray (tank, clamps, leads) 29 = 287 kW
+  no-load loss 41.8 kW (conventional GO, 29.8 t core); bid B 42 / 290 kW
+  load pu   efficiency at pf 0.95
+     0.25   99.603%
+     0.38   99.635%
+     0.50   99.622%
+     0.75   99.549%
+     1.00   99.453%
+  highest efficiency where P0 = Pk k^2: k = 0.38, close to
+  Plant P's mean load of 0.29 pu (ch 25) - a design for this
+  plant, not for full load

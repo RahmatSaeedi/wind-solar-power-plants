@@ -1,0 +1,19 @@
+% Chapter 59 - change of the equity IRR (points) for one input at a time, low and high case, around the
+% base of the ch 21 model with the debt held (teaching ranges A-573). Data: diagrams/data/ch59-tornado.csv
+% (companion/ch59/defense.py, tornado), rows in the fixed TORNADO order.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=68mm, xbar, bar width=4mm, ymin=0.4, ymax=7.6,
+      xmin=-3.5, xmax=4.0, y dir=reverse, ytick={1,...,7}, ymajorgrids=false, xmajorgrids=true,
+      yticklabels={انرژی ۵ درصد کم یا زیاد, قیمتِ قرارداد ۱۰ درصد, هزینهٔ سرمایه‌ای ۱۰ درصد,
+        هزینهٔ بهره‌برداری ۲۰ درصد, بهره یک واحد, کاهشِ تولید ۳ درصد, یک سال تأخیر},
+      xlabel={تغییرِ بازدهِ سهام (واحدِ درصد)}, legend columns=2,
+      legend style={at={(0.97,0.03)}, anchor=south east, font=\footnotesize}, area legend]
+    \addplot[draw=cLoss, fill=cLoss!30, bar shift=0pt] table[x=lo, y=k, col sep=comma] {data/ch59-tornado.csv};
+    \addplot[draw=cBESS, fill=cBESS!35, bar shift=0pt] table[x=hi, y=k, col sep=comma] {data/ch59-tornado.csv};
+    \legend{حالتِ بد, حالتِ خوب}
+    \draw[cInk] (axis cs:0,0.4) -- (axis cs:0,7.6);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

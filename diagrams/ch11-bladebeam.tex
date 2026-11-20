@@ -1,0 +1,18 @@
+% Chapter 11 - blade as a beam at peak thrust: flap moment along the blade (top) and deflection
+% (bottom), spar caps sized for strain (A-232). Data: diagrams/data/ch11-bladebeam.csv (examples_f.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=112mm, height=44mm, xmin=0, xmax=76, ymin=0, ymax=16,
+      xticklabels={}, ylabel={گشتاورِ خمشی، $\text{MN\,m}$}, ytick={0,4,...,16}]
+    \addplot[sWind] table[x=r, y=moment, col sep=comma] {data/ch11-bladebeam.csv};
+    \node[note, anchor=west] at (axis cs:30,10) {گشتاورِ خمشیِ عمود بر صفحهٔ روتور};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south west)}, anchor=north west, yshift=-7mm, width=112mm,
+      height=44mm, xmin=0, xmax=76, ymin=0, ymax=10, xlabel={فاصله از محور، $\text{m}$},
+      ylabel={خیز، $\text{m}$}, ytick={0,2,...,10}, xtick={0,10,...,70}]
+    \addplot[sLoss] table[x=r, y=defl, col sep=comma] {data/ch11-bladebeam.csv};
+    \node[note, anchor=east] at (axis cs:60,6) {خیزِ پره در رانشِ بیشینه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

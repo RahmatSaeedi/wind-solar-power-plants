@@ -1,0 +1,13 @@
+preparer, reviewer and approver of six requirements
+  Z-001: EPC grid engineer / owner's engineer / TSOZ
+  Z-004: EPC controls engineer / EPC controls engineer / TSOZ
+  Z-006: env. consultant / owner's env. lead / Environment Agency
+  Z-009: converter maker / owner's engineer / -
+  Z-012: transformer maker / owner's engineer / owner's engineer
+  Z-013: permitting lead / local counsel / ERZ
+  problems:
+    Z-004: reviewer is the preparer
+    Z-009: no approver named
+    Z-012: owner's engineer approves a requirement it reviews
+  Z-012 may be fine if the owner is the approver by contract;
+  Z-004 and Z-009 are not: no independent eye, no named approver

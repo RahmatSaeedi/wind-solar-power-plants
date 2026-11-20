@@ -1,0 +1,16 @@
+interlocks of a feeder bay: breaker CB, disconnector DS, earth switch
+  ES; every state reachable from all-open by allowed operations
+  state (CB, DS, ES)          correct logic   faulty logic
+  (open  , open  , open  )   yes            yes
+  (open  , open  , closed)   yes            yes
+  (open  , closed, open  )   yes            yes
+  (open  , closed, closed)   no             yes <- forbidden
+  (closed, open  , open  )   yes            yes
+  (closed, open  , closed)   yes            yes
+  (closed, closed, open  )   yes            yes
+  (closed, closed, closed)   no             yes <- forbidden
+  forbidden states reachable: correct 0, faulty 2
+  the faulty logic lets the disconnector close while the earth
+  switch is closed - earthing the busbar; exploring every state
+  finds it without a single operation on real gear, and the
+  check is part of the interlock design review and the FAT

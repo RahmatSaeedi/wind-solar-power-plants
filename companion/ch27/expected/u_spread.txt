@@ -1,0 +1,9 @@
+voltage at the POC over a week with and without Q(U) control
+  (grid voltage wandering; SCR 15; teaching quasi-steady model)
+  case                        5th pct   95th pct   spread pu
+  no voltage control            0.944      1.003       0.059
+  Q(U) 33 Mvar per 5 %          0.961      1.002       0.041
+  with SCR 15 the plant's reactive power moves the POC voltage
+  modestly: Q(U) narrows the spread by about a third; on a
+  weaker grid the same droop does more, and its gain must be
+  checked for stability there (lesson B, weak grid)

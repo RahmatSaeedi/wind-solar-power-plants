@@ -1,0 +1,78 @@
+P01: linear: loss 20 kW, efficiency 0.50
+P02: D 0.50; ripple 68.75 A
+P03: D 0.375; ripple 18.75 A
+P04: 931.8 V; at 45 deg 658.9 V
+P05: 551 V; SVPWM max 707 V
+P06: 679 V; with 10 % 747 V
+P07: m_f = 50
+P08: IGBT 1.50 V, MOSFET 2.40 V; equal at 600 A
+P09: 1.25 W
+P10: 200 V
+P11: 80 C
+P12: 7.26 kJ; tau 600 s; to 50 V in 1,855 s
+P13: 1,949 Hz
+P14: life x 0.132
+P15: 8.8 V
+P16: 0.503 I -> 503 A
+P17: SCR 10 and 3
+P18: I_q 0.80, I_p 0.755 pu
+P19: 20 % of rating
+P20: 0.99727
+P21: 0.932
+P22: 3.33 kg/s
+P23: 5,292 A; 4,602 A
+P24: 0.855 pu = 4.28 MW
+P25: 60.2 MWh per inverter
+P31: IGBT 438 W, diode 66 W
+P32: IGBT 297 W, diode 99 W
+P33: f = 2.5 x 42.1 / 20.6 = 5.11 kHz
+P34: one side 0.9875; both sides about 0.9752
+P35: rise 10.1 K at 0.1 s, 39.8 K at 10 s
+P36: c0 4.02, c1 0.08, c2 14.24 per mille; peak at 0.53 pu
+P37: European 0.9799, CEC 0.9827
+P38: L1 58.9 uH
+P39: Z_b 90.5 mohm; C 1.76 mF per phase
+P40: L2 25.4 uH; resonance 902 Hz (500 to 1250)
+P41: R_d 33.5 mohm
+P42: 0.238 F
+P43: kp 88.8, ki 3948
+P44: kp 0.600, ki 5.03
+P45: H 2.4 s: 1.04 Hz/s; H 4.0 s: 0.625 Hz/s
+P46: x 0.3317 pu; dV 6.6 %
+P47: 36.5 V
+P48: 100 A
+P49: P(N > 3) = 0.0441
+P50: V_mp 925 V; floor 933 V
+P51: 28 modules at -10 C: V_oc 1529 V > 1500 V
+P52: 6.25 V
+P53: 916.8 V
+P54: 149 A
+P56: 600 V
+P57: 82,800 u/yr; present value 877 thousand u
+P58: 101 MWh/yr
+P59: 600 MWh/yr; 30,003 u/yr
+P60: (14 / 29)^5 = 0.026
+P61: 167 units, 25 failures/yr
+P64: 77.1 kW; efficiency 0.98481
+P65: 84.5 C
+P66: 12:00: G 1030, cell 68.5 C, MPP 932 V, inverter DC 5.097 MW
+P67: held at 1073 V: 28.2 % of the hour's energy lost
+P70: stock 3 fans: P(N <= 3) = 0.956
+P71: June AC about 12,673 MWh; one inverter for the month 1,267 MWh
+P72: hours above 4.0 MW per inverter: 855
+P74: 26 x V_mp(STC) 1091 V; 24 modules 1007 V
+P126: 10.0 kJ in R; R 66.7 ohm, tau 1.33 s
+P127: 40.0 kW
+P128: 611 V
+P129: R 0.288 ohm; 0.50 MJ
+P131: zeta 1.22; peak 7.8 kA
+P132: +-700 V
+P134: mean 277 MWh/yr, P90 316 MWh/yr
+P141: 1.05 kW; 9.2 MWh/yr
+P142: EMF 828 V; DC needed 1171 V > 1150 V
+P143: 70,711 h
+P144: efficiency +-0.278 %; loss +-14.3 kW (18 %)
+P145: 909 Hz
+P146: sqrt(40) = 6.3
+P156: 95 MW: 123 h, 623 MWh; 90 MW: 208 h, 1,447 MWh
+P157: threshold 87.5 C: A accept, B not proven

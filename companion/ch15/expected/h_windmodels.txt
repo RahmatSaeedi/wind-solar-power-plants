@@ -1,0 +1,12 @@
+wind model choices (one turbine, hub density, data year):
+  power curve smoothed for turbulence:
+    TI 0.08: -0.46 %
+    TI 0.12: -0.95 %
+    TI 0.16: -1.54 %
+  no hour above the 25 m/s cut-out in this year: stop and restart
+    logic (hysteresis) matters in stormier years and sites
+  six icing events stop the turbine 53 h: 95.5 MWh (0.57 %)
+  the measured power curve already holds the site's turbulence;
+  a curve for different turbulence changes the energy by about
+  a per cent; icing stops are small here but
+  belong in the loss register with their own evidence

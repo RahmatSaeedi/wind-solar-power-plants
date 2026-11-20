@@ -1,0 +1,10 @@
+battery 20 MW, usable 4..36 MWh, one-way efficiency 0.927, start/end 20 MWh
+  same fictional prices as the linear program of section D (LP: 1584.4 units)
+  grid step (MWh)  states  revenue (units)  transitions per hour
+             4.00       9           1568.6                    81
+             2.00      17           1570.7                   289
+             1.00      33           1579.1                  1089
+             0.50      65           1583.8                  4225
+             0.25     129           1583.8                 16641
+  step 0.25: charge hours 2, 3, 12, 13, 23; discharge hours 7, 8, 18, 19
+  two batteries on the 0.25 grid: 16641 states, 2.8e+08 transitions per hour

@@ -1,0 +1,2 @@
+annual energy: 192,370 MWh
+             = 192.4 GWh

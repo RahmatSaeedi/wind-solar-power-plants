@@ -1,0 +1,8 @@
+earth bar of the 33 kV switchboard (copper, k 143 as in lesson A):
+  rated short-time current 25 kA for 1 s: S = 175 mm2
+  chosen: copper bar 40 x 5 mm = 200 mm2 (above the minimum)
+  every panel's frame, earthing switch and cable screen ends
+  on it, and it is bonded to the station earth grid at two
+  points at least (ch 26) - its rating is the switchgear's
+  rating, because an earth switch closed onto a live circuit
+  sends the full fault current through it

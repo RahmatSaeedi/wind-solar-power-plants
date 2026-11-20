@@ -1,0 +1,15 @@
+% Chapter 4 — clear-sky beam irradiance from Meinel's empirical fit against the data-pack DNI
+% on the summer subset day. Data: diagrams/data/ch04-s-sun.csv (examples_deep.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=60mm,
+      xlabel={ساعتِ روز}, ylabel={تابشِ مستقیمِ عمود (W/m²)},
+      xmin=0, xmax=23, ymin=0, ymax=1050, xtick={0,3,...,21}, ytick={0,200,...,1000}]
+    \addplot[sPV] table[x=hour, y=model, col sep=comma] {data/ch04-s-sun.csv};
+    \addlegendentry{مدلِ تجربیِ آسمانِ صاف}
+    \addplot[sInk, mark=*, mark size=1.1pt, mark options={solid}] table[x=hour, y=data, col sep=comma] {data/ch04-s-sun.csv};
+    \addlegendentry{بستهٔ داده}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

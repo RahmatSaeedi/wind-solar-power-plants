@@ -1,0 +1,6 @@
+a week of 10-minute 5th-harmonic voltages at the POC (A-338):
+  1,008 values: mean 1.17 %, 95th percentile 1.83 %, maximum 2.02 %
+  the 95th percentile ignores the highest 5 % (about 8 hours)
+  - the usual form of a weekly assessment; one high 10-minute
+  value is not a breach, a high percentile is
+  2-hour aggregation (12 values) raises nothing: max 1.73 %

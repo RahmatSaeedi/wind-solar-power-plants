@@ -1,0 +1,13 @@
+7-day results as an early warning (teaching ratio 7/28 day = 0.7)
+  predicted 28-day mean against the 39 MPa of the conformity rule
+  pour   7-day mean   predicted 28-day   warning
+  F01          28.7               41.0   -
+  F02          30.2               43.1   -
+  F03          25.9               37.0   YES
+  F04          26.2               37.4   YES
+  F05          29.5               42.1   -
+  F06          28.3               40.5   -
+  warned at day 7: F03, F04 - the same two pours that
+  failed at 28 days (lesson B); 21 days earlier the engineer can
+  plan cores, and the next pours can be held to a closer watch
+  - the 28-day result still decides

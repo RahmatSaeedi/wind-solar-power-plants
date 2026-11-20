@@ -1,0 +1,9 @@
+twenty years of energy at MV (wind 2004-2023 reference, PV 20-year GHI):
+  wind  mean  193.1 GWh, year-to-year sd  4.5 %
+  PV    mean  108.4 GWh, year-to-year sd  2.7 %
+  hybrid mean  301.5 GWh, year-to-year sd  3.2 %
+  correlation of annual wind and PV +0.12
+  worst year: wind 174.1, PV 101.7, hybrid 281.8 GWh
+  the hybrid's variation is less than the wind's: two resources
+  that do not vary together hedge each other year by year, which
+  lowers the one-year P90 (chapter 16) and the debt risk

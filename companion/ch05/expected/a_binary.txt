@@ -1,0 +1,9 @@
+2026 in binary 11111101010 (11 bits), in hexadecimal 0x7EA
+  check: 0x7EA = 7 x 256 + 14 x 16 + 10 = 2026
+one 16-bit register: unsigned 0 .. 65 535, signed (two's complement) -32 768
+    .. 32 767
+  register 0xFF9C read as unsigned: 65436; as signed: -100 (e.g. -100 kvar)
+two registers 0x4148, 0x0000 as one float32 (high word first): 12.5 (e.g. 12.5
+    m/s)
+  the same registers in the wrong word order: 2.342e-41 (nonsense, but no
+    error)

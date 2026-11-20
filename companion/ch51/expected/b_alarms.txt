@@ -1,0 +1,6 @@
+alarms per hour in the control room over a month (teaching target 6)
+  mean 3.3, hours over the target 28, worst hour 53
+  the floods were two afternoons (day 4, day 18): a feeder trip
+  raised the alarms of every converter on it at once - the
+  alarm philosophy of ch 35 groups them under the feeder; the
+  operator handles the cause, not the list

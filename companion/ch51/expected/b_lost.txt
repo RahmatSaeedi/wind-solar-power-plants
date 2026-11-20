@@ -1,0 +1,11 @@
+energy available but not exported in the first year, by recorded cause
+  cause                 MWh
+  unexplained            2,868
+  soiling                  464
+  PV block outage          357
+  grid restriction         166
+  total 3,855 MWh; with a recorded cause 987
+  'unexplained' is mostly the ordinary scatter of an hour around
+  its expectation (both ways - only the shortfalls are summed
+  here); a cause is recorded when the operator knows one, and
+  the monthly review (ch 37) works on the named ones

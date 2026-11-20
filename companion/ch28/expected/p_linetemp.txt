@@ -1,0 +1,9 @@
+the line's losses at full export against conductor temperature
+  conductor C   R ohm (7.06 km)   loss MW
+           20             0.706     0.404
+           50             0.791     0.453
+           75             0.862     0.494
+  the study's 0.12 ohm/km is the conductor at about 70 C:
+  right for full export, a little high for a cool night -
+  a few per cent of the line's losses, inside the budget of
+  lesson G; stated in the assumptions, not hidden

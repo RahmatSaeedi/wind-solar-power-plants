@@ -1,0 +1,9 @@
+voltage set-point step at the POC: reactive power response (A-339)
+  metric           measured   teaching criterion   result
+  rise               0.80 s             <= 1.0 s   pass
+  settle             3.00 s             <= 5.0 s   pass
+  overshoot             11%               <= 15%   pass
+  noise on the record makes 'settled' a matter of definition:
+  the band (here 5 % of the step) and the filtering belong to
+  the test procedure agreed beforehand, not chosen after
+  seeing the data

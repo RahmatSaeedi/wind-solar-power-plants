@@ -1,0 +1,18 @@
+% Chapter 45 - energy per mass from cell to container (Wh/kg) with teaching mass overheads
+% (diagrams/data/ch45-levels.csv from companion/ch45/examples_a.py, levels; A-474).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=104mm, height=50mm,
+      xbar, bar width=6mm, xmin=0, xmax=210, ymin=0.4, ymax=4.6, y dir=reverse,
+      xlabel={انرژی بر جرم (وات‌ساعت بر کیلوگرم)},
+      ytick={1,...,4}, yticklabels={سلول,ماژول,رک,کانتینر},
+      yticklabel style={font=\footnotesize, text=cInk},
+      ymajorgrids=false, xmajorgrids=true, xtick={0,50,...,200},
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk, anchor=west},
+      point meta=x]
+    \addplot[draw=cBESS, fill=cBESS!35, line width=0.6pt]
+      table[x=whkg, y=k, col sep=comma] {data/ch45-levels.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,10 @@
+chain of custody: signed hand-overs per item (synthetic log)
+  item                 hand-overs signed   expected   gap
+  nacelle N-07                         5          5
+  transformer TR-1                     4          5   YES
+  blade B-21                           3          4   YES
+  drum D-33 (33 kV)                    4          5   YES
+  converter C-12                       3          4   YES
+  4 items with a missing hand-over: whoever held the item
+  then is unknown - a damage found later cannot be placed;
+  every hand-over is signed by the giver and the taker

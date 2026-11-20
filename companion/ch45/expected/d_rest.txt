@@ -1,0 +1,10 @@
+rest test: K = OCV drop / days; each reading sd 0.05 mV, limit 0.06 mV/day
+  rest days   K noise sd   leakers caught   good cells flagged
+                mV/day       (of 5)
+         14       0.0051              4.8                  0.1
+          7       0.0101              4.5                 10.7
+          3       0.0236              4.0                217.4
+  halving the rest halves the time a leaker has to show and
+  doubles the noise of the reading: leakers slip through and
+  good cells are flagged - the rest time is a process
+  parameter with its own record, not a scheduling convenience

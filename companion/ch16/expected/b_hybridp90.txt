@@ -1,0 +1,9 @@
+P90 of the hybrid against the sum of the P90s (one year, at MV):
+  wind   P50  193.14  sigma 14.28  P90  174.84 GWh
+  PV     P50  108.36  sigma  4.81  P90  102.20 GWh
+  sum of the two P90s            277.04 GWh
+  hybrid P50  301.49  sigma 15.26  P90  281.93 GWh
+  the hybrid P90 is 4.90 GWh higher than the sum:
+  a P90 is not additive, because both sources are unlikely to be
+  at their P90 in the same year; adding P90s double-counts the
+  downside

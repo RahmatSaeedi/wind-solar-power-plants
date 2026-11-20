@@ -1,0 +1,46 @@
+P01 approvals late or open: 4
+P02 activities without an approved method statement: 3
+P03 expired / soon / unfilled roles: 1 / 1 / 2
+P04 drawings not issued for construction: 2
+P05 peak workers / toilets / water m3 a day / beds: 450 / 30 / 31.5 / 270
+P06 fronts over the response target: 132 kV line, tower 18 (40.8 min)
+P07 people inside without a valid induction: 3
+P08 posts off position / short: 2 / 2
+P09 torque: missing / outside / suspect: 1 / 1 / 2
+P10 cables changed more than 5 %: CB09-ST
+P11 terminations not closed: 3
+P12 bonds over the limit / not measured: 1 / 1
+P13 stored items checked late: station skid S-03, RMU spares
+P14 earned progress / mounted share: 66.8% / 80%
+P15 subsystems ready for turnover: =PVF1-3.INV, =PVF1-3.MV
+P16 open punch A / B: 2 / 3
+P17 complete asset records: 2 of 7
+P18 missing / extra / duplicate serials / far: 1 / 2 / 1 / 1
+P19 block finish, earliest rule / priority rule / logic: 48 / 53 / 48 days
+P20 with a second module crew: 44 days
+P21 hand checks: 0.668, 28.6 min, 4,200 m3
+P22 look-ahead packages ready: 2 of 6
+P23 mean rate 3 / 4 crews: 4.27 / 4.06
+P24 worst weather month and share: 12, 23%
+P25 recovery: late 31 days; cheapest 2 more crew(s)
+P26 area clashes: 3
+P27 battery stored days: 186
+P28 fire submittals open / penetrations with gaps / detectors: 2 / 5 / 2
+P29 open impairments: 2
+P30 construction water / dust share: 87,456 m3 / 86%
+P31 month with tickets over the meter: 8 (550 m3)
+P32 towers without access / sections short of a joint bay: T05, T06 / S4
+P33 grievances past closing time: G-23, G-26
+P34 first month below the hiring commitment: 6 (last 33%)
+P35 vehicles in the quiet hours: 17
+P36 chance-find notification: 25.3 h
+P37 pallets of the block / laydown for 3 days: 304 / 416 m2
+P38 pulls not accepted: WS1-S2, WS1-S3, WS1-S4b
+P39 MC by the current rate / sheets a week needed: day 311 / 62
+P40 owner only / both / contractor only: 8 / 7 / 5 days
+P41 SPI / forecast last week: 0.74 / 24.4
+P42 chance of a find with 10 / 32 inspected: 41% / 85%
+P43 peak runoff / volume / pond share: 1.84 m3/s / 1,655 m3 / 54%
+P44 sections with missing signatures: 3
+P45 camp short in month 8 by 20 beds
+P46 fronts needing a communications fallback: 2

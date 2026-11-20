@@ -1,0 +1,16 @@
+process FMEA of the skid line: severity first vs RPN
+  rank  severity-first                    S  O  D  RPN   RPN rank
+     1  LV joint under-torqued            9  3  8  216    1
+     2  MV stress cone misplaced         10  2  7  140    3
+     3  earth bond missing                9  2  5   90    4
+     4  lug crimped with wrong die        8  3  6  144    2
+     5  transformer damaged in handling   7  2  4   56    8
+     6  control wire on wrong terminal    5  5  3   75    6
+     7  paint film too thin               4  4  4   64    7
+     8  desiccant missing in packing      5  3  6   90    5
+  classes: S 9-10, then S 7-8, then the rest; within a class
+  by S x O (criticality), then by D. By RPN alone the
+  wrong-die crimp (S 8) ranks above the MV termination
+  (S 10): a product of three ratings hides the severity,
+  so RPN only orders rows inside a class (IEC 60812 offers
+  the criticality matrix beside RPN)

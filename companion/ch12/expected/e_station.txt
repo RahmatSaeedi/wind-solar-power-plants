@@ -1,0 +1,7 @@
+soiling station: dirty cell / 'clean' cell (A-247):
+  'clean' cell cleaned daily: mean soiling loss 8.47 %
+  'clean' cell cleaned weekly: 7.98 % (underestimated)
+  soiling rate from rain-free spells: 0.156 %/day true, 0.150 %/day biased
+  the optimal cleaning interval of chapter 10 scales with
+  1 / sqrt(rate): biased by +2 % (cleaning too late)
+  the station's maintenance is part of the cleaning evidence

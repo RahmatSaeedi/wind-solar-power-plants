@@ -1,0 +1,12 @@
+battery converters (20 MVA) shared: dispatch, a 5 MW frequency reserve
+  held back, and the reactive power left for voltage support
+  dispatch MW   P that must fit MW   Q available Mvar
+            0                    5               19.4
+            5                   10               17.3
+           10                   15               13.2
+           15                   20                0.0
+  the reserve is power the converter must be able to add at
+  any moment, so it is counted against the current limit
+  even when unused; the battery's reactive power for the
+  POC (lesson F) shrinks as dispatch grows - the controller
+  allocates, and the study checks the corners

@@ -1,0 +1,6 @@
+payback of the project cash flow (after the tax paid):
+  simple payback: operating year 10
+  discounted at 7.5 %: operating year 19
+  payback says when the money is back, not how much value is
+  made after; it is a liquidity measure, never a substitute
+  for NPV

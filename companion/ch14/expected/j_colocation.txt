@@ -1,0 +1,9 @@
+PV between the turbine rows of W2b (co-location screening):
+  land between the rows 504 ha; outside the ice zones 288 ha
+  also outside the winter shadow strips and PV exclusions: 286 ha
+    of it outside the customary grazing area: 154 ha (88 ha needed)
+  co-location is possible here: the ice zones take less than half
+  the space; it would shorten the PV cables to the strings, but
+  the block would fence land near the herders' area, PV crews
+  would work beside the ice zones, and the east block keeps the
+  wind and PV apart for maintenance: a trade for the consultation

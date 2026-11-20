@@ -1,0 +1,6 @@
+warranty limited to 180,000 MWh discharged; true throughput 9,000 MWh a year
+  a counter reading +1% high shows 181,800 MWh after 20 years
+  the limit is 'reached' in year 19.8 instead of 20.0
+  the counter that ends a warranty is a measuring instrument:
+  its accuracy, calibration and the meter it is checked against
+  are written into the contract, not discovered in a dispute

@@ -1,0 +1,7 @@
+day 191 of the year (holds the hottest steady-state hour); main busbar
+  Cu 80 x 10 mm, thermal time constant 25.6 min
+  peak current 1833 A in hour 12
+  hour-by-hour steady state: maximum 106.3 C in hour 12
+  transient (RK4, 60 s steps): maximum 104.3 C at 13.00 h
+  the thermal mass shaves 2.0 K off the peak and delays it
+  hours with steady state above 90 C: 5; minutes of transient above 90 C: 285

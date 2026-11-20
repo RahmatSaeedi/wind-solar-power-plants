@@ -1,0 +1,12 @@
+the same settings written two ways, and two small changes
+  set                               raw fingerprint    canonical
+  a  droop 4.0, ramp 10.0           e3a8cdcb8faef15b   5a2b38bc6d6bf277
+  b  droop 4, ramp 10 (integers)    ea6857eb1c6e1690   5a2b38bc6d6bf277
+  c  droop 4.0000000001             7e8065e2b9901b85   5a2b38bc6d6bf277
+  d  droop 4.01                     94cfefae530ef8f9   e8e700d7a74ca68c
+  raw: a and b differ (True) though the settings are equal - a false alarm
+  canonical (9 digits): a = b (True), a = c (True), a = d (False)
+  the canonical form fixes how numbers are written; its digits
+  must be finer than any setting the device can hold, or a
+  real change disappears - the form is part of the release
+  (text of a: {"f_trip_hz": ["47.5", "51.5"], "q_v_droop_p...)

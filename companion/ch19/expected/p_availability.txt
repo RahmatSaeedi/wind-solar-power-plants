@@ -1,0 +1,9 @@
+availability of the battery itself (teaching rates, A-298):
+  item                 failures/yr   hours each   power lost while out
+  PCS (4 x 5 MW)              2.0          48      a quarter
+  rack trips (96)           192.0           8      a 96th
+  HVAC unit (8)               2.4          24      one container
+  energy-based availability about 99.46 %
+  frequent rack trips cost little energy but much attention;
+  the PCS dominates the lost energy; spares and response times
+  are what the service contract buys (chapter 51)

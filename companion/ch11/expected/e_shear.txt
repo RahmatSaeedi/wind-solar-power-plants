@@ -1,0 +1,12 @@
+wind shear 0.2 and tower shadow at 8 m/s (A-226):
+  wind at the lowest tip (25 m) 6.06 m/s, at the top tip 8.95 m/s
+  torque of one blade over a turn (100 = uniform wind): 70.2 .. 117.2
+  rotor torque: 96.2 .. 98.8 (ripple 2.7 points, 3P)
+  tower radius 2.2 m; rotor plane 6 m upwind at the root, 16.3 m at the tip
+  deficit in front of the tower: 12 % at the root, 1.8 % at the tip;
+    the dip is 17 deg wide at 0.7 R
+  rotor-equivalent speed for 10 m/s at hub height:
+    shear  0.0    0.1    0.2    0.3    0.4
+    REWS   10.00  9.94  9.94  9.98  10.06
+  a power-law profile changes the rotor energy by under 1 %;
+  the 1P load on each blade is the real cost of shear

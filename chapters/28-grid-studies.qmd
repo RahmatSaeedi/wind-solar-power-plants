@@ -1,0 +1,145 @@
+# مطالعاتِ شبکه و الزاماتِ عملکردی {#sec-ch28}
+
+## نقشهٔ فصل {#sec-ch28-map}
+
+::: {.callout-note}
+## اهدافِ یادگیری
+پس از این فصل، خواننده می‌تواند:
+
+1. فرایندِ اتصال به شبکه، داده‌هایی که بهره‌بردار می‌خواهد و کیفیتِ یک بستهٔ ارسالی را توضیح دهد و بستهٔ داده را پیش از هر مطالعه وارسی کند.
+2. مدارِ صادرات و پستِ اتصال را در مرزِ مطالعه بگذارد و مالکیت، دادهٔ مسیر و مدار، گزینه‌ها، تلف، پیشامدها و محدودیت‌های بهره‌برداری را مشخص کند.
+3. پخشِ بار، ولتاژ و توانِ واکنشی، تلف، اتصالِ کوتاه، هماهنگیِ حفاظت و اعتبارسنجیِ مدل را برای نیروگاهِ P اجرا و با دست وارسی کند.
+4. مطالعه‌های پویا را بخواند: عبور از خطا، پاسخِ فرکانس، پایداریِ کنترلِ ولتاژ، جزیره‌شدن، بازگشت، شیب، دیسپچ و تله‌متری.
+5. یک فهرستِ ورودیِ مطالعه، دفترِ فرض‌ها و ماتریسِ الزام–مطالعه–مدل–آزمون–شاهد بسازد و مرزهای تأیید و مالکیتِ مدل را بنویسد.
+6. مطالعه‌های شرطیِ شبکهٔ ضعیف، جزیره، سازندهٔ شبکه، راه‌اندازیِ سیاه و خدمت‌های شبکه را فقط وقتی الزام یا قرارداد آن‌ها را بخواهد تعریف کند.
+:::
+
+**پیش‌نیازها:** پریونیت و اتصالِ کوتاه (@sec-ch23)، حفاظت (@sec-ch26)، کیفیتِ توان و خدمت‌ها (@sec-ch27)، کنترلِ نیروگاه (@sec-ch20) و روش‌های عددی (@sec-ch03).
+
+::: {.callout-tip}
+## پیش‌آزمون
+1. امپدانسِ پریونیتِ شبکه‌ای با سطحِ اتصالِ کوتاهِ [1,500 MVA]{.ltr} بر پایهٔ [100 MVA]{.ltr} چیست؟
+2. اگر نیروگاه [100 MW]{.ltr} در شبکه‌ای با $R = 0.008$ پریونیت تزریق کند، ولتاژ تقریباً چقدر بالا می‌رود؟
+3. روشِ نیوتن–رافسون برای حلِ چه نوع معادله‌ای است؟
+4. چرا مبدل‌ها جریانِ اتصالِ کوتاهِ کمی می‌دهند؟
+5. فرقِ «مطالعه» و «آزمون» در اثباتِ یک الزام چیست؟
+
+پاسخ‌ها: (۱) $100/1{,}500 = 0.067$؛ (۲) حدودِ [0.8 %]{.ltr}؛ (۳) دستگاهِ معادله‌های ناخطی؛ (۴) جریانشان را کنترل محدود می‌کند، نه فیزیکِ ماشین؛ (۵) مطالعه نشان می‌دهد طرح می‌تواند، آزمون نشان می‌دهد نیروگاهِ ساخته‌شده می‌کند. اگر دو پرسش یا بیشتر را نتوانستید، @sec-ch23 و @sec-ch27 را مرور کنید.
+:::
+
+**جایگاهِ این فصل در نیروگاهِ P.** فصل‌های ۲۳ تا ۲۷ نیروگاه را ساختند، حفاظت کردند و رفتارش را در برابرِ شبکه سنجیدند؛ این فصل آخرِ بخشِ پنجم است و همه را در **مطالعهٔ اتصال** گرد می‌آورد: آنچه بهره‌بردار می‌خواهد، آنچه هر مطالعه ثابت می‌کند، داده‌ای که لازم دارد، کسی که آن را تأیید می‌کند و شاهدی که الزام را می‌بندد. تحویل‌دادنی: فهرستِ ورودیِ مطالعه، ماتریسِ انطباق و مبنای مطالعهٔ شبکه با تصمیمِ [D-032]{.ltr}.
+
+::: {.callout-warning}
+## مرزِ این فصل
+هیچ الزامِ کشوری این‌جا فرض نشده است: هر الزام یک جایگاه‌دارِ آموزشی «[REQ-G..]{.ltr}» برای کدِ بهره‌بردار است ([U-102]{.ltr}). شبکه، مدل‌ها و نتیجه‌ها **آموزشی**اند ([A-341]{.ltr} تا [A-348]{.ltr})؛ مطالعهٔ واقعی با مدلِ شبکهٔ بهره‌بردار، مدل‌های اعتبارسنجی‌شدهٔ سازندگان و نرم‌افزار و روشِ پذیرفته انجام می‌شود و مهندسِ دارای صلاحیت و بهره‌بردار آن را تأیید می‌کنند. آزمون‌ها فقط با هدف و شاهدشان نام برده می‌شوند، نه با روالِ اجرا.
+:::
+
+{{< include /chapters/28/_28-a-process.qmd >}}
+
+{{< include /chapters/28/_28-a2-data.qmd >}}
+
+{{< include /chapters/28/_28-a3-models.qmd >}}
+
+{{< include /chapters/28/_28-a6-aggregate.qmd >}}
+
+{{< include /chapters/28/_28-a4-quality.qmd >}}
+
+{{< include /chapters/28/_28-a5-schedule.qmd >}}
+
+{{< include /chapters/28/_28-b-loadflow.qmd >}}
+
+{{< include /chapters/28/_28-b2-cases.qmd >}}
+
+{{< include /chapters/28/_28-b3-reactive.qmd >}}
+
+{{< include /chapters/28/_28-b8-voltage.qmd >}}
+
+{{< include /chapters/28/_28-b4-losses.qmd >}}
+
+{{< include /chapters/28/_28-b5-sc.qmd >}}
+
+{{< include /chapters/28/_28-b6-protection.qmd >}}
+
+{{< include /chapters/28/_28-b9-earth.qmd >}}
+
+{{< include /chapters/28/_28-b7-validation.qmd >}}
+
+{{< include /chapters/28/_28-b10-locus.qmd >}}
+
+{{< include /chapters/28/_28-b11-night.qmd >}}
+
+{{< include /chapters/28/_28-b12-check.qmd >}}
+
+{{< include /chapters/28/_28-b13-life.qmd >}}
+
+{{< include /chapters/28/_28-c-frt.qmd >}}
+
+{{< include /chapters/28/_28-c2-freq.qmd >}}
+
+{{< include /chapters/28/_28-c3-vcontrol.qmd >}}
+
+{{< include /chapters/28/_28-c4-islanding.qmd >}}
+
+{{< include /chapters/28/_28-c5-restore.qmd >}}
+
+{{< include /chapters/28/_28-c6-tests.qmd >}}
+
+{{< include /chapters/28/_28-c7-predict.qmd >}}
+
+{{< include /chapters/28/_28-c8-limit.qmd >}}
+
+{{< include /chapters/28/_28-c9-qu.qmd >}}
+
+{{< include /chapters/28/_28-c10-signals.qmd >}}
+
+{{< include /chapters/28/_28-c11-trip.qmd >}}
+
+{{< include /chapters/28/_28-c12-intertrip.qmd >}}
+
+{{< include /chapters/28/_28-d-lab.qmd >}}
+
+{{< include /chapters/28/_28-d2-log.qmd >}}
+
+{{< include /chapters/28/_28-d3-living.qmd >}}
+
+{{< include /chapters/28/_28-d4-report.qmd >}}
+
+{{< include /chapters/28/_28-e-weak.qmd >}}
+
+{{< include /chapters/28/_28-e2-gfm.qmd >}}
+
+{{< include /chapters/28/_28-e3-lowfault.qmd >}}
+
+{{< include /chapters/28/_28-e4-resync.qmd >}}
+
+{{< include /chapters/28/_28-e5-terminal.qmd >}}
+
+{{< include /chapters/28/_28-f-envelope.qmd >}}
+
+{{< include /chapters/28/_28-f2-interact.qmd >}}
+
+{{< include /chapters/28/_28-f3-versions.qmd >}}
+
+{{< include /chapters/28/_28-f4-bess.qmd >}}
+
+{{< include /chapters/28/_28-f5-change.qmd >}}
+
+{{< include /chapters/28/_28-f6-uq.qmd >}}
+
+{{< include /chapters/28/_28-f7-handover.qmd >}}
+
+{{< include /chapters/28/_28-g-export.qmd >}}
+
+{{< include /chapters/28/_28-g4-alternatives.qmd >}}
+
+{{< include /chapters/28/_28-g5-charges.qmd >}}
+
+{{< include /chapters/28/_28-g2-contingency.qmd >}}
+
+{{< include /chapters/28/_28-g3-data.qmd >}}
+
+{{< include /chapters/28/_28-k-mfg.qmd >}}
+
+{{< include /chapters/28/_28-y-plantp.qmd >}}
+
+{{< include /chapters/28/_28-z-assessment.qmd >}}

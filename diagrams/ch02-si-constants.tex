@@ -1,0 +1,43 @@
+% Chapter 2 — the seven defining constants of the SI (exact since 2019) and the seven base units.
+% Solid arrow: the constant that fixes the unit; dashed: other units the definition uses.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    c/.style={blk, minimum width=50mm, minimum height=9mm, inner sep=2pt, fill=cFill},
+    u/.style={blk, minimum width=30mm, minimum height=9mm, inner sep=2pt, fill=white, draw=cInk},
+    dep/.style={-{Stealth[length=1.6mm]}, draw=cMuted, line width=0.45pt, densely dashed}]
+
+  \node[note, text=cInk, font=\small\bfseries] at (0, 1.1) {ثابت‌های تعریف‌کننده (مقدارِ دقیق)};
+  \node[note, text=cInk, font=\small\bfseries] at (7.2, 1.1) {یکاهای پایه};
+
+  \node[c] (cs) at (0, 0)    {$\Delta\nu_\text{Cs} = 9\,192\,631\,770\ \text{Hz}$};
+  \node[c] (cc) at (0,-1.2)  {$c = 299\,792\,458\ \text{m/s}$};
+  \node[c] (ch) at (0,-2.4)  {$h = 6.626\,070\,15\times10^{-34}\ \text{J s}$};
+  \node[c] (ce) at (0,-3.6)  {$e = 1.602\,176\,634\times10^{-19}\ \text{C}$};
+  \node[c] (ck) at (0,-4.8)  {$k = 1.380\,649\times10^{-23}\ \text{J/K}$};
+  \node[c] (cn) at (0,-6.0)  {$N_\text{A} = 6.022\,140\,76\times10^{23}\ \text{mol}^{-1}$};
+  \node[c] (cl) at (0,-7.2)  {$K_\text{cd} = 683\ \text{lm/W}$};
+
+  \node[u] (us) at (7.2, 0)    {ثانیه، $\text{s}$ (زمان)};
+  \node[u] (um) at (7.2,-1.2)  {متر، $\text{m}$ (طول)};
+  \node[u] (ukg) at (7.2,-2.4) {کیلوگرم، $\text{kg}$ (جرم)};
+  \node[u] (ua) at (7.2,-3.6)  {آمپر، $\text{A}$ (جریان)};
+  \node[u] (uk) at (7.2,-4.8)  {کلوین، $\text{K}$ (دما)};
+  \node[u] (umol) at (7.2,-6.0) {مول، $\text{mol}$ (مقدارِ ماده)};
+  \node[u] (ucd) at (7.2,-7.2) {کاندلا، $\text{cd}$ (شدتِ نور)};
+
+  \foreach \a/\b in {cs/us, cc/um, ch/ukg, ce/ua, ck/uk, cn/umol, cl/ucd}
+    \draw[flow] (\a.east) -- (\b.west);
+
+  % secondary dependencies on the right-hand side of the unit column
+  \draw[dep] (us.east) .. controls +(0.9,-0.2) and +(0.9,0.2) .. (um.east);
+  \draw[dep] (um.east) .. controls +(0.9,-0.2) and +(0.9,0.2) .. (ukg.east);
+  \draw[dep] (us.east) .. controls +(2.0,-0.6) and +(1.7,0.4) .. (ua.east);
+  \draw[dep] (ukg.east) .. controls +(1.4,-0.5) and +(1.4,0.5) .. (uk.east);
+  \draw[dep] (ukg.east) .. controls +(2.4,-1.4) and +(2.2,0.6) .. (ucd.east);
+
+  \node[note, anchor=north, text width=120mm] at (3.6,-8.0)
+     {پیکانِ پُر: ثابتی که یکا را تعریف می‌کند. خط‌چین: یکاهای دیگری که در تعریف به‌کار رفته‌اند
+      (مثلاً متر با $c$ و ثانیه تعریف می‌شود). عددها از سال ۲۰۱۹ دقیق‌اند و عدمِ قطعیت ندارند.};
+\end{tikzpicture}}
+\end{document}

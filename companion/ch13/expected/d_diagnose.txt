@@ -1,0 +1,22 @@
+the 80 m cup against its neighbours (logged year, A-251):
+  by month         80/100   60/100
+  Jan              0.9473   0.8936
+  Feb              0.9169   0.8886
+  Mar              0.9291   0.8852
+  Apr              0.9376   0.8893
+  May              0.9369   0.8952
+  Jun              0.9398   0.8855
+  Jul              0.9293   0.8963
+  Aug              0.9205   0.8885
+  Sep              0.9230   0.8860
+  Oct              0.9025   0.8841
+  Nov              0.8876   0.8842
+  Dec              0.9071   0.8849
+  by direction: the 80/100 ratio dips in the sectors 300-330 and
+    330-360 (0.872, 0.902) against 0.939 elsewhere; 60/100 is flat
+  from July, low winds read lower still: 80/100 = 0.892 below 5.5 m/s, 0.917
+    above 8 m/s
+  diagnosis: (1) mast shadow on the 80 m boom for winds from
+  300-340 deg (boom on the wrong side for the prevailing wind);
+  (2) bearing wear from July: a growing loss and a higher
+  starting threshold. The 60 m cup and the vane agree with 100 m

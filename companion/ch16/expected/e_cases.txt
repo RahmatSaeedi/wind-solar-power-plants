@@ -1,0 +1,9 @@
+financing cases (teaching terms A-281; k u = thousand units):
+  case      energy GWh   CFADS k u   ratio   debt it allows k u
+  P50          295.14      10,757    1.30         80,365
+  P90 1y       275.93       9,796    1.20         79,287
+  P99 1y       260.26       9,013    1.05         83,369
+  debt 79,287 k u, set by the P90 1y case; yearly service 8,164 k u
+  cover ratio of the P50 case at that debt: 1.32
+  the binding case decides the debt: here P90 1y; the others
+  have room to spare

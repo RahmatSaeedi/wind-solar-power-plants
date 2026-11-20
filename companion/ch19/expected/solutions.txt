@@ -1,0 +1,70 @@
+P01: energy of a 280 Ah, 3.2 V cell: 0.896 kWh
+P02: NMC 100 Ah x 3.7 V: 0.370 kWh
+P03: module of 16 cells, 3.2 V: 51.2 V
+P04: rack of 400 cells at 3.65 V: 1,460 V
+P05: cells in series for 1,500 V at 3.6 V: 416
+P06: C-rate of 30 MW on 60 MWh: 0.50 C
+P07: hours inside 10-90 % at 0.5 C: 1.6 h
+P08: I^2R of 314 A in 0.25 mohm: 24.6 W
+P09: one-way efficiency of 86 % round trip: 0.927
+P10: usable of 40 MWh in 5-95 %: 36 MWh
+P11: SOC error of 2 mV at 1 mV/%: 2 %
+P12: SOC error of 2 mV at 7.5 mV/%: 0.27 %
+P13: offset 0.05 A for 30 days in 314 Ah: 11.5 %
+P14: calendar fade 0.02 sqrt(9): 0.06
+P15: cycles to end of life at 50 % depth: 9,849
+P16: loss per year, 365 cycles at 100 % depth: 1.82 %
+P17: health after 12 years at 2 %/yr: 76 %
+P18: year when 2 %/yr reaches 84.2 %: 7.9
+P19: nominal for 20 MWh at the POC, health 0.8: 33.7 MWh
+P20: DC power for 20 MW at 0.927: 21.6 MW
+P21: charge needed for 25 MWh at 86 %: 29.1 MWh
+P22: heat of 4,992 cells at 9.5 W: 47.4 kW
+P23: end-of-life heat at x 1.8: 85 kW
+P24: envelope gain 1.5 kW/K x (40 - 25) K: 22.5 kW
+P25: container DC bus, 12 racks x 12.5 kA: 150 kA
+P26: accept a 1 % lot with n 50, c 0: 0.605
+P27: chance one cell is in a sample of 125 of 2,000: 6.25 %
+P28: OCV drop for 60 mA, 7 days, at 30 % SOC: 3.45 mV
+P29: expected cells, p 0.5, chain of 26 each side: 3.00
+P30: minutes to the module edge at 20 min a cell: 520
+P31: throughput of 365 cycles of 32 MWh: 11,680 MWh
+P32: trucks for 220 t at 20 t: 11
+P33: present cost of 1,000 k u in year 8 at 6 %: 627 k u
+P34: price after 8 years at -4 %/yr: 180.3 k u/MWh
+P35: charge power at 0.2 C, 3.3 V, 39,936 cells: 8.3 MW
+P36: cost per MWh at 6 h: Li-ion 275, flow 220 k u
+P37: cross-over (600 - 150) / (250 - 120): 3.46 h
+P38: pre-charge resistor for 10 A at 1,331 V: 133.1 ohm
+P39: time constant 66.5 ohm x 20 mF: 1.33 s
+P40: energy of 20 mF at 1,000 V: 10.0 kJ
+P41: leakage at 50 kohm, 1,498 V: 30.0 mA
+P42: auxiliary share 567 / 10,817: 5.2 %
+P43: standby week 8.97 of 32.1 MWh: 27.9 %
+P44: limit 1.5 mV in sd of the leaky cells (3.45, 0.5): 3.9
+P45: pulse resistance rise 0.25 to 0.293 mohm: 17 %
+P46: warranty floor in year 6 at 2.5 %/yr: 34.11 MWh
+P47: Faraday for M 96.5 g/mol: 278 mAh/g
+P48: LFP for 280 Ah at 170 mAh/g: 1.65 kg
+P49: busbar current at 0.25 C: 928 A
+P50: capacity error, SOC errors 0.5 % each over 60 %: 1.18 %
+P51: battery area with s 4 m: 547 m2
+P52: discharge time of 29.8 MWh at 15 MW: 1.99 h
+P53: energy on a truck at 20 % SOC: 1.00 MWh
+P54: usable of 40.13 MWh in 15-85 %: 28.1 MWh
+P55: cycles, DC / nominal: 291
+P56: rise with 2 of 3 units of 60 kW: -0.3 K/h (falls)
+P57: balancing 2 % of 314 Ah at 150 mA, 2 h a day: 21 days
+P58: spares mean, 768 x 0.003 x 16/52: 0.71
+P59: usable at the POC at 73.6 % health: 21.9 MWh
+P60: energy lost a year to a 2 % SOC margin: 543 MWh
+P61: reserve 3 MWh, shifting lost: 1,015 MWh a year
+P62: reversible heat at 0.10 mV/K, 157 A, 298 K: 4.68 W
+P63: rise at 0.8 K/W and 9.9 W: 7.9 K
+P64: Arrhenius 25 to 30 C, 0.5 eV: x 1.38
+P65: yearly cost of 13,032 k u at 8 %, 15 y, 2 % opex: 1,783 k u
+P66: two detectors, rate 0.1, test 6 months: 0.083 %
+P67: local isolation 1 + 0.5 + 0.05: 1.55 s
+P68: wear cost 20 u on 10,357 MWh: 207.1 k u
+P69: losses of 100 MWh through, half each way: 7.5 MWh
+P70: calendar fade 9 months at 25 C, 50 %: 1.73 %

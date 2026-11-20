@@ -1,0 +1,14 @@
+the floating 110 V control battery: pole voltages to earth
+  state                          + pole V   - pole V
+  healthy (balance resistors)          55        -55
+  earth fault on the + pole             0       -110
+  earth fault on the - pole           110          0
+  second fault: the wire between an OPEN trip contact and the
+  trip coil touches earth while the + pole is already earthed:
+    the coil sees 110 V, its pick-up is about 66 V -> the breaker
+    trips with no protection operating
+  one earth fault on a floating system does nothing but an
+  alarm; two together can trip or block a breaker - so the
+  insulation monitor alarms on the first, and the first is
+  found and cleared before a second can join it (ch 26,
+  lab E: a standing alarm nobody sees is no alarm)

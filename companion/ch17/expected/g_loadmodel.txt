@@ -1,0 +1,13 @@
+a load model on temperature and calendar (trained Jan-Aug, tested
+  Sep-Dec, synthetic load A-284):
+  coefficients: base 22.55 MW, cooling 1.35 MW per degree, heating 0.36,
+    working hours 7.96 MW
+  test RMSE 2.75 MW (10.6 % of the mean); test bias +0.68 MW
+  a year 1.5 C hotter: peak 52.93 -> 54.96 MW, energy 247.2 -> 250.9 GWh
+  cooling comes out at 1.35 MW per degree although the data were
+  built with 0.9: the summer pumping rises with the heat and the
+  model gives it to cooling (confounding); a meter per component
+  or a pumping flag separates them
+  the model explains the shape, not the future: growth, new
+  loads and a changed climate are scenarios on top of it, and a
+  real model is fitted on several years of measured data

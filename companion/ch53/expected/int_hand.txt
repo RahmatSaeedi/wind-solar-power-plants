@@ -1,0 +1,5 @@
+three numbers by hand
+  gearbox median remaining life: c((t/c)^k + ln 2)^(1/k) - t
+    = 150,000 x ((146,642/150,000)^2.5 + 0.693)^(1/2.5) - 146,642 = 36,096 h
+  100 k u a year for 7 years at 7.5%: present value 530 k u
+  sinking fund for 4,635 k u in 7 years at 4 %: 587 k u a year

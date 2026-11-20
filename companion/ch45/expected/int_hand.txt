@@ -1,0 +1,14 @@
+the S1 battery by hand (ch 19 build, teaching values)
+  39,936 cells x 314 Ah x 3.2 V = 40.13 MWh nominal
+  window 10%-90%: 32.10 MWh usable at the cells
+  20 MW of PCS: C-rate 0.50 on the nominal energy
+  round trip 86% at AC: about 29.8 MWh delivered from a full window
+  fade 2% a year (linear, teaching):
+  year   health   usable MWh
+     0     100%        32.10
+    10      80%        25.68
+    20      60%        19.26
+  check: 40 MWh nominal at 20 MW is a two-hour battery, and
+  the window keeps a fifth of it unused; the linear fade is a
+  teaching line - ch 19 restores the usable energy by
+  augmentation in years 8 and 13 (D-023)

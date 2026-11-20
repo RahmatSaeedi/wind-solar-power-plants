@@ -1,0 +1,7 @@
+UPS battery room by month (C); life is used at twice the rate
+  for each 10 K over 20 C
+   21  22  24  27  30  33  35  34  30  26  23  21
+  life used in the year: 1.74 design years
+  a 10-year battery lasts about 5.7 years in this room: the
+  fan fault of ch 50 is not a comfort issue but a battery
+  replacement brought forward (teaching halving rule)

@@ -1,0 +1,6 @@
+how precise is a P90? (one year):
+  P50 295.14, sigma 14.99 GWh, P90 275.93 GWh
+  sigma itself -20 %: P90 279.77 GWh
+  sigma itself +20 %: P90 272.08 GWh
+  an uncertainty known to about a fifth moves the P90 by about
+  3.8 GWh; report it as about 276 GWh, not to two decimals

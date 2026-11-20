@@ -1,0 +1,9 @@
+gearbox loss 106 kW at rated: two ways to measure it (teaching)
+  direct: input and output power, each to 0.3%
+  loss as a difference of two large numbers: +-22 kW
+    (21% of the loss)
+  back to back: the supply makes up 472 kW of losses (meter 0.2%)
+  machine losses known to 5%; one gearbox: +-4.6 kW (4.4%)
+  the rig measures the small number directly instead of
+  subtracting two big ones - its loss result is 5 times
+  sharper, which is why efficiency claims cite it

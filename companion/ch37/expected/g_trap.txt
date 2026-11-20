@@ -1,0 +1,9 @@
+a 24 h forecast 'corrected' by 288 fitted numbers (month x hour);
+  fitted on the even weeks, tested on the odd weeks (RMSE, MW)
+  forecast                   fitted weeks   held-out weeks
+  uncorrected                       15.17            15.74
+  corrected (288 numbers)           14.67            16.14
+  on the weeks it was fitted to, the correction removes
+  error; on weeks it has not seen it adds some back - it
+  learned the noise of its own weeks. Scores are only ever
+  taken on held-out data

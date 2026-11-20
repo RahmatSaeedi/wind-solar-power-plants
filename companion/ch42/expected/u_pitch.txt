@@ -1,0 +1,8 @@
+pitch drive of one blade (teaching moments)
+  blade and bearing friction moment 450 kN m
+  emergency feathering at 8 deg/s: 63 kW a blade
+  energy to feather 90 deg: 707 kJ a blade (0.59 kWh for three)
+  the rotor's safe stop rests on feathering with the grid
+  gone: each blade carries its own store (battery or
+  accumulator), sized and tested at the factory, and checked
+  in service - a weak store is a safety finding (ch 11)

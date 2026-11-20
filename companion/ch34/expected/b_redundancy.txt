@@ -1,0 +1,8 @@
+the plant controller PLC: one or a redundant pair (teaching rates)
+  one PLC: MTBF 150,000 h, MTTR 8 h: A = 0.999947, 28.0 min down a year
+  independent pair: 0.09 s down a year
+  pair with 5 % common cause: 1.40 min a year
+  the common cause (one power supply, one firmware bug, one
+  cabinet) sets the result, not the second CPU: separate
+  supplies, separate cabinets and a tested switch-over are
+  what make redundancy real (lesson E)

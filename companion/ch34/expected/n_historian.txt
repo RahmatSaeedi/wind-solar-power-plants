@@ -1,0 +1,11 @@
+historian storage a year (teaching; 12 bytes a stored sample)
+  group                    points   period s   GB a year raw
+  hard-wired points           300          1             114
+  fast network points       2,000          1             757
+  slow network points      18,000         10             681
+  raw 1,552 GB a year; with deadband compression keeping
+  one sample in ten: 155 GB
+  the compression deadband is a measurement decision: a
+  value stored only when it moves more than its deadband
+  loses what happens inside it - the deadband of each tag
+  is set from its accuracy (lesson A), not from disk size

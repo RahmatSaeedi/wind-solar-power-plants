@@ -1,0 +1,10 @@
+id,where,column,defect,expected_handling
+D1,2023-04-03 06:00,all,duplicated record,drop the copy
+D2,2023-04-03 14:10..14:50,all,five records missing,hour 14:00 incomplete; do not average
+D3,2023-04-04 03:20,ws60_avg,negative wind speed,flag 2
+D4,2023-04-04 10:10..12:00,ws80_avg,constant value (stuck),flag 2
+D5,2023-04-04 18:30,t_air,sentinel -9999,missing
+D6,2023-04-05 08:10..09:00,p_air,kPa written instead of hPa,convert x10 with flag 1 or reject
+D7,2023-04-05 20:10/20:20,timestamp,two records out of order,"sort, then check"
+D8,2023-04-05 02:10..03:00,ghi,small negative night values,set to 0 with flag 1
+D9,2023-04-03 21:00,wd100_avg,direction outside 0..360,flag 2

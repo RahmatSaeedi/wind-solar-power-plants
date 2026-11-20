@@ -1,0 +1,16 @@
+reactive-power budget at full output (teaching, A-286):
+  asked at the POC (pf 0.95 at 100 MW):    32.9 Mvar
+  used by main transformers (x 12 %, 2 x 63 MVA)  10.6
+  used by line reactance (2.82 ohm)                1.8
+  used by line charging (gives)                   -0.3
+  used by turbine transformers (x 6 %)             3.6
+  used by PV block transformers (x 6 %)            3.0
+  needed at the units                      51.5 Mvar
+  from wind turbines (0.33 of P at full output)   19.8
+  from PV inverters (0.30 of P at full output)    15.0
+  from battery inverters idle (20 MVA)            20.0
+  available                                54.8 Mvar
+  margin                                    3.3 Mvar
+  without the battery inverters the plant is short; with them
+  the margin depends on the battery being free to give Mvar;
+  a dedicated compensator is the other choice (chapter 27)

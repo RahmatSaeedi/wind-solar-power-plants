@@ -1,0 +1,6 @@
+inverter 4.2 MW at 98.5 % efficiency: losses 64 kW at full power
+  air warms 15 K; 300 Pa at sea level; fan efficiency 0.6 (A-064)
+  sea level        rho 1.20: air 3.54 m3/s, fan 1.77 kW
+  Plant P, 1200 m  rho 1.05: air 4.04 m3/s, fan 2.31 kW
+  thin air: the same heat needs 1.143 x the volume and 1.31 x the fan power
+  manufacturers derate equipment above a stated altitude for this reason

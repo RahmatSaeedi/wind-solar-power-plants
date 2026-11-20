@@ -1,0 +1,7 @@
+stored energy in an inverter DC link (design information)
+  10 mF at 1100 V holds 6.0 kJ
+  discharge resistor 10 kOhm: time constant 100 s
+  to fall below 50 V takes 309 s (about 5 minutes)
+  the maker's label gives the waiting time and the test bay
+  rules give who verifies absence of voltage and how; this
+  number only shows why the wait exists (ch 6, ch 32)

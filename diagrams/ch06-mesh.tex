@@ -1,0 +1,17 @@
+% Chapter 6 — mesh currents in the two-source circuit of the node example.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \draw (0,0) to[battery1, l={$10\,\text{V}$}, invert] (0,3)
+        to[R, l={$2\,\Omega$}] (3.5,3)
+        to[R, l={$3\,\Omega$}] (7,3)
+        to[battery1, l={$5\,\text{V}$}] (7,0) -- (0,0);
+  \draw (3.5,3) to[R, l_={$4\,\Omega$}] (3.5,0);
+  \draw[-{Stealth[length=2.4mm]}, cWind, line width=0.9pt] (2.3,1.0) arc (-60:240:0.75);
+  \node[text=cWind, font=\small] at (1.9,1.65) {$I_a$};
+  \draw[-{Stealth[length=2.4mm]}, cPV, line width=0.9pt] (5.8,1.0) arc (-60:240:0.75);
+  \node[text=cPV!80!black, font=\small] at (5.4,1.65) {$I_b$};
+  \node[note, text=cInk, anchor=north, align=center] at (3.5,-0.45)
+       {جریانِ شاخهٔ مشترک: \mbox{$I_2 = I_a - I_b$}};
+\end{tikzpicture}}
+\end{document}

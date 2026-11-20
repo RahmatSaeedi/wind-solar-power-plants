@@ -1,0 +1,10 @@
+mismatch strain at a ribbon joint (copper on silicon)
+  cycle                     dT K   strain %   relative life
+  test -40 to 85 C           125      0.180            1.0
+  hot summer day              45      0.065            7.7
+  mild day                    25      0.036           25.0
+  glass (9e-6/K) sits between copper and silicon: the
+  laminate bends as well as shears; with a Coffin-Manson
+  exponent of 2 a test cycle wears a joint like 8 hot days
+  or 25 mild ones - the basis of equation 41.17, and why
+  joint shape and solder, not only ribbon size, matter

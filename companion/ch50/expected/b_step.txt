@@ -1,0 +1,7 @@
+plant-controller step test: set point 40 -> 70 MW at the POC
+  rise (10-90 %) 4.8 s, required <= 6 s
+  settling (+/-5%) 7.3 s, required <= 15 s
+  overshoot 0.0% - pass
+  the test repeats ch 20's design case on the real plant: the
+  delay and the time constant measured here go back into the
+  validated model (REQ-G21)

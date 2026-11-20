@@ -1,0 +1,11 @@
+ECO-07 (relay firmware with the corrected trip logic) after S-05
+  cut-in at S-06; 5 skids already built
+  option                         cost k u   then
+  retrofit at the factory             2.4   one configuration, retest
+  retrofit at the site               10.8   one configuration, site test
+  leave as built (concession)        20.0   two configurations, 25 y
+  the retrofit before shipping is the cheapest and leaves one
+  configuration; a concession looks free today but every
+  spare, procedure and setting file must know which skid
+  has which firmware for 25 years - and a safety function
+  that is known wrong is never left by concession

@@ -1,0 +1,9 @@
+acceptance of the ten PCI-5500 at the factory, summarised
+  parameter fingerprints: 2 inverters differ (INV-04, INV-09)
+  thermal: module 38 at 87.6 C stands out - reprint and re-run
+  firmware test list: v1.0 12 of 12; v0.9 would have failed 1
+  end-of-line coverage: 1 tree item without a test (auxiliary supply)
+  decision: INV-04 and INV-09 ship after a reload with the
+  released set and a repeated functional test; the unit with
+  the hot module after the reprint and a new full-power run;
+  the hold-up test is added to the end-of-line list for all

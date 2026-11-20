@@ -1,0 +1,8 @@
+lifecycle footprint per kWh, boundary: cradle to grave of the plant
+(ch 33 inventory and operation, Monte Carlo of the factors)
+  case  GWh/yr     P5    P50    P95  g CO2e/kWh
+  S0     295.1   10.4   12.5   15.4
+  S1     293.5   11.1   13.3   16.2
+  the battery case overlaps the plant without it: the footprint
+  is reported with its boundary and range, and it does not
+  decide the battery (D-037); avoided emissions are kept apart

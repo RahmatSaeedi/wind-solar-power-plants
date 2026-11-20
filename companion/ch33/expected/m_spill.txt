@@ -1,0 +1,12 @@
+an oil spill outside a bund and what it costs (teaching)
+  spill: 2,000 L of transformer oil on sandy ground
+  soil holds about 30 L/m3: contaminated soil about 67 m3 = 113 t
+  the same spill inside a bund of 29.6 m3 (110 % of 22 m3 + 100 mm rain): 0 m3
+  response, in order: stop the source, contain (pads,
+    a sand bund), report, recover free oil, excavate,
+    test the walls and floor of the hole, record
+  a few hours of top-up outside the bund on a drip tray
+  and a hardstand avoid a hundred tonnes of hazardous
+  waste: the method statement (ch 49) puts the work where
+  a spill cannot reach the ground; the inventory and spill
+  kits are in ch 32

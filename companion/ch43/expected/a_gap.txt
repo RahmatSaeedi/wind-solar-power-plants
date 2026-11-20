@@ -1,0 +1,8 @@
+HV-LV gap of 75 mm at a teaching 100 kV across it
+  all oil: 1.33 kV/mm; strength of a 75 mm duct 2.43 -> margin 1.82
+  3 pressboard barriers of 3 mm: oil 1.42, board 0.71 kV/mm
+  ducts of 16.5 mm hold 4.25 kV/mm -> margin 3.00
+  the board (permittivity 4.4) pushes more stress into the oil
+  (2.2), yet thin oil ducts hold much more than one wide one:
+  barriers divide the gap - the stress curve is teaching; the
+  insulation levels and tests are the standard's and maker's

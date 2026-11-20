@@ -1,0 +1,7 @@
+common assumptions for both architectures:
+  resource and losses: model 15.1 (D-019), S1 battery 20 MW / 40 MWh
+  export limit 100 MW, 132 kV line 7.06 km, W2b collector
+  price 50 u/MWh (A-281); capex to a yearly cost at 6 %, 20 years,
+    plus opex 2 % a year: 107.2 u a year per k u
+  battery counted here only for energy that would be lost;
+  its market uses (chapters 19-21) are scored, not priced

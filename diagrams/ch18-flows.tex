@@ -1,0 +1,29 @@
+% Chapter 18 - yearly energy at the power-flow boundaries of Plant P (model 15.1, S0), flowing
+% right to left from the meters M1/M2 at the 33 kV bus to the revenue meter M4; the losses leave
+% downwards. Numbers from companion/ch18/expected/g_flows.txt (GWh a year).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=25mm, minimum height=11mm, align=center, text width=24mm},
+    l/.style={blkWarn, minimum width=23mm, minimum height=9mm, align=center, text width=22mm,
+              font=\footnotesize}]
+  \node[b, draw=cWind, fill=cWind!9] (w) at (13.0,0.8) {M1 باد\\$193.14$};
+  \node[b, draw=cPV, fill=cPV!9] (p) at (13.0,-0.8) {M2 خورشیدی\\$108.36$};
+  \node[b] (bus) at (9.6,0) {شینهٔ $33\,\text{kV}$\\$301.49$};
+  \node[b] (poc) at (6.0,0) {M3 پیش از حد\\$295.86$};
+  \node[b, draw=cLoad, fill=cLoad!8] (rev) at (2.4,0) {M4 صادراتِ خالص\\$295.14$};
+  \draw[flow] (w.west) -- (bus.east |- 0,0.3);
+  \draw[flow] (p.west) -- (bus.east |- 0,-0.3);
+  \draw[flow] (bus.west) -- (poc.east);
+  \draw[flow] (poc.west) -- (rev.east);
+  \node[l] (l1) at (8.6,-2.2) {تلفاتِ برقی\\$3.29$};
+  \node[l] (l2) at (6.0,-2.2) {مصرفِ داخلی\\$2.34$};
+  \node[l] (l3) at (3.4,-2.2) {بُرش\\$0.23$};
+  \node[l] (l4) at (0.8,-2.2) {قطعیِ شبکه\\$0.49$};
+  \draw[flowinfo] (7.8,0) -- (l1.north -| 7.8,0);
+  \draw[flowinfo] (7.4,0) .. controls (7.0,-1.0) .. (l2.north);
+  \draw[flowinfo] (4.2,0) -- (l3.north -| 4.2,0);
+  \draw[flowinfo] (3.8,0) .. controls (2.0,-0.9) .. (l4.north);
+  \node[note] at (6.0,1.4) {انرژی، گیگاوات‌ساعت در سال (مدلِ ۱۵٫۱، S0)};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,9 @@
+reactive power at zero output (night, calm) - what it costs
+  Q at the POC with the units idle (cables and line): +2.4 Mvar
+  hours of the data year with less than 1 MW of export: 710
+  units kept energised in Q mode: 367 kW of standby losses
+  energy for a year of Q-at-night readiness: 260 MWh (18 k u at 70 u/MWh)
+  a requirement for a Q range at zero output is met by the
+  units (if their makers allow Q mode at night), at this
+  energy cost - or by a small reactor or compensator; the
+  study prices both, the operator says if it is required

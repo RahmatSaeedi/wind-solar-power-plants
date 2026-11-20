@@ -1,0 +1,6 @@
+a 15-minute response of 10 MW asked of the battery (synthetic)
+  energy asked 2.500 MWh, delivered 2.401 MWh (96.1 %)
+  the step was fast and the start looks perfect; a 1 MW
+  derating after ten minutes is what costs the energy.
+  Power at the step and energy over the event are two
+  measures, and the requirement says which one is paid

@@ -1,0 +1,6 @@
+tower 100 m tapering from 5.0 to 3.5 m, C_d 0.6, power-law wind 11 m/s at hub
+  (A-076): drag 12 kN, base moment 0.64 MN m
+  rotor thrust 898 kN at 100 m gives 89.8 MN m: the tower adds 1 %
+  50-year wind 36.6 m/s at hub (p_gumbel), dense air: drag 152 kN, moment 8.3
+    MN m
+  in a storm the parked rotor's thrust falls and the tower's own drag matters

@@ -1,0 +1,12 @@
+hold-up of a 480 W, 24 V supply fed from 230 V AC (teaching)
+  bulk capacitor 940 uF charged to 325 V; stops below 200 V
+  load %   load W   hold-up ms
+     100      480           58
+      50      240          116
+      25      120          231
+  a supply's own capacitor bridges a few tens of
+  milliseconds at full load - enough for a switching
+  transient, not for a grid fault cleared in 150 ms
+  (ch 28); loading a supply to half its rating doubles
+  the bridge, but control that must ride through a fault
+  is fed from the battery or the UPS (lesson E)

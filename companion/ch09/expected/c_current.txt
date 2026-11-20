@@ -1,0 +1,7 @@
+current loop of one stack in the dq frame (per unit, A-158):
+  plant L 0.128 pu, R 0.005 pu; PI tuned for 300 Hz bandwidth
+  kp 0.7680, ki 9.425 (zero cancels the plant pole)
+  ideal : 0 -> 90 % in 1.22 ms, overshoot 0.0 %
+  delay : 0 -> 90 % in 0.76 ms, overshoot 14.4 %
+  the computation and PWM delay (1.5 samples) adds overshoot;
+  it limits how fast any converter current loop can be

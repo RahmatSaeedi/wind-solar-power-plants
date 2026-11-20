@@ -1,0 +1,16 @@
+weighted selection, scores 1 (poor) .. 5 (good), weights sum to 1 (A-059):
+  MV cable conductor: Al 4.20, Cu 3.20 -> Al
+    criteria cost, mass, jointing, size; weights 0.40, 0.20, 0.25, 0.15
+  cable insulation: XLPE 4.20, EPR 3.60, PVC 2.55 -> XLPE
+    criteria dielectric loss, max temp, cost, flexibility; weights 0.35, 0.30,
+    0.20, 0.15
+  PV pile in corrosive soil: HDG steel 3.65, thicker HDG 4.00, stainless 3.40
+    -> thicker HDG
+    criteria strength, corrosion life, cost, supply; weights 0.30, 0.35, 0.25,
+    0.10
+  fasteners near the coast: HDG 3.60, stainless A4 3.40, zinc-flake 3.80 ->
+    zinc-flake
+    criteria corrosion, galling risk, cost, preload control; weights 0.40,
+    0.20, 0.20, 0.20
+  scores are judgements: record who scored, on what evidence, and test
+    whether the winner changes when a weight moves by 0.1

@@ -1,0 +1,6 @@
+a hail storm (teaching 2% a year) damages 4 PV blocks at once,
+  20 days to re-module: expected 48 MWh a year
+  but 2,400 MWh in the year it happens
+  - no beta factor between blocks describes it: weather is its
+  own event in the tree, with insurance and module stock as
+  its remedies (ch 53 resilience)

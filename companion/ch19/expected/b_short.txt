@@ -1,0 +1,8 @@
+prospective short-circuit current (DC, teaching, A-290):
+  rack: 1,352 V over 108 mohm = 12.5 kA
+  container DC bus fed by 12 racks: 150 kA
+  each rack needs its own fuse and switch that can break its
+  own fault at up to 1,500 V DC; a fault on the shared DC bus
+  sees all racks at once, so the bus, its supports and the
+  PCS input are rated for that current; ratings and the
+  coordination come from the maker with test evidence

@@ -1,0 +1,13 @@
+how data quality sets the study's uncertainty (shares of the total)
+  item          cov    share   contribution to variance
+  modules       0.10    0.36                         11 %
+  turbines      0.30    0.24                         45 %
+  towers        0.20    0.12                          5 %
+  foundations   0.25    0.07                          3 %
+  cables        0.30    0.06                          3 %
+  others        0.40    0.15                         33 %
+  combined coefficient of variation: 11 %
+  with verified module data, the turbines and the mixed
+  'others' (structures, inverters, diesel, transport) carry
+  most of the variance: better data there narrows the
+  result most - effort goes where the variance is

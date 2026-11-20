@@ -1,0 +1,17 @@
+balanced load, pf 0.85 lagging; the analyser shows each current angle
+against its own voltage, and the per-phase power in pu of V I:
+  correct:
+    a   -31.8 deg +0.850; b   -31.8 deg +0.850; c   -31.8 deg +0.850; total
+    +2.550 of 2.550
+  CT b reversed:
+    a   -31.8 deg +0.850; b   148.2 deg -0.850; c   -31.8 deg +0.850; total
+    +0.850 of 2.550
+  CTs b and c swapped:
+    a   -31.8 deg +0.850; b  -151.8 deg -0.881; c    88.2 deg +0.031; total
+    +0.000 of 2.550
+  VTs b and c swapped:
+    a   -31.8 deg +0.850; b    88.2 deg +0.031; c  -151.8 deg -0.881; total
+    +0.000 of 2.550
+signatures: a reversed CT shifts one angle by 180 deg; swapped CTs or
+  swapped VTs move two angles by 120 deg and the total power collapses;
+  swapped VTs also show a reversed voltage sequence on the analyser

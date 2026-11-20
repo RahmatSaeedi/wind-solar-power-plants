@@ -1,0 +1,16 @@
+Iran dossier basis of Plant P (D-059):
+  1 49 statements, each with status and source (IR-01..49);
+    19 verified, 2 project-dependent, 28 to-confirm
+  2 counterparty SATBA under Art 61; IGMC stability standards to
+    be obtained; regional company and Tavanir for connection
+  3 land through SATBA and Agriculture Jihad; lease cap 20 %;
+    one year to start works; foreign eligibility to confirm
+  4 environment: DOE inquiry under the 1402 bylaw while it is in
+    force; hybrid-vs-two-plants reading and the 1405 bylaw to confirm
+  5 132 kV is a teaching assumption until the regional company
+    names the connection voltage
+  6 base case: no service revenue; sale route as scenarios until
+    PPA terms are known; sanctions by qualified counsel
+  7 21 written questions to 15 addressees (section D)
+  8 review by engineers and regulatory specialists familiar with
+    current practice in Iran before any use or publication

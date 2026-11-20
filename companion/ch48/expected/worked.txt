@@ -1,0 +1,8 @@
+E01 4-20 mA for 600 W/m2 on 0-1600: 10.00 mA
+E02 RSS of 15, 10, 10 and 4 W/m2: 21.0
+E03 chain error of 0.2, 0.2 and 0.5 %: RSS 0.57 %, worst 0.9 %
+E04 expected loss of 2.0 km, 2 connectors, 4 splices: 2.10 dB
+E05 int16 with scale 0.01 tops at: 327.67
+E06 sample for 95 % and 2 % defective: 149
+E07 offset of a clock 15 ms late against a 2 ms limit: beyond
+E08 spare share of 24 ports with 22 used: 8%

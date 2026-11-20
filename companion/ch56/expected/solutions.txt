@@ -1,0 +1,20 @@
+P01 facts: 44; verified 12, project-dependent 1, to-confirm 31
+P02 to-confirm on secondary sources only: 16
+P03 approval path (teaching): 10.0 months
+P04 critical path: S1 > S2 > S3 > S6 > S7 > S8
+P05 not verified on the critical path: S6, S8
+P06 grid inputs complete: 8%; missing 12 of 13
+P07 certificate items not shown: 5 of 12
+P08 open stages: AF-17 0, AF-14 6
+P09 services verified: 1 of 6
+P10 finance items verified: 2 of 9
+P11 open issues: 32 to 16 addressees
+P12 options with every constraint met and known: string inverters 0.3 MVA
+P13 current at 110 / 220 kV: 552 / 276 A
+P14 min DSCR with 9 months late: 0.03
+P15 generated domestically vs imported (Aug 2025, secondary): 250 vs 800 MW
+P16 contracts of 27 Mar 2025: 228.45 MW, AFN 20.7 bn (AF-32)
+P17 contracts of 11 Feb 2026: 845 MW (AF-33)
+P18 ESIA authorisation validity: 3 years (AF-35)
+P19 generation licence term in the 2016 law: up to 25 years (AF-06)
+P20 connection answer in the 2016 law: 40 business days (AF-13)

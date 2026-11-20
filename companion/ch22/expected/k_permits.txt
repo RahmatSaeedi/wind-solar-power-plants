@@ -1,0 +1,22 @@
+permit register as a network (generic categories, months from
+the month-14 review; teaching durations):
+  permit                       ends at month   slack
+  grid offer (late)                       16       1
+  ESIA approval                           19       0
+  land-use consent                        19       0
+  aviation clearance                      18       4
+  water abstraction                       18       4
+  transport permit                        16       6
+  grid connection agreement               18       1
+  construction permit                     22       0
+  generation licence                      22       0
+  all permits in hand at month 22; critical:
+    ESIA approval, land-use consent, construction permit, generation licence
+  validity against the start of building (month 28):
+    ESIA approval: valid 36 months, expires at month 55, margin 27
+    construction permit: valid 24 months, expires at month 46, margin 18
+  the permits sit inside the plan's 8 months, with the licence
+  as critical as the construction permit; each permit with a
+  validity is checked against the start of building, and the
+  real list, durations and validity come from the country's
+  rules (ch 55-57)

@@ -1,0 +1,7 @@
+region-2 control law: generator torque Q = k omega^2 (A-211):
+  k = 0.5 rho A R^3 Cp / lambda^3 = 3,604 kN m s2
+  at 8 m/s: omega 0.907 rad/s, k omega^2 = 2.963 MN m;
+  aerodynamic torque from BEM 2.963 MN m
+  equal torques hold the rotor at the optimum TSR without any
+  wind measurement: if the wind rises, aero torque exceeds k w^2
+  and the rotor speeds up until the two meet again

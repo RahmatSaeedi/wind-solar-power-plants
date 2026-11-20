@@ -1,0 +1,7 @@
+what plate-to-can marks are worth in one heat recall (teaching)
+  without marks every can of the farm is scanned: 480 cans, 173 k u
+  with marks and the heat register: 9 cans, 3.2 k u
+  marking all 480 cans at 6 minutes each: 5.8 k u
+  one recall pays for the marks many times over, before the
+  crane days of scanning erected towers are even counted -
+  traceability is bought in the factory and used on site

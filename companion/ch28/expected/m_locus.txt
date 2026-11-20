@@ -1,0 +1,13 @@
+harmonic voltage at the POC: nominal network against its locus
+  (sector up to 3 h |z1|, -75 to +85 deg; plant: line, transformers,
+  cable capacitance; emission currents teaching)
+  h    I_h A   U_h nominal %   U_h worst on locus %   worst at R, X ohm
+   5     6.6           0.515                  1.663        15,    174
+   7     4.4           0.498                  1.741        21,    243
+  11     2.6           0.531                  2.956        33,    382
+  13     2.2           0.615                  9.808        39,    451
+  with the nominal network the plant adds about half a per
+  cent; somewhere on the locus the network resonates with the
+  plant's own capacitance and the same currents give far
+  more - the operator's locus, not one impedance, is what the
+  harmonic study uses (ch 27 allocation, U-100)

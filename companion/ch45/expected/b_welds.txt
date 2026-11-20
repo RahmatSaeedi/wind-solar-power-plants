@@ -1,0 +1,8 @@
+laser welds of one module's busbars: 102 welds, current 157 A (0.5 C)
+  resistance median 20.1 uohm, limit 30 uohm (teaching)
+  welds over the limit: 2 (positions 34, 35)
+  heat: good weld 0.50 W, worst 1.50 W (3.0 x)
+  module drop over all welds: 331 mV
+  a cold weld conducts on day one and heats in service: the
+  resistance of every weld is measured and kept - a visual
+  check sees the bead, not the bond

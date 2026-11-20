@@ -1,0 +1,7 @@
+export transformer core of a_transformer: B 1.7 T, LV winding 175 turns
+  iron path 6 m, relative permeability 30 000 (assumed, A-063)
+  joint gap 0.0 mm: magnetising current peak  1.5 A = 0.11 % of rated 1010 A
+  joint gap 0.2 mm: magnetising current peak  3.1 A = 0.22 % of rated 1010 A
+  joint gap 1.0 mm: magnetising current peak  9.3 A = 0.65 % of rated 1010 A
+  a fraction of a millimetre of air needs as much magnetising as metres of
+    iron: core joints are stacked and interleaved to keep gaps tiny

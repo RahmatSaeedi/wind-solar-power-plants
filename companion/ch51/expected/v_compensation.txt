@@ -1,0 +1,9 @@
+curtailment compensation under the teaching contract (70 u/MWh)
+  grid operator, security of supply      166 MWh  compensated
+  grid operator, planned works            42 MWh  not compensated
+  plant, export-limit margin              18 MWh  not compensated
+  claim 11,620 u; its evidence: each instruction with its time
+  (round s repeat-back), the energy the plant could have given
+  in those hours (availability x resource, not the schedule),
+  and the meter - the rules are the contract's, verified
+  locally

@@ -1,0 +1,10 @@
+the use phase: average losses over the life of one unit
+  (load-loss factor 0.2, 25 years; grid factor 0.5 t/MWh, ch 33)
+  offer  avg kW   MWh lost   t CO2e if displaced   x built
+  U-A      12.3      2,694                 1,347       31
+  U-B      15.6      3,416                 1,708       36
+  U-C      13.5      2,956                 1,478       31
+  the losses dwarf the built footprint, and the loss
+  guarantee with its capitalisation (lesson D, ch 25)
+  already prices them - so the evaluation does not add
+  them again as carbon; it reports them beside it

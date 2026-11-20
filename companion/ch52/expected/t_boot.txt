@@ -1,0 +1,5 @@
+fleet availability from 8 outages in a year: 0.9979
+  bootstrap 90 % interval 0.9969 to 0.9987
+  the interval is wider than the gap between many targets and
+  results: one year of eight outages cannot show a 0.1 point
+  difference - the contract test needs years, or a margin

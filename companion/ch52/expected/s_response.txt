@@ -1,0 +1,6 @@
+HV contractor: hours from call to arrival, twelve call-outs (agreed 4 h)
+   1.5  2.0  3.5  6.0  2.5  9.0  3.0  2.2  4.5  1.8 12.0  3.2
+  late 4 of 12; median 3.1 h, worst 12 h
+  the median meets the agreement and the tail does not: the
+  agreement states a percentile (e.g. 90 % within 4 h) and a
+  maximum, or the worst nights are not covered at all

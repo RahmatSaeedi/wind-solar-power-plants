@@ -1,0 +1,32 @@
+power-curve measurement from 8,064 ten-minute records (A-233):
+  status: normal 7,481, curtailed 324, iced 111, unavailable 148
+  normalised to 1.056 kg/m3, bins 0.5 m/s, at least 10 records: 35 bins
+  bin m/s   records   measured kW   std kW   model kW
+    3.76      361          220        49        219
+    4.25      376          335        53        331
+    4.75      379          469        58        471
+    5.25      404          640        70        638
+    5.76      408          841        82        840
+    6.24      380         1069        90       1068
+    6.76      390         1363       109       1361
+    7.24      374         1672       119       1665
+    7.75      380         2049       139       2044
+    8.24      378         2457       154       2458
+    8.75      332         2920       165       2924
+    9.23      328         3394       175       3392
+    9.75      253         3884       161       3878
+   10.24      244         4265       144       4267
+   10.74      208         4548       138       4562
+   11.25      188         4760       123       4758
+   11.73      183         4865       120       4870
+   12.23      135         4921       136       4936
+   12.74      121         4963       134       4970
+   13.22       92         4968       116       4985
+   13.76       78         5004       134       4994
+   14.24       60         5007       132       4997
+  energy at a Rayleigh mean of 7.0 m/s: measured 16,648 MWh, model 16,647 MWh
+    ratio 1.000; without filtering and normalisation 16,167 MWh (0.971)
+  uncertainty: scatter (type A) 12 MWh (0.07 %); anemometer (type B) 632 MWh
+    (3.8 %)
+  the wind-speed measurement, not the number of records,
+  limits the accuracy of a power-curve test

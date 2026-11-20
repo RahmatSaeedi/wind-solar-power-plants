@@ -1,0 +1,11 @@
+inventory of Plant P's one-line (with one PV block's DC side):
+  branches by kind:
+    breaker 17, cable 26, dc cable 1, dc switch 1,
+    disconnector 2, inverter 1, line 1, transformer 30
+  buses by voltage:
+    0.4 kV 2, 0.6 kV 10, 0.69 kV 16, 1.5 kV 3, 33 kV 40, 132 kV 8
+  buses by owner: open (U-065) 2, plant 75, utility 2
+  protection zones: 42
+  isolation points: 19
+  the drawing shows the same facts; the data lets a program
+  count, trace and check them, and both must agree

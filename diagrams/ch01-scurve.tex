@@ -1,0 +1,16 @@
+% Chapter 1 — cumulative spend over the project (fictional profile): the S-curve.
+% Data: diagrams/data/ch01-scurve.csv
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=115mm, height=64mm,
+      xlabel={ماه از آغازِ پروژه}, ylabel={هزینهٔ انباشته (درصدِ سرمایه)},
+      xmin=0, xmax=60, ymin=0, ymax=105, xtick={0,10,...,60}, ytick={0,25,50,75,100}]
+    \addplot[sInk] table[x=month, y=cumulative_pct, col sep=comma] {data/ch01-scurve.csv};
+    \draw[sLimit] (axis cs:30,0) -- (axis cs:30,100);
+    \node[note, anchor=south east] at (axis cs:29.5,80) {تصمیمِ نهاییِ سرمایه‌گذاری};
+    \node[note, anchor=south west, text width=34mm] at (axis cs:1,10) {توسعه: حدودِ ۳٪ در ۳۰ ماه، همه در خطر};
+    \node[note, anchor=north west, text width=30mm] at (axis cs:47,60) {تدارکات و اجرا: ۹۷٪ در ۲۶ ماه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

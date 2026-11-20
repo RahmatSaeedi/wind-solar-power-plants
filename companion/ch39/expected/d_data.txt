@@ -1,0 +1,9 @@
+supplier data schedule: 14 items committed and valid
+  offer   share   missing or not valid
+  U-A      93 %   I13
+  U-B      57 %   I09, I10, I11, I12, I13, I14
+  U-C      86 %   I12, I14
+  a delivery defined as 'documents' would accept all three;
+  defined as data items with a schema, an update duty and
+  the right to use them, none meets it in full - U-A lacks
+  only the update duty, which is negotiated before award

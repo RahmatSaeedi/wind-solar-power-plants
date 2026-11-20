@@ -1,0 +1,13 @@
+three-stage gearbox at rated speed 11.5 rpm (A-229):
+  stage         teeth                 ratio  input Hz   mesh Hz
+  planetary 1   sun 21, ring 99        5.714     0.192     18.98
+      3 planets x 39 teeth, planet pass 0.575 Hz, spacing ok
+  planetary 2   sun 23, ring 97        5.217     1.095    106.24
+      3 planets x 37 teeth, planet pass 3.286 Hz, spacing ok
+  parallel      wheel 101, pinion 30   3.367     5.714    577.14
+      pinion 30 teeth
+  total ratio 100.37: generator 1154 rpm (19.24 Hz)
+  equal planet spacing needs (sun + ring) / planets to be a
+  whole number; the first planet-pass frequency equals 3P
+  (0.575 Hz): condition monitoring must tell them apart
+  by order analysis (frequencies divided by shaft speed)

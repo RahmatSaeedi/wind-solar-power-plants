@@ -1,0 +1,6 @@
+mutant                               weak tests   strong tests
+  '<= 0 or'        -> '< 0 or'           survived     killed
+  'hours=8760'     -> 'hours=8784'       survived     killed
+  '/ (rated_mw'    -> '* (rated_mw'      killed       killed
+  'or hours <= 0'  -> 'and hours <= 0'   survived     killed
+  'raise ValueError' -> 'return 0.0  #'    survived     killed

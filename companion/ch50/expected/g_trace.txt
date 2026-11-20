@@ -1,0 +1,14 @@
+ch 28's 24 grid requirements traced to commissioning results
+  no test planned: REQ-G11, REQ-G18, REQ-G22, REQ-G24
+  planned, no result yet: REQ-G10, REQ-G20, REQ-G21
+  failed: REQ-G01
+    REQ-G11: RoCoF withstand
+    REQ-G18: short-circuit contribution data
+    REQ-G22: stable at minimum grid strength
+    REQ-G24: fast frequency response, contracted
+    REQ-G01: reactive capability at the POC
+  four requirements have no test in the programme - the
+  network operator's acceptance needs an answer for each
+  (a test, a type test, a declaration it accepts); the
+  capability failure is DEV-11; a model not yet validated
+  (G21) holds the final operational notice

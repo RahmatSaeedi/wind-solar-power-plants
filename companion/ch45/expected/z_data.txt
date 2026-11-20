@@ -1,0 +1,7 @@
+BMS points: 39,936 cell voltages and 9,984 temperatures, every 1 s
+  raw data 200 kB/s (17.3 GB a day) - kept in the container's own store
+  to SCADA: 12 summaries a module (min, max, mean, balancing duty, ...):
+    36.9 kB/s
+  the plant network carries the summaries and the alarms; the
+  raw data stays local and is fetched for an investigation -
+  the split is part of the point list (ch 35)

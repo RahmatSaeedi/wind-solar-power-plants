@@ -1,0 +1,35 @@
+Part X diagnostic test - computed answers
+M137: ride-through at 0 pu (test): every source allows 150 to 100 ms, feasible
+    False - an empty range is a written question, not a designer's choice
+M138: pf 0.95 at the POC: 32.87 Mvar at 100 MW, 6.57 at 20 MW; a fixed +/-33
+    Mvar rule asks 5 times more at 20 MW - the form of the rule is read from
+    the official text
+M139: rule changes 0.5 a year (test), 18 months to energisation: P(at least
+    one) = 53% - the register is watched, not filed
+M140: trace of one requirement over 7 stages: missing approval, retained - a
+    passed test is not compliance until it is accepted and its evidence kept
+M141: equipment against site needs (test): inverter A ok 2 fails 0 unknown 0;
+    inverter B ok 0 fails 1 unknown 1 - an unknown is never a pass
+M142: approvals (test): 11 months, critical S1 eligibility > S2 permit > S4
+    grid > S5 contract; S3 slack 2 month(s) - a to-confirm step on the
+    critical path gets the first letter
+M143: sources older than 3 years or undated on 2026-11-17 (test): X-01 15.7 y,
+    X-03 undated, X-04 3.5 y
+M144: verified share of the three dossiers: Iran 19/49 = 39%, Afghanistan
+    12/44 = 27%, Tajikistan 28/61 = 46% - the rest is project-dependent or to-
+    confirm, each with an addressee
+M145: dated reference -> IEC 62548-1:2023; undated -> IEC 62548-1:2023, Amd
+    1:2025 - a contract is written with dated references
+M146: verbal forms: requirement; recommendation (vague: adequate); permission
+M147: zero failures in n units shows < 1 % defective at 95 %: n = 299
+M148: winding rise 64.2 K, limit 65.0 K, U = 1.6 K (k = 2): simple rule
+    passes, guarded rule fails; chance the true rise exceeds the limit 16% -
+    the contract names the rule
+M149: P90 one year = 295.14 - 1.2816 x 14.99 = 275.9 GWh at the POC
+M150: prior 0.5 /yr worth 4 unit-years, then 3 failures in 20 unit-years
+    (test): posterior mean 0.208 /yr, 90 % interval 0.082 to 0.381
+M151: day-ahead error wind 10.3 MW, PV 3.0 MW: plant 10.73 MW if independent,
+    11.56 MW with correlation 0.3 (test) - errors add as RSS in MW, not as
+    percentages
+M152: capstone plan 63 months; civil works slack 2 months; civil works 3
+    months late -> 64 months - slack is spent before the end date moves

@@ -1,0 +1,13 @@
+% Chapter 4 — unpolarised reflectance of an air-glass interface (n = 1.5) against the angle
+% of incidence. Data: diagrams/data/ch04-fresnel.csv (examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=115mm, height=58mm,
+      xlabel={زاویهٔ تابش (درجه)}, ylabel={بازتاب},
+      xmin=0, xmax=90, ymin=0, ymax=1, xtick={0,15,...,90}, ytick={0,0.2,...,1}]
+    \addplot[sPV] table[x=deg, y=r, col sep=comma] {data/ch04-fresnel.csv};
+    \addlegendentry{شیشهٔ بی‌پوشش}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

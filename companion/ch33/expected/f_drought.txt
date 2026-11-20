@@ -1,0 +1,13 @@
+drought plan for the site wells (teaching triggers)
+  trigger                                        stage
+  level falls 0.5 m below the seasonal normal    watch
+      action: weekly levels, cut non-essential use
+  level falls 1.0 m or spring flow halves        restrict
+      action: washing paused or trucked, no dust water from wells
+  village well cannot meet demand                emergency
+      action: site pumping stops, water shared with the village
+  pausing washing saves about 2,548 m3 a year at the cost
+  of soiling losses (ch 10): the plant gives way first,
+  because the village has no other source - triggers and
+  actions are agreed with the water authority and the
+  village before the first dry year

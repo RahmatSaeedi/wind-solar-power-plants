@@ -1,0 +1,10 @@
+energy lost in year 18 by cause (9,310 MWh)
+  turbine major components       2,950   32%     206 k u
+  grid curtailment               2,200   24%     154 k u
+  turbine minor                  1,610   17%     113 k u
+  soiling                        1,150   12%      80 k u
+  inverters                        980   11%      69 k u
+  transformers and line            420    5%      29 k u
+  the largest: turbine major components - the one cause an intervention
+  can remove; curtailment is the grid's (ch 51) and soiling
+  the cleaning plan's (ch 52) - each goes to its owner

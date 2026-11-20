@@ -1,0 +1,98 @@
+E01: 100 MW at pf 1: 144.3 kA at 400 V, 1749.5 A at 33 kV, 437.4 A at 132 kV;
+    same conductor: losses x 108,900 (400 V vs 132 kV), x 16 (33 vs 132 kV)
+E02: zero crossings 3.0 ms apart: 54.0 deg at 50 Hz, 64.8 deg at 60 Hz
+E03: 49.8 Hz: period 20.08 ms; in one minute 2988 cycles instead of 3000 (12
+    lost); a mains clock lags 0.24 s
+E04: 2 kW heater at 230 V: R = 26.45 ohm, I = 8.70 A RMS, peak 12.30 A, p(t)
+    peak 4.0 kW
+E05: same heater on 230 V DC: 2.00 kW; on 325.3 V DC: 4.00 kW (peak taken for
+    RMS: double)
+E06: Z = 0.75 + j0.66 ohm = 0.999 /_ 41.35 deg; I = 460.4 /_ -18.19 deg; Z I =
+    460 /_ 23.16 deg = 422.9 + j180.9 V
+E07: 230 /_ 0 / (8 + j6) = 23 /_ -36.87 deg
+E08: 100 /_ 0 + 50 /_ -90 = 111.8 /_ -26.57 deg; sampled sum: peak 158.1 =
+    sqrt2 x 111.8
+E09: PV unit 87.48 /_ 0 + wind unit 92.08 /_ -18.19 = 177.3 /_ -9.33 deg
+    (arithmetic sum 179.56 A)
+E10: 10 mH at 50 Hz: X_L = 3.14 ohm
+E10b: 10 mH at 250 Hz: X_L = 15.71 ohm
+E11: 0.1 H on 230 V: X_L = 31.42 ohm, I = 7.32 A lagging 90 deg; peak stored
+    energy 5.36 J; mean power 0
+E12: 100 uF at 50 Hz: X_C = 31.83 ohm; on 230 V: 7.23 A leading, Q = 1.66 kvar
+    supplied
+E13: 5 Mvar bank at 33 kV (star): C = 14.61 uF per phase, current 87.5 A
+E14: 8 + j6 ohm on 230 V: |Z| = 10.0 ohm, I = 23.0 A, pf 0.80, angle 36.87 deg
+E15: 10 ohm || -j20 ohm: Y = 0.100 + j0.050 S, Z = 8.00 -4.00j ohm = 8.944 /_
+    -26.57 deg
+E16: 230 V source, Z_s 0.05 + j0.10, load 2 + j1 ohm: V_load = 221.1 /_ -1.65
+    deg, drop 3.89 %
+E17: series resonance on 230 V, R 2 ohm: I = 115 A; V_L = V_C = 3637 V = Q_f x
+    230 = 3637 V
+E18: L/R = 0.1/2 = 50 ms; after 5 tau = 250 ms the transient is below 0.7 %
+E19: 100 kW at 230 V: one phase 434.8 A (2 wires), three phases 144.9 A (3
+    wires); losses per ohm 378.1 vs 63.0 kW (1/6); copper for equal loss: 0.25
+E20: 1 + a + a^2 = 3.5e-16; swapping two phases turns abc into acb
+E21: balanced delta 30 ohm per branch = star 10 ohm per phase (Z_Y = Z_D / 3)
+E22: V_ab = V_a - V_b = 399.9 /_ 30.00 deg; sqrt3 x 230.9 = 399.9
+E23: unit transformer 33/0.69 kV: ratio 47.83; phase voltages 19,053 and 398.4
+    V; 5 MW at pf 0.95: 92.1 and 4,404 A
+E24-132: base 100 MVA, 132 kV: Z_base = 174.2 ohm, I_base = 437.4 A
+E24-33: base 100 MVA, 33 kV: Z_base = 10.89 ohm, I_base = 1,749.5 A
+E24-0.69: base 100 MVA, 0.69 kV: Z_base = 0.004761 ohm, I_base = 83,674.0 A
+E24-0.4: base 100 MVA, 0.4 kV: Z_base = 0.0016 ohm, I_base = 144,337.6 A
+E24t: export transformer 12 % on 120 MVA -> 10.0 % on 100 MVA
+E24f: feeder 0.75 + j0.66 ohm at 33 kV -> 0.0689 + j0.0606 pu on 100 MVA
+E25: grid 1000 MVA -> z 0.100 pu; + transformer 0.100 pu = 0.200 pu -> S_sc at
+    33 kV = 500 MVA
+E26: three 10 ohm loads: I_N = 1.1e-14 A; phase c load off: I_N = 23.0 A (one
+    phase current)
+E27: line voltages 400, 396, 404 V: max deviation / mean 1.00 %; from
+    magnitudes |V2|/|V1| = 1.155 %; by phasors 1.155 %
+E28: meter set to CT 300/5 on a 400/5 CT: shows 0.75 x true (-25 %)
+E29: three-wattmeter (4-wire) readings 4232, 4232, 4232 W; sum 12.70 kW
+E30: 100 kW pf 0.8 + 50 kW pf 1: S = 167.7 kVA (P 150, Q 75); |S1| + |S2| =
+    175.0 kVA
+E31: export 100 MW absorbing 20 Mvar: generator convention P +100, Q -20; load
+    convention at the meter P -100, Q +20
+E32: aux 180 kW pf 0.8 (Q 135 kvar): to pf 1 Q_c 135 kvar; a 194.2 kvar bank
+    would give pf 0.95 leading
+E33: aux 180 kW pf 0.80: 225.0 of 250 -> loading 90 %
+E33: aux 180 kW pf 0.95: 189.5 of 250 -> loading 76 %
+E33: export 100 MW pf 0.95: 105.3 of 120 -> loading 88 %
+E33: export 100 MW pf 0.90: 111.1 of 120 -> loading 93 %
+E34: 5.5 MVA at 690 V: rated current 4602 A; at 0.90 pu voltage the same
+    current gives 4.95 MVA
+E35: square wave: fundamental peak 1.2732 (4/pi = 1.2732); THD exact 48.34 %,
+    first 41 orders 47.10 %
+E36: order  1: phase b shifted  -120 deg = 240 deg -> positive
+E36: order  3: phase b shifted  -360 deg =   0 deg -> zero
+E36: order  5: phase b shifted  -600 deg = 120 deg -> negative
+E36: order  7: phase b shifted  -840 deg = 240 deg -> positive
+E36: order  9: phase b shifted -1080 deg =   0 deg -> zero
+E36: order 11: phase b shifted -1320 deg = 120 deg -> negative
+E36: order 13: phase b shifted -1560 deg = 240 deg -> positive
+E37: 5 % 5th-harmonic voltage on a capacitor: 5th current 0.25 pu; RMS 1.031
+    pu
+E38: export 273.3 GWh/yr (CF 0.312, ch 5); 0.2 % = 547 MWh = 27,331 u at 50
+    u/MWh
+E39: 256 samples per cycle at 50 Hz: 12.8 kHz; Nyquist 6.4 kHz = order 128
+E40: dip to 166 V (72 %) of 230 V: depth 28 %; 6 cycles at 50 Hz = 0.12 s
+E41: aux feeder 2 x 240 mm2, 80 m: R 3.02 mohm, X 3.20 mohm per phase; 252.7 A
+    at pf 0.873: drop 1.06 V = 0.46 % (three-phase, per phase)
+E42: with the 2.48 % of the transformer: about 2.9 % at the board
+E43: lighting circuit 16 A, 50 m of 2.5 mm2 (7.41 ohm/km): go and return 2 x
+    16 x 0.371 = 11.9 V = 5.2 %
+E44: same cable as a balanced three-phase circuit, 16 A per phase: 5.9 V per
+    phase = 2.6 % (no return drop)
+E45: S_sc 1000 MVA: dV/dQ ~ 1/S_sc = 0.10 % per Mvar; 10 Mvar -> 1.0 %
+E45: S_sc 500 MVA: dV/dQ ~ 1/S_sc = 0.20 % per Mvar; 10 Mvar -> 2.0 %
+E45: S_sc 250 MVA: dV/dQ ~ 1/S_sc = 0.40 % per Mvar; 10 Mvar -> 4.0 %
+E46: data sheet: 5.5 MVA, 690 V, max current 4400 A -> sqrt3 V I = 5.26 MVA at
+    690 V; 5.5 MVA needs 722 V (104.6 % of 690 V)
+E47: 5.0 MW AC at 98.5 % efficiency needs 5.076 MW DC; losses 76 kW to remove
+    as heat
+E48: current THD 3 % at 4184 A fundamental: harmonics 126 A RMS; total 4186 A
+E49: unbalanced loads of section B: P 20.70 kW; vector S 21.70 kVA (pf 0.954);
+    arithmetic S 21.88 kVA (pf 0.946)
+E50: LED current, V sinusoidal: S 1.436, P 1.000, Q1 0, distortion power D =
+    sqrt(S^2 - P^2 - Q1^2) = 1.031 pu

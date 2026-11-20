@@ -1,0 +1,18 @@
+% Chapter 15 - revenue of the four test months against the offered quantile of the day-ahead
+% forecast (no battery, teaching prices A-268); the theoretical best quantile is 1/3.
+% Data: diagrams/data/ch15-newsvendor.csv (companion/ch15/forecast2.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=0.05, xmax=0.95, ymin=3200, ymax=4500,
+      xlabel={کمیتِ عرضه‌شده}, ylabel={درآمدِ چهار ماه، هزار واحد},
+      xtick={0.1,0.2,...,0.9}, ytick={3300,3600,...,4500},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1},
+      yticklabel style={/pgf/number format/1000 sep={,}}]
+    \addplot[sInk, mark=*, mark size=1.3pt, mark options={solid}] table[x=tau, y=test, col sep=comma]
+      {data/ch15-newsvendor.csv};
+    \draw[sLimit] (axis cs:0.3333,3200) -- (axis cs:0.3333,4500);
+    \node[note, anchor=south west] at (axis cs:0.345,3350) {$\tau^* = 1/3$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

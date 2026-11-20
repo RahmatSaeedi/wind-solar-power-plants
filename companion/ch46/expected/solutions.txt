@@ -1,0 +1,64 @@
+P01 string WS1 loss and far-end drop: 62 kW, 0.61 %
+P02 drums rejected after correction / by raw reading: D403, D404, D406 / D401,
+    D402, D404, D405
+P03 low crimps and their tool: 2, B
+P04 drum D405 length by print and shortfall: 985 m, 15 m
+P05 panels to check for contact resistance: PVF1
+P06 panels over the pole-spread limit: WS3
+P07 states reachable, correct logic / forbidden reached with fault: 6 / 2
+P08 missing and extra connections in panel WS1: 3, 3
+P09 terminal-plan problems: 2
+P10 relays differing from the register: PVF2, SST
+P11 schedule problems: 6
+P12 one-line mapping gaps: 3
+P13 matrix checks needing a qualified person: 4
+P14 segment W001 by hand, current, loss, drop: 368 A, 19.5 kW, 0.140 %
+P15 peak field of the 240 / 630 mm2 cores: 3.24 / 2.95 kV/mm
+P16 peak field of 240 mm2 at a 7.1 mm thin spot: 3.55 kV/mm
+P17 drum ends failing the thickness rules: D402 in, D405 out
+P18 report findings / drums: 7 / 5
+P19 drums and cables under the C-17 notice: D404, D405, D406, D407; W013,
+    W017, W020
+P20 L-B ratio rise per 1000 cycles, cycles to 1.0: 0.31, 1147
+P21 Al, 20 kN, 1 spot / 10 spots: 3.51 / 1.11 micro-ohm
+P22 extra heat of PVF1 pole L2 at full output: 2.2 W
+P23 closing speed baseline / now: 1.00 / 0.75 m/s
+P24 leaking compartment and years to alarm: BESS-B, 5.4
+P25 ordered-vs-built differences: 3
+P26 CT records differing: PVF3, BESS-B
+P27 type-test gaps: 4
+P28 interface problems: 3
+P29 trip-matrix differences: 2
+P30 marker findings: 4
+P31 CT circuits not earthed once: PVF2/T1.1:S2, WS1/T1.2:S2
+P32 wiring days by hand / with tester: 14 / 12
+P33 panels held at the factory: SST, WS3
+P34 drawings owed a revision: TD-WS1-03, TD-BESS-05
+P35 circuits losing their drum, metres to re-order: 3, 2,350
+P36 records present / complete cables: 124/130, 21
+P37 terminations under the K-23 notice: 4
+P38 chance 8 of 40 drums find one of 3 bad: 49.8%
+P39 capacitance 240 / 400 / 630 mm2 from geometry: 0.218 / 0.262 / 0.311 uF/km
+P40 PD results not credible or missing: D406, D408
+P41 busbar rise at 1600 A (n 1.8), current at 65 K: 86 K, 1372 A
+P42 breakers flagged by ordinary / robust z: none / WS3
+P43 poles that rose from FAT to site: BESS-A L1
+P44 wires under the size rule: 4
+P45 FAT days and witnessed days: 3.2, 1.3
+P46 setting change without a record: month 3
+P47 revision C: added W027, removed W012, changed 2
+P48 drums of 1000 / 1500 / 2500 m and waste: 1000 x3 650 m; 1500 x2 650 m;
+    2500 x1 150 m
+P49 failure modes without a check: 2
+P50 drum resistance Cpk and expected share over the limit: 0.29, 19.4 %
+P51 coil voltage with 0.75 / 1.5 mm2: 84.8 / 89.4 V
+P52 line-up trip peak and spring recharge: 120 A, 96 A
+P53 cabinets below 10 % spare terminals: WS2, BESS-A
+P54 nameplates out of place: 2
+P55 string WS1 loss, schedule and as laid: 61.5, 64.8 kW
+P56 WS1 cables needing a joint as laid: W002
+P57 bending radius of the 630 mm2 cable and fit: 1440 mm, no
+P58 trip path before / after K5, margin left: 62.6 / 74.6 ms, 0.298 s
+P59 tests to repeat after the FAT changes: 14
+P60 D401 at 20 C with the core at 22 C: 0.0784 ohm/km
+P61 drop at the far turbine of WS1: 0.61 %

@@ -1,0 +1,8 @@
+on-load tap changer on the 132 kV star point (teaching):
+  step 1.25 % of 76.2 kV = 953 V; through current 276 A
+  step capacity at 120% current: 315 kVA per step
+  17 positions; at the star point the tap changer sits near earth
+  potential, which keeps its insulation small
+  the tap changer is chosen for current, step voltage and
+  step capacity with margin, and its type tests (STD-180)
+  are part of the transformer's evidence

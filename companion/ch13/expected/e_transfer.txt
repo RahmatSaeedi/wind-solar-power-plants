@@ -1,0 +1,7 @@
+a generic transfer function in place of the cup's certificate:
+  certificate  v = 0.04897 f + 0.207;  logger  v = 0.0495 f + 0.200
+  at 4 m/s: 4.034; at 8 m/s: 8.077; at 14 m/s: 14.142
+  mean speed of the year +0.95 %; energy +1.53 %
+  fix: back-calculate the frequency with the logger's factors
+  and apply the certificate's (records kept in the metadata);
+  never apply a correction twice

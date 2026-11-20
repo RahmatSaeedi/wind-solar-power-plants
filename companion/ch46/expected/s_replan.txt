@@ -1,0 +1,11 @@
+re-ordering 400 mm2 for 3 circuits (2,350 m) after the rejects
+  drum m   drums   cut waste m   fill
+    1000       3           650    78%
+    1500       2           650    78%
+    2500       1           150    94%
+  1,000 and 1,500 m drums leave the same 650 m; two 1,500 m
+  drums mean one drum fewer to ship and handle; one
+  2,500 m drum leaves only 150 m but carries all three circuits
+  on one drum (one delay holds three strings) and needs the
+  transport check of ch 24 - the choice is written into the
+  allocation table before the order

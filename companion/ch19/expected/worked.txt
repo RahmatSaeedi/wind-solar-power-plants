@@ -1,0 +1,14 @@
+E01: cell energy 314 Ah x 3.2 V: 1.0048 kWh
+E02: module 52 x 3.2 V: 166.4 V; rack 416 x 3.6 V: 1,497.6 V
+E03: C-rate 20 MW / 40 MWh: 0.50 C; current 157 A
+E04: heat per cell at 154 A in 0.4 mohm: 9.49 W
+E05: leak 60 mA for 7 days in 314 Ah: 3.21 % SOC
+E06: offset 0.5 A for 24 h in 314 Ah: 3.82 % SOC
+E07: Arrhenius, 0.5 eV, 25 to 35 C: x 1.88
+E08: usable at the POC, 40 x 0.8 x sqrt(0.86): 29.7 MWh
+E09: nominal for 25 MWh at health 0.70: 48.1 MWh
+E10: cycles to end of life at 80 % depth: 5,346
+E11: rack short circuit 1,352 V / 0.108 ohm: 12.5 kA
+E12: cells for 40 MWh of 18 Wh cells: 2,222,222
+E13: weakest-cell loss 308.0 of 314 Ah: 1.9 %
+E14: cells 39,936 x 5.5 kg: 220 t

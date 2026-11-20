@@ -1,0 +1,12 @@
+anchor-bolt cage under the tower (160 bolts on a 4.3 m circle; teaching)
+  extreme moment 185 MN m, weight 5.99 MN
+  pull on the worst bolt (4 M / n D - V / n): 1,036 kN
+  preload kN   joint closed in the extreme?
+         600   NO - it opens (margin 0.58)
+       1,000   NO - it opens (margin 0.97)
+       1,250   yes (margin 1.21)
+  the cage needs about 1,250 kN a bolt (margin 1.2): bigger bolts
+  or more of them; pretensioned anchors keep the concrete
+  under the flange in compression and the bolts' fatigue
+  range small - re-tensioning after the first months is in
+  the O&M plan

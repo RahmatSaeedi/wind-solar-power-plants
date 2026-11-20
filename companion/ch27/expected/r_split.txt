@@ -1,0 +1,12 @@
+where the plant's 5th-harmonic current goes at the 33 kV bus (teaching;
+  magnitudes as % of the injected current - branches out of
+  phase with each other can each exceed 100 %)
+  case             to the grid   to the cables   to the filter
+  no filter               114%             14%              0%
+  with filter              28%              3%             75%
+  without the filter all of it (and a little more, the cables
+  pushing against it) flows into the grid and makes a voltage
+  there; with it, most stays in the
+  plant - the filter must be rated for the plant's own 5th
+  AND the network's (lesson B, amplification), or it
+  overloads

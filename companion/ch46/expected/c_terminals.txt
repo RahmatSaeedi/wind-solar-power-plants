@@ -1,0 +1,7 @@
+terminal plan of strip X1/X2 checked from the wire list (teaching)
+  wire 106: an end has no terminal
+  terminal X1:3 carries wires 103, 104
+  2 problems: two wires on one terminal where the plan has
+  one (X1:4 left empty), and a wire with no far end; the check
+  runs on the list before anyone wires - a terminal plan and a
+  wire list that disagree are two drawings of two panels

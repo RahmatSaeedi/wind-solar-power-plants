@@ -1,0 +1,14 @@
+sheath bonding of a 132 kV single-core export cable (teaching):
+  standing voltage at the open end, single-point bonding,
+  trefoil s = 140 mm, sheath diameter 105 mm, I = 437 A:
+  length m   volts at full load   at a 20 kA fault
+       300                    8                370
+       500                   13                616
+       800                   22                986
+  both ends bonded: no standing voltage but a circulating
+  current and a loss in the sheaths; single-point bonding
+  stops the loss but leaves a voltage that must stay under a
+  touch limit and is clamped by sheath voltage limiters at
+  the open end; cross-bonding in three minor sections cancels
+  it on long routes - the choice and its limits are the
+  cable designer's (and touch safety is not a field trial)

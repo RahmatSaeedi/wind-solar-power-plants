@@ -1,0 +1,11 @@
+gust 18 -> 23 m/s in 4 s at rated speed (teaching gust, A-228):
+  controller       peak rpm  overspeed  max pitch rate  pitch travel
+                                         deg/s           deg
+  fixed (12 m/s)    11.94     3.80 %     1.30            5.0
+  scheduled 0.6     12.54     9.04 %     1.05            5.0
+  scheduled 0.8     12.23     6.31 %     1.19            5.1
+  pitch 14.6 -> 19.6 deg in all cases; limit 8 deg/s
+  fixed gains are stiffer at high wind: less overspeed but a
+  loop frequency that drifts towards the tower's (not modelled
+  here); with the schedule the designer chooses the frequency
+  once (0.6 or 0.8 rad/s) and it holds at every wind speed

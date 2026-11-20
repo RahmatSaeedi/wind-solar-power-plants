@@ -1,0 +1,6 @@
+hold on P103 (impact tested at 0 C): specimens of heat H5523 re-tested
+  at -20 C: 44 J, 39 J, 47 J; each >= 27 J: yes
+  the hold closes on this record, filed with the plate's certificate
+  and NCR-205; the structural engineer's acceptance is the last
+  line - but the same heat's lamination of round s is a
+  separate finding and keeps its own NCR open

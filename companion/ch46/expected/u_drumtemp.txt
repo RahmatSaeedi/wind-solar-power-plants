@@ -1,0 +1,11 @@
+drum D401: 0.079 ohm read with the air at 24 C;
+  the conductor inside may differ
+  conductor C   ohm/km at 20 C   verdict
+           24           0.0777   ok
+           22           0.0784   REJECT
+           20           0.0790   REJECT
+           18           0.0796   REJECT
+  a drum brought from the cold yard in the morning and read at
+  noon has a core cooler than the air: the same reading passes
+  at 24 C and fails at 22 C - the drum rests indoors long enough
+  for the core to reach the room, and the record says so

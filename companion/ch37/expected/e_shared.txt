@@ -1,0 +1,10 @@
+a 10 h substation outage stops all 12 turbines at once
+  turbine availability without it 98.41 %, with it 98.29 %
+  outages counted: 70 -> 82; one event in the substation
+    becomes 12 turbine events
+  is it a turbine outage at all? At turbine level it is
+  'external' (the turbines were ready); at plant level it
+  is one forced outage of the substation. The hierarchy
+  records it once, on the substation, and the turbine
+  hours point to it - or the turbines' failure rate rises
+  by an event none of them had

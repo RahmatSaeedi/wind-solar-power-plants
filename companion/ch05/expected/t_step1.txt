@@ -1,0 +1,15 @@
+$ python -m companion.ch05.step1_convert 46.8 km/h m/s
+46.8 km/h = 13 m/s
+[exit code 0]
+$ python -m companion.ch05.step1_convert 25 degC K
+25 degC = 298.15 K
+[exit code 0]
+$ python -m companion.ch05.step1_convert -300 degC K
+error: -300.0 degC is below absolute zero
+[exit code 2]
+$ python -m companion.ch05.step1_convert 5 MW MWh
+error: cannot convert power (MW) to energy (MWh)
+[exit code 2]
+$ python -m companion.ch05.step1_convert 1 furlong m
+error: unknown unit 'furlong'
+[exit code 2]

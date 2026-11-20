@@ -1,0 +1,10 @@
+a reading near the limit: chance the true value is over it
+  limit 20 micro-ohm; standard uncertainty 0.235
+  reading   chance the joint is really over 20
+     19.2       0.0%
+     19.5       1.7%
+     19.7      10.1%
+     19.9      33.5%
+  a reading of 19.9 passes the limit but is a coin toss;
+  the guard band (accept below 20 - U = 19.5) keeps the
+  risk near 2 % - the decision rule is written in the ITP

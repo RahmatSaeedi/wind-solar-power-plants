@@ -1,0 +1,17 @@
+first-year operating review: does the operation run on its records?
+  [ ] roles covered on every shift
+  [ ] handovers complete
+  [ ] procedures reviewed within a year
+  [ ] events reported within a day
+  [x] settlement data validated before submission
+  [ ] service availability at its target
+  [ ] fire tests within their intervals
+  [ ] water within 10 % of the model, causes known
+  [ ] line patrols and clearances in date
+  [ ] commitments on time
+  [ ] asset register matching SCADA
+  [ ] exercises done as planned
+  1 of 12: the plant ran and exported all year; the
+  records that prove how it was run lag behind it - each open
+  line has its lesson in this chapter, an owner and a date
+  for the second year

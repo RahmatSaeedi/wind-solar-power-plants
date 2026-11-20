@@ -1,0 +1,13 @@
+the reactor: inductance tolerance and quality factor (teaching)
+  L tolerance   tuned to h
+          -3%         4.77
+          +0%         4.70
+          +3%         4.63
+  quality factor   filter impedance at its tuning ohm
+              20                                 2.43
+              40                                 1.21
+              80                                 0.61
+  a lower quality factor damps the resonance below the tuning
+  but costs losses at 50 Hz and at the 5th; taps on the reactor
+  allow the tuning to be set on site after the capacitors are
+  measured - the factory records give both values

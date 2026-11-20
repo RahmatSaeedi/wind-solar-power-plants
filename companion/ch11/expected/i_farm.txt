@@ -1,0 +1,10 @@
+annual energy of the 12 turbines, free stream to wakes (D-015):
+  gross, power curve at 1.225 kg/m3           218.79 GWh
+  site air density (equivalent speed)         201.23 GWh (-8.0 %)
+  wakes, layout A (2 x 6, 4D x 8D)            188.16 GWh (-6.5 %)
+  capacity factor 0.358; full-load hours 3,136
+  not yet included: availability, electrical losses, curtailment
+  at the export limit, icing, degradation and the uncertainty of
+  each step (chapters 13, 15 and 21)
+  chapter 5's 177.08 GWh used one lumped 12 % loss: the wake loss
+  alone is about half of it

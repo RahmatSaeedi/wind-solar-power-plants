@@ -1,0 +1,7 @@
+true amplitudes (pu): 1.000, 0.040, 0.030; THD 5.00 %; grid at 49.8 Hz
+  window                         A1      A5      A7    THD (%)
+  200 ms, rectangular           0.999  0.0391  0.0260    4.70
+  200 ms, Hann                  0.999  0.0390  0.0285    4.83
+  2008 samples = 10 periods     1.000  0.0400  0.0300    5.00
+the synchronised window recovers the amplitudes; a fixed 200 ms window
+    leaks, and the Hann shape reduces the error at the cost of resolution

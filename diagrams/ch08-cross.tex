@@ -1,0 +1,34 @@
+% Chapter 8 - simplified cross-section of a six-pole permanent-magnet machine: frame, yoke,
+% teeth and slots with windings, air gap, rotor with surface magnets, shaft.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % frame
+  \draw[cInkB, line width=0.8pt, fill=cFill] (0,0) circle (3.4);
+  \fill[white] (0,0) circle (3.1);
+  % stator core (yoke + teeth)
+  \fill[cInkB!35] (0,0) circle (3.1);
+  \fill[white] (0,0) circle (2.0);
+  % slots with windings
+  \foreach \a in {0,10,...,350} {
+    \begin{scope}[rotate=\a]
+      \fill[white] (2.0,-0.11) rectangle (2.55,0.11);
+      \fill[cLoad!70] (2.05,-0.08) rectangle (2.5,0.08);
+    \end{scope}
+  }
+  % rotor
+  \fill[cInkB!20] (0,0) circle (1.85);
+  \foreach \a/\c in {0/cLoss,60/cWind,120/cLoss,180/cWind,240/cLoss,300/cWind} {
+    \fill[\c!60] (\a-24:1.62) arc (\a-24:\a+24:1.62) -- (\a+24:1.85) arc (\a+24:\a-24:1.85) -- cycle;
+  }
+  \fill[cInk!70] (0,0) circle (0.45);
+  % labels
+  \draw[cInkB, line width=0.4pt] (135:3.25) -- (135:4.1) node[note, text=cInk, anchor=south east] {پوسته و قاب};
+  \draw[cInkB, line width=0.4pt] (160:2.8) -- (160:4.3) node[note, text=cInk, anchor=east] {یوغِ استاتور};
+  \draw[cInkB, line width=0.4pt] (200:2.3) -- (200:4.3) node[note, text=cInk, anchor=east] {شیار و سیم‌پیچ};
+  \draw[cInkB, line width=0.4pt] (225:1.93) -- (225:4.1) node[note, text=cInk, anchor=north east] {فاصلهٔ هوایی};
+  \draw[cInkB, line width=0.4pt] (30:1.75) -- (30:4.1) node[note, text=cInk, anchor=south west] {آهن‌ربا (قطبِ شمال و جنوب)};
+  \draw[cInkB, line width=0.4pt] (330:1.0) -- (330:4.1) node[note, text=cInk, anchor=north west] {هستهٔ روتور};
+  \draw[cInkB, line width=0.4pt] (270:0.3) -- (270:3.9) node[note, text=cInk, anchor=north] {شفت};
+\end{tikzpicture}}
+\end{document}

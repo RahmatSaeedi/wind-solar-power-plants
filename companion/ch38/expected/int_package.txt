@@ -1,0 +1,12 @@
+the design-control package of Plant P in numbers (synthetic, week 40)
+  register: 120 deliverables; 2 numbers, 3 revisions, 1 checker,
+    9 owners to fix; 2 illegal status changes
+  linked registers: 5 disagreements; 3 stale or broken references
+  requirements: design 83 %, verification method 83 %, evidence
+    17 % (rest from FAT, SAT, commissioning)
+  inverter skid ICD: 3 of 12 items open; release held
+  engineering: SPI 0.68, CPI 0.85, EAC 8,661 h; 18 queries older
+    than 14 days
+  change C-017: 13 documents, 102 h, about 50 k u, approved
+  grid interface: 3 responsibilities without one owner
+  handover rule: every critical item at 98 % - 3 short today

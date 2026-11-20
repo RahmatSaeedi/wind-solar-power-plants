@@ -1,0 +1,11 @@
+PV energy over the life with 0.5 %/yr degradation (A-275):
+  year   energy GWh   against year 0
+    1      108.36       -0.5 %
+    5      106.18       -2.5 %
+   10      103.46       -5.0 %
+   15      100.73       -7.5 %
+   20       98.01      -10.0 %
+   25       95.29      -12.5 %
+  25-year mean 101.82 GWh (-6.5 % against year 0)
+  a year-1 report and a life-mean report differ by about 6 %:
+  each states which it is (chapter 16 and the finance model)

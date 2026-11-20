@@ -1,0 +1,6 @@
+MTBF of the skid auxiliary systems from fleet hours
+  4 failures in 43,800 skid-hours: point estimate 10,950 h
+  one-sided 95 % lower bound (chi-square): 4,785 h
+  with four failures the bound is far below the point value;
+  a supplier quoting the point value as 'demonstrated' is
+  quoting a hope - the lower bound is what the data prove

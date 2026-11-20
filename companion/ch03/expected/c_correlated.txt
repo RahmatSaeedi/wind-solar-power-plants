@@ -1,0 +1,5 @@
+total energy E = E_w (1 + 1.62 (f_v - 1)) + E_pv f_H, u(f_v) 3 %, u(f_H) 4 %
+  correlation r = +0.0: u_c = 10.13 GWh
+  correlation r = +0.5: u_c = 11.80 GWh
+  correlation r = -0.5: u_c = 8.14 GWh
+  matrix form u^2 = J S J^T with r = 0.5: u_c = 11.80 GWh (same)

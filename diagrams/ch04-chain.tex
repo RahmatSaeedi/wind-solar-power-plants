@@ -1,0 +1,15 @@
+% Chapter 4 — power after each stage of the wind-to-grid energy chain at 10 m/s (A-047).
+% Data: diagrams/data/ch04-chain.csv (companion/ch04/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=62mm, ybar, bar width=9mm,
+      ylabel={توان (MW)}, ymin=0, ymax=10.5, ytick={0,2,...,10},
+      xtick={0,1,2,3,4,5}, xmin=-0.6, xmax=5.6,
+      xticklabels={باد, روتور, گیربکس, ژنراتور, مبدل, ترانسفورماتور},
+      nodes near coords, nodes near coords style={font=\footnotesize, text=cInk},
+      point meta=y, every node near coord/.append style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[draw=cWind, fill=cWind!35] table[x=stage, y=mw, col sep=comma] {data/ch04-chain.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

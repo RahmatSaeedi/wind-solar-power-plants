@@ -1,0 +1,11 @@
+daily noise exposure of one worker (teaching levels)
+  task                                 level dB(A)  hours
+  angle grinder on a tower flange               98    1.0
+  diesel generator at 3 m                       90    2.0
+  compactor operator (cab closed)               80    4.0
+  site office and drive                         65    1.0
+  8-hour equivalent: 90.4 dB(A); the grinder hour alone gives 89.0
+  each 3 dB is a doubling of sound energy: one grinder hour
+  outweighs the whole rest of the day. The action values and
+  hearing protection rules come from local law; quieter tools
+  and shorter exposure come before ear defenders

@@ -1,0 +1,21 @@
+28-day strength of the foundation pours (3 specimens each, MPa, synthetic)
+  all 36 results: mean 41.7, s 3.8, characteristic (mean - 1.645 s) 35.4
+  specified class (teaching): 35 MPa characteristic
+  pour   mean    lowest   flag
+  F01     41.2     40.1
+  F02     43.7     41.8
+  F03     42.4     41.6
+  F04     42.8     39.0
+  F05     44.6     41.7
+  F06     41.1     38.1
+  F07     33.4     31.8   NCR: below 35 MPa
+  F08     42.7     40.9
+  F09     43.5     39.6
+  F10     41.4     38.2
+  F11     41.9     37.5
+  F12     41.3     39.3
+  the set as a whole looks acceptable, but pour F07 is weak
+  on its own: a non-conformance report, cores from the
+  structure, and the structural engineer's assessment
+  before the tower goes on (ch 30) - a good average never
+  excuses one weak foundation

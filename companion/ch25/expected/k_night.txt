@@ -1,0 +1,9 @@
+no-load loss at night: switch one transformer off? (teaching)
+  hours a year with export below 10 MW: 2,600
+  one transformer's no-load loss 35 kW -> 91 MWh a year, 6.4 k u
+  cost: about 730 switching operations and inrushes a year,
+  breaker wear, a transformer energised from cold each morning,
+  and the risk that it does not come back when the wind rises
+  a few k u a year rarely pays for that: most plants keep both
+  energised and buy the loss; where losses are dear and the
+  breaker is rated for it, an automatic scheme can be studied

@@ -1,0 +1,27 @@
+grievance workflow: stages, target days and evidence (teaching)
+  stage                            target d   late %
+  received and logged                     1       48
+      evidence: entry, channel, language
+  acknowledged to complainant             3       40
+      evidence: dated message or visit note
+  assessed and assigned                   7       57
+      evidence: category, owner, risk
+  investigated                           21       48
+      evidence: site visit, photos, witnesses
+  resolution proposed                    30       57
+      evidence: letter in plain language
+  agreed or escalated                    45       42
+      evidence: signed note, or appeal opened
+  remedy delivered and checked           60       40
+      evidence: proof of the remedy
+  closed with complainant                75       42
+      evidence: closure note, satisfaction
+  40-57 % of cases miss each stage's target: either
+  the targets or the staffing are wrong, and the quarterly
+  review fixes one of them;
+  each stage leaves evidence, so a closed case can be
+  shown, not just claimed; confidential cases (conduct,
+  harassment) take a protected route, and nobody who
+  complains is penalised (non-retaliation is stated in
+  every leaflet); the log is reported, anonymised, each
+  quarter to the community and the lenders

@@ -1,0 +1,35 @@
+% Chapter 54 - trace of requirement Z-001 (power factor 0.95 at the POC, fictional GCZ 6.2 + A1)
+% from the source to retained evidence, right to left for RTL readers: five stages with records,
+% the test failed (DEV-11), approval and retained evidence open; three ways to dispose of DEV-11
+% (companion/ch54/lab_d.py).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\scriptsize,
+    st/.style={draw=cInkB, fill=cBESS!14, text width=15mm, minimum height=13mm, align=center,
+               rounded corners=1.5pt, text=cInk},
+    op/.style={draw=cInkB, dashed, fill=white, text width=15mm, minimum height=13mm,
+               align=center, rounded corners=1.5pt, text=cInkB},
+    bad/.style={draw=cLoss, fill=cLoss!12, text width=15mm, minimum height=13mm, align=center,
+                rounded corners=1.5pt, text=cInk},
+    ar/.style={-{Stealth[length=1.8mm]}, draw=cInk, line width=0.7pt}]
+  \node[st] (s1) at (0,0) {منبع\\ بندِ ۶٫۲ و اصلاحیهٔ\\ $A_1$};
+  \node[st] (s2) at (-2.05,0) {طراحی\\ محاسبهٔ\\ توانایی};
+  \node[st] (s3) at (-4.10,0) {تدارکات\\ منحنیِ\\ $P$-$Q$};
+  \node[st] (s4) at (-6.15,0) {تنظیم‌ها\\ پروندهٔ\\ کنترل‌گر};
+  \node[bad] (s5) at (-8.20,0) {آزمون\\ $30.6$ در برابرِ\\ $32.9\,\text{Mvar}$};
+  \node[op] (s6) at (-10.25,0) {تأیید\\ بهره‌بردارِ\\ شبکه};
+  \node[op] (s7) at (-12.30,0) {نگهداریِ\\ شاهد};
+  \foreach \a/\b in {s1/s2, s2/s3, s3/s4, s4/s5, s5/s6, s6/s7} {\draw[ar] (\a) -- (\b);}
+  \node[bad, text width=22mm] (dev) at (-8.20,-2.3) {عدولِ $\text{DEV-11}$};
+  \draw[ar, draw=cLoss] (s5) -- (dev);
+  \node[st, fill=cFill, text width=24mm, minimum height=9mm] (o1) at (-4.6,-3.9)
+    {سقفِ صادرات $93.1\,\text{MW}$};
+  \node[st, fill=cFill, text width=24mm, minimum height=9mm] (o2) at (-8.20,-3.9)
+    {خازنِ کلیدزنی‌شده $5\,\text{Mvar}$};
+  \node[st, fill=cFill, text width=24mm, minimum height=9mm] (o3) at (-11.8,-3.9)
+    {معافیتِ کتبی از بهره‌بردار};
+  \foreach \o in {o1, o2, o3} {\draw[ar, draw=cInkB] (dev) -- (\o);}
+  \node[note, font=\scriptsize] at (-12.3,1.15) {باز};
+  \node[note, font=\scriptsize] at (-10.25,1.15) {باز};
+\end{tikzpicture}
+\end{document}

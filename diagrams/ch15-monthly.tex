@@ -1,0 +1,24 @@
+% Chapter 15 - monthly energy balance of Plant P (model 15.1): wind and PV at medium voltage (stacked)
+% and the net delivered at the point of connection. Data: diagrams/data/ch15-monthly.csv (lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=64mm, xmin=0.4, xmax=12.6, ymin=0, ymax=36,
+      xlabel={ماه}, ylabel={انرژی، $\text{GWh}$}, xtick={1,...,12}, ytick={0,5,...,35},
+      ybar stacked, bar width=5mm, legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3]
+    \addplot[draw=cWind, fill=cWind!65, area legend] table[x=m, y=wind, col sep=comma]
+      {data/ch15-monthly.csv};
+    \addlegendentry{باد در ولتاژِ متوسط}
+    \addplot[draw=cPV, fill=cPV!55, area legend] table[x=m, y=pv, col sep=comma]
+      {data/ch15-monthly.csv};
+    \addlegendentry{خورشیدی در ولتاژِ متوسط}
+    \addlegendimage{line legend, sInk, mark=*, mark size=1.4pt}
+    \addlegendentry{خالص در نقطهٔ اتصال}
+  \end{axis}
+  \begin{axis}[width=114mm, height=64mm, xmin=0.4, xmax=12.6, ymin=0, ymax=36, axis lines=none,
+      scale only axis=false]
+    \addplot[sInk, mark=*, mark size=1.4pt] table[x=m, y=net, col sep=comma]
+      {data/ch15-monthly.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+does temperature change the anchor preload? (steel in concrete)
+  temperature change K   stress change MPa   on a 1,250 kN M64 (As 2,676 mm2)
+                    10                 4.2           11 kN
+                    20                 8.4           22 kN
+                    40                16.8           45 kN
+  a few per cent of the preload: the steel and the concrete
+  expand almost alike, so the season barely matters - the
+  losses that matter are grout creep and settling in the
+  first months, which the re-tensioning removes (lesson C)

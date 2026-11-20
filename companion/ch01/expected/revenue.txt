@@ -1,0 +1,7 @@
+tariffs are FICTIONAL teaching values in an imaginary currency unit (u)
+flat tariff 50 u/MWh: revenue 14.49 million u/yr
+time-of-use: 90 u/MWh from 18:00 to 22:00, 40 u/MWh otherwise (time-weighted
+    mean 48.3 u/MWh)
+revenue 13.20 million u/yr; average value 45.5 u/MWh
+average value of PV energy 40.2 u/MWh, of wind energy 48.3 u/MWh
+energy exported 18:00-22:00: 32.2 GWh (11.1 % of the year's export)

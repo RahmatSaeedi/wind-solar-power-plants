@@ -1,0 +1,9 @@
+inverter efficiency acceptance: guaranteed eta >= 98.5 % at the test point
+power analyser: u = 0.10 % of reading on each channel (assumed, uncorrelated)
+T1: eta = 98.40 %, U(k=2) = 0.28 points -> guarded inconclusive, simple reject
+T2: eta = 98.80 %, U(k=2) = 0.28 points -> guarded accept, simple accept
+T3: eta = 98.10 %, U(k=2) = 0.28 points -> guarded reject, simple reject
+acceptance limit with guard band w = U: 98.78 %
+T1 with correlation r = 0.8 between channels: U = 0.124 points,
+    interval 98.28 .. 98.52 % -> guarded inconclusive; acceptance limit now
+    98.62 %

@@ -1,0 +1,9 @@
+work orders checked: 10
+  no or unknown asset                2  WO-0431, WO-0490
+  corrective without a failure code  1  WO-0418
+  code not in the list               0
+  closed without a test record       1  WO-0418
+  open (not closed)                  2  WO-0460, WO-0502
+  3 of 10 orders fail a check: WT07's gearbox is
+  not in the hierarchy (the asset was never loaded), WO-0431
+  has no asset at all - neither reaches the reliability data

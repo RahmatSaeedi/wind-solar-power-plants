@@ -1,0 +1,19 @@
+% Chapter 3 — d and q components of a 1.0 pu current lagging 20 deg with 10 % negative
+% sequence, in a frame rotating at 50 Hz: constant values plus a 100 Hz ripple.
+% Data: diagrams/data/ch03-q-park.csv (companion/ch03/examples_more4.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=60mm,
+      xlabel={زمان (ms)}, ylabel={مؤلفه (پریونیت)},
+      xmin=0, xmax=40, ymin=-0.6, ymax=1.2, xtick={0,10,...,40}, ytick={-0.4,0,0.4,0.8,1.2}]
+    \addplot[sWind] table[x=ms, y=d, col sep=comma] {data/ch03-q-park.csv};
+    \addlegendentry{مؤلفهٔ $d$}
+    \addplot[sPV] table[x=ms, y=q, col sep=comma] {data/ch03-q-park.csv};
+    \addlegendentry{مؤلفهٔ $q$}
+    \addplot[sLimit, domain=0:40, samples=2] {0.940};
+    \addlegendentry{مقدارهای متوازن}
+    \addplot[sLimit, domain=0:40, samples=2, forget plot] {-0.342};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,23 @@
+% Chapter 3 — Gumbel plot of 30 synthetic annual maxima of the 10-minute mean wind (A-036):
+% sorted maxima against the reduced variate y = -ln(-ln F), F = i/(n+1), with the fitted line
+% and the 10-, 50- and 100-year reduced variates. Data: diagrams/data/ch03-p-gumbel.csv,
+% ch03-p-gumbel-fit.csv (companion/ch03/examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=66mm,
+      xlabel={متغیرِ کاهش‌یافته $y=-\ln(-\ln F)$}, ylabel={تندیِ بیشینه (m/s)},
+      xmin=-1.5, xmax=5, ymin=20, ymax=42, xtick={-1,0,...,5}, ytick={20,25,...,40}]
+    \addplot[only marks, mark=*, mark size=1.5pt, color=cWind] table[x=y, y=x, col sep=comma] {data/ch03-p-gumbel.csv};
+    \addlegendentry{۳۰ بیشینهٔ سالانه (ساختگی)}
+    \addplot[sInk] table[x=y, y=x, col sep=comma] {data/ch03-p-gumbel-fit.csv};
+    \addlegendentry{خطِ برازش‌شده}
+    \draw[cInkB, densely dotted] (axis cs:2.250,20) -- (axis cs:2.250,40);
+    \draw[cInkB, densely dotted] (axis cs:3.902,20) -- (axis cs:3.902,40);
+    \draw[cInkB, densely dotted] (axis cs:4.600,20) -- (axis cs:4.600,40);
+    \node[note, anchor=south] at (axis cs:2.250,40) {۱۰ ساله};
+    \node[note, anchor=south] at (axis cs:3.902,40) {۵۰ ساله};
+    \node[note, anchor=south] at (axis cs:4.600,40) {۱۰۰ ساله};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,25 @@
+the test ladder: what each kind of test proves
+  design verification
+      proves: the design meets its requirements
+      on: calculations, models, prototype; by: designer
+  type qualification
+      proves: a sample of the design passes type tests
+      on: one or few units; by: accredited lab
+  routine test
+      proves: each unit was built as designed
+      on: every unit; by: maker
+  factory acceptance (FAT)
+      proves: the assembled unit meets the order
+      on: every skid; by: integrator + owner
+  site acceptance (SAT)
+      proves: it arrived and was installed intact
+      on: every skid; by: contractor + owner
+  integrated plant test
+      proves: the plant works as a system
+      on: the plant; by: owner + grid operator
+  type tests use the standard's methods on a sample; a
+  routine test on every unit cannot replace them, and they
+  cannot replace routine tests. FAT cannot see transport
+  damage; SAT cannot see a joint that heats only at full
+  load in July - the integrated tests of ch 50 and the
+  first-year monitoring of ch 37 close that gap

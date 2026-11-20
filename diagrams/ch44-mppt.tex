@@ -1,0 +1,21 @@
+% Chapter 44 - string voltage held by two educational trackers against the maximum-power voltage on a
+% synthetic irradiance profile (steady, ramp up, steady, ramp down): plain perturb and observe walks
+% away during the rising ramp; the perturb-hold-compare variant stays on the maximum
+% (diagrams/data/ch44-mppt.csv from companion/ch44/lab_d.py, mppt_eff).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=400, ymin=500, ymax=1150,
+      xlabel={ثانیه}, ylabel={ولتاژِ رشته (ولت)}, ytick={600,700,...,1000}]
+    \fill[cPV!8] (axis cs:100,500) rectangle (axis cs:200,1150);
+    \addplot[sInk] table[x=t, y=vmp, col sep=comma] {data/ch44-mppt.csv};
+    \addplot[sLoss] table[x=t, y=po, col sep=comma] {data/ch44-mppt.csv};
+    \addplot[sWind] table[x=t, y=hc, col sep=comma] {data/ch44-mppt.csv};
+    \node[note, anchor=north] at (axis cs:150,1145) {شیبِ بالارو};
+    \node[note, anchor=west, text=cLoss] at (axis cs:290,640) {آشفتن و مشاهده};
+    \node[note, anchor=west, text=cWind] at (axis cs:225,1085) {آشفتن، نگه‌داشتن و مقایسه};
+    \node[note, anchor=west] at (axis cs:5,1085) {ولتاژِ بیشینهٔ توان};
+    \draw[thin] (axis cs:40,1065) -- (axis cs:40,960);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

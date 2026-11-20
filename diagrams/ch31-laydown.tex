@@ -1,0 +1,39 @@
+% Chapter 31 - plan of a turbine's working area (schematic, not to scale): crane pad and crawler
+% crane, tower sections and nacelle zone within reach, blades on cradles aligned for assembly,
+% the rotor assembly area, exclusion zone and the access road (teaching layout).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small]
+  % access road
+  \fill[cRule!35] (-0.5,-0.6) rectangle (12.5,0.4);
+  \node[note] at (11.3,-0.1) {راهِ دسترسی};
+  % crane pad
+  \fill[cPV!20] (5.0,1.0) rectangle (8.0,4.0);
+  \draw[cInkB] (5.0,1.0) rectangle (8.0,4.0);
+  \node[note, text width=24mm] at (6.5,2.0) {سکوی جرثقیل};
+  % foundation
+  \draw[cInk, line width=0.8pt] (6.5,6.0) circle (1.1);
+  \node[note] at (6.5,6.0) {فونداسیون};
+  % reach circle, clipped to the working area
+  \begin{scope}
+    \clip (-0.3,0.7) rectangle (12.2,7.3);
+    \draw[densely dashed, draw=cWind] (6.5,2.5) circle (3.8);
+  \end{scope}
+  \node[note, text=cWind, anchor=south] at (4.0,6.45) {شعاعِ کارِ جرثقیل};
+  % tower sections
+  \foreach \y in {1.2,1.9,2.6,3.3} {\fill[cWind!30] (9.0,\y) rectangle (11.0,\y+0.5);}
+  \node[note, anchor=west] at (11.1,2.3) {بخش‌های برج};
+  % nacelle zone
+  \draw[cInkB, densely dotted] (2.6,1.3) rectangle (4.3,2.6);
+  \node[note, text width=16mm] at (3.45,1.95) {جای ناسل (به‌موقع)};
+  % blades on cradles
+  \foreach \y in {4.6,5.1,5.6} {\draw[cPV, line width=2pt] (0.0,\y) -- (4.6,\y);}
+  \node[note, anchor=east] at (-0.1,5.1) {پره‌ها روی گهواره};
+  % rotor assembly
+  \draw[cInkB, densely dotted] (8.4,4.6) rectangle (11.2,6.8);
+  \node[note, text width=24mm] at (9.8,5.7) {مونتاژِ روتور روی زمین};
+  % exclusion zone
+  \draw[cLoss, line width=0.8pt, dash pattern=on 4pt off 2pt] (-0.3,0.7) rectangle (12.2,7.3);
+  \node[note, text=cLoss, anchor=south east] at (12.2,7.35) {مرزِ ناحیهٔ ممنوع هنگامِ بالابری};
+\end{tikzpicture}
+\end{document}

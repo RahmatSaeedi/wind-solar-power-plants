@@ -1,0 +1,15 @@
+the first ninety minutes of incident command (teaching timeline)
+  min  action
+    0  alarm reaches the control room; operator confirms location
+    1  site emergency plan started; call the fire service by the plan
+    3  evacuate the area; account for everyone at the muster point
+    6  site team at the scene: cordon, information, no entry
+   10  authorised person isolates by the plan from a safe place
+   15  drains to the pond confirmed closed; neighbours told
+   20  escort meets the fire service at the gate with the plan
+   57  fire service in command (median arrival); site informs
+   90  scene held for investigation; no restart without approval
+  the site's role is alarm, people, isolation, information
+  and the environment; firefighting beyond first-aid
+  extinguishers by trained staff belongs to the fire
+  service, which takes command when it arrives

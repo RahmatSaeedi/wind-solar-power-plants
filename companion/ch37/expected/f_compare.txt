@@ -1,0 +1,8 @@
+two plants' reported availability (synthetic)
+  plant     reported %   definition
+  Plant P         97.9   time, grid and curtailment excluded
+  Plant Q         98.8   time, all planned work excluded too
+  Plant Q looks better because it excludes more; on Plant
+  P's definition it would be about 98.1 % (its planned work
+  is 60 h a turbine a year): comparisons need one
+  definition, recomputed from the events, not two reports

@@ -1,0 +1,15 @@
+barriers between a cell fault and a container explosion (teaching)
+  initiating cell faults: 0.02 a year per container
+  barrier                                  PFD    counted   frequency /yr
+  cell monitoring and BMS limits           0.10   yes             2.0e-03
+  rack fuse / contactor opens              0.10   yes             2.0e-04
+  off-gas detection -> PCS stop            0.10   yes             2.0e-05
+  explosion control (per product test)     0.10   yes             2.0e-06
+  second BMS channel, same sensors         0.10   no              2.0e-06
+  8 containers: 1.6e-05 a year against a teaching target 1e-05:
+  above it - the study asks for a further independent
+  barrier or a lower initiating rate (cell screening, ch 19);
+  the second BMS channel shares the first one's sensors, so
+  it is not an independent barrier and earns no credit;
+  one impaired barrier multiplies the frequency by ten -
+  which is why barrier health is tracked like any KPI

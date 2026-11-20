@@ -1,0 +1,14 @@
+% Chapter 32 - fire-service arrival times at the fire (Monte Carlo, 20,000 draws) against the
+% 60-minute autonomy of the held reserve at the placeholder rate (diagrams/data/ch32-arrival.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=58mm, xmin=30, xmax=125, ymin=0, ymax=6500,
+      xlabel={دقیقه پس از هشدار}, ylabel={تعدادِ نمونه در هر ۵ دقیقه},
+      ybar interval, x tick label as interval=false, xtick={30,45,...,120}]
+    \addplot[fill=cLoad!45, draw=cLoad] table[x=minute, y=count, col sep=comma] {data/ch32-arrival.csv};
+    \draw[sLimit] (axis cs:60,0) -- (axis cs:60,6300);
+    \node[note, anchor=south west] at (axis cs:61,5600) {پایانِ ذخیره در ۶۰ دقیقه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

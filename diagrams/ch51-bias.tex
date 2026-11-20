@@ -1,0 +1,15 @@
+% Chapter 51 - rolling one-week bias of the day-ahead forecast at the POC (forecast minus actual);
+% the provider's model update on day 200 moves it (teaching; companion/ch51/examples_e.py, bias ->
+% diagrams/data/ch51-bias.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=360, ymin=-12, ymax=14,
+      xlabel={روز}, ylabel={سوگیری (MW)}, xtick={0,60,...,360}]
+    \addplot[sWind, line width=1pt] table[x=day, y=bias, col sep=comma] {data/ch51-bias.csv};
+    \draw[cInk!60, dashed] (axis cs:200,-12) -- (axis cs:200,13);
+    \draw[cInk!40] (axis cs:0,0) -- (axis cs:360,0);
+    \node[note, anchor=south west] at (axis cs:202,10.5) {به‌روزرسانیِ مدلِ پیش‌بینی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+radiator area for the losses (teaching heat transfer):
+  mode     load MVA   losses kW   h W/(m2 K)   area m2 at 40 K
+  ONAN          50         192            6               802
+  ONAF          63         285           12               594
+  the same radiators carry the full rating when fans double
+  the air-side heat transfer - the ONAN/ONAF pair of the
+  specification is one radiator bank with fans that switch
+  on with the oil temperature; the fans are an auxiliary
+  load (ch 23) and their failure an alarm with a load limit

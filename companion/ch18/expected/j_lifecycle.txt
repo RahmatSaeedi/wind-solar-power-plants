@@ -1,0 +1,9 @@
+interface register by stage at three gates (IF-001..IF-010):
+  gate           identified    defined     agreed   verified     closed
+  concept                 6          4          0          0          0
+  procurement             0          4          6          0          0
+  commission              0          0          0          2          8
+  rule: every interface 'agreed' before its purchase order and
+  'closed' before hand-over; at commissioning still open: IF-006, IF-007
+  (battery heat and protocol: the two planted mismatches that
+  were fixed late, so they are verified last)

@@ -1,0 +1,4 @@
+sorted as text:    ['1.0.0', '1.1.0', '1.10.0', '1.9.0', '2.0.0']
+sorted as numbers: ['1.0.0', '1.1.0', '1.9.0', '1.10.0', '2.0.0']
+from 1.0.0: bug fix -> 1.0.1; new files only -> 1.1.0; changed series -> 2.0.0
+data pack 1.0.0 -> 1.1.0: files added, none changed in meaning -> minor

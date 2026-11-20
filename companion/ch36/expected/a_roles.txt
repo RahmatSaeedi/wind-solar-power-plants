@@ -1,0 +1,12 @@
+who does what (teaching)
+  role                   share            does
+  asset owner            accountable      decides risk, funds controls
+  OT security lead       responsible      programme, reviews, incidents
+  control engineer       responsible      configurations, backups, changes
+  IT team                consulted        business network, identity services
+  operators              informed / act   report anomalies, follow procedures
+  vendors, integrators   responsible for  their access and products
+  physical security      consulted        doors, cabinets, visitors (ch 32)
+  one named person owns each control; the interfaces with
+  IT and physical security are written down with escalation
+  paths, so nothing falls between two teams

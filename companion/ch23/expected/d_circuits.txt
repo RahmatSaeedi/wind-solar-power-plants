@@ -1,0 +1,15 @@
+route and circuit schedule (lengths provisional, km):
+  circuit   type    sections   km
+  BESS-A    cable         2   1.20
+  BESS-B    cable         2   1.20
+  E1        line          1   7.06
+  PVF1      cable         4   2.40
+  PVF2      cable         3   1.80
+  PVF3      cable         3   1.80
+  WS1       cable         4   4.40
+  WS2       cable         4   4.40
+  WS3       cable         4   4.40
+  33 kV cable 21.6 km; 132 kV line 7.06 km
+  the cable lengths come from the layout of ch 14 and stay
+  provisional until the route survey; the schedule feeds the
+  cable sizing and losses of ch 24

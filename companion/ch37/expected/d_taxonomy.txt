@@ -1,0 +1,12 @@
+the categories an hour can fall in (teaching taxonomy)
+  category          examples                      charged to
+  operating         producing                     -
+  available, idle   no wind, no sun               nobody
+  forced outage     fault, trip, repair           plant
+  planned outage    service in its window         plant, often excluded
+  external          grid, operator's limit, ice   outside the plant
+  unknown           data missing                  nobody until resolved
+  every hour of every unit falls in exactly one category,
+  chosen by written entry and exit rules; the contract
+  decides which categories count against availability
+  (STD-165 describes such an information model)

@@ -1,0 +1,11 @@
+readiness gate before issuing WP14 MV terminations
+  [ ] approved method statement
+  [ ] drawings issued for construction
+  [ ] competent crew (certificates in date)
+  [x] permits and approvals for the front
+  [x] predecessors released (station set, backfill)
+  [x] response time to the front within target
+  3 of 6: not issued - three readiness items fail
+  together (method, drawing, jointer); the package is a
+  bundle of its prerequisites, and a crew sent without them
+  works on what is not ready

@@ -1,0 +1,9 @@
+the spread of two models as evidence for the model parts:
+  model parts of the budget (wake, density, transposition, PV
+    model, electrical): sigma 2.95 GWh at MV
+  chapter 15 bridge, reviewer's model B against model A: 5.91 GWh (2.0 %)
+  that is 2.0 sigma of the model parts (or 1.4 sigma of
+    the difference of two independent models)
+  two models differing by about one to two sigma is ordinary;
+  a much larger gap would say the model parts are too small,
+  and the bridge says which part to look at first

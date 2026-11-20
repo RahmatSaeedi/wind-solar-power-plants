@@ -1,0 +1,9 @@
+nacelle cooling at rated (heat from lesson A)
+  gearbox 106 kW: oil 5.6 kg/s for a 10 K rise (cp 1.9 kJ/kg K)
+  generator 130 kW: air 8.6 kg/s for a 15 K rise
+  coolers sized for 35 C air; capacity falls with
+  (T_limit - T_air), limit 65 C
+  hours above 35 C in the data-pack year: 198; lowest capacity 81%
+  on those hours the turbine derates unless the coolers are
+  sized for the site's 40.7 C - a purchase choice (hot-climate
+  package, lesson A) with its own price and energy value

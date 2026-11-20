@@ -1,0 +1,19 @@
+main-circuit resistance of each pole (micro-ohm, teaching limits
+  32 for incomers and coupler, 42 for feeders)
+  panel    L1   L2   L3   limit   spread   verdict
+  INC-A     28   29   27      32        2   ok
+  WS1       35   36   34      42        2   ok
+  WS2       36   35   37      42        2   ok
+  PVF3      34   35   36      42        2   ok
+  BESS-A    35   34   35      42        1   ok
+  BC        29   28   30      32        2   ok
+  INC-B     28   27   29      32        2   ok
+  WS3       35   36   35      42        1   ok
+  PVF1      36   52   35      42       17   CHECK
+  PVF2      34   36   35      42        2   ok
+  BESS-B    35   35   36      42        1   ok
+  SST       40   41   40      42        1   ok
+  to check: PVF1 - pole L2 of PVF1 is 52 against 35
+  and 36: over the limit and far from its own neighbours; the
+  pole-to-pole comparison finds a bad joint even when the
+  absolute limit is generous (as for busbar joints in ch 44)

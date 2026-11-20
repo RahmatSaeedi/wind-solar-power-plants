@@ -1,0 +1,11 @@
+collapse on wetting (oedometer at 200 kPa, strain % when flooded;
+  classes are teaching - published ones differ)
+  sample                  strain %   class      settlement of 1.5 m layer mm
+  BH-01 0.5 m                 0.4   slight                6
+  BH-09 0.5 m                 1.2   moderate             18
+  BH-07 0.5 m (gypsum)        6.5   severe               98
+  dry, the gypsum layer at T12 is strong; wetted (a leaking
+  pipe, ponding beside a pad) it can settle about 100 mm
+  under a building or a tank: keep water away by design -
+  falls away from structures, no soakaways near them - and
+  ask the engineer whether to replace or pre-wet the layer

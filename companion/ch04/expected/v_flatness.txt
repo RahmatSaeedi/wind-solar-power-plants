@@ -1,0 +1,10 @@
+tower flange top surface surveyed at 16 points on a 4.7 m circle (synthetic,
+    A-088)
+  raw height range (tilt included): 2.32 mm
+  least-squares plane z = a + b x + c y: tilt 0.405 and -0.212 mm/m
+  flatness = range of residuals about the plane: 0.55 mm
+  tolerance 1.0 mm (assumed): the raw range would reject a flat but tilted
+    flange;
+  tilt is checked separately (verticality of the tower), waviness by flatness
+  (a minimum-zone evaluation can give a slightly smaller value than least
+    squares)

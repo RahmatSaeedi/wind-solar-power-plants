@@ -1,0 +1,11 @@
+the layers of a network and where each control acts (teaching)
+  layer         carries                  control at this layer
+  physical      cables, fibre, ports     locked cabinets, unused ports off
+  link          frames inside a subnet   port settings, VLAN per zone
+  network       addresses, routing       zone firewall: conduit rules
+  transport     sessions, services       only the conduit's service
+  application   protocol and its data    protocol-aware gateway, roles
+  a control at one layer does not see the others: a
+  firewall that allows a service cannot tell a read from a
+  write inside it - that is the application's roles; a
+  VLAN keeps zones apart only if every port is set right

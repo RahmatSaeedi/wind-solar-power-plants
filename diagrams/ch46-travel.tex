@@ -1,0 +1,22 @@
+% Chapter 46 - close travel of breaker WS2: factory baseline and the slower mechanism, with the
+% speed window 6-9 mm and contact touch at 9 mm (teaching curves; companion/ch46/examples_f.py,
+% travel -> diagrams/data/ch46-travel.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=40, ymin=0, ymax=13,
+      xlabel={زمان از فرمان (ms)}, ylabel={جابه‌جاییِ کنتاکت (mm)},
+      legend pos=south east, legend style={font=\footnotesize}]
+    \fill[cWind!10] (axis cs:0,6) rectangle (axis cs:40,9);
+    \draw[cInk!60, dashed] (axis cs:0,9) -- (axis cs:40,9);
+    \addplot[sWind] table[x=t, y=base, col sep=comma] {data/ch46-travel.csv};
+    \addlegendentry{خط‌مبنا}
+    \addplot[sLoss] table[x=t, y=slow, col sep=comma] {data/ch46-travel.csv};
+    \addlegendentry{اکنون}
+    \node[note, anchor=east, text=cWind] at (axis cs:17.5,10.5) {خط‌مبنای کارخانه};
+    \node[note, anchor=west, text=cLoss] at (axis cs:26.5,8.0) {اکنون، کندتر};
+    \node[note, anchor=west] at (axis cs:0.5,9.6) {تماس};
+    \node[note, anchor=west] at (axis cs:0.5,7.5) {پنجرهٔ سرعت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,12 @@
+who may do what at the fire interface (teaching)
+  action                              who                     where
+  see the alarm on the plant HMI      operator                plant HMI
+  acknowledge the HMI alarm display   operator                plant HMI
+  silence or reset the fire panel     authorised person       fire panel
+  isolate a zone or an output         authorised, permit      fire panel
+  restart a PCS after a fire alarm    operator, after reset   plant HMI
+  override a fire stop for dispatch   nobody                  -
+  acknowledging a screen is not resetting a fire system:
+  the plant HMI shows and acknowledges, the fire panel
+  resets, and no dispatch instruction or revenue reason
+  can override a life-safety stop

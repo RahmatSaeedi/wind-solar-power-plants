@@ -1,0 +1,10 @@
+burn-in against early failures: 2 % weak modules among good ones
+  weak: mean life 100 h; good: MTBF 200,000 h; 300 modules
+  burn-in h   found in factory   failing in the field, first year
+          0                0.0                              18.6
+         72                3.1                              15.5
+        168                4.9                              13.7
+  burn-in removes the weak modules where a replacement is
+  cheap; it cannot touch the random failures of good ones
+  (about 13 a year here), which spares and redundancy
+  handle - the FAT of ch 40 asks for the burn-in record

@@ -1,0 +1,17 @@
+% Chapter 5 - mesh convergence: error of the first tower frequency (no top mass) against the
+% number of beam elements, logarithmic axes. Data: diagrams/data/ch05-convergence.csv
+% (companion/ch05/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=110mm, height=64mm,
+      xlabel={تعدادِ المان‌ها}, ylabel={خطای بسامدِ اول (درصد)},
+      xmin=0.8, xmax=20, ymin=5e-6, ymax=1, xtick={1,2,4,8,16}, xticklabels={1,2,4,8,16}]
+    \addplot[sWind, mark=*, mark size=1.8pt] table[x=n, y=err, col sep=comma] {data/ch05-convergence.csv};
+    \addlegendentry{خطای مدل}
+    \addplot[sInk, domain=1:16, samples=2] {0.475*x^(-4)};
+    \addlegendentry{شیبِ مرجعِ $-4$}
+    \node[note, anchor=south west, align=center] at (axis cs:1.0,1e-5) {نصف کردنِ طولِ المان:\\خطا حدودِ ۱۶ برابر کمتر};
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

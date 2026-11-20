@@ -1,0 +1,12 @@
+safety-climate survey: managers vs workers (scale 1-5, synthetic)
+  25 managers, 180 workers; gap with its 95 % margin
+  statement                       managers   workers   gap
+  I can stop work if unsafe           4.2       3.6   0.6 +/- 0.2
+  near misses are acted on            4.0       3.1   0.8 +/- 0.2
+  supervisors put safety first        4.4       3.4   1.1 +/- 0.2
+  I have the right tools              3.6       3.5   0.1 +/- 0.3
+  managers rate every statement higher; the widest gaps -
+  supervisors' priorities and acting on near misses - are
+  where workers do not yet trust the system, while the
+  tools gap is within its margin: the survey points to
+  conversations to have, not to scores to publish

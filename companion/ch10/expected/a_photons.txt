@@ -1,0 +1,7 @@
+sunlight as photons (blackbody 5778 K scaled to 1000 W/m2, A-184):
+  silicon    Eg 1.12 eV, cutoff  1107 nm: J max  39.6 mA/cm2, Eg x J 44.3 %
+  CdTe       Eg 1.45 eV, cutoff   855 nm: J max  28.3 mA/cm2, Eg x J 41.0 %
+  perovskite Eg 1.60 eV, cutoff   775 nm: J max  23.9 mA/cm2, Eg x J 38.3 %
+  photons below Eg pass through; above Eg the excess becomes
+  heat; Eg x J is the share left before voltage and fill-factor
+  losses: the root of the single-junction efficiency limit

@@ -1,0 +1,7 @@
+firing as a process window (normalised setting 0..1)
+  best fill factor 0.810; window for best - 0.005: 0.34 to 0.74
+  run at the centre 0.54 with a spread of sd 0.03: Cpk 2.25
+  too little: contacts do not form (series resistance);
+  too much: the metal reaches the junction (shunts) - the
+  window is found by experiment on the line (ch 40, the
+  factorial) and guarded by the fill factor of each lot

@@ -1,0 +1,8 @@
+insurance claims and the evidence an insurer asks for
+  gearbox failure T05      complete
+  hail on 4 PV blocks      missing: condition before loss
+  lightning on T09 blade   missing: maintenance record
+  theft of cable           missing: loss quantified
+  the evidence is the same as the warranty's (ch 52 I): a
+  plant that keeps its records can claim; one that does not
+  pays its own losses

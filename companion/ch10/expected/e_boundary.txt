@@ -1,0 +1,7 @@
+string checks at the boundaries (the tests of section E):
+  case                              V_oc cold   V_mp hot  verdict
+  26 modules, -15 C / 72 C             1436 V      918 V  below window
+  27 modules, -15 C / 72 C             1492 V      954 V  ok
+  27 modules, -25 C (colder site)      1527 V      954 V  over 1500 V
+  28 modules, -15 C                    1547 V      989 V  over 1500 V
+  26 modules, 80 C cell (roof)         1436 V      889 V  below window

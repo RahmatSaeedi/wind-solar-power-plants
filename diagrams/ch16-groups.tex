@@ -1,0 +1,18 @@
+% Chapter 16 - long-term standard uncertainty (GWh at MV) of the wind and PV energy by group of the
+% budget (teaching sigmas A-277..A-279). Data: diagrams/data/ch16-groups.csv (examples_ab.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=62mm, ybar=1pt, bar width=5mm,
+      xmin=-0.6, xmax=5.6, ymin=0, ymax=8.5,
+      ylabel={انحرافِ معیار، گیگاوات‌ساعت},
+      xtick={0,...,5}, xticklabels={{اندازه‌گیری},{بلندمدت},{برون‌یابی},{مدل},{تجهیزات},{بهره‌برداری}},
+      xticklabel style={font=\footnotesize, text=cInk}, xmajorgrids=false,
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[draw=cWind, fill=cWind!45] table[x=k, y=wind, col sep=comma] {data/ch16-groups.csv};
+    \addlegendentry{بادی}
+    \addplot[draw=cPV, fill=cPV!45] table[x=k, y=pv, col sep=comma] {data/ch16-groups.csv};
+    \addlegendentry{خورشیدی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

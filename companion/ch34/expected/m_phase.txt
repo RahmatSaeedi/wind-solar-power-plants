@@ -1,0 +1,12 @@
+P and Q errors from a 20-minute phase error of the CT/VT pair (teaching)
+  power factor   phi deg   error in P %   error in Q %
+         0.800     36.87           0.43           -0.8
+         0.900     25.84           0.28           -1.2
+         0.950     18.19           0.19           -1.8
+         0.990      8.11           0.08           -4.1
+         0.999      2.56           0.02          -13.0
+  near unity power factor the active power barely notices
+  the phase error, but the reactive power, a small number,
+  is off by 4 % at 0.99 and 13 % at 0.999 - Q at the POC is
+  measured with cores whose phase displacement is known,
+  and a Q requirement near zero is judged in Mvar, not %

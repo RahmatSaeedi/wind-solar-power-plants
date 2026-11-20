@@ -1,0 +1,9 @@
+a pre-tested spare stack with quick couplings: module repairs 72 h -> 8 h
+  module failures in the fleet 0.84 a year (lesson A), 1.25 MW lost while down
+  energy kept: 67 MWh a year = 4.7 k u at 70 u/MWh
+  stack cost (modules, drivers, capacitors, busbar, plate): 27.4 k u
+  simple payback 5.8 years; value over 25 years at 6%: +32.7 k u
+  only module failures counted - a stack swap also shortens
+  driver and capacitor repairs; serviceability is designed in
+  (stack on rails, couplings that close dry), then proven by a
+  timed swap at the factory

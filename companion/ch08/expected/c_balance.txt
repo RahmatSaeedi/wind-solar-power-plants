@@ -1,0 +1,6 @@
+rotor 3 t at 1155 rpm, balance grade G 2.5 mm/s (A-115):
+  permissible specific unbalance e = G / omega = 20.7 micrometres
+  residual unbalance U = m e = 62.0 kg mm
+  rotating force U omega^2 = 0.91 kN at the bearings
+  the centre of mass may sit only about 0.02 mm from the axis; the
+  grade itself is chosen from the balancing standard's table

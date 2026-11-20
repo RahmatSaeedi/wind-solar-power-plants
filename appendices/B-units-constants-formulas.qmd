@@ -1,0 +1,428 @@
+# یکاهای [SI]{.ltr}، ثابت‌ها، تبدیل‌ها و فرمول‌نامه {#sec-app-b}
+
+این پیوست یکاها، پیشوندها، تبدیل‌ها و ثابت‌هایی را که کتاب به کار می‌برد یک‌جا می‌آورد و فرمول‌های اصلیِ فصل‌ها را با ارجاع به جای خودشان فهرست می‌کند. ضریب‌های تبدیل و ثابت‌ها را برنامهٔ همراه با همان کتابخانهٔ یکاها و ماژولِ فیزیکی حساب کرده است که فصل‌ها به کار می‌برند (@sec-ch02). فرمول‌ها از معادله‌های فصل‌ها رونوشت شده‌اند و نمادهایشان در @sec-app-a-symbols تعریف شده است.
+
+## یکاهای پایهٔ [SI]{.ltr} {#sec-app-b-base}
+
+| کمیت | یکا | نماد |
+|------------------------------|--------------------|----------|
+| طول | متر | [m]{.ltr} |
+| جرم | کیلوگرم | [kg]{.ltr} |
+| زمان | ثانیه | [s]{.ltr} |
+| جریانِ الکتریکی | آمپر | [A]{.ltr} |
+| دمای ترمودینامیکی | کلوین | [K]{.ltr} |
+| مقدارِ ماده | مول | [mol]{.ltr} |
+| شدتِ نور | کاندلا | [cd]{.ltr} |
+
+: هفت یکای پایهٔ [SI]{.ltr} {#tbl-app-b-base}
+
+از بازنگریِ ۲۰۱۹ همهٔ یکاهای [SI]{.ltr} از هفت ثابتِ تعریف‌شده با مقدارِ دقیق ساخته می‌شوند (@sec-app-b-constants).
+
+## یکاهای فرعی با نامِ ویژه {#sec-app-b-derived}
+
+| کمیت | یکا | نماد | برحسبِ یکاهای پایه |
+|----------------------|--------------|--------|----------------------|
+| بسامد | هرتز | [Hz]{.ltr} | $\text{s}^{-1}$ |
+| نیرو | نیوتن | [N]{.ltr} | $\text{kg}\,\text{m}\,\text{s}^{-2}$ |
+| فشار | پاسکال | [Pa]{.ltr} | $\text{kg}\,\text{m}^{-1}\,\text{s}^{-2}$ |
+| انرژی | ژول | [J]{.ltr} | $\text{kg}\,\text{m}^{2}\,\text{s}^{-2}$ |
+| توان | وات | [W]{.ltr} | $\text{kg}\,\text{m}^{2}\,\text{s}^{-3}$ |
+| بارِ الکتریکی | کولن | [C]{.ltr} | $\text{A}\,\text{s}$ |
+| ولتاژ | ولت | [V]{.ltr} | $\text{kg}\,\text{m}^{2}\,\text{s}^{-3}\,\text{A}^{-1}$ |
+| ظرفیتِ خازنی | فاراد | [F]{.ltr} | $\text{kg}^{-1}\,\text{m}^{-2}\,\text{s}^{4}\,\text{A}^{2}$ |
+| مقاومت | اهم | $\Omega$ | $\text{kg}\,\text{m}^{2}\,\text{s}^{-3}\,\text{A}^{-2}$ |
+| رسانایی | زیمنس | [S]{.ltr} | $\text{kg}^{-1}\,\text{m}^{-2}\,\text{s}^{3}\,\text{A}^{2}$ |
+| شارِ مغناطیسی | وبر | [Wb]{.ltr} | $\text{kg}\,\text{m}^{2}\,\text{s}^{-2}\,\text{A}^{-1}$ |
+| چگالیِ شارِ مغناطیسی | تسلا | [T]{.ltr} | $\text{kg}\,\text{s}^{-2}\,\text{A}^{-1}$ |
+| اندوکتانس | هانری | [H]{.ltr} | $\text{kg}\,\text{m}^{2}\,\text{s}^{-2}\,\text{A}^{-2}$ |
+| دمای سلسیوس | درجهٔ سلسیوس | $^\circ\text{C}$ | $t/^\circ\text{C} = T/\text{K} - 273.15$ |
+| زاویهٔ مسطح | رادیان | [rad]{.ltr} | $\text{m}/\text{m}$ |
+| زاویهٔ فضایی | استرادیان | [sr]{.ltr} | $\text{m}^{2}/\text{m}^{2}$ |
+
+: یکاهای فرعیِ پرکاربرد در کتاب {#tbl-app-b-derived}
+
+**توان در جریانِ متناوب.** توانِ اکتیو با وات ([W]{.ltr})، توانِ ظاهری با ولت‌آمپر ([VA]{.ltr}) و توانِ راکتیو با وار ([var]{.ltr}) نوشته می‌شود. ابعادِ هر سه یکی است، ولی نامِ جدا نشان می‌دهد کدام کمیت منظور است (@sec-ch07). وات‌پیک ([Wp]{.ltr}) توانِ ماژول در شرایطِ آزمونِ استاندارد است.
+
+## پیشوندهای [SI]{.ltr} {#sec-app-b-prefixes}
+
+| پیشوند | نماد | ضریب | پیشوند | نماد | ضریب |
+|------------|--------|------------|------------|--------|------------|
+| کیلو | [k]{.ltr} | $10^{3}$ | میلی | [m]{.ltr} | $10^{-3}$ |
+| مگا | [M]{.ltr} | $10^{6}$ | میکرو | $\mu$ | $10^{-6}$ |
+| گیگا | [G]{.ltr} | $10^{9}$ | نانو | [n]{.ltr} | $10^{-9}$ |
+| ترا | [T]{.ltr} | $10^{12}$ | پیکو | [p]{.ltr} | $10^{-12}$ |
+| پتا | [P]{.ltr} | $10^{15}$ | فمتو | [f]{.ltr} | $10^{-15}$ |
+| اگزا | [E]{.ltr} | $10^{18}$ | آتو | [a]{.ltr} | $10^{-18}$ |
+| هکتو | [h]{.ltr} | $10^{2}$ | سانتی | [c]{.ltr} | $10^{-2}$ |
+| دکا | [da]{.ltr} | $10^{1}$ | دسی | [d]{.ltr} | $10^{-1}$ |
+
+: پیشوندهای [SI]{.ltr} که در کتاب به کار می‌روند {#tbl-app-b-prefixes}
+
+پیشوند به نمادِ یکا می‌چسبد و توان شاملِ هر دو می‌شود: $\text{km}^2 = (10^3\,\text{m})^2 = 10^6\,\text{m}^2$. پیشوندِ جرم روی «گرم» می‌نشیند: [mg]{.ltr}، نه [µkg]{.ltr}. کتابخانهٔ یکاهای همراه پیشوندهای بزرگ‌تر و کوچک‌تر ([Z]{.ltr}، [Y]{.ltr}، [R]{.ltr}، [Q]{.ltr} و قرینه‌هایشان) را هم می‌شناسد.
+
+## یکاهای بیرون از [SI]{.ltr} که با آن به کار می‌روند {#sec-app-b-accepted}
+
+| یکا | نماد | برابر با |
+|--------------------|----------|------------------------------|
+| دقیقه، ساعت، روز | [min]{.ltr}، [h]{.ltr}، [d]{.ltr} | [60 s]{.ltr}، [3600 s]{.ltr}، [86400 s]{.ltr} |
+| هکتار | [ha]{.ltr} | $10^{4}\,\text{m}^2$ |
+| لیتر | [L]{.ltr} | $10^{-3}\,\text{m}^3$ |
+| تن | [t]{.ltr} | $10^{3}\,\text{kg}$ |
+| بار | [bar]{.ltr} | $10^{5}\,\text{Pa}$ |
+| وات‌ساعت | [Wh]{.ltr} | [3600 J]{.ltr} |
+| آمپرساعت | [Ah]{.ltr} | [3600 C]{.ltr} |
+| الکترون‌ولت | [eV]{.ltr} | $1.602\,176\,634\times10^{-19}\,\text{J}$ |
+| درجهٔ زاویه | $^\circ$ | $\pi/180\,\text{rad}$ |
+
+: یکاهای پذیرفته‌شده در کنارِ [SI]{.ltr} {#tbl-app-b-accepted}
+
+## ضریب‌های تبدیل {#sec-app-b-conversions}
+
+یکاهای غیرِ [SI]{.ltr} هنوز در برگه‌های داده و گزارش‌های قدیمی دیده می‌شوند. هر عدد در فصل‌ها پیش از محاسبه به [SI]{.ltr} برده می‌شود (@sec-ch02).
+
+```{.text include="companion/appx/expected/appb_conv.txt"}
+```
+
+**دما.** دما جابه‌جایی دارد، نه ضریب. اختلافِ دمای یک درجهٔ سلسیوس برابرِ یک کلوین است، ولی خودِ دما ۲۷۳٫۱۵ واحد جابه‌جاست. خطای رایج ضرب‌کردنِ دمای سلسیوس در رابطه‌ای است که کلوین می‌خواهد، مانندِ قانونِ گازها یا تابشِ گرمایی.
+
+## ثابت‌ها {#sec-app-b-constants}
+
+```{.text include="companion/appx/expected/appb_const.txt"}
+```
+
+**یادداشت.** شش ثابتِ نخست در [SI]{.ltr} مقدارِ دقیق دارند (دوتای آخر، ثابتِ استفان–بولتزمن و ثابتِ گازِ مولی، از ثابت‌های دقیق ساخته می‌شوند و این‌جا گرد شده‌اند). ثابتِ مغناطیسی از ۲۰۱۹ اندازه‌گیری‌شده است و $4\pi\times10^{-7}$ فقط حدودِ یک ده‌میلیاردم با آن فرق دارد. برنامه‌های کتاب همین مقدارِ گرد را به کار می‌برند. ثابتِ ویژهٔ گازِ هوای خشک و چگالیِ هوای استاندارد مقدارهایی‌اند که فصل‌های ۱۱ و ۱۳ به کار برده‌اند. چگالیِ واقعیِ ساختگاه از فشار، دما و رطوبتِ اندازه‌گیری‌شده حساب می‌شود (@sec-ch13).
+
+## فرمول‌نامه {#sec-app-b-formulas}
+
+هر فرمول همان معادلهٔ فصلی است که شماره‌اش آمده. فرض‌ها، محدوده‌های اعتبار و مثال‌ها در همان فصل‌اند. فرمولی را بیرون از فرض‌هایش به کار نبرید.
+
+### اندازه‌گیری و آمار
+
+**عدمِ قطعیتِ گسترده** (@eq-ch02-expanded):
+
+$$
+U = k\,u_\text{c}(y)
+$$
+
+**ترکیبِ عدمِ قطعیت‌های مستقل** (@eq-ch16-rss):
+
+$$
+u_\text{c} = \sqrt{u_1^2 + u_2^2 + \dots + u_n^2}
+$$
+
+**توزیعِ وایبول** (@eq-ch03-weibull):
+
+$$
+f(v) = \frac{k}{c}\Big(\frac{v}{c}\Big)^{k-1} e^{-(v/c)^{k}}, \qquad
+F(v) = 1 - e^{-(v/c)^{k}}
+$$
+
+**برآوردِ احتمالِ فراگذشت** (@eq-ch16-pp):
+
+$$
+\begin{aligned}
+P_p &= P_{50}\,(1 - z_p\, u) \\
+z_{0.75} = 0.674,\quad z_{0.90} &= 1.2816,\quad z_{0.95} = 1.645,\quad z_{0.99} = 2.326
+\end{aligned}
+$$
+
+**تابعِ زیانِ چندکی** (@eq-ch15-pinball):
+
+$$
+L_\tau(q, y) = \max\{\tau (y - q),\ (\tau - 1)(y - q)\} .
+$$
+
+**احتمالِ دست‌کم یک رویدادِ پواسون** (@eq-ch54-watch):
+
+$$
+\Pr(N \ge 1) = 1 - e^{-\lambda_\text{r} t}.
+$$
+
+### مدارِ الکتریکی و جریانِ متناوب
+
+**توانِ الکتریکی** (@eq-ch06-power):
+
+$$
+P = V\,I
+$$
+
+**افتِ ولتاژ و تلفِ رسانا** (@eq-ch06-drop):
+
+$$
+\Delta V = R_\text{c}\,I
+\qquad
+P_\text{loss} = R_\text{c}\,I^2
+\qquad
+\frac{\Delta V}{V} = \frac{P_\text{loss}}{P}
+$$
+
+**زمانِ تخلیهٔ مدارِ مقاومت–خازن** (@eq-ch06-rc-time):
+
+$$
+t = \tau\,\ln\frac{V_0}{V_\text{target}}
+$$
+
+**مقدارِ مؤثرِ موجِ سینوسی** (@eq-ch07-rms-sine):
+
+$$
+I = \sqrt{\tfrac12 I_\text{m}^2} = \frac{I_\text{m}}{\sqrt2} \approx 0.7071\,I_\text{m}
+$$
+
+**توانِ سه‌فاز** (@eq-ch07-p3):
+
+$$
+P = 3\,V_\text{ph}\,I\cos\varphi = \sqrt3\,V_\text{LL}\,I\cos\varphi, \qquad
+S = \sqrt3\,V_\text{LL}\,I
+$$
+
+**توانِ مختلط** (@eq-ch07-pf):
+
+$$
+\text{pf} = \frac{P}{S}
+$$
+
+**مبناهای پریونیت** (@eq-ch07-pu):
+
+$$
+I_\text{base} = \frac{S_\text{base}}{\sqrt3\,V_\text{base}}, \qquad
+Z_\text{base} = \frac{V_\text{base}^2}{S_\text{base}}, \qquad
+z = \frac{Z}{Z_\text{base}}
+$$
+
+**توانِ راکتیوِ لازم برای یک ضریبِ توان** (@eq-ch54-q):
+
+$$
+Q_\text{req} = P \tan\varphi, \qquad \tan\varphi = \frac{\sqrt{1-\cos^2\varphi}}{\cos\varphi}.
+$$
+
+### ماشین و الکترونیکِ قدرت
+
+**سرعتِ هم‌گام** (@eq-ch08-nsync):
+
+$$
+n_\text{s} = \frac{120\,f}{p}\ \ \text{rpm}
+$$
+
+**لغزش** (@eq-ch08-slip):
+
+$$
+s = \frac{n_\text{s} - n}{n_\text{s}}
+$$
+
+**دمای پیوندِ نیمه‌هادی** (@eq-ch09-tj):
+
+$$
+T_j = T_\text{coolant} + P_\text{loss}\,(R_\text{jc} + R_\text{ch} + R_\text{hc}), \qquad
+Z_\text{th}(t) = \sum_i R_i\left(1 - e^{-t/\tau_i}\right)
+$$
+
+### فتوولتائیک و منبعِ خورشیدی
+
+**مدلِ تک‌دیودیِ سلول و ماژول** (@eq-ch10-sdm):
+
+$$
+I = I_\text{L} - I_0\left[\exp\!\left(\frac{V + I R_\text{s}}{a}\right) - 1\right] - \frac{V + I R_\text{s}}{R_\text{sh}},
+\qquad a = \frac{n N_\text{s} k_\text{B} T_\text{c}}{q}
+$$
+
+**ولتاژِ مدارِ باز** (@eq-ch10-voc):
+
+$$
+V_\text{oc} = n V_t \ln\!\left(\frac{I_\text{L}}{I_0} + 1\right)
+$$
+
+**ضریبِ پرشدگی و بازده** (@eq-ch10-ff):
+
+$$
+\text{FF} = \frac{V_\text{mp}\,I_\text{mp}}{V_\text{oc}\,I_\text{sc}}, \qquad
+\eta = \frac{P_\text{max}}{G\,A} = \frac{\text{FF}\,V_\text{oc}\,I_\text{sc}}{G\,A}
+$$
+
+**دمای ماژول** (@eq-ch10-faiman):
+
+$$
+T_\text{c} = T_\text{a} + \frac{T_\text{NOCT} - 20}{800}\,G, \qquad
+T_\text{c} = T_\text{a} + \frac{G}{U_0 + U_1\,v}
+$$
+
+**نسبتِ عملکرد** (@eq-ch10-pr):
+
+$$
+\text{PR} = \frac{E_\text{AC}}{P_\text{STC}\,H_\text{POA}/G_\text{STC}}, \qquad Y_\text{f} = \frac{E_\text{AC}}{P_\text{STC}}
+$$
+
+**تابشِ فرازمینیِ عمودی** (@eq-ch12-g0n):
+
+$$
+G_\text{0n} = G_\text{sc}\left[1 + 0.033\cos\!\left(\frac{2\pi n}{365}\right)\right], \qquad G_\text{sc} = 1361\ \text{W/m}^2 ,
+$$
+
+**رابطهٔ بستنِ مؤلفه‌های تابش** (@eq-ch12-closure):
+
+$$
+G_\text{h} = G_\text{b,n}\cos\theta_z + G_\text{d} .
+$$
+
+**نسبتِ عملکرد از بهره‌دهی‌ها** (@eq-ch37-pr):
+
+$$
+\text{PR} = \frac{Y_\text{f}}{Y_\text{r}} = \frac{E/P_\text{dc}}{H_\text{POA}/G_\text{stc}}
+$$
+
+### باد و منبعِ بادی
+
+**توانِ باد** (@eq-ch11-pwind):
+
+$$
+P_\text{wind} = \tfrac12\,\rho\,A_\text{r}\,v^3
+$$
+
+**حدِ بتز** (@eq-ch11-betz):
+
+$$
+C_p = 4a(1-a)^2, \qquad C_T = 4a(1-a), \qquad C_{p,\max} = \frac{16}{27}\ \ \left(a = \tfrac13\right)
+$$
+
+**کمبودِ سرعت در دنباله (ینسن)** (@eq-ch11-jensen):
+
+$$
+\frac{\Delta v}{v} = \left(1 - \sqrt{1 - C_T}\right)\left(\frac{D}{D + 2 k_\text{w} x}\right)^2
+$$
+
+**نیم‌رخِ سرعتِ باد** (@eq-ch13-profiles):
+
+$$
+v(z) = v_\text{ref}\left(\frac{z}{z_\text{ref}}\right)^{\alpha}, \qquad
+v(z) = \frac{u_*}{\kappa}\ln\frac{z}{z_0} ,
+$$
+
+**شدتِ آشفتگی** (@eq-ch13-ti):
+
+$$
+I = \frac{\sigma_v}{\bar v} .
+$$
+
+### ذخیره‌سازی
+
+**شمارشِ کولن برای وضعیتِ شارژ** (@eq-ch19-coulomb):
+
+$$
+\widehat{\text{SOC}}(t) = \text{SOC}_0 - \frac{1}{3600\,Q}\int_0^t \bigl(k\,i(\tau) + b\bigr)\,d\tau
+$$
+
+### کابل، ترانسفورماتور، حفاظت و شبکه
+
+**افتِ ولتاژِ سه‌فاز** (@eq-ch24-drop):
+
+$$
+\Delta U = \sqrt{3}\, I L\,(R\cos\varphi + X\sin\varphi)
+$$
+
+**سطحِ مقطعِ کمینه برای اتصالِ کوتاه** (@eq-ch24-adiabatic):
+
+$$
+S \geq \frac{I_\text{k}\sqrt{t}}{k}
+$$
+
+**بازدهِ ترانسفورماتور** (@eq-ch25-efficiency):
+
+$$
+\eta = \frac{k S \cos\varphi}{k S \cos\varphi + P_0 + k^2 P_\text{k}}
+$$
+
+**تنظیمِ ولتاژِ ترانسفورماتور** (@eq-ch25-regulation):
+
+$$
+\varepsilon \approx u_r\cos\varphi + u_x\sin\varphi + \frac{(u_x\cos\varphi - u_r\sin\varphi)^2}{200}
+$$
+
+**رلهٔ جریانیِ زمانِ معکوس** (@eq-ch26-idmt):
+
+$$
+t = \text{TMS}\,\frac{k}{(I/I_\text{s})^{\alpha} - 1}
+$$
+
+**اعوجاجِ هارمونیکی** (@eq-ch27-thd):
+
+$$
+\begin{aligned}
+\mathrm{THD} &= \frac{\sqrt{\sum_{h \ge 2} I_h^2}}{I_1} \\
+\mathrm{TDD} &= \frac{\sqrt{\sum_{h \ge 2} I_h^2}}{I_\text{L}}
+\end{aligned}
+$$
+
+**نسبتِ اتصالِ کوتاهِ وزنی** (@eq-ch28-wscr):
+
+$$
+\mathrm{WSCR} = \frac{\sum_i S_{\text{sc},i}\,P_i}{\left(\sum_i P_i\right)^{2}}
+$$
+
+### قابلیتِ اطمینان و نگهداری
+
+**دسترس‌پذیری** (@eq-ch52-avail):
+
+$$
+A_\text{i} = \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}}, \qquad
+A_\text{o} = \frac{\text{MTBM}}{\text{MTBM} + \text{MDT}}
+$$
+
+**جفتِ افزونه با علتِ مشترک** (@eq-ch52-ccf):
+
+$$
+Q_\text{pair} = \bigl((1 - \beta_\text{c})\,q\bigr)^2 + \beta_\text{c}\,q
+$$
+
+**فاصلهٔ آزمونِ خرابیِ پنهان** (@eq-ch52-hidden):
+
+$$
+T \approx \frac{2U}{\lambda}
+$$
+
+### اقتصاد و مالی
+
+**ضریبِ اقساط و بازیابیِ سرمایه** (@eq-ch03-annuity):
+
+$$
+\begin{aligned}
+\text{AF}(r, n) &= \frac{1 - (1 + r)^{-n}}{r} \\
+\text{CRF}(r, n) &= \frac{1}{\text{AF}(r, n)}
+\end{aligned}
+$$
+
+**ارزشِ فعلیِ خالص و نرخِ بازده** (@eq-ch21-npv):
+
+$$
+\text{NPV} = \sum_{t} \frac{C_t}{(1+r)^t}, \qquad \text{NPV}(\text{IRR}) = 0
+$$
+
+**هزینهٔ ترازشدهٔ انرژی** (@eq-ch21-lcoe):
+
+$$
+\text{LCOE} = \frac{\text{CAPEX} + \sum_t \dfrac{\text{OPEX}_t + \text{REPL}_t}{(1+r)^t}}{\sum_t \dfrac{E_t}{(1+r)^t}}
+$$
+
+**میانگینِ موزونِ هزینهٔ سرمایه** (@eq-ch21-wacc):
+
+$$
+\text{WACC} = \frac{E}{V}\,r_\text{e} + \frac{D}{V}\,r_\text{d}\,(1 - \tau_\text{tax})
+$$
+
+**نسبت‌های پوششِ بدهی** (@eq-ch21-ratios):
+
+$$
+\text{DSCR}_t = \frac{\text{CFADS}_t}{I_t + P_t}, \qquad
+\text{LLCR}_t = \frac{\sum_{k=t}^{n_\text{d}} \text{CFADS}_k\,(1+r_\text{d})^{-(k-t+1)}}{B_t}
+$$
+
+**پرداختِ صندوقِ ذخیره** (@eq-ch53-fund):
+
+$$
+p = F\,\frac{i}{(1+i)^n - 1}
+$$
+
+**نرخِ بهرهٔ افزوده برای مالیاتِ تکلیفی** (@eq-ch54-gross):
+
+$$
+r_\text{g} = \frac{r}{1 - w}.
+$$
+

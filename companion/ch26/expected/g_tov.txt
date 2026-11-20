@@ -1,0 +1,12 @@
+arrester voltage against the earthing method (33 kV system):
+  normal phase-to-earth voltage 20.8 kV (Um 36 kV)
+  during an earth fault the healthy phases rise towards 36 kV
+  earthing                  overvoltage lasts    continuous rating   residual
+  resistance, cleared       about 2 s               20.8 kV       58 kV
+  unearthed, not cleared    hours                   36.0 kV      101 kV
+  (residual taken as 2.8 x the continuous rating, teaching)
+  a short overvoltage is met by the arrester's temporary
+  rating; one lasting hours needs a continuous rating at line
+  voltage - a larger arrester with a higher residual and less
+  margin to a 170 kV impulse level (2.9 against 1.7)
+  the earthing decision of lesson B fixes the arresters too

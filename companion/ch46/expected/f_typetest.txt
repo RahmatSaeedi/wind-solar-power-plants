@@ -1,0 +1,14 @@
+what the maker's type-test reports cover against the order
+  panel     rated A    short-time kA x s    ambient C
+            ord/rep    ordered / report     ord/rep
+  incomer   1600/1250  25 x 3 / 25 x 1         45/40
+  feeder    630/630    25 x 3 / 25 x 3         45/40
+  gaps:
+    incomer: 1600 A not type-tested (1250 A)
+    incomer: report covers 33% of the ordered I2t
+    incomer: ambient 45 C > 40 C: maker's derating
+    feeder: ambient 45 C > 40 C: maker's derating
+  a type test proves the design that was tested; the 1,600 A
+  incomer of ch 26 is a different design until the maker shows
+  a report for it or a justified extension - asked for before
+  the order, not at the FAT

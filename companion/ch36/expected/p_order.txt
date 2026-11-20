@@ -1,0 +1,14 @@
+order of recovery after losing the control zone (teaching hours)
+  system            hours   needs first           ready at h
+  firewall            2.2   -                         2.2
+  time server         1.0   firewall                  3.2
+  OT directory        2.0   time server               5.2
+  SCADA servers       6.2   OT directory             11.4
+  HMIs                2.0   SCADA servers            13.4
+  historian          22.0   OT directory             27.2
+  operators see the plant again after 13.4 h; the historian
+    is back after 27.2 h, working in parallel
+  one person doing everything in turn: 35.4 h
+  the order comes from what each system needs; the time
+  server and the directory are small but everything waits
+  for them - so their backups are tested first

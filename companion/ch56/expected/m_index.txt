@@ -1,0 +1,10 @@
+tariff in afghani, debt in another currency (teaching):
+  share of the tariff indexed to the rate for min DSCR >= 1.05
+  weakens a year   min DSCR, none  share needed
+               2%            0.86           53%
+               5%            0.43           81%
+               8%            0.15           88%
+  in each case the unindexed part may weaken by about 0.94% a year
+  at most; the rate itself is not forecast here; what is verified is the
+  contract's currency and indexation clause and who carries the
+  risk (AF-28, AF-29; ch 54 E; not financial advice)

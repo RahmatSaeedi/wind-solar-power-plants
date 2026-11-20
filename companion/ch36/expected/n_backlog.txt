@@ -1,0 +1,6 @@
+notices from makers waiting for installation over a year (synthetic)
+  notices in the year: 23
+  waiting on an average day: 2.9; at most: 8
+  quarterly windows let the backlog grow to a handful
+  before each window; each waiting notice has a risk note
+  and, where needed, a compensating control (lesson C)

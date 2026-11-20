@@ -1,0 +1,13 @@
+export-system work packages and who approves them
+  cable laying and jointing
+      basis: cable maker's procedure; approved by qualified jointer, QC
+  road and track crossings
+      basis: authority's permit; approved by road authority
+  line stringing
+      basis: line designer's method; approved by line owner / operator
+  transformer installation
+      basis: maker's instruction; approved by maker's supervisor
+  work near energised parts
+      basis: permit-to-work system; approved by authorised person (ch 32)
+  the logistics plan sequences them; it does not replace
+  any of their approvals

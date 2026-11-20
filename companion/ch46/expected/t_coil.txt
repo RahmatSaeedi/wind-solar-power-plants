@@ -1,0 +1,12 @@
+voltage at a trip coil at the end of the battery's discharge (94 V, teaching)
+  coil 5 A, 40 m from the DC board (there and back); coil needs 77 V
+  wire mm2   drop V   at the coil V   margin V
+      0.75      9.2            84.8        7.8
+      1.50      4.6            89.4       12.4
+      2.50      2.8            91.2       14.2
+  every size works on one coil; the 0.75 mm2 wire of lesson C
+  (wire 112) cuts the margin from 12.4 V (the rule's 1.5 mm2) to 7.8 V;
+  two coils on one shared 0.75 mm2 wire leave 75.7 V, below the coil's 77 V -
+  the coil's minimum voltage, the battery's end voltage and
+  the wire are one calculation, kept with the panel's records
+  (ch 23 DC system)

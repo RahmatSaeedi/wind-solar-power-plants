@@ -1,0 +1,13 @@
+design FMEA of the skid: failure caused by the design
+  item               mode                          S O D
+  skid frame         fatigue crack at lift points  9 2 4
+      control: lift analysis, first-article check
+  cable entries      water ingress                 7 3 4
+      control: IP rating test of one skid
+  LV busbar section  overheats at full load        8 2 3
+      control: heat-rise calculation, type test
+  enclosure vents    condensation inside           6 4 5
+      control: humidity study, heaters specified
+  the design FMEA asks what the drawing allows to go wrong;
+  the process FMEA (lesson B) asks what the factory may do
+  wrong while following the drawing - both feed the ITP

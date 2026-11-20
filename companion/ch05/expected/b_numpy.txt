@@ -1,0 +1,4 @@
+shape (8760,)  dtype float64
+energy 97,304 MWh;  hours at the limit 17
+loop and array agree: True
+best hour of the mean day: 11

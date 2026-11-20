@@ -1,0 +1,15 @@
+chance two events from two relays are logged in the wrong order
+  (each clock with an independent normal error; teaching values)
+  (standard error: NTP over the WAN 1 ms, in the plant LAN
+  0.2 ms, PTP to the relays 1 us)
+  true gap ms    NTP, WAN    NTP, LAN         PTP
+          0.5      0.3618      0.0385      0.0000
+          1.0      0.2398      0.0002      0.0000
+          2.0      0.0786      0.0000      0.0000
+          5.0      0.0002      0.0000      0.0000
+         10.0      0.0000      0.0000      0.0000
+  a breaker and the relay that tripped it act a few ms apart;
+  with WAN time their order is wrong 36 % of the time at
+  0.5 ms and once in 13 at 2 ms; with PTP it is never wrong.
+  The sequence of events that a fault investigation needs
+  is a design requirement on the time chain (lesson A)

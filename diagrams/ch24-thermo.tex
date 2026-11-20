@@ -1,0 +1,18 @@
+% Chapter 24 - infrared survey: temperature rise over a like part for eight items, with the
+% teaching action thresholds 10, 15 and 40 K (companion/ch24/examples_w.py thermography()).
+% Items are numbered as in the program output (1-8).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, ybar, bar width=6mm, xmin=0.4, xmax=8.6,
+      ymin=0, ymax=55, xtick={1,...,8}, xlabel={ردیفِ بازرسی}, ylabel={افزایشِ دما $(\text{K})$},
+      xmajorgrids=false]
+    \addplot[draw=cLoss, fill=cLoss!30] table[x=k, y=dt, col sep=comma] {data/ch24-thermo.csv};
+    \draw[sLimit] (axis cs:0.4,40) -- (axis cs:8.6,40);
+    \draw[sLimit] (axis cs:0.4,15) -- (axis cs:8.6,15);
+    \draw[draw=cInkB, densely dotted] (axis cs:0.4,10) -- (axis cs:8.6,10);
+    \node[note, anchor=south east] at (axis cs:8.5,40.5) {اقدامِ فوری};
+    \node[note, anchor=south east] at (axis cs:8.5,15.5) {خاموشیِ بعدی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

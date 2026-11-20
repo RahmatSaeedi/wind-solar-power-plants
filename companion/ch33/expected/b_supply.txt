@@ -1,0 +1,12 @@
+supplier due diligence on labour and supply chain (teaching scores)
+  supplier          traced   audit   code   grievance   score   action
+  modules S1          95 %       1      1           1    0.98
+  modules S2          40 %       0      1           0    0.36   plan
+  turbines            80 %       1      1           1    0.92
+  steel structures    70 %       1      0           1    0.68   plan
+  cables              60 %       1      1           0    0.64   plan
+  forced and child labour risks sit deep in raw-material
+  chains: traceability to the source, independent audits
+  and a supplier grievance channel are asked for in the
+  tender; a weak score leads to a corrective plan with
+  dates, and the lenders' and the law's rules decide the rest

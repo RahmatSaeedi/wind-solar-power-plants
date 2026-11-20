@@ -1,0 +1,26 @@
+D-047 transformer design review and factory acceptance basis
+  1 design review: flux density with the grid study's V/f;
+    turns and tap steps inside the ratio tolerance; impedance
+    from the geometry; loss build-up; gap and barrier stress;
+    short-circuit stresses with the inner winding supported
+  2 losses corrected for waveform and temperature before any
+    comparison; deductions with the A and B of the enquiry
+  3 heat run read from the cooling curve extrapolated to
+    shut-down; winding and top-oil rises both judged
+  4 traveler records at every gate, with the core, winding
+    heights, drying end point, oil water and preservation
+  5 baselines delivered (ratio, R, PI, FRA both windings, DGA,
+    impact log) - each site check compares with one
+  6 maker data to every discipline before FAT closes
+  7 open decisions listed with owners; no 'all pass' summary
+  8 energise from the grid on a high tap; the 33 kV winding
+    sets the flux in service (TQ-03)
+  9 witness points from the FMEA: drying end point, bare core,
+    active part; burr, clamping and joint records as holds
+ 10 readings referred before comparing: tan delta to 20 C,
+    delta phases solved, PD with calibration and background
+ 11 rating plate with measured values; DC-injection limit in
+    the PV unit specification; upgraded paper considered
+ 12 a written rating limit (62 MVA) costs no energy here and
+    is an option for the winding-rise finding
+  open: maker's design data and short-circuit proof (U-124)

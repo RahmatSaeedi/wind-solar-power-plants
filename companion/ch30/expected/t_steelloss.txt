@@ -1,0 +1,9 @@
+PV post steel after the zinc is gone (C-post, 3 mm walls; teaching)
+  soil                       zinc life   steel loss um/yr   wall at 30 yr
+  dense sand, dry                  85                  6         3.00 mm
+  silty sand, moist                28                 15         2.94 mm
+  gypsum, saline                   11                 40         1.48 mm
+  in the saline zone the wall loses about half its thickness
+  by year 30, at the ground line where the bending is
+  greatest; a thicker section, a duplex coating or a
+  concrete footing there - sized from the ch 29 tests

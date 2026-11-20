@@ -1,0 +1,19 @@
+traces of sourced requirements - Afghanistan
+  AF-17: water-use permit for construction and cleaning
+    source       MEW guideline for water usage permit (posted Mar 2026)
+    design       monthly water balance and cleaning plan (appendix H)
+    procurement  well drilling and meter in the civil works scope
+    construction meter installed on the well before use
+    test         not applicable: a permit (meter reading checked)
+    approval     committee survey, ministry agreement, permit issued
+    retained     permit, survey report, monthly meter records
+    open stages: 0 of 7
+  AF-14: connection technical requirements
+    source       none published (AF-14) - a request to DABS
+    design       OPEN
+    procurement  OPEN
+    construction OPEN
+    test         OPEN
+    approval     OPEN
+    retained     OPEN
+    open stages: 6 of 7

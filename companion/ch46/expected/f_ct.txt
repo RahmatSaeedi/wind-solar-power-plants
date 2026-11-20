@@ -1,0 +1,13 @@
+CT ratio and polarity at the switchgear FAT against the CT schedule
+  panel    schedule   found   polarity
+  PVF3       600/1    400/1   ok
+  BESS-B     600/1    600/1   reversed core 2
+  differing: PVF3, BESS-B
+  PVF3's relay is set for 600/1; with a 400/1 CT it sees 1.5 x the current:
+  stage 51 acts at 360 A instead of 540 A,
+  stage 50 at 640 A instead of 960 A
+  the feeder's full output is 276 A - no trip in service, but every
+  grading margin of ch 26 is gone; a reversed core in a
+  differential zone trips on the first through-fault - both are
+  found by reading the record against the schedule, before any
+  current flows

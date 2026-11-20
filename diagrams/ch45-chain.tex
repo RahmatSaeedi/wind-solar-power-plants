@@ -1,0 +1,22 @@
+% Chapter 45 - the evidence chain of the fictional defect of lab D, from the cell maker's rest test
+% to the lifecycle record; red steps are deviations, the gap and the blind sample
+% (companion/ch45/lab_d.py, TRAIL). Read right to left, two rows.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=23mm, minimum height=11mm, text width=21mm, align=center},
+    bad/.style={st, draw=cLoss, fill=cLoss!9}]
+  \node[bad] (a) at (0,0) {آزمونِ استراحت \\ ۷ روز};
+  \node[st] (b) at (-2.8,0) {رهاسازیِ محموله};
+  \node[bad] (c) at (-5.6,0) {دریافت \\ نمونهٔ کور};
+  \node[st] (d) at (-8.4,0) {ساختِ ماژول};
+  \node[bad] (e) at (-11.2,0) {پیکربندیِ سامانهٔ مدیریت};
+  \node[bad] (f) at (-11.2,-2.4) {پذیرشِ ساختگاه \\ بی‌آزمونِ ولتاژ};
+  \node[blkWind, minimum width=23mm, minimum height=11mm, text width=21mm, align=center] (g) at (-8.4,-2.4) {نشانه: کارِ متعادل‌سازی};
+  \node[st] (h) at (-5.6,-2.4) {ردیابی تا سلول};
+  \node[st] (i) at (-2.8,-2.4) {سابقهٔ چرخهٔ عمر};
+  \foreach \x/\y in {a/b, b/c, c/d, d/e} {\draw[flow] (\x) -- (\y);}
+  \draw[flow] (e) -- (f);
+  \draw[flow] (f) -- (g); \draw[flow] (g) -- (h); \draw[flow] (h) -- (i);
+\end{tikzpicture}}
+\end{document}

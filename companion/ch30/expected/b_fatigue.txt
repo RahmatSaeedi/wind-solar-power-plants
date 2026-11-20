@@ -1,0 +1,13 @@
+fatigue of the circumferential welds (DEL at 1e7 cycles, teaching
+  detail class 71 MPa, slopes 3 and 5, stress x 1.15)
+  section  range MPa   damage   t for damage 1   t buckling   t chosen
+        1        48.6     1.39            50 mm        46 mm      50 mm
+        2        50.0     1.59            45 mm        41 mm      45 mm
+        3        50.1     1.61            36 mm        34 mm      36 mm
+        4        37.8     0.40            22 mm        23 mm      26 mm
+  steel added to the tower: about 32 t on 340 t
+  fatigue, not the storm, sizes the lower welds: with the
+  ch 11 walls three sections exceed a damage of 1; thicker
+  cans, a better weld detail (ground flush) or a lower
+  load set fix it - the maker's tower design does this with
+  the real load spectrum and the code's detail categories

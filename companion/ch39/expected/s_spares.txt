@@ -1,0 +1,10 @@
+a strategic spare unit transformer? (teaching rates)
+  failures expected in a 30-week replacement lead: 0.058
+  chance of one or more in that window: 5.6%
+  failures expected over 25 years: 2.5
+  energy lost per failure without a spare: 389 k u (5 MW, CF 0.22, 30 weeks)
+  expected loss over life without a spare: 973 k u
+  one spare with storage and upkeep: about 136 k u
+  the spare pays if failures are as likely as assumed; it
+  also needs the same rating and vector group - one more
+  reason the ten units are identical (ch 38, C-017)

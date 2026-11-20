@@ -1,0 +1,6 @@
+turbine foundation concrete: 380 kg/m3 cement, 330 kJ/kg heat of hydration
+    (A-066)
+  fully insulated core would rise 52 K; placed at 25 C -> about 77 C
+  the surface cools to the air: a large core-surface difference cracks it
+  mitigations: lower-heat binders, cooling pipes, night placement,
+  insulation, and a measured temperature-difference limit in the specification

@@ -1,0 +1,10 @@
+side-by-side check of four pyranometers, 14 days (A-249):
+  sensor  ratio to the median   verdict
+  S1      0.9970                accept
+  S2      1.0016                accept
+  S3      1.0331                check certificate
+  S4      0.9948                accept
+  sensor S3 reads about 3.3 % above the median (3.6 % was put in):
+  its logger used the sensitivity
+  of another serial; found before the campaign started, not a
+  year later in the energy report

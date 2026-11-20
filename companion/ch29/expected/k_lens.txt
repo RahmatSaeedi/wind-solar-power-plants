@@ -1,0 +1,12 @@
+the chance that probes find a soft lens which lies under part of a
+  20 m footprint (lens centre random; Monte Carlo, 40,000 draws)
+  lens diameter m   1 borehole   + 3 CPTs at 7 m   + 6 CPTs at 8 m
+                5           4 %              16 %              28 %
+               10          11 %              38 %              64 %
+               20          25 %              57 %              76 %
+               40          44 %              72 %              84 %
+  (one central borehole, exact: r^2/(R+r)^2 = 4 % for a 5 m lens)
+  one borehole finds a small lens only by luck; more probes
+  raise the chance quickly, and geophysics or a CPT pattern
+  is what a foundation on mixed ground needs - between the
+  turbines, 600 m apart, a lens is never found by boreholes

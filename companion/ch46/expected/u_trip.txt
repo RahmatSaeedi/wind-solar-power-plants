@@ -1,0 +1,10 @@
+trip path of WS1 before and after the interposing relay K5 (FAT
+  change C-04), milliseconds (teaching)
+  relay output 30 + breaker opening 32.6 = 62.6 ms
+  with K5 in the path: + 12 ms = 74.6 ms
+  a grading margin as tight as ch 26's tightest (0.31 s) would keep 0.298 s,
+  below the 0.30 s the coordination study assumed
+  a relay added at the FAT changes the clearing time of every
+  trip through it: the change goes back to the protection
+  engineer, the margins are re-checked with the new time, and
+  the opening time used is the measured one (lesson B)

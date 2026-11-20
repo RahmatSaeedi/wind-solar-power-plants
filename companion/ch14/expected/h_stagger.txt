@@ -1,0 +1,14 @@
+the west row shifted south (east row fixed), long-term energy
+  with the teaching speed-up:
+  shift m   farm GWh   wake loss   camp dB(A)   lowest west turbine y
+       0     193.06     5.85 %      45.4          2700 m
+     300     193.33     5.73 %      44.9          2400 m
+     600     194.73     5.05 %      44.4          2100 m
+     900     195.37     4.75 %      41.2          1800 m
+    1200     196.88     4.01 %      37.7          1500 m
+    1500     197.30     3.64 %      35.1          1200 m
+  staggering the rows lifts the energy (the rows stop shading each
+  other in the prevailing wind) and moves the west row away from
+  the camp; at 1,500 m the southern turbine stands 75 m from the
+  wadi, inside its 100 m buffer: the shift stops at 1,200 m, on a
+  constraint, where optima usually sit

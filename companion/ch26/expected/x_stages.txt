@@ -1,0 +1,14 @@
+protection at each energisation stage of ch 23 (teaching)
+  stage                      protects the new part       settings group
+  S0 utility bay             operator's relays           -
+  S1 line to the plant bay   line diff. + distance       L1
+  S2 132 kV bus and T1       T1 diff., gas, HV backup    T1
+  S3 section A, SST          incomer, NER standby        G1
+  S4 first wind string       feeder and unit relays      G1
+  at S4 only one transformer and few units feed a fault: the
+  bus fault level is about 6.4 kA and the far-end feeder fault
+  4.68 kA, which the feeder relay clears in 0.30 s - every
+  stage is checked against its own fault levels; nothing is
+  energised whose protection has not been tested, and the
+  settings group in service is part of the switching
+  programme of the operator and the owner (ch 48-50)

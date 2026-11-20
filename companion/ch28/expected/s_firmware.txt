@@ -1,0 +1,13 @@
+a firmware change raises the reactive-current gain from 2.0 to 2.5
+  (weak grid, the grid source dips to 0.50 pu for 150 ms)
+  quantity                        k 2.0 (studied)   k 2.5 (new)   rows hit
+  POC voltage in the dip pu                    0.61          0.63   G04, G06
+  reactive power in the dip Mvar              57.96         70.99   G06
+  highest voltage after clearing pu            1.11          1.13   G05
+  active power back (90 %) s                   0.00          0.20   G07
+  the dip voltage improves, but the overshoot after clearing
+  grows, and the larger reactive current now cuts active
+  current, so the recovery requirement applies where it did
+  not before - a change that helps one requirement can hurt
+  another: every compliance row touched by the changed
+  parameter is rerun, and the OEM's statement names them

@@ -1,0 +1,25 @@
+% Chapter 16 - distribution of the one-year net energy of Plant P: Monte Carlo histogram (20,000
+% draws through the plant end of model 15.1) and the normal curve of the budget, with P50, P90, P99.
+% Data: diagrams/data/ch16-mchist.csv (lab_d.py), ch16-pdf.csv (examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=64mm, xmin=232, xmax=358, ymin=0, ymax=0.032,
+      xlabel={انرژیِ خالصِ سالِ اول، گیگاوات‌ساعت}, ylabel={چگالیِ احتمال، بر گیگاوات‌ساعت},
+      xtick={240,260,...,340}, ytick={0,0.01,0.02,0.03},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[ybar interval, draw=cInkB, fill=cInkB!18, area legend] table[x=e, y=f, col sep=comma]
+      {data/ch16-mchist.csv};
+    \addlegendentry{مونت‌کارلو}
+    \addplot[sInk] table[x=e, y=f, col sep=comma] {data/ch16-pdf.csv};
+    \addlegendentry{بودجهٔ نرمال}
+    \draw[sLimit] (axis cs:295.14,0) -- (axis cs:295.14,0.029);
+    \draw[sLimit] (axis cs:275.93,0) -- (axis cs:275.93,0.029);
+    \draw[sLimit] (axis cs:260.26,0) -- (axis cs:260.26,0.029);
+    \node[note, anchor=south] at (axis cs:295.14,0.029) {$P_{50}$};
+    \node[note, anchor=south] at (axis cs:275.93,0.029) {$P_{90}$};
+    \node[note, anchor=south] at (axis cs:260.26,0.029) {$P_{99}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

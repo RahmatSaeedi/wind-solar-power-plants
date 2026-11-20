@@ -1,0 +1,15 @@
+% Chapter 4 — Euler buckling load of a pinned 50 x 50 x 5 angle brace against its length,
+% with its yield load. Data: diagrams/data/ch04-r-buckling.csv (examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=60mm,
+      xlabel={طولِ عضو (m)}, ylabel={بارِ محوری (kN)},
+      xmin=0.5, xmax=4, ymin=0, ymax=400, xtick={0.5,1,...,4}, ytick={0,100,...,400}]
+    \addplot[sInk] table[x=l, y=euler, col sep=comma] {data/ch04-r-buckling.csv};
+    \addlegendentry{بارِ کمانشِ اویلر}
+    \addplot[sLimit] table[x=l, y=yield, col sep=comma] {data/ch04-r-buckling.csv};
+    \addlegendentry{بارِ تسلیمِ مقطع}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

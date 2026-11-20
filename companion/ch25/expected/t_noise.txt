@@ -1,0 +1,12 @@
+noise of the site's sources at the nearest home (free field, teaching):
+  group                         each dB(A) at 2 m   distance m   at home
+  main transformers (2)                        72          120      39.4
+  PV unit transformers (10)                    62          300      28.5
+  PV inverters (10)                            70          300      36.5
+  BESS containers HVAC (8)                     75          250      42.1
+  all together by day: 44.8 dB(A); at night the PV
+  inverters stop and 44.1 dB(A) remains - the main
+  transformers and the battery HVAC set the night level, so
+  both are in the noise specification; the noise study (ch 14,
+  33) uses real data, ground and screening, and the
+  authority's limit and method

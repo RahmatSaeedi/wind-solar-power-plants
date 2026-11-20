@@ -1,0 +1,4 @@
+fillet weld: leg 6 mm, throat 0.707 x 6 = 4.24 mm, 200 mm long, 50 kN
+  throat stress F / (a L) = 59 MPa; with 400 mm of weld 29 MPa
+  the code check compares this with the design strength of the weld with
+    partial factors; size, length and the toe detail (fatigue) all matter

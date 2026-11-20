@@ -1,0 +1,14 @@
+reading a type-test report: header fields (teaching report)
+  laboratory                   Lab C
+  accreditation number         ACC-0417
+  standard and edition         IEC 62109-1:2010
+  model                        PCI-5500
+  serial or sample id          S/N 0007
+  firmware                     MISSING
+  test dates                   2027-03-02 to 2027-03-19
+  results against criteria     pass
+  deviations from the method   MISSING
+  signatory                    test manager
+  missing: firmware, deviations from the method
+  without the firmware the report cannot be tied to the unit
+  installed; 'deviations: none' must be written, not left out

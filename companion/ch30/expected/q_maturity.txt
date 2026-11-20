@@ -1,0 +1,11 @@
+when the grout may be loaded: maturity (Nurse-Saul, teaching)
+  M = sum (T - (-10)) dt; 70 % strength at 1,800 C-h (supplier's curve)
+  pour on the 1st at 08:00   grout = air + 5 K   hours to 70 %
+  month  1                  mean   8.2 C            99
+  month  4                  mean  17.9 C            65
+  month  7                  mean  32.2 C            43
+  month 10                  mean  26.0 C            51
+  a January pour waits about twice as long as a July one
+  before the anchors may be tensioned; the hold point is
+  the measured strength of cubes cured beside the grout
+  (or a maturity logger), never the calendar

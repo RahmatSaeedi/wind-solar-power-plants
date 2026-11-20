@@ -1,0 +1,15 @@
+system-level interface (N-squared) matrix:
+               wind    PV  BESS colle subst  grid contr water civil
+  wind           ##     .     .   EPC     .     .     C     .    MV
+  PV              .    ##     .   EPC     .     .     C     W    MV
+  BESS            .     .    ##   EPC     .     .    CT     W    MV
+  collector     EPC   EPC   EPC    ##    EP     .     .     .     V
+  substation      .     .     .    EP    ##  EPCG    CP     .    MV
+  grid            .     .     .     .  EPCG    ##    CG     .     .
+  control         C     C    CT     .    CP    CG    ##     .     .
+  water           .     W     W     .     .     .     .    ##     V
+  civil          MV    MV    MV     V    MV     .     .     V    ##
+  18 system pairs interface out of 36; by kind:
+    C 9, E 5, G 2, M 4, P 6, T 1, V 6, W 2
+  control touches every power system; civil touches every
+  thing that stands; each mark is an owner and a document

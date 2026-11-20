@@ -1,0 +1,11 @@
+turbine commissioning steps:
+  mechanical, electrical, controller, SCADA, grid code, maker sign-off
+  released to production: 7 of 12 (T01, T02, T04, T07, T08, T10, T11)
+  T03: waiting for SCADA
+  T05: waiting for maker sign-off
+  T06: waiting for controller, SCADA, grid code, maker sign-off
+  T09: waiting for grid code
+  T12: waiting for electrical, controller, SCADA, grid code, maker sign-off
+  a turbine produces only when its own six steps are signed:
+  T03 waits for SCADA, T05 for the maker's sign-off - and
+  energy before release is test energy, recorded as such

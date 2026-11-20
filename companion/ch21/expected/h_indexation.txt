@@ -1,0 +1,9 @@
+real value of the tariff when it is indexed below inflation:
+  inflation %   tariff index %   real tariff year 10   year 20
+          2.5              2.0                  67.0      63.8
+          4.0              2.0                  58.8      48.4
+          6.0              2.0                  49.5      33.7
+  model with 6 % inflation (debt fixed): min DSCR 1.10, equity IRR 9.2 %
+  costs rise with inflation, the tariff with its index: when
+  inflation runs ahead of the index the margin shrinks year
+  by year - indexation is a price term worth negotiating

@@ -1,0 +1,7 @@
+embodied energy of one turbine with INDICATIVE intensities (A-067):
+  steel 25, composite 100, copper 60, concrete 1.5 MJ/kg; tower 494 t,
+  rotor-nacelle 350 t (255 t steel, 60 t blade composite, 35 t copper),
+  foundation 600 m3 concrete and 60 t of reinforcement
+  total about 30,485 GJ; yearly electricity 60,048 GJ (int_wind)
+  simple energy payback 6.1 months; no conversion factors,
+  transport, installation or end of life: a screening number only

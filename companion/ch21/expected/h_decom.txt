@@ -1,0 +1,8 @@
+sinking fund for decommissioning (paid in years 21-25, earns 3 %):
+  net cost in year 25 money: 4,522 k u
+   5 yearly deposits of 852 k u
+  10 yearly deposits of 394 k u
+  authorities or landowners may require the fund or a bond
+  from the start; a fund that starts late costs more each
+  year but less in present value - and is at risk if the
+  plant stops early

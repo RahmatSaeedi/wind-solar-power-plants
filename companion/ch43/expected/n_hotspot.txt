@@ -1,0 +1,8 @@
+fibre-optic sensors in the HV winding during the heat run
+  readings C: 98.0, 103.5, 101.2, 96.4
+  top oil 78 C; winding gradient 20.5 K (lesson C)
+  hot-spot factor H = (103.5 - 78) / 20.5 = 1.24
+  the loading guide's hot spot is top oil + H x gradient; a
+  measured H replaces the assumed one (ch 25) in every later
+  thermal calculation - the sensors' positions come from the
+  maker's thermal design, where the hottest disc is expected

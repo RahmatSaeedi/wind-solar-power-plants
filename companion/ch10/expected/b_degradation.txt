@@ -1,0 +1,6 @@
+degradation against a linear power warranty (A-189):
+  warranty: 98 % after year 1, -0.55 %/yr -> 0.848 in year 25
+  module degrading 1 % then 0.4 %/yr -> 0.899 in year 25
+  25-year mean output: warranty floor 0.914, typical 0.944
+  the warranty is a floor that triggers a claim, not a forecast;
+  a claim needs measured power with known uncertainty

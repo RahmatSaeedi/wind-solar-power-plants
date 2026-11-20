@@ -1,0 +1,5 @@
+property insurance at year 18: premium 420 k u, deductible 250 k u
+  expected recovery 15% x (1,800 - 250) = 232 k u a year
+  premium minus expected recovery: 188 k u a year - the price of
+  not carrying the tail; near the end the insurer asks for
+  condition evidence (lesson E) and the premium follows it

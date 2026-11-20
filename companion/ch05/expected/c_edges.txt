@@ -1,0 +1,13 @@
+inputs at the edges, and what the code does:
+  capacity_factor(100, 0)                -> ValueError: rated power and hours
+    must be positive
+  capacity_factor(-5, 60)                -> ValueError: energy cannot be
+    negative
+  pv_ac_mw([], [])                       -> array([], dtype=float64)
+  np.sum([1.0, nan])                     -> np.float64(nan)
+  np.nansum([1.0, nan])                  -> np.float64(1.0)
+  np.mean([])                            -> np.float64(nan)
+  check_timestamps(['2023-01-01T00:00']) -> ["row 0: '2023-01-01T00:00' has no
+    UTC offset"]
+  1e308 * 10                             -> inf
+  float('nan') == float('nan')           -> False

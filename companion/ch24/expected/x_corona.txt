@@ -1,0 +1,19 @@
+corona on the 132 kV conductor (single conductor per phase):
+  E = U / (r ln(D / r)); onset E0 = 30 m d (1 + 0.3 / sqrt(d r))
+  (kV/cm peak; m 0.85 for a stranded surface, d relative air density)
+  radius cm   site            d     E kV/cm   E0 kV/cm   margin
+      1.225   sea level     1.00      16.7       32.4     1.94
+      1.225   1,500 m       0.85      16.7       28.0     1.68
+      1.225   2,500 m       0.75      16.7       25.1     1.50
+      1.600   sea level     1.00      13.4       31.5     2.35
+      1.600   1,500 m       0.85      13.4       27.3     2.03
+      1.600   2,500 m       0.75      13.4       24.4     1.82
+  in rain (surface factor m about 0.5, teaching), radius 1.225 cm:
+    sea level  E0  19.1 kV/cm against E 16.7: margin 1.14
+    2,500 m    E0  14.8 kV/cm against E 16.7: corona
+  thin air lowers the onset field and rain lowers it more: a
+  conductor quiet in dry weather at sea level can hum and lose
+  power in rain on a high plateau; a larger diameter (or two
+  conductors per phase) lowers the surface field - corona,
+  audible and radio noise are checked by the line designer
+  with the maker's data

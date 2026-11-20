@@ -1,0 +1,9 @@
+the 50-year gust with height and the tower's own drag (teaching)
+  gust at 10 m 41.1 m/s, power law 0.11, air 1.09 kg/m3
+  gust at hub 52.9 m/s, pressure 1,528 Pa
+  tower drag 277 kN, base moment 14.4 MN m (Cd 0.6)
+  against the parked extreme of A-356: 185 MN m
+  in the storm the tower's own drag adds about 8 % to the base
+  moment: the turbine maker's load set includes it, and a
+  site gust above the turbine's class is a question for
+  the maker (site suitability, ch 11)

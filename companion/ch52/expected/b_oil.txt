@@ -1,0 +1,9 @@
+gearbox oil: iron (ppm) in four quarterly samples, four turbines shown
+  T03:   8   9  11  10   last rise -0.3 ppm/month
+  T05:  12  14  13  15   last rise +0.7 ppm/month
+  T07:   9  12  21  38   last rise +5.7 ppm/month
+  T11:   7   8   8   9   last rise +0.3 ppm/month
+  T07 rises fastest - the same bearing the vibration trend
+  found: two independent signals on one fault make the case
+  for the repair; a level alone (T05 is higher than T03) says
+  less than the rate

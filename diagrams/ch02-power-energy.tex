@@ -1,0 +1,29 @@
+% Chapter 2 — power is the height of the curve, energy is the area under it.
+% Data: diagrams/data/ch02-day-power.csv (companion/ch02/examples.py), summer subset day of data pack 1.0.0.
+% Hourly means are plotted as steps: each value holds for its hour (interval-beginning label).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=128mm, height=72mm,
+      xlabel={ساعتِ روز (برچسبِ آغازِ بازه)}, ylabel={توانِ میانگینِ ساعت (MW)},
+      xmin=0, xmax=24, ymin=0, ymax=75,
+      xtick={0,3,...,24}, ytick={0,10,...,70}]
+    \addplot[const plot mark left, draw=none, fill=cInk!9, forget plot] table[x=hour, y=total, col sep=comma]
+        {data/ch02-day-power.csv} \closedcycle;
+    \addplot[const plot mark left, sPV]   table[x=hour, y=pv, col sep=comma] {data/ch02-day-power.csv};
+    \addlegendentry{خورشیدی}
+    \addplot[const plot mark left, sWind] table[x=hour, y=wind, col sep=comma] {data/ch02-day-power.csv};
+    \addlegendentry{بادی}
+    \addplot[const plot mark left, sInk]  table[x=hour, y=total, col sep=comma] {data/ch02-day-power.csv};
+    \addlegendentry{مجموع}
+    \addplot[sLimit, domain=0:24, samples=2] {35.7};
+    \addlegendentry{توانِ میانگینِ روز}
+    \node[font=\footnotesize, text=cInk, anchor=south east] at (axis cs:23.8,36.2) {میانگین $35.7\,\text{MW}$};
+    \node[font=\footnotesize, text=cInk, align=center, fill=white, inner sep=1.5pt] at (axis cs:4.0,57)
+        {مساحتِ خاکستری = انرژی\\$856.9\,\text{MWh}$ در ۲۴ ساعت};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:13.5,62.5) {مجموع};
+    \node[font=\footnotesize, text=cInk, anchor=north] at (axis cs:12.5,45.5) {خورشیدی};
+    \node[font=\footnotesize, text=cInk, anchor=north] at (axis cs:12.0,9.5) {بادی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+lightning protection zones (concept):
+  LPZ 0A: exposed to direct strikes and the full field
+    measure: air terminals, down conductors
+  LPZ 0B: shielded from direct strikes, full field
+    measure: masts, shield wires cover it
+  LPZ 1: inside a building or nacelle: surges limited
+    measure: SPD at every line entering
+  LPZ 2: inside a cabinet: further reduced
+    measure: second SPD stage, shielding
+  every conductor that crosses a zone boundary - power, signal,
+  data, pipes - is bonded or protected at the boundary

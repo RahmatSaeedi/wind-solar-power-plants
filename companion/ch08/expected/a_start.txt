@@ -1,0 +1,8 @@
+direct-on-line start of the 30 kW motor on the auxiliary board:
+  locked-rotor impedance 0.688 ohm at 76.5 deg
+  source: transformer 250 kVA 6 % + feeder = 10.7 + j40.8 mohm
+  motor terminal voltage during start 216.7 V = 94.2 % (dip 5.8 %)
+  star-delta start (1/3 current): dip 2.0 %
+  soft starter at 3 x rated: dip 2.9 %
+  a frequency converter starts with about rated current and no dip,
+  at the price of harmonics (chapter 7) and cost

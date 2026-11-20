@@ -1,0 +1,16 @@
+conditions precedent to financial close (ch 21 register): 12
+  status: open 9, draft 3
+  [draft] long-term resource and P50/P90 yield report    ch 12-16
+  [open ] independent engineer's review of the yield     ch 16, 59
+  [open ] grid connection agreement and studies          ch 17, 27-28
+  [open ] permits and environmental consents             ch 14, 33, 55-57
+  [open ] EPC contract: price, schedule, LDs, security   ch 38-40
+  [draft] equipment warranties and type certificates     ch 9-11, 19, 41-46
+  [open ] O&M contract with availability guarantee       ch 51-52
+  [open ] PPA signed, payment security in place          ch 21 E
+  [open ] insurance programme (construction, operation)  ch 38, 51
+  [draft] financial model audit (this lab)               ch 21 D, F
+  [open ] hedging of rate and currency at close          ch 21 F
+  [open ] equity committed, standby equity letter        ch 21 F
+  no condition is closed by the engineering dossier alone: each
+  needs a signed contract, a permit or an independent review

@@ -1,0 +1,21 @@
+% Chapter 54 - the ride-through conflict of fictional Country Z: GCZ 8.4 asks the plant to stay
+% connected for 150 ms at zero retained voltage, TCR section 5 asks it to trip after 100 ms; no
+% design meets both between 100 and 150 ms (companion/ch54/examples_a.py, conflict; CQ-01).
+% A time axis: plotted left to right like every axis in the book.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small, x=0.6mm]
+  \fill[cLoss!18] (100,-0.25) rectangle (150,2.05);
+  \node[font=\scriptsize, text=cLoss] at (125,2.3) {ناسازگاری};
+  \fill[cPV!35, draw=cPV] (0,1.15) rectangle (150,1.75);
+  \node[font=\scriptsize, text=cInk, anchor=east] at (148,1.45) {کدِ شبکه، بندِ ۸٫۴: متصل بماند};
+  \fill[cWind!30, draw=cWind] (100,0.15) rectangle (200,0.75);
+  \node[font=\scriptsize, text=cInk, anchor=west] at (152,0.45) {قاعدهٔ شرکتِ برق: قطع کند};
+  \draw[cRule, line width=0.6pt] (0,-0.25) -- (200,-0.25);
+  \foreach \t in {0,50,...,200} {
+    \draw[cRule] (\t,-0.25) -- (\t,-0.35);
+    \node[font=\footnotesize, text=cMuted, anchor=north] at (\t,-0.35) {$\t$};
+  }
+  \node[font=\small, text=cInkB] at (100,-1.05) {زمان از آغازِ خطا با ولتاژِ صفر (ms)};
+\end{tikzpicture}}
+\end{document}

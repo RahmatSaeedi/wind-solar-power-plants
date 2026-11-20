@@ -1,0 +1,18 @@
+% Chapter 32 - incident rates per 200,000 h with their 90 % Poisson intervals for construction and
+% the first operating year (companion/ch32/examples_a.py, a_rates; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0.4, xmax=4.6, ymin=0, ymax=20,
+      xtick={1,...,4}, xticklabels={ساخت\\ازکارافتادگی, ساخت\\ثبت‌شدنی, بهره‌برداری\\ازکارافتادگی, بهره‌برداری\\ثبت‌شدنی},
+      x tick label style={font=\scriptsize, align=center}, ylabel={نرخ در ۲۰۰٬۰۰۰ ساعت}]
+    \addplot[only marks, mark=*, mark size=2pt, color=cLoad,
+             error bars/.cd, y dir=both, y explicit]
+      coordinates {(1,0.57) +- (0,0) (2,2.10) +- (0,0) (3,0) +- (0,0) (4,3.85) +- (0,0)};
+    \draw[cLoad, line width=1pt] (axis cs:1,0.16) -- (axis cs:1,1.48);
+    \draw[cLoad, line width=1pt] (axis cs:2,1.18) -- (axis cs:2,3.47);
+    \draw[cLoad, line width=1pt] (axis cs:3,0) -- (axis cs:3,11.52);
+    \draw[cLoad, line width=1pt] (axis cs:4,0.20) -- (axis cs:4,18.25);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

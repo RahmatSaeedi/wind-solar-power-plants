@@ -1,0 +1,21 @@
+dimension guard on the Rev A draft
+CAUGHT  L3 as written: 50 MW x 1947.3 kWh/m2 x 0.833, as MWh
+        -> DimensionError: expected [L^2 M T^-2] (MWh), got [L^2 M^2 T^-5]
+           (m^2 kg^2 s^-5)
+passed  L3 corrected: 60 MWp x (1947.2 kWh/m2 / 1000 W/m2) x 0.833
+        -> 97321 MWh
+CAUGHT  L5 as written: 877.67 hPa / (287.05 J/(kg K) x 16.78 degC)
+        -> UnitError: 'degC': degrees Celsius/Fahrenheit are an offset scale;
+           use kelvin() for a temperature and 'K' for a difference
+passed  L5 corrected: kelvin(16.78) and hPa carried as a unit
+        -> 1.0546 kg/m3
+CAUGHT  adding power to energy: 60 MW + 192.5 GWh
+        -> DimensionError: cannot add MW [L^2 M T^-3] and GWh [L^2 M T^-2]
+passed  L7 as written: 75,427 MWh + 192.5 'MWh' (label wrong, dimension right)
+        -> 75620 MWh
+passed  L9 as written: 120 MW x 8784 h (basis wrong, dimension right)
+        -> 1.0541e+06 MWh
+
+plausibility guard on the results
+Rev A: CF = 0.0717 -> SUSPECT
+Rev B: CF = 0.3309 -> ok

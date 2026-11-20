@@ -1,0 +1,6 @@
+duration curve: hourly export sorted from largest to smallest (data pack
+    1.0.0, S0)
+  area under the curve = energy: 289.8 GWh (same as the time series)
+  hours above 50 MW: 2493; above 80 MW: 276; below 5 MW: 1223
+  median hourly export 32.6 MW; 10 % of hours exceed 60.6 MW
+  energy delivered in the top 1000 hours: 73.4 GWh (25 %)

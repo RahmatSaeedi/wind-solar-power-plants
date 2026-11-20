@@ -1,0 +1,9 @@
+how long audit findings stay open (construction year, synthetic)
+  rating    findings   median days   target days   overdue
+  high            12             9            14      33 %
+  medium          30            24            45      10 %
+  low             40            54            90      22 %
+  a finding closed late is a barrier left weak for longer:
+  overdue high-rated findings go to the project manager
+  every week, and 'closed' means verified on site, not
+  a signature on the form

@@ -1,0 +1,6 @@
+one day (day 197) of day-ahead forecast against output, MW
+  energy: forecast 1654, actual 1667 MWh; error +13 MWh
+  hours inside the P10-P90 band: 100%
+  largest hourly shortfall: 9.4 MW at hour 8
+  one day says little about skill; it shows what the operator
+  sees and why the band, not the line, is the schedule's risk

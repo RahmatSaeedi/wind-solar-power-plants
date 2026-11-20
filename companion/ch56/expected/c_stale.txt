@@ -1,0 +1,12 @@
+sources of Afghanistan older than 3 years or undated, on 2026-11-17
+  undated: 9 facts; older: 13 facts
+    AF-40: 22.9 years
+    AF-31: 20.9 years
+    AF-05: 10.1 years
+    AF-06: 10.1 years
+    AF-13: 10.1 years
+    AF-20: 10.1 years
+    AF-37: 10.1 years
+    AF-38: 9.7 years
+  an old text may still be in force, and a new one may exist
+  that the search did not reach: each gets a dated check

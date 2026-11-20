@@ -1,0 +1,16 @@
+dynamic amplification of a harmonic force near resonance
+  r = forcing / natural frequency; zeta = damping ratio
+      r   zeta 0.005   zeta 0.02   zeta 0.05
+   0.50          1.3         1.3         1.3
+   0.70          2.0         2.0         1.9
+   0.80          2.8         2.8         2.7
+   0.90          5.3         5.2         4.8
+   0.95         10.2         9.6         7.3
+   1.00        100.0        25.0        10.0
+   1.10          4.8         4.7         4.2
+   1.30          1.4         1.4         1.4
+  T07: 1P max / f1 = 0.92 -> amplification about 6
+  near r = 1 damping alone limits the response: a parked
+  rotor (little aerodynamic damping) is the worst case,
+  which is why the margin to 1P is a stiffness rule and
+  the controller avoids lingering at the critical speed

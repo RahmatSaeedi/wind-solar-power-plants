@@ -1,0 +1,11 @@
+production premium of 5 u/MWh from a draft regulation
+  case                                       debt  min DSCR  equity IRR
+  base (no premium)                       121,025      1.20       10.2%
+  premium in the base, debt sized on it   124,378      1.26       12.4%
+  same debt, premium never paid           124,378      1.17       10.4%
+  sizing binds on: base DSCR 1.20 on P90 1-yr; with premium gearing
+  an unverified premium buys 3,353 k u more debt; if it never
+  comes the minimum DSCR is 1.17: below the 1.20 sizing target,
+  above the 1.10 lock-up. The equity IRR still rises (more
+  leverage): the risk has moved to the lenders, who will not
+  take it - an unverified premium belongs in a sensitivity

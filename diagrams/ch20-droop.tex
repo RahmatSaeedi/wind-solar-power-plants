@@ -1,0 +1,23 @@
+% Chapter 20 - droop characteristics (teaching settings, A-299): change of active power with
+% frequency (4 % droop on 110 MW, 0.02 Hz deadband) and reactive power with POC voltage (4 % slope,
+% 33 Mvar). Drawn from the formulas of companion/plantp/control.py.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=a, width=70mm, height=58mm, xmin=49.6, xmax=50.4, ymin=-25, ymax=25,
+      xlabel={بسامد (Hz)}, ylabel={تغییرِ توانِ اکتیو (MW)}, xtick={49.6,49.8,50,50.2,50.4},
+      ytick={-20,-10,...,20}, /pgf/number format/fixed, /pgf/number format/precision=1]
+    \addplot[sInk, domain=49.6:49.98, samples=2] {-(x-50+0.02)/50/0.04*110};
+    \addplot[sInk, domain=49.98:50.02, samples=2] {0};
+    \addplot[sInk, domain=50.02:50.4, samples=2] {-(x-50-0.02)/50/0.04*110};
+  \end{axis}
+  \begin{axis}[plantp, at={(a.east)}, anchor=west, xshift=20mm, width=70mm, height=58mm,
+      xmin=0.94, xmax=1.06, ymin=-40, ymax=40, xlabel={ولتاژ (pu)}, ylabel={توانِ راکتیو (Mvar)},
+      xtick={0.94,0.97,1,1.03,1.06}, ytick={-30,-15,...,30},
+      /pgf/number format/fixed, /pgf/number format/precision=2]
+    \addplot[sBESS, domain=0.94:0.96, samples=2] {33};
+    \addplot[sBESS, domain=0.96:1.04, samples=2] {-(x-1)/0.04*33};
+    \addplot[sBESS, domain=1.04:1.06, samples=2] {-33};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

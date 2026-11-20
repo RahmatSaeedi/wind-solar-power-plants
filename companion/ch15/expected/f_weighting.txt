@@ -1,0 +1,4 @@
+the same trigger policy, plain average against energy-weighted:
+  mean daily loss 1.43 % (chapter 10's figure); energy-weighted 1.52 %
+  the dry season is both dusty and sunny: weighting by energy
+  raises the loss; an hourly model takes the weighted value

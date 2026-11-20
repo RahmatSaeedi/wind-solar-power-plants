@@ -1,0 +1,6 @@
+the battery at the end: 39,936 cells = 224 t, as modules 264 t
+  11 trucks of 24 t to the recycler (modules out of the containers)
+  energy still in them at 10% SOC: 4.0 MWh
+  discharging before removal lowers that energy, and the
+  removal order, isolation by division and transport class
+  come from the integrator's procedure and the rules (ch 53)

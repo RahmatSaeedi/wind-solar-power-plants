@@ -1,0 +1,10 @@
+force in a 29.5 m PV rail if it cannot expand (teaching)
+  rail area 600 mm2; steel range 74.3 K
+  fully restrained: E A alpha dT = 112 kN
+  restraint left   force kN   against a post's side load 5.5 kN
+            100 %        112      20 x
+             25 %         28       5 x
+              5 %          6       1 x
+  even 5 % of the restraint loads the end posts as much as
+  the storm does: slotted holes or a joint every table
+  let the rail move - the 26 mm of lesson A must be free

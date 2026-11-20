@@ -1,0 +1,11 @@
+a daily alarm when the residual falls below a threshold
+  threshold   days of problems found   false alarms in a year
+      -0.02             32 of 39                       15
+      -0.04             18 of 39                        2
+      -0.06             12 of 39                        1
+      -0.08              9 of 39                        1
+  a tight threshold catches more of the problem days and
+  calls on healthy days; a loose one stays quiet and misses
+  the early soiling. The threshold is chosen for what a
+  false alarm costs (a site visit) against a miss (lost
+  energy), and the CUSUM is used where both matter

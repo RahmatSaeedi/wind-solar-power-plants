@@ -1,0 +1,21 @@
+% Chapter 47 - flange levels around the circle: F3 raw (a tilt) and after the best plane is removed,
+% and F2 after the plane (waviness that no plane removes) (teaching; companion/ch47/examples_t.py,
+% flatness -> diagrams/data/ch47-flatness.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=360, ymin=-2.0, ymax=1.2,
+      xlabel={زاویه روی فلنج (درجه)}, ylabel={تراز (mm)}, xtick={0,60,...,360},
+      legend pos=south west, legend columns=1, legend style={font=\footnotesize}]
+    \addplot[sPV, mark=*, mark size=1.2pt, mark options={solid}]
+      table[x=deg, y=f3raw, col sep=comma] {data/ch47-flatness.csv};
+    \addlegendentry{$\mathrm{F3}$ خام}
+    \addplot[sWind, mark=*, mark size=1.2pt, mark options={solid}]
+      table[x=deg, y=f3res, col sep=comma] {data/ch47-flatness.csv};
+    \addlegendentry{$\mathrm{F3}$ پس از صفحه}
+    \addplot[sLoss, mark=square*, mark size=1.2pt, mark options={solid}]
+      table[x=deg, y=f2res, col sep=comma] {data/ch47-flatness.csv};
+    \addlegendentry{$\mathrm{F2}$ پس از صفحه}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+aviation obstacle lights seen from the village at night (teaching)
+  12 turbines, about 4,380 night hours a year
+  always on:                           4,380 lit hours
+  aircraft-detection lighting:            88 lit hours (2 %)
+  synchronised flashing: one pulse across the farm, not
+    twelve unrelated blinks
+  lights are an aviation-safety requirement, so the choice
+  of system is the aviation authority's; where it allows
+  detection-activated lights, the night view from the
+  village goes dark 98 % of the time - the photomontages
+  of lesson A include a night view either way

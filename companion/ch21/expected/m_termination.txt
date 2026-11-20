@@ -1,0 +1,9 @@
+termination payment on buyer default: debt + 50 % of equity
+  year   debt outstanding   payment   equity loses (book)
+     1            121,025   145,606                24,582
+     5            101,243   121,892                20,648
+    10             64,722    80,454                15,732
+    15             11,723    22,539                10,816
+  lenders need the payment to cover the debt at any time; the
+  owners accept a loss on equity - and the payment is worth
+  only what the buyer (or its guarantor) can actually pay

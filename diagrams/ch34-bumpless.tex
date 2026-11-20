@@ -1,0 +1,18 @@
+% Chapter 34 - output of the plant controller after the change from manual (40 MW) to automatic with a
+% 60 MW set point: no tracking, integrator tracking, tracking with a ramped set point (examples_r,
+% diagrams/data/ch34-bumpless.csv; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=180, ymin=20, ymax=75,
+      xlabel={زمان پس از تغییرِ حالت (s)}, ylabel={فرمانِ کنترل‌گر (MW)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sLoss, no marks] table[x=t, y=none, col sep=comma] {data/ch34-bumpless.csv};
+    \addplot[sPV, no marks] table[x=t, y=track, col sep=comma] {data/ch34-bumpless.csv};
+    \addplot[sWind, no marks] table[x=t, y=ramp, col sep=comma] {data/ch34-bumpless.csv};
+    \legend{بی‌ردگیری, ردگیریِ انتگرال‌گیر, ردگیری و شیب}
+    \draw[sLimit] (axis cs:0,40) -- (axis cs:180,40);
+    \node[note, anchor=south east] at (axis cs:178,40.5) {خروجیِ دستی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

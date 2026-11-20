@@ -1,0 +1,7 @@
+Weibull fits to the 8760 hourly speeds at 100 m (Plant P Reference Data Pack
+    1.0.0, scenario S0 (no-BESS))
+method                k  c (m/s)    mean  mean v^3  farm GWh
+moments           2.116    8.020   7.103     648.2     191.5
+max. likelihood   2.114    8.017   7.101     648.2     191.4
+least squares     2.092    8.026   7.108     656.9     191.6
+data (hourly)                      7.103     646.4     192.5

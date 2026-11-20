@@ -1,0 +1,16 @@
+insulation thickness from drum-end slices, nominal 8.0 mm
+  (teaching rules: mean >= nominal; thinnest point >= 7.1 mm)
+  drum  end   mean   min    eccentricity   verdict
+  D401  in    8.27   8.18          2.0%   ok
+  D401  out   8.27   8.20          1.6%   ok
+  D402  in    8.08   6.95         21.5%   FAIL thin point
+  D402  out   8.25   8.19          1.4%   ok
+  D403  in    8.21   8.15          1.5%   ok
+  D403  out   8.22   8.16          1.7%   ok
+  D405  in    8.10   8.05          1.2%   ok
+  D405  out   7.93   7.90          0.8%   FAIL mean
+  D402's inner end passes on its mean but has a thin point: the
+  core was off centre there, and the field peaks at the thin
+  side (e_field); D405's outer end is concentric but thin all
+  round - two different faults, both found only because each
+  drum's two ends are measured and kept in its record

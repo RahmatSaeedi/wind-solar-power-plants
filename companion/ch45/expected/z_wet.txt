@@ -1,0 +1,8 @@
+insulation of a rack of 8 modules in parallel to the frame
+  (teaching: 40 Mohm a dry module)
+  all dry: 5.00 Mohm; with module 6 wet (0.6 Mohm): 0.54 Mohm
+  split the rack in halves: 10.00 and 0.57 Mohm - the wet one is in the second
+  one wet module sets the rack's reading; dividing the rack
+  (lesson C) and measuring the parts finds it in three steps
+  for eight modules - the search is part of the integrator's
+  procedure, done by qualified people

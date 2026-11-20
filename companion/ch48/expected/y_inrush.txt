@@ -1,0 +1,10 @@
+24 V power supplies per miniature circuit breaker against the
+  maker's inrush table (units switched on together)
+  F11 (C10)  6 units, table allows 4  TRIPS AT SWITCH-ON
+  F12 (C10)  3 units, table allows 4  ok
+  F13 (B10)  2 units, table allows 2  ok
+  F14 (C16)  5 units, table allows 6  ok
+  F11 (C10): the breaker can trip each time the panel
+  is energised - after every black start; the supplies are
+  split or switched on in steps, and the FAT switches the
+  panel on cold, as it will be at site

@@ -1,0 +1,37 @@
+% Chapter 1 — who is who in a commercial plant project, and what links them.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small,
+    lab/.style={note, fill=white, inner sep=1.5pt, font=\scriptsize}]
+
+  \node[blk, minimum width=38mm, minimum height=16mm, line width=1pt, draw=cInk] (spv) at (0,0)
+        {\textbf{شرکتِ پروژه}\\(مالکِ نیروگاه)};
+
+  \node[blk]     (dev)  at (-6.3, 3.6) {توسعه‌دهنده};
+  \node[blk]     (lend) at (-1.9, 3.6) {وام‌دهندگان};
+  \node[blk]     (ie)   at ( 2.3, 3.6) {مهندسِ مستقل};
+  \node[blk]     (reg)  at ( 6.3, 3.6) {نهادِ تنظیم‌گر و\\مراجعِ مجوز};
+
+  \node[blk]     (cons) at (-6.3, 0)   {مشاور\\(مهندسِ مالک)};
+  \node[blkLoad] (off)  at ( 6.3, 1.0) {خریدارِ برق\\(شرکتِ برق)};
+  \node[blkLoad] (gop)  at ( 6.3,-1.0) {بهره‌بردارِ شبکه};
+
+  \node[blk]     (epc)  at (-4.6,-3.6) {پیمانکارِ EPC};
+  \node[blk]     (oem)  at (-4.6,-5.6) {سازندگانِ تجهیز\\(OEM)};
+  \node[blk]     (om)   at ( 0.0,-3.6) {بهره‌بردار و نگهدار\\(O\&M)};
+  \node[blk]     (insp) at ( 4.6,-3.6) {بازرس};
+
+  \draw[flow] (dev.south east) -- node[lab, pos=0.45] {شکل‌دادن به پروژه} (spv.north west);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (lend.south) -- node[lab] {وام و بازپرداخت} (spv.110);
+  \draw[flow] (ie.west) -- node[lab, above] {گزارشِ فنی} (lend.east);
+  \draw[flow] (reg.south west) -- node[lab, pos=0.45] {پروانه، مجوز، نظارت} (spv.north east);
+  \draw[flow] (cons.east) -- node[lab, above] {مشاوره و نظارت} (spv.west);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (spv.15) -- node[lab, above, sloped] {قراردادِ خریدِ برق} (off.west);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (spv.-15) -- node[lab, below, sloped] {موافقت‌نامهٔ اتصال} (gop.west);
+  \draw[flow] (spv.south west) -- node[lab, pos=0.5] {قراردادِ طرح‌وساخت} (epc.north);
+  \draw[flow] (epc.south) -- node[lab] {سفارشِ تجهیز} (oem.north);
+  \draw[flow] (spv.south) -- node[lab] {قراردادِ بهره‌برداری} (om.north);
+  \draw[flow] (insp.north west) -- node[lab, pos=0.5] {گواهیِ بازرسی} (spv.south east);
+
+\end{tikzpicture}}
+\end{document}

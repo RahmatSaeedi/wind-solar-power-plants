@@ -1,0 +1,10 @@
+fault level growing 2 % a year over the plant's life (teaching)
+  year   S_sc MVA   POC kA (c 1.1, all)   MV-A kA   ratings 31.5 / 25
+     0       1500                  7.79      8.54
+    10       1828                  9.37      8.83
+    20       2229                 11.30      9.08
+    25       2461                 12.41      9.20
+  the 132 kV current grows with the grid; the 33 kV current
+  hardly moves - the main transformers' impedance dominates
+  it; both stay inside the ratings for the plant's life, and
+  the study asks the operator for the planned growth

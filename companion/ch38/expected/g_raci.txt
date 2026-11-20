@@ -1,0 +1,12 @@
+responsibility matrix of the grid connection (planted gaps)
+  item                                      accountable
+  connection boundary diagram               grid
+  line route and circuit data               -             <- none
+  grid bay protection settings              -             <- none
+  telemetry point list to the operator      grid
+  revenue metering                          regulator
+  earthing at the boundary                  plant, grid   <- two
+  land and permits for the line             regulator
+  3 items without exactly one accountable party; each is
+  settled at the next interface meeting and the matrix is
+  re-issued - an item with two owners has none

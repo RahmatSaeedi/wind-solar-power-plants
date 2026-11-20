@@ -1,0 +1,9 @@
+O&M purchasing in the first year (k u): total and local, target 30%
+  services      1,850    940   51%
+  consumables     620    410   66%
+  spares        3,100    120    4%
+  transport       480    420   88%
+  local share 31%: spares come from the makers and cannot be
+  local; without spares the share is 60% - the commitment's
+  basis (with or without spares) belongs in the register,
+  or the report argues about the denominator

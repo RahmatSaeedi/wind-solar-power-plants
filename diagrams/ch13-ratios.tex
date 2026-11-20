@@ -1,0 +1,33 @@
+% Chapter 13 - ratio of the 80 m and 60 m speeds to the 100 m speed by month (top) and by
+% direction sector (bottom): the planted bearing wear (from July) and mast shadow (300-340 deg).
+% Data: diagrams/data/ch13-ratio-month.csv, ch13-ratio-sector.csv (companion/ch13/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=112mm, height=48mm, xmin=0.5, xmax=12.5, ymin=0.86,
+      ymax=0.97, xlabel={ماه}, ylabel={نسبت به $100\ \text{m}$}, xtick={1,...,12},
+      ytick={0.86,0.88,...,0.96},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[sLoss, mark=*, mark size=1.3pt, mark options={solid}]
+      table[x=month, y=r80, col sep=comma] {data/ch13-ratio-month.csv};
+    \addlegendentry{$80/100$}
+    \addplot[sInk, mark=square*, mark size=1.2pt]
+      table[x=month, y=r60, col sep=comma] {data/ch13-ratio-month.csv};
+    \addlegendentry{$60/100$}
+    \draw[cRule, densely dashed] (axis cs:6.5,0.86) -- (axis cs:6.5,0.97);
+    \node[note, anchor=west] at (axis cs:6.6,0.955) {آغازِ فرسایش};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south west)}, anchor=north west, yshift=-17mm, width=112mm,
+      height=48mm, xmin=0, xmax=360, ymin=0.86, ymax=0.97, xlabel={بخشِ جهت، درجه},
+      ylabel={نسبت به $100\ \text{m}$}, xtick={0,60,...,360}, ytick={0.86,0.88,...,0.96},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \fill[cLoss!10] (axis cs:300,0.86) rectangle (axis cs:340,0.97);
+    \addplot[sLoss, mark=*, mark size=1.3pt, mark options={solid}]
+      table[x=dir, y=r80, col sep=comma] {data/ch13-ratio-sector.csv};
+    \addplot[sInk, mark=square*, mark size=1.2pt]
+      table[x=dir, y=r60, col sep=comma] {data/ch13-ratio-sector.csv};
+    \node[note, anchor=south east] at (axis cs:340,0.97) {سایهٔ دکل: $300$ تا $340^\circ$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

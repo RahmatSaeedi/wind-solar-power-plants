@@ -1,0 +1,5 @@
+transformer winding (w) and oil (o): dT/dt = A T + b P, A in 1/s:
+  A = [[-0.02000, 0.02000], [0.001000, -0.001625]]
+  eigenvalues -0.021031 and -0.000594 1/s, both negative: stable
+  time constants -1/lambda: 48 s (0.8 min) and 1682 s (0.47 h)
+  power iteration finds the dominant |lambda| -0.021031 1/s in 9 steps

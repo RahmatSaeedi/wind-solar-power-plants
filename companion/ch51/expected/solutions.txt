@@ -1,0 +1,96 @@
+P01 roster gaps: 3
+P02 handover items missed: 2
+P03 silent log hours / at night: 21 / 7
+P04 days with under an hour before the DA deadline: 2
+P05 permits / overran / conflicts: 283 / 17 / 3
+P06 events reported late: 3
+P07 procedures past review: 2
+P08 lost energy total / named: 3,855 / 987 MWh
+P09 battery hours at the upper limit / at the floor: 1454 / 13
+P10 hours on fallback in the comms loss: 2
+P11 alarm hours over the target / worst hour: 28 / 53
+P12 restoration to full export: 113 min
+P13 shift A / B curtailed: 46.0 / 23.8 MWh
+P14 shift A / B imbalance: 5,937 / 3,321 u
+P15 log entries missing a field: 1
+P16 learning items: 4
+P17 months with missing meter intervals: 2, 4, 6
+P18 half-year imbalance: 99,500 u
+P19 forecast bias before / after the update: +1.2 / +4.7 MW
+P20 reserve for 95 % of daytime hours: 12.9 MW
+P21 imbalance P50 / P90 schedule: 1,247,486 / 1,163,241 u
+P22 service availability: 94.2%
+P23 station battery autonomy / diesel hours / fuel: 7.7 h / 10.3 h / 247 L
+P24 fire tests overdue: 3
+P25 water months over 10 %: 2, 4
+P26 wash net, normal / drought: +500 / -810 u
+P27 spans late / too close: T05-T08, T13-T18 / T05-T08, T13-T18
+P28 outage requests short of notice: 2
+P29 commitments late / local share: 2 / 33%
+P30 SCADA tags missing from the register: 3
+P31 work orders without asset / code / test: 2 / 2 / 3
+P32 exercises short / incidents / near misses: 2 / 2 / 21
+P33 hand checks: 9.4 MWh, 6.5 MWh, 7.7 h
+P34 operating review: 1 of 12
+P35 people over the night-shift limit: 3
+P36 instructions without repeat-back / time: 2 / 2
+P37 outages / hours / MTTR / waiting: 8 / 226 / 28.2 h / 61%
+P38 minutes over the export limit / peak: 4 / 103.5 MW
+P39 changes open: 4 of 5
+P40 curtailment total: 226 MWh
+P41 control room to 35 C: 107 min (steady 64 C)
+P42 wash-water samples over the limit: 2
+P43 skill at 1 / 3 / 24 h: +0.17 / +0.13 / -0.18
+P44 failed service activations: 2
+P45 permanent line faults / hours: 2 / 8.4
+P46 grievances / late ack / late close: 6 / 2 / 2
+P47 devices off the firmware baseline: 4
+P48 tags not usable: 134 (3.2%)
+P49 people needed / on roster / overtime: 19.4 / 15 / 7,980 h
+P50 limits that disagree: 2
+P51 longest gap / SOC error / days the margin allows: 11 d / 3.8 % / 5.7 d
+P52 Q intervals out of tolerance after settling: 2
+P53 competences expired / expiring / APs valid next month: 2 / 4 / 2
+P54 hours with a wrong declaration: 5
+P55 ramps: hits / misses / false / POD / FAR: 123 / 218 / 236 / 36% / 66%
+P56 drawn / recovery / left after 3 / hours: 1.35 MWh / 22 min / 5.35 / 0.25
+P57 light diesel runs / loaded quarters: 8 / 4
+P58 battery slope / years to 80 %: -1.20 %/q / 4.2
+P59 false alarms / worst type: 23 / flame (substation yard)
+P60 min rating / h < 437 A / hottest / hot still h: 511 A / 0 / 40.7 C / 2
+P61 works with short notice: 2
+P62 spares lines differing / missing value: 4 / 13.5 k u
+P63 stale emergency contacts: 4
+P64 handover correlation / missed short / long: -0.91 / 2.2 / 0.3
+P65 cap instructions late at the ramp limit: 1
+P66 battery energy availability / worst share: 99.19% / 72%
+P67 import hours / MWh / worst month: 457 / 150.7 / 1
+P68 audit share / interval: 71% / 51%-85%
+P69 invoice months to check / SCADA over meter: [3] / +0.6% to +0.9%
+P70 provider costs A / B: 1,247,486 / 1,469,725 u
+P71 payment factor / less: 0.917 / 400 u
+P72 filter slope / weeks left: 6.5 Pa/wk / 8
+P73 pump weeks missed / out of band: [3, 8, 9] / [6, 13]
+P74 RO trigger month / cleaned: 6 / 7
+P75 thermography repair now / plan: 2 / 1
+P76 local share / without spares: 31% / 60%
+P77 redlines older than 90 days: 3
+P78 entries without induction: 22
+P79 overrides past review / never approved: 4 / 2
+P80 stow hours / lost: 74 / 340 MWh (0.31%)
+P81 inverter trips / top-two share / unknown: 100 / 59% / 11
+P82 investigations late / actions closed: 2 / 8 of 14
+P83 compensation claim: 11,620 u
+P84 imbalance forecast / persistence: 7,872 / 42,061 u
+P85 UPS life used / years: 1.74 / 5.7
+P86 hot work without watch / final check: 1 / 2
+P87 well slope / months to trigger: 0.61 m / 12
+P88 protection dependability on faults: 93% (18 operations)
+P89 speeding passes / of the new crew: 53 / 18
+P90 most critical: main transformer T1, 132 kV line
+P91 day-shift hours >= 35 C / peak hour / >= 38 C: 211 / 15 / 21
+P92 night Q hours / energy / cost: 1,676 / 50.3 MWh / 3,017 u
+P93 best outage day / energy: 129 / 5.7 MWh (highest 33.6)
+P94 PCS outage: power left / window hours: 15 MW / 8
+P95 devices changed after their last backup: 3
+P96 drill meeting the plan / minutes gained: 4 / 16

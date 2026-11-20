@@ -1,0 +1,11 @@
+monthly quality report, station GHI, Mar 2023 (A-246):
+  records 744, missing 0, recovery 100.0 %
+  spikes above 1.25 x clear-sky maximum: 2
+  clock test against clear sky: shift 1 h -> action: logger
+    time zone checked, data shifted back, flag 'time corrected'
+  ratio to the provider series: 0.981 (annual mean 0.995)
+  dome cleaning log: weekly; sawtooth soiling up to 2 % (flag
+    'soiling corrected', factor from the cleaning dates)
+  closure: not tested (GHI only in this record)
+  verdict: accepted after correction; time error opened as
+    an incident with its cause and the date it was fixed

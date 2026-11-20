@@ -1,0 +1,7 @@
+PV inverters kept on at night to give reactive power (10 x 3.0 kW standby)
+  night hours in the data-pack year 4,191; Q asked in 1,676 of them
+  energy drawn 50.3 MWh, at 60 u/MWh: 3,017 u
+  small against the service it gives, but it is real import:
+  whether night Q is paid, required or neither is the grid
+  operator's rule (ch 25: units off at night also changes the
+  plant's own Mvar)

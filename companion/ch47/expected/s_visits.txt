@@ -1,0 +1,6 @@
+buyer's inspection of the 12 towers (teaching)
+  every hold point of every section: 288 visits, 96 inspector-days
+  2 towers in full, the rest at plate receipt and release: 128 visits, 43 days
+  the saving is real only if the records of the towers not
+  witnessed are read line by line (lessons B and C): sampling
+  the visits is not sampling the records

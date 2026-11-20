@@ -1,0 +1,5 @@
+the PV block alone (at MV, before the plant end):
+  P50 108.36 GWh; long-term 3.54 %, year-to-year 2.67 %
+  one year 4.44 %: P90 102.20 GWh, P99 97.18 GWh
+  chapter 12 gave the irradiance alone 2.8 % long-term; the PV
+  energy adds the conversion and loss parts on top

@@ -1,0 +1,8 @@
+rows read for one monthly report of 500 tags
+  from 1-second raw data:      1,339,200,000 rows
+  from 10-minute aggregates:   2,232,000 rows
+  the aggregates read 600 times fewer rows; reports and
+  dashboards read aggregates made by the historian, and
+  raw data is read only for an event investigation. The
+  aggregates keep min, max, mean and a quality count, so
+  nothing the report needs is lost (lesson M, trend)

@@ -1,0 +1,10 @@
+EPC price adjustment between bid and order:
+  price = base x (0.55 + 0.20 x steel + 0.25 x currency)
+  steel   currency   price k u   change %
+   1.00       1.00     132,982        0.0
+   1.15       1.00     136,972        3.0
+   1.00       1.10     136,307        2.5
+   1.15       1.10     140,297        5.5
+  an adjustment formula shares index risk until the price is
+  fixed; its weights should match the contractor's real cost
+  mix, and it should end at a fixed date (financial close)

@@ -1,0 +1,14 @@
+flux density at 110 V a turn: core, loss, sound and over-excitation (teaching)
+  loss per kg ~ B^2 from 1.15 W/kg at 1.7 T; sound ~ 40 log B;
+  over-excitation 1.10 U at 0.95 f raises B by 16 %
+  B T   core dia m   core t   P0 kW   sound dB   B over-excited T
+  1.50       0.679    34.4    37.5      -2.2              1.74
+  1.60       0.658    31.9    39.6      -1.1              1.85
+  1.70       0.638    29.8    41.8      +0.0              1.97
+  1.80       0.620    27.9    43.9      +1.0              2.08
+  a lower flux density needs more steel but each kilogram
+  loses less: P0 moves only 6.3 kW over the range and the
+  sound a few dB; the margin to saturation (about 2.0 T for
+  grain-oriented steel) moves most - at 1.8 T the over-excited
+  core is past it, so the grid study's highest V/f (ch 28)
+  bounds the choice

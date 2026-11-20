@@ -1,0 +1,12 @@
+how often smoke from a battery fire would blow to the village
+  village centre 3.0 km at 22 deg from the battery yard
+  wind from 202 +/- 22.5 deg carries smoke there: 1.5 % of the hours
+  share of hours (%) by the direction the wind comes from:
+    0:  1.8   45:  1.1   90:  8.8  135:  6.6
+  180:  0.4  225:  7.9  270: 44.0  315: 29.4
+  the prevailing west and north-west winds (73 % of the
+  hours) carry smoke east and south-east, away from the
+  village; it goes there in about one hour in 65 - rare,
+  but a fire lasts hours and the wind turns: the plan
+  assumes it can, and the message to the village (lesson E)
+  does not wait for the wind to decide

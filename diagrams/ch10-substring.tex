@@ -1,0 +1,52 @@
+% Chapter 10 - the three bypass substrings of a 72-cell module and a shadow along the lower edge:
+% in portrait every substring loses a cell, in landscape only one (sections B and C).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\cs{0.32}
+  % ---------- portrait: 6 columns x 12 rows; substring k = columns 2k-1, 2k ----------
+  \foreach \c in {0,...,5} {
+    \pgfmathtruncatemacro{\k}{div(\c,2)}
+    \ifcase\k \def\col{cPV!12}\or \def\col{cPV!32}\or \def\col{cPV!55}\fi
+    \foreach \r in {0,...,11} \fill[\col, draw=white, line width=0.4pt] (\c*\cs,\r*\cs) rectangle ++(\cs,\cs);
+  }
+  \draw[cInkB, line width=0.7pt] (0,0) rectangle (6*\cs,12*\cs);
+  \fill[cInk, opacity=0.35] (-0.15,-0.05) rectangle (6*\cs+0.15,\cs+0.02);
+  \node[note, anchor=north] at (3*\cs,-0.15) {ماژولِ عمودی: سایه بر یک ردیف سلول};
+  \foreach \k/\x in {1/0.32, 2/0.96, 3/1.60} \node[note, text=cInk] at (\x,12*\cs+0.25) {$\k$};
+  % ---------- landscape: 12 columns x 6 rows; substring k = rows 2k-1, 2k ----------
+  \begin{scope}[xshift=4.6cm]
+    \foreach \r in {0,...,5} {
+      \pgfmathtruncatemacro{\k}{div(\r,2)}
+      \ifcase\k \def\col{cPV!12}\or \def\col{cPV!32}\or \def\col{cPV!55}\fi
+      \foreach \c in {0,...,11} \fill[\col, draw=white, line width=0.4pt] (\c*\cs,\r*\cs) rectangle ++(\cs,\cs);
+    }
+    \draw[cInkB, line width=0.7pt] (0,0) rectangle (12*\cs,6*\cs);
+    \fill[cInk, opacity=0.35] (-0.15,-0.05) rectangle (12*\cs+0.15,\cs+0.02);
+    \node[note, anchor=north] at (6*\cs,-0.15) {ماژولِ افقی: همان سایه};
+    \foreach \k/\y in {1/0.32, 2/0.96, 3/1.60} \node[note, text=cInk, anchor=west] at (12*\cs+0.1,\y) {$\k$};
+  \end{scope}
+  % ---------- equivalent: three substrings in series, each with a bypass diode ----------
+  \ctikzset{bipoles/length=0.7cm}
+  \begin{scope}[yshift=-2.6cm]
+    \node[note, anchor=east, text=cInk] at (-0.2,0) {عمودی};
+    \foreach \k in {0,1,2} {
+      \node[blkPV, minimum width=10mm, minimum height=5mm, font=\scriptsize] at (\k*1.6+0.8,0) {زیررشته};
+      \draw (\k*1.6,0) -- (\k*1.6+0.3,0) (\k*1.6+1.3,0) -- (\k*1.6+1.6,0);
+      \draw[cLoss, line width=0.9pt] (\k*1.6,0) -- (\k*1.6,0.55) to[D] (\k*1.6+1.6,0.55) -- (\k*1.6+1.6,0);
+    }
+    \node[note, anchor=west, text=cLoss] at (4.9,0.3) {هر سه دیود روشن؛ توانِ ماژول تقریباً صفر};
+  \end{scope}
+  \begin{scope}[yshift=-3.9cm]
+    \node[note, anchor=east, text=cInk] at (-0.2,0) {افقی};
+    \foreach \k in {0,1,2} {
+      \node[blkPV, minimum width=10mm, minimum height=5mm, font=\scriptsize] at (\k*1.6+0.8,0) {زیررشته};
+      \draw (\k*1.6,0) -- (\k*1.6+0.3,0) (\k*1.6+1.3,0) -- (\k*1.6+1.6,0);
+    }
+    \draw[cLoss, line width=0.9pt] (0,0) -- (0,0.55) to[D] (1.6,0.55) -- (1.6,0);
+    \draw[cInkB] (1.6,0) -- (1.6,0.55) to[D] (3.2,0.55) -- (3.2,0);
+    \draw[cInkB] (3.2,0) -- (3.2,0.55) to[D] (4.8,0.55) -- (4.8,0);
+    \node[note, anchor=west, text=cLoss] at (4.9,0.3) {یک دیود روشن؛ دو سوم توان می‌ماند};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

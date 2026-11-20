@@ -1,0 +1,12 @@
+single-tuned filter: 5.0 Mvar at 33 kV, tuned to h = 4.7
+  X_C = 228.1 ohm, X_L = 10.33 ohm per phase (star equivalent)
+  C = 13.95 uF, L = 32.9 mH per phase
+  capacitor tolerance   tuned to h
+                  -5%         4.82
+                  +0%         4.70
+                  +5%         4.59
+  the capacitor sees 1.047 x the bus voltage at 50 Hz (the reactor's
+  rise), plus its harmonic duty: it is rated for both; tuned
+  a little below the 5th, the filter never sits exactly on a
+  harmonic even with tolerance and ageing (capacitance falls
+  with failed elements and the tuning rises toward the 5th)

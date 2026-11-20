@@ -1,0 +1,19 @@
+worked example: faults on =WS1-W3 traced to the evidence
+  1 network data: Z1 at the fault = j2.98 (bus) + 0.42 + j0.37 (cable) ohm
+  2 study: three-phase 5.64 kA, line-to-line 4.89 kA, earth 397 A
+  3 coordination report (LL, the smaller): feeder 0.29 s, incomer 0.68 s,
+    margin 0.39 s; earth: feeder 0.5 s, standby 1.5 s
+  4 relay logic: 51 and 51N trip the feeder breaker; 50BF
+    starts on trip and opens the incomer if current stays
+  5 panel wiring: CT 600/1 to the relay; trip contact to the
+    breaker's coil 1, backup to coil 2; DC from the station
+    battery through its own MCB with supervision
+  6 tests: factory functional test of the panel; secondary
+    injection of the settings (purpose: the relay operates
+    as set); end-to-end check of the trip from relay to
+    breaker; primary checks of the CT ratio and polarity
+  7 approval: the setting file, its checksum and the test
+    records go to the operator; settings at the grid
+    boundary need the operator's written approval
+  every step names its record; the methods of the tests and
+  any work near live equipment belong to qualified staff

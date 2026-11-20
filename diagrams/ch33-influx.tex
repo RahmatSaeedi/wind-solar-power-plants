@@ -1,0 +1,14 @@
+% Chapter 33 - visits a day to the village clinic now, at the construction peak, and with a site
+% medic, against its capacity (examples_q, diagrams/data/ch33-influx.csv; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, ybar, bar width=14mm, xmin=0.4, xmax=3.6, ymin=0, ymax=34,
+      xtick={1,2,3}, xticklabels={اکنون, اوجِ ساخت, با پزشکِ ساختگاه},
+      ylabel={مراجعه در روز}]
+    \addplot[fill=cLoad!40, draw=cLoad] table[x=case, y=visits, col sep=comma] {data/ch33-influx.csv};
+    \draw[sLoss] (axis cs:0.4,30) -- (axis cs:3.6,30);
+    \node[note, anchor=south east] at (axis cs:3.55,30.3) {ظرفیتِ درمانگاه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,19 @@
+% Chapter 34 - the measurement chain of the POC voltage, right to left: VT, transducer, analogue input,
+% scaling and filter, plant controller, network, operator display; each block with its error or delay
+% (lab_d; teaching values).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=19mm, minimum height=12mm, text width=17mm}]
+  \node[s, blkLoad] (vt) at (16.8,0) {ترانسفورماتورِ ولتاژ\\ $\pm0.5\,\%$};
+  \node[s, blkLoad] (tx) at (14.0,0) {مبدلِ اندازه‌گیری\\ $4$ تا $20\,\mathrm{mA}$};
+  \node[s, blkWind] (ai) at (11.2,0) {کارتِ ورودی\\ $16$ بیت};
+  \node[s, blkWind] (fl) at (8.4,0) {مقیاس و فیلتر\\ $\tau = 0.5\,\mathrm{s}$};
+  \node[s, blkBESS] (ppc) at (5.6,0) {کنترل‌گرِ نیروگاه\\ افت $4\,\%$};
+  \node[s, blkBESS] (net) at (2.8,0) {شبکه\\ $30\,\mathrm{ms}$};
+  \node[s, blkPV] (hmi) at (0,0) {نمایشگرِ اپراتور\\ هر $1\,\mathrm{s}$};
+  \foreach \a/\b in {vt/tx, tx/ai, ai/fl, fl/ppc, ppc/net, net/hmi} {\draw[flow] (\a) -- (\b);}
+  \draw[flowinfo] (ppc.south) -- ++(0,-0.8) node[below, note] {فرمانِ توانِ واکنشی به واحدها};
+  \node[note] at (8.4,1.2) {هر حلقه کیفیت و برچسبِ زمان را همراهِ مقدار می‌برد};
+\end{tikzpicture}
+\end{document}

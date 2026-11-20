@@ -1,0 +1,5 @@
+two DC feeders, 180 m each, 300 A and 150 A; copper volume fixed at two 240
+    mm2
+  equal areas 240/240 mm2: loss 2.90 kW
+  Lagrange optimum A1/A2 = I1/I2: 320 / 160 mm2, loss 2.61 kW (-10.0 %)
+  current densities at the optimum: 0.938 and 0.938 A/mm2 (equal)

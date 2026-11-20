@@ -1,0 +1,5 @@
+dynamic pressure q = 1/2 rho v^2 at a 30 m/s gust (A-049, rho 1.225 kg/m3):
+  q = 551 Pa; module 2.278 x 1.134 m = 2.583 m2; force coefficient 1.2:
+  F = q A C_f = 1.71 kN against a module weight of 0.27 kN
+  doubling the gust speed quadruples the load; codes set the design values
+    (ch. 30)

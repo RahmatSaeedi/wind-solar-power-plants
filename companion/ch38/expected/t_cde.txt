@@ -1,0 +1,8 @@
+publishing log of the CDE: 8 actions
+  not permitted: author 'publish' on PLP-ELE-CAL-0009
+  not permitted: checker 'approve' on PLP-CIV-DWG-0031
+  published without a valid approval: PLP-ELE-CAL-0009
+  published without a valid approval: PLP-CIV-DWG-0031
+  the check is of roles, not of people: an author cannot
+  publish and a checker cannot approve - otherwise the
+  'approved' status means nothing

@@ -1,0 +1,13 @@
+% Chapter 25 - frequency response before and after transport (synthetic; resonances shifted 2 %),
+% data diagrams/data/ch25-fra.csv from companion/ch25/examples_n.py fra(); log frequency axis.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=62mm, xmode=log, xmin=100, xmax=2e5,
+      xlabel={فرکانس $(\text{Hz})$}, ylabel={دامنه $(\text{dB})$}, xmajorgrids=true, legend columns=2]
+    \addplot[sInk] table[x=f, y=ref, col sep=comma] {data/ch25-fra.csv};
+    \addplot[sLoss] table[x=f, y=after, col sep=comma] {data/ch25-fra.csv};
+    \legend{مرجعِ کارخانه, پس از حمل}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

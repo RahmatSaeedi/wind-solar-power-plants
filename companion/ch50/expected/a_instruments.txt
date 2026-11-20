@@ -1,0 +1,11 @@
+test instruments on 2028-04-01: calibration due date
+  IR tester IT-04                2028-03-10
+  IR tester IT-07                2028-09-01
+  secondary injection set SI-2   2028-06-30
+  I-V tracer IV-1                2028-05-02
+  phase rotation meter PR-3      no record
+  power analyser PA-1            2028-12-01
+  out of calibration: IR tester IT-04; no record: phase rotation meter PR-3
+  a result from an instrument out of calibration is a result
+  to repeat; the test record names the instrument for that
+  reason (ch 48 as-found, ch 49 torque tools)

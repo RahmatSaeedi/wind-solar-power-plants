@@ -1,0 +1,29 @@
+E01: 1/2 rho A v^3 at 10 m/s: 10.82 MW (1.225), 9.33 MW (1.056); 283 W/m2
+E02: 11.5 rpm = 1.204 rad/s; tip speed 90.3 m/s; TSR at 10 m/s 9.03
+E03: Betz a = 1/3: Cp 0.5926, Ct 0.889; rotor 2V/3, far wake V/3
+E04: ideal thrust at 10 m/s (Ct 8/9): 962 kN; BEM 923 kN
+E05: Reynolds number at 0.7 R: 63 m/s x 3.5 m / 1.5e-5 = 1.5e+07
+E06: torque law k = 3,604 kN m s2; at 0.907 rad/s: 2.965 MN m
+E07: rated torque 5 MW / 0.94 / 1.204 = 4.42 MN m; ratio 1155 / 11.5 = 100.4
+   : high-speed shaft torque 44 kN m
+E08: yaw error 10 deg: cos^2 loss 3.0 %, cos^3 loss 4.5 %
+E09: standard atmosphere at 1200 m: 877 hPa, 7.2 C -> 1.090 kg/m3
+E10: equivalent speed 8 x (1.056/1.225)^(1/3) = 7.614 m/s
+E11: rotor energy at 11.5 rpm 23.2 MJ; 90 deg at 8 deg/s: 11.2 s
+E12: 10 rpm: 1P 0.167 Hz, 3P 0.500 Hz; tower 0.215 Hz
+E13: edgewise cycles in 20 yr at 9 rpm, 85 % running: 8.0e+07
+E14: Miner, m = 10: half the reference range does 1/1024 of the damage
+E15: Weibull k 2.11, c 8.02: mean c Gamma(1 + 1/k) = 7.10 m/s (data 7.10)
+E16: hours below cut-in 1025 (11.7 %), above 25 m/s 0
+E17: Jensen, Ct 0.852, 4D: deficit 0.314; power x (1 - d)^3 = 0.323
+   : Jensen, Ct 0.852, 8D: deficit 0.190; power x (1 - d)^3 = 0.532
+E18: capacity factor 188.16 GWh / (60 MW x 8760 h) = 0.358
+E19: lightning 2 x 9 pi 0.175^2 = 1.73 flashes a year;
+     ice throw 1.5 x (150 + 100) = 375 m
+E20: BPFO = 12/2 x 19.25 x (1 - 0.2) = 92.4 Hz
+E21: blade from hub 2.5 m to tip 75 m: 72.5 m long
+E22: centrifugal 22 t x 1.204^2 x 22 m = 702 kN;
+     gravity 22 t x 9.81 x 22 m = 4.75 MN m
+E23: tower base moment 923 kN x 100 m = 92.3 MN m
+E24: losses at rated 5,319 - 5,000 = 319 kW; gearbox 2.5 % = 133 kW
+     oil flow for 15 K rise: 133 kW / (870 x 1900 x 15) = 322 L/min

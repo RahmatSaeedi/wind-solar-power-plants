@@ -1,0 +1,7 @@
+training on operational data with unflagged outages (A-270):
+  all hours, outages unflagged         bias -0.83 MW, RMSE 10.41 MW
+  outage hours flagged and left out    bias -0.11 MW, RMSE 10.37 MW
+  the model learns that the plant sometimes gives a third of its
+  output and forecasts low in every normal hour; flag outages,
+  ordered curtailment and maintenance in the training data and
+  forecast availability separately (chapter 52)

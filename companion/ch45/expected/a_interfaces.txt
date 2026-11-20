@@ -1,0 +1,12 @@
+interfaces from cell to plant and the evidence at each
+  interface          crosses                         evidence
+  cell - module      current, heat, pressure         welds, compression
+  module - BMS       cell voltages, temperatures     sensor map, calibration
+  module - rack      DC bus, cooling, frame          torque, insulation, flow
+  rack - container   DC, auxiliaries, data           isolation, HVAC, fire
+  container - PCS    DC window, limits, commands     window check, test record
+  container - plant  SCADA, alarms, isolation        point list, interlocks
+  container - site   foundation, earthing, access    survey, continuity
+  7 interfaces; three makers meet at them (cell maker,
+  integrator, PCS maker) - each row needs one owner of the
+  value and one of the evidence (ch 18, ch 19)

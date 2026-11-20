@@ -1,0 +1,12 @@
+operating water balance with W-1 (pumped 12 h a day) and the 2,500 m3 tank
+  demand a year: 2,986 m3 (staff, and washing water treated
+  by RO at 60 % recovery)
+  supply a year: normal 5,646 m3, drought 4,487 m3
+  held fire reserve (lesson F, placeholder): 180 m3, never drawn
+  unmet demand: normal 0 m3, drought 0 m3
+  lowest usable stock: normal 2,309 m3 (month 6), drought 1,673 m3
+  over the year W-1 gives more than operation needs, but the
+  dry summer months need more than it gives: the tank
+  carries them (down to 1,673 m3 in the drought) - which is
+  why the balance is monthly, and why construction, at
+  28 times the yearly operating demand, needs another source

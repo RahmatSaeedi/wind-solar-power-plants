@@ -1,0 +1,12 @@
+measure-correlate-predict, hourly, 100 m (A-253):
+  concurrent hours 8,611; correlation r = 0.951
+  site 2023 mean 7.066 m/s; reference 2023 6.494, 20 years 6.662
+  method               long-term mean   energy MWh/turbine
+  linear least squares    7.239 m/s         18,569
+  variance ratio          7.248 m/s         18,640
+  sector ratio            7.248 m/s         18,638
+  site year as measured   7.066 m/s         18,047
+  'true' long-term mean of this synthetic site: 7.242 m/s
+  the line of least squares shrinks the spread (r < 1) and loses
+  energy from the cube; variance ratio keeps it; the methods'
+  spread is part of the long-term uncertainty

@@ -1,0 +1,8 @@
+main transformer redundancy (A-288, expected values):
+  one 125 MVA unit, no spare:     1,479 MWh/yr expected, one event 147.9 GWh
+  one unit with a shared spare:     243 MWh/yr expected, one event  24.3 GWh
+  two 63 MVA units:                 178 MWh/yr expected, one event   8.9 GWh
+  the expected values are small next to 295 GWh; the single
+  event is not: half a year without export is what lenders
+  and owners insure against, so redundancy is bought for the
+  tail, not for the mean (chapter 16)

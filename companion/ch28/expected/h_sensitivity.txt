@@ -1,0 +1,13 @@
+voltage change at each bus for 10 Mvar more from the units (grid max)
+  bus        V before   V after   dV per 10 Mvar %
+  POC          1.0067    1.0133               0.66
+  HV           1.0117    1.0200               0.82
+  MV-A         1.0211    1.0386               1.75
+  WS1 end      1.0237    1.0415               1.78
+  WS1 units    1.0371    1.0594               2.23
+  PVF3 units   1.0351    1.0572               2.21
+  the same 10 Mvar moves the POC by about 0.7 % and the
+  units' own terminals by more: the impedance between them
+  adds up - a unit controller that 'sees' its terminal moves
+  further than the POC does, which is why the plant
+  controller, not the units, regulates the POC voltage

@@ -1,0 +1,6 @@
+requirements baseline for D-021 (draft):
+  register: 12 requirements; verified 1, assumed 4, open 7
+  grid request: 12 items to the operator; boundary matrix: 7 open cells
+  the baseline is frozen only for what is verified or assumed
+  with a source; open items carry an owner and a date; any
+  change after the freeze goes through change control

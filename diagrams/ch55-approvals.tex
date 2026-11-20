@@ -1,0 +1,35 @@
+% Chapter 55 - approval map of Plant P in Iran, right to left: S1 eligibility (SATBA) -> S2 land
+% allocation -> S3 DOE inquiry -> S4 construction permit -> S8 sale route / S9 import orders; S5
+% connection studies -> S6 connection agreement; S7 water permit. Green = verified source, red =
+% to-confirm, purple = project-dependent; durations are teaching values (companion/ch55/run.py).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\scriptsize,
+    v/.style={draw=cBESS, fill=cBESS!14, text width=19mm, minimum height=11mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    t/.style={draw=cLoss, fill=cLoss!10, dashed, text width=19mm, minimum height=11mm,
+              align=center, rounded corners=1.5pt, text=cInk},
+    p/.style={draw=cLoad, fill=cLoad!10, text width=19mm, minimum height=11mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    ar/.style={-{Stealth[length=1.8mm]}, draw=cInk, line width=0.7pt}]
+  \node[v] (s1) at (0,0) {S1 صلاحیت\\ (ساتبا)};
+  \node[t] (s2) at (-2.6,1.4) {S2 واگذاریِ زمین};
+  \node[t] (s3) at (-5.2,1.4) {S3 استعلامِ محیط‌زیست};
+  \node[t] (s4) at (-7.8,1.4) {S4 پروانهٔ احداث};
+  \node[t] (s8) at (-10.4,2.2) {S8 راهِ فروش};
+  \node[t] (s9) at (-10.4,0.6) {S9 ثبتِ سفارش و ارز};
+  \node[p] (s7) at (-5.2,0.0) {S7 پروانهٔ آب};
+  \node[t] (s5) at (-2.6,-1.4) {S5 درخواست و مطالعهٔ اتصال};
+  \node[t] (s6) at (-5.2,-1.4) {S6 قراردادِ اتصال};
+  \draw[ar, line width=1.3pt] (s1) -- (s2);
+  \draw[ar, line width=1.3pt] (s2) -- (s3);
+  \draw[ar, line width=1.3pt] (s3) -- (s4);
+  \draw[ar, line width=1.3pt] (s4) -- (s8);
+  \draw[ar] (s4) -- (s9);
+  \draw[ar] (s2) -- (s7);
+  \draw[ar] (s1) -- (s5);
+  \draw[ar] (s5) -- (s6);
+  \node[note, font=\scriptsize, anchor=north] at (-5.2,-2.4)
+    {پیکانِ پررنگ: مسیرِ بحرانی؛ سبز: تأییدشده؛ قرمزِ خط‌چین: نیازمندِ تأیید؛ بنفش: وابسته به پروژه};
+\end{tikzpicture}
+\end{document}

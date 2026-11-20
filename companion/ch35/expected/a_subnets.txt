@@ -1,0 +1,11 @@
+subnets by function (teaching): smallest prefix that fits with 50 % growth
+  zone                              devices   prefix   addresses usable
+  substation IEDs                        30   /26                   62
+  turbines and ring switches             24   /26                   62
+  PV inverters and stations              40   /26                   62
+  battery containers                     24   /26                   62
+  control room servers and HMIs          12   /27                   30
+  one subnet a function keeps broadcast traffic local and
+  lets the firewall rules of ch 36 speak in zones, not in
+  hundreds of single addresses; the address plan is a
+  controlled document like the I/O list (ch 34)

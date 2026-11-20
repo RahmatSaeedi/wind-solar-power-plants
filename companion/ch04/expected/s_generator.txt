@@ -1,0 +1,9 @@
+synchronous speed n = 120 f / p at 50 Hz:
+  4 poles: 1500 rpm
+  6 poles: 1000 rpm
+  8 poles: 750 rpm
+  geared generator at 1155 rpm (a_torque) with 4 poles: slip 23 % below
+    synchronous
+  a direct-drive rotor at 10.5 rpm would need 571 poles for 50 Hz
+  with a full converter the generator frequency is free: the converter makes
+    50 Hz

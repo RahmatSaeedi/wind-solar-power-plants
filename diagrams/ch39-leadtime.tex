@@ -1,0 +1,19 @@
+% Chapter 39 - chance that the transformers arrive within a given lead time (lognormal, median 30
+% weeks, spread 15 %), with the 34 weeks the package allows and the 90 % lead time of 36.4 weeks
+% (diagrams/data/ch39-leadtime.csv from companion/ch39/examples_s.py, s_leadtime; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=18, xmax=45, ymin=0, ymax=1,
+      xlabel={زمانِ تحویل پس از سفارش (هفته)}, ylabel={احتمالِ رسیدن},
+      ytick={0,0.2,0.4,0.6,0.8,0.9,1}]
+    \addplot[sWind] table[x=weeks, y=chance, col sep=comma] {data/ch39-leadtime.csv};
+    \draw[sLimit] (axis cs:34,0) -- (axis cs:34,0.80);
+    \draw[sLimit] (axis cs:18,0.80) -- (axis cs:34,0.80);
+    \node[note, anchor=north west] at (axis cs:34.3,0.30) {نیاز: ۳۴ هفته (۸۰٪)};
+    \draw[sLoss] (axis cs:36.4,0) -- (axis cs:36.4,0.90);
+    \draw[sLoss] (axis cs:18,0.90) -- (axis cs:36.4,0.90);
+    \node[note, anchor=south west, text=cLoss] at (axis cs:36.7,0.55) {۹۰٪: ۳۶٫۴ هفته};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

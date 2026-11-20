@@ -1,0 +1,9 @@
+gauge R&R of the micro-ohmmeter (10 joints x 3 inspectors x 2)
+  study            repeat.  reprod.   part   %GRR   ndc
+  hand-held probes   0.072    0.012   2.88   16.8     8
+  probe fixture      0.012    0.026   2.82   11.5    12
+  (variances in micro-ohm squared; ndc = distinct categories)
+  a common industry guide: %GRR under 10 good, 10-30
+  acceptable with reason, over 30 not; the fixture cut
+  repeatability, but the inspectors' bias stays - that
+  needs one probe position and training, not hardware

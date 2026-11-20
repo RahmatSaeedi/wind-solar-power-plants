@@ -1,0 +1,15 @@
+% Chapter 9 - ripple current of one stack and of four interleaved stacks (sum divided by four),
+% carriers shifted by a quarter period (A-169). Data: diagrams/data/ch09-interleave.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=0, xmax=660, ymin=-260, ymax=260,
+      xlabel={زمان، $\mu\text{s}$}, ylabel={جریانِ موج‌دار، $\text{A}$}, xtick={0,100,...,600},
+      ytick={-200,-100,0,100,200}]
+    \addplot[sLimit, line width=0.6pt] table[x=t, y=one, col sep=comma] {data/ch09-interleave.csv};
+    \addlegendentry{یک پشته}
+    \addplot[sPV, solid, line width=0.9pt] table[x=t, y=sum4, col sep=comma] {data/ch09-interleave.csv};
+    \addlegendentry{جمعِ چهار پشتهٔ درهم‌تنیده، تقسیم بر چهار}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

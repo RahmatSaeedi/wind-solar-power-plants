@@ -1,0 +1,9 @@
+inverter downtime a year, 2,000 simulated years
+  case               mean h   90 % h   chance over budget
+  spares on site      41.9     90.9               0.9%
+  spares at depot    221.5    484.8              57.0%
+  budget 153 h (the weighted share above): with
+  stock on site the bad years stay inside it; with parts at
+  a depot even the average year misses it. The contract
+  asks for response, repair and stock on site, not only
+  for an availability figure

@@ -1,0 +1,14 @@
+7 changes made at the FAT, and the drawings they need
+  change                                        kind        revised
+  C-01 trip coils rewired to the drawing        to drawing  -
+  C-02 X1:3/X1:4 rewired to the drawing         to drawing  -
+  C-03 link X4:3-X4:4 removed                   to drawing  -
+  C-04 interposing relay K5 added for intertrip design      NO
+  C-05 CT of PVF3 replaced, 600/1               to drawing  -
+  C-06 two cable positions on BESS-A/B          design      NO
+  C-07 VT terminal drawing created              design      yes
+  gaps: TD-WS1-03; TD-BESS-05
+  a fix that brings the panel back to its drawing needs no
+  revision; a change of design does, or the as-built package
+  describes a panel nobody built - the redlines are carried
+  into revisions before the panel's records are accepted (ch 38)

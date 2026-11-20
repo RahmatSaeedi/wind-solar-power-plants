@@ -1,0 +1,7 @@
+a scheduled gearbox oil change that overruns (teaching)
+  planned window 24 h, work took 30 h
+  planned outage: 24 h (excluded if the contract excludes it)
+  overrun: 6 h, charged as forced outage
+  the plan is recorded before the work starts; whatever
+  runs past it is a forced outage, or 'planned' would
+  swallow every delay

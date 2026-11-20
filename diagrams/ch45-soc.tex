@@ -1,0 +1,17 @@
+% Chapter 45 - one rack through a day in the educational SOC simulator: state of charge stays in the
+% 10-90 % window; the end of the midday charge and of the evening discharge are cut
+% (diagrams/data/ch45-soc.csv from companion/ch45/lab_d.py, soc_day; teaching values).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=54mm, xmin=0, xmax=24, ymin=0, ymax=1,
+      xlabel={ساعتِ روز}, ylabel={حالتِ شارژ}, xtick={0,4,...,24}]
+    \fill[cLoss!8] (axis cs:0,0.9) rectangle (axis cs:24,1);
+    \fill[cLoss!8] (axis cs:0,0) rectangle (axis cs:24,0.1);
+    \addplot[sBESS, const plot] table[x=h, y=soc, col sep=comma] {data/ch45-soc.csv};
+    \node[note, anchor=south] at (axis cs:12,0.91) {بیرون از پنجره};
+    \node[note, anchor=west] at (axis cs:12.0,0.70) {پایانِ شارژ بریده شد};
+    \node[note, anchor=west] at (axis cs:20.2,0.18) {پایانِ دشارژ بریده شد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

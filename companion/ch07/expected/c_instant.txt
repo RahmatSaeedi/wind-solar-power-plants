@@ -1,0 +1,6 @@
+single phase, 230 V and 100 A RMS, current 30 deg behind:
+  p(t) = P (1 - cos 2wt) - Q sin 2wt
+  P = V I cos(phi) = 19.92 kW, Q = V I sin(phi) = 11.50 kvar
+  mean of p(t) over a period 19.92 kW; peak 42.91 kW; minimum -3.08 kW
+  Q is the amplitude of the part that flows back and forth twice per cycle:
+  no net energy, but current, so heating and voltage drop

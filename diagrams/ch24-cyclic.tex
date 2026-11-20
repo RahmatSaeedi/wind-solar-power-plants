@@ -1,0 +1,15 @@
+% Chapter 24 - daily current of a PV feeder shaped to the cyclic rating at noon (765 A, two-zone
+% teaching model) against the continuous rating 660 A of the 630 mm2 cable; data
+% diagrams/data/ch24-cyclic.csv from companion/ch24/examples_x.py.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=23, ymin=0, ymax=850,
+      xlabel={ساعتِ روز}, ylabel={جریان $(\text{A})$}, xtick={0,3,...,21}, xmajorgrids=true,
+      legend columns=2]
+    \addplot[sPV] table[x=h, y=pv, col sep=comma] {data/ch24-cyclic.csv};
+    \addplot[sLimit] table[x=h, y=cont, col sep=comma] {data/ch24-cyclic.csv};
+    \legend{جریانِ روزانهٔ فیدرِ خورشیدی, جریانِ مجازِ پیوسته}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

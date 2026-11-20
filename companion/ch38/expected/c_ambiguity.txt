@@ -1,0 +1,10 @@
+six common ambiguities and the question each leaves
+  ambiguity                                  question
+  'see detail' without the drawing number    which detail?
+  a tag that differs by one character        two items or one?
+  'existing' without a survey date           existing when?
+  units missing on a dimension               mm or m?
+  a cloud with no revision triangle          which change?
+  'by others' without naming the party       nobody's scope
+  each one costs a technical query, a site stop or a wrong
+  installation; the checker's list asks for each by name

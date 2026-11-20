@@ -1,0 +1,5 @@
+two logistics results checked by hand
+  nacelle trailer axle: (42 + 0.95 x 160) x 9.81 / 16 = 118.9 kN; code 118.9
+  crane at 16 m: chart point 210 t; use (160 + 8) / 210 = 0.80; code 0.80
+  a hand check of one number from each formula protects
+  the whole table against a wrong unit or index

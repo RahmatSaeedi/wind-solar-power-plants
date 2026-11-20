@@ -1,0 +1,14 @@
+safe operating envelope of the S1 cell as layers (teaching values;
+  the maker's limits rule)
+  quantity                        unit    cell   trip  alarm  normal  margin
+  cell voltage, high              V        3.65   3.60   3.55    3.45   0.20
+  cell voltage, low               V        2.50   2.60   2.70    3.00   0.50
+  cell temperature, charging high C       55.00  52.00  47.00   35.00  20.00
+  cell temperature, charging low  C        0.00   2.00   5.00   15.00  15.00
+  charge current                  C-rate   0.50   0.50   0.48    0.45   0.05 !
+  ! the trip equals the cell's limit
+  each layer keeps the next one from being reached: normal
+  operation stays inside the alarms, alarms come before trips,
+  trips come before the cell's own limits - the charge-current
+  trip sits on the cell's limit with no margin, a design-review
+  question like the charging temperature of lesson B

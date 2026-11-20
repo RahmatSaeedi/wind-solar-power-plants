@@ -1,0 +1,8 @@
+charging current of the export options (no load):
+  33 kV collector 240 mm2        27.2 A     1.6 Mvar
+  132 kV overhead line            1.5 A     0.3 Mvar
+  132 kV underground cable       33.8 A     7.7 Mvar
+  the cable makes 20 times the line's reactive power: at
+  light load the plant exports Mvar it did not choose, which
+  the reactive-power capability and perhaps a reactor must
+  absorb (ch 20, 27, 28)

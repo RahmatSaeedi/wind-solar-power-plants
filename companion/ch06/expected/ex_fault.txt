@@ -1,0 +1,5 @@
+PV string short circuit: 13.98 A; 24 strings: 335.5 A
+battery rack (assumed EMF 1331.2 V, 50 mOhm + 5 mOhm cable): 24.2 kA
+adiabatic k (90 -> 250 C): copper 143.0, aluminium 93.2 A s^0.5/mm2; copper 70
+    -> 160 C: 115.0
+240 mm2 Al withstands 24.2 kA for 0.85 s and 10 kA for 5.0 s

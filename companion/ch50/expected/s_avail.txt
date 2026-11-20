@@ -1,0 +1,6 @@
+telemetry over the compliance week, a value every 4 s
+  expected 151,200, received 148,725: 98.36%
+  four gaps; the longest 2.0 h, during a gateway restart
+  against a 99 % teaching target the week FAILS; the two-hour gap alone
+  costs 1.2% - the restart procedure keeps a second path up
+  while one gateway restarts (ch 35 failover)

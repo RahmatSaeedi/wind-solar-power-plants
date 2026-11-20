@@ -1,0 +1,12 @@
+reviewing a vendor's network design without exposing the site
+  shared with the vendor
+  zones, conduits and purposes                   yes
+  device kinds and counts                        yes
+  required availability and recovery times       yes
+  addresses, names of real hosts                 no
+  credentials, keys, firewall rules as running   no
+  site location and access routes                no
+  the vendor designs against a sanitised model of the plant
+  under a confidentiality agreement; the review checks the
+  design against the conduit table and the targets, and
+  the owner fills in the real details after acceptance

@@ -1,0 +1,15 @@
+% Chapter 25 - two bids for a 63 MVA transformer: price and present value of losses (k u; 70 u/MWh,
+% 25 years, 7.5 %, loss load factor 0.128 from chapter 15), stacked. Data: diagrams/data/ch25-bids.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=84mm, height=58mm, ybar stacked, bar width=16mm, xmin=0.4, xmax=2.6,
+      ymin=0, ymax=2800, ylabel={هزار واحد}, xtick={1,2},
+      xticklabels={پیشنهادِ A (کم‌تلف), پیشنهادِ B (ارزان)}, ytick={0,500,...,2500}, xmajorgrids=false,
+      area legend, legend columns=1, legend style={at={(0.97,0.97)}, anchor=north east, font=\footnotesize}]
+    \addplot[draw=cInkB, fill=cInkB!25] table[x=k, y=price, col sep=comma] {data/ch25-bids.csv};
+    \addplot[draw=cLoss, fill=cLoss!30] table[x=k, y=losses, col sep=comma] {data/ch25-bids.csv};
+    \legend{قیمت, ارزشِ فعلیِ تلف}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

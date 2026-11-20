@@ -1,0 +1,10 @@
+three-phase export meter at 100 MW, pf 0.95; phase c CT reversed
+  phase   P right MW   P read MW
+  a            33.33       33.33
+  b            33.33       33.33
+  c            33.33      -33.33
+  total       100.00       33.33  (33% of the right value)
+  one reversed CT turns a third of the energy negative: the
+  meter reads a third of the export; the commissioning check
+  reads each phase's power and angle, at the first low load,
+  before a single interval is settled

@@ -1,0 +1,11 @@
+hours the island carries 1.57 MW of critical load (priority
+1 + 2) from each hour of the year, battery + PV (A-303):
+  island floor MWh   P10 h   P50 h   share of starts >= 24 h
+                 0       0      24                       54 %
+                10       3      24                       68 %
+                20      24      24                       93 %
+  without a floor the island fails at once from an empty
+  night-time battery in a tenth of the hours; a 20 MWh floor
+  gives a day of autonomy from 93 % of starts, at a cost of
+  the order of the 88 k u a year of h_endtarget; whether that
+  is worth it is the owner's decision (U-080)

@@ -1,0 +1,13 @@
+the transformers' losses over a year (loss load factor per group):
+  group                    no-load MWh   load MWh   total MWh
+  main transformers (2)            613        561        1174
+  PV unit (10)                     394        788        1183
+  wind unit (12)                   736       1577        2313
+  BESS unit (4)                    158        237         394
+  all 5,063 MWh: no-load 1,901 (38%), load 3,162
+  the main transformers lose about as much in the cores as in
+  the windings; the unit transformers, whose load loss is ten
+  times their no-load loss, lose most in the windings - so A
+  and B are set per group from its own loss load factor, and
+  the 26 unit transformers lose 3.3 times as much as the two
+  main ones

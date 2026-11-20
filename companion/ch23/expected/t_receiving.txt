@@ -1,0 +1,13 @@
+the receiving network seen from the POC (1,500 MVA, X/R 10, teaching):
+  grid impedance on 100 MVA: r 0.0066, x 0.0663 pu
+  export P MW   Q Mvar   voltage change at the POC %
+          100        0      +0.66
+          100      -20      -0.66
+          100      -33      -1.53
+           50        0      +0.33
+  dV ~ R P + X Q: export raises the voltage a little through
+  R; absorbing reactive power pulls it back through X; with
+  a strong grid the effect is small - the receiving network's
+  strength and X/R are utility data (U-089) and the full study
+  is ch 28; the one-line carries the grid as an impedance at
+  the POC for exactly this purpose

@@ -1,0 +1,7 @@
+calendar fade while waiting for commissioning (A-292):
+  months   at 15 C, 30 %   at 25 C, 50 %   at 35 C, 50 %
+       3           0.43 %           1.00 %           1.88 %
+       6           0.60 %           1.41 %           2.66 %
+      12           0.86 %           2.00 %           3.76 %
+  a year in a hot yard costs about as much health as a year
+  of work; delivery, storage SOC and shade are contract terms

@@ -1,0 +1,10 @@
+as-built cover over the cable, every 50 m along one trench (m):
+  mean 0.97, lowest 0.76, readings below the 0.80 m minimum: 2
+    at  350 m: 0.79 m
+    at  700 m: 0.76 m
+  the mean says the trench is fine; two places are not -
+  each becomes a nonconformity: dig and lower, or protect
+  with a slab and record it; a shallow cable is a future
+  dig-in, closer to the summer-hot surface and to ploughs -
+  its rating even rises a little, so the defect is
+  mechanical, and the record is what protects it

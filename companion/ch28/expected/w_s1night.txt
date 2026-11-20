@@ -1,0 +1,9 @@
+S1 at night: the battery charges from the grid (grid max, 1.00)
+  battery MW   P at POC MW   Q at POC Mvar   V MV-B   losses MW
+           0           0.0             2.4    1.004        0.00
+         -10         -10.1             2.0    1.001        0.05
+         -20         -20.2             0.7    0.998        0.22
+  charging turns the plant into a load at the POC: the
+  operator's study of the plant then includes an import
+  case (voltage, losses, any import limit or tariff), and
+  the meters record both directions (ch 34, 37)

@@ -1,0 +1,9 @@
+the 132 kV route of ch 14 (least cost) in civil quantities
+  length 7.06 km; towers at ~300 m spans: 25; direction changes over 10 deg: 7
+  crossings: wadi 0, public road 0, site track 1
+  farmland crossed 0.00 km; homes within 500 m: 0
+  access tracks (~250 m a tower, teaching): 6.2 km
+  ground disturbed: towers 0.2 ha, tracks 2.5 ha (to reinstate)
+  angle points become heavier towers and the 50 m grid's
+  zigzag overstates them - the line designer straightens the
+  route; each crossing is a separate agreement and permit

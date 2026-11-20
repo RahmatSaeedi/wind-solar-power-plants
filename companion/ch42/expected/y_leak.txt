@@ -1,0 +1,8 @@
+pressure-decay test of a nacelle cooling circuit (teaching)
+  start 3.0 bar gauge at 22.0 C; after an hour 2.975 bar at 20.0 C
+  raw fall 25 mbar; the cooling of the gas alone explains 27 mbar
+  (P/T constant; the circuit is tested with gas before filling)
+  corrected fall -2 mbar against a 10 mbar limit: pass
+  without the temperature record the circuit would be called
+  leaking; with a warming hall a leak could hide - the test
+  record carries both readings

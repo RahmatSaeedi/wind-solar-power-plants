@@ -1,0 +1,8 @@
+hot spot and ageing of one main transformer over the data-pack year:
+  hours above 0.9 pu: 0; max load 0.90 pu
+  hot spot: max 102 C, mean 38 C
+  ageing: 3.8 days of life used in 365 days (relative rate 0.010)
+  a plant transformer is lightly loaded most of the year: it
+  ages slowly, so a short overload in the hottest hours costs
+  little life - the thermal model and the loading guide of the
+  maker decide how much, not this teaching model

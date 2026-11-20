@@ -1,0 +1,13 @@
+the abnormal loads of one turbine (A-363, teaching)
+  component            mass t   L x W x H m           loads
+  blade                    22    74.0 x 4.20 x 3.00       3
+  nacelle                 160    14.0 x 4.50 x 4.30       1
+  hub                      45     5.5 x 4.80 x 4.20       1
+  tower section 1         124    25.0 x 4.50 x 4.50       1
+  tower section 2          96    25.0 x 4.12 x 4.12       1
+  tower section 3          71    25.0 x 3.75 x 3.75       1
+  tower section 4          50    25.0 x 3.38 x 3.38       1
+  9 abnormal loads a turbine, 108 for the farm (plus cranes,
+  containers, foundations' cages and the substation): the
+  blade sets the turning radius, the base section the
+  height, the nacelle the axle and bridge loads

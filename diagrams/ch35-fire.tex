@@ -1,0 +1,16 @@
+% Chapter 35 - the fire-alarm boundary seen from SCADA: approved statuses flow from the fire panel to
+% SCADA, no command flows back, and the fire panel keeps its own outputs (examples_e; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=30mm, minimum height=10mm, text width=28mm}]
+  \node[s, blkWarn, minimum height=44mm] (fp) at (9.0,0) {تابلوی حریق\\ اختیارِ کامل: آژیرها، فرمان‌ها، بازنشانی};
+  \node[s, blkBESS, minimum height=44mm] (sc) at (0.0,0) {اسکادا\\ فقط پایش و نمایش};
+  \draw[flow] (fp.west |- 0,1.5) -- node[above, note] {حریق در هر ناحیه: سیم‌کشیِ خلاصه و جزئیاتِ سریال} (sc.east |- 0,1.5);
+  \draw[flow] (fp.west |- 0,0.5) -- node[above, note] {خرابی و نظارتی: سیم‌کشی} (sc.east |- 0,0.5);
+  \draw[flow] (fp.west |- 0,-0.5) -- node[above, note] {ناحیهٔ ازکارافتاده: سریال، به بلندیِ هشدار} (sc.east |- 0,-0.5);
+  \draw[flow] (fp.west |- 0,-1.5) -- node[above, note] {تابلو روی باتری: سریال} (sc.east |- 0,-1.5);
+  \draw[flowinfo, draw=cLoss] (sc.east |- 0,-2.6) -- node[below, note] {هیچ فرمانی از اسکادا: نه خاموش‌کردنِ آژیر، نه بازنشانی، نه ازکاراندازی} (fp.west |- 0,-2.6);
+  \node[text=cLoss, font=\large] at (4.5,-2.6) {$\times$};
+\end{tikzpicture}
+\end{document}

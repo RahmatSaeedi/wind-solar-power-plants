@@ -1,0 +1,9 @@
+SCADA tag quality on one day: 4,200 tags
+  stale (no update > 10 min)     63
+  flagged invalid                21
+  frozen value                   38
+  out of range                   12
+  134 tags (3.2%) not usable that day; frozen values are the
+  hardest to see - the number looks right and never moves
+  (ch 35 quality flags, ch 37 validation); the daily report
+  lists them by owner

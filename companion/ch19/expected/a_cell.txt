@@ -1,0 +1,14 @@
+the two teaching cells (A-290):
+  LFP prismatic 314 Ah x 3.2 V = 1.005 kWh; window 2.5-3.6 V
+  NMC prismatic 100 Ah x 3.7 V = 0.370 kWh; window 3.0-4.2 V
+  OCV against SOC (V) and its slope (mV per % SOC):
+  SOC %    LFP     NMC    LFP slope  NMC slope
+      5   3.105   3.346      26.07      25.89
+     10   3.181   3.441       8.18      14.27
+     20   3.218   3.545       1.59       8.42
+     50   3.250   3.775       1.00       7.53
+     80   3.282   4.008       1.42       8.34
+     90   3.311   4.097       6.13       9.41
+     95   3.367   4.146      18.91      10.29
+  LFP is flat between about 20 and 80 %: about 1 mV per %;
+  its voltage says little about its SOC there (section A3)

@@ -1,0 +1,12 @@
+coating on 40 critical spots a board (spacings that rely on it, lesson B);
+  each spot left bare with chance 0.2% (teaching)
+  chance a board has a bare critical spot: 7.7%
+  boards inspected   chance to see at least one bare board
+                5                                   33%
+               20                                   80%
+               52                                   98%
+              100                                  100%
+  a sample shows the process is working; it does not make
+  each board safe - where the spacing depends on the coating,
+  every board's critical spots are inspected under UV light
+  and the result goes into the board's record

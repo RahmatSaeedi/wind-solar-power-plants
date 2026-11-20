@@ -1,0 +1,19 @@
+control plan for the top risks of the FMEA
+  MV termination position: kit drawing
+      how: jointer check + photo; every termination
+      if out: stop, re-terminate, report
+  LV joint torque: 70 N m +/- 10 %
+      how: logged wrench + paint mark; every joint
+      if out: re-torque, check tool
+  torque wrench TW-xx: 70 +/- 1.4 N m
+      how: analyser check; each shift
+      if out: quarantine tool, trace joints
+  earth bond continuity: <= 0.1 ohm
+      how: low-ohm meter; every bond
+      if out: re-make, retest
+  joint resistance: <= 20 micro-ohm
+      how: micro-ohmmeter, fixture; 5 joints a skid, all if one > 17
+      if out: 100 %, contain skid
+  each row answers one FMEA cause with a prevention or a
+  detection and says what happens when it trips; the
+  shift check of the wrench is the row lesson D shows missing

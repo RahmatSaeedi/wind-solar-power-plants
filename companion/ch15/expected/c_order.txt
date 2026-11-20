@@ -1,0 +1,8 @@
+order of two losses: soiling before the inverter (physical) or
+  after clipping (a factor on AC energy):
+  soiling on DC, then inverter and clipping    111.66 GWh
+  clipping first, soiling factor on AC          111.42 GWh
+  difference +0.25 GWh (+0.22 %)
+  in clipped hours dirt removes energy that would have been
+  clipped anyway: soiling on DC loses less; a factor on AC
+  counts it twice (double counting in a small way)

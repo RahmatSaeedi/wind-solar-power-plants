@@ -1,0 +1,37 @@
+% Chapter 15 - the Plant P energy model chain (model 15.1): inputs, wind and PV chains to medium
+% voltage, plant losses to the point of connection, the export limit, and the versioned settings and
+% checks that make every run reproducible (conceptual).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\scriptsize]
+  \tikzset{w/.style={blkWind, minimum width=24mm, minimum height=8mm, text width=22mm, align=center},
+           p/.style={blkPV, minimum width=24mm, minimum height=8mm, text width=22mm, align=center},
+           g/.style={blk, minimum width=24mm, minimum height=8mm, text width=22mm, align=center},
+           r/.style={blkLoad, minimum width=30mm, minimum height=8mm, text width=28mm, align=center}}
+  % inputs (right)
+  \node[r] (in) at (13.2,0) {ورودی‌ها: سالِ ساعتیِ بسته، پایه‌های بلندمدت، تجهیزات، چیدمان};
+  % wind chain (top row, right to left)
+  \node[w] (w1) at (10.0,1.4) {منحنیِ توان در $1.225$};
+  \node[w] (w2) at (7.2,1.4) {چگالیِ توپی};
+  \node[w] (w3) at (4.4,1.4) {زمین و دنباله};
+  \node[w] (w4) at (1.6,1.4) {بلندمدت، دسترس‌پذیری};
+  % PV chain (bottom row)
+  \node[p] (p1) at (10.0,-1.4) {تابشِ صفحه، دما، زاویه};
+  \node[p] (p2) at (7.2,-1.4) {DC، اینورتر، بُرش};
+  \node[p] (p3) at (4.4,-1.4) {گرد و غبار، تخریب};
+  \node[p] (p4) at (1.6,-1.4) {بلندمدت، دسترس‌پذیری};
+  % plant (left)
+  \node[g] (mv) at (-1.4,0) {جمع در ولتاژِ متوسط};
+  \node[g] (el) at (-1.4,-2.2) {تلفِ برقی، مصرفِ داخلی};
+  \node[g] (lim) at (-1.4,-4.0) {حدِ صادرات، قطعیِ شبکه};
+  \node[r] (out) at (3.2,-4.0) {خالص در نقطهٔ اتصال؛ موازنهٔ ماهانه؛ آبشارِ تلف};
+  \draw[flow] (in.north) |- (w1.east); \draw[flow] (in.south) |- (p1.east);
+  \draw[flow] (w1) -- (w2); \draw[flow] (w2) -- (w3); \draw[flow] (w3) -- (w4);
+  \draw[flow] (p1) -- (p2); \draw[flow] (p2) -- (p3); \draw[flow] (p3) -- (p4);
+  \draw[flow] (w4.west) -| (mv.north); \draw[flow] (p4.west) -| ([xshift=4mm]mv.south);
+  \draw[flow] ([xshift=-4mm]mv.south) -- ([xshift=-4mm]el.north);
+  \draw[flow] (el) -- (lim); \draw[flow] (lim) -- (out);
+  \node[note, text width=58mm, draw=cRule, rounded corners=2pt, inner sep=3pt] at (9.9,-4.0)
+    {تنظیمات با نسخه و چکیده؛ آزمونِ یکا و موازنه؛ هر خروجی نامِ نسخه را دارد};
+\end{tikzpicture}}
+\end{document}

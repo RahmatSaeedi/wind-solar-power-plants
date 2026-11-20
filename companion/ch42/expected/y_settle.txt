@@ -1,0 +1,10 @@
+tower flange bolt M64 (teaching): grip 300 mm, preload 1500 kN
+  bolt stiffness 1,873 kN/mm; clamped parts 3 x stiffer
+  preload lost: 1,405 kN per mm of settling
+  joint faces                    settling mm   lost kN   share
+  bare steel (embedding)               0.012        17    1.1%
+  painted, coating creeps 15 %         0.072       101    6.7%
+  a few hundredths of a millimetre undo several per cent of the
+  preload; paint in the joint multiplies the loss - why the
+  faces stay bare (lab D, interface map) and why the bolts are
+  re-tensioned after the first months (ch 50)

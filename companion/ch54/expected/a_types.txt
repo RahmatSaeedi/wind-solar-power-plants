@@ -1,0 +1,13 @@
+the project's register by source type, highest first (fictional Country Z)
+  1. law                  Z-013
+  2. regulation           Z-007, Z-011, Z-014
+  3. permit condition     Z-006
+  4. grid code            Z-001, Z-004, Z-009
+  5. utility rule         Z-005, Z-010
+  6. national standard    Z-012
+  7. contract             Z-002, Z-008
+  8. owner specification  Z-003
+  law, regulations and permits bind by law; grid code and
+  utility rules by the licence and the connection; contracts by
+  agreement; the owner's specification only the project - the
+  order is a teaching order, the real one a legal question

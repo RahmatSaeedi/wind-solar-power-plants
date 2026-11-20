@@ -1,0 +1,10 @@
+long-term annual resource of Plant P (D-016):
+  ground 2023 GHI 1,947.2; long-term factor 0.9859 (provider 20 years)
+  GHI  P50 1,920 kWh/m2, u 2.8 %: P90 1,852
+  POA  P50 2,120 kWh/m2 (25 deg), u 3.3 %
+       (adds transposition 1.5 % and the beam/diffuse split 1.0 %)
+       P90 long-term 2,030; P90 one year 2,005
+  year-to-year spread 2.7 %; the PV model and losses
+  (chapter 15) and their uncertainty (chapter 16) come on top
+  the energy of chapters 5 and 10 used the 2023 year as it is:
+  -1.4 % for the long term

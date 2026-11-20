@@ -1,0 +1,10 @@
+waste streams of ten skids
+  steel offcuts                1200 kg  inert         recycle
+  copper offcuts                 80 kg  inert         recycle (valuable)
+  packaging timber             1500 kg  non-hazardous reuse or recycle
+  cable insulation offcuts       50 kg  non-hazardous licensed waste
+  paint and thinner waste        60 kg  hazardous     licensed carrier
+  oily rags, absorbents          20 kg  hazardous     licensed carrier
+  total 2,910 kg; hazardous 80 kg (2.7%)
+  the small hazardous share needs the most care: separate
+  bins, a licensed carrier and a record that it arrived

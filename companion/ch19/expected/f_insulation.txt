@@ -1,0 +1,10 @@
+leakage to earth of a floating DC system at 1,498 V (teaching):
+  insulation resistance   leakage current
+          1,000,000 ohm         1.5 mA
+            100,000 ohm        15.0 mA
+             10,000 ohm       149.8 mA
+              1,000 ohm      1498.0 mA
+  a single fault to earth does not trip a floating system, so
+  it can go unnoticed until a second fault makes a short;
+  the insulation monitor alarms on the first fault; alarm
+  levels come from the maker and the applicable standard

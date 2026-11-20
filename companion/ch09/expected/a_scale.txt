@@ -1,0 +1,8 @@
+power electronics in Plant P (A-101, A-107, BESS 20 MW):
+  PV inverters              10 x  5.50 MVA =   55.0 MVA
+  turbine converters        12 x  5.26 MVA =   63.1 MVA
+  battery converter (S1)     1 x 22.00 MVA =   22.0 MVA
+  total 140 MVA for 110 MW of generation
+  every kWh of the 273.5 GWh/yr export passes a converter;
+  one per cent of converter efficiency is 2.73 GWh/yr
+  plus auxiliary drives, UPS and DC chargers (chapters 7, 8)

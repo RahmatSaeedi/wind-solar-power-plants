@@ -1,0 +1,8 @@
+sizing on a one-year or a ten-year P90 (DSCR 1.20, sculpted):
+  case             P90 / P50   debt k u   gearing %
+  one-year P90         0.935    121,025        71.1
+  ten-year P90         0.949    121,999        71.6
+  the ten-year P90 is higher because yearly variation averages
+  out (ch 16); which one is used, and at which cover, is the
+  lenders' choice - the one-year P90 protects a single bad
+  year, the ten-year one the loan as a whole

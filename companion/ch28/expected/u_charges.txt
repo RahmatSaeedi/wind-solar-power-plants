@@ -1,0 +1,9 @@
+shallow against deep connection charges (teaching; not legal advice)
+  charge     capex M u   u/MWh over 25 years at 7.5 %
+  shallow         4.38       1.33
+  deep            6.78       2.06
+  a 'shallow' charge pays for the plant's own connection; a
+  'deep' one adds a share of reinforcement further into the
+  grid (here 100 of 250 MW of a 6 M u upgrade); which rule
+  applies is the operator's and the regulator's (ch 55-57),
+  and the finance model (ch 21) carries it as a sensitivity

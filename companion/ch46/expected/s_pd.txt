@@ -1,0 +1,14 @@
+PD results read against the background of the same test (teaching limit 10 pC)
+  drum   PD pC   background pC   verdict
+  D401       2               1   pass
+  D402       9               3   pass, close to the limit
+  D403       2               2   pass
+  D404       4               2   pass
+  D405       3               1   pass
+  D406       -               -   NO RESULT (lesson A)
+  D407       2               1   pass
+  D408       5              14   NOT CREDIBLE - background above the limit
+  a reading of 5 pC means nothing when the test bay's own noise
+  is 14 pC: the bay could not have seen a 10 pC discharge, so
+  D408's report is asked again; D406 has no PD line at all
+  (lesson A) - a result is read with its background

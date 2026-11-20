@@ -1,0 +1,9 @@
+choosing the point of connection (summary of sections B and E):
+  at the site substation 132 kV: project owns less, meter close to
+    the plant, line losses (754 MWh a year) carried by the buyer
+    or corrected in the contract; open: who owns the line
+  at the grid substation bay: project owns the line and pays the
+    bay (shallow pattern 14.48 million u), carries the losses,
+    operates the line or contracts it
+  in both: voltage rise about 0.5 %, short-circuit ratio 15:
+    screening passes; the operator's studies decide

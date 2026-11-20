@@ -1,0 +1,4 @@
+mesh equations: 6 Ia - 4 Ib = 10 ; -4 Ia + 7 Ib = -5
+Ia = 1.9231 A, Ib = 0.3846 A; I2 = Ia - Ib = 1.5385 A; V_x = 4 (Ia - Ib) =
+    6.1538 V
+superposition: 10 V alone -> 4.6154 V; 5 V alone -> 1.5385 V; sum = 6.1538 V

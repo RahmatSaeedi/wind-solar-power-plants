@@ -1,0 +1,8 @@
+from a public report to an installed fix (teaching days)
+  maker   notice   test   wait (mean)   total
+  S-A         30     14            45      89
+  S-B         90     14            45     149
+  S-C         14     14            45      73
+  the maker's delay adds to the plant's own: a fast notice
+  is worth asking for in the tender (lesson K), and the
+  waiting time is covered by the compensating controls

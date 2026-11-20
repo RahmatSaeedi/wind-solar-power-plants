@@ -1,0 +1,11 @@
+a coolant-flow transmitter 0-200 L/min, 0.5 % (teaching)
+  reading L/min   error if % of span   error if % of reading
+             20              5.00 %                  0.50 %
+             50              2.00 %                  0.50 %
+            100              1.00 %                  0.50 %
+            200              0.50 %                  0.50 %
+  a span figure is a fixed number of L/min: at a tenth of
+  the range it is 5 % of what is read; the range is chosen
+  so that normal flow (120 L/min) and the low-flow alarm
+  (60 L/min) both sit in the upper half, where the
+  figure on the data sheet is what the plant gets

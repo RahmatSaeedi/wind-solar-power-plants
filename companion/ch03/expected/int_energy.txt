@@ -1,0 +1,9 @@
+annual energy of the wind farm (data pack 1.0.0, S0), four mathematical
+    routes:
+  1 mean speed into the power curve             162.6 GWh  (function of a
+    mean)
+  2 Weibull k = 2.114, c = 8.017: 8760 x integral    191.4 GWh  (expectation)
+  3 binned frequency x power at bin centres    192.7 GWh  (quadrature on bins)
+  4 hour by hour (time series)                  192.5 GWh  (sum = integral)
+  routes 2-4 agree within 0.7 %; route 1 is -16 % (mean of a nonlinear
+    function)

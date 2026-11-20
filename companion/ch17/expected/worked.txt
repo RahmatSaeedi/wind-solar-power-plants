@@ -1,0 +1,8 @@
+E01: 30 MW for 8 h + 20 MW for 16 h: 560 MWh a day
+E02: load factor, mean 28 MW, peak 52 MW: 0.538
+E03: coincidence, peaks 35 + 9 + 13 MW, peak of sum 52 MW: 0.912
+E04: growth 3 %/yr for 10 years: x 1.344
+E05: battery 40 MWh, 90 % -> 10 %, eff 0.93, 0.2 MW: 149 h
+E06: voltage rise, R 0.85 ohm, 100 MW, 132 kV: 0.49 %
+E07: short-circuit ratio 1,500 MVA / 100 MW: 15.0
+E08: line loss R 0.847 ohm at 100 MW, 132 kV: 0.486 MW

@@ -1,0 +1,16 @@
+approved-setting boundary (who sets, who approves; teaching):
+  33 kV feeders and incomers:
+    set by owner's engineer; approved by owner
+  main transformer differential:
+    set by owner's engineer; approved by owner
+  132 kV line, plant end:
+    set by owner, with the operator's data; approved by operator
+  132 kV line, grid end:
+    set by operator; approved by operator
+  transfer trip and anti-islanding:
+    set by operator's requirement; approved by operator
+  plant controller limits (ch 20):
+    set by owner; approved by owner, operator informed
+  settings that act across the boundary are approved in
+  writing before energising; the approved files and checksums
+  are kept with the end-to-end test records

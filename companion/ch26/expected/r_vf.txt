@@ -1,0 +1,18 @@
+over-voltage and frequency stages against the ride-through bands
+  (teaching: stay connected below 1.30 pu for 0.2 s, 1.20 pu for 1 s,
+  1.15 pu for 60 s; frequency 47.5-51.5 Hz continuous)
+  stage   pickup     delay s   band there   result
+  59-1     1.10 pu     30.00      1.15 pu   TRIPS INSIDE
+  59-1     1.17 pu     60.00      1.15 pu   ok
+  59-2     1.25 pu      0.50      1.20 pu   ok
+  59-2     1.35 pu      0.10      1.30 pu   ok
+  81O      51.0 Hz      2.00      51.5 Hz   TRIPS INSIDE
+  81O      52.0 Hz      0.50      51.5 Hz   ok
+  81U      48.0 Hz      2.00      47.5 Hz   TRIPS INSIDE
+  81U      47.0 Hz      0.50      47.5 Hz   ok
+  a stage that operates where the plant must stay connected
+  breaks the requirement as surely as an under-voltage stage
+  inside the low-voltage envelope (lesson B); after a load
+  rejection the voltage rises - the 59-2 stage protects the
+  equipment, the band protects the grid: both are met only
+  with the operator's numbers

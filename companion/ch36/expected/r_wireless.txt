@@ -1,0 +1,10 @@
+wireless in the plant (teaching rules)
+  user                        network               for
+  maintenance tablets         business Wi-Fi        reports, orders
+  met mast radio (ch 35)      own encrypted link    field data
+  nacelle service Wi-Fi       off unless a permit   maker's tools
+  control zone                no wireless at all    -
+  a radio reaches past fences and walls: the control zone
+  has none, a radio link that carries field data is its own
+  encrypted conduit, and a maker's service Wi-Fi is
+  switched on for the permit and off again after it

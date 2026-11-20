@@ -1,0 +1,18 @@
+% Chapter 41 - potential of each module of a 26-module string at MPP (1,091 V) to the earthed frame,
+% for a floating (symmetric) DC side and for an earthed negative pole; modules below -300 V shaded
+% (diagrams/data/ch41-pid.csv from companion/ch41/examples_e.py, e_pid; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=27, ymin=-650, ymax=1150,
+      xlabel={شمارهٔ ماژول از قطبِ منفی}, ylabel={ولتاژ نسبت به قاب (ولت)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \fill[cLoss!10] (axis cs:0,-650) rectangle (axis cs:27,-300);
+    \addplot[sLoss, mark=*, mark size=1.2pt] table[x=module, y=floating, col sep=comma] {data/ch41-pid.csv};
+    \addplot[sWind, mark=square*, mark size=1.2pt] table[x=module, y=negative, col sep=comma] {data/ch41-pid.csv};
+    \legend{شناور و متقارن, قطبِ منفی زمین‌شده}
+    \draw[cInk!60] (axis cs:0,0) -- (axis cs:27,0);
+    \node[note, anchor=south east, text=cLoss] at (axis cs:26.5,-640) {کمتر از منفیِ ۳۰۰ ولت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

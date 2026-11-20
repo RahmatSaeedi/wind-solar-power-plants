@@ -1,0 +1,5 @@
+one suspect lot of 2,000 cells: racks to inspect
+  cells mixed at random in assembly: 96 of 96 racks
+  lots kept together (lot-segregated assembly): about 6 racks
+  traceability (cell serial to module, rack and container) is
+  what turns a recall of the whole battery into a few racks

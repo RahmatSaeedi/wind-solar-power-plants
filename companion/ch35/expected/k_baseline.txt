@@ -1,0 +1,14 @@
+configuration baseline of the networked devices (teaching)
+  device               count
+  ring switch             14
+  substation switch        6
+  firewall                 2
+  RTU                      1
+  SCADA server             2
+  historian                1
+  time server              2
+  28 devices, each with firmware version, configuration file
+  and fingerprint (e.g. 1cd57e7e8d84) recorded at the factory test,
+  re-read after installation and compared, and re-read
+  after every change - the same rule as the controller's
+  configuration in ch 34, applied to the network

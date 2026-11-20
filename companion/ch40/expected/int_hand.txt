@@ -1,0 +1,6 @@
+three factory numbers checked by hand
+  RTY = 0.97 x 0.99 x 0.99 x 0.95 x 0.98 x 0.94 x 0.99 x 0.92 x 1.00 = 0.758
+  takt = 4 weeks x 40 h / 10 skids = 16 h
+  P(accept) of n = 20, c = 0 at 5 % defective = 0.95^20 = 0.358
+  a hand check catches a yield entered as 95 instead of 0.95,
+  or a takt computed from calendar hours instead of shifts

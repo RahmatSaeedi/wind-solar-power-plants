@@ -1,0 +1,8 @@
+standards watch: re-verification a year (teaching intervals)
+  class                   rows  every
+  open item                 39    1 mo
+  linked or hub             40    6 mo
+  other                    112   12 mo
+  checks a year: 660 (about 13 a working week)
+  each check: catalogue entry read, edition and status compared,
+  date_verified updated, impact run if anything changed

@@ -1,0 +1,13 @@
+E&S monitoring dashboard of Plant P (teaching values from ch 33, 49)
+  indicator                                  value  target  status
+  local hiring, share of workforce %          33.0    40.0  red
+  grievances closed within 30 days %          82.0    90.0  amber
+  raptor fatalities a year (estimate)          4.8     3.0  amber
+  construction water, % of recharge          112.0   100.0  red
+  night noise exceedances at dwellings         0.0     0.0  green
+  women in consultation meetings %            18.0    30.0  red
+  land users with signed agreements %         96.0   100.0  amber
+  chance finds reported on time %            100.0   100.0  green
+  amber 3, green 2, red 3
+  each red line has a corrective action with an owner and a
+  date, reported to the lenders and in the grievance register

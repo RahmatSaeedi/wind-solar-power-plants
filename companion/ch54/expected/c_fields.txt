@@ -1,0 +1,14 @@
+the register's columns, filled share over six requirements
+  clause          83%
+  edition        100%
+  status         100%
+  applicability   83%
+  consequence     83%
+  evidence        67%
+  owner           83%
+  approver        67%
+  verified        83%
+  revision       100%
+  cells filled 85%; complete rows: 3 of 6 (Z-001, Z-006, Z-013)
+  emptiest column: evidence - a requirement without
+  evidence or approver is a claim, not compliance

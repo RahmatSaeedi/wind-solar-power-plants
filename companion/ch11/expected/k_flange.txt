@@ -1,0 +1,13 @@
+bolted base flange (A-236, teaching values):
+  120 bolts on a 4.3 m circle, preload 1.6 MN each
+  external pull on the worst bolt: 665 kN at peak thrust,
+    1,380 kN at the extreme; the joint stays closed below 1,818 kN
+  joint closed: bolt force 1.60 -> 1.680 MN; the bolt sees 80 kN of change
+  a turn of the rotor or a gust repeats that change: with a
+  closed joint the bolt's fatigue range is 12 % of the load range
+  if the flanges are not flat, the joint opens on one side: the
+  bolt then takes the whole load change plus bending, and its
+  fatigue life drops by orders of magnitude (S-N slope)
+  with m = 3: range x 8.3 -> damage x 579
+  flatness tolerances after welding, preload by a controlled
+  method and re-checks after the first months are the evidence

@@ -1,0 +1,20 @@
+review of the zone firewall rules (synthetic, first match wins)
+  rule  src       dst       service          action  hits
+  R01   control   dmz       historian-copy   allow   600,000
+  R02   business  dmz       historian-read   allow   4,200
+  R03   remote    dmz       remote-session   allow   6
+  R04   dmz       control   jump-session     allow   6
+  R05   any       any       any              allow   50,414
+  R06   business  control   file-share       allow   14
+  R07   remote    control   remote-session   allow   0
+  R08   any       any       any              deny    0
+  any-any      : R05
+  shadowed     : R06, R07, R08
+  unused       : R07, R08
+  undocumented : R05
+  R05 allows everything and hides every rule after it,
+  including the default deny; R06 is a commissioning rule
+  that outlived its purpose; R07 has never matched. The fix
+  is the conduit table: one allow rule a conduit, a
+  purpose and an owner on each, default deny last, and a
+  review of hits and purposes every quarter

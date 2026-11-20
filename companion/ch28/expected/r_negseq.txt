@@ -1,0 +1,12 @@
+negative-sequence voltage at the POC in an unbalanced fault
+  (grid side 0.30 pu; plant injects k2 x V2 of negative-sequence current)
+  k2     V2 at POC pu   positive-sequence unaffected
+  0.0           0.300   yes
+  1.0           0.278   yes
+  2.0           0.259   yes
+  4.0           0.227   yes
+  a converter that also controls the negative sequence (if
+  the code asks for it) pulls the unbalance down a little
+  on a strong grid - and uses current that the positive
+  sequence then cannot; the requirement, the unit's type
+  test and the model must all name the same behaviour

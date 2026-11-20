@@ -1,0 +1,5 @@
+is the mean speed of spring (Mar-May) different from autumn (Sep-Nov)?
+  means 7.439 and 6.978 m/s; difference +0.462 m/s
+  naive t = diff / se, se from n = 2208 and 2184: t = 4.76, p = 1.9e-06
+  with effective sizes 62 and 55: t = 0.78, p = 0.44
+  the naive test calls the difference significant; the honest one does not

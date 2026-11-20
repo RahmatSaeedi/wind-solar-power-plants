@@ -1,0 +1,11 @@
+what comes off for transport (teaching breakdown):
+  mass in service 95 t
+    less oil (22 m3 x 0.88 t/m3)     19.4 t ->  75.6 t
+    less radiators and fans           3.0 t ->  72.6 t
+    less conservator and piping       0.6 t ->  72.0 t
+  transport mass 72 t on a trailer of 8 axles: 9.0 t per axle
+  (plus the trailer's own mass, checked against the road and
+  bridge limits)
+  the tank travels filled with dry gas under pressure, with a
+  gauge and the impact recorder; the oil follows in tankers
+  and is processed on site to the maker's limits

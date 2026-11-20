@@ -1,0 +1,9 @@
+bedplate weld: damage-equivalent range 32 MPa at 1e+08 cycles (teaching)
+  detail category MPa   life cycles     damage in 20 years
+                   71      5.84e+07                 1.71
+                   90      1.91e+08                 0.52
+                  112      5.70e+08                 0.18
+  the same load is unsafe on a rough weld and safe on a
+  ground one: the detail category is a manufacturing
+  outcome - weld profile, grinding and NDT records make it
+  true (ch 30, weld fatigue)

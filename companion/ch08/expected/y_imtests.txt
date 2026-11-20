@@ -1,0 +1,9 @@
+induction-motor tests (A-135): no load 400 V, 22.6 A, 1050 W;
+  locked rotor 70 V, 54 A, 1950 W; stator resistance 0.090 ohm/phase
+  locked rotor: |Z| 0.748, R 0.223, X 0.714 ohm -> R2 0.133, X1 = X2 = 0.357
+  no load: |Z| 10.22 ohm -> X_m about 9.86 ohm; core and friction 912 W
+  model A-114: X1 0.33, X2 0.35, X_m 10.0 ohm: reactances agree
+  within about 5 %; but R2 0.133 against 0.075: at standstill the
+  rotor current has 50 Hz and crowds into the bar tops (deep bar),
+  so the locked-rotor test overstates the running R2; a reduced-
+  frequency test or the rated slip gives the running value

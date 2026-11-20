@@ -1,0 +1,12 @@
+power oscillation damping (modal teaching model: 0.8 Hz mode,
+  damping 0.06; the plant modulates P against the mode's speed)
+  gain   damping   plant swing peak MW   time to 10 % s
+   0.0      0.06                  0.00              7.5
+   0.5      0.11                  1.29              3.9
+   1.0      0.16                  2.41              2.6
+  more gain, more damping - and a larger power swing the
+  plant must be able to give at that moment (headroom in
+  both directions: curtailed PV or the battery); the
+  operator states the mode and the required damping, the
+  model (ch 28) shows the gain is stable, and a test shows
+  the plant's power swings at the mode's frequency

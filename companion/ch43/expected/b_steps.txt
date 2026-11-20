@@ -1,0 +1,16 @@
+stepped core: share of the circle that n steps fill (optimised)
+  steps   fill    net area m2 in the 0.638 m circle
+      1   0.637   0.1974
+      2   0.787   0.2440
+      3   0.851   0.2639
+      4   0.886   0.2747
+      5   0.908   0.2815
+      7   0.934   0.2895
+      9   0.948   0.2940
+     11   0.958   0.2969
+     13   0.961   0.2980
+  9 steps, plate widths mm: 623, 592, 553, 505, 451
+    389, 319, 237, 138
+  each step is a stack of one plate width: more steps fill
+  the circle better but need more widths to cut and stack -
+  the gain from 9 to 13 steps is under 2 points of area

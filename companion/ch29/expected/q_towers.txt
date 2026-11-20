@@ -1,0 +1,12 @@
+the least-cost route straightened (Douglas-Peucker) into angle points
+  tolerance m   angle points   length km   deviations deg
+            0              7        7.06   45, 45, 45, 45, 45, 45 ...
+           50              6        7.04   45, 45, 45, 45, 85, 40
+          150              4        7.00   45, 44, 86, 40
+  with 150 m tolerance: 22 suspension, 0 light angle,
+  6 heavy angle or terminal towers (an 86 deg turn is nearly a
+  dead end: the designer may split it into two angles)
+  steel about 330 t (teaching 9 / 15 / 22 t a tower)
+  the 50 m grid made a zigzag of the route: straightened, a
+  few deliberate angle points replace many small ones, and
+  each one that remains is a heavier tower and foundation

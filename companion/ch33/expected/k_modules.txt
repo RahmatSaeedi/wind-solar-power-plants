@@ -1,0 +1,9 @@
+PV module footprint: generic factor or supplier data? (kg CO2e/kWp)
+  source                              value   quality     cov   t CO2e
+  generic factor (database)             450   generic     0.30   27,000
+  supplier S1, verified declaration     350   verified    0.10   21,000
+  supplier S2, self-declared            300   unverified  0.30   18,000
+  S2's lower number cannot be used as if it were S1's: it is
+  unverified, and its uncertainty stays as wide as a generic
+  factor's. Verified supplier data narrows the study and can
+  be written into the purchase contract (ch 38-40)

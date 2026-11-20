@@ -1,0 +1,6 @@
+the 40 MWh battery of scenario S1 expressed in other forms of stored energy:
+  water lifted 100 m: m = E / (g h) = 146,839 t = 146,839 m3
+  cells of 3.2 V x 280 Ah = 0.896 kWh (assumed): 44,643 cells
+  turbine rotors at 10.5 rpm hold 32.2 MJ each: 4,470 rotors
+  a capacitor bank at 800 V storing 1 MWh needs C = 2E/V^2 = 11,250 F
+  chemical bonds pack energy densely; motion and fields store little per kg

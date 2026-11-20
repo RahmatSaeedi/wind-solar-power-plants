@@ -1,0 +1,16 @@
+% Chapter 12 - monthly GHI of the ground station and the provider series (A-240).
+% Data: diagrams/data/ch12-monthly.csv (companion/ch12/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, ybar, bar width=2.6mm, xmin=0.4, xmax=12.6,
+      ymin=0, ymax=280, xlabel={ماه}, ylabel={تابشِ افقیِ ماهانه، $\text{kWh/m}^2$},
+      xtick={1,...,12}, ytick={0,50,...,250}, legend pos=north west, legend columns=1]
+    \addplot[fill=cPV!45, draw=cPV] table[x=month, y=ground, col sep=comma] {data/ch12-monthly.csv};
+    \addlegendentry{ایستگاهِ زمینی}
+    \addplot[fill=cLoss!35, draw=cLoss, line width=0.8pt, dash pattern=on 2pt off 1pt]
+      table[x=month, y=provider, col sep=comma] {data/ch12-monthly.csv};
+    \addlegendentry{منبعِ تأمین‌کننده}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

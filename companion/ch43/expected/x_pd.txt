@@ -1,0 +1,7 @@
+partial discharge: the circuit is calibrated with a known 500 pC (teaching)
+  calibration reading 2.5 units -> 200 pC per unit
+  test reading 0.6 units -> 120 pC; background 30 pC; limit 100 pC
+  signal to background 4.0: the reading is distinguishable and over the limit
+  a reading near the background could not be told apart from
+  noise; the report states calibration and background, or the
+  pC number means nothing

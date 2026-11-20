@@ -1,0 +1,7 @@
+junction temperature of one IGBT position (Foster network, A-148):
+  R_th junction-to-coolant 0.026 K/W; mean loss 1500 W -> mean rise 39 K
+  output   50 Hz: junction swing  13.7 K, relative cycle life 1.000
+  output   10 Hz: junction swing  28.8 K, relative cycle life 0.024
+  output    1 Hz: junction swing  71.4 K, relative cycle life 0.000
+  slow output (machine side at low speed, or a stalled motor)
+  lets each half-wave heat the chip: bigger swings, shorter life

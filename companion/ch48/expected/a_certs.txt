@@ -1,0 +1,13 @@
+calibration certificates read on 2027-06-01 for what they prove
+  serial    instrument            finding
+  PY-1031   pyranometer           ok
+  PY-1032   pyranometer           no uncertainty stated
+  RC-2204   reference cell        lab not accredited
+  AN-5510   cup anemometer        overdue since 2026-04-02
+  PT-0718   power transducer      no traceability chain
+  TT-3301   Pt100 + transmitter   no conformity statement
+  5 of 6 certificates do not prove what they claim:
+  a number without its uncertainty cannot be compared with a
+  limit; without a traceability chain it is a number from an
+  unknown reference; an overdue anemometer has measured a year
+  of the plant's wind without a valid calibration (ch 13)

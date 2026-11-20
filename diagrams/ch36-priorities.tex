@@ -1,0 +1,18 @@
+% Chapter 36 - the order of concerns in business IT and in plant OT (examples_a; teaching summary).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    p/.style={blk, minimum width=34mm, minimum height=8mm, text width=32mm}]
+  \node[note] at (6.0,4.6) {فناوریِ عملیاتیِ نیروگاه};
+  \node[p, blkWarn] at (6.0,3.8) {۱ ایمنیِ آدم‌ها و تجهیزات};
+  \node[p, blkBESS] at (6.0,2.9) {۲ دسترس‌پذیری};
+  \node[p, blkWind] at (6.0,2.0) {۳ درستیِ داده و فرمان};
+  \node[p, blkLoad] at (6.0,1.1) {۴ محرمانگی};
+  \node[note] at (1.0,4.6) {فناوریِ اطلاعاتِ کسب‌وکار};
+  \node[p, blkLoad] at (1.0,3.8) {۱ محرمانگی};
+  \node[p, blkWind] at (1.0,2.9) {۲ درستیِ داده};
+  \node[p, blkBESS] at (1.0,2.0) {۳ دسترس‌پذیری};
+  \draw[flowinfo] (3.0,2.45) -- (4.0,2.45);
+  \node[note, text width=80mm] at (3.5,0.1) {یک ابزار یا قاعده می‌تواند برای یکی درست و برای دیگری زیان‌بار باشد: راه‌اندازیِ دوبارهٔ خودکار رایانهٔ اداری را درمان می‌کند و کنترل‌گرِ نیروگاه را وسطِ یک شیب متوقف می‌کند};
+\end{tikzpicture}
+\end{document}

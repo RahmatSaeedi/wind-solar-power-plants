@@ -1,0 +1,8 @@
+DC demand of the 12-panel line-up from the makers' data (teaching)
+  all breakers trip at once: 120 A for 60 ms (ch 23 first minute: 150 A)
+  all springs recharge at once: 96 A for 12 s (ch 23 last minute: 100 A)
+  relays standing: 2.7 A of ch 23's 40 A standing load
+  the switchgear's peaks fit inside ch 23's duty cycle; its
+  standing share is small - the battery is sized by the rest
+  of the plant, but the peaks set the cable from the DC board
+  and the voltage at each coil (t_coil)

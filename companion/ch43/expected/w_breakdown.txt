@@ -1,0 +1,8 @@
+oil breakdown voltages of two samples (kV, teaching)
+  sample   shots                    mean    CV
+  A        62, 71, 58, 69, 74, 65    66.5    9%
+  B        48, 76, 39, 70, 81, 55    61.5   27%
+  B's mean is close to A's but its shots scatter widely:
+  particles or free water make some gaps weak - the mean
+  alone would pass it; the scatter is the warning, and the
+  oil standard and the laboratory set the method (STD-178)

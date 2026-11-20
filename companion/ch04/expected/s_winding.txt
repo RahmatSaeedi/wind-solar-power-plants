@@ -1,0 +1,8 @@
+LV winding of the export transformer: 175 turns of 2.5 m, 3 A/mm2 (A-074)
+  rated phase current 1010 A -> conductor 337 mm2
+  conductor length 438 m, resistance at 75 C 27.2 milliohm
+  load loss I^2 R per phase 27.7 kW, three phases 83 kW
+  copper mass 3.96 t (LV winding only)
+  at 2.5 A/mm2 instead of 3: loss x 0.833, copper x 1.20
+  a lower current density cuts the loss but adds copper: the Kelvin
+  trade-off of chapter 3 again, inside the transformer

@@ -1,0 +1,8 @@
+encrypted backups and their keys (teaching)
+  backups are encrypted, so a lost copy reveals nothing;
+  the key is kept apart from the backups, in the vault, with
+  a second sealed copy in the owner's safe
+  a restore test therefore includes fetching the key: in
+  the synthetic year 1 of 4 tests found the key holder
+  absent - the second copy and a named deputy closed it
+  a backup without its key is no backup

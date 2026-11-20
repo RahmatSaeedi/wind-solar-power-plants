@@ -1,0 +1,18 @@
+{
+  "release": "1.0.0",
+  "hours": 8760,
+  "annual_ghi_kwh_m2": 1947.2,
+  "annual_dni_kwh_m2": 2301.9,
+  "annual_dhi_kwh_m2": 544.2,
+  "max_ghi_wm2": 1042.6,
+  "mean_t_air_c": 16.78,
+  "min_t_air_c": -8.6,
+  "max_t_air_c": 40.7,
+  "mean_ws_100m_ms": 7.103,
+  "mean_ws_80m_ms": 6.836,
+  "mean_ws_60m_ms": 6.508,
+  "max_ws_100m_ms": 24.28,
+  "mean_p_hpa": 877.67,
+  "power_curve_rows": 61,
+  "power_curve_kw_at_8_ms": 2522
+}

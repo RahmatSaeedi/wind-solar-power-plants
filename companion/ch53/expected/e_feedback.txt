@@ -1,0 +1,10 @@
+lessons fed into the specification of the next project (and of a
+  repowering)
+  inverters      derating at 40 C ambient with 1.5 K margin     [lesson E]
+  PV connectors  100 % pull check at installation               [ch 52 D]
+  gearboxes      online CMS with oil sensor, 8-week P-F         [ch 52 B]
+  work orders    asset, code and test record required to close  [ch 52 I]
+  pitch cabinets temperature alarm and fan redundancy           [ch 52 s]
+  spares         strategic spares by consequence, not Poisson alone [ch 52 A]
+  a lesson is closed when the next specification carries it -
+  not when it is written in a report (ch 38 requirements)

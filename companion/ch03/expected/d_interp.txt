@@ -1,0 +1,6 @@
+11 nodes of the power curve, 3..23 m/s every 2 m/s
+  linear interpolation: worst error 244 kW
+  degree-10 polynomial (Lagrange): worst error 772 kW (at 3.6 m/s)
+  polynomial value at 22 m/s: 4434 kW (true 5000 kW)
+  high-degree polynomials oscillate between nodes (Runge); piecewise methods
+    do not

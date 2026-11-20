@@ -1,0 +1,10 @@
+a cell factory making 12,000 cells a day (teaching): cells resting in aging
+  rest days   cells on the racks   MWh stored (314 Ah, 3.2 V)
+         14              168,000                      168.8
+          7               84,000                       84.4
+          3               36,000                       36.2
+  fourteen days of rest hold a plant-sized battery of charged
+  cells in one building: halving the rest frees half the racks
+  and half the stored energy - the pressure behind lab D's
+  shortened test, and the reason the rest time is a contract
+  item with a record, not the factory's private choice

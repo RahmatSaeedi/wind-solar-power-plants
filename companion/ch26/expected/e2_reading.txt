@@ -1,0 +1,16 @@
+reading the sequence of events (worked):
+  51N operated after 0.503 s (set 0.5 s): as set
+  =WS2-Q1 got its trip at 0.505 s but no 'open' follows: FAILED to open
+  breaker failure tripped at 0.655 s, 0.151 s after start (set 0.15 s)
+  =T1-Q2 opened at 0.716 s: the fault was cleared by the
+  incomer, and all of section A was lost (two wind feeders,
+  PV feeder 3, battery A) instead of one feeder
+  earth-fault duration 0.72 s - inside the resistor's 10 s
+  the first line points to the cause: coil 2's supervision
+  alarm had stood since energising and was shelved - its
+  circuit was open all along (lesson K's punch item, wrongly
+  classed B), and coil 1's circuit or the mechanism did not
+  open the breaker: the backup trip path did not exist
+  actions: test both coils and the mechanism of =WS2-Q1;
+  close the punch item; review shelved alarms (ch 20); record
+  the event and its analysis

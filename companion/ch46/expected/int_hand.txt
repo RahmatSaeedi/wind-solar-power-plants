@@ -1,0 +1,6 @@
+segment W001 of string WS1 by hand (630 mm2 Al, 850 m)
+  current at 20 MW, 33 kV, pf 0.95: I = P / (sqrt3 U pf) = 368 A
+  r at 70 C = 0.0469 x (1 + 0.00403 x 50) = 0.0564 ohm/km
+  loss = 3 I^2 r L = 19.5 kW; drop = 46.1 V = 0.140 %
+  check: the same as segment W001 in lesson A, computed there
+  through the ch 24 helpers

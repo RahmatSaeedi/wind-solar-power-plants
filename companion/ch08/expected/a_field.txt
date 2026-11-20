@@ -1,0 +1,10 @@
+synchronous speed n_s = 120 f / p:
+    2 poles at 50 Hz:  3000.0 rpm
+    4 poles at 50 Hz:  1500.0 rpm
+    6 poles at 50 Hz:  1000.0 rpm
+    8 poles at 50 Hz:   750.0 rpm
+   48 poles at 50 Hz:   125.0 rpm
+  120 poles at 50 Hz:    50.0 rpm
+geared generator (A-111): 6 poles at 1155 rpm -> 57.75 Hz
+direct drive at 10.5 rpm with 120 poles -> 10.50 Hz
+with a full converter the machine frequency need not be 50 Hz

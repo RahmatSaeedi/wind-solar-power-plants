@@ -1,0 +1,9 @@
+P90 and P99 factors for a 5 % spread, by distribution shape
+  (one million samples):
+  shape        P90 factor   P99 factor
+  normal        0.9360      0.8836
+  lognormal     0.9368      0.8892
+  uniform       0.9308      0.9151
+  triangular    0.9323      0.8949
+  the P90 hardly depends on the shape; the P99 does: the tail is
+  where the assumption of a distribution matters

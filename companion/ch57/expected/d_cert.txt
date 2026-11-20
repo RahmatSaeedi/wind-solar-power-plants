@@ -1,0 +1,26 @@
+what an equipment certificate shows for Plant P - Tajikistan
+  certificate: maker's type certificate of the 5.5 MVA PV inverter (ch 44)
+  shown      model
+             certificate PCI-5500, project PCI-5500
+  shown      standard and edition
+             certificate IEC 62109-1:2010, project IEC 62109-1:2010
+  shown      test: safety
+  shown      test: EMC
+  shown      test: unit fault ride-through
+  NOT SHOWN  test: conformity certificate (Tajikstandart)
+  NOT SHOWN  test: seismic qualification, zone 8 MSK-64
+  shown      site ambient
+             tested to 45 C, site 44 C
+  shown      site altitude
+             tested to 1000 m, site 600 m
+  shown      valid on delivery
+             valid to 2029-06-30, delivery 2028-01-15
+  shown      issuer accredited for the scope
+             test lab accredited (scope listed)
+  NOT SHOWN  reactive power at the POC
+             plant level: a product certificate cannot show it
+  NOT SHOWN  plant ride-through
+             plant level: a product certificate cannot show it
+  not shown: 4 of 13 items
+  national rule: imports are certified by Tajikstandart or approved bodies
+    (TJ-43); which standards apply to inverters is to-confirm (TJ-44)

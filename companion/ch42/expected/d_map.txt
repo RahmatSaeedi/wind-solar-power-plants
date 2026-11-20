@@ -1,0 +1,20 @@
+transport and installation interfaces (ch 31 plan)
+  part           transport / lifting / preservation
+                 installation hold point
+  blade          road, root and tip frames; two-point yoke; covers, tip
+                 hold: inserts torqued, LPS tested
+  hub            road, own frame; lugs on hub; desiccant, sealed
+                 hold: pitch bearing seals checked
+  nacelle        road, low-loader; lifting yoke; heaters, desiccant
+                 hold: yaw flange flat, bolts
+  tower section  road, saddles; flange lifting tools; covers
+                 hold: flange flatness, earthing
+  converter      in nacelle or tower; with its module; dry, heated
+                 hold: insulation index
+  added to the tower-section traveler of ch 30 (top section):
+    - yaw flange: flatness against the tower top flange
+    - bolt pattern of tower top and yaw bearing matched
+    - contact faces left bare of paint (friction joint)
+    - earthing straps across each flange joint
+  each hold is where a part from one maker meets another's:
+  the record carries both serials (lesson A, interfaces)

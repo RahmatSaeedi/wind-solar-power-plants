@@ -1,0 +1,24 @@
+E01: AC chain 0.983 x 0.98 x 0.9 x 0.98: 0.850
+E02: DC chain 0.99 x 0.9 x 0.99 x 0.983: 0.867
+E03: current, 20 MW at 33 kV, pf 0.95: 0.368 kA
+E04: loss, 0.368 kA in 0.64 ohm: 0.260 MW
+E05: charging, 132 kV, 0.20 uF/km, 7.06 km: 7.73 Mvar
+E06: line outages 0.006/km x 7.06 km x 12 h x 33.7 MW: 17 MWh/yr
+E07: transformer 0.01/yr x 4,380 h x 33.76 MW: 1,479 MWh/yr
+E08: annuity factor 6 %, 20 y: 11.47; yearly per k u with 2 % opex: 0.1072
+E09: dry-season demand 433 + 326 + 326 + 433: 1518 m3
+E10: modules 10 x 21 x 20 x 26: 109,200; at 1 L each: 109.2 m3
+E11: 2 MW headroom for about 8,000 producing hours: 16 GWh
+E12: one 63 MVA transformer at pf 0.95: 59.85 MW
+E13: string inverter failure, 12.37 MW / 200 x 24 h: 1.48 MWh
+E14: central inverter failure, 12.37 MW / 10 x 72 h: 89.1 MWh
+E15: AC round trip 0.98 x 0.9 x 0.98: 0.864; x 227 MWh: 196 MWh
+E16: Q at the POC, 100 MW at pf 0.95: 32.9 Mvar
+E17: transformer Q, 0.12 x 105.3^2 / 126: 10.6 Mvar
+E18: feeder of five blocks, 25 MW at 33 kV, pf 0.95: 0.460 kA
+E19: line loss at 66 kV against 132 kV: x 4
+E20: RO feed for 1,529 m3 at 70 %: 2,184 m3; brine 655 m3
+E21: break-even chance 400 / 1,622: 0.247
+E22: island peak 200/0.9 + 30/0.85 x 6: 434 kVA
+E23: spares mean, 40 x 0.125 x 8/52: 0.77
+E24: data a day, 1.068e9 samples x 16 bytes: 17 GB

@@ -1,0 +1,13 @@
+hold-point log of one feeder (teaching):
+  H1 trench before laying      released  inspector
+  H2 backfill before closing   released  foreman
+  W1 drum receiving            notified  -
+  H3 joint 4 before backfill   released  inspector
+  H4 test after laying         open      -
+  H5 backfill section 3        released  -
+  hold points released by someone other than the inspector: 2
+    H2 backfill before closing (foreman)
+    H5 backfill section 3 (nobody named)
+  a hold point released by the crew is not released: the work
+  after it is at risk and the record is a nonconformity; the
+  open H4 keeps the feeder from energisation (ch 48)

@@ -1,0 +1,13 @@
+tap-changer operations in a day against the deadband (synthetic bus voltage)
+  tap step 1.25 % (half a step = 0.625 %); 30 s delay
+  deadband %   operations a day   a year   years to 300,000
+        0.50                515   187975               1.6
+        0.60                119    43435               6.9
+        0.75                 11     4015              74.7
+        1.00                  8     2920             102.7
+        1.25                  8     2920             102.7
+  a deadband narrower than half a step makes the controller
+  hunt: each tap throws the voltage past the other edge and
+  the next tap comes back - wear for nothing; just above
+  half a step the hunting stops, and a wider band trades
+  voltage quality for fewer operations (ch 25, ch 27)

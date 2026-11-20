@@ -1,0 +1,12 @@
+acceptance of the SCADA (teaching counts)
+  test                                        what it proves
+  point-to-point, all 300 hard-wired points   field to HMI and back
+  network points, 2,200 of 22,000 by sample   mapping, scaling
+  time alignment, events on two IEDs          clocks agree
+  alarms: raise, clear, priority              the alarm philosophy
+  failover: fibre pulled, server stopped      recovery, buffers
+  data quality: stale, bad, substituted       flags survive
+  every result is kept with the configuration fingerprint
+  and the test plan of IEC 62381 (STD-148): factory test,
+  site test, then the integration test with the grid
+  operator's control centre

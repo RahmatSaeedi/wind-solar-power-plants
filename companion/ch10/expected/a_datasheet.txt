@@ -1,0 +1,7 @@
+data-sheet tolerance and binning (A-185):
+  power class 550 W, tolerance 0 / +5 W: flashed power in the
+  factory must lie in 550.0 .. 555.0 W for this label
+  factory flash uncertainty +-3 % (k 2): a module flashed at 552 W
+  may truly be between 535 and 569 W
+  the label is a sorting decision by the maker's flasher; a site
+  re-measurement needs its own uncertainty (chapter 2, section E)

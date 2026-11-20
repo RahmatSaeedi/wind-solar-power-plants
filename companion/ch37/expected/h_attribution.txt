@@ -1,0 +1,13 @@
+five failed service hours and who caused them (synthetic)
+  hour   what                    evidence                       charged
+  H1     set point not reached   inverter limit, 46 C           plant
+  H2     response 12 s late      PPC restart after update       plant
+  H3     output cut              grid voltage dip, FRT active   unclear
+  H4     no response             operator's command lost        unclear
+  H5     set point not reached   export limit order             excluded
+  penalty at 500 u an hour (placeholder): 1,000 u certain, 1,000 u disputed
+  some hours cannot be pinned on one side with the data the
+  plant has: H3 needs the operator's voltage record, H4 its
+  command log. The plant states the limit of its own
+  evidence and asks for the other party's, instead of
+  claiming or accepting the hours on a guess

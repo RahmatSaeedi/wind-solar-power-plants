@@ -1,0 +1,9 @@
+cable schedule rev B against rev C (wind strings only)
+  added: W027; removed: W012
+  changed: W003 size_mm2 240 -> 400
+  changed: W008 length_m 1210 -> 1290
+  each change reaches something already done: W003's larger
+  size needs a 400 mm2 drum and larger lugs and connectors;
+  W008's longer route may need a joint; W012 replaced by W027
+  reverses the string's far end - drums allocated, kits bought
+  and terminations planned for rev B are checked against rev C

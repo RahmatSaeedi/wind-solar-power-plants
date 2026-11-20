@@ -1,0 +1,17 @@
+% Chapter 9 - efficiency of the 5 MW PV inverter from the three-coefficient loss fit to five
+% data-sheet points (A-147). Data: diagrams/data/ch09-eff.csv (companion/ch09/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm, xmin=0, xmax=1.05, ymin=0.94, ymax=0.99,
+      xlabel={توانِ خروجی، پریونیت}, ylabel={بازده}, xtick={0,0.2,...,1.0},
+      ytick={0.94,0.95,...,0.99}, yticklabels={$0.94$,$0.95$,$0.96$,$0.97$,$0.98$,$0.99$}]
+    \addplot[sPV] table[x=p, y=eff, col sep=comma, restrict x to domain=0.05:1.05] {data/ch09-eff.csv};
+    \addplot[only marks, mark=*, mark size=1.6pt, color=cInk] coordinates
+      {(0.10,0.970) (0.25,0.983) (0.50,0.986) (0.75,0.985) (1.00,0.983)};
+    \node[note, text=cInk, anchor=south] at (axis cs:0.48,0.9865) {بیشینه $0.986$};
+    \node[note, text=cInk, anchor=north west] at (axis cs:0.12,0.9685) {نقطه‌های برگهٔ داده};
+    \node[note, text=cInk, anchor=north west] at (axis cs:0.09,0.952) {تلفِ بی‌باری چیره است};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

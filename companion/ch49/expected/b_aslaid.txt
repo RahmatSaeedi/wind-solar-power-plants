@@ -1,0 +1,11 @@
+combiner-to-station DC cables: as laid against design (flag over 5%)
+  cable      design m  as laid m  change
+  CB01-ST         620        641   +3.4%
+  CB05-ST         480        486   +1.2%
+  CB09-ST         395        452  +14.4%
+  CB13-ST         310        318   +2.6%
+  CB17-ST         260        262   +0.8%
+  CB21-ST         540        548   +1.5%
+  CB09-ST took a detour round the station base:
+  its drop and loss are recomputed (ch 24, ch 46 as-laid) and
+  the as-built drawing shows the route the cable really took

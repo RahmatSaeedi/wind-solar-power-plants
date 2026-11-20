@@ -1,0 +1,12 @@
+evidence file that closes Z-001
+  [x] source       consolidated GCZ text with A1, gazette reference, date read
+  [x] reading      INT-01 letter from TSOZ
+  [x] design       capability calculation incl. hot day and 10 % band
+  [x] procurement  unit P-Q curve in the converter order
+  [x] settings     as-left PPC file with checksum
+  [ ] disposition  DEV-11 decision by TSOZ (derogation or remedy)
+  [ ] retest       Q test at 100 MW after the remedy, witnessed
+  [ ] approval     TSOZ acceptance of REQ-G01 / Z-001
+  [ ] register     R4 of the register with Z-001 closed
+  5 of 9 in hand: everything before the test is
+  done; closure waits on the network operator's decision

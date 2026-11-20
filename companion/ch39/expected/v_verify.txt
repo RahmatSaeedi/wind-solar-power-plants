@@ -1,0 +1,14 @@
+what the buyer verifies at each factory (H/W points a batch)
+  package                  points  chapter  verifies
+  PV modules                    2       41  EL images, flash test, BOM lock
+  wind turbines                 3       42  blade inspection, drive-train test
+  unit transformers             3       43  heat run, losses, insulation
+  inverters                     2       44  routine test, firmware version
+  battery containers            3       45  cell traceability, module test
+  MV cables, switchgear         2       46  routine tests, PD where applicable
+  structures, foundations       1       47  weld and coating records
+  SCADA, metering               2       48  FAT of the integrated system
+  18 points a batch, about 27 inspector-days with travel
+  the buyer verifies the controls, the factory owns them:
+  chapters 40-48 show what each control proves, so the
+  inspector knows what a record should look like

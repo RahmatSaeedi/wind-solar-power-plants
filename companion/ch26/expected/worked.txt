@@ -1,0 +1,6 @@
+E01 three-phase fault behind 2.98 ohm at 33 kV: 6.39 kA
+E02 earth fault through 47.6 ohm: 400 A
+E03 standard inverse, 4 kA, pickup 450 A, TMS 0.1: 0.31 s
+E04 grid of 7,000 m2, 2,400 m, 150 ohm m: 0.857 ohm
+E05 GPR of 2,080 A on 0.857 ohm: 1,783 V
+E06 strikes a year on a 175 m turbine, Ng 2: 1.73

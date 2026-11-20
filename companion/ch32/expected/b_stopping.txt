@@ -1,0 +1,11 @@
+stopping distance on a gravel site road (reaction 1.5 s, mu 0.45)
+  speed km/h   reaction m   braking m   total m
+         20          8.3         3.5      11.8
+         30         12.5         7.9      20.4
+         40         16.7        14.0      30.6
+         50         20.8        21.8      42.7
+         60         25.0        31.5      56.5
+  braking grows with the square of speed: 60 km/h needs nearly
+  three times the distance of 30 km/h. Site speed limits,
+  separated walkways at pads and laydown, and banksmen for
+  reversing are chosen from distances like these

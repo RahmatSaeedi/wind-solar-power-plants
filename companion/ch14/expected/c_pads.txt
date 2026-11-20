@@ -1,0 +1,8 @@
+crane pads 45 x 30 m on the local slope (planar, balanced):
+  layout              mean slope   steepest   cut = fill m3 (total)
+  W1 ridge (1 row)       2.4 %       7.2 %         2,174
+  W2 plain (2 rows)      0.6 %       0.9 %           522
+  the crest is flat enough; the flanks are not: a pad on a 7 %
+  slope moves about 530 m3 each way, and the crane's ground
+  bearing and the pad's level tolerance come from the crane
+  supplier and the geotechnical survey (chapters 29 and 45)

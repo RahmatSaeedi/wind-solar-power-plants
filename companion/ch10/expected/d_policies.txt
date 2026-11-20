@@ -1,0 +1,12 @@
+the soiling year under seven cleaning policies (A-197):
+  policy                 loss %   lost u    cleaning u   total u   water m3
+  no cleaning             8.47   478,247           0   478,247         0
+  truck every 30 d        2.55   144,185     196,560   340,745     1,310
+  truck every 14 d        1.24    70,107     425,880   495,987     2,839
+  manual dry every 10 d   1.08    61,239     471,744   532,983         0
+  robot every 2 d         0.14     7,858     596,232   604,090         0
+  robot every 12 d        1.18    66,503      98,280   164,783         0
+  truck at 4 % loss       1.43    80,705     229,320   310,025     1,529
+  rain cleans for free in the wet season, so a fixed calendar
+  wastes cleanings there; a trigger on measured soiling cleans
+  only when it pays and needs the station data of d_soildata

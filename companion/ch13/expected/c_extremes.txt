@@ -1,0 +1,9 @@
+extreme wind at 100 m from 20 annual maxima (A-256):
+  annual maxima 25.3 .. 29.5 m/s (ten-minute, site)
+  Gumbel fit: location 26.72, scale 0.99 m/s
+  50-year return level 30.6 m/s; chance of exceeding it
+    at least once in 25 years 40 %
+  twenty maxima give a wide confidence interval; reanalysis
+  smooths peaks, so its extremes need a correction checked
+  against measured storms; the result is compared with the
+  reference extreme speed of the turbine class (chapter 11)

@@ -1,0 +1,15 @@
+DC current from an inverter against the unit transformer's magnetising
+  current (5.6 MVA, 600 V side: rated 5389 A; magnetising 0.3 %,
+  peak 23 A; teaching)
+  DC % of rated   DC A   DC / magnetising peak
+           0.10      5                     0.2
+           0.25     13                     0.6
+           0.50     27                     1.2
+           1.00     54                     2.4
+  a DC current that is 'only 0.5 % of rated' is larger than
+  the peak magnetising current: the core is biased into
+  saturation on one half-cycle - noise, heat and even
+  harmonics (2nd, 4th) in the measurement; even orders in
+  a spectrum are a clue for this or for a half-wave fault
+  (lesson C); the inverter's DC limit comes from its
+  type test and the transformer maker's tolerance

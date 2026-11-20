@@ -1,0 +1,6 @@
+t,label
+0.00,grid lost
+0.25,generator starts
+1.00,generator on essential loads back
+240.00,grid back; plant resynchronised by operator
+250.00,generator stopped normal state

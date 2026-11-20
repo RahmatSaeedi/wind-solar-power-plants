@@ -1,0 +1,11 @@
+a USD-fixed price paid in somoni, seen from the buyer (teaching
+price 40 USD/MWh; rate 9.2027 TJS/USD; retail tariffs held flat)
+  household tariff 0.4137 TJS/kWh, industry 0.9465 (incl. VAT, TJ-48)
+  somoni weakens   yr 0   yr 5  yr 10  yr 15  above the household tariff from
+              0%  0.368  0.368  0.368  0.368  never
+              3%  0.368  0.429  0.499  0.581  year 4
+              6%  0.368  0.502  0.683  0.931  year 2
+  the purchase price alone starts at 89% of the household tariff,
+  before network costs and losses: a USD-fixed price moves the
+  currency risk to the buyer, and the buyer's margin is where
+  payment risk (R03) begins - figures teaching, not a forecast

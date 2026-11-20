@@ -1,0 +1,10 @@
+convoy time port to site (teaching speeds and three stops)
+  port to ring road        12 km at   25 km/h:   0.5 h
+  highway                 180 km at   50 km/h:   3.6 h
+  district road            40 km at   30 km/h:   1.3 h
+  village bypass            6 km at   10 km/h:   0.6 h
+  site track                6 km at   10 km/h:   0.6 h
+  total 244 km in about 9.6 h with stops
+  permits often allow abnormal loads only at night or off
+  peak: a trip longer than the night window needs a planned
+  parking place - with security and space for the trailer

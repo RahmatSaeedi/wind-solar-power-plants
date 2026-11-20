@@ -1,0 +1,10 @@
+alarms raised and cleared end to end at the SAT, by priority
+  priority   alarms   tested   coverage
+  critical       42       40        95%
+  high          118      109        92%
+  medium        260      201        77%
+  low           190       96        51%
+  2 critical alarms never seen at the console: those are
+  tested before handover whatever else waits; low-priority
+  alarms are sampled - testing is ordered by what an alarm
+  that fails to sound would cost (ch 35 alarms)

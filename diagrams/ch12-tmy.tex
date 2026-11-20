@@ -1,0 +1,15 @@
+% Chapter 12 - monthly GHI of the typical year against the 20-year monthly mean (A-241).
+% Data: diagrams/data/ch12-tmy.csv (companion/ch12/examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=58mm, xmin=0.5, xmax=12.5, ymin=0, ymax=270,
+      xlabel={ماه}, ylabel={تابشِ افقیِ ماهانه، $\text{kWh/m}^2$}, xtick={1,...,12},
+      ytick={0,50,...,250}, legend pos=north west, legend columns=1]
+    \addplot[sInk, mark=*, mark size=1.5pt] table[x=month, y=mean, col sep=comma] {data/ch12-tmy.csv};
+    \addlegendentry{میانگینِ بیست سال}
+    \addplot[sPV, mark=square*, mark size=1.4pt] table[x=month, y=tmy, col sep=comma] {data/ch12-tmy.csv};
+    \addlegendentry{سالِ نوعی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

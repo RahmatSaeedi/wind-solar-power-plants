@@ -1,0 +1,9 @@
+legend against the symbols used (plant model with one PV block):
+  kinds used: breaker, cable, dc cable, dc switch, disconnector, inverter,
+    line, transformer
+  missing from the legend: dc cable, dc switch, inverter
+  in the legend but unused: none
+  the PV block detail brought new symbols the legend of the
+  plant sheet lacks: each sheet's legend is built from what
+  the sheet shows, not copied from the last project
+  (plant without the detail: 76 branches, with it: 79)

@@ -1,0 +1,16 @@
+the plan to COD with uncertain durations (triangular 0.8 d - d - 1.6 d,
+teaching, 10,000 runs)
+  deterministic 63 months; P50 71.8, P80 75.9, P90 78.1
+  on the critical path in:
+     100%  D1 wind campaign
+     100%  D2 ESIA and permits
+     100%  D4 financing to close
+     100%  K1 commissioning and tests
+      70%  C3 wind erection
+      70%  P2 turbines (order to site)
+      24%  C1 civil works
+      24%  C2 PV installation
+       6%  P1 main transformers (order to site)
+       6%  C4 substation and line
+  a COD promised at 63 months is met in 2% of runs;
+  the PPA and the debt plan carry the P80, not the deterministic plan

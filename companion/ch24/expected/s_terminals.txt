@@ -1,0 +1,12 @@
+terminal count of the 33 kV section A panels (teaching):
+  panel                         CT cores  V-circ  other   terminals
+  +H01 incomer                         2       3     40          76
+  +H02..H05 feeders                    1       2     30         200
+  +H06 station service                 1       2     28          48
+  +H07 earthing transformer            1       2     24          44
+  +H08 coupler                         1       2     30          50
+  +H09 metering and VT                 0       1     36          40
+  total 458 terminals, plus 20 % spare: 550
+  every terminal has a number on the wiring diagram, a label
+  in the panel and a line in the cable core list; the spare
+  terminals are the room for the changes that always come

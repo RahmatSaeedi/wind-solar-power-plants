@@ -1,0 +1,18 @@
+worked example: review of a fictional routine and type test dossier
+  quantity                       declared  measured  accept       result
+  no-load loss kW                      35      36.1  <= 40.2      ok
+  load loss kW at 75 C                250       262  <= 288       ok
+  total loss kW                       285       298  <= 314       ok
+  impedance % (principal tap)          12      13.4  11.1 to 12.9 NOT OK
+  ratio error % (principal tap)         0       0.3  within +/- 0.5 ok
+  no-load current %                   0.2      0.24  <= 0.26      ok
+  top-oil rise K                       60        57  <= 60        ok
+  winding rise K                       65        68  <= 65        NOT OK
+  not accepted: impedance % (principal tap), winding rise K
+  the impedance is outside its band: the fault level, the
+  regulation and the parallel sharing change (section A) - the
+  grid study is re-run before acceptance; the winding rise
+  exceeds its limit: the maker explains and the owner decides
+  (repair, de-rate or reject) under the contract; loss
+  overruns inside tolerance may still cost money if the
+  contract prices them

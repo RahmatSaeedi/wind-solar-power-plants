@@ -1,0 +1,11 @@
+T07's tower frequency with an uncertain soil stiffness (Monte Carlo)
+  G lognormal with the median of lesson B; fixed-base f1 0.215 Hz
+  site and median G        CoV   P(f1 < required)   5 % f1 Hz
+  dense ground, 80 MPa       0.3               0.02       0.212
+  T07, 25 MPa                0.3               0.97       0.205
+  T07, 25 MPa                0.5               0.88       0.202
+  required f1 0.2112 Hz (10 % above 1P max)
+  on dense ground the margin holds almost always; at T07 it
+  is missed in most draws - and a wider scatter cannot
+  rescue it: the soil investigation narrows the scatter,
+  the foundation scheme (lesson D) moves the median

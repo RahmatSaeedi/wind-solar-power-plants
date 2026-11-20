@@ -1,0 +1,7 @@
+module line against Plant P's order (teaching)
+  bottleneck: lay-up and laminator at 30 s a module
+  22 h a day x OEE 85% x yield 98.5%: 2,210 modules a day
+  109,200 modules: 49 working days on one line
+  (8.2 weeks of six days) - the order fills the line
+  for two months: the delivery plan of ch 31 and the slot
+  reserved at award (ch 39) follow from this one division

@@ -1,0 +1,13 @@
+from the silicon limit (29.43% - Richter et al. 2013) to the cell
+  step                                    kept    efficiency
+  current: optics and collection          0.965      28.40%
+  voltage: recombination                  0.906      25.74%
+  fill factor: resistance, shunt          0.907      23.36%
+  the current loss of 1.5 mA/cm2 split:
+    front reflection                   0.5 mA/cm2
+    metal shading                      0.6 mA/cm2
+    escape and incomplete collection   0.4 mA/cm2
+  cell: 0.690 V x 41.8 mA/cm2 x 0.810 = 23.36%; 7.71 W
+  each step is owned by a process: texture and coating the
+  current, passivation the voltage, metallisation and firing
+  the fill factor (lesson B)

@@ -1,0 +1,10 @@
+reactive power the transformers consume (I^2 X), and the line:
+  export MW   each T (half) Mvar   both T Mvar   line Mvar   total
+         25                 0.33          0.66        0.11    0.77
+         50                 1.32          2.64        0.45    3.09
+         75                 2.97          5.94        1.01    6.95
+        100                 5.28         10.55        1.80   12.35
+  at full export the transformers take about 10 Mvar: the
+  plant's reactive capability at the POC is what the units
+  produce minus this - the requirement is met at the POC, so
+  the PQ study (ch 20, ch 28) carries the transformers in it

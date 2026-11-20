@@ -1,0 +1,11 @@
+the water in the closed pond after a fire (teaching costs, k u)
+  option                                  cost
+  treat on site, discharge under permit      18
+      note: if limits met after treatment
+  tanker to a licensed facility              45
+      note: 8 loads of 20 m3
+  evaporate in the lined pond                 4
+      note: concentrates salts and metals
+  the cheapest option leaves a residue that is itself a
+  hazardous waste; the permit and the test results decide,
+  and nothing leaves the pond untested

@@ -1,0 +1,10 @@
+aggregate thickness so the subgrade is not overloaded (2:1 spread)
+  (allowable on subgrade ~ 30 x CBR kPa: a screening rule; teaching)
+  CBR %   allowable kPa   thickness needed m
+      3              90                 0.52
+      8             240                 0.20
+     15             450                 0.07
+  weak, wet subgrade (CBR 3) needs more than twice the
+  stone of a firm one; CBR tests along the route (lesson C)
+  set the thickness section by section, and a geotextile
+  on soft ground is a design choice, not a habit

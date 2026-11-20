@@ -1,0 +1,11 @@
+line-of-sight radio range: d = 3.57 (sqrt h1 + sqrt h2) km
+  antenna 1 m   antenna 2 m   range km
+          1.5           1.5        8.7
+          1.5          10.0       15.7
+          1.5          30.0       23.9
+        100.0           1.5       40.1
+  two hand-held radios see about 9 km over flat ground, but a
+  ridge or the hollow at T07-T08 blocks them: a repeater on
+  a mast or on the substation's tower extends the reach,
+  and a nacelle at 100 m sees across the whole site - the
+  survey of lab H checks each pad, not the formula

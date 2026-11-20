@@ -1,0 +1,8 @@
+averaging directions:
+  six ten-minute directions 350, 355, 2, 8, 12, 358
+  arithmetic mean 180.8 deg (wrong); vector mean 0.8 deg
+  mast year, hourly means of six records:
+    arithmetic mean off by more than 10 deg in 44 of 8760 hours (0.5 %)
+  every hour that straddles north is wrong by about 180 deg;
+  loggers and scripts average the sine and cosine (vector mean),
+  often weighted by speed

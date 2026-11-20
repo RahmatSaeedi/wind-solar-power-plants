@@ -1,0 +1,10 @@
+well pump start (200 kVA direct on line) at the motor's terminals:
+  cable mm2   400 m loop ohm   dip at board %   dip at motor %
+         70            0.129              3.6             12.2
+         95            0.093              3.6             10.9
+        185            0.048              3.6              9.2
+  the transformer's share is small; the long cable adds most
+  of the dip the motor feels - a motor that starts on 80 %
+  voltage takes longer and heats more (the maker's limit
+  applies); a soft starter or a larger cable are the two
+  answers, and the cable is also needed for the running drop

@@ -1,0 +1,7 @@
+auxiliary supply from the plant's own loads (A-284):
+  peak of all own loads 565 kW; x 1.25 margin / pf 0.9 = 785 kVA
+  next size in the teaching list: 800 kVA (two for redundancy)
+  critical part 200 kW: UPS and a back-up source sized on it,
+    not on the whole list
+  the margin and the redundancy are requirements with owners;
+  ratings come from the supplier's data with evidence (ch 25)

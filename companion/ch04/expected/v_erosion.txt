@@ -1,0 +1,9 @@
+raindrop impact on the leading edge: water-hammer pressure p = rho c v
+  erosion rate taken as proportional to v^7 (assumed exponent, A-084);
+  erosion is shown relative to the section at r = 50 m
+  r   25 m: speed  27.5 m/s, impact   41 MPa, erosion x  0.01
+  r   50 m: speed  55.0 m/s, impact   82 MPa, erosion x  1.00
+  r   75 m: speed  82.5 m/s, impact  124 MPa, erosion x 17.09
+  a rotor with 90 m/s tip speed erodes 1.84 x faster
+  the outer tenth of the blade takes most of the wear: tip protection, and
+    inspection of the leading edge, focus there (chapters 42 and 52)

@@ -1,0 +1,10 @@
+P90 of the farm over different periods (P50 191.87 GWh):
+  years   u(E) total   P90 GWh/yr
+     1       6.9 %        174.8
+     5       4.8 %        180.1
+    10       4.5 %        180.9
+    20       4.3 %        181.3
+  year-to-year variation averages out over many years; the
+  uncertainty of the long-term estimate does not: lenders use
+  the one-year P90 for the debt service of each year and the
+  ten-year value for the loan as a whole (chapter 21)

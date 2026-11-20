@@ -1,0 +1,9 @@
+{
+ "pv_gwh": 96.43,
+ "wind_gwh": 177.08,
+ "export_gwh": 273.52,
+ "raw_records": 428,
+ "kept": 427,
+ "gaps": 1,
+ "usable_hours_ws100": 71
+}

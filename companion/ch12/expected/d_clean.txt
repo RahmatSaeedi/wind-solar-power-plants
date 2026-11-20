@@ -1,0 +1,14 @@
+cleaning a station year with five faults (A-246):
+  true GHI 1,947.2 kWh/m2; as logged 1,863.1 (-4.3 %, gaps simply skipped)
+  step                                          hours   GHI kWh/m2  error
+  spikes (above 1.25 x clear-sky maximum)          20     1834.1   -5.8 %
+  stuck values flagged and removed                 10     1834.1   -5.8 %
+  months found late, shifted back                1464     1834.1   -5.8 %
+  extremely rare values after the clock fix         0     1834.1   -5.8 %
+  gaps filled (short: k_t; long: provider)        250     1925.3   -1.1 %
+  dome soiling corrected from the cleaning log   8760     1941.9   -0.3 %
+  hourly RMSE after cleaning 21.3 W/m2; each step is logged with its flag
+  the order matters: spikes and stuck values first with tests
+  that ignore the sun's position (they would fool the clock
+  test), then the clock, then every test and fill that uses the
+  sun's position, the soiling last

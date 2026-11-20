@@ -1,0 +1,9 @@
+plate load tests (300 mm plate; E = 1.5 r d_sigma / d_s; teaching
+  criteria from the specification: Ev2 >= 45 MPa, Ev2/Ev1 <= 2.5)
+  place          s1 mm   s2 mm   Ev1 MPa   Ev2 MPa   ratio   result
+  road km 0.5     2.10    0.95      26.8      59.2    2.21   pass
+  pad T03         1.40    0.62      40.2      90.7    2.26   pass
+  pad T07         3.90    1.30      14.4      43.3    3.00   FAIL
+  a high Ev2/Ev1 ratio means the first loading compacted the
+  layer further - it was loose; T07 fails on stiffness and
+  on the ratio, matching its compaction lot (lesson C)

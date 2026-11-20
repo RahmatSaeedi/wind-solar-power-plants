@@ -1,0 +1,17 @@
+plant data points and the data they make (teaching, A-286):
+  device                   count  points   every s   samples/day
+  wind turbine                12   4,800        1     414,720,000
+  PV inverter                 10   2,000        1     172,800,000
+  combiner box               210   5,250       10      45,360,000
+  battery container            8   3,200        1     276,480,000
+  BESS inverter                4     600        1      51,840,000
+  33 kV feeder bay            14     840        1      72,576,000
+  132 kV bay and meters        2     300        1      25,920,000
+  weather station              3      90        1       7,776,000
+  water and auxiliaries        1      80       10         691,200
+  total                           17,160             1,068,163,200
+  stored raw (16 bytes a sample): 17 GB a day, 6.2 TB a year
+  historians store changes only and compress, often ten
+  times or more; the network carries the 1 s stream: ring
+  topology along the collector trenches, separate zones for
+  control, monitoring and remote access (chapters 34-36)

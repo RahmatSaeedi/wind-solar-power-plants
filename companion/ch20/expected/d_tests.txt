@@ -1,0 +1,12 @@
+edge-case tests of the hourly controller:
+  PASS  infeasible request (-35 MW) clamped to 20 MW, alarm
+  PASS  empty battery: no discharge, alarm
+  PASS  full battery: no charge
+  PASS  operator cap 80 MW overrides the plan: export <= 80
+  PASS  comms lost: plan kept 1 h, then battery idle; back on return
+  PASS  reserve keeps energy for 5 MW x 1 h: discharge stops at floor
+  PASS  reserve keeps 5 MW of converter room: discharge <= 15 MW
+  PASS  curtailment recaptured when the plan is idle
+  each test is a requirement written as code (section C); the
+  same cases run in the factory and site tests of the real
+  controller (chapters 44, 48 and 50)

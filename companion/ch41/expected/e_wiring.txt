@@ -1,0 +1,7 @@
+2P table, lower row 3% more soiled: two strings per table
+  each string in one row      28.176 kW
+  each string half in each    28.123 kW
+  modules alone (no mismatch) 28.176 kW
+  the U-shaped strings lose 0.19% more: the soiled half
+  limits the clean half; strings along a row keep each
+  string uniform - a wiring choice made on the drawing

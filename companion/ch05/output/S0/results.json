@@ -1,0 +1,23 @@
+{
+  "run_id": "PLP-CH05-S0",
+  "scenario": "S0",
+  "data_release": "1.1.0",
+  "inputs": {
+    "timeseries/plantp_hourly_8760.csv": "0b179863ba8707a5aa76ecc9e2f4d7792313781a01f12f9fa4a9ec1366287de2",
+    "equipment/wind_turbine_WT-5.0-150_power_curve.csv": "672c82e3bfaee9a11cee89cc26c63673098b956f919ca59b0f1dbf0f8cb045ab"
+  },
+  "config_sha256": "7b059c3879180fb426a5f7230c196b752b758242bad8a340066bca8fdb10f10d",
+  "software": {
+    "resource_tool": "1.0.0",
+    "plantp": "0.2.0",
+    "python": "3.14.1",
+    "numpy": "2.5.4"
+  },
+  "pv_gwh": 96.43,
+  "wind_gwh": 177.08,
+  "export_gwh": 273.52,
+  "curtailed_mwh": 0.0,
+  "pv_peak_mw": 47.59,
+  "mean_air_density": 1.0559,
+  "hours": 8760
+}

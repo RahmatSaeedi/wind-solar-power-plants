@@ -1,0 +1,8 @@
+one day of price arbitrage, battery 20 MW, usable 4..36 MWh, one-way
+    efficiency 0.927
+  prices (fictional units/MWh): 30 28 27 27 28 32 40 48 45 38 33 30 29 30 34
+    42 55 70 78 72 60 48 40 34
+  linear program: 48 variables, 48 inequality and 1 equality constraints
+  optimum revenue 1584 units; charge hours 3, 11, 12, 23; discharge hours 7,
+    8, 18, 19
+  energy charged 69.0 MWh, discharged 59.4 MWh; SOC range 4.0..36.0 MWh

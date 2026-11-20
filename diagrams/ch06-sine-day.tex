@@ -1,0 +1,22 @@
+% Chapter 6 — energy is the area under the power curve; trapezoids approximate it.
+% Data: diagrams/data/ch06-sine-day.csv
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=64mm,
+      xlabel={ساعتِ روز}, ylabel={توانِ رشته (kW)},
+      xmin=5, xmax=19, ymin=0, ymax=16.5, xtick={6,8,...,18}, ytick={0,5,10,15}]
+    \addplot[fill=cPV!12, draw=none, domain=6:18, samples=80] {14.3*sin(deg(pi*(x-6)/12))} \closedcycle;
+    \foreach \h in {6,...,17}{
+      \edef\temp{\noexpand\draw[cInkB, line width=0.4pt]
+        (axis cs:\h,0) -- (axis cs:\h,{14.3*sin(deg(pi*(\h-6)/12))})
+        -- (axis cs:\h+1,{14.3*sin(deg(pi*(\h+1-6)/12))}) -- (axis cs:\h+1,0);}
+      \temp
+    }
+    \addplot[sPV] table[x=t, y=p, col sep=comma] {data/ch06-sine-day.csv};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:12,14.4) {$P(t) = 14.3\,\sin\bigl(\pi(t-6)/12\bigr)$};
+    \node[note, text=cInk] at (axis cs:12,6) {$E = \int P\,\mathrm{d}t = 109.24\ \text{kWh}$};
+    \node[note, anchor=north west, text width=36mm] at (axis cs:5.2,15.5) {ذوزنقه‌های ساعتی: $108.62\ \text{kWh}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

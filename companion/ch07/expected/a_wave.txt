@@ -1,0 +1,4 @@
+230 V RMS, 50 Hz: peak 325.3 V, period 20 ms, omega 314.16 rad/s
+  v(t) = 325.3 sin(314.16 t); at t = 2.5 ms: v = 230.0 V (angle 45 deg)
+  a 30 deg lag is 1.667 ms; one degree is 55.6 microseconds
+33 kV line-to-line RMS: phase 19.05 kV RMS, phase peak 26.94 kV

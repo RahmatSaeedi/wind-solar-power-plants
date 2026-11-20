@@ -1,0 +1,37 @@
+the defense table: each major decision with its evidence (ch 59 D)
+  D-017 wind P50 191.9 GWh at 100 m hub
+      evidence: mast + lidar + MCP (ch 13); uncertainty: sigma 7.6 GWh long-
+    term
+      approver: lenders' engineer; if disproven: re-size debt; layout W1?
+  D-019 P50 295.1 GWh at the POC
+      evidence: model 15.1 (ch 15); uncertainty: P90 1y 275.9
+      approver: owner, lenders' engineer; if disproven: finance cases (ch 21)
+  D-022 AC-coupled, 2 x 63 MVA, single line
+      evidence: options matrix (ch 18); uncertainty: N-1 export limit
+      approver: owner; if disproven: second circuit or third unit
+  D-023 LFP 20 MW / 40 MWh, optional
+      evidence: dispatch and fade (ch 19); uncertainty: repays ~40 % of
+    capital
+      approver: owner; if disproven: S0 with space kept
+  D-029 bid B transformers
+      evidence: loss evaluation (ch 25); uncertainty: loss prices
+      approver: owner; if disproven: re-run evaluation
+  D-030 protection and earthing basis
+      evidence: coordination by fault case (ch 26); uncertainty: soil survey
+    U-098
+      approver: licensed engineer; if disproven: new grid, new settings
+  D-032 grid-study basis
+      evidence: 21-bus model (ch 28); uncertainty: grid data U-102
+      approver: network operator; if disproven: re-study; compensator
+  D-036 safety, fire, emergency basis
+      evidence: registers (ch 32); uncertainty: authority U-110
+      approver: authority having jurisdiction; if disproven: revise layout and
+    systems
+  D-037 E&S basis, W2b waits for survey
+      evidence: registers (ch 33); uncertainty: raptor survey U-113
+      approver: regulator, lenders; if disproven: micro-siting or W1
+  D-056 maintenance and RAM basis
+      evidence: RAM model (ch 52); uncertainty: rates A-288
+      approver: owner, O&M contractor; if disproven: spares and contracts
+  10 decisions defended; every row names who must approve
+  and what the design becomes if the claim fails

@@ -1,0 +1,15 @@
+emitter sheet resistance by four-point probe (9 points)
+  R_sheet = (pi / ln 2) V / I = 4.532 V / I
+  point (-1,-1)  V/I  28.09 ohm  ->  127.3 ohm/sq
+  point (-1,+0)  V/I  27.65 ohm  ->  125.3 ohm/sq
+  point (-1,+1)  V/I  28.28 ohm  ->  128.1 ohm/sq
+  point (+0,-1)  V/I  27.63 ohm  ->  125.2 ohm/sq
+  point (+0,+0)  V/I  26.26 ohm  ->  119.0 ohm/sq
+  point (+0,+1)  V/I  27.82 ohm  ->  126.1 ohm/sq
+  point (+1,-1)  V/I  28.67 ohm  ->  129.9 ohm/sq
+  point (+1,+0)  V/I  27.19 ohm  ->  123.2 ohm/sq
+  point (+1,+1)  V/I  28.57 ohm  ->  129.5 ohm/sq
+  mean 126.0 ohm/sq; non-uniformity (max-min)/(max+min) 4.4%
+  edges higher than the centre: the grid of lesson A was
+  designed for 120 ohm/sq, so the edges lose a little more
+  to lateral flow; the trend, not one point, is controlled

@@ -1,0 +1,15 @@
+impact - mitigation - monitoring register of Plant P (draft)
+  id   impact                       phase  before after  source
+  E01  night noise at camp B        O      M      L      P
+  E02  dust at village              C      M      L      P
+  E03  village wells drawdown       C,O    H      M      P
+  E04  raptor collisions            O      H      M      P
+  E05  bat collisions               O      M      L      P
+  S01  herders' access to spring    C,O    H      L      I
+  S02  traffic at the school        C      H      M      I
+  S03  heritage near the ruin       C      M      H      P
+  E06  fire-water runoff            O      M      L      I
+  checker findings: 3
+    E04 raptor collisions: no owner
+    S02 traffic at the school: no indicator
+    S03 heritage near the ruin: residual H above M - mitigation wrong

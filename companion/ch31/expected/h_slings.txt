@@ -1,0 +1,11 @@
+tension in each leg of a two-leg sling (168 t, teaching)
+  angle between legs deg   tension per leg kN   factor
+                       0                  824     1.00
+                      30                  853     1.04
+                      60                  952     1.15
+                      90                1,165     1.41
+                     120                1,648     2.00
+  at 120 degrees each leg carries the whole load: wide
+  angles also squeeze the load - which is why nacelles lift
+  on a spreader beam or the maker's lifting yoke, never on
+  slings chosen on site

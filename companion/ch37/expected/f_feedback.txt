@@ -1,0 +1,9 @@
+where reliability data comes from and where it goes
+  source           data                               feeds
+  factory test     burn-in failures by part           input to spares, ch 48
+  commissioning    punch list, early trips            input to growth, ch 50
+  warranty         claims and their root causes       maker's fixes, ch 39
+  maintenance      failures coded to the hierarchy    plans, ch 51
+  manufacturing is not part of this chapter; its failure
+  and quality data are inputs here, and each loop ends in a
+  change somebody owns

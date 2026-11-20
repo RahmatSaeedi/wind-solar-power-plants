@@ -1,0 +1,9 @@
+energising the 5 Mvar filter at the 33 kV bus (teaching):
+  ringing frequency ~ 50 x sqrt(S_sc / Q) = 367 Hz
+  rated current 87 A; inrush peak ~ sqrt2 x I x h = 908 A
+  bus voltage overshoot up to about 2 pu at the worst instant
+  (lightly damped); switching at voltage zero (controlled
+  switching) or a pre-insertion resistor keeps it near 1.1 pu
+  the transient is a power-quality event too: the operator's
+  limit for switching transients applies, and sensitive loads
+  nearby may notice it

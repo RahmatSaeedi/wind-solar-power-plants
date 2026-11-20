@@ -1,0 +1,9 @@
+the matrix method against the others (long term, 100 m):
+  method                       mean m/s   MWh a year per turbine
+  variance ratio                 7.248      18,640
+  sector ratio                   7.248      18,638
+  matrix (sector x speed bin)    7.257      18,935
+  the matrix lets the ratio change with speed and keeps more of
+  the strong winds: +0.1 % of mean speed but +1.6 % of energy;
+  thin cells (under 30 hours) fall back to the sector ratio; the
+  spread between methods is part of the MCP uncertainty

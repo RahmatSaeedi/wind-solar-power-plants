@@ -1,0 +1,14 @@
+design interfaces: the same quantity in different chapters
+  ok   export limit: data pack vs yield model       100.00 ==   100.00
+  ok   PV AC: data pack vs 10 inverters x 5 MW       50.00 ~     50.00
+  ok   PV DC: data pack vs 109,200 x 550 W           60.00 ~     60.06
+  ok   BESS power: data pack vs 4 PCS                20.00 ==    20.00
+  ok   BESS energy: cell build-up vs data pack       40.13 >=    40.00
+  ok   2 main transformers vs export MVA            126.00 >=   105.26
+  FLAG one transformer (N-1) vs export MVA           63.00 >=   105.26
+  ok   line rating vs export current (A)            650.00 >=   460.41
+  ok   hub height: structures vs resource (m)       100.00 ==   100.00
+  flagged: 1 - one transformer (N-1) vs export MVA
+  the N-1 flag is known and accepted: with one transformer out
+  the export is limited (D-022, ch 18, 28) - a decision, not
+  an error; an unexplained flag would stop the dossier

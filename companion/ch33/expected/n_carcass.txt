@@ -1,0 +1,13 @@
+fatalities estimated from the carcasses found in year 1 (synthetic)
+  group                found  search  persist  p find  estimate   90 % range
+  raptors                  2    0.85     0.77   0.456       4.4    0.8 -  13.8
+  bats, 14-day rounds      9    0.40     0.28   0.078     116.0   60.5 - 202.4
+  bats, 3-day rounds       9    0.40     0.70   0.197      45.7   23.8 -  79.7
+  two raptors found means about 4 killed - close to the
+  4.8 predicted (lesson A), but two carcasses cannot tell 1 from 14
+  a year: the range, not the point, goes in the report;
+  bats vanish in days, so 14-day rounds find only 8 % of
+  them: 9 found means about 116 killed, while 9 found in
+  3-day rounds would mean 46. The search interval is set
+  from the persistence before the survey starts, and the
+  estimates feed the curtailment trigger

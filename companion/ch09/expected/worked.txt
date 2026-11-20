@@ -1,0 +1,24 @@
+E01: 10 mF at 1000 V: 5.0 kJ
+E02: 5.5 MVA at 600 V: 5,292 A; at 690 V: 4,602 A
+E03: phase peak of 690 V line-to-line: 563 V
+E04: buck 800 V, duty 0.3: mean 240 V
+E05: boost from 500 V with duty 0.5: 1000 V
+E06: diode bridge on 690 V: 931.8 V
+E07: bridge on 800 V, m 0.9: line voltage 440.9 V RMS
+E08: SVPWM minimum DC for 400 V: 566 V; for 600 V: 849 V
+E09: carrier 3 kHz at 50 Hz: m_f = 60
+E10: IGBT 0.9 V + 0.5 mohm at 1000 A: drop 1.40 V
+E11: junction: 45 C + 1 kW x 0.05 K/W = 95 C
+E12: cycle life, swing 20 -> 30 K, n 5: x 0.132
+E13: loss peak where c0 = c2 p^2: p = sqrt(2.75 / 11.54) = 0.49
+E14: derating at 44 C and 800 m: 0.92 pu
+E15: inductance for the same ripple at 3 x f: x 0.333
+E16: capacitor ripple at m 0.8, pf 1: 0.619 of phase current
+E17: overshoot 40 nH x 8 kA/us: 320 V
+E18: dead-time error at twice the frequency: x 2 (9.0 V)
+E19: glycol for 81 kW at 8 K: 2.81 kg/s
+E20: SCR at 1000 MVA, 100 MW: 10
+E21: V 0.6 pu, k 2, limit 1.1: I_q 0.80, I_p 0.755 pu
+E22: droop 5 %, dead band 0.2 Hz, 50.7 Hz: reduce by 20 %
+E23: availability with 0.5/yr and 48 h: 0.99727
+E24: first-pass yield of seven 0.99 stages: 0.932

@@ -1,0 +1,12 @@
+substation earth grid (100 m x 70 m mesh, teaching):
+  soil ohm m   conductor m   grid ohm
+          50         1,600      0.296
+          50         2,400      0.286
+         150         1,600      0.888
+         150         2,400      0.857
+         400         1,600      2.368
+         400         2,400      2.285
+  the soil sets the resistance far more than the copper: more
+  conductor lowers it little once the mesh covers the area;
+  the soil survey (U-098) is the first evidence, layers and
+  seasons included

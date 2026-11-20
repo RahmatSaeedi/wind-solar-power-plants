@@ -1,0 +1,52 @@
+% Chapter 7 - star (wye) and delta connections of three impedances, with phase and line
+% quantities. Generic impedances (IEC rectangles).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % ---------------- star (right) ----------------
+  \begin{scope}[xshift=8.2cm]
+    \node[note, text=cInk, font=\small\bfseries] at (1.6,3.55) {ستاره};
+    \coordinate (N) at (1.6,0.6);
+    \draw (N) to[generic, l_={$\mathbf{Z}$}] (1.6,2.6) to[short, -o] (1.6,3.0);
+    \draw (N) to[generic] (0.0,-0.55) to[short, -o] (-0.35,-0.8);
+    \draw (N) to[generic] (3.2,-0.55) to[short, -o] (3.55,-0.8);
+    \node[note, text=cInk] at (0.55,0.45) {$\mathbf{Z}$};
+    \node[note, text=cInk] at (2.65,0.45) {$\mathbf{Z}$};
+    \fill[cInk] (N) circle (1.6pt);
+    \draw (N) to[short, -o] (2.6,0.6);
+    \node[note, text=cInk, anchor=west] at (2.65,0.6) {$\text{N}$};
+    \node[note, text=cInk, anchor=south] at (1.6,3.05) {$\text{a}$};
+    \node[note, text=cInk, anchor=north east] at (-0.35,-0.85) {$\text{b}$};
+    \node[note, text=cInk, anchor=north west] at (3.55,-0.85) {$\text{c}$};
+    \draw[cLoad, line width=0.8pt, ->] (1.85,3.0) -- (1.85,2.75);
+    \node[note, text=cInk, anchor=west] at (1.95,2.85) {$I_\text{line} = I_\text{ph}$};
+    \draw[dimline, cInkB] (0.95,2.95) -- (0.95,0.7);
+    \node[note, anchor=east] at (0.9,1.85) {$V_\text{ph}$};
+    \draw[cInkB, dashed, line width=0.5pt] (1.5,3.0) -- (-0.3,-0.65);
+    \node[note, anchor=east] at (0.3,1.45) {$V_\text{LL} = \sqrt3\,V_\text{ph}$};
+  \end{scope}
+  % ---------------- delta (left) ----------------
+  \begin{scope}[xshift=0cm]
+    \node[note, text=cInk, font=\small\bfseries] at (1.8,3.55) {مثلث};
+    \coordinate (A) at (1.8,2.6);
+    \coordinate (B) at (0.0,-0.5);
+    \coordinate (C) at (3.6,-0.5);
+    \draw (A) to[generic] (B);
+    \draw (B) to[generic] (C);
+    \draw (C) to[generic] (A);
+    \node[note, text=cInk] at (0.35,1.2) {$\mathbf{Z}_\Delta$};
+    \node[note, text=cInk] at (3.25,1.2) {$\mathbf{Z}_\Delta$};
+    \node[note, text=cInk] at (1.8,-0.95) {$\mathbf{Z}_\Delta$};
+    \draw (A) to[short, -o] (1.8,3.0);
+    \draw (B) to[short, -o] (-0.4,-0.8);
+    \draw (C) to[short, -o] (4.0,-0.8);
+    \node[note, text=cInk, anchor=south] at (1.8,3.05) {$\text{a}$};
+    \node[note, text=cInk, anchor=north east] at (-0.4,-0.85) {$\text{b}$};
+    \node[note, text=cInk, anchor=north west] at (4.0,-0.85) {$\text{c}$};
+    \draw[cLoad, line width=0.8pt, ->] (2.05,3.0) -- (2.05,2.75);
+    \node[note, text=cInk, anchor=west] at (2.15,2.85) {$I_\text{line} = \sqrt3\,I_\text{ph}$};
+    \node[note, text width=40mm] at (1.8,-1.55) {ولتاژِ هر شاخه: $V_\text{LL}$};
+  \end{scope}
+  \node[note, text width=40mm] at (9.8,-1.55) {ولتاژِ هر شاخه: $V_\text{ph}$};
+\end{tikzpicture}}
+\end{document}

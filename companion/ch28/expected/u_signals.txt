@@ -1,0 +1,13 @@
+telemetry inside the plant and to the operator (teaching sizes)
+  group                 count   points   period s   values/s
+  wind turbines            12      240          1      240.0
+  PV inverters             10      150          1      150.0
+  POC and substation        1       40          1       40.0
+  met stations              2       16         10        1.6
+  battery (S1)              4      100          1      100.0
+  plant SCADA (with S1): 532 values a second, ~0.4 GB a day
+  to the operator: a list of about 24 signals (POC P, Q, U, f,
+  breaker states, set-points received, limits, availability)
+  every 1-2 s within the latency budget of lesson C - the
+  list is the operator's (REQ-G17), the rest stays in the
+  plant; ch 34-36 build and secure both

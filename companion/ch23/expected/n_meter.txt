@@ -1,0 +1,10 @@
+revenue meter at the 132 kV line bay (teaching classes):
+  full-export current 437 A -> CT 600/1 A; VT 132/sqrt3 kV : 110/sqrt3 V
+  error budget (each a % limit, combined as independent):
+    current transformer  0.2 %
+    voltage transformer  0.2 %
+    meter                0.2 %
+  combined 0.35 % of 295,140 MWh = 1,022 MWh = 72 k u a year at 70 u/MWh
+  a check meter on a second CT core lets the two be compared;
+  the classes, the CT burden and the meter's place are set by
+  the utility's metering code (U-065), not chosen here

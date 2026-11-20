@@ -1,0 +1,19 @@
+contract-risk allocation of Plant P (teaching)
+  energy below P50             owner
+      sizing on P90; DSRA
+  construction cost overrun    EPC contractor
+      fixed price; LDs; security
+  late completion              EPC contractor
+      delay LDs capped; insurance
+  equipment defects            suppliers
+      warranties; performance guarantees
+  grid curtailment             buyer above a threshold
+      PPA clause (country)
+  buyer late payment           owner, then buyer
+      payment security; DSRA
+  change in law                shared
+      PPA change-in-law clause
+  currency                     depends on the PPA
+      indexation; hedge (country)
+  8 risks; each row is checked against the signed contracts
+  by counsel - this table is a design for them, not advice

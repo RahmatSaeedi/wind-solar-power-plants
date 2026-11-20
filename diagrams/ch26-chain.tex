@@ -1,0 +1,26 @@
+% Chapter 26 - the protection system as a chain of subassemblies: instrument transformers ->
+% relay -> trip circuit (two coils) -> breaker, with the DC supply, communications, time
+% source and event records around it; runs right to left for RTL readers.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    el/.style={blk, minimum width=25mm, minimum height=12mm, text width=24mm, font=\footnotesize}]
+  \node[el] (ct) at (12,0) {CT و VT\\نسبت، کلاس، نقطهٔ زانو};
+  \node[el] (rl) at (8,0) {رله\\تنظیم، منطق، ثبت};
+  \node[el] (tc) at (4,0) {مدارِ قطع\\دو بوبین، نظارت};
+  \node[el] (cb) at (0,0) {کلید\\زمانِ باز شدن};
+  \draw[flow] (ct.west) -- (rl.east);
+  \draw[flow] (rl.west) -- (tc.east);
+  \draw[flow] (tc.west) -- (cb.east);
+  \node[el, draw=cBESS, fill=cBESS!8] (dc) at (6,-2.4) {تغذیهٔ DC\\باتری، MCB جدا};
+  \node[el] (cm) at (10,-2.4) {ارتباطات\\انتقالِ قطع، خط};
+  \node[el] (ts) at (10,2.4) {منبعِ زمان\\همگامیِ ثبت‌ها};
+  \node[el] (ev) at (6,2.4) {ثبتِ رویداد\\و اغتشاش};
+  \draw[flowinfo] (dc.north) -- (rl.south west);
+  \draw[flowinfo] (dc.north) -- (tc.south east);
+  \draw[flowinfo] (cm.north) -- (rl.south east);
+  \draw[flowinfo] (ts.south) -- (rl.north east);
+  \draw[flowinfo] (rl.north west) -- (ev.south);
+  \node[note, text width=150mm] at (6,-4.0) {هر حلقه شاهدِ خودش را دارد: گزارشِ آزمونِ CT، فایلِ تنظیم با چک‌سام، آزمونِ مدارِ قطع، زمان‌سنجیِ کلید، نظارتِ DC، آزمونِ سربه‌سر؛ یک حلقهٔ بی‌شاهد کلِ زنجیره را بی‌اعتبار می‌کند};
+\end{tikzpicture}
+\end{document}

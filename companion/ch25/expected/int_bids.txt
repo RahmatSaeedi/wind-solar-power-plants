@@ -1,0 +1,10 @@
+decision record: main transformer bids (teaching):
+  evaluated at 70 u/MWh, 25 y, 7.5 %, LLF 0.128 from ch 15:
+    bid A 2,330 k u, bid B 2,242 k u: bid B preferred
+  conditions: impedance 12 % within the band, YNd11, tap
+    range after the grid study, ONAF 63 MVA, loss guarantees
+    with deductions, type tests or proof of design for the
+    short-circuit withstand, transport within 72 t
+  sensitivity: bid A wins above about 108 u/MWh
+  owner of the decision: the owner's engineer with the
+  procurement team (ch 38)

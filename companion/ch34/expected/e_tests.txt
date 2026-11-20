@@ -1,0 +1,8 @@
+loss-of-supply test matrix (commissioning, teaching)
+  6 supplies x 2 plant states = 12 tests
+  each test: open the supply's isolating device by the
+  commissioning procedure (authorised staff, no work on live
+  parts), record alarms, times and outputs, restore, compare
+  with the written intent of the loss table; the battery
+  autonomy itself is proved by a capacity test of the
+  battery, not by draining the plant's battery in service

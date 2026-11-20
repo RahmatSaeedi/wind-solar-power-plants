@@ -1,0 +1,28 @@
+D-039 SCADA and communications basis of Plant P (teaching)
+  1 network: single-mode fibre in the collector trenches, two
+    turbine rings with a fast ring protocol (recovery well
+    under the 3 s watchdog of ch 34), functional subnets
+  2 time: precision time protocol for events; a 1 us need
+    would need better end devices
+  3 data: values as objects with unit, quality and time; tag
+    rule checked by program; 32-bit counters; quality map of
+    every gateway in the interface specification
+  4 operations: alarm philosophy with delays and deadbands,
+    buffers at the source, retention 2 years raw and the
+    plant's life for aggregates, least-privilege roles
+  5 fire boundary: approved statuses only, no commands,
+    independent alarm routes, panel and SCADA stamps kept
+  6 asset data: register as the source of asset IDs, one-way
+    flows to CMMS, deduplicated work requests, UTC, queues
+  7 later findings: priority classes on every switch port (a
+    control message waits 0.12 ms, not 120 ms, behind a
+    back-fill); back-fill rate-limited; a second carrier only
+    on a separate route; counters as integers (a float32 kWh
+    counter loses 7.8 % in year 25); word order tested with a
+    known value; state-based alarm suppression (151 -> 13);
+    commands refused during server switch-over; stale limits
+    above the integrity-scan period; sampling from the
+    fastest phenomenon; acceptance samples of about 300
+    points for 1 %, full tests for control and grid points
+  open: grid operator's protocol profile and telemetry list
+    (U-115), makers' data and device declarations (U-116)

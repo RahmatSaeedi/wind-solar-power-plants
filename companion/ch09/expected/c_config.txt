@@ -1,0 +1,6 @@
+configuration control of an inverter parameter set:
+  approved set     SHA-256 46b3ab731844783c23113bed60373495...
+  one value edited SHA-256 e45716ddac0aaab06ecf21e983df4f02...
+  any change, however small, gives a different fingerprint; the
+  record keeps firmware version, parameter-set id and fingerprint
+  for every unit, and site readback must match it (chapter 50)

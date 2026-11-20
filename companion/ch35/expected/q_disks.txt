@@ -1,0 +1,7 @@
+historian disks for the plant's life (teaching)
+  data over 25 years: 12.2 TB (lesson C)
+  mirrored, with 30 % free space kept: 34.9 TB raw
+  plus an off-site copy of the aggregates, refreshed weekly
+  disks fail and age faster than the plant: the plan buys
+  for five years at a time and migrates the archive - a
+  migration is tested by reading old data back

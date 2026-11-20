@@ -1,0 +1,16 @@
+wind rose at 100 m, 12 sectors (true mast year):
+  sector  share of time  mean m/s  share of energy
+    0- 30     0.3 %         7.83        0.3 %
+   30- 60     0.7 %         8.68        1.0 %
+   60- 90     3.9 %         7.89        4.9 %
+   90-120     6.7 %         7.89        8.1 %
+  120-150     4.6 %         7.32        4.8 %
+  150-180     0.7 %         5.44        0.4 %
+  180-210     0.5 %         7.85        0.6 %
+  210-240     4.9 %         7.77        5.7 %
+  240-270    19.8 %         7.04       19.6 %
+  270-300    34.2 %         7.18       34.6 %
+  300-330    19.8 %         6.44       16.5 %
+  330-360     3.8 %         6.66        3.4 %
+  energy comes from fewer directions than time does: the wake
+  layout of chapter 11 and the boom orientation follow it

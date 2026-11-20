@@ -1,0 +1,25 @@
+P26 robust z, value 1,726, median 1,788, MAD x 1.4826 = 9.1: -6.8
+P27 region-2 loss 5 % on 6,000 of 7,000 MWh made there: 300 MWh
+P28 reviewer hours, 12 flags a day at 15 min: 3.0 h
+P29 precision, 3 true of 12 flags: 0.25
+P30 PR on valid hours, 8,000 MWh, 60.06 MWp, 163 kWh/m2: 0.817
+P31 completeness, 26 of 31 days: 83.9 %
+P32 year-on-year rate, PR 0.850 then 0.846: -0.47 %/yr
+P33 Weibull k 2.89, scale 56,180 h: share failed by 40,000 h 31 %
+P34 Weibull hazard ratio at 40,000 vs 20,000 h, k 2.89: 3.71
+P35 substation 10 h x 12 turbines in 12 x 8,760 h: 0.114 % of turbine time
+P36 waiting 1,230 h halved, 12 x 8,760 h: availability +0.59 points
+P37 PV MAE 1.5 MW over 8,760 h, 0 at night (4,504 h): daylight MAE 3.09 MW
+P38 POD, 640 hits, 220 misses: 0.74
+P39 FAR, 640 hits, 398 false: 0.38
+P40 imbalance, 5 MWh short at 30 and 8 MWh long at 10: 230 u
+P41 delivered share, 2.401 of 2.500 MWh: 96.04 %
+P42 recovery, 1.00 MWh at 3 MW x 0.94: 21 min
+P43 service availability, 600 h, 14 excluded, 9 failed: 98.46 %
+P44 penalty, 2 certain + 2 disputed hours at 500 u: 1,000 to 2,000 u
+P45 April soiling: 0 to 6 % linear, mean loss 3.0 %
+P46 June block out: 10 % for 9 of 30 days, month loss 3.0 %
+P47 sensor 8 % low on 20 of 31 days, equal sun each day: month PR x 1.054
+P48 August cap 80 MW, 40 h at 84 MW mean: 160 MWh not taken
+P49 time availability of a 48 h stop in 744 h: 93.55 %
+P50 production availability, 1,500 MWh month, 179 MWh lost: 88.07 %

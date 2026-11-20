@@ -1,0 +1,18 @@
+% Chapter 28 - voltage profile from the POC to the units at full output with Q = 0 at the POC and
+% the taps holding the 33 kV bus, for grid source voltages 0.95 / 1.00 / 1.05 pu (grid max);
+% data diagrams/data/ch28-voltages.csv from companion/ch28/examples_b.py cases().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, xmin=-0.3, xmax=6.3, ymin=0.94, ymax=1.08,
+      xtick={0,...,6}, xticklabels={POC, HV, MV-A, WS1, PVF3, WS1-U, PVF3-U},
+      ylabel={ولتاژ $(\text{pu})$}, legend columns=3,
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/fixed zerofill,
+                        /pgf/number format/precision=2}]
+    \addplot[sLoss, mark=*, mark size=1.3pt] table[x=k, y=e095, col sep=comma] {data/ch28-voltages.csv};
+    \addplot[sInk, mark=square*, mark size=1.3pt] table[x=k, y=e100, col sep=comma] {data/ch28-voltages.csv};
+    \addplot[sWind, mark=triangle*, mark size=1.6pt] table[x=k, y=e105, col sep=comma] {data/ch28-voltages.csv};
+    \legend{$0.95$, $1.00$, $1.05$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

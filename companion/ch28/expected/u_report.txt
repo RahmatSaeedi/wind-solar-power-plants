@@ -1,0 +1,19 @@
+completeness of a draft study report (15 items)
+  [ok] scope and stage
+  [ok] input register with owners
+  [  ] assumption log
+  [ok] models with versions and validation
+  [ok] cases (max/min, voltages, outages)
+  [ok] load flow and reactive capability
+  [ok] losses
+  [ok] short circuit (max/min)
+  [ok] protection interfaces
+  [ok] dynamic results (FRT, frequency, control)
+  [  ] sensitivities
+  [ok] compliance matrix
+  [  ] operating restrictions
+  [  ] independent check
+  [ok] signatures and approvals
+  11 of 15 present; the four missing are
+  the ones that show what the results depend on and who
+  checked them - the report goes back before it goes out

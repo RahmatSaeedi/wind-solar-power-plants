@@ -1,0 +1,16 @@
+battery design basis (D-023; PLP-ELE-REP-0006):
+  chemistry LFP prismatic 314 Ah; 1P52S modules; 8-module racks
+    up to 1,498 V; 12 racks a container; 8 containers; 4 PCS
+  window 10-90 %; 86 % round trip; fade: maker's warranty curve
+  HVAC 120 kW a container (end-of-life heat, hottest hour);
+    IF-006 closed at 120 kW, not the offered 100 kW
+  protection: a fuse and switch per rack for its own fault,
+    DC bus rated for all racks; insulation monitoring
+  detection: BMS, off-gas, smoke, heat; remote isolation per rack
+  separation, ventilation or explosion control, water and runoff:
+    from the authority, the hazard mitigation analysis and the
+    product's large-scale test report (U-073, U-074)
+  dispatch: rule of lab D with its edge-case tests; warranty
+    limits as controller settings
+  life: augmentation in years 8 and 13 or a larger first stage;
+    end-of-life plan with a licensed recycler

@@ -1,0 +1,9 @@
+smallest DC voltage for an AC line voltage (linear PWM):
+  V_LL    sine-triangle   space-vector   s-v + 10 % headroom
+   400 V         653 V         566 V           622 V
+   600 V         980 V         849 V           933 V
+   630 V        1029 V         891 V           980 V
+   690 V        1127 V         976 V          1073 V
+  headroom (A-150): grid +5 %, filter drop 3 %, control 2 %
+  the 850 V lower MPPT bound of chapter 6 (A-020) supports at most 601 V
+    AC without headroom, 546 V with it; a 690 V inverter needs about 1073 V

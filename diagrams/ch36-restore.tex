@@ -1,0 +1,14 @@
+% Chapter 36 - chance that the latest backup is broken when it is needed, against the interval between
+% restore tests (2 % a month a backup breaks silently; examples_c; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=0, xmax=37, ymin=0, ymax=35,
+      xlabel={فاصلهٔ آزمون‌های بازگردانی (ماه)}, ylabel={احتمالِ پشتیبانِ خراب (درصد)}]
+    \addplot[sWind, no marks, domain=1:36, samples=36] {100*(1 - 0.98^((x+1)/2))};
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cLoss] coordinates {(1,2.0) (3,4.0) (12,12.3) (36,31.2)};
+    \node[note, anchor=north west] at (axis cs:4,3.6) {هر سه ماه: $4\,\%$};
+    \node[note, anchor=south east] at (axis cs:36,32) {هر سه سال: $31\,\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

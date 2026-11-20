@@ -1,0 +1,20 @@
+% Chapter 15 - twenty years of annual energy at MV relative to each mean: wind (reference series
+% through the D-017 line), PV (20-year provider GHI) and the hybrid. Data: ch15-iavrel.csv (examples_h.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=2003.5, xmax=2023.5, ymin=88, ymax=110,
+      xlabel={سال}, ylabel={انرژیِ سالانه، درصدِ میانگین}, xtick={2004,2008,...,2020,2023},
+      ytick={90,95,...,110}, xticklabel style={/pgf/number format/1000 sep={}},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3]
+    \addplot[sWind, mark=*, mark size=1.2pt] table[x=year, y=wind, col sep=comma] {data/ch15-iavrel.csv};
+    \addlegendentry{باد}
+    \addplot[sPV, mark=triangle*, mark size=1.4pt, mark options={solid}] table[x=year, y=pv, col sep=comma]
+      {data/ch15-iavrel.csv};
+    \addlegendentry{خورشیدی}
+    \addplot[sInk, line width=1.3pt] table[x=year, y=hybrid, col sep=comma] {data/ch15-iavrel.csv};
+    \addlegendentry{هیبرید}
+    \draw[sLimit] (axis cs:2003.5,100) -- (axis cs:2023.5,100);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

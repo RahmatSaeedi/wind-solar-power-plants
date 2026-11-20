@@ -1,0 +1,13 @@
+supplier tiers and lead time to a turbine ready to ship (teaching)
+  part           tier-2 input              weeks t2 + t1 + nacelle
+  main bearing   forged rings               26 + 14 + 6 =  46
+  gearbox        gear forgings, bearings    22 + 18 + 6 =  46
+  hub            casting pattern, iron      12 + 10 + 6 =  28
+  blade          glass, resin, balsa         6 +  8 + 4 =  18
+  generator      electrical steel, copper   10 + 12 + 6 =  28
+  tower          plate                       8 + 10 + 0 =  18
+  the main bearing and gearbox set the turbine's lead time: 46 weeks
+  the longest chain is often two tiers down, at a forge the
+  turbine maker never sees; reserving forging capacity at
+  award (ch 39, slots) and a qualified second forge cut the
+  risk more than pressing the final assembler

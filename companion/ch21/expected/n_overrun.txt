@@ -1,0 +1,9 @@
+funding a cost overrun layer by layer (k u):
+  contingency inside the budget 7,450; standby equity 4,916
+  overrun %   from contingency   standby equity   left to fund
+          3              4,470                0              0
+          8              7,450            4,470              0
+         15              7,450            4,916          9,984
+  beyond both layers the project needs new money before the
+  lenders release more: a cost-overrun facility or sponsor
+  support - agreed at financial close, not when it happens

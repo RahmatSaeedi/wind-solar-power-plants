@@ -1,0 +1,10 @@
+a lot of 40 drums with 3 thin-insulation drums: chance a sample finds one
+  drums sampled   chance to find at least one
+              1                          7.5%
+              2                         14.6%
+              4                         27.7%
+              8                         49.8%
+             16                         79.5%
+  a sample test checks that production matches the design; it
+  cannot find a few bad drums - that is why the thickness of
+  both ends of every drum is in its routine record (lesson A)

@@ -1,0 +1,9 @@
+is a standby generator justified? (an 8 h grid outage):
+  essential load 72 kW for 8 h = 577 kWh; a battery for it ~ 642 kWh usable
+  options: (a) generator 150 kVA with a day tank; (b) a larger
+  UPS and DC battery for 8 h; (c) supply from the plant's own
+  battery (S1) through a transfer switch (ch 18 island)
+  (c) costs little if the battery exists and is kept above a
+  floor (ch 20); (b) is a large battery for rare events; (a)
+  covers long outages and S0 - the choice follows the
+  requirement for autonomy (REQ in ch 17), not a habit

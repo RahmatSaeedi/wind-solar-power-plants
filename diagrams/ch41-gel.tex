@@ -1,0 +1,21 @@
+% Chapter 41 - individuals chart of the daily gel-content sample of laminator L2: centre line and
+% lower control limit from days 1-15 (83.6 and 80.0 %), the drift from day 16, the first signal on
+% day 25 and the 75 % specification (diagrams/data/ch41-gel.csv from companion/ch41/examples_c.py,
+% c_lamination; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0, xmax=31, ymin=73, ymax=88,
+      xlabel={روز}, ylabel={درصدِ ژل}]
+    \addplot[sWind, mark=*, mark size=1.3pt] table[x=day, y=gel, col sep=comma] {data/ch41-gel.csv};
+    \draw[densely dashed, cInk!60] (axis cs:0,83.6) -- (axis cs:31,83.6);
+    \draw[sLimit] (axis cs:0,80.0) -- (axis cs:31,80.0);
+    \draw[sLoss] (axis cs:0,75.0) -- (axis cs:31,75.0);
+    \node[note, anchor=south east] at (axis cs:30.8,83.6) {خطِ مرکزی ۸۳٫۶};
+    \node[note, anchor=north west] at (axis cs:0.5,80.0) {حدِ کنترلِ پایین ۸۰٫۰};
+    \node[note, anchor=south west, text=cLoss] at (axis cs:0.5,75.0) {حدِ مشخصه ۷۵};
+    \draw[->, cLoss] (axis cs:25,77.2) -- (axis cs:25,78.9);
+    \node[note, anchor=north, text=cLoss] at (axis cs:25,77.2) {نخستین علامت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

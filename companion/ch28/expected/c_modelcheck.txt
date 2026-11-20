@@ -1,0 +1,12 @@
+model against a recorded dip: errors of reactive current (pu)
+  window       mean error   mean abs error   max error   teaching limits
+  pre-fault        +0.001            0.008       0.024   0.02 / 0.05 ok
+  fault            -0.027            0.029       0.110   0.10 / 0.20 ok
+  post-fault       +0.013            0.019       0.254   0.05 / 0.15 OVER
+  errors are judged window by window: the means are small,
+  but the maximum after clearing is not - on site the
+  current falls faster than in the model; a mean alone
+  would hide it. The fix is a better current-loop time
+  constant from the OEM, then a rerun; a validation method
+  of this kind (STD-132) sets windows and measures, the
+  windows and limits here are teaching values

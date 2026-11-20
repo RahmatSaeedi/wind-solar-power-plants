@@ -1,0 +1,16 @@
+% Chapter 33 - manufacture and construction footprint of case S0 by item (t CO2e, teaching factors;
+% diagrams/data/ch33-lca.csv, lab_i).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=76mm, xbar, bar width=3.2mm, xmin=0, xmax=30000,
+      ymin=0.4, ymax=11.6, ytick={1,...,11}, y dir=reverse,
+      yticklabels={ماژول‌های خورشیدی, اینورتر و ترانسفورماتور, سازه‌های فولادیِ میز, توربین‌ها بی‌برج,
+                   برج‌ها, بتنِ پی, میلگرد, کابلِ آلومینیومی, کابلِ مسی, حمل‌ونقل, گازوئیلِ ساخت},
+      y tick label style={font=\scriptsize}, xlabel={تن دی‌اکسیدکربنِ معادل},
+      xmajorgrids=true, ymajorgrids=false, scaled x ticks=false,
+      xticklabel style={/pgf/number format/fixed}]
+    \addplot[fill=cLoad!40, draw=cLoad] table[x=t, y=item, col sep=comma] {data/ch33-lca.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

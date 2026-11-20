@@ -1,0 +1,12 @@
+fire alarms of the first year by detector type
+  point smoke (buildings)     300 installed, 1 real,  14 false =   4.7 per 100
+  aspirating (battery)         16 installed, 0 real,   1 false =   6.2 per 100
+  heat (transformers)          40 installed, 0 real,   0 false =   0.0 per 100
+  flame (substation yard)       6 installed, 0 real,   5 false =  83.3 per 100
+  manual call points           60 installed, 0 real,   3 false =   5.0 per 100
+  23 false alarms; the worst rate: flame (substation yard)
+  each false alarm costs a response and teaches people to
+  ignore the next one: the investigation found sun glint on
+  the yard behind the flame detectors - the remedy is the
+  designer's (placement, type),
+  recorded as a change, never a disabled detector

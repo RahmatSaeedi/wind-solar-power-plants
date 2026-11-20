@@ -1,0 +1,19 @@
+% Chapter 24 - pulling tension along a teaching duct route: 200 m straight, 90-degree bend, 150 m
+% straight, 45-degree bend (capstan steps at the bends), against the conductor limit of 36 kN.
+% Data: diagrams/data/ch24-pulling.csv (companion/ch24/figdata.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=360, ymin=0, ymax=40,
+      xlabel={فاصله از سرِ کشش $\mathrm{m}$}, ylabel={کشش $\mathrm{kN}$}, xtick={0,50,...,350},
+      ytick={0,10,...,40}]
+    \addplot[sInk, mark=none] table[x=m, y=kn, col sep=comma] {data/ch24-pulling.csv};
+    \draw[cLoss, dashed] (axis cs:0,36) -- (axis cs:360,36);
+    \node[font=\footnotesize, text=cLoss, anchor=south west] at (axis cs:5,36) {حدِ رسانا $36\,\mathrm{kN}$};
+    \node[font=\footnotesize, text=cInkB, anchor=south] at (axis cs:200,13) {خمِ ۹۰ درجه};
+    \draw[cInkB, -{Stealth[length=1.5mm]}] (axis cs:200,12.8) -- (axis cs:200,9.6);
+    \node[font=\footnotesize, text=cInkB, anchor=south] at (axis cs:330,22) {خمِ ۴۵ درجه};
+    \draw[cInkB, -{Stealth[length=1.5mm]}] (axis cs:340,21.8) -- (axis cs:349,17.5);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

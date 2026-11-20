@@ -1,0 +1,6 @@
+tip-speed ratio at 10 rpm, R = 75 m, v = 10 m/s: lambda = omega R / v = 7.85
+    units: (rad/s) m / (m/s) = rad = 1, dimensionless
+log profile with z0 = 0.03 m: v(100)/v(60) = ln(100/0.03)/ln(60/0.03) = 1.0672
+data pack means: v(100)/v(60) = 7.103/6.508 = 1.0914
+  power-law exponent alpha = ln(1.0914)/ln(100/60) = 0.171
+  log-law roughness length that fits the ratio: z0 = 0.225 m

@@ -1,0 +1,22 @@
+% Chapter 44 - educational start-up state machine of a grid inverter (not firmware): OFF, PRECHARGE,
+% READY, SYNC, RUN and the latched FAULT, with the events between them (companion/plantp/convmfg.py,
+% ConverterSim). Read right to left.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=19mm, minimum height=9mm, align=center}]
+  \node[st] (off) at (0,0) {خاموش};
+  \node[st] (pre) at (-3.4,0) {پیش‌شارژ};
+  \node[st] (rdy) at (-6.8,0) {آماده};
+  \node[st] (syn) at (-10.2,0) {همگام‌سازی};
+  \node[blkWind, minimum width=19mm, minimum height=9mm, align=center] (run) at (-13.6,0) {کار};
+  \node[blkWarn, minimum width=19mm, minimum height=9mm, align=center] (flt) at (-6.8,-2.6) {خطا (قفل)};
+  \draw[flow] (off) -- node[note, above] {فرمانِ شروع} (pre);
+  \draw[flow] (pre) -- node[note, above] {پیوندِ پر} (rdy);
+  \draw[flow] (rdy) -- node[note, above] {شبکه هست} (syn);
+  \draw[flow] (syn) -- node[note, above] {هم‌فاز} (run);
+  \draw[flow, draw=cLoss] (pre.south) |- node[note, pos=0.3, anchor=west, text=cLoss] {دیرکرد یا اضافه‌ولتاژ} ([yshift=2mm]flt.east);
+  \draw[flow, draw=cLoss] (run.south) |- node[note, pos=0.3, anchor=west, text=cLoss] {شبکه رفت} (flt.west);
+  \draw[flow] ([yshift=-2mm]flt.east) -| node[note, pos=0.75, anchor=west] {بازنشانی با رفعِ علت} (off.south);
+\end{tikzpicture}}
+\end{document}

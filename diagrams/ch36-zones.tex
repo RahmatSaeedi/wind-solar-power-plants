@@ -1,0 +1,22 @@
+% Chapter 36 - zones and conduits of Plant P with their target levels and the purpose of every conduit;
+% everything not drawn is denied (sources, examples_b; teaching labels).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    zn/.style={blk, minimum width=27mm, minimum height=11mm, text width=25mm}]
+  \node[zn, blkWind] (ied) at (12.6,4.2) {رله‌های پست\\ هدف: بالا};
+  \node[zn, blkWind] (wtg) at (12.6,2.7) {توربین‌ها\\ هدف: بالا};
+  \node[zn, blkPV] (pv) at (12.6,1.2) {اینورترها\\ هدف: میانه};
+  \node[zn, blkBESS] (bes) at (12.6,-0.3) {باتری\\ هدف: بالا};
+  \node[zn, blkLoad, minimum height=50mm] (ctl) at (8.2,1.95) {ناحیهٔ کنترل: سرورها، نمایشگرها، کنترل‌گرِ نیروگاه\\ هدف: بالا};
+  \node[zn, blkWarn, minimum height=30mm] (dmz) at (3.4,1.95) {ناحیهٔ میانی: نسخهٔ تاریخ‌نگار، میزبانِ پرش\\ هدف: میانه};
+  \node[zn, blkWarn] (bus) at (-1.2,3.0) {شبکهٔ کسب‌وکار\\ هدف: پایین};
+  \node[zn, blkWarn] (rem) at (-1.2,0.9) {سازندگانِ بیرونی\\ هدف: پایین};
+  \foreach \a in {ied, wtg, pv, bes} {\draw[flow] (\a.west) -- (ctl.east |- \a.west);}
+  \draw[flow] (ctl.west |- 0,2.7) -- node[above, note] {نسخهٔ یک‌سویه} (dmz.east |- 0,2.7);
+  \draw[flow] (dmz.east |- 0,1.2) -- node[below, note] {جلسهٔ نظارت‌شده} (ctl.west |- 0,1.2);
+  \draw[flow] (bus.east) -- node[above, note] {خواندن} (dmz.west |- bus.east);
+  \draw[flow] (rem.east) -- node[below, note] {با درخواست} (dmz.west |- rem.east);
+  \node[note, anchor=north, text width=120mm] at (6.0,-1.3) {هر پیکان یک مجرا با هدف، مالک و یک قاعده است؛ هر مسیری که کشیده نشده بسته است. شبکهٔ کسب‌وکار هیچ مجرایی به ناحیهٔ کنترل ندارد};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,14 @@
+can people leave before the smoke? ASET vs RSET (control building)
+  required safe egress time (RSET), seconds
+    detection (aspirating)               30
+    alarm and recognition                30
+    pre-movement (stop, collect)         60
+    walk 25 m at 1.2 m/s                 21
+    queue at one door (30 people)        23
+  RSET 164 s; ASET (smoke at 2 m, 300 kW fire, lesson P) 138 s
+  as drawn the smoke wins by 26 s
+  second exit and drilled 'leave now': RSET 123 s, margin 15 s
+  the same with a heat detector (detection 120 s): margin -75 s
+  pre-movement - people finishing a task - is the largest
+  part: drills and a second exit turn the result round;
+  slow detection undoes it - the three work together

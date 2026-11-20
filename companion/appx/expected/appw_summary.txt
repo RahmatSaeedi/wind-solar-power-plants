@@ -1,0 +1,6 @@
+standards register: 191 rows; verified between 2026-11-14 and 2026-11-18
+  by issuing body: IEC 115, ISO 43, other 16, IEEE 9, IPC 3, CENELEC 2, NFPA
+    2, UL 1
+  rows marked 'confirm' (edition, status or a reported revision): 39
+  each row: designation, edition with amendments, official catalogue page,
+  date verified; '*' marks a row with an item to confirm

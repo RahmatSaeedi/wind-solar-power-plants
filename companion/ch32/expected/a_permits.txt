@@ -1,0 +1,14 @@
+permits open on one day at T03 and the checks between them
+  id     kind                   area              isolation points
+  P-101  electrical isolation   WS2 feeder        Q-WS2, T03-Q1
+  P-102  work at height         T03 nacelle       T03-Q1
+  P-103  lifting                T03 pad           -
+  P-104  hot work               T03 tower base    -
+  P-105  confined space         T03 hub           T03-Q1
+  isolation points shared by several permits:
+    T03-Q1: P-101, P-102, P-105 - de-isolate only after all close
+  simultaneous operations: the lift (P-103) over the tower
+  base puts the hot work (P-104) and anyone at the door under
+  a suspended load - the permit office sees both, sequences
+  them, and names who coordinates; a permit is a
+  conversation about one job among others, not a form

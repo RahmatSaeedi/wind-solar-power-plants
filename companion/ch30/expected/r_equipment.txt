@@ -1,0 +1,12 @@
+a circuit breaker on its support in an earthquake (teaching)
+  mass 1,800 kg at 3 m; ground acceleration ag 0.25 g
+  support          stiffness kN/m   f Hz   spectral acc. g   base shear kN
+  stiff column              4,000    7.5              0.62            11.0
+  slender column              900    3.6              0.62            11.0
+  braced frame             20,000   16.8              0.51             9.1
+  rigid pedestal           80,000   33.6              0.25             4.4
+  equipment between about 1 and 10 Hz sits on the plateau of
+  the spectrum and feels 2.5 times the ground; a stiff
+  support above about 33 Hz moves with the ground. The
+  porcelain, not the steel, is usually the weak part: the
+  maker's qualification and the support are checked together

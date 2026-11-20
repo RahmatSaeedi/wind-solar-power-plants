@@ -1,0 +1,8 @@
+cell temperature above the cold plate at 0.5 C (teaching):
+  path resistance K/W   rise K
+                  0.3      3.0
+                  0.6      5.9
+                  1.2     11.8
+  (heat 9.9 W a cell)
+  a poor thermal pad or a gap doubles the rise; the spread
+  between cells (section B) comes from these paths

@@ -1,0 +1,7 @@
+supplier change notice: lug plating changed from day 18
+  first lot after the change: L-2209
+  used in: S-09, S-10 - without first-article tests
+  rule: a change to a critical part needs notice before
+  shipment, first-article inspection and the buyer's
+  release; here: pull tests on retained lugs of the lot
+  and resistance checks on the two skids before release

@@ -1,0 +1,19 @@
+construction trucks past the village school (peak month, teaching)
+  hour   trucks   school run
+     6        4
+     7       10   yes
+     8       14
+     9       12
+    10       10
+    11        9
+    12        6
+    13        9   yes
+    14       11
+    15       12
+    16       10
+    17        6
+    18        3
+  116 trucks a day; 19 pass in the two school hours
+  holding them for those two hours moves them into the next,
+  with a marshal at the crossing and a lower speed limit
+  through the village - agreed with the village, not imposed

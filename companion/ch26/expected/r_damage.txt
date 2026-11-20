@@ -1,0 +1,12 @@
+the relay protects the cable: feeder curve against the cable's
+  damage curve t = (k S / I)^2 (240 mm2 Al, k 94)
+  fault kA   cable withstands s   feeder relay s   margin x
+      2.00                127.2             0.54        234
+      4.68                 23.2             0.36         64
+      7.75                  8.5             0.30         28
+     12.50                  3.3             0.27         12
+  the relay (plus the breaker) clears every fault long before
+  the cable's conductor reaches its short-circuit limit; the
+  check is repeated with the backup (incomer) time, which
+  must also stay under the curve - and for the screen with
+  the earth-fault current and the standby time

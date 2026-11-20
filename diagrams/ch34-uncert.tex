@@ -1,0 +1,14 @@
+% Chapter 34 - standard uncertainty of the POC voltage seen by the controller, by source and combined
+% (examples_a, diagrams/data/ch34-uncert.csv; teaching accuracies).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, ybar, bar width=12mm, xmin=0.4, xmax=4.6, ymin=0, ymax=0.4,
+      xtick={1,2,3,4}, xticklabels={ترانسفورماتورِ ولتاژ, مبدلِ اندازه‌گیری, کارتِ ورودی, ترکیب},
+      ylabel={درصدِ مقدار}, yticklabel style={/pgf/number format/fixed},
+      nodes near coords, nodes near coords style={font=\scriptsize, /pgf/number format/fixed,
+        /pgf/number format/precision=3}]
+    \addplot[fill=cLoad!40, draw=cLoad] table[x=k, y=pct, col sep=comma] {data/ch34-uncert.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

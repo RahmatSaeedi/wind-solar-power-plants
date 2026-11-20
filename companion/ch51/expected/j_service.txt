@@ -1,0 +1,6 @@
+upward reserve REQ-S01 over a month: 120 window hours
+  held 113, not held 7 (SOC below the floor 4, link lost 3)
+  availability 94.2% against the 95% teaching target - below it
+  the three hours with the link lost were declared unavailable
+  at once, as the service rules ask: a service not deliverable
+  is suspended and reported, never left to look available

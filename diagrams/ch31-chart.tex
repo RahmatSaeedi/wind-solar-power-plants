@@ -1,0 +1,17 @@
+% Chapter 31 - teaching crawler-crane load chart (capacity against radius at 112 m hook height)
+% with the five planned lifts as points (load + rigging at their radius)
+% (diagrams/data/ch31-chart.csv from companion/ch31/examples_b.py, b_chart).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=10, xmax=42, ymin=0, ymax=270,
+      xlabel={شعاع $(\text{m})$}, ylabel={ظرفیت یا بار $(\text{t})$}, xmajorgrids=true,
+      legend pos=north east, legend cell align=right]
+    \addplot[sWind, mark=*, mark size=1.2pt] table[x=r, y=c, col sep=comma] {data/ch31-chart.csv};
+    \addplot[only marks, mark=triangle*, mark size=2.4pt, color=cLoss] coordinates {(14,130) (18,54) (16,168) (20,120) (12,78)};
+    \legend{جدولِ بارِ جرثقیل, بالابری‌های برنامه‌ریزی‌شده}
+    \node[note, anchor=south west] at (axis cs:16.3,168) {ناسل};
+    \node[note, anchor=north west] at (axis cs:20.3,118) {روتور};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

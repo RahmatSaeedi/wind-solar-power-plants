@@ -1,0 +1,13 @@
+critical interfaces: what is checked and who owns it
+  interface             check                                owners
+  blade - hub           bolt circle, flatness, preload       blade, hub
+  hub - main shaft      flange fit, bolt preload             hub, nacelle
+  gearbox - bedplate    torque arm elastomers, alignment     nacelle
+  gearbox - generator   coupling alignment                   nacelle
+  nacelle - tower       yaw flange flatness, bolt circle     nacelle, tower
+  tower sections        flange flatness, bolts               tower (ch 30)
+  tower - foundation    anchor cage, grout, levelness        civil (ch 30)
+  each interface has two owners and one drawing; the check is
+  done where the two parts first meet - in a factory for
+  blade inserts, on the site for the tower flanges - and its
+  record names both parts' serials

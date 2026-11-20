@@ -1,0 +1,9 @@
+heritage buffers and chance finds (teaching)
+  site       buffer m   nearest planned works m   ok?
+  cemetery        300                       400   yes
+  ruin            200                       120   NO
+  expected chance finds in 45 km of trenches at 0.04 a km: 1.8
+  the ruin's buffer is breached by the corridor works: the
+  route moves or the works are watched by an archaeologist;
+  every crew knows the chance-find rule - stop, protect,
+  report - and the authority decides what happens next

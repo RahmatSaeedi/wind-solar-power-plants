@@ -1,0 +1,19 @@
+D-055 -> D-056 maintenance and RAM basis (teaching, Plant P)
+  1. strategy by class from consequence and failure pattern;
+     condition-based for turbines' major parts, transformers, line
+  2. preventive plan: 4,683 h a year; outage work in low-resource
+     months (turbine services in June, not December)
+  3. RAM case inside the boundary units -> POC meter: energy
+     availability 97.97 %; model 15.1's 98.42 % is optimistic
+  4. spares by Poisson and expected loss: two inverters, one
+     major turbine kit; transformer spare by loss (shared, ch 18)
+  5. daily peer-ratio CUSUM per PV block and per turbine
+  6. cleaning: truck + brush with RO water at night, trigger by
+     measured soiling (ch 10); no high-pressure lance
+  7. export assets: boundary, inspection plan and spares agreed
+     with the network owner; insulators held on site
+  8. CMMS: hierarchy complete, codes and test records required to
+     close, warranty claims from complete orders; monthly
+     reconciliation with SCADA events
+  open: U-133 (makers' maintenance manuals, failure data and
+  service-agreement terms; network owner's boundaries)

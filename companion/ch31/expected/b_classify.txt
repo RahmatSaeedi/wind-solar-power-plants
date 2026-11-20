@@ -1,0 +1,12 @@
+lift classification (teaching rules: critical if use > 0.8, tandem,
+  or near live parts; complex if use > 0.6; otherwise routine)
+  lift                          use    class      approved by
+  tower section 1               0.57   critical   lift engineer + site manager
+  tower section 4               0.28   routine    crane supervisor
+  nacelle                       0.80   complex    appointed person (lifts)
+  rotor (hub + blades)          0.67   critical   lift engineer + site manager
+  main transformer onto plinth  0.31   critical   lift engineer + site manager
+  the class decides who writes and who signs the lift plan;
+  a tandem lift or a lift near live equipment is critical
+  whatever its utilisation - the rules are the project's
+  lifting procedure, not this table

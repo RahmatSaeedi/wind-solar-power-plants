@@ -1,0 +1,11 @@
+close and open times of the breakers (ms), pole spread limit 3.0 ms (teaching)
+  panel   close L1/L2/L3        spread   open L1/L2/L3        spread
+  WS1      55.1/ 55.4/ 55.0      0.4    32.2/ 32.5/ 32.1      0.4
+  WS2      55.6/ 55.2/ 55.3      0.4    32.0/ 32.3/ 32.4      0.4
+  WS3      55.3/ 59.8/ 55.2      4.6    32.1/ 32.2/ 32.6      0.5
+  PVF1     55.0/ 55.5/ 55.2      0.5    32.4/ 32.0/ 32.3      0.4
+  over the spread limit: WS3 (pole L2 closes 4.6 ms late)
+  a late pole closes the circuit on two phases for a few
+  milliseconds: a mechanism adjustment the factory makes and
+  records before shipment, and a baseline for site and
+  maintenance timing later (ch 52)

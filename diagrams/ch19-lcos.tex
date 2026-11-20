@@ -1,0 +1,15 @@
+% Chapter 19 - levelised cost of storage of two teaching offers split into capital and operating
+% parts (A-298). Data: diagrams/data/ch19-lcos.csv (companion/ch19/examples_p.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=90mm, height=62mm, ybar stacked, bar width=14mm, xmin=0.4, xmax=2.6,
+      ymin=0, ymax=200, ylabel={واحد بر مگاوات‌ساعت}, xtick={1,2}, xticklabels={پیشنهادِ X, پیشنهادِ Y},
+      ytick={0,50,...,200}, xmajorgrids=false, area legend, legend columns=1,
+      legend style={at={(1.04,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[draw=cBESS, fill=cBESS!40] table[x=o, y=capex, col sep=comma] {data/ch19-lcos.csv};
+    \addplot[draw=cInkB, fill=cInkB!25] table[x=o, y=opex, col sep=comma] {data/ch19-lcos.csv};
+    \legend{سرمایه, بهره‌برداری}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

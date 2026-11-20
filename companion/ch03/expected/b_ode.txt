@@ -1,0 +1,9 @@
+cable temperature rise after a load step: tau = 1800 s, final rise 40 K
+  dt (s)  Euler err (K)   RK4 err (K)  at t = 3600 s
+     900         2.9134     -8.58e-03
+     600         1.9018     -1.47e-03
+     300         0.9271     -8.00e-05
+      60         0.1814     -1.15e-07
+exact rise at 3600 s: 34.5866 K (1 - e^-2 of the final value)
+Euler with dt = 4500 s (> 2 tau): 0, 100, -50, 175, -162, 344, -416 ...
+    (oscillates and grows)

@@ -1,0 +1,13 @@
+flow at the grid substation's 132 kV bus (Plant P export minus
+  the regional load; positive = flowing up into the network):
+  hours flowing up 4652; energy up 116.2 GWh
+  local use of the plant's energy 179.1 GWh of 295.3 GWh
+  largest upward flow 82.8 MW; upstream limit 90 MW (teaching)
+  hours above the limit 0; energy above it 0.00 GWh
+  if the network beyond could take less (teaching limits):
+    50 MW:  368 h above,  4.50 GWh to curtail
+    60 MW:  210 h above,  1.63 GWh to curtail
+    70 MW:   67 h above,  0.28 GWh to curtail
+    80 MW:    7 h above,  0.01 GWh to curtail
+  a bounded check, not a study: if the network beyond cannot take
+  the flow, the operator limits the plant (chapter 15 curtailment)

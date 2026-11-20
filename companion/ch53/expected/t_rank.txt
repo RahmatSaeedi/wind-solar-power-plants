@@ -1,0 +1,5 @@
+repowering footprint per kWh if it yields 80% of the expected energy
+  4.89 -> 6.11 g CO2e/kWh; repair 0.89, replacement 1.43
+  the ranking does not move; per-kWh footprints rise as energy
+  falls, which is why the energy assumption is stated beside
+  every footprint number

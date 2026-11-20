@@ -1,0 +1,14 @@
+eddy loss of strips in the axial leakage field
+  (peak 0.166 T in the gap at rated)
+  strand mm   eddy / DC loss (axial field only)
+        1.0   0.69%
+        1.5   1.55%
+        2.0   2.76%
+        2.5   4.30%
+        3.0   6.20%
+  the axial field alone gives a few per cent; at the winding
+  ends the leakage flux bends radially and strikes the wide
+  face of the strip, adding several times more - hence thin
+  strands transposed along the winding (CTC) and the larger
+  teaching share of ch 25; the maker's field calculation
+  places the hot spots

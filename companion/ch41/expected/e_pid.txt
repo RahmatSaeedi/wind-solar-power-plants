@@ -1,0 +1,10 @@
+potential of each module to the frame, string at MPP 1091 V
+  earthing of the DC side       modules below -300 V   lowest V
+  floating, symmetric                               6       -524
+  negative pole earthed                             0         21
+  positive pole earthed                            19      -1070
+  cells far below the frame's potential can lose power by
+  ion drift (PID): the module's PID test result (IEC TS
+  62804-1) and the inverter's earthing scheme are chosen
+  together; an inverter without isolation cannot earth a
+  pole, and night-time offset is a maker's option to ask

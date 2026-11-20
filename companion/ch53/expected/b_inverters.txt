@@ -1,0 +1,7 @@
+PV inverter fleet (10 units): failures a unit-year, years 13-18
+  0.5 0.6 0.7 0.9 1.2 1.6
+  growth slope over years 13-18: 1.45 (above 1: failures thickening)
+  maker's support ends after year 21: spares and firmware
+  stop while the plant has 7 years to run (ch 52 obsolescence)
+  - a fleet that is wearing out AND losing support is a
+  replacement candidate, whatever its repair cost today

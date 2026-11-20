@@ -1,0 +1,19 @@
+inventory of case S0 (t CO2e, teaching factors)
+  item                                    amount        factor     t CO2e
+  PV modules (kWp)                           60,000         450     27,000
+  inverters and transformers (kW)            50,000          45      2,250
+  PV structures, steel (t)                    2,900       2,000      5,800
+  turbines excl. tower (MW)                      60     300,000     18,000
+  towers, steel (t)                           4,464       2,000      8,928
+  foundations, concrete (m3)                 10,716         300      3,215
+  rebar (t)                                   1,068       1,900      2,029
+  cables, aluminium (t)                         450       9,000      4,050
+  cables, copper (t)                             60       4,000        240
+  transport, sea and road (t km x 1e3)       40,000          25      1,000
+  construction diesel (m3)                      900       2,700      2,430
+  manufacture and construction                                   74,942
+  replacements (8 %)                                              5,995
+  operation over 25 years                                         9,315
+  end-of-life credit (shown apart)                               -3,747
+  modules and turbines dominate; operation is small because
+  the plant powers itself most of the time

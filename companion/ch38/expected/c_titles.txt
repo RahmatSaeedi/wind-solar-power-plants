@@ -1,0 +1,11 @@
+title-block and reference check of five drawings (planted gaps)
+  drawing           missing
+  one-line          -
+  wiring B07        scale
+  network ring 2    legend, references
+  foundation B07    revision, checker
+  panel PPC         references
+  6 gaps in five drawings; a drawing without a revision
+  cannot be matched to the register, one without a legend
+  makes its reader guess what a symbol means, one without
+  continuation references leaves a line that ends nowhere

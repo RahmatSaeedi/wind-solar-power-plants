@@ -1,0 +1,11 @@
+the loop of a PV string and a strike 100 m away (20 kA/us, teaching)
+  string length about 59 m; induced voltage U = mu0 A di/dt / (2 pi d)
+  routing of + and -                 loop m2   induced kV
+  + and - on opposite table edges      118.6         4.74
+  separate, 0.5 m apart                 29.6         1.19
+  together in one tray                   3.0         0.12
+  the induced voltage scales with the loop's area: running the
+  + and - conductors of a string side by side shrinks the
+  loop forty times and keeps the voltage below what the
+  module and inverter insulation and their SPDs handle; the
+  layout rule is cheap at design and costly to change later

@@ -1,0 +1,12 @@
+rack voltage while discharging at 0.5 C against the PCS window
+  (full power above 1,150 V, A-296):
+  SOC %   new V    end of life V   PCS power new   end of life
+     10    1,297          1,276            100 %         100 %
+     20    1,312          1,292            100 %         100 %
+     50    1,326          1,305            100 %         100 %
+     80    1,339          1,318            100 %         100 %
+     90    1,351          1,330            100 %         100 %
+  above 1,150 V the PCS gives full power; the rack stays above
+  it across the window even at end of life, so the window is
+  not cut by the PCS; with fewer cells in series it would be:
+  the DC window is an interface between two makers

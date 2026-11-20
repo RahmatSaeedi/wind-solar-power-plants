@@ -1,0 +1,9 @@
+main against check meter at the POC: daily difference in %
+  (60 days, synthetic)
+  days 0-29: slope -0.0000 % a day (no trend)
+  days 30-59: slope +0.0112 +/- 0.0012 % a day
+  the trend is significant by day 37; the difference first
+  passes 0.3 % on day 53
+  the trend shows a meter drifting weeks before the limit is
+  crossed; which meter drifts is found by the site test of
+  both - the check meter exists to make this comparison

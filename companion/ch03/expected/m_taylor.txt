@@ -1,0 +1,15 @@
+small-angle approximations: sin x ~ x, cos x ~ 1 - x^2/2 (x in rad)
+   5 deg: sin x = 0.08716, x = 0.08727 (+0.13 %); cos x = 0.99619, 1 - x^2/2 =
+    0.99619
+  10 deg: sin x = 0.17365, x = 0.17453 (+0.51 %); cos x = 0.98481, 1 - x^2/2 =
+    0.98477
+  20 deg: sin x = 0.34202, x = 0.34907 (+2.06 %); cos x = 0.93969, 1 - x^2/2 =
+    0.93908
+  30 deg: sin x = 0.50000, x = 0.52360 (+4.72 %); cos x = 0.86603, 1 - x^2/2 =
+    0.86292
+  v^3 near 7 m/s, change 3.5 %: exact +10.87 %, linear 3 dv/v +10.50 %,
+    quadratic +10.87 %
+  v^3 near 7 m/s, change 7.0 %: exact +22.50 %, linear 3 dv/v +21.00 %,
+    quadratic +22.47 %
+  v^3 near 7 m/s, change 14.0 %: exact +48.15 %, linear 3 dv/v +42.00 %,
+    quadratic +47.88 %

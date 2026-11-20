@@ -1,0 +1,9 @@
+one main transformer failed: three ways back (teaching, k u)
+  option                         cost   months out   energy lost   total
+  repair in a factory              900          8.0          2480    3380
+  new transformer                 2000         14.0          4340    6040
+  pool spare now, repair later    1050          1.5           465    1515
+  the new unit's total is after a 300 k u credit for its longer
+  life; the months out cost more than the hardware - a share in
+  a spare pool (ch 18) is worth its fee if failures like this
+  are possible at all; the insurer's terms (ch 39) enter too

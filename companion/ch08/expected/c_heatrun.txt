@@ -1,0 +1,5 @@
+heat run, resistance method (A-121): cold 1.842 mohm at 18 C,
+  hot 2.296 mohm at shut-down -> winding 80.2 C average
+  coolant 36 C: temperature rise 44.2 K
+  compare with the rise the specification allows for the thermal
+  class: the specification, not this book, states the limit

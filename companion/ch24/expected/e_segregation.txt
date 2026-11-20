@@ -1,0 +1,14 @@
+segregation of critical circuits (concepts, teaching):
+  protection and trip circuits (DC):
+    own trays, screened, two routes for duplicated systems
+  UPS and SCADA supplies:
+    separate from power cables; fire-rated where the route needs
+  emergency supplies (generator, ATS):
+    own route from the generator to the essential half
+  LV power:
+    trays by voltage class, spacing for heat
+  33 kV cables:
+    own trench or duct bank, warning tape, marker posts
+  segregation keeps one fault or one fire from taking out a
+  circuit and its backup together; the fire design (ch 31)
+  sets where fire-rated routes are required

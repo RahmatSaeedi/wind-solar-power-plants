@@ -1,0 +1,18 @@
+% Chapter 8 - winding and core temperature during a 15-min gust at 130 % current (two-node
+% model, A-132). Data: diagrams/data/ch08-gust.csv (companion/ch08/examples_more2.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=62mm,
+      xlabel={زمان، دقیقه}, ylabel={دما، $^\circ\text{C}$},
+      xmin=0, xmax=180, ymin=50, ymax=105, xtick={0,30,...,180}, ytick={50,60,...,100}]
+    \fill[cLoss!8] (axis cs:60,50) rectangle (axis cs:75,105);
+    \addplot[sLoss] table[x=t_min, y=tw, col sep=comma] {data/ch08-gust.csv};
+    \addlegendentry{سیم‌پیچ}
+    \addplot[sInk] table[x=t_min, y=tc, col sep=comma] {data/ch08-gust.csv};
+    \addlegendentry{هسته}
+    \node[note, anchor=south] at (axis cs:67.5,100) {تندباد};
+    \node[note, text=cInk, anchor=west] at (axis cs:78,97.5) {بیشینه $97.8$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

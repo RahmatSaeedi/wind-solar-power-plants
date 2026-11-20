@@ -1,0 +1,11 @@
+42 technical queries open at the status date, by days open
+  days       count
+  0-7            7
+  7-14          15
+  14-30         15
+  30-60          5
+  >=60           0
+  older than the 14-day reply time: 18; mean 15.9 days
+  a query that waits holds a drawing that waits for it;
+  the log names who must answer, and the old ones go to
+  the weekly interface meeting by name

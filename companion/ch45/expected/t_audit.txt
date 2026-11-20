@@ -1,0 +1,14 @@
+audit of the fictional cell maker, scored 0-5 from this chapter's findings
+  item                           score   weight   floor
+  coating control (Cpk)            2.0        2     2.5
+  dry room records                 4.0        1       -
+  formation and rest records       2.5        2     3.0
+  grading data file                3.0        1       -
+  traceability                     4.5        2     3.0
+  change control                   3.5        1       -
+  hazard control                   4.0        1       -
+  weighted score 3.25 of 5; below a floor:
+    coating control (Cpk), formation and rest records
+  a good average does not pass a maker who fails a floor: the
+  rest records and the coating line B are corrective actions
+  with dates before the next lot is accepted (ch 39)

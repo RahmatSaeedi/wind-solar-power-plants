@@ -1,0 +1,12 @@
+calibration interval from as-found records (40 transmitters, synthetic)
+  drift 0.071 +/- 0.027 % a year; tolerance 0.5 %, as-left 0.1 %
+  interval yr   share still in tolerance at its end
+            2      100.0 %
+            3       98.9 %
+            4       86.0 %
+            5       63.6 %
+            6       44.4 %
+  for 95 % in tolerance at the end, the interval is 3 years
+  the mean drift alone would allow longer; the spread of
+  the fleet sets the interval - the records of as-found
+  values are what lengthen it, or shorten it, next time

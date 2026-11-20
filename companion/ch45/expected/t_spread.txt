@@ -1,0 +1,9 @@
+lot of 2000 cells in a battery of 768 modules of 52 cells
+  modules holding the lot if it is kept together: 39
+  modules holding the lot if lots are mixed at random: 718
+  a recall of the lot opens 39 modules in the first
+  case and 718 in the second (93% of the battery);
+  mixing spreads a bad lot thinly - fewer weak cells in one
+  module - but makes every lot problem a battery-wide one; kept
+  together, with the lot written on the module, a recall stays
+  small

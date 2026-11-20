@@ -1,0 +1,7 @@
+a cell lot found contaminated: which modules hold its cells?
+  lot of 24,000 cells; 72 full cells a module; 2,400 modules a day
+  traced to the lot: 334 modules
+  traced only to the day: 2,400 modules
+  lot-level genealogy (cell box scanned at the stringer) cuts
+  the suspect set 7.2 times; the modules at a lot change
+  hold cells of two lots and belong to both suspect sets

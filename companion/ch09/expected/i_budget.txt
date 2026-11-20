@@ -1,0 +1,15 @@
+loss and thermal budget of one 5 MW inverter at 5.5 MVA, pf 0.909 (A-165):
+  semiconductors (4 stacks x 3 NPC legs)       49.6 kW (59.2 %)
+  LCL inductors L1 and L2 (copper and core)    19.2 kW (23.0 %)
+  filter damping resistors                      3.7 kW ( 4.4 %)
+  DC-link capacitors (ESR)                      0.2 kW ( 0.2 %)
+  busbars, cables, contactors                   4.4 kW ( 5.3 %)
+  control, gate drives, sensors                 1.2 kW ( 1.4 %)
+  fans, pumps, cabinet cooling                  5.5 kW ( 6.6 %)
+  total 83.8 kW; efficiency at 5 MW 0.9835
+  hottest device T1: 988 W per position, two modules in parallel,
+    R_th junction-to-coolant 0.060 K/W each:
+    mean junction 75 C at 45 C coolant,
+    plus a ripple of about 10 K at 50 Hz (section A): well below
+    the data-sheet limit, a margin for hot days and ageing
+  coolant flow for a 6 K rise: 3.9 kg/s; heat to air outside the skid

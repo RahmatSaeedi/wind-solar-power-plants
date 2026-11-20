@@ -1,0 +1,9 @@
+pulse resistance measured on cells between 21 and 29 C, limit 265 uohm at 25 C
+  (teaching coefficient -1.5%/K); 2000 cells
+  method                      over limit   wrongly passed   wrongly failed
+  raw reading                        155                5              149
+  corrected to 25 C                   11                0                0
+  a cold cell reads high and a warm one low: grading compares
+  resistances at one temperature, so each reading carries
+  the cell's temperature and the correction; the better
+  control is to let cells settle before the test

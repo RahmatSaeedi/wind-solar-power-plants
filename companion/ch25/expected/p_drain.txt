@@ -1,0 +1,10 @@
+draining the bund to the separator tank (teaching):
+  22 m3 of oil in 10 min: 37 L/s
+  pipe mm   velocity m/s
+      150           2.07
+      200           1.17
+      250           0.75
+  a burning pool drained fast stops feeding the fire: gravel
+  in the bund quenches flames, the pipe and the separator take
+  the oil (and the rain, lesson F) away - the separator
+  then keeps the oil from the drainage system

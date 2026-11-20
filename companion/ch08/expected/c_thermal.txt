@@ -1,0 +1,7 @@
+stator copper loss 63.5 kW, winding-to-coolant resistance 0.7 K/kW (A-121):
+  rise 44.4 K over 40 C coolant -> winding 84.4 C (average)
+  a hot spot about 10 K above average: 94.4 C
+  at 100 % current: rise 44.4 K, life x 1.00
+  at 110 % current: rise 53.8 K, life x 0.44
+  at 120 % current: rise 64.0 K, life x 0.19
+thermal time constant 45 min: a short overload heats slowly

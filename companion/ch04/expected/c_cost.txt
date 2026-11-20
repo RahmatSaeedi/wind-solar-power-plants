@@ -1,0 +1,7 @@
+connector housing: machining vs injection moulding (fictional costs, A-060)
+  machining:  4.0 + 60.0 x 0.25 h = 19.00 per part, no tooling
+  moulding:   0.8 + 80.0 x 0.01 h = 1.60 per part + tool 25,000
+  break-even volume 1,437 parts
+     100 parts: machining  19.00, moulding 251.60 per part
+   1,000 parts: machining  19.00, moulding  26.60 per part
+  10,000 parts: machining  19.00, moulding   4.10 per part

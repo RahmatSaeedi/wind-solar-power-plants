@@ -1,0 +1,15 @@
+joining an island back to the grid (synchronising check, teaching)
+  slip Hz   angle deg/s   +/-10 deg window s   80 ms breaker travel deg
+     0.05            18                 1.11                        1.4
+     0.10            36                 0.56                        2.9
+     0.20            72                 0.28                        5.8
+  power surge on closing through x = 0.2 pu (island rating 20 MVA)
+  angle deg   surge pu   surge MW
+          5       0.44        8.7
+         10       0.87       17.4
+         20       1.71       34.2
+  black start: a 63 MVA main transformer draws ~315 MVA of inrush
+  (5 x rated, teaching) against 24 MVA a 20 MVA battery can give;
+  it needs soft energisation (voltage raised from zero) designed
+  into both - Plant P offers neither black start nor islanded
+  export (D-024); a study and tests would come first

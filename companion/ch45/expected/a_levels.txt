@@ -1,0 +1,10 @@
+energy and mass from cell to container (mass overheads teaching)
+  level        cells    kWh      mass kg   Wh/kg
+  cell             1      1.0           6     179
+  module          52     52.2         344     152
+  rack           416    418.0        3028     138
+  container     4992   5016.0       44728     112
+  system: 8 containers, 39,936 cells, 40.13 MWh (ch 19: 40.13)
+  each level adds structure, cooling, wiring and protection:
+  the cell's energy density is not the system's - a buyer
+  compares containers by usable MWh at the PCS, not cells

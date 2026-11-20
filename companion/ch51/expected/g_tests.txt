@@ -1,0 +1,12 @@
+fire-system inspections and tests against their intervals (day 365)
+  system                           interval d  since last d
+  detection loops                          90           245  OVERDUE
+  control-room gas extinguishing          180           155
+  fire pumps (weekly run)                   7             4
+  hydrants                                365           335
+  battery container detection              90           115  OVERDUE
+  emergency lighting                       30            65  OVERDUE
+  3 overdue: each is an impairment until done - with an
+  owner, a compensating measure and a notice (ch 32, ch 49);
+  the detection loops are the most overdue, and they are the
+  ones every other function depends on

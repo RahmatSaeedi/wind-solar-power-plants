@@ -1,0 +1,10 @@
+impairment register for one year (teaching)
+  impairment                               hours  compensating measure
+  building smoke detection, panel repair      36  fire watch, no hot work
+  BESS-3 off-gas detector, replacement        72  container stopped, isolated
+  fire-service road, culvert works           120  second route marked, notice
+  tank reserve below 180 m3 after a test      20  refill first, tanker on call
+  248 impairment hours, each with a named owner, a
+  compensating measure and notice to the insurer and fire
+  service where the strategy requires it; an impairment
+  without a measure is a hidden gap in the protection

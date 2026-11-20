@@ -1,0 +1,32 @@
+% Chapter 8 - one slot with two form-wound coil sides: strand and turn insulation, groundwall,
+% slot liner, separator and wedge (simplified, not to scale).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  % teeth
+  \fill[cInkB!35] (-1.8,0) rectangle (-1.1,6.2);
+  \fill[cInkB!35] (1.1,0) rectangle (1.8,6.2);
+  \fill[cInkB!35] (-1.8,-0.6) rectangle (1.8,0);
+  % slot liner
+  \draw[cBESS, line width=1.6pt] (-1.02,0.05) -- (-1.02,5.6) (1.02,0.05) -- (1.02,5.6) (-1.02,0.05) -- (1.02,0.05);
+  % wedge
+  \fill[cPV!45] (-1.1,5.65) rectangle (1.1,6.05);
+  % two coil sides
+  \foreach \y in {0.25,2.95} {
+    \fill[cWind!25] (-0.9,\y) rectangle (0.9,\y+2.45);
+    \foreach \k in {0,1,...,4} {
+      \fill[cLoad!75] (-0.55,\y+0.3+\k*0.44) rectangle (0.55,\y+0.6+\k*0.44);
+    }
+  }
+  % separator
+  \fill[cInk] (-0.9,2.74) rectangle (0.9,2.86);
+  % labels (to the left: Persian reads right to left)
+  \draw[cInkB, line width=0.4pt] (0.55,1.2) -- (2.4,1.2) node[note, text=cInk, anchor=west] {هادی با عایقِ رشته و دور};
+  \draw[cInkB, line width=0.4pt] (0.85,2.2) -- (2.4,2.2) node[note, text=cInk, anchor=west] {دیوارهٔ زمین (عایقِ اصلی)};
+  \draw[cInkB, line width=0.4pt] (0.0,2.8) -- (2.4,3.2) node[note, text=cInk, anchor=west] {جداکنندهٔ دو کلاف};
+  \draw[cInkB, line width=0.4pt] (1.02,4.4) -- (2.4,4.4) node[note, text=cInk, anchor=west] {عایقِ شیار};
+  \draw[cInkB, line width=0.4pt] (0.6,5.85) -- (2.4,5.85) node[note, text=cInk, anchor=west] {گوه};
+  \draw[cInkB, line width=0.4pt] (-1.45,3.0) -- (-2.6,3.0) node[note, text=cInk, anchor=east] {دندانهٔ هسته (زمین)};
+  \node[note, anchor=north] at (0,-0.65) {یوغ};
+\end{tikzpicture}}
+\end{document}

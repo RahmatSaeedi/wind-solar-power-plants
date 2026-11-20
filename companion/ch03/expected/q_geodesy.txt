@@ -1,0 +1,17 @@
+points as (latitude deg N, longitude offset from the reference meridian, deg)
+  (fictional, A-041; Plant P is not geolocated)
+  T1          34.0000 N  lambda0 +0.0000  ->  east     0.0 m, north     0.0 m
+  T2          34.0000 N  lambda0 +0.0081  ->  east   746.7 m, north     0.0 m
+  T3          34.0061 N  lambda0 +0.0040  ->  east   368.7 m, north   678.3 m
+  mast        33.9985 N  lambda0 -0.0060  ->  east  -553.1 m, north  -166.8 m
+  substation  33.9850 N  lambda0 +0.0200  ->  east  1843.7 m, north -1667.9 m
+distances and bearings (haversine on a sphere, R = 6371.0 km):
+  T1-T2:   746.7 m (flat patch   746.7 m), bearing  90.0 deg, 4.98 D
+  T1-T3:   772.0 m (flat patch   772.0 m), bearing  28.5 deg, 5.15 D
+  T1-substation:  2486.3 m (flat patch  2486.2 m), bearing 132.1 deg, 16.58 D
+  mast-T1:   577.7 m (flat patch   577.7 m), bearing  73.2 deg, 3.85 D
+one degree of latitude 111.20 km; one degree of longitude at 34 N 92.18 km (x
+    cos 34 = 0.8290)
+  T1-T2 with 'degrees x 111 km': 901 m instead of 747 m (+20.6 %)
+  the T1-T2 row (bearing 90/270 deg) lies within 13 deg of the prevailing
+    wind axis (from 283 deg): T2 sits in the wake of T1 at about 5 D

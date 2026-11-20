@@ -1,0 +1,19 @@
+% Chapter 44 - thermal stack of one IGBT module position: junction, case, interface layer, cold plate
+% and coolant as series resistances with the designed values (companion/ch44/sources.py STACKUP;
+% teaching values). Drawn right to left for RTL readers.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    nd/.style={blk, minimum width=21mm, minimum height=9mm, text width=19mm, align=center}]
+  \node[nd] (j) at (0,0) {پیوند \\ $74.5\,^\circ\mathrm{C}$};
+  \node[nd] (c) at (-3.3,0) {پیوند تا بدنه \\ $0.028$};
+  \node[blkWarn, minimum width=21mm, minimum height=9mm, text width=19mm, align=center] (t) at (-6.6,0) {لایهٔ رابط \\ $0.0156$};
+  \node[nd] (p) at (-9.9,0) {صفحهٔ سرد \\ $0.016$};
+  \node[blkWind, minimum width=21mm, minimum height=9mm, text width=19mm, align=center] (w) at (-13.2,0) {خنک‌کن \\ $45\,^\circ\mathrm{C}$};
+  \draw[flow] (j) -- (c);
+  \draw[flow] (c) -- (t);
+  \draw[flow] (t) -- (p);
+  \draw[flow] (p) -- (w);
+  \node[note, anchor=north] at (-6.6,-0.9) {مقاومت‌های گرمایی به کلوین بر وات؛ ۴۹۴ وات در ماژولِ کلیدِ بیرونی};
+\end{tikzpicture}}
+\end{document}

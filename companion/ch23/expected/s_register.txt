@@ -1,0 +1,22 @@
+electrical documents of the design stage (register extract):
+  number             title                                       status
+  PLP-ELE-DWG-0001   inverter skid block diagram (ch 9)          concept
+  PLP-ELE-DWG-0002   PV block layout (ch 10)                     concept
+  PLP-ELE-DWG-0003   export route options and corridor (ch 14)   concept
+  PLP-ELE-DWG-0004   architecture diagrams (ch 18)               concept
+  PLP-ELE-DWG-0005   one-line diagram, plant                     IFR
+  PLP-ELE-DWG-0006   one-line diagram, 33 kV sections            IFR
+  PLP-ELE-DWG-0007   station-service and DC one-line             IFR
+  PLP-ELE-DWG-0008   export bay arrangement (ch 25)              IFR
+  PLP-ELE-LST-0004   equipment schedule                          IFR
+  PLP-ELE-LST-0005   auxiliary load register                     IFR
+  PLP-ELE-LST-0006   interface register                          IFR
+  PLP-ELE-CAL-0008   auxiliary sizing and DC autonomy            IFR
+  PLP-ELE-REP-0007   plant-to-grid boundary report               IFR
+  PLP-ELE-REG-0001   open items of the one-line                  live
+  14 entries; at this design stage nothing is IFC yet - the
+  32-entry register of lesson C is a later stage; an entry is
+  the only way a drawing exists for the project: it gives the
+  number, the revision, the status and who holds the latest
+  copy; the open-items register stays 'live' until the last
+  item is closed

@@ -1,0 +1,12 @@
+PV row pitch on sloping ground, tables 4.56 m at 25 deg, same limiting
+  sun angle as the flat design (14.8 deg at 11.4 m pitch):
+  ground slope        pitch m   GCR    land against flat
+  5 % to the south      9.59    0.475   -15.9 %
+  3 % to the south     10.24    0.445   -10.2 %
+  flat                 11.40    0.400    +0.0 %
+  +3 % to the north    12.86    0.354   +12.8 %
+  +5 % to the north    14.05    0.324   +23.3 %
+  +8 % to the north    16.33    0.279   +43.3 %
+  a slope falling to the north lowers each row behind the one in
+  front: more pitch, more land; a southern slope lets rows close
+  up; the block goes on flat or south-facing ground

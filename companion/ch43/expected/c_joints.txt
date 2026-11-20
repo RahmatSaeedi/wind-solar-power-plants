@@ -1,0 +1,10 @@
+magnetising ampere-turns of one phase at 1.7 T (teaching):
+  steel path 7.24 m at 25 A/m: 181 A-turns
+  joint form        gap mm   two joints A   total A   no-load current %
+  step-lap             0.03             81       262       0.10
+  mitred, single lap   0.15            406       587       0.22
+  a tenth of a millimetre of air in the joints costs more
+  ampere-turns than metres of steel: step-lap joints and
+  careful stacking keep the no-load current and the joint
+  losses down (ch 25 listed 0.20 %); the bare-core check of
+  the traveler sees the result before the windings go on

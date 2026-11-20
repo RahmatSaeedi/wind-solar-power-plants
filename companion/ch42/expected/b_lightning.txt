@@ -1,0 +1,7 @@
+receptor to root resistance of one blade, milliohm (teaching
+  limit 50): R1 14, R2 16, R3 21, R4 420, R5 16, R6 19
+  above the limit: ['R4']
+  a high reading is a broken or loose conductor joint, not
+  a material property: the strike would arc inside the
+  shell; the check is a factory release item and is
+  repeated after transport and installation (IEC 61400-24)

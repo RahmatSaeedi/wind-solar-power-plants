@@ -1,0 +1,31 @@
+% Chapter 3 — two functions of Plant P: (a) PV screening model P(G), piecewise linear with
+% the inverter limit; (b) the turbine power-curve table, the rejected ideal-cubic model and
+% the tangent at 8 m/s. Data: diagrams/data/ch03-pv-function.csv, ch03-powercurve.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=a, width=80mm, height=64mm,
+      xlabel={شدتِ تابشِ افقی (W/m²)}, ylabel={توانِ خورشیدی (MW)},
+      xmin=0, xmax=1100, ymin=0, ymax=58, xtick={0,250,...,1000}, ytick={0,10,...,50},
+      title={الف) تابعِ تکه‌ای‌خطی}]
+    \addplot[sPV] table[x=ghi, y=p_mw, col sep=comma] {data/ch03-pv-function.csv};
+    \addlegendentry{مدلِ غربالگری}
+    \addplot[sLimit, domain=0:1100, samples=2] {50};
+    \addlegendentry{سقفِ اینورتر}
+    \node[font=\footnotesize, text=cInk, anchor=north west] at (axis cs:520,48) {شیب $0.05\ \text{MW}$ بر $\text{W/m}^2$};
+    \node[font=\footnotesize, text=cInk, anchor=south east] at (axis cs:1000,51) {زانو};
+  \end{axis}
+  \begin{axis}[plantp, at={(a.east)}, anchor=west, xshift=20mm, width=80mm, height=64mm,
+      xlabel={تندیِ باد (m/s)}, ylabel={توانِ توربین (kW)},
+      xmin=0, xmax=26, ymin=0, ymax=5600, xtick={0,5,...,25}, ytick={0,1000,...,5000},
+      title={ب) جدولِ منحنیِ توان و مدلِ ردشده}]
+    \addplot[sWind] table[x=v, y=table_kw, col sep=comma] {data/ch03-powercurve.csv};
+    \addlegendentry{جدول}
+    \addplot[sLoss] table[x=v, y=cubic_kw, col sep=comma] {data/ch03-powercurve.csv};
+    \addlegendentry{قانونِ مکعبیِ ساده}
+    \addplot[sInk, line width=0.7pt, domain=6.2:9.8, samples=2] {2522 + 948*(x-8)};
+    \addlegendentry{مماس در $8\ \text{m/s}$}
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cInk] coordinates {(8,2522)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

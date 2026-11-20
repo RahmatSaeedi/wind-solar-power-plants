@@ -1,0 +1,8 @@
+posts filled around the clock: 4 (first aid is a qualification)
+  hours a person can work a year: 2,184 - leave 200
+  - training 120 - sickness 60 = 1,804
+  people needed: 4 x 8,760 / 1,804 = 19.4; on the roster: 15
+  short by 4.4 people = 7,980 h of overtime a year,
+  532 h for each person on the roster: four shifts
+  of four are not enough once leave and training are counted
+  (lesson A)

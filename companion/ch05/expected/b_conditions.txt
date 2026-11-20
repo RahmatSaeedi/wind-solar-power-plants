@@ -1,0 +1,5 @@
+  2.0 m/s -> below cut-in
+  8.0 m/s -> partial load
+ 13.0 m/s -> rated power
+ 25.0 m/s -> rated power
+ 26.5 m/s -> stopped (above cut-out)

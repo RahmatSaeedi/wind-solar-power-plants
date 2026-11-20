@@ -1,0 +1,9 @@
+register_field,cmms_field
+tag,FUNC_LOC
+parent,SUPERIOR
+description,TEXT
+vendor,MANUF
+model,MODEL_NO
+serial,SERIAL_NO
+commissioned,START_UP
+criticality,ABC_IND

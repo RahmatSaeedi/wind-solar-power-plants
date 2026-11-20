@@ -1,0 +1,17 @@
+% Chapter 34 - modes of the set-point link to the grid operator: normal, hold when stale, fallback after
+% one hour, waiting for a fresh set point (examples_g; teaching timings from ch 20).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=26mm, minimum height=11mm, text width=24mm}]
+  \node[s, blkPV] (n) at (9.6,1.6) {عادی: نقطهٔ تنظیمِ تازه};
+  \node[s, blkWind] (h) at (4.8,1.6) {نگه‌داشت و هشدار};
+  \node[s, blkWarn] (f) at (0,1.6) {حالتِ پشتیبان};
+  \node[s, blkLoad] (w) at (4.8,-0.6) {انتظار برای پیامِ تازه};
+  \draw[flow] (n) -- node[above, note] {کهنه پس از $10\,\mathrm{s}$} (h);
+  \draw[flow] (h) -- node[above, note] {پس از یک ساعت} (f);
+  \draw[flow] (f) |- node[below, note, pos=0.75] {بازگشتِ پیوند} (w);
+  \draw[flow] (h) -- node[right, note] {بازگشتِ پیوند} (w);
+  \draw[flow] (w) -| node[below, note, pos=0.25] {پیامِ معتبر} (n);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,12 @@
+sources of Iran older than 3 years or undated, on 2026-11-17
+  undated: 12 facts; older: 9 facts
+    IR-15: 24.5 years
+    IR-01: 15.7 years
+    IR-06: 15.7 years
+    IR-04: 4.0 years
+    IR-37: 4.0 years
+    IR-02: 3.0 years
+    IR-05: 3.0 years
+    IR-16: 3.0 years
+  an old text may still be in force, and a new one may exist
+  that the search did not reach: each gets a dated check

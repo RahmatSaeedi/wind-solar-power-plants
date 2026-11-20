@@ -1,0 +1,15 @@
+welded detail: 71 MPa at 2 million cycles, slope m = 3 (A-058)
+  stress range histogram for 20 years (synthetic):
+  range (MPa)  cycles        N allowed     n/N
+        10          2e+08       7.16e+08    0.279
+        20          3e+07       8.95e+07    0.335
+        30          6e+06       2.65e+07    0.226
+        40        1.5e+06       1.12e+07    0.134
+        50          4e+05       5.73e+06    0.070
+        60          1e+05       3.31e+06    0.030
+        70          2e+04       2.09e+06    0.010
+        80          4e+03        1.4e+06    0.003
+  Miner sum D = 1.09 (failure expected near D = 1)
+  all ranges 10 % higher: D x 1.1^3 = 1.45
+  with slope m = 5 instead of 3: D = 0.18
+  most damage comes from the many small and medium cycles, not the largest

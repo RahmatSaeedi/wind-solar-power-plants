@@ -1,0 +1,16 @@
+% Chapter 35 - mean waiting time of a frame in a switch port against the port's load (M/M/1, 1,500-byte
+% frames at 100 Mbit/s; examples_n, diagrams/data/ch35-queue.csv; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=1, ymin=0, ymax=6,
+      xlabel={بارِ درگاه}, ylabel={میانگینِ انتظار (ms)},
+      xticklabel style={/pgf/number format/fixed}]
+    \addplot[sWind, no marks] table[x=rho, y=w, col sep=comma] {data/ch35-queue.csv};
+    \draw[sLimit] (axis cs:0.04,0) -- (axis cs:0.04,5.5);
+    \node[note, anchor=south west] at (axis cs:0.05,4.6) {نیروگاهِ P، میانگین};
+    \draw[sLimit] (axis cs:0.9,0) -- (axis cs:0.9,5.5);
+    \node[note, anchor=east] at (axis cs:0.88,4.6) {$90\,\%$: نُه برابرِ زمانِ قاب};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

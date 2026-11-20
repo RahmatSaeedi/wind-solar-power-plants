@@ -1,0 +1,12 @@
+bolt holes of substation supports against the drawing
+  (teaching tolerance 2.0 mm)
+  support   worst hole mm   pattern shift mm   verdict
+  S-CB1               0.6                0.1   ok
+  S-CB2               1.2                1.1   ok
+  S-DS1               2.8                0.8   one hole off
+  S-CT1               0.4                0.1   ok
+  S-CB2 is shifted as a whole by about 1 mm - all four holes
+  move together and the breaker still fits; S-DS1 has one hole
+  2.8 mm out of a pattern that is otherwise right - the
+  disconnector's base will not drop on; the hole is re-drilled
+  and re-galvanized locally before shipping, by the fabricator

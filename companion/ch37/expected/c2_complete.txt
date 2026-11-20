@@ -1,0 +1,9 @@
+May with 5 days of energy data missing (logger outage)
+  data completeness: 83.9 % of hours
+  PR, energy of valid hours over the whole month's sun: 0.667
+  PR, both on the same valid hours:                     0.816
+  PR with no gap (known here only because it is synthetic): 0.817
+  an indicator divides like by like: the gap is removed
+  from numerator and denominator together, and the report
+  states the completeness beside the value. A meter gap is
+  not lost energy - the revenue meter still counted it

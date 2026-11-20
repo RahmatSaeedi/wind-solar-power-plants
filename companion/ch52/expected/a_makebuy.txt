@@ -1,0 +1,6 @@
+HV switching and testing work: 1,200 h a year (teaching rates)
+  in-house 92,000 u (response 2 h); contractor 102,000 u (response 24 h)
+  break-even at 950 h a year: in-house is cheaper above it
+  money is half the question: a 24-hour response on a trip of
+  a feeder costs energy every time - the price of that energy
+  goes into the comparison too (lesson F)

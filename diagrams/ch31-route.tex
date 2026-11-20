@@ -1,0 +1,30 @@
+% Chapter 31 - the fictional port-to-site route read right to left: stretches with their
+% abnormal-load speeds, the two bridges over their allowed moment, the low power line and the
+% overpass with 5 cm for the base section (companion/ch31/examples_a.py; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=20mm, minimum height=10mm, text width=18mm},
+    pt/.style={blkWarn, minimum width=16mm, minimum height=8mm, text width=15mm, font=\footnotesize}]
+  \node[st, blkLoad] (p) at (15.0,0) {بندر};
+  \node[st] (a) at (12.3,0) {کمربندی، ۱۲ کیلومتر};
+  \node[st] (b) at (9.6,0) {بزرگراه، ۱۸۰ کیلومتر};
+  \node[st] (c) at (6.9,0) {جادهٔ بخش، ۴۰ کیلومتر};
+  \node[st] (d) at (4.2,0) {کنارگذرِ روستا، ۶ کیلومتر};
+  \node[st, blkWind] (e) at (1.5,0) {راهِ ساختگاه و پد};
+  \draw[flow] (p) -- (a);
+  \draw[flow] (a) -- (b);
+  \draw[flow] (b) -- (c);
+  \draw[flow] (c) -- (d);
+  \draw[flow] (d) -- (e);
+  \node[pt] (r) at (10.95,-1.8) {پلِ رودخانه $1.26$};
+  \node[pt] (o) at (8.25,-1.8) {روگذر $4.85\,\text{m}$};
+  \node[pt] (w) at (8.25,1.8) {خطِ برق $5.40\,\text{m}$};
+  \node[pt] (v) at (5.55,-1.8) {روگذرِ بخش $1.05$};
+  \draw[flowinfo] (r.north) -- (10.95,-0.55);
+  \draw[flowinfo] (o.north) -- (8.25,-0.55);
+  \draw[flowinfo] (w.south) -- (8.25,0.55);
+  \draw[flowinfo] (v.north) -- (5.55,-0.55);
+  \node[note, anchor=north, text width=120mm] at (8.25,-2.6) {قرمز: نقطه‌ای که پیش از نخستین کاروان ارزیابی یا اندازه‌گیری می‌شود (نسبتِ گشتاور به مجاز، یا ارتفاعِ آزاد)؛ جمعاً حدودِ ۲۴۴ کیلومتر و ۹٫۶ ساعت};
+\end{tikzpicture}
+\end{document}

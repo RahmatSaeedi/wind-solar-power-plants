@@ -1,0 +1,17 @@
+constraint register PLP-GEN-REG-0003, rev A (screening):
+  id    constraint                          source
+  C-01  raptor nest on the ridge             ecology layer (desk)
+  C-02  herders' seasonal camp B             screening survey
+  C-03  customary grazing area               screening survey
+  C-04  spring and channel                   screening survey
+  C-05  wadi floods                          terrain model
+  C-06  setbacks to dwellings, roads, lines  teaching values A-260
+  C-07  terrain and soils                    50 m terrain model
+  C-08  caravanserai ruin                    heritage layer (desk)
+  C-09  farm strips on the export side       screening survey
+  C-10  grid substation bay and route        grid operator (to ask)
+  C-11  aviation and radar                   none yet
+  C-12  water for construction and cleaning  demand estimate A-261
+  every row also has: status (all open), owner, the verification
+  that closes it and the layouts it affects; rows close with
+  evidence, never with a date alone

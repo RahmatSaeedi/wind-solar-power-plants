@@ -1,0 +1,6 @@
+33 kV cable, U0 = 33/sqrt(3) = 19.05 kV; insulation from r = 10 to 18 mm
+    (A-052)
+  E at the conductor screen 3.24 kV/mm; at the insulation screen 1.80 kV/mm
+  mean field U0 / thickness = 2.38 kV/mm (the peak is 1.36 x the mean)
+  capacitance 2 pi eps0 eps_r / ln(R/r) = 0.218 microfarad/km; charging
+    current 1.30 A/km

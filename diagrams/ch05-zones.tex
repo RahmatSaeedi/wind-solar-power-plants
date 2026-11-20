@@ -1,0 +1,21 @@
+% Chapter 5 - one instant (Plant P noon, 21 June 2023) on the clocks of UTC, Plant P and the
+% three countries of the book, per IANA tz database 2025b. companion/ch05/expected/a_zones.txt.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small, x=20mm, y=10mm]
+  \draw[cLoss, line width=1pt, densely dashed] (2,0.5) -- (2,-4.5);
+  \node[note, anchor=south] at (2,0.5) {یک لحظه};
+  \foreach \y/\name/\clock in {0/{$\text{UTC}$}/{08:00},
+      -1/{نیروگاهِ P، $+04{:}00$}/{12:00},
+      -2/{$\text{Asia/Tehran}$، $+03{:}30$}/{11:30},
+      -3/{$\text{Asia/Kabul}$، $+04{:}30$}/{12:30},
+      -4/{$\text{Asia/Dushanbe}$، $+05{:}00$}/{13:00}} {
+    \draw[cInkB] (0,\y) -- (4,\y);
+    \foreach \t in {0,1,2,3,4} {\draw[cRule] (\t,\y-0.15) -- (\t,\y+0.15);}
+    \node[anchor=east, text=cInk] at (-0.15,\y) {\name};
+    \node[blk, font=\ttfamily\footnotesize, inner sep=2pt, minimum height=5.5mm, minimum width=14mm] at (2,\y) {\clock};
+  }
+  \node[note, align=center, anchor=north] at (2,-4.7) {ساعتِ دیواری فرق می‌کند؛ مُهرِ زمانِ کامل با اختلاف از $\text{UTC}$ همه را یکی می‌کند:};
+  \node[anchor=north, font=\ttfamily\footnotesize, text=cInk] at (2,-5.35) {2023-06-21T12:00:00+04:00 = 2023-06-21T08:00:00Z};
+\end{tikzpicture}}
+\end{document}

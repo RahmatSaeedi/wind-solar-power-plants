@@ -1,0 +1,26 @@
+% Chapter 14 - the west row of the plain layout shifted south by 0 .. 1,500 m: long-term farm energy
+% (top) and noise at the seasonal camp (bottom); the wadi buffer stops the shift at 1,200 m.
+% Data: diagrams/data/ch14-stagger.csv (companion/ch14/lab_h.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=108mm, height=46mm, xmin=-100, xmax=1600, ymin=192,
+      ymax=198, xticklabels={}, xtick={0,300,...,1500}, ylabel={انرژی، $\text{GWh}$},
+      ytick={192,194,...,198}, yticklabel style={/pgf/number format/1000 sep={}}]
+    \fill[cLoss!12] (axis cs:1250,192) rectangle (axis cs:1600,198);
+    \node[note, anchor=north, text width=24mm] at (axis cs:1425,194.4) {درونِ حریمِ وادی};
+    \addplot[sWind, mark=*, mark size=1.6pt] table[x=shift, y=energy, col sep=comma]
+      {data/ch14-stagger.csv};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south west)}, anchor=north west, yshift=-6mm, width=108mm,
+      height=46mm, xmin=-100, xmax=1600, ymin=34, ymax=47, xtick={0,300,...,1500},
+      xlabel={جابه‌جاییِ ردیفِ غربی به جنوب، $\text{m}$},
+      ylabel={صدا در چادرها، $\mathrm{dB}(\mathrm{A})$}, ytick={35,40,45},
+      xticklabel style={/pgf/number format/1000 sep={}}]
+    \fill[cLoss!12] (axis cs:1250,34) rectangle (axis cs:1600,47);
+    \draw[sLimit] (axis cs:-100,40) -- (axis cs:1600,40);
+    \addplot[sLoss, mark=square*, mark size=1.5pt, mark options={solid}]
+      table[x=shift, y=noise, col sep=comma] {data/ch14-stagger.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

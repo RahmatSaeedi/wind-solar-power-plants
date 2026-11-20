@@ -1,0 +1,3 @@
+speed for 2.5 MW: 7.976 m/s
+Weibull mean power 2,070 kW (error estimate 2.3e-11)
+capacity factor 0.414

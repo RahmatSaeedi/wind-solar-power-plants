@@ -1,0 +1,14 @@
+control cause-and-effect matrix: coverage check (teaching)
+  cause                                    effects   tests
+  POC voltage measurement bad                    2   T-07, T-01
+  operator set point stale > 10 s                2   T-12, T-01
+  operator link lost > 1 h                       2   T-13, T-01
+  110 V DC undervoltage                          2   T-01, T-21
+  UPS on battery                                 1   T-01
+  BESS container fire (from fire panel)          3   T-30, T-01, T-31
+  cabinet over-temperature                       0   -
+  causes without an effect: ['cabinet over-temperature']
+  each cause needs at least one effect and each effect a
+  test that proves it; the fire rows are copied from the
+  fire panel's own matrix (ch 32, lab C), never redrawn
+  by the control designer, so the two cannot disagree

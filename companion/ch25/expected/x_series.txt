@@ -1,0 +1,11 @@
+routine-test losses of the ten PV unit transformers (after the
+  design fix of lesson D), guarantee 4.5 / 45.0 kW; individual
+  limit +15 %; teaching clause: the series average is priced
+  quantity      mean    s.d.   max    individual ok   average over
+  no-load kW     4.51    0.08   4.63             yes   +0.01
+  load kW       45.11    1.00  46.80             yes   +0.11
+  every unit is inside its own limit; the averages are slightly
+  over the guarantee - priced over ten units: 1.4 k u
+  a tolerance per unit protects against a bad unit; a clause
+  on the series average protects against a design that is a
+  little worse every time

@@ -1,0 +1,7 @@
+truck speeds past the village school (GPS logs, limit 30 km/h)
+  160 passes; over the limit 33%; 85th percentile 33 km/h
+  of the 53 passes over the limit, 18 are the washing
+  contractor's new drivers (18 of their 20 passes) and 35 the
+  regular trucks: a briefing for the new crew alone would not
+  fix it - the speed log goes to every contractor each week,
+  and the commitment to the village (ch 33) is reported with it

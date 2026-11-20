@@ -1,0 +1,12 @@
+recordable rates by contractor against the site mean (funnel check)
+  site mean 4.00 per 200,000 h
+  contractor          hours     n   rate   95 % band for its hours   flag
+  civil works       380,000     6    3.2    1.6- 6.8
+  electrical        210,000     3    2.9    1.0- 8.6
+  turbine erection  160,000     9   11.2    0.0- 8.8                 above
+  PV mechanical     240,000     2    1.7    0.8- 8.3
+  logistics          60,000     1    3.3    0.0-13.3
+  turbine erection sits above its band: a cause worth
+  finding (crews, lifts, supervision), not a league table -
+  small contractors' rates swing widely by chance, so the
+  band, not the ranking, decides who is looked at

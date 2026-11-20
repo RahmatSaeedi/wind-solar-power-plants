@@ -1,0 +1,11 @@
+day-ahead P10-P90 interval of the hybrid output (lead 24 h), test
+  months Sep-Dec:
+  quantiles learned from          coverage    pinball P10 / P90   mean width
+  train months (fair)              78.7 %     1.93 / 1.87        21.3 MW
+  the test months (leak)           80.0 %     1.90 / 1.87        22.0 MW
+  train, by forecast level         79.0 %     1.86 / 1.79        22.5 MW
+  the target coverage is 80 %; quantiles fitted on the test
+  months hit it by construction: perfect-looking and meaningless
+  (leakage); the fair interval from the past covers a little
+  less; letting the width depend on the forecast level (narrow
+  in calm hours, wide near mid-power) lowers the pinball loss

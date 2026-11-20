@@ -1,0 +1,10 @@
+hourly file: 8760 rows; first 2023-01-01T00:00:00+04:00; last
+    2023-12-31T23:00:00+04:00
+UTC offsets present: ['4:00:00']; steps between rows (s): [3600]
+duplicated time stamps: 0; quality flags present: [0]
+wind direction range 0 .. 359 deg (dictionary: FROM, 0 = north, clockwise:
+    True)
+annual GHI = sum(W/m2) x 1 h / 1000 = 1947.2 kWh/m2; expected_results.json
+    1947.2 -> PASS
+mean wind 100 m = 7.103 m/s; expected 7.103 -> PASS
+pressure unit hPa: range 866.4 .. 888.8 (Pa would be 100 times larger)

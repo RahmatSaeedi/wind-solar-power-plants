@@ -1,0 +1,11 @@
+auxiliary load of one main transformer (teaching)
+  item                           kW    when
+  fans (8 x 1.1 kW)               8.8    ONAF hours
+  tap-changer motor               1.1    a few seconds an operation
+  cabinet heaters                 0.5    all year
+  online gas monitor              0.2    all year
+  cooling control and sensors     0.1    all year
+  peak 10.7 kW; continuous 0.8 kW; about 11.7 MWh a year
+  small, but it is an essential load: fans lost above the ONAN
+  rating mean a load limit - the transformer's auxiliaries
+  belong on the essential board of ch 23

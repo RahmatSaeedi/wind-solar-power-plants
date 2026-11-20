@@ -1,0 +1,7 @@
+one of two 60 kW HVAC units fails at the worst hour (A-291):
+  heat in 118 kW, removed 60 kW: inside rises 9.7 K an hour
+  from 25 C to 35 C in about 62 minutes
+  the BMS then limits power (state 'limited', fig. states),
+  which also cuts the heat; N+1 units (three of 60 kW) keep
+  full power through one failure; the choice is a price for
+  availability on the hottest days

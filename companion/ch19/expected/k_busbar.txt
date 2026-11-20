@@ -1,0 +1,8 @@
+DC current in a container at full power (A-296):
+  C-rate   rack A   container bus A   copper mm2 at 2 A/mm2
+     0.5      155             1,857                     928
+     1.0      309             3,713                   1,857
+  the bus carries the sum of the racks; its section is set by
+  heating at the steady current and by the short-circuit force
+  (example 19.13), whichever is larger; 2 A/mm2 is a teaching
+  density, the maker's thermal test decides

@@ -1,0 +1,8 @@
+Plant P's converter fleet and what the factory builds for it
+  PV central inverters: 10 x PCI-5500
+    IGBT modules 960, boards 520, DC-link capacitors 480
+  wind: 12 turbine converters (machine and grid side, ch 11)
+  storage (S1): 4 PCS of 5 MW for the 8 battery containers (ch 19)
+  one design, many copies: a systematic defect repeats in
+  every unit, a random one in some - the first unit's tests
+  look for the first, the line's tests for the second

@@ -1,0 +1,15 @@
+which test proves what, and why none replaces another
+  item              type test                          routine
+                    site
+  33 kV cable       design: insulation, ageing, fault  each drum made right
+                    installed whole, joints, sheath
+  termination       design in its kit                  (kit parts)
+                    this termination made right
+  switchgear        design: rating, arc, mechanics     each panel made right
+                    installed, connected, interlocks
+  protection panel  relay design (maker)               wiring, functions
+                    CTs, VTs, trip paths to the gear
+  a type test says the design can; a routine test says this
+  unit was made like the design; a site test says it was
+  installed and connected right - three different questions,
+  each answered once and kept (ch 9, ch 43)

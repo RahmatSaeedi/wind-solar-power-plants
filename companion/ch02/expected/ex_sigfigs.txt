@@ -1,0 +1,5 @@
+289812.4371 MWh to 4 s.f.: 289800 MWh; to 3 s.f.: 290000 MWh
+0.0500 has 3 s.f.: 0.0500; 9.996 to 3 s.f.: 10.0
+0.1 + 0.2 in binary floating point = 0.30000000000000004
+round(2.5) = 2, round(3.5) = 4 (Python rounds half to even)
+round(2.675, 2) = 2.67 (2.675 is stored as 2.67499999999999982236)

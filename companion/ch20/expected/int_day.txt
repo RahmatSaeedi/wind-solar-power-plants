@@ -1,0 +1,7 @@
+day 73 with and without REQ-S01 in the plan:
+  case            SOC at 18 h   discharge 18-22 MWh   value k u   alarms
+  no service             36.0                   29.7       61.57        2
+  REQ-S01                36.0                   24.1       61.16        2
+  the service keeps 9.4 MWh in the battery through the window
+  and gives up part of the evening discharge; the rest of the
+  day is unchanged

@@ -1,0 +1,9 @@
+point names against the project's pattern (teaching: upper-case
+  parts joined by dots, no spaces)
+  bad: 't05.ws'
+  bad: 'PVF1 P'
+  bad: 'BESS..T'
+  a lower-case copy of a name is a second point to a program
+  that compares text; a space breaks the historian's query
+  language; an empty part hides a missing level - names are
+  checked with the rest of the tag database (lab D)

@@ -1,0 +1,22 @@
+% Chapter 3 — sun path at 34 deg N on three days (solar time): elevation against azimuth
+% (from north, clockwise). Data: diagrams/data/ch03-sunpath-{355,81,172}.csv (companion/ch03).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=128mm, height=70mm,
+      xlabel={سمتِ خورشید از شمال، ساعت‌گرد (درجه)}, ylabel={ارتفاعِ خورشید (درجه)},
+      xmin=40, xmax=320, ymin=0, ymax=85, xtick={45,90,...,315}, ytick={0,15,...,75}]
+    \addplot[sPV] table[x=azimuth, y=elevation, col sep=comma] {data/ch03-sunpath-172.csv};
+    \addlegendentry{انقلابِ تابستانی}
+    \addplot[sInk] table[x=azimuth, y=elevation, col sep=comma] {data/ch03-sunpath-81.csv};
+    \addlegendentry{اعتدال}
+    \addplot[sWind] table[x=azimuth, y=elevation, col sep=comma] {data/ch03-sunpath-355.csv};
+    \addlegendentry{انقلابِ زمستانی}
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:180,79.5) {$79.45^\circ$};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:180,56) {$56.00^\circ$};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:180,32.6) {$32.55^\circ$};
+    \draw[cMuted, densely dotted] (axis cs:180,0) -- (axis cs:180,85);
+    \node[font=\footnotesize, text=cInkB, anchor=north west] at (axis cs:181,10) {جنوب};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

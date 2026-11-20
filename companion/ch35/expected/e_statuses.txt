@@ -1,0 +1,12 @@
+fire-system statuses at the SCADA boundary (teaching, approved list)
+  status                         SCADA               path
+  zone in alarm (per zone)       monitored           hard-wired summary +
+    serial detail
+  fault / supervisory            monitored           hard-wired
+  zone disabled or isolated      monitored           serial
+  panel on battery               monitored           serial
+  silence, reset, disable        NEVER from SCADA    fire panel only
+  output test, walk test         NEVER from SCADA    fire panel, permit
+  SCADA sees what the fire strategy approves it to see and
+  sends nothing back; a disabled zone is shown as loudly as
+  an alarm, because a fire there would not be seen

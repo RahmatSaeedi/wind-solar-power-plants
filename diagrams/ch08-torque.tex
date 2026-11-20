@@ -1,0 +1,22 @@
+% Chapter 8 - torque-speed curve of the 30 kW motor (A-114), motor and generator regions.
+% Data: diagrams/data/ch08-torque.csv (companion/ch08/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=66mm,
+      xlabel={سرعت، $\text{rpm}$}, ylabel={گشتاور، $\text{N}\,\text{m}$},
+      xmin=0, xmax=1800, ymin=-900, ymax=800, xtick={0,300,...,1800}, ytick={-800,-400,0,400,800}]
+    \addplot[sInk] table[x=n, y=t, col sep=comma] {data/ch08-torque.csv};
+    \draw[cRule, line width=0.6pt] (axis cs:0,0) -- (axis cs:1800,0);
+    \draw[cRule, densely dotted] (axis cs:1500,-900) -- (axis cs:1500,800);
+    \node[note, anchor=south east] at (axis cs:1495,-890) {هم‌گام $1500$};
+    \fill[cInk] (axis cs:1475,197) circle (1.6pt);
+    \node[note, text=cInk, anchor=east] at (axis cs:1455,230) {نامی $197$};
+    \node[note, text=cInk, anchor=south] at (axis cs:1250,630) {بیشینه $623$};
+    \fill[cInk] (axis cs:0,150) circle (1.6pt);
+    \node[note, text=cInk, anchor=south west] at (axis cs:20,160) {راه‌اندازی $150$};
+    \node[note, text width=30mm] at (axis cs:700,-400) {موتور: $0 < s < 1$};
+    \node[note, text width=20mm] at (axis cs:1650,300) {ژنراتور: $s < 0$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+battery converter, 20 MW, battery 1000 to 1450 V DC (A-167):
+  largest AC voltage for the lowest DC with 10 % headroom: 643 V
+    -> 600 V chosen, as for the PV inverters (D-012)
+  at  25 % load: one pass 0.9834, charge and discharge 0.9671
+  at  50 % load: one pass 0.9860, charge and discharge 0.9721
+  at 100 % load: one pass 0.9830, charge and discharge 0.9663
+  12.59 GWh/yr charged (chapter 5): the converter alone loses about 351 MWh/yr
+  in both passes; its share of the 14 % round-trip loss

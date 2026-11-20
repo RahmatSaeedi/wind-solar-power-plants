@@ -1,0 +1,6 @@
+bearing load = 40 % fixed (weight, magnetic pull) + 60 % with load (A-134)
+  equivalent load over the data-pack year 0.738 of the rated-load value
+  revolutions per year 450 million (speed follows the wind)
+  C/P 12 at rated: 24,935 h at rated speed;
+  with the real spectrum about 9.5 years
+  the load spectrum, not the rated point, sets the life (Miner-type rule)

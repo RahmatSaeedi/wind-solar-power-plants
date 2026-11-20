@@ -1,0 +1,6 @@
+core 84 dB(A) and fans 85 dB(A) of sound power (teaching)
+  together 87.5 dB(A); fans off: 84 dB(A)
+  fan hours on the data-pack year: 532; at night (22-06 h): 2
+  only 2 of 532 fan hours fall at night: the night limit (ch 33)
+  meets mostly the core alone, while the guarantee is for
+  both; a fan stage chosen for low noise is a design option

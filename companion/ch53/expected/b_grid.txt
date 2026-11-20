@@ -1,0 +1,15 @@
+grid requirements: at COD and now (teaching; real ones from the operator)
+  reactive power at full output    meets
+     0.95 pf -> 0.95 pf plus voltage control
+  fault ride-through depth         GAP
+     0.15 pu, 150 ms -> 0 pu, 150 ms
+  frequency response               GAP
+     none required -> droop 4 %, 10 % headroom
+  telemetry latency                meets
+     4 s -> 1 s
+  cyber requirements               GAP
+     none stated -> IEC 62443 based, audited
+  3 gaps: an existing plant usually keeps its connection
+  terms, but a repowering is a new application and must meet
+  the requirements of its date - the gaps become part of the
+  repowering's cost (converters, controls, OT security)

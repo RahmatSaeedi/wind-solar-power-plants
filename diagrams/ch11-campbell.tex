@@ -1,0 +1,20 @@
+% Chapter 11 - Campbell diagram: 1P and 3P excitation against rotor speed, tower first bending
+% frequency, operating speed range 5..11.5 rpm (A-216). Data: diagrams/data/ch11-campbell.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=64mm, xmin=0, xmax=14, ymin=0, ymax=0.72,
+      xlabel={سرعتِ روتور، $\text{rpm}$}, ylabel={بسامد، $\text{Hz}$}, xtick={0,2,...,14},
+      ytick={0,0.1,...,0.7}, yticklabels={$0$,$0.1$,$0.2$,$0.3$,$0.4$,$0.5$,$0.6$,$0.7$}]
+    \fill[cWind!10] (axis cs:5,0) rectangle (axis cs:11.5,0.72);
+    \addplot[sInk] table[x=rpm, y=p1, col sep=comma] {data/ch11-campbell.csv};
+    \addplot[sLoss] table[x=rpm, y=p3, col sep=comma] {data/ch11-campbell.csv};
+    \addplot[sLimit] table[x=rpm, y=ft, col sep=comma] {data/ch11-campbell.csv};
+    \node[note, text=cInk, anchor=south east] at (axis cs:13.8,0.235) {$1P$};
+    \node[note, text=cLoss, anchor=south east] at (axis cs:13.2,0.66) {$3P$};
+    \node[note, anchor=north east] at (axis cs:13.8,0.208) {برج $0.215\ \text{Hz}$};
+    \node[note, anchor=north] at (axis cs:8.25,0.70) {گسترهٔ کار};
+    \fill[cLoss] (axis cs:4.30,0.2151) circle (1.6pt);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

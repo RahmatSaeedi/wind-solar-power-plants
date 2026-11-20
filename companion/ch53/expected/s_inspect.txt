@@ -1,0 +1,8 @@
+each gearbox: 30% chance of failing within a year (lesson D's model)
+  failure in service costs 496 k u (repair + downtime);
+  a planned repair in June 426 k u
+  wait blind: 149 k u expected; borescope (15 k u) and plan
+  the bad ones: 143 k u
+  the inspection saves 6 k u a gearbox a year - it turns
+  lesson D's 'repair at failure' into 'repair before failure'
+  where the evidence says so (ch 52 P-F)

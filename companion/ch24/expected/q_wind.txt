@@ -1,0 +1,9 @@
+wind on the conductor: q = 0.5 rho v^2 Cd d (Cd 1.0, teaching):
+  wind m/s   wind N/m   weight N/m   resultant N/m   swing deg
+        20        6.0         11.0            12.5          29
+        30       13.5         11.0            17.4          51
+        40       24.0         11.0            26.4          65
+  a storm adds a sideways load as large as the weight: the
+  tension rises, the conductor swings toward the tower and
+  its neighbour - clearances are checked in the swung
+  position, and the towers take the sum (ch 29 foundations)

@@ -1,0 +1,13 @@
+starting method of the control-room HVAC (120 kVA direct on line)
+  against the standby generator (running need: 125 kVA):
+  method                 start kVA   dip on 125   smallest gen for 12 %
+  direct on line               120        12.6%          150 kVA
+  star-delta                    40         4.5%          125 kVA
+  soft starter                  60         6.7%          125 kVA
+  variable-speed drive          36         4.1%          125 kVA
+  with any reduced-current start the generator falls back to
+  the size its running load needs; the drive costs money and
+  adds harmonics (next lesson), the larger generator costs
+  fuel and space - a trade-off written in the design basis;
+  star-delta also opens the circuit for a moment, which some
+  compressors do not like (the maker decides)

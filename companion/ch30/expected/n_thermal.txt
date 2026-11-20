@@ -1,0 +1,10 @@
+the sun bends the tower: one side warmer than the other
+  top deflection = alpha dT H^2 / (2 D) for a tube of diameter D
+  dT K    D m    top deflection mm
+     5   3.75                  80
+    10   3.75                 160
+    15   3.75                 240
+  a 10 K difference moves the top about 16 cm - more than
+  the verticality tolerance; towers are surveyed at dawn
+  or in overcast weather, with the turbine yawed and still,
+  and the temperature recorded with the reading (lesson C)

@@ -1,0 +1,11 @@
+the engineering laptops (3, teaching rules)
+  rule                                                   kept
+  used only for engineering                              yes
+  no e-mail, no web browsing                             yes
+  connects only through the jump host or on the bench    yes
+  software and tools from the approved list              yes
+  kept in the control room when not in use               yes
+  backed up like a server                                yes
+  the engineering laptop carries the keys to every
+  controller: it is treated as part of the control zone,
+  not as an office computer that sometimes visits it

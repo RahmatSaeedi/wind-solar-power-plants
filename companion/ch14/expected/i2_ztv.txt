@@ -1,0 +1,13 @@
+zone of theoretical visibility: turbines whose tip is in sight
+  (bare terrain, no buildings or trees; eye at 2 m):
+  observer                W1 ridge   W2b plain
+  village centre               12          12
+  herders' camp B              12          12
+  farmhouse A                  12          12
+  roadside house D             12          12
+  east of the ridge, 3 km      12          12
+  west of the ridge            12           6
+  on flat ground the 175 m tips are seen from everywhere within
+  kilometres; the ridge hides the plain turbines from the west
+  and puts its own row on the skyline for everyone: landscape
+  and visual assessment is a specialist study with photomontages

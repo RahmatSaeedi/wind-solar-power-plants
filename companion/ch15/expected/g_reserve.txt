@@ -1,0 +1,6 @@
+downward reserve from the forecast interval (P50 - P10), test months:
+  mean 9.9 MW; 95 % of hours below 12.2 MW
+  the S1 battery's 20 MW covers it in 100 % of the hours
+  the forecast's uncertainty becomes a capacity to hold back: a
+  battery, a margin on the schedule, or bought reserve (chapters
+  17-19 and 34); a sharper forecast is cheaper reserve

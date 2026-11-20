@@ -1,0 +1,27 @@
+% Chapter 19 - operating states of a battery as the BMS and the plant controller see them: standby,
+% charge, discharge, limited (a limit reached, power reduced), tripped (racks isolated) and maintenance
+% lockout; arrows are the allowed transitions (teaching; the real state machine is the maker's).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    st/.style={blk, rounded corners=8pt, minimum width=26mm, minimum height=10mm, align=center},
+    tr/.style={-{Stealth[length=2mm]}, line width=0.7pt, draw=cInkB},
+    lb/.style={font=\footnotesize, text=cInkB, fill=white, inner sep=1pt}]
+  \node[st, draw=cBESS, fill=cBESS!10] (sb) at (6.0,0) {آماده‌باش};
+  \node[st] (ch) at (11.0,1.6) {شارژ};
+  \node[st] (dc) at (11.0,-1.6) {دشارژ};
+  \node[st, draw=cPV, fill=cPV!10] (lm) at (1.0,1.6) {محدود\\(توانِ کمتر)};
+  \node[blkWarn, rounded corners=8pt, minimum width=26mm, minimum height=10mm, align=center] (tp) at (1.0,-1.6) {قطع‌شده\\(رک‌ها جدا)};
+  \node[st] (mn) at (6.0,-3.6) {قفلِ نگهداری};
+  \draw[tr] (sb.east) to[bend left=15] node[lb, above] {فرمان} (ch.west);
+  \draw[tr] (ch.south west) to[bend left=10] (sb.north east);
+  \draw[tr] (sb.east) to[bend right=15] node[lb, below] {فرمان} (dc.west);
+  \draw[tr] (dc.north west) to[bend right=10] (sb.south east);
+  \draw[tr] (sb.west) to[bend right=15] node[lb, above] {حدِ نزدیک} (lm.east);
+  \draw[tr] (lm.south east) to[bend right=10] node[lb, below] {بازگشت} (sb.north west);
+  \draw[tr] (sb.west) to[bend left=15] node[lb, below] {حدِ شکسته} (tp.east);
+  \draw[tr] (tp.south) |- node[lb, pos=0.75, below] {بازرسی} (mn.west);
+  \draw[tr] (mn.north) -- node[lb, right] {وارسی و آزمون} (sb.south);
+  \node[note, text width=60mm] at (6.0,2.9) {شارژ و دشارژ هم به «محدود» و «قطع‌شده» می‌روند (برای سادگی رسم نشده)};
+\end{tikzpicture}
+\end{document}

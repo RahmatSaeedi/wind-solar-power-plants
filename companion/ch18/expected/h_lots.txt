@@ -1,0 +1,12 @@
+system pairs whose interface crosses a contract boundary:
+  packaging        lots  crossing pairs  of 18
+  single EPC          3              5
+  multi-contract      7             16
+  multi-contract crossings:
+    BESS-civil, BESS-collector, BESS-control, BESS-water
+    PV-civil, PV-collector, PV-control, PV-water
+    collector-civil, grid-control, substation-civil, substation-control
+    substation-grid, wind-civil, wind-collector, wind-control
+  each crossing is an interface the owner must manage; the
+  single EPC contract keeps most of them inside one firm and
+  is priced for that risk

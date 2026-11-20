@@ -1,0 +1,21 @@
+% Chapter 3 — battery energy as a state variable over one day (scenario S1, assumed schedule:
+% charge 5 MW 09-15, discharge 6 MW 18-22). Data: diagrams/data/ch03-soc.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=122mm, height=64mm,
+      xlabel={ساعتِ روز}, ylabel={انرژیِ ذخیره (MWh)},
+      xmin=0, xmax=24, ymin=0, ymax=42, xtick={0,3,...,24}, ytick={0,8,...,40}]
+    \fill[cBESS!10] (axis cs:9,0) rectangle (axis cs:15,42);
+    \fill[cLoad!8] (axis cs:18,0) rectangle (axis cs:22,42);
+    \addplot[sBESS] table[x=hour, y=soc_mwh, col sep=comma] {data/ch03-soc.csv};
+    \addlegendentry{انرژیِ ذخیره}
+    \addplot[sLimit, domain=0:24, samples=2] {36};
+    \addlegendentry{مرزهای ۱۰ و ۹۰ درصد}
+    \addplot[sLimit, domain=0:24, samples=2, forget plot] {4};
+    \node[font=\footnotesize, text=cInk] at (axis cs:12,39) {شارژ $5\ \text{MW}$};
+    \node[font=\footnotesize, text=cInk] at (axis cs:20,39) {دشارژ $6\ \text{MW}$};
+    \node[font=\footnotesize, text=cInk, anchor=south west] at (axis cs:15.1,32.2) {$31.8\ \text{MWh}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

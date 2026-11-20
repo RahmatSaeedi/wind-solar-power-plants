@@ -1,0 +1,10 @@
+one size or a graded wind string (cost + PV of losses, k u):
+  plan                                         cost  loss MWh/yr   PV total
+  240 all (section 1 too hot: not allowed)       418        282.3        638
+  graded 630/240/240/240                         495        188.2        642
+  graded 630/400/240/240                         528        156.2        650
+  630 everywhere                                 726        105.9        809
+  at the teaching price the graded string with 630 mm2 only
+  where it must is cheapest; a larger section never pays back
+  its cost in losses - but stocking two sizes means two sets of
+  joints, terminations and spares (ch 51)

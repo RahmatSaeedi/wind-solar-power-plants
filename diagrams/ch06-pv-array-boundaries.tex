@@ -1,0 +1,53 @@
+% Chapter 6 — the DC side of a PV block: strings, combiner box, feeder, inverter
+% input; circuit boundaries and isolation points. Only the positive conductor is drawn.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    mod/.style={draw=cPV, fill=cPV!10, line width=0.6pt, minimum width=5mm, minimum height=7mm, inner sep=0pt},
+    lab/.style={note, font=\scriptsize}]
+
+  % ---- strings (three of 24) ------------------------------------------------
+  \foreach \k/\y in {1/4.4, 2/2.8, 3/0.0}{
+    \foreach \j in {0,1,2,3}{ \node[mod] at ({0.0+0.75*\j},\y) {}; }
+    \draw[cInk, line width=0.6pt] (-0.25,\y) -- (2.5,\y);
+    \draw (2.5,\y) to[short, -o] (3.0,\y);
+    \draw (3.3,\y) to[fuse, l_={$F_{\k}$}] (4.7,\y) -- (5.4,\y);
+  }
+  \node[lab, text=cInk] at (1.1,1.4) {$\vdots$ \quad ۲۴ رشته};
+  \node[lab, anchor=north, text width=34mm, align=center] at (1.1,-0.55)
+       {رشته: ۲۶ ماژولِ سری\\\mbox{$V_\text{oc} \le 1500\,\text{V}$}، \mbox{$I \approx 13\,\text{A}$}};
+  \node[lab, anchor=north] at (3.0,-0.55) {اتصال‌دهنده};
+
+  % ---- combiner box -----------------------------------------------------------
+  \draw[bus] (5.4,4.8) -- (5.4,-0.4);
+  \node[lab, anchor=west] at (5.55,4.55) {شینهٔ مثبت};
+  \draw (5.4,2.1) to[nos, l={$Q_1$}] (7.6,2.1);
+  \draw (6.6,2.1) -- (6.6,1.4) to[sV] (6.6,0.0) node[cground]{};
+  \node[lab, anchor=west] at (6.95,0.75) {برق‌گیر};
+  \node[boundary, draw=cInkB, fit={(3.2,-1.1) (8.0,5.3)}] (cb) {};
+  \node[lab, text=cInk, anchor=south, text width=50mm, align=center] at (cb.north)
+       {\textbf{جعبهٔ تجمیع}\\فیوزِ هر رشته، کلیدِ جداکننده، برق‌گیر};
+
+  % ---- feeder -------------------------------------------------------------------
+  \draw (7.6,2.1) -- (8.6,2.1) to[R] (11.6,2.1) -- (12.6,2.1);
+  \draw[-{Stealth[length=2mm]}, line width=0.6pt] (8.7,2.5) -- (9.5,2.5) node[lab, text=cInk, above, midway] {$314.6\,\text{A}$};
+  \node[lab, text=cInk, anchor=north, text width=40mm, align=center] at (10.1,1.55)
+       {فیدرِ DC\\$180\,\text{m}$، آلومینیوم $240\,\text{mm}^2$};
+
+  % ---- inverter input -------------------------------------------------------------
+  \draw (12.6,2.1) to[nos, l={$Q_2$}] (14.4,2.1) -- (14.9,2.1);
+  \node[blk, minimum width=16mm, minimum height=14mm, anchor=west] (pcs) at (15.0,2.1) {اینورتر\\$=\,/\,\sim$};
+  \node[boundary, draw=cInkB, fit={(12.4,0.9) (16.9,3.4)}] (inv) {};
+  \node[lab, text=cInk, anchor=south, text width=48mm, align=center] at (inv.north)
+       {\textbf{ورودیِ اینورتر}\\کلیدِ جداکنندهٔ DC، برق‌گیر، پایشِ عایق};
+  \draw[flow] (pcs.east) -- ++(1.0,0);
+  \node[lab, anchor=north, text=cInk, text width=24mm, align=center] at (17.7,1.8) {به ترانسفورماتور\\و شینهٔ $33\,\text{kV}$};
+
+  % ---- circuit boundaries ---------------------------------------------------------------
+  \draw[dimline] (-0.3,-2.3) -- (4.7,-2.3) node[lab, midway, below, text=cInk] {«مدارِ رشته»};
+  \draw[dimline] (4.7,-2.3) -- (14.4,-2.3) node[lab, midway, below, text=cInk] {«مدارِ آرایه»: از فیوزها تا $Q_2$};
+  \draw[dimline] (14.4,-2.3) -- (17.0,-2.3) node[lab, midway, below, text=cInk] {«ورودیِ اینورتر»};
+  \node[lab, anchor=north, text=cInkB, text width=110mm, align=center] at (8.4,-2.95)
+       {فقط هادیِ مثبت رسم شده است؛ هادیِ منفی با همان فیوز، کلید و مقطع، موازیِ آن می‌رود.};
+\end{tikzpicture}}
+\end{document}

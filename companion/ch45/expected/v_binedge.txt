@@ -1,0 +1,8 @@
+bin edge 316 Ah, capacity measured with sd 0.3 Ah (1992 cells)
+  B cells graded A: 18; A cells graded B: 27
+  with a guard band of 2 sd (0.6 Ah): B cells graded A 0,
+    A cells lost to B 145
+  the cycler's accuracy decides how many cells near the edge
+  land in the wrong bin; a B cell in an A module limits that
+  module (lesson B) - the guard band moves the doubt to the
+  cheaper side, as for capacitors in ch 44

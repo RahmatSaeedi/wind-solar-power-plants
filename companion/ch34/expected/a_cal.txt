@@ -1,0 +1,10 @@
+calibration interval from drift (teaching, % of reading or span)
+  instrument                 tolerance  drift/yr  as-left   interval yr
+  POC voltage transducer          0.20      0.05     0.05           3.0
+  pyranometer (ch 12)             2.00      0.50     0.30           3.4
+  anemometer (ch 13)              1.00      0.20     0.20           4.0
+  Pt100 transmitter               0.50      0.10     0.10           4.0
+  the interval is the time the drift takes to eat the
+  margin left after calibration; the records of as-found
+  values show the real drift and set the next interval -
+  the makers' and the lab's procedures govern (ch 48)

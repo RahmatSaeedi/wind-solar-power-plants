@@ -1,0 +1,12 @@
+alarm threshold for the 5th harmonic voltage (one week, 10-minute values)
+  threshold %   values over   alarms (any value)   alarms (3 in a row)
+         1.70            84                   11                     7
+         1.80            59                   13                     7
+         1.90            24                   14                     2
+  limit 2.0 %: an alarm at 90 % of it rings every
+  evening (the network's own evening peak); a higher
+  threshold alone gives MORE separate alarms (the runs
+  break into pieces), while three values in a row cuts
+  the noise without hiding a lasting rise; the threshold
+  and the rule are written into the monitoring plan and
+  reviewed after the first month

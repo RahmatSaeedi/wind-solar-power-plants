@@ -1,0 +1,14 @@
+critical characteristics of a power transformer and their evidence
+  part          characteristic             evidence
+  core          loss of the bare core      core test record
+  core          burr per batch             burr log
+  windings      heights and radial builds  dimension sheet
+  windings      tap leads to drawing       ratio at every tap
+  leads         joint quality              joint record, DGA
+  active part   clamping after drying      clamping record
+  insulation    dryness at the end point   drying record, PD
+  oil           water before filling       oil test
+  shipment      impact and gas pressure    recorder log
+  9 characteristics; three of T1's gaps (burr, drying,
+  recorder) sit on this list - a gap on a critical row is
+  an NCR, not a missing page

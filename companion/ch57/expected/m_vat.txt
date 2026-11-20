@@ -1,0 +1,10 @@
+equipment VAT as a cost: a sensitivity (ch 21 model, teaching)
+  equipment share of the capex items: 95%
+  case                                  capex x  min DSCR  equity IRR
+  exempt (TJ-52, if confirmed)            1.000      1.20       10.2%
+  14 % VAT on equipment, a cost           1.133      1.22        7.5%
+  half of it recovered                    1.067      1.21        8.7%
+  the exemption is worth 2.7% of equity IRR with the debt held:
+  the extra capex is paid by equity (the minimum DSCR rises a
+  little: more depreciation, less tax); a tax advisor confirms
+  the rule and its procedure before the bid (not tax advice)

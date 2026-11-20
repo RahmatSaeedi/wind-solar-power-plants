@@ -1,0 +1,11 @@
+tolerance stack-up: will the tower flange drop over the anchors?
+  contribution                              +/- mm
+  anchor cage template, hole position        2.0
+  cage set-out on site (survey)              1.5
+  cage movement in a controlled pour         1.0
+  bottom flange hole position (factory)      1.0
+  worst case 5.5 mm; root-sum-square 2.9 mm; hole clearance 3.0 mm
+  worst case does not fit, the statistical sum does - but
+  only if the parts are independent and the pour is
+  controlled; a top template held in place during the pour
+  and a survey before the grout make the RSS honest

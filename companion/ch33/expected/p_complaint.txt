@@ -1,0 +1,16 @@
+two dust complaints from farmhouse A traced with the hourly wind
+  the PV works lie at 75 deg from the farm; dust reaches it
+  when the wind blows from 22.5 deg either side of that at
+  >= 8 m/s (100 m height) in working hours
+  complaint   date         hours toward farm   mean direction deg
+          1   2023-04-01                   4                   86
+          2   2023-04-04                   0                  269
+  over the year such hours fall on 20 working days
+  complaint 1 is supported by the wind: the works were
+  upwind for hours - the response accepts it, waters the
+  block's west edge on forecast days and tells the family
+  what changed; complaint 2 is not supported by the wind
+  (it blew from elsewhere), so the response shows the
+  record, checks the other sources (the road, the track)
+  and still closes the case with the family - evidence,
+  not opinion, either way (lesson H)

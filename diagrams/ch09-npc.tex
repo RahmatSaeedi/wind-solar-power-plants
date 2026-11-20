@@ -1,0 +1,37 @@
+% Chapter 9 - one leg of a three-level neutral-point-clamped (NPC) inverter: four switches,
+% two clamp diodes and a split DC link with neutral point N.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \draw (0,6.4) to[C, l_={$C_1$}] (0,3.2) to[C, l_={$C_2$}] (0,0);
+  \draw (0,6.4) -- (3.6,6.4);
+  \draw (0,0) -- (3.6,0);
+  \node[note, text=cInk, anchor=east] at (-0.1,6.4) {$+V_\text{dc}/2$};
+  \node[note, text=cInk, anchor=east] at (-0.1,0) {$-V_\text{dc}/2$};
+  \draw (0,3.2) -- (1.6,3.2);
+  \fill (0,3.2) circle (1.4pt);
+  \node[note, text=cInk, anchor=east] at (-0.1,3.2) {$N$};
+  % four switches
+  \draw (3.6,6.4) -- (3.6,6.1) node[nigbt, anchor=C] (t1) {};
+  \draw (t1.E) -- (3.6,4.8) node[nigbt, anchor=C] (t2) {};
+  \draw (t2.E) -- (3.6,3.2);
+  \draw (3.6,3.2) -- (3.6,2.9) node[nigbt, anchor=C] (t3) {};
+  \draw (t3.E) -- (3.6,1.6) node[nigbt, anchor=C] (t4) {};
+  \draw (t4.E) -- (3.6,0);
+  \node[note, text=cInk, anchor=west] at (4.1,5.75) {$T_1$};
+  \node[note, text=cInk, anchor=west] at (4.1,4.45) {$T_2$};
+  \node[note, text=cInk, anchor=west] at (4.1,2.55) {$T_3$};
+  \node[note, text=cInk, anchor=west] at (4.1,1.25) {$T_4$};
+  % clamp diodes from N to the nodes between T1-T2 and T3-T4
+  \draw (1.6,3.2) to[D, l={$D_5$}] (1.6,5.05) -- (3.6,5.05);
+  \draw (1.6,1.85) to[D, l={$D_6$}] (1.6,3.2);
+  \draw (1.6,1.85) -- (3.6,1.85);
+  % output
+  \draw (3.6,3.2) -- (5.6,3.2) node[ocirc] {};
+  \node[note, text=cInk, anchor=west] at (5.7,3.2) {$a$};
+  \node[note, text=cInk, text width=52mm, anchor=west] at (6.3,4.6)
+       {$T_1, T_2$ روشن: $+V_\text{dc}/2$؛\\$T_2, T_3$ روشن: صفر، از راهِ $D_5$ یا $D_6$؛\\$T_3, T_4$ روشن: $-V_\text{dc}/2$};
+  \node[note, text=cInk, text width=52mm, anchor=west] at (6.3,1.8)
+       {هر کلید فقط $V_\text{dc}/2$ را تحمل می‌کند};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,12 @@
+nacelle service crane of 10 t (teaching)
+  liftable inside: converter, pitch drive, yaw drive, cooling pump
+  need an external crane:
+    main shaft and bearing (35 t)
+    gearbox (45 t)
+    generator (12 t)
+    bedplate and frame (40 t)
+    yaw bearing, drives, brakes (14 t)
+  a part that the service crane can lift is a day's job; one
+  that needs a main crane is a campaign (lesson A): splitting
+  a generator into modules or a gearbox into stages is
+  design for maintainability, decided at the drawing board

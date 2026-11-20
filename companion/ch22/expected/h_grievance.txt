@@ -1,0 +1,12 @@
+grievance log of a building year (invented entries, n = 48):
+  category      cases  median days  closed within 30 days
+  dust             16           16             94 %
+  road safety       9           11             89 %
+  land access       3           31             33 %
+  jobs             11           21             91 %
+  water             5           23             80 %
+  noise             4           18             75 %
+  all: median 18 days, 85 % within 30 days; slowest 49 days
+  a grievance channel is known, free, safe and answered: the
+  log shows whether it works; repeated categories point to
+  a cause to fix, not only to cases to close

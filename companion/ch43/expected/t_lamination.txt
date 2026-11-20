@@ -1,0 +1,11 @@
+classical eddy loss in the steel sheets: pi^2 f^2 B^2 t^2 /
+  (6 rho rho_m) per kg (teaching; the rest is hysteresis and
+  excess loss)
+  sheet mm   classical eddy W/kg   share of 1.15 W/kg
+      0.23                 0.171                  15%
+      0.27                 0.236                  21%
+      0.30                 0.291                  25%
+      0.35                 0.396                  34%
+  thinner sheets cut the eddy part with the square of the
+  thickness - and mean more sheets to cut and stack: the
+  steel grade on the mill certificate names the thickness

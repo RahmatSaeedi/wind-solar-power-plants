@@ -1,0 +1,14 @@
+capital cost of Plant P, S1 (teaching, A-304):
+  item                          k u      share %   k u per MW
+  wind 60 MW                      78,000      49.9        1,300
+  PV 50 MW AC                     36,000      23.0          720
+  substation and line             15,000       9.6          136
+  battery 20 MW / 40 MWh          13,000       8.3          650
+  development and permits          3,000       1.9           27
+  owner's engineering              4,000       2.6           36
+  contingency 5 %                  7,450       4.8
+  total                          156,450   100.0        1,422
+  without the battery (S0)       142,800
+  wind and PV are 73 % of the cost; contingency is a budget for
+  known unknowns, not for scope changes; real numbers come from
+  quotes and the EPC price (chapters 38-40)

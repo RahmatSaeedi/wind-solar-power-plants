@@ -1,0 +1,9 @@
+losses of a wind string's cable (4 sections x 1.1 km, teaching):
+  section  r at 65 C   loss at full A   kW   loss MWh/yr
+   240      0.1477              124 kW        282.3
+   400      0.0919               77 kW        175.7
+   630      0.0554               47 kW        105.9
+  string energy 64.4 GWh; the loss is 0.44% with 240 mm2,
+  the hourly series is used, not the peak: losses go with
+  the square of the current and the wind is mostly below
+  rated (ch 15)

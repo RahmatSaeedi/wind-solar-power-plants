@@ -1,0 +1,15 @@
+one turbine, hub density, data year: energy from the hourly series
+  against a fitted Weibull distribution
+  hourly series                      16,678 MWh
+  Weibull by moments   k 2.12 c 7.62  16,603 MWh (-0.4 %)
+  Weibull, mean cube   k 2.11 c 7.62  16,602 MWh (-0.5 %)
+  12 sector Weibulls by moments       16,578 MWh (-0.6 %)
+  the same mean speed with another shape factor (energy against k 2.0):
+    mean 6.74 m/s: k 1.6  -2.0 %, k 2.0  +0.0 %, k 2.4  -0.1 %
+    mean 5.50 m/s: k 1.6  +4.9 %, k 2.0  +0.0 %, k 2.4  -5.9 %
+  a distribution keeps the speeds but loses time: it cannot give
+  clipping, export limits, storage or the hour-by-hour match with
+  PV; it is a check on the time series and a quick screening tool;
+  near this site's mean the shape hardly matters above k 2, but at
+  a low mean a wide distribution (low k) puts more hours on the
+  steep part of the curve: +5 % at k 1.6, -6 % at k 2.4

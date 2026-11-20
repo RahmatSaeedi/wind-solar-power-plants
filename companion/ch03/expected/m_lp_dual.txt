@@ -1,0 +1,5 @@
+shadow prices (dual values) of the PV/wind mix linear program:
+  energy constraint: 0.3895 cost units per extra GWh/yr required
+  land constraint:   0.0817 cost units saved per extra MWp of land
+  AC capacity:       0.0000 (not binding: zero)
+  check: with 81 MWp of land the cost falls from 106.427 to 106.345 (0.0817)

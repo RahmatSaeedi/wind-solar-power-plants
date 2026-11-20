@@ -1,0 +1,10 @@
+load loss measured cold (22 C), corrected to 75 C (teaching unit):
+  measured: I2R part 155 kW (from winding resistance), stray 72 kW,
+  total 227 kW; factor k = (235 + 75)/(235 + 22) = 1.206
+  correct: I2R x k + stray / k = 246.7 kW
+  wrong (all of it x k): 273.8 kW
+  guarantee 250 kW: corrected value inside; the wrong method says over
+  the stray part falls as the metal warms (higher
+  resistance, smaller eddy currents): the report states the
+  measured winding resistance, the temperature and the split,
+  so the correction can be checked line by line

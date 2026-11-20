@@ -1,0 +1,12 @@
+MPPT efficiency on a synthetic string (26 x PVM-550, 45 C), one step
+  a second: steady 300 W/m2, ramp to 1000, steady, ramp down
+  tracker                      steady   ramp up   whole profile
+  perturb and observe          99.99%    77.40%      86.65%
+  incremental conductance      99.99%    77.40%      86.65%
+  perturb-hold-compare         99.99%    99.99%      99.96%
+  all hold the steady point; on the rising ramp the plain
+  trackers read the sun's rise as their own success and walk
+  away from the maximum - separating the two changes keeps
+  the tracker on it; the dynamic MPPT efficiency is evidence
+  the efficiency standard asks for (STD-049); educational
+  simulations of ch 9's algorithms, not firmware

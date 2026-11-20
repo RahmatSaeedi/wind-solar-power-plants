@@ -1,0 +1,7 @@
+5 km of 33 kV cable, z = 0.125 + j0.110 ohm/km (assumed): Z = 0.625 + j0.550
+    ohm
+receiving end 33 kV, 30 MW at pf 0.95 lagging: I = 552.5 A at -18.19 deg
+S = 3 V I* = 30.00 MW + j9.86 Mvar
+sending phase voltage V_s = V_r + Z I = 19476.3 V at 0.532 deg
+line-to-line drop: exact 734.0 V (2.22 %); approx (RP + XQ)/V = 732.5 V
+cable loss 3 I^2 R = 572.3 kW (1.91 % of 30 MW)

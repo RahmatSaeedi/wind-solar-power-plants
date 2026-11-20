@@ -1,0 +1,8 @@
+main-circuit resistance at the FAT and at site, ratio limit 1.2 (teaching)
+  panel    pole   FAT   site   ratio
+  BESS-A   L1     35     49    1.40
+  rises: BESS-A L1
+  BESS-A pole L1 rose 40 % between the factory and the site
+  while its neighbours stayed: a joint moved in transport -
+  the FAT record is what makes the site reading mean something;
+  PVF1 L2 fell to its neighbours after the factory repair

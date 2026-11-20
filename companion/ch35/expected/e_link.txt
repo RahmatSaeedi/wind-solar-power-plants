@@ -1,0 +1,12 @@
+loss of the fire link, seen from SCADA (teaching design intent)
+  serial detail link lost:
+    alarm 'fire detail lost', priority 1;
+    hard-wired summary still works
+  hard-wired summary cut:
+    alarm at once (normally closed);
+    treated as a possible fire until checked
+  SCADA server down:
+    fire panel unaffected; local alarms;
+    the remote centre loses sight - phone path
+  every loss is visible and none of them changes what the
+  fire system does by itself

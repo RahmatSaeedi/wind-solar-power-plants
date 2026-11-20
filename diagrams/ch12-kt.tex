@@ -1,0 +1,15 @@
+% Chapter 12 - daily extraterrestrial and ground irradiation by month at 34 N (data-pack year).
+% Data: diagrams/data/ch12-kt.csv (companion/ch12/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=0.5, xmax=12.5, ymin=0, ymax=12.5,
+      xlabel={ماه}, ylabel={تابشِ روزانه، $\text{kWh/m}^2$}, xtick={1,...,12},
+      ytick={0,2,...,12}, legend pos=north west, legend columns=1]
+    \addplot[sInk, mark=*, mark size=1.4pt] table[x=month, y=h0, col sep=comma] {data/ch12-kt.csv};
+    \addlegendentry{بیرون از جو}
+    \addplot[sPV, mark=square*, mark size=1.3pt] table[x=month, y=h, col sep=comma] {data/ch12-kt.csv};
+    \addlegendentry{سطحِ زمین}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

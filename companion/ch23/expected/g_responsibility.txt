@@ -1,0 +1,13 @@
+responsibility matrix of the boundary assets (teaching):
+  asset                        design   supply   install  test     own/operate
+  plant line bay (E1)          plant    plant    plant    plant    plant
+  revenue meter                utility* plant    plant    utility  utility
+  132 kV line                  open     open     open     open     open
+  utility line bay (G1)        utility  utility  utility  utility  utility
+  line protection, both ends   both     both     both     both     both
+  telecom to utility SCADA     utility  plant    plant    utility  plant
+  intertrip and PPC signals    both     plant    plant    both     plant
+  (* the utility specifies the meter; who supplies it is
+  in the connection agreement); 'open' cells wait for the
+  grid offer (U-065); 'both' cells need a protocol: one
+  owner, one witness

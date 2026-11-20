@@ -1,0 +1,21 @@
+% Chapter 39 - evaluated price of the three transformer offers against the energy price used to
+% value their losses; U-C undercuts U-A below about 52 u/MWh (diagrams/data/ch39-reversal.csv from
+% companion/ch39/examples_s.py, s_reversal; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=10, xmax=100, ymin=1100, ymax=2700,
+      xlabel={قیمتِ انرژی برای ارزش‌گذاریِ تلفات (واحد بر مگاوات‌ساعت)},
+      ylabel={قیمتِ ارزیابی‌شده (هزار واحد)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sWind] table[x=price, y=ua, col sep=comma] {data/ch39-reversal.csv};
+    \addplot[sLoss] table[x=price, y=ub, col sep=comma] {data/ch39-reversal.csv};
+    \addplot[sBESS] table[x=price, y=uc, col sep=comma] {data/ch39-reversal.csv};
+    \legend{U-A, U-B, U-C}
+    \draw[sLimit] (axis cs:70,1100) -- (axis cs:70,2700);
+    \node[note, anchor=south west] at (axis cs:71,1150) {ارزیابی: ۷۰};
+    \draw[cInkB, densely dashed] (axis cs:52,1100) -- (axis cs:52,1900);
+    \node[note, anchor=south east] at (axis cs:51,1150) {۵۲};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

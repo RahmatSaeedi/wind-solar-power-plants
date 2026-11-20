@@ -1,0 +1,12 @@
+one hour by hand, PV (23 June 12:00, model 15.1):
+  POA 1021 W/m2, after IAM 1011 W/m2, air 36.3 C, wind at 2 m 2.84 m/s
+  cell temperature (Faiman 25 + 6.84 v) 59.3 C
+  STC 61.33 | DC gross 54.08 | DC 52.45 | inverter 51.55 MW
+  clipped 49.00 | soiling+shading 48.27 | long-term 47.69 MW
+  degradation 47.45 | availability 46.97 MW
+one hour by hand, wind (hour 628, day 27, 04:00):
+  hub speed 9.08 m/s from 278 deg; ground 880.6 hPa, -4.6 C
+  hub density 1.1308 kg/m3; density-equivalent speed 8.84 m/s
+  pack curve: 3617 kW at 9.08, 3372 kW at 8.84, 3537 kW at the 9.0 m/s bin
+  gross (1.225) 43.40 | density 42.44 | terrain 42.27 MW
+  wakes 42.27 | long-term 43.44 | availability 42.61 MW

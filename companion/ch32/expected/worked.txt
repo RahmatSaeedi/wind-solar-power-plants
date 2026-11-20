@@ -1,0 +1,10 @@
+E01 risk score, likelihood 4, severity 3: 12 (high)
+E02 rate, 2 recordables in 300,000 h: 1.33 per 200,000 h (0.24-4.20)
+E03 fall clearance, lanyard 2.0 m, deceleration 1.75 m: 6.55 m
+E04 air changes, 40 m3 and 400 m3/h: 10 per hour
+E05 purge to 10 % at 10 changes an hour: 13.8 min
+E06 stopping distance at 40 km/h: 30.6 m
+E07 noise, 95 dB(A) for 2 h: 89.0 dB(A) over 8 h
+E08 autonomy, 100 m3 at 2,000 L/min: 50 min
+E09 flux at 15 m from 20 MW, radiant 0.3: 2.1 kW/m2
+E10 PFD, rate 0.05 a year, tested yearly: 0.025

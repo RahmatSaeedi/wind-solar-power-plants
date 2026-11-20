@@ -1,0 +1,12 @@
+grid strength at the POC (short-circuit ratio SCR = S_sc / P_plant):
+  case                         S_sc MVA   SCR    dU per 10 Mvar %
+  normal (ch 17)                   1500   15.0               0.66
+  one grid line out                 600    6.0               1.65
+  weak corner                       300    3.0               3.31
+  very weak                         200    2.0               4.96
+  the weaker the grid, the more each Mvar moves the voltage:
+  controller gains tuned for SCR 15 can oscillate at SCR 3;
+  converters that follow the grid (a phase-locked loop) need
+  a voltage to lock on - at low SCR their own current moves
+  it, and interactions appear; the operator's weak-grid study
+  (ch 28) tests the plant's models at the weakest case

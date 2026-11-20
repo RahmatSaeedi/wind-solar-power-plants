@@ -1,0 +1,9 @@
+spar-cap thickness by station, 25 blades (UT gauge, +-6 % tol.)
+  station m   nominal mm   mean mm   sd    Cpk
+         10           65      65.1  0.90   1.41
+         30           47      46.8  0.64   1.36
+         50           25      25.1  0.61   0.76
+  the station at 50 m has the lowest capability: thin
+  plies near the tip drop off in steps, and a missing step
+  is a large share of a thin cap - the ply map's checks
+  are densest where the cap is thinnest

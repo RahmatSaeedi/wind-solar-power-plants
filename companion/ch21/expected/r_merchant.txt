@@ -1,0 +1,8 @@
+the merchant tail (years 21-25) against its price:
+  merchant price u (real)   equity IRR %   NPV k u
+                       30           9.67        42
+                       45          10.22     5,159
+                       60          10.69    10,275
+  five far years move the equity return little: lenders give
+  them no value, owners some; a longer PPA or a floor turns
+  them from hope into revenue

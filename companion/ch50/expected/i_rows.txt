@@ -1,0 +1,10 @@
+handover data of block PVF1-3 before import: 8 rows, 8 required fields
+  missing fields:    =PVF1-3-Q1 maint
+  duplicate keys:    =PVF1-3-T1
+  dangling refs:     =PVF1-3-SW1 floc, =PVF1-3-UPS1 doc
+  revision differs from the document register:
+    =PVF1-3-INV1: row says C02, register says C03
+  5 of 8 rows have a defect; an import would load them
+  as they are - a maintenance plan for nothing, a location that
+  does not exist, a drawing revision that was replaced; the
+  rows are corrected at the source and the check run again

@@ -1,0 +1,13 @@
+energy of an internal arc in a unit transformer tank (teaching):
+  E = U_arc x I x t; arc voltage taken as 2 kV (assumed)
+  clearing by                          time ms   current kA   energy kJ
+  current-limiting fuse                      5          3.0          30
+  breaker, instantaneous                    80          6.4        1024
+  breaker, time-graded                     400          6.4        5120
+  fault level 6.4 kA at the 33 kV bus; the energy grows with
+  the clearing time: a fuse that limits both current and time
+  keeps the gas pressure in the tank low; an instantaneous
+  breaker lets 34 times that energy in, a time-graded relay
+  170 times - tank strength, pressure relief
+  and clearing time are chosen together (ch 26 settings,
+  fire interfaces of lesson F)

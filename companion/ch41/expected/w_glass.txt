@@ -1,0 +1,7 @@
+incoming glass: solar transmittance against a lower limit
+  (AQL 1 %, LTPD 5 %; variables plan of ch 40)
+  measure 54 sheets; accept if (mean - limit)/s >= 1.94
+  an attribute pass/fail on the same risks needs 132 sheets;
+  transmittance is measured anyway, so the variables plan is
+  cheaper - but a lot whose readings are not normal (two
+  furnaces mixed) breaks its assumption: plot them first

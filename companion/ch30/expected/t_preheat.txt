@@ -1,0 +1,9 @@
+carbon equivalent and preheat (IIW formula; teaching thresholds)
+  heat (mill certificate)          CE     t mm   preheat (teaching)
+  S355 heat A                     0.43      30   50 C
+  S355 heat A                     0.43      50   100 C
+  S355 heat B                     0.53      50   125 C
+  the same grade can need different preheat by heat and
+  thickness: the welding procedure (lesson C) takes CE
+  from the mill certificate of the plate in the jig, not
+  from the grade's maximum

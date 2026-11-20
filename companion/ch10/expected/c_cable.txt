@@ -1,0 +1,10 @@
+DC cable losses at the maximum power point (A-203; 70 C):
+  cable                  R ohm    loss at STC W   share %
+  string, 4 mm2 Cu        0.823             141      0.99
+  string, 6 mm2 Cu        0.549              94      0.66
+  combiner, 240 mm2 Al    0.056            3882      1.36
+  combiner, 300 mm2 Al    0.045            3106      1.09
+  over the year I^2 R losses scale with P^2: energy share = STC share x 0.66
+  so 0.99 % + 1.36 % at STC is about 1.5 % of the DC energy
+  (the 2 % of A-183 is a little conservative); voltage drop
+  and the sun-derated ampacity (chapter 4) are separate checks

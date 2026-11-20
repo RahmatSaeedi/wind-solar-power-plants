@@ -1,0 +1,8 @@
+staged PV extension of 25 MW AC (teaching):
+  today: 295.8 GWh, 46.75 u/MWh
+  + 25 MW PV at 100 MW: +48.3 GWh, curtailed 4.9 GWh, 45.79 u/MWh
+  + 25 MW PV at 120 MW: +53.3 GWh, curtailed 0.5 GWh, 45.68 u/MWh
+  what the first stage must leave: land, a spare 33 kV bay,
+  transformer capacity or space for a third unit, a cable
+  route, and protection and control that can take more
+  blocks; cheap now, costly to retrofit with outages

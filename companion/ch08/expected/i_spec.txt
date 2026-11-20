@@ -1,0 +1,15 @@
+conceptual data of the Plant P generator (PLP-ELE-SPC-0001, A):
+  type: geared permanent-magnet synchronous, 6 poles, 1155 rpm, 57.75 Hz
+  rating 5.4 MVA at 690 V: 4,518 A; 5.13 MW to the converter
+  efficiency at 25/50/100 % load (loss model): 0.954 / 0.969 / 0.970
+  EMF falls with speed: 358 V at 600 rpm; the converter
+    must work over the whole speed range and at overspeed
+  insulation designed for converter impulses (b_insulation); a
+    thermal class with margin over the 94 C hot spot of c_thermal
+  cooling for about 160 kW: 4.7 kg/s of water at 8 K (b_cooling)
+  balance grade G 2.5: residual 62 kg mm (c_balance)
+  monitoring: winding PT100s, bearing temperatures,
+    accelerometers (outer race 110 Hz),
+    insulated bearing on the non-drive end against shaft currents
+  tests: routine set on every unit, type set on the first (section C)
+the qualified machine designer and the turbine supplier confirm every line

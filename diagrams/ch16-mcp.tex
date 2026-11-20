@@ -1,0 +1,22 @@
+% Chapter 16 - uncertainty of the long-term mean wind speed by MCP against the months of concurrent
+% data, for four correlations (teaching relation A-282). Data: diagrams/data/ch16-mcp.csv (examples_f.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=62mm, xmin=4, xmax=38, ymin=0, ymax=3.2,
+      xlabel={ماه‌های داده‌ی هم‌زمان}, ylabel={عدمِ قطعیتِ تندیِ بلندمدت، درصد},
+      xtick={6,12,18,24,36}, ytick={0,0.5,...,3},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=4]
+    \addplot[sLoss, mark=*, mark size=1.3pt, mark options={solid}] table[x=m, y=r70, col sep=comma] {data/ch16-mcp.csv};
+    \addlegendentry{$r = 0.70$}
+    \addplot[sPV, mark=square*, mark size=1.3pt, mark options={solid}] table[x=m, y=r80, col sep=comma] {data/ch16-mcp.csv};
+    \addlegendentry{$r = 0.80$}
+    \addplot[sWind, mark=triangle*, mark size=1.5pt, mark options={solid}] table[x=m, y=r90, col sep=comma] {data/ch16-mcp.csv};
+    \addlegendentry{$r = 0.90$}
+    \addplot[sInk, mark=diamond*, mark size=1.6pt] table[x=m, y=r95, col sep=comma] {data/ch16-mcp.csv};
+    \addlegendentry{$r = 0.95$}
+    \draw[sLimit] (axis cs:4,0.78) -- (axis cs:38,0.78);
+    \node[note, anchor=north east] at (axis cs:37,0.72) {حدِ مرجعِ بیست‌ساله};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

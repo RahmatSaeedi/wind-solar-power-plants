@@ -1,0 +1,8 @@
+edge shunts show at low light (teaching cell)
+  shunt ohm cm2   eff at 1000 W/m2   at 200 W/m2   relative
+           5000             23.36%        22.23%      0.952
+           1000             23.10%        21.03%      0.910
+            300             22.35%        17.55%      0.785
+  a shunt that costs a little at full sun costs much more at
+  200 W/m2, where the plant spends many hours: cells are
+  tested at low light or by dark current before sorting

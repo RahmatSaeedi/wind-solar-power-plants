@@ -1,0 +1,16 @@
+stage gates against the evidence in hand (teaching):
+  P-Central:
+    G2 measurement and studies   pass
+    G3 permits, grid, land       2/5
+    G4 PPA, design, financing    0/4
+  P-South:
+    G2 measurement and studies   3/4
+    G3 permits, grid, land       0/5
+    G4 PPA, design, financing    0/4
+  P-North:
+    G2 measurement and studies   1/4
+    G3 permits, grid, land       0/5
+    G4 PPA, design, financing    0/4
+  a gate passes only when every listed item is in hand; the
+  investment decision (G4) waits for the signed documents,
+  not for a score

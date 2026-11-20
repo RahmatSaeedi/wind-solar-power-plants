@@ -1,0 +1,15 @@
+% Chapter 30 - shear-modulus degradation G/G0 against shear strain (hyperbolic model, reference
+% strain 1e-4) with the three states of lesson P (diagrams/data/ch30-gdeg.csv, examples_p).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmode=log, xmin=1e-6, xmax=1e-2, ymin=0, ymax=1.05,
+      xlabel={کرنشِ برشی}, ylabel={$G/G_0$}]
+    \addplot[sInk] table[x=strain, y=ratio, col sep=comma] {data/ch30-gdeg.csv};
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cLoss] coordinates {(1e-5,0.909) (2e-4,0.333) (1e-3,0.0909)};
+    \node[note, anchor=south west] at (axis cs:1.2e-5,0.92) {ارتعاش};
+    \node[note, anchor=south west] at (axis cs:2.4e-4,0.35) {بهره‌برداری};
+    \node[note, anchor=south west] at (axis cs:1.2e-3,0.11) {توفان};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

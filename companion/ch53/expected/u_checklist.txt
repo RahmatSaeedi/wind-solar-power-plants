@@ -1,0 +1,15 @@
+retirement evidence: what closes the plant (at the start of the works)
+  [x] isolation certificates for every circuit
+  [ ] transfer notes reconciled for every hazardous load
+  [ ] receivers' certificates
+  [ ] SF6 recovery records
+  [ ] foundation removal survey to the agreed depth
+  [ ] restoration monitoring record
+  [ ] land acceptance by the landholder
+  [ ] records migrated and access removed (scan)
+  [ ] commitments closed with evidence
+  [ ] fund released
+  1 of 10 at the start - the list is the plan of the
+  closure: each item has an owner and a date, and the plant is
+  closed when the last one is evidenced, not when the last
+  turbine leaves

@@ -1,0 +1,13 @@
+more PV behind the same 100 MW connection (S1, debt resized):
+  PV MW   extra capex k u   energy x   equity IRR %   NPV k u
+     50                 0      1.000          10.22     5,159
+     60             7,560      1.068          10.59    10,297
+     70            15,120      1.132          10.83    14,858
+     80            22,680      1.193          10.96    18,742
+     90            30,240      1.251          11.00    22,003
+  each added 10 MW block adds less NPV (5.1, 4.6, 3.9, 3.3
+  million) because more of its energy is curtailed at the
+  limit; the shared connection makes the first blocks cheap
+  energy, and the gain stops where the marginal energy no
+  longer pays for the block; the PPA must accept the extra
+  energy and the grid offer must allow it (ch 17)

@@ -1,0 +1,14 @@
+delay budget of the plant control path (teaching, A-303):
+  part                            ms
+  measurement transducer           20
+  measurement filter              100
+  PPC cycle (half, average)        50
+  network PPC -> park ctrl         50
+  park controller cycle (half)     25
+  network -> inverters             20
+  inverter response                50
+  total                           315
+  against the 500 ms the tuned loop tolerates: margin 185 ms
+  a SCADA path polled every 2 s instead of a direct link adds
+  about 1,000 ms on average: the plant loop would need slower
+  gains; budget each part, then measure the whole at site

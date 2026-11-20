@@ -1,0 +1,7 @@
+data volume of the permanent monitoring plan (teaching)
+  110 channels of 10-minute values: 5.8 million values a year (~0.05 GB)
+  400 recorded events a year of 2 s waveforms: ~1.6 GB
+  five years kept: about 8 GB - small for storage, large for
+  people: the plan says who reads what (weekly summary,
+  every event over a threshold) and how a finding becomes
+  an investigation

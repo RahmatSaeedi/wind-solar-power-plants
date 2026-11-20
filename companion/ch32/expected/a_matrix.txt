@@ -1,0 +1,11 @@
+the teaching 5 x 5 risk matrix (score = likelihood x severity)
+  likelihood \ severity    1    2    3    4    5
+                       5    5   10   15   20   25
+                       4    4    8   12   16   20
+                       3    3    6    9   12   15
+                       2    2    4    6    8   10
+                       1    1    2    3    4    5
+  bands: up to 4 low, 5-9 medium, 10-16 high, above 16 very
+  high (teaching); a matrix ranks risks for attention - it
+  does not prove a risk acceptable, and its numbers are
+  judgements to be written down with their reasons

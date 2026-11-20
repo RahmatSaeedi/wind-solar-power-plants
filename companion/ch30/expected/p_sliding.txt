@@ -1,0 +1,8 @@
+sliding of the gravity base under the extreme load (teaching)
+  dense sand, phi 36        base friction 0.45: resistance  15.7 MN, FS  9.8
+  T07 medium sand, phi 30   base friction 0.36: resistance  12.8 MN, FS  8.0
+  vertical load 35.3 MN, horizontal 1.60 MN
+  a wind turbine base does not slide: the horizontal force
+  is small beside its weight; the moment governs (lift-off,
+  bearing, rotation) - the check is done and recorded, but
+  it is not where the design is decided

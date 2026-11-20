@@ -1,0 +1,9 @@
+flux path: 1.2 m of iron (mu_r 2000) and two 3 mm air gaps, B 0.9 T
+  air gap: H = B/mu0 = 716,197 A/m x 6 mm = 4,297 ampere-turns
+  iron:    H = B/(mu0 mu_r) = 358 A/m x 1.2 m = 430 ampere-turns
+  the air gap takes 91 % of the magnetising effort
+  iron mu_r  2000 (saturating): total 4,727 ampere-turns
+  iron mu_r   500 (saturating): total 6,016 ampere-turns
+  iron mu_r   100 (saturating): total 12,892 ampere-turns
+a large air gap is mechanically safe but costs magnetising current;
+  in an induction machine that current is reactive power from the grid

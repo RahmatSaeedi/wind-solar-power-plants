@@ -1,0 +1,12 @@
+one IGBT module of the hottest position: 494 W, coolant 45 C,
+  R_jc 0.028 K/W, cold plate 0.016 K/W (ch 9: 0.060 in all)
+  interface 100 um of k 0.8 W/m K over 80 cm2 under the chips (teaching)
+  interface state                R_tim K/W   Tj C   daily swing K   cycle life
+  as designed                       0.0156     74            29.5         100%
+  printed twice as thick            0.0312     82            37.2          31%
+  40 % voids under the chips        0.0260     80            34.6          45%
+  pumped out and dried              0.0586     96            50.7           7%
+  the interface is a thin layer, but a thick or dry one moves
+  the junction by many kelvin; power cycling life falls with
+  the fifth power of the swing (ch 9) - the print weight and
+  coverage at mounting are process controls, not details

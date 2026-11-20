@@ -1,0 +1,5 @@
+three numbers by hand
+  Q needed at 100 MW, pf 0.95: 100 x tan(acos 0.95) = 32.87 Mvar
+  P where 30.6 Mvar meets pf 0.95: 30.6 / 0.3287 = 93.1 MW
+  chance of a rule change within a year at 0.5 a year: 1 - e^-0.5 = 39%
+  (programs: 32.87, 93.1, 39%)

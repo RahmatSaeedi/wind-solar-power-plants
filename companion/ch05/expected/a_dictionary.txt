@@ -1,0 +1,6 @@
+data dictionary of the hourly file (data pack 1.1.0), four of its rows:
+  ghi_wm2   W/m2  0 to 1200   global horizontal irradiance
+  dni_wm2   W/m2  0 to 1050   direct normal irradiance
+  dhi_wm2   W/m2  0 to 700    diffuse horizontal irradiance
+  t_air_c   degC  -25 to 50   air temperature at 2 m
+  (25 rows in all, one per column of every data file)

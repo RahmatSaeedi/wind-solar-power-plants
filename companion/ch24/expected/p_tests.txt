@@ -1,0 +1,17 @@
+cable test families and what each proves (names and records only):
+  routine (every length):
+    conductor resistance, voltage test, partial discharge
+    record: each drum's test report
+  sample (some lengths):
+    dimensions, eccentricity, hot set, conductor
+    record: sample test report per lot
+  type (once per design):
+    electrical and thermal cycling, ageing, bending
+    record: type-test certificate
+  after laying (site):
+    sheath integrity, insulation test, VLF or AC test
+    record: site test record per section
+  the factory proves the cable was made right; the site test
+  proves it survived transport, pulling and jointing - neither
+  replaces the other; methods, voltages and durations are
+  the standard's and the maker's, done by trained staff

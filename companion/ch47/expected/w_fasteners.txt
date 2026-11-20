@@ -1,0 +1,7 @@
+PV fasteners: about 140 a table, 294,000 in the field
+  to see at least one loose fastener with 95% confidence when 1% are loose:
+  n = ln(1 - 0.95) / ln(1 - 0.01) = 299 fasteners checked,
+  none loose to accept
+  the sample does not depend on the field's size; it is spread
+  over crews, days and table types, because a loose fastener
+  comes from one crew's tool or one day's rush (ch 40 sampling)

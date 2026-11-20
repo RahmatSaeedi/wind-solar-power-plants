@@ -1,0 +1,11 @@
+water vapour through a backsheet over a year (teaching:
+  1.5 g/m2/day at 38 C, doubling every 10 K; monthly mean
+  module temperature of a hot dry site)
+  build                       g a year   in 25 years
+  glass-backsheet                  684      17,102 g
+  glass-glass, edge seal            14         342 g
+  a breathable backsheet lets water in and acetic acid from
+  the encapsulant out; glass-glass keeps water out but traps
+  what gets in through the edge - which build is safer
+  depends on the encapsulant, so the BOM, not one material,
+  is qualified (damp heat, lesson C)

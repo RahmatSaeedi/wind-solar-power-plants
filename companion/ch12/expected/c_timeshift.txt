@@ -1,0 +1,6 @@
+finding a clock error in hourly data (pack year):
+  pack GHI against clear sky: best lag 0 h
+  the same data stored one hour late: best lag 1 h
+  morning/afternoon symmetry around solar noon shows the same
+  thing on clear days; a UTC/local mix-up gives exactly 4 h here
+  share of GHI before noon: pack 0.500, late copy 0.379

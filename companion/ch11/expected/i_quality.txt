@@ -1,0 +1,12 @@
+inspection basis of one tower section family (A-224, teaching):
+  per tower: 518 m circumferential and 100 m longitudinal welds, 8 flanges
+  plate: mill certificate per heat, thickness and lamination check
+  rolling: roundness and diameter of each can
+  welding: approved procedures and welders; visual 100 %;
+    volumetric (ultrasonic) and surface tests at the extents the
+    design and its standard require
+  flanges: flatness and inclination after welding (bolt fatigue)
+  coating: surface preparation, dry-film thickness, adhesion
+  dimensional check and records before release; transport and
+  site receipt inspection for damage to coating and flanges
+  twelve towers: 6.2 km of circumferential welds in the records

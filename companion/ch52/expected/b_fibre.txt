@@ -1,0 +1,7 @@
+fibre rings: measured loss at the yearly check (dB), budget 10.0 dB
+  east ring  6.8  6.9  7.4   margin 2.6 dB
+  west ring  8.9  9.1  9.6   margin 0.4 dB
+  PV ring    5.2  5.2  5.3   margin 4.7 dB
+  the west ring (ch 35) has 0.4 dB left after a splice repair:
+  one more repair and it fails - the cleaning of connectors
+  and a spare fibre pair are planned before then

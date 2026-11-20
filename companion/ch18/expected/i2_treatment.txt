@@ -1,0 +1,9 @@
+treating cleaning water by reverse osmosis (teaching, 70 %):
+  cleaning water needed         1,529 m3/yr
+  feed from the well            2,184 m3/yr
+  brine to dispose of             655 m3/yr
+  well abstraction with the other uses   3,459 m3/yr
+    (against 2,804 m3/yr untreated)
+  treatment adds an interface on each side: the permit covers
+  the feed, not the product, and the brine needs a disposal
+  route the environmental permit accepts (chapter 33)

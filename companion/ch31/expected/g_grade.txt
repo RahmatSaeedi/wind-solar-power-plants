@@ -1,0 +1,11 @@
+pull needed to climb with the nacelle (gross 232 t, teaching)
+  grade %   pull kN   tractors at 300 kN (incl. a pusher)
+        0        46           1
+        4       136           1
+        8       227           1
+       12       316           2
+  each 4 % of grade adds about 90 kN - a third of a tractor;
+  at 12 % a pusher unit is needed: the steep stretches of
+  ch 29's roads get a pusher, gravel for grip, or a
+  gentler alignment - and wet
+  gravel halves the grip a driven axle can use

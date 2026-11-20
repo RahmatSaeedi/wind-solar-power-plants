@@ -1,0 +1,21 @@
+module tests: purpose and when they run
+  test                       when           purpose
+  power at STC (flash)       every module   rating, label, binning
+  electroluminescence        every module   cracks, dark cells, joints
+  insulation, earth link     every module   safety of the package
+  visual and dimensions      every module   workmanship, frame, labels
+  wet leakage                sample + qual. insulation when wet
+  thermal cycling            qual. + retest joints and interconnects
+  damp heat                  qual. + retest moisture, adhesion, corrosion
+  humidity freeze            qual. + retest edge seal, junction box
+  mechanical load            qual. + retest frame, glass, cells
+  hail                       qualification  glass
+  hot spot                   qualification  cell reverse bias
+  bypass diode thermal       qualification  junction box heat
+  PID                        qual. + retest voltage-induced loss
+  transport (package)        package qual.  shipping unit
+  4 tests run on every module; the rest qualify a design
+  (IEC 61215, IEC 61730) on a few samples, and are repeated
+  when the BOM or process changes (IEC TS 62915); the
+  factory's quality system keeps them valid between (IEC
+  62941) - a certificate covers the BOM that was tested

@@ -1,0 +1,38 @@
+% Chapter 18 - AC- and DC-coupled battery with the PV plant (flows right to left; one-way
+% efficiencies of A-286 on the converters). Teaching sketch.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=24mm, minimum height=10mm, align=center, text width=23mm},
+    ttl/.style={font=\small\bfseries, text=cInk, align=center, text width=24mm}]
+  % AC-coupled
+  \node[ttl] at (13.4,0.8) {کوپلِ متناوب};
+  \node[blkPV, minimum width=24mm, minimum height=10mm, align=center] (pv1) at (10.4,1.6) {آرایهٔ خورشیدی};
+  \node[blkBESS, minimum width=24mm, minimum height=10mm, align=center] (bt1) at (10.4,0) {باتری};
+  \node[b] (iv1) at (6.9,1.6) {اینورترِ خورشیدی\\$0.983$};
+  \node[b] (bi1) at (6.9,0) {اینورترِ باتری\\$0.98$};
+  \draw[bus] (4.6,-0.4) -- (4.6,2.0);
+  \node[note] at (4.6,2.35) {شینهٔ متناوب};
+  \node[blkLoad, minimum width=20mm, minimum height=10mm, align=center] (g1) at (2.2,0.8) {شبکه};
+  \draw[flow] (pv1.west) -- (iv1.east);
+  \draw[flow] (iv1.west) -- (4.6,1.6);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (bt1.west) -- (bi1.east);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (bi1.west) -- (4.6,0);
+  \draw[flow] (4.6,0.8) -- (g1.east);
+  % DC-coupled
+  \node[ttl] at (13.4,-3.0) {کوپلِ مستقیم};
+  \node[blkPV, minimum width=24mm, minimum height=10mm, align=center] (pv2) at (10.4,-2.2) {آرایهٔ خورشیدی};
+  \node[blkBESS, minimum width=24mm, minimum height=10mm, align=center] (bt2) at (10.4,-3.8) {باتری};
+  \node[b] (dc2) at (7.9,-3.8) {مبدلِ DC/DC\\$0.99$};
+  \draw[bus] (6.3,-4.2) -- (6.3,-1.8);
+  \node[note] at (6.3,-1.45) {شینهٔ مستقیم};
+  \node[b] (iv2) at (4.4,-3.0) {اینورترِ خورشیدی\\$0.983$};
+  \node[blkLoad, minimum width=20mm, minimum height=10mm, align=center] (g2) at (1.6,-3.0) {شبکه};
+  \draw[flow] (pv2.west) -- (6.3,-2.2);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (bt2.west) -- (dc2.east);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (dc2.west) -- (6.3,-3.8);
+  \draw[flow] (6.3,-3.0) -- (iv2.east);
+  \draw[flow] (iv2.west) -- (g2.east);
+  \node[note, text width=110mm] at (6.6,-5.1) {کوپلِ مستقیم انرژیِ بُرش‌خوردهٔ آرایه را می‌گیرد و یک تبدیل کمتر دارد؛ کوپلِ متناوب از باد و شبکه هم شارژ می‌شود و اینورتر را با خورشیدی شریک نمی‌شود};
+\end{tikzpicture}
+\end{document}

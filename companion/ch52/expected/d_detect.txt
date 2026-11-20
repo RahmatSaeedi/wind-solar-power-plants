@@ -1,0 +1,7 @@
+step 2 - detection: daily energy of PVF2-3 over the median of the other nine
+  ratio normalised to its first 30 days; lower CUSUM k 0.01, h 0.05
+  ratio after day 52: 0.952; after day 75: 0.945
+  CUSUM signal on case day 53: 1 day(s) after the fault
+  the fault was found on day 95 by the thermography flight -
+  43 days late; the ratio was in SCADA all the time,
+  nobody watched it (ch 37 CUSUM)

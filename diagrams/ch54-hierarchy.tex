@@ -1,0 +1,30 @@
+% Chapter 54 - kinds of requirement source in the teaching order of the chapter, widest at the
+% bottom (project procedures) and how each binds the project (law; through the licence and the
+% connection; when a law or contract refers to it; by agreement; inside the project).
+% The real order and its exceptions are a legal question for each jurisdiction.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small,
+    lvl/.style={draw=cInkB, fill=cFill, minimum height=6.2mm, align=center, font=\small,
+                text=cInk, rounded corners=1pt},
+    grp/.style={font=\scriptsize, text=cInkB, align=center, anchor=east}]
+  \foreach \i/\w/\t in {1/30/{قانون}, 2/38/{آیین‌نامه}, 3/46/{شرطِ مجوز}, 4/54/{کدِ شبکه},
+      5/62/{قاعدهٔ شرکتِ برق}, 6/70/{استانداردِ ملی}, 7/78/{قرارداد},
+      8/86/{مشخصاتِ مالک}, 9/94/{روشِ اجراییِ پروژه}} {
+    \node[lvl, minimum width=\w mm] (l\i) at (0,{-0.72*\i}) {\t};
+  }
+  \draw[cLoad, line width=1pt] (-5.2,-0.50) -- (-5.4,-0.50) -- (-5.4,-2.38) -- (-5.2,-2.38);
+  \node[grp] at (-5.6,-1.44) {به حکمِ قانون};
+  \draw[cWind, line width=1pt] (-5.2,-2.66) -- (-5.4,-2.66) -- (-5.4,-3.82) -- (-5.2,-3.82);
+  \node[grp] at (-5.6,-3.24) {از راهِ پروانه و قراردادِ اتصال};
+  \draw[cPV, line width=1pt] (-5.2,-4.10) -- (-5.4,-4.10) -- (-5.4,-4.54) -- (-5.2,-4.54);
+  \node[grp] at (-5.6,-4.32) {وقتی قانون یا قرارداد\\ به آن ارجاع دهد};
+  \draw[cBESS, line width=1pt] (-5.2,-4.82) -- (-5.4,-4.82) -- (-5.4,-5.26) -- (-5.2,-5.26);
+  \node[grp] at (-5.6,-5.04) {با توافقِ طرف‌ها};
+  \draw[cInkB, line width=1pt] (-5.2,-5.54) -- (-5.4,-5.54) -- (-5.4,-6.70) -- (-5.2,-6.70);
+  \node[grp] at (-5.6,-6.12) {درونِ پروژه};
+  \draw[-{Stealth[length=2mm]}, cInkB, line width=0.7pt] (5.6,-6.6) -- (5.6,-0.6);
+  \node[font=\scriptsize, text=cInkB, rotate=90, anchor=south] at (5.75,-3.6)
+    {بالاتر در ترتیبِ آموزشی};
+\end{tikzpicture}
+\end{document}

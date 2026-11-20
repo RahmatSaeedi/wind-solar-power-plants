@@ -1,0 +1,13 @@
+recovery objectives of each system (teaching)
+  system                        time h   data lost h
+  protection relay settings          8          0.00
+  plant controller                   4          0.00
+  SCADA servers                      8          0.25
+  firewalls and switches             2          0.00
+  historian                         24          1.00
+  CMMS (business)                   48         24.00
+  configurations lose nothing: every change is backed up
+  before and after (lesson C); the historian may lose an
+  hour because the devices' buffers refill it (ch 35); the
+  business system may lose a day. The objectives decide
+  how backups are made, not the other way round

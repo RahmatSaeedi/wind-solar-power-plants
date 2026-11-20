@@ -1,0 +1,14 @@
+survey control: horizontal error budget (1 sigma, m, teaching)
+  base station coordinates (network)      0.010
+  RTK rover, single fix                   0.020
+  setting out (pole and tripod)           0.010
+  monument stability                      0.005
+  combined (root sum of squares)          0.025
+  tolerance                              value   ratio to 2 sigma
+  anchor cage centre (teaching)          0.050               1.00
+  PV pile row line                       0.030               0.60
+  substation slab corner                 0.020               0.40
+  the budget shows which tolerance the survey can hold with
+  margin (ratio above 1) and which needs a better method
+  (static GNSS or a total station from local control) -
+  chosen before setting out, not after the first misfit

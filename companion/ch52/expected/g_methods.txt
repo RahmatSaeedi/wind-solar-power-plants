@@ -1,0 +1,10 @@
+one cleaning campaign of the whole PV field by method (teaching data)
+  method              water m3  recov %  broken  crew h  runoff m3   cost u
+  truck + brush, RO        109      3.4     2.2     132         38    6,608
+  truck, HP lance          164      3.6     9.8     108         87    5,811
+  dry robot                  0      2.6     0.5      18          0    2,120
+  manual, low P, RO         87      3.5     1.1     540         27   21,862
+  the lance recovers most and breaks most (pressure above the
+  module maker's limit risks the warranty); the dry robot
+  uses no water and recovers least; manual work is gentle
+  and slow - the choice weighs all six columns, not one

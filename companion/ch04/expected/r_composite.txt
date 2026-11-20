@@ -1,0 +1,5 @@
+unidirectional laminate, rule of mixtures (fibre and resin values assumed):
+  glass  V_f 0.55: E along  41.0 GPa, across  6.7 GPa, density 1920 kg/m3
+  carbon V_f 0.55: E along 127.9 GPa, across  7.0 GPa, density 1508 kg/m3
+  stiff along the fibres, weak across: plies run in several directions
+  where loads demand it; voids and wrinkles cut the resin-dominated values

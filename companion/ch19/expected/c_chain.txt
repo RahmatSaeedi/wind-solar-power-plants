@@ -1,0 +1,9 @@
+teaching propagation chain (not a design method; A-294):
+  design                       p cell  p module  cells  modules
+  no barriers                   0.90      0.60   17.8     1.08
+  cell barriers                 0.30      0.30    1.9     1.00
+  cell and module barriers      0.30      0.05    1.9     1.00
+  the chain shows why a barrier between cells matters more than
+  one between modules: a module passes the event on only if the
+  cells carried it to its edge; real probabilities come only
+  from large-scale tests of the product (UL 9540A, chapter 32)

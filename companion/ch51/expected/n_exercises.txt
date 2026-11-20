@@ -1,0 +1,11 @@
+emergency exercises in the first year against the plan
+  fire evacuation                    2/2
+  rescue from a nacelle              1/2
+  casualty at night                  0/1
+  loss of SCADA (with the OT team)   1/1
+  responders' site visit             1/1
+  short: rescue from a nacelle (1), casualty at night (1)
+  incidents 2, near misses 21 in six months; near misses rose
+  from 3 in the first month to 6 in the sixth - a reporting
+  culture growing, if each is closed with a lesson; the night
+  casualty exercise is the gap carried from ch 50

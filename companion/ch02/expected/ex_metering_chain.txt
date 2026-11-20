@@ -1,0 +1,4 @@
+revenue metering chain: CT 0.2 %, VT 0.2 %, meter 0.2 % (teaching limits)
+  worst case 0.6 %; root-sum-square 0.35 %
+  on 289.8 GWh/yr: worst case 1.74 GWh, RSS 1.00 GWh per year
+  at 45 currency units per MWh (fictional): 45,175 units per year

@@ -1,0 +1,15 @@
+% Chapter 40 - cumulative failures against cumulative test hours of the pilot run on log-log axes,
+% with the fitted power law N = lambda t^beta (beta 0.58): a straight line with slope below 1 means
+% growth (diagrams/data/ch40-growth*.csv from companion/ch40/examples_e.py, e_growth; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{loglogaxis}[plantp, width=100mm, height=58mm, xmin=10, xmax=3000, ymin=0.4, ymax=15,
+      xlabel={ساعتِ تجمعیِ آزمون}, ylabel={شمارِ تجمعیِ خرابی‌ها},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[only marks, mark=*, mark size=1.8pt, color=cInk] table[x=t, y=n, col sep=comma] {data/ch40-growth.csv};
+    \addplot[sLoss] table[x=t, y=n, col sep=comma] {data/ch40-growth-model.csv};
+    \legend{خرابی‌های آزمون, مدلِ توانی ($\beta = 0.58$)}
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

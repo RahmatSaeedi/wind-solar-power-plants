@@ -1,0 +1,18 @@
+% Chapter 7 - LED driver current with the A-105 spectrum against its fundamental (one period).
+% Data: diagrams/data/ch07-led.csv (companion/ch07/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=64mm,
+      xlabel={زاویهٔ لحظه‌ای، درجه}, ylabel={جریان، پریونیتِ مؤلفهٔ اصلی},
+      xmin=0, xmax=360, ymin=-4.6, ymax=4.6, xtick={0,90,...,360}, ytick={-4,-2,0,2,4}]
+    \addplot[sLoad] table[x=deg, y=i, col sep=comma] {data/ch07-led.csv};
+    \addlegendentry{جریانِ راه‌انداز}
+    \addplot[sInk] table[x=deg, y=i1, col sep=comma] {data/ch07-led.csv};
+    \addlegendentry{مؤلفهٔ اصلی}
+    \node[note, anchor=south west, text=cInk] at (axis cs:96,3.95) {قلهٔ $4.07$؛ ضریبِ قله $2.84$};
+    \node[note, anchor=west, text=cInk] at (axis cs:150,1.55) {مؤلفهٔ اصلی};
+    \node[note, text width=44mm] at (axis cs:275,2.6) {اعوجاجِ کل $103\,\%$\\مقدارِ مؤثر $1.436$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

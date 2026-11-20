@@ -1,0 +1,9 @@
+cost of quality of the ten skids (k u)
+  prevention          15.0  ( 13%)
+  appraisal           21.0  ( 19%)
+  internal failure     4.8  (  4%)
+  external failure    71.4  ( 64%)
+  total 112.2 k u; external failure alone is 64%
+  one escaped defect cost more than all prevention and
+  appraisal together; the 8 k u of the corrective actions
+  (lesson D) would have been prevention money

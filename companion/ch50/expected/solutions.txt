@@ -1,0 +1,52 @@
+P01 energisation requests stopped: 2
+P02 open prerequisites: 3
+P03 instruments out of calibration / without record: 1 / 1
+P04 expected Voc / Isc: 1,217 V / 11.58 A
+P05 strings failing: S03, S05, S07, S11
+P06 strings below the IR limit or without record: S06, S13, S16
+P07 relays out: WS3 51, PVF3 51
+P08 step rise / settling: 4.8 / 7.3 s
+P09 capability short at P: 100 MW
+P10 measured droop: 4.30 %
+P11 PR / lower bound / days used: 0.826 / 0.806 / 9
+P12 punch open / net rate / empty in week: 76 / 19.7 / 19
+P13 deviations not accepted: DEV-11, DEV-14
+P14 roles short of assessed people: 3
+P15 spares short: 3
+P16 commissioning-pack gaps: 3 of 9 steps
+P17 transfer trials over the limit: 1
+P18 UPS / station battery pass: False / False
+P19 loads shed in the wrong step: 2
+P20 interlocks failed / not tested: 1 / 1
+P21 cause-effect proven / pairs missing: 82% / 3
+P22 requirements untested / open / failed: 4 / 3 / 1
+P23 phasing error / sheath / slow intertrip: T2 HV / 2 / 1
+P24 handover rows with a defect: 5 of 8
+P25 import accepted / rejected: 4 / 4
+P26 restore within the objective: False
+P27 roles / stale contacts / drills open: 1 / 2 / 2
+P28 hand checks: 1,170 V, 1.07 s, 0.826
+P29 acceptance criteria met: 2 of 10
+P30 witnessed tests inside the notice period: 2
+P31 T1 ratio difference: -0.81%
+P32 latency 95th / 99th / over 2 s: 0.97 s / 2.50 s / 1.2%
+P33 round trip with / without auxiliaries: 82.5% / 84.7%
+P34 worst one-minute ramp: 21.1 MW/min
+P35 telemetry availability: 98.36%
+P36 mean main-check difference: +0.084%
+P37 warranty records differing from the contract: 3
+P38 auxiliary restart: 22.5 min
+P39 overlapping permits: 1
+P40 turbines released: 7 of 12
+P41 documents at as-built: 83%
+P42 UPS at the design load: 20.1 min
+P43 drill arrival / later than planned: 68 / 15 min
+P44 reserve need / up / down: 10.0 / 16.0 / 16.0 MWh
+P45 differential with one CT set reversed: 0.60 pu
+P46 rise of potential measured: 1.86 kV
+P47 THD 95th percentile / maximum: 2.63 / 3.42 %
+P48 data kept shorter than required: 2
+P49 call tree: all reached in 16 min
+P50 tests with an instrument ratio below 4: 2
+P51 shifts without an authorised person: C, D
+P52 unaccounted by the log / really inside / still missing: 2 / 60 / 0

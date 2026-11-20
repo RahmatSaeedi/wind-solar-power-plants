@@ -1,0 +1,16 @@
+% Chapter 35 - a synthetic hour of transformer oil temperature around the 80 C alarm limit, with the
+% 1 K deadband that clears the alarm (examples_c, diagrams/data/ch35-chatter.csv; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=60, ymin=76, ymax=84,
+      xlabel={زمان (دقیقه)}, ylabel={دمای روغن ($^\circ\mathrm{C}$)}]
+    \addplot[sWind, no marks] table[x expr=\thisrow{t}/60, y=temp, col sep=comma] {data/ch35-chatter.csv};
+    \draw[sLoss] (axis cs:0,80) -- (axis cs:60,80);
+    \node[note, anchor=west] at (axis cs:60.5,80) {حدِ هشدار};
+    \draw[sLimit] (axis cs:0,79) -- (axis cs:60,79);
+    \node[note, anchor=west, text width=20mm] at (axis cs:60.5,79) {پاک شدن با نوارِ مردهٔ $1\,\mathrm{K}$};
+    \node[note, anchor=north east, text width=60mm] at (axis cs:59,83.9) {بی‌نوارِ مرده و تأخیر: ۳۵۸ هشدار؛ با آن‌ها: ۶};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,11 @@
+anti-condensation heater of an outdoor RMU kiosk (teaching):
+  walls and roof 18 m2, heat loss 3.5 W/(m2 K)
+  kept above ambient K   heater W
+                      3        189
+                      5        315
+                      8        504
+  a few kelvin above the night air keeps the surfaces above
+  the dew point when the desert night cools fast; the heater
+  runs from the auxiliary supply with a humidistat, and its
+  failure is an alarm - tracking on wet insulation is how
+  many outdoor switchgear faults begin

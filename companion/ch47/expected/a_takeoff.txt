@@ -1,0 +1,15 @@
+material take-off (teaching): one turbine and the PV field
+  tower section   D mean m   t mm   length m   shell t
+              1       4.31     46         25     122.2
+              2       3.94     40         25      97.0
+              3       3.56     32         25      70.3
+              4       3.19     26         25      51.1
+  shell from the ch 11 wall schedule 341 t (ch 11: 340 t);
+  ch 30's fatigue steel low down +32 t: 373 t of shell
+  flanges, door frame and internals +12%: 417 t a tower
+  foundation: 893 m3 concrete, rebar at 95 kg/m3: 85 t
+  twelve turbines: 5,010 t of tower steel, 10,716 m3 concrete, 1,018 t rebar
+  PV: 2,100 tables of 2 x 26 at 15 kN: 3,211 t of galvanized steel
+  the take-off from the fabrication drawings must show ch 30's
+  32 t: one that matches ch 11's 340 t of shell means the
+  drawings still carry the old walls (lesson B checks the plates)

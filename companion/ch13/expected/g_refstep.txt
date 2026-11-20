@@ -1,0 +1,6 @@
+a step hidden in the long-term reference (A-257):
+  ratio to a neighbour series: 2004-2013 1.006, 2014-2023 1.036 (t = 6.8)
+  long-term factor for 2023: clean 1.0204, with the step 1.0055 (-1.5 %)
+  a step in the reference moves the whole long-term estimate;
+  ratios to independent neighbours show it; use the consistent
+  period or a corrected series, and say so in the report

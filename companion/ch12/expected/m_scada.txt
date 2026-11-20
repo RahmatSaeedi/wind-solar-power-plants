@@ -1,0 +1,11 @@
+the plant's SCADA export (UTC, decimal comma) against the station:
+  71 hourly rows, issues 1
+  UTC converted to +04:00: PR over the export 0.751
+    hourly correlation of energy and POA r = 1.000
+  UTC read as local: PR over the export 0.744
+    hourly correlation of energy and POA r = 0.324
+  the period's PR barely notices a four-hour error, because the
+  sums over whole days are the same; the hour-by-hour correlation
+  collapses: check alignment hourly, report daily
+  (the export was made with chapter 5's simple model, so its PR
+  is not chapter 10's)

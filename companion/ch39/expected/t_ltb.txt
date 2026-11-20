@@ -1,0 +1,7 @@
+last-time buy of inverter control boards (end of production)
+  60 boards in service, 2% fail a year, 20 years left
+  expected failures: 24; to cover them with 95 %: 32 boards
+  buying only the mean (24) runs short 45% of the time
+  the obsolescence clause of lesson E gives the notice that
+  makes this purchase possible; storage and testing of the
+  stock are part of its cost

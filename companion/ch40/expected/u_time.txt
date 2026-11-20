@@ -1,0 +1,10 @@
+time study of one LV busbar joint (OP40)
+  fit bolt, washer, nut        mean 2.15 min
+  torque with logged wrench    mean 1.23 min
+  paint mark                   mean 0.44 min
+  normal time: sum x rating 0.95 = 3.62 min
+  standard time: x (1 + 0.15) = 4.17 min
+  24 joints: 1.67 h of the 14 h OP40
+  the joints are a small part of OP40; most of its hours are
+  fitting busbars and landing cables - a time study measures
+  work as done, the route's hours were an estimate

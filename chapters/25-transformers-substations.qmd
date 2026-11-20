@@ -1,0 +1,145 @@
+# ترانسفورماتورها و پست‌های برق {#sec-ch25}
+
+## نقشهٔ فصل {#sec-ch25-map}
+
+::: {.callout-note}
+## اهدافِ یادگیری
+پس از این فصل، خواننده می‌تواند:
+
+1. ترانسفورماتور را از قانونِ فارادی، شار، نسبتِ دور، مدارِ معادل، راکتانسِ نشتی، تلف و بازده، حدهای گرمایی، تنشِ دی‌الکتریک، صدا و نیروی اتصالِ کوتاه توضیح دهد.
+2. مقدارهای نامی، امپدانس، گروهِ برداری، سرمایش، عایق، تلف، بارگذاری و افزایشِ دما، جریانِ هجومی، تنظیمِ ولتاژ و کارِ موازی را تفسیر و ورودی‌های مشخصه را از الزام‌ها و مطالعه‌ها جمع کند.
+3. توالیِ طراحی و وابستگی‌ها را با معادله‌های ساده دنبال کند و بداند این معادله‌ها جانشینِ نرم‌افزار و بازبینیِ سازنده نیستند.
+4. ترانسفورماتور را به اجزایش تجزیه، مسیرِ کارخانهٔ روغنی و خشک و دروازه‌های کیفیت را دنبال، و پروندهٔ آزمون را در برابرِ قرارداد تفسیر کند.
+5. ترانسفورماتورِ روغنی و خشک، حمل و نصب، نگه‌داشتِ روغن، رابط‌های حریق و صدا را بی نسخهٔ عمومی بسنجد.
+6. پستِ صادرات و رابطِ پایانهٔ شبکه را با آرایشِ شینه، بِی‌ها، ترانسفورماتورهای اندازه‌گیری، برقگیر، کنتور، مخابرات، خدماتِ ایستگاه، مرزِ مالکیت، مرحله‌بندی و دسترسیِ شبکه طراحیِ مفهومی کند.
+:::
+
+**پیش‌نیازها:** مدارهای [AC]{.ltr} و مغناطیس (@sec-ch07)، ماشین‌ها (@sec-ch08) و نمودارِ تک‌خطی (@sec-ch23).
+
+::: {.callout-tip}
+## پیش‌آزمون
+1. ولتاژِ القاشده در یک دور با شارِ سینوسی به چه چیزهایی بستگی دارد؟
+2. نسبتِ دورِ [132/33]{.ltr} چیست؟
+3. اگر جریان دو برابر شود، نیروی میانِ دو رسانا چند برابر می‌شود؟
+4. بازدهِ یک دستگاهِ [1,000 kW]{.ltr} با [10 kW]{.ltr} تلف چیست؟
+5. ستاره و مثلث چه فرقی در نول دارند؟
+
+پاسخ‌ها: (۱) فرکانس، شارِ بیشینه، مقطع ($4.44 f B A$)؛ (۲) ۴؛ (۳) چهار؛ (۴) $1{,}000/1{,}010 = 99.0\,\%$؛ (۵) ستاره نول دارد. اگر دو پرسش یا بیشتر را نتوانستید، @sec-ch07 و @sec-ch08 را مرور کنید.
+:::
+
+**جایگاهِ این فصل در نیروگاهِ P.** نمودارِ تک‌خطی (فصلِ ۲۳) دو ترانسفورماتورِ [63 MVA]{.ltr} و یک بِیِ خط دارد و فصلِ ۲۴ کابل‌ها و تابلوها را برگزید. این فصل ترانسفورماتورها را **مشخص** می‌کند، پیشنهادها را با
+تلف می‌سنجد، پروندهٔ آزمون را بازبینی می‌کند و پستِ صادرات را با رابط‌هایش می‌سازد. تحویل‌دادنی: مشخصه، بازبینیِ رابط و حریق، پروندهٔ آزمون و آرایشِ پست، با تصمیمِ [D-029]{.ltr}.
+
+::: {.callout-warning}
+## مرزِ این فصل
+مقدارهای ترانسفورماتور، پیشنهادها، رواداری‌ها و خرابی‌ها **آموزشی**اند ([A-326]{.ltr} تا [A-330]{.ltr})؛ رواداری‌ها شرطِ قراردادِ آموزشی‌اند، نه عددِ استاندارد. آزمون‌های ولتاژِ بالا، خلأ، فشار، روغنِ داغ
+و دی‌الکتریک، و کار در پستِ برق‌دار به تأسیساتِ ویژه، روال‌های تأییدشده و کارکنانِ صلاحیت‌دار نیاز دارند و این‌جا فقط با هدف و شاهد آمده‌اند. طراحیِ حریق و فاصله‌ها با مهندسِ حریق و مقام است.
+:::
+
+{{< include /chapters/25/_25-a-theory.qmd >}}
+
+{{< include /chapters/25/_25-a2-spec.qmd >}}
+
+{{< include /chapters/25/_25-a3-loading.qmd >}}
+
+{{< include /chapters/25/_25-a4-physics.qmd >}}
+
+{{< include /chapters/25/_25-a5-day.qmd >}}
+
+{{< include /chapters/25/_25-a6-choices.qmd >}}
+
+{{< include /chapters/25/_25-a7-choices2.qmd >}}
+
+{{< include /chapters/25/_25-a8-units.qmd >}}
+
+{{< include /chapters/25/_25-a9-nminus1.qmd >}}
+
+{{< include /chapters/25/_25-a10-lossyear.qmd >}}
+
+{{< include /chapters/25/_25-a11-threewinding.qmd >}}
+
+{{< include /chapters/25/_25-a12-nightq.qmd >}}
+
+{{< include /chapters/25/_25-a13-bess.qmd >}}
+
+{{< include /chapters/25/_25-b-design.qmd >}}
+
+{{< include /chapters/25/_25-b2-factory.qmd >}}
+
+{{< include /chapters/25/_25-b3-design2.qmd >}}
+
+{{< include /chapters/25/_25-b4-accessories.qmd >}}
+
+{{< include /chapters/25/_25-b5-tower.qmd >}}
+
+{{< include /chapters/25/_25-b6-materials.qmd >}}
+
+{{< include /chapters/25/_25-b7-sun.qmd >}}
+
+{{< include /chapters/25/_25-c-testing.qmd >}}
+
+{{< include /chapters/25/_25-c2-transport.qmd >}}
+
+{{< include /chapters/25/_25-c3-shipping.qmd >}}
+
+{{< include /chapters/25/_25-c4-tests2.qmd >}}
+
+{{< include /chapters/25/_25-c5-contract.qmd >}}
+
+{{< include /chapters/25/_25-c6-arrival.qmd >}}
+
+{{< include /chapters/25/_25-c7-refloss.qmd >}}
+
+{{< include /chapters/25/_25-d-lab.qmd >}}
+
+{{< include /chapters/25/_25-d2-monitoring.qmd >}}
+
+{{< include /chapters/25/_25-d3-integration.qmd >}}
+
+{{< include /chapters/25/_25-d4-dossier2.qmd >}}
+
+{{< include /chapters/25/_25-d5-condition.qmd >}}
+
+{{< include /chapters/25/_25-d6-residual.qmd >}}
+
+{{< include /chapters/25/_25-d7-lifecost.qmd >}}
+
+{{< include /chapters/25/_25-d8-schedule.qmd >}}
+
+{{< include /chapters/25/_25-e-service.qmd >}}
+
+{{< include /chapters/25/_25-e2-earthing.qmd >}}
+
+{{< include /chapters/25/_25-e3-spares.qmd >}}
+
+{{< include /chapters/25/_25-e4-failure.qmd >}}
+
+{{< include /chapters/25/_25-e5-risk.qmd >}}
+
+{{< include /chapters/25/_25-f-fire.qmd >}}
+
+{{< include /chapters/25/_25-f2-fluids.qmd >}}
+
+{{< include /chapters/25/_25-f3-noise.qmd >}}
+
+{{< include /chapters/25/_25-f4-carbon.qmd >}}
+
+{{< include /chapters/25/_25-f5-loadnoise.qmd >}}
+
+{{< include /chapters/25/_25-g-export.qmd >}}
+
+{{< include /chapters/25/_25-g2-yard.qmd >}}
+
+{{< include /chapters/25/_25-g3-staging.qmd >}}
+
+{{< include /chapters/25/_25-g4-metering.qmd >}}
+
+{{< include /chapters/25/_25-g5-structures.qmd >}}
+
+{{< include /chapters/25/_25-g6-energising.qmd >}}
+
+{{< include /chapters/25/_25-g7-site.qmd >}}
+
+{{< include /chapters/25/_25-y-plantp.qmd >}}
+
+{{< include /chapters/25/_25-z-assessment.qmd >}}

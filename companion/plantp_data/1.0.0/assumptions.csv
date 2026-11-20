@@ -1,0 +1,14 @@
+id,quantity,value,unit,status,source,introduced_in,note
+A-001,Site latitude,34.0,deg N,assumed,data pack 1.0.0,ch01,fictional; no longitude is defined (non-geolocated)
+A-002,Site elevation,1200,m,assumed,data pack 1.0.0,ch01,fictional
+A-003,Time zone of all timestamps,UTC+04:00,-,assumed,data pack 1.0.0,ch01,fixed offset; no daylight saving; site meridian = zone meridian
+A-004,Nominal grid frequency,50,Hz,assumed,data pack 1.0.0,ch01,teaching value
+A-005,Wind turbine count and rating,12 x 5,MW,assumed,data pack 1.0.0,ch01,fictional turbine WT-5.0-150
+A-006,Wind turbine hub height,100,m,assumed,data pack 1.0.0,ch01,equals the top measurement height
+A-007,PV module,PVM-550,-,synthetic,data pack 1.0.0,ch01,fictional 550 Wp module
+A-008,PV DC/AC ratio,1.2,-,assumed,derived from SR-01 and SR-02,ch01,60 MWp / 50 MW
+A-009,BESS usable state-of-charge window (S1),10 to 90,percent,assumed,scenario S1,ch01,usable 32 MWh at beginning of life
+A-010,BESS round-trip efficiency AC to AC (S1),86,percent,assumed,scenario S1,ch01,one-way 92.7 percent
+A-011,BESS capacity fade (S1),2.0,percent per year,assumed,scenario S1,ch01,linear teaching model
+A-012,BESS charging source (S1),on-site PV and wind only,-,assumed,scenario S1,ch01,grid charging NOT permitted unless a scenario says so
+A-013,Hourly resource data,synthetic 8760 h,-,synthetic,generate_release.py seed 20260101,ch01,replaced by measured data in later scenarios

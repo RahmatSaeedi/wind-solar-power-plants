@@ -1,0 +1,9 @@
+magnetic pressure B^2 / (2 mu0) at 0.9 T: 322 kPa on the rotor surface
+  half the rotor surface 1.34 m2: 432 kN outwards,
+  balanced by the other half when the gap is uniform
+  eccentricity   5 % of the gap: net pull about  21.6 kN
+  eccentricity  10 % of the gap: net pull about  43.2 kN
+  eccentricity  20 % of the gap: net pull about  86.4 kN
+  rotor weight 3 t = 29.4 kN: a 10 % eccentric gap pulls as much
+  air-gap uniformity is a manufacturing hold point (C.6) and a
+  bearing load (B.6); the pull also lowers the critical speed

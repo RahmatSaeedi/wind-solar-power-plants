@@ -1,0 +1,11 @@
+payment milestones for one main transformer (bid B, 1,700 k u;
+  money at 6 % a year until COD; months before COD)
+  scheme        payments (months: share)                    cost k u
+  progress      20:10%, 17:10%, 12:30%, 6:30%, 4:10%, 1:10%     81.8
+  on delivery   20:10%, 4:80%, 1:10%                            44.8
+  paying for progress costs the owner more interest but lets
+  the maker buy copper and steel without borrowing (its price
+  is lower or its risk smaller); each advance is protected by
+  a guarantee and each milestone by evidence (design approved,
+  FAT passed, delivered) - the terms are the contract's
+  (ch 39); this is a commercial sketch, not legal advice

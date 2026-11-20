@@ -1,0 +1,9 @@
+warranty check of the year (teaching limits A-293):
+  item                          value      limit    ok
+  throughput MWh/yr            11,664.63  14,600.00   yes
+  equivalent full cycles/yr       364.52     365.00   yes
+  mean SOC                          0.36       0.70   yes
+  cell temperature max C           32.60      45.00   yes
+  temperature from the container model at end of life with a
+  100 kW HVAC (b_heat); a warranty is a contract: its limits
+  become controller settings and monthly reports

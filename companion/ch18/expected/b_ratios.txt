@@ -1,0 +1,10 @@
+capacity ratios of Plant P (S1 with the battery):
+  ratio                                   value
+  PV DC / PV AC (60.06 MWp / 50 MW)        1.20
+  wind / PV AC (60 / 50 MW)                1.20
+  wind + PV AC / export limit (110 / 100)  1.10
+  battery power / export limit (20 / 100)  0.20
+  battery energy / power (40 / 20)          2 h
+  transformers / export (2 x 63 MVA / 100)  1.26
+  each ratio is a choice with a price: >1 buys energy in
+  the other hours and pays in curtailment or clipping

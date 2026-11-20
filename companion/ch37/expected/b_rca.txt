@@ -1,0 +1,11 @@
+root cause of the June outage (synthetic record)
+  step              finding                                 evidence
+  what              B07 at zero for 9 days                  block data
+  when              first zero 06:10, day 160               event log, UTC
+  immediate cause   trip on DC insulation fault             inverter log
+  why not reset     spare monitor not in stock              CMMS, store
+  root cause        spares list older than a design change  spares register
+  fix               spare added, list tied to notices       work order
+  the root cause is the one that, fixed, stops it happening
+  again - here a spares list, not the inverter; every step
+  cites its evidence, kept with the event (lesson B)

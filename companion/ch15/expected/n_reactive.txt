@@ -1,0 +1,8 @@
+active power given up at the PV inverters' apparent-power limit
+  for a power factor of 0.95 at the POC (teaching, A-273):
+  PV inverters give all the reactive power    4,107 MWh in 503 more hours
+  shared with the turbines by rating            523 MWh in 124 more hours
+  reactive power at full sun takes room from the active power
+  of an inverter at its limit; sharing it with the turbines and
+  sizing inverters in MVA (chapter 25) keep the loss small; the
+  requirement itself is national (chapters 28 and 55-57)

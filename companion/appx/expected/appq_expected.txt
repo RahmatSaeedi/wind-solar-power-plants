@@ -1,0 +1,13 @@
+expected results recomputed from the hourly file (tolerance 0.05 %)
+  quantity                 expected   computed  check
+  hours                     8760.00    8760.00  pass
+  annual_ghi_kwh_m2         1947.20    1947.18  pass
+  annual_dni_kwh_m2         2301.90    2301.93  pass
+  max_ghi_wm2               1042.60    1042.60  pass
+  mean_t_air_c                16.78      16.78  pass
+  min_t_air_c                 -8.60      -8.60  pass
+  max_t_air_c                 40.70      40.70  pass
+  mean_ws_100m_ms              7.10       7.10  pass
+  max_ws_100m_ms              24.28      24.28  pass
+  mean_p_hpa                 877.67     877.67  pass
+  10 of 10 pass; a failed check means the file or the reader changed

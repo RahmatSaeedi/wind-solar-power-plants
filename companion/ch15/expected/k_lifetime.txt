@@ -1,0 +1,10 @@
+net energy at the POC over the life (S0, model 15.1):
+  year   PV at MV GWh   net GWh
+     1       108.36       295.14
+     5       106.18       293.08
+    10       103.46       290.48
+    15       100.73       287.86
+    20        98.01       285.23
+    25        95.29       282.57
+  mean of 25 years 288.89 GWh; year 1 is +2.2 % above it
+  a statement names its year; the finance model takes the series

@@ -1,0 +1,9 @@
+tracker drives: motor current in the quarterly stow test (A);
+  flag a rise over 25 %
+  row 112    4.1  4.2  4.2  4.3    +4.9 %
+  row 540    4.0  4.4  4.9  5.4   +35.0 %
+  row 873    4.2  4.1  4.3  4.2    +0.0 %
+  row 1310   4.1  4.6  5.0  5.3   +29.3 %
+  flagged: row 540, row 1310 - a stiff bearing or a slew drive
+  wearing; the stow test that proves safety also measures
+  condition, if its current is logged and trended

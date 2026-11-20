@@ -1,0 +1,23 @@
+loop-impedance check of the LV feeders (type C breakers, 10 x In):
+  feeder                            In A    m  mm2   Zs ohm   max ohm  ok
+  DC chargers 110 V                   25   15   25    0.056     0.920  y
+  UPS: SCADA, PPC, telecom            50   20   25    0.065     0.460  y
+  control room HVAC                   80   80   25    0.170     0.287  y
+  switchgear room ventilation         50   60   25    0.135     0.460  y
+  on-load tap changer motors          16  120   25    0.239     1.438  y
+  transformer cooling fans            40  120   25    0.239     0.575  y
+  substation lighting and security    32  150   25    0.292     0.719  y
+  drainage and sump pumps             20  200   25    0.379     1.150  y
+  water pumping and treatment        100  350   95    0.192     0.230  y
+  cleaning robots charging           125  400  185    0.125     0.184  y
+  workshop and stores                 80   90   25    0.187     0.287  y
+  maintenance socket outlets          63  100   25    0.204     0.365  y
+  staff facilities                    50  250   35    0.344     0.460  y
+  0 feeder(s) fail: none
+  with type D breakers (20 x In) 6 would fail:
+    control, water, cleaning, workshop, maintenance, staff
+  a failing feeder does not trip fast enough on a fault at its
+  far end: a larger cable is then needed for the disconnection,
+  not for the current; an RCD or a smaller breaker is often
+  the cheaper answer (the wiring rules decide the time; the
+  values here are teaching)

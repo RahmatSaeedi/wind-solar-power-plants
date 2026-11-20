@@ -1,0 +1,8 @@
+trial import into the owner's maintenance system (a test copy)
+  accepted 4, rejected 4 (missing field, unknown
+  location or document, duplicate key)
+  the system accepts INV1 with its old drawing revision: an
+  import that 'works' is not a check - the revision rule is
+  ours to run before it (ch 38 revision rules)
+  then: search for three assets by tag, open their drawings,
+  raise a test work order, and delete the test copy

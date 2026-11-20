@@ -1,0 +1,7 @@
+frame width: variables plan against the attribute plan
+  (AQL 1 %, LTPD 5 %, producer's risk 5 %, consumer's 10 %)
+  attribute plan: n = 132, accept if <= 3 out of limits
+  variables plan: n = 54, accept if (limit - mean)/s >= 1.94
+  measuring the width, not only judging in/out, carries more
+  information per frame: the same protection with 41%
+  of the samples - if the width is normal and well measured

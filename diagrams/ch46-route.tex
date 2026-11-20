@@ -1,0 +1,19 @@
+% Chapter 46 - the route of a 33 kV XLPE cable through the factory, with the record each step keeps
+% (purposes only; no process values). Read right to left, two rows.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=24mm, minimum height=12mm, text width=22mm, align=center}]
+  \node[st] (a) at (0,0) {کشیدن و رشته‌کردنِ رسانا \\ \footnotesize قطر، مقاومت};
+  \node[st] (b) at (-2.9,0) {اکستروژنِ سه‌لایه \\ \footnotesize ضخامت، خروج از مرکز};
+  \node[st] (c) at (-5.8,0) {پخت و گاززدایی \\ \footnotesize سابقهٔ زمان};
+  \node[st] (d) at (-8.7,0) {شیلد و زره \\ \footnotesize سطحِ مقطع};
+  \node[st] (e) at (-8.7,-2.3) {روکش و چاپ \\ \footnotesize متراژ، نشانه};
+  \node[st] (f) at (-5.8,-2.3) {آزمون‌های جاری \\ \footnotesize گزارشِ هر قرقره};
+  \node[st] (g) at (-2.9,-2.3) {آزمون‌های نمونه \\ \footnotesize گزارشِ محموله};
+  \node[blkWind, minimum width=24mm, minimum height=12mm, text width=22mm, align=center] (h) at (0,-2.3) {قرقره و برچسب \\ \footnotesize طول، شمارهٔ قرقره};
+  \foreach \x/\y in {a/b, b/c, c/d} {\draw[flow] (\x) -- (\y);}
+  \draw[flow] (d) -- (e);
+  \foreach \x/\y in {e/f, f/g, g/h} {\draw[flow] (\x) -- (\y);}
+\end{tikzpicture}}
+\end{document}

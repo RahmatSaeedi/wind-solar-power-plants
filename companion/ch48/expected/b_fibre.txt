@@ -1,0 +1,17 @@
+fibre links: measured loss against the expected loss and the budget
+  (teaching: 0.35 dB/km, 0.5 dB a connector, 0.1 dB a splice;
+  budget 7.0 dB: ch 35's 10 dB optics less its 3 dB margin)
+  link       km   expected dB   measured dB   verdict
+  T04-T05   0.62          1.42          1.45   ok
+  T05-T06   0.71          1.45          2.95   suspect
+  T06-T07   0.88          1.71          1.78   ok
+  T12-SUB   4.10          3.03          3.40   ok
+  T01-SUB   6.20          4.97          7.40   fail
+  SUB-CTRL  0.15          1.05          1.25   ok
+  T05-T06 passes the budget but is 1.5 dB above its expected
+  loss: a dirty or damaged connector, cleaned and re-measured
+  before it becomes the ring's weak link; T01-SUB is over
+  the budget and 2.4 dB above its own expected loss: its
+  connectors and splices are re-made and measured again before
+  longer-reach optics are bought - the west ring was already
+  tight in ch 35's paper budget

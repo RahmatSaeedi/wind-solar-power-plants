@@ -1,0 +1,14 @@
+constant-current constant-voltage charge from 10 % (stop at
+  0.05 C; LFP to 3.6 V, NMC to 4.2 V):
+  cell  C-rate   CC minutes   CV minutes   SOC when CV starts/ends
+  LFP     0.25          216            0    99.9 /  99.9 %
+  LFP     0.50          108            0    99.9 / 100.0 %
+  LFP     1.00           53            1    98.6 / 100.0 %
+  NMC     0.25          211            9    97.8 /  99.5 %
+  NMC     0.50          103           12    95.6 /  99.5 %
+  NMC     1.00           48           17    90.6 /  99.5 %
+  the flat LFP curve with a low resistance reaches full charge
+  almost entirely at constant current; NMC reaches its voltage
+  limit early at higher rates and spends a long slow tail at
+  constant voltage; stopping at 90 % skips the tail and keeps
+  the cells off the high-voltage end where they age faster

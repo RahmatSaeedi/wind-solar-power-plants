@@ -1,0 +1,11 @@
+can a fire appliance turn at the pads and gates? (teaching radii)
+  appliance turning circle: inner 9.0 m, outer 16.0 m; swept width 7.0 m
+  location               road width m   bend radius m   ok?
+  site road bend                  6.0            25.0   yes
+  pad junction                    6.0            12.0   NO
+  substation gate                 5.0            10.0   NO
+  BESS yard entry                 8.0            14.0   NO
+  the roads were sized for cranes and trailers (ch 29), but
+  tight gate and junction bends can stop a fire appliance:
+  the fire service drives the routes in a familiarisation
+  visit (lesson E) and its own vehicle data decide

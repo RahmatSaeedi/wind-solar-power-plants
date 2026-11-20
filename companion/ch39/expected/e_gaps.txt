@@ -1,0 +1,10 @@
+what each contract relies on that no contract covers (A-431)
+  EPC              needs: O&M spares at handover
+  turbine OEM      needs: site access roads
+  O&M              needs: O&M spares at handover, as-built data
+  grid connection  needs: protection settings of the plant
+  lenders          needs: independent engineer access, lender-named insurance
+  7 gaps; each needs an owner and a clause before
+  financial close. The concepts (guarantee, step-in,
+  assignment, security) are explained; the wording is for
+  the parties' lawyers

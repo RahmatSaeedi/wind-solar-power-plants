@@ -1,0 +1,11 @@
+the same plant under four revenue pathways (teaching):
+  pathway                        debt k u  gearing %  min DSCR  eq. IRR %
+  PPA pay-as-produced, S1         121,025       71.1      1.20      10.22
+  PPA pay-as-produced, S0         113,526       72.9      1.27      12.76
+  time-of-day PPA, S1 shifts      124,378       72.9      1.22      11.35
+  merchant S1, 50 u, lent on 80 %   56,281       34.5      1.68       3.69
+  under a flat PPA the battery only costs (S0 earns more); a
+  time-of-day tariff pays for the shifting of chapter 20 and
+  narrows the gap; a merchant sale earns less and the lenders
+  lend less on a price they discount - the equity then needs
+  a higher price or a hedge to reach its return

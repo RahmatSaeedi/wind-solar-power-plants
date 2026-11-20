@@ -1,0 +1,25 @@
+% Chapter 30 - plan of a circular gravity base under an eccentric load: the load point at
+% eccentricity e from the centre, the compressed (effective) segment and the part that lifts off,
+% and the kern radius r/4 inside which no part lifts (teaching; lesson D, eq-ch30-effective).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small]
+  \def\R{2.6}
+  \def\E{1.1}
+  % effective area: the lens shared by the base and a copy shifted by 2e (A' of the formula)
+  \begin{scope}
+    \clip (0,0) circle (\R);
+    \fill[cWind!18] (2*\E,0) circle (\R);
+  \end{scope}
+  \draw[cInk, line width=0.8pt] (0,0) circle (\R);
+  \draw[densely dashed, draw=cInkB] (0,0) circle (\R/4);
+  \fill[cInk] (0,0) circle (1.2pt);
+  \fill[cLoss] (\E,0) circle (2pt);
+  \draw[dimline] (0,-0.25) -- node[note, below] {$e$} (\E,-0.25);
+  \draw[dimline] (0,0) -- node[note, above, sloped] {$r$} (135:\R);
+  \node[note, text width=24mm] at (1.85,1.55) {ناحیهٔ فشاری $A'$};
+  \node[note, text width=22mm] at (-1.5,0.3) {بخشی که بلند می‌شود};
+  \node[note, anchor=north] at (0,-\R-0.15) {هستهٔ $r/4$: درونِ آن هیچ بخشی بلند نمی‌شود};
+  \node[note, anchor=west] at (\E+0.1,0.25) {نقطهٔ اثرِ بار};
+\end{tikzpicture}
+\end{document}

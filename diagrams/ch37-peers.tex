@@ -1,0 +1,17 @@
+% Chapter 37 - specific yield of the ten PV blocks in a year; B04 stands out from its peers
+% (examples_c; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=58mm, ybar, bar width=5mm, xmin=0.3, xmax=10.7,
+      ymin=1700, ymax=1820, xtick={1,...,10},
+      xticklabels={B01,B02,B03,B04,B05,B06,B07,B08,B09,B10},
+      ylabel={بازدهِ ویژه (kWh/kWp)}, ytick={1700,1720,...,1820}]
+    \addplot[fill=cPV!40, draw=cPV] table[x=b, y=y, col sep=comma] {data/ch37-peers.csv};
+    \draw[fill=cLoss!40, draw=cLoss] (axis cs:3.75,1700) rectangle (axis cs:4.25,1726.4);
+    \draw[sLimit] (axis cs:0.3,1788) -- (axis cs:10.7,1788);
+    \node[note, anchor=south] at (axis cs:4,1727) {$-3.4\,\%$};
+    \node[note, anchor=south] at (axis cs:4,1789) {میانه};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

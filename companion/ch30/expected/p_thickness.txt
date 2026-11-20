@@ -1,0 +1,12 @@
+yield strength falls with plate thickness (typical S355 steps)
+  thickness mm   fy MPa   section-1 can (50 mm): fy used
+  up to    16       355
+  up to    40       345
+  up to    63       335
+  up to    80       325
+  stress at the top of section 1 (factored, teaching): 275 MPa
+  use with 355: 0.78; with the 50 mm value 335: 0.82
+  thickening a can for fatigue moves it into a lower yield
+  class: every check of the thick sections uses the yield
+  for its own thickness, from the mill certificate's product
+  standard (lesson C), never the grade's headline number

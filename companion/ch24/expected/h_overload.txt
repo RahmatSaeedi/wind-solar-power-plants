@@ -1,0 +1,11 @@
+emergency overload of a cable (first-order heating, tau 1.5 h):
+  start at 0.85 pu, then        final C   hours to 90 C
+   1.1 pu                        104.7     1.26
+   1.2 pu                        120.8     0.73
+   1.3 pu                        138.3     0.51
+   1.5 pu                        177.5     0.30
+  (start temperature 70.6 C) - a ring or a parallel
+  feeder that switches load onto a cable for an hour can
+  use this margin; at 1.3 pu the limit comes in about half
+  an hour, at 1.5 pu in under 20 minutes; the protection (ch 26) and
+  the switching rules must keep inside it

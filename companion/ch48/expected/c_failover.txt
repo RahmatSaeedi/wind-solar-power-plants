@@ -1,0 +1,14 @@
+redundancy tests at the SAT: what each had to prove and what it did
+  test                         expected s   measured s   verdict
+  ring W-east fibre cut              0.05         0.03   ok
+  ring W-west fibre cut              0.05         0.04   ok
+  core switch A off                  1.00         0.60   ok
+  SCADA server A off                30.00        22.00   ok
+  RTU main CPU off                   5.00         9.50   FAIL
+  time source A off                  2.00            -   NOT DONE
+  PPC communication loss            10.00         6.00   ok
+  failed: RTU main CPU off; not done: time source A off
+  the RTU's standby CPU takes 9.5 s to take over against 5 s:
+  the grid operator's telemetry would freeze for that long;
+  the time-source test was never run - the one failure that
+  silently spoils every record after it (ch 35 holdover)

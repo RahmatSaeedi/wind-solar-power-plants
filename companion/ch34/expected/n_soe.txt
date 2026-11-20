@@ -1,0 +1,8 @@
+two events up to 10 ms apart: is their order on record right?
+  resolution ms   same stamp %   wrong order %
+              1            5.1             0.6
+             10           49.8             0.1
+  at 10 ms resolution about half of such pairs share a stamp
+  and their order is lost; at 1 ms most are told apart; the few
+  reversed come from the clocks' own sync error - the
+  resolution and the sync accuracy are specified together

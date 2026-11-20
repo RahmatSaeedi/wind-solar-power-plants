@@ -1,0 +1,4 @@
+three numbers by hand, checked by the scripts
+  one module short of 26 at 1,217 V: 46.8 V less, 1,170 V
+  WS3 relay at 5 x pickup, TMS 0.25: 0.25 x 0.14 / (5^0.02 - 1) = 1.07 s
+  PR of 9 days: 2,988 / (60 x 60.3) = 0.826

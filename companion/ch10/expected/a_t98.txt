@@ -1,0 +1,6 @@
+module temperature percentiles over the data-pack year (Faiman):
+  all 8760 h: 98th percentile 56.5 C, maximum 71.7 C
+  daylight hours (POA > 50 W/m2): 98th percentile 60.1 C
+  open racks at 1200 m stay below the 70 C reference of the
+  module safety standard; a roof or a hot desert site may not
+  (IEC TS 63126:2025 adds two higher temperature levels)

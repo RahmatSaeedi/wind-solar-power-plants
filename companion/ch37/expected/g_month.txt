@@ -1,0 +1,8 @@
+a month of service availability (synthetic, placeholder rules)
+  hours in the month 744; hours the service was called 600
+  excluded by agreement (grid outage) 12; not delivered 9
+  service availability: 98.47 %
+  each failed hour has its evidence (telemetry, set points,
+  plant state) and each excluded hour its reason; the
+  operator settles on the same records, so they are kept
+  untouched (lesson B)

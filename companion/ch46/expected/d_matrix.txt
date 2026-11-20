@@ -1,0 +1,25 @@
+inspection and test matrix of the 33 kV system (teaching)
+  check                                 where
+    who
+  conductor resistance, drum            cable factory
+    maker's test bay
+  sheath and insulation integrity       after laying
+    test contractor, qualified
+  termination workmanship               site
+    certified jointer
+  main-circuit resistance               switchgear factory
+    maker's test bay
+  interlocks, mechanical and electrical factory and site
+    maker; commissioning engineer
+  wiring point to point                 panel shop
+    panel builder
+  relay settings fingerprint            panel FAT and site
+    protection engineer
+  secondary injection, trip paths       site
+    protection engineer, qualified
+  energisation                          site
+    authorised person only
+  4 of 9 checks name a qualified, certified or authorised
+  person: the matrix states who may do each check; anything
+  touching gear that can be live is done under the site's
+  permit system by those people, never from this book (ch 32)

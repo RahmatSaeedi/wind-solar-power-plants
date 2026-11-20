@@ -1,0 +1,8 @@
+Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS); resource uncertainty
+    A-029 (teaching values), 200,000 draws
+screening, no density correction:
+    P50 289.8 GWh, P90 276.6 GWh, std 10.1 GWh (3.5 %)
+with first-order density correction:
+    P50 273.4 GWh, P90 260.3 GWh, std 10.1 GWh (3.7 %)
+the density effect is a BIAS (a known shift): it moves the centre; it is
+    not added to the uncertainty

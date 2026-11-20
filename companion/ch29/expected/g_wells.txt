@@ -1,0 +1,8 @@
+what the wells give (Cooper-Jacob drawdown after 30 days of pumping)
+  well   rate L/s   drawdown at 0.3 m   at 300 m   m3/month   summer m3/month
+  W-1        0.40                 3.8       0.82       1037               778
+  W-2        0.25                 5.8       1.21        648               389
+  the two wells 300 m apart draw each other down a little;
+  the summer yield falls when the water table does - a
+  pumping test of at least several days, and the water
+  right that allows the abstraction, replace these numbers

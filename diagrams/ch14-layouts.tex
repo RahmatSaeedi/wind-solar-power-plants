@@ -1,0 +1,41 @@
+% Chapter 14 - the three wind layouts on the project land: W1 ridge row, W2 plain (two rows),
+% W2b adjusted away from the seasonal camp; PV block, site substation, nest (1 km circle) and camp.
+% Data: diagrams/data/ch14-terrain.csv, ch14-turbines.csv (companion/ch14/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\scriptsize]
+  \begin{axis}[plantp, width=128mm, height=100mm, xmin=0, xmax=9, ymin=0, ymax=7,
+      axis equal image, xlabel={شرق، $\text{km}$}, ylabel={شمال، $\text{km}$},
+      xtick={0,1,...,9}, ytick={0,1,...,7}, ymajorgrids=false, clip=true,
+      colormap={terr}{rgb255=(248,247,242) rgb255=(214,208,192) rgb255=(165,152,128)},
+      point meta min=1170, point meta max=1262,
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3]
+    \addplot[matrix plot*, mesh/cols=65, point meta=explicit, forget plot]
+      table[x=x, y=y, meta=z, col sep=comma] {data/ch14-terrain.csv};
+    \draw[cLoss, line width=0.6pt, densely dashed] (axis cs:1.85,5.2) circle[radius=1];
+    \draw[cLoss, line width=0.6pt, densely dotted] (axis cs:3.2,5.2) circle[radius=0.6];
+    \fill[cPV!25, draw=cPV, line width=0.8pt] (axis cs:6.9,2.3) rectangle (axis cs:8.3,3.15);
+    \node[note, text=cPV] at (axis cs:7.6,2.72) {بلوکِ خورشیدی};
+    \draw[cBESS, line width=0.6pt, dash pattern=on 4pt off 2pt] (axis cs:2.4,3.8) rectangle (axis cs:5.0,6.8);
+    \addplot[only marks, mark=triangle*, mark size=2.6pt, color=cInkB,
+      restrict expr to domain={\thisrow{k}}{1:1}] table[x=x, y=y, col sep=comma] {data/ch14-turbines.csv};
+    \addlegendentry{W1 روی یال}
+    \addplot[only marks, mark=o, mark size=2.6pt, color=cWind, line width=0.8pt,
+      restrict expr to domain={\thisrow{k}}{2:2}] table[x=x, y=y, col sep=comma] {data/ch14-turbines.csv};
+    \addlegendentry{W2 دشت}
+    \addplot[only marks, mark=*, mark size=1.6pt, color=cWind,
+      restrict expr to domain={\thisrow{k}}{3:3}] table[x=x, y=y, col sep=comma] {data/ch14-turbines.csv};
+    \addlegendentry{W2b اصلاح‌شده}
+    \fill[cLoss] (axis cs:3.2,5.2) ++(-1.6pt,-1.6pt) rectangle ++(3.2pt,3.2pt);
+    \node[note, anchor=south, text=cLoss, fill=white, inner sep=1pt] at (axis cs:3.2,5.85) {چادرها، $600\ \text{m}$};
+    \node[note, anchor=south, text=cLoss, fill=white, inner sep=1pt] at (axis cs:1.0,6.25) {آشیانه، $1\ \text{km}$};
+    \fill[cLoss] (axis cs:1.85,5.2) ++(0,2.6pt) -- ++(2.6pt,-2.6pt) -- ++(-2.6pt,-2.6pt) -- ++(-2.6pt,2.6pt) -- cycle;
+    \node[draw=cInk, fill=white, line width=0.8pt, minimum size=5pt, inner sep=0pt] at (axis cs:6.5,3.5) {};
+    \node[note, anchor=south] at (axis cs:6.5,3.58) {پست};
+    \draw[cInk, line width=1.1pt] (axis cs:0,0.6) -- (axis cs:9,0.6);
+    \draw[cWind, line width=0.9pt, densely dotted] (axis cs:0,1.0) -- (axis cs:9,1.31);
+    \draw[flow] (axis cs:0.9,3.0) -- (axis cs:1.5,2.84);
+    \node[note, anchor=south] at (axis cs:0.75,3.02) {بادِ غالب};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

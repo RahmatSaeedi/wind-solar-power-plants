@@ -1,0 +1,16 @@
+the export-path boundary: who maintains what
+  network owner (3):
+    - 132 kV line towers T01-T38
+    - line insulators and fittings
+    - grid HV bay
+  plant (5):
+    - line corridor vegetation
+    - plant HV bay (E1)
+    - 33 kV cable terminations
+    - protection relays (plant end)
+    - access road to line towers
+  shared (1):
+    - line differential teleprotection
+  'shared' needs both: the teleprotection has an end in each
+  substation and one test plan; the boundary drawing (ch 23)
+  and the service agreement name the response time for each

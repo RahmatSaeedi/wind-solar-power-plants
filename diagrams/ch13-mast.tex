@@ -1,0 +1,82 @@
+% Chapter 13 - the Plant P met mast (conceptual, not to scale horizontally): cups at 60, 80 and
+% 100 m, vanes, temperature and pressure, logger, the lidar beside the mast up to 150 m, and a plan
+% view of the boom directions against the prevailing wind (A-250, A-251).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\hs{0.05}% cm per metre of height
+  % ground
+  \fill[cGridline] (-3.2,-0.12) rectangle (5.2,0);
+  \draw[cInkB, line width=0.6pt] (-3.2,0) -- (5.2,0);
+  % guy wires
+  \foreach \h in {40,80} {
+    \draw[cRule, line width=0.4pt] (0,\h*\hs) -- (-2.4,0);
+    \draw[cRule, line width=0.4pt] (0,\h*\hs) -- (2.0,0);
+  }
+  % lattice mast to 100 m
+  \draw[cInk, line width=0.7pt] (-0.12,0) -- (-0.12,100*\hs) (0.12,0) -- (0.12,100*\hs);
+  \foreach \y in {0,0.5,...,4.5} {\draw[cInkB, line width=0.3pt] (-0.12,\y) -- (0.12,\y+0.5);}
+  % top cup at 100 m
+  \draw[cInk, line width=0.7pt] (0,100*\hs) -- (0,100*\hs+0.35);
+  \filldraw[draw=cWind, fill=cWind!25] (0,100*\hs+0.45) circle[radius=0.1];
+  \node[note, anchor=east, text=cInk] at (-0.25,100*\hs+0.45) {بادسنجِ نوکِ دکل};
+  % vane boom at 97 m
+  \draw[cInk, line width=0.6pt] (0.12,97*\hs) -- (1.1,97*\hs);
+  \fill[cBESS] (1.1,97*\hs) -- ++(0.25,0.08) -- ++(0,-0.16) -- cycle;
+  \node[note, anchor=west, text=cInk] at (1.45,97*\hs) {بادنما};
+  % booms with cups at 80 m (left) and 60 m (left), vane at 58 m (right)
+  \foreach \h in {80,60} {
+    \draw[cInk, line width=0.6pt] (-0.12,\h*\hs) -- (-1.3,\h*\hs);
+    \filldraw[draw=cWind, fill=cWind!25] (-1.3,\h*\hs+0.15) circle[radius=0.1];
+    \draw[cInk, line width=0.5pt] (-1.3,\h*\hs) -- (-1.3,\h*\hs+0.05);
+  }
+  \node[note, anchor=east, text=cInk] at (-1.5,80*\hs+0.15) {بادسنجِ بازو};
+  \node[note, anchor=east, text=cInk] at (-1.5,60*\hs+0.15) {بادسنجِ بازو};
+  \draw[cInk, line width=0.6pt] (0.12,58*\hs) -- (1.1,58*\hs);
+  \fill[cBESS] (1.1,58*\hs) -- ++(0.25,0.08) -- ++(0,-0.16) -- cycle;
+  \node[note, anchor=west, text=cInk] at (1.45,58*\hs) {بادنما};
+  % temperature, humidity, pressure near the base and at the top
+  \filldraw[draw=cLoss, fill=cLoss!15] (0.18,10*\hs-0.1) rectangle (0.48,10*\hs+0.1);
+  \node[note, anchor=west, text=cInk] at (0.55,10*\hs) {دما، رطوبت، فشار};
+  \filldraw[draw=cLoss, fill=cLoss!15] (0.18,92*\hs-0.1) rectangle (0.48,92*\hs+0.1);
+  \node[note, anchor=west, text=cInk] at (0.55,92*\hs) {دما};
+  % logger
+  \node[blkLoad, minimum width=20mm, minimum height=7mm, text width=19mm, font=\scriptsize]
+    (log) at (-1.75,0.55) {ثبت‌کننده، باتری، صفحهٔ خورشیدی، ارتباط};
+  \draw[cInkB, line width=0.4pt] (log.east) -- (-0.12,0.55);
+  % height scale
+  \foreach \h in {60,80,100} {
+    \draw[cRule, line width=0.3pt] (-3.0,\h*\hs) -- (-2.85,\h*\hs);
+    \node[note, anchor=east] at (-3.0,\h*\hs) {$\h\ \text{m}$};
+  }
+  \draw[cRule, line width=0.3pt] (-3.0,150*\hs) -- (-2.85,150*\hs);
+  \node[note, anchor=east] at (-3.0,150*\hs) {$150\ \text{m}$};
+  \draw[cRule, line width=0.3pt] (-2.92,0) -- (-2.92,150*\hs);
+  % lidar beside the mast with its measurement heights
+  \node[blkWind, minimum width=10mm, minimum height=5mm] (lid) at (3.6,0.25) {لیدار};
+  \draw[cWind, line width=0.5pt, densely dashed] (3.6,0.5) -- (3.15,150*\hs);
+  \draw[cWind, line width=0.5pt, densely dashed] (3.6,0.5) -- (4.05,150*\hs);
+  \foreach \h in {60,80,100,120,150} {
+    \pgfmathsetmacro{\dx}{0.45*(\h*\hs-0.5)/(150*\hs-0.5)}
+    \draw[cWind, line width=0.8pt] (3.6-\dx,\h*\hs) -- (3.6+\dx,\h*\hs);
+  }
+  \node[note, anchor=east, text width=18mm] at (3.0,128*\hs) {لیدار تا ارتفاعِ توپیِ بلندتر};
+  \draw[dimline] (0.25,-0.45) -- (3.4,-0.45);
+  \node[note, anchor=north] at (1.8,-0.5) {کنارِ دکل، بیرون از سایهٔ آن};
+  % plan view inset
+  \begin{scope}[shift={(8.1,5.4)}]
+    \draw[cGridline, line width=0.4pt] (0,0) circle[radius=1.25];
+    \node[note, anchor=south] at (0,1.27) {شمال};
+    \filldraw[draw=cInk, fill=cInkB!30] (90:0.16) -- (210:0.16) -- (330:0.16) -- cycle;
+    % 80 m boom points to 140 deg; wind from 300-340 deg puts it in the mast's wake
+    \draw[cLoss, line width=0.9pt] (0,0) -- (90-140:0.95);
+    \filldraw[draw=cWind, fill=cWind!25] (90-140:0.95) circle[radius=0.08];
+    \fill[cLoss!15] (0,0) -- (90-300:1.25) arc[start angle=90-300, end angle=90-340, radius=1.25]
+      -- cycle;
+    \draw[flow] (90-285:2.0) -- (90-285:1.35);
+    \node[note, anchor=south, text width=16mm] at (90-285:2.05) {بادِ غالب از $285^\circ$};
+    \node[note, anchor=north, text width=40mm] at (0,-1.4)
+      {نمای از بالا: بازوی $80\ \text{m}$ رو به $140^\circ$؛ بادِ $300$ تا $340^\circ$ آن را در سایهٔ دکل می‌گذارد};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

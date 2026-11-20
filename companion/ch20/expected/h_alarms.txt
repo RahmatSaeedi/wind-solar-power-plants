@@ -1,0 +1,10 @@
+controller alarms by type in a year (REQ-S01, no calls):
+  type                       controller only   plan knows service
+  charge limited                         391                   70
+  discharge limited                      756                   34
+  busiest hour (controller only): 14:00 with 356 alarms
+  two thirds of the first case are 'discharge limited' in the
+  window hours (the plan asks for energy the reserve keeps); the
+  rest are 'charge limited' around midday, when recapture has
+  already filled the battery; the alarm count measures how far
+  the plan and the controller disagree

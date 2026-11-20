@@ -1,0 +1,10 @@
+one main crane or two? (12 turbines, teaching day rates)
+  cranes   campaign days   crane cost k u   earlier energy k u   net k u
+       1             156            4,704                    0     4,704
+       2              78            4,884                1,025     3,859
+  a second crane costs little more - the same crane-days and
+  one more mobilisation - and halves the campaign; it pays
+  only if the energy brought forward is real: the grid
+  connection date (no export before it), a second erection
+  crew and the weather decide - the schedule model (ch 22,
+  49), not this table alone

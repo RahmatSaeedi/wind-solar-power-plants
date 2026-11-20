@@ -1,0 +1,13 @@
+rating in place of the 33 kV cables (installation factors):
+  depth 1.0 m (ref 0.8 m)        0.97
+  soil 1.5 K m/W (ref 1.0)       0.88
+  ground 30 C (ref 20 C)         0.93
+  two circuits 0.4 m apart       0.85
+  section  reference A   factor   in place A   first WS1 section
+   240          410     0.675         277   too small
+   400          520     0.675         351   too small
+   630          660     0.675         445   ok
+  the first section carries 368 A (4 turbines, pf 0.95):
+  240 mm2 fits the reference table but not the trench - the
+  factors (depth, soil, heat, a second circuit) take a third
+  of the rating away

@@ -1,0 +1,21 @@
+one day of 10-min records at the auxiliary board, S1 (synthetic, A-106):
+  energy as recorded (sum of phases):   876.5 kWh
+  per phase: a  816.2, b -596.1, c  656.4 kWh
+check 1, sign per phase: phase b shows negative power at a load board
+  phase-b CT polarity corrected:  2068.8 kWh (+136 % on the record)
+  the record shows 42 % of the true energy; with three equal phases
+  it would show 1/3 (1 - 1 + 1 of 3); phase b is the lightest, so more
+  peak 10-min demand 130.4 kW at 14:40 (148.9 kVA, pf 0.88)
+  schedule estimate 138.2 kW: +6 % on the measured peak (conservative)
+check 2, minimum voltages 166, 166, 166 V at 14:20;
+  the same interval on all three phases: True
+  residual 72 % of 230 V in one interval: a dip (an event), not a trend
+check 3, current imbalance (max deviation / mean): 4 to 57 %,
+  highest at 04:40 (phases 119, 47, 62 A)
+  from current magnitudes only: the negative-sequence factor needs
+  the angles, which the analyser takes from its waveforms
+check 4, current THD of phase a 6 to 38 %: highest at night,
+  when LED lighting is a large share of a small load
+limits: 10-min values hide fast events (the dip depth and
+  duration come from the analyser's event log); one day is not a season;
+  all values synthetic

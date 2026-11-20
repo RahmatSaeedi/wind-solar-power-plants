@@ -1,0 +1,12 @@
+power factor and its sign under the generator convention (D-010:
+  P > 0 export; Q > 0 the plant supplies reactive power)
+  P MW    Q Mvar   pf      plant is            usual name
+     80       20   0.970   exporting, giving Q lagging (overexcited)
+     80      -20   0.970   exporting, taking Q leading (underexcited)
+    -15        5   0.949   importing, giving Q leading load
+    -15       -5   0.949   importing, taking Q lagging load
+  the same plant giving reactive power is 'lagging' as a
+  generator and a 'leading load' when it imports (charging):
+  the words change with the side and the convention - a
+  report states P and Q with their signs and the convention,
+  never 'pf 0.97' alone

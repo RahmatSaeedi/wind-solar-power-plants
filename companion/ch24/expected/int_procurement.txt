@@ -1,0 +1,10 @@
+procurement and acceptance schedule (quantities bounded):
+  item                            unit       qty  evidence
+  33 kV cable 630 mm2             km          3.9  type, routine per drum
+  33 kV cable 240 mm2             km         17.7  type, routine per drum
+  33 kV joints and terminations   sets       90.0  type-tested kits, records
+  33 kV switchgear panels         panels     18.0  type tests, routine, FAT
+  LV cables Cu                    m       1,955.0  maker's certificates
+  132 kV line materials           km          7.1  conductor, insulator tests
+  quantities carry the +/- 15 % of the routes until the
+  survey; every item names the evidence that accepts it

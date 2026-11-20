@@ -1,0 +1,11 @@
+a short circuit on a 24 V branch: does the branch protection clear it?
+  supply 20 A, current-limited at 1.5 x = 30 A
+  branch device              rating A   needs A to clear fast   clears?
+  fuse                              4                      20   yes
+  fuse                             10                      50   NO
+  electronic breaker                4                       4   yes
+  a current-limited supply may never give a large fuse the
+  current it needs: the fault drags the 24 V down for every
+  module on the supply until something else gives way;
+  small fuses or electronic breakers per branch, sized
+  against the supply's limit, keep a fault on its branch

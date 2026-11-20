@@ -1,0 +1,13 @@
+operating restrictions written by the studies (teaching register)
+  condition                   restriction                      source
+  one main transformer out    export <= 62 MW, coupler closed  G-contingency
+  grid at 1.10 pu, output     units absorb Q (taps at stop)    B-stability
+  minimum grid strength       voltage-loop gain retuned        C-vcontrol
+  line maintenance            plan for a calm day              G-contingency
+  45 C day, full output       Q > +29 Mvar needs S1 or bank    F-envelope
+  loss of the grid end        intertrip within 0.15 s          C-islanding
+  export near 100 MW          set-point 98-99 MW               r_limit
+  each restriction becomes a line in the operating
+  procedures (ch 51) and, where it can, a rule in the plant
+  controller (ch 20) - a study result nobody operates by is
+  not yet finished

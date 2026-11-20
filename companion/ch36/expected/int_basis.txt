@@ -1,0 +1,23 @@
+D-040 OT security basis of Plant P (teaching)
+  1 governance: asset owner's programme (STD-156), named
+    owners, risk register with teaching scales, life cycle
+  2 architecture: zones and conduits from the ch 35 logical
+    diagram, one rule a conduit with a purpose, default deny,
+    DMZ for every outside path, priority to safety and
+    availability; no business path into control
+  3 access: named accounts by role, quarterly review, vendor
+    sessions on request through a recorded jump host
+  4 monitoring: logs from every device on the plant clocks,
+    the few that matter read daily, alerts tuned
+  5 resilience: inventory complete, baselines compared,
+    backups before and after each change, three copies one
+    offline, quarterly restore tests, recovery objectives
+  6 data: classes, custodians, expiring transfers, readable
+    archives, media wiped at retirement
+  7 supply: security requirements in every purchase,
+    scorecards, provenance checks, support dates in the
+    inventory; sanitised models for vendor design reviews
+  8 people: tabletop each year, a continuity plan without
+    SCADA, an interface table with physical security
+  open: grid operator's security requirements and the
+    site's physical-security assessment (U-117)

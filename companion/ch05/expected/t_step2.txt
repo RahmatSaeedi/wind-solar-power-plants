@@ -1,0 +1,6 @@
+$ python -m companion.ch05.step2_reader
+71 valid rows, 1 issue(s)
+  issue: after 2023-04-04 08:00Z: step 2:00:00
+first hour (local): 2023-04-03 00:00:00+04:00
+energy in the file: 964.0 MWh
+[exit code 1]

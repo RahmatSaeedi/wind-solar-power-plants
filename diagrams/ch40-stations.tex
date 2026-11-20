@@ -1,0 +1,19 @@
+% Chapter 40 - load of the six stations of the skid line (hours a skid, rework included) with the
+% frames made in-house and with the frames bought, against the takt of 16 h
+% (diagrams/data/ch40-stations.csv from companion/ch40/examples_a.py, a_takt; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, ybar=1.5pt, bar width=9pt,
+      xmin=0.4, xmax=6.6, ymin=0, ymax=19, xtick={1,...,6},
+      xticklabels={S1, S2, S3, S4, S5, S6},
+      xlabel={ایستگاه}, ylabel={ساعت برای هر اسکید},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[fill=cWind!55, draw=cWind] table[x=k, y=made, col sep=comma] {data/ch40-stations.csv};
+    \addplot[fill=cBESS!55, draw=cBESS] table[x=k, y=bought, col sep=comma] {data/ch40-stations.csv};
+    \legend{شاسی در کارگاهِ خود, شاسیِ خریداری‌شده}
+    \draw[sLoss] (axis cs:0.4,16) -- (axis cs:6.6,16);
+    \node[note, anchor=south, text=cLoss] at (axis cs:5.3,16.2) {زمانِ تکت: ۱۶ ساعت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

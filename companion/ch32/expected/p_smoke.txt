@@ -1,0 +1,10 @@
+how fast smoke fills a room (control room 150 m2, 4 m high; teaching)
+  plume entrainment m = 0.071 Q^(1/3) z^(5/3) kg/s (Q convective kW)
+  fire kW   time for the layer to fall to 2 m
+      100     3.3 min
+      300     2.3 min
+     1000     1.5 min
+  a 300 kW panel fire brings the smoke to head height in
+  a little over two minutes - before most people would
+  think of leaving: early detection (lesson C) and two
+  short exits are the defence, not a fast walk

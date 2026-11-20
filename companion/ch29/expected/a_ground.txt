@@ -1,0 +1,12 @@
+top of the dense layer (m) at turbines without a borehole: IDW estimate
+  turbine   estimate m   nearest boreholes range m   nearest borehole km
+  T02             1.7         1.5 to  2.0                  0.60
+  T04             1.5         1.0 to  2.0                  0.60
+  T06             1.4         1.0 to  1.5                  0.60
+  T08             1.6         1.5 to  2.0                  0.60
+  T10             1.8         1.5 to  2.0                  0.60
+  BH-04 (T07) has no dense layer at all - soft clay over
+  medium sand: an interpolation from its neighbours would
+  hide it; every turbine gets its own borehole (or a CPT)
+  before its foundation is designed, and the ground model
+  states where it is interpolated and where it is measured

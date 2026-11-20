@@ -1,0 +1,15 @@
+job hazard analysis: replace a yaw-drive motor (draft)
+  step                          before        after   top control
+  1 plan, permit, weather        12 high       4 low     administrate
+  2 climb to the nacelle         10 high       5 medium  engineer
+  3 isolate the yaw drives       15 high       5 medium  engineer
+  4 rig the service crane         8 medium     4 low     engineer
+  5 remove the old motor          9 medium     4 low     engineer
+  6 lower it through the hatch   10 high      10 high    protect
+  7 fit the new motor             9 medium     3 low     engineer
+  8 remove locks, test yaw       10 high       5 medium  administrate
+  9 descend, hand back            8 medium     4 low     administrate
+  checker findings: 3
+    6 lower it through the hatch: severity 5 with only protect
+    6 lower it through the hatch: residual high
+    8 remove locks, test yaw: severity 5 with only administrate

@@ -1,0 +1,11 @@
+ratings that set the assembly (A-157):
+  module allowed 1400 A peak at 25 C coolant -> 2 in parallel per position
+  module allowed 1150 A peak at 40 C coolant -> 2 in parallel per position
+  module allowed 950 A peak at 50 C coolant -> 3 in parallel per position
+  stack peak current with 10 % ripple margin: 2,058 A
+  one more parallel module per position adds 12 modules,
+  their drivers and busbar space in each of the four stacks
+  voltage: 1200 V devices at 650 V working plus overshoot;
+  capacitors at 1000 to 1300 V working on 1300 V parts: the
+  margin is a reliability choice (cosmic-ray failures of power
+  devices grow steeply with DC voltage and altitude)

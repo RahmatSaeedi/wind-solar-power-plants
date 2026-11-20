@@ -1,0 +1,8 @@
+rainflow counting of a 10-minute tower-base moment record (synthetic)
+  133 counted ranges; largest 33.7 MN m
+  DEL at 1 Hz, slope m = 3: 11.53 MN m
+  DEL at 1 Hz, slope m = 5: 15.21 MN m
+  the same record gives a larger DEL for the steeper slope:
+  the big ranges weigh more - so a DEL is always quoted with
+  its slope and its reference cycle count, and welds (m 3)
+  and bolts or composites (other slopes) get their own

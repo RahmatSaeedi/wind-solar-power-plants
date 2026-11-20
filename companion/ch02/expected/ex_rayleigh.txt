@@ -1,0 +1,5 @@
+wind power P = k rho^a A^b v^c; match L, M, T:
+  L: -3a + 2b + c = 2;  M: a = 1;  T: -c = -3
+  solution a = 1, b = 1, c = 3  ->  P = k rho A v^3
+drag force F = k rho^a v^b D^c:
+  solution a = 1, b = 2, c = 2  ->  F = k rho v^2 D^2

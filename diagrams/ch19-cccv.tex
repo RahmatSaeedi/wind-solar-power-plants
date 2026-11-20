@@ -1,0 +1,20 @@
+% Chapter 19 - constant-current constant-voltage charge of the NMC teaching cell at 1 C from 10 %:
+% terminal voltage (top) and charging current in C-rate (bottom). Data: diagrams/data/ch19-cccv.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=110mm, height=44mm, xmin=0, xmax=66, ymin=3.4, ymax=4.3,
+      ylabel={ولتاژ}, xtick={0,10,...,60}, xticklabels={}, ytick={3.4,3.6,...,4.2},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/fixed zerofill, /pgf/number format/precision=1}]
+    \addplot[sLoad] table[x=t, y=v, col sep=comma] {data/ch19-cccv.csv};
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south)}, anchor=north, yshift=-4mm, width=110mm, height=44mm,
+      xmin=0, xmax=66, ymin=0, ymax=1.1, xlabel={دقیقه}, ylabel={جریان، نرخِ C},
+      xtick={0,10,...,60}, ytick={0,0.5,1.0},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/fixed zerofill, /pgf/number format/precision=1}]
+    \addplot[sBESS] table[x=t, y=c, col sep=comma] {data/ch19-cccv.csv};
+    \draw[sLimit] (axis cs:48,0) -- (axis cs:48,1.1);
+    \node[note, anchor=south east] at (axis cs:47.5,0.15) {آغازِ ولتاژِ ثابت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

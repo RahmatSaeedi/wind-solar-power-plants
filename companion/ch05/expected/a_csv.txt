@@ -1,0 +1,12 @@
+naive split(',') of a quoted field:
+  row 2 -> 4 pieces ['PLP-TRF-01', '"Transformer', ' 120 MVA"', '120']
+csv.reader (quotes, doubled quotes, commas inside fields):
+  row 2 -> ['PLP-TRF-01', 'Transformer, 120 MVA', '120']
+  row 3 -> ['PLP-SWG-01', 'Panel "A" line-up', '33']
+semicolon file with decimal comma: ['2023-04-03T08:00:00Z', '12345,6'] ->
+    float after replace: 12345.6
+a 19-digit serial number stored as a float: 1234567890123456768 (last digits
+    lost; floats carry 15 to 17 significant digits)
+leading zeros of '007' are lost when the column is read as a number: 7
+values such as '1-2', '3E5' or 'MAR1' may be converted to dates or numbers by
+    spreadsheet programs; import such columns as text

@@ -1,0 +1,15 @@
+the battery now or as an option in year 5 (NPV at 7.5 %, k u):
+  build now under a time-of-day PPA: equity IRR 11.35 % (S0 12.76 %)
+  adding it in year 5 costs 12,763 k u then, PV 8,890
+  PV of its shifting value from year 6: 4,808
+  chance of a time-of-day tariff   value of waiting k u
+                               25 %                    0
+                               50 %                    0
+                               75 %                    0
+                              100 %                    0
+  at these teaching prices the late battery costs more than
+  its shifting value, so the option is worth nothing - and
+  building now lowers the equity return even with a time-of-day
+  tariff: the battery pays only with a wider price spread, a
+  service contract, or a requirement (island, grid operator);
+  keeping space and a bay ready (chapter 18) keeps the option

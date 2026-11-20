@@ -1,0 +1,6 @@
+hours the plant draws from the grid at the POC (data-pack year)
+  hours importing: 457; energy imported 150.7 MWh
+  most in month 1 (26.1 MWh), least in month 5 (4.9 MWh): calm nights
+  the import is metered and billed in its own register
+  (ch 48: a reversed CT would have shown it as export); it is
+  not 'lost energy' but a cost the operating report carries

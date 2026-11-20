@@ -1,0 +1,11 @@
+LCL resonance of one stack with the grid behind it (A-174):
+  SCR   grid L at 600 V side   resonance Hz
+   100           58.3 uH            1063
+    10          133.3 uH             987
+     5          216.7 uH             951
+     3          327.8 uH             926
+     2          466.7 uH             910
+  a weaker grid adds inductance in series with L2 and pulls the
+  resonance down towards the bandwidth of the current loop: the
+  converter that was stable on a strong grid may oscillate on a
+  weak one; damping and the maker's impedance model check it

@@ -1,0 +1,6 @@
+export at the POC on a capped day, 1-minute values, limit 100 MW
+  minutes above the limit: 4; highest 103.5 MW
+  4 of them in one gust, before the controller's next
+  cycle: each is an operating-limit excursion recorded with
+  its cause; the controller holds a margin below the limit
+  for that reason (ch 20 export)

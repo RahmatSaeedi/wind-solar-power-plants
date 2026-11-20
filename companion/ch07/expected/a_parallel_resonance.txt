@@ -1,0 +1,7 @@
+parallel resonance with the network, h = sqrt(S_sc / Q_c), S_sc = 500 MVA
+  at the 33 kV bus (A-100):
+  collector cables at no load  Q_c  1.79 Mvar: h = 16.71 ( 836 Hz)
+  cables + 5 Mvar bank         Q_c  6.79 Mvar: h =  8.58 ( 429 Hz)
+  cables + 15 Mvar bank        Q_c 16.79 Mvar: h =  5.46 ( 273 Hz)
+  an order near 5, 7, 11 or 13 (where inverters inject current)
+  needs a harmonic study (chapter 27)

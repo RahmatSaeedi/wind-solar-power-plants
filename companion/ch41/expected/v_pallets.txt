@@ -1,0 +1,8 @@
+pallets in a 40-ft container (teaching dimensions)
+  31 modules a pallet on edge; 10 floor slots, stacked 2 high
+  20 pallets = 620 modules; mass 18.5 t of 26.5 t payload
+  volume, not weight, fills the box (70% of the payload)
+  177 containers for the plant (as ch 10)
+  the bottom pallet carries the top one through every bump:
+  the transport test qualifies this package as packed, so a
+  change of pallet or stacking is a change of the package

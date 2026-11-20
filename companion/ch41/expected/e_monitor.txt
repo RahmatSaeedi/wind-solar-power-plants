@@ -1,0 +1,9 @@
+20 strings at one combiner; string 8 gets a shorted diode
+  array operating voltage 1092 V
+  string 8: 12.97 A; others 13.07 A, sd 0.13 (soiling 1 %)
+  one day's comparison: -0.8 sd - lost in the spread
+  its own ratio to the peers falls by 1.34% at the failure;
+  CUSUM on that ratio (day noise 0.25%) signals on day 32
+  (1 day after the failure on day 31) - each string is
+  compared with its own history, not only with its
+  neighbours (ch 37); a whole open string shows at once

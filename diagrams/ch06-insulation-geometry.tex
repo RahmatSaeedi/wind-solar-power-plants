@@ -1,0 +1,28 @@
+% Chapter 6 — leakage through cylindrical insulation: thin rings in series.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \fill[cFill] (0,0) circle (2.6);
+  \draw[cInkB, line width=0.7pt] (0,0) circle (2.6);
+  \fill[cPV!35] (0,0) circle (1.0);
+  \draw[cInk, line width=0.7pt] (0,0) circle (1.0);
+  % a thin ring dr at radius r
+  \draw[cWind, line width=1.2pt] (0,0) circle (1.75);
+  \draw[cWind, line width=1.2pt] (0,0) circle (1.92);
+  % radial leakage arrows
+  \foreach \a in {20,80,140,200,260,320}{
+    \draw[-{Stealth[length=2mm]}, cLoss, line width=0.7pt] (\a:1.08) -- (\a:2.5);
+  }
+  \draw[dimline] (0,0) -- (-35:1.0) node[note, midway, below left=0pt] {$r_1$};
+  \draw[dimline] (0,0) -- (215:2.6) node[note, pos=0.75, above left=0pt] {$r_2$};
+  \node[note, anchor=west, text=cInk] at (3.0,1.6) {هادی (بارِ زنده)};
+  \draw[cInkB, line width=0.4pt] (2.95,1.6) -- (0.75,0.65);
+  \node[note, anchor=west, text=cInk] at (3.0,0.4) {حلقهٔ نازکِ $\mathrm{d}r$ در شعاعِ $r$};
+  \draw[cInkB, line width=0.4pt] (2.95,0.4) -- (1.85,0.25);
+  \node[note, anchor=west, text=cInk] at (3.0,-0.8) {عایق با مقاومتِ ویژهٔ $\rho$};
+  \draw[cInkB, line width=0.4pt] (2.95,-0.8) -- (2.2,-0.6);
+  \node[note, anchor=west, text=cInk] at (3.0,-2.0) {سطحِ بیرونی (غلاف، زمین)};
+  \draw[cInkB, line width=0.4pt] (2.95,-2.0) -- (2.15,-1.47);
+  \node[note, anchor=north, text=cInk] at (0,-2.9) {\mbox{$\mathrm{d}R = \dfrac{\rho\,\mathrm{d}r}{2\pi r L}$} \quad\Rightarrow\quad \mbox{$R = \dfrac{\rho}{2\pi L}\ln\dfrac{r_2}{r_1}$}};
+\end{tikzpicture}}
+\end{document}

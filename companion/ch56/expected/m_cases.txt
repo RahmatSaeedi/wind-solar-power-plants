@@ -1,0 +1,12 @@
+approval plan under changed durations (teaching, months)
+  case                                total  critical path
+  base (teaching)                      10.0  S1 > S2 > S3 > S6 > S7 > S8
+  land lease 8 months                  14.0  S1 > S2 > S6 > S7
+  land lease 12 months                 18.0  S1 > S2 > S6 > S7
+  full ESIA 10 months                  12.0  S1 > S5
+  contract with DABS 6 months          13.0  S1 > S2 > S3 > S8
+  2016 licence before the contract     12.0  S1 > S2 > S4 > S3 > S8
+  a month added to a step on the critical path is a month added
+  to the plan (land lease, contract); the ESIA has 4 months of
+  float, so 6 more months add 2; a licence before the
+  contract adds 2 by putting S4 on the path

@@ -1,0 +1,7 @@
+fault jobs of a month: 8; missing records by kind
+  permit               1
+  isolation verified   2
+  hand-back signed     2
+  one job has none at all: a reset in the field that became
+  a repair - the moment it did, it needed a permit; the
+  hand-back is the record lesson C's root cause rests on

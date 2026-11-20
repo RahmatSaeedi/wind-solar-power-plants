@@ -1,0 +1,10 @@
+12 racks in parallel at 0.5 C, rack resistance spread 5 % (A-298):
+  mean rack current 155 A; highest 166 A, lowest 144 A (15 % apart)
+  closing a rack onto the others at a different SOC (OCV gap):
+  SOC of the rack vs the bus   gap V   current at closing A
+     50 % vs  52 %                0.8                    2
+     85 % vs  90 %                8.2                   24
+     10 % vs  15 %               10.6                   31
+  the lowest-resistance rack works hardest and ages fastest;
+  racks are closed onto the bus only when their voltages
+  match within a limit, or through the pre-charge path

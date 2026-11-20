@@ -1,0 +1,11 @@
+own consumption of one turbine over the data-pack year (A-231):
+  hours producing 7,735, standing 1,025 (cold standby 33)
+  controller, lights, UPS      26.3 MWh
+  heating in cold standby       0.8 MWh
+  cooling and hydraulics      138.4 MWh
+  yaw drives                    2.6 MWh
+  total                       168.2 MWh = 0.97 % of 17,306 MWh
+  drawn while standing (imported): 4.2 MWh; the rest is netted
+  inside the turbine while it produces. Metering decides how
+  each part is counted between gross and delivered energy
+  (chapters 21 and 23)

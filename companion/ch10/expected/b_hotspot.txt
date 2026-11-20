@@ -1,0 +1,12 @@
+one cell at 20 % light in a 24-cell substring, string current 12.5 A (A-188):
+  cell (shunt, breakdown)  cell V needed  substring V  bypass     heat
+    10 ohm,  -15 V        -10.45 V       3.50 V  off           131 W
+   100 ohm,  -15 V        -12.51 V       1.47 V  off           156 W
+   300 ohm,  -25 V        -21.43 V      -7.46 V  on (3.1 A)     51 W
+  a leaky cell carries the string current at a modest reverse
+  voltage, the diode never turns on and the cell takes over
+  130 W; a hard cell would need more than the other 23 cells
+  give, so the diode conducts and limits the cell to about the
+  substring voltage at a smaller current: tens of watts on
+  0.0179 m2, still a hot spot that thermal imaging finds;
+  without the diode that cell would take 268 W

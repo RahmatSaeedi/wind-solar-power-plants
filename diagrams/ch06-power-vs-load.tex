@@ -1,0 +1,21 @@
+% Chapter 6 — load power and efficiency against load resistance for V_th = 6 V, R_th = 2 ohm.
+% Two quantities, two stacked plots (one y-axis each). Data: diagrams/data/ch06-power-vs-load.csv
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=50mm, name=top,
+      ylabel={$P_\text{L}$ (W)}, xmin=0, xmax=20, ymin=0, ymax=5, xticklabels={}, ytick={0,1,...,5}]
+    \addplot[sInk] table[x=rl, y=p, col sep=comma] {data/ch06-power-vs-load.csv};
+    \draw[sLimit] (axis cs:2,0) -- (axis cs:2,4.5);
+    \node[font=\footnotesize, text=cInk, anchor=south west] at (axis cs:2.2,4.5) {بیشینه در $R_\text{L} = R_\text{th}$: $4.5\,\text{W}$};
+  \end{axis}
+  \begin{axis}[plantp, width=110mm, height=50mm, at={(top.south west)}, anchor=north west, yshift=-6mm,
+      xlabel={مقاومتِ بار $R_\text{L}$ ($\Omega$)}, ylabel={بازده $\eta$},
+      xmin=0, xmax=20, ymin=0, ymax=1, ytick={0,0.5,1}]
+    \addplot[sWind] table[x=rl, y=eta, col sep=comma] {data/ch06-power-vs-load.csv};
+    \draw[sLimit] (axis cs:2,0) -- (axis cs:2,0.5);
+    \node[font=\footnotesize, text=cInk, anchor=north west] at (axis cs:2.2,0.48) {$\eta = 0.5$};
+    \node[font=\footnotesize, text=cInk, anchor=south east] at (axis cs:19.5,0.92) {$\eta = R_\text{L}/(R_\text{th}+R_\text{L})$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

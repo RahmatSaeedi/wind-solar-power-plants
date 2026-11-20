@@ -1,0 +1,11 @@
+ten-day rota (D day, N night, O off): consecutive nights
+  against a teaching limit of 4
+  operator 1         NNNNNNDDOO
+  operator 2         DDNNNOODDN
+  operator 3         NNNNNDDOOO
+  shift lead A       DDDNNNOODD
+  authorised person  NNNNNNNOOO
+  over the limit: operator 1 (6), operator 3 (5), authorised person (7)
+  the authorised person works seven nights because nobody else
+  covers shift C (lesson A): the roster gap becomes a fatigue
+  risk on the very person who switches

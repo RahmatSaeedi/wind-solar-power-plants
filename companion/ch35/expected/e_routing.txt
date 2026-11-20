@@ -1,0 +1,11 @@
+routing a fire alarm from an often unmanned site (teaching times)
+  path                                       seconds to a person
+  control room on site (manned 8 h a day)           1
+  remote control centre (24 h)                      5
+  on-call phone call                               60
+  text message                                     30
+  the site room is manned 8 h a day: for 16 h the alarm
+  must reach the remote centre and the on-call person by two
+  independent paths; the emergency plan (ch 32) starts from
+  that call - SCADA routing tells people, it does not
+  replace the fire system's own alarm devices and calls

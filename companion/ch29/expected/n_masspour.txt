@@ -1,0 +1,12 @@
+heat of hydration in a 620 m3 foundation pour (ch 4 values, A-066;
+  the concrete specialist sets the mix and the limits)
+  binder                              kg/m3   heat kJ/kg   adiabatic rise K
+  cement only                           380          330              52.2
+  30 % fly ash                          380          270              42.8
+  50 % slag                             380          265              42.0
+  placed at 30 C, the core of a thick pour nears 30 + 44 = 74 C
+  (85 % of the adiabatic rise, cement only)
+  while the surface cools at night: a core-to-surface
+  difference above about 20 K (a common teaching limit)
+  cracks the surface; a low-heat binder, a cool mix,
+  insulation and thermocouples in the pour control it

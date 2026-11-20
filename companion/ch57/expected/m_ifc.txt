@@ -1,0 +1,20 @@
+IFC Performance Standards (STD-108) against the Tajikistan sources
+  (the World Bank Group backs the Sughd tender, TJ-54)
+  PS1 E&S assessment and management
+      Tajikistan sources: EIA rules in transition (TJ-56, TJ-57)
+  PS2 labour and working conditions
+      Tajikistan sources: no source read
+  PS3 resource efficiency, pollution
+      Tajikistan sources: Water Code permit (TJ-31)
+  PS4 community health, safety, security
+      Tajikistan sources: mudflow warnings (TJ-35)
+  PS5 land acquisition, resettlement
+      Tajikistan sources: state land, use rights (TJ-36, TJ-60)
+  PS6 biodiversity
+      Tajikistan sources: KBA near the Sughd site (TJ-61)
+  PS7 indigenous peoples
+      Tajikistan sources: applicability by qualified review only
+  PS8 cultural heritage
+      Tajikistan sources: heritage law (TJ-59)
+  where a lender applies its standards, they sit beside the
+  national rules; the stricter requirement governs (ch 54 A)

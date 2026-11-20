@@ -1,0 +1,10 @@
+how many test cases a permissive with n conditions needs (teaching)
+  conditions   every combination   each condition shown to matter
+           3                   8                                4
+           5                  32                                6
+           6                  64                                7
+          10                1024                               11
+  testing every combination grows out of reach; a set of
+  n + 1 cases in which each condition is shown to change the
+  result on its own covers an AND of n conditions - plus the
+  bad-quality case of each input (lesson B)

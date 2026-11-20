@@ -1,0 +1,11 @@
+non-conformance log of the civil works (synthetic, 40 reports)
+  category        reports   open   median days to close
+  compaction            8      0                     14
+  concrete              8      0                     20
+  setting out           6      3                     16
+  drainage              7      1                     10
+  documentation        11      3                      8
+  7 open at handover would block it: each NCR closes with
+  the evidence (retest, core, engineer's acceptance), not
+  with a signature; documentation is the largest category -
+  records are part of the work, not paperwork after it

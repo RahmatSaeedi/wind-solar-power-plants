@@ -1,0 +1,12 @@
+requirement -> tests (found in test_ch05_tool.py):
+  R-01 covered     convert between units and refuse mixed dimensions
+  R-02 covered     read the SCADA export and report every malformed line
+  R-03 covered     find every defect of the raw logger file
+  R-04 covered     never export more than the connection limit
+  R-05 covered     results repeat exactly and name their inputs
+  R-06 covered     aggregate correctly across a clock change
+  R-07 covered     battery never charges from the grid
+  R-08 covered     report states its limitations
+  R-09 NOT COVERED warn when a run uses an outdated data pack
+19 tests in the file; 9 not linked to a requirement (helpers or extra checks)
+requirements without a test: R-09

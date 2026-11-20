@@ -1,0 +1,9 @@
+the same windings in aluminium for the same resistance (teaching)
+  resistivity ratio 1.64: section x1.64, mass x0.50
+  conductor: copper 8.4 t = 76 k u; aluminium 4.2 t = 13 k u
+  but the windings take 1.64 x the volume: a wider window,
+  a larger core and tank and more no-load loss follow -
+  aluminium wins on the conductor and gives part of it back
+  in steel and A x P0; large power transformers mostly stay
+  copper, distribution and unit transformers often go
+  aluminium (foil)

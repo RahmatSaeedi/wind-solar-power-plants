@@ -1,0 +1,6 @@
+battery-container HVAC filter pressure drop, weekly (limit 250 Pa)
+   120  126  131  138  143  175  182  188  195  201
+  a dust storm in week 5 added 32 Pa at once; since then 6.5 Pa a week
+  limit reached in about 8 weeks: the change is planned
+  for the next service visit, not after the HVAC trips on a hot
+  afternoon (ch 19 HVAC, ch 45 cells and heat)

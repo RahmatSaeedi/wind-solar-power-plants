@@ -1,0 +1,9 @@
+outage requests to the network owner against its notice period
+  bay E1 relay test             30 days notice (needs 20)
+  line T05-T08 vegetation       10 days notice (needs 20)  SHORT
+  T1 tap-changer service        60 days notice (needs 45)
+  CT replacement at the POC     20 days notice (needs 45)  SHORT
+  2 requests short: the vegetation outage waits for the
+  network owner's next window - the trees keep growing
+  meanwhile; the yearly outage plan is agreed in advance and
+  the urgent ones are the exception

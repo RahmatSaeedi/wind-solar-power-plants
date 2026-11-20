@@ -1,0 +1,9 @@
+what the test bay must supply for T1 (from the design values)
+  load-loss test at rated current: 7.56 MVA at a power factor of 0.039
+  almost all reactive: the bay compensates it with capacitor
+  banks and its generator supplies the losses
+  heat run by the short-circuit method: total losses 340 kW,
+  current 1.068 x rated
+  a bay smaller than this cannot test the unit at rated
+  current; its capability is checked at the factory audit
+  (ch 39, type-test applicability), before the order

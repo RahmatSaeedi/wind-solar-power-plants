@@ -1,0 +1,14 @@
+POC voltage rise and the Q-V droop against grid strength:
+  SCR   X/R   dV at 100 MW, Q=0 %   Q for dV=0 Mvar   droop factor
+   10     5                  1.96             -20.0           0.55
+    6     5                  3.27             -20.0           0.43
+    3     5                  6.54             -20.0           0.27
+    6     2                  7.45             -50.0           0.45
+    3     2                 14.91             -50.0           0.29
+  the Q needed to cancel the rise depends on R/X only; the
+  rise itself and the droop's effect depend on grid strength:
+  in a weak grid the same droop removes more of a deviation but
+  the loop gain X Qmax / s_q is higher - a reason why the slope
+  and the response time are set with the grid study (ch 28);
+  with X/R = 2 the plant must absorb 50 Mvar at full output:
+  beyond its capability at 100 MW (section B)

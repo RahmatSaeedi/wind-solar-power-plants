@@ -1,0 +1,15 @@
+% Chapter 15 - curtailed share of the plant's energy at the 100 MW export limit as the PV block grows
+% (same hourly shape, before grid outages). Data: diagrams/data/ch15-overbuild.csv (examples_k.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=45, xmax=105, ymin=0, ymax=4.5,
+      xlabel={ظرفیتِ متناوبِ بلوکِ خورشیدی، مگاوات}, ylabel={سهمِ انرژیِ بریده‌شده، درصد},
+      xtick={50,60,...,100}, ytick={0,1,...,4}]
+    \addplot[sPV, mark=*, mark size=1.6pt, mark options={solid}] table[x=pv, y=curt, col sep=comma]
+      {data/ch15-overbuild.csv};
+    \node[note, anchor=south east] at (axis cs:51,0.35) {نیروگاهِ P};
+    \draw[sLimit] (axis cs:50,0) -- (axis cs:50,0.3);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

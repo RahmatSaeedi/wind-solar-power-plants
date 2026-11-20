@@ -1,0 +1,10 @@
+spares to cover the maker's lead time with 95 % confidence (teaching)
+  item                  installed   MTBF h    failures in lead   spares
+  ring switch                 14   300,000               0.05        1
+  SCADA server                 2    50,000               0.04        1
+  RTU                          1   150,000               0.01        1
+  fibre transceiver           40   500,000               0.08        1
+  a minimum of one spare of every type is kept even when the
+  expected failures are small: a ring with a dead switch
+  waits six weeks otherwise; spares carry the same firmware
+  baseline as the installed devices

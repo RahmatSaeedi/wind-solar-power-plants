@@ -1,0 +1,8 @@
+hand check, 23 June 12:00 (data pack 1.1.0, S0):
+  G = 1030.3 W/m2, T_air = 36.3 C -> T_cell = 36.3 + 25/800 x 1030.3 = 68.50 C
+  P = 60 x 1.0303 x (1 - 0.0035 x 43.50) x 0.90 x 0.98 = 46.223 MW; code
+    46.223 MW
+annual PV with the temperature model 96.43 GWh; chapter 1 lumped model 97.30
+    GWh
+irradiance-weighted cell temperature 43.3 C -> mean temperature factor 0.936
+hottest cell 70.7 C; coldest daylight cell -3.3 C

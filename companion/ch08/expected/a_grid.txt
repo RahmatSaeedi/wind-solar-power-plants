@@ -1,0 +1,7 @@
+fault current at the terminals, in per unit of the unit's rated current:
+  synchronous machine, x_d'' 0.12 pu (A-113): about 8.3 pu at first
+  converter-coupled unit: about 1.1 pu, set by the converter (A-117)
+inertia: the 32.2 MJ in the turbine rotor (chapter 4) reaches the grid
+  only if the converter control is told to release it
+reactive power: a synchronous machine by excitation; an induction
+  machine only absorbs; converter units within their P-Q chart

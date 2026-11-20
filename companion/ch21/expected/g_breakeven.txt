@@ -1,0 +1,8 @@
+break-even values (one input moved, others at base):
+  energy for min DSCR 1.00 (debt fixed):  86.1 % of P50 = 254 GWh
+  tariff for min DSCR 1.00 (debt fixed):  86.1 % of 70 u = 60.2 u/MWh
+  capex at which equity earns only the debt rate: +25 %
+  tariff at which equity earns its 10 % cost (debt resized): 69.5 u/MWh
+  a lender asks how far the project is from 1.00; an owner
+  asks how far it is from its cost of equity; both answers
+  are distances, not single values

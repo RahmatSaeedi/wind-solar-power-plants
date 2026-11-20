@@ -1,0 +1,12 @@
+shadow of a turbine on PV (tip 175 m, latitude 34 N):
+  winter noon sun 32.6 deg: tip shadow 274 m to the north
+  sun elevation   tip shadow
+     10 deg          992 m
+     15 deg          653 m
+     20 deg          481 m
+     30 deg          303 m
+  nearest W2 turbine to the PV block edge: about 2,100 m
+  a moving rotor shadow on PV costs little energy but causes
+  flicker on the inverters' MPP trackers; keep PV north and
+  north-east of turbines out of the long winter shadows or
+  accept and model them (chapter 15)

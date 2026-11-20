@@ -1,0 +1,16 @@
+tap range from the voltage band (teaching; exporting, so the 33 kV
+  side sits above the HV side by the regulation):
+  HV voltage pu   rise %   HV tap % for 33 kV at 1.00 (as lesson A)
+           0.90      0.0              -10.0
+           0.90      4.8               -5.7
+           0.95      0.0               -5.0
+           0.95      4.8               -0.4
+           1.05      0.0               +5.0
+           1.05      4.8              +10.0
+           1.10      0.0              +10.0
+           1.10      4.8              +15.3
+  needed from -10.0 to +15.3 %; the +/- 10 % in 1.25 % steps
+  covers the band except the corner of high grid voltage at
+  full export, where the plant absorbs reactive power (ch 20)
+  to pull the 33 kV down - the tap range follows the voltage
+  study

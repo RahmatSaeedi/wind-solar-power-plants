@@ -1,0 +1,18 @@
+verification matrix: the phase where each requirement is first
+  proven and how:
+  REQ-001  must    design         test at commissioning
+  REQ-002  must    design         analysis, then first-year comparison
+  REQ-003  must    procurement    type test, then site test
+  REQ-004  must    design         study, then site measurement
+  REQ-005  must    procurement    type test and plant study
+  REQ-006  should  commissioning  demonstration
+  REQ-007  must    commissioning  test
+  REQ-008  must    construction   inspection and test
+  REQ-009  should  operation      analysis of three months
+  REQ-010  could   operation      analysis of repair records
+  REQ-011  must    operation      inspection of meter readings
+  REQ-012  must    commissioning  test at the receptor
+  by phase: design 3, procurement 2, commissioning 3, construction 1,
+    operation 3
+  half are proven only at commissioning or later: the design
+  must keep the evidence route open (test points, data, access)

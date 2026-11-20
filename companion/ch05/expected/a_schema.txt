@@ -1,0 +1,6 @@
+4 rows checked against a 4-field schema: 1 clean, 5 issue(s)
+  line 3: ws100_avg = -0.4 below 0 m/s
+  line 4: t_air = -9999.0 below -40 degC
+  line 4: p_air = 87.9 below 800 hPa
+  line 5: ws100_avg = '7,9' is not float
+  line 5: t_air is empty

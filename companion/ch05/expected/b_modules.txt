@@ -1,0 +1,4 @@
+pi = 3.141593   sqrt(2) = 1.414214
+mean 7.32  median 7.4  stdev 1.81
+PV at 800 W/m2: 39.984 MW
+this module is called __main__

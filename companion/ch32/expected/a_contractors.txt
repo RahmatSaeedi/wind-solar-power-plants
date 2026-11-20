@@ -1,0 +1,13 @@
+contractor prequalification (scores 1-5, teaching weights)
+  criterion                            weight   C1  C2  C3
+  safety record (rates, fatalities)      0.25    4   5   3
+  safety management system               0.20    4   5   4
+  competence and training records        0.20    3   2   4
+  plant and equipment inspection         0.15    4   5   4
+  subcontractor control                  0.10    3   2   4
+  welfare and labour practices           0.10    4   4   3
+  weighted C1 3.70   C2 4.00   C3 3.65
+  C2 has the best weighted score but 2 on competence and on
+  subcontractor control: a minimum of 3 on every line
+  (lowest scores C1 3, C2 2, C3 3) qualifies
+  C1 and C3 only - a weighted sum alone would hide the gap

@@ -1,0 +1,9 @@
+vehicles and walkers meeting at the laydown gate (Poisson, teaching)
+  conflict: a walker crosses within 10 s of a vehicle passing
+  vehicles/h   walkers/h   conflicts/h   per 10-hour day
+          10          20          1.11              11.1
+          40          60         13.33             133.3
+          40           0          0.00               0.0
+  a busy shared gate sees over a hundred near-meetings a
+  day; a separate pedestrian gate (last row) removes them -
+  the engineering control beats any amount of attention

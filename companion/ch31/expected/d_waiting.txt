@@ -1,0 +1,7 @@
+waiting for the nacelle's weather window (6 h below 10 m/s at hub)
+  crew ready at 06:00 on each day of the data-pack year:
+  no wait 72 % of days; mean wait 5.6 h; worst 120 h
+  expected standby cost a lift at 60 k u a day: 14.1 k u; worst 300 k u
+  the average is small, the worst case is not: the contract
+  says who pays for weather standby, and the plan says
+  which work the crane does while it waits

@@ -1,0 +1,7 @@
+one wash of the whole PV plant: measured recovery against its cost
+  recovered 46.0 MWh until the next wash at 50 u/MWh: 2,300 u
+  wash cost 1,800 u: net +500 u
+  in a drought, water at 12 u/m3 (109.2 m3): net -810 u
+  the recovery is measured (the cleaned reference cell of
+  ch 37), not assumed; in a drought the trigger moves to a
+  higher soiling level, and the decision is logged with both

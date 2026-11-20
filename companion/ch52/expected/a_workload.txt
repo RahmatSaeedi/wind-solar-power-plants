@@ -1,0 +1,6 @@
+maintenance work of a year against the crew (hands-on hours)
+  preventive (task list): 4,683 h; corrective (rate x MTTR): 851 h
+  crew: 10 x 1,804 h x (1 - 0.35 travel, permits, records) = 11,726 h
+  load 47% of the crew: it fits, with the rest for improvement work
+  the turbine services are bought from the maker (ch 39 service
+  agreement) and are not in the crew's hours

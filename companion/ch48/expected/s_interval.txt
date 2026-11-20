@@ -1,0 +1,6 @@
+pyranometer: years until the RSS budget at 45 C reaches 2.5 % of the reading
+  the budget passes 2.5 % after about 3.4 years
+  so the recalibration interval is set by the drift the plant
+  can afford, not by the maker's default of two years; the
+  reference cell and the spare pyranometer swap in so the
+  station never stops measuring (ch 12, ch 34)

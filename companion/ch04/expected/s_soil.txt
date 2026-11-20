@@ -1,0 +1,7 @@
+buried cable, depth 0.8 m, diameter 50 mm: R_th = (rho / 2 pi) acosh(2u/D)
+  peak loss of one feeder cable 572^2 x 0.125 milliohm/m = 40.9 W/m
+  moist soil              rho 0.7 K m/W: R_th 0.46 K m/W, soil rise 19 K
+  design value (assumed)  rho 1.0 K m/W: R_th 0.66 K m/W, soil rise 27 K
+  dried-out sand          rho 2.5 K m/W: R_th 1.65 K m/W, soil rise 68 K
+  heat dries the soil around a loaded cable: the rating rests on the driest
+    case

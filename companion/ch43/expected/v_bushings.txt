@@ -1,0 +1,7 @@
+bushing currents with 150% margin for overload and harmonics (teaching)
+  HV line 276 A -> needs 413 A: rating 630 A
+  LV line 1,102 A (delta: line, not phase) -> needs 1,653 A: rating 2000 A
+  a bushing carries the line current, not the winding's phase
+  current; its temperature in the hot air and at the site's
+  altitude (ch 25) is the maker's check, and its factory
+  capacitance and loss factor travel with it

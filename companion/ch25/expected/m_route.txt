@@ -1,0 +1,20 @@
+factory route of a transformer (concept):
+  oil-filled:
+    1. approved design and material traceability
+    2. core cutting and stacking (step-lap joints)
+    3. winding of the coils, inspection of conductors and turns
+    4. insulation assembly (pressboard, spacers, barriers)
+    5. lead connection and active-part clamping
+    6. drying of the active part to the maker's moisture target
+    7. tanking, vacuum and oil filling with processed oil
+    8. sealing, leak check, finishing, tests, transport preparation
+  dry-type (cast resin):
+    1. approved design and material traceability
+    2. core cutting and stacking
+    3. winding (foil or strip), cast or impregnated in resin
+    4. curing under controlled temperature
+    5. assembly in the frame, leads and taps
+    6. enclosure, sensors, tests, transport preparation
+  drying, vacuum and oil processing need purpose-built plant
+  and approved procedures; their records (moisture, oil
+  quality, vacuum hold) belong in the dossier

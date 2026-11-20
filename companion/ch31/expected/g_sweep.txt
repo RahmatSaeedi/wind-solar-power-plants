@@ -1,0 +1,12 @@
+sweep of the blade tip outside the rear bogie's path in a bend
+  rear overhang 22 m (74 m blade on an extendable trailer)
+  bend radius m   tip radius m   extra sweep m
+             25           33.3             8.3
+             40           45.7             5.7
+             60           63.9             3.9
+             90           92.6             2.6
+            150          151.6             1.6
+  in a tight bend the tip swings several metres outside the
+  road: signs, poles, walls and trees in that zone are
+  removed or the blade is lifted on a tilting adaptor - the
+  swept-path study of each bend comes before the permit

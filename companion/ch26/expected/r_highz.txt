@@ -1,0 +1,11 @@
+high-impedance bus differential: stability for an external fault
+  through fault 25 kA, CTs 2000/1, R_ct 5.0 ohm, lead 2.0 ohm
+  worst case: one CT saturates fully and the healthy ones
+  drive the secondary fault current through it and its leads:
+  stability voltage V_s = I_f/N x (R_ct + 2 R_L) = 112.5 V
+  relay set above it (teaching 1.2 x): 135 V; CT knee >= 2 x setting: 270 V
+  for an internal fault every CT drives into the high
+  impedance and the voltage soars past the setting (a
+  voltage limiter protects the circuit); the CTs must be
+  identical and dedicated - a design proved by its stability
+  test and its sensitivity calculation

@@ -1,0 +1,5 @@
+Pearson correlation of PV and wind output (Plant P Reference Data Pack 1.0.0,
+    scenario S0 (no-BESS)):
+  hourly -0.124; daily energies -0.117; monthly energies -0.339
+  negative = complementary; the sign and size depend on the time scale
+  correlation measures LINEAR association only; it is not causation

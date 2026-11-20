@@ -1,0 +1,16 @@
+% Chapter 38 - documents submitted to the owner's engineer each week and the review backlog with
+% a capacity of 25 or 30 documents a week (diagrams/data/ch38-queue.csv from
+% companion/ch38/examples_s.py, s_queue; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=30, xmax=52, ymin=0, ymax=40,
+      xlabel={هفتهٔ طراحیِ تفصیلی}, ylabel={سند},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sWind] table[x=week, y=arrivals, col sep=comma] {data/ch38-queue.csv};
+    \addplot[sLoss] table[x=week, y=cap25, col sep=comma] {data/ch38-queue.csv};
+    \addplot[sBESS] table[x=week, y=cap30, col sep=comma] {data/ch38-queue.csv};
+    \legend{سندِ رسیده در هفته, صف با ظرفیتِ ۲۵, صف با ظرفیتِ ۳۰}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

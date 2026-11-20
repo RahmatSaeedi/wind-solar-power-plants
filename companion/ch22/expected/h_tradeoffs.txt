@@ -1,0 +1,15 @@
+trade-off rates from the chapter 21 model (NPV at close, k u):
+  +1 % energy (2.95 GWh a year)    +1,935   equity IRR +0.35 pt
+  +1 % capital cost (1,564 k u)   -1,412   equity IRR -0.25 pt
+  one month later financial close       -31  (NPV today)
+  exchange rates:
+    1,000 k u of capital = 1.4 GWh a year of energy
+    one month later = 0.05 GWh a year of energy
+  P-North against P-Central in these rates:
+    energy +34.9 GWh a year       +22,853
+    cost incl. grid +24,550     -22,158
+    22 months later close             -682 (approx.)
+  the linear rates reproduce the model's answer within a few
+  hundred k u: the energy lead buys the grid works, and the
+  delay takes the rest - a trade-off made explicit, not hidden
+  in a weight

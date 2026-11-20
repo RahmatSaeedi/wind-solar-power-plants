@@ -1,0 +1,8 @@
+fabricator's NCR register on 2027-03-15: 7 raised, 5 open
+  open by age: <30 days 2, 30-90 days 1, >90 days 2
+  NCR-202 open 100 days: flange F2 flatness
+  NCR-207 open 136 days: door frame MT
+  an NCR left open for months is a decision nobody took: the
+  door-frame MT and the flange flatness block the release of
+  sections 1 and 2 - the register is reviewed weekly with an
+  owner and a date for each open item (ch 40)

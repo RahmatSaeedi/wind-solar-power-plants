@@ -1,0 +1,8 @@
+hub: casting against a welded fabrication (teaching k u)
+  route        material   hours   tooling   per hub at 12 / 200
+  cast               18     120       900    100.2 /  29.7
+  fabricated         24     420        60     54.2 /  49.5
+  break-even at 35 hubs: a serial turbine is cast; a
+  prototype or a very small series may be fabricated - but a
+  fabricated hub has welds in the load path and a fatigue
+  design of its own (ch 30, weld details)

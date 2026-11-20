@@ -1,0 +1,32 @@
+% Chapter 6 — ground-fault paths in a floating (unearthed) DC array: the first
+% fault draws almost no current; the second closes a loop.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    lab/.style={note, font=\scriptsize, text=cInk},
+    flt/.style={cLoss, line width=0.9pt, decorate, decoration={zigzag, segment length=1.6mm, amplitude=0.7mm}}]
+  \foreach \s/\x in {a/0, b/9}{
+    \begin{scope}[shift={(\x,0)}]
+      \draw (0,0) to[battery1, l=آرایه, invert] (0,3) -- (4.5,3) -- (4.5,0) -- (0,0);
+      \node[blk, minimum width=14mm, minimum height=10mm] at (4.5,1.5) {اینورتر};
+      \draw[cInkB, line width=0.6pt] (-0.8,-0.9) -- (5.3,-0.9) node[cground, anchor=north]{};
+      \node[lab, anchor=west, text=cInkB] at (-0.8,-1.25) {قاب‌ها و زمینِ حفاظتی};
+      \node[lab, anchor=east] at (-0.3,3) {$+$};
+      \node[lab, anchor=east] at (-0.3,0) {$-$};
+    \end{scope}
+  }
+  % left: first fault, + to ground
+  \draw[flt] (2.0,3) -- (2.0,-0.9);
+  \node[lab, anchor=south, text=cLoss!80!black] at (2.25,3.1) {خطای اول};
+  \node[lab, anchor=north, align=center, text width=52mm] at (2.25,-1.7)
+       {مدار بسته نمی‌شود: جریانِ خطا تقریباً صفر؛ اما حالا قطبِ منفی نسبت به زمین $-V$ دارد. \textbf{فقط پایشِ عایق آن را می‌بیند.}};
+  % right: second fault, - to ground
+  \draw[flt] (11.0,3) -- (11.0,-0.9);
+  \draw[flt] (12.5,0) -- (12.5,-0.9);
+  \node[lab, anchor=south, text=cLoss!80!black] at (11.25,3.1) {خطای اول};
+  \node[lab, anchor=south east, text=cLoss!80!black] at (12.4,0.05) {خطای دوم};
+  \draw[-{Stealth[length=2mm]}, cLoss, line width=0.8pt] (11.2,-0.6) -- (12.3,-0.6) node[midway, below, lab, text=cLoss!80!black] {$I_\text{fault}$};
+  \node[lab, anchor=north, align=center, text width=52mm] at (11.25,-1.7)
+       {حلقه از راهِ زمین بسته می‌شود: جریانِ خطا تا حدِ $I_\text{sc}$ آرایه، قوس و آتش ممکن است.};
+\end{tikzpicture}}
+\end{document}

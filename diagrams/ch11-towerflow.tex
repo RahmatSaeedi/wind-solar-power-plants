@@ -1,0 +1,27 @@
+% Chapter 11 - steel tower section manufacturing at process-flow level with quality gates
+% (section C, worked example 2 part 2; factory detail in chapter 45).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{st/.style={blk, minimum width=22mm, minimum height=10mm, text width=20mm},
+           gate/.style={blkWarn, diamond, aspect=1.6, inner sep=1pt, text width=13mm, font=\scriptsize}}
+  \node[gate] (g0) at (0,0) {گواهی و ضخامتِ ورق};
+  \node[st] (a1) at (2.9,0) {برش و پخ‌زنی};
+  \node[st] (a2) at (5.8,0) {نوردِ استوانه‌ها};
+  \node[st] (a3) at (8.7,0) {جوشِ طولی};
+  \node[gate] (g1) at (11.6,0) {گردی و قطر};
+  \node[st] (b1) at (11.6,-2.6) {جوشِ محیطیِ استوانه‌ها};
+  \node[st] (b2) at (8.7,-2.6) {جوشِ فلنج‌ها};
+  \node[gate] (g2) at (5.8,-2.6) {آزمونِ غیرمخربِ جوش‌ها};
+  \node[gate] (g3) at (2.9,-2.6) {تختی و شیبِ فلنج};
+  \node[st] (b3) at (0,-2.6) {زنگ‌زدایی و رنگ};
+  \node[gate] (g4) at (0,-5.2) {ضخامت و چسبندگیِ رنگ};
+  \node[st] (c1) at (2.9,-5.2) {نصبِ تجهیزاتِ درونی};
+  \node[gate] (g5) at (5.8,-5.2) {بازرسیِ نهایی و سوابق};
+  \node[blkLoad, minimum width=22mm, minimum height=10mm, text width=20mm] (c2) at (8.7,-5.2) {حمل و دریافت در ساختگاه};
+  \draw[flow] (g0) -- (a1); \draw[flow] (a1) -- (a2); \draw[flow] (a2) -- (a3); \draw[flow] (a3) -- (g1);
+  \draw[flow] (g1) -- (b1); \draw[flow] (b1) -- (b2); \draw[flow] (b2) -- (g2); \draw[flow] (g2) -- (g3); \draw[flow] (g3) -- (b3);
+  \draw[flow] (b3) -- (g4); \draw[flow] (g4) -- (c1); \draw[flow] (c1) -- (g5); \draw[flow] (g5) -- (c2);
+  \node[note, text width=40mm, anchor=north west] at (10.6,-4.5) {تختیِ فلنج شرطِ عمرِ خستگیِ پیچ‌هاست؛ فلنجِ تاب‌خورده پس از جوش اصلاح‌پذیر نیست مگر با روشِ تأییدشده};
+\end{tikzpicture}}
+\end{document}

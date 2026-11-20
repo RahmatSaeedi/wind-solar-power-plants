@@ -1,0 +1,7 @@
+who stamps the time: the device or the gateway? (synthetic)
+  two events up to 100 ms apart on two devices; 5-200 ms to the gateway
+  stamped at the source (synchronised clocks): order wrong 0.0 %
+  stamped by the gateway on arrival:            order wrong 28.6 %
+  a time stamp added on arrival measures the network, not
+  the event; the sequence of events is stamped where it
+  happens and the stamp travels unchanged with the value

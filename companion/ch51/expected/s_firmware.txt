@@ -1,0 +1,10 @@
+firmware against the baseline after a year (ch 48 baseline)
+  inverters            4.3.0   10 devices, 2 off baseline
+  turbine controllers  7.2     12 devices, 0 off baseline
+  switches             6.2.1   31 devices, 1 off baseline
+  RTUs                 8.4      2 devices, 1 off baseline
+  gateways             2.3.0    2 devices, 0 off baseline
+  4 devices off: two inverters replaced from old stock,
+  one switch swapped after a fault, the second RTU - each
+  a change without its configuration step (the change records
+  above)

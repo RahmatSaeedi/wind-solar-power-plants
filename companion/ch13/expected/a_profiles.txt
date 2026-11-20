@@ -1,0 +1,10 @@
+mean profile by time of day (true values, A-250):
+  hours        v60    v80    v100   shear   z0 m
+  night 20-06    6.42   7.04   7.57   0.322    3.429
+  morning 06-09  6.37   6.79   7.13   0.221    0.838
+  day 09-17      6.21   6.43   6.61   0.122    0.022
+  evening 17-20  6.07   6.47   6.80   0.223    0.864
+  all hours      6.30   6.73   7.10   0.233
+  a stable night lets the upper wind slide over the lower: the
+  'roughness' fitted at night is not the ground's roughness but
+  the stability; one shear exponent for all hours hides that

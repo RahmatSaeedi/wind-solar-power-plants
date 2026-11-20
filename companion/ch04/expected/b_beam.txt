@@ -1,0 +1,7 @@
+tracker torque tube D 140 mm, t 4 mm, simply supported over 7 m (A-057)
+  I = 395.5 x 10^-8 m4, S = 56.5 x 10^-6 m3
+  wind load of a_windload spread along the tube: w = q b C_f = 1506 N/m
+  M_max = w L^2 / 8 = 9.23 kN m -> sigma = 163 MPa
+  deflection 5 w L^4 / (384 E I) = 57 mm = span / 123
+  overloaded: a bigger tube, shorter spans or stowing the tracker flat in
+    high wind are the design options (chapter 30)

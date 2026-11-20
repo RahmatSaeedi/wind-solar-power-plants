@@ -1,0 +1,13 @@
+people qualified for each role, by shift (need in brackets)
+  role                        A   B   C   D
+  control-room operator       2   2   1   2   (2)
+  shift lead                  1   1   1   1   (1)
+  authorised person (HV)      1   2   0   1   (1)
+  first aider                 2   1   1   0   (1)
+  gaps:
+    control-room operator on shift C
+    authorised person (HV) on shift C
+    first aider on shift D
+  shift C has one operator and no authorised person; shift D
+  no first aider: a roster is checked role by role, not by
+  head count (ch 50 authorised persons)

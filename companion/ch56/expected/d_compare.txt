@@ -1,0 +1,19 @@
+equipment options against local service constraints (teaching
+constraints; an unknown is never a pass)
+  option                        ok  fails  unknown
+  central inverters 5.5 MVA      2      1        1
+      unknown  service techs in country
+      fails    spare lead time weeks
+  string inverters 0.3 MVA       4      0        0
+  wind 5 MW, 150 m rotor         0      3        1
+      unknown  service techs in country
+      fails    spare lead time weeks
+      fails    ambient rating C
+      fails    max part mass t
+  wind 3 MW, 120 m rotor         1      2        1
+      unknown  service techs in country
+      fails    spare lead time weeks
+      fails    ambient rating C
+  options with every constraint met and known: string inverters 0.3 MVA
+  the string inverters pass on the evidence; the turbines cannot
+  be judged until service capability is evidenced

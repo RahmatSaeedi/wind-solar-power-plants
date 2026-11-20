@@ -1,0 +1,14 @@
+a ripple-control signal against the plant's 5th-harmonic filter
+  filter alone: series resonance at h 4.70; seen from the 132 kV side
+  through the main transformer (X 2.07 ohm at 50 Hz): h 4.29
+  signal Hz   h      impedance from 132 kV side ohm (33 kV base)
+      183.3   3.67                                            16.8
+      216.7   4.33                                             1.6
+      316.7   6.33                                            42.6
+     1050.0   21.00                                           249.6
+  a teaching signal at 216.7 Hz meets an impedance of a few
+  ohms: the filter sinks the operator's signal and the
+  receivers nearby may miss their commands; the signal
+  frequencies used in the network belong in the filter's
+  design data (a blocking circuit or another tuning), and
+  the filter is checked from the side the signal comes from

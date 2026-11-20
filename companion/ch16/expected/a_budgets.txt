@@ -1,0 +1,21 @@
+wind (193.14 GWh at MV), one sigma:
+  anemometer calibration, mounting       2.57 %  share 19.3 %
+  long-term correction and period        3.91 %  share 44.6 %
+  cross-prediction to the turbines       2.46 %  share 17.6 %
+  wake model                             1.00 %  share  2.9 %
+  hub density                            0.30 %  share  0.3 %
+  power curve                            2.00 %  share 11.7 %
+  availability (energy-based)            1.00 %  share  2.9 %
+  icing and environmental stops          0.50 %  share  0.7 %
+  combined 5.85 % = 11.31 GWh; fully correlated 13.74 %
+PV (108.36 GWh at MV), one sigma:
+  irradiance sensor, maintenance         2.24 %  share 39.9 %
+  long-term correction and period        1.62 %  share 20.8 %
+  transposition model                    1.00 %  share  8.0 %
+  PV model (temperature, angle, light)   1.50 %  share 17.9 %
+  module power (flash-test sample)       1.00 %  share  8.0 %
+  inverter efficiency                    0.30 %  share  0.7 %
+  degradation, first year                0.30 %  share  0.7 %
+  soiling and cleaning                   0.50 %  share  2.0 %
+  availability                           0.50 %  share  2.0 %
+  combined 3.54 % =  3.84 GWh; fully correlated 8.95 %

@@ -1,0 +1,10 @@
+planned works that touch neighbours: notice against the 7-day commitment
+  blade inspection with a crane at T06    10 days
+  line vegetation T05-T08                  3 days  SHORT
+  wash campaign block 2 (trucks)           7 days
+  night transformer move                   1 days  SHORT
+  road grading to the village              9 days
+  2 short: the vegetation work waited for an outage window
+  and the transformer move for a road permit - the notice
+  belongs in the outage request, so the date and the message
+  move together

@@ -1,0 +1,15 @@
+% Chapter 12 - mean diurnal plane-of-array irradiance: south 25 deg against east-west 10 deg (mean of
+% the two faces). Data: diagrams/data/ch12-eastwest.csv (companion/ch12/examples_h.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=4, xmax=20, ymin=0, ymax=850,
+      xlabel={ساعتِ روز}, ylabel={تابشِ صفحه، $\text{W/m}^2$}, xtick={4,6,...,20},
+      ytick={0,200,...,800}, legend pos=north west, legend columns=1]
+    \addplot[sPV] table[x=hour, y=south, col sep=comma] {data/ch12-eastwest.csv};
+    \addlegendentry{جنوبی، $25^\circ$}
+    \addplot[sWind] table[x=hour, y=ew, col sep=comma] {data/ch12-eastwest.csv};
+    \addlegendentry{شرقی–غربی، $10^\circ$}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

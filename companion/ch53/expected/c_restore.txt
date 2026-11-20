@@ -1,0 +1,11 @@
+vegetation cover after restoration, years 1-3 (%),
+  target 40 % (teaching, from the baseline of ch 33)
+  PV area plot 1    12  28  41
+  PV area plot 2     9  18  22
+  road verges       20  35  48
+  laydown            5  14  30
+  target met in year 3: PV area plot 1, road verges
+  the laydown is on its way (+16 points in year 3); plot 2 has
+  stalled (+4) - reseeding and a grazing pause, agreed
+  with the herders (ch 33); the bond is released only on the
+  monitoring record

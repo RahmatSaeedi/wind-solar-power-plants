@@ -1,0 +1,6 @@
+double-conversion UPS for 12 kW of essential loads (A-175):
+  efficiency 0.94: losses 0.77 kW, 6.7 MWh/yr
+  rectifier + battery + inverter: the load sees clean voltage even
+  through a dip, at the price of two conversions all the time
+  the input filter of the rectifier is the capacitive load that
+  can under-excite the backup generator (chapter 8)

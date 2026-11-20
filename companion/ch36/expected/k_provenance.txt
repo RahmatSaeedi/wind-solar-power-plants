@@ -1,0 +1,9 @@
+provenance checks on delivery of 34 switches (teaching)
+  serial numbers against the maker's shipment list    34 of 34
+  firmware signature verified, hash against notice   34 of 34
+  seals and packaging intact                          33 of 34
+  one switch with a broken seal: held, not installed, the
+  maker asked to confirm the serial and reflash from the
+  signed image on the test bench
+  34 of 34 checked: every device, because one
+  counterfeit or altered switch sits inside the ring

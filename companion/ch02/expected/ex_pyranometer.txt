@@ -1,0 +1,4 @@
+pyranometer output 7.10 mV; individual sensitivity 8.62 uV per W/m2
+    (certificate)
+  G = 7100 uV / 8.62 = 823.7 W/m2
+  with the nominal 9.00 uV per W/m2 instead: 788.9 W/m2 (-4.2 %)

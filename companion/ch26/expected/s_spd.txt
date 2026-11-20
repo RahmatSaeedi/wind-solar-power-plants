@@ -1,0 +1,14 @@
+surge protective device: the leads add to its protection level
+  SPD protection level 1.5 kV; lead inductance about 1.0 uH/m;
+  dU = L di/dt; equipment withstand 4 kV (teaching)
+  total lead m   induced surge 1 kA/us   share of a direct strike 10 kA/us
+           0.3          1.8 kV   ok                     4.5 kV   NO
+           0.5          2.0 kV   ok                     6.5 kV   NO
+           1.0          2.5 kV   ok                    11.5 kV   NO
+           2.0          3.5 kV   ok                    21.5 kV   NO
+  for induced surges the leads matter little; where part of a
+  direct strike enters (the zone 0/1 boundary), even 0.3 m of
+  lead puts the equipment above its withstand - so that SPD
+  gets the shortest leads (a 'V' connection through its
+  terminals) and a second stage sits next to the equipment;
+  the installation check measures the lead length

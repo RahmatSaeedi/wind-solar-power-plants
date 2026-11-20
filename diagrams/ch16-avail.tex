@@ -1,0 +1,17 @@
+% Chapter 16 - distribution of the annual energy-based availability of twelve turbines with rare
+% 60-day failures (100,000 simulated years, A-282). Data: diagrams/data/ch16-avail.csv (examples_f.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=90, xmax=99.5, ymin=0,
+      xlabel={دسترس‌پذیریِ سالانه، درصد}, ylabel={سهمِ سال‌ها در هر بازه},
+      xtick={90,92,...,98}, yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[ybar interval, draw=cWind, fill=cWind!35, area legend] table[x=a, y=f, col sep=comma]
+      {data/ch16-avail.csv};
+    \draw[sLimit] (axis cs:98.34,0) -- (axis cs:98.34,0.24);
+    \node[note, anchor=south east] at (axis cs:98.3,0.20) {میانگین};
+    \draw[sLimit] (axis cs:95.03,0) -- (axis cs:95.03,0.12);
+    \node[note, anchor=south] at (axis cs:95.03,0.12) {$P_{99}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

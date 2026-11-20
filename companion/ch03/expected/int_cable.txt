@@ -1,0 +1,10 @@
+one of two 33 kV collector feeders (half the plant output each, assumed), 5
+    km,
+    Z = 0.625 + j0.550 ohm per phase (A-032), summer subset day, pf 0.95
+  peak hour 12: 31.1 MW, I = 572 A, loss 614 kW
+  daily loss = sum of 3 I^2 R x 1 h = 6.64 MWh (1.55 % of 428 MWh)
+  with the daily MEAN current instead: 4.86 MWh (too low: mean of a square)
+  temperature rise, thermal ODE with 40 K at 552.5 A (A-033), RK4, dt 60 s:
+    hour-by-hour steady state: maximum 42.9 K
+    tau 0.5 h (in air): maximum 42.7 K at 13.0 h
+    tau 3 h (buried):   maximum 37.5 K at 14.0 h

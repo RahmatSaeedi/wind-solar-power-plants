@@ -1,0 +1,8 @@
+imbalance penalty of a year by the schedule sent (A-301:
+  short 30 u/MWh, long 10 u/MWh):
+  schedule                 short MWh   long MWh   penalty k u
+  day-ahead forecast          31,591     29,752          1245
+  intraday update             24,065     19,751           919
+  the intraday update cuts the penalty by about a quarter;
+  where the market allows changes after the day-ahead offer,
+  re-scheduling is the cheapest imbalance tool

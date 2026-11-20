@@ -1,0 +1,10 @@
+hard-wired I/O of the substation and plant controller (teaching)
+  kind   points   +20 % spare   channels/module   modules
+  AI         71            86                 8        11
+  DI        185           222                16        14
+  DO         44            53                16         4
+  300 hard-wired points; turbines, inverters and battery
+  containers add thousands more by network (ch 35), which
+  is why the hard-wired list is kept for what must work
+  when the network does not: trips, interlocks, fire
+  signals, breaker positions

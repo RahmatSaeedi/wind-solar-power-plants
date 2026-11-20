@@ -1,0 +1,11 @@
+compression strength kept by a cap with a wrinkle of height A
+  over length L (teaching curve 1 / (1 + 6 A/L))
+  A/L     strength kept   disposition (teaching)
+  0.01             94%   accept
+  0.03             85%   repair by design
+  0.05             77%   repair by design
+  0.10             62%   reject
+  a wrinkle buckles the fibres and the cap loses compression
+  strength where it bends most; the scan finds wrinkles above
+  a size, and the design authority, not the shop floor,
+  decides whether a wrinkle in a cap may stay (lab D, NCR)

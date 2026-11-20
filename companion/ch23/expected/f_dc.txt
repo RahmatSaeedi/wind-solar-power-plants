@@ -1,0 +1,10 @@
+DC system 110 V and UPS (teaching duty cycle):
+  duty: 150 A for 1 min, 40 A for 238 min, 100 A for 1 min
+  4 h autonomy: raw 162.8 Ah; x 1.11 temperature x 1.25 ageing
+  x 1.10 margin = 248.5 Ah -> 250 Ah battery
+  charger: 40 A standing + 1.1 x 250 Ah / 10 h = 68 A
+  UPS: 25 kW for 60 min -> 33 kVA, battery 27.2 kWh
+  two chargers (one standby) and a battery split or duplicated
+  where the protection philosophy asks for it; the duty cycle
+  comes from the protection and control design, the factors
+  from the battery maker and the applicable standard

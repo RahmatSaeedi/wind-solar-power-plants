@@ -1,0 +1,19 @@
+% Chapter 33 - drawdown from site well W-1 (0.4 L/s, T 1.5e-4 m2/s, S 2e-4) against distance after
+% one and ten years (Cooper-Jacob; examples_f; teaching), with the village well at 3 km.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=200, xmax=5000, ymin=0, ymax=2,
+      xlabel={فاصله از چاهِ نیروگاه (m)}, ylabel={افتِ سطحِ آب (m)},
+      scaled x ticks=false, xticklabel style={/pgf/number format/fixed},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sWind, no marks, domain=200:5000, samples=80]
+      {max(0, 4e-4/(4*pi*1.5e-4)*ln(2.25*1.5e-4*31536000/(x^2*2e-4)))};
+    \addplot[sLoss, no marks, domain=200:5000, samples=80]
+      {max(0, 4e-4/(4*pi*1.5e-4)*ln(2.25*1.5e-4*315360000/(x^2*2e-4)))};
+    \legend{پس از یک سال, پس از ده سال}
+    \draw[sLimit] (axis cs:3000,0) -- (axis cs:3000,1.9);
+    \node[note, anchor=south west] at (axis cs:3050,1.4) {چاهِ روستا};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

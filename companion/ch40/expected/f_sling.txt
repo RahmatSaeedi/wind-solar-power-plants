@@ -1,0 +1,11 @@
+lifting the skid: 26.2 t, weight 257 kN
+  four-leg sling; a rigid load may hang on two legs only,
+  so the plan takes two (a common lifting practice)
+  angle from horizontal   tension a leg, kN
+                    60                 148
+                    45                 182
+                    30                 257
+  a flatter sling pulls harder: at 30 degrees each leg
+  carries the whole weight; the centre of gravity is off
+  centre (the transformer is heavy), so the lift plan by a
+  competent person sets legs, angles and the spreader

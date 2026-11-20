@@ -1,0 +1,12 @@
+preliminary layout package (D-018, to be frozen only after surveys):
+  wind: W2b, 12 x WT-5.0-150, hub 100 m, two rows across 285 deg
+    long-term 196.9 GWh a year, wake loss 4.0 % (other losses: ch 15)
+  PV: block of 119 ha east of the farm, 60 MWp at GCR 0.40 (88 ha used)
+  site substation 33/132 kV at (6.5, 3.5) km, between wind and PV
+  collector strings 13.3 km (wind), roads 9.9 km, pads 528 m3
+  export: least-cost route 7.06 km inside a 5 % corridor of 784 ha
+  footprint 10.0 ha (wind) + 119 ha (PV); customary grazing 3.1 ha
+  dwellings: highest noise 37.7 dB(A), flicker 0 h/yr worst case
+  georeferenced in the local grid (x east, y north, metres from
+  the window's south-west corner); a surveyed projected system
+  replaces it before design (chapter 29)

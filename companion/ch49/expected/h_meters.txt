@@ -1,0 +1,8 @@
+trucked water: delivery tickets against the meter at the tank, m3
+  month  tickets  meter  difference
+      7     5200   5170      +0.6%
+      8     5600   5050      +9.8%
+      9     5400   5390      +0.2%
+  month 8: 550 m3 paid for and not received
+  - a short delivery or water drawn on the way; the meter is
+  read each day and the tickets checked against it weekly

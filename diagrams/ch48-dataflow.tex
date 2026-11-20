@@ -1,0 +1,19 @@
+% Chapter 48 - sensor-to-historian view of one irradiance value: the stages, the delay each adds
+% and the attribute each sets (teaching; companion/ch48/lab_d.py, dataflow). Read right to left.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=23mm, minimum height=13mm, text width=21mm, align=center}]
+  \node[st, fill=cPV!10, draw=cPV] (a) at (0,0) {تابش‌سنج \\ \footnotesize $5\,\mathrm{s}$؛ پاسخ};
+  \node[st] (b) at (-2.8,0) {حلقهٔ جریان \\ \footnotesize بازه};
+  \node[st] (c) at (-5.6,0) {ورودیِ ثبت‌کننده \\ \footnotesize $1\,\mathrm{s}$؛ مقیاس، یکا};
+  \node[st] (d) at (-8.4,0) {سوئیچ \\ \footnotesize $\mathrm{VLAN\ 20}$};
+  \node[st] (e) at (-8.4,-2.4) {دروازهٔ ارتباطی \\ \footnotesize $2\,\mathrm{s}$؛ نوعِ ثبات، زمان};
+  \node[st] (f) at (-5.6,-2.4) {سرورِ اسکادا \\ \footnotesize $1\,\mathrm{s}$؛ کیفیت، هشدار};
+  \node[st, fill=cWind!10, draw=cWind] (g) at (-2.8,-2.4) {تاریخ‌نگار \\ \footnotesize باندِ مرده، نگهداری};
+  \foreach \x/\y in {a/b, b/c, c/d} {\draw[flow] (\x) -- (\y);}
+  \draw[flow] (d) -- (e);
+  \foreach \x/\y in {e/f, f/g} {\draw[flow] (\x) -- (\y);}
+  \node[note, anchor=west] at (-1.3,-2.4) {بدترین تأخیر: $9\,\mathrm{s}$};
+\end{tikzpicture}}
+\end{document}

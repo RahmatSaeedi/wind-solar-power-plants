@@ -1,0 +1,16 @@
+% Chapter 3 — error of the trapezoidal and Simpson rules against the step, half-sine day with
+% an exact integral. Log-log axes. Data: diagrams/data/ch03-quad.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=112mm, height=66mm,
+      xlabel={گامِ زمانی (دقیقه)}, ylabel={خطای انرژی (MWh)},
+      xmin=7, xmax=180, ymin=1e-6, ymax=50, xtick={9,18,36,72,144}, xticklabels={9,18,36,72,144},
+      log ticks with fixed point]
+    \addplot[sPV, mark=square*, mark size=1.5pt, mark options={solid}] table[x=h_min, y=trap_err, col sep=comma] {data/ch03-quad.csv};
+    \addlegendentry{ذوزنقه‌ای: شیبِ ۲}
+    \addplot[sWind, mark=*, mark size=1.5pt, mark options={solid}] table[x=h_min, y=simp_err, col sep=comma] {data/ch03-quad.csv};
+    \addlegendentry{سیمپسون: شیبِ ۴}
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

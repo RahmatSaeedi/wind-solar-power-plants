@@ -1,0 +1,7 @@
+the plant's own loads, from its own output or imported:
+  own loads 4,539 MWh a year (classes of section A)
+  covered in the same hour by generation 4,315 MWh
+  imported 224 MWh in 466 hours
+  most own use never crosses the meter; the import is small but
+  priced by its own contract; the auxiliary supply must still
+  take the full load from the grid when the plant is still

@@ -1,0 +1,9 @@
+round trip from the cell to the AC side (10-90 % SOC):
+  C-rate  cell DC   with PCS 0.98 twice  with MV and aux
+    0.25   98.08 %      94.20 %           92.33 %
+    0.50   96.21 %      92.40 %           90.56 %
+    1.00   92.57 %      88.90 %           87.14 %
+  data pack S1: 86 % AC to AC, below the model's 0.5 C
+  figure: it also covers HVAC in hot hours, standby and no-load
+  losses (a conservative teaching value); the I^2R loss grows
+  with current, so a slower battery is a more efficient one

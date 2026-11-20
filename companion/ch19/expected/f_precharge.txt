@@ -1,0 +1,8 @@
+pre-charge of a PCS DC link from one rack (teaching, A-295):
+  capacitance 20 mF at 1,331 V; inrush limited to 20 A
+  resistor 66.5 ohm; time constant 1.33 s; 5 tau 6.7 s
+  energy into the resistor 17.7 kJ; peak power 26.6 kW
+  without pre-charge the rack would close onto an empty
+  capacitor: the current is set only by milliohms and the
+  contactor welds; the resistor is sized for the energy pulse,
+  not the steady power

@@ -1,0 +1,11 @@
+delivery tickets of the T05 foundation pour, 15 trucks (teaching rules:
+  discharged within 90 min, concrete <= 32 C, no water added on site)
+  truck 7: 96 min from batching (limit 90)
+  truck 8: 40 L water added on site
+  truck 10: concrete at 33 C (limit 32)
+  3 trucks outside the rules; the concrete of each is either
+  refused at the gate or its place in the pour is recorded, so
+  the strength results and any core later can be tied to it;
+  water added on site raises the water-cement ratio the mix was
+  designed for - the supplier's mix design, not the driver,
+  decides what may be added

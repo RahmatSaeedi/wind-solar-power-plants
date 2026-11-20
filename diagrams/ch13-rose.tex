@@ -1,0 +1,39 @@
+% Chapter 13 - wind rose at 100 m: share of time (wide wedges) and share of energy (narrow
+% wedges) in twelve 30-degree sectors, synthetic mast year (A-250).
+% Data: diagrams/data/ch13-rose.csv (companion/ch13/examples_c.py); values copied below.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \def\sc{0.105}% cm per percent
+  \foreach \r in {10,20,30} {
+    \draw[cGridline, line width=0.4pt] (0,0) circle[radius=\r*\sc];
+  }
+  \foreach \a in {0,30,...,330} {\draw[cGridline, line width=0.4pt] (0,0) -- (90-\a:3.4);}
+  % dir/time/energy (percent)
+  \foreach \d/\t/\e in {15/0.29/0.34, 45/0.68/1.02, 75/3.94/4.93, 105/6.73/8.07,
+      135/4.58/4.84, 165/0.75/0.40, 195/0.47/0.59, 225/4.90/5.67, 255/19.83/19.62,
+      285/34.20/34.64, 315/19.79/16.51, 345/3.85/3.36} {
+    \pgfmathsetmacro{\rt}{\t*\sc}\pgfmathsetmacro{\re}{\e*\sc}
+    \pgfmathsetmacro{\aa}{90-\d+13}\pgfmathsetmacro{\ab}{90-\d-13}
+    \pgfmathsetmacro{\ea}{90-\d+6}\pgfmathsetmacro{\eb}{90-\d-6}
+    \filldraw[draw=cWind, fill=cWind!25, line width=0.6pt]
+      (0,0) -- (\aa:\rt) arc[start angle=\aa, end angle=\ab, radius=\rt] -- cycle;
+    \filldraw[draw=cLoss, fill=cLoss!70, line width=0.5pt]
+      (0,0) -- (\ea:\re) arc[start angle=\ea, end angle=\eb, radius=\re] -- cycle;
+  }
+  \foreach \r in {10,20,30} {
+    \node[note, fill=white, inner sep=1pt] at (90-165:\r*\sc) {$\r\,\%$};
+  }
+  \node[note, anchor=south] at (90:3.45) {شمال};
+  \node[note, anchor=west] at (0:3.45) {شرق};
+  \node[note, anchor=north] at (-90:3.45) {جنوب};
+  \node[note, anchor=east] at (180:3.45) {غرب};
+  % legend
+  \filldraw[draw=cWind, fill=cWind!25, line width=0.6pt] (4.6,1.2) rectangle (5.0,1.5);
+  \node[note, anchor=west, text=cInk] at (5.1,1.35) {سهمِ زمان};
+  \filldraw[draw=cLoss, fill=cLoss!70, line width=0.5pt] (4.6,0.6) rectangle (5.0,0.9);
+  \node[note, anchor=west, text=cInk] at (5.1,0.75) {سهمِ انرژی};
+  \node[note, anchor=west] at (4.6,-0.6) {سه بخشِ $240$ تا $330^\circ$};
+  \node[note, anchor=west] at (4.6,-1.05) {حدودِ $71\,\%$ انرژی};
+\end{tikzpicture}}
+\end{document}

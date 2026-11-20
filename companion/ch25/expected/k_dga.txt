@@ -1,0 +1,13 @@
+dissolved gases in the oil (ppm) read by the key gas (teaching):
+  sample     H2   CH4  C2H2  C2H4   CO   reading
+  T1 2027     40    20     0    10  250   normal - keep trending
+  T1 2029    420    60     1    15  300   partial discharge - resample
+  T2 2029     60   180     2   260  320   hot spot > 300 C - investigate
+  T2 2030    200   120    95   150  340   arcing - act now
+  T1 2031     70    40     0    20  900   paper overheating - check
+  gases form when oil or paper is stressed: hydrogen from
+  discharges, ethylene from hot spots, acetylene only from
+  arcs, carbon oxides from paper; the trend between samples
+  matters more than one value, and the interpretation
+  methods and limits are the oil laboratory's and the
+  standards' - this rule only shows the idea

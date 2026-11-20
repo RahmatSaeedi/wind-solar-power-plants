@@ -1,0 +1,10 @@
+what a wake does to fatigue (teaching: DEL scales with TI)
+  ambient TI 0.10; waked TI from ch 14's spacing
+  turbine      TI     DEL ratio   damage ratio m=3   m=5
+  free stream  0.10        1.00               1.00    1.00
+  one wake     0.14        1.40               2.74    5.38
+  deep in rows 0.17        1.70               4.91   14.20
+  a 40 % higher turbulence nearly triples the weld damage
+  (m = 3): the maker's load set is valid for the layout's
+  turbulence only, and a site suitability check confirms
+  that every position, waked ones included, stays inside it

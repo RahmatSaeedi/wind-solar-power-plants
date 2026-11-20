@@ -1,0 +1,9 @@
+hot spots found by the thermography flight, 15 modules (K over neighbours)
+   4  6 12 25  8 31  5 15  9 41  7 11 22  3 18
+  observe (< 10 K)               7
+  check at next visit (10-20 K)  4
+  replace (>= 20 K)              4
+  teaching classes - the survey and its classification follow
+  the project's thermography procedure (ch 41, STD-068); a
+  module over the replace class goes to the warranty claim
+  with its image

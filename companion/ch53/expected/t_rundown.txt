@@ -1,0 +1,9 @@
+turbine spares if the farm is repowered in 4 years: held minus expected use
+  pitch motors       held 6  use/yr 1.2  left +1.2
+  converter stacks   held 3  use/yr 0.8  left -0.2
+  yaw drives         held 4  use/yr 0.6  left +1.6
+  gearbox kits       held 1  use/yr 1.4  left -4.6
+  left over: pitch motors, yaw drives - stop buying them now;
+  short: gearbox kits - buy for the four years only;
+  about even: converter stacks; left-over spares are sold with
+  the old turbines

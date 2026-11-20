@@ -1,0 +1,10 @@
+can the two module declarations be compared? (teaching checklist)
+  yes  same functional unit (1 kWp of modules at the gate)
+  yes  same product category rules
+  yes  same system boundary (cradle to gate)
+  NO   same reference year and grid of manufacture
+  NO   both verified by a third party
+  two failed conditions: the comparison is not valid as it
+  stands - the manufacturing grid alone can move a module's
+  footprint by a third; the buyer asks for updated, verified
+  declarations before ranking suppliers on carbon

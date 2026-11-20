@@ -1,0 +1,7 @@
+Euler, C dv/dt = -v/R, 9 V, tau = 10 s, value at t = 30 s
+dt =  5.0 s: 0.14062 V, error -0.30746 V
+dt =  2.0 s: 0.31666 V, error -0.13142 V
+dt =  1.0 s: 0.38152 V, error -0.06656 V
+dt =  0.5 s: 0.41463 V, error -0.03346 V
+dt =  0.1 s: 0.44137 V, error -0.00672 V
+exact: 0.44808 V

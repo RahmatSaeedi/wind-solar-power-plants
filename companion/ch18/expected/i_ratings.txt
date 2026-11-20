@@ -1,0 +1,9 @@
+main ratings against the capacities (S1, teaching):
+  peak at the 33 kV bus in the model year: 107.5 MW
+  wind 60 + PV 50 MW at pf 0.95: 115.8 MVA against 2 x 63 = 126 MVA (ok)
+  one transformer out: 59.8 MW can still be exported
+  hours above that in the model year: 1,049
+  collector string of 4 turbines at 33 kV: 0.368 kA (240 mm2 rated 0.41)
+  battery 20 MW on its own bays: the export limit, not the
+  transformers, caps wind + PV + battery at the POC
+  ratings come from suppliers; these checks only screen them

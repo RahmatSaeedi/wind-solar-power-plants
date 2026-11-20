@@ -1,0 +1,9 @@
+a strategic spare main transformer (k u):
+  share of energy above 60 MW: 6.0 %
+  failures a year (two units) 0.02
+  expected loss a year: no spare 12, with spare 2
+  PV of the difference over 25 years 137 against a spare at 1,900
+  on expected value the spare does not pay; it buys protection
+  against a six-month half-plant outage (about 616 k u),
+  which lenders and insurers may require - or a shared spare
+  pool with other plants

@@ -1,0 +1,9 @@
+subassembly masses of one WT-5.0-150 (A-214, teaching values):
+  blades (3 x 22 t)                      66 t
+  hub with pitch system                  45 t
+  nacelle with drivetrain               160 t
+  tower (100 m steel)                   340 t
+  foundation (concrete and steel)      1700 t
+  tower-top mass (rotor + nacelle) 271 t; above foundation 611 t
+  the foundation weighs more than everything above it: it
+  must resist the overturning moment, not only the weight

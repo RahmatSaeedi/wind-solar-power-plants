@@ -1,0 +1,12 @@
+P-V curves at the POC: output raised (in study only) until no solution
+  grid     unit q   last solved MW   POC V there   margin over 100 MW
+  max        0.00              226         0.896                2.3 x
+  max        0.12              238         0.913                2.4 x
+  min        0.00              197         0.860                2.0 x
+  min        0.12              209         0.896                2.1 x
+  the plant is far from the voltage-stability limit of its
+  connection (about twice its size); the weak grid lowers
+  the limit by about an eighth and the units' reactive power
+  moves it out again - a study shows the margin,
+  it does not assume it (a weak connection or a long line
+  can bring the nose close to the plant's own output)

@@ -1,0 +1,15 @@
+module mounting by week against the planned 4.6 modules a crew-hour
+  week  modules  crew-h  crews  rate   factor
+    31     3800     900      3  4.22    0.92
+    32     4300     920      3  4.67    1.02
+    33     4700     950      3  4.95    1.08
+    34     3100     960      3  3.23    0.70
+    35     5200    1220      4  4.26    0.93
+    36     5400    1260      4  4.29    0.93
+    37     4100    1280      4  3.20    0.70
+    38     5600    1250      4  4.48    0.97
+  mean rate with 3 crews 4.27, with 4 crews 4.06
+  weeks below 80 % of plan: 34, 37 - the daily
+  reports give the causes (teaching: week 34 a late module
+  delivery, week 37 wind stops); the fourth crew added
+  27% output for 33 % more crews

@@ -1,0 +1,10 @@
+turns of the reviewer's design: e_t = 110.0 V
+  LV delta: 33,000 V / 110.0 = 300 turns
+  HV star: 76,210 V / 110.0 = 692.8 -> 693 turns (ratio error +0.03 %)
+  tap step 1.25 % = 8.66 turns: whole turns only
+  turns a step   worst ratio error over the 17 positions
+             8   +0.85 % at tap -10.00 %
+             9   -0.43 % at tap -10.00 %
+  9 turns a step keeps every tap inside +-0.5 % (worst -0.43 %);
+  8 turns would miss at the end (+0.85 %) - the ratio
+  test at every tap (lesson C) checks the arithmetic in copper

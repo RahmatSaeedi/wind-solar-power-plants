@@ -1,0 +1,10 @@
+days from a maker's fix to its installation (teaching)
+  test days   window every   mean days   worst days
+         14         30 d            29           44
+         14         90 d            59          104
+         14        365 d           196          379
+  plant devices are patched in outage windows after a test
+  on the test bench; a long gap is covered by compensating
+  controls (the conduit closed, the service switched off)
+  and recorded with the risk it leaves - never by patching
+  a running controller on the day the fix appears

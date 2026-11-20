@@ -1,0 +1,13 @@
+requirements-to-design flow for the PV inverter skid (teaching)
+  step                    content                                source
+  design basis            5.0 MVA at 0.6 kV, 45 C, 1,000 m       ch 9, D-012
+  functions               convert, protect, control, communicate ch 18
+  preliminary sizing      LV current 4,811 A; transformer 5.6 MVA ch 25
+  detail                  skid drawing, cable schedule, settings this chapter
+  materials, tolerances   busbar Cu, bolt torque, IP54           maker
+  manufacturing limits    skid width 2.4 m for road transport    ch 31
+  inspection access       front access 1.5 m, IR windows         ch 51
+  verification            FAT heat run, SAT power, FRT model     ch 44, 50
+  every step leaves a record the next one cites; the
+  verification step points back to the design basis, so
+  a failed test says which assumption was wrong

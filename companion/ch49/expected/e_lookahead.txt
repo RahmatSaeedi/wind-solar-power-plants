@@ -1,0 +1,13 @@
+six-week look-ahead from day 244: constraints not cleared by each start
+  package              start  open constraints
+  PVF2-1 piling          250  materials (day 252)
+  PVF2-1 tables          262  ready
+  PVF2-2 trenches        248  ready
+  WS2 road crossing      255  permit
+  T07 foundation         270  geotech report
+  substation GIS         280  maker's engineer (day 285)
+  ready to issue to the crews: 2 of 6
+  piling waits two days for its posts; the road crossing and
+  T07 wait for things nobody has a date for - they leave the
+  look-ahead until they do, and the crews are planned on
+  work that is ready (ch 22 constraints)

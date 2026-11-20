@@ -1,0 +1,4 @@
+loss overrun priced with the evaluation factors:
+  no-load +1.1 kW x 6.84 = 7.5 k u; load +12 kW x 0.88 = 10.6 k u
+  total 18.1 k u - inside tolerance but a cost to the
+  owner for 25 years; contracts often deduct it from the price

@@ -1,0 +1,10 @@
+PV unit transformer no. 3 (offer U-A): routine test against the guarantee
+  quantity               guarantee   measured   verdict
+  no-load loss kW             4.10       4.31   pass
+  load loss kW, 75 C         41.00      42.90   pass
+  impedance %                 7.00       7.21   pass
+  A = 6.84 and B = A x 0.2 = 1.37 k u/kW (PV group loss load factor, ch 25)
+  deduction for this unit 4.04 k u; ten units like it 40.4 k u
+  each unit passes alone; the series is what the money sees -
+  ch 25's series clause and these deductions are two sides of
+  the same guarantee

@@ -1,0 +1,7 @@
+the PV unit rated 5.6 MVA at a 45 C ambient (ch 39 requirement T01)
+  5 K hotter air than a 40 C reference (teaching) leaves 55 K
+  of rise
+  losses must fall to 89.7%: the same design carries 0.942 pu
+  so a 5.6 MVA unit for 45 C is a 5.9 MVA unit at 40 C
+  - the specification's ambient changes the size, and two
+  offers rated at different ambients are not the same machine

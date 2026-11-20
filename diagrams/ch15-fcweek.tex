@@ -1,0 +1,22 @@
+% Chapter 15 - one test week of the day-ahead hybrid forecast: observed output, P50 and the
+% P10-P90 interval (quantiles by forecast level, learned on the training months).
+% Data: diagrams/data/ch15-fcweek.csv (companion/ch15/forecast.py).
+\input{_preamble}
+\usepgfplotslibrary{fillbetween}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=62mm, xmin=720, xmax=887, ymin=0, ymax=110,
+      xlabel={ساعت از آغازِ ماه‌های آزمون}, ylabel={توانِ نیروگاه، $\text{MW}$},
+      xtick={720,744,...,888}, ytick={0,20,...,100}, legend style={at={(0.5,1.03)}, anchor=south},
+      legend columns=3, xticklabel style={/pgf/number format/1000 sep={}}]
+    \addplot[name path=hi, draw=none, forget plot] table[x=h, y=p90, col sep=comma] {data/ch15-fcweek.csv};
+    \addplot[name path=lo, draw=none, forget plot] table[x=h, y=p10, col sep=comma] {data/ch15-fcweek.csv};
+    \addplot[cWind!20, area legend] fill between[of=hi and lo];
+    \addlegendentry{بازهٔ P10 تا P90}
+    \addplot[sWind, line width=0.9pt] table[x=h, y=p50, col sep=comma] {data/ch15-fcweek.csv};
+    \addlegendentry{P50}
+    \addplot[sInk, line width=0.7pt] table[x=h, y=obs, col sep=comma] {data/ch15-fcweek.csv};
+    \addlegendentry{مشاهده}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

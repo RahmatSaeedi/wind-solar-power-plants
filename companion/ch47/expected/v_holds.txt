@@ -1,0 +1,7 @@
+days a foundation waits at its 6 hold points for the engineer
+  engineer on site 2 times a week; 12 foundations (synthetic)
+  waiting when the work is simply ready: 123 days in all, 10.2 a foundation
+  with 2 days' notice of each hold: 20 days in all
+  a hold point costs time only when nobody planned it: the
+  look-ahead schedule names each hold and books the engineer
+  (ch 49) - the hold itself is not the delay, the surprise is

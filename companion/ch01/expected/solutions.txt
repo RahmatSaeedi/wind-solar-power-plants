@@ -1,0 +1,52 @@
+L2-1 PV (50 MW AC): 50 MW x 8760 h x 0.18 = 78,840 MWh = 78.8 GWh
+L2-1 wind (60 MW): 60 MW x 8760 h x 0.4 = 210,240 MWh = 210.2 GWh
+L2-2 CF = 97,300 MWh / (50 MW x 8760 h) = 0.222
+L2-3 DC/AC = 1.20; inverters reach 50 MW at GHI = 1000 x 50 / (60 x 0.85 x
+    0.98) = 1000 W/m2
+L2-4 PV land 60 MWp x 1.5..2.5 ha/MWp = 90..150 ha; wind envelope 12 x (7x150
+    m)(4x150 m) = 7.56 km2 = 756 ha
+L2-5 usable = 40 MWh x (90-10)/100 = 32 MWh; duration = 32.0 / 20 MW = 1.6 h;
+    one-way efficiency = sqrt(0.86) = 0.9274; energy out of 32 MWh of AC input
+    (AC in -> AC out) = 32 x 0.86 = 27.52 MWh
+L2-6 development spend at 2 % of 120 M units = 2.4 M units
+L2-6 development spend at 3 % of 120 M units = 3.6 M units
+L2-6 development spend at 5 % of 120 M units = 6.0 M units
+L3-2 winter day 2023-12-02: PV 131.0 MWh, wind 291.0 MWh, peak PV 27.7 MW at
+    11:00, peak total 33.1 MW
+L3-2 hourly GHI (W/m2) and wind (m/s) of that day:
+      00:00  GHI    0.0  ws  7.99  -> PV  0.00 MW  wind 26.54 MW
+      01:00  GHI    0.0  ws  6.99  -> PV  0.00 MW  wind 17.63 MW
+      02:00  GHI    0.0  ws  6.69  -> PV  0.00 MW  wind 15.43 MW
+      03:00  GHI    0.0  ws  7.19  -> PV  0.00 MW  wind 19.29 MW
+      04:00  GHI    0.0  ws  8.61  -> PV  0.00 MW  wind 33.07 MW
+      05:00  GHI    0.0  ws  6.96  -> PV  0.00 MW  wind 17.41 MW
+      06:00  GHI    0.0  ws  6.43  -> PV  0.00 MW  wind 13.59 MW
+      07:00  GHI   42.3  ws  4.97  -> PV  2.11 MW  wind  5.82 MW
+      08:00  GHI  164.8  ws  4.94  -> PV  8.24 MW  wind  5.71 MW
+      09:00  GHI  334.1  ws  4.00  -> PV 16.70 MW  wind  2.62 MW
+      10:00  GHI  353.1  ws  4.01  -> PV 17.65 MW  wind  2.65 MW
+      11:00  GHI  554.8  ws  4.53  -> PV 27.73 MW  wind  4.20 MW
+      12:00  GHI  403.3  ws  4.76  -> PV 20.16 MW  wind  5.05 MW
+      13:00  GHI  329.3  ws  3.83  -> PV 16.46 MW  wind  2.23 MW
+      14:00  GHI  230.7  ws  4.20  -> PV 11.53 MW  wind  3.21 MW
+      15:00  GHI  182.0  ws  4.54  -> PV  9.10 MW  wind  4.23 MW
+      16:00  GHI   25.9  ws  5.42  -> PV  1.29 MW  wind  7.82 MW
+      17:00  GHI    0.0  ws  6.85  -> PV  0.00 MW  wind 16.60 MW
+      18:00  GHI    0.0  ws  7.06  -> PV  0.00 MW  wind 18.20 MW
+      19:00  GHI    0.0  ws  7.41  -> PV  0.00 MW  wind 21.14 MW
+      20:00  GHI    0.0  ws  7.26  -> PV  0.00 MW  wind 19.88 MW
+      21:00  GHI    0.0  ws  6.46  -> PV  0.00 MW  wind 13.78 MW
+      22:00  GHI    0.0  ws  5.46  -> PV  0.00 MW  wind  8.00 MW
+      23:00  GHI    0.0  ws  5.21  -> PV  0.00 MW  wind  6.88 MW
+L3-3 export limit 100 MW: curtailed     13.8 MWh/year (0.00 %), hours 8
+L3-3 export limit 90 MW: curtailed    507.3 MWh/year (0.18 %), hours 104
+L3-3 export limit 80 MW: curtailed   2362.9 MWh/year (0.82 %), hours 276
+P27 C = 18 months: duration 31, critical path A-C-H-I; float of B 2
+P35 E after D: duration 33, critical path A-D-E-F-I
+P28 S-curve: spent by month 40 = 29.8 %, by month 50 = 91.3 %
+P29 R9: 4 x 4 = 16 -> high
+P29 R10: 1 x 5 = 5 -> low
+P29 R11: 5 x 2 = 10 -> medium
+P30 flat 60 u/MWh: 17.39 million u/yr
+P31 hybrid export CF = 289.8 GWh / (100 MW x 8760 h) = 0.331
+P32 hours above 50 MW: wind alone 1486, PV alone 0, total 2493

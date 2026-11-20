@@ -1,0 +1,25 @@
+% Chapter 23 - Plant P's voltage levels from a 5 MW unit to the 132 kV export (flows right to left),
+% with the current at each level (A-316). Values from companion/ch23/examples_a.py levels().
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    lv/.style={blk, minimum width=36mm, minimum height=16mm, text width=35mm},
+    tr/.style={draw=cInk, line width=0.8pt}]
+  \node[lv, draw=cPV, fill=cPV!9] (a) at (16,0) {اینورتر و مبدل\\$0.6$ و $0.69\,\text{kV}$\\برای $5\,\text{MW}$ با $4{,}811\,\text{A}$};
+  \node[lv, draw=cWind, fill=cWind!9] (b) at (9.8,0) {جمع‌آوری $33\,\text{kV}$\\فیدرِ $20\,\text{MW}$ با $350\,\text{A}$\\بخشِ $65\,\text{MW}$ با $1{,}137\,\text{A}$};
+  \node[lv, draw=cLoad, fill=cLoad!8] (c) at (3.6,0) {صادرات $132\,\text{kV}$\\برای $100\,\text{MW}$ با $437\,\text{A}$};
+  \node[lv] (d) at (9.8,-2.9) {خدماتِ ایستگاه $0.4\,\text{kV}$\\برای $0.5\,\text{MVA}$ با $722\,\text{A}$};
+  \draw (a.west) -- (13.35,0);
+  \draw[tr] (13.15,0) circle (0.22) (12.85,0) circle (0.22);
+  \draw[flow] (12.65,0) -- (b.east);
+  \node[note] at (13.0,0.75) {ترانسفورماتورِ بلوک};
+  \draw (b.west) -- (7.1,0);
+  \draw[tr] (6.9,0) circle (0.24) (6.58,0) circle (0.24);
+  \draw[flow] (6.35,0) -- (c.east);
+  \node[note] at (6.75,0.78) {ترانسفورماتورِ اصلی};
+  \draw (b.south) -- (9.8,-1.15);
+  \draw[tr] (9.8,-1.35) circle (0.2) (9.8,-1.62) circle (0.2);
+  \draw[flow] (9.8,-1.82) -- (d.north);
+  \node[note, text width=46mm] at (3.6,-2.9) {تلف در یک رسانا با $1/U^2$ کم می‌شود؛\\در $0.6\,\text{kV}$ حدودِ $3{,}000$ برابرِ $33\,\text{kV}$};
+\end{tikzpicture}
+\end{document}

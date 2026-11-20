@@ -1,0 +1,8 @@
+degradation faster than assumed (debt fixed):
+  case                                   min DSCR   equity IRR %
+  base (PV 0.5 %/yr)                         1.20          10.22
+  PV 0.8 %/yr                                1.19           9.96
+  PV 0.8 %/yr and wind -0.3 %/yr             1.17           9.48
+  slow losses grow with time: they hurt the late loan years
+  and the merchant tail most; warranties on degradation and
+  monitoring (ch 51-53) are worth what they recover

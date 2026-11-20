@@ -1,0 +1,7 @@
+over-frequency event: droop measured from 1-s records (A-339)
+  peak frequency 50.504 Hz; deadband 0.2 Hz (setting); set droop 4 %
+  least-squares droop from the record: 3.98 %
+  power reduction at the peak: 15.8 MW; expected 15.2 MW
+  the fit uses only samples outside the deadband; noise on
+  both channels widens the uncertainty - the agreed method
+  states the sample rate, the filter and the fitting window

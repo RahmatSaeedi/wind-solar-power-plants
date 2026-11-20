@@ -1,0 +1,13 @@
+soil classes from the laboratory results (unified classification,
+  simplified teaching rules; A-line PI = 0.73 (LL - 20))
+  sample        gravel  sand  fines   LL   PI   class   log description
+  BH-01 0.5 m        5    70     25    22    3   SM      silty sand
+  BH-01 3.0 m       55    41      4    NP    -   GW      sand and gravel
+  BH-04 1.0 m        0    20     80    42   22   CL      silty clay, soft
+  BH-04 5.0 m        5    87      8    NP    -   SP-SM   sand, medium dense
+  BH-07 1.0 m       10    60     30    28    7   SC      silty sand, gypsum
+  BH-09 0.5 m        2    68     30    24    3   SM      silty sand
+  BH-07's 'silty sand' is a clayey sand (SC) in the
+  laboratory: the log is a field description, the class a
+  test - where they disagree the test wins and the log is
+  annotated; the class alone never gives design values

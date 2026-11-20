@@ -1,0 +1,11 @@
+accounts of people who left, still enabled (12 leavers a year)
+  process                               mean days open   account-days a year
+  found by the quarterly access review              45                   540
+  disabled by the HR leaving process                 1                    12
+  contractor end date set at creation                0                     0
+  a review that runs every 90 days leaves each leaver's
+  account open for 45 days on average; a leaving process
+  that tells the OT administrator closes it the same day,
+  and an end date set when the account is made needs no
+  one to remember. The review stays, to catch what the
+  process missed

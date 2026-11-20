@@ -1,0 +1,17 @@
+net energy 295.14 GWh; change for the low and high value of each
+  input, one at a time (teaching ranges, A-272):
+  input                              low GWh   high GWh
+  wind long-term factor -/+ 3 %        -5.58     +5.54
+  PV long-term factor -/+ 2 %          -2.05     +2.05
+  PV temperature model -/+ 2 %         -2.05     +2.05
+  wind availability 97 / 99 %          -2.08     +1.70
+  wake decay k 0.04 / 0.075            -0.68     +1.04
+  PV availability 98 / 99.5 %          -1.04     +0.52
+  load losses 2.0 / 1.0 %              -0.76     +0.76
+  export limit 95 / 105 MW             -0.72     +0.34
+  soiling 2.0 / 1.0 %                  -0.59     +0.45
+  the wind resource leads by far; the PV resource, the PV
+  temperature model and wind availability follow at about 4 GWh
+  each from low to high; every other input moves less than 2 GWh;
+  the order depends on the ranges, so the ranges are evidence too
+  (chapter 16); it tells the owner what to measure better first

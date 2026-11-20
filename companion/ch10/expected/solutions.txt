@@ -1,0 +1,91 @@
+P01: 700 nm 1.771 eV (absorbed); 1200 nm 1.033 eV (below 1.12 eV: passes)
+P02: cut-off for 1.70 eV: 729 nm
+P03: V_t at 45 C: 27.42 mV
+P04: V_oc per cell = 25 mV x ln(1e12 + 1) = 0.691 V
+P05: FF 0.778; efficiency 0.210
+P06: string 26 x 550 = 14.30 kW; 4200 strings 60.06 MWp
+P07: a = 1.1 x 60 x 0.02569 = 1.696 V
+P08: V_oc at -25 C 56.64 V; at 70 C 43.84 V
+P09: 550 x 0.8 x (1 - 0.0035 x 25) = 401.5 W
+P10: NOCT rule: 30 + 25/800 x 900 = 58.1 C
+P11: Faiman: 20 + 800/(25 + 6.84 x 3) = 37.6 C
+P12: IAM(70 deg) = 0.904
+P13: 900 + 0.8 x 100 = 980 W/m2
+P14: thirds: 216 x (1/3)^2 x (1/3) / 72 = 0.111
+P15: P_a = 0.95^20 = 0.358
+P16: 90,910 modules; 2,933 pallets; 147 containers
+P17: year 20 floor 0.8755 -> 481.5 W
+P18: N_max = floor(1500 / 58.7) = 25
+P19: N_min = ceil(880 / 35.3) = 25
+P20: two strings: reverse 17.5 A < 25 A, no fuse
+P21: pitch 4.556 / 0.35 = 13.02 m
+P22: f(10 deg) = 0.243
+P23: ground term with albedo 0.8: 73 kWh/m2 (0.2: 18); daily x4
+P24: 6 mm2, 200 m at 70 C: 0.686 ohm
+P25: mean loss 0.2 x 45 / 2 = 4.5 %
+P26: T* / sqrt(2) = 27.3 / 1.414 = 19.3 d
+P27: half plant, 1.5 L: 81.9 m3
+P28: PR = 111339 / (60.06 x 2150) = 0.862
+P29: specific yield 1854 kWh/kWp
+P30: 384.6 strings -> 384 = 16 x 24; DC/AC 1.098
+P31: 120 um at 1000 nm: 53.6 % (one pass), 78.5 % (two)
+P32: 25.7 mV x ln 10 = 59.2 mV per cell
+P33: share 47.4 %, x 0.670 x 0.75 -> 23.8 %
+P34: W(e) = 1 (1 x e^1 = e)
+P35: 49.8 V: |1 + df/di| = 1.27 > 1; iterates 0.49, 0.12, 0.59..; true 0.327 A
+P36: R_s doubled: P_mp 520.7 W, FF 0.747 (was 0.789)
+P37: R_sh halved: 200 W/m2 relative efficiency 0.976 (was 0.975)
+P38: 800 W/m2: 440.7 W at 25 C, 384.0 W at 65 C -> -0.322 %/K
+P39: 27 modules at -20 C: 1509 V
+P40: 553 / 1.005 = 550.2 W
+P41: NOCT 61.2 C, Faiman 46.9 C: 14.4 K -> about 4.6 % power
+P42: 8 V x 12 A = 96 W on 0.0179 m2 = 5.4 kW/m2
+P43: 23 x 0.55 + 0.6 = 13.25 V
+P44: n 125, c 3 at 1.5 %: P_a = 0.880
+P45: 10 samples, 1 %: 0.096; n for 50 %: 69
+P46: 551 x 0.98 x 0.995 = 537.3 W vs floor 539.0 W
+P47: 498 x 1.025 = 510.4 W < 511.8 W: shortfall proven
+P48: mean of 1 - 0.005 t, t = 1..25: 0.935
+P49: floor 1000 V: N_min = ceil(1000 / 35.32) = 29; N_max 27: no N fits
+P50: (N - 1) x 13.98 x 1.25 <= 25 -> N <= 2
+P51: 21 x 13.98 x 1.25 = 367 A
+P52: GCR 0.5: no shade above 21.1 deg
+P53: tower 100 m, sun 45 deg: 100 m
+P54: square law: 0.80 x (4/3)^2 = 1.42 %
+P55: parallel: 0.96 x cos 25 x sin 25 = 0.368 kN/m2
+P56: 1.2 % x 0.66 = 0.79 % of DC energy
+P57: 300 Mohm / 5460 = 54.9 kohm
+P58: 1.2 -> 1.3: AC 6.1 % more; clipped at 1.3 3.293 GWh
+P59: manual dry T* = 25.8 d
+P60: least-squares slope 0.292 %/day
+P61: 700 W/m2, cell 10 C: 403.7 W at 44.13 V; string 1147 V
+P62: -15 C: V_oc 1436 V at 1000, 1444 V at 1200 W/m2
+P63: 20 deg vs 25 deg: 2071 / 2086 - 1 = -0.72 %
+P64: pitch 9.11 vs 11.39 m: land 20 % less; loss 0.23 % vs 0.07 %
+P65: GCR 0.6: portrait 1.13 %, landscape 0.38 % (c_rows)
+P66: 1.273 x 0.96 x 0.99 - 1 = 21.0 %
+P67: 6 mm2 saves (0.99 - 0.66) % x 0.66 x 115.6 GWh = 252 MWh = 12.6 k u/yr
+P68: 630 V: 0.052 % x 115.7 GWh = 60 MWh/yr
+P69: aged 3 %: 159 h below 933 V (E32)
+P70: extra 10,920 modules give 633 kWh each; base 1034 kWh
+P71: truck 30 d minus trigger: 30,720 u/yr
+P72: 10-year break-even: 145,242 x 7.024 = 1.02 million u
+P73: water a year: every 14 d 2,839 m3; trigger 1,529 m3
+P74: 548 - 9 = 539 < 550 < 548 + 9 = 557: neither proven
+P75: (1 - 0.9952) x 60,060 kWp = 288 kWp
+P76: 31 of a container with 5 % cracked: detect 0.80
+P77: 113,400 x 0.0002 = 23 a year
+P78: eight snowfalls, scale 1.94 x 8 / 5 = 3.1 %
+P79: floating, 1100 V: about -550 V to +550 V; module step 42 V
+P80: 90,910 modules x 28 kg = 2,545 t; glass 1,782 t; Al 255 t
+P81: 17.09 x 1.076 = 18.39 A (< 25 A fuse); x 20 = 368 A > 350 A
+P82: LID 1.5 % on 111.3 GWh: 1670 MWh/yr = 83.5 k u/yr
+P83: N_max = floor(1500 / 56.56) = 26; N_min = ceil(900 / 34.89) = 26
+P84: 6.25 MW x 1.25: 546.3 strings -> 546 = 21 x 26; DC/AC 1.249
+P85: energy-weighted cell 38.3 C: -0.29 vs -0.35 %/K gives about 0.8 %
+P86: portrait loss 0.5 % between GCR 0.5 (0.23) and 0.6 (1.13): GCR 0.53
+P87: 200 Mohm wet, inverter 30 kohm: at most 6,667 modules per inverter
+P88: year 15 floor 0.9030 x 550 = 496.7 W
+P89: see text: decision rule, sample size, stabilisation, translation
+P90: 380 W at 700 W/m2, 40 C: 380 x 1000/700 / (1 - 0.0035 x 15) = 572.9 W
+P91: storm +10 %: 1,547 u/day; truck pays back in 10.6 days

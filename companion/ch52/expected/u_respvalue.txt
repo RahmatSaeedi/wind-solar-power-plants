@@ -1,0 +1,9 @@
+line faults 2 a year; each hour of response costs the mean
+  export of 33.8 MW
+  response h   MWh a year   u a year
+           4          270     18,913
+           8          540     37,827
+          24         1621    113,480
+  the service agreement with the network owner is negotiated
+  with this number: a 24-hour response costs 6 times a
+  4-hour one - the boundary of lesson H in money

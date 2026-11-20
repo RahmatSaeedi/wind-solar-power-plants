@@ -1,0 +1,9 @@
+plant wind total when 2 of 12 turbine values are invalid
+  sum of the 10 good values:              40.8 MW  quality BAD
+  with the 2 replaced by the mean of 10:   49.0 MW  quality SUBSTITUTED
+  true total (known here, synthetic):     49.2 MW
+  a total that silently drops two turbines is 17 % low and
+  looks good; a substituted total is within 0.2 MW and says
+  so. The rule - substitute or flag, and which quality the
+  total carries - is part of the data model, written once
+  and used by the HMI, the historian and the PPC alike

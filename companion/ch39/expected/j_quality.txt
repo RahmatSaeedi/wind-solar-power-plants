@@ -1,0 +1,12 @@
+declarations against the request (fields answered of 9)
+  U-A  8 of 9 answered
+      missing: update
+  U-B  3 of 9 answered
+      missing: boundary, verification, allocation
+      missing: limitations, uncertainty, update
+  U-C  1 of 9 answered
+      missing: functional unit, boundary, method
+      missing: verification, allocation, limitations
+      missing: uncertainty, update
+  U-A misses only the update promise, which the contract
+  adds; U-B and U-C need the controlled method below

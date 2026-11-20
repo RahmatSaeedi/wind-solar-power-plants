@@ -1,0 +1,8 @@
+check on the standard textbook sequence -2 1 -3 5 -1 3 -4 4 -2:
+  range 3: 0.5, range 4: 1.5, range 6: 0.5, range 8: 1, range 9: 0.5
+ten minutes of synthetic tower-base stress (MPa, 10 Hz, A-058):
+  6000 samples -> 1782 turning points -> 890 cycles
+  largest range 59.9 MPa; cycles above 20 MPa: 93.0
+  Miner damage in 10 min: rainflow 3.381e-06; swing by swing 2.294e-06
+  per 20 years if every 10 minutes were like this: 3.55
+  swing by swing misses the slow 300 s cycle hidden under the fast ones

@@ -1,0 +1,16 @@
+time-synchronisation error budget of the precision time protocol
+  contribution                                      us
+  satellite receiver                                0.10
+  grandmaster clock                                 0.05
+  6 switches, residence-time correction             0.30
+  end device time-stamping                          1.00
+  worst-case sum 1.45 us
+  need                                   accuracy   met?
+  sequence of events (ch 34)             1 ms       yes
+  synchrophasor-class measurement        1 us       NO
+  the end device's own time-stamping takes most of the
+  budget: the chain as drawn serves events with room to
+  spare but misses a 1 us need, which would ask for better
+  end devices, not a better network; the network time
+  protocol (about a millisecond) would also serve events -
+  the need, not the fashion, chooses the method (STD-150)

@@ -1,0 +1,8 @@
+power coefficient against tip-speed ratio and pitch:
+  pitch deg   Cp max   at lambda
+          0    0.485       8.50
+          2    0.480       9.00
+          5    0.383       8.00
+         10    0.216       5.25
+  pitching the blade lowers Cp at every lambda: the lever that
+  holds rated power above rated wind (region 3)

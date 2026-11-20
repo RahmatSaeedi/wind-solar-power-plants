@@ -1,0 +1,10 @@
+notice,tag,field,new_value,reason
+CN-001,PLP-WTG-07-GEN,serial,G26-0907,generator exchanged after bearing damage
+CN-001,PLP-WTG-07-GEN,delivered,2026-03-02,generator exchanged after bearing damage
+CN-001,PLP-WTG-07-GEN,installed,2026-03-10,generator exchanged after bearing damage
+CN-001,PLP-WTG-07-GEN,commissioned,2026-03-15,generator exchanged after bearing damage
+CN-002,PLP-MET-01-PYR,serial,P26-0610,pyranometer swapped for a recalibrated spare
+CN-003,PLP-MET-01-VAN,(removed),,vane replaced by an ultrasonic sensor
+CN-003,PLP-MET-01-SON,(added),,ultrasonic sensor at 98 m
+CN-004,PLP-MET-01-HYG,(added),,new temperature/humidity sensor
+CN-005,PLP-TRF-01,description,"Export transformer 132/33 kV 120 MVA, ONAN/ONAF, on-load tap changer",description completed from the nameplate

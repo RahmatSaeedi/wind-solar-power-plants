@@ -1,0 +1,16 @@
+weld log of section 1 against the welders' qualifications
+  joint   welder  process  position  date         finding
+  C1-01   W-11    SAW      PA        2027-02-10   ok
+  C1-02   W-12    SAW      PA        2027-03-02   expired 2027-02-28
+  C1-03   W-14    SAW      PA        2027-03-03   ok
+  L1-01   W-11    SAW      PA        2027-02-12   ok
+  F1-01   W-13    FCAW     PF        2027-03-05   not qualified in position PF
+  F1-02   W-14    FCAW     PB        2027-03-06   ok
+  D1-01   W-12    FCAW     PB        2027-02-20   not qualified for FCAW
+  A1-01   W-14    FCAW     PC        2027-03-08   ok
+  3 joints welded by someone not qualified for them on that
+  day: an expired card, a position not covered, a process not
+  held - the welds may be good, but they are not proven; the
+  fix is the procedure's: extra NDT of those joints and a
+  qualification test, decided by the fabricator's welding
+  coordinator and accepted by the inspector

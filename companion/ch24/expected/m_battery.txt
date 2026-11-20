@@ -1,0 +1,11 @@
+the 110 V battery's cables to its fuse board (teaching):
+  battery fault current 3.1 kA; the battery fuse clears in about 20 ms
+  adiabatic need: 3.1 mm2 - the fault sets almost nothing
+  the discharge sets the size: 150 A for the trip burst and the
+  first minute, voltage drop below 1 % over 10 m:
+     35 mm2: drop 1.71 %
+     50 mm2: drop 1.27 %
+     70 mm2: drop 0.88 %
+  the cable from the battery to its first fuse is the one
+  unprotected piece of the DC system: short, double-insulated,
+  on its own route - a fault there is fed by the whole battery

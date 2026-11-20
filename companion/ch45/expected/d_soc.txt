@@ -1,0 +1,11 @@
+one rack through a day, 15-minute steps, start at 30% SOC
+  (educational simulator): 3 h of charge asked at midday, 2 h of
+  discharge in the evening
+  rack current while charging/discharging: 157 A (0.50 C)
+  SOC: lowest 0.100, highest 0.900, end 0.100 (window 0.1-0.9)
+  charge in 189.3 Ah, out 251.2 Ah, refused 342.0 Ah
+  steps cut: 8 while charging, 2 while discharging
+  invariant, charge balance error: 4.26e-14 Ah
+  the simulator never leaves the window: the end of the charge
+  and of the discharge are cut, and each cut is logged - the
+  tests check the invariant and the edges on every version

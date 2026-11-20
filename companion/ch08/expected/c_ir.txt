@@ -1,0 +1,7 @@
+insulation resistance of a stator phase to earth (A-121):
+  1 min 820 Mohm, 10 min 2050 Mohm: polarisation index 2.50
+  measured at 30 C; with the common halving-per-10-K practice,
+  at 40 C about 410 Mohm
+  a rising reading over 10 minutes means a dry, clean insulation; a
+  flat one points to moisture or dirt; acceptance values come from
+  the manufacturer's procedure and the specification

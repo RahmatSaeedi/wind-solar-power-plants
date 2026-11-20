@@ -1,0 +1,35 @@
+% Chapter 56 - approval map of Plant P in Afghanistan, right to left: S1 proposal to the investment
+% committee -> S2 Economic Commission -> S3 contract with DABS -> S8 connection / S9 import
+% inspection; S2 -> S4 licence (2016 law, to-confirm) and S6 state-land lease (to-confirm) -> S7 water
+% permit; S1 -> S5 ESIA permit (NEPA). Teaching durations (companion/ch56/run.py).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\scriptsize,
+    v/.style={draw=cBESS, fill=cBESS!14, text width=19mm, minimum height=11mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    t/.style={draw=cLoss, fill=cLoss!10, dashed, text width=19mm, minimum height=11mm,
+              align=center, rounded corners=1.5pt, text=cInk},
+    p/.style={draw=cLoad, fill=cLoad!10, text width=19mm, minimum height=11mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    ar/.style={-{Stealth[length=1.8mm]}, draw=cInk, line width=0.7pt}]
+  \node[v] (s1) at (0,0) {S1 پیشنهاد به کمیتهٔ سرمایه‌گذاری};
+  \node[v] (s2) at (-2.6,0) {S2 تأییدِ کمیسیونِ اقتصادی};
+  \node[v] (s3) at (-5.2,1.4) {S3 قرارداد با برشنا};
+  \node[t] (s4) at (-5.2,0) {S4 جوازِ قانونِ ۲۰۱۶};
+  \node[t] (s6) at (-5.2,-1.4) {S6 اجارهٔ زمینِ دولتی};
+  \node[t] (s8) at (-7.8,2.0) {S8 درخواست و قراردادِ اتصال};
+  \node[p] (s9) at (-7.8,0.8) {S9 بازرسیِ وارداتِ تجهیزات};
+  \node[v] (s7) at (-7.8,-1.4) {S7 جوازِ آب};
+  \node[v] (s5) at (-2.6,-1.8) {S5 ارزیابیِ اثر و مجوزِ محیط‌زیست};
+  \draw[ar, line width=1.3pt] (s1) -- (s2);
+  \draw[ar, line width=1.3pt] (s2) -- (s3);
+  \draw[ar] (s2) -- (s4);
+  \draw[ar, line width=1.3pt] (s2) -- (s6);
+  \draw[ar, line width=1.3pt] (s3) -- (s8);
+  \draw[ar] (s3) -- (s9);
+  \draw[ar, line width=1.3pt] (s6) -- (s7);
+  \draw[ar] (s1) -- (s5);
+  \node[note, font=\scriptsize, anchor=north] at (-4.0,-2.7)
+    {پیکانِ پررنگ: مسیرِ بحرانی (دو شاخه)؛ سبز: تأییدشده؛ قرمزِ خط‌چین: نیازمندِ تأیید؛ بنفش: وابسته به پروژه};
+\end{tikzpicture}
+\end{document}

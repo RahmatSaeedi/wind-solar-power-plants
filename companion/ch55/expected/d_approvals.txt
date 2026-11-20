@@ -1,0 +1,25 @@
+approval map of Plant P - Iran (durations are TEACHING values)
+  step  status             months  slack  authority
+  S1    verified              2.0    0.0  SATBA
+        eligibility and technical competence (SATBA)
+  S2    to-confirm            4.0    0.0  SATBA, Agri. Jihad
+        national land allocation and land-use change
+  S3    to-confirm            0.5    0.0  Department of Environment
+        DOE inquiry after allocation (one week)
+  S4    to-confirm            2.0    0.0  SATBA / province
+        construction permit
+  S5    to-confirm            6.0    1.5  regional company / IGMC
+        connection application and studies
+  S6    to-confirm            2.0    1.5  Tavanir / regional
+        connection agreement or commitment letter
+  S7    project-dependent     3.0    2.5  regional water co.
+        water-use permit for construction and cleaning
+  S8    to-confirm            3.0    0.0  SATBA / Energy Exchange
+        sale route: Art 61 contract, green board or bilateral
+  S9    to-confirm            2.0    1.0  MIMT / Central Bank
+        import-order registration and FX allocation
+  time to the last approval: 11.5 months; critical path:
+    S1 > S2 > S3 > S4 > S8
+  steps not verified: 8 of 9; on the critical path: S2, S3, S4, S8
+  a step that is not verified on the critical path is the first
+  written clarification to send

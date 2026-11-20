@@ -1,0 +1,19 @@
+% Chapter 42 - individuals chart of the weights of 30 blades from one mould: centre and upper limit
+% from blades 1-15; resin uptake rises from blade 19 and blade 20 is the first signal
+% (diagrams/data/ch42-weights.csv from companion/ch42/examples_t.py, t_weights; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0, xmax=31, ymin=21.85, ymax=22.85,
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+      xlabel={شمارهٔ پره}, ylabel={جرم (تن)}]
+    \addplot[sWind, mark=*, mark size=1.3pt] table[x=blade, y=t, col sep=comma] {data/ch42-weights.csv};
+    \draw[densely dashed, cInk!60] (axis cs:0,22.010) -- (axis cs:31,22.010);
+    \draw[sLimit] (axis cs:0,22.132) -- (axis cs:31,22.132);
+    \node[note, anchor=north east] at (axis cs:30.8,22.0) {خطِ مرکزی};
+    \node[note, anchor=south west] at (axis cs:0.5,22.14) {حدِ بالا};
+    \draw[->, cLoss] (axis cs:20,22.45) -- (axis cs:20,22.2);
+    \node[note, anchor=south, text=cLoss] at (axis cs:20,22.45) {نخستین علامت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

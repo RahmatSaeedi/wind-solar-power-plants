@@ -1,0 +1,6 @@
+night, no wind, all units stopped: P = 0
+  cables still supply 1.79 Mvar; the export transformer's
+  magnetising current absorbs 0.36 Mvar
+  net +1.43 Mvar flows to the grid with no active power
+  small here (24 km at 33 kV); long HV export cables can need a shunt reactor:
+  whether Q at no output is allowed is the grid operator's rule (ch 17, 55)

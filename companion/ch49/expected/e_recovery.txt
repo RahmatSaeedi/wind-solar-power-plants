@@ -1,0 +1,12 @@
+modules left 73,000; 4 crews at 4.05 a crew-hour (weeks 35-38),
+  44.7 crew-hours a day each; 70 days to the planned end
+  as planned: 101 days against 70 left - 31 days late
+  delay damages 25.0 k u a day (teaching); a crew 1.8 k u a day
+  option                  days  cost k u (damages + crews)
+  do nothing               101        767
+  1 more crew(s)            81        409
+  2 more crew(s)            67        242
+  overtime +25 % hours      95        875
+  cheapest: 2 more crew(s); dearest: overtime +25 % hours - its rate falls to
+  85% and tired crews are a safety risk; a crew is added
+  only with its supervisor, induction and tools (lesson A)

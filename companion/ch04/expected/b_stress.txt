@@ -1,0 +1,9 @@
+synthetic tensile curve of an S355-like steel (A-056):
+  E = 210 GPa; 0.2 % offset yield read from the curve: 364 MPa; maximum 507
+    MPa at 16 % strain
+M36 bolt, grade 10.9 (assumed proof stress 830 MPa, stress area 817 mm2):
+  preload 70 % of proof: F = 475 kN; elongation over a 200 mm grip 0.553 mm
+  torque T = K F d with K = 0.15: 2.56 kN m
+  same torque with K = 0.12: preload 593 kN (+25 %)
+  same torque with K = 0.18: preload 396 kN (-17 %)
+  friction controls most of the torque: tension-controlled methods exist

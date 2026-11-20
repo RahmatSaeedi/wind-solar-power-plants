@@ -1,0 +1,22 @@
+day-ahead forecast bias by month; two turbines added on day 250
+  month   bias MW
+  Jan        2.59
+  Feb        1.93
+  Mar        1.76
+  Apr        2.00
+  May        0.77
+  Jun        0.79
+  Jul        0.92
+  Aug        1.62
+  Sep       -2.60
+  Oct       -1.89
+  Nov       -0.16
+  Dec       -4.66
+  CUSUM on the daily bias (k 1.0, h 5): alarm on day 258,
+    8 days after the change
+  a looser setting (k 0.5) alarmed on day 205, when nothing had
+    changed - the setting trades early warning for false alarms
+  the plant now makes more than the forecast expects: the
+  bias turns negative from September, by about the output of
+  two turbines, and nearly vanishes in calm November; a
+  forecast is re-checked after every change to the plant

@@ -1,0 +1,9 @@
+crimp joints in a heat-cycling qualification report (teaching):
+  resistance of the joint / resistance of an equal conductor
+  lug    0 cycles   1000 cycles   rise per 1000   reaches 1.0 at
+  L-A       0.62          0.64            0.02        20781 cycles
+  L-B       0.65          0.95            0.31         1147 cycles
+  both joints start below the conductor, so both pass a test on
+  day one; L-B's joint loosens with each cycle - the stability
+  of the ratio is the evidence, and only a cycling test shows it
+  (the qualification report is asked for by lug and tool, ch 39)

@@ -1,0 +1,9 @@
+candidate model: ideal cubic law between cut-in 3 m/s and rated 13 m/s,
+    P = 5000 (v^3 - 27) / (2197 - 27) kW
+  P(8) = 1118 kW, but the table gives 2522 kW: -56 % -> model REJECTED
+slope of the table at 8 m/s:
+  central difference, h = 1.00 m/s: 930.5 kW/(m/s)
+  central difference, h = 0.50 m/s: 944.0 kW/(m/s)
+  central difference, h = 0.25 m/s: 944.0 kW/(m/s)
+  cubic spline through the table, exact derivative: 948.0 kW/(m/s)
+  relative sensitivity (dP/P)/(dv/v) at 8 m/s: 3.01

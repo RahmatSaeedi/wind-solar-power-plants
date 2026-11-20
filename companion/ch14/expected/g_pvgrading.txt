@@ -1,0 +1,7 @@
+grading the PV block (119 ha) to its best-fit plane:
+  plane slope 0.27 % (east +0.19, north +0.19 %)
+  cells steeper than 2 %: 0 %; than 5 %: 0 %
+  cut 283,086 m3, fill 283,086 m3; mean depth 0.48 m
+  fixed tables and many trackers follow a gentle plane without
+  grading; grading strips the topsoil, raises dust and erosion and
+  changes drainage: grade only where the structure demands it

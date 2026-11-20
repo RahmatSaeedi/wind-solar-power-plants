@@ -1,0 +1,9 @@
+the two main transformers: both out, with a common cause (beta factor)
+  one unit unavailable q = 0.01 x (240 + 4140) h / 8760 = 0.0050
+  beta 0.00: both out 2.50e-05 of the year,     7.4 MWh/yr
+  beta 0.02: both out 1.24e-04 of the year,    36.7 MWh/yr
+  beta 0.05: both out 2.73e-04 of the year,    80.6 MWh/yr
+  beta 0.10: both out 5.20e-04 of the year,   153.9 MWh/yr
+  a 5 % common cause makes 'both out' 11 times more likely
+  than independent failures: a shared fire, flood or protection
+  error matters more than a second transformer's own failure

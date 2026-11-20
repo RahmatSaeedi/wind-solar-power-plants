@@ -1,0 +1,13 @@
+field failures of inverter fans by production lot, first year
+  (synthetic; units run 95 % of the year)
+  lot      units   failures   rate /1e6 h   90 % interval
+  lot L1     200          3          1.80   0.49-4.66
+  lot L2     200         11          6.61   3.71-10.94
+  lot L3     150          2          1.60   0.28-5.04
+  L1 and L3 pooled: 5 failures, 1.72 per 1e6 h, 0.68-3.61
+  L2's interval lies above the pooled one: the lot, not
+  the site, is the first suspect - the serial numbers
+  tie each field failure to its lot, and the maker's
+  factory records for that lot (burn-in, process changes)
+  are asked for as inputs (ch 40-48); the cause is
+  settled with the maker, not guessed from the field

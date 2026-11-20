@@ -1,0 +1,5 @@
+withholding tax of 10% on interest, grossed up for a foreign lender:
+  interest 6.00% -> 6.67% for the same net return to the lender
+  min DSCR 1.20 -> 1.14; equity IRR 10.2% -> 9.5%
+  whether the tax applies, at what rate and whether a treaty
+  reduces it are 'to-confirm' items for the tax advisor

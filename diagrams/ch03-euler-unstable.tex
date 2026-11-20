@@ -1,0 +1,16 @@
+% Chapter 3 — explicit Euler with a step longer than twice the time constant (dt = 4500 s,
+% tau = 1800 s): the numerical solution oscillates and grows. Data: ch03-euler-unstable.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=62mm,
+      xlabel={زمان (s)}, ylabel={افزایشِ دما (K)},
+      xmin=0, xmax=36000, ymin=-1500, ymax=1500, xtick={0,9000,...,36000},
+      ytick={-1500,-1000,...,1500}, scaled x ticks=false]
+    \addplot[sLoss, mark=square*, mark size=1.6pt, mark options={solid}] table[x=t, y=euler, col sep=comma] {data/ch03-euler-unstable.csv};
+    \addlegendentry{اویلر، $\Delta t = 4500\ \text{s} > 2\tau$}
+    \addplot[sInk, domain=0:36000, samples=100] {40*(1-exp(-x/1800))};
+    \addlegendentry{پاسخِ دقیق}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

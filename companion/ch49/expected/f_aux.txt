@@ -1,0 +1,12 @@
+station-service equipment on day 226: steps not done
+  LV board MB-A          inspected
+  110 V DC board         labelled, inspected
+  station battery 110 V  installed, labelled, connected, inspected
+  UPS 10 kVA             connected, inspected
+  fire pump set          labelled, inspected
+  lighting               inspected
+  the station battery has waited 186 days since receipt; the
+  maker allows 180 before a refresh charge (teaching): it is now
+  a record to raise with the maker, not a battery to install
+  as delivered; the DC board has no labels yet and the fire
+  pump set is connected but not inspected

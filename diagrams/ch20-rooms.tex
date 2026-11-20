@@ -1,0 +1,17 @@
+% Chapter 20 - power the S1 battery can hold for one hour upward and downward against its stored
+% energy (window 4-36 MWh, one-way efficiency 0.927, 20 MW converter). Drawn from the formula of
+% companion/plantp/control.py soc_room().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=4, xmax=36, ymin=0, ymax=22,
+      xlabel={انرژیِ ذخیره (MWh)}, ylabel={توانِ قابلِ نگه‌داری (MW)}, xtick={4,10,...,34},
+      ytick={0,5,...,20}, legend columns=1,
+      legend style={at={(1.03,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[sBESS, domain=4:36, samples=200] {min(20, (x-4)*0.927)};
+    \addplot[sWind, domain=4:36, samples=200] {min(20, (36-x)/0.927)};
+    \addplot[sLimit, domain=4:36, samples=2] {5};
+    \legend{بالارو (۱ ساعت), پایین‌رو (۱ ساعت), خدمتِ ۵ مگاوات}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

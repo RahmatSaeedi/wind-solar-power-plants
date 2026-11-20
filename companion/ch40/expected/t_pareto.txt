@@ -1,0 +1,12 @@
+Pareto of 26 FAT findings on ten skids
+  control wiring           9  cumulative  35%
+  labels and documents     6  cumulative  58%
+  LV terminations          5  cumulative  77%
+  earth bonds              2  cumulative  85%
+  paint damage             2  cumulative  92%
+  relay settings           1  cumulative  96%
+  other                    1  cumulative 100%
+  three categories hold 77 % of findings; control wiring is
+  first - the drawing-revision cause of the FMEA (ch 38) - but
+  the costliest finding was one LV termination: count and
+  consequence are ranked apart

@@ -1,0 +1,10 @@
+standard uncertainty of a module power reading (teaching %)
+  primary reference (world scale)             0.4 %
+  secondary reference cell                    0.6 %
+  working reference module                    0.8 %
+  flash tester repeatability and spectrum     0.9 %
+  combined 1.40 %; expanded (k = 2) 2.81 % = 15.4 W at 550 W
+  the label tolerance 0/+5 W is 0.9%: smaller than the
+  uncertainty of the reading - a tolerance is the maker's
+  sorting rule on its own tester, and the buyer's check needs
+  a decision rule (ch 10, flash; ch 40, conformity)

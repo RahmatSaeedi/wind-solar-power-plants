@@ -1,0 +1,7 @@
+PV inverters: 0.5 failures a unit-year -> MTBF 17,520 h
+  this does NOT mean an inverter lasts 2 years: it means
+  10 inverters give about 5 failures a year; one inverter
+  runs a whole year without one with
+  probability 61% (constant rate); the MTBF of a repairable unit
+  says how often, not how long - the life of a part is a
+  different question with a different model (Weibull)

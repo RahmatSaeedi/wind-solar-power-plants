@@ -1,0 +1,14 @@
+forecast error of the hybrid output on the test months (Sep-Dec),
+  RMSE in % of the 110 MW installed:
+  lead h   persistence   smart pers.   weather-driven   skill
+     1         8.3           7.0            7.1       -0.01
+     3        16.3          12.2            7.5       +0.38
+     6        23.8          18.4            7.8       +0.57
+    12        27.8          23.8            8.3       +0.65
+    24        23.7          23.7            9.7       +0.59
+    36        32.5          28.9           12.1       +0.58
+  persistence is hard to beat for the next hour or two; the
+  weather-driven forecast wins from a few hours on, because it
+  knows the weather to come; smart persistence (the clear-sky
+  index for PV) beats plain persistence once the sun moves;
+  skill is against the better baseline at each lead

@@ -1,0 +1,12 @@
+water entering one cell over 20 years by the leak rate of its case
+  (teaching scale: 1e-6 mbar l/s of helium ~ 1 mg of water a year;
+  budget 50 mg)
+  helium leak rate mbar l/s   water in 20 years mg   verdict
+                     1e-08                    0.2   within
+                     1e-07                    2.0   within
+                     1e-06                   20.0   within
+                     1e-05                  200.0   over
+  the case must hold water out for the cell's whole life: the
+  leak test after sealing measures a rate, and the limit comes
+  from a water budget like this one - the real budget and
+  scale are the cell maker's

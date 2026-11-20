@@ -1,0 +1,49 @@
+% Chapter 1 — ownership and responsibility boundary of Plant P at the point of connection.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    b/.style={blk, minimum width=21mm, minimum height=11mm, inner sep=2pt},
+    lab/.style={note, font=\scriptsize}]
+
+  % project-owned assets
+  \node[b, blkPV]   (pv)  at (0, 1.45)  {بلوک‌های\\خورشیدی};
+  \node[b, blkWind] (wt)  at (0, 0)     {توربین‌های\\بادی};
+  \node[b, blkBESS, dash pattern=on 4pt off 2pt] (bs) at (0,-1.45) {ذخیره‌ساز\\(S1)};
+  \node[b] (col) at (2.9, 0) {شبکهٔ جمع‌آوری\\$33\,\text{kV}$};
+  \node[b] (sub) at (5.8, 0) {پستِ خروجیِ\\نیروگاه};
+  \node[b, draw=cInkB, dash pattern=on 2pt off 2pt] (line) at (8.7, 0) {خطِ خروجی\\$132\,\text{kV}$};
+  % utility-owned assets
+  \node[b, blkLoad] (bay) at (12.5, 0) {پستِ شبکه\\(فیدرِ ورودی)};
+  \node[b, blkLoad] (net) at (15.4, 0) {شبکهٔ\\سراسری};
+
+  \draw[flow] (pv.east) -- ++(0.35,0) |- (col.165);
+  \draw[flow] (wt) -- (col);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (bs.east) -- ++(0.35,0) |- (col.195);
+  \draw[flow] (col) -- (sub);
+  \draw[flow] (sub) -- (line);
+  \draw[flow] (line) -- (bay);
+  \draw[flow] (bay) -- (net);
+
+  % boundaries
+  \begin{scope}[on background layer]
+    \node[boundary, draw=cPV, fit=(pv)(bs)(line), inner xsep=3.5mm, inner ysep=8mm] (proj) {};
+    \node[boundary, draw=cLoad, fit=(bay)(net), inner xsep=3.5mm, inner ysep=8mm] (util) {};
+  \end{scope}
+  \node[note, anchor=south, text=cInk] at (proj.north) {\textbf{در مالکیت و مسئولیتِ پروژه}};
+  \node[note, anchor=south, text=cInk] at (util.north) {\textbf{در مالکیتِ شرکتِ برق}};
+
+  % point of connection: meter and isolation point
+  \node[circle, draw=cInk, fill=white, line width=0.7pt, inner sep=1.2pt, font=\scriptsize\bfseries]
+        (m) at (10.6,0) {M};
+  \draw[cLoss, line width=1pt] (10.6,1.7) -- (10.6,0.32);
+  \draw[cLoss, line width=1pt] (10.6,-0.32) -- (10.6,-1.7);
+  \node[lab, anchor=north, text=cInk] at (10.6,-1.75) {نقطهٔ اتصال:\\کنتورِ فروش و\\نقطهٔ جداسازی};
+
+  % open questions
+  \node[lab, anchor=north, text=cInk] at (8.7,-0.62) {مالکیت: \textbf{فرض}};
+  \node[lab, anchor=north east, align=right, text width=78mm, text=cInk] at (9.4,-3.0)
+       {\textbf{پرسشِ باز:} خطِ خروجی و فیدرِ پستِ شبکه را چه کسی می‌سازد، مالک می‌شود و
+        نگه می‌دارد؟ پاسخ در موافقت‌نامهٔ اتصال است، نه در این شکل.};
+
+\end{tikzpicture}}
+\end{document}

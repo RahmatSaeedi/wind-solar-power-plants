@@ -1,0 +1,11 @@
+shade on a portrait module (cells at 50 % light), ch 15 curves
+  shade                full cells      half-cut cells
+  none                 550.1 W 100%     550.1 W 100%
+  bottom row           275.1 W  50%     412.6 W  75%
+  one column           360.2 W  65%     360.2 W  65%
+  a shaded bottom row (soiling at the lower frame, the next
+  row's shadow at low sun) limits every full-cell string;
+  in the half-cut module only the lower halves are limited
+  and the upper halves carry on - a design for shading;
+  a shaded column takes one third in both layouts: the
+  layout helps only for shade along the short side

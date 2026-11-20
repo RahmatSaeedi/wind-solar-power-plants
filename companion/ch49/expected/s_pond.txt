@@ -1,0 +1,7 @@
+construction sediment pond below the PVF1 area (ch 29 rational method)
+  C 0.45, design storm 35.0 mm/h, area 0.42 km2: peak 1.84 m3/s
+  runoff volume of a 30-minute storm (C i A t): 3,310 m3
+  pond 900 m3: too small (27% of the volume)
+  graded ground runs off more than the desert it replaced;
+  the pond is enlarged or a second one dug before the rains,
+  and its outlet and the spill kit are on the weekly check

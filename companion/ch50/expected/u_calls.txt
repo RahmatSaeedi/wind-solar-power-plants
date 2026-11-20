@@ -1,0 +1,12 @@
+call-tree test from the control room (minutes until each answered)
+  incident controller      2
+  first-aid lead           5
+  fire warden lead         6
+  fire service             3
+  network operator         8
+  hospital                14
+  community liaison       16
+  everyone reached in 16 min; last: community liaison
+  the hospital took 9 minutes on the stale number of lesson J;
+  the tree is tested with the night roster too, which has no
+  incident controller yet

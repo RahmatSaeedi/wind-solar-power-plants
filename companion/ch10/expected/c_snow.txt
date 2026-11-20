@@ -1,0 +1,9 @@
+snow on the tables of Plant P (1200 m, A-204, teaching values):
+  five snowfalls, each covering the modules for two days, 90 %
+    lost on those days: 2251 MWh of DC, 1.94 % of the year
+  load: ground snow 1.2 kN/m2 x shape 0.8 x cos^2(25 deg)
+    = 789 Pa normal to the glass
+  data-sheet test load 5400 Pa front; with a safety factor 1.5
+    the design load may reach 3600 Pa: snow is far below it
+  the lower edge 0.6 m above ground lets sliding snow clear;
+  real snow loads come from the national code (chapter 29)

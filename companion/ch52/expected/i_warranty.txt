@@ -1,0 +1,10 @@
+warranty: corrective orders with parts inside 24 months of COD
+  WO-0412 =WT03-CNV CNV-IGBT
+  WO-0430 =PVF2-3-CB01 FUSE-OPEN
+  WO-0431 (no asset) FUSE-OPEN
+  WO-0461 =WT03-PIT PIT-BAT
+  WO-0477 =PVF2-3-INV FAN
+  WO-0490 =WT07-GBX GBX-BRG
+  6 candidate claims; 5 have the asset, code and
+  test record a maker asks for - the rest are lost money unless
+  the records are completed before the warranty ends

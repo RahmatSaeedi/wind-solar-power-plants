@@ -1,0 +1,11 @@
+electrical losses, the model's P^2 form against a constant factor:
+  model (no-load + load ~ P^2): 3,293 MWh (1.09 % of MV energy)
+  load loss as a share of the output: 1.50 % at full output,
+    0.50 % at a third of it (0.17 % of 100 MW); the no-load
+    0.10 MW weighs most in quiet hours; a constant factor gets
+    both shapes wrong hour by hour
+  power factor 1.00 at the POC: load losses x 1/pf^2:     +0 MWh
+  power factor 0.95 at the POC: load losses x 1/pf^2:   +261 MWh
+  power factor 0.90 at the POC: load losses x 1/pf^2:   +567 MWh
+  reactive power asked by the grid (chapter 28) raises currents and
+  losses: the requirement enters the model as an operating mode

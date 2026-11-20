@@ -1,0 +1,20 @@
+P01 refraction depth, crossover 40 m, 400/1800 m/s: 16.0 m
+P02 Nq at 34 deg: 29.4
+P03 square 2 m footing, sand phi 30, gamma 18, depth 1 m: 654 kPa
+P04 allowable with FS 3: 218 kPa
+P05 settlement, 150 kPa, B 20 m, E 40 MPa: 60 mm
+P06 rational, C 0.35, 30 mm/h, 3.2 km2: 9.3 m3/s
+P07 Kirpich, 1.5 km at 2 %: 25 min
+P08 1.2 m pipe full at 1 %, n 0.024: 2.11 m3/s
+P09 USLE, R 300, K 0.3, LS 2.07, C 0.5: 93 t/ha/yr
+P10 widening, R 80 m, L 30 m: 5.8 m
+P11 crane mat 2,000 kN on 2 x 5 m at 1 m: 111 kPa
+P12 lot 95, 96, 97 with k 0.5: mean - 0.5 s = 95.50
+P13 characteristic of 40, 42, 44, 46 MPa: 38.8 MPa
+P14 Cooper-Jacob, 0.4 L/s, T 1.5e-4, S 2e-4, r 0.3 m, 30 d: 3.8 m
+P15 trench inflow k 1e-4, h 5 to 4.7 m, R 30 m, 2 sides, 100 m: 0.97 L/s
+P16 50-year level, mu 16, beta 6: 39.4 mm
+P17 raw water for 1,529 m3 treated at 60 % recovery: 2548 m3
+P18 firewater 3,000 L/min for 60 min: 180 m3
+P19 washes of 109.2 m3 each in 1,529 m3: 14
+P20 towers on 7.06 km at 300 m spans: 25

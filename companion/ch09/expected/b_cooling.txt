@@ -1,0 +1,9 @@
+heat of one stack at full apparent power, pf 0.9 (A-156):
+  semiconductors (NPC model)  12.4 kW
+  filter inductors               4.8 kW
+  capacitors, busbars, cables    1.4 kW
+  control, fans, auxiliaries     1.6 kW
+  total 20.2 kW per stack, 81 kW for the 5 MW inverter
+  liquid loop, cp 3.6 kJ/(kg K), rise 6 K: 3.7 kg/s
+  if cooled by air (rise 15 K) at 1200 m (air 1.04 kg/m3): 5.2 m3/s,
+    15 % more volume than at sea level: the reason for altitude derating

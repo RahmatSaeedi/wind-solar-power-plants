@@ -1,0 +1,12 @@
+CT star-point circuits searched from the wire list for earth points
+  circuit (CT terminal)      earths   verdict
+  BESS-A/T1.1:S2                  1   ok
+  PVF2/T1.1:S2                    0   NOT EARTHED
+  WS1/T1.2:S2                     2   TWO EARTHS
+  WS1/T1.1:S2                     1   ok
+  a CT circuit is earthed at one point: none leaves it floating
+  at an unknown voltage; two (here the panel and the relay
+  room's meter) close a loop through the earth grid, and a
+  fault elsewhere drives current through it that the relay
+  reads as a fault of its own - found by searching the wire
+  list, not by a test

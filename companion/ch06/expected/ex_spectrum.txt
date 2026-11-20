@@ -1,0 +1,12 @@
+silver             rho = 1.59e-08 ohm m
+copper             rho = 1.72e-08 ohm m
+aluminium          rho = 2.82e-08 ohm m
+iron               rho = 9.70e-08 ohm m
+stainless steel    rho = 6.90e-07 ohm m
+nichrome           rho = 1.10e-06 ohm m
+sea water          rho = 2.00e-01 ohm m
+intrinsic silicon  rho = 2.30e+03 ohm m
+glass              rho = 1.00e+12 ohm m
+PVC                rho = 1.00e+13 ohm m
+XLPE               rho = 1.00e+16 ohm m
+ratio XLPE / copper = 10^23.8

@@ -1,0 +1,17 @@
+% Chapter 34 - false timeouts a year of a one-beat-a-second watchdog against the share of lost beats,
+% for two, three and four missed beats in a row (independent losses; examples_b).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmode=log, ymode=log, xmin=1e-4, xmax=1e-1,
+      ymin=1e-4, ymax=1e6, xlabel={سهمِ ضربانِ گم‌شده}, ylabel={قطعِ کاذب در سال},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sWind, no marks, domain=1e-4:1e-1, samples=40] {x^2*31536000};
+    \addplot[sBESS, no marks, domain=1.5e-4:1e-1, samples=40] {x^3*31536000};
+    \addplot[sLoss, no marks, domain=1.4e-3:1e-1, samples=40] {x^4*31536000};
+    \legend{۲ ضربان, ۳ ضربان, ۴ ضربان}
+    \draw[sLimit] (axis cs:1e-4,1) -- (axis cs:1e-1,1);
+    \node[note, anchor=north east] at (axis cs:9e-2,0.8) {یک بار در سال};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

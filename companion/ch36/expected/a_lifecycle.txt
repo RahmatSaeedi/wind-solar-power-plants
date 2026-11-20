@@ -1,0 +1,12 @@
+the security life cycle of the control system (teaching)
+  phase            evidence it leaves
+  assess           inventory, zones, risk register
+  design           conduits, rules, access, backups, logging
+  build and test   hardening, factory and site security tests
+  operate          monitoring, access reviews, restore tests
+  maintain         patches, changes, supplier notices
+  retire           data archived, media wiped, accounts closed
+  security is a property of the whole life, not of the day
+  of commissioning: each phase leaves records that the next
+  one, and an auditor, can read (asset owner programme,
+  STD-156)

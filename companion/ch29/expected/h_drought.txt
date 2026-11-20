@@ -1,0 +1,10 @@
+the truck policy in the SECOND of two dry years (tank kept above 20 %
+  of its usable volume; a wash is skipped rather than empty the tank)
+  case                                         washes done   loss %
+  drought (lesson G)                             14 of 14     1.43
+  severe: 30 % in summer, permit 150 m3/month     9 of 14     3.94
+  (loss linear between the truck and no-cleaning policies)
+  an ordinary drought is carried by the tank; a second severe
+  year with a capped permit skips washes and the soiling loss
+  climbs - a strategy that needs water must say what happens
+  when the water is not there; the dry methods have no such case

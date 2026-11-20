@@ -1,0 +1,7 @@
+grout that levels the tower on the T05 cage (tilt 0.92 mm/m)
+  across the 4.3 m ring the cage falls 3.9 mm
+  grout of nominal 60 mm becomes 58.0 to 62.0 mm (teaching range 50-80)
+  inside the range: the grout can take the tilt, and the tower
+  stands plumb - provided the grout's own records (cubes, cure,
+  thickness at 8 points) are kept; the decision is the turbine
+  maker's, as lesson C said (ch 30 grout)

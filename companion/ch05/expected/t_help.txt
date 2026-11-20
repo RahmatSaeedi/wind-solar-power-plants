@@ -1,0 +1,15 @@
+$ python -m companion.ch05.resource_tool --help
+usage: resource_tool [-h] [--version] {validate-raw,run,report} ...
+
+Plant P resource analysis (chapter 5, teaching tool)
+
+positional arguments:
+  {validate-raw,run,report}
+    validate-raw        check a 10-min logger file
+    run                 calculate energies from a run file
+    report              write the Markdown report
+
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+[exit code 0]

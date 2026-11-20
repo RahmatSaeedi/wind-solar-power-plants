@@ -1,0 +1,6 @@
+the sequence-of-events and alarm log over the plant's life
+  2,000 events a day of 200 bytes for 25 years: 3.6 GB
+  small next to the 12 TB of measurements (lesson C): the
+  event log is kept for the plant's life, with operator
+  actions and acknowledgements, because it answers 'what
+  happened in what order, and who did what' long after

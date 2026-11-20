@@ -1,0 +1,10 @@
+rearranging P = 1/2 rho A v^3 Cp for v:  v = (2 P / (rho A Cp))^(1/3)
+  3 MW from a 150 m rotor at rho 1.055 kg/m3 and Cp 0.45 (assumed): v = 8.94
+    m/s
+a battery string: open-circuit 800 V, internal resistance 0.05 ohm (assumed)
+  delivering P = (V - I R) I = 1 MW  ->  R I^2 - V I + P = 0
+  I = (V -+ sqrt(V^2 - 4 R P)) / (2 R): 1366.8 A or 14633.2 A
+  the small root is the operating point: terminal voltage 731.7 V, efficiency
+    91.5 %
+  no real root above P_max = V^2/(4R) = 3.2 MW (the discriminant turns
+    negative)

@@ -1,0 +1,11 @@
+Plant P, S0, data pack 1.0.0: PV 97.3 GWh (0.5 %/yr degradation), wind 192.5
+    GWh (none)
+capex 100 million units at year 0, opex 2.75 million units/yr (A-037,
+    fictional)
+  discounted energy at 7 %, 25 years: 3.330 TWh (= 11.49 years of first-year
+    output)
+  PV of opex: 2.75 x 11.654 = 32.0 million units
+  rate 5 %: LCOE = 34.50 units/MWh
+  rate 7 %: LCOE = 39.65 units/MWh
+  rate 9 %: LCOE = 45.19 units/MWh
+  wrong (undiscounted) ratio: 23.75 units/MWh, flatters the project

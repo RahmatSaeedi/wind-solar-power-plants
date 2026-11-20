@@ -1,0 +1,14 @@
+heat of one container at 0.5 C (A-291):
+  rack current 154 A; heat at beginning of life 47 kW, at end of life 85 kW
+  hottest week of the data year: 22.4-39.5 C outside
+  HVAC kW   resistance   inside max C   hours above 30 C
+      60     BOL                33.7           18
+      60     EOL                52.9           75
+     100     BOL                25.0            0
+     100     EOL                32.6           14
+     120     BOL                25.0            0
+     120     EOL                25.0            0
+  heat to remove at the worst hour, end of life: 118 kW
+  the HVAC is sized on end-of-life resistance in the hottest
+  hour with the sun on the walls, not on the new battery at
+  25 C: that is the 120 kW of interface IF-006 (chapter 18)

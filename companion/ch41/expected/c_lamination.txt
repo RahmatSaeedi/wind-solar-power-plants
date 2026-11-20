@@ -1,0 +1,12 @@
+gel content of one daily sample per laminator (%, 30 days)
+  individuals chart from days 1-15
+  lower specification 75 % (encapsulant maker, teaching)
+  L1: centre 83.7, LCL 79.2; first signal day none; below spec: 0 days
+  L2: centre 83.6, LCL 80.0; first signal day 25; below spec: 0 days
+  L3: centre 84.2, LCL 80.7; first signal day none; below spec: 0 days
+  L2 drifts from day 16; the chart signals on day 25, while
+  every sample still meets the specification (lowest 79.2 %):
+  the drift is caught before it makes a defect - modules since
+  the signal are held and traced (genealogy, lesson B) and
+  the laminator's own record (temperature, time) is checked;
+  low gel content shows later as creep and delamination

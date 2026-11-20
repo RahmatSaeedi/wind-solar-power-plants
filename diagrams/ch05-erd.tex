@@ -1,0 +1,22 @@
+% Chapter 5 - controlled relationships of asset information: one tag links requirements,
+% documents, the serial-numbered item, tests, warranty and work history (companion/ch05/lab_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{en/.style={blk, minimum width=30mm, minimum height=14mm, font=\footnotesize, align=center}}
+  \node[blkLoad, minimum width=34mm, minimum height=16mm, font=\footnotesize, align=center] (tag) at (0,0) {جایگاهِ کارکردی\\برچسب، والد، مکان\\\texttt{PLP-WTG-07-GEN}};
+  \node[en] (req) at (-5.2,1.9) {الزام\\شمارهٔ الزام، معیار};
+  \node[en] (doc) at (0,2.6) {مدرک و نقشه\\شماره، بازنگری، وضعیت};
+  \node[en] (item) at (5.2,1.9) {قطعهٔ فیزیکی\\سازنده، مدل، سریال};
+  \node[en] (test) at (6.4,-1.3) {آزمون\\روش، نتیجه، تاریخ};
+  \node[en] (war) at (2.4,-2.5) {ضمانت\\آغاز، مدت، شرایط};
+  \node[en] (wo) at (-5.2,-1.9) {دستورِ کار\\خرابی، اقدام، زمان};
+  \draw[flow] (req) -- node[note, above, sloped] {برآورده‌شده با} (tag);
+  \draw[flow] (doc) -- node[note, right] {توصیف می‌کند} (tag);
+  \draw[flow] (item) -- node[note, above, sloped] {نصب‌شده در} (tag);
+  \draw[flow] (test) -- node[note, below, sloped] {روی سریال} (item);
+  \draw[flow] (war) -- node[note, below, sloped] {برای سریال} (item);
+  \draw[flow] (wo) -- node[note, below, sloped] {روی جایگاه} (tag);
+  \node[note, anchor=north, text width=128mm] at (0,-3.7) {جایگاه (برچسب) می‌ماند و قطعه عوض می‌شود: ژنراتورِ تعویضی سریالِ تازه می‌گیرد، اما سابقهٔ کار و ضمانت باید به سریالِ درست وصل بماند.};
+\end{tikzpicture}}
+\end{document}

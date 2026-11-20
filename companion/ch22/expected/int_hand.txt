@@ -1,0 +1,6 @@
+P-North's flags by hand:
+  bird overlap 35% > 25 % -> flag
+  displaced households 6 > 0 without a plan -> flag
+  grid: 0 MW free, reinforcement 25,000 k u offered
+    -> no flag (but its cost and a 30-month wait)
+  permits 30 months <= 36 -> no flag

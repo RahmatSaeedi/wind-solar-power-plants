@@ -1,0 +1,8 @@
+E01 MTBF from 5 failures in 10 unit-years: 17,520 h
+E02 A_i for MTBF 17,520 h, MTTR 24 h: 0.99863
+E03 series 0.99 and 0.98: 0.9702
+E04 two in parallel at 0.9: 0.9900
+E05 2 of 3 at 0.95: 0.99275
+E06 Weibull R(30,000 h; 2.5, 60,000 h): 0.838
+E07 Poisson P(no demand) for a mean of 0.5: 0.607
+E08 best cleaning interval for C 6,608 u, r E p 25.2 u/day2: 23 days

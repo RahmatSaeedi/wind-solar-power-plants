@@ -1,0 +1,14 @@
+short-circuit protection chain of a gate driver (teaching values)
+  stage                       nominal us   tolerance
+  blanking time (RC)                 3.0   +-15%
+  comparator and logic               0.3   +-33%
+  driver propagation                 0.5   +-20%
+  soft turn-off                      2.0   +-20%
+  total: nominal 5.8 us, worst case 6.85, nominal + RSS 6.42,
+    Monte Carlo 99.9 % 6.68
+  device withstand 10 us cold, 8 us hot (teaching): margin hot
+    worst case 1.15 us, 99.9 % 1.32 us
+  the arithmetic worst case still fits the hot withstand; the
+  blanking capacitor's tolerance is the largest term, so it
+  is a critical characteristic of the driver board - and the
+  maker's short-circuit type test is the evidence

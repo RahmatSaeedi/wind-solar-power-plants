@@ -1,0 +1,14 @@
+mineral oil or natural ester (teaching properties and prices):
+  property                     mineral      natural ester
+  fire point C                     170               350
+  biodegradable                    slowly            readily
+  viscosity at 40 C (relative)     1                 ~4
+  paper ageing (relative)          1                 slower
+  price per m3 (relative)          1                 ~3
+  extra fluid cost, main transformer       about 53 k u
+  extra fluid cost, PV unit transformer    about 6 k u
+  (mineral oil taken at 1.2 k u/m3)
+  the ester's high fire point may let the fire design relax
+  separation or barriers - a decision of the fire engineer and
+  the authority, not of the fluid alone; its viscosity needs
+  a cooling design made for it (the maker's)

@@ -1,0 +1,25 @@
+approval map of Plant P - Afghanistan (durations are TEACHING values)
+  step  status             months  slack  authority
+  S1    verified              2.0    0.0  investment committee
+        proposal to the inter-ministerial investment committee
+  S2    verified              2.0    0.0  Economic Commission
+        Economic Commission approval
+  S3    verified              3.0    0.0  DABS
+        contract with DABS
+  S4    to-confirm            2.0    4.0  ministry
+        licence and contract under the 2016 law
+  S5    verified              4.0    4.0  NEPA
+        ESIA screening and environmental permit
+  S6    to-confirm            4.0    0.0  land authority (which?)
+        state-land lease
+  S7    verified              2.0    0.0  water affairs regulation
+        water-use permit
+  S8    to-confirm            3.0    0.0  DABS
+        connection request and agreement
+  S9    project-dependent     2.0    1.0  ASQA
+        import inspection of equipment
+  time to the last approval: 10.0 months; critical path:
+    S1 > S2 > S3 > S6 > S7 > S8
+  steps not verified: 4 of 9; on the critical path: S6, S8
+  a step that is not verified on the critical path is the first
+  written clarification to send

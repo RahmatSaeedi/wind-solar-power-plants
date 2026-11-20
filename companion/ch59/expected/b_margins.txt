@@ -1,0 +1,11 @@
+design margins of the main ratings (ch 24, 25, 26, 39)
+  item                                          rating    need  margin
+  main transformers 2 x 63 MVA / export MVA      126.0   105.3   19.7%
+  132 kV line rating / export current, A         650.0   460.4   41.2%
+  33 kV incomer 1,600 A / one transformer, A    1600.0  1102.2   45.2%
+  PV unit transformer / inverter MVA               5.6     5.5    1.8%
+  the line's margin shrinks with the weather: at 45 C and still
+  air it does not carry 437 A (ch 24); the data year's lowest
+  rating was 511 A (ch 51). The incomer's margin is in its
+  rating, but 1,600 A has no type test yet (ch 46). The PV unit
+  transformer's margin is the one ch 25 found missing at 5.5 MVA

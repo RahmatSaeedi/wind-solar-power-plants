@@ -1,0 +1,16 @@
+assumption log of the study (each with the results it can change)
+  id      assumption                                 affects
+  A-341   minimum POC strength 900 MVA, X/R 6        B-sc, C-vcontrol, E-weak
+  A-342   unit transformers uk 6 %, 9 kW/MVA         B-losses, B-reactive
+  A-343   ride-through case 0.20 pu for 150 ms       C-frt
+  A-344   frequency event systems and droops         C-freq
+  A-345   line weather model (rates of ch 18)        G-contingency, G-line
+  A-346   zero-sequence ratios (grid 1.5, line 3)    B-earth
+  A-347   connection options, locus, emissions       G-alternatives, B-locus
+  A-348   values of the later lessons                C, F, G (several)
+  TA-01   frequency ranges (IN-05 assumed)           C-freq, REQ-G08
+  TA-02   plant element outage rates (IN-30)         G-contingency
+  TA-03   line impedance calculated, not measured    B, G (sensitivity)
+  an assumption is closed by evidence (data received or
+  measured) and the affected studies are rerun or shown
+  insensitive - the log is part of the submission

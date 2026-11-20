@@ -1,0 +1,10 @@
+single-phase fault at the POC (grid max; sequence ratios teaching, A-346)
+  case                                   I fault kA   in plant neutrals
+  plant transformers' stars unearthed          6.19             0.00 kA
+  both stars earthed (YNd11 as built)          7.50             3.06 kA
+  the plant's earthed stars are a zero-sequence source even
+  when the plant produces nothing: they raise the earth-fault
+  current at the POC and carry part of it in their neutrals
+  for faults on the operator's network - the operator's
+  earth-fault relays and the plant's neutral and transformer
+  ratings are checked with them (data the operator needs)

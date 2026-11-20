@@ -1,0 +1,8 @@
+export: 77 rows, 8 fields, SHA-256 6031683ae087a18cfeae170d...
+  record count in = out: True; tags unique: True
+fields with no place in the CMMS (kept only in the register): ['delivered',
+    'description_fa', 'doc_ref', 'installed', 'location']
+descriptions cut to 40 characters: 13, e.g. PLP-WTG-01-TRF, PLP-BES-01
+round trip: 64 of 77 records identical in the mapped fields
+decision needed from the information owner: shorten texts at the source,
+  or keep the long text in the register and link it (no silent truncation)

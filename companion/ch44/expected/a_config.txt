@@ -1,0 +1,10 @@
+configuration items of a converter: what defines the product
+  item                          changes with         re-test
+  bill of materials revision    part or supplier     type qualification
+  PCB assembly revision         layout or assembly   board tests, EMC
+  firmware image                any code change      regression, grid code
+  parameter set                 a site setting       function, fingerprint
+  calibration constants         sensor or board      calibration check
+  hardware alone does not define a converter: two identical
+  cabinets with different firmware or parameters are two
+  products - each item has a version and a record (ch 38)

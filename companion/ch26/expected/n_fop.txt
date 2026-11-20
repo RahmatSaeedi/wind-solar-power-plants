@@ -1,0 +1,19 @@
+fall-of-potential test of an earth electrode (hemisphere model):
+  rho 100 ohm m, electrode radius 1 m, current probe at 100 m;
+  true resistance rho / 2 pi a = 15.92 ohm
+  potential probe at % of d   reading ohm
+                          20         15.16
+                          40         15.62
+                          50         15.76
+                          60         15.89
+                          62         15.92
+                          70         16.06
+                          80         16.35
+                          90         17.17
+  the reading equals the true value at 61.8 % of the distance:
+  the rule of 61.8 %; the readings must also flatten around
+  it - a curve without a plateau means the probes are too
+  close for the size of the grid; a large substation grid
+  needs current leads hundreds of metres long, and the
+  test is planned with the transferred-potential hazard
+  in mind (qualified staff, the owner's rules)

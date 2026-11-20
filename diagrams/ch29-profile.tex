@@ -1,0 +1,20 @@
+% Chapter 29 - the main site track (x = 7,600 m) from the chapter 14 terrain: ground and the
+% smoothed grade line used for the earthworks (diagrams/data/ch29-mass.csv from
+% companion/ch29/examples_m.py, m_mass).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=56mm, xmin=0, xmax=5600,
+      xlabel={فاصله در طولِ مسیر $(\text{m})$}, ylabel={تراز $(\text{m})$},
+      xmajorgrids=true, legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3,
+      legend cell align=right,
+      scaled x ticks=false, xticklabel style={/pgf/number format/1000 sep={}},
+      yticklabel style={/pgf/number format/1000 sep={}}]
+    \addplot[sLoad] table[x=s, y=ground, col sep=comma] {data/ch29-mass.csv};
+    \addplot[sLoss] table[x=s, y=smooth, col sep=comma] {data/ch29-mass.csv};
+    \addplot[sWind] table[x=s, y=formation, col sep=comma] {data/ch29-mass.csv};
+    \legend{زمینِ طبیعی, خطِ هموار (سد می‌سازد), خطِ پروژهٔ اصلاح‌شده}
+    \node[note, anchor=north west] at (axis cs:870,1206.2) {وادی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

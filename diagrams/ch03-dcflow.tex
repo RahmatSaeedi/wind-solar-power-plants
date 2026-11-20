@@ -1,0 +1,17 @@
+% Chapter 3 — DC power flow on three buses (100 MVA base, reactances assumed). Bus 1 is the
+% point of connection (slack). Values: companion/ch03/expected/b_dcflow.txt.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    busn/.style={draw=cInk, fill=white, line width=0.8pt, minimum width=26mm, minimum height=9mm, align=center}]
+  \node[busn, blkLoad] (b1) at (4,0)   {باس ۱: نقطهٔ اتصال\\$\theta_1 = 0$};
+  \node[busn, blkPV]   (b2) at (0,3.6) {باس ۲: خورشیدی\\$+45\ \text{MW}$، $\theta_2 = 2.441^\circ$};
+  \node[busn, blkWind] (b3) at (8,3.6) {باس ۳: بادی\\$+55\ \text{MW}$، $\theta_3 = 2.678^\circ$};
+  \draw[flow, line width=1.4pt] (b2) -- node[left, text=cInk, align=right] {$53.3\ \text{MW}$\\$x_{12} = 0.08$} (b1);
+  \draw[flow, line width=1.2pt] (b3) -- node[right, text=cInk, align=left] {$46.7\ \text{MW}$\\$x_{13} = 0.10$} (b1);
+  \draw[flow, line width=0.8pt] (b3) -- node[above, text=cInk] {$8.3\ \text{MW}$، $x_{23} = 0.05$} (b2);
+  \node[note, anchor=north, text width=105mm] at (4,-0.9)
+     {توان از زاویهٔ بزرگ‌تر به کوچک‌تر می‌رود: $P_{ij} = (\theta_i - \theta_j)/x_{ij}$. بادی بخشی از
+      توانش را از راهِ باسِ ۲ می‌فرستد، چون آن مسیر واکنشیِ کمتری دارد.};
+\end{tikzpicture}}
+\end{document}

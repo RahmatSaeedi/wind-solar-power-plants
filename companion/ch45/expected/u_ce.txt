@@ -1,0 +1,13 @@
+cycles to lose 20 % if each cycle loses (1 - CE) of capacity
+  (teaching, linear)
+  coulombic efficiency   cycles to 80 %
+               0.99900              200
+               0.99950              400
+               0.99990            2,000
+               0.99995            4,000
+               0.99997            6,667
+  telling a 4,000-cycle cell from a 6,700-cycle one means
+  measuring CE to about 0.00002 (20 ppm): charge counting of
+  that precision is a laboratory test - early-life evidence
+  of cycle life comes from such tests, not from a few months
+  of cycling (ch 19)

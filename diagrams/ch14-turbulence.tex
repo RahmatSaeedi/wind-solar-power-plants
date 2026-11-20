@@ -1,0 +1,18 @@
+% Chapter 14 - effective turbulence at 15 m/s directly behind one upstream turbine against the
+% distance (ambient representative 0.132 from chapter 13, Ct 0.36, published empirical form),
+% with the synthetic design curve value 0.184 (A-258). Data: diagrams/data/ch14-turbulence.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, xmin=2, xmax=12, ymin=0.10, ymax=0.30,
+      xlabel={فاصله پشتِ توربین، برابرِ قطرِ روتور}, ylabel={شدتِ تلاطمِ مؤثر},
+      xtick={2,4,...,12}, ytick={0.10,0.15,...,0.30},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[sWind] table[x=x, y=eff, col sep=comma] {data/ch14-turbulence.csv};
+    \draw[sLimit] (axis cs:2,0.184) -- (axis cs:12,0.184);
+    \node[note, anchor=south west] at (axis cs:7.5,0.186) {منحنیِ طراحی در $15\ \text{m/s}$};
+    \draw[sInk, line width=0.6pt, densely dotted] (axis cs:2,0.132) -- (axis cs:12,0.132);
+    \node[note, anchor=north west] at (axis cs:7.5,0.130) {تلاطمِ محیطی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

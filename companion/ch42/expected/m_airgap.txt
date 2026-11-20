@@ -1,0 +1,8 @@
+generator air gap read at 8 points around the stator (mm):
+  4.21, 4.34, 4.30, 4.06, 3.79, 3.66, 3.71, 3.94
+  mean gap 4.00 mm; first harmonic: rotor off centre by 0.35 mm
+    toward 235 deg, 8.8% of the gap
+    (teaching limit 10%)
+  the first harmonic of the readings is the offset of the
+  rotor; what is left is the stator's out-of-roundness - the
+  offset sets the unbalanced magnetic pull of ch 8

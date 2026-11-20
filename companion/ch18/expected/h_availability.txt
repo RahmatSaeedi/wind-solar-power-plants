@@ -1,0 +1,12 @@
+balance-of-plant availability budget (expected values, A-288):
+  element                                MWh/yr
+  PV inverters (10 central)                  445
+  collector cables (radial)                   82
+  main transformers (2 x 63 MVA)             178
+  export line (single circuit)                17
+  33 kV busbar (split, 0.01/yr, 48 h)          8
+  total                                      731
+  share of 295.14 GWh: 0.25 %; electrical availability 99.75 %
+  model 15.1's availabilities (wind 0.981, PV 0.990) already
+  hold part of these: the budget checks the assumption, it
+  does not add to it

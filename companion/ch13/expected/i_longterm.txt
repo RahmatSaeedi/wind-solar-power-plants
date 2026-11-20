@@ -1,0 +1,9 @@
+long-term wind and farm energy (variance-ratio MCP, D-017):
+  MCP line: site = +0.012 + 1.0862 x reference
+  long-term 100 m mean 7.248 m/s; 2023 7.066 m/s
+  farm after hub density and wakes: 2023 186.69 GWh,
+    long term 191.87 GWh (+2.8 %)
+  energy uncertainty from the wind 4.1 %: P90 long-term 181.8 GWh
+  one year adds year-to-year 5.6 %: P90 one year 174.8 GWh
+  2023 was a slightly calm year; the measured year alone would
+  understate the long-term energy (chapter 11 used it as it is)

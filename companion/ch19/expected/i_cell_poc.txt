@@ -1,0 +1,7 @@
+S1 from the cell to the POC (data pack S1, A-290):
+  39,936 cells, 40.13 MWh nominal; usable 10-90 %: 32.1 MWh
+  at the POC in one discharge, new: 29.8 MWh at up to 20 MW
+  rack voltage 1,040-1,498 V inside a teaching PCS window of
+    1,000-1,500 V DC (the PCS maker's data decides)
+  0.5 C at full power: two hours from full to empty in theory,
+  1.6 hours inside the window

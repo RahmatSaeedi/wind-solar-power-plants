@@ -1,0 +1,41 @@
+% Chapter 1 — the thirteen life-cycle stages and the decision gates between them.
+% Time runs right-to-left (the reading direction of the book).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    st/.style={blk, minimum width=19mm, minimum height=10mm, inner sep=2pt},
+    gate/.style={diamond, draw=cInk, fill=cInk, inner sep=0pt, minimum size=3.2mm},
+    glab/.style={font=\scriptsize, text=cInk, anchor=north}]
+
+  % ---- row 1: development (no revenue yet) --------------------------------
+  \foreach \i/\name in {0/فرصت, 1/غربالگری, 2/امکان‌سنجی, 3/توسعه, 4/مجوزها, 5/طراحی, 6/تأمینِ مالی}{
+    \node[st] (a\i) at ({14.7-2.45*\i},0) {\name};
+  }
+  \foreach \i/\j in {0/1,1/2,2/3,3/4,4/5,5/6}{ \draw[flow] (a\i.west) -- (a\j.east); }
+
+  % ---- row 2: delivery, operation, end of life ----------------------------
+  \foreach \i/\name in {0/تدارکات, 1/اجرا, 2/راه‌اندازی, 3/بهره‌برداری, 4/بازتوانی, 5/برچیدن}{
+    \node[st] (b\i) at ({14.7-2.45*\i},-3.4) {\name};
+  }
+  \foreach \i/\j in {0/1,1/2,2/3,3/4,4/5}{ \draw[flow] (b\i.west) -- (b\j.east); }
+  \draw[flow] (a6.south) -- ++(0,-0.9) -| (b0.north);
+
+  % ---- gates ---------------------------------------------------------------
+  \node[gate] (g1) at ($(a1.west)!0.5!(a2.east)$) {};  \node[glab] at ($(g1)+(0,-0.25)$) {G1};
+  \node[gate] (g2) at ($(a2.west)!0.5!(a3.east)$) {};  \node[glab] at ($(g2)+(0,-0.25)$) {G2};
+  \node[gate] (g3) at ($(a5.west)!0.5!(a6.east)$) {};  \node[glab] at ($(g3)+(0,-0.25)$) {G3};
+  \node[gate] (g4) at ($(a6.south)+(0,-0.9)$) {};      \node[glab, anchor=east] at ($(g4)+(-0.2,0)$) {G4};
+  \node[gate] (g5) at ($(b1.west)!0.5!(b2.east)$) {};  \node[glab] at ($(g5)+(0,-0.25)$) {G5};
+  \node[gate] (g6) at ($(b2.west)!0.5!(b3.east)$) {};  \node[glab] at ($(g6)+(0,-0.25)$) {G6};
+  \node[gate] (g7) at ($(b3.west)!0.5!(b4.east)$) {};  \node[glab] at ($(g7)+(0,-0.25)$) {G7};
+
+  % ---- phase brackets -------------------------------------------------------
+  \draw[decorate, decoration={brace, amplitude=5pt}, cInkB] ($(a6.north west)+(0,0.25)$) -- ($(a0.north east)+(0,0.25)$)
+        node[midway, above=6pt, note] {دورهٔ توسعه: هزینه می‌شود، درآمدی نیست، پروژه هنوز می‌تواند متوقف شود};
+  \draw[decorate, decoration={brace, amplitude=5pt, mirror}, cInkB] ($(b2.south west)+(0,-0.55)$) -- ($(b0.south east)+(0,-0.55)$)
+        node[midway, below=6pt, note] {دورهٔ ساخت};
+  \draw[decorate, decoration={brace, amplitude=5pt, mirror}, cInkB] ($(b5.south west)+(0,-0.55)$) -- ($(b3.south east)+(0,-0.55)$)
+        node[midway, below=6pt, note] {دورهٔ بهره‌برداری و پایانِ عمر};
+
+\end{tikzpicture}}
+\end{document}

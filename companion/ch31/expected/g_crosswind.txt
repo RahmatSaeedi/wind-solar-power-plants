@@ -1,0 +1,11 @@
+a blade on its trailer in a crosswind (teaching)
+  side area 133 m2 at 4 m; blade + trailer 52 t; track 3 m
+  gust m/s   wind force kN   tipping moment / restoring
+        15            21.6                         0.11
+        20            38.4                         0.20
+        25            59.9                         0.31
+        30            86.3                         0.45
+  even a 30 m/s gust gives under half the restoring moment:
+  the load does not tip, but it sways and steers badly long
+  before - the convoy's wind limit is set for control, and
+  the plan names a place to park and wait

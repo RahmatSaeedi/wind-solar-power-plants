@@ -1,0 +1,15 @@
+one boundary: cradle to site, t CO2e per unit (synthetic)
+  U-A:  43.0 +/-  4.1
+      cradle to gate            41.0  declared
+      transport to site          2.0  estimate
+  U-B:  47.4 +/-  9.7
+      factory (gate to gate)     8.0  declared
+      materials                 37.9  estimate
+      transport to site          1.5  estimate
+  U-C:  47.1 +/-  9.6
+      materials                 35.5  estimate
+      factory                    9.0  estimate
+      transport to site          2.6  estimate
+  U-B was lowest as offered (8 t) and is highest on one
+  boundary; U-C's 36 t generic factor becomes a dated
+  estimate from its own bill of materials

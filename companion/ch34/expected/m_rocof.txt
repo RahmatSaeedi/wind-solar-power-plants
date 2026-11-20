@@ -1,0 +1,11 @@
+rate of change of frequency from a noisy frequency (true -0.5 Hz/s)
+  window s   noise sd Hz/s   delay s   quiet samples over 0.1 Hz/s
+       0.1           0.057      0.05                       10.0 %
+       0.2           0.027      0.10                        0.0 %
+       0.5           0.012      0.25                        0.0 %
+       1.0           0.007      0.50                        0.0 %
+  with a sensitive 0.1 Hz/s trigger, the shortest window
+  trips on noise alone in a share of quiet cycles; a long
+  window is calm but late - the window and the trigger
+  level are chosen together, with a time delay, and
+  written in the setting file (ch 26, ch 28)

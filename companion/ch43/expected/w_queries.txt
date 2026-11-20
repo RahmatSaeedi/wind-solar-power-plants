@@ -1,0 +1,19 @@
+technical queries raised by the preliminary design (teaching log)
+  query                                    status
+  TQ-01 steel grade and building factor    answered
+    because: P0 42 kW needs 1.15 W/kg at 1.22
+  TQ-02 tap steps of 9 turns               answered
+    because: ratio -0.43 % at the -10 % tap
+  TQ-03 energising tap                     open
+    because: 1.89 T if energised at -10 %
+  TQ-04 short-circuit proof                open
+    because: inner winding supported? test or calc
+  TQ-05 HV radial build                    answered
+    because: 106 mm from the CTC against 110 mm
+  TQ-06 paper grade                        open
+    because: upgraded paper for later storage
+  TQ-07 DC injection limit                 open
+    because: PV unit core, 0.5 % DC = 2.7 x magnetising
+  4 of 7 open: each became a question to the maker
+  because the simple sum and the offer disagreed or could not
+  see - the review's product is the query, not a redesign

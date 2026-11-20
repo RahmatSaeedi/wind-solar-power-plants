@@ -1,0 +1,13 @@
+air density rho = p / (R T) at Plant P annual means (data pack 1.0.0)
+instrument only: p +-0.5 hPa, T +-0.3 K (assumed limits, rectangular)
+input            value       u(x)           c       |c|u  share
+p            8.777e+04       28.9   1.202e-05   0.000347  23.3%
+T                289.9      0.173   -0.003637    0.00063  76.7%
+R                287.1          0   -0.003674          0   0.0%
+y = 1.0546 kg/m3, u_c = 0.000719 kg/m3 (0.07 %), U(k=2) = 0.00144 kg/m3
+plus representativeness: 2 m temperature used for 100 m air, u = 2 K (assumed)
+input            value       u(x)           c       |c|u  share
+p            8.777e+04       28.9   1.202e-05   0.000347   0.2%
+T                289.9       2.01   -0.003637     0.0073  99.8%
+R                287.1          0   -0.003674          0   0.0%
+y = 1.0546 kg/m3, u_c = 0.00731 kg/m3 (0.69 %), U(k=2) = 0.0146 kg/m3

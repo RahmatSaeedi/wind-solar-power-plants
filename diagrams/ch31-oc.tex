@@ -1,0 +1,13 @@
+% Chapter 31 - operating characteristic of the sampling plan n = 50, accept on <= 1 defective
+% (examples_i, i_oc; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=0, xmax=12, ymin=0, ymax=1.05,
+      xlabel={درصدِ معیوب در محموله}, ylabel={احتمالِ پذیرش}]
+    \addplot[sLoad, no marks, domain=0:12, samples=97] {(1-x/100)^50 + 50*(x/100)*(1-x/100)^49};
+    \addplot[only marks, mark=*, mark size=1.6pt, color=cLoss] coordinates {(4,0.40)};
+    \node[note, anchor=south west] at (axis cs:4.2,0.42) {$p = 4\,\%,\ P_\mathrm{a} = 0.40$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

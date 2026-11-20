@@ -1,0 +1,6 @@
+an 'average-responding' meter shows 1.1107 x mean(|i|), exact only
+  for a sine:
+  sine: true RMS 1.000, meter 1.000
+  LED driver current: true RMS 1.436, meter 0.822 (-43 %)
+  on distorted currents use a true-RMS instrument; for power quality use an
+  analyser built to a standardised measurement method

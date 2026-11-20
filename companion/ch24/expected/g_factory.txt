@@ -1,0 +1,12 @@
+factory process control on a 33 kV cable (teaching samples):
+  insulation thickness max/min mm   eccentricity   (limit 15 %)
+    8.1 /   7.6                          6.2%   ok
+    8.3 /   7.5                          9.6%   ok
+    8.2 /   7.9                          3.7%   ok
+    8.6 /   6.9                         19.8%   reject
+    8.0 /   7.7                          3.7%   ok
+  conductor resistance at 20 C: 0.0761 ohm/km against max 0.0778 -> ok
+  the process controls (extrusion, curing, line speed) keep
+  the samples in; routine tests on every drum (voltage,
+  partial discharge, resistance) prove each length; type tests
+  prove the design once - the site test proves the laying

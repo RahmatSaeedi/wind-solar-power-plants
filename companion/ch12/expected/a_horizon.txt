@@ -1,0 +1,8 @@
+far-horizon shading of the beam (A-243, teaching profile):
+  highest horizon 6 deg at azimuth 75 (east-north-east)
+  sun-up time behind the horizon: 218 h a year
+  beam lost on the Plant P plane: 1.7 kWh/m2 of 2,150 (0.08 %)
+  sky-diffuse share hidden by the horizon (isotropic): about 0.10 %
+  low winter and summer-morning sun is what a far horizon takes;
+  near objects (masts, fences, the sensor's own neighbours)
+  matter more for the measurement than for the plant

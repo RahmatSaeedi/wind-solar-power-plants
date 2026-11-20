@@ -1,0 +1,17 @@
+social-safeguards screen (issues that could change the site):
+  issue                        P-North     P-Central   P-South
+  land and livelihood          high        low         medium
+  physical displacement        6 hh        none        none
+  seasonal land users          -           -           40 families
+  labour influx vs local       high        low         medium
+  cultural heritage            1 site      none        2 sites
+  community health, safety     road        road        water
+  consultation started         no          yes         partly
+  livelihood restoration budget (teaching, k u):
+    P-North       5,760
+    P-Central       840
+    P-South         992
+  the screen flags, the specialists assess and the affected
+  people are consulted; a resettlement or livelihood plan that
+  meets the lenders' and the permit's conditions is a cost and
+  a schedule item - and can change which site is chosen

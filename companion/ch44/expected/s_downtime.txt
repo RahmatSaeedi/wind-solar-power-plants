@@ -1,0 +1,15 @@
+downtime and energy by item for 10 inverters, 1.25 MW lost
+  while a unit is down (teaching mean)
+  item                              failures/yr  MTTR h   MWh/yr   share
+  IGBT module                               0.84      72     75.7     57%
+  DC switch, AC breaker, contactors         0.44      24     13.1     10%
+  DC-link capacitor                         0.35      24     10.5      8%
+  gate-driver board                         0.79      10      9.9      7%
+  pump, fans, heat exchanger                1.31       6      9.9      7%
+  auxiliary power supply                    0.53       8      5.3      4%
+  current and voltage sensors               0.42       8      4.2      3%
+  control board                             0.26      10      3.3      2%
+  total 132 MWh a year; the largest share is IGBT module:
+  rare failures with a long repair cost more energy than
+  frequent short ones - spares and repair time, not the
+  failure rate alone, set the energy at risk

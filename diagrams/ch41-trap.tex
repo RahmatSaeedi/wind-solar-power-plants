@@ -1,0 +1,19 @@
+% Chapter 41 - current a silicon wafer can absorb against its thickness for one pass, two passes
+% (a rear mirror) and light trapping (the 4n^2 limit), with the blackbody sun of ch 10 scaled to a
+% 39.6 mA/cm2 maximum (diagrams/data/ch41-trap.csv from companion/ch41/examples_t.py,
+% t_trapping; rounded textbook absorption, teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=56mm, xmin=20, xmax=300, ymin=28, ymax=40.5,
+      xlabel={ضخامتِ ویفر (میکرومتر)}, ylabel={جریانِ قابلِ‌جذب (میلی‌آمپر بر سانتی‌مترمربع)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=3, legend cell align=right]
+    \addplot[sLoss] table[x=w, y=one, col sep=comma] {data/ch41-trap.csv};
+    \addplot[sPV] table[x=w, y=two, col sep=comma] {data/ch41-trap.csv};
+    \addplot[sWind] table[x=w, y=trap, col sep=comma] {data/ch41-trap.csv};
+    \legend{یک گذر, دو گذر با آینه, به‌دام‌اندازیِ نور}
+    \draw[densely dotted, cInk!60] (axis cs:20,39.6) -- (axis cs:300,39.6);
+    \node[note, anchor=south east] at (axis cs:295,39.65) {بیشینهٔ ۳۹٫۶};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

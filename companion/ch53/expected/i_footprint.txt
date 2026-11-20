@@ -1,0 +1,11 @@
+footprint per kWh delivered, each option on the same boundary (from the
+  decision onwards: new equipment, transport, operation; g CO2e/kWh)
+  option                            median    5 %    95 %
+  A repair gearboxes, run to 25       0.89   0.60    1.32
+  C replace gearboxes, run to 25      1.43   0.98    2.10
+  repower wind, run to 35             4.89   3.28    7.44
+  all are a few grams a kWh - far below what they replace;
+  repair and replacement overlap (0.60-1.32 and 0.98-2.10), so
+  footprint does not pick between them (ch 33 lesson); the
+  repowering is about 5 times higher per kWh - a real but
+  small cost to weigh with the energy it adds

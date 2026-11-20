@@ -1,0 +1,10 @@
+a module's footprint and the grid of its factory (teaching)
+  factory grid t/MWh   kg CO2e/kWp   60 MWp t CO2e
+                 0.3           300          18,000
+                 0.6           450          27,000
+                 0.8           550          33,000
+  the generic 450 kg/kWp of lab I matches a factory on a
+  grid of about 0.6; the same module from a factory on a
+  clean grid is a third lower - a factor's year and place
+  must match the product bought, or the study measures a
+  different module (lesson K)

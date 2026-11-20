@@ -1,0 +1,4 @@
+three numbers by hand, checked by the scripts
+  progress: 0.05x1 + 0.55x0.8 + 0.15x0.6 + 0.05x0.55 + 0.20x0.3 = 0.668
+  response to T12: 6 + 9.4 / 25 x 60 = 28.6 min
+  dust water a month: 1.5 L/m2 x 168,000 m2 x 300 / 18 days = 4,200 m3

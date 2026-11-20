@@ -1,0 +1,11 @@
+lot of 2000 cells with 5 slow leakers; the integrator rests
+  a sample and measures K
+  sample   chance to find at least one leaker
+      20         4.9%
+      50        11.9%
+     200        41.0%
+     500        76.3%
+  738 cells for 90%: a receiving sample cannot screen a lot
+  for rare defects - the cell maker's rest test of every cell
+  is the screen, and its data file comes with the lot; the
+  sample checks the file, not the cells

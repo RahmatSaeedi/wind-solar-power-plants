@@ -1,0 +1,7 @@
+a core earthed at two points forms a loop with the frame
+  leakage flux through the loop: about 1.5 V (teaching);
+  loop resistance 2 mOhm: 750 A circulating, 1.1 kW
+  a kilowatt or more in steel and contacts makes gas and local
+  heating; the core is earthed at one point, and the core-to-
+  frame insulation test of the routine tests shows that no
+  second path exists

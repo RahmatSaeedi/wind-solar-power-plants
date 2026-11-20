@@ -1,0 +1,11 @@
+chance that two different parameter sets share a fingerprint
+  (birthday bound n^2 / 2^(b+1))
+  hex digits   bits        n = 10       n = 10^4      n = 10^6
+           4     16      7.63e-04      1.00e+00      1.00e+00
+           8     32      1.16e-08      1.16e-02      1.00e+00
+          16     64      2.71e-18      2.71e-12      2.71e-08
+          64    256      4.32e-76      4.32e-70      4.32e-66
+  16 hex digits (64 bits) are far more than any plant needs;
+  with 8 a shared fingerprint becomes likely beyond ~10^5 sets;
+  the fingerprint detects a change - it is not a signature:
+  it cannot tell who made the change (ch 36)

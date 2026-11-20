@@ -1,0 +1,7 @@
+distribution of the 100 m speed, ten-minute against hourly means:
+  ten-minute: Weibull k 2.10, c 8.01 m/s; energy 18,166 MWh
+  hourly:     Weibull k 2.11, c 8.01 m/s; energy 18,184 MWh (+0.10 %)
+  hourly averaging narrows this site's distribution only a little
+  and moves the energy by a tenth of a per cent: hourly data are
+  enough for energy here; ten-minute data are still needed for
+  turbulence, gusts and power-curve work

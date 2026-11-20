@@ -1,0 +1,9 @@
+batteries serving the chapter 17 factory (A-284; S1 = 20 MW, 40 MWh):
+  factory 167.0 GWh; covered by the plant alone 127.2 GWh (76.2 %)
+  battery            added GWh   cover
+   20 MW,  40 MWh          7.8    80.8 %
+   40 MW,  80 MWh         13.4    84.2 %
+   40 MW, 160 MWh         20.9    88.7 %
+  a battery moves surplus into the next shortfall but cannot
+  bridge calm, dark days; doubling it adds less than the first
+  one did: storage for a flat load meets falling returns

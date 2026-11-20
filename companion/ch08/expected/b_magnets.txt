@@ -1,0 +1,8 @@
+NdFeB magnet: remanence 1.2 T at 20 C, coefficient -0.12 %/K (A-118):
+   20 C: Br 1.200 T; EMF and torque per ampere x 1.000
+   60 C: Br 1.142 T; EMF and torque per ampere x 0.952
+  100 C: Br 1.085 T; EMF and torque per ampere x 0.904
+  140 C: Br 1.027 T; EMF and torque per ampere x 0.856
+  hot magnets give less flux; too hot plus a strong opposing field
+  (a fault current) can demagnetise them for good: rotor cooling
+  and converter current limits protect the magnets

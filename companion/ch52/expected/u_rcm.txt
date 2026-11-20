@@ -1,0 +1,13 @@
+task selection, reliability-centred logic (teaching):
+  hidden? -> failure-finding; detectable early? -> condition;
+  wear-out? -> age replacement; cheap? -> run to failure; else redesign
+  gearbox bearing wear           condition monitoring inside the P-F interval
+  pitch battery capacity loss    condition monitoring inside the P-F interval
+  fire detector failed silent    failure-finding test at an interval
+  protection relay will not trip failure-finding test at an interval
+  inverter fan failure           run to failure, spare on the shelf
+  combiner fuse open             condition monitoring inside the P-F interval
+  transformer insulation ageing  condition monitoring inside the P-F interval
+  diesel will not start          failure-finding test at an interval
+  three modes are hidden - nobody sees them fail until the
+  moment they are needed: only a test finds them

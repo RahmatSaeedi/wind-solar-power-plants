@@ -1,0 +1,14 @@
+the fictional aerofoil of plantp.wind (A-212):
+  alpha deg    Cl      Cd       L/D
+         -2  -0.000   0.0053     -0.0
+          0   0.220   0.0050     44.0
+          4   0.660   0.0063    105.1
+          6   0.880   0.0079    111.5
+          8   1.096   0.0104    105.9
+         10   1.256   0.0174     72.3
+         12   0.973   0.0615     15.8
+         14   0.553   0.1295      4.3
+         16   0.537   0.1712      3.1
+  best lift-to-drag 111 at 6.0 deg; stall begins near 12 deg
+  real blades use measured polars for each thickness and Reynolds
+  number; roughness and erosion lower L/D

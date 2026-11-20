@@ -1,0 +1,8 @@
+1989 graded cells into modules of 52 in series;
+  a string delivers its weakest cell
+  method          modules   mean of string min Ah   spread lost Ah
+  arrival order        38                  315.02             3.01
+  sorted               38                  317.89             0.11
+  sorting gains 2.87 Ah a module (0.91%); the BMS balances
+  charge, not capacity - a matched string uses more of its
+  cells; the bin of each cell goes into the module record

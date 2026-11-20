@@ -1,0 +1,15 @@
+nonconformity reports: who decides and by when (teaching)
+  NCR       sev  where     decides            limit  open  status
+  NCR-101    2  factory   quality engineer      10     3  open
+  NCR-102    3  factory   design authority      15     9  open
+  NCR-103    3  factory   design authority      15    21  late
+  NCR-104    2  factory   quality engineer      10     5  open
+  NCR-105    3  factory   design authority      15     2  open
+  NCR-106    1  port      supervisor             5     1  open
+  NCR-107    1  site      supervisor             5     4  open
+  NCR-108    2  site      quality engineer      10    12  late
+  2 report(s) past their limit: escalated one level up
+  the disposition - use as is, repair, scrap - is made by
+  the authority for the severity; 'use as is' on a
+  load-path part is the designer's decision with a written
+  justification (ch 40, concession)

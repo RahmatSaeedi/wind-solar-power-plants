@@ -1,0 +1,7 @@
+communications at the twelve turbine pads (survey, synthetic)
+  mobile coverage missing at 4: T05, T07, T08, T11
+  site radio reaches all pads; one repeater serves T07-T08
+  fallback order: site radio -> satellite phone in each duty
+  vehicle -> runner to the substation; a crew with neither
+  radio nor satellite phone does not start work at a gap pad
+  loss of the repeater leaves T07 and T08 with satellite only

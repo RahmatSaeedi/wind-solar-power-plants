@@ -1,0 +1,12 @@
+shift handover checklist (one handover, 18:00)
+  [x] plant state and limits
+  [x] battery SOC and plan
+  [x] open permits and isolations
+  [ ] active alarms and their owners
+  [x] grid operator instructions in force
+  [ ] forecast version in use
+  [x] weather warnings
+  [x] people on site
+  2 items not passed on: the alarms nobody owns and the
+  forecast version in use - the next shift re-reads the old
+  forecast and inherits alarms it believes are being handled

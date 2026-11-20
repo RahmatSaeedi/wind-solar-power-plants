@@ -1,0 +1,7 @@
+motor nameplate (A-135): 30 kW, 400 V, 54 A, pf 0.85, eff 94.7 %,
+  1475 rpm, 50 Hz
+  check 1: input 31.68 kW -> current 53.8 A (plate 54 A)
+  check 2: 4 poles (1500 rpm synchronous), slip 1.67 %
+  check 3: rated torque 194 N m
+  the plate is self-consistent; an inconsistent plate is a question
+  for the supplier, not something to 'correct' quietly

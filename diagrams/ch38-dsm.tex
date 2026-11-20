@@ -1,0 +1,31 @@
+% Chapter 38 - design structure matrix of eight design tasks in the order of work: a dot in row i,
+% column j means task i needs the output of task j; dots above the diagonal close a loop, and the
+% two shaded blocks are the iteration groups (diagrams/data/ch38-dsm.csv from
+% companion/ch38/examples_s.py, s_dsm; teaching). Rows read top to bottom, columns left to right.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\footnotesize, x=7mm, y=-7mm]
+  % iteration groups: tasks 4-5 and 6-7
+  \fill[cLoss!10] (3,3) rectangle (5,5);
+  \fill[cLoss!10] (5,5) rectangle (7,7);
+  \draw[cRule] (0,0) grid (8,8);
+  \foreach \k in {1,...,8} { \fill[cGridline] (\k-1,\k-1) rectangle (\k,\k); }
+  \draw[cInkB, line width=0.6pt] (0,0) rectangle (8,8);
+  % dots: (row, col) from the CSV
+  \foreach \r/\c in {2/1, 3/2, 4/2, 4/5, 5/3, 5/4, 6/4, 6/7, 7/3, 7/4, 7/6, 8/1, 8/4} {
+    \fill[cInk] (\c-0.5,\r-0.5) circle (2.2pt);
+  }
+  % above-diagonal marks (feedback) ringed
+  \foreach \r/\c in {4/5, 6/7} { \draw[cLoss, line width=0.9pt] (\c-0.5,\r-0.5) circle (4.2pt); }
+  \foreach \k in {1,...,8} { \node[text=cMuted] at (\k-0.5,-0.45) {\k}; }
+  \node[anchor=west] at (8.3,0.5) {۱ چیدمانِ ساختگاه};
+  \node[anchor=west] at (8.3,1.5) {۲ تک‌خطی};
+  \node[anchor=west] at (8.3,2.5) {۳ پخشِ بار};
+  \node[anchor=west] at (8.3,3.5) {۴ اتصالِ کوتاه};
+  \node[anchor=west] at (8.3,4.5) {۵ مشخصهٔ ترانسفورماتور};
+  \node[anchor=west] at (8.3,5.5) {۶ حفاظت};
+  \node[anchor=west] at (8.3,6.5) {۷ اندازه‌گذاریِ کابل};
+  \node[anchor=west] at (8.3,7.5) {۸ زمین};
+  \node[note, text width=58mm, anchor=north] at (4,8.4) {نقطه در سطرِ i و ستونِ j: کارِ i خروجیِ کارِ j را می‌خواهد. نقطه‌های حلقه‌دار بالای قطر حلقه را می‌بندند.};
+\end{tikzpicture}}
+\end{document}

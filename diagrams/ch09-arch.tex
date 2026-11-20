@@ -1,0 +1,44 @@
+% Chapter 9 - power-electronic architectures in Plant P: central and string PV inverters, the
+% turbine's back-to-back converter, and the battery converter (S1).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{b/.style={blk, minimum width=22mm, minimum height=10mm, text width=20mm},
+           lab/.style={note, font=\small\bfseries, text=cInk, anchor=east}}
+  % central
+  \node[lab] at (-1.0,0) {مرکزی};
+  \node[blkPV, minimum width=22mm, minimum height=10mm] (a1) at (0.8,0) {رشته‌ها};
+  \node[b] (a2) at (3.6,0) {جعبه‌های تجمیع};
+  \node[b] (a3) at (6.4,0) {اینورترِ $5\ \text{MW}$};
+  \node[blkLoad, minimum width=22mm, minimum height=10mm] (a4) at (9.2,0) {ترانسفورماتور};
+  \draw[flow] (a1) -- node[note, anchor=south] {DC} (a2);
+  \draw[flow] (a2) -- node[note, anchor=south] {DC} (a3);
+  \draw[flow] (a3) -- node[note, anchor=south] {AC} (a4);
+  % string
+  \node[lab] at (-1.0,-1.6) {رشته‌ای};
+  \node[blkPV, minimum width=22mm, minimum height=10mm] (b1) at (0.8,-1.6) {رشته‌ها};
+  \node[b] (b2) at (3.6,-1.6) {اینورترهای $0.3\ \text{MW}$};
+  \node[b] (b3) at (6.4,-1.6) {تابلوی جمعِ AC};
+  \node[blkLoad, minimum width=22mm, minimum height=10mm] (b4) at (9.2,-1.6) {ترانسفورماتور};
+  \draw[flow] (b1) -- node[note, anchor=south] {DC} (b2);
+  \draw[flow] (b2) -- node[note, anchor=south] {AC} (b3);
+  \draw[flow] (b3) -- node[note, anchor=south] {AC} (b4);
+  % turbine
+  \node[lab] at (-1.0,-3.2) {توربین};
+  \node[blkWind, minimum width=22mm, minimum height=10mm] (c1) at (0.8,-3.2) {ژنراتور $57.75\ \text{Hz}$};
+  \node[b] (c2) at (3.6,-3.2) {مبدّلِ سمتِ ماشین};
+  \node[b] (c3) at (6.4,-3.2) {مبدّلِ سمتِ شبکه};
+  \node[blkLoad, minimum width=22mm, minimum height=10mm] (c4) at (9.2,-3.2) {ترانسفورماتور};
+  \draw[flow] (c1) -- node[note, anchor=south] {AC} (c2);
+  \draw[flow] (c2) -- node[note, anchor=south] {DC} (c3);
+  \draw[flow] (c3) -- node[note, anchor=south] {$50\ \text{Hz}$} (c4);
+  \node[note, anchor=north] at (5.0,-3.75) {پیوندِ DC با چاپرِ ترمز};
+  % battery
+  \node[lab] at (-1.0,-4.8) {باتری};
+  \node[blkBESS, minimum width=22mm, minimum height=10mm] (d1) at (0.8,-4.8) {قفسه‌های باتری};
+  \node[b] (d2) at (3.6,-4.8) {مبدّلِ دوسویه};
+  \node[blkLoad, minimum width=22mm, minimum height=10mm] (d4) at (9.2,-4.8) {ترانسفورماتور};
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (d1) -- node[note, anchor=south] {DC} (d2);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (d2) -- node[note, anchor=south] {AC} (d4);
+\end{tikzpicture}}
+\end{document}

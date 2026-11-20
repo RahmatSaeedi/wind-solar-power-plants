@@ -1,0 +1,23 @@
+% Chapter 19 - cell-to-container interface tree (worked example 2, part 1): each level with the
+% interfaces it shares with the next (companion/ch19/examples_c.py TREE), flowing right to left.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, draw=cBESS, fill=cBESS!10, minimum width=22mm, minimum height=10mm, align=center},
+    i/.style={blk, minimum width=30mm, minimum height=16mm, align=center, text width=29mm,
+              font=\footnotesize}]
+  \node[b] (c) at (13.0,0) {سلول};
+  \node[b] (m) at (9.0,0) {ماژول};
+  \node[b] (r) at (5.0,0) {رک};
+  \node[b] (k) at (1.0,0) {کانتینر};
+  \node[b] (p) at (1.0,-5.0) {مبدل و نیروگاه};
+  \node[i] at (11.0,-2.0) {جوشِ شینه، سیمِ ولتاژ و دما، قابِ فشار، لایهٔ حرارتی};
+  \node[i] at (7.0,-2.0) {اتصال‌دهندهٔ توان، زنجیرهٔ مدیریتِ باتری، فیوزِ ماژول، اتصالِ زمین};
+  \node[i] at (3.0,-2.0) {کلید و فیوزِ رک، شینهٔ مستقیم، پیوندِ مدیریتِ باتری، جریانِ هوا، آشکارسازِ گاز و دود};
+  \node[i] (i4) at (4.8,-5.0) {کابلِ مستقیم، پروتکل، تغذیهٔ کمکی، زمین، جداسازیِ از راه دور، تابلوی آتش};
+  \draw[flow] (c.west) -- (m.east);
+  \draw[flow] (m.west) -- (r.east);
+  \draw[flow] (r.west) -- (k.east);
+  \draw[flow] (k.south) -- (p.north);
+  \draw[flowinfo] (p.east) -- (i4.west);\end{tikzpicture}
+\end{document}

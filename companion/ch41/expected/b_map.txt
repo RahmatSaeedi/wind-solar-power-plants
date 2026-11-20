@@ -1,0 +1,34 @@
+cell process map (purpose / controlled variable / defect)
+   1 wafer inspection: reject cracked or thin wafers
+       controls: thickness, cracks, resistivity
+       can cause: micro-crack, chipped edge
+   2 texturing: trap light by surface structure
+       controls: reflectance
+       can cause: uneven texture -> colour, current loss
+   3 junction formation: make the p-n junction
+       controls: sheet resistance
+       can cause: non-uniform doping -> FF loss
+   4 passivation: slow surface recombination
+       controls: lifetime, layer thickness
+       can cause: poor passivation -> Voc loss
+   5 anti-reflection coating: cut reflection, add passivation
+       controls: thickness, colour
+       can cause: colour mismatch, current loss
+   6 metallisation: print contacts and fingers
+       controls: finger width, line resistance
+       can cause: broken fingers -> Rs, hot spots
+   7 firing / thermal step: form contacts
+       controls: temperature profile
+       can cause: poor contact -> Rs; warping
+   8 edge isolation: stop shunts at the edge
+       controls: edge leakage
+       can cause: shunt -> low Rsh, reverse-bias heating
+   9 cell sorting: bin by current and appearance
+       controls: IV, EL, colour
+       can cause: mixed bins -> mismatch
+  10 laser cutting (half-cut): halve the cell current
+       controls: cut quality
+       can cause: edge damage -> cracks later
+  each step has a measurable output; the cell's Voc, Jsc and
+  FF are the sum of all of them, which is why the line keeps
+  in-line metrology after the steps that set each one

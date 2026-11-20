@@ -1,0 +1,11 @@
+decision rules on the winding-rise limit (65 K) with U = 1.6 K, k = 2
+  reading                    K  P(true > 65)  simple    guarded
+  T1, read correctly      66.5           97%    fail  undecided
+  T1, 2-minute reading    62.0            0%    pass       pass
+  unit at 64.2 K          64.2           16%    pass  undecided
+  unit at 65.4 K          65.4           69%    fail  undecided
+  unit at 67.0 K          67.0           99%    fail       fail
+  a reading of 64.2 K passes the simple rule with a 16 % chance
+  that the true rise is above the limit; the guarded rule leaves
+  it undecided - which rule applies is written in the purchase
+  clause, with who carries the risk (JCGM 106, STD-009)

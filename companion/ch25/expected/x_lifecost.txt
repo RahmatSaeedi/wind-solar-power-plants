@@ -1,0 +1,12 @@
+life cost of one main transformer, present value at 7.5 % (k u):
+  item                                    k u     share
+  price (bid B)                            1700    70.3%
+  losses capitalised (A 6.84, B 0.88)       542    22.4%
+  routine maintenance 8 k u a year           89     3.7%
+  tap changer overhauls, years 10, 20        29     1.2%
+  online monitoring (DGA, bushings)          60     2.5%
+  end of life: removal 30, scrap +45         -2    -0.1%
+  total 2,418 k u: the price is 70% of it and the losses
+  22%; maintenance and monitoring together are small, and
+  a monitoring system that avoids one long outage (lesson
+  failure) repays itself many times

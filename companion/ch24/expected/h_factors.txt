@@ -1,0 +1,13 @@
+installation factors from a thermal circuit (630 mm2, teaching):
+  R at 90 C 0.0613 ohm/km; fitted internal resistance 0.276 K m/W
+  soil at reference (1.0 K m/W, 0.8 m): 0.597 K m/W; rating 660 A
+  condition              physics factor   table factor
+  depth 1.0 m                     0.980           0.97
+  soil 1.5 K m/W                  0.863           0.88
+  ground 30 C                     0.926           0.93
+  two circuits 0.4 m              0.892           0.85
+  all four together: 449 A, factor 0.681 (table product 0.675)
+  depth, soil and ground temperature follow from the physics;
+  the simple image model gives less mutual heating than the
+  table, which also allows for the soil drying out next to a
+  warm cable - the reason tables are kept conservative

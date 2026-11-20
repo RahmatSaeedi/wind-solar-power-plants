@@ -1,0 +1,57 @@
+% Chapter 7 - conceptual auxiliary supply of Plant P and the measurement points of
+% PLP-ELE-LST-0001 (M01..M10). Teaching sketch, not a single-line design.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small,
+    mp/.style={draw=cLoad, fill=white, line width=0.7pt, circle, inner sep=0.6pt, font=\scriptsize},
+    sb/.style={blk, minimum width=22mm, minimum height=9mm, font=\footnotesize}]
+  % grid and export transformer (top right)
+  \node[blkLoad, minimum width=26mm] (grid) at (11.5,7.6) {شبکه، $132\ \text{kV}$};
+  \node[sb] (tx) at (11.5,5.9) {ترانسفورماتورِ صادرات};
+  \draw[flow, -] (grid) -- (tx);
+  \node[mp] at (12.6,6.85) {$\text{M01}$};
+  \node[mp] at (13.25,6.85) {$\text{M02}$};
+  \node[mp] at (13.9,6.85) {$\text{M03}$};
+  \draw[cLoad, line width=0.5pt] (11.5,6.85) -- (12.3,6.85);
+  % 33 kV bus
+  \draw[bus] (3.0,4.6) -- (13.6,4.6);
+  \node[note, text=cInk, anchor=west] at (13.7,4.6) {شینهٔ $33\ \text{kV}$};
+  \draw[flow, -] (tx) -- (11.5,4.6);
+  % feeders
+  \foreach \x/\k in {13.0/4, 12.0/5, 11.0/6, 10.0/7}{
+    \draw[line width=0.8pt, cInk] (\x,4.6) -- (\x,3.5);
+  }
+  \node[mp] at (13.0,4.05) {$\text{M04}$};
+  \node[mp] at (10.0,4.05) {$\text{M07}$};
+  \node[note, text width=40mm] at (11.5,3.05) {چهار فیدر به اینورترها و توربین‌ها ($\text{M11}$ در هر واحد)};
+  % BESS (S1)
+  \node[blkBESS, minimum width=20mm] (bess) at (8.2,3.2) {باتری ($\text{S1}$)};
+  \draw[line width=0.8pt, cInk] (8.2,4.6) -- (bess);
+  \node[mp] at (8.55,4.05) {$\text{M10}$};
+  % auxiliary transformer and board
+  \node[sb] (atx) at (5.0,3.2) {ترانسفورماتورِ کمکی\\$33/0.4\ \text{kV}$};
+  \draw[line width=0.8pt, cInk] (5.0,4.6) -- (atx);
+  \node[mp] at (5.35,4.05) {$\text{M08}$};
+  \draw[bus] (0.6,1.6) -- (7.6,1.6);
+  \node[note, text=cInk, anchor=east] at (0.5,1.6) {تابلوی کمکی $400/230\ \text{V}$};
+  \draw[line width=0.8pt, cInk] (atx) -- (5.0,1.6);
+  \node[mp] at (5.35,2.15) {$\text{M09}$};
+  % alternative and backup supplies
+  \node[sb, blkLoad] (dist) at (1.6,3.2) {شبکهٔ توزیعِ محلی};
+  \draw[line width=0.8pt, cInk, densely dashed] (dist) -- (1.6,1.6);
+  \node[note, anchor=west] at (1.7,2.3) {جایگزین};
+  % loads
+  \foreach \x/\t in {7.0/{تهویهٔ باتری}, 5.8/{تهویه و فن‌ها}, 4.6/{روشنایی و پریز}}{
+    \draw[line width=0.7pt, cInk] (\x,1.6) -- (\x,0.9);
+    \node[note, text=cInk, text width=14mm, anchor=north] at (\x,0.85) {\t};
+  }
+  \draw[line width=0.7pt, cInk] (2.6,1.6) -- (2.6,0.45);
+  \node[sb, blkWarn] (ups) at (2.6,0.0) {منبعِ بی‌وقفه و $\text{DC}$};
+  \node[note, text width=34mm, anchor=north] at (2.6,-0.55) {حفاظت، کنترل، پایش و مخابرات};
+  \node[sb] (gen) at (-0.4,0.0) {مولدِ پشتیبان};
+  \draw[line width=0.7pt, cInk, densely dashed] (gen) -- (ups);
+  % legend
+  \node[mp] at (8.8,0.9) {$\text{M}$};
+  \node[note, text=cInk, anchor=west] at (9.1,0.9) {نقطهٔ اندازه‌گیری ($\text{PLP-ELE-LST-0001}$)};
+\end{tikzpicture}}
+\end{document}

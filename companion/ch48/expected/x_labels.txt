@@ -1,0 +1,9 @@
+a day of quarter-hour export, labelled by interval END (settlement)
+  or by interval START (an exporter's default), price bands by hour
+  value with the right labels: 74,542 u
+  value with every interval one step late: 74,147 u (-395 u)
+  energy moved into the next day at midnight: 8.6 MWh
+  the error is small on a day and systematic over a year, and
+  every price change hour carries it; the label convention is
+  written in the metering specification and checked on the
+  first exported file, interval by interval

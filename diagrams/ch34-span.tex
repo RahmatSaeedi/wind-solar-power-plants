@@ -1,0 +1,18 @@
+% Chapter 34 - error as a share of the reading of a 0-200 L/min flow transmitter whose 0.5 % figure is
+% given as a share of span or as a share of reading (examples_q, diagrams/data/ch34-span.csv; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=58mm, xmin=0, xmax=200, ymin=0, ymax=10,
+      xlabel={دبیِ خوانده‌شده ($\mathrm{L/min}$)}, ylabel={خطا، درصدِ مقدارِ خوانده‌شده},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sLoss, no marks] table[x=q, y=span, col sep=comma] {data/ch34-span.csv};
+    \addplot[sWind, no marks] table[x=q, y=reading, col sep=comma] {data/ch34-span.csv};
+    \legend{درصدِ گستره, درصدِ مقدار}
+    \draw[sLimit] (axis cs:60,0) -- (axis cs:60,10);
+    \node[note, anchor=south west] at (axis cs:62,6.2) {هشدارِ دبیِ کم};
+    \draw[sLimit] (axis cs:120,0) -- (axis cs:120,10);
+    \node[note, anchor=south west] at (axis cs:122,6.2) {دبیِ عادی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

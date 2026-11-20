@@ -1,0 +1,10 @@
+weld rejects by shift, 1224 welds a shift (synthetic); centre from shifts 1-16
+  p-bar 0.0039, upper limit 0.0093
+  shift:   1   2   3   4   5   6   7   8   9  10  11  12
+  rejects   7   5   4   5   4   7   3   6   3   5   6   2
+  shift:  13  14  15  16  17  18  19  20  21  22  23  24
+  rejects   2   4   9   5  20  14   9   3   0   6   3   3
+  shifts above the limit: 17, 18
+  the chart sees a worn electrode cap within a shift or two;
+  each weld's resistance (lesson B) says which welds, the
+  chart says when the process changed (ch 40)

@@ -1,0 +1,18 @@
+MV cable insulation resistance, corrected to 20 C (teaching
+  rule: halves for every 10 C rise; the maker's or the
+  standard's correction applies in a real test)
+  skid   read MOhm  at C  corrected
+  S-01      2,600    22      2,987
+  S-02      2,400    24      3,167
+  S-03      2,900    20      2,900
+  S-04      1,100    38      3,830
+  S-05      2,300    25      3,253
+  S-06      2,500    23      3,078
+  S-07      2,200    26      3,335
+  S-08      2,700    21      2,894
+  S-09      1,500    21      1,608
+  S-10      1,900    30      3,800
+  lowest as read: S-04 (a hot bay); lowest corrected: S-09
+  compare readings only at one temperature: the hot skid is
+  normal, and the skid that looked ordinary is the one to
+  look at again (a damp termination?)

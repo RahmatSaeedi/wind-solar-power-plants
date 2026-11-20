@@ -1,0 +1,125 @@
+{
+  "name": "Plant P Reference Data Pack",
+  "release": "1.1.0",
+  "created": "2026-11-15",
+  "status": "synthetic teaching data; no real site, grid or product",
+  "generator": "companion/plantp_data/generate_release.py",
+  "seed": 20260101,
+  "site": {
+    "latitude_deg_n": 34.0,
+    "elevation_m": 1200.0,
+    "longitude": null,
+    "utc_offset": "+04:00",
+    "calendar_year_label": 2023,
+    "timestamp_convention": "start of hour, local standard time, no daylight saving"
+  },
+  "scenarios": [
+    "S0",
+    "S1"
+  ],
+  "supersedes": "1.0.0",
+  "compatibility": "minor release: additions only; all 1.0.0 time series, subsets, equipment files and scenarios byte-identical",
+  "subsets": {
+    "timeseries/subset_day_summer.csv": {
+      "description": "clearest day of June",
+      "first": "2023-06-23T00:00:00+04:00",
+      "last": "2023-06-23T23:00:00+04:00"
+    },
+    "timeseries/subset_day_winter.csv": {
+      "description": "median-irradiance day of December",
+      "first": "2023-12-02T00:00:00+04:00",
+      "last": "2023-12-02T23:00:00+04:00"
+    },
+    "timeseries/subset_week_spring.csv": {
+      "description": "week of 3-9 April",
+      "first": "2023-04-03T00:00:00+04:00",
+      "last": "2023-04-09T23:00:00+04:00"
+    }
+  },
+  "files": {
+    "CHANGELOG.md": {
+      "sha256": "b6f1e5eb17a102b9c709b3b85824df794eee5382c7515d93e6d87ddf32596654",
+      "bytes": 1106
+    },
+    "README.md": {
+      "sha256": "f886a1c1c80175da4596d0bf476480c8ed079259f17bb2906c6650a6c05026d0",
+      "bytes": 2094
+    },
+    "assets/asset_register_rev_A.csv": {
+      "sha256": "92b62b4f99a7e1ee01bb94890e00c1fdee3239719f9056290a1af9f0175e2224",
+      "bytes": 11191
+    },
+    "assets/asset_register_rev_B.csv": {
+      "sha256": "fa81125b062f988357fc699b55b711cebb07721fdeba3a0c038f9169da06b23b",
+      "bytes": 11646
+    },
+    "assets/change_notice.csv": {
+      "sha256": "7a3a6358933fc697c9359fdca4951fc0f3c3a52e2d8c0eda2582343ff23d4fb1",
+      "bytes": 784
+    },
+    "assumptions.csv": {
+      "sha256": "b2acc82b8addc1ee98f1964f4c2f4a8a4c200cd37bdb031cd10c4efc5c380d1e",
+      "bytes": 10526
+    },
+    "data_dictionary.csv": {
+      "sha256": "af17f07dc89cd5f65c35641c3be9017432598a391ef235857e9a6e3af6e578e0",
+      "bytes": 3023
+    },
+    "equipment/pv_module_PVM-550.yml": {
+      "sha256": "f2406e7d1fa8105ac161aa79adcf1060454641e545cc2ef39f182a164f820957",
+      "bytes": 717
+    },
+    "equipment/wind_turbine_WT-5.0-150.yml": {
+      "sha256": "5b3a3a3dca063dea04932b655f6f77fdd328046b01dd3bd4f08f275c7c4cc82b",
+      "bytes": 430
+    },
+    "equipment/wind_turbine_WT-5.0-150_power_curve.csv": {
+      "sha256": "672c82e3bfaee9a11cee89cc26c63673098b956f919ca59b0f1dbf0f8cb045ab",
+      "bytes": 558
+    },
+    "expected_results.json": {
+      "sha256": "58960c141d2faf486b63d05529220cadc1ecab6b92bd8a26dc901afa349bdce2",
+      "bytes": 505
+    },
+    "raw/met_mast_10min_raw.csv": {
+      "sha256": "124901d16cc4ae682f201ad33606325791ef723d9a3bda0333803c24e5dfca91",
+      "bytes": 24843
+    },
+    "raw/met_mast_defects_key.csv": {
+      "sha256": "3ecf5127904b6393f1335c30f5e7624e475fb19b3d57128fde70c5c3b15a4eee",
+      "bytes": 674
+    },
+    "raw/pv_scada_export.csv": {
+      "sha256": "cb264bf7543c23a98836a355a9a9533ac067399b4babd9217701baccaaa947a2",
+      "bytes": 2380
+    },
+    "scenarios/S0-no-bess.yml": {
+      "sha256": "1bbe995db7e158fa1fbc5439dab6d010e1e2c04980914cc8435bfb3d7c10e9ef",
+      "bytes": 223
+    },
+    "scenarios/S1-bess.yml": {
+      "sha256": "876cf7179ee86d134a70d066095b6e49b7aecdac827ec76847b5009f6410ff73",
+      "bytes": 728
+    },
+    "seed_ratings.csv": {
+      "sha256": "a01926ec5a766423c868862104c01d6c7727f1143c032aa6394bbb464f5ea8f6",
+      "bytes": 691
+    },
+    "timeseries/plantp_hourly_8760.csv": {
+      "sha256": "0b179863ba8707a5aa76ecc9e2f4d7792313781a01f12f9fa4a9ec1366287de2",
+      "bytes": 637995
+    },
+    "timeseries/subset_day_summer.csv": {
+      "sha256": "423f5f9bb8bf21fe3a358008c23617ba41021afe4dddf3508b20acca114b6bee",
+      "bytes": 1857
+    },
+    "timeseries/subset_day_winter.csv": {
+      "sha256": "f1f8e28f47f9019d45a123324125d1a28919d8639ba1ad072f8ea600b82bcdb8",
+      "bytes": 1817
+    },
+    "timeseries/subset_week_spring.csv": {
+      "sha256": "4be27a853e06222859f37e6769bf518be59ebcc6c6ef2fd41d5e9bc391c7b6c8",
+      "bytes": 12395
+    }
+  }
+}

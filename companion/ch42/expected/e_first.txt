@@ -1,0 +1,11 @@
+capability of a new blade mould from its first blades (observed Cpk 1.5)
+  blades measured   95 % lower bound   proves 1.33?
+                5               0.59   no
+               10               0.89   no
+               30               1.16   no
+              100               1.32   no
+  five blades cannot prove a capability, however good they
+  look, and even a hundred give only 1.32: the first
+  article proves the drawing is met; the process is released
+  on a plan that keeps measuring, and a target of 1.33 needs
+  an observed Cpk well above it (ch 40, capability interval)

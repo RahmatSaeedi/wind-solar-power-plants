@@ -1,0 +1,11 @@
+corrective jobs: minutes in each stage of the down time
+  T03 converter         5     90    180   2880    240     60     30
+  PVF2-3 fan           60    240     30      0     45     15     10
+  BESS-A C2 HVAC       10    120     90  24600    300     60     30
+  WS2 trip              1     45     60      0      0     30     20
+  PVF2-3 CB14 fuses  62000    480    120      0     60     20     10
+  stages: detect, respond, diagnose, wait parts, repair, test, return
+  share of all down time: detect 68%, respond 1%, wait parts 30%
+  the repair itself is a sliver: the combiner fault sat
+  undetected for 43 days (lesson D) and the HVAC part took 17
+  days to come - detection and parts are where hours are won

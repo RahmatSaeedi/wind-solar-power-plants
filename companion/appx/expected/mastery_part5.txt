@@ -1,0 +1,33 @@
+M61: grid fault level at the 33 kV bus MV-A: 364 MVA (6.37 kA); proves
+    switchgear duty with the grid maximum; data: POC level, transformer uk;
+    evidence: study + rating plates
+M62: 20 MW feeder: 350 A; installation factor 0.675; reference rating needed
+    519 A -> 400 mm2 (1 A to spare: marginal; a worse route section needs 630
+    mm2)
+M63: S1 battery HVAC about 320 kW against the 250 kVA station transformer (ch
+    25 finding): a separate supply is needed
+M64: 132 kV line: 437 A needs at least 0.74 m/s of wind at 45 C (ch 24); in
+    the data year no hour bound (ch 28, wind cools it)
+M65: two main transformers a year: load losses 507 MWh, no-load 613 MWh (all
+    year)
+M66: taps +/-10 % hold the 33 kV bus except at a 1.10 pu grid with output (ch
+    28): the units then absorb Q - an operating restriction
+M67: 5 kA feeder fault (test): feeder relay 0.29 s, incomer 0.67 s, margin
+    0.38 s (graded at 0.3 s)
+M68: line plant end: fault resistance seen x12 (grid infeed), plant fault
+    current 1.35 x full load: differential or intertrip, agreed at the shared
+    boundary
+M69: 33 kV bus with 1.77 Mvar of cables on 365 MVA: resonance h = 14.4
+M70: 5 Mvar filter tuned to 4.7 at 33 kV: C 13.95 uF, L 32.9 mH per phase
+M71: Plt of eleven Pst 0.3 and one 0.9: 0.441
+M72: 5th harmonic 95th percentile 1.83 % against a teaching 2.0 %: margin 9 %
+    - inside the measurement uncertainty; evidence: class-A instrument,
+    flagged intervals, uncertainty statement
+M73: POC rise for 100 MW at Q = 0 by hand 0.83 %; load flow 0.61 %
+M74: REQ-G04 ride-through: study C-frt with RMS (and EMT on a weak grid)
+    models; unit type test; evidence: type test + validated model; approved by
+    the operator
+M75: passive islanding relays blind ~1,760 h a year; intertrip on a 99.9 %
+    channel leaves 1.76 h a year
+M76: N-1: line maintenance day 810 MWh at random, 76 on a calm day; losses
+    4.41 against model 15.1's 3.29 GWh

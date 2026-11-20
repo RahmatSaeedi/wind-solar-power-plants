@@ -1,0 +1,12 @@
+SPT N to a screening friction angle and bearing (square 20 m, 3.5 m deep)
+  (phi = 27.1 + 0.3 N60 - 0.00054 N60^2, a published screening fit;
+   energy ratio unknown: 45 to 80 % -> N60 range)
+  layer at 3.5 m            N    N60 range    phi deg   q_ult kPa   FS 3 kPa
+  sand and gravel, dense     33     25 to  44      34.2        8438       2813
+  sand, medium dense (T07)   18     14 to  24      31.1        5362       1787
+  settlement under 200 kPa: 53 mm (E 60 MPa), 128 mm (E 25 MPa)
+  (lowest energy ratio used: the cautious end)
+  bearing is seldom what limits a turbine foundation on such
+  ground; settlement, rotational stiffness and the soft
+  layer at T07 are - questions for the geotechnical engineer
+  and ch 30, not a foundation chosen here

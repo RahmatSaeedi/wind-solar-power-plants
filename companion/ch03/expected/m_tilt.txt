@@ -1,0 +1,11 @@
+annual clear-sky BEAM irradiation on a south-facing plane at 34 deg N
+    (Meinel model 1353 x 0.7^(AM^0.678) W/m2; every 2nd day, 10-min steps)
+  tilt (deg):     0     5    10    15    20    25    30    35    40    45
+    50    55    60
+  kWh/m2:      1843  1926  1995  2048  2086  2109  2116  2107  2083  2043
+    1988  1919  1836
+  golden-section search on [0, 60]: optimum 29.7 deg after 12 steps; 2116
+    kWh/m2
+  horizontal plane 1843; latitude tilt (34 deg) 2110 kWh/m2
+  diffuse light, clouds and row shading are NOT in this model (chapters 10,
+    12, 15)

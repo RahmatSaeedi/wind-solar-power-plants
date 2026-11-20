@@ -1,0 +1,13 @@
+do the numbers add up? one hour at high output (teaching)
+  sum of the units' meters              101.8 MW
+  - unit transformers                     0.9 MW
+  - collector cables                      0.6 MW
+  - main transformers                     0.4 MW
+  - line                                  0.5 MW
+  expected at the POC                    99.4 MW
+  POC revenue meter                      98.9 MW
+  unexplained                            -0.5 MW (-0.5%)
+  an unexplained 0.5 % is larger than the meters' classes
+  allow: a unit meter, a loss model or a transducer is
+  wrong; the reconciliation runs every month and a
+  persistent gap is investigated like a PQ complaint

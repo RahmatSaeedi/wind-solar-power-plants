@@ -1,0 +1,10 @@
+rapid voltage change when a cloud takes 30 MW of PV in a minute
+  bus (S_sc MVA, X/R)            dU %, Q held   Q to cancel Mvar
+  POC, strong (1,500, 8)                -0.25                3.8
+  POC, weak (500, 5)                    -1.18                6.0
+  33 kV bus (365, 10)                   -0.82                3.0
+  a resistive grid feels active power, a reactive one the
+  reactive power: on a weak, resistive network a cloud is a
+  visible step; the converters' fast Q (lesson B) can cancel
+  it - the limit for rapid changes and flicker is the
+  operator's (the flicker report of the STD-130 family)

@@ -1,0 +1,10 @@
+E01 PV of 110 in one year at 10 %: 100.0
+E02 nominal rate for 4 % real and 2.5 % inflation: 6.60 %
+E03 IRR of -100, +60, +60: 13.07 %
+E04 annuity payment 100 at 10 % over 2 yr: 57.62
+E05 sculpted debt for CFADS 22, 22 at DSCR 1.10, 10 %: 34.71
+E06 DSCR of CFADS 13,837 on service 11,514: 1.202
+E07 IDC on 100 spent evenly over 2 yr at 10 %: 10.0
+E08 tax 25 % on 10, 10, 50 with depreciation 30, 0, 0: [0.0, 0.0, 10.0]
+E09 LCOE capex 100, 10 MWh a year for 2 yr at 0 %: 5.0
+E10 LC fee 1.5 % a year on 5,301: 80 k u

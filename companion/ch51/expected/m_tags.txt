@@ -1,0 +1,12 @@
+SCADA tags against the asset register after a year of changes
+  =PVF1-3-INV1       in the register
+  =PVF1-3-INV1-PS3   NOT in the register
+  =WS2-Q1            in the register
+  =T05-CONV          in the register
+  =T05-CONV-NEW      NOT in the register
+  =BESS-A-PCS2       in the register
+  =SUB-RTU-2         NOT in the register
+  3 tags exist in SCADA and nowhere else: a power stack
+  replaced under warranty, a converter swapped on T05, a second
+  RTU - each change made the tag; none raised the register
+  update: the change procedure lists the register as a step

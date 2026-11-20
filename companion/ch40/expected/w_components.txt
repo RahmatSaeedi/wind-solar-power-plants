@@ -1,0 +1,11 @@
+joint resistance: between skids or within a skid?
+  (one-way random-effects analysis, 5 joints a skid)
+  data                  var between  var within  share between
+  7 skids, good tools          0.00        1.86             0%
+  all 10 skids                 2.48        2.55            49%
+  joint means (good skids): 12.0, 13.2, 12.5, 12.1, 12.4
+  with good tools almost all the scatter is joint to joint,
+  so the fix lies in making each joint (surface, torque
+  sequence), not in anything a whole skid shares; with the
+  three tool-fault skids the between-skid part rises to 49%:
+  the same analysis points at the tool

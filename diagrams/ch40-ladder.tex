@@ -1,0 +1,23 @@
+% Chapter 40 - the test ladder from design verification to integrated plant tests: what each
+% kind of test proves, on what, and by whom (companion/ch40/examples_c.py LADDER, c_ladder).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    st/.style={blk, minimum width=44mm, minimum height=10mm, text width=42mm},
+    pr/.style={note, anchor=east, text width=62mm, align=right}]
+  \node[st, blkLoad] (a) at (0,0) {\textbf{راستی‌آزماییِ طراحی}};
+  \node[st, blkLoad] (b) at (0,-1.35) {\textbf{صلاحیت‌سنجیِ نوعی}};
+  \node[st, blkPV] (c) at (0,-2.7) {\textbf{آزمونِ جاری}};
+  \node[st, blkPV] (d) at (0,-4.05) {\textbf{آزمونِ پذیرشِ کارخانه}};
+  \node[st, blkBESS] (e) at (0,-5.4) {\textbf{آزمونِ پذیرشِ ساختگاه}};
+  \node[st, blkBESS] (f) at (0,-6.75) {\textbf{آزمون‌های یکپارچهٔ نیروگاه}};
+  \foreach \u/\v in {a/b, b/c, c/d, d/e, e/f} { \draw[flow] (\u) -- (\v); }
+  \node[pr] at (-2.5,0) {طراحی الزام‌هایش را برآورده می‌کند؛ محاسبه، مدل، نمونهٔ اولیه};
+  \node[pr] at (-2.5,-1.35) {نمونه‌ای از طراحی آزمون‌های نوعی را می‌گذراند؛ آزمایشگاهِ تأییدشده};
+  \node[pr] at (-2.5,-2.7) {هر واحد همان‌طور که طراحی شده ساخته شده است؛ هر واحد};
+  \node[pr] at (-2.5,-4.05) {واحدِ سرهم‌شده با سفارش می‌خواند؛ سازنده و مالک};
+  \node[pr] at (-2.5,-5.4) {سالم رسیده و درست نصب شده است؛ پیمانکار و مالک};
+  \node[pr] at (-2.5,-6.75) {نیروگاه به‌عنوانِ یک سامانه کار می‌کند؛ مالک و بهره‌بردارِ شبکه};
+  \node[note, text width=110mm] at (-2.6,-7.75) {هیچ پله جای پلهٔ دیگر را نمی‌گیرد: آزمونِ کارخانه آسیبِ حمل را نمی‌بیند و آزمونِ ساختگاه اتصالی را که فقط در بارِ کاملِ تیر گرم می‌شود.};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,12 @@
+test instruments against the tolerance each result is judged by
+  (ch 40 asks for a ratio of 4)
+  test                                  tolerance  uncertainty  ratio
+  relay operating time at 0.86 s         0.083 s       0.01 s       8.3
+  string Voc at 1,217 V                   36.5 V        6.1 V       6.0
+  reactive power at the POC                  1 Mvar    0.33 Mvar    3.0
+  PR from the reference pyranometer          2 %       1.05 %       1.9
+  below 4: reactive power at the POC, PR from the reference pyranometer
+  the PR test's own instrument is the weak one: the
+  calibration chain of ch 48 (ratio 1.4) carries into the
+  guarantee - which is why the lower bound of lesson B
+  fell just below the guarantee

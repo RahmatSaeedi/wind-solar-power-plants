@@ -1,0 +1,11 @@
+UT repairs of section 1 by welder: 5 repairs in 104 m (4.8 a 100 m)
+  welder   metres   repairs   expected   upper limit (3 sigma)
+  W-11       38         0       1.83       5.88
+  W-12       12         1       0.58       2.86
+  W-13       22         0       1.06       4.14
+  W-14       32         4       1.54       5.26
+  above the limit: none
+  W-14 made four of the five repairs but stays under the
+  Poisson limit: with 104 m in all the data are too few to call
+  it a welder problem - the next sections' repairs are added
+  to the same chart before anyone is retrained

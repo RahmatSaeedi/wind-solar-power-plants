@@ -1,0 +1,7 @@
+LV delta read line to line, one phase 2% high (teaching)
+  line readings ohm: 0.04681, 0.04635, 0.04635
+  spread of the line readings 0.99%
+  phases solved back: 0.07069, 0.06930, 0.06930
+  the phase fault shows at 50% of its size in the
+  line readings: a delta shares each reading among all three
+  phases - the comparison is made on solved phase values

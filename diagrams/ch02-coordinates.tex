@@ -1,0 +1,48 @@
+% Chapter 2 — Plant P conventions: azimuth and wind direction (left), sign of power at the
+% point of connection (right). First hour of data pack 1.0.0: 4.44 m/s from 163 deg.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  % ---------------- left: compass ----------------
+  \begin{scope}
+    \draw[cRule, line width=0.6pt] (0,0) circle (2.6);
+    \foreach \a/\t in {0/{$0^\circ$ شمال}, 90/{$90^\circ$ شرق}, 180/{$180^\circ$ جنوب}, 270/{$270^\circ$ غرب}} {
+      \draw[cInkB, line width=0.5pt] ({2.6*sin(\a)},{2.6*cos(\a)}) -- ({2.85*sin(\a)},{2.85*cos(\a)});
+      \node[text=cInk] at ({3.4*sin(\a)},{3.3*cos(\a)}) {\t};
+    }
+    \draw[cMuted, line width=0.4pt] (-2.6,0) -- (2.6,0);
+    \draw[cMuted, line width=0.4pt] (0,-2.6) -- (0,2.6);
+    % clockwise azimuth arc
+    \draw[-{Stealth[length=2mm]}, cInkB, line width=0.6pt] (0,1.15) arc[start angle=90, end angle=-15, radius=1.15];
+    \node[text=cInkB, anchor=west] at (1.05,0.95) {ساعت‌گرد};
+    % wind from 163 deg: arrow from outside towards the centre
+    \draw[-{Stealth[length=2.6mm]}, cWind, line width=1.3pt]
+        ({2.45*sin(163)},{2.45*cos(163)}) -- ({-1.6*sin(163)},{-1.6*cos(163)});
+    \node[text=cInk, anchor=north west, align=left] at ({2.45*sin(163)+0.05},{2.45*cos(163)-0.05})
+        {باد از $163^\circ$};
+    \node[text=cInk, anchor=south, align=center] at ({-1.6*sin(163)+0.35},{-1.6*cos(163)+0.1})
+        {به سوی $343^\circ$};
+    % PV array facing south: azimuth 180
+    \fill[cPV!25, draw=cPV, line width=0.8pt] (-1.55,-1.15) rectangle (-0.75,-0.85);
+    \draw[-{Stealth[length=2mm]}, cPV, line width=1pt, dash pattern=on 4pt off 2pt] (-1.15,-1.15) -- (-1.15,-1.95);
+    \node[text=cInk, anchor=east, align=center] at (-1.25,-1.75) {رو به جنوب:\\سمت $180^\circ$};
+    \node[text=cInk, font=\small\bfseries] at (0,-4.1) {الف) سمت از شمالِ جغرافیایی، ساعت‌گرد};
+  \end{scope}
+
+  % ---------------- right: sign of power ----------------
+  \begin{scope}[xshift=8.6cm, yshift=0.2cm]
+    \node[blk, minimum width=26mm, minimum height=14mm] (plant) at (-1.9,0) {نیروگاهِ P};
+    \node[blkLoad, minimum width=26mm, minimum height=14mm] (grid) at (3.1,0) {شبکه};
+    \draw[cLoss, line width=1pt] (0.6,1.6) -- (0.6,-1.6);
+    \node[text=cInk, anchor=south] at (0.6,1.6) {نقطهٔ اتصال};
+    \draw[flow, line width=1.1pt] (-0.55,0.45) -- (1.75,0.45);
+    \node[text=cInk, anchor=south] at (0.6,0.5) {$P > 0$: صادرات};
+    \draw[flow, line width=1.1pt, densely dashed] (1.75,-0.45) -- (-0.55,-0.45);
+    \node[text=cInk, anchor=north] at (0.6,-0.5) {$P < 0$: واردات};
+    \node[note, anchor=north, text width=64mm] at (0.6,-2.0)
+       {قراردادِ نیروگاهِ P: توانِ اکتیو در نقطهٔ اتصال با جهتِ \emph{بیرون از نیروگاه} مثبت است
+        (قراردادِ مولد). هر جدول و نرم‌افزار باید قراردادِ خود را بنویسد.};
+    \node[text=cInk, font=\small\bfseries] at (0.6,-4.3) {ب) علامتِ توان};
+  \end{scope}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,7 @@
+changes to the control system in a year (teaching)
+  60 changes, each with a backup before and after (30 min)
+  and a test (1.5 h): 120 h of work
+  each change: request, risk check, approval, backup,
+  change, test, fingerprint compared, backup, record. An
+  emergency change follows the same record afterwards; a
+  change outside this path is itself an incident

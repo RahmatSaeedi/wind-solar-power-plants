@@ -1,0 +1,7 @@
+a zone with daylight saving (Europe/Berlin), length of three local days:
+  2023-03-26: 23 hours
+  2023-10-29: 25 hours
+  2023-06-01: 24 hours
+  02:30 on 2023-10-29 happens twice: fold=0 -> 00:30 UTC, fold=1 -> 01:30 UTC
+a plant there that stores local clock times without offset loses one hour in
+    March and double-counts one in October

@@ -1,0 +1,11 @@
+export route options, site substation to the 132 kV substation
+  (teaching cost raster A-262; straight-line distance 6.22 km):
+  route            km    farm km   wadi   ruin m   homes < 500 m   cost
+  straight line    6.41    3.50     0      226         0          inf
+  least cost       7.06    0.00     0      426         0          7.1
+  south, by road   8.72    0.00     2    2,192         0         12.0
+  the straight line is infinite-cost (it crosses the ruin's no-go
+  buffer and farmland); the least-cost route bends around them;
+  the road route is longer but uses the road for access and
+  keeps the line out of the fields; a cost raster is a way to
+  argue, not a verdict: its weights are written down

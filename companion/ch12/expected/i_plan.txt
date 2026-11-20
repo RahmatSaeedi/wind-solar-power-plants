@@ -1,0 +1,19 @@
+measurement and data-quality plan of the Plant P station (PLP-GEN-PRO-0001):
+  instruments: GHI and DHI (shadow ball) thermopile pyranometers,
+    DNI pyrheliometer on a sun tracker, two POA reference cells
+    (a redundant pair), rear-side cell, soiling pair,
+    air temperature, humidity, pressure, rain, wind at 2 and 10 m
+  sampling 1 s, stored one-minute mean/min/max; clock synchronised
+    daily and logged; all times in local standard time +04:00
+  quality control: missing, limits (physically possible, extremely
+    rare), closure, night offset, stuck, clock (clear days), weekly
+    ratio to the provider series; every flag kept with the value
+  maintenance: dome cleaning daily in the dry season (log with
+    time), levelling and desiccant monthly, tracker alignment
+    weekly; recalibration by an accredited laboratory or by
+    comparison on site at the interval the plan sets
+  acceptance of a month: recovery after QC at least the plan's
+    target (teaching: 95 %), closure within 8 % on 95 % of hours,
+    ratio to provider stable within 2 % of its annual mean
+  outputs: monthly QC report, filled hourly series with flags,
+    soiling-loss series and rain events for the cleaning decision

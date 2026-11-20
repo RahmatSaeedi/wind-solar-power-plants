@@ -1,0 +1,13 @@
+POC active power traced from the sensor to the operator's screen
+  hop                              worst ms   adds
+  CT/VT and transducer (ch 34)        100.0   filter of the measurement
+  protection/measuring IED             20.0   sample, compute; TIME STAMP
+  ring and substation switches          0.1   store and forward
+  gateway / RTU                        50.0   sends changes; new protocol
+  SCADA server scan                  1000.0   waits for the next 1 s scan
+  operator screen refresh            1000.0   waits for the next refresh
+  worst-case age on the screen: 2.17 s; typical about 1.2 s
+  the value keeps the time stamp of the IED and the quality
+  it had there through every hop; the screen shows its age,
+  and the controller of ch 34 never takes this path - it
+  reads the transducer directly

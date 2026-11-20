@@ -1,0 +1,18 @@
+% Chapter 35 - the plant's energy in MWh against the value read through a 16-bit signed register that
+% wraps at 32,767 (808 MWh a day, ch 15; examples_b; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, xmin=0, xmax=100, ymin=-46000, ymax=85000,
+      scaled y ticks=false, yticklabel style={/pgf/number format/fixed, /pgf/number format/1000 sep={{,}}},
+      xlabel={روز}, ylabel={انرژیِ شمرده‌شده (MWh)},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sLimit, no marks, domain=0:100, samples=2] {808*x};
+    \addplot[sLoss, no marks, domain=0:40.55, samples=2] {808*x};
+    \addplot[sLoss, no marks, domain=40.56:100, samples=2, forget plot] {808*x - 65536};
+    \legend{انرژیِ واقعی, ثبّاتِ ۱۶ بیتی}
+    \draw[sLoss, densely dotted] (axis cs:40.55,32767) -- (axis cs:40.55,-32768);
+    \node[note, anchor=west] at (axis cs:42,-41000) {روزِ ۴۱: از $32{,}767$ به $-32{,}768$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

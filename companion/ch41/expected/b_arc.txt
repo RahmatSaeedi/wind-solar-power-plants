@@ -1,0 +1,12 @@
+reflectance of polished silicon, 400-1100 nm (flat weighting)
+  case                                 mean R   x2 bounces
+  bare, in air                          35.0%     12.28%
+  75 nm n 2.0, in air                    9.0%      0.82%
+  75 nm n 2.0, under encapsulant         7.2%      0.52%
+  75 nm n 2.2, under encapsulant         5.4%      0.29%
+  the minimum sits at 4 n d = 600 nm; 5 nm thicker moves it to 640 nm,
+  which the eye sees as colour - cells are sorted by colour
+  so a module looks even; under the encapsulant a higher
+  index works better; texture sends the reflected light to a
+  second facet (about R squared): optics are designed for the
+  module, not for the bare cell

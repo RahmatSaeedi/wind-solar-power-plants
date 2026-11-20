@@ -1,0 +1,9 @@
+faults over 25 years in a 4.4 km string: cable against joints
+  (teaching rates: 0.002 per km a year, 0.002 per joint a year)
+  drum m   joints   cable faults   joint faults   total
+     500        8           0.22           0.40    0.62
+     750        4           0.22           0.20    0.42
+    1100        0           0.22           0.00    0.22
+  with short drums the joints fail more often than the cable
+  itself: fewer joints, and joints made by qualified jointers
+  with records, are the cheapest reliability (lesson B)

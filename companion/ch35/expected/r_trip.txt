@@ -1,0 +1,14 @@
+a new export limit from the grid operator: round trip (teaching)
+  step                                       s
+  grid operator to gateway (WAN)              0.40
+  gateway to plant controller                 0.05
+  validation and next controller cycle        0.20
+  units start to move                         0.50
+  ramp 20 MW at 10 MW a minute              120.00
+  telemetry of the new value back             0.80
+  total 122.0 s, of which communication and control 1.45 s
+  the network and the controller take under two seconds; the
+  ramp the plant is allowed takes two minutes. A requirement
+  on response time is checked against the whole chain, and
+  the acknowledgement (set point received) is sent at once,
+  long before the plant has reached the new value

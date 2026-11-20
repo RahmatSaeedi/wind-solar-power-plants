@@ -1,0 +1,14 @@
+% Chapter 9 - current from a 12 mF DC-link at 1000 V into a cable fault (50 mohm, 20 uH; A-172).
+% Data: diagrams/data/ch09-dcfault.csv (companion/ch09/examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=58mm, xmin=0, xmax=3, ymin=-2, ymax=14,
+      xlabel={زمان، $\text{ms}$}, ylabel={جریان، $\text{kA}$}, xtick={0,0.5,...,3},
+      xticklabels={$0$,$0.5$,$1.0$,$1.5$,$2.0$,$2.5$,$3.0$}, ytick={0,4,8,12}]
+    \addplot[sLoss] table[x=t, y=i, col sep=comma] {data/ch09-dcfault.csv};
+    \fill[cInk] (axis cs:0.56,12.1) circle (1.5pt);
+    \node[note, text=cInk, anchor=west] at (axis cs:0.65,12.3) {قلهٔ $12.1\ \text{kA}$ پس از $0.56\ \text{ms}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

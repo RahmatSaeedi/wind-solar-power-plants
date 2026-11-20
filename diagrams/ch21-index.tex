@@ -1,0 +1,15 @@
+% Chapter 21 - the PPA tariff in year-1 money when it is indexed at 2 % and inflation is 2.5 % or
+% 6 % (A-307). Data: diagrams/data/ch21-index.csv (companion/ch21/examples_h.py indexation()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=1, xmax=20, ymin=20, ymax=75,
+      xlabel={سالِ قرارداد}, ylabel={تعرفهٔ واقعی (واحد بر مگاوات‌ساعت)}, xtick={1,5,10,15,20},
+      ytick={20,30,...,70}, legend columns=1,
+      legend style={at={(0.03,0.03)}, anchor=south west, font=\footnotesize}]
+    \addplot[sWind] table[x=y, y=i25, col sep=comma] {data/ch21-index.csv};
+    \addplot[sLoss] table[x=y, y=i60, col sep=comma] {data/ch21-index.csv};
+    \legend{تورمِ ۲٫۵ درصد, تورمِ ۶ درصد}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

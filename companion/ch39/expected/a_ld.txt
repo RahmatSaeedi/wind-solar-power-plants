@@ -1,0 +1,10 @@
+delay damages on the transformer order: 0.5 % a week, cap 10 % (teaching)
+  weeks late   damages k u   cap reached
+           2          11.6   no
+           8          46.4   no
+          20         116.0   yes
+          30         116.0   yes
+  a week of late PV costs the project about 145 k u (107 GWh/yr at 70 u/MWh);
+  the damages pay 5.8 k u a week and stop at 116 k u. They
+  are a pre-agreed estimate, not insurance: the schedule
+  float and the follow-up of the order protect the project

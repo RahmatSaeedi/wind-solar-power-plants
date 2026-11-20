@@ -1,0 +1,20 @@
+IFC Performance Standards (STD-108) against the Afghanistan sources
+  (they apply only if the lenders require them)
+  PS1 E&S assessment and management
+      Afghanistan sources: ESIA regulation listed (AF-34)
+  PS2 labour and working conditions
+      Afghanistan sources: no source read
+  PS3 resource efficiency, pollution
+      Afghanistan sources: water guideline (AF-17)
+  PS4 community health, safety, security
+      Afghanistan sources: no source read
+  PS5 land acquisition, resettlement
+      Afghanistan sources: 2016 law Art 23 (AF-37), status tbc
+  PS6 biodiversity
+      Afghanistan sources: ESIA screening (AF-34)
+  PS7 indigenous peoples
+      Afghanistan sources: applicability by qualified review only
+  PS8 cultural heritage
+      Afghanistan sources: 2004 law (AF-40), procedure tbc
+  lenders that can lend at all (AF-25, AF-27) bring their own
+  frameworks; the dossier records which one, with its source

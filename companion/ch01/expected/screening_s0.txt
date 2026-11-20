@@ -1,0 +1,14 @@
+Plant P - first-pass (screening) numbers
+data: Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS)
+assumptions: PR_dc = 0.85, inverter efficiency = 0.98, wind losses = 0.12;
+    horizontal irradiance used for the PV array
+
+PV   energy    97.3 GWh/yr, capacity factor (50 MW AC) 0.222
+wind energy   192.5 GWh/yr, capacity factor (60 MW)    0.366
+sum           289.8 GWh/yr
+PV DC/AC ratio 1.20: 17 h at the inverter limit, 15.7 MWh clipped (0.02 % of
+    unclipped AC)
+highest hourly PV + wind 102.7 MW (export limit 100 MW)
+hours above the export limit: 8
+S0 curtailed 13.8 MWh/yr (0.005 % of generation)
+S0 exported 289.8 GWh/yr, capacity factor (100 MW) 0.331

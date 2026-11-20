@@ -1,0 +1,5 @@
+table slope length 4.6 m (assumed), tilt 25 deg (assumed)
+height h = 4.6 sin 25 = 1.944 m; ground projection 4.6 cos 25 = 4.169 m
+winter-solstice noon elevation 32.55 deg: shadow h / tan(el) = 3.046 m
+row pitch = 7.215 m; ground cover ratio 4.6 / pitch = 0.638
+at 10:00 solar time the sun is lower: elevation 25.86 deg

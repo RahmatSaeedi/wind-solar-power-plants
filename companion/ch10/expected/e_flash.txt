@@ -1,0 +1,13 @@
+120 modules labelled 550 W (class 550.0 .. 555.0 W), A-198:
+  factory flash: mean 552.9 W, min 550.3, max 554.9
+  laboratory re-measurement of 12: mean 550.5 W, spread (1 s) 4.6 W
+  lab / factory on the same 12: 0.9952
+  expanded uncertainty of the sample mean (k 2) +-9.2 W
+  conformity proven (mean - U >= 550 W)? 541.3 W -> no
+  non-conformity proven (mean + U < 550 W)? 559.7 W -> no
+  neither: the result lies in the zone of uncertainty and only
+  the decision rule written in the contract settles it
+  individual lab values below 550 W: 6 of 12
+  a lab result a little under the label is not by itself a
+  defect: the label is the maker's flasher with its own
+  calibration; the contract says which measurement decides

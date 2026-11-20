@@ -1,0 +1,14 @@
+acceptance sampling by attributes: probability of accepting
+a lot against its true share of defective modules (A-201):
+  defect %   n 50, c 1   n 125, c 3   n 200, c 5
+       0.2       0.995        1.000        1.000
+       0.5       0.974        0.996        0.999
+       1.0       0.911        0.963        0.984
+       2.0       0.736        0.759        0.787
+       3.0       0.555        0.481        0.443
+       5.0       0.279        0.124        0.062
+       8.0       0.083        0.008        0.001
+  a larger sample separates good and bad lots more sharply;
+  no plan proves a lot free of defects: the contract names
+  the plan, the acceptance number and what happens to a
+  rejected lot (sorting, return, claim)

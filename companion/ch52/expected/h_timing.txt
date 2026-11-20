@@ -1,0 +1,6 @@
+an 8-hour line outage for insulator inspection: energy not exported
+  08-16 on an average day: 410 MWh; 22-06: 201 MWh
+  the night saves 209 MWh an outage, but the network
+  owner's crews work days and a night outage needs lighting,
+  a night permit and access (ch 32): the window is agreed,
+  not chosen by the plant alone

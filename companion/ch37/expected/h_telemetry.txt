@@ -1,0 +1,10 @@
+600 service hours, 9 failed, 14 with bad-quality telemetry
+  settlement rule (placeholder)          hours failed   availability
+  bad telemetry counts as failed                  23         96.17 %
+  bad telemetry excluded                           9         98.46 %
+  bad telemetry replaced by the meter             11         98.17 %
+  (with the revenue meter as backup, 2 of the 14 hours turn
+  out to be real failures)
+  the same month gives three results; the rule is in the
+  requirement, and the plant's own telemetry quality is
+  part of its performance (ch 34, ch 35)

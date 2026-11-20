@@ -1,0 +1,12 @@
+revenue metering seals at the quarterly inspection against the
+  seal register
+  M-01 main        register S-40211  seen S-40211  ok
+  M-02 check       register S-40212  seen S-40212  ok
+  CT box E1        register S-40213  seen S-40213  ok
+  VT box E1        register S-40214  seen S-40214  ok
+  test block M-01  register S-40215  seen S-40398  FINDING
+  test block M-02  register S-40216  seen none     FINDING
+  a test block opened and resealed with an unregistered seal,
+  and one left unsealed: each is a record to close with the
+  person and the reason (a test, a fault), and the energy of
+  the open period is checked against the check meter

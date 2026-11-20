@@ -1,0 +1,22 @@
+% Chapter 28 - three-phase fault currents at four buses: grid contribution and converter
+% contribution in the maximum case (stacked), and the grid-only minimum case (marks);
+% data diagrams/data/ch28-faults.csv from companion/ch28/examples_b.py short_circuit().
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, ybar stacked, bar width=9mm,
+      xmin=-0.6, xmax=3.6, ymin=0, ymax=10, xtick={0,1,2,3},
+      xticklabels={POC, HV, MV-A, WS1}, ylabel={جریانِ اتصالِ کوتاه $(\text{kA})$},
+      area legend, legend columns=2, legend style={at={(0.5,-0.22)}}]
+    \addplot[draw=cInkB, fill=cInkB!25] table[x expr=\coordindex, y=grid, col sep=comma] {data/ch28-faults.csv};
+    \addplot[draw=cWind, fill=cWind!45] table[x expr=\coordindex, y=conv, col sep=comma] {data/ch28-faults.csv};
+    \legend{شبکه، بیشینه, مبدل‌ها، بیشینه}
+  \end{axis}
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=-0.6, xmax=3.6, ymin=0, ymax=10,
+      axis lines=none, ymajorgrids=false, legend style={at={(0.5,-0.34)}}]
+    \addplot[only marks, mark=diamond*, mark size=3pt, color=cLoss]
+      table[x expr=\coordindex, y=min, col sep=comma] {data/ch28-faults.csv};
+    \legend{کمینه، فقط شبکه}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

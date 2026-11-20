@@ -1,0 +1,12 @@
+decision record D-026 (site and next stage):
+  decision: develop P-Central to G4; P-South kept on file,
+            unfunded; P-North stopped (two flags)
+  evidence: flags (A), scores and stability (B), plan and
+            review (C), money and challenge (D), gates (E),
+            financeability (F), social screen (G), tree (H)
+  equity IRR %: P-North 9.85, P-Central 10.21, P-South 8.03
+  NPV today k u: P-North 4,646, P-Central 4,740, P-South -6,506
+  conditions: grid offer, ESIA approval, land agreements,
+              PPA, EPC price before the investment decision
+  owner of the decision: the developer's board; advisers:
+  yield, grid, ESIA, social, legal (local counsel)

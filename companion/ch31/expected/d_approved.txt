@@ -1,0 +1,12 @@
+what an approved lift plan contains (this lab is not one)
+  1. crane configuration and the crane maker's load chart for it
+  2. load data: mass, centre of gravity, lifting points (component maker)
+  3. rigging: slings, shackles, spreader - certificates and inspection
+  4. ground: pad bearing and mats (calculation and test, ch 29 / ch 30)
+  5. weather limits and how they are measured on site
+  6. exclusion zone, communications, roles and stop rules
+  7. method statement and risk assessment, rescue arrangements
+  8. signatures: lift planner, appointed person, crane operator
+  this chapter plans and asks; the approved plan is written
+  and signed by competent people for the real crane, load
+  and day - teaching numbers never go into it

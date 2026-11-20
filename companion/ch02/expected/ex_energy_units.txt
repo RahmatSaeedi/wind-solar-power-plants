@@ -1,0 +1,4 @@
+289.8 GWh = 289,800 MWh = 0.2898 TWh
+          = 1,043 TJ = 1.043 PJ
+          = 24,918 toe (1 toe = 41.868 GJ)
+one module, 550 W for 1 h = 1,980 kJ = 0.55 kWh

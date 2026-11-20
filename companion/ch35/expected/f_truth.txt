@@ -1,0 +1,10 @@
+source of truth of each kind of data (teaching)
+  data                           authoritative source     owner
+  asset identity and attributes  asset register (EAM)     asset engineer
+  measurements and states        SCADA / historian        control engineer
+  topology (what feeds what)     one-line (ch 23)         electrical lead
+  work orders and history        CMMS                     maintenance lead
+  settings and configurations    settings register        protection/control
+  every other copy is a copy: it is refreshed from the
+  source, carries the source's time stamp, and is never
+  edited where it is read

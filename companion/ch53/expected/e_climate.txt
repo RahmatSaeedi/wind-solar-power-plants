@@ -1,0 +1,6 @@
+hours at or above 40 C (inverter derating, teaching) in the data year,
+  and with the whole year 1.5 K warmer (a teaching stress, not a forecast)
+  >= 40 C: 5 h now, 14 h warmer; >= 35 C: 213 h now, 423 h warmer
+  the derating hours multiply while the mean barely moves:
+  climate exposure is read in the tail - cooling margins and
+  heat-work rules (ch 51) are reviewed against it

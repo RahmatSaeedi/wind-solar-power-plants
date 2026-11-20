@@ -1,0 +1,7 @@
+four-wire micro-ohm meter on weld resistance: 10 welds x 3 operators x 2
+  repeatability sd 0.43 uohm, reproducibility sd 0.08 uohm
+  %GRR of the spread 22 %, distinct categories 6
+  against the 10 uohm between a good weld and the limit: 6 sd = 26%
+  the meter tells good welds apart only roughly but separates
+  a cold weld (40 uohm above) without doubt: what a gauge must
+  do depends on the decision it serves (ch 40)

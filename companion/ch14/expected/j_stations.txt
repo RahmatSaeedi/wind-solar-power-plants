@@ -1,0 +1,10 @@
+DC feeders from 210 combiner boxes to 10 inverter stations
+  (straight-line length, PV block 1,100 x 800 m of rows):
+  station placement                 mean m   longest m   total km
+  all at the east edge                 579       1065      121.7
+  one row through the middle           215        375       45.1
+  5 x 2 grid, sub-block centres        119        186       24.9
+  the grid placement keeps the longest feeder near chapter 6's
+  180 m (A-018); stations at the edge save MV cable and road
+  but lengthen every DC feeder (losses, voltage drop, copper):
+  the block layout is a cable-and-road optimum (chapters 6, 24)

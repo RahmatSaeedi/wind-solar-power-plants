@@ -1,0 +1,28 @@
+% Chapter 19 - battery fire-protection interfaces at architecture level: inside the container the
+% detection layers and the BMS; around it the interfaces whose values come from the authority, the
+% hazard mitigation analysis and product tests (no values, no prescriptions; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    i/.style={blk, minimum width=30mm, minimum height=10mm, align=center, text width=29mm},
+    o/.style={blkWarn, minimum width=30mm, minimum height=10mm, align=center, text width=29mm}]
+  \draw[draw=cBESS, fill=cBESS!7, line width=1pt, rounded corners=3pt] (4.6,-1.6) rectangle (10.4,2.6);
+  \node[note] at (7.5,2.9) {کانتینرِ باتری};
+  \node[i] (bms) at (7.5,1.7) {مدیریتِ باتری: ولتاژ، دما};
+  \node[i] (gas) at (7.5,0.5) {آشکارسازِ گاز};
+  \node[i] (smk) at (7.5,-0.7) {دود و گرما};
+  \node[o] (iso) at (13.2,1.7) {جداسازیِ از راه دور};
+  \node[o] (ven) at (13.2,0.0) {تهویه یا مهارِ انفجار};
+  \node[o] (sep) at (13.2,-1.7) {فاصله و دیوارهٔ جداکننده};
+  \node[o] (acc) at (1.8,1.7) {دسترسیِ امدادی و اطلاعات};
+  \node[o] (wat) at (1.8,0.0) {آب برای محافظتِ مجاورها};
+  \node[o] (run) at (1.8,-1.7) {مهارِ روان‌آب};
+  \draw[flowinfo] (bms.east) -- (iso.west);
+  \draw[flowinfo] (gas.east) -- (ven.west);
+  \draw[flowinfo] (smk.east) -- (11.2,-0.7) |- (sep.west);
+  \draw[flowinfo] (bms.west) -- (acc.east);
+  \draw[flowinfo] (gas.west) -- (wat.east);
+  \draw[flowinfo] (smk.west) -- (3.8,-0.7) |- (run.east);
+  \node[note, text width=125mm] at (7.5,-2.8) {مقدارِ هر رابطِ قرمز را مقامِ مسئول، تحلیلِ کاهشِ خطر و آزمونِ بزرگ‌مقیاسِ محصول تعیین می‌کنند، نه این کتاب};
+\end{tikzpicture}
+\end{document}

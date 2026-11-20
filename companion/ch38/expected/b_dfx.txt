@@ -1,0 +1,13 @@
+design-for-X review of the inverter skid (teaching outcomes)
+  for            change                                   result
+  manufacture    one busbar size instead of three         parts 31 -> 22
+  assembly       cable entry from below, no rear access   skid 0.6 m narrower
+  test           test terminals for CT and VT circuits    FAT 2 days -> 1
+  maintenance    fans replaceable from the front          fan 4 h -> 1 h
+  transport      skid within road width 2.4 m             no escort (ch 31)
+  24 fan changes a year x 3 h saved = 72 hours of inverter downtime
+    avoided
+  each review is held while the design can still change, with
+  the maker, the installer and the operator in the room;
+  their findings go into the design basis, not into a
+  later deviation

@@ -1,0 +1,21 @@
+sixteen drawing types and the one question each answers
+  drawing                 answers                        source
+  concept block diagram   which functions and flows      architecture
+  energy-flow diagram     where energy goes, is lost     yield model
+  site layout             where everything stands        GIS
+  one-line diagram        how power is connected         network model
+  circuit schematic       how one circuit works          design tool
+  wiring / termination    which wire to which terminal   cable database
+  grounding layout        earth conductors, joints       earthing study
+  protection zones        which relay covers what        settings
+  control architecture    who commands what              control design
+  physical network        cables, ports, switches        network database
+  logical network         subnets, flows, services       network database
+  zones and conduits      allowed paths between zones    security design
+  panel arrangement       where devices sit              panel design
+  assembly / exploded     how parts fit together         3D model
+  fabrication drawing     how one part is made           3D model
+  as-built drawing        what was actually built        redlines, survey
+  a one-line says how power is connected, not which wire
+  goes where; a wiring diagram says which wire, not how the
+  network is built - none can stand in for another

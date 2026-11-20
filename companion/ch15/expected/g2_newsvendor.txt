@@ -1,0 +1,22 @@
+revenue against the offered quantile (no battery, A-268 prices):
+  quantile   training k u (8 months)   test k u (4 months)
+      0.10          8,105                   4,223
+      0.15          8,317                   4,316
+      0.20          8,423                   4,360
+      0.25          8,457                   4,374
+      0.30          8,466                   4,379
+      0.35          8,453                   4,375
+      0.40          8,427                   4,366
+      0.45          8,392                   4,353
+      0.50          8,362                   4,342
+      0.55          8,354                   4,338
+      0.60          8,282                   4,308
+      0.65          8,165                   4,256
+      0.70          7,994                   4,178
+      0.75          7,758                   4,068
+      0.80          7,437                   3,913
+      0.85          6,995                   3,699
+      0.90          6,225                   3,321
+  best quantile: training 0.30, test 0.30; theory 1/3
+  the curve is flat near its top: a quantile a little off costs
+  little, a median offer costs more, a high quantile much more

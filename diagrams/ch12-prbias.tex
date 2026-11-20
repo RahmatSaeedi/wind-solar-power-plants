@@ -1,0 +1,15 @@
+% Chapter 12 - soiling loss over one year: modules cleaned only by rain, a sensor cleaned weekly and
+% one never cleaned (A-195, A-247). Data: diagrams/data/ch12-prbias.csv (companion/ch12/lab_e.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=0, xmax=366, ymin=0, ymax=30,
+      xlabel={روزِ سال}, ylabel={افتِ ناشی از گرد و غبار، درصد}, xtick={0,60,...,360},
+      ytick={0,5,...,30}, legend pos=north west, legend columns=1]
+    \addplot[sLoss] table[x=day, y=module, col sep=comma] {data/ch12-prbias.csv};
+    \addlegendentry{ماژول‌ها و حس‌گرِ تمیزنشده}
+    \addplot[sWind] table[x=day, y=weekly, col sep=comma] {data/ch12-prbias.csv};
+    \addlegendentry{حس‌گرِ تمیزشدهٔ هفتگی}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

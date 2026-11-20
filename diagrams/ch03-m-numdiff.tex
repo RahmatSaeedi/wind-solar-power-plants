@@ -1,0 +1,18 @@
+% Chapter 3 — error of forward and central finite differences for the derivative of e^x at 1
+% against the step h: truncation error falls with h, round-off error grows. Data: ch03-m-numdiff.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{loglogaxis}[plantp, width=118mm, height=66mm,
+      xlabel={گام $h$}, ylabel={خطای مشتقِ عددی},
+      xmin=1e-15, xmax=0.1, ymin=1e-12, ymax=10,
+      xtick={1e-15,1e-12,1e-9,1e-6,1e-3}, ytick={1e-12,1e-9,1e-6,1e-3,1}]
+    \addplot[sLoss, line width=0.9pt] table[x=h, y=forward, col sep=comma] {data/ch03-m-numdiff.csv};
+    \addlegendentry{تفاضلِ پیشرو}
+    \addplot[sWind, line width=0.9pt] table[x=h, y=central, col sep=comma] {data/ch03-m-numdiff.csv};
+    \addlegendentry{تفاضلِ مرکزی}
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:1e-13,0.02) {خطای گرد کردن};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:1e-3,1e-2) {خطای برش};
+  \end{loglogaxis}
+\end{tikzpicture}}
+\end{document}

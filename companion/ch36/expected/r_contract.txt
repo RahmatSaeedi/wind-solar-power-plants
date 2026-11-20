@@ -1,0 +1,10 @@
+a vendor's contract ends: closing its access (teaching)
+  step                                                 hours
+  vendor accounts disabled                               0.5
+  jump-host approvals removed                            0.2
+  data transfers returned or deleted, confirmed          2.0
+  keys and certificates issued to the vendor revoked     1.0
+  tools and laptops returned, media wiped                1.0
+  conduit table and access matrix updated                0.5
+  5.2 h of work on one day, from one checklist; a right
+  nobody remembers to close outlives the contract by years

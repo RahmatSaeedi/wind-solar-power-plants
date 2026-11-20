@@ -1,0 +1,27 @@
+% Chapter 1 — power/interest map of Plant P stakeholders (a judgement, not a measurement).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\W{11} \def\H{8}
+  \fill[cFill] (0,0) rectangle (\W,\H);
+  \draw[cRule, line width=0.8pt] (\W/2,0) -- (\W/2,\H);
+  \draw[cRule, line width=0.8pt] (0,\H/2) -- (\W,\H/2);
+  \draw[cInkB, line width=0.6pt] (0,0) rectangle (\W,\H);
+  \draw[-{Stealth[length=2mm]}, cInkB] (0,-0.3) -- (\W,-0.3) node[midway, below, text=cInkB] {علاقه و اثرپذیری از پروژه};
+  \draw[-{Stealth[length=2mm]}, cInkB] (-0.3,0) -- (-0.3,\H) node[midway, above, rotate=90, text=cInkB] {قدرتِ اثرگذاری بر پروژه};
+  % quadrant titles
+  \node[note, text=cInk, anchor=north east] at (\W-0.15,\H-0.15) {\textbf{از نزدیک مدیریت کنید}};
+  \node[note, text=cInk, anchor=north west] at (0.15,\H-0.15) {\textbf{راضی نگه دارید}};
+  \node[note, text=cInk, anchor=south east] at (\W-0.15,0.15) {\textbf{کاملاً مطلع نگه دارید}};
+  \node[note, text=cInk, anchor=south west] at (0.15,0.15) {\textbf{پایش کنید}};
+  % stakeholders
+  \foreach \x/\y/\t in {9.6/7.0/وام‌دهندگان, 8.0/6.6/بهره‌بردارِ شبکه, 9.3/5.6/خریدارِ برق, 6.8/5.3/مرجعِ محیطِ‌زیست,
+                       2.6/6.4/تنظیم‌گر, 1.8/5.2/مرجعِ هوانوردی, 8.6/2.8/مالکانِ زمین, 9.8/1.6/روستاهای مجاور,
+                       6.8/1.4/سازمان‌های محیطِ‌زیستیِ مردمی, 3.0/2.6/سازندگانِ تجهیز, 1.8/1.0/عمومِ مردمِ استان}{
+    \fill[cLoad] (\x,\y) circle (0.09);
+    \node[text=cInk, anchor=north] at (\x,\y-0.08) {\t};
+  }
+  \draw[-{Stealth[length=2mm]}, cLoss, line width=0.8pt] (9.65,1.75) to[bend right=25] (9.2,4.3);
+  \node[note, text=cLoss!80!black, anchor=west, text width=26mm] at (9.75,3.1) {اگر مخالفت سازمان یابد};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,9 @@
+mode state machine of the plant controller:
+  7 states, 13 transitions
+  checks on the drawn machine:
+    FALLBACK has no exit
+    no way back to OFF from FALLBACK
+  after adding FALLBACK -> GRID and FALLBACK -> TRIPPED: no issue
+  test cases: one per transition (guard true and guard false),
+  that is 30 cases; the drawing had a mode with no
+  way out - found by a script before any test was run

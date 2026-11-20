@@ -1,0 +1,6 @@
+time resolution of the inputs (one turbine, pack curve, mast year):
+  ten-minute speeds   18,166 MWh; hourly means   18,184 MWh (+0.10 %)
+  the power curve is curved: averaging the speed first changes
+  the energy a little; clipping and curtailment, which act on
+  peaks, need the finest resolution the data allow
+  PV clipping hours in the hourly model: 390 h

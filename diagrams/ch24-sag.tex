@@ -1,0 +1,17 @@
+% Chapter 24 - sag of the teaching 132 kV conductor in spans of 250, 300 and 350 m at the everyday
+% tension (parabola), drawn below the attachment level. Data: diagrams/data/ch24-sag.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=360, ymin=-10, ymax=0.5,
+      xlabel={فاصله از برج $\mathrm{m}$}, ylabel={زیرِ نقطهٔ آویز $\mathrm{m}$}, xtick={0,50,...,350},
+      ytick={-10,-8,...,0}, unbounded coords=jump]
+    \addplot[sWind, mark=none] table[x=x, y=s250, col sep=comma] {data/ch24-sag.csv};
+    \addplot[sPV, mark=none] table[x=x, y=s300, col sep=comma] {data/ch24-sag.csv};
+    \addplot[sInk, mark=none] table[x=x, y=s350, col sep=comma] {data/ch24-sag.csv};
+    \node[font=\footnotesize, text=cWind, anchor=north] at (axis cs:125,-4.6) {$250\,\mathrm{m}$};
+    \node[font=\footnotesize, text=cPV, anchor=north] at (axis cs:150,-6.6) {$300\,\mathrm{m}$};
+    \node[font=\footnotesize, text=cInk, anchor=north] at (axis cs:175,-8.95) {$350\,\mathrm{m}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

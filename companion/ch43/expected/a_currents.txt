@@ -1,0 +1,8 @@
+currents of 63 MVA at rated:
+  HV line = phase (star): 275.6 A
+  LV line 1,102 A; phase of the delta 636.4 A
+  at 3.5 A/mm2: HV conductor 78.7 mm2, LV 181.8 mm2
+  copper in the two windings: 8.4 t (mean turns 2.37 and 3.39 m)
+  same ampere-turns both sides: 190,909 and 190,959 A
+  the delta carries 1/sqrt3 of the line current, so its
+  conductor is sized on the phase current, not the line

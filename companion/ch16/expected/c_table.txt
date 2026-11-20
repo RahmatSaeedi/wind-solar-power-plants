@@ -1,0 +1,11 @@
+exceedance values of the net energy at the POC (P50 295.14 GWh,
+  normal), for the first year, a 10-year and a 20-year mean:
+  P-value   z       1 year     10 years   20 years
+  P50      0.000    295.14    295.14    295.14
+  P75      0.674    285.03    286.97    287.09
+  P90      1.282    275.93    279.61    279.84
+  P95      1.645    270.48    275.21    275.50
+  P99      2.326    260.26    266.95    267.37
+  sigma GWh            14.99     12.12     11.94
+  the P90 of a 10-year mean is higher than the one-year P90:
+  good and bad years average out; the long-term part does not

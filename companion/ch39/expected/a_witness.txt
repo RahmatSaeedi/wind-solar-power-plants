@@ -1,0 +1,10 @@
+factory witness points of the transformer order (teaching)
+  test or step         how                why
+  heat run             witnessed          temperature rise, not just losses
+  loss measurement     witnessed          the guarantee is paid on it
+  applied voltage      witnessed          insulation
+  routine tests        reports reviewed   every unit
+  painting             sample inspected   thickness readings
+  a failed test makes a nonconformity: repaired and
+  retested, or accepted as is by a written concession with
+  a price or a longer warranty - never by silence (ch 40)

@@ -1,0 +1,9 @@
+a new grid charge on generators (change in law), u per MWh:
+  charge   PPA passes it on   min DSCR   equity IRR %
+       0                 no       1.20          10.22
+       2                 no       1.17           9.38
+       2                yes       1.20          10.22
+       5                 no       1.10           8.08
+       5                yes       1.20          10.22
+  a change-in-law clause decides who carries a new charge; a
+  5 u charge the owner keeps costs over 2 points of return

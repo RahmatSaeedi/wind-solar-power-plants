@@ -1,0 +1,14 @@
+auto-reclose of the 132 kV line against the plant's trip on loss of grid
+  (island frequency drifting 2 Hz/s, teaching)
+  dead time s   plant trips in s           margin s   at reclose
+          0.3    0.15 intertrip             +0.15   off in time
+          0.3    0.60 passive relays        -0.30   32 deg out of phase
+          0.5    0.15 intertrip             +0.35   off in time
+          0.5    0.60 passive relays        -0.10   90 deg out of phase
+          1.0    0.15 intertrip             +0.85   off in time
+          1.0    0.60 passive relays        +0.40   off in time
+  the plant must be off before the line closes again, with
+  margin; with passive relays a fast reclose (0.3-0.5 s)
+  catches it still connected and closes out of phase - the
+  intertrip (or a longer dead time agreed with the operator)
+  is the study's answer, coordinated with ch 26's protection

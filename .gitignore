@@ -1,0 +1,113 @@
+# Everything listed here is generated or personal and is rebuilt by the tools;
+# docs/BUILD.md section 7 lists what recreates each entry.
+
+# Quarto build outputs. This book's render takes ~7 h, longer than a GitHub
+# Actions job may run, so the built editions in _book/ ARE committed and the
+# workflow only publishes them to GitHub Pages. Rebuild locally with
+# `python tools/build_all.py`, then commit _book/.
+# The Kindle Previewer .kpf (~220 MB) is over GitHub's 100 MB per-file limit:
+# a push containing it is rejected, so it stays local.
+/_book/kindle-preview/
+/_site/
+/.quarto/
+# Volume editions: the nine PDFs in _volumes/ are committed; the per-volume
+# render folders and the generated profile are not. Volume EPUBs are built
+# only with `build_volume.py N` (no --to pdf) and are ignored until rebuilt.
+/_volumes/*/
+/_volumes/*.epub
+/_quarto-vol.yml
+# left behind only if tools/build_all.py / check_env.py is interrupted mid-probe
+/_book.locktest/
+# a failed PDF render can leave the intermediate LaTeX in the project root
+/index.tex
+# per-document Quarto resource folders (render scratch)
+/chapters/*_files/
+/appendices/*_files/
+/index_files/
+/site_libs/
+
+# Claude Code: personal, machine-specific settings (permission rules,
+# absolute paths), never shared. To share project settings with others later,
+# replace /.claude/ by /.claude/settings.local.json and commit .claude/settings.json.
+/.claude/
+CLAUDE.local.md
+
+# The reference book this workflow was distilled from, if a copy sits here:
+# a separate repository, never part of the template.
+/MRI/
+
+# LaTeX intermediates for the Kindle edition's rasterised math
+/.kindle-build/
+# Portable Java + epubcheck, fetched by `python tools/verify_epub.py --install-tools`
+/.tools/
+
+*.html
+!_extensions/**/*.html
+# theme/*.html are source includes (e.g. mathjax-config.html), not rendered output:
+!theme/*.html
+# the built website is committed (see the _book/ note above)
+!/_book/**/*.html
+
+# Smoke-test render artifacts (the source smoke-test.qmd is tracked)
+/smoke-test.pdf
+/smoke-test.tex
+/smoke-test_files/
+
+# Scratch/diagnostic files (incl. verifier-agent recompute scripts)
+/_*.txt
+/_*.pdf
+/_*.py
+/tools/_*.py
+/test_*.qmd
+/test_*.html
+/test_*_files/
+
+# LaTeX intermediates
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.xdv
+
+# The cover is the exception to the rules below: cover.pdf + cover.png are
+# committed (built rarely by tools/build_cover.py, needed by every format).
+
+# Diagram intermediates (keep sources, ignore compiled artifacts)
+diagrams/**/*.pdf
+diagrams/**/*.svg
+diagrams/**/*.aux
+diagrams/**/*.log
+# Per-figure build logs from tools/build_diagrams.ps1 (cleaned on success,
+# but ignore them so an interrupted build never leaves them tracked).
+*.buildlog
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Fonts are large; document how to fetch them instead of committing (optional)
+# fonts/*.ttf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+**/*.quarto_ipynb
+
+# Draft renders of single chapters (tools/draft.py)
+/_draft/
+/_quarto-draft.yml
+# pytest cache of the companion code
+.pytest_cache/

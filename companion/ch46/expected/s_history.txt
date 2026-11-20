@@ -1,0 +1,12 @@
+settings fingerprints of relay PVF2 through its first year
+  stage        fingerprint        same as before   change record
+  FAT          bc17fd5528fc9833   -                -
+  FAT reload   f665fd13b4e1ee19   NO               C-PVF2-01
+  SAT          f665fd13b4e1ee19   yes              -
+  month 3      3569a777d5b76dd6   NO               -
+  month 9      3569a777d5b76dd6   yes              -
+  changed without a record: month 3
+  the reload at the FAT has its record; the change at month 3
+  has none - someone raised the earth-fault stage; the
+  fingerprint finds the change, the register asks who and why
+  (ch 26 settings register, ch 38 change control)

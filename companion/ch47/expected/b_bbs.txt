@@ -1,0 +1,13 @@
+bar bending schedule of one foundation (excerpt, 9 rows)
+  mark   problem
+  B04    length looks like metres, not mm
+  B05    duplicate mark
+  B07    diameter 22 not allowed
+  B08    shape code 99 unknown
+  B09    missing shape
+  5 problems; mass of the clean rows 30.2 t (d^2/162 kg/m)
+  a length of 3.6 'mm' would cut 240 stubs; a duplicate mark
+  makes two bundles answer to one label on site; a 22 mm bar
+  is not stocked and would be swapped without a record - the
+  schedule is checked before the bars are cut, like the cable
+  schedule of ch 46

@@ -1,0 +1,66 @@
+P01 64 bytes at 9600 bit/s: 53.3 ms
+P02 9,000 bytes at 1 Gbit/s: 72 us
+P03 12 turbines x 600 tags x 20 B per s: 1.15 Mbit/s
+P04 that load on 100 Mbit/s: 1.2 %
+P05 30 meters, 8 + 45 bytes, 9600 bit/s, 15 ms: 1.77 s
+P06 same at 19200 bit/s: 1.11 s
+P07 fibre 11.5 km, 18 splices, 4 connectors: 10.8 dB
+P08 fibre 9.2 km, 17 splices, 4 connectors: 9.9 dB
+P09 chain of 6 links at 0.99984: 8.4 h a year
+P10 ring, worst device, 7 links at 0.99984: 10 s a year
+P11 sync budget 0.1 + 0.05 + 0.3 + 1.0 us: 1.45 us
+P12 smallest prefix for 40 devices + 50 %: /26
+P13 16-bit counter at 808 MWh/day: 41 days
+P14 retention, 1,000 points at 1 s, 2 years: 757 GB
+P15 buffer, 2,000 tags, 20 B, 24 h: 3.5 GB
+P16 queue, 40 messages/h for 72 h: 2,880 messages
+P17 tag 'PLP-MET-M1-Ghi' valid: False
+P18 1,321 on 0-150 suspect: True
+P19 stale, last update 5 s, now 20 s, limit 10 s: True
+P20 local-time day with 25 hours: +4.2 %
+P21 worst age, 100 + 20 + 0.1 + 50 + 1000 + 1000 ms: 2.17 s
+P22 200 devices in one flat network, 0.5 broadcasts/s each: 99.5/s
+P23 deadband 0.5 % of a 0-150 kV span: largest error 0.75 kV
+P24 1 day at 1 s on 1,200 pixels, 10 s spike, decimated: 13.9 % visible
+P25 674.8 MWh with 3 % of minutes skipped: about 654.6 MWh
+P26 usable addresses in a /27: 30
+P27 fibre 25 km, 10 splices, 2 connectors: 13.75 dB
+P28 ring of 9 links, worst device: 16 s a year
+P29 4.5 Mbit/s sent twice (parallel networks): 9.0 Mbit/s
+P30 30 meters, 8 + 45 bytes, 38400 bit/s, 15 ms: 0.78 s
+P31 retention, 1,000 tags at 1 s, 1 year, 10 % kept: 37.8 GB
+P32 32-bit unsigned counter at 808 MWh/day: 14,563 years
+P33 queue, 40 messages/h for 5 days, 2 kB each: 4,800 messages, 9.4 MB
+P34 local-time day with 23 hours: -4.2 %
+P35 sync 0.1 + 0.05 + 10 x 0.05 + 0.5 us: 1.15 us
+P36 9,000 bytes at 100 Mbit/s: 0.72 ms
+P37 chain, 4th turbine, links at 0.99984: 5.6 h a year
+P38 aggregates, 1,000 tags x 3 a minute, 25 years: 473 GB
+P39 nines of the worst ring device (7 links): 6.5
+P40 fire panel at 20 s a month, offset after 9 months: 180 s
+P41 22,300 tags x 20 B on 2 Mbit/s: 1.78 s
+P42 a day of 2,000 tags limited to 20 % of 100 Mbit/s: 23 min
+P43 mean wait at 80 % load, frame 0.12 ms: 0.48 ms
+P44 1,000 frames ahead of a control message: 120 ms
+P45 bytes a value with 66 B headers, 10 values a frame: 26.6
+P46 free-space loss, 10 km at 5.8 GHz: 127.7 dB
+P47 first Fresnel radius at mid-path, 10 km, 5.8 GHz: 11.4 m
+P48 one carrier at 0.998: 17.5 h a year
+P49 two independent carriers at 0.998: 2.1 min a year
+P50 float32 resolution of a 10-year kWh counter: 256 kWh
+P51 64-bit counter: largest Wh value about 9.22e+18
+P52 words 0 and 50,000 read swapped: 3,276,800,000
+P53 operator's time for 60 alarms at 45 s: 45 min
+P54 daily backup, 0.3 losses a year: 3.6 h of data a year
+P55 holdover at 50 ppb before 1 ms: 5.6 h
+P56 completeness, 12 h lost in a 30-day month: 98.33 %
+P57 3 % of 2,880 acknowledgements lost: 86 repeats expected
+P58 gearbox: 12,000 h in T05 + (30,000 - 18,000) h in T09: 24,000 h
+P59 network FAT, 40 devices x 1 h + 6 h of system tests: 46 h
+P60 server gap, detection 2 s + take-over 3 s: 5 s
+P61 0.08 Hz sampled every 5 s: apparent 0.08 Hz
+P62 longest sampling interval for 10 samples of a 0.5 Hz swing: 0.2 s
+P63 30 points every 2 s, 25 B, on 64 kbit/s: 4.7 %
+P64 20 TB mirrored with 25 % free: 53.3 TB raw
+P65 zero-fault sample for 2 % at 95 %: 149 points
+P66 fault rate shown by 500 points without fault: 0.60 %

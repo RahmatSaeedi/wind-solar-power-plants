@@ -1,0 +1,15 @@
+Plant P trips in an island (teaching sizes, no load shedding)
+  island MW  loss MW  nadir Hz  RoCoF Hz/s
+        300      100     43.63       -2.71
+        300       50     46.81       -1.35
+        600      100     46.81       -1.35
+        600       50     48.41       -0.68
+       1200      100     48.41       -0.68
+       1200       50     49.20       -0.34
+  largest single loss with the nadir at or above 49.0 Hz (teaching):
+    island   300 MW:  15.7 MW
+    island   600 MW:  31.4 MW
+    island  1200 MW:  62.8 MW
+  if one fault can trip the whole plant, the loss is 100 MW; a
+  design in which no single fault trips more than half halves it -
+  a question for DABS with its shedding settings (AF-10, AF-14)

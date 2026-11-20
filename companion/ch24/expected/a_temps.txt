@@ -1,0 +1,9 @@
+resistance of the 240 mm2 Al conductor with temperature:
+  conductor C   ohm/km   vs 20 C
+           20   0.1250     1.00
+           40   0.1351     1.08
+           65   0.1477     1.18
+           90   0.1603     1.28
+  at its 90 C limit the conductor has 28 % more resistance
+  than on the data sheet's 20 C line: losses and drop are
+  computed at the temperature the conductor will run at

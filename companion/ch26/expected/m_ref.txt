@@ -1,0 +1,18 @@
+restricted earth fault (REF) against differential, resistance-earthed
+  star winding: fault at a fraction x of the winding from the neutral
+  x     fault A   seen on the line side, % of rated   REF 5 %   diff 20 %
+  0.1        40                                0.36         -          -
+  0.2        80                                1.45      sees          -
+  0.3       120                                3.27      sees          -
+  0.4       160                                5.81      sees          -
+  0.5       200                                9.07      sees          -
+  0.6       240                               13.07      sees          -
+  0.7       280                               17.79      sees          -
+  0.8       320                               23.23      sees       sees
+  0.9       360                               29.40      sees       sees
+  1.0       400                               36.30      sees       sees
+  the resistor limits the fault current to x times 400 A; the
+  line side sees it reduced again by the turns ratio x: the
+  differential sees only x squared and misses most winding
+  faults; REF measures the neutral current itself (x, not
+  x squared) and covers far more of the winding

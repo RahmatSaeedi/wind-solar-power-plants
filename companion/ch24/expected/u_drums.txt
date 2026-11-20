@@ -1,0 +1,10 @@
+allocating surveyed cut lengths (km, with 2 % for terminations) to drums:
+  drums of 1.2 km: 11 drums, off-cut 3.08 km (23%)
+  drums of 2.4 km:  5 drums, off-cut 1.88 km (16%)
+  drums of 3.6 km:  4 drums, off-cut 4.28 km (30%)
+  short drums leave an off-cut on every cut; very long drums
+  leave large remainders; the middle size wastes least here -
+  and longer drums weigh more (lesson B) and are cut on site
+  with the off-cuts stored; the allocation is made from the
+  route survey, not from the design lengths, and repeated
+  when the survey changes

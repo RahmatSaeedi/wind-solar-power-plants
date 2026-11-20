@@ -1,0 +1,15 @@
+off-circuit tap of the PV unit at the end of a feeder (teaching):
+  33 kV at the unit 1.006 pu at full output (0.6 % feeder rise), 1.000
+  at night; inverter full-Q window 0.95-1.05 pu at its terminals
+  corner                    tap -2.5 %  tap 0     tap +2.5 % tap +5 %
+  full P, producing Q          1.065     1.040     1.016     0.993
+  full P, absorbing Q          1.015     0.989     0.964     0.940
+  night, producing Q           1.051     1.026     1.002     0.979
+  night, absorbing Q           0.999     0.973     0.948     0.924
+  taps that keep all four corners inside: +0.0 %
+  with the 33 kV bus moving +/- 1.25 % (main tap changer band):
+  taps that still hold: none (tap 0 reaches 1.052)
+  producing Q at full power raises the terminal voltage most;
+  no fixed tap covers every corner with the bus band, so the
+  specification states the corner where full Q is limited
+  (or a wider inverter window) - checked in the ch 28 load flow

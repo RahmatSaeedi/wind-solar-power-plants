@@ -1,0 +1,10 @@
+impedance across the tap range (teaching data from a test report):
+  tap %    uk %   fault current at 33 kV, kA (stiff grid)
+  -10.0    11.4         9.67
+   +0.0    12.0         9.19
+  +10.0    12.9         8.54
+  the fault level is checked at the tap with the lowest
+  impedance, the regulation at the highest; two paralleled
+  units on different taps also share load unevenly (lesson
+  circulating) - the dossier gives uk at the extreme and
+  principal taps, not only at the principal

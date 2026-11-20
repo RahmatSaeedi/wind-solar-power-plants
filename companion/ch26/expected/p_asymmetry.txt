@@ -1,0 +1,13 @@
+line differential: the channel's delay differs by dt in the two
+  directions; through current 437 A (full export), pickup 200 A
+  asymmetry ms   phase error deg   false differential A   trips?
+           0.5               4.5                     34   no
+           1.0               9.0                     69   no
+           2.0              18.0                    137   no
+           4.0              36.0                    270   YES
+  a route that changes on the telecom network can add
+  milliseconds in one direction only: with 4 ms the relay sees
+  270 A of 'fault' at full export and trips; the cures are
+  time stamps from a satellite clock at both ends, a fixed
+  dedicated fibre, and a bias that grows with the through
+  current - the channel is part of the protection

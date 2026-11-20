@@ -1,0 +1,9 @@
+runoff containment at one main transformer (teaching; the rule is local)
+  oil volume                                     22.0 m3
+  rain on the bund, 1-hour 10-year storm          3.0 m3
+  firewater landing in the bund (1/4 of 180 m3)  45.0 m3
+  volume to hold or route to an interceptor      70.0 m3
+  the oil alone fits a small bund; firewater and rain make
+  it several times larger - or route through an oil
+  interceptor to a holding pond; contaminated water is
+  tested before release, never let into the wadi

@@ -1,0 +1,17 @@
+a dip to 0.2 pu for 150 ms at the POC (ch 28 profile, teaching)
+  load                        fed from             bridge ms  result
+  plant controller and I/O    24 V from 110 V DC     battery  rides through
+  protection relays           110 V DC               battery  rides through
+  network switches            24 V from 110 V DC     battery  rides through
+  operator HMI                UPS                    battery  rides through
+  cabinet fan                 230 V AC direct             20  restarts
+  battery HVAC compressor     400 V AC direct             10  restarts, 3 min
+  cooling pump (self-holding) 230 V AC coil               15  STAYS OFF
+  POC transducer              24 V from 230 V AC          58  READING LOST
+  2 loads fail the plant: a pump that stays off until
+  someone restarts it, and a controller that loses its
+  POC reading in the very fault it must answer; both move
+  to the DC supply or get a delayed drop-out. Loads that
+  restart by themselves may stay on AC if their restart
+  time fits the thermal budget (3 min of compressor delay
+  against the battery's margin, ch 19)

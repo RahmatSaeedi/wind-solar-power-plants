@@ -1,0 +1,12 @@
+locating a cable fault from the time of its reflection:
+  pulse speed in the cable 0.55 x c = 165 m/us; distance = v t / 2
+  echo after us   distance m   which section of =WS1
+            4.0          330   W1
+           13.3         1096   W1
+           26.7         2201   W3
+           40.0         3298   W3
+  the echo time gives the distance only as well as the speed
+  is known: a 5 % error in the velocity factor is 110 m at
+  the far end - the crew then pinpoints on the surface before
+  anyone digs; the as-built route survey turns the distance
+  into a place on the ground

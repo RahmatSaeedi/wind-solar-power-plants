@@ -1,0 +1,63 @@
+### مسیرهای خواندن برای خوانندگانِ مختلف {#sec-ch01-d-paths}
+
+کتاب برای خواندن از آغاز تا پایان نوشته شده است و پروندهٔ نیروگاهِ P فصل به فصل ساخته می‌شود. اما
+خوانندگان با هدف‌های متفاوت می‌آیند. @tbl-ch01-paths برای چهار هدفِ رایج یک **مسیرِ نخست** پیشنهاد
+می‌کند؛ پس از آن، فصل‌های جاافتاده را به ترتیب بخوانید. فصل‌های ۱ تا ۵ در همهٔ مسیرها هستند، چون نمادها،
+قراردادها و ابزارهای کتاب آن‌جا ساخته می‌شوند.
+
+| هدفِ خواننده | مسیرِ نخست (پس از فصل‌های ۱ تا ۵) | چرا |
+|---------------------|------------------------------------|----------------------|
+| مهندسِ برقِ نیروگاه | ۶ تا ۹، ۱۸، ۲۳ تا ۲۸، ۳۴، ۵۰ | از مدار تا شبکه و راه‌اندازی |
+| توسعه‌دهنده یا مهندسِ مالک | ۱۲ تا ۱۷، ۲۱، ۲۲، ۳۳، ۳۸، ۳۹، ۵۴ | از منبع و امکان‌سنجی تا قرارداد و انطباق |
+| مهندسِ ساخت و کیفیت | ۴، ۸ تا ۱۱، ۱۹، ۴۰ تا ۴۸، ۴۹ | از مواد و تجهیز تا کارخانه و کارگاه |
+| بهره‌بردار و نگهدار | ۶، ۷، ۲۰، ۳۲، ۳۴ تا ۳۷، ۵۰ تا ۵۳ | از کنترل و ایمنی تا پایش و نگهداری |
+
+: مسیرهای نخستِ خواندن {#tbl-ch01-paths}
+
+**برنامهٔ مطالعه.** هر فصلِ اصلی برای مطالعهٔ جدی حدودِ دو تا سه هفته کار می‌خواهد، اگر همهٔ مثال‌ها را
+با دست و کد بازتولید کنید و تمرین‌های پله‌های ۱ تا ۴ را حل کنید. پلهٔ ۵ را می‌توانید پس از فصل‌های بعدی
+دوباره ببینید؛ بسیاری از پرسش‌های تسلط با دانشِ فصل‌های بعد کامل‌تر پاسخ می‌گیرند.
+
+### پروندهٔ نیروگاهِ P روی دیسک {#sec-ch01-d-dossier}
+
+پرونده مجموعه‌ای از فایل‌هاست که خودتان، فصل به فصل، می‌سازید. ساختارِ پیشنهادیِ پوشه‌ها چنین است؛
+شماره‌ها با بخش‌های پروژهٔ پایانیِ فصلِ ۵۹ می‌خوانند:
+
+```text
+plant-p-dossier/
+  00-register/          decision log, assumptions ledger, unknowns, approvals
+  01-basis/             scope, seed ratings, data-pack release notes
+  02-resource/          wind and solar measurement plans and data quality
+  03-site/              layout, constraints, water balance
+  04-yield/             energy model, losses, uncertainty
+  05-architecture/      block diagrams, equipment selection rationale
+  06-electrical/        one-lines, calculation sheets (DC-001, ...)
+  07-civil-safety-env/  civil basis, safety, fire, environment, social
+  08-grid/              studies, connection boundary, grid services
+  09-procurement/       specifications, quality plans
+  10-delivery/          construction, inspection, commissioning, handover
+  11-operation/         procedures, maintenance, asset data
+  12-ram/               reliability and availability basis
+  13-economics/         cash flow, finance, risks, footprint
+  14-country/           Iran, Afghanistan, Tajikistan verification files
+```
+
+هر فایل در پرونده **سربرگی** دارد: شناسه (مثلاً [DC-001]{.ltr})، نسخه، تاریخ، تهیه‌کننده، بازبین، وضعیت
+(پیش‌نویس، بازبینی‌شده، تأییدشده)، و فهرستِ فرض‌ها و داده‌هایی که از آن‌ها استفاده کرده است. فصلِ ۲ این
+قواعد را برای برگه‌های محاسبه کامل می‌کند و فصلِ ۳۸ برای همهٔ مدارکِ پروژه.
+
+### کار با کدِ همراه {#sec-ch01-d-code}
+
+کدِ همراهِ کتاب در پوشهٔ `companion/` است: بستهٔ `plantp` (توابعِ آزموده)، برنامه‌های هر فصل
+(`companion/ch01/`، `companion/ch06/`، …)، آزمون‌های خودکار (`companion/tests/`) و بستهٔ داده
+(`companion/plantp_data/`). پس از نصبِ پایتون (فصلِ ۵)، از ریشهٔ پروژه:
+
+```bash
+python -m pytest companion                   # run every test
+python -m companion.ch01.screening_report    # rebuild chapter 1 numbers
+python companion/plantp_data/generate_release.py --check   # verify the data pack
+```
+
+اگر خروجیِ برنامه‌ای با عددِ کتاب نخواند، یکی از سه چیز رخ داده است: بستهٔ داده تغییر کرده (چک‌سام
+را وارسی کنید)، نسخهٔ کتابخانه‌ها فرق دارد، یا کتاب اشتباه دارد. در هر سه حالت، **اختلاف** خودش یک
+یافته است و باید ثبت شود؛ این همان عادتی است که کتاب می‌خواهد بسازد.

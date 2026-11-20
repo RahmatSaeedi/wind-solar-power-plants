@@ -1,0 +1,6 @@
+table length = 13 x 1134 mm + 12 x 20 mm = 14,982 mm
+tolerances: module width +-2 mm (assumed), gap +-1 mm (assumed)
+worst case: +-38 mm; root-sum-square: +-8.0 mm
+Monte Carlo, uniform parts, 200,000 tables: std 4.62 mm; 99.73 % of tables
+    within -13.6 .. +13.7 mm
+rail 15,050 +-5 mm: nominal end clearance 68 mm in total, worst case 25 mm

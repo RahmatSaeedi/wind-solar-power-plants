@@ -1,0 +1,21 @@
+% Chapter 21 - the life of Plant P's finance (time runs right to left): development, financial
+% close after the conditions precedent, two years of construction with interest during
+% construction, COD, 15 years of debt, the 20-year PPA, merchant tail and decommissioning.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small, x=-4.2mm]
+  \draw[line width=0.8pt, draw=cInk, ->] (-3,0) -- (27.5,0);
+  \foreach \t/\lab in {-2/{-2}, 0/{0}, 5/{5}, 10/{10}, 15/{15}, 20/{20}, 25/{25}}
+    \draw (\t,0.12) -- (\t,-0.12) node[below, note] {$\lab$};
+  \node[note] at (12.5,-0.85) {سالِ بهره‌برداری};
+  \fill[cLoad!35] (-3,0.35) rectangle (-2,0.85);
+  \fill[cWind!35] (-2,0.35) rectangle (0,0.85);
+  \node[note, anchor=west] at (-3.2,1.15) {توسعه، سپس ساخت};
+  \fill[cBESS!35] (0,1.6) rectangle (15,2.1); \node[note] at (7.5,1.85) {بدهی ۱۵ ساله};
+  \fill[cPV!35] (0,2.5) rectangle (20,3.0); \node[note] at (10,2.75) {قراردادِ خریدِ ۲۰ ساله};
+  \fill[cInkB!25] (20,2.5) rectangle (25,3.0); \node[note] at (22.5,2.75) {بازار};
+  \draw[sLimit] (-2,0) -- (-2,3.6) node[above, note, anchor=south west] {بستنِ مالی};
+  \draw[sLimit] (0,0) -- (0,3.6) node[above, note, anchor=south east] {بهره‌برداریِ تجاری};
+  \draw[sLimit] (25,0) -- (25,3.6) node[above, note] {برچیدن};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,9 @@
+an availability guarantee for the 12 turbines and their real spread
+  (ch 37: the same fleet missed 98.5 % in 37 % of years by chance)
+  guarantee   years missed by chance   bonus/penalty design
+      98.5 %                     37.2 %   band of +/- 0.5 %
+      98.3 %                      7.2 %   one-sided penalty
+      98.0 %                      0.0 %   one-sided penalty
+  a guarantee is a promise to pay, measured one way, over a
+  period; it is not evidence that the plant reaches the
+  figure - the monitoring of ch 37 is

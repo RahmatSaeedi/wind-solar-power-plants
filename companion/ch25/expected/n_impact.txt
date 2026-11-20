@@ -1,0 +1,13 @@
+impact recorder log of the main transformer's journey (g, teaching
+  limits 3 / 2 / 2 g along / across / vertical):
+  event                 along  across  vertical  result
+  rail transfer           1.2     0.6       0.8  ok
+  port crane              2.1     0.9       1.6  ok
+  road, bridge joint      1.0     0.7       1.1  ok
+  road, pothole           3.4     1.0       2.6  OVER
+  skidding to plinth      0.8     0.4       0.5  ok
+  over the limits: road, pothole
+  an exceedance is not damage, but it is a reason: the
+  contract's procedure then asks for an internal inspection
+  and the frequency-response comparison before energising -
+  the recorder's file is part of the transport record

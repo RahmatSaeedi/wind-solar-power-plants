@@ -1,0 +1,8 @@
+Q(U) characteristic measured from records (teaching set 33 Mvar per
+  5 % voltage, deadband 0.5 %):
+  fitted slope -6.65 Mvar per 1 % voltage outside the deadband
+  set value -6.60 Mvar per 1 %: within 0.8%
+  the sign is negative: the plant absorbs when the voltage
+  rises and produces when it falls; the fit needs voltage
+  changes from the grid, so the test window is chosen with
+  the operator (or a set-point step is used instead)

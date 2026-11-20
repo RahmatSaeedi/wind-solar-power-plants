@@ -1,0 +1,8 @@
+panel wiring checked by sample at the factory (teaching)
+  2,400 terminations; 125 checked by pull test and drawing; 1 wrong
+  defect rate estimate 0.8 % (90 % range 0.14 - 3.1 %)
+  expected wrong terminations in the panel: about 19
+  a sample cannot prove the rest right: every I/O point is
+  still tested end to end in the FAT and the loop checks
+  (lesson C) - the sample tells whether the wiring shop's
+  process is under control (ch 48)

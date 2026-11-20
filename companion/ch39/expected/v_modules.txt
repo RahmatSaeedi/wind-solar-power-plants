@@ -1,0 +1,8 @@
+PV modules at the factory: lots of 3,000
+  defect sampling (AQL 1 %, LTPD 4 %): n = 198, accept if <= 4
+  power: 50 modules flashed, mean 548.2 W, sd 2.4 W
+  one-sided 95 % lower bound of the mean: 547.6 W
+  nameplate 550 W with no negative tolerance: the lot
+  is held; the whole lot's power is in doubt,
+  not one module - the sample says the line is set low
+  (flash calibration or cell bin), a question for ch 41

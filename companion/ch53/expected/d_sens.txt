@@ -1,0 +1,8 @@
+sensitivity over 7 years: mean present cost (k u) and the cheapest option
+  case                      A        B        C    cheapest
+  base                      3,758    4,886    8,401    A
+  shape k 2.0               3,166    4,147    8,731    A
+  shape k 3.0               4,243    5,482    8,222    A
+  repair restores 30 %      4,274    4,886    8,401    A
+  price after PPA 60        3,885    4,990    8,417    A
+  cheapest across the cases: A

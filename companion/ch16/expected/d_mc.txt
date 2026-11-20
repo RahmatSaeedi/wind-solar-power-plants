@@ -1,0 +1,8 @@
+Monte Carlo (20,000 draws, plant end of model 15.1) against the
+  analytic budget:
+  horizon     analytic P90   MC mean   MC P50   MC P90   MC P99
+   1 year         275.93       294.92   294.82   276.19   260.78
+  10 years        279.61       294.97   294.80   279.73   267.97
+  the two agree within the Monte Carlo noise: for this plant a
+  transparent root-sum-square budget is enough; the Monte Carlo
+  checks it and would catch strong non-linearity or skew

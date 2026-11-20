@@ -1,0 +1,14 @@
+a fault half-way along the 132 kV line through a resistance R_f:
+  impedance seen by the distance relay at each end (ohm, primary)
+  current into the fault: grid 6561 A, plant 588 A (full-load current 437 A)
+  R_f ohm   grid end R + jX       seen?   plant end R + jX      seen?
+      0.0     0.42  +1.41j     yes        0.42  +1.41j    yes
+      1.0     1.51  +1.40j     yes       12.50  +2.80j    NO
+      2.0     2.60  +1.39j     yes       24.57  +4.18j    NO
+      5.0     5.87  +1.36j     yes       60.79  +8.33j    NO
+  zone 1: X up to 2.26 ohm, R up to 10 ohm (teaching)
+  the grid end sees each fault; the plant end sees only the
+  bolted one - the grid's infeed multiplies the fault
+  resistance about twelve times, and the plant's fault
+  current is barely above full load: the line needs a
+  differential scheme or an intertrip to clear its plant end

@@ -1,0 +1,10 @@
+estimates at completion of the engineering (hours)
+  BAC 7,342; CPI 0.85; SPI 0.68
+  BAC / CPI                          8,661
+  AC + (BAC - EV)                    7,883
+  AC + (BAC - EV) / (CPI x SPI)     11,101
+  TCPI to finish on budget: 1.14 - every remaining
+  hour would have to earn 1.14 hours of work
+  the three formulas say: problems are over (AC + rest),
+  they continue (BAC/CPI), or late work costs more as it
+  is rushed (CPI x SPI); the forecast states its assumption

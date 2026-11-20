@@ -1,0 +1,14 @@
+tabletop exercise: an unknown login on an HMI (synthetic)
+  minute   step
+       0   operator sees an unknown login on an HMI
+       5   OT lead called; physical security checks the control room
+      15   the HMI is isolated from the network; the plant runs on the PPC
+      30   logs collected and kept; the account disabled
+      60   grid operator informed of the reduced view, as agreed
+     120   HMI rebuilt from the tested image; fingerprint compared
+     180   HMI back in service; review of the cause starts
+  safety first, then keep the plant running, then the
+  evidence: the HMI is isolated, the plant is not stopped,
+  because protection and the PPC do not need the HMI. The
+  exercise tests the call list, the decisions and the
+  records - nothing is done to a real system

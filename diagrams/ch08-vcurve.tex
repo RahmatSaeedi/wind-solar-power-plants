@@ -1,0 +1,18 @@
+% Chapter 8 - V-curve of the backup generator at half rated power: stator current against
+% internal EMF. Data: diagrams/data/ch08-vcurve.csv (companion/ch08/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=112mm, height=62mm,
+      xlabel={نیروی محرکهٔ داخلی، پریونیت}, ylabel={جریانِ استاتور، پریونیت},
+      xmin=1.2, xmax=4.0, ymin=0.4, ymax=1.3, xtick={1.5,2,...,4}, ytick={0.4,0.6,...,1.2}]
+    \addplot[sInk] table[x=e, y=i, col sep=comma] {data/ch08-vcurve.csv};
+    \draw[cRule, densely dotted] (axis cs:1.60,0.4) -- (axis cs:1.60,0.5);
+    \node[note, text=cInk, anchor=north west] at (axis cs:1.62,0.49) {ضریبِ توانِ یک};
+    \node[note, text width=26mm] at (axis cs:1.55,0.95) {کم‌تحریک: توانِ راکتیو می‌گیرد};
+    \node[note, text width=30mm] at (axis cs:3.2,0.72) {پرتحریک: توانِ راکتیو می‌دهد};
+    \fill[cInk] (axis cs:1.27,0.588) circle (1.4pt);
+    \node[note, anchor=south west] at (axis cs:1.28,0.60) {حدِ پایداری};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

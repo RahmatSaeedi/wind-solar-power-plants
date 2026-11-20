@@ -1,0 +1,8 @@
+sun on the nacelle cover (120 m2 facing the sky, 900 W/m2, teaching)
+  ventilation 6 kg/s of air through the nacelle
+  cover colour   absorbed   heat into nacelle kW   air rise K
+  white               25%                    6.8          1.1
+  grey                60%                   16.2          2.7
+  a few kelvin more nacelle air come straight off the
+  cooling margin on the hottest hours (lesson C): the
+  cover's colour is a thermal choice as much as a look

@@ -1,0 +1,20 @@
+the 8D record of the torque event
+  D1 team
+      quality lead, line supervisor, test engineer, owner's QA
+  D2 problem
+      LV busbar joint overheated on S-06 in July
+  D3 containment
+      S-05 and S-07 measured and re-torqued on site
+  D4 root cause
+      dropped wrench; missed checks had no hold; no resistance at FAT
+  D5 actions chosen
+      shift check with hold; paint marks; resistance at FAT
+  D6 actions done
+      procedure rev C; meters bought; ITP updated
+  D7 prevent recurrence
+      FMEA detection re-rated; same rule for all torque tools and crimp dies
+  D8 close
+      three months of checks logged; team recognised
+  D7 is the step most often skipped: the fix for TW-14 is
+  extended to every tool and die that could fail the same
+  way, so the next event does not need an 8D of its own

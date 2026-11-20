@@ -1,0 +1,13 @@
+% Chapter 24 - standing voltage at the open end of a single-point-bonded 132 kV sheath against the
+% section length, at a 20 kA fault (teaching geometry). Data: diagrams/data/ch24-bonding.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=56mm, xmin=0, xmax=1000, ymin=0, ymax=1400,
+      xlabel={طولِ بخش $\mathrm{m}$}, ylabel={ولتاژِ غلاف $\mathrm{V}$}, xtick={0,200,...,1000},
+      ytick={0,200,...,1400}]
+    \addplot[sLoss, mark=none] table[x=m, y expr=\thisrow{fault100}*100, col sep=comma] {data/ch24-bonding.csv};
+    \node[font=\footnotesize, text=cLoss, anchor=south east] at (axis cs:950,1150) {خطای $20\,\mathrm{kA}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

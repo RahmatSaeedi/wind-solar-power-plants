@@ -1,0 +1,10 @@
+inter-row shading, tilt 25 deg, tables 2 high (A-192):
+  GCR   pitch m   linear loss %   2P portrait %   4L landscape %
+  0.30     15.2           0.01           0.03            0.01
+  0.40     11.4           0.03           0.07            0.04
+  0.50      9.1           0.08           0.23            0.10
+  0.60      7.6           0.29           1.13            0.38
+  portrait tables lose a whole module row once its bottom edge
+  is shaded (all three bypass substrings run along the slope);
+  landscape modules lose one substring at a time; GCR 0.40
+  (A-183) keeps the electrical loss small at 11.4 m pitch

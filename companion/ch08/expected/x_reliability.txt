@@ -1,0 +1,5 @@
+generator failure rate 0.05/yr, repair 20 days incl. logistics (A-126):
+  unavailability per turbine 0.27 %; expected failures in 20 yr x 12: 12
+  energy lost per year, 12 turbines: 615 MWh (average output 18.7 GWh/yr)
+  if a crane must come from abroad, MTTR 60 d: 0.82 % per turbine
+  logistics, not the repair itself, dominates the downtime

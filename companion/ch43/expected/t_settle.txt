@@ -1,0 +1,10 @@
+winding resistance by DC: current rises with tau = L / R (teaching L 60 H)
+  winding 0.53 ohm with a 2.0 ohm source: tau = 24 s
+  error left   time
+       1.00%     1.8 min
+       0.10%     2.7 min
+       0.01%     3.6 min
+  a reading taken while the current still rises is wrong by
+  the part not yet settled; the test set's stability record
+  shows the reading was taken flat - and the cold resistance
+  is the base of the heat-run calculation (lesson C)

@@ -1,0 +1,15 @@
+geometric shadow flicker (rotor as a sphere, always turning and
+  facing the sun, clear sky; sun above 3 deg; within 10 D):
+  layout / dwelling                 worst case h/yr   worst day min
+  W1 ridge (1 row)
+    herders' camp B (seasonal)          36.5             25
+    farmhouse A                          0.0              0
+    farmhouse C                          0.0              0
+  W2 plain (2 rows)
+    herders' camp B (seasonal)         112.4             85
+    farmhouse A                          0.0              0
+    farmhouse C                          0.0              0
+  the worst case ignores clouds, calm hours and the rotor's yaw;
+  expected hours are a fraction of it; limits (worst case,
+  expected, per day) and the remedy (shutdown at those minutes)
+  are the authority's and the manufacturer's

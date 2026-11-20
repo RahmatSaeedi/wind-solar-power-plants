@@ -1,0 +1,8 @@
+a lidar that loses more data at night (A-257):
+  recovery 87.8 %; night 74.9 %, day 97.0 %
+  true mean at 150 m             7.814 m/s
+  mean of the records kept       7.725 m/s (-1.15 %)
+  mean of the 24 hourly means    7.808 m/s (-0.08 %)
+  the windy stable nights are lost more often: a high recovery
+  can still be biased; weighting by hour (or month and hour)
+  restores the balance, and the loss pattern is reported

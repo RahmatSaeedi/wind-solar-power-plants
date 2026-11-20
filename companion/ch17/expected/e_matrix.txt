@@ -1,0 +1,14 @@
+responsibility matrix: 11 assets x 6 activities = 66 cells
+  project 31, utility 17, shared 11, open 7
+  open cells:
+    132 kV export line 7.06 km   pay
+    132 kV export line 7.06 km   own
+    132 kV export line 7.06 km   operate
+    line corridor and easement   own
+    line corridor and easement   operate
+    bay at the grid substation   pay
+    revenue metering             own
+  the export line and its corridor hold five of the seven open
+  cells: who owns, pays and runs them decides where the POC
+  really is; shared cells need an interface document with
+  named owners

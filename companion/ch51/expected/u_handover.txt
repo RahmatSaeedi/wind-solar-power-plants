@@ -1,0 +1,8 @@
+ten handovers: minutes taken and checklist items missed
+  minutes   8  15  12   6  20   9  14   5  18  11
+  missed    2   0   1   3   0   1   0   3   0   1
+  correlation -0.91; items missed on average: under 10 min 2.2,
+  10 min or more 0.3
+  a correlation is not a cause - a busy shift both hurries the
+  handover and has more to hand over - but the remedy is the
+  same: the checklist is read item by item, whatever the clock

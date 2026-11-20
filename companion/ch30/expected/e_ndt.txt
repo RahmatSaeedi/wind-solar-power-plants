@@ -1,0 +1,10 @@
+ultrasonic testing of the section's seams (teaching numbers)
+  circumferential and longitudinal seams: about 104 m, 100 % UT
+  rejectable indications found: 3 (lack of fusion, slag)
+  repair: excavate, re-weld to the repair WPS, re-test the
+  repaired length and a margin either side
+  repair rate 0.9 % of length (0.3 m a repair)
+  a rising repair rate is a process signal (a welder, a
+  consumable lot, a machine) - the welding coordinator
+  reviews it weekly; the NDT operator is certified (level 2)
+  and the method qualified for the thickness

@@ -1,0 +1,5 @@
+status word 37 = 0x0025 = 0000000000100101
+  bits set: 0 (grid OK), 2 (yaw active), 5 (power limited)
+  test one bit:  (word >> 3) & 1 = 0 -> icing alarm off
+the meaning of each bit comes ONLY from the device's register map (fictional
+    here)

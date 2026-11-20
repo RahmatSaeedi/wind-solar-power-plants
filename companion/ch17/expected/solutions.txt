@@ -1,0 +1,18 @@
+P01: energy of 45 MW for 10 h and 25 MW for 14 h: 800 MWh
+P02: load factor, 245,178 MWh, peak 51.83 MW: 0.540
+P03: mean of 245.2 GWh over a year: 27.99 MW
+P04: 15-min peak 53.33 over hourly 51.83: +2.9 %
+P05: coincidence factor 51.83 / 56.92: 0.911; diversity 1.098
+P06: peak 51.83 MW at 3.5 %/yr after 10 years: 73.11 MW
+P07: years until 51.83 MW passes 63 MW at 2 %/yr: 9.9
+P08: battery hours, 200 kW, 40 MWh from 50 %: 74 h
+P09: voltage rise, 100 MW and 32.9 Mvar, R 0.847, X 2.824: 1.02 %
+P10: apparent power at 100 MW, pf 0.95: 105.3 MVA
+P11: SCR, 1,500 MVA and 110 MW: 13.6
+P12: line R, 0.12 ohm/km x 7.06 km: 0.847 ohm
+P13: yearly line loss 754 MWh of 295.3 GWh: 0.26 %
+P14: shallow cost 14.48 million u per MW of 110: 132 k u
+P15: deep share 14.0 x 100/160: 8.75 million u
+P16: aux transformer, 565 kW x 1.25 / 0.9: 785 kVA
+P17: local use 179.1 of 295.3 GWh: 60.7 %
+P18: open cells 7 of 66: 10.6 %

@@ -1,0 +1,5 @@
+the 63 MVA nameplate by hand:
+  rated currents: HV 276 A, LV line 1,102 A, LV delta winding 636 A
+  full-load losses 35 + 250 = 285 kW; efficiency at pf 1: 99.55 %
+  fault current behind 12 %: 8.3 x rated = 9.2 kA on the LV side
+  ratio 132/33 = 4.0 at the principal tap

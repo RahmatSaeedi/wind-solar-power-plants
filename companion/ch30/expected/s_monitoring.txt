@@ -1,0 +1,11 @@
+how long monthly frequency estimates take to show a drift
+  noise of one monthly estimate 1.0 mHz; drift -0.5 % a year
+  months   slope SE mHz/yr   drift mHz/yr   detected (3 SE)?
+      12              1.00           1.04   no
+      24              0.35           1.04   no
+      36              0.19           1.04   yes
+      60              0.09           1.04   yes
+  a slow softening of the foundation hides in the noise for
+  about two years; frequency trends are a useful early
+  warning only with a long record, the same sensor, and
+  corrections for temperature and rotor state

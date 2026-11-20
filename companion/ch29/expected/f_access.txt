@@ -1,0 +1,11 @@
+fire-service access (placeholders until the fire service states its own)
+  item                           placeholder     what decides it
+  road width (clear)             4.0 m           fire vehicles
+  turning area at dead ends      18 m circle     turning circle
+  hose length to tank or hydrant 90 m            local fire code
+  hard standing                  > 150 kN axle   vehicle mass
+  access to a transformer bay    two sides       fire strategy
+  the numbers are agreed with the fire service early: the
+  site road (lesson B) and pads are designed to them, and
+  a turning area at the substation costs little when drawn
+  first and a lot when added later

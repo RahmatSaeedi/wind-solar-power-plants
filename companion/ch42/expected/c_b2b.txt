@@ -1,0 +1,10 @@
+two gearboxes back to back at 5000 kW: the grid supplies only the losses
+  gearbox efficiency   grid power kW   share of the test power
+               0.985             153                       3.1%
+               0.980             206                       4.1%
+               0.970             314                       6.3%
+  the bench tests a pair at full torque for a fraction of the
+  power - and the measured grid power gives the pair's
+  efficiency, a check on the loss budget (lesson A); a run-in
+  at rising load with vibration and oil records follows
+  (lab D)

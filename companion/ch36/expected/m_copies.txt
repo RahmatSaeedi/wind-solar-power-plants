@@ -1,0 +1,10 @@
+independent backup copies (teaching: each lost with 5 % in an event)
+  copies   where                          chance all are lost
+       1   on the server                      5.0000 %
+       2   server and a local disk            0.2500 %
+       3   and one offline, off site          0.0125 %
+  copies only help if they do not fail together: a copy on
+  the same server, the same network or the same building as
+  the original shares its fate; one copy is offline and
+  elsewhere, so a fault or a mistake on the network cannot
+  reach it - and every copy is restored in a test (lesson C)

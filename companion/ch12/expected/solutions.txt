@@ -1,0 +1,81 @@
+P01: declination 21 Jun 23.45 deg, 21 Dec -23.45 deg
+P02: 11 Feb: E_t -14.2 min -> solar noon 12:14
+P03: G0n day 3 1406, day 185 1316 W/m2
+P04: H0 on 21 June at 34 N: 11.50 kWh/m2 a day
+P05: k_t = 600 / (G0n(80) cos 50) = 0.682
+P06: air mass at zenith 48.2 deg: 1.498
+P07: Haurwitz at 0, 45, 70 deg: 1037, 716, 318 W/m2
+P08: DNI = (700 - 200) / cos 35 = 610 W/m2
+P09: DHI = 650 - 600 cos 40 = 190 W/m2
+P10: Erbs k_d at 0.2, 0.5, 0.85: 0.982, 0.659, 0.165
+P11: Orgill-Hollands: 0.950, 0.637, 0.177
+P12: isotropic POA: beam 665 + sky 143 + ground 7.5 = 815 W/m2
+P13: Hay-Davies sky, A_i 0.5, R_b 1.2: 161.5 W/m2 (isotropic 143.0)
+P14: day length at 34 N: equinox 12.00 h; 21 Dec 9.73 h
+P15: noon elevation 21 June at 34 N: 90 - 34 + 23.45 = 79.45 deg
+P16: offset -4 W/m2 on a 150 W/m2 day: -2.7 %
+P17: 6.12 mV / 8.50 uV per W/m2 = 720 W/m2
+P18: sensor 3 %, modules 1 % dirty: PR x 1.0206
+P19: GHI physically possible at mu 0.5: 988.6 W/m2
+P20: GHI extremely rare at mu 0.5: 760.9 W/m2
+P21: sqrt(2^2 + 1^2 + 1.5^2 + 0.6^2) = 2.76 %
+P22: P90 with u 4 %: 94.87 % of P50 (-5.13 %)
+P23: ten years, sd 2.7 %: 0.85 %
+P24: 2,050 x 1,980 / 2,010 = 2,019.4 kWh/m2
+P25: UTC labels read as +04:00: everything 4 h early; noon at 08:02
+P26: 20 channels x 4 bytes x 1 Hz: 2,523 MB a year
+P27: cosine error curve: annual GHI -0.65 %; sun below 20 deg -2.9 %
+P28: offset -4 W/m2 x 4,660 h = -18.6 kWh/m2 (-0.96 %)
+P29: PR 0.862 with the pyranometer, 0.889 with the reference cell
+P30: provider GHI: MBE -0.2 W/m2, RMSE 40 W/m2
+P31: provider DNI: MBE -9.1 W/m2, RMSE 103 W/m2
+P32: long-term GHI 1,947.2 x 0.9859 = 1,919.7 kWh/m2
+P33: monthly regression: 1,918.9 kWh/m2
+P34: GHI P50 1,920; P90 long-term 1,852; P90 one year 1,825 kWh/m2
+P35: POA P50 2,120; P90 long-term 2,030; P90 one year 2,005 kWh/m2
+P36: 40 deg tilt: Hay-Davies 2,113 vs isotropic 2,058 kWh/m2 (+2.70 %)
+P37: Hay-Davies optimum near 30 deg (2,151 kWh/m2); 25 deg 2,150
+P38: far horizon: 218 h behind it, beam loss 1.7 kWh/m2 (0.08 %)
+P39: two-hour gaps filled in k_t: bias -12.1 W/m2, RMSE 32.0 W/m2
+P40: drift 0.06 %/week: trend -3.5 %/yr = 4.9 standard errors
+P41: one sample per 10 min: daily sum -1.2 %, RMS of 10-min values 97 W/m2
+P42: 1 % less irradiance -> 0.83 % less energy (Plant P model)
+P43: share of GHI before noon: 0.500 correct, 0.379 one hour late
+P44: K_T June 0.732, December 0.468
+P45: year GHI / clear sky = 1,947 / 2,231 = 0.873
+P46: Orgill vs Erbs: DNI -1.7 %, POA -0.1 %
+P47: 23 June 12:00: k_t = 1030 / (1316.6 x 0.975) = 0.802
+P48: energy: ground 111,402 MWh, provider 110,765 MWh (-0.6 %)
+P49: long-term energy 110,082 MWh (-1.2 %)
+P50: faulty year: as logged -4.3 %, after the six steps -0.3 %
+P51: sensor cleaning: weekly +0.63 %, monthly +2.86 %, never +11.12 % PR
+P52: station cell cleaned weekly: rate 0.150 vs 0.156 %/day, interval +2 %
+P53: long-term correction: 1,320 MWh a year = 66 k u at 50 u/MWh
+P54: uncorrected -1.5 % drift: energy -1.24 %
+P55: 12 h missing of 744: recovery 98.4 %
+P56: sensitivity -1.1 % over 2 years, linear: at 1 year -0.55 %
+P57: daily cleaning 10 min: 61 h a year
+P58: provider 2 % high everywhere: energy 113,179 MWh (+1.59 %)
+P59: tracker over fixed 25 deg: year +25.7 %, June +51 %, December -7.6 %
+P60: bifacial gain at albedo 0.25: 0.70 x (0.02 + 0.125) x GHI/POA = 9.19 %
+P61: albedo 0.20 -> 0.30: gain 7.61 -> 10.78 % (+3.2 points)
+P62: share of GHI below air mass 2: 55.9 + 23.1 = 79.0 %
+P63: 13:00 local (+04:00) = 09:00Z; 08:00Z = 12:00 local
+P64: hourly r: aligned 1.000, four hours off 0.324
+P65: typical year 1,911.9 vs mean 1,910.5; low year 1,814.8 (-5.0 %)
+P66: H0 on 21 December at 34 N: 4.76 kWh/m2 a day
+P67: sensor 1 %, modules 3 % dirty: PR x 0.9798 (-2.0 %)
+P68: annual K_T = 1,947 / 3,056 = 0.637
+P69: 21 June: sunset hour angle 107.0 deg; sunrise solar time 4.87 h
+P70: Hay-Davies over isotropic at 25 deg: +2.03 %
+P71: weekly sd 1.5 %, find a 2 % step at 2 sigma: average n >= 3 weeks
+P72: tilt 25 -> 30 deg (Hay-Davies): 2,150 -> 2,151 kWh/m2
+P73: one-year P90 by scaling: 1,920 x (1 - 1.2816 x 0.038) = 1,826 kWh/m2
+P74: systematic sqrt(1.2^2 + 0.5^2 + 0.3^2) = 1.33 %
+P75: random 1.2 % over 182 independent days: 0.089 %
+P76: sd of the sum (17.8, 21.4 MW, r -0.111): 26.3 MW; r = 0: 27.8 MW
+P77: dusty day: GHI -16.3 %, DNI -30 %, POA -15.7 %
+P78: frozen clouds at 10 m/s, sensors 2.4 km apart: delay 240 s
+P79: largest one-minute step 215 W/m2 x 0.05 MW per W/m2 = 10.8 MW
+P80: side by side: S3 at 1.033 of the median; 3.6 % put in
+P81: hourly r of solar and wind -0.111, monthly -0.410

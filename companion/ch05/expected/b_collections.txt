@@ -1,0 +1,5 @@
+working speeds: [7.2, 8.9, 13.4, 9.6]  count: 4
+sorted, fastest first: [13.4, 9.6, 8.9, 7.2, 2.1]
+hub height: 100 m;  keys: ['tag', 'rated_mw', 'hub_m']
+unique tags: ['PLP-INV-01', 'PLP-INV-07', 'PLP-INV-09']  duplicates: 1
+v^3 by speed: {7.2: 373, 8.9: 705}

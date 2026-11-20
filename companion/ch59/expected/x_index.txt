@@ -1,0 +1,20 @@
+the staged dossier of Plant P: 14 items built from the chapters
+   #  ch  dec  docs  unk  title
+   1   7    9    27   22  data pack, requirements, assumptions, changes
+   2   2    2     6    8  resource-measurement and data-quality plan
+   3   2    2    12   11  site, layout, water balance and stewardship
+   4   2    2     5    9  yield model, losses and uncertainty
+   5   6    7    27   29  architecture and equipment selection
+   6   7    8    32   18  one-lines, auxiliaries, load lists, schedules
+   7   5    5    29   11  civil, mech., E&S, welfare, security, emergency
+   8   3    3    12   10  grid study, export, forecast/dispatch, services
+   9  10   10    47   10  procurement specifications and quality plan
+  10   2    2    10    2  construction, inspection, commissioning, handover
+  11   5    5    29    5  operation, maintenance, spares, data governance
+  12   2    2    12    2  RAM basis, critical equipment, verification plan
+  13   4    4    21   14  economics, finance, risk, footprint, retirement
+  14   5    5    17    5  Iran, Afghanistan, Tajikistan appendices
+  distinct documents 263, unknowns named 134, decisions 62 of 62
+  chapters in no item: none; decisions in no item: none
+  an item with no document or no decision would be a gap in
+  the dossier; the index is rebuilt from the chapters each time

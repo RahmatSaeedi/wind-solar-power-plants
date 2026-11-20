@@ -1,0 +1,7 @@
+health after ten years with uncertain fade laws (Monte Carlo, n 4,000):
+  P90 (health exceeded by 90 % of draws) 73.6 %
+  P50 80.3 %;  P10 85.4 %
+  chance of falling below 80 %: 47 %
+  a sizing on the median leaves about half the cases short;
+  augmentation keeps the choice open until measured health
+  shows which case the battery is in (chapter 16 for P-values)

@@ -1,0 +1,10 @@
+E01 V_f of a 70 % fibre-mass glass laminate: 0.513
+E02 its modulus along the fibres: 38.5 GPa
+E03 insert pull at 15.4 MN m (96 on 3.2 m): 201 kN
+E04 unbalance of 484.0, 486.2, 482.9 t m: 2.91 t m
+E05 POD of a 40 mm disbond (a50 20, beta 0.45): 94%
+E06 grid power, back to back at 5 MW, eta 0.98: 206 kW
+E07 shrink rise, 0.5 mm on 0.9 m: 46 K
+E08 insulation life 10 K over the design point: 10 years
+E09 filter beta 200 removes: 99.5%
+E10 eccentricity for grade 2.5 at 1155 rpm: 20.7 um

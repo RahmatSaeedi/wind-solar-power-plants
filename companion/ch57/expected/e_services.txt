@@ -1,0 +1,16 @@
+grid services for Plant P - Tajikistan: what a source requires or allows
+  energy sale to the single buyer    verified
+      TJ-12: PPA >= 15 years
+  remote curtailment and hourly forecasts verified
+      TJ-24: obligation > 1 MW
+  reactive power / power-factor control project-dependent
+      TJ-23: 'recommended'; value in the technical conditions
+  frequency response and reserve     to-confirm
+      TJ-47: no product found
+  ride-through                       to-confirm
+      TJ-22: no adopted code
+  curtailment compensation           to-confirm
+      TJ-26: rules and model PPA differ
+  verified 2, project-dependent 1, to-confirm 3
+  a service not found is not offered in the base: no capability,
+  test or revenue is assumed for it (ch 20, 54)

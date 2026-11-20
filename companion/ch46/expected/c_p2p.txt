@@ -1,0 +1,8 @@
+panel WS1, point-to-point check: 18 designed connections, 18 found
+  missing: F11:CT-L3-X1:5; Q1:TRIP1-X3:2; Q1:TRIP2-X3:3
+  extra:   Q1:TRIP1-X3:3; Q1:TRIP2-X3:2; X4:3-X4:4
+  the two trip-coil wires are crossed (each missing where it
+  belongs and found where it does not), one CT wire is absent
+  and a link joins two auxiliary contacts - a crossed trip coil
+  still trips the breaker, so only the wiring check finds it,
+  not a functional test of the trip

@@ -1,0 +1,16 @@
+compliance-readiness review at the design stage (2027-03-01)
+  [ ] every topic has a named authority
+  [ ] every requirement has an official source
+  [ ] every source read in the current edition
+  [ ] research records second-checked
+  [ ] register rows complete
+  [ ] each requirement has an independent approver
+  [x] no conflict without a written request
+  [ ] interpretations in writing
+  [ ] clarifications answered within 30 days
+  [ ] financial-close requirements verified
+  [x] ownership scenario decided before the search
+  [ ] a trace closed end to end
+  2 of 12 in place: the method exists (register, requests,
+  ownership); the evidence behind it is thin - sources,
+  approvals and written interpretations

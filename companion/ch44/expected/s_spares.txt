@@ -1,0 +1,16 @@
+spares for 10 inverters: failures in a 12-week resupply time,
+  stock for 90% no-stock-out (Poisson)
+  item                              failures/yr   in lead   stock
+  pump, fans, heat exchanger                1.31      0.30       1
+  IGBT module                               0.84      0.19       1
+  gate-driver board                         0.79      0.18       1
+  auxiliary power supply                    0.53      0.12       1
+  DC switch, AC breaker, contactors         0.44      0.10       0
+  current and voltage sensors               0.42      0.10       0
+  DC-link capacitor                         0.35      0.08       0
+  control board                             0.26      0.06       0
+  the stock follows the failure rate: one each of the four
+  most frequent items; 4 items get none on this rule and
+  wait the lead time after a failure - whether to hold one
+  anyway is a question of the energy lost while waiting
+  (next lesson, ch 52)

@@ -1,0 +1,11 @@
+phase shift along the path, turbine terminals to 132 kV:
+  clock number 11: the low-voltage side leads by 30 degrees
+  unit transformer (Dyn11, teaching)   LV leads by 30 deg
+  main transformer YNd11               LV leads by 30 deg
+  690 V leads 132 kV by 60 degrees; every source of the plant
+  passes the same main transformer, so all agree at the bus
+  the shifts matter where two sides are compared: the
+  differential relay (ch 26) and synchro-check across a
+  transformer compensate for them, and a meter wired across
+  the wrong pair of VTs reads a wrong power - the vector
+  group belongs on the one-line beside each transformer

@@ -1,0 +1,13 @@
+132 kV tubular busbar, aluminium 100/88 mm (teaching):
+  self-weight 46.9 N/m; I = 1.96 x 10^-6 m^4
+  span m   deflection mm (5wL^4/384EI)   limit L/200 mm
+       8                              18               40
+      10                              44               50
+      12                              92               60
+  fault force at the gear's 31.5 kA rating (ip 79 kA), 2.0 m
+  phase spacing: 537 N/m - 11 times the self-weight
+  spans up to about 10 m meet L/200 under self-weight alone;
+  at 132 kV the wide spacing keeps fault forces moderate;
+  the span is set by sag, wind, ice and the supports'
+  strength under the fault - the maker's or designer's
+  calculation to the standard, checked in the design review

@@ -1,0 +1,11 @@
+132 kV line: patrols (every 180 days) and vegetation clearance
+  (teaching minimum 5.0 m) on day 365
+  T01-T04  last patrol day 300  clearance 7.5 m
+  T05-T08  last patrol day 120  clearance 4.2 m  LATE  CLOSE
+  T09-T12  last patrol day 330  clearance 6.8 m
+  T13-T18  last patrol day  90  clearance 3.1 m  LATE  CLOSE
+  T19-T24  last patrol day 310  clearance 8.0 m
+  T05-T08 and T13-T18 are both late and inside the clearance:
+  the trees grew while nobody looked; the cutting is done
+  under the network owner's outage and the landowner's
+  access agreement (ch 49 corridor), and recorded per span

@@ -1,0 +1,10 @@
+round trip at part load: cells at their rate, PCS on its curve
+  (the chapter 9-10 inverter curve, used here for the PCS):
+  power MW   PCS one way   cells DC   AC round trip
+         2        0.9694     0.9961        93.61 %
+         5        0.9834     0.9904        95.78 %
+        10        0.9860     0.9808        95.35 %
+        20        0.9830     0.9621        92.97 %
+  at low power the PCS's fixed losses dominate and the round
+  trip falls although the cells are more efficient; a
+  battery that idles at small power loses on both counts

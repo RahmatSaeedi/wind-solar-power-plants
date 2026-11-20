@@ -1,0 +1,27 @@
+% Chapter 58 - the trace of one verified clause, right to left: clause -> decision -> procurement ->
+% inspection -> test -> approval, then the edition register and the change trigger, which loops back
+% to the clause (the temperature-rise requirement of the main transformers, companion/ch58/sources.py).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\scriptsize,
+    b/.style={draw=cInkB, fill=cInkB!8, text width=17mm, minimum height=12mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    r/.style={draw=cLoss, fill=cLoss!8, text width=17mm, minimum height=12mm, align=center,
+              rounded corners=1.5pt, text=cInk},
+    ar/.style={-{Stealth[length=1.8mm]}, draw=cInk, line width=0.7pt}]
+  \node[b] (c) at (0,0) {بند\\ IEC 60076-2\\ ویرایشِ ۲۰۱۱};
+  \node[b] (d) at (-2.4,0) {تصمیم\\ D-029، D-047};
+  \node[b] (p) at (-4.8,0) {بندِ خرید\\ C-2.5};
+  \node[b] (i) at (-7.2,0) {نقطهٔ شاهد\\ آزمونِ گرمایی};
+  \node[b] (t) at (-9.6,0) {آزمون\\ مقاومت پس از خاموشی};
+  \node[b] (a) at (-12.0,0) {پذیرش\\ گزارشِ آزمون};
+  \node[r] (g) at (-12.0,-2.2) {دفترِ استانداردها\\ STD-173};
+  \node[r] (k) at (-6.0,-2.2) {ماشهٔ تغییر\\ ویرایش یا حدِ تازه};
+  \draw[ar] (c) -- (d); \draw[ar] (d) -- (p); \draw[ar] (p) -- (i);
+  \draw[ar] (i) -- (t); \draw[ar] (t) -- (a); \draw[ar] (a) -- (g);
+  \draw[ar] (g) -- (k);
+  \draw[ar, dashed] (k) -| (c);
+  \node[note, font=\scriptsize, anchor=north] at (-6.0,-3.2)
+    {خط‌چین: تغییرِ ویرایش، ردیابی را از بند دوباره باز می‌کند};
+\end{tikzpicture}
+\end{document}

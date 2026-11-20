@@ -1,0 +1,27 @@
+models of the grid study (ch 28): 8
+  wind converter (RMS generic, OEM / plant)
+      study: G-4.0 (61400-27-1); site: G-4.0
+  wind converter (EMT vendor, OEM)
+      study: W-EMT 7.2; site: W-EMT 7.3  <- differs
+  PV inverter (RMS vendor, OEM)
+      study: PV-RMS 2.3 / FW 4.1.7; site: FW 4.2.0  <- differs
+  PV inverter (EMT vendor, OEM)
+      study: PV-EMT 5.0 / FW 4.1.7; site: FW 4.2.0  <- differs
+  BESS PCS (RMS vendor, OEM)
+      study: not received; site: FW 2.0.3  <- differs
+  plant controller (RMS vendor, OEM / plant)
+      study: PPC 1.4, settings 7a91; site: settings 7a91
+  collector network (aggregated, plant)
+      study: rev C (this chapter); site: rev C
+  132 kV line (pi model, plant)
+      study: calculated; site: to be measured  <- differs
+approvals of the study: 7
+  study scope and cases              approves: operator
+  input data                         approves: data owner signs
+  unit and controller models         approves: operator accepts
+  study results                      approves: licensed engineer + operator
+  protection settings                approves: operator (interface)
+  test programme                     approves: operator
+  compliance statement               approves: operator (operating notice)
+  models whose study version differs from the site: 5
+  each mismatch reopens the study for that unit (ch 28, ch 50)

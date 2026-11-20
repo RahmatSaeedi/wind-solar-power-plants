@@ -1,0 +1,14 @@
+turbulence intensity at 100 m by speed bin (true values):
+  bin m/s  mean TI   90 % quantile   records
+    4.5    0.238     0.303            5254
+    6.5    0.179     0.229            6016
+    8.5    0.149     0.190            4432
+   10.5    0.129     0.166            3218
+   12.5    0.113     0.148            1856
+   14.5    0.103     0.133             745
+   16.5    0.100     0.127             324
+  90 % quantile at 15 m/s: 0.131
+  the turbine's class sets a reference turbulence; the site check
+  compares a high quantile per bin with the class curve (the
+  design standard defines which quantile): U-039 needs these
+  ten-minute standard deviations, which hourly data cannot give

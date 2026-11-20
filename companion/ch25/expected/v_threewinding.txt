@@ -1,0 +1,12 @@
+three-winding PV unit transformer: HV 33 kV, LV1 and LV2 0.6 kV,
+  2.75 MVA each; tests (on 5.5 MVA): H-L1 6 %, H-L2 6 %, L1-L2 11 %
+  star equivalent: Z_H 0.5%, Z_L1 5.5%, Z_L2 5.5%
+  bolted fault on LV1, stiff 33 kV: 16.7 pu = 88 kA at 0.6 kV
+  voltage left on LV2 during that fault: 0.92 pu
+  a two-winding 5.5 MVA unit at 6 %: 16.7 pu - the same LV fault
+  level; but with both inverters on its one LV bus, the bus
+  itself is faulted and the second inverter sees 0 pu
+  the high L1-L2 impedance keeps one inverter riding through a
+  fault on its neighbour's winding and limits what each
+  inverter feeds into the other's fault; the price is a
+  larger, dearer transformer and two LV boards

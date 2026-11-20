@@ -1,0 +1,23 @@
+% Chapter 7 - teaching P-Q capability of a 5.0 MW / 5.5 MVA inverter (A-101): the current circle
+% and the active-power cap. Data: diagrams/data/ch07-pq.csv (companion/ch07/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=104mm, height=72mm,
+      xlabel={توانِ راکتیو، $\text{Mvar}$}, ylabel={توانِ اکتیو، $\text{MW}$},
+      xmin=-6.2, xmax=6.2, ymin=0, ymax=6.4, xtick={-6,-4,...,6}, ytick={0,1,...,6},
+      axis lines=middle, xlabel style={at={(axis description cs:0.5,-0.10)}, anchor=north},
+      ylabel style={at={(axis description cs:0.5,1.04)}, anchor=south}]
+    \addplot[draw=none, fill=cPV!12] table[x=q, y=p, col sep=comma] {data/ch07-pq.csv} \closedcycle;
+    \addplot[sPV] table[x=q, y=p, col sep=comma] {data/ch07-pq.csv};
+    \addplot[sLimit, domain=-5.5:5.5, samples=2] {5.0};
+    \node[note, anchor=south] at (axis cs:-3.6,5.05) {سقفِ اکتیو $5.0\ \text{MW}$};
+    \node[note, text=cInk, text width=28mm] at (axis cs:4.9,3.9) {دایرهٔ جریان\\$S_\text{r} = 5.5\ \text{MVA}$};
+    \fill[cInk] (axis cs:2.29,5.0) circle (1.4pt);
+    \fill[cInk] (axis cs:-2.29,5.0) circle (1.4pt);
+    \node[note, anchor=south west] at (axis cs:2.35,5.05) {$\pm 2.29\ \text{Mvar}$};
+    \node[note] at (axis cs:-2.3,2.4) {می‌گیرد};
+    \node[note] at (axis cs:2.3,2.4) {می‌دهد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

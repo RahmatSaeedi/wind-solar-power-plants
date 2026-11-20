@@ -1,0 +1,19 @@
+operating cost of Plant P, year-1 money (A-305):
+  line                              k u a year   u per MWh
+  wind O&M (30 k u/MW)                   1,800        6.10
+  PV O&M (10 k u/MW)                       500        1.69
+  battery O&M                              160        0.54
+  substation and line                      250        0.85
+  land lease                               450        1.52
+  insurance                                520        1.76
+  water and cleaning                       140        0.47
+  asset management, admin                  450        1.52
+  total                                  4,270       14.47
+lifecycle costs (A-306), year-1 money:
+  year  8  battery augmentation 4 MWh           600
+  year 12  PV inverter refurbishment          1,500
+  year 13  battery augmentation 4 MWh           600
+  year 15  wind main components reserve       1,800
+  year 25  decommissioning less salvage       2,500
+  every line escalates with inflation (2.5 %) in the nominal
+  model; replacements are paid from cash flow, before debt

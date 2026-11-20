@@ -1,0 +1,6 @@
+step 1 - data quality for block PVF2-3 before any diagnosis
+  energy tag frozen on case days 88, 89: those days are excluded
+  own pyranometer reads 6% low on days 40-46: the block's PR
+  rises to 1.078 there (a 'better' block that is not) -
+  so the comparison uses the other blocks (peer ratio), which
+  share the sun and need no sensor

@@ -1,0 +1,12 @@
+takt: 10 skids in 4 weeks of 40 h = 16.0 h a skid
+  station load (hours a skid, rework included)
+  frames made: S1 16.2, S2 14.1, S3 14.2, S4 10.1, S5 12.2, S6 13.5
+      bottleneck S1 16.18 h -> misses takt; balance 83%
+  frames bought: S1 2.1, S2 14.1, S3 14.2, S4 10.1, S5 12.2, S6 13.5
+      bottleneck S3 14.25 h -> meets takt; balance 78%
+  with frames made S1 is 0.18 h a skid over takt: no
+  margin at all, and the slow first skids (learning curve)
+  and any bad weld day push it further; buying frames moves
+  the bottleneck to S3 (OP40) at 14.25 h
+  takt comes from demand, cycle time from the line: the plan
+  works only if every station's cycle stays under takt

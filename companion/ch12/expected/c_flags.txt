@@ -1,0 +1,12 @@
+one clear day of one-minute GHI with five faults (A-242):
+  as logged: missing 25 min, physically impossible 64, extremely rare 80,
+    negative at night 529 min (thermal offset)
+  shift against the clear-sky curve, spikes and gaps removed: 50 min late
+    (raw values: 49 min); the sunrise shadow skews it, and
+    the logger set-up shows UTC+05 for +04: shift 60 min
+  after the shift: impossible 0, extremely rare 2; the 'impossible' values
+    were sun after sunset, a symptom of the clock, not the sky
+  left: the two spikes (extremely rare), the night offset, a dip
+  in the first 45 min after sunrise on a clear day (a nearby
+  object shades the sensor) and a 3 % step after noon (dust on
+  the dome, section E)

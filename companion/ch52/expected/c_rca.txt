@@ -1,0 +1,15 @@
+T03: the root-cause chain, each answer with its evidence
+  why did T03 stop?
+     -> converter tripped on DC-link overvoltage [event log]
+  why the overvoltage?
+     -> chopper did not fire during the dip [converter fault record]
+  why did the chopper not fire?
+     -> chopper enable set off after a service [settings file diff]
+  why was it off?
+     -> service laptop loaded a test profile [service report WO-0412]
+  why was that not caught?
+     -> no settings check at hand-back [NO EVIDENCE]
+  1 link(s) without evidence: the last answer is a claim until
+  the hand-back records are checked - and it is the link the
+  corrective action rests on (settings check at every
+  hand-back, ch 48 fingerprints)

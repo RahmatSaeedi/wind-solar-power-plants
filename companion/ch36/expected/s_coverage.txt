@@ -1,0 +1,14 @@
+devices that send security logs, by zone (synthetic)
+  zone          devices   sending   coverage
+  field-ied          30        30       100 %
+  field-wtg          24         6        25 %
+  field-pv           40        12        30 %
+  field-bes          24        24       100 %
+  control            12        12       100 %
+  dmz                 3         3       100 %
+  all OT zones      133        87        65 %
+  a total of 65 % hides the gaps: a quarter of the turbines
+  and under a third of the inverters are silent. Devices
+  that cannot log are covered at the next layer - the
+  switch port, the firewall in front of the zone - and the
+  gap is written in the risk register, not left unseen

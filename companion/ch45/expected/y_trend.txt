@@ -1,0 +1,8 @@
+daily insulation resistance of one rack, 120 days (synthetic);
+  moisture from day 71
+  fixed alarm below 300 kohm: day 104
+  CUSUM on the log reading (k 0.5, h 5): day 85
+  a slow fall stays above a fixed alarm for weeks; a CUSUM
+  sees the trend while the value is still healthy - time to
+  find a door seal or a cooling leak before the insulation
+  alarm trips the rack (ch 37)

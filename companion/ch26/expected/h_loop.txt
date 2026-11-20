@@ -1,0 +1,12 @@
+loop-impedance limit of a final circuit (concept, teaching):
+  the device must disconnect within the time the wiring
+  rules require: Zs x Ia <= U0, with Ia the current that
+  trips it in that time (type C 32 A: 10 x 32 = 320 A)
+  Zs max = 230 / 320 = 0.72 ohm; source part 0.03 ohm
+  cable mm2   loop ohm per m   longest run m
+        2.5           0.0176              39
+        4.0           0.0110              63
+        6.0           0.0074              93
+  a long run to a remote load (a gate, a weather mast, a
+  pump) may need a larger cable, an RCD, or a smaller device:
+  the protection sets the cable as much as the load does

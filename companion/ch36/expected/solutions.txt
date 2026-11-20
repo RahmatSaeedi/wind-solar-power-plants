@@ -1,0 +1,46 @@
+P01 risk 2 x 5 and band: 10 high
+P02 risk 4 x 2 and band: 8 medium
+P03 8 lower-case letters: 37.6 bits
+P04 16 letters and digits: 95.3 bits
+P05 logs, 34 switches x 2,000 x 200 B x 365: 5.0 GB
+P06 logs, 1 year at 500,000 events/day of 300 B: 54.8 GB
+P07 patch, test 21 d, window 180 d: mean 111 d
+P08 same, worst: 201 d
+P09 vendor access 24 sessions of 3 h: 72 h; cut 99.2 %
+P10 drift 30 ppm for 14 days: 36 s
+P11 restore 0.2 + 1 + 1 + 6 + 2 h: 10.2 h
+P12 backup broken 3 %/month, tested yearly: 18.0 %
+P13 three copies at 10 % each: 0.10 %
+P14 firewall pair of 0.999 each: 0.999999
+P15 one firewall 0.999 in series with a switch 0.9998: 0.998800
+P16 end of support every 7 y over 25 y: 3 replacements
+P17 supplier 4,3,4,3,2 with weights 3,3,2,2,1: 3.36
+P18 changes, 80 a year at 2 h each: 160 h
+P19 logs read weekly: mean 3.5 d unseen
+P20 plant stopped 3 days at 33.7 MWh/h and 50 u/MWh: 121,320 u
+P21 alerts 50 a day for 30 days at 4 min: 100 h
+P22 certificates 90 over 36 months, mean a month: 2.5
+P23 128-bit key against 12 letters/digits: 57 bits more
+P24 hosts a /27 zone can hold: 30
+P25 break-even of 80,000 u controls against a 200,000 u event: every 2.5 y
+P26 nines of a firewall pair of 0.999: 6
+P27 local accounts, 40 devices x 8 people: 320
+P28 images 500 GB at 0.5 Gbit/s: 2.2 h
+P29 sessions 60 a year, 1 in 5 forgotten, 45 d each: 12,960 h
+P30 same with a 2 h timeout: 24 h
+P31 2 engineers, rights 150 h each instead of all year: 98.3 % less
+P32 flag level, mean 12 and spread 4, 4 spreads: 28
+P33 recovery chain 2 + 1 + 3 + 5 + 1 h: 12 h
+P34 notice 60 d, test 10 d, window 30 d (mean): 85 d
+P35 sample of 100 logins, 3 % bad: 95 % chance to find one
+P36 sample for 95 % at 5 % bad: 59
+P37 residual 2 x 4 against 4 x 4: 8 from 16
+P38 indicator 9 of 12 backups tested: 75 %
+P39 training 10 x 4 + 4 x 12 + 15 x 1 h: 103 h
+P40 notices 3 a month, window 4 months: about 6 waiting on average
+P41 ports 34 switches x 24: 816 settings to compare
+P42 flat network vs zones, devices one PC reaches: 130 vs 0
+P43 expected loss, 300,000 u at 4 % a year: 12,000 u
+P44 same lowered to 1 % by a 7,000 u control: saves 9,000 u, worth it: True
+P45 conduits with unauthenticated field protocols, 4 of 8: 50 %
+P46 tabletop findings closed 5 of 6: 83 %

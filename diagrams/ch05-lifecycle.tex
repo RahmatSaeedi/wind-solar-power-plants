@@ -1,0 +1,21 @@
+% Chapter 5 - life cycle of an engineering tool, from need to retirement, with the
+% controlled records that each stage leaves behind.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{lc/.style={blk, minimum width=28mm, minimum height=10mm, font=\footnotesize, align=center}}
+  \node[lc] (n1) at (0,0) {نیاز و الزام‌ها\\خط‌مبنای الزام};
+  \node[lc] (n2) at (3.6,0) {معماری\\یادداشتِ معماری};
+  \node[lc] (n3) at (7.2,0) {ساخت و آزمون\\مخزن، آزمون‌ها};
+  \node[lc] (n4) at (10.8,0) {بازبینی\\ثبتِ بازبینی};
+  \node[blkBESS, minimum width=28mm, minimum height=10mm, font=\footnotesize, align=center] (n5) at (10.8,-2.4) {انتشار\\برچسب، تغییرنامه، قفلِ وابستگی};
+  \node[lc] (n6) at (7.2,-2.4) {پشتیبانی\\مسئله‌ها، وصله‌ها};
+  \node[lc] (n7) at (3.6,-2.4) {تغییر\\درخواست و اثر};
+  \node[blkWarn, minimum width=28mm, minimum height=10mm, font=\footnotesize, align=center] (n8) at (0,-2.4) {بازنشستگی\\بایگانی و جایگزین};
+  \draw[flow] (n1) -- (n2); \draw[flow] (n2) -- (n3); \draw[flow] (n3) -- (n4);
+  \draw[flow] (n4) -- (n5); \draw[flow] (n5) -- (n6); \draw[flow] (n6) -- (n7);
+  \draw[flowinfo] (n7.north) -- (n1.south east);
+  \draw[flow] (n6.south) -- ++(0,-0.6) -| (n8.south);
+  \node[note, anchor=north] at (5.4,-3.6) {هر مرحله سندی پایدار می‌گذارد؛ نتیجه‌ای که به کارِ پروژه رفته، با نسخهٔ ابزار و دادهٔ آن ردیابی‌پذیر است};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,10 @@
+buoyancy on the 20 m base when the water rises (T07, teaching)
+  base area 314 m2, founded at 3.5 m; dry weight 35.3 MN
+  water below ground m   uplift MN   weight MN   e = M/V m   e / R
+                   3.5         0.0        35.3        5.23    0.52
+                   2.0         4.6        30.7        6.02    0.60
+                   0.5         9.2        26.0        7.09    0.71
+  water at 0.5 m lifts about a quarter of the weight: the
+  eccentricity of the extreme load grows by a third and the
+  base lifts further off its edge - the 'ok except wet' of
+  lesson D's scheme S2 comes from exactly this number

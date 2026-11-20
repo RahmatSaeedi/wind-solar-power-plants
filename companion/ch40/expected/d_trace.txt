@@ -1,0 +1,13 @@
+the torque defect from cause to consequence (skid S-06)
+  cause:     TW-14 dropped, read 12 % high; no check days 12-15
+  escape:    no paint mark, visual check, FAT without joint
+             resistance: 70% of bad joints leave
+  event:     first July, a busbar joint overheats, S-06 trips
+  energy:    5 MW x 0.27 x 24 h x 9 d = 292 MWh = 20.4 k u
+  repair:    35 k u; checks of S-05 and S-07: 8 k u
+  total:     63.4 k u (no one hurt; fire risk was real)
+  after the actions 1.8% of bad joints would leave
+             (40 times fewer), for about 8 k u
+  closure needs evidence, not dates: shift checks logged
+  for three months, joint resistance in every FAT, the
+  FMEA detection re-rated, S-05/S-07 measured on site

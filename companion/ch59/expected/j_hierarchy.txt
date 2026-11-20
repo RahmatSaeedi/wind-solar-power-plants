@@ -1,0 +1,9 @@
+the equipment hierarchy of Plant P (ch 18 product breakdown)
+  plant         1 kinds       1 items
+  system        7 kinds       7 items
+  subsystem     7 kinds      37 items
+  equipment    16 kinds   2,419 items
+  unit         14 kinds 118,016 items
+  items in all: 120,480
+  every item gets a functional location and a tag; only the
+  maintainable ones get an asset record in the CMMS

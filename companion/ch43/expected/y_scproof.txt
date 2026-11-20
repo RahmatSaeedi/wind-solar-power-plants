@@ -1,0 +1,12 @@
+short-circuit proof for T1: chance of a weak design 5%,
+  a field failure 3,500 k u (replacement, crane, months out;
+  teaching); a review catches 70% of weak designs
+  route                expected cost k u
+  no proof                           175
+  design review                       82
+  test on this unit                  220
+  cheapest in expectation: design review
+  a test proves this unit and risks it (a failed test is a
+  damaged transformer); a review of the calculation against
+  units the maker has tested costs less - the choice is the
+  owner's engineer's, written in the contract (TQ-04)

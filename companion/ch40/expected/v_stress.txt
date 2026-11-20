@@ -1,0 +1,10 @@
+lifting lug: chance that load exceeds strength (both normal)
+  load a leg 148 kN (sd 15)
+  strength mean  sd   safety factor  chance of failure
+            250   25           1.69           2.34e-04
+            300   25           2.03           9.26e-08
+            300   50           2.03           1.80e-03
+  the same safety factor (2.0) gives 19,398 times the
+  risk when the strength scatters twice as much: a safety
+  factor without the scatter says little - the lift lug's
+  load test in the first-article package measures it

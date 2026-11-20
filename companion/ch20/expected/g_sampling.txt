@@ -1,0 +1,14 @@
+the tuned and the aggressive PI run at a sample period ts:
+  tuning             ts s   overshoot %   settle 2 % s
+  tuned (1.5, 0.8)   0.05           0.1            4.5
+  tuned (1.5, 0.8)   0.20           0.0            4.4
+  tuned (1.5, 0.8)   0.50           0.0            4.2
+  tuned (1.5, 0.8)   1.00           0.0            4.4
+  aggressive (6, 8)  0.05           9.9            2.4
+  aggressive (6, 8)  0.20          11.6            2.1
+  aggressive (6, 8)  0.50         121.7           40.0
+  aggressive (6, 8)  1.00      unstable           40.0
+  holding the command between updates acts like a delay of
+  about half a period: the tuned loop does not notice even 1 s,
+  the aggressive one overshoots 122 % at 0.5 s and fails at
+  1 s; the controller's cycle time belongs in the delay budget

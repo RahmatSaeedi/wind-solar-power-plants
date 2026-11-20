@@ -1,0 +1,7 @@
+ovality of the fabricator's last 40 cans, % of D (limit 0.7 %)
+  mean 0.487, sd 0.078; Cpk 0.91; expected over the limit 0.3 %; found 0
+  a Cpk of 0.91 means about one can in 325 needs re-rolling;
+  a small share - but a Cpk under 1.33 leaves no room for a
+  drift in the rolls, and dimensions are the fabricator's first
+  NCR cause (round s): the audit asks for the capability, and
+  the buyer's plan keeps ovality on every can, not on a sample

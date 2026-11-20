@@ -1,0 +1,7 @@
+first full charge of the battery at site: 40.13 MWh nominal, arriving at 30%
+  to the top of the window (90 %): 25.9 MWh from the grid or the plant
+  at 10 MW: 2.6 h - then a full discharge to calibrate SOC
+  and capacity of every rack against the BMS
+  the first charge is planned with the grid operator and the
+  PV output (ch 50): it is also the first test of the DC
+  window, the PCS limits and the HVAC at full heat

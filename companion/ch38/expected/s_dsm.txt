@@ -1,0 +1,15 @@
+design structure matrix: who needs whose output
+  order of work (a group in [ ] must iterate):
+    site layout
+    one-line
+    load flow
+    [short circuit, transformer spec]
+    [protection, cable sizing]
+    earthing
+  iteration groups: 2; largest has 2 tasks
+  both loops are physics: the transformer impedance sets the
+  fault current, and the fault current sets what the
+  transformer must withstand; cable size depends on fault
+  current and clearing time, clearing time on the settings,
+  settings on the cable. The plan budgets two passes and
+  freezes the impedance first to break the first loop

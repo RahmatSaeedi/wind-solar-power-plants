@@ -1,0 +1,8 @@
+a thermocouple and its cold junction (linear teaching model)
+  hot end 320 deg C, terminals in a panel at 40 deg C
+  the junction pair makes 11.48 mV for the difference only
+  without cold-junction compensation the reading is 280 deg C
+  with it (panel temperature measured and added): 320 deg C
+  a thermocouple measures a difference; its extension wire
+  must be of the same alloys up to the compensated
+  terminals, or a new junction is made at every splice

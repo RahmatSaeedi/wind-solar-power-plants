@@ -1,0 +1,6 @@
+12 generators, gross data-pack year: 8,685 MWh/yr of losses
+  over 20 years: 174 GWh, about 0.8 years of the 12-turbine farm
+  (9.3 turbine-years of output)
+  present value at 50 u/MWh and 7 %: 4.60 million u
+  one per cent of generator efficiency is worth a large share of the
+  generator's price: losses belong in the purchase decision

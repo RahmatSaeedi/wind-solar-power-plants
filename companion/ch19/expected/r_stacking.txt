@@ -1,0 +1,8 @@
+stacking a 5 MW reserve on the shifting duty (teaching, A-298):
+  headroom kept both ways: 10 MWh of the usable window
+  shifting given up: 3,385 MWh a year, 116.1 k u at a 34.3 u/MWh spread
+  reserve earned outside the 9 shifting hours: 109.5 k u at 4 u/MW/h
+  net -6.6 k u a year; the reserve also uses
+  cycles from the warranty budget when it is called
+  stacking pays only if the reserve price and the rules allow;
+  the plant controller must keep both duties apart (chapter 20)

@@ -1,0 +1,11 @@
+two modules in parallel on one switch position: on-state spread
+  share of the current by 1/r; conduction loss ~ share^2 (teaching)
+  spread    shares          hotter module loss   Tj rise above even
+      0%    0.500/0.500         494 W            0.0 K
+      3%    0.507/0.493         509 W            0.9 K
+      6%    0.515/0.485         524 W            1.8 K
+      9%    0.522/0.477         539 W            2.7 K
+  at high current the IGBT's on-state voltage rises with
+  temperature, so the hotter module takes a little less - but
+  the factory still pairs modules from one voltage class and
+  one lot: sharing is designed in, then built in

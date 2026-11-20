@@ -1,0 +1,6 @@
+DSRA held as a letter of credit instead of cash:
+  cash DSRA 5,757 k u; LC fee 2 % a year = 115 k u
+  equity IRR 10.22 % -> about 10.29 %
+  the owners keep their money at work and pay a fee; the
+  lenders accept an LC from a bank they rate - a credit
+  question, not a modelling one

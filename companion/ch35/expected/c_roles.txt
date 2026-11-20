@@ -1,0 +1,11 @@
+roles and rights on the SCADA (teaching; least privilege)
+  role                          view      ack  operate settings software
+  viewer                           x        -        -        -        -
+  operator                         x        x        x        -        -
+  maintenance                      x        x        x        -        -
+  control engineer                 x        x        x        x        x
+  vendor (remote, escorted)        x        -        -        -        -
+  each person gets the smallest set of rights the job needs;
+  changing settings and loading software stay with named
+  engineers under management of change, and remote vendor
+  access is view-only unless a permit says otherwise (ch 36)

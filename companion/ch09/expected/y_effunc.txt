@@ -1,0 +1,7 @@
+efficiency from input and output power (A-177):
+  P_in 5.08 MW, efficiency 0.984: loss 81.3 kW
+  meters +-0.10 % each: efficiency +-0.139 %, loss +-7.1 kW (9 % of the loss)
+  meters +-0.05 % each: efficiency +-0.070 %, loss +-3.6 kW (4 % of the loss)
+  the loss is the small difference of two large numbers: its
+  relative uncertainty is large; summing measured component
+  losses or a calorimetric method measures it directly

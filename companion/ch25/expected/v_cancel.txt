@@ -1,0 +1,12 @@
+a 30-degree shift between LV1 (star) and LV2 (delta): 5th harmonic
+  at HV from two inverters, each 2 % of its own current, locked to it
+  case                                   residual % of one group
+  equal load, same harmonic angle                          0.00
+  LV2 at half load                                         1.00
+  equal load, 20 deg angle difference                      0.69
+  no shift (both star)                                     4.00
+  the shift turns the 5th and 7th of one group against the other
+  (the 11th and 13th add): only harmonics each inverter makes
+  in a fixed relation to its own current cancel; distortion
+  driven by the grid's voltage does not - the harmonic study
+  (ch 28) uses the makers' measured data, not this ideal

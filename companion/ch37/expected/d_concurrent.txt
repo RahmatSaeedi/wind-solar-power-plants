@@ -1,0 +1,5 @@
+a 10 h turbine fault with a 3 h grid outage inside it (March)
+  fault charged for all 10 h: availability 98.656 %
+  grid outage takes its 3 h first, as external: 99.055 %
+  two categories at once need a priority rule, written
+  before the dispute: the same log gives two answers

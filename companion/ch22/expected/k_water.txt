@@ -1,0 +1,12 @@
+construction water at P-South (water scarce, teaching):
+  turbine foundations (12 x 650 m3 concrete x 0.2)      1,560
+  other concrete and grout                                900
+  dust on 25 km of tracks (2 m3/km a day, 300 days)    15,000
+  worker camp (270 people x 0.1 m3 a day)              14,580
+  PV module first cleaning                                600
+  total demand 32,640 m3; well at 40 m3 a day 21,600 m3
+  shortfall 11,040 m3 = 442 truck loads of 25 m3
+  water is a buildability item (trucks, storage, cost) and a
+  social one: the herders' wells serve the same aquifer; the
+  supply permit and a water plan agreed with the users come
+  before the site can be chosen (sections A and G, ch 18)

@@ -1,0 +1,9 @@
+industrial self-supply variant (factory A-284, model 15.1 output):
+  factory: 167.0 GWh, peak 25.7 MW, load factor 0.742
+  covered by the plant 127.2 GWh (76.2 % of the factory's energy)
+  still imported 39.8 GWh; exported surplus 168.1 GWh
+  hours fully covered 5702 of 8760
+  a flat industrial load and a variable plant meet only part of
+  the time: the contract prices the matched energy, the import
+  and the export separately; storage and a larger plant raise
+  the cover with falling returns (chapters 19 and 21)

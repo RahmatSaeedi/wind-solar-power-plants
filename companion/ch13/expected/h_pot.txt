@@ -1,0 +1,11 @@
+50-year ten-minute wind from 20 years of synthetic storms (A-257):
+  storms above 25.3 m/s: 83 in 20 years; annual maxima: 20
+  method              50-year m/s   90 % interval (bootstrap)
+  annual maxima          32.7       29.3 .. 35.3
+  peaks over threshold   30.9       29.6 .. 32.3
+  true value of this synthetic climate: 30.6 m/s
+  50-year gust, x (1 + 2.5 x 0.10) at storm turbulence: 38.6 m/s
+  the storm method uses every storm, not one per year: its
+  interval is narrower; both need independent storms and a
+  threshold chosen with care; the design value and its gust
+  relation follow the design standard's method (chapter 11)

@@ -1,0 +1,12 @@
+ultrasonic scan of the web bond line: probability of detecting
+  a disbond (log-normal POD, a50 20 mm, beta 0.45)
+  disbond mm   POD one scan   two independent scans
+           10             6%                     12%
+           20            50%                     75%
+           40            94%                    100%
+           60            99%                    100%
+          100           100%                    100%
+  a90 = 36 mm: the size found nine times in ten
+  the design must tolerate a flaw just below the size the
+  inspection reliably finds; POD is measured on panels with
+  known flaws - a method's claim without it is a hope

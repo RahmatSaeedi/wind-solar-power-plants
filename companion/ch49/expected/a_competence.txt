@@ -1,0 +1,10 @@
+crew competence on 2027-09-01 (certificates and named roles)
+  expired: jointer - MV jointer (maker-trained) (J. Rahimi, 2027-07-30)
+  expires within 45 days: electrical - first aider (A. Moradi, 2027-10-01)
+  role not filled: crane - lift supervisor
+  role not filled: modules - first aider
+  the jointing crew cannot terminate MV cables until the
+  jointer's maker training is renewed; the crane crew has no
+  lift supervisor, so no planned lift goes ahead; the module
+  crew works without a named first aider - each is a stop,
+  not a note (ch 32 competency)

@@ -1,0 +1,21 @@
+% Chapter 11 - rotor-size trade study: change of annual energy, peak thrust and blade mass relative
+% to the 150 m rotor (5 MW drivetrain, A-239). Data: diagrams/data/ch11-rotorsize.csv (examples_h.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=106mm, height=62mm, xmin=132, xmax=166, ymin=-25, ymax=25,
+      xlabel={قطرِ روتور، $\text{m}$}, ylabel={تغییر نسبت به روتورِ پایه، درصد},
+      xtick={136,150,162}, ytick={-20,-10,...,20}, legend pos=north west, legend columns=1]
+    \addplot[sWind, mark=*, mark size=1.8pt] table[x=d, y=energy, col sep=comma]
+      {data/ch11-rotorsize.csv};
+    \addlegendentry{انرژیِ سالانه}
+    \addplot[sInk, dash pattern=on 6pt off 2.5pt, mark=square*, mark size=1.6pt] table[x=d, y=thrust,
+      col sep=comma] {data/ch11-rotorsize.csv};
+    \addlegendentry{رانشِ بیشینه}
+    \addplot[sLoss, mark=triangle*, mark size=2pt] table[x=d, y=mass, col sep=comma]
+      {data/ch11-rotorsize.csv};
+    \addlegendentry{جرمِ پره}
+    \draw[cRule] (axis cs:132,0) -- (axis cs:166,0);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

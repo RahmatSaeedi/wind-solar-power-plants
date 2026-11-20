@@ -1,0 +1,13 @@
+two sensors under moving clouds (broken day, frozen-cloud model):
+  distance m  delay min  r one-minute  r ten-minute  daily diff
+         0       0       1.000         1.000        +0.00 %
+       100       0       1.000         1.000        +0.00 %
+       300       0       1.000         1.000        +0.00 %
+       600       1       0.987         0.998        -0.00 %
+      1200       2       0.959         0.994        -0.00 %
+      2400       4       0.903         0.975        -0.00 %
+  this synthetic day's clouds last tens of minutes, so minute values
+  stay alike over a few hundred metres and part over kilometres;
+  real cloud edges are smaller and part sooner. Daily sums agree:
+  one sensor per block suffices for daily PR; minute studies
+  (ramps, clipping) need sensors next to the blocks studied

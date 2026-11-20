@@ -1,0 +1,8 @@
+acceptance of main transformer T1 at the factory, summarised
+  traveler: 5 gaps; test report: 3 failures, deductions 8.4 k u
+  winding rise 66.5 K read correctly against 65 K
+  decision: not accepted for shipment until the ratio lead,
+  the PD source and the acetylene are explained and the
+  records completed; the winding-rise exceedance goes to the
+  owner with options (cooling repair, a rating limit agreed
+  in writing, or rejection) - not a factory floor decision

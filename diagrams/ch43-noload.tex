@@ -1,0 +1,14 @@
+% Chapter 43 - no-load current of T1 at 90, 100 and 110 % voltage from the test report: the current
+% triples above rated as the core nears its knee (diagrams/data/ch43-noload.csv from
+% companion/ch43/examples_z.py, noload; fictional report values).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=92mm, height=54mm, xmin=0.86, xmax=1.14, ymin=0, ymax=0.36,
+      xlabel={ولتاژ (پریونیت)}, ylabel={جریانِ بی‌باری (درصد)},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[sWind, mark=*, mark size=1.8pt] table[x=u, y=i0, col sep=comma] {data/ch43-noload.csv};
+    \node[note, anchor=south east] at (axis cs:1.09,0.31) {نزدیکِ زانوی هسته};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

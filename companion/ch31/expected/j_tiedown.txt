@@ -1,0 +1,11 @@
+holding a stored blade down in a storm (teaching lift coefficient 1.0)
+  plan area 111 m2; blade and cradles 25 t
+  gust m/s   lift kN   weight kN   net uplift kN
+        20        24         245               0
+        30        54         245               0
+        41       102         245               0
+  even the 41 m/s gust lifts less than the weight here - but
+  the light tip end carries little of that weight, gusts
+  push the blade sideways and turn it on its cradles: the
+  maker's storage instruction asks for straps to ground
+  anchors and a set direction to the prevailing wind

@@ -1,0 +1,43 @@
+P01 binding pieces of the extract: 6 of 12
+P02 normative but vague: 7.2, 9.1
+P03 governing night noise: 40 dB(A)
+P04 power factor every source allows: at least 0.95
+P05 ramp every source allows: at most 8 %/min
+P06 conflict: ride-through at 0 pu
+P07 clauses that differ, filing vs energisation: 7.1, 9.3
+P08 authority topics not verified: 6 of 14
+P09 requirements that apply: 13; outside: Z-011
+P10 requirements with source problems: 3 of 14
+P11 read only in translation: TCR, GLR
+P12 research records with all four fields: 4 of 8
+P13 requirements added under O2 / O3: 4 / 7
+P14 status: verified 10, project-dependent 2, to-confirm 2
+P15 open past 30 days: CQ-01 50 d, CQ-04 106 d
+P16 records to re-check after a grid-code edition: 8
+P17 register cells filled 85%, complete rows 3 of 6
+P18 preparer/reviewer/approver problems: 3
+P19 R2 to R3: 5 changes, added Z-009, Z-010, removed Z-015
+P20 interpretations not in writing: 3 of 5
+P21 Q needed at 100 MW: 32.87 Mvar
+P22 Q needed at 10 MW: 3.29 Mvar
+P23 Z-001 open stages: approval, retained
+P24 Z-009 open stages: 5 of 7
+P25 export cap where 30.6 Mvar meets pf 0.95: 93.1 MW
+P26 hours above the cap: 188, energy 930 MWh
+P27 lost revenue 65 k u a year, 664 k u over 20 years
+P28 compensator 360 k u against the cap's 664 k u: compensator
+P29 closing evidence in hand: 5 of 9
+P30 finance items: verified 5, project-dependent 2, to-confirm 5
+P31 premium: extra debt 3,353 k u; min DSCR if never paid 1.17
+P32 five-year depreciation: equity IRR +0.62 points, min DSCR 1.08
+P33 currency 2 %/yr: min DSCR 0.86, below 1.10 from year 9, short from 12
+P34 currency 4 %/yr: min DSCR 0.56
+P35 dividends held 2 years: equity IRR 10.22% -> 9.90%
+P36 withholding gross-up: rate 6.67%, min DSCR 1.14
+P37 open items by reviewer: local tax advisor 3, local counsel 3
+P38 pf vs Q/Pmax at 20 MW: 5.0 times
+P39 not verified at financial close: Z-014
+P40 change rate 0.50 a year; before energisation 39%; over 25 years 12
+P41 disciplines with a to-confirm item: protection
+P42 readiness review: 2 of 12
+P43 by hand: Q 32.87 Mvar, cap 93.1 MW

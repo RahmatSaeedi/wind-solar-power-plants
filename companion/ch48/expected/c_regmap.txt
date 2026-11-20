@@ -1,0 +1,8 @@
+protocol register map read against the tag database
+  POC.Q: device unit Mvar, tag unit MW
+  T05.WS: device unit m/s, tag unit km/h
+  2 findings: a reactive-power register labelled MW in the
+  tag database; a wind speed in km/h at the tag but m/s at the
+  device; a PV feeder in int16 thousandths of a MW that cannot
+  show more than 32.8 MW - fine for 25 MW, but the scale is
+  recorded with the tag so the next change sees it (ch 35 int16)

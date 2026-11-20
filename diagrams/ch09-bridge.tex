@@ -1,0 +1,28 @@
+% Chapter 9 - two-level three-phase voltage-source bridge: DC link, six IGBTs with antiparallel
+% diodes, phase outputs a, b, c.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \draw (-1.6,0) to[battery1, l_={$V_\text{dc}$}, invert] (-1.6,4.2);
+  \draw (0,4.2) to[C, l={$C_\text{dc}$}] (0,0);
+  \draw (-1.6,4.2) -- (9.4,4.2);
+  \draw (-1.6,0) -- (9.4,0);
+  \node[note, text=cInk, anchor=south] at (4.6,4.25) {$+$};
+  \node[note, text=cInk, anchor=north] at (4.6,-0.05) {$-$};
+  \foreach \x/\ph/\k in {2.2/a/1, 5.0/b/2, 7.8/c/3} {
+    \draw (\x,4.2) -- (\x,3.75) node[nigbt, anchor=C] (u\k) {};
+    \draw (u\k.E) -- (\x,2.1);
+    \draw (\x,2.1) -- (\x,1.65) node[nigbt, anchor=C] (l\k) {};
+    \draw (l\k.E) -- (\x,0);
+    \draw (\x,4.0) -- (\x+0.7,4.0);
+    \draw (\x+0.7,2.4) to[D] (\x+0.7,4.0);
+    \draw (\x+0.7,2.4) -- (\x,2.4);
+    \draw (\x,1.8) -- (\x+0.7,1.8);
+    \draw (\x+0.7,0.2) to[D] (\x+0.7,1.8);
+    \draw (\x+0.7,0.2) -- (\x,0.2);
+    \draw (\x,2.1) -- (\x+1.3,2.1) node[ocirc] {};
+    \node[note, text=cInk, anchor=west] at (\x+1.35,2.1) {$\ph$};
+  }
+  \node[note, text=cInk, anchor=north] at (4.6,-0.45) {هر ساق دو کلید دارد که هرگز هم‌زمان روشن نمی‌شوند؛ هر کلید یک دیودِ موازیِ معکوس دارد};
+\end{tikzpicture}}
+\end{document}

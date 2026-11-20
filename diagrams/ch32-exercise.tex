@@ -1,0 +1,52 @@
+% Chapter 32 - the table-top of the winter night at T07: each inject on its own row, from the
+% inject (dot) to the action (bar end), against the target (tick); solid green within target,
+% red late, dashed red not done. Owners named in the plan in brackets (section J;
+% companion/ch32/lab_j.py, j_injects; teaching). Scale 0.05 cm per minute, 0 to 180 minutes.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\footnotesize,
+    ok/.style={line width=2.4pt, draw=cBESS},
+    late/.style={line width=2.4pt, draw=cLoss},
+    notdone/.style={line width=1.4pt, draw=cLoss, dash pattern=on 3pt off 2pt},
+    tgt/.style={line width=0.8pt, draw=cInk},
+    lab/.style={anchor=west, text=cInk}]
+  % axis
+  \draw[draw=cRule, line width=0.6pt] (0,-4.55) -- (9,-4.55);
+  \foreach \m in {0,30,60,90,120,150,180} {
+    \draw[draw=cRule] (\m*0.05,-4.55) -- (\m*0.05,-4.65);
+    \node[text=cMuted, below] at (\m*0.05,-4.65) {\m};
+    \draw[draw=cGridline, line width=0.4pt] (\m*0.05,0.35) -- (\m*0.05,-4.45);
+  }
+  \node[text=cInkB] at (4.5,-5.25) {دقیقه از هشدار};
+  % rows: y = -0.55 k
+  % 1 alarm 0 -> 2, target 5
+  \draw[ok] (0,0) -- (0.10,0);  \fill[cInk] (0,0) circle (1.3pt);  \draw[tgt] (0.25,-0.16) -- (0.25,0.16);
+  \node[lab] at (9.3,0) {هشدار از T07 (یک مالک)};
+  % 2 repeater 5 -> 14, target 7
+  \draw[late] (0.25,-0.55) -- (0.70,-0.55);  \fill[cInk] (0.25,-0.55) circle (1.3pt);  \draw[tgt] (0.35,-0.71) -- (0.35,-0.39);
+  \node[lab] at (9.3,-0.55) {قطعِ تکرارکننده (دو مالک)};
+  % 3 wadi 12 -> 26, target 27
+  \draw[ok] (0.60,-1.10) -- (1.30,-1.10);  \fill[cInk] (0.60,-1.10) circle (1.3pt);  \draw[tgt] (1.35,-1.26) -- (1.35,-0.94);
+  \node[lab] at (9.3,-1.10) {گذرگاهِ وادی زیرِ آب (یک مالک)};
+  % 4 vehicle 20 -> 23, target 25
+  \draw[ok] (1.00,-1.65) -- (1.15,-1.65);  \fill[cInk] (1.00,-1.65) circle (1.3pt);  \draw[tgt] (1.25,-1.81) -- (1.25,-1.49);
+  \node[lab] at (9.3,-1.65) {خودروی ناشناس در دروازه (یک مالک)};
+  % 5 guide 25 -> 43, target 35
+  \draw[late] (1.25,-2.20) -- (2.15,-2.20);  \fill[cInk] (1.25,-2.20) circle (1.3pt);  \draw[tgt] (1.75,-2.36) -- (1.75,-2.04);
+  \node[lab] at (9.3,-2.20) {راهنما برای آمبولانس (بی‌مالک)};
+  % 6 village 35 -> 41, target 45
+  \draw[ok] (1.75,-2.75) -- (2.05,-2.75);  \fill[cInk] (1.75,-2.75) circle (1.3pt);  \draw[tgt] (2.25,-2.91) -- (2.25,-2.59);
+  \node[lab] at (9.3,-2.75) {تماسِ بزرگِ روستا (بی‌مالک، بی‌سابقه)};
+  % 7 casualty 75 -> 76, target 80
+  \draw[ok] (3.75,-3.30) -- (3.80,-3.30);  \fill[cInk] (3.75,-3.30) circle (1.3pt);  \draw[tgt] (4.00,-3.46) -- (4.00,-3.14);
+  \node[lab] at (9.3,-3.30) {مصدوم روی زمین (یک مالک)};
+  % 8 stand down 120 -> not done, target 180
+  \draw[notdone] (6.00,-3.85) -- (9.00,-3.85);  \fill[cInk] (6.00,-3.85) circle (1.3pt);  \draw[tgt] (9.00,-4.01) -- (9.00,-3.69);
+  \node[lab] at (9.3,-3.85) {جلسهٔ بازبینی (یک مالک، برگزار نشد)};
+  % legend
+  \draw[ok] (0.2,0.85) -- (0.8,0.85);  \node[anchor=west] at (0.9,0.85) {در زمانِ هدف};
+  \draw[late] (3.0,0.85) -- (3.6,0.85);  \node[anchor=west] at (3.7,0.85) {دیر};
+  \draw[notdone] (4.8,0.85) -- (5.4,0.85);  \node[anchor=west] at (5.5,0.85) {انجام نشد};
+  \draw[tgt] (7.3,0.69) -- (7.3,1.01);  \node[anchor=west] at (7.45,0.85) {هدف};
+\end{tikzpicture}}
+\end{document}

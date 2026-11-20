@@ -1,0 +1,11 @@
+changing from manual (40 MW) to automatic with a 60 MW set point
+  case                      first output MW   step MW   peak MW
+  no tracking                          30.0     -10.0      60.2
+  integrator tracks                    70.0     +30.0      70.0
+  set point ramps                      40.0      +0.0      60.1
+  without tracking the controller starts from its own empty
+  integrator and drops the plant; tracking alone still
+  kicks by the gain times the error; tracking plus a set
+  point that starts at the measured value and ramps at the
+  allowed rate (10 MW a minute, lesson G) changes nothing at
+  the moment of transfer - the test of lesson G checks it

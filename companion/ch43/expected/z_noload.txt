@@ -1,0 +1,11 @@
+no-load test of T1 at 90, 100 and 110 % voltage (report values)
+  voltage pu   P0 kW   I0 %
+        0.90    33.8   0.07
+        1.00    42.2   0.10
+        1.10    54.1   0.31
+  loss grows as U^2.1 below rated and U^2.6 above it;
+  the no-load current triples from 100 to 110 %
+  a core near its knee: at 110 % (1.87 T, lesson A) the steel
+  starts to saturate - the curve confirms what the flux sum
+  predicted and is the evidence behind the over-excitation
+  limit the protection holds (ch 25)

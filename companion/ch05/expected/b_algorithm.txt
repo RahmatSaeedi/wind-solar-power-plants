@@ -1,0 +1,3 @@
+longest gap: (5, 9)
+pairwise: found ['T7'] after 2,001,000 comparisons
+with a set: found ['T7'] after 2,001 look-ups

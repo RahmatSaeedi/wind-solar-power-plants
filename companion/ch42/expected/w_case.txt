@@ -1,0 +1,9 @@
+carburised gear: depth where hardness falls to 550 HV
+  (traverse on a test coupon; teaching spec 2.4 - 3.2 mm)
+  heat    case depth mm   verdict
+  HT-41            2.82   accept
+  HT-42            2.96   accept
+  HT-43            2.09   NCR
+  a shallow case wears and pits under contact stress; the
+  depth is read off the curve, not off one point, and a
+  failed coupon puts every gear of that heat on hold

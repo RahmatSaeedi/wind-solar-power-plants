@@ -1,0 +1,16 @@
+standards that come in series (parts of one number in the register)
+  IEC 61400 (13 rows):
+    61400-1, 61400-11, 61400-12-1, 61400-13, 61400-21-1, 61400-24
+    61400-26-1, 61400-27-1, 61400-27-2, 61400-4, 61400-5, 61400-6
+  IEC 60076 (8 rows):
+    60076-1, 60076-10, 60076-11, 60076-18, 60076-2, 60076-3, 60076-5
+    60076-7
+  IEC 61000 (6 rows):
+    61000-3-6, 61000-4-15, 61000-4-30, 61000-4-7, 61000-6-2, 61000-6-4
+  IEC 62443 (6 rows):
+    62443-2-1, 62443-2-4, 62443-3-2, 62443-3-3, 62443-4-1, 62443-4-2
+  IEC 60904 (5 rows):
+    60904-1, 60904-1-2, 60904-13, 60904-3, 60904-9
+  part 1 is usually general and the others particular: a
+  particular part is read with its general part, in the
+  editions it names

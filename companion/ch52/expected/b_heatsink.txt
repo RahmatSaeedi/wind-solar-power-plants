@@ -1,0 +1,6 @@
+PV inverter PVF2-3: heat-sink rise over coolant at 90 % power (K), monthly
+  18.0 18.2 18.6 19.5 20.6 22.0 23.1 18.3 18.6 19.0 19.4 19.9
+  rising 0.89 K a month in the dust season; filters changed in month 8
+  a rise of 5 K takes the stack 5 K nearer its derating; the
+  trend times the filter change better than a calendar (ch 44
+  thermal stack-up, ch 51 filters)

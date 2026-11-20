@@ -1,0 +1,12 @@
+capacitive current the feeder breakers must switch (33 kV, teaching):
+  circuit                    uF per phase   charging A
+  feeder =WS1 (4.4 km)               1.02          6.1
+  feeder =PVF1 (2.4 km)              0.50          3.0
+  whole section A                    2.68         16.0
+  section A + B (coupler)            5.36         32.1
+  small next to the load current, but switching it off is a
+  special duty: the capacitor keeps its charge and the voltage
+  across the opening contacts doubles - a breaker that
+  restrikes makes overvoltages; the cable-charging switching
+  rating (and its low-restrike class) belongs in the
+  specification next to the fault rating

@@ -1,0 +1,12 @@
+close permissive of a 33 kV feeder breaker (AND of five conditions)
+  earth switch open, no lockout, DC healthy, remote mode, gas OK
+  combinations of the five inputs: 32; close allowed in 1
+  each input has a quality: 'bad' or 'stale' counts as false
+  scenario                               result
+  all true, all good                      close allowed
+  gas pressure input bad (wire broken)    BLOCKED, alarm
+  remote mode stale (link lost)           BLOCKED, local only
+  a permissive fails safe: an input it cannot trust blocks
+  the action and says which input, so the operator is not
+  left guessing; the interlock that protects people (the
+  earth switch) is also mechanical, not only in the PLC

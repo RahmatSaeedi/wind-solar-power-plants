@@ -1,0 +1,20 @@
+$ python -m companion.ch05.step4_run companion/ch05/config/run_S0.yml
+pv_gwh         96.43
+wind_gwh       177.08
+export_gwh     273.52
+curtailed_mwh  0.0
+written to companion/ch05/output/S0
+[exit code 0]
+$ python -m companion.ch05.step4_run companion/ch05/config/run_bad.yml
+error: configuration rejected:
+  export_limt_mw: not in the schema (typing error?)
+  run_id: 'plp ch05' does not match [A-Z0-9-]+
+  data_release: expected str, got float 1.1
+  scenario: 'S2' not one of ['S0', 'S1']
+  pv.dc_mwp: 60000 MWp above maximum 1000 MWp
+  pv.gamma_per_k: -0.35 1/K below minimum -0.01 1/K
+  pv.eta_inverter: missing
+  wind.turbines: expected int, got float 12.5
+  wind.density_correction: expected bool, got str 'yes'
+  export_limit_mw: missing
+[exit code 2]

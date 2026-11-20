@@ -1,0 +1,7 @@
+network FAT on a staging rack: 15 devices staged, 18 installed
+  installed but never staged: CLK-2, GW-PV2, SW-T09
+  SW-T09 is the switch replaced at site (lesson C, older
+  firmware); GW-PV2 and the second clock arrived late and went
+  straight in - their configuration and firmware were never
+  proven on the rack; they get the staging tests at site
+  before the SAT, with the same records

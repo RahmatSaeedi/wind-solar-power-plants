@@ -1,0 +1,7 @@
+communications-dependent intertrip from the grid end (teaching):
+  relay 20 ms + channel 15 ms + receiver 10 ms + breaker 60 ms = 105 ms
+  one channel available 99.900%; two independent channels 99.9999%
+  the requirement (time and availability) comes from the
+  operator; the channels (fibre in the earth wire, a second
+  route) and their supervision are part of the scheme, and
+  the end-to-end test proves the timing

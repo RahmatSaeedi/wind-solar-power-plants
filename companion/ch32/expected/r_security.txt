@@ -1,0 +1,9 @@
+does a security measure pay for itself? (teaching, k u a year)
+  measure                      cost/yr   events/yr   loss/event   saved/yr
+  marked aluminium earth cable       6   1.5 -> 0.4           40         44
+  alarm at stores                   12   2.0 -> 0.8           15         18
+  guard at every gate, 24 h        180   2.0 -> 0.6           15         21
+  design and records (cheap, permanent) pay back many times;
+  manpower is costly for the loss it prevents - and the
+  community relations of lesson G reduce the events
+  themselves; measures stay proportionate and lawful

@@ -1,0 +1,22 @@
+release decision for each tower section from its records
+  section 1: HOLD - 8 open
+    P103: impact tested at 0 C (ordered -20 C)
+    C1-02: expired 2027-02-28
+    F1-01: not qualified in position PF
+    D1-01: not qualified for FCAW
+    NDT attachments 4%
+    NCR-205 open
+    NCR-206 open
+    NCR-207 open
+  section 2: HOLD - 3 open
+    P104: impact energy 22 J below 27 J
+    P105: CEV 0.49 above 0.43
+    NCR-202 open
+  section 3: HOLD - 2 open
+    P106: grade S275 (ordered S355)
+    NCR-203 open
+  section 4: RELEASE
+  only section 4 may ship; holds: section 1 8, section 2 3, section 3 2 -
+  each one closed by a record
+  (a re-test, an NDT report, a qualification, a designer's
+  acceptance), not by a signature on the release note

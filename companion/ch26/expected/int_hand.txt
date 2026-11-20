@@ -1,0 +1,7 @@
+one grading point by hand (4 kA through a feeder and its incomer):
+  feeder: I/Is = 4000/480 = 8.33;
+    t = 0.10 x 0.14 / (8.33^0.02 - 1) = 0.32 s
+  incomer: I/Is = 4000/1600 = 2.50;
+    t = 0.11 x 0.14 / (2.50^0.02 - 1) = 0.83 s
+  margin 0.51 s >= 0.3 s: graded
+  code check: 0.32 s and 0.83 s

@@ -1,0 +1,10 @@
+register rows by lifecycle stage (keywords in the applicability field;
+a row may serve several stages)
+  design                             21
+  manufacture and factory test       19
+  site test and commissioning        10
+  operation and maintenance          11
+  rows with no stage word: 137 of 191
+  the book's applicability field names chapters and purposes,
+  seldom the stage; a project register gives each row a stage
+  column, because one standard is read at several stages

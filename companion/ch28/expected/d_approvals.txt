@@ -1,0 +1,13 @@
+approval boundaries of the study (who prepares, reviews, approves)
+  item                       prepares             approves
+  study scope and cases      plant study engineer operator
+  input data                 data owner           data owner signs
+  unit and controller models OEM                  operator accepts
+  study results              study engineer       licensed engineer + operator
+  protection settings        protection engineer  operator (interface)
+  test programme             plant                operator
+  compliance statement       plant                operator (operating notice)
+  the operator owns the network model and the code; the OEM
+  owns its models; the plant owns its data and the study;
+  no one approves their own work - an independent checker
+  and a licensed engineer sign the results

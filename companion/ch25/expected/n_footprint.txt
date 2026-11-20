@@ -1,0 +1,9 @@
+footprint of the 132 kV yard (teaching bay size 11 m x 45 m):
+  arrangement           bays   area m2
+  single bus               3      1485
+  single bus, sectioned    4      1980
+  double bus               4      2376
+  plus roads, the transformer bays, the control building and
+  the fence clearance; clearances and bay widths come from the
+  insulation level and the installation standard (the
+  numbers here are teaching values, not a layout)

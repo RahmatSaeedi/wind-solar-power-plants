@@ -1,0 +1,13 @@
+% Chapter 33 - share of grievances late against the target days at each stage of the workflow
+% (diagrams/data/ch33-grievance.csv, lab_h; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, ybar, bar width=6mm, xmin=0.4, xmax=8.6, ymin=0, ymax=0.7,
+      xtick={1,...,8}, xticklabels={ثبت, اعلامِ دریافت, ارزیابی, بررسی, پیشنهاد, توافق, جبران, بستن},
+      x tick label style={font=\scriptsize}, ylabel={سهمِ دیرکرد},
+      yticklabel style={/pgf/number format/fixed}]
+    \addplot[fill=cPV!50, draw=cPV] table[x=stage, y=late, col sep=comma] {data/ch33-grievance.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

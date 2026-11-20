@@ -1,0 +1,10 @@
+force between single-core cables in a fault: F = 0.17 ip^2 / s
+  (N/m, ip in kA, s in m; trefoil, teaching constant)
+  peak kA   spacing m   force kN/m   cleat every 1.0 m kN   1.5 m kN
+       40        0.14          1.9                    1.9        2.9
+       80        0.14          7.8                    7.8       11.7
+       80        0.20          5.4                    5.4        8.2
+  at the switchgear's 80 kA peak the cables push apart with
+  nearly 8 kN per metre: cleats sized and spaced for it keep
+  them in place - the cleat maker's short-circuit test is the
+  evidence, and the spacing goes on the installation drawing

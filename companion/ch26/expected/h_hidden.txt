@@ -1,0 +1,10 @@
+why a DC array fault hides from overcurrent devices:
+  a string works at Imp 13.11 A and cannot give more than Isc 13.98 A:
+  its short-circuit current is only 1.07 x its working current
+  a fault between two strings, or an arc in a connector, may
+  carry less than the working current; no fuse sees it
+  so the array is protected by other means: insulation
+  monitoring of the floating array, arc-fault detection in
+  the inverter (where offered), and good connectors fitted by
+  trained hands - the faults are prevented and found, not
+  cleared by current

@@ -1,0 +1,17 @@
+% Chapter 37 - a set-point step from 60 to 40 MW, the measured response and the +/-2 MW band of
+% the placeholder specification (lab_g; synthetic trace, U-118).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=0, xmax=60, ymin=34, ymax=64,
+      xlabel={زمان پس از فرمان (s)}, ylabel={توان (MW)}, xtick={0,10,...,60}]
+    \fill[cBESS!10] (axis cs:0,38) rectangle (axis cs:60,42);
+    \addplot[sLimit, const plot] coordinates {(0,60) (0,40) (60,40)};
+    \addplot[sBESS, line width=0.9pt] table[x=t, y=r, col sep=comma] {data/ch37-trace.csv};
+    \legend{فرمان, پاسخِ اندازه‌گیری‌شده}
+    \draw[sLoss] (axis cs:8.5,34) -- (axis cs:8.5,62);
+    \node[note, anchor=west] at (axis cs:9,58) {$t_{90}=8.5\,\text{s}$};
+    \node[note, anchor=south east] at (axis cs:59,42.2) {نوارِ $\pm 2\,\text{MW}$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

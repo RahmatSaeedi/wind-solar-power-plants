@@ -1,0 +1,23 @@
+station-service load register (kW at full duty; duty by state):
+  load                              kW  class  ess  norm  degr  emer  mnt
+  DC chargers 110 V                  12  conti  yes   1.0   1.0   1.0   1.0
+  UPS: SCADA, PPC, telecom           25  conti  yes   1.0   1.0   1.0   1.0
+  control room HVAC                  30  inter  yes   0.7   0.7   0.7   0.5
+  switchgear room ventilation        20  inter  yes   0.6   0.6   0.6   0.4
+  on-load tap changer motors          3  inter  yes   0.1   0.1   0.1   0.0
+  transformer cooling fans           16  inter  yes   0.5   0.5   0.0   0.0
+  substation lighting and security   15  conti  yes   0.5   0.5   0.5   1.0
+  drainage and sump pumps             8  inter  yes   0.2   0.2   0.3   0.2
+  water pumping and treatment        40  inter  no    0.4   0.4   0.0   0.2
+  cleaning robots charging           60  inter  no    0.5   0.5   0.0   0.0
+  workshop and stores                35  inter  no    0.5   0.5   0.0   1.0
+  maintenance socket outlets         30  inter  no    0.1   0.1   0.0   1.0
+  staff facilities                   25  inter  no    0.6   0.6   0.0   0.6
+  demand by state (diversity 0.9):
+    normal        152.0 kW   70.0 kvar  167.3 kVA  pf 0.91
+    degraded      152.0 kW   70.0 kvar  167.3 kVA  pf 0.91
+    emergency      72.2 kW   34.8 kvar   80.1 kVA  pf 0.90
+    maintenance   148.1 kW   68.0 kvar  163.0 kVA  pf 0.91
+  normal and degraded are equal: degraded means one supply
+  out, the same loads on the other; emergency keeps only the
+  essential loads; maintenance trades fans for tools

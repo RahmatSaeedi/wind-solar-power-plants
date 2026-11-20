@@ -1,0 +1,11 @@
+a fault on a UPS output circuit (25 kVA UPS, teaching):
+  rated current 36 A; inverter current limit ~2 x = 72 A for about 100 ms
+  breaker         instant trip needs   inverter gives   result
+  type B 10 A                   50 A             72 A   trips
+  type C 10 A                  100 A             72 A   may not trip
+  type C 16 A                  160 A             72 A   may not trip
+  the inverter cannot push enough current to trip anything but
+  the smallest breakers; the static bypass connects the mains
+  for the fault and the breaker clears from the mains - so the
+  bypass supply, its fault level and its availability are part
+  of the UPS circuit's protection design (ch 23 lesson F)

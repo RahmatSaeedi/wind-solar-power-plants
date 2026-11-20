@@ -1,0 +1,7 @@
+30 kW 4-pole motor at 400 V (A-114), per-phase circuit at 230 V:
+  rated: slip 1.65 % (1475 rpm), current 53.8 A, pf 0.853
+  torque 197 N m, efficiency 0.947, rotor copper s P_ag 0.51 kW
+  starting (s = 1): 335 A = 6.2 x rated, pf 0.23, torque 150 N m
+  pull-out torque 623 N m = 3.2 x rated at slip 11.2 %
+as a generator at slip -1.65 %: delivers 32.4 kW, absorbs 20.8 kvar
+  an induction generator always needs reactive power to magnetise

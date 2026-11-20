@@ -1,0 +1,23 @@
+% Chapter 36 - the synthetic topology of the design review with its two single points of failure: core
+% switch A for PV and battery, and the firewall pair for the DMZ (lab_d; synthetic).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    n/.style={blk, minimum width=22mm, minimum height=9mm, text width=20mm}]
+  \node[n, blkWind] (ied) at (11.0,3.6) {رله‌های پست};
+  \node[n, blkWind] (wtg) at (11.0,2.4) {توربین‌ها};
+  \node[n, blkPV] (pv) at (11.0,1.2) {اینورترها};
+  \node[n, blkBESS] (bes) at (11.0,0.0) {باتری};
+  \node[n, blkLoad, very thick, draw=cLoss] (ca) at (7.6,1.2) {سوئیچِ هستهٔ الف};
+  \node[n, blkLoad] (cb) at (7.6,3.4) {سوئیچِ هستهٔ ب};
+  \node[n, blkLoad] (ctl) at (4.6,2.2) {ناحیهٔ کنترل};
+  \node[n, blkWarn, very thick, draw=cLoss] (fw) at (2.0,2.2) {جفتِ دیوارهٔ آتش};
+  \node[n, blkWarn] (dmz) at (2.0,0.6) {ناحیهٔ میانی};
+  \node[n, blkWarn] (bus) at (2.0,-0.8) {کسب‌وکار};
+  \foreach \a in {ied, wtg, pv, bes} {\draw (\a.west) -- (ca.east);}
+  \foreach \a in {ied, wtg} {\draw (\a.west) -- (cb.east);}
+  \draw (ca) -- (ctl); \draw (cb) -- (ctl); \draw (ctl) -- (fw); \draw (fw) -- (dmz); \draw (dmz) -- (bus);
+  \node[note, text=cLoss, anchor=north, text width=40mm] at (7.6,0.55) {اینورترها و باتری فقط از این راه};
+  \node[note, text=cLoss, anchor=south, text width=34mm] at (2.0,2.85) {تنها راه به ناحیهٔ میانی؛ پذیرفته‌شده};
+\end{tikzpicture}
+\end{document}

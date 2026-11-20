@@ -1,0 +1,6 @@
+feeder PVF1 carries four PV blocks (PVF1-1..PVF1-4) on one 4.5 km cable
+  'all four out' if the blocks were independent: 1.3e-09
+  with the shared cable (fail 0.01/km-yr, 168 h down): 8.6e-04
+  665,907 times more likely: the dependence, not the
+  blocks, sets the risk - a model that multiplies unit
+  availabilities misses every shared cause

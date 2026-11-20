@@ -1,0 +1,10 @@
+crane pad under the worst outrigger (2,400 kN on a 2.5 x 6 m mat, teaching)
+  depth below mat m   pressure kPa   layer there
+                0.0            160   pad aggregate
+                1.0             98   silty sand (top)
+                2.5             56   silty clay, soft (T07)
+  on firm ground the pressure falls quickly with depth; at
+  T07 the soft clay 2.5 m down still sees about 60 kPa -
+  the crane company's load data and a pad check by the
+  civil engineer are needed there before the main lift
+  (ch 31 plans the lifts)

@@ -1,0 +1,4 @@
+thermometer: resolution 0.1 degC, data-sheet limit +-0.3 degC (assumed)
+  resolution: 0.05 / sqrt(3) = 0.0289 K
+  data sheet: 0.3 / sqrt(3)  = 0.1732 K
+  combined:   sqrt(sum of squares) = 0.176 K; U(k=2) = 0.35 K

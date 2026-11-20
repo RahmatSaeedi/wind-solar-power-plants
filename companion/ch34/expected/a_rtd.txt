@@ -1,0 +1,10 @@
+transformer winding temperature on a Pt100 (teaching)
+  at 95 deg C the sensor reads 136.61 ohm
+  each lead: 50 m of 0.75 mm2 copper = 1.17 ohm
+  two-wire: reads 101.1 deg C (+6.1 K; small-signal estimate +6.0 K)
+  three-wire, leads matched to 2 %: about +0.12 K
+  four-wire: no lead error
+  a 6 K error in a winding-temperature alarm
+  or a cooling-fan start is a design error, not noise:
+  long runs are three- or four-wire, or the transmitter
+  sits at the transformer

@@ -1,0 +1,12 @@
+inspection of 36 blades after three years (teaching damage)
+  cat  description                              repair           count
+    1  coating scratch                          rope access        14
+    2  leading-edge erosion into the laminate   rope access        17
+    3  skin damage, no structure                rope or platform    3
+    4  damage reaching a cap or web             ground, crane       2
+    5  structural crack or root damage          replace blade       0
+  repair cost 584 k u and 93 turbine-days down
+  categories 1-3 are field repairs within the maker's limits;
+  4-5 need the designer and usually a crane: the category
+  is set by an inspector against the maker's damage manual,
+  and a field repair is valid only with its record

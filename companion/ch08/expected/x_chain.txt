@@ -1,0 +1,5 @@
+drivetrain chain at rated and at 25 % load (A-047, A-111, A-128);
+  gearbox x generator x converter x turbine transformer:
+  100 % load: 0.970 x 0.970 x 0.975 x 0.990 = 0.908
+   25 % load: 0.959 x 0.954 x 0.975 x 0.979 = 0.873
+  most stages lose more, in per cent, at part load

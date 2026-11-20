@@ -1,0 +1,16 @@
+Plant P - Tajikistan: dossier readiness on 2026-11-17
+  [x] connection, metering and SCADA rules sourced (Resolution 449)
+  [x] route for large plants sourced (competitive procedure, PPA)
+  [ ] single buyer and dispatcher named
+  [ ] connection voltage and bay in technical conditions
+  [ ] ride-through and reactive values in writing
+  [x] written grid-data request prepared
+  [ ] curtailment reading (rules vs model PPA) in writing
+  [ ] EIA rules under the new Environmental Code confirmed
+  [ ] energy-expertise issuer confirmed
+  [ ] seismic code values for equipment read
+  [ ] convertibility and repatriation reviewed by counsel
+  [ ] land use right route for the project company confirmed
+  3 of 12: the connection rules, the route and the
+  data request stand on sources; the counterparties, the values
+  of the grid requirements and the curtailment reading do not

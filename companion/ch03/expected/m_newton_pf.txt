@@ -1,0 +1,10 @@
+two buses: bus 1 slack 1.0 /_ 0 pu; plant bus 2 injects P = 0.50, Q = 0 pu;
+    line z = 0.01 + j0.05 pu (assumed, 100 MVA base)
+  iteration  theta2 (deg)   V2 (pu)   largest mismatch (pu)
+          0       0.00000  1.000000   5.00e-01
+          1       1.43239  1.005000   6.05e-03
+          2       1.42589  1.004667   2.13e-06
+          3       1.42589  1.004667   5.22e-13
+  solution V2 = 1.00467 pu at 1.426 deg; the plant bus voltage rises 0.47 %
+  mismatch falls roughly as the square of the previous one: quadratic
+    convergence

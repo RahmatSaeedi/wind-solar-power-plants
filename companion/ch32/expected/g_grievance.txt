@@ -1,0 +1,13 @@
+grievance log of the construction year (synthetic)
+  category            count   median days to close
+  dust and noise         14        4.5
+  road and traffic        9       11.2
+  hiring and pay          8       20.6
+  land and access         5       38.8
+  worker conduct          3       10.4
+  water                   3       12.1
+  42 grievances; 88 % closed within 30 days; longest 71 days
+  land and access cases take longest and go to the
+  escalation step with a named senior person; a grievance
+  about worker conduct goes to the protection route at once,
+  never through the open log

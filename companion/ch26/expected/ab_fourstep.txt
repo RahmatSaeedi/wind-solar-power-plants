@@ -1,0 +1,14 @@
+four steps at the turbine end of a wind feeder, case by case (33 kV)
+  case                               kA    LV    unit  feeder  incomer  margin
+  LV fault in the turbine           1.40  0.05  0.35    0.65        -    0.30
+  HV fault at the unit transformer  4.68     -  0.03    0.30     0.71    0.27
+  feeder cable fault, far end (LL)  4.68     -     -    0.30     0.71    0.41
+  feeder head fault (coupler open)  7.75     -     -    0.24     0.55    0.30
+  no fault drives between 1.4 kA (the largest LV fault seen
+  through the unit) and 4.68 kA (the smallest HV fault at the
+  turbine) through the unit relay, so its two stages cover
+  the two real cases: 0.35 s for LV faults, instantaneous for
+  HV faults; every margin in the table is at least 0.27 s,
+  and the 0.25 s decision of lesson C is met everywhere;
+  below 1.6 kA the incomer does not pick up - its backup
+  for those faults is the feeder's breaker-failure stage

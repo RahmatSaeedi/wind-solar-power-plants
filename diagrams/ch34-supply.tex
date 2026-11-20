@@ -1,0 +1,23 @@
+% Chapter 34 - control-power map: station service, chargers and the 110 V DC battery, the DC/DC 24 V
+% control supply, the UPS, and the fire panel on its own batteries (examples_e; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=26mm, minimum height=11mm, text width=24mm}]
+  \node[s, blkLoad] (ac) at (12.0,1.5) {تغذیهٔ داخلی و دیزل};
+  \node[s, blkWind] (ch) at (8.6,3.0) {دو شارژر};
+  \node[s, blkWind] (bat) at (8.6,1.5) {باتریِ $110\,\mathrm{V}$ $250\,\mathrm{Ah}$};
+  \node[s, blkWind] (ups) at (8.6,0.0) {منبعِ بی‌وقفه $25\,\mathrm{kW}$};
+  \node[s, blkBESS] (ied) at (4.4,3.6) {رله‌ها و بوبین‌های قطع};
+  \node[s, blkBESS] (dc24) at (4.4,2.0) {مبدلِ $24\,\mathrm{V}$: کنترل‌گر و ورودی‌ها};
+  \node[s, blkBESS] (srv) at (4.4,0.0) {کنترل‌گرِ نیروگاه، اسکادا، مخابرات};
+  \node[s, blkPV] (fire) at (0.6,2.0) {تابلوی حریق با باتریِ خود};
+  \draw[flow] (ac) -- (ch);
+  \draw[flow] (ac) -- (ups);
+  \draw[flow] (ch) -- (bat);
+  \draw[flow] (bat) -- (ied);
+  \draw[flow] (bat) -- (dc24);
+  \draw[flow] (ups) -- (srv);
+  \node[note] at (0.6,0.6) {بی‌نیاز از تغذیهٔ نیروگاه};
+\end{tikzpicture}
+\end{document}

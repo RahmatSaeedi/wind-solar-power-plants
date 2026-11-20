@@ -1,0 +1,28 @@
+% Chapter 2 — tolerance stack-up of one PV table (13 modules + 12 clamp gaps).
+% Data: diagrams/data/ch02-tolerance.csv (companion/ch02/examples.py): Monte Carlo of 200,000 tables,
+% every part uniform within its tolerance. Lines: RSS of limits, 3 sigma of the simulation, worst case.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=128mm, height=66mm,
+      xlabel={انحرافِ طولِ میز از اسمی (mm)}, ylabel={چگالیِ احتمال، $\text{mm}^{-1}$},
+      xmin=-42, xmax=42, ymin=0, ymax=0.105, xtick={-40,-30,...,40},
+      ytick={0,0.02,...,0.1}, yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[ybar interval, draw=cPV, fill=cPV!30, line width=0.4pt]
+      table[x=dev_mm, y=density, col sep=comma] {data/ch02-tolerance.csv};
+    \addlegendentry{شبیه‌سازی}
+    \addplot[sLimit, forget plot] coordinates {(-8,0) (-8,0.092)};
+    \addplot[sLimit] coordinates {(8,0) (8,0.092)};
+    \addlegendentry{ریشهٔ مجموعِ مربعاتِ حدها}
+    \addplot[sLoad, forget plot] coordinates {(-13.9,0) (-13.9,0.092)};
+    \addplot[sLoad] coordinates {(13.9,0) (13.9,0.092)};
+    \addlegendentry{سه انحرافِ معیار}
+    \addplot[sLoss, forget plot] coordinates {(-38,0) (-38,0.092)};
+    \addplot[sLoss] coordinates {(38,0) (38,0.092)};
+    \addlegendentry{بدترین حالت}
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:8,0.093) {$\pm 8$};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:14.5,0.093) {$\pm 13.9$};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:38,0.093) {$\pm 38$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

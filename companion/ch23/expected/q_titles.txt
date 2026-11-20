@@ -1,0 +1,10 @@
+title-block check of five sheets (teaching):
+  PLP-ELE-DWG-0005  IFC  ok
+  PLP-ELE-DWG-0006  IFC  missing approved
+  PLP-ELE-DWG-006   IFA  number not in the register format
+  PLP-ELE-DWG-0007  IFC  missing revision
+  PLP-ELE-DWG-0008  IFR  checked by the drafter
+  an approval is required only from IFC on; a sheet checked
+  by its own drafter has not been checked; a number outside
+  the register cannot be found again - faults a
+  program finds in seconds, before a reviewer reads a line

@@ -1,0 +1,15 @@
+each finding of T1 in an acceptance category
+  finding                                   category
+  losses within tolerance, above guarantee  accept with deduction
+  impedance 12.6 % inside the band          accept
+  ratio fail at tap +8.75 %                 hold: rework and retest
+  winding rise 66.5 K over 65 K             owner: concession or repair
+  PD 120 pC over 100 pC                     hold: investigate and retest
+  acetylene after heat run                  hold: explain before shipment
+  FRA file of the LV winding missing        hold: deliver the record
+  short-circuit proof                       open technical query
+  accept with deduction 1, accept 1, hold 4,
+  owner 1, open technical query 1
+  one 'hold' is enough to stop shipment; a concession is the
+  owner's written choice; a deduction is arithmetic - three
+  kinds of decision with three kinds of owner

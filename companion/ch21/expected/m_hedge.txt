@@ -1,0 +1,9 @@
+floating rate against a swap (debt fixed at the base amount):
+  path          floating all-in %   min DSCR float   min DSCR swap
+  rates fall                  4.5             1.25            1.18
+  rates flat                  6.0             1.20            1.18
+  rates rise                  8.5             0.96            1.18
+  equity IRR with the swap 9.99 % in every path
+  the swap gives up the gain of falling rates to remove the
+  loss of rising ones: lenders usually require most of the
+  debt hedged, because a rise breaks the cover

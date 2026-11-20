@@ -1,0 +1,17 @@
+% Chapter 21 - change of the equity IRR (percentage points) for bad and good values of six inputs,
+% debt fixed (A-304..A-310). Data: diagrams/data/ch21-tornado.csv (companion/ch21/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=62mm, xbar, bar width=4mm, bar shift=0pt,
+      ymin=0.4, ymax=6.6, xmin=-3.5, xmax=3.8, y dir=reverse, ytick={1,...,6}, ymajorgrids=false,
+      yticklabels={انرژی (±۱۰٪), تعرفه (±۱۰٪), هزینهٔ سرمایه‌ای (±۱۰٪), هزینهٔ بهره‌برداری (±۱۰٪), نرخِ وام (±۱), جایگزینی (±۵۰٪)},
+      xlabel={تغییرِ بازدهِ سهام (درصد)}, xtick={-3,-2,...,3},
+      legend columns=1, area legend, legend style={at={(1.03,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[draw=cLoss, fill=cLoss!40] table[x=bad, y=k, col sep=comma] {data/ch21-tornado.csv};
+    \addplot[draw=cWind, fill=cWind!35] table[x=good, y=k, col sep=comma] {data/ch21-tornado.csv};
+    \draw[cInk, line width=0.6pt] (axis cs:0,0.4) -- (axis cs:0,6.6);
+    \legend{بد, خوب}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

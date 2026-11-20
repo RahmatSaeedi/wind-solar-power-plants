@@ -1,0 +1,8 @@
+salvage value of steel and cable metal at closure (k u, teaching prices)
+  low        1,059
+  central    1,640
+  high       2,221
+  the salvage swings by 1,161 k u between the cases -
+  46% of the net decommissioning cost of 2,500 (ch 21): the
+  provision is sized on the low case and reviewed, never on
+  the high one

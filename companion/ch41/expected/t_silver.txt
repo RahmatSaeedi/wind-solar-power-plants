@@ -1,0 +1,10 @@
+silver in the front and rear contacts (teaching amounts)
+  mg a cell   mg/W   kg for Plant P (60 MWp)
+        100   13.0          779
+         70    9.1          545
+         40    5.2          312
+  silver is the costliest material per gram in the cell;
+  thinner fingers, more wires and partial copper cut it, and
+  each change moves the grid optimum of lesson A and the
+  firing window of lesson B - a BOM change that needs
+  re-qualification (lesson C)

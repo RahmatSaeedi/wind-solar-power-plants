@@ -1,0 +1,10 @@
+the point list checked by program (synthetic extract of 5)
+  PLP-WTG-T01.ActivePower: unit kW, the signal is in MW
+  PLP-BES-C03.Soc: deadband 0 - every sample sent
+  PLP-MET-M1.Ghi: range 0-150 cannot hold a clear-sky value
+  3 findings in 5 rows
+  each check is one line of code and runs on every revision
+  of the list: units against the signal, a deadband near
+  the instrument's uncertainty, a range that holds the
+  largest real value - the kW/MW error of lab D is caught
+  here, before the gateway is configured

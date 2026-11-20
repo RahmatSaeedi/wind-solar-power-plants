@@ -1,0 +1,7 @@
+cross-references between sheets (continued-on arrows):
+  0006/2 -> 0006/3: the target sheet does not exist
+  0007/1 -> 0006/2: no reference back
+  a broken arrow leaves a wire going nowhere on paper; a
+  missing return arrow leaves the reader of the other sheet
+  unaware where the wire comes from - both are listed for
+  the drafter, not judged by the program

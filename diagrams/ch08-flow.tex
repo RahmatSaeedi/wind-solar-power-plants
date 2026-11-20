@@ -1,0 +1,23 @@
+% Chapter 8 - design flow of a generator: turbine requirements, iterative electromagnetic /
+% thermal / mechanical design, design for manufacture, verification by tests.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small,
+    s/.style={blk, minimum width=26mm, minimum height=11mm, text width=24mm}]
+  \node[s, blkLoad] (req) at (12.6,0) {الزام‌های توربین و شبکه};
+  \node[s] (em) at (9.0,1.3) {طراحیِ الکترومغناطیسی};
+  \node[s] (th) at (9.0,-1.3) {طراحیِ گرمایی};
+  \node[s] (me) at (6.0,0) {طراحیِ مکانیکی};
+  \node[s] (dfm) at (3.0,0) {طراحی برای ساخت و بازرسی};
+  \node[s, blkBESS] (ver) at (0,0) {راستی‌آزمایی: آزمون‌های نوعی و جاری};
+  \draw[flow] (req) -- (em);
+  \draw[flow] (req) -- (th);
+  \draw[flow, <->] (em) -- (th);
+  \draw[flow, <->] (em) -- (me);
+  \draw[flow, <->] (th) -- (me);
+  \draw[flow] (me) -- (dfm);
+  \draw[flow] (dfm) -- (ver);
+  \draw[flowinfo] (ver.north) -- ++(0,1.9) -| node[note, pos=0.25, above] {بازخورد: اگر آزمون با طراحی نخواند} (em.north);
+  \node[note, text width=40mm] at (7.5,-2.6) {سه طراحی با هم تکرار می‌شوند؛ هر تغییر دو تای دیگر را جابه‌جا می‌کند};
+\end{tikzpicture}}
+\end{document}

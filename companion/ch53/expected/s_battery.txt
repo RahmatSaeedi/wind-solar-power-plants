@@ -1,0 +1,7 @@
+battery at year 18: state of health 71% of 40 MWh; the service needs 80%
+  augmentation 3.6 MWh at 160 k u/MWh = 576 k u
+  value of keeping the battery in service: about 864 k u a year
+  (teaching spread and cycles)
+  augmentation pays back in 0.7 years - inside the 7 left; but
+  new cells beside 18-year-old ones age differently (ch 19, ch 45):
+  the augmentation is a separate string with its own BMS limits

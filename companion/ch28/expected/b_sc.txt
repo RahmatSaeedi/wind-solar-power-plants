@@ -1,0 +1,11 @@
+three-phase fault currents (kA), converters as 1.1 pu current sources
+  bus      kV    max: grid  converters  total    min: grid only   rating
+  POC       132        7.21        0.59   7.79             3.93     31.5
+  HV        132        5.76        0.58   6.34             3.41     31.5
+  MV-A       33        7.01        1.53   8.54             5.48     25.0
+  WS1 end    33        6.51        1.45   7.96             5.14     25.0
+  the converters add little at 132 kV and more at 33 kV,
+  where they sit close; switchgear is checked with the
+  maximum (c 1.1 and every source), protection reach and
+  sensitivity with the minimum (c 1.0, converters left out
+  because their fault current is controlled, not physical)

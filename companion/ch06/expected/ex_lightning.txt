@@ -1,0 +1,6 @@
+lightning current 30 kA rising in 1 us (illustrative), straight channel 50 m
+    away: dB/dt = 2e-7 x (dI/dt) / d
+dB/dt = 120 T/s
+loop area  10.0 m2: induced peak about    1200 V
+loop area   1.0 m2: induced peak about     120 V
+loop area   0.1 m2: induced peak about      12 V

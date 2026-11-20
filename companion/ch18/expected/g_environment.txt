@@ -1,0 +1,12 @@
+environmental ratings against the site (teaching, A-289):
+  air temperature -8.6 to 40.7 C; hours above 40 C: 4
+  inverter full power to 40 C, -2 %/K above (teaching basis)
+  energy lost to derating: 0.0 MWh/yr outdoors; 256.6 MWh/yr
+    if the inverter room runs 10 K warmer (990 hours above 40 C)
+  site elevation 1200 m against a 1000 m rating basis:
+    insulation and cooling ratings need the maker's altitude
+    correction; the enclosure needs ventilation that still
+    cools in thinner air
+  also to state: dust and water ingress (IP code), corrosion
+  category, snow and wind loads, UV, and the temperature
+  inside the room or container, not only outside

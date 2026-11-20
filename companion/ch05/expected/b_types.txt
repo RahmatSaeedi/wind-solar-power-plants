@@ -1,0 +1,8 @@
+12             is int
+5.0            is float
+'PLP-WTG-07'   is str
+True           is bool
+None           is NoneType
+7 / 2 = 3.5   7 // 2 = 3   7 % 2 = 1
+int('42') + 1 = 43  '42' + '1' = 421
+float('7.10') = 7.1   str(3.0) = 3.0

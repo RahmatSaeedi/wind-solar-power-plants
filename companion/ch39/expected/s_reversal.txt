@@ -1,0 +1,12 @@
+evaluated price against the energy price that values losses
+  energy u/MWh   U-A     U-B     U-C   (k u, ten units)
+           20    1,471   1,379   1,433
+           40    1,711   1,684   1,697
+           70    2,072   2,141   2,093
+          100    2,432   2,598   2,488
+  U-C undercuts U-A below 52 u/MWh, U-B below 49 u/MWh
+  U-B fails critical items whatever the price (lesson D);
+  the flip that matters is U-C at 52 u/MWh, 25% under the
+  70 used: the recommendation says it holds above that
+  value and asks whether the offtake price (ch 21) makes a
+  lower one credible - a flip is reported, not hidden

@@ -1,0 +1,14 @@
+% Chapter 51 - hours at or above 35 C in the data-pack year, by hour of day; the day shift is
+% 07-19 (companion/ch51/examples_v.py, heat -> diagrams/data/ch51-heat.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=54mm, ybar, bar width=2.6mm, xmin=-0.5, xmax=23.5,
+      ymin=0, ymax=50, xtick={0,3,...,21}, xlabel={ساعتِ روز},
+      ylabel={ساعت‌های گرم در سال}]
+    \fill[cInk!6] (axis cs:6.5,0) rectangle (axis cs:18.5,50);
+    \addplot[draw=cLoss, fill=cLoss!40] table[x=hour, y=hours, col sep=comma] {data/ch51-heat.csv};
+    \node[note, anchor=north] at (axis cs:12.5,48) {شیفتِ روز};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

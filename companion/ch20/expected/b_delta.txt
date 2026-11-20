@@ -1,0 +1,9 @@
+5 MW of upward reserve 18-22 h held by the renewables (delta):
+  window hours with at least 5 MW to hold back: 69.8 %
+  energy not sold 5,693 MWh, worth 446 k u
+  the plant could hold it in too few hours for REQ-S01 (95 %)
+  and the battery held the same reserve for about 58 k u (lab E):
+  the renewables lose their energy every hour the reserve is
+  held, the battery only the margin of shifting it gives up;
+  delta control fits when there is curtailment to use anyway
+  or when a short, fast response is asked and no battery exists

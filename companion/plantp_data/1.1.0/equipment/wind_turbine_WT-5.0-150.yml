@@ -1,0 +1,12 @@
+# Fictional wind turbine for Plant P teaching examples. Not a real product.
+id: WT-5.0-150
+status: synthetic
+rated_power_kw: 5000
+rotor_diameter_m: 150.0
+hub_height_m: 100.0
+cut_in_ms: 3.0
+rated_wind_speed_ms: 13.0     # speed from which the curve is flat at rated power
+cut_out_ms: 25.0
+reference_air_density_kgm3: 1.225
+power_curve_file: wind_turbine_WT-5.0-150_power_curve.csv
+count_in_plant_p: 12          # 12 x 5 MW = 60 MW

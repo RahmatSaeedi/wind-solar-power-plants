@@ -1,0 +1,7 @@
+the UPS of the control building and load shedding (ch 23 sizing)
+  25 kW for 60 min: 32.9 kVA, battery 27.2 kWh
+  shed 8 kW of non-critical loads after 20 min: total 79 min
+  shedding by priority (HMI screens and the historian first,
+  the PPC, telecom and time server last) buys more time for
+  what must keep running; the shedding list is part of the
+  cause-and-effect matrix (lesson C)

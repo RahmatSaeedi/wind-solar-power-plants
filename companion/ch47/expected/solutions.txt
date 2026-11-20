@@ -1,0 +1,60 @@
+P01 tower shell / with fatigue steel and flanges: 341 / 417 t
+P02 rebar of one foundation at 95 kg/m3: 85 t
+P03 PV tables and their steel: 2,100, 3,211 t
+P04 worst flange bolt pull at the extreme: 1,375 kN
+P05 eccentricity, compressed area, pressure: 3.96 m, 266 m2, 181 kPa
+P06 plates not matching the order: P103, P104, P105, P106
+P07 cans from heat H5523: 1-07, 1-08, 1-09, 1-10
+P08 joints by welders not qualified on the day: C1-02, F1-01, D1-01
+P09 NDT categories short of the plan: attachments
+P10 torque-tube offset: 18.7 mm at 30 m
+P11 drives with findings: SD-303, SD-305
+P12 zinc lots rejected: Z-02
+P13 BBS problems and clean mass: 5, 30.2 t
+P14 trucks outside the rules: 7, 8, 10
+P15 pours not conforming: F03, F04
+P16 NCRs open over 90 days: NCR-202, NCR-207
+P17 dossier documents missing for section 1: 4
+P18 cage tilt before / after, lean at the hub: 0.08 / 0.92 mm/m, 92 mm
+P19 posts outside tolerance, shifted rows: 9, 7
+P20 holds by section: 1: 8, 2: 3, 3: 2, 4: 0
+P21 ITP hold points, steps for licensed engineers: 6, 4
+P22 decisions for licensed engineers: 7 of 11
+P23 CEV of P105 by hand: 0.485
+P24 stow torque at the 50-year gust: 28.2 kN m
+P25 thermal movement of the tube: 28.8 mm
+P26 seams over the fit-up limit: 3
+P27 zinc on the PV field: 58 t
+P28 specimens for twelve foundations: 648
+P29 share of the two largest NCR causes: 57%
+P30 farm dossiers: missing documents 31, complete sections 25
+P31 other cans to scan after the lamination: 8
+P32 inspector visits all / sampled: 288 / 128
+P33 flatness of F2 after the plane / raw range: 1.60 / 1.70 mm
+P34 section 1 for transport, plan / now: 124 / 159 t
+P35 weighed tower and frequency factor: 411 t, 0.987
+P36 sections off their calculated mass: 3
+P37 welders above the repair limit: none
+P38 embedded items missing before the pour: 2
+P39 plinths needing a shim plan: C5
+P40 supports with a hole out of pattern: S-DS1
+P41 rebar bundles held: RB-03, RB-04, RB-06
+P42 erection end day and crane idle days: 43, 7
+P43 grout thickness range on T05: 58.0 - 62.0 mm
+P44 ovality Cpk and expected share over: 0.91, 0.3 %
+P45 NCR wait by Little's law: 97 days
+P46 posts, rigs and crews: 25,200, 2, 4
+P47 kettle days for the PV steel: 110
+P48 tower fabrication lead before the first erection: 63 days
+P49 hold-point waiting, all and with notice: 123 / 20 days
+P50 flanges with mixed bolt lots: T05-F2, T05-F4
+P51 recall cost without / with marks, cost of marking: 173 / 3.2 / 5.8 k u
+P52 bearing room to grow / shrink set at 20 C: 18.0 / 10.8 mm
+P53 fasteners to sample: 299
+P54 plates with non-specific certificates: P106, P108
+P55 sections with an NCR on arrival: T05-2
+P56 trailer axle load on 14 / 16 axles: 130 / 116 kN; lift use 0.72
+P57 sections failing DFT: 3
+P58 zinc of Z-02/08 by mass: 72 um
+P59 records to read and reviewer-days: 4,128, 15
+P60 pours warned at 7 days: F03, F04

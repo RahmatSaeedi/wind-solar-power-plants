@@ -1,0 +1,11 @@
+energisation requests against the owner's authority register
+  =PVF1-3.MV             authorised by A. Hosseini              permit SFT-031
+  =PVF1-3.INV            authorised by R. Kamali                permit SFT-032
+  substation 33 kV bus   authorised by N. Tehrani               permit none
+  bay E1 / 132 kV line   authorised by network operator control permit SFT-001
+  =PVF1-3.INV: R. Kamali is not authorised for it
+  substation 33 kV bus: no sanction-for-test permit
+  energising is a decision with a named owner: a signature by
+  someone not on the register, or a test without a permit,
+  is stopped however ready the equipment is; the 132 kV side
+  is the network operator's decision alone (ch 23 boundary)

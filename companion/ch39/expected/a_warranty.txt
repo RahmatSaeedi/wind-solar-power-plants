@@ -1,0 +1,8 @@
+warranty years and spares, present value over 25 years (teaching)
+  offer   warranty   expected repairs after warranty, k u   spares k u
+  U-A            5                                    42.6           30
+  U-B            2                                    56.1           18
+  U-C            3                                    51.3           24
+  U-A's longer warranty is worth 14 k u against U-B in repairs;
+  the bigger value is the evidence a warranty period
+  produces (early failures found while the maker pays)

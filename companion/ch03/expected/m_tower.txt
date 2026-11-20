@@ -1,0 +1,9 @@
+tower and nacelle as mass-spring-damper: m x'' + c x' + k x = F(t)
+  m = 300 t, f_n = 0.25 Hz, damping ratio 1 % (all assumed): k = m (2 pi
+    f_n)^2 = 740 kN/m
+  free vibration from 0.5 m (RK4, dt 0.01 s): period 4.0 s; log decrement
+    0.0628 (theory 2 pi zeta = 0.0628)
+  amplitude after 60 s: 0.195 m
+  dynamic amplification |H| = 1/sqrt((1-r^2)^2 + (2 zeta r)^2):
+    1P at 10 rpm: r = 0.667, |H| = 1.80;  3P: r = 2.00, |H| = 0.33;  at r = 1:
+    50

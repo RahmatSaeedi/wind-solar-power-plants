@@ -1,0 +1,13 @@
+validation checks on a year of hourly data (planted faults)
+  check                                  hours flagged
+  missing values                             30
+  wind speed stuck for 6 h or more           12
+  irradiance above 2 W/m2 at night         4257
+  irradiance above 1,400 W/m2                 0
+  night readings above 2 W/m2 in 100 % of night hours: not noise
+    but a constant offset of the pyranometer - serviced, and
+    the offset removed from the record with a flag
+  every check runs before any indicator: a stuck anemometer
+  makes a turbine look like it ignores the wind. Flagged
+  hours are marked, not deleted, and the indicator says how
+  many hours it rests on (ch 35, completeness)

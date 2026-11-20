@@ -1,0 +1,11 @@
+one switch position of the turbine grid-side converter, 2.5 kHz:
+  closed form (no ripple): IGBT 9,124 W, diode 1,326 W, total 10,450 W
+  switched simulation, one period, ripple through L:
+  L uH   ripple A pp   IGBT W   diode W   total W   difference
+   200         577    9,128     1,298    10,426     -0.2 %
+   100       1,154    9,143     1,278    10,421     -0.3 %
+    50       2,309    9,201     1,249    10,450     +0.0 %
+    25       4,618    9,420     1,231    10,651     +1.9 %
+  the closed form is good to a few per cent while the ripple is
+  small; with a large ripple the current at each switching
+  instant differs from the sine and the estimate drifts

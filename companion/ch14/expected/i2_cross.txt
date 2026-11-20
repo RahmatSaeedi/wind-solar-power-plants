@@ -1,0 +1,12 @@
+cross-prediction from the mast to the turbines (A-265, teaching):
+  ruggedness index (share steeper than 30 % within 3.5 km): site max 0.0 %
+    the same terrain three times steeper: max 17.8 %
+  layout              mean km   mean |dz| m   u(speed) mean   max
+  W1 ridge (1 row)      2.84       57.2        7.64 %      8.54 %
+  W2b plain, adjusted    1.22        2.5        1.35 %      1.95 %
+  the ridge turbines are far from the mast and 60 m higher: the
+  speed carried to them is about five times less certain than to
+  the plain turbines;
+  a second mast or a lidar on the ridge would buy it back
+  (U-049); real projects use a validated flow model and its
+  documented cross-prediction errors

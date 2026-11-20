@@ -1,0 +1,15 @@
+% Chapter 20 - imbalance penalty (September-December) against the quantile the day-ahead bid aims
+% at, with the newsvendor quantile 0.25 marked (A-301).
+% Data: diagrams/data/ch20-bid.csv (companion/ch20/examples_e.py bidding()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=100mm, height=60mm, xmin=0, xmax=1, ymin=300, ymax=1300,
+      xlabel={چندکِ پیشنهاد}, ylabel={جریمه (هزار واحد)}, xtick={0,0.25,0.5,0.75,1},
+      ytick={300,500,...,1300}, /pgf/number format/fixed, /pgf/number format/precision=2]
+    \addplot[sInk, mark=*, mark size=1.4pt] table[x=q, y=pen, col sep=comma] {data/ch20-bid.csv};
+    \addplot[sLimit] coordinates {(0.25,300) (0.25,1300)};
+    \node[note, anchor=south west] at (axis cs:0.27,1150) {$q^\ast=0.25$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

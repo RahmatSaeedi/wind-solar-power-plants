@@ -1,0 +1,11 @@
+inputs of the module-cleaning decision and their source:
+  input                          source                 quality
+  daily soiling loss             soiling station        cells clean,
+                                                         calibrated
+  daily POA irradiation          station (cleaned       QC-flagged,
+                                 pyranometer)           gaps filled
+  rain events                    station rain gauge     time-aligned
+  energy and price               plant meter, PPA       chapter 21
+  cost per cleaning, water       O&M contract (ch 52)   quoted
+  without the first three, a cleaning trigger is a guess;
+  with them, D-014's trigger policy becomes a measured rule

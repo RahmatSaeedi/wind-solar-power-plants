@@ -1,0 +1,17 @@
+% Chapter 11 - power curve at 1.225 kg/m3 and at the site density 1.056 kg/m3: BEM rotor and the
+% equivalent-speed method (D-008, U-013). Data: diagrams/data/ch11-density.csv (examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=3, xmax=16, ymin=0, ymax=5400,
+      xlabel={تندیِ باد، $\text{m/s}$}, ylabel={توان، $\text{kW}$}, xtick={4,6,...,16},
+      ytick={0,1000,...,5000}, legend pos=south east, legend columns=1]
+    \addplot[sInk] table[x=v, y=p0, col sep=comma] {data/ch11-density.csv};
+    \addlegendentry{$1.225\ \text{kg/m}^3$}
+    \addplot[sWind] table[x=v, y=p1, col sep=comma] {data/ch11-density.csv};
+    \addlegendentry{مدلِ روتور در $1.056\ \text{kg/m}^3$}
+    \addplot[only marks, mark=*, mark size=1.1pt, color=cLoss] table[x=v, y=eq, col sep=comma] {data/ch11-density.csv};
+    \addlegendentry{روشِ تندیِ هم‌ارز}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

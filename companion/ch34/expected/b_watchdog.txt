@@ -1,0 +1,11 @@
+heartbeat watchdog between the PPC and a battery PCS (1 beat a second)
+  fallback after 3 missed beats in a row; losses independent
+  lost beats    false timeouts a year   time to detect a real loss
+       1.00 %                   31.54           3 s
+       0.10 %                    0.03           3 s
+       0.01 %                    0.00           3 s
+  a network that loses 1 % of packets trips the fallback
+  about thirty times a year for nothing; at 0.1 % it is
+  once in thirty years - the watchdog is set against the
+  measured loss rate, and a false timeout is recorded and
+  counted, not cleared and forgotten

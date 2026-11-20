@@ -1,0 +1,7 @@
+main-bearing inner ring on a 0.90 m shaft (teaching fit)
+  interference 0.3 mm plus 0.2 mm to slide it on
+  ring heated by 46 K: about 66 C
+  the fit holds the ring against creep under load; heating,
+  not force, mounts it - the maker of the bearing gives the
+  allowed temperature and method, and the fit is checked by
+  measuring both diameters at the same temperature first

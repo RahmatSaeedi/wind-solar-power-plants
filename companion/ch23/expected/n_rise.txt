@@ -1,0 +1,11 @@
+voltage rise along wind string WS1 at full output (pf 1):
+  section  units carried  section rise %  rise at its end %
+        1              4            0.32               0.32
+        2              3            0.24               0.57
+        3              2            0.16               0.73
+        4              1            0.08               0.81
+  with pf 0.95 (1.64 Mvar a unit exported): far end 1.00 %
+  the far turbine sits highest; the turbine's own voltage
+  range and the plant controller's reactive set-points must
+  allow it (ch 20, 27) - another quantity the one-line now
+  carries beside the cable

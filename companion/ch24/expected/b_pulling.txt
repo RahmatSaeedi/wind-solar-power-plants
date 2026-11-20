@@ -1,0 +1,14 @@
+pulling a 33 kV cable into a duct (teaching numbers):
+  weight 74 N/m, friction 0.35; bend radius 1.5 m
+  after              tension kN
+  200 m straight           5.1
+  90 degree bend           8.9
+  150 m straight          12.8
+  45 degree bend          16.8
+  limit on the conductors (30 N/mm2 x 3 x 400 mm2): 36 kN
+  sidewall pressure on the last bend: 11.2 kN/m
+  least bending radius (15 x 106 mm): 1.6 m
+    - the route's 1.5 m bends are too tight
+  the bends multiply the tension (capstan: T e^(mu theta)):
+  pull from the end nearer the bends; the maker's limits and
+  the pulling record (tension logged) close the step

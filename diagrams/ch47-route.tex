@@ -1,0 +1,19 @@
+% Chapter 47 - the route of a tower section through the fabricator, with the record each step keeps
+% (purposes and records only; no welding or coating values). Read right to left, two rows.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small,
+    st/.style={blk, minimum width=24mm, minimum height=12mm, text width=22mm, align=center}]
+  \node[st] (a) at (0,0) {دریافتِ ورق \\ \footnotesize گواهی‌نامه، شمارهٔ ذوب};
+  \node[st] (b) at (-2.9,0) {برش و پخ \\ \footnotesize طولِ برش، نشانهٔ ورق};
+  \node[st] (c) at (-5.8,0) {نورد و جوشِ طولی \\ \footnotesize بیضی‌شدگی، جوشکار};
+  \node[st] (d) at (-8.7,0) {جفت‌کردن و جوشِ محیطی \\ \footnotesize پله، نقشهٔ جوش};
+  \node[st] (e) at (-8.7,-2.4) {جوشِ فلنج \\ \footnotesize تختیِ فلنج};
+  \node[st] (f) at (-5.8,-2.4) {آزمونِ غیرمخرب \\ \footnotesize گزارش برابرِ برنامه};
+  \node[st] (g) at (-2.9,-2.4) {ابعاد و پوشش \\ \footnotesize ضخامتِ فیلمِ خشک};
+  \node[blkWind, minimum width=24mm, minimum height=12mm, text width=22mm, align=center] (h) at (0,-2.4) {پرونده و ترخیص \\ \footnotesize گواهیِ ترخیص};
+  \foreach \x/\y in {a/b, b/c, c/d} {\draw[flow] (\x) -- (\y);}
+  \draw[flow] (d) -- (e);
+  \foreach \x/\y in {e/f, f/g, g/h} {\draw[flow] (\x) -- (\y);}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,19 @@
+% Chapter 39 - evaluated price of the three offers for the PV unit transformers: offer price,
+% priced deviations, capitalised losses, late delivery and currency allowance (lab_d; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xbar stacked, bar width=6mm, xmin=0, xmax=2300,
+      ymin=-0.6, ymax=2.6, ytick={0,1,2}, y dir=reverse, yticklabels={U-A, U-B, U-C},
+      xlabel={قیمتِ ارزیابی‌شده (k u)}, xmajorgrids=true, ymajorgrids=false,
+      legend style={at={(0.5,1.03)}, anchor=south, font=\scriptsize}, legend columns=5,
+      legend cell align=right]
+    \addplot[fill=cInkB!25, draw=cInkB] table[x=price, y=i, col sep=comma] {data/ch39-evaluated.csv};
+    \addplot[fill=cLoad!35, draw=cLoad] table[x=dev, y=i, col sep=comma] {data/ch39-evaluated.csv};
+    \addplot[fill=cPV!40, draw=cPV] table[x=losses, y=i, col sep=comma] {data/ch39-evaluated.csv};
+    \addplot[fill=cLoss!40, draw=cLoss] table[x=late, y=i, col sep=comma] {data/ch39-evaluated.csv};
+    \addplot[fill=cWind!40, draw=cWind] table[x=fx, y=i, col sep=comma] {data/ch39-evaluated.csv};
+    \legend{قیمتِ پیشنهاد, عدول‌ها, تلفاتِ سرمایه‌ای, تأخیر, ارز}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,14 @@
+teaching risk register (likelihood x consequence, 1-5 each)
+  scenario                                             L  C  score  band
+  vendor remote access left open after support         4  4     16  very high
+  infected removable media on an engineering laptop    3  4     12  high
+  firewall rule added for a test and never removed     4  3     12  high
+  backups exist but were never restored                3  4     12  high
+  business network change reaches the control zone     2  5     10  high
+  unsupported operating system on the historian        3  3      9  medium
+  operator account shared by the shift                 4  2      8  medium
+  5 of 7 scenarios high or very high
+  the scenarios are generic and defensive: each names a
+  weakness a design or a procedure can remove, never a
+  method of attack; the scales and bands are teaching
+  values, set for a real plant in its own risk method

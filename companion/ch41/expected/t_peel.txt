@@ -1,0 +1,9 @@
+ribbon peel force, N/mm (lower limit 1.0, teaching)
+  machine       mean    sd    Cpk    ppm under
+  stringer 1    2.11   0.28   1.33          35
+  stringer 2    1.61   0.25   0.80       8,150
+  the destructive peel test runs on sample strings each shift;
+  stringer 1 is just capable (Cpk 1.33); stringer 2 (Cpk 0.80)
+  makes weak joints in thousands per million because its mean
+  is low - the fix is the joint, not more testing, the same
+  lesson as the crimp of ch 40

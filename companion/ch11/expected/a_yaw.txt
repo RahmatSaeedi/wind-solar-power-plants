@@ -1,0 +1,11 @@
+yaw misalignment: power falls roughly with cos^n (A-213):
+  error deg   cos^2 loss %   cos^3 loss %
+          2           0.12           0.18
+          5           0.76           1.14
+          8           1.94           2.89
+         10           3.02           4.49
+         15           6.70           9.88
+         20          11.70          17.02
+  a vane error of 5 deg costs about 1 %; the nacelle vane
+  sits in the rotor wake, so its offset is calibrated (yaw
+  offset checks with lidar or by power, chapters 13 and 52)

@@ -1,0 +1,15 @@
+options for the route and the grazing (teaching costs, k u)
+  option                                 cost   income loss
+  A: do nothing (detour 3.5 km)              0        3.9/yr
+      worst for families
+  B: gap in PV fence + trench crossing      15        0.3/yr
+      route restored
+  C: new water point near the camp          40        0.1/yr
+      less walking than before
+  D: cash payment only                      60        3.9/yr
+      income dips again later
+  avoidance (B) restores the livelihood at the source for
+  less than paying for its loss (D), and C can leave the
+  families better off than before - the families choose
+  among options that are approved and funded; whether
+  compensation also applies is the framework's question

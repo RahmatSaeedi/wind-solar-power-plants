@@ -1,0 +1,34 @@
+data dictionary: 25 rows (file, column, unit, status)
+  timeseries/plantp_hourly_8760.csv
+      timestamp                      ISO 8601     synthetic
+      ghi_wm2                        W/m2         synthetic
+      dni_wm2                        W/m2         synthetic
+      dhi_wm2                        W/m2         synthetic
+      t_air_c                        degC         synthetic
+      ws_100m_ms                     m/s          synthetic
+      ws_80m_ms                      m/s          synthetic
+      ws_60m_ms                      m/s          synthetic
+      wd_100m_deg                    deg          synthetic
+      p_hpa                          hPa          synthetic
+      qc_flag                        -            synthetic
+  equipment/wind_turbine_WT-5.0-150_power_curve.csv
+      wind_speed_ms                  m/s          synthetic
+      power_kw                       kW           synthetic
+  raw/met_mast_10min_raw.csv
+      timestamp                      local time   synthetic
+      ws100_avg ws80_avg ws60_avg    m/s          synthetic
+      ws100_sd                       m/s          synthetic
+      wd100_avg                      deg          synthetic
+      t_air p_air ghi                degC hPa W/m synthetic
+  raw/met_mast_defects_key.csv
+      all                            -            synthetic
+  raw/pv_scada_export.csv
+      time_utc                       ISO 8601 UTC synthetic
+      energy_kwh                     kWh          synthetic
+      availability_pct               percent      synthetic
+  assets/asset_register_rev_A.csv
+      (13 fields)                    -            synthetic
+  assets/asset_register_rev_B.csv
+      (13 fields)                    -            synthetic
+  assets/change_notice.csv
+      (5 fields)                     -            synthetic

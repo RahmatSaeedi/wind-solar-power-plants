@@ -1,0 +1,5 @@
+'8.4'   -> 8.4
+'8,4'   -> rejected: not a number: '8,4'
+'-3'    -> rejected: wind speed -3.0 m/s outside 0..75
+'120'   -> rejected: wind speed 120.0 m/s outside 0..75
+''      -> rejected: not a number: ''

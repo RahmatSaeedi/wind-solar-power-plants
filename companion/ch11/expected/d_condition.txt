@@ -1,0 +1,7 @@
+gearbox high-speed bearing, synthetic accelerometer (A-223):
+  shaft 19.25 Hz, gear mesh 27 x = 520 Hz, outer-race defect BPFO 92.4 Hz
+  raw spectrum at BPFO: 0.0025 (lost among the mesh lines and noise)
+  envelope spectrum peak: 92.5 Hz -> the bearing defect frequency
+  impacts excite a structural resonance; demodulating that band
+  reveals their repetition rate: the basis of bearing diagnosis
+  in condition monitoring systems (chapter 52)

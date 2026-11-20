@@ -1,0 +1,12 @@
+road wear of the abnormal loads with chapter 31's trailers
+  nacelle: 16 axles at 119 kN -> 88.6 ESAL a round trip
+  base section: 14 axles at 106 kN -> 52.8 ESAL a round trip
+  other sections and hubs: 25.04 ESAL (lesson M's assumption)
+  turbine parts: 1,803 ESAL in lesson M, 2,899 now
+  site total 39,619 -> 40,715 standard axles (+2.8 %)
+  the heavier, fewer axles of the real trailers add about a
+  thousand standard axles, yet the aggregate and water trucks
+  still wear the road most; what the nacelle trailer changes
+  is the single pass - a 119 kN axle on a wet subgrade can
+  rut it at once, so the soft stretches are proof-rolled
+  before the first convoy (ch 31)

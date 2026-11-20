@@ -1,0 +1,9 @@
+six calculation errors and what they cost:
+  1 gas law with C, not K: rho 20.4 instead of 1.061 kg/m3
+  2 thrust with v^3, not v^2: 9,879 kN instead of 898 kN
+  3 S-N with amplitude, not range: damage 0.011 instead of 0.089 (x 8)
+  4 3600 psi read as MPa: 145 x too strong
+  5 skin effect with the diameter as radius: R_ac/R_dc 1.79 instead of 1.10
+  6 power of a sine as peak V x peak I: 2 x the true average power
+  each is caught by a unit check, a limiting case or an order-of-magnitude
+    look

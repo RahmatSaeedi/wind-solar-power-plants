@@ -1,0 +1,12 @@
+core mass and no-load loss (teaching steel data):
+  steel W/kg at 1.7 T   building factor   core mass for P0 = 35 kW
+                0.80              1.10         39.8 t
+                0.80              1.20         36.5 t
+                0.90              1.10         35.4 t
+                0.90              1.20         32.4 t
+                1.05              1.10         30.3 t
+                1.05              1.20         27.8 t
+  better steel (lower W/kg) and careful cutting and stacking
+  (a lower building factor: the joints add loss) give the
+  same no-load loss with a different core; the maker's
+  guarantee is checked by the no-load test, not by this sum

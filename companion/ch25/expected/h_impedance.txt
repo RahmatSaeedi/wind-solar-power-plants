@@ -1,0 +1,13 @@
+impedance from the winding geometry (teaching formula):
+  ux = 2 pi f mu0 pi Dm N I / (h Vt) x (a12 + (a1 + a2) / 3)
+  N 194, I 636 A, Vt 169.8 V, Dm 1.1 m, h 1.5 m, a1 0.06 m, a2 0.09 m
+  gap a12 m   height h m   ux %
+      0.130         1.50   11.9
+      0.153         1.50   13.4
+      0.130         1.35   13.2
+  the leakage flux lives in the gap and the windings: a wider
+  gap or a shorter winding raises the impedance - the 13.4 %
+  of the test dossier (lesson D) is about 23 mm more gap or a
+  winding about 11 % shorter than designed; the maker's
+  calculation predicts it within a few per cent, and the
+  contract tolerance closes the rest

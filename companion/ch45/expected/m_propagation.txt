@@ -1,0 +1,9 @@
+one S1 cell stores 3,617 kJ (its electrical energy alone);
+  heating a 5.6 kg neighbour by 100 K takes about 560 kJ
+  (teaching heat capacity)
+  if half of one cell's energy reached its neighbours, it could
+  heat 3.2 of them that much
+  a cell holds several times the energy needed to heat its
+  neighbours a long way: propagation is stopped by design -
+  spacing, barriers, heat paths and venting chosen from tests
+  and the hazard assessment (ch 19, STD-099), not by hoping

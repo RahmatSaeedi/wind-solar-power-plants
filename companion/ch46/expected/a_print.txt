@@ -1,0 +1,6 @@
+drum D405: label 1000 m; sheath print 2012 m at the inner end,
+  2997 m at the outer end
+  length by the print: 985 m - 15 m short of the label
+  the print is the cable's own record of its length: the
+  receiving check reads both ends and the schedule's lengths
+  are cut from what is really on the drum

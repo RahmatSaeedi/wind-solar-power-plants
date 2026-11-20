@@ -1,0 +1,18 @@
+% Chapter 8 - envelope of the symmetrical fault current of the backup generator (A-113, A-123):
+% subtransient, transient and steady-state parts. Data: diagrams/data/ch08-transient.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=62mm,
+      xlabel={زمان پس از خطا، $\text{s}$}, ylabel={جریانِ مؤثرِ متقارن، پریونیت},
+      xmin=0, xmax=1.0, ymin=0, ymax=9, xtick={0,0.2,...,1.0}, ytick={0,2,...,8}]
+    \addplot[sLoss] table[x=t, y=env, col sep=comma] {data/ch08-transient.csv};
+    \draw[sLimit] (axis cs:0,1) -- (axis cs:1.0,1);
+    \node[note, anchor=south east] at (axis cs:0.99,1.02) {جریانِ نامی};
+    \draw[cRule, densely dotted] (axis cs:0,0.4) -- (axis cs:1.0,0.4);
+    \node[note, anchor=south] at (axis cs:0.35,0.42) {پایدار $1/x_d = 0.4$};
+    \node[note, text=cInk, anchor=west] at (axis cs:0.015,8.33) {زیرگذرا $8.3$};
+    \node[note, text=cInk, anchor=south west] at (axis cs:0.12,4.1) {گذرا};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

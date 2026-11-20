@@ -1,0 +1,13 @@
+run-up of the 30 kW motor (A-114), rated torque 197 N m (A-141):
+  compressor started unloaded, J 1.0 kg m2, T_L = T_r (0.10 + 0.30 x^2)
+  supply      t to 95 %   rotor heat   stator heat   1/2 J w^2
+  100 %         0.65 s      14.0 kJ       18.0 kJ     12.3 kJ
+  94.2 %        0.74 s      14.3 kJ       18.3 kJ     12.3 kJ
+  81.3 %        1.05 s      15.1 kJ       19.4 kJ     12.3 kJ
+  same motor on a fan, J 15.0 kg m2, T_L = T_r x^2:
+  100 %         9.70 s     207.7 kJ      267.0 kJ    185.1 kJ
+  81.3 %       15.99 s     224.2 kJ      288.3 kJ    185.1 kJ
+  rotor heat in a start is at least the kinetic energy given
+  to the load (1/2 J w^2, no-load case); a load torque and a
+  weak supply add to it; compare the run-up time with the
+  safe stall time on the motor data sheet

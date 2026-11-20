@@ -1,0 +1,13 @@
+% Chapter 10 - module maximum power against the inactive share of one cracked cell (A-188).
+% Data: diagrams/data/ch10-crack.csv (companion/ch10/examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=52, ymin=400, ymax=580,
+      xlabel={سطحِ غیرفعالِ یک سلول، درصد}, ylabel={توانِ بیشینهٔ ماژول، $\text{W}$}, xtick={0,10,...,50},
+      ytick={400,450,500,550}]
+    \addplot[sLoss, mark=*, mark size=1.5pt] table[x=frac, y=p, col sep=comma] {data/ch10-crack.csv};
+    \node[note, text=cInk, anchor=north east, text width=40mm] at (axis cs:50,565) {تا $30$ درصد، سلول جریانِ زیررشته را محدود می‌کند؛ در $50$ درصد وارونه و داغ می‌شود};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

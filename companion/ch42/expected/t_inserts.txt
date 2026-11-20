@@ -1,0 +1,6 @@
+root insert pull-out, 12 coupon tests from one mould set (kN)
+  mean 444, sd 20; characteristic value mean - 2.0 sd = 403
+  against the 350 kN the design asks of one insert (teaching):
+  meets - the characteristic, not the mean, is compared
+  a lower bound from few tests needs a larger k; a new resin
+  or insert batch restarts the series

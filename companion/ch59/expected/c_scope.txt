@@ -1,0 +1,15 @@
+construction and O&M scope at the connection (ownership scenario O1)
+  asset or work                              builds   operates / maintains
+  PV blocks, inverters, unit transformers    project  project
+  wind turbines and 33 kV collector          project  project
+  battery containers and PCS                 project  project
+  plant substation, 2 x 63 MVA               project  project
+  132 kV line, 7.06 km                       project  project (O1); utility in
+    O2/O3
+  line bay at the grid substation (E1)       utility  utility
+  revenue metering at the POC                project  utility witnesses, seals
+  protection at the remote end               utility  utility, settings agreed
+  SCADA link to the dispatch centre          both     interface agreed (ch 35)
+  project 6, utility 2, both 1
+  every 'both' row has an interface record with its owner and
+  test; the line moves to the utility in scenarios O2 and O3

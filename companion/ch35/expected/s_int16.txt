@@ -1,0 +1,13 @@
+signed 16-bit registers in a gateway: scale against range (teaching)
+  signal           unit   scale    largest value   fits?   step
+  active power     MW     0.010          327.67   yes     0.01 MW
+  reactive power   Mvar   0.010          327.67   yes     0.01 Mvar
+  frequency        Hz     0.001           32.77   NO      0.001 Hz
+  voltage at POC   kV     0.001           32.77   NO      0.001 kV
+  energy today     MWh    0.100         3276.70   yes     0.1 MWh
+  frequency at 0.001 Hz and voltage at POC at 0.001 kV do not fit:
+  50.000 Hz would wrap to a negative number. The fix is a
+  scale that fits (0.01 Hz, 0.1 kV), an offset agreed by
+  both ends, or a 32-bit value - and the choice is written
+  in the interface list, with a test value at each end of
+  the range in the acceptance test (lesson B, registers)

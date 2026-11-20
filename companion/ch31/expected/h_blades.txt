@@ -1,0 +1,8 @@
+rotor-star lift or three single-blade lifts? (data-pack year)
+  method              window needed           windows a year   lifts each
+  rotor star          8 h below 8 m/s                    572   1
+  single blade        4 h below 10 m/s                  1634   3
+  single-blade lifts need shorter, windier windows, and so
+  find many more of them; they avoid the ground assembly of
+  the rotor but need the maker's blade yoke and three
+  lifts - which one the maker's method allows comes first

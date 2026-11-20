@@ -1,0 +1,8 @@
+data completeness of every tag over a month (synthetic)
+  median completeness 99.96 %
+  tags below 99 %: 235
+  tags below 90 %: 91
+  a plant-wide average hides the few tags that are nearly
+  empty - the dead devices; completeness is reported per
+  tag and per device, and the worst list goes to
+  maintenance every week (ch 37 uses it to judge data)

@@ -1,0 +1,11 @@
+fault work: the authority each task needs (records, not a procedure)
+  task                                        AP  permit  program  grid op
+  inspect inverter cabinet (AC breaker open)  yes yes     -        -
+  replace string fuse in a combiner           yes yes     -        -
+  open WS1 breaker and earth the feeder       yes yes    yes       -
+  work on the plant HV bay E1                 yes yes    yes      yes
+  reset a turbine fault from SCADA             -   -      -        -
+  change a protection setting                 yes yes     -       yes
+  2 tasks need the grid operator's agreement: those at the
+  boundary (ch 23) and a setting it approved (ch 26); the remote
+  reset needs none, which is why its use is logged (lesson I)

@@ -1,0 +1,14 @@
+structure of a lightning risk estimate, control building (teaching):
+  strikes to the building N = Ng x A = 2.0 x 4,810 m2 = 0.0096 a year
+  risk R = N x P (probability of damage) x L (loss if damaged)
+  protection                     P       R a year
+  none                            1.00   9.6e-06
+  LPS of a lower class            0.20   1.9e-06
+  LPS of a higher class           0.05   4.8e-07
+  LPS + coordinated SPDs          0.01   9.6e-08
+  the method multiplies three things: how often (N), how
+  likely the damage (P, which each measure lowers) and how bad
+  (L); the result is compared with a tolerable value - the
+  factors and the tolerable values come from the risk
+  standard (STD-127) and the project's study with the local
+  flash density (U-099); this table shows only the structure

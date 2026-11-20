@@ -1,0 +1,10 @@
+configuration management: is the site running what was tested?
+  fingerprint of the FAT configuration:  c04825d179cb
+  fingerprint read back from the site:   4906cc4abdbb
+  match: NO
+  tested V_DROOP=0.04  ->  on site V_DROOP=0.05
+  a droop changed on site without a change record makes
+  every FAT result for voltage control invalid: the change
+  goes through management of change (ch 32), is re-tested
+  and gets a new fingerprint; the fingerprint is on the
+  commissioning record (ch 26 did the same for settings)

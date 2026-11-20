@@ -1,0 +1,10 @@
+wiring errors a panel check should expect to find (teaching rates)
+  1,800 terminations in a protection panel
+  error rate per 1,000   expected errors   chance of none
+                    0.5               0.9            40.7%
+                    1.0               1.8            16.5%
+                    2.0               3.6             2.7%
+  even good wiring leaves one or two errors in a panel of this
+  size: a 100 % point-to-point check and the functional FAT
+  are expected to find them - a FAT that finds nothing is
+  asked how it looked (lesson K's punch list)

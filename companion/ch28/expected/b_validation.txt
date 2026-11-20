@@ -1,0 +1,12 @@
+load flow against six SCADA snapshots (synthetic 'measured' values)
+  snap   P POC MW   V MV meas   V MV model   dV %    Q POC meas  model   check
+     1       16.9       1.017        1.017   -0.03          8.1    8.0   ok
+     2       49.6       1.026        1.027   +0.09          5.3    4.7   ok
+     3       81.9       1.020        1.019   -0.13         -1.9   -2.1   ok
+     4      100.3       1.011        1.037   +2.56         -8.1   -6.9   CHECK
+     5       35.7       1.006        1.006   +0.05          6.0    5.7   ok
+     6       77.9       0.998        0.998   +0.05         -1.8   -1.9   ok
+  teaching acceptance: 33 kV voltage within 1 %, Q within 2 Mvar;
+  snapshot 4 fails on voltage only: the model is right, the
+  SCADA tap reading is two steps behind the real tap - a
+  validation finds data errors as often as model errors

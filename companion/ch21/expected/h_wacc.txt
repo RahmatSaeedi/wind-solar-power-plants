@@ -1,0 +1,12 @@
+the weighted average cost of capital from its parts:
+  equity 0.29 x 10.0 % + debt 0.71 x 6.0 % x (1 - 0.25)
+  = 6.09 %; the model's 7.5 % adds a margin for project
+  risk above this textbook figure (A-310)
+  NPV of the project at several rates (k u):
+     6.00 %      63,758
+     6.09 %      61,786
+     7.50 %      33,523
+     9.00 %       8,826
+  (pre-tax project cash flow; the post-tax NPV of section B is
+  lower) - a point of discount rate moves the NPV by tens of
+  millions: the rate is an assumption to state and defend

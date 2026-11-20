@@ -1,0 +1,7 @@
+no cooling during a fault: c_v dT = (I/A)^2 rho(T) dt, rho ~ (T + beta)
+  K = sqrt(c_v (20 + beta) / rho20): aluminium 148, copper 226 A s^0.5 per mm2
+  240 mm2 Al conductor, 21.9 kA for 1 s from 90 C: ends at 236 C
+  time to reach 250 C (assumed limit) from 90 C: 1.08 s
+  35 mm2 Cu screen, 2 kA earth fault for 1 s from 70 C (A-077): 90 C
+  the protection clearing time is part of the cable's design: a slow relay
+    can melt what a fast one leaves cold (chapters 24 and 26)

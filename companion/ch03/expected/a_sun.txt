@@ -1,0 +1,7 @@
+sun at 34 deg N, solar time (Cooper declination)
+winter solstice (355)  declination -23.45 deg, noon elevation 32.55 deg, day
+    9.73 h
+equinox (81)           declination  -0.00 deg, noon elevation 56.00 deg, day
+    12.00 h
+summer solstice (172)  declination +23.45 deg, noon elevation 79.45 deg, day
+    14.27 h

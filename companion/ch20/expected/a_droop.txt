@@ -1,0 +1,21 @@
+frequency droop of Plant P (teaching settings, A-299):
+  frequency Hz   change MW (4 % droop, 0.02 Hz deadband, 110 MW)
+         49.80       +9.9
+         49.90       +4.4
+         49.97       +0.6
+         50.00       +0.0
+         50.10       -4.4
+         50.30      -15.4
+  a fall in frequency asks for more power: a plant at full
+  output has none to give unless it was held below its
+  available power (headroom) or a battery gives it; a rise
+  is met by curtailing (section B)
+voltage-reactive droop at the POC (4 % slope, 33 Mvar):
+  voltage pu   reactive Mvar (+ export)
+        0.96      +33.0
+        0.98      +16.5
+        1.00       +0.0
+        1.01       -8.3
+        1.03      -24.8
+  settings, deadbands and whether the service is wanted at all
+  come from the operator and the contract (chapter 28)

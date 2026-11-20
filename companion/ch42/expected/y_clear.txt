@@ -1,0 +1,12 @@
+tip-to-tower clearance: 17.3 m unloaded, 12.1 m design deflection,
+  margin 5.2 m
+  manufacturing contributor               rule                 m
+  cap stiffness 3 % low (fibre fraction)   defl x (1/0.97 - 1)  0.37
+  prebend 0.15 m short                     as is                0.15
+  blade on the hub 0.15 deg off            75 m x tan(0.15 deg) 0.20
+  tower top flange 0.10 deg tilted         75 m x tan(0.10 deg) 0.13
+  all at their limit together 0.85 m (16% of the margin)
+  root-sum-square 0.47 m (9%)
+  the 30 % kept in ch 11 is not spare: a part of it is the
+  factory's tolerances - which is why the cap's fibre fraction,
+  the prebend and the flange angles are measured and recorded

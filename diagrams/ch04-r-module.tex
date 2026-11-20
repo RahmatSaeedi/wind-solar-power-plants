@@ -1,0 +1,17 @@
+% Chapter 4 laboratory 2 — cell temperature on the summer subset day from the NOCT model and
+% from the calibrated energy balance, with the air temperature. Data: ch04-r-module.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=62mm,
+      xlabel={ساعتِ روز}, ylabel={دما (درجهٔ سلسیوس)},
+      xmin=0, xmax=23, ymin=15, ymax=72, xtick={0,3,...,21}, ytick={20,30,...,70}]
+    \addplot[sLoss] table[x=hour, y=tnoct, col sep=comma] {data/ch04-r-module.csv};
+    \addlegendentry{مدلِ دمای کارِ اسمی}
+    \addplot[sPV] table[x=hour, y=tbal, col sep=comma] {data/ch04-r-module.csv};
+    \addlegendentry{توازنِ انرژیِ واسنجی‌شده}
+    \addplot[sInk] table[x=hour, y=tair, col sep=comma] {data/ch04-r-module.csv};
+    \addlegendentry{دمای هوا}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

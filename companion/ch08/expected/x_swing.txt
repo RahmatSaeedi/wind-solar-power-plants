@@ -1,0 +1,7 @@
+backup generator H 1.0 s (A-123): stored energy 200 kJ at 200 kVA
+swing equation 2H/omega_s d2(delta)/dt2 = P_m - P_e (per unit)
+  P_max 0.8 pu, P 0.5 pu: delta0 38.7 deg, synchronising power 0.624 pu/rad
+  natural frequency 1.58 Hz: the rotor swings a few times per second
+turbine rotor of Plant P: H 5.9 s (chapter 4) behind a converter;
+  a load step of 0.1 pu on a grid of synchronous machines with H 5 s:
+  initial rate of change of frequency 0.50 Hz/s

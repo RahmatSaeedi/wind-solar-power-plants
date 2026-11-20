@@ -1,0 +1,7 @@
+HV disc winding from a continuously transposed cable (teaching)
+  11 strands 6.0 x 1.2 mm: 79 mm2 -> 3.48 A/mm2 at rated
+  cable radial size 8.8 mm; 12 turns a disc: radial build 106 mm
+  693 turns in 58 discs; the design's a2 was 110 mm
+  the radial build follows from the cable and the turns per
+  disc - a check that the preliminary geometry can be wound
+  (the space left is for ducts and the tapping leads)

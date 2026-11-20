@@ -1,0 +1,18 @@
+% Chapter 4 — synthetic engineering stress-strain curve of an S355-like steel (A-056) with
+% the 0.2 % offset line. Data: diagrams/data/ch04-stress-strain.csv (examples_b.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=64mm,
+      xlabel={کرنش (درصد)}, ylabel={تنش (MPa)},
+      xmin=0, xmax=22, ymin=0, ymax=560, xtick={0,4,...,20}, ytick={0,100,...,500}]
+    \addplot[sInk] table[x=strain_pct, y=mpa, col sep=comma] {data/ch04-stress-strain.csv};
+    \addlegendentry{منحنیِ تنش-کرنش}
+    \addplot[sLimit, domain=0.2:0.4, samples=2] {2100*(x-0.2)};
+    \addlegendentry{خطِ موازی با جابه‌جاییِ ۰٫۲ درصد}
+    \node[note, anchor=west] at (axis cs:1.2,330) {تسلیم};
+    \node[note, anchor=south] at (axis cs:16,515) {استحکامِ کششی};
+    \node[note, anchor=west] at (axis cs:19.3,380) {گلویی شدن};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

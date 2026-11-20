@@ -1,0 +1,17 @@
+screening: magnitude x sensitivity (1-5, teaching; scoping decides)
+  aspect               receptor                 mag  sens  score  study?
+  grazing access       herders' families          4     4     16  yes
+  water use            village wells, spring      3     4     12  yes
+  noise at night       dwellings, camp            3     3      9  yes
+  traffic              village, school            3     3      9  yes
+  raptor collision     nest NW                    2     4      8  yes
+  shadow flicker       camp B (seasonal)          3     2      6  yes
+  bat collision        migrants, autumn           2     3      6  yes
+  landscape            village, road              3     2      6  yes
+  cultural heritage    cemetery, ruin             1     5      5  note
+  habitat loss         rangeland, wadi            2     2      4  note
+  dust                 village, farms             2     2      4  note
+  screening chooses where baseline studies go; a low score
+  with a sensitive receptor (the cemetery) still gets a
+  protection rule - scoping with the authority and the
+  community confirms the list (lesson B)

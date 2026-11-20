@@ -1,0 +1,3 @@
+fictional spend profile: 3 % of capital over months 0-30 (development),
+97 % over months 30-56 (procurement and construction)
+spent by month 24: 2.7 %; by month 30: 3.0 %; by month 43: 51.5 %

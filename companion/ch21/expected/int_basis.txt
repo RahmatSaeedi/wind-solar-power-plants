@@ -1,0 +1,10 @@
+finance basis of Plant P (D-025), from this chapter:
+  uses 170,188 k u: capex 156,450, IDC 6,165, fee 1,815, DSRA 5,757
+  debt 121,025 (71 %), 15 yr sculpted, sized by DSCR 1.20 on P90 1-yr
+  equity 49,163; equity IRR 10.2 %, project IRR 7.8 %
+  min DSCR 1.20, average 1.30, min LLCR 1.23
+  stresses: P99 every year, tariff -10 %, unhedged rate +2 points
+  reach lock-up; buyer 6 months late needs the DSRA
+  revenue: flat PPA in the base; time-of-day, services and
+  carbon only as labelled sensitivities until verified
+  conditions precedent: 9 of 12 open (not yet bankable)

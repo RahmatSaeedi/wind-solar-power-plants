@@ -1,0 +1,31 @@
+integrated design basis: one line per discipline (decision, basis)
+  architecture               D-022
+      grid-connected, AC-coupled battery, split 33 kV bus, 2 x 63 MVA
+  battery                    D-023
+      LFP, 10-90 % window, protection per rack, augmentation y8, y13
+  control                    D-024
+      5 layers, PI with anti-windup, priorities, DP plans
+  one-line and auxiliaries   D-027
+      radial strings, split bus, 110 V DC, UPS
+  circuits                   D-028
+      cables by rating and loss; line limited on hot still days
+  transformers               D-029
+      bid B at 70 u/MWh; PV unit transformers 5.6 MVA
+  protection and earthing    D-030
+      incomers 1,600 A; breakers on PV units
+  power quality              D-031
+      scans at the worst unit count; filter design data
+  grid study                 D-032
+      21-bus model; differential or intertrip on the line
+  civil and water            D-033
+      wadi levels; construction water from outside
+  structures                 D-034
+      24 m gravity base; fatigue steel
+  safety and fire            D-036
+      no universal prescription; authority's acceptance
+  E&S                        D-037
+      W2b waits for the raptor survey; ruin buffer
+  I&C, SCADA, OT security    D-038/39/40
+      class 0.2 VT core; rings; zones and conduits
+  14 disciplines; each line is the summary of a decision
+  record with its evidence, open items and approver

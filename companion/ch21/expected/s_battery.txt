@@ -1,0 +1,11 @@
+the battery as its own profit centre (k u, PV at 7.5 %):
+  capital 13,650
+  shifting under a time-of-day PPA      PV     9,140
+  reserve service at 9 u (sensitivity)  PV       915
+  battery O&M                           PV    -2,227
+  augmentation years 8 and 13           PV      -678
+  energy lost in round trips            PV    -1,637
+  NPV of the battery -8,139
+  the battery repays about two fifths of its capital from these
+  streams: it needs a price spread, a service or a requirement
+  worth the rest - the same verdict as the option lesson

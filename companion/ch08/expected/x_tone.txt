@@ -1,0 +1,6 @@
+geared generator with 54 stator slots (q 3, 6 poles; A-125):
+  slot-passing frequency 54 x 19.25 Hz = 1039.5 Hz
+  at 700 rpm: 630 Hz (moves with speed)
+  at 1155 rpm: 1040 Hz (moves with speed)
+  a tone in the nacelle can radiate; tonality is judged in the
+  noise assessment (chapter 33); skewing and slot design reduce it

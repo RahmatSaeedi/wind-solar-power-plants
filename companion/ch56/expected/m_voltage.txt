@@ -1,0 +1,9 @@
+the two voltages in use against the book's 132 kV (100 MW, pf 0.95;
+the ch 18 conductor kept for a like-for-like loss comparison)
+  kV    current A   line loss MWh/yr   status
+  110         552               1086   in use (AF-11)
+  132         460                754   no source (AF-12)
+  220         276                271   in use (AF-11)
+  a 100 MW plant at 110 kV carries 1.2 times the 132 kV current;
+  at 220 kV 0.6 times - the design follows the level DABS names
+  for the substation the plant joins

@@ -1,0 +1,10 @@
+the risk register before and after its controls (teaching scales)
+  scenario                               before  after   control
+  vendor remote access left open             16      8   on request, timeouts
+  rule added for a test, never removed       12      6   quarterly review
+  backups never restored                     12      4   restore tests
+  shared operator account                     8      2   named accounts
+  controls lower the likelihood more often than the
+  consequence: a backup restored in a test does not make a
+  lost server cheaper, it makes a failed restore unlikely.
+  What remains is accepted by the asset owner in writing

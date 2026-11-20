@@ -1,0 +1,17 @@
+open items by the qualified reviewer who must close them
+  local tax advisor      3
+      tax depreciation of plant
+      import duty on modules and turbines
+      withholding tax on interest
+  local counsel          3
+      production premium 5 u/MWh
+      currency of payment and convertibility
+      repatriation of dividends
+  customs broker         1
+      import duty on modules and turbines
+  local bank             1
+      currency of payment and convertibility
+  lenders' counsel       1
+      security over land lease
+  the model owner does not close these items; each closes with
+  a dated written opinion filed against its register line

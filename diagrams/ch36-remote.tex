@@ -1,0 +1,15 @@
+% Chapter 36 - vendor remote access by request: request and approval, the jump host in the DMZ with a
+% second factor and recording, a time-limited session into the control zone (examples_b; teaching).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize,
+    s/.style={blk, minimum width=26mm, minimum height=13mm, text width=24mm}]
+  \node[s, blkWarn] (ven) at (12.0,0) {سازنده: درخواست با دلیل};
+  \node[s, blkLoad] (app) at (9.0,0) {تأییدِ نیروگاه و بازکردنِ زمان‌دار};
+  \node[s, blkLoad] (jmp) at (6.0,0) {میزبانِ پرش در ناحیهٔ میانی: عاملِ دوم، ضبطِ جلسه};
+  \node[s, blkWind] (ctl) at (3.0,0) {ناحیهٔ کنترل: فقط دستگاه‌های لازم};
+  \node[s, blkBESS] (cls) at (0.0,0) {بستنِ جلسه و بازبینیِ ضبط};
+  \foreach \a/\b in {ven/app, app/jmp, jmp/ctl, ctl/cls} {\draw[flow] (\a) -- (\b);}
+  \node[note, text width=110mm] at (6.0,-1.6) {باز ماندنِ همیشگی: $8760$ ساعت در سال که مسیر وجود دارد؛ با درخواست، ۱۲ جلسهٔ چهارساعته: ۴۸ ساعت};
+\end{tikzpicture}
+\end{document}

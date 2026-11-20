@@ -1,0 +1,21 @@
+% Chapter 2 — an accuracy specification "+-(1.5 % of reading + 5 digits)" as a percentage of the
+% reading, on the 600.0 A range of an assumed clamp meter. Data: diagrams/data/ch02-meter-error.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{semilogxaxis}[plantp, width=125mm, height=68mm,
+      xlabel={عددِ خوانده‌شده (A)}, ylabel={حدِ خطا (درصدِ عددِ خوانده‌شده)},
+      xmin=2, xmax=600, ymin=0, ymax=27, ytick={0,5,...,25},
+      xtick={2,5,10,20,50,100,200,500}, xticklabels={2,5,10,20,50,100,200,500},
+      log ticks with fixed point]
+    \addplot[sInk] table[x=reading_a, y=limit_pct, col sep=comma] {data/ch02-meter-error.csv};
+    \addplot[sLimit, domain=2:600, samples=2] {1.5};
+    \node[font=\footnotesize, text=cInk, anchor=south west] at (axis cs:2.2,1.6) {سهمِ ثابتِ $1.5\,\%$};
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cLoss] coordinates {(343,1.65) (34.3,2.96)};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:343,2.3) {$343\,\text{A}$: $1.65\,\%$};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:34.3,3.6) {$34.3\,\text{A}$: $2.96\,\%$};
+    \node[font=\footnotesize, text=cInk, anchor=west, align=left] at (axis cs:4.2,17.5)
+        {در پایینِ گستره، «۵ رقم»\\بر خطا چیره می‌شود};
+  \end{semilogxaxis}
+\end{tikzpicture}}
+\end{document}

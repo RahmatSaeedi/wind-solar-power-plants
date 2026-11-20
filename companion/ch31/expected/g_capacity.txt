@@ -1,0 +1,10 @@
+convoys a week through a night-only permit (teaching)
+  window 7 h a night; trip 9.6 h -> nights per convoy: 2
+  parking places   convoys moving at once   convoys a week
+               1                        1              3.5
+               2                        2              7.0
+               3                        3             10.5
+  108 loads at 3.5 a week take about 31 weeks; three
+  parking places bring it near 10 a week - but only if the
+  escort, the road authority and the crane keep pace:
+  the route's capacity, not the ship, sets the campaign

@@ -1,0 +1,8 @@
+the cell maker adds a second factory: does it make the same cell?
+  capacity sd 1.3 Ah; to see a mean shift of 0.5 Ah
+  with 95 % confidence and 80 % power:
+  n = 2 (z_a + z_b)^2 sd^2 / shift^2 = 106 cells from each factory
+  capacity is the easy part; the K-value, resistance and the
+  lot data file get the same comparison, and the second
+  factory's audit (lesson B) comes first - a new factory is a
+  change to the product, with its own release (ch 40)

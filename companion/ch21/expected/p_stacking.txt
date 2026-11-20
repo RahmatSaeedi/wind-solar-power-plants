@@ -1,0 +1,9 @@
+two battery uses against the warranty's 365 cycles a year:
+  use                                  k u/yr   cycles   k u per cycle
+  shifting (ch 20)                         469      336            1.40
+  absorbing deviations (k_imbalance)       389      292            1.33
+  both at full size: 628 cycles - outside the warranty
+  shifting first, then absorbing in the 29 cycles left: 508 k u/yr
+  the warranty is a resource like the converter and the SOC
+  window: a use is worth its value per cycle, and the cycle
+  budget is shared by the contract, not by the controller

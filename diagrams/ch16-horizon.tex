@@ -1,0 +1,14 @@
+% Chapter 16 - P90 of the mean net energy of n future years (budget of lab D); the dashed line is the
+% limit with the long-term part alone. Data: diagrams/data/ch16-horizon.csv (examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=0, xmax=26, ymin=274, ymax=282,
+      xlabel={شمارِ سال‌ها}, ylabel={$P_{90}$، گیگاوات‌ساعت},
+      xtick={1,5,10,15,20,25}, ytick={274,276,...,282}]
+    \addplot[sInk, mark=*, mark size=1.4pt] table[x=n, y=p90, col sep=comma] {data/ch16-horizon.csv};
+    \draw[sLimit] (axis cs:0,280.07) -- (axis cs:26,280.07);
+    \node[note, anchor=south east] at (axis cs:25.5,280.15) {فقط بخشِ بلندمدت};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

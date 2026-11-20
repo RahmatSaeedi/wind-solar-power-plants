@@ -1,0 +1,9 @@
+one-minute PV on a broken-cloud day (chapter 12, A-273) against a
+  ramp limit of 5 MW per minute:
+  day energy 274.7 MWh; minutes ramping up > 5 MW/min 23, down 23
+  largest one-minute change 10.9 MW; largest change of hourly means 26.9 MW
+  up-ramp limit by curtailment: 4.04 MWh lost (1.5 % of the day)
+  down-ramp limit by a battery: up to 16.6 MW, 3.47 MWh discharged in the day
+  hourly data cannot see these ramps; a ramp rule is checked on
+  minute data, and wind in the same minutes may soften or add
+  to them (the plant-level ramp is what the grid sees)

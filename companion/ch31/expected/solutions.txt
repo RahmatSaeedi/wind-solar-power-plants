@@ -1,0 +1,20 @@
+P01 nacelle trailer axle, 16 axles: 119 kN
+P02 same on 12 axles: 157 kN
+P03 bridge, 2,280 kN over 24 m on 32 m, allowed 9,000 kN m: 1.27
+P04 same on a 12 m span, allowed 4,200: 0.81
+P05 point load 1,000 kN on 16 m, allowed 4,000: 1.00
+P06 convoy 244 km (12/25, 180/50, 40/30, 6/10, 6/10) + 3 h: 9.6 h
+P07 capacity at 22 m: 164 t
+P08 use, 120 + 9 t at 20 m: 0.72
+P09 use, 160 + 8 t at 17 m: 0.83
+P10 wind on the rotor (555 m2) at 8 m/s: 26.1 kN
+P11 wind on a nacelle side (60 m2) at 10 m/s: 4.4 kN
+P12 desiccant, 12 m3 for 9 months: 27.0 kg
+P13 laydown for 3 blades (74 x 4.2 m), factor 1.6: 1492 m2
+P14 response, 70 km at 70 km/h, 15 + 30 min: 105 min
+P15 drums for 185 km at 1 km a drum: 185
+P16 truck loads of three drums: 62
+P17 reels for 21.8 km of conductor at 2.5 km: 9
+P18 loaded height, deck 0.30 + 4.50 m, clearance 4.85: margin 0.05 m
+P19 standby, mean wait 5.6 h at 60 k u a day: 14.0 k u
+P20 abnormal loads, 12 turbines x 9: 108

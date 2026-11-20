@@ -1,0 +1,5 @@
+holding 2 MWh (10 h of the 200 kW critical load) for the island:
+  usable for shifting falls by 2 MWh: 677 MWh a year less shifted
+  at a spread of 75 - 35/0.86 = 34.3 u/MWh: 23.2 k u a year
+  the reserve has a yearly price; resilience is a requirement
+  with a cost, and the owner chooses its size (chapter 17)

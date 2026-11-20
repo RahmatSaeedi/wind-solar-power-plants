@@ -1,0 +1,52 @@
+P01 R of 0.0778 ohm/km Al at 65 C: 0.0919
+P02 R of 1.15 ohm/km Cu at 70 C: 1.376
+P03 rating 410 A x 0.675: 277 A
+P04 factor product 0.9 x 0.85 x 0.95: 0.727
+P05 current of 15 MW at 33 kV, pf 0.95: 276 A
+P06 drop of 276 A over 1.1 km of 240 mm2 (r 0.16, x 0.116): 0.30 %
+P07 loss of 368 A in 1.1 km at 0.16 ohm/km: 71.5 kW
+P08 annual loss of 200 A constant in 2 km at 0.1: 210.2 MWh
+P09 least Cu section for 7.9 kA, 0.1 s: 17.5 mm2
+P10 withstand of 630 mm2 Al for 1 s: 59.2 kA
+P11 withstand of 35 mm2 Cu for 0.5 s: 7.08 kA
+P12 peak of 25 kA at X/R 10: 61.7 kA
+P13 20 kA for 2 s against 25 kA 1 s: no
+P14 charging of 10 km of 33 kV at 0.25 uF/km: 15.0 A
+P15 sheath volts, 437 A, 400 m, s 140, d 105: 10.8 V
+P16 conductor temp, 400 A, 0.1 ohm/km, 25 C, 2.0 K m/W: 57 C
+P17 sag, 11 N/m, 350 m, 19 kN: 8.87 m
+P18 capstan: 5 kN around 90 deg, mu 0.35: 8.66 kN
+P19 least bend radius of a 92 mm cable at 15 D: 1.38 m
+P20 busbar force, 63 kA, 0.25 m: 3.18 kN/m
+P21 joints, 1.1 km sections on 0.5 km drums, 4 sections: 8
+P22 coil voltage: 96.2 V less 5 A x 2 x 0.2 km x 8.78 ohm/km: 78.6 V
+P23 LV drop 68 A over 350 m of 95 mm2 Cu (0.193 at 20 C): 2.46 %
+P24 PV of 100 MWh a year at 70 u for 25 y at 7.5 %: 78.0 k u
+P25 soil 2.0 K m/W, 1.0 m, 75 mm: T4 = 1.27 K m/W
+P26 ys for R' 4e-5 ohm/m: 0.049
+P27 630 mm2 at 30 C ground: factor 0.926
+P28 630 mm2 with 1.30 K m/W soil: 601 A
+P29 DC time constant at X/R 20: 63.7 ms
+P30 arc 16 kA, 0.5 s, 500 V per phase: 12.0 MJ
+P31 SF6 1 % of 54 kg at GWP 24,000: 13.0 t CO2e a year
+P32 Cpk mean 8.2, s 0.1, 7.6-8.8 mm: 2.00
+P33 duct with 0.60 K m/W extra: 508 A
+P34 generator 200 kVA, xd 2.0: rated 289 A, steady 144 A
+P35 wind 25 m/s on 24.5 mm: 9.4 N/m
+P36 line rating at 45 C, 0.6 m/s: 419 A
+P37 back-flash, 15 ohm footing: 900 kV
+P38 overload class 20 at 5 x: 41.5 s
+P39 trefoil force, 60 kA, 0.15 m: 4.1 kN/m
+P40 relative life at 86 C: 1.41
+P41 inverter 3 MVA at 800 V: 2,165 A
+P42 air for 10 kW, 10 K rise: 2,985 m3/h
+P43 pressure at 40 C from 1.40 bar at 20 C: 1.50 bar
+P44 charging current, 1.5 uF per phase, 33 kV: 9.0 A
+P45 earth bar 31.5 kA, 1 s, Cu: 220 mm2
+P46 screen 25 mm2 Cu for 0.3 s: 6.5 kA
+P47 heater for 8 K, 18 m2 at 3.5 W/(m2 K): 504 W
+P48 clamp force, M12 at 50 N m, K 0.2: 20.8 kN
+P49 20 K rise at 60 % load, at full load: 56 K
+P50 markers, 10 km, 20 bends, 4 crossings: 228
+P51 surface field, r 2.0 cm, D 400 cm, 145 kV: 11.2 kV/cm
+P52 echo 10 us at velocity factor 0.6: 899 m

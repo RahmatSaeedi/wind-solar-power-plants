@@ -1,0 +1,11 @@
+bridge from model A (295.14 GWh) to the reviewer's model B (289.23 GWh):
+  step                            PV first GWh   wind first GWh
+  PV sky model (isotropic)             -2.16           -2.12
+  PV temperature model (NOCT)          -2.12           -2.15
+  PV soiling 2.0 %                     -0.58           -0.59
+  wake decay 0.075                     +1.05           +1.03
+  wind availability 97 %               -2.11           -2.08
+  sum                                  -5.91           -5.91
+  the two orders give the same end and nearly the same steps:
+  the steps barely interact at this size; with a binding limit
+  or clipping, order matters and the bridge states the order

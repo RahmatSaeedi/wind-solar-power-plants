@@ -1,0 +1,9 @@
+satellite clock antenna on the control-building roof,
+  35 m of cable to the receiver
+  antenna amplifier 30 dB; receiver needs at least 10 dB of it left
+  standard cable 0.55 dB/m: 19.2 dB lost, 10.8 dB left - ok
+  low-loss cable 0.25 dB/m: 8.8 dB lost, 21.2 dB left
+  the standard cable leaves 0.8 dB of margin: one more
+  connector, a surge protector's own loss or an aged cable and
+  the clock loses lock - the cable is chosen from the budget,
+  and the antenna's surge protector (lesson A) is in the sum

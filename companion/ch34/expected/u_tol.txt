@@ -1,0 +1,8 @@
+active power at the POC against a tolerance of +/-1 % (placeholder)
+  measurement (CT, VT, transducer of class 0.2; k = 2): +/-0.40 %
+  control error band (teaching): +/-0.50 %
+  together 0.64 % of a 1.00 % tolerance: 64 % of it used
+  a tolerance is shared between the controller and the
+  meter; the grid operator's own meter judges the plant,
+  so the plant's measurement is compared with it during
+  commissioning and any offset written down (ch 50)

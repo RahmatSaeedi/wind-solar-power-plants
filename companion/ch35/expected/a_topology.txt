@@ -1,0 +1,8 @@
+six turbines on a daisy chain or on a ring (teaching link rates)
+  one link (fibre span + its two ports): A = 0.999840
+  chain, farthest turbine (6 links in series): 8.40 h a year cut off
+  ring, worst-placed turbine: 9.7 s a year cut off
+  a ring costs one more fibre span and turns hours into
+  seconds; it still needs a ring protocol that reopens the
+  blocked port within the plant's tolerance (lesson C),
+  and two rings so one cut trench does not take all

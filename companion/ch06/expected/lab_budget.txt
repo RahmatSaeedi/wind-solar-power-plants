@@ -1,0 +1,5 @@
+Plant P Reference Data Pack 1.0.0, scenario S0 (no-BESS)
+DC energy of one combiner box:    568,130 kWh/yr
+string cables (x24):            2,493 kWh/yr   0.44 %
+feeder:                            4,216 kWh/yr   0.74 %
+total DC wiring:                   6,709 kWh/yr   1.18 %

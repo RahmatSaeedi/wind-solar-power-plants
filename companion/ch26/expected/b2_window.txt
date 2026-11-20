@@ -1,0 +1,9 @@
+pickup window: above 1.2 x load, below the smallest fault / 1.5
+  relay                          load A   min fault A   window A      set A
+  feeder                             387         4,677     465- 3118      480
+  incomer                           1260         4,434    1512- 2956     1600
+  T1 HV side (33 kV amps / 4)        315         1,109     378-  739      400
+  smallest faults: line-to-line at the far end of =WS1 for the
+  feeder; line-to-line at the bus with a weak grid (0.8 x) for
+  the incomer; the windows are wide - overcurrent works here
+  because the grid feeds the faults (next: without the grid)

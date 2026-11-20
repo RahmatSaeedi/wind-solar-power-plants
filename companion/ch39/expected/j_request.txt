@@ -1,0 +1,21 @@
+environmental data request in the transformer package
+  functional unit:
+      one 5.6 MVA unit transformer as specified, delivered to site
+  boundary:
+      materials, manufacture, transport to site; use-phase losses apart
+  method:
+      ISO 14067, or ISO 14025 Type III with its product rules named
+  source and date:
+      dataset name, version and data year
+  verification:
+      third-party verified or self-declared - stated
+  allocation:
+      rule for recycled content and scrap stated
+  limitations:
+      excluded items and cut-off threshold listed
+  uncertainty:
+      stated as +/- %
+  update:
+      re-issued at delivery with the as-built bill of materials
+  the request goes in the supplier data schedule (lesson D)
+  with an owner and a due date, like any other data item

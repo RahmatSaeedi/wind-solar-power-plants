@@ -1,0 +1,6 @@
+the book's standards register: 191 rows, 9 required fields each
+  fields: designation, title, issuing_body, edition, adoption_or_legal_status,
+          official_source, discipline, applicability_in_book, date_verified
+  empty required fields: 0; incomplete rows: 0
+  complete is not the same as current: a filled 'edition' field
+  records what was verified on 'date_verified', nothing more

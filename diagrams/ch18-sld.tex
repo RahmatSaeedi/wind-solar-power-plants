@@ -1,0 +1,45 @@
+% Chapter 18 - simplified single-line diagram of the Plant P baseline (A1, D-022), flowing right
+% to left: wind strings, PV blocks and the AC-coupled battery on a split 33 kV bus, the auxiliary
+% transformer, two 33/132 kV transformers, the 132 kV line to the grid bay; meters M1-M4.
+% Teaching sketch, not a design drawing.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    src/.style={minimum width=27mm, minimum height=9mm, align=center, text width=26mm},
+    mtr/.style={draw=cInk, fill=white, circle, inner sep=1pt, font=\scriptsize, text=cInk},
+    brk/.style={draw=cInk, fill=white, minimum size=2.6mm, inner sep=0pt}]
+  % sources (right)
+  \node[blkWind, src] (w1) at (12.5,3.0) {رشته‌های بادیِ ۱ و ۲};
+  \node[blkWind, src] (w3) at (12.5,1.6) {رشتهٔ بادیِ ۳};
+  \node[blkPV, src] (pv) at (12.5,0.0) {بلوک‌های خورشیدیِ\\۱ تا ۱۰};
+  \node[blkBESS, src] (bt) at (12.5,-1.6) {باتری\\$20\,\text{MW},\ 40\,\text{MWh}$};
+  % split 33 kV bus
+  \draw[bus] (8.8,3.4) -- (8.8,1.0);
+  \draw[bus] (8.8,0.4) -- (8.8,-2.0);
+  \node[brk] at (8.8,0.7) {};
+  \node[note, text width=22mm] at (8.8,4.05) {شینهٔ $33\,\text{kV}$\\(دو بخش)};
+  \draw[flow] (w1.west) -- node[mtr, pos=0.45] {M1} (8.8,3.0);
+  \draw[flow] (w3.west) -- (8.8,1.6);
+  \draw[flow] (pv.west) -- node[mtr, pos=0.45] {M2} (8.8,0.0);
+  \draw[flow, {Stealth[length=2.2mm]}-{Stealth[length=2.2mm]}] (bt.west) -- (8.8,-1.6);
+  % auxiliary transformer
+  \draw (8.8,-1.25) -- (7.6,-1.25);
+  \draw[draw=cInk] (7.35,-1.25) circle (0.25) (7.0,-1.25) circle (0.25);
+  \draw (6.75,-1.25) -- (6.45,-1.25);
+  \node[blk, minimum width=16mm, minimum height=8mm, align=center] at (5.6,-1.25) {مصرفِ داخلی};
+  % main transformers
+  \draw (8.8,2.2) -- (7.6,2.2);
+  \draw[draw=cInk, line width=0.8pt] (7.3,2.2) circle (0.32) (6.85,2.2) circle (0.32);
+  \draw (6.53,2.2) -- (5.2,2.2);
+  \draw (8.8,-0.2) -- (7.6,-0.2);
+  \draw[draw=cInk, line width=0.8pt] (7.3,-0.2) circle (0.32) (6.85,-0.2) circle (0.32);
+  \draw (6.53,-0.2) -- (5.2,-0.2);
+  \node[note] at (7.07,1.55) {$2\times 63\,\text{MVA}$، $33/132\,\text{kV}$};
+  % 132 kV bus and line
+  \draw[bus] (5.2,2.6) -- (5.2,-0.6);
+  \node[note] at (5.2,3.05) {شینهٔ $132\,\text{kV}$};
+  \draw[flow] (5.2,1.0) -- node[mtr, pos=0.2] {M3} node[note, above=2mm, pos=0.55] {خطِ $7.06\,\text{km}$} node[mtr, pos=0.88] {M4} (1.6,1.0);
+  \node[blkLoad, minimum width=20mm, minimum height=10mm, align=center] (g) at (0.6,1.0) {بیِ شبکه\\(نقطهٔ اتصال)};
+  \node[note, text width=40mm] at (2.2,-0.6) {M3 کنتورِ صادرات در پست؛ M4 کنتورِ درآمد، جایش به مرزِ قرارداد بسته است};
+\end{tikzpicture}
+\end{document}

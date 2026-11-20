@@ -1,0 +1,9 @@
+choosing the export route (teaching costs, k u):
+  route                        km   crossings  sensitive  build k u
+  A: along the road            7.06           3          1      3,607
+  B: straight, cross-country   6.10           6          2      4,291
+  C: around the wetland        8.40           2          0      3,711
+  the shortest route is not the cheapest: crossings (roads,
+  pipes, rivers) and sensitive areas (permits, mitigation)
+  cost more than the kilometres they save; access for repair
+  and the landowners (ch 14, ch 22) weigh as much as the sum

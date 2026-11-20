@@ -1,0 +1,7 @@
+export transformer 132 kV star / 33 kV delta, core 0.5 m2, B 1.7 T (A-053)
+  volts per turn 4.44 f A B = 188.7 V
+  HV phase winding 76.2 kV: 404 turns; LV phase winding 33 kV: 175 turns
+  ratio check 2.309 = 76.2 / 33 = 2.309
+  flux density at 110 % voltage 1.87 T: near saturation of grain-oriented
+    steel
+  eddy loss ~ t^2: 0.27 mm sheet instead of 0.35 mm -> 0.60 x

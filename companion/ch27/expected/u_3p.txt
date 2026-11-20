@@ -1,0 +1,12 @@
+the turbines' 3p power modulation (tower passage) at the POC (teaching)
+  rotor rpm   3p Hz   12 turbines, 2 % each, random phases: dP MW   dU %
+          8    0.40                                           0.35   0.003
+         12    0.60                                           0.35   0.003
+         14    0.70                                           0.35   0.003
+  the eye is most sensitive to lamp flicker near 8.8 Hz and
+  much less below 1 Hz; three thousandths of a per cent at
+  0.4-0.7 Hz is far below anything a flickermeter would rank
+  (STD-129) - which is why the flicker coefficient (lesson
+  A) of modern turbines is small; synchronised turbines (all
+  in phase) would add linearly - the sqrt(12) assumes they
+  are not

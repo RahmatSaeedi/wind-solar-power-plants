@@ -1,0 +1,15 @@
+remedy tracking: from proposal to proof (synthetic)
+  case                             remedy
+  dust on crops, farm 1            spray schedule, crop payment
+      delivered and checked: yes
+  blocked track to the spring      fence gap opened
+      delivered and checked: yes
+  unpaid wages, subcontractor      paid via main contractor, audit
+      delivered and checked: yes
+  night noise at camp              reduced mode, monitoring
+      delivered and checked: not yet
+  road damage at village edge      repair scheduled
+      delivered and checked: not yet
+  3 of 5 remedies proven; the others stay open in
+  the report until the complainant confirms - a promised
+  remedy is not a delivered one

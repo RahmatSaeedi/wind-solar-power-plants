@@ -1,0 +1,19 @@
+% Chapter 34 - a bouncing auxiliary contact as the input reads it and after a 10 ms debounce
+% (examples_q, diagrams/data/ch34-bounce.csv; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=95, xmax=120, ymin=-0.2, ymax=2.9,
+      ytick={0,1,1.5,2.5}, yticklabels={باز, بسته, باز, بسته},
+      xlabel={زمان (ms)}, ylabel={وضعیتِ ورودی},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[sLoss, no marks, const plot] table[x=t, y=raw, col sep=comma] {data/ch34-bounce.csv};
+    \addplot[sWind, no marks, const plot] table[x=t, y expr=\thisrow{deb}+1.5, col sep=comma] {data/ch34-bounce.csv};
+    \legend{ورودیِ خام, پس از حذفِ لرزش}
+    \draw[sLimit] (axis cs:100,-0.2) -- (axis cs:100,2.7);
+    \node[note, anchor=east] at (axis cs:99.8,2.0) {لبهٔ نخست};
+    \draw[sLimit] (axis cs:113.6,-0.2) -- (axis cs:113.6,2.7);
+    \node[note, anchor=west] at (axis cs:113.8,0.5) {پذیرش};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

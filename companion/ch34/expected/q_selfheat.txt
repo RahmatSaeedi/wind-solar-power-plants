@@ -1,0 +1,11 @@
+self-heating of a Pt100 at 95 C (teaching coefficients)
+  resistance at 95 C: 136.6 ohm
+  current mA   power mW   error in still air   in an oil pocket
+           1       0.14              0.07 K           0.007 K
+           2       0.55              0.27 K           0.027 K
+           5       3.42              1.71 K           0.171 K
+  (0.5 K/mW in still air, 0.05 K/mW in oil - teaching)
+  the sensor warms itself by I^2 R and reads high; at 1 mA
+  the error is small anywhere, at 5 mA in still air it
+  exceeds a whole class B tolerance - the input module's
+  measuring current belongs on the sensor's data sheet

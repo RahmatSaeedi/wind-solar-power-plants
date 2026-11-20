@@ -1,0 +1,8 @@
+heat of cure released in a laminate that cannot lose it
+  resin 30% of the mass, 420 J/g, c_p 1.0 J/g K (teaching)
+  adiabatic rise 126 K - the same arithmetic as mass
+  concrete (ch 29, adiabatic rise)
+  thin shells lose the heat to the mould; a thick root
+  laminate does not, and can overheat, crack or burn - why
+  thick sections are built and cured in steps the maker
+  qualifies; the record of their temperature is the evidence

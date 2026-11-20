@@ -1,0 +1,14 @@
+process FMEA of blade making, ranked by severity class, then
+  S x O, then D (ch 40); RPN shown only for comparison
+  step               failure mode            S  O  D  SxO  RPN
+  bonding            bond-line gap          10  3  4   30  120
+  cure               under-cured zone        9  2  4   18   72
+  root inserts       insert misaligned       9  2  3   18   54
+  infusion           dry spot                7  4  3   28   84
+  lay-up of caps     ply off its angle       8  3  5   24  120
+  lightning system   conductor joint loose   8  2  2   16   32
+  finishing          thin edge coating       5  5  3   25   75
+  first by the ranking: bond-line gap; first by RPN: ply off its angle
+  a bond-line gap that can lose a blade outranks a common but
+  milder defect - severity first; the ranking sets where the
+  quality plan puts its holds (lab D)

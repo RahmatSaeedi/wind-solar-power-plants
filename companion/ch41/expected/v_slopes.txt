@@ -1,0 +1,13 @@
+Rs and Rsh read from the slopes of a flash curve (0.1 % noise)
+  module            Rs true   Rs read   Rsh true   Rsh read
+  good module         0.172     0.180        146        154
+  shunted cells       0.172     0.216         15         15
+  weak joints         0.350     0.358        146        154
+  a low shunt (edge isolation, cracks through the junction)
+  tilts the flat part of the curve; a high series resistance
+  (cold solder, thin ribbon) leans the steep part - the
+  slopes point at the process step, which is why the flash
+  file keeps the whole curve, not only Pmax; Rsh read from
+  a noisy flat part is rough, Rs needs the diode's own part
+  (n Ns kT/q over Isc) taken away, and a strong shunt
+  biases it high (0.216 against 0.172) - read the two together

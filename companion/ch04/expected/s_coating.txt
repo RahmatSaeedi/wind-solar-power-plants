@@ -1,0 +1,4 @@
+zinc 85 micrometre x 7.14 g/cm3 = 607 g/m2
+  a pile with 2.4 m2 of surface carries 1.46 kg of zinc
+  8,000 piles (assumed) carry 11.7 t of zinc
+  coating mass per area and thickness are two ways to state one requirement

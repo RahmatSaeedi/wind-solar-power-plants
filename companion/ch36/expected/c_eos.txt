@@ -1,0 +1,11 @@
+replacements forced by end of support over 25 years (teaching)
+  device              count   support years   replacements each
+  firewalls               2               8                  3
+  switches               34              10                  2
+  servers                 3               6                  4
+  plant controllers       2              12                  2
+  protection relays      30              15                  1
+  120 device replacements in the plant's life
+  the end of a maker's support is a date in the inventory,
+  planned like a gearbox exchange: budget, spare, test
+  bench, outage window - not a surprise in year 9

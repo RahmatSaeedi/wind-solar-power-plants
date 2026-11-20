@@ -1,0 +1,5 @@
+what one converter count is worth (16 bits over 0-21 mA)
+  one count: 0.32 uA = 3.0 V on the 132 kV system (0.0023 %)
+  the counts are fine-grained; the chain's accuracy (next
+  lesson, +/-0.66 %) is about 290 times coarser - more
+  bits do not buy accuracy, only resolution

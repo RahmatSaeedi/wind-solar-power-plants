@@ -1,0 +1,9 @@
+strings of 26 x 550 W = 14.3 kWp; 60 MWp needs 4195.80 strings
+  combiner boxes take 24 strings each (A-014); options near 60 MWp:
+    174 boxes x 24 = 4176 strings = 59.717 MWp
+    175 boxes x 24 = 4200 strings = 60.060 MWp
+    176 boxes x 24 = 4224 strings = 60.403 MWp
+  11 inverters of 4.2 MW = 46.2 MW AC, DC/AC 1.300
+  12 inverters of 4.2 MW = 50.4 MW AC, DC/AC 1.192
+  13 inverters of 4.2 MW = 54.6 MW AC, DC/AC 1.100
+  integers break the smooth optimum: round, then check every constraint again

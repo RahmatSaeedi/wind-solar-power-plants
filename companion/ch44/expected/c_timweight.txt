@@ -1,0 +1,12 @@
+interface paste printed on each module baseplate (266 cm2, 100 um, 2.5 g/cm3)
+  target 6.65 g; tolerance +-10%: 5.99 - 7.32 g
+  module   grams   verdict
+  M01       6.6   ok
+  M02       6.8   ok
+  M03       6.4   ok
+  M04       7.9   reprint
+  M05       6.7   ok
+  M06       5.5   reprint
+  2 of 6 reprinted: too much paste is a thick layer, too
+  little leaves voids (lesson B) - a scale is a cheap control
+  of a layer nobody can see once the module is bolted down

@@ -1,0 +1,28 @@
+M46: installed AC 60 + 50 = 110 MW against a 100 MW export limit: curtailed
+    0.23 GWh a year; a 90 MW limit would curtail 1.76 GWh
+M47: AC-coupled PV -> battery -> grid 85.0 %, DC-coupled 86.7 % (one-way set
+    of 4 efficiencies, A-286)
+M48: requirement REQ-007-like test (test): 'export <= 100 MW at the POC meter,
+    1-min mean' is measurable; 'export limited' is not
+M49: water: 2,500 m3 tank with a held reserve; demand above a 40 m3/day well
+    for 30 days (test): 2,400 m3 from the tank at 120 m3/day
+M50: build-up 52 x 8 x 12 x 8 = 39,936 cells x 314 Ah x 3.2 V = 40.13 MWh;
+    window 10-90 % usable 32.1 MWh
+M51: service floor: 4 MWh + 5 MW x 1 h / 0.927 = 9.39 MWh held from 18 to 22 h
+M52: priority order safety > operator > service > schedule > recapture: an
+    operator cap and a service call -> obey the cap, keep the service within
+    it, log the conflict (D-024)
+M53: battery at teaching prices repays about 40 % of its capital (D-025):
+    technically defined (D-023), financially conditional
+M54: envelope LCOE: (156,450 x CRF 0.0710 + 4,270) / 288,854 MWh = 53.2 u/MWh
+M55: sculpted debt on a flat 13,000 a year, DSCR 1.20, 6 %, 15 years: 105,216
+    k u
+M56: model base: debt 121,025 (71 %), equity IRR 10.22 %, min DSCR 1.20, min
+    LLCR 1.23
+M57: break-even energy 85.9 % of P50 (DSCR 1.00, debt fixed) against the one-
+    year P99 of 88.1 %: lenders are paid in a P99 year
+M58: scores (energy, cost, time) with weights 0.5/0.3/0.2 (test): 0.50, 0.66,
+    0.41; dominated: none
+M59: development tree: value 7,740 -> EV 569; value 5,000 -> EV 0 (stop)
+M60: D-026: P-Central (295 GWh) over P-North (330 GWh): equity IRR 10.21 vs
+    9.85 %, NPV today 4,740 vs 4,646 k u, two flags, 22 months later close

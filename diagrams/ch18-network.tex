@@ -1,0 +1,38 @@
+% Chapter 18 - plant data network at architecture level (flows right to left from the field):
+% field devices on a fibre ring along the collector trenches, a control zone with the plant
+% controller and SCADA, a monitoring zone with the historian, and separate, controlled links to
+% remote operation and to the grid operator. Defensive zoning only (chapters 34-36); teaching.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=25mm, minimum height=9mm, align=center, text width=24mm},
+    gw/.style={blkWarn, minimum width=22mm, minimum height=9mm, align=center, text width=21mm}]
+  % field (right)
+  \node[b, draw=cWind, fill=cWind!9] (wt) at (13.0,2.4) {۱۲ توربین};
+  \node[b, draw=cPV, fill=cPV!9] (pv) at (13.0,1.2) {۱۰ اینورتر و ۲۱۰ جعبه};
+  \node[b, draw=cBESS, fill=cBESS!10] (bs) at (13.0,0.0) {باتری و اینورترها};
+  \node[b] (by) at (13.0,-1.2) {بی‌ها، کنتورها، هواشناسی};
+  \draw[draw=cInkB, line width=1pt, rounded corners=8pt] (10.2,-1.7) rectangle (10.9,2.9);
+  \node[note, text width=18mm] at (10.55,3.35) {حلقهٔ فیبر};
+  \foreach \n/\y in {wt/2.4, pv/1.2, bs/0.0, by/-1.2} { \draw[draw=cInkB] (\n.west) -- (10.9,\y); }
+  % control zone
+  \draw[boundary] (6.0,-1.9) rectangle (9.6,3.1);
+  \node[note] at (7.8,3.4) {منطقهٔ کنترل};
+  \node[b] (pc) at (7.8,1.8) {کنترل‌گرِ نیروگاه\\(دو دستگاه)};
+  \node[b] (sc) at (7.8,0.0) {اسکادا};
+  \draw[draw=cInkB] (10.2,1.8) -- (pc.east);
+  \draw[draw=cInkB] (10.2,0.0) -- (sc.east);
+  % gateways and outer zones
+  \node[gw] (g1) at (4.6,0.0) {دروازهٔ کنترل‌شده};
+  \node[gw] (g2) at (4.6,2.4) {دروازهٔ کنترلِ از راه دور};
+  \draw[draw=cInkB] (sc.west) -- (g1.east);
+  \draw[draw=cInkB] (pc.west) -- (5.75,1.8) |- (g2.east);
+  \node[b] (hs) at (1.4,0.0) {منطقهٔ پایش\\(تاریخ‌نگار)};
+  \node[b] (ro) at (1.4,-1.6) {بهره‌برداریِ از راه دور};
+  \node[b, draw=cLoad, fill=cLoad!8] (op) at (1.4,2.4) {اپراتورِ شبکه};
+  \draw[draw=cInkB] (g1.west) -- (hs.east);
+  \draw[draw=cInkB] (hs.south) -- (ro.north);
+  \draw[draw=cInkB] (g2.west) -- (op.east);
+  \node[note, text width=110mm] at (6.6,-2.6) {هر گذر از مرزِ منطقه از یک دروازهٔ کنترل‌شده است؛ جزئیاتِ دفاعی در فصل‌های ۳۴ تا ۳۶};
+\end{tikzpicture}
+\end{document}

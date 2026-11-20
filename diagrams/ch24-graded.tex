@@ -1,0 +1,16 @@
+% Chapter 24 - cost and present value of losses for four plans of a wind string (k u; 70 u/MWh,
+% 25 years, 7.5 %), stacked. Data: diagrams/data/ch24-graded.csv (companion/ch24/figdata.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=60mm, ybar stacked, bar width=12mm, xmin=0.4, xmax=4.6,
+      ymin=0, ymax=900, ylabel={هزار واحد}, xtick={1,2,3,4},
+      xticklabels={{$240$ همه\\(مجاز نیست)}, {$630/240$}, {$630/400/240$}, {$630$ همه}},
+      xticklabel style={align=center, font=\footnotesize}, ytick={0,200,...,800}, xmajorgrids=false,
+      area legend, legend columns=1, legend style={at={(0.03,0.97)}, anchor=north west, font=\footnotesize}]
+    \addplot[draw=cInkB, fill=cInkB!25] table[x=k, y=cost, col sep=comma] {data/ch24-graded.csv};
+    \addplot[draw=cLoss, fill=cLoss!30] table[x=k, y=losspv, col sep=comma] {data/ch24-graded.csv};
+    \legend{هزینهٔ کابل, ارزشِ فعلیِ تلف}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

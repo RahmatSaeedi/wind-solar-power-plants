@@ -1,0 +1,7 @@
+the plant stopped for 5 days after a control-system incident (teaching)
+  energy not sold at 50 u/MWh: 202,123 u
+  security controls of this chapter: about 60,000 u a year
+  break-even: one such event every 3.4 years
+  the comparison is rough on purpose - it only shows that
+  availability, not secrecy, is what the plant's security
+  protects; the risk register (lesson A) is the real tool

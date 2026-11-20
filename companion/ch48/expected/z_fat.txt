@@ -1,0 +1,13 @@
+RTU cabinet FAT: points simulated at the factory by type
+  analogue in      88 points,   88 simulated (100%)
+  digital in      151 points,  140 simulated ( 93%)
+  digital out      61 points,   35 simulated ( 57%)
+  RTD in           24 points,   24 simulated (100%)
+  serial points   420 points,  260 simulated ( 62%)
+  total 547 of 744 (74%); 197 points wait for the site
+  at 6 minutes a point on site: 20 h of loop checks,
+  two or three days of a test team in the commissioning window
+  digital outputs and serial points are the gap: outputs need
+  a load to show they switch, serial points a device to answer;
+  a simulator of the turbine and inverter protocols at the FAT
+  moves those hours out of the critical path (ch 50)

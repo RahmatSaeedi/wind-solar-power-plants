@@ -1,0 +1,6 @@
+E01 current of 5 MW at 0.69 kV: 4,184 A
+E02 current of 20 MW at 33 kV, pf 0.95: 368 A
+E03 fault current of 250 kVA, 0.4 kV, z 0.045: 8.02 kA
+E04 dip of a 120 kVA start on 150 kVA, x 0.15: 10.7%
+E05 series of 1,500 and 5,910 MVA: 1,196 MVA
+E06 resistor for 400 A at 33 kV: 47.6 ohm

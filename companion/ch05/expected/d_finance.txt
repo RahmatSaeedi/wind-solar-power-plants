@@ -1,0 +1,12 @@
+year  revenue    opex   CFADS  debt serv.  DSCR  equity cash  (million u)
+   0    0.000   0.000   0.000      0.000    -     -30.000
+   1   13.676   2.750  10.926      7.207  1.52       3.719
+   2   13.608   2.750  10.858      7.207  1.51       3.650
+  15   12.749   2.750   9.999      7.207  1.39       2.792
+  16   12.685   2.750   9.935      0.000    -       9.935
+  25   12.126   2.750   9.376      0.000    -       9.376
+DSCR minimum 1.39 (year 15), average 1.45
+project: NPV at 7 % +20.66 million u, IRR 9.28 %
+equity:  NPV at 10 % +9.86 million u, IRR 13.14 %
+audit: every year uses the same formulas; totals: revenue 322.2, debt service
+    108.11 = 70 principal + interest

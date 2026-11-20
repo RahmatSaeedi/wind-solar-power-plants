@@ -1,0 +1,33 @@
+% Chapter 9 - verification sequence from design to acceptance for the PV inverters: factory,
+% transport, site; a planning view, not a work procedure.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \tikzset{st/.style={blk, minimum width=27mm, minimum height=13mm, text width=25mm},
+           ph/.style={note, font=\small\bfseries, text=cInk}}
+  % factory row
+  \node[st] (dr) at (0,0) {بازبینیِ طراحی};
+  \node[st] (tt) at (3.2,0) {آزمون‌های نوعی: محیطی، سازگاری، شبکه};
+  \node[st] (rt) at (6.4,0) {آزمون‌های جاریِ هر واحد};
+  \node[st] (fat) at (9.6,0) {آزمونِ پذیرشِ کارخانه با توانِ کامل};
+  \node[st] (rec) at (12.8,0) {پروندهٔ پیکربندی و گواهی‌ها};
+  % transport
+  \node[st] (tr) at (12.8,-2.4) {حمل، انبار، بازرسیِ ورود};
+  % site row (right to left in the drawing)
+  \node[st] (ins) at (9.6,-2.4) {وارسی‌های نصبِ بی‌برق};
+  \node[st] (en) at (6.4,-2.4) {برق‌دار کردن با رویهٔ مجاز};
+  \node[st] (sat) at (3.2,-2.4) {آزمونِ پذیرشِ ساختگاه};
+  \node[st] (int) at (0,-2.4) {یکپارچگی با ترانسفورماتور و کنترل‌گر};
+  \node[st] (gc) at (0,-4.8) {وارسیِ انطباق در نقطهٔ اتصال};
+  \node[st] (op) at (3.2,-4.8) {بهره‌برداریِ آزمایشی و تحویل};
+  \node[st] (bl) at (6.4,-4.8) {خط‌مبنای بهره‌برداری};
+  \foreach \a/\b in {dr/tt, tt/rt, rt/fat, fat/rec, rec/tr, tr/ins, ins/en, en/sat, sat/int, int/gc, gc/op, op/bl}
+    \draw[flow] (\a) -- (\b);
+  \draw[boundary] (-1.6,-1.2) rectangle (14.4,1.3);
+  \draw[boundary] (-1.6,-6.0) rectangle (14.4,-1.45);
+  \node[ph, fill=white, inner sep=2pt] at (6.4,1.3) {کارخانه};
+  \node[ph, fill=white, inner sep=2pt] at (6.4,-1.45) {ساختگاه};
+  \node[note, text=cLoss, text width=52mm, anchor=west] at (8.3,-4.8)
+       {کارِ برق‌دار و کلیدزنی فقط با رویهٔ مکتوب و مجوزِ کار، به‌دستِ افرادِ صلاحیت‌دار؛ این نمودار برنامه است، نه دستورِ کار};
+\end{tikzpicture}}
+\end{document}

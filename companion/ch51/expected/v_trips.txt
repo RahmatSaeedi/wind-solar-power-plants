@@ -1,0 +1,11 @@
+PV inverter trips of the first year by cause (100 trips)
+  DC insulation fault (morning dew)     37  cumulative  37%
+  grid over-voltage                     22  cumulative  59%
+  fan / over-temperature                18  cumulative  77%
+  unknown                               11  cumulative  88%
+  communication watchdog                 9  cumulative  97%
+  IGBT stack fault                       3  cumulative 100%
+  the two largest causes are 59% of the trips: dew on the DC
+  side every winter morning and over-voltage on light-load
+  afternoons - one for the maintainer, one for the grid study
+  (ch 28 voltage); 'unknown' is the share to shrink first

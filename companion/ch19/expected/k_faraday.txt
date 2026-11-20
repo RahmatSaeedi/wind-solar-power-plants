@@ -1,0 +1,8 @@
+theoretical capacity from Faraday's law (one Li per formula unit):
+  LiFePO4  M = 157.76 g/mol: 170 mAh/g
+  graphite C6 M = 72.07 g/mol: 372 mAh/g
+  active material for one 314 Ah cell at the theoretical value:
+    LFP 1.85 kg, graphite 0.84 kg
+  real cells use less than the theoretical capacity and carry
+  foils, separator, electrolyte and case: the 5.5 kg cell
+  holds about a third of its mass as positive active material

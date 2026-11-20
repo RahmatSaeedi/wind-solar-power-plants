@@ -1,0 +1,11 @@
+one turbine's main materials (masses from this chapter's assumptions):
+  tower steel                          494 t (21.1 %)  easy
+  nacelle and hub iron and steel       255 t (10.9 %)  easy
+  copper (generator, cables)            35 t ( 1.5 %)  easy
+  blade composite (3 x 20 t, A-048)      60 t ( 2.6 %)  difficult
+  foundation concrete                 1440 t (61.4 %)  crushed, reused as
+    aggregate
+  reinforcement steel                   60 t ( 2.6 %)  easy once separated
+  metals 844 t = 93 % of everything except the concrete
+  by mass the blades are small, by difficulty they are the main problem:
+    thermoset composites do not melt and are hard to separate (chapter 53)

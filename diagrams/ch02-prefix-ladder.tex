@@ -1,0 +1,31 @@
+% Chapter 2 — SI prefixes as a ladder of powers of ten, with one Plant P quantity on each rung.
+% Values: data pack 1.0.0 (PVM-550, seed ratings) and chapter 1 screening; lifetime energy assumes 25 years.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\rung#1#2#3#4#5{%
+    \draw[cRule, line width=0.6pt] (0,#1) -- (2.2,#1);
+    \node[anchor=east, text=cInk, font=\small] at (-0.15,#1) {$10^{#2}$};
+    \node[anchor=west, text=cInk, font=\small\bfseries] at (2.35,#1) {#3};
+    \node[anchor=west, text=cInkB] at (4.3,#1) {#4};
+    \node[anchor=west, text=cInk] at (10.6,#1) {#5};}
+  \draw[cInkB, line width=1pt] (0,-0.4) -- (0,8.4);
+  \draw[cInkB, line width=1pt] (2.2,-0.4) -- (2.2,8.4);
+  \node[note, text=cInk, font=\small\bfseries, anchor=south] at (1.1,8.6) {توانِ ده};
+  \node[note, text=cInk, font=\small\bfseries, anchor=south west] at (2.3,8.6) {پیشوند};
+  \node[note, text=cInk, font=\small\bfseries, anchor=south west] at (4.3,8.6) {نمونه در نیروگاهِ P};
+  \node[note, text=cInk, font=\small\bfseries, anchor=south west] at (10.6,8.6) {مقدار};
+
+  \rung{0}{-6}{میکرو، $\mu$}{خروجیِ پیرانومتر به ازای هر $\text{W/m}^2$}{$8.6\ \mu\text{V}$}
+  \rung{1.2}{-3}{میلی، $\text{m}$}{سیگنالِ استانداردِ حسگر}{$4 \ldots 20\ \text{mA}$}
+  \rung{2.4}{0}{بی‌پیشوند}{ولتاژِ نقطهٔ بیشینهٔ توانِ یک ماژول}{$41.96\ \text{V}$}
+  \rung{3.6}{3}{کیلو، $\text{k}$}{توانِ یک رشتهٔ ۲۶ ماژولی}{$14.3\ \text{kW}$}
+  \rung{4.8}{6}{مگا، $\text{M}$}{توانِ آرایهٔ خورشیدی}{$60\ \text{MWp}$}
+  \rung{6.0}{9}{گیگا، $\text{G}$}{انرژیِ سالانهٔ تحویلی}{$290\ \text{GWh}$}
+  \rung{7.2}{12}{ترا، $\text{T}$}{انرژیِ ۲۵ سالِ کار (فرضی)}{$7\ \text{TWh}$}
+
+  \node[note, anchor=north, text width=130mm] at (6.3,-0.75)
+     {هر پله هزار برابرِ پلهٔ پایینی است. میانِ «میلی» و «مگا» نُه مرتبهٔ بزرگی فاصله است، پس
+      اشتباهِ $\text{mW}$ و $\text{MW}$ (حروفِ کوچک و بزرگ) یک میلیارد برابر خطاست.};
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,21 @@
+% Chapter 40 - Pareto chart of 26 FAT findings on the ten skids: counts by category (bars) and the
+% cumulative share (line, right-hand scale drawn as a second axis in per cent of the total)
+% (diagrams/data/ch40-pareto.csv from companion/ch40/examples_t.py, t_pareto; teaching).
+% The cumulative share is plotted on the same axis scaled to the count total (26 = 100 %).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, ybar, bar width=16pt, xmin=0.4, xmax=7.6,
+      ymin=0, ymax=27, xtick={1,...,7},
+      xticklabels={سیم‌کشیِ کنترل, برچسب و مدرک, پایانه‌های فشارضعیف, هم‌بندیِ زمین, آسیبِ رنگ, تنظیمِ رله, دیگر},
+      x tick label style={font=\scriptsize, rotate=25, anchor=north east},
+      ylabel={شمارِ یافته‌ها (و سهمِ تجمعی از ۲۶)}]
+    \addplot[fill=cWind!55, draw=cWind] table[x=k, y=count, col sep=comma] {data/ch40-pareto.csv};
+  \end{axis}
+  \begin{axis}[plantp, width=110mm, height=60mm, xmin=0.4, xmax=7.6, ymin=0, ymax=27,
+      axis lines=none, ymajorgrids=false, xtick=\empty, ytick=\empty]
+    \addplot[sLoss, mark=*, mark size=1.5pt] table[x=k, y expr=\thisrow{cum}*26/100, col sep=comma] {data/ch40-pareto.csv};
+    \node[note, anchor=south, text=cLoss] at (axis cs:3,20.3) {۷۷٪};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

@@ -1,0 +1,8 @@
+operating water of Plant P (ch 29 demand, treated water, A-352)
+  one wash 109.2 m3; 14 washes a year; staff 20 x 60 l/day
+  month:    36   146   146   146   255   255
+           255   255   146   146   146    36
+  year 1,967 m3; peak month 255 m3
+  the construction water (ch 29: about 87,000 m3) is thirty times
+  a year of operation: the stewardship plan is mostly a
+  construction plan, then a drought rule for washing (ch 51)

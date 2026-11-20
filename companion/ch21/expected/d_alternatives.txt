@@ -1,0 +1,18 @@
+worked example 1: alternatives (k u; debt sized on each case):
+  case                           capex     debt  eq.IRR%  minDSCR  P90DSCR
+  A  S1, flat PPA (base)        156,450 121,025D    10.22     1.20     1.12
+  B  S0, flat PPA               142,800 113,526G    12.76     1.27     1.20
+  C  S1, time-of-day PPA        156,450 124,378G    11.35     1.22     1.14
+  D  C, oversize not augment    158,575 126,067G    11.15     1.21     1.13
+  E  C, debt 18 years           156,450 124,378G    12.68     1.38     1.28
+  F  C, thin cover, 85 % debt   156,450 140,961G    12.60     1.09     1.01
+  (P90 DSCR: the same debt with a P90 resource in every year;
+  debt set by G the gearing cap or D the cover target)
+  B has the lowest cost and a high IRR but no flexibility; C
+  pays for the battery only if the tariff values the hour; D
+  trades capital for fewer replacements and gains nothing
+  here; E spreads the same debt over 18 years: higher cover
+  and a higher equity IRR, if lenders offer the tenor; F takes
+  more debt on a thin cover: its equity IRR rises from 11.35 to
+  12.60 % while its P90 cover falls to 1.01, deep in lock-up -
+  a higher IRR bought with risk is not a better project

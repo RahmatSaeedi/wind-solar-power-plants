@@ -1,0 +1,11 @@
+preload of a flange bolt by tightening method (M48 10.9, teaching)
+  nominal preload 0.7 fub As = 1,031 kN
+  method                        scatter   lowest kN   bolts for same min
+  torque (lubricated, k known)     25 %         773             100 %
+  torque + angle                   15 %         876              88 %
+  hydraulic tensioning             10 %         928              83 %
+  the design must assume the lowest preload the method can
+  give: with torque alone the flange needs about a fifth
+  more bolt force than with tensioning - or fewer bolts
+  slip; the maker's procedure names the method, the tool
+  calibration and the lubricant, and checks a sample

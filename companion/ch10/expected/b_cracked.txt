@@ -1,0 +1,12 @@
+module power with one cell losing active area (crack, A-188):
+  inactive %   module P_mp W   loss %   cracked cell at MPP
+          0           559.7      0.0   +0.58 V, producing
+          5           558.2      0.3   +0.52 V, producing
+         10           545.4      2.6   +0.47 V, producing
+         20           500.4     10.6   +0.51 V, producing
+         30           447.3     20.1   +0.50 V, producing
+         50           421.5     24.7   -9.84 V, heat 129 W
+  a small crack costs its share of current in the whole series
+  substring; a larger one drives the cracked cell into reverse:
+  the module keeps most of its power but that one cell becomes
+  a hot spot (with a soft cell the bypass diode stays off)

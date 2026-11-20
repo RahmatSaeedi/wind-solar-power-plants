@@ -1,0 +1,22 @@
+D-043 procurement basis of Plant P (teaching)
+  1 packages: EPC with a separate turbine OEM contract; the
+    owner's engineer keeps SCADA integration
+  2 evaluation: compliance matrix first (critical items are
+    cleared, not priced), then evaluated price with losses,
+    delivery and currency, then the capability audit floors
+  3 PV unit transformers: recommend U-A subject to closing
+    two deviations and the data update duty
+  4 supplier data: 14 items with schema, update duty and
+    rights; delivery is accepted on the data, not a count
+  5 RAM: plant targets split into supplier shares with
+    response and repair times and on-site spares
+  6 labour: proportionate screen to tier 2; claims kept apart
+    from verified findings; remedy and escalation in contract
+  7 contracts: interface matrix with an owner for every gap;
+    wording for the lawyers
+  8 commercial: milestones near value; securities tied to
+    events, not dates; one strategic spare transformer
+  9 factory: 18 hold/witness points; lots held on sample
+    evidence (module power), source inspection funded
+  open: grid operator's interface schedule (U-115, U-119);
+    tier-2 source of U-B's winding wire if U-B returns (U-120)

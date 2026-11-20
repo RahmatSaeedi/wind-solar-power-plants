@@ -1,0 +1,18 @@
+% Chapter 6 — the Plant P feeder case with its numbers (companion/ch06/feeder_report.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize, lab/.style={note, font=\scriptsize, text=cInk}]
+  \node[blkPV, minimum width=30mm, minimum height=16mm] (cb) at (0,0)
+        {جعبهٔ تجمیع\\۲۴ رشته × $13.11\,\text{A}$\\$V_\text{mp} = 1091\,\text{V}$};
+  \draw (cb.east) ++(0,0.45) to[R, l={$R = 0.0237\,\Omega$ (هر هادی)}, i={$314.6\,\text{A}$}] ++(6.5,0) coordinate (p);
+  \draw (cb.east) ++(0,-0.45) to[R, l_={$180\,\text{m}$، آلومینیوم $240\,\text{mm}^2$، $50\,^\circ\text{C}$}] ++(6.5,0) coordinate (n);
+  \node[blk, minimum width=28mm, minimum height=16mm, anchor=west] (inv) at ($(p)!0.5!(n)+(0.3,0)$) {ورودیِ اینورتر\\$V = 1091 - 14.9$\\$= 1076\,\text{V}$};
+  \draw (p) -- (p -| inv.west);
+  \draw (n) -- (n -| inv.west);
+  \node[lab, anchor=north, text width=70mm, align=center] at (3.6,-1.55)
+       {$\Delta V = 2 \times 0.0237 \times 314.6 = 14.9\,\text{V}$ ($1.37\,\%$)\\
+        $P_\text{loss} = 0.0474 \times 314.6^2 = 4.69\,\text{kW}$ از $343\,\text{kW}$ ($1.37\,\%$)};
+  \node[lab, anchor=north, text=cInkB, text width=60mm, align=center] at (3.6,-2.9)
+       {همهٔ مقادیر فرضی؛ منحنیِ ماژول ساختگی. سناریوی S0، انتشارِ 1.0.0.};
+\end{tikzpicture}}
+\end{document}

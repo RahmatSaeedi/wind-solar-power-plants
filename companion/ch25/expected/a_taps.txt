@@ -1,0 +1,9 @@
+on-load tap changer -10 % to +10 % in 1.25 % steps: 17 positions
+  HV voltage seen at each end of the range for 33 kV on the LV:
+    tap -10.00 %: LV 33 kV at HV  118.8 kV
+    tap  +0.00 %: LV 33 kV at HV  132.0 kV
+    tap +10.00 %: LV 33 kV at HV  145.2 kV
+  the range covers the grid's voltage band at the POC and the
+  regulation across the transformer (above); the range and
+  steps are fixed with the grid study (ch 28) - an open item
+  of the specification until then

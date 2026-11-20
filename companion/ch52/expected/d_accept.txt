@@ -1,0 +1,6 @@
+step 6 - acceptance: block ratio over 14 days after the repair
+  mean 0.9964, 95 % interval +/-0.0056; criterion: within 1 +/- 0.01
+  -> ACCEPTED; the work order closes on this record
+  energy lost to the fault: 81.7 MWh = 5,716 u
+  had the CUSUM been watched (signal day 53, repair 2 days later):
+  5.4 MWh lost instead - 76.3 MWh (93%) was the price of not looking

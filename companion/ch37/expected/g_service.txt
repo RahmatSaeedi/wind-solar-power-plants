@@ -1,0 +1,11 @@
+a set-point step from 60 to 40 MW against a supplied specification
+  (placeholder specification U-118; synthetic trace)
+  measure                        result     required   pass?
+  time to 90 % of the step       8.5 s      <= 10 s    yes
+  settled within +/-2 MW         8.5 s      <= 30 s    yes
+  RMS error after settling       0.35 MW    <= 1.5 MW  yes
+  largest error after settling 1.77 MW
+  the specification is written down before the test, with
+  its tolerances and the telemetry it is judged on; the
+  trace, the specification and the result are kept
+  together as settlement evidence

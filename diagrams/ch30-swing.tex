@@ -1,0 +1,12 @@
+% Chapter 30 - swing angle of a suspension insulator in the design wind against the weight span
+% (7.7 kN of wind on one phase, 11.8 N/m) (diagrams/data/ch30-swing.csv, examples_u; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=58mm, xmin=0, xmax=320, ymin=55, ymax=90,
+      xlabel={دهانهٔ وزنی (m)}, ylabel={زاویهٔ چرخشِ مقره (درجه)}]
+    \addplot[sWind, no marks, domain=30:320, samples=60] {atan(7.7/(x*0.0118 + 0.3))};
+    \addplot[only marks, mark=square*, mark size=1.6pt, color=cLoss] table[x=ws, y=angle, col sep=comma] {data/ch30-swing.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

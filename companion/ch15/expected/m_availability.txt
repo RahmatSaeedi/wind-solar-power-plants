@@ -1,0 +1,8 @@
+time-based against energy-based availability (12 turbines, 40
+  simulated years each, repairs 40 h on average, A-272):
+  failures uniform in time             time 97.96 %, energy 97.99 %
+  failures more likely in strong wind  time 98.09 %, energy 97.49 %
+  contracts often guarantee time; the yield model needs energy;
+  when failures come with strong wind (loads, gusts) the energy
+  lost is larger than the hours suggest: state which one a
+  number is, and convert with the plant's own data (chapter 51)

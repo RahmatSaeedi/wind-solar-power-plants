@@ -1,0 +1,8 @@
+power classes of 2,000 modules built from the varied cells of lesson A
+  cells                    below 545   545     550     555     560
+  cells as they come           0.1%   97.5%    2.4%    0.0%    0.0%
+  cells sorted into bins      24.4%   23.9%   25.0%   16.9%    7.3%
+  sorting does not make better cells; it puts like with like:
+  strong cells make high-class modules instead of being
+  dragged by weak ones - binning is how a factory sells the
+  spread of its process as a ladder of power classes

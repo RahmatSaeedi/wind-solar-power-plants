@@ -1,0 +1,9 @@
+the inventory against the devices seen on the network (synthetic)
+  in the inventory: 10; seen talking: 11
+  seen but not listed: LAPTOP-TMP, SW-X17
+  listed but not seen: GPS-1
+  a device nobody listed has no owner and no baseline - here
+  a spare switch someone connected and a temporary laptop;
+  a listed device that is silent may be off, failed or
+  gone. The comparison uses the plant's own records of
+  traffic, read passively; nothing is probed

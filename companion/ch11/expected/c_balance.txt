@@ -1,0 +1,10 @@
+rotor imbalance from blade mass and pitch errors (A-217):
+  blade first mass moments 484.0, 486.2, 482.9 t m (masses 22.00,
+    22.10, 21.95 t at 22 m)
+  residual unbalance |sum S e^(j theta)| = 2,910 kg m
+  1P force at 11.5 rpm U w^2 = 4.2 kN
+  one blade pitched 0.5 deg off at 9 m/s: its thrust changes by 8.4 kN,
+    a 1P moment of about 419 kN m on the hub
+  the aerodynamic error can outweigh the mass error: blades are
+  weighed and matched in sets in the factory, and pitch angles
+  are set and checked on site (photogrammetry, laser tools)

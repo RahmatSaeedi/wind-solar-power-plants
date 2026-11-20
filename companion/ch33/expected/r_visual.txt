@@ -1,0 +1,12 @@
+how large the nearest turbine looks (blade tip, flat ground, teaching)
+  receptor                       nearest m   tip angle deg   reading
+  farmhouse A                          943            10.5   dominant
+  herders' camp B (seasonal)           806            12.2   dominant
+  farmhouse C                         2332             4.3   noticeable
+  roadside house D                    1250             8.0   prominent
+  village centre                      2854             3.5   noticeable
+  a 175 m tip at 800 m stands about as tall as a fist held
+  at arm's length (about 10 deg): the camp and farmhouse A see the farm
+  as a dominant feature, the village as a noticeable one;
+  the bands are teaching readings - the landscape study and
+  the photomontages agreed with the village judge them

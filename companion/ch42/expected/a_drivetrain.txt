@@ -1,0 +1,10 @@
+drivetrain at rated: 5000 kW out, chain efficiency 0.938 (ch 11: 0.94)
+  stage                  efficiency   power in kW   loss kW
+  main bearing                0.997          5329        16
+  gearbox (3 stages)          0.980          5313       106
+  generator                   0.975          5206       130
+  converter                   0.985          5076        76
+  heat to remove at rated: 329 kW (6.6% of the output)
+  gearbox and generator heat leaves by oil and air coolers in
+  the nacelle (lesson C); every percent of efficiency is
+  50 kW of heat less to carry away at the top of the tower

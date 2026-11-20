@@ -1,0 +1,16 @@
+% Chapter 4 — monthly mean air density at hub height from the data pack (pressure and
+% temperature moved to 100 m). Data: diagrams/data/ch04-density.csv (examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=58mm,
+      xlabel={ماه}, ylabel={چگالیِ هوا، $\text{kg/m}^3$},
+      xmin=0.5, xmax=12.5, ymin=0.98, ymax=1.24, xtick={1,...,12}, ytick={1.00,1.05,...,1.20},
+      yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \addplot[sWind, mark=*, mark size=1.4pt, mark options={solid}] table[x=month, y=rho, col sep=comma] {data/ch04-density.csv};
+    \addlegendentry{چگالی در ارتفاعِ توپی}
+    \addplot[sLimit, domain=0.5:12.5, samples=2] {1.225};
+    \addlegendentry{چگالیِ مرجعِ منحنیِ توان}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

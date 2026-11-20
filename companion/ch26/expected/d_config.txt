@@ -1,0 +1,7 @@
+setting-file configuration control (teaching):
+  =WS1-Q1-F1 rev A: checksum d7fc3541542e
+  =WS1-Q1-F1 rev B: checksum d05effd40774 (TMS 0.10 -> 0.12)
+  the checksum read from the relay after testing must equal
+  the approved file's; a change gets a new revision, a study
+  note, a test and an approval - never an edit on site that
+  no record shows (ch 35 for the cyber side)

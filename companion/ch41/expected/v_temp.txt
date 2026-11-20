@@ -1,0 +1,8 @@
+two builds: NOCT 44 C (glass-backsheet) and 46 C (glass-glass), teaching
+  cell temperature difference = (NOCT_b - NOCT_a)/800 x G,
+  weighted by the data-pack GHI of every hour
+  energy-weighted difference 1.60 K; energy 0.56% lower
+  on 110 GWh of PV a year: 0.61 GWh
+  a hotter build is not a worse one if it lasts longer or
+  carries a bifacial gain - the comparison is made in energy
+  over the life, with each build's own data

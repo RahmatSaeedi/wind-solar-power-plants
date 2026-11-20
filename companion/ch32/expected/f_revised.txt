@@ -1,0 +1,18 @@
+job hazard analysis: steps 6 and 8 revised, the residual risk
+  step                          before        after   top control
+  1 plan, permit, weather        12 high       4 low     administrate
+  2 climb to the nacelle         10 high       5 medium  engineer
+  3 isolate the yaw drives       15 high       5 medium  engineer
+  4 rig the service crane         8 medium     4 low     engineer
+  5 remove the old motor          9 medium     4 low     engineer
+  6 lower it through the hatch   10 high       5 medium  engineer
+  7 fit the new motor             9 medium     3 low     engineer
+  8 remove locks, test yaw       10 high       5 medium  engineer
+  9 descend, hand back            8 medium     4 low     administrate
+  checker findings: 0
+  sum of scores 91 before, 39 after controls
+  4 steps keep severity 5 at likelihood 1: the climb, the
+  isolation, the hatch and the yaw test. Controls cut the
+  likelihood, not the consequence - the permit, the
+  authorised person and a rescue-ready crew are what hold
+  those rows at 5 every time the job is done

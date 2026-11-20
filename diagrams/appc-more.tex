@@ -1,0 +1,99 @@
+% Appendix C - further teaching symbols used in the book's diagrams (drawn here, not copied from
+% IEC 60617): wind turbine, three-winding transformer, fuse, surge arrester, capacitor bank,
+% shunt reactor, neutral earthing resistor, harmonic filter, withdrawable breaker, load-break switch,
+% protective relay, motor, diesel generator, UPS, load; and the line conventions of the book.
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[font=\small, line width=0.7pt,
+    lab/.style={note, text width=24mm, anchor=north}]
+  % row 1
+  \begin{scope}[shift={(15,0)}]
+    \draw (0,-0.6) -- (0,0.05); \fill (0,0.05) circle (0.06);
+    \foreach \a in {90,210,330} {\draw (0,0.05) -- ++(\a:0.5);}
+    \node[lab] at (0,-0.7) {توربینِ بادی};
+  \end{scope}
+  \begin{scope}[shift={(11,0)}]
+    \draw (0,0.3) circle (0.27) (-0.2,-0.05) circle (0.27) (0.2,-0.05) circle (0.27);
+    \node[lab] at (0,-0.6) {ترانسفورماتورِ سه‌سیم‌پیچه};
+  \end{scope}
+  \begin{scope}[shift={(7,0)}]
+    \draw (0,0.6) -- (0,-0.6); \draw (-0.13,-0.32) rectangle (0.13,0.32);
+    \node[lab] at (0,-0.7) {فیوز};
+  \end{scope}
+  \begin{scope}[shift={(3,0)}]
+    \draw (0,0.6) -- (0,0.3); \draw (-0.13,-0.3) rectangle (0.13,0.3);
+    \draw[-{Stealth[length=1.4mm]}] (0,0.18) -- (0,-0.18);
+    \draw (0,-0.3) -- (0,-0.5); \draw (-0.22,-0.5) -- (0.22,-0.5) (-0.14,-0.58) -- (0.14,-0.58);
+    \node[lab] at (0,-0.75) {برقگیر};
+  \end{scope}
+  % row 2
+  \begin{scope}[shift={(15,-2.4)}]
+    \draw (0,0.6) -- (0,0.08); \draw (-0.3,0.08) -- (0.3,0.08) (-0.3,-0.08) -- (0.3,-0.08);
+    \draw (0,-0.08) -- (0,-0.6);
+    \node[lab] at (0,-0.7) {بانکِ خازنی};
+  \end{scope}
+  \begin{scope}[shift={(11,-2.4)}]
+    \draw (0,0.6) -- (0,0.25); \draw (0,0.25) arc (90:-180:0.25) -- (0.25,0);
+    \draw (0,-0.25) -- (0,-0.6);
+    \node[lab] at (0,-0.7) {راکتورِ موازی};
+  \end{scope}
+  \begin{scope}[shift={(7,-2.4)}]
+    \draw (0,0.6) -- (0,0.3); \draw (-0.1,0.3) rectangle (0.1,-0.2); \draw (0,-0.2) -- (0,-0.4);
+    \draw (-0.22,-0.4) -- (0.22,-0.4) (-0.14,-0.48) -- (0.14,-0.48) (-0.06,-0.56) -- (0.06,-0.56);
+    \node[lab] at (0,-0.75) {مقاومتِ زمین‌کردنِ نول};
+  \end{scope}
+  \begin{scope}[shift={(3,-2.4)}]
+    \draw (0,0.6) -- (0,0.35); \draw (0,0.35) .. controls (0.2,0.3) and (0.2,0.15) .. (0,0.1)
+      .. controls (0.2,0.05) and (0.2,-0.1) .. (0,-0.12);
+    \draw (0,-0.12) -- (0,-0.2); \draw (-0.22,-0.2) -- (0.22,-0.2) (-0.22,-0.32) -- (0.22,-0.32);
+    \draw (0,-0.32) -- (0,-0.6);
+    \node[lab] at (0,-0.7) {صافیِ هارمونیکی};
+  \end{scope}
+  % row 3
+  \begin{scope}[shift={(15,-4.9)}]
+    \draw (0,0.65) -- (0,0.42); \draw (-0.1,0.42) -- (0,0.32) -- (0.1,0.42);
+    \draw (-0.2,-0.2) rectangle (0.2,0.2);
+    \draw (-0.1,-0.42) -- (0,-0.32) -- (0.1,-0.42); \draw (0,-0.32) -- (0,-0.2);
+    \draw (0,0.32) -- (0,0.2); \draw (0,-0.42) -- (0,-0.65);
+    \node[lab] at (0,-0.75) {کلیدِ قدرتِ کشویی};
+  \end{scope}
+  \begin{scope}[shift={(11,-4.9)}]
+    \draw (0,0.6) -- (0,0.25); \draw (0,-0.25) -- (0.3,0.22); \draw (0,-0.25) -- (0,-0.6);
+    \draw (0,0.25) circle (0.07);
+    \node[lab] at (0,-0.7) {کلیدِ قطع زیرِ بار};
+  \end{scope}
+  \begin{scope}[shift={(7,-4.9)}]
+    \draw (-0.4,-0.3) rectangle (0.4,0.3); \node[font=\scriptsize] at (0,0) {$I>$};
+    \draw[densely dashed] (0,0.3) -- (0,0.65);
+    \node[lab] at (0,-0.45) {رلهٔ حفاظتی};
+  \end{scope}
+  \begin{scope}[shift={(3,-4.9)}]
+    \draw (0,0) circle (0.35); \node[font=\scriptsize] at (0,0) {$\mathrm{M}$};
+    \draw (0,0.35) -- (0,0.65);
+    \node[lab] at (0,-0.5) {موتور};
+  \end{scope}
+  % row 4
+  \begin{scope}[shift={(15,-7.2)}]
+    \draw (0,0) circle (0.35); \node[font=\scriptsize] at (0,0.08) {$\mathrm{G}$};
+    \draw (-0.12,-0.14) sin (-0.06,-0.08) cos (0,-0.14) sin (0.06,-0.2) cos (0.12,-0.14);
+    \draw (0,0.35) -- (0,0.65);
+    \node[lab] at (0,-0.5) {مولدِ دیزل};
+  \end{scope}
+  \begin{scope}[shift={(11,-7.2)}]
+    \draw (-0.45,-0.3) rectangle (0.45,0.3); \node[font=\scriptsize] at (0,0) {$\mathrm{UPS}$};
+    \draw (0,0.3) -- (0,0.6) (0,-0.3) -- (0,-0.45);
+    \node[lab] at (0,-0.55) {منبعِ بی‌وقفه};
+  \end{scope}
+  \begin{scope}[shift={(7,-7.2)}]
+    \draw (0,0.6) -- (0,-0.1); \draw[-{Stealth[length=2.2mm]}] (0,-0.1) -- (0,-0.45);
+    \node[lab] at (0,-0.55) {بار};
+  \end{scope}
+  \begin{scope}[shift={(3,-7.2)}]
+    \draw[line width=0.8pt] (-0.7,0.45) -- (0.7,0.45);
+    \draw[line width=0.6pt, densely dashed] (-0.7,0.15) -- (0.7,0.15);
+    \draw[line width=0.6pt, dotted] (-0.7,-0.15) -- (0.7,-0.15);
+    \draw[boundary] (-0.7,-0.45) -- (0.7,-0.45);
+    \node[lab, text width=30mm] at (0,-0.6) {توان، فرمان، ارتباط، مرز};
+  \end{scope}
+\end{tikzpicture}
+\end{document}

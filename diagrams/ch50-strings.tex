@@ -1,0 +1,19 @@
+% Chapter 50 - open-circuit voltage of the 20 strings of combiner =PVF1-3-CB07 (magnitude; S05 was
+% reversed) against the expected 1,217 V and its +/-3 % band (teaching; companion/ch50/examples_b.py,
+% strings -> diagrams/data/ch50-strings.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=58mm, ybar, bar width=3mm,
+      xmin=0.3, xmax=20.7, ymin=1050, ymax=1280, xtick={1,...,20},
+      xlabel={رشته}, ylabel={ولتاژِ مدارِ باز (V)},
+      scaled y ticks=false, yticklabel style={/pgf/number format/fixed}]
+    \fill[cPV!12] (axis cs:0.3,1180.5) rectangle (axis cs:20.7,1253.5);
+    \addplot[draw=cPV, fill=cPV!50] table[x=k, y=voc, col sep=comma] {data/ch50-strings.csv};
+    \draw[cInk, dashed] (axis cs:0.3,1217) -- (axis cs:20.7,1217);
+    \node[note, anchor=south east] at (axis cs:20.6,1255) {بازهٔ مورد انتظار $\pm 3\,\%$};
+    \node[note, anchor=south, text=cLoss] at (axis cs:3,1100) {S03};
+    \node[note, anchor=south, text=cLoss] at (axis cs:11,1060) {S11};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

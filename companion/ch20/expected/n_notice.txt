@@ -1,0 +1,15 @@
+operator caps known a day ahead or arriving as a surprise:
+  caps                  plan sees   export value k u   curtailed MWh
+  midday 80 MW (A-302)        yes           14,249.4             390
+                               no           14,249.4             390
+  evening 60 MW               yes           14,228.7               8
+                               no           14,229.2               7
+  notice is worth almost nothing for Plant P: before a midday
+  cap the battery is already empty (it was sold the evening
+  before) and the plan charges in those hours anyway; under an
+  evening cap the blocked energy simply waits and is sold later
+  at similar prices; the evening caps cost about 20 k u of
+  export with or without notice; notice would matter for a
+  battery that must prepare (fill before a cap that blocks
+  charging) - check the value of information before paying
+  for it (U-077)

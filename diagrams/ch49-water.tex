@@ -1,0 +1,23 @@
+% Chapter 49 - construction water by month over the 18-month build: workers, concrete and curing,
+% dust suppression; the wells' monthly share as a note (ch 29 demand, ch 22 workforce curve;
+% companion/ch49/examples_f.py, water -> diagrams/data/ch49-water.csv).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, ybar stacked, bar width=3.6mm,
+      xmin=0.3, xmax=18.7, ymin=0, ymax=7000, xtick={1,3,...,17},
+      xlabel={ماهِ ساخت}, ylabel={آب ($\mathrm{m}^3$)},
+      scaled y ticks=false, yticklabel style={/pgf/number format/fixed},
+      legend style={at={(0.5,1.02)}, anchor=south}, legend columns=3,
+      legend cell align=right]
+    \addplot[draw=cLoad, fill=cLoad!35] table[x=month, y=dust, col sep=comma] {data/ch49-water.csv};
+    \addlegendentry{گردوغبار}
+    \addplot[draw=cPV, fill=cPV!55] table[x=month, y=concrete, col sep=comma] {data/ch49-water.csv};
+    \addlegendentry{بتن و عمل‌آوری}
+    \addplot[draw=cWind, fill=cWind!45] table[x=month, y=people, col sep=comma] {data/ch49-water.csv};
+    \addlegendentry{کارگران}
+    \node[note, anchor=south, text=cLoss] at (axis cs:9.5,5900)
+      {چاه‌ها در هر ماه فقط $1\,683\ \mathrm{m}^3$ می‌دهند};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

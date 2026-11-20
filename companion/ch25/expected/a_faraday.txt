@@ -1,0 +1,9 @@
+volts per turn and turns of the 63 MVA unit (teaching core):
+  B peak T   core m2   V/turn   HV turns (76.2 kV)   LV turns (33 kV)
+      1.6      0.45    159.8                  477                206
+      1.7      0.45    169.8                  449                194
+      1.7      0.40    151.0                  505                219
+  LV delta winding current 636 A; at 3 A/mm2: 212 mm2
+  higher flux density means fewer turns and a smaller core
+  but more core loss and noise and less margin against
+  over-excitation: the maker's choice, checked in review

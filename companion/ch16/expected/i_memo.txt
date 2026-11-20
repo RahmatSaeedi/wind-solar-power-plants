@@ -1,0 +1,9 @@
+financing memo, Plant P (S0), teaching terms A-281:
+  yield: P50 295 GWh; one-year sigma 15 GWh; P90 1y 276; P99 1y 260 GWh
+  ten-year P90 280 GWh (for the average over a loan)
+  debt sized 79,287 k u by the P90 1y case; P50 cover 1.32
+  separate downside cases: price, cost, availability guarantee
+  (lab E); a P90 delivery guarantee costs about 71 k u a year
+  open items: U-061 lender's cases and ratios, U-062 a second
+    year of measurement, U-063 correlation of the long-term
+    errors of wind and PV

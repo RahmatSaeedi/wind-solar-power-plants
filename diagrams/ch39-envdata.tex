@@ -1,0 +1,23 @@
+% Chapter 39 - footprint of one 5.6 MVA unit transformer from the three offers: the number as
+% offered (hollow, each on its own boundary) and all three on one boundary, cradle to site, with
+% their uncertainty (filled, bars). The ranges overlap, so no offer is ranked on carbon
+% (diagrams/data/ch39-envdata.csv from companion/ch39/examples_j.py, j_boundary; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=96mm, height=60mm, xmin=0.4, xmax=3.6, ymin=0, ymax=62,
+      xtick={1,2,3}, xticklabels={U-A, U-B, U-C},
+      ylabel={ردپای یک واحد $(\text{t CO}_2\text{e})$},
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2, legend cell align=right]
+    \addplot[only marks, mark=*, mark size=2.2pt, color=cWind,
+        error bars/.cd, y dir=both, y explicit, error bar style={color=cWind, line width=0.8pt}]
+      table[x=offer, y=total, y error=unc, col sep=comma] {data/ch39-envdata.csv};
+    \addplot[only marks, mark=o, mark size=2.4pt, color=cLoss, line width=0.8pt]
+      table[x=offer, y=offered, col sep=comma] {data/ch39-envdata.csv};
+    \legend{یک مرز: از گهواره تا ساختگاه, همان‌طور که پیشنهاد شد}
+    \node[note, anchor=west] at (axis cs:2.08,8) {فقط کارخانه};
+    \node[note, anchor=north] at (axis cs:3,33.5) {ضریبِ عمومیِ کهنه};
+    \node[note, anchor=west] at (axis cs:1.08,40) {وارسی‌شده};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

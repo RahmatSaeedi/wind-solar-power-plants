@@ -1,0 +1,9 @@
+access roads from the site entrance (tree of straight edges, A-259):
+  layout              length km   steepest   edges > 10 %   extra km   wadi
+  W1 ridge (1 row)       9.50      12.4 %         1          0.04     1
+  W2 plain (2 rows)      9.90       6.4 %         0          0.00     1
+  the ridge road climbs a flank steeper than 10 % (teaching limit
+  for blade and tower transport; the transport contractor's route
+  survey decides): a short zig-zag or a cut keeps the grade; both
+  layouts cross the wadi once, with a culvert or ford sized for
+  floods (chapter 29); profiles are sampled bilinearly

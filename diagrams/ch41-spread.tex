@@ -1,0 +1,14 @@
+% Chapter 41 - histogram of the efficiency of 20,000 teaching cells under process variation
+% (current, J0, series resistance, shunt); the shunted 2 % form a separate tail near 22.4 %
+% (diagrams/data/ch41-spread.csv from companion/ch41/examples_a.py, a_variation; teaching).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=100mm, height=54mm, xmin=22.0, xmax=25.0, ymin=0,
+      xlabel={بازدهِ سلول (درصد)}, ylabel={شمارِ سلول‌ها}]
+    \addplot[ybar interval, fill=cPV!50, draw=cPV] table[x=lo, y=count, col sep=comma] {data/ch41-spread.csv};
+    \node[note, anchor=south, text=cLoss] at (axis cs:22.4,420) {سلول‌های نشتی};
+    \draw[->, cLoss] (axis cs:22.4,410) -- (axis cs:22.4,240);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

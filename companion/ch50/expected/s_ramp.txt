@@ -1,0 +1,7 @@
+ramp-rate test: set point raised at 9 MW/min, limit 10 MW/min (REQ-G14)
+  worst one-minute ramp in the record: 21.1 MW/min
+  sliding one-minute windows above the limit: 67 of 1740
+  the controller held 9 MW/min; the excess came from a cloud
+  edge leaving the PV area during the ramp - the test is
+  repeated or the record cut at the event, as the procedure
+  says beforehand, never chosen afterwards

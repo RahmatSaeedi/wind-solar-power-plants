@@ -1,0 +1,8 @@
+grid at the 132 kV POC (A-109): S_sc 1000 MVA, X/R 10
+  behind the 120 MVA, 12 % transformer the 33 kV bus sees 500 MVA (A-100: 500)
+  short-circuit ratio S_sc / P = 10; network impedance 0.100 pu on 100 MVA
+voltage change at the POC, dV ~ R P + X Q (pu, generator convention):
+  P 1.00 pu, Q +0.000 pu (pf 1       ): dV +1.00 %
+  P 1.00 pu, Q +0.329 pu (supplying Q): dV +4.27 %
+  P 1.00 pu, Q -0.329 pu (absorbing Q): dV -2.28 %
+  active power alone moves the voltage little (R small); Q moves it

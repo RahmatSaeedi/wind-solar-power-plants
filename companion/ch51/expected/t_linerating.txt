@@ -1,0 +1,10 @@
+132 kV line: weather-dependent rating over the data-pack year
+  wind at conductor height = 60 m wind x 0.79 (teaching shear)
+  lowest rating 511 A (31.4 C, 0.39 m/s, 916 W/m2); below 437 A: 0 h
+  hours when the export current exceeded the rating: 0, 0.0 MWh
+  hottest hour 40.7 C; hours above 35 C with wind below 0.74 m/s: 2
+  ch 24's hot, still day is a design case the data year never
+  reached: the margin was 74 A at its smallest. A hotter
+  year can still reach it, so the procedure keeps a rating
+  for stated weather and asks the network owner for a
+  dynamic rating (U-132)

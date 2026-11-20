@@ -1,0 +1,9 @@
+a fillet weld sized by its throat (teaching strength, no code factor)
+  force 300 kN along a weld; allowable shear ~ 200 MPa
+  leg mm   throat mm   length mm needed
+       6         4.2                354   (stress check 200 MPa)
+       8         5.7                265   (stress check 200 MPa)
+      10         7.1                212   (stress check 200 MPa)
+  the throat, not the leg, carries the load: a bigger leg
+  shortens the weld but adds heat and distortion - the
+  welding engineer balances the two in the WPS

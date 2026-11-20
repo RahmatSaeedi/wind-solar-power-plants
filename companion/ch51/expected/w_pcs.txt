@@ -1,0 +1,6 @@
+one of 4 battery PCS (5 MW each) out for 36 h from 10:00
+  power left 15 MW: the 5 MW service still fits with room for the schedule
+  service-window hours inside the outage: 8
+  the service is not reduced, but the schedule loses a quarter
+  of its battery power: the outage request says so, and the
+  daily plan is rebuilt before 10:00 (lesson D)

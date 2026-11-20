@@ -1,0 +1,12 @@
+one string through a cloud edge, steps every 0.1 s (A-164):
+  available energy 0.806 kWh in 300 s
+  tracker          tracking efficiency   during the ramps
+  P&O 5 V               99.77 %          97.92 %
+  P&O 15 V              99.86 %          99.50 %
+  IncCond 5 V           99.83 %          98.75 %
+  fixed voltage         99.71 %          99.81 %
+  within minutes the cell temperature hardly moves and neither
+  does V_mp: a fixed voltage keeps up; the ramps separate the
+  trackers (P&O can mistake rising irradiance for a good step)
+  over the data-pack year, holding the STC voltage 1091 V would
+    capture only 86.0 % of the MPP energy: temperature moves V_mp

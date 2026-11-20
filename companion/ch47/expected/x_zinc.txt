@@ -1,0 +1,11 @@
+zinc on four posts by two methods: weighing before and after
+  galvanizing, and the magnetic gauge
+  post      gain kg   by mass um   by gauge um   difference
+  Z-01/17      0.84           98            98           +0
+  Z-01/42      0.83           97            97           +0
+  Z-02/08      0.62           72            73           +1
+  Z-03/11      1.29          109           107           -2
+  the two methods agree within a few micrometres on the good
+  lots and both put Z-02 below the rule: the weighing is the
+  referee when a gauge reading is disputed, because it does
+  not depend on the gauge's calibration or the spot chosen

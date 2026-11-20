@@ -1,0 +1,12 @@
+main transformer differential: spill current for a through fault
+  (tap changer at -10 %, CT mismatch 3 %; pickup 0.2 pu, slope 30 %)
+  through pu   spill pu   restraint threshold pu   trips?
+         1.0       0.13                     0.50   no
+         2.0       0.26                     0.80   no
+         4.0       0.52                     1.40   no
+         8.3       1.08                     2.69   no
+  with a flat 0.2 pu threshold (no bias) it would trip from 2 pu: the spill
+  grows with the through current, so the threshold must grow
+  too - that is the bias slope; CT saturation in a heavy
+  external fault adds more spill (a second, steeper slope),
+  and the inrush is blocked by its second harmonic (ch 25)

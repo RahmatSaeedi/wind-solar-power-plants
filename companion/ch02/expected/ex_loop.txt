@@ -1,0 +1,6 @@
+temperature transmitter, 4-20 mA = -40..+60 degC (assumed)
+  12.00 mA -> 10.0 degC; 4.00 mA -> -40.0 degC; 20.00 mA -> 60.0 degC
+  sensitivity 6.25 degC per mA; 0.01 mA resolution = 0.0625 degC
+  0 mA is outside 4-20 mA: a broken wire is detected (live zero)
+16-bit converter over 0..2000 W/m2: step = 2000 / 65536 = 0.0305 W/m2
+12-bit converter over the same range: step = 0.488 W/m2

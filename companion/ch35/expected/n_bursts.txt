@@ -1,0 +1,12 @@
+a general interrogation and a historian back-fill (teaching)
+  every tag answers at once: 446 kB
+    on a 100 Mbit/s edge link: 35.7 ms
+    on the 2 Mbit/s WAN link:  1.78 s
+  back-fill of a day, 2,000 tags at 1 s: 3.5 GB
+    at the full 100 Mbit/s: 4.6 min - and nothing else gets
+    through meanwhile
+    limited to 10 % of the link: 46 min, live data unharmed
+  bursts are what fill links; a back-fill and a general
+  interrogation are rate-limited and scheduled, and the WAN
+  link carries only the agreed telemetry list, never a
+  general interrogation of the whole plant

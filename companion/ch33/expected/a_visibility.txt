@@ -1,0 +1,11 @@
+how many turbines each receptor sees (blade tip over the terrain)
+  receptor                       turbines visible   nearest km
+  farmhouse A                                  12          0.9
+  herders' camp B (seasonal)                   12          0.8
+  farmhouse C                                  12          2.3
+  roadside house D                             12          1.2
+  village centre                               12          2.9
+  on an open plain almost every turbine is seen from
+  everywhere: visibility is not avoidable here, so the
+  assessment turns to how the view changes (photomontages
+  agreed with the village) and to lights at night

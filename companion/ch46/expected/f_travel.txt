@@ -1,0 +1,12 @@
+close travel of breaker WS2 against its factory baseline
+  (stroke 12 mm, coil and latch delay 8 ms; teaching)
+  speed is read between 6 and 9 mm, where the contacts touch
+             touch at ms   speed m/s
+  baseline          21.5        1.00
+  now               25.5        0.75
+  speed change -25% against a teaching tolerance of +/-10%
+  the closing time grows only 19%: it includes the fixed coil and
+  latch delay, which does not change; the speed in the contact
+  zone shows the whole loss of energy (lubricant, spring) - the
+  factory baseline makes site and maintenance readings
+  comparable (ch 52)

@@ -1,0 +1,16 @@
+questions the comparison raises (for the qualified engineers)
+  F1 What operating-strain shear modulus does the engineer adopt at T07, and
+    from which test (seismic CPT, cross-hole, laboratory)?
+  F2 Does the turbine maker accept the stiffness rule of A-359, and what
+    dynamic stiffness does its load document state?
+  F3 Is the 2 m gravel replacement (S3) stable under the water range of Q6,
+    and how is its compaction proven?
+  F4 For S4, what pile capacities in tension and compression, and how many
+    pile tests?
+  F5 How is the settlement of the T12 gypsum layer handled (collapse, ch 29)?
+  F6 Which scheme does the independent design verifier and the certification
+    body review, and with which load set?
+  each answer comes back with its source; the scheme is
+  chosen by the foundation designer, checked by the
+  independent verifier and accepted under the type
+  certificate's site-specific assessment

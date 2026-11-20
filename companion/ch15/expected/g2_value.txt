@@ -1,0 +1,11 @@
+the value of a better day-ahead forecast (test months, P33 offer,
+  no battery):
+  forecast                  RMSE MW    revenue k u
+  as built                   10.72       4,377  (   +0)
+  errors x 0.9                9.65       4,451  (  +74)
+  errors x 0.8                8.58       4,526  ( +149)
+  perfect                     0.00       5,141  ( +764)
+  errors 10 % smaller are worth about 74 k u in these four
+  months at these prices: a ceiling for what a better forecast
+  may cost; a perfect one is worth 764 k u, the whole cost of
+  forecast error in these months: no forecast can earn more

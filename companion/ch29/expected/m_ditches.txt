@@ -1,0 +1,10 @@
+roadside ditch (0.5 m bottom, 1:2 sides, 0.4 m deep) against erosion
+  (allowable velocity, teaching: bare silty sand 0.6 m/s, grassed
+   1.2 m/s, stone-lined 2.5 m/s; check dams 0.3 m high)
+  slope %   Q earth m3/s   v m/s   lining needed      check dams every m
+     0.5           0.46    0.88   grass                      60
+     2.0           0.91    1.76   stone                      15
+     6.0           1.58    3.04   stone                       5
+  the same ditch that is safe on the plain scours on a 6 %
+  approach: lining or check dams go where the grade is,
+  not along the whole road

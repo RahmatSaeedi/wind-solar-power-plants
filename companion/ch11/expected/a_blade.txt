@@ -1,0 +1,12 @@
+blade designed for tip-speed ratio 8 at 6 deg (Schmitz, A-212):
+  r m     r/R    chord m   twist deg
+    5.2   0.07      4.80       34.6
+   10.7   0.14      4.80       21.6
+   19.7   0.26      4.80       11.0
+   30.6   0.41      4.80        5.4
+   45.1   0.60      4.00        1.8
+   59.6   0.79      3.07       -0.0
+   70.5   0.94      2.61       -0.9
+   74.1   0.99      2.48       -1.2
+  chord is capped at 4.8 m near the root for transport and
+  manufacture; the root region carries load, not power

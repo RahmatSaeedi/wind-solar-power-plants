@@ -1,0 +1,10 @@
+converter failure rate per operating hour, with a 90 % interval
+  fleet                    failures   operating h   rate /1e5 h   interval
+  model A, 8 converters           6        64,474          9.31   4.05-18.37
+  model B, 4 converters           1        21,024          4.76   0.24-22.56
+  per calendar hour model B looks 3.0 times better; per
+  operating hour (B ran 60 % of the time) only 2.0 times,
+  and with one failure its interval is so wide that it
+  overlaps A's almost entirely - the two models cannot be
+  told apart. A rate is reported with its exposure and its
+  interval, never alone

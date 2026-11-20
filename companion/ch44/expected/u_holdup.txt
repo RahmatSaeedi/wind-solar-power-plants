@@ -1,0 +1,8 @@
+auxiliary supply of the control: bulk 1.5 mF charged to 380 V,
+  drops out at 250 V, load 600 W (control, drivers, sensors; teaching)
+  hold-up t = C (V1^2 - V2^2) / (2 P) = 102 ms
+  needed: 150 ms of a voltage dip ridden through (teaching, ch 26 and 28)
+  bulk for 150 ms: 2.20 mF (1.5 x), or the control fed from the 24 V UPS
+  verdict: falls short by 48 ms - the inverter would ride
+  through the dip in its power stage and lose its control:
+  the missing end-of-line test was hiding a design question

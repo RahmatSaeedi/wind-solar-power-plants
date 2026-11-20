@@ -1,0 +1,11 @@
+the base section against a bridge on the delivery route (teaching)
+  bridge clearance 4.85 m; low-loader deck 0.3 m above the road
+  section  D m   height loaded m   margin m
+        1  4.50              4.80       0.05
+        2  4.12              4.42       0.43
+        3  3.75              4.05       0.80
+        4  3.38              3.68       1.17
+  the base section clears by 5 cm: a route survey measures
+  every bridge and wire, and a section a few centimetres
+  larger takes another road or a split design (ch 31) - the
+  tower's base diameter is a logistics decision as well

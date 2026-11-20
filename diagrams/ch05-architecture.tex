@@ -1,0 +1,19 @@
+% Chapter 5 - module structure of resource_tool: arrows point from a module to what it uses.
+% Model (pure), data access, presentation and the command line are kept apart.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \tikzset{md/.style={blk, minimum width=30mm, minimum height=11mm, font=\footnotesize, align=center}}
+  \node[blkLoad, minimum width=30mm, minimum height=11mm, font=\footnotesize] (cli) at (0,0) {\texttt{cli.py}\\خطِ فرمان، کدِ خروج};
+  \node[md] (run) at (-4.2,-2.2) {\texttt{run.py}\\پیکربندی و پیشینه};
+  \node[md] (raw) at (0,-2.2) {\texttt{rawdata.py}\\پروندهٔ ثبت‌کننده};
+  \node[md] (rep) at (4.2,-2.2) {\texttt{report.py}\\گزارشِ \texttt{Markdown}};
+  \node[blkBESS, minimum width=30mm, minimum height=11mm, font=\footnotesize] (mod) at (-4.2,-4.4) {\texttt{model.py}\\تابع‌های محض};
+  \node[md] (pp) at (0,-4.4) {کتابخانهٔ \texttt{plantp}\\\texttt{schema}، \texttt{datapack}};
+  \node[blkWind, minimum width=30mm, minimum height=11mm, font=\footnotesize] (dp) at (0,-6.6) {بستهٔ دادهٔ \texttt{1.1.0}\\با هشِ \texttt{SHA-256}};
+  \draw[flow] (cli) -- (run); \draw[flow] (cli) -- (raw); \draw[flow] (cli) -- (rep);
+  \draw[flow] (run) -- (mod); \draw[flow] (run) -- (pp); \draw[flow] (raw) -- (pp);
+  \draw[flow] (pp) -- (dp);
+  \node[note, anchor=west, text width=46mm] at (2.6,-5.4) {\texttt{model.py} هیچ چیز را وارد نمی‌کند جز \texttt{numpy}: بی‌پرونده، بی‌چاپ، قابلِ آزمونِ مستقیم};
+\end{tikzpicture}}
+\end{document}

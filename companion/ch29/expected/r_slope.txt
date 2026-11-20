@@ -1,0 +1,11 @@
+side slope of a temporary excavation in dense sand (phi 36 deg, c = 0)
+  slope (v:h)   angle   FS dry   FS with seepage parallel to slope
+  1:1.0          45.0     0.73     0.37
+  1:1.5          33.7     1.09     0.56
+  1:2.0          26.6     1.45     0.74
+  seepage roughly halves the factor of safety: a 1:1.5 side
+  that just stands in dry sand slides when groundwater flows
+  out of it, and even 1:2 fails - which is why excavations
+  near the wadi need the water lowered first or supported
+  sides, and why nobody enters a trench whose side has not
+  been checked by a competent person (site procedure)

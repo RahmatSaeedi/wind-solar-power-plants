@@ -1,0 +1,20 @@
+% Chapter 20 - the worked example day: actual POC power, export, operator cap and stored energy
+% hour by hour (A-302). Data: diagrams/data/ch20-day.csv (companion/ch20/lab_d.py worked()).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, name=top, width=112mm, height=50mm, xmin=0, xmax=24, ymin=0, ymax=115,
+      ylabel={توان (MW)}, xtick={0,3,...,24}, xticklabels={}, ytick={0,20,...,100},
+      legend columns=1, legend style={at={(1.03,0.5)}, anchor=west, font=\footnotesize}]
+    \addplot[sWind, const plot mark left] table[x=h, y=act, col sep=comma] {data/ch20-day.csv};
+    \addplot[sInk, const plot mark left] table[x=h, y=export, col sep=comma] {data/ch20-day.csv};
+    \addplot[sLimit, const plot mark left] table[x=h, y=cap, col sep=comma] {data/ch20-day.csv};
+    \legend{تولید, صادرات, سقف}
+  \end{axis}
+  \begin{axis}[plantp, at={(top.south)}, anchor=north, yshift=-4mm, width=112mm, height=40mm,
+      xmin=0, xmax=24, ymin=0, ymax=40, xlabel={ساعت}, ylabel={انرژیِ ذخیره (MWh)},
+      xtick={0,3,...,24}, ytick={0,10,...,40}]
+    \addplot[sBESS] table[x expr=\thisrow{h}+1, y=soc, col sep=comma] {data/ch20-day.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

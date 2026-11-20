@@ -1,0 +1,9 @@
+module of 52 cells at 3.3 V; the sense wire between cells 21 and 22 opens
+  channel 21 reads 0.05 V, channel 22 reads 6.55 V
+  sum of channels 171.60 V, module voltage measured directly 171.60 V
+  the sum still agrees - the plausibility that finds it is a
+  per-cell one: no cell can read near zero or near double while
+  its neighbours agree; the danger is the other way the fault
+  can show - a channel frozen at a normal value while its cell
+  overcharges - which is why the BMS tests its own sense lines
+  and the test is part of the factory evidence

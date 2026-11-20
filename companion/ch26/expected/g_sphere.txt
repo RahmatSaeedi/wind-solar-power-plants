@@ -1,0 +1,12 @@
+rolling-sphere cover of the substation by masts (h = 20 m):
+  sphere radius m   radius at ground m   radius at 8 m height m
+               20                 20.0                      4.0
+               30                 28.3                      7.9
+               45                 37.4                     11.8
+               60                 44.7                     14.8
+  the sphere radius falls with the protection level the risk
+  study chooses (teaching radii here); a smaller sphere gives
+  less cover per mast
+  with 45 m: one mast covers 438 m2 at 8 m; the 7,000 m2 yard needs about 16
+  masts if each stood alone - shield wires between masts, or
+  the cover between two masts, need far fewer

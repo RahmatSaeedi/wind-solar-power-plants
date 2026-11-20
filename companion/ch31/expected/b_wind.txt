@@ -1,0 +1,9 @@
+wind force on the suspended load (Cd 1.2; teaching areas)
+  load                     area m2    6 m/s    8 m/s    10 m/s   12 m/s  (kN)
+  nacelle (side)                60      1.6      2.8      4.4      6.4
+  rotor in its plane           555     14.7     26.1     40.8     58.7
+  tower section                112      3.0      5.3      8.3     11.9
+  the rotor is a sail: at 8 m/s it is pushed about twice as
+  hard as a tower section in a 12 m/s wind -
+  hence the low wind limits for rotor and blade lifts and
+  the tag lines that keep the load from turning

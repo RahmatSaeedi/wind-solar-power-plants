@@ -1,0 +1,9 @@
+flagged intervals in the weekly statistics (synthetic)
+  40 ten-minute intervals contain a dip; their harmonic
+  values are distorted by the event itself
+  95th percentile with them: 1.93 %
+  95th percentile without them (flagged out): 1.84 %
+  the measurement method flags intervals with dips, swells
+  or interruptions so that one event does not appear as
+  harmonic distortion (STD-034); the report states how many
+  were flagged

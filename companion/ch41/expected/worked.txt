@@ -1,0 +1,12 @@
+E01 resistivity of p-type silicon, 1e16 cm-3, mu 400: 1.56 ohm cm
+E02 diffusion length for 10 us (D 27.1 cm2/s): 165 um
+E03 tau_eff, bulk 1 ms, S 10 cm/s, 150 um (no Auger): 429 us
+E04 Voc from Jsc 41.8 mA/cm2 and J0 91 fA/cm2: 0.690 V
+E05 ideal FF for Voc 0.690 V: 0.845
+E06 gallium at half the ingot, relative to the seed end: 1.99
+E07 quarter-wave coating for 600 nm at n 2.0: 75 nm
+E08 sheet resistance from V/I 26.5 ohm: 120 ohm/sq
+E09 clamp position on a 2,278 mm module: 472 mm
+E10 EL sample for 1 % at 95 %: 299 modules
+E11 heat in a 10 mOhm connector at 13.11 A: 1.72 W
+E12 robust z of 538 W, median 552.3, MAD 1.1 W: -8.8

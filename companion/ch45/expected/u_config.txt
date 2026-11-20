@@ -1,0 +1,13 @@
+consistency rules on a delivered BMS configuration (planted faults)
+  rule                                 holds
+  alarm before trip, high voltage      NO
+  alarm before trip, low voltage       yes
+  balance below the high alarm         yes
+  alarm before trip, temperature       yes
+  charge window ordered                yes
+  alarm before trip, current           NO
+  SOC window ordered                   yes
+  2 rules broken: an alarm set beyond its own trip never
+  warns - the trip comes first; rules like these run on every
+  configuration file before it is loaded, alongside the check
+  against the cell's limits (lesson B)

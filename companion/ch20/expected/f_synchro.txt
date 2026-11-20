@@ -1,0 +1,11 @@
+rejoining the grid: wait for the synchro-check window
+  slip Hz   one slip cycle s   in a +-10 deg window s   wait (worst) s
+     0.05               20.0                     1.11             18.9
+     0.10               10.0                     0.56              9.4
+     0.20                5.0                     0.28              4.7
+     0.50                2.0                     0.11              1.9
+  a large slip passes the window quickly (the breaker may not
+  close in time); a small slip waits longer; the controller
+  moves the island frequency to a small slip first; the
+  synchro-check limits come from the protection settings
+  (chapter 27), not from this table

@@ -1,0 +1,12 @@
+source for the critical-load island (teaching, A-286):
+  running load 200 kW at pf 0.9: 222 kVA
+  largest motor 30 kW starting at x6 (pf 0.35): 212 kVA
+  peak the source must carry: 434 kVA (kVA added, an upper bound)
+  options:
+    dedicated grid-forming UPS of 500 kVA with 400 kWh: 2 h,
+      longer only with the main battery behind it
+    one 5 MVA battery block switched to the island: days,
+      but that block leaves the market while it serves
+    a 500 kVA generator: fuel-limited, a new interface
+  a soft starter on the pump cuts the start to about half
+  and lets a smaller source carry the island

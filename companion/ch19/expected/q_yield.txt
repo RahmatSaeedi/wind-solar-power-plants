@@ -1,0 +1,8 @@
+what S1 does to the yield statement (model 15.1, lab D rule):
+  S0 net   295.14 GWh, value   14,042 k u (teaching prices)
+  battery charged 12,578 MWh, discharged 10,817 MWh
+  S1 net   293.38 GWh (-1.76 GWh), value   14,413 k u (+371)
+  the yield statement shows the round-trip loss as a loss line
+  (chapter 15) and the value belongs to the price model; the
+  auxiliaries of the battery are a second loss line if they
+  are taken from the plant

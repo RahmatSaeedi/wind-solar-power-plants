@@ -1,0 +1,8 @@
+balanced 400 V load, 8 + j6 ohm per phase (pf 0.8):
+  P = 12.70 kW, Q = 9.52 kvar
+  two-wattmeter readings W1 = 9.10 kW, W2 = 3.60 kW; W1 + W2 = 12.70 kW
+  sqrt3 |W1 - W2| = 9.52 kvar = |Q|
+CT 400/5 A and VT 33000/110 V (A-104): primary = secondary x 24,000
+  a secondary three-phase power of 289.2 W means 6.94 MW
+one reversed CT (phase b) makes the meter read 4.23 kW instead of 12.70 kW
+  (phase b shows negative power: the per-phase readings reveal the error)

@@ -1,0 +1,35 @@
+% Chapter 6 — where DC arcs start: a series arc at a bad joint, a parallel arc
+% between the poles, a ground fault to the frame.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize,
+    mod/.style={draw=cPV, fill=cPV!10, line width=0.6pt, minimum width=7mm, minimum height=9mm, inner sep=0pt},
+    arc/.style={cLoss, line width=0.9pt, decorate, decoration={zigzag, segment length=1.6mm, amplitude=0.7mm}},
+    lab/.style={note, font=\scriptsize, text=cInk}]
+  % string
+  \foreach \j in {0,1,2,3,4}{ \node[mod] (m\j) at ({1.1*\j},0) {}; }
+  \draw[cInk, line width=0.6pt] (m0.east) -- (m1.west);
+  % series arc: broken joint between m1 and m2
+  \draw[cInk, line width=0.6pt] (m1.east) -- ++(0.28,0);
+  \draw[cInk, line width=0.6pt] (m2.west) -- ++(-0.28,0);
+  \draw[arc] ($(m1.east)+(0.28,0)$) -- ($(m2.west)+(-0.28,0)$);
+  \node[lab, anchor=south, text=cLoss!80!black] at ($(m1.east)!0.5!(m2.west)+(0,0.55)$) {قوسِ سری: اتصالِ شل یا شکسته};
+  \draw[cInk, line width=0.6pt] (m2.east) -- (m3.west);
+  \draw[cInk, line width=0.6pt] (m3.east) -- (m4.west);
+  % + and - conductors
+  \draw[cInk, line width=0.6pt] (m4.east) -- (6.0,0) -- (6.0,-1.6) -- (-0.8,-1.6) -- (-0.8,0) -- (m0.west);
+  \node[lab, anchor=east] at (-0.9,0) {$+$};
+  \node[lab, anchor=east] at (-0.9,-1.6) {$-$};
+  % parallel arc between + and -
+  \draw[arc] (3.3,-0.45) -- (3.3,-1.6);
+  \node[lab, anchor=west, text=cLoss!80!black] at (3.45,-1.0) {قوسِ موازی: عایقِ آسیب‌دیده میانِ دو قطب};
+  % ground fault to frame
+  \draw[cInkB, line width=0.6pt] (m3.south) -- ++(0,-0.3) -| (7.0,-2.6) node[cground, anchor=north]{};
+  \draw[arc] (5.0,-1.6) -- (5.0,-2.6);
+  \draw[cInkB, line width=0.6pt] (5.0,-2.6) -- (7.0,-2.6);
+  \node[lab, anchor=north, text=cLoss!80!black] at (5.0,-2.75) {خطای زمین: هادی به قابِ فلزی};
+  \node[lab, anchor=west, text=cInkB] at (7.3,-2.6) {قاب و سازه، به زمین بسته};
+  \node[lab, anchor=north, text=cInk, text width=96mm, align=center] at (2.8,-3.6)
+       {جریانِ مستقیم صفر نمی‌شود، پس قوسِ DC خودبه‌خود خاموش نمی‌شود؛ تا منبع قطع یا فاصله زیاد نشود می‌سوزد.};
+\end{tikzpicture}}
+\end{document}

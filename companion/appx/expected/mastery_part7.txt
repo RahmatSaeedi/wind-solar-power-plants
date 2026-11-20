@@ -1,0 +1,34 @@
+M93: 13.6 mA on a 0-120 MW range: 72.0 MW; a broken wire reads 0 mA, below the
+    live zero, and is flagged, not read as 0 MW
+M94: 24 V loop, transmitter needs 12 V, 250 ohm receiver, 1.5 mm2: longest
+    loop 12,662 m one way; evidence: loop drawing
+M95: chain of 0.2 %, 0.25 % and 0.1 % (test): 0.34 % by root sum of squares -
+    the largest part sets the result
+M96: PPC with MTBF 50,000 h and MTTR 8 h (test): one unit 99.984 %, a pair
+    99.999997 % - before common causes, which a pair does not remove (ch 34)
+M97: 20 meters polled on one 9,600 bit/s line, 8 + 45 bytes, 20 ms turnaround
+    (test): cycle 1.28 s - the reason for a second line or report-by-exception
+M98: fibre 6 km, 6 splices, 4 connectors with 3 dB margin: 7.7 dB against the
+    optics' budget; evidence: OTDR test at acceptance
+M99: 5,000 points every minute for 25 years (test): 788 GB before compression;
+    retention follows the data's use
+M100: 16-bit counters wrap in 41 days and float32 kWh counters lose 7.8 % by
+    year 25 (ch 35): counter types are a design decision
+M101: remote access left open, likelihood 4, consequence 4: score 16, 'very
+    high'; owner and date in the risk register
+M102: 16 random characters from 62: 95 bits; a default password has none,
+    whatever its length
+M103: patch tested 14 days, installed in quarterly windows: mean 59, worst 104
+    days exposed - compensating controls cover the wait
+M104: three parts in series (test): 99.65 %; each of 3 is a single point of
+    failure until doubled or accepted
+M105: April PR 0.811, at 25 C 0.860, against 0.887-0.901 in the healthy
+    months: the daily slope (0.20 %/day) and the cleaning step (5.3 %) name
+    soiling
+M106: fans: censored MTBF 44,690 h against 9,650 h from the failed ones only -
+    survivors are exposure
+M107: day-ahead skill on held-out data 0.42; the lower-RMSE forecast cost more
+    to sell with - skill is not money and neither is a dispatch guarantee
+M108: set-point step, delay 1 s, tau 3 s: t90 7.9 s by hand, 8.5 s measured;
+    the trace, the written specification and the result are kept together as
+    settlement evidence

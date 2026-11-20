@@ -1,0 +1,17 @@
+% Chapter 3 — discretisation error: one-minute PV power around noon (synthetic fluctuations)
+% and its hourly means against the 50 MW inverter limit. Data: ch03-clip.csv, ch03-clip-hourly.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=64mm,
+      xlabel={دقیقهٔ روز}, ylabel={توان (MW)},
+      xmin=600, xmax=840, ymin=38, ymax=66, xtick={600,660,...,840}, ytick={40,45,...,65}]
+    \addplot[color=cPV, line width=0.6pt] table[x=minute, y=p_1min, col sep=comma] {data/ch03-clip.csv};
+    \addlegendentry{دادهٔ یک‌دقیقه‌ای}
+    \addplot[sInk, const plot mark left, line width=1.1pt] table[x=minute, y=p_hour, col sep=comma] {data/ch03-clip-hourly.csv};
+    \addlegendentry{میانگینِ ساعتی}
+    \addplot[sLimit, domain=600:840, samples=2] {50};
+    \addlegendentry{سقفِ اینورتر}
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

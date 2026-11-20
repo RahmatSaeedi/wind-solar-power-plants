@@ -1,0 +1,10 @@
+dielectric losses: W = omega C U0^2 tan(delta), three phases
+  cable              U0 kV   C uF/km  tan d   W W/m   conductor W/m
+  33 kV, 630 mm2      19.05      0.30  0.004    0.41           36.4
+  132 kV, 1000 mm2 Cu  76.20      0.20  0.001    1.09           14.9
+  tan d: 0.004 an upper teaching value for MV, 0.001 for HV
+  XLPE; the loss grows with U0^2 and is there day and night,
+  with or without load: at 33 kV about one per cent of the
+  conductor's, at 132 kV some per cent; the IEC 60287 method
+  counts it for XLPE from U0 of about 127 kV; it still adds
+  to the plant's night-time import (ch 23)

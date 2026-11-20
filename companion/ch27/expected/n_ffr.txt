@@ -1,0 +1,7 @@
+fast frequency response: timing of a 20 MW battery response (teaching)
+  frequency crosses the trigger at 0 s; detection 250 ms;
+  ramp to full power over 400 ms
+  full response at 0.65 s; a 1 s requirement: met
+  the measurement must resolve tens of milliseconds: a
+  1-second SCADA record cannot prove it - the test uses a
+  fast recorder at the POC, time-stamped from one clock

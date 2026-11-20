@@ -1,0 +1,10 @@
+energy that stays after the switch is open (teaching)
+  battery container: 5,016 kWh; at 50 % charge 2,508 kWh = 9,029 MJ
+  main transformer oil: 22 m3 = 880 GJ of fire load
+  DC link capacitors of an inverter: charged for minutes
+  after stopping - the maker states the wait
+  tensioned springs, brakes and a rotor held by its lock
+  opening a breaker removes the grid, not the stored energy:
+  a damaged battery keeps its charge after a fire (stranded
+  energy) and may reignite days later; its removal is a
+  specialist job with the maker, never a site improvisation

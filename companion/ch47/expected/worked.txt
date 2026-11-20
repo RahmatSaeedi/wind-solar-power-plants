@@ -1,0 +1,8 @@
+E01 CEV of C 0.16, Mn 1.45, Cu 0.05: 0.405
+E02 mass of a 25 mm bar: 3.86 kg/m
+E03 mass of 240 bars of 25 mm, 3.6 m: 3.33 t
+E04 diameter change from 12 mm more circumference: 3.82 mm
+E05 thermal movement of 60 m steel for 40 K: 28.8 mm
+E06 dynamic pressure at 41.1 m/s, rho 1.09: 921 Pa
+E07 lean at 100 m of a 0.92 mm/m tilt: 92 mm
+E08 specimens for 893 m3 at one set of 3 per 50 m3: 54

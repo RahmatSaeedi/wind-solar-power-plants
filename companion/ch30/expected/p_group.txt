@@ -1,0 +1,10 @@
+efficiency of a pile group (Converse-Labarre, teaching)
+  group    d m   spacing m   theta deg   efficiency
+  3 x 3    0.6         1.8        18.4         0.73
+  5 x 5    0.6         1.8        18.4         0.67
+  5 x 5    0.6         2.4        14.0         0.75
+  a crowded group carries less than the sum of its piles in
+  clay; driven piles in sand can carry more, because driving
+  densifies the sand between them - the formula is a
+  reminder that a group is not a sum, and the engineer uses
+  the method that fits the soil and the installation

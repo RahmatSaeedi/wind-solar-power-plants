@@ -1,0 +1,15 @@
+the word 'wind' (3 letters): UTF-8 6 bytes d8 a8 d8 a7 d8 af; Windows-1256 3
+    bytes c8 c7 cf
+  UTF-8 bytes read as Windows-1252 give 6 Latin-1 characters
+    U+00D8 U+00A8 U+00D8 U+00A7 U+00D8 U+00AF (mojibake, see the figure)
+  UTF-8 byte-order mark: ef bb bf; Latin 'A' is 1 byte (41), the euro sign 3
+    bytes
+Windows-1256 has Arabic yeh U+064A but not Persian yeh: missing U+06CC
+  (old Persian files therefore store the Arabic letter)
+Persian digits one to four (U+06F1..U+06F4): Python int() gives 1234;
+  many other tools give an error or text
+Persian yeh U+06CC and Arabic yeh U+064A look alike:
+  'system' typed both ways equal? False; after normalising: True
+the word mi-shavad written with a zero-width non-joiner (U+200C) has 6 code
+  points: 5 letters + 1 invisible character
+'e' + combining accent: 2 code points; NFC form: 1 code point

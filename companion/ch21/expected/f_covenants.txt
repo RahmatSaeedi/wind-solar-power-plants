@@ -1,0 +1,8 @@
+covenant headroom of the base case (illustrative levels):
+  min DSCR 1.20; lock-up below 1.10, default below 1.05
+  headroom to lock-up 0.10, to default 0.15
+  energy (all years) at which the min DSCR hits lock-up: 92.5 % of P50
+  ... and default: 89.3 % of P50 (P90 1-yr is 93.5 %)
+  lock-up stops distributions to the owners until the cover
+  recovers; default lets the lenders act; the DSRA pays the
+  service for six months while the cause is fixed

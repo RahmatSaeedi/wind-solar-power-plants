@@ -1,0 +1,31 @@
+conversion factors computed with plantp.units.convert
+        from  to                   factor  note
+       1 kWh  MJ                      3.6  energy
+       1 MWh  GJ                      3.6  energy
+       1 toe  MWh                   11.63  tonne of oil equivalent
+       1 Btu  kJ                1.0550559  data sheets
+      1 kcal  kJ                    4.184  thermochemical calorie
+        1 eV  J             1.6021766e-19  photon and band-gap energy
+        1 Ah  C                      3600  cell capacity
+       1 bar  kPa                     100  pressure
+       1 psi  kPa               6.8947573  data sheets
+        1 mm  in              0.039370079  length
+        1 ft  m                    0.3048  length
+        1 mi  km                 1.609344  length
+       1 nmi  km                    1.852  nautical mile
+      1 km/h  m/s              0.27777778  speed
+        1 kn  m/s              0.51444444  speed, aviation and sea
+       1 mph  m/s                 0.44704  speed
+        1 lb  kg               0.45359237  mass
+       1 lbf  N                 4.4482216  force
+        1 ha  m^2                   10000  area
+      1 km^2  ha                      100  area
+         1 L  m^3                   0.001  volume
+       1 deg  rad             0.017453293  plane angle
+       1 rad  deg                57.29578  plane angle
+    1 kW/m^2  W/m^2                  1000  irradiance
+   1 kWh/m^2  MJ/m^2                  3.6  irradiation
+         1 d  h                        24  time
+  temperature is an offset, not a factor:
+    T(K) = t(C) + 273.15; 25 C = 298.15 K
+    a temperature DIFFERENCE of 1 C equals 1 K

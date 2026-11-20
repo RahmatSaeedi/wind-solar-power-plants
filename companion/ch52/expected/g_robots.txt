@@ -1,0 +1,6 @@
+2,100 cleaning robots (one a row), 0.4 failures a robot-year, 6 days to repair
+  robots down on an average day 13.8; rows cleaned on schedule 99.3%
+  a robot down in the dust season leaves its row soiling
+  while the others are clean: the row shows in the string
+  currents (lesson D) - robot spares are a cleaning-system
+  task in the CMMS like any other asset (lesson I)

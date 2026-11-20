@@ -1,0 +1,11 @@
+swing of a suspension insulator in the design wind (teaching)
+  weight span m   vertical kN   swing angle deg
+            300          3.84                63
+            200          2.66                71
+            100          1.48                79
+             50          0.89                83
+  the wires blow out far in a storm, and further where the
+  weight span is short (a tower in a hollow): the air gap to
+  the tower body is checked at the swing angle of each
+  tower, which is why the hollow tower of the weight-span
+  lesson is a double problem

@@ -1,0 +1,21 @@
+% Chapter 3 — stored energy of the one-day arbitrage battery: linear program against dynamic
+% programming on grids of 4 MWh and 0.5 MWh. Data: diagrams/data/ch03-lp-soc.csv and
+% ch03-p-dp.csv (companion/ch03/examples_cd.py, examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=62mm,
+      xlabel={ساعتِ روز}, ylabel={انرژیِ ذخیره (MWh)}, xmin=0, xmax=24, ymin=0, ymax=40,
+      xtick={0,3,...,24}, ytick={0,8,...,40}]
+    \addplot[sBESS] table[x=t, y=soc, col sep=comma] {data/ch03-lp-soc.csv};
+    \addlegendentry{برنامه‌ریزیِ خطی}
+    \addplot[sLoad, mark=o, mark size=1.3pt, mark options={solid}] table[x=t, y=dp4, col sep=comma] {data/ch03-p-dp.csv};
+    \addlegendentry{برنامه‌ریزیِ پویا، گامِ $4\,\text{MWh}$}
+    \addplot[sInk, mark=*, mark size=0.9pt] table[x=t, y=dp05, col sep=comma] {data/ch03-p-dp.csv};
+    \addlegendentry{برنامه‌ریزیِ پویا، گامِ $0.5\,\text{MWh}$}
+    \addplot[sLimit, domain=0:24, samples=2] {36};
+    \addlegendentry{مرزهای مجاز}
+    \addplot[sLimit, domain=0:24, samples=2, forget plot] {4};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

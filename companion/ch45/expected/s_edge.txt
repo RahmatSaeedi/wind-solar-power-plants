@@ -1,0 +1,7 @@
+positive coating across a 600 mm web: +6% at the edges, fading over 25 mm
+  (teaching profile); lanes kept where loading is within +-2%
+  usable width 566 mm; trimmed 34 mm (5.7% of the coated web)
+  N/P at the very edge (negative flat): 0.988 - below one
+  the heavy edge is trimmed away at slitting: material is
+  traded for balance, and the profile across the web is part
+  of the coating record, not only the mean

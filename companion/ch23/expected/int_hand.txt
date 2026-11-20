@@ -1,0 +1,9 @@
+one PV block by hand (5 MW, pf 1):
+  DC: 20 strings x 21 combiners = 420 strings of 26 modules
+  inverter output 0.6 kV: 4,811 A
+  block transformer 33 kV side: 87.5 A
+  PV feeder 1 (4 blocks) at 33 kV: 350 A
+  main transformer T2 132 kV side at 65 MW: 284 A
+  export line at 100 MW: 437 A
+  the current falls 55 times from inverter to feeder and the
+  same conductor carries 55 x 55 = 3,025 times less loss

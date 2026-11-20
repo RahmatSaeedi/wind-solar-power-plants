@@ -1,0 +1,19 @@
+% Chapter 12 - annual plane-of-array irradiation against tilt with the isotropic and Hay-Davies
+% skies. Data: diagrams/data/ch12-transposition.csv (companion/ch12/examples_a.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=108mm, height=60mm, xmin=0, xmax=50, ymin=1900, ymax=2200,
+      xlabel={شیبِ صفحه، درجه}, ylabel={تابشِ سالانهٔ صفحه، $\text{kWh/m}^2$},
+      xtick={0,10,...,50}, ytick={1900,1950,...,2200}, legend pos=south east, legend columns=1]
+    \addplot[sWind, mark=*, mark size=1.4pt] table[x=tilt, y=hd, col sep=comma]
+      {data/ch12-transposition.csv};
+    \addlegendentry{هِی–دیویس}
+    \addplot[sLoss, mark=square*, mark size=1.3pt] table[x=tilt, y=iso, col sep=comma]
+      {data/ch12-transposition.csv};
+    \addlegendentry{هم‌سانگرد}
+    \draw[cRule, densely dashed] (axis cs:25,1900) -- (axis cs:25,2200);
+    \node[note, anchor=south west] at (axis cs:25.5,1910) {نیروگاهِ P};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

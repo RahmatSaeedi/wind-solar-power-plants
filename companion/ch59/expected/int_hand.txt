@@ -1,0 +1,4 @@
+three numbers by hand
+  P90 one year: 295.14 - 1.2816 x 14.99 = 275.9 GWh
+  dossier: 263 documents, 62 decisions, 134 unknowns named
+  schedule: 12 + 18 + 9 + 14 + 6 + 4 = 63 months to COD

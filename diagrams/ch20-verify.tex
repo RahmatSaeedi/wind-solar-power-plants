@@ -1,0 +1,27 @@
+% Chapter 20 - verification V of the plant controller: requirement, control narrative, settings and
+% logic, simulation, factory test, site test, monitoring; each level on the right is checked
+% against the level on the left (evidence routes of IEC TS 63102: test, simulation, monitoring).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    b/.style={blk, minimum width=34mm, minimum height=9mm, align=center, text width=32mm},
+    v/.style={blk, draw=cWind, fill=cWind!9, minimum width=34mm, minimum height=9mm, align=center,
+              text width=32mm}]
+  \node[b] (r) at (9,0) {نیازمندی و خدمت\\(ثبت‌نامهٔ خدمات)};
+  \node[b] (n) at (7.5,-1.5) {روایتِ کنترل};
+  \node[b] (l) at (6,-3.0) {منطق، حالت‌ها، تنظیمات};
+  \node[blk, draw=cInk, fill=cInk!6, minimum width=34mm, minimum height=9mm] (c) at (3.25,-4.5) {ساختِ کنترل‌گر};
+  \node[v] (sim) at (0.5,-3.0) {شبیه‌سازی و آزمونِ منطق};
+  \node[v] (fat) at (-1,-1.5) {آزمونِ کارخانه};
+  \node[v] (sat) at (-2.5,0) {آزمونِ محل و پایش};
+  \draw[flow] (r.south) -- (n.north);
+  \draw[flow] (n.south) -- (l.north);
+  \draw[flow] (l.south) -- (c.north east);
+  \draw[flow] (c.north west) -- (sim.south);
+  \draw[flow] (sim.north) -- (fat.south);
+  \draw[flow] (fat.north) -- (sat.south);
+  \draw[flowinfo, <->] (l.west) -- (sim.east);
+  \draw[flowinfo, <->] (n.west) -- (fat.east);
+  \draw[flowinfo, <->] (r.west) -- (sat.east);
+\end{tikzpicture}
+\end{document}

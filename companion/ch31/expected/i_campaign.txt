@@ -1,0 +1,20 @@
+erection campaign length by start month (one crane, data-pack wind)
+  start month   campaign days   weather waiting days
+            1             164                      8
+            2             177                     21
+            3             162                      6
+            4             173                     17
+            5             170                     14
+            6             159                      3
+            7             168                     12
+            8             167                     11
+            9             163                      7
+           10             166                     10
+           11             171                     15
+           12             168                     12
+  156 crane days of work (int_campaign) plus the weather waits
+  best start month 6 (159 days), worst 2 (177 days)
+  the same twelve turbines take two and a half weeks longer when
+  the lifts fall in the windy months: the start date is
+  a design choice of the schedule (ch 22, 49), and one
+  data year is a teaching sample, not a forecast

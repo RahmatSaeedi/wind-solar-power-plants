@@ -1,0 +1,12 @@
+per-unit impedance diagram on a 100 MVA base (reactances, teaching):
+  base impedance: 132 kV -> 174.2 ohm; 33 kV -> 10.89 ohm
+  element                          rule              x pu
+  grid (1,500 MVA)                 1/15              0.0667
+  line 7.06 km, 0.418 ohm/km       Z/Zbase           0.0169
+  T1 63 MVA, 12 %                  0.12 x 100/63     0.1905
+  cable 1.1 km, 0.116 ohm/km       Z/Zbase           0.0117
+  unit transformer 5.6 MVA, 7 %    0.07 x 100/5.6    1.2500
+  to the 33 kV bus (one T): 0.2741 pu -> 365 MVA, 6.4 kA
+  the same 365 MVA as the MVA method of lab G: two
+  notations of one calculation; per unit lets a single
+  diagram carry 132, 33 and 0.69 kV without ratios

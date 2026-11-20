@@ -1,0 +1,39 @@
+% Chapter 1 — first risk matrix of Plant P (likelihood x impact, 1..5; bands are the project's own convention).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \def\c{1.15}
+  \foreach \l in {1,...,5}{
+    \foreach \i in {1,...,5}{
+      \pgfmathtruncatemacro{\s}{\l*\i}
+      \ifnum\s>14 \def\fillc{cLoss!45}\else\ifnum\s>7 \def\fillc{cLoss!20}\else\def\fillc{cLoss!6}\fi\fi
+      \fill[\fillc] ({(\i-1)*\c},{(\l-1)*\c}) rectangle ({\i*\c},{\l*\c});
+      \draw[white, line width=1.2pt] ({(\i-1)*\c},{(\l-1)*\c}) rectangle ({\i*\c},{\l*\c});
+      \node[text=cMuted, font=\tiny, anchor=north east] at ({\i*\c-0.04},{\l*\c-0.03}) {\s};
+    }
+    \node[text=cInkB, anchor=east] at (-0.1,{(\l-0.5)*\c}) {\l};
+    \node[text=cInkB, anchor=north] at ({(\l-0.5)*\c},-0.1) {\l};
+  }
+  \node[text=cInkB, rotate=90, anchor=south] at (-0.55,{2.5*\c}) {احتمال};
+  \node[text=cInkB, anchor=north] at ({2.5*\c},-0.55) {اثر};
+  % risks (likelihood row, impact column), small offsets where two share a cell
+  \foreach \r/\l/\i/\dx/\dy in {R1/3/5/0/0, R2/3/4/-0.22/0.15, R7/3/4/0.22/-0.15, R3/4/3/0/0,
+                                R4/2/4/0/0, R5/3/3/0/0, R6/2/3/0/0, R8/2/5/0/0}{
+    \node[circle, fill=cInk, text=white, inner sep=1.2pt, font=\tiny\bfseries]
+      at ({(\i-0.5)*\c+\dx},{(\l-0.5)*\c+\dy}) {\r};
+  }
+  % legend of the risks
+  \node[anchor=north west, text width=72mm, align=right, text=cInk] at ({5*\c+0.6},{5*\c})
+    {R1 کاهشِ ظرفیتِ پذیرشِ شبکه در نقطهٔ اتصال\\
+     R2 بادِ کمتر از برآورد\\
+     R3 تأخیر در مجوزها\\
+     R4 اختلاف بر سرِ زمین\\
+     R5 افزایشِ قیمتِ تجهیز\\
+     R6 مشکلِ مسیرِ حملِ پره‌ها\\
+     R7 نوسانِ نرخِ ارز\\
+     R8 مخالفتِ جامعهٔ محلی};
+  \fill[cLoss!45] ({5*\c+0.7},0.55) rectangle ({5*\c+1.1},0.85); \node[anchor=west, text=cInk] at ({5*\c+1.2},0.7) {زیاد (۱۵ و بیشتر)};
+  \fill[cLoss!20] ({5*\c+3.7},0.55) rectangle ({5*\c+4.1},0.85); \node[anchor=west, text=cInk] at ({5*\c+4.2},0.7) {متوسط (۸ تا ۱۴)};
+  \fill[cLoss!6]  ({5*\c+6.7},0.55) rectangle ({5*\c+7.1},0.85); \node[anchor=west, text=cInk] at ({5*\c+7.2},0.7) {کم};
+\end{tikzpicture}}
+\end{document}

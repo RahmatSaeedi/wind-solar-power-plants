@@ -1,0 +1,8 @@
+the 100 MW export limit over the data-pack year (A-178):
+  wind 212.2 GWh, PV 101.4 GWh, peak sum 107.2 MW
+  hours above 100 MW: 60; energy to curtail 183 MWh (0.06 %)
+  if PV is curtailed first it carries 100 % of the cut
+  the plant controller measures the export, splits the cut among
+  inverters and turbines and sends set-points every second or so;
+  inverters answer in tens of milliseconds, turbines more slowly
+  through pitch and torque

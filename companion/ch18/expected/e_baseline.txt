@@ -1,0 +1,11 @@
+baseline (D-022, conditional on U-065..U-068):
+  A1 as the reference architecture: AC-coupled battery,
+  240 mm2 33 kV collector, two 63 MVA transformers,
+  single-circuit 132 kV overhead line
+  choices whose money favours A2: transformers, coupling
+  the transformers stay two: a few k u a year do not buy
+  a six-month outage risk (section B)
+  kept open: the coupling (DC pays a little for lost energy
+  but loses the battery's wind and market uses), cable size
+  after the cable offers, line circuits after the operator's
+  security rules; each change goes through change control

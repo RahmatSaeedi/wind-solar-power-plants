@@ -1,0 +1,14 @@
+the plant's own events as voltage steps at the POC (1,500 MVA, X/R 8)
+  and at the 33 kV bus (365 MVA, X/R 10); teaching RVC limit 3 %
+  event                               POC dU %   33 kV dU %   POC vs limit
+  5 Mvar filter switched in               0.33         1.36           11%
+  one wind feeder trips (20 MW)          -0.17        -0.55            6%
+  battery 20 MW charge to discharge       0.33         1.09           11%
+  whole plant trips, Q 0                 -0.83        (off)           28%
+  whole plant trips, giving 33 Mvar      -3.01        (off)          100%
+  only a whole-plant trip while giving reactive power reaches
+  the limit at the POC; inside the plant the 33 kV bus
+  sees steps four times larger - the filter switching is a
+  1.4 % event there; the event list (with how often each
+  happens) is part of the PQ assessment, and a trip that
+  must be rare is designed to be rare (ch 26)

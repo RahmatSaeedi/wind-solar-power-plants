@@ -1,0 +1,21 @@
+run-in of ten gearboxes at 1155 rpm (synthetic, acceleration units)
+  shaft 19.25 Hz, mesh 519.8 Hz (27 x shaft)
+  unit    1x     2x    mesh   sidebands/mesh   rms   finding
+  G01   0.20   0.10   0.92             0.03   0.69   accept
+  G02   0.20   0.10   1.00             0.05   0.74   accept
+  G03   0.20   0.10   0.99             0.04   0.74   accept
+  G04   0.20   0.10   1.04             0.87   0.89   tooth damage (sidebands)
+  G05   0.20   0.10   1.04             0.03   0.77   accept
+  G06   0.21   0.10   0.99             0.05   0.74   accept
+  G07   1.81   0.10   0.96             0.04   1.45   imbalance (1x)
+  G08   0.20   0.10   1.03             0.04   0.76   accept
+  G09   0.20   1.30   0.95             0.04   1.16   misalignment (2x)
+  G10   0.20   0.10   1.03             0.03   0.76   accept
+  units held:
+    G04: tooth damage (sidebands)
+    G07: imbalance (1x)
+    G09: misalignment (2x)
+  the overall level hides what the lines show: G04's rms is
+  only 20% above the good units', yet its sidebands say one tooth is struck
+  each turn; each finding opens an NCR (step 3) and the unit
+  is not released until the cause is found and re-run

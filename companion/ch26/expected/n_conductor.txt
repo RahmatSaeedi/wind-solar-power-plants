@@ -1,0 +1,14 @@
+heating of a copper lightning down conductor by one stroke
+  (teaching specific energy W/R = 10 MJ per ohm; adiabatic,
+  dT ~ (W/R) rho / (S^2 gamma c))
+  section mm2   temperature rise K
+           16                 199
+           25                  82
+           35                  42
+           50                  20
+           70                  10
+  the rise falls with the square of the section: small
+  conductors overheat, 50 mm2 copper stays moderate; the
+  turbine's down conductors, receptors and bearing bypasses
+  are the maker's design to the turbine lightning standard
+  (STD-125), proved by tests on blade samples

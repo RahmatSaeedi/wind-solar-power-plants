@@ -1,0 +1,6 @@
+weighed at the factory before shipment (report values)
+  active part 45.1 t, tank 15.6 t, bracing 2.0 t: 62.7 t
+  estimate of lesson B 62 t; road limit 72 t: margin 9.3 t
+  the weighed figure, not the estimate, goes to the route
+  plan and the crane plan (ch 31) - with the centre of
+  gravity marked on the tank

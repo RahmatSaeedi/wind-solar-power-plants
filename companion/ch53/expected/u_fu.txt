@@ -1,0 +1,9 @@
+the same three options per year of service and per kWh delivered
+  repair (to 25)       221 t CO2e a year    0.87 g/kWh
+  replace (to 25)      357 t CO2e a year    1.39 g/kWh
+  repower (to 35)    1,500 t CO2e a year    4.84 g/kWh
+  ranking per year: repair (to 25) < replace (to 25) < repower (to 35)
+  ranking per kWh:  repair (to 25) < replace (to 25) < repower (to 35)
+  the rankings agree here, but per year hides that the options
+  deliver different energy over different lives: the
+  functional unit follows the service - energy delivered

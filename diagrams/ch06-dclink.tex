@@ -1,0 +1,18 @@
+% Chapter 6 — the inverter DC link: opening the DC switch does not empty the capacitor.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize]
+  \draw (0,0) to[battery1, l={آرایه}, invert] (0,3) to[nos, l={$Q_2$ باز}] (2.6,3) -- (4.0,3);
+  \draw (0,0) -- (4.0,0);
+  \draw (4.0,3) to[C, l_={$C = 10\,\text{mF}$}] (4.0,0);
+  \draw (4.0,3) -- (6.2,3) to[R, l={$R_\text{b} = 50\,\text{k}\Omega$}] (6.2,0) -- (4.0,0);
+  \draw (6.2,3) -- (7.8,3);
+  \draw (6.2,0) -- (7.8,0);
+  \draw (7.8,3) -- (8.6,3);
+  \draw (7.8,0) -- (8.6,0);
+  \node[blk, minimum width=18mm, minimum height=26mm, anchor=west] at (8.6,1.5) {پل‌های\\نیمه‌هادیِ\\اینورتر};
+  \node[note, text=cInk, anchor=north, text width=90mm, align=center] at (4.6,-0.4)
+       {پس از باز کردنِ $Q_2$ خازن هنوز $1100\,\text{V}$ و $6\,\text{kJ}$ دارد؛ مقاومتِ تخلیه آن را با
+        \mbox{$\tau = R_\text{b}C = 500\,\text{s}$} خالی می‌کند: تا $50\,\text{V}$ حدودِ ۲۶ دقیقه.};
+\end{tikzpicture}}
+\end{document}

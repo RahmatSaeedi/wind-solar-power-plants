@@ -1,0 +1,16 @@
+% Chapter 5 - debt-service coverage ratio of the fictional Plant P cash flow, years 1-15
+% (A-093). The dashed line is an ILLUSTRATIVE lender threshold, not a market value.
+% Data: diagrams/data/ch05-dscr.csv (companion/ch05/lab_d.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=120mm, height=60mm, ybar, bar width=4.5mm,
+      xlabel={سالِ بهره‌برداری}, ylabel={نسبتِ پوششِ بدهی},
+      xmin=0.3, xmax=15.7, ymin=1.0, ymax=1.65, xtick={1,3,...,15},
+      ytick={1.0,1.1,...,1.6}, yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1}]
+    \addplot[draw=cLoad, fill=cLoad!30] table[x=year, y=dscr, col sep=comma] {data/ch05-dscr.csv};
+    \draw[sLimit] (axis cs:0.3,1.30) -- (axis cs:15.7,1.30);
+    \node[note, anchor=north west, fill=white, inner sep=1pt] at (axis cs:0.5,1.285) {آستانهٔ نمایشی $1.30$ (فرضی)};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

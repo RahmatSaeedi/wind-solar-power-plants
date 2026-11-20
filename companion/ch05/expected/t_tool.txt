@@ -1,0 +1,31 @@
+$ python -m companion.ch05.resource_tool --version
+1.0.0
+[exit code 0]
+$ python -m companion.ch05.resource_tool validate-raw
+428 records, 1 duplicate(s), 1 out of order, gaps [('2023-04-03 14:00', 5)]
+  flagged ghi: night offset -> 0: 6
+  flagged p_air: kPa -> hPa: 6
+  flagged t_air: sentinel: 1
+  flagged wd100_avg: out of range: 1
+  flagged ws60_avg: out of range: 1
+  flagged ws80_avg: stuck: 12
+71 of 72 hours usable for ws100
+[exit code 1]
+$ python -m companion.ch05.resource_tool run companion/ch05/config/run_S0.yml
+pv_gwh         96.43
+wind_gwh       177.08
+export_gwh     273.52
+curtailed_mwh  0.0
+written: companion/ch05/output/S0
+[exit code 0]
+$ python -m companion.ch05.resource_tool run companion/ch05/config/run_S1.yml
+pv_gwh         96.43
+wind_gwh       177.08
+export_gwh     273.52
+curtailed_mwh  0.0
+bess           {'charged_mwh': 0.0, 'delivered_mwh': 0.0}
+written: companion/ch05/output/S1
+[exit code 0]
+$ python -m companion.ch05.resource_tool report companion/ch05/output/S0
+report: companion/ch05/output/S0/PLP-GEN-REP-0002_rev-A.md
+[exit code 0]

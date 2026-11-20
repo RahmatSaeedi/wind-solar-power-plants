@@ -1,0 +1,11 @@
+components stored 9 months at the port or site (teaching)
+  task                                        every   times
+  nacelle main shaft turned (bearing marks)    1 mo      9
+  desiccant and humidity check                 1 mo      9
+  generator heater and insulation check        3 mo      3
+  blade covers and supports                    3 mo      3
+  gearbox oil sample                           6 mo      1
+  a bearing that does not turn for months gets marks where
+  the rollers sit and vibration shakes them (false
+  brinelling): storage is a process with a record, and a
+  missed turn is a nonconformity, not a detail

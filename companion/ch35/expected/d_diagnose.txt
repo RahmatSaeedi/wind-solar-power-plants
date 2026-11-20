@@ -1,0 +1,12 @@
+diagnosis of the accepted data at t = 599 s
+  tag                          last value   quality   stale   scaling?
+  PLP-E1-VT.Voltage                 132.0         0   no      no
+  PLP-WTG-T01.ActivePower          3018.6         0   no      YES
+  PLP-TRF-T1.OilTemp                 90.2         0   no      no
+  PLP-BES-C03.Soc                    50.0        30   no      no
+  PLP-MET-M1.Ghi                    848.3         0   YES     no
+  the met station went silent at 420 s and is flagged stale;
+  turbine T01's power jumped a thousandfold at 300 s and
+  fits its range only divided by 1000 - kW labelled MW;
+  the 30 bad-quality battery values are kept, marked, and
+  never used for control or reports as if good

@@ -1,0 +1,7 @@
+aluminium instead of copper for the same resistance:
+  area x 1.64, mass x 0.49 (lighter, bulkier)
+magnet families (indicative, A-118 / A-125 teaching values):
+  NdFeB    Br 1.20 T, -0.120 %/K, use up to about 150 C
+  SmCo     Br 1.05 T, -0.035 %/K, use up to about 300 C
+  ferrite  Br 0.40 T, -0.200 %/K, use up to about 250 C
+  ferrite needs about three times the magnet area for the same flux

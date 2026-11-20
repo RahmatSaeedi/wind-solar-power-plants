@@ -1,0 +1,4 @@
+230 V rms -> peak 325 V; 33 kV line-to-line -> 19.05 kV line-to-neutral
+50 MW at power factor 0.95: S = 52.63 MVA, Q = 16.43 Mvar
+line current at 33 kV: I = P / (sqrt(3) V_LL pf) = 920.8 A
+same power at 132 kV: 230.2 A

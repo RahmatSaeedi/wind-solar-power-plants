@@ -1,0 +1,11 @@
+energy of one turbine (pack curve, 1.225 kg/m3) from the
+  ten-minute series against Weibull fits of it:
+  method                k      c m/s   MWh      difference
+  time series                           18,166
+  moments               2.10    8.01   18,103    -0.35 %
+  maximum likelihood    2.10    8.01   18,095    -0.39 %
+  least squares (CDF)   2.09    8.01   18,101    -0.36 %
+  here all three fits come within 0.4 % of the series: the
+  Weibull is a good summary of this site; with calm spells or
+  two wind regimes it is not, so the time series (with its
+  direction and hour) stays the basis and the fit a check

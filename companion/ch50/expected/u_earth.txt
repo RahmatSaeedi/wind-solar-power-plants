@@ -1,0 +1,9 @@
+substation earth grid: measured resistance against the design (ch 26)
+  design 0.5 ohm, measured 0.62 ohm (dry season)
+  rise of potential at 3.0 kA into the grid: 1.50 kV designed,
+  1.86 kV measured
+  against the 1.6 kV the touch and step study allowed (teaching): over
+  the study is rerun with the measured value (and the wet
+  season's), and the remedy - more electrodes, a surface
+  layer - designed by the earthing engineer, not chosen on
+  site; the measurement method is the approved one (ch 26)

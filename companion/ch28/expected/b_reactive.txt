@@ -1,0 +1,23 @@
+reactive balance at full output with Q = 0 at the POC (grid max, 1.00)
+  units supply                        14.6 Mvar
+  absorbed by unit transformers        5.1 Mvar
+  absorbed by 33 kV cables            -1.7 Mvar
+  absorbed by main transformers        9.9 Mvar
+  absorbed by 132 kV line              1.3 Mvar
+  delivered at the POC                 0.0 Mvar
+
+reactive capability at the POC at full output (units inside 0.90-1.10 pu)
+  grid  source   giving Mvar  (share)   absorbing Mvar  (share)
+  max     0.95          46.1  (1.00)            -75.2  (0.78)
+  max     1.00          46.3  (1.00)            -91.8  (1.00)
+  max     1.05          48.2  (1.00)            -89.3  (1.00)
+  min     0.95          46.3  (1.00)            -63.3  (0.62)
+  min     1.00          47.3  (1.00)            -82.4  (0.87)
+  min     1.05          40.4  (0.86)            -90.5  (1.00)
+  share = part of the units' current limit usable before a
+  terminal leaves its band; a teaching requirement of +/-33
+  Mvar at 100 MW is met in every case; the least margin is
+  in giving: 40 Mvar on the weak grid at 1.05, where unit
+  terminals reach 1.10, and about 46 elsewhere - below the
+  simpler estimate of ch 27 (56 Mvar), which left out the
+  unit transformers

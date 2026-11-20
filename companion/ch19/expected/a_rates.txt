@@ -1,0 +1,8 @@
+LFP cell discharged from full at four C-rates (A-290):
+  C-rate  current A  Ah out  Wh out  mean V  Wh vs 0.25 C
+    0.25         78   314.0    1009   3.214   100.0 %
+    0.50        157   314.0     999   3.183    99.0 %
+    1.00        314   314.0     980   3.120    97.1 %
+    2.00        628   314.0     940   2.994    93.1 %
+  the cell gives its full charge at every rate here, but at a
+  lower voltage: energy, not charge, falls with power

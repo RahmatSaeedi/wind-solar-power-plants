@@ -1,0 +1,8 @@
+p-chart of FAT first-pass failures (skid line and panels)
+  130 tests in 10 weeks; mean failure share 0.115
+  weeks above the upper limit: 9
+  the limits move with each week's number of tests; week 9
+  (6 of 13) is a signal - a new panel supplier started that
+  week; without it the share is 7.7%, the 92 % FAT
+  yield of lesson A; limits are recomputed once the cause is
+  removed, not before

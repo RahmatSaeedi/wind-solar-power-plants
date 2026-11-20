@@ -1,0 +1,28 @@
+scenarios and response levels (1 site, 2 local services, 3 major)
+  medical emergency (illness) - level 2
+      on site: first aider, AED; outside: ambulance
+  electrical injury - level 2
+      on site: isolate by plan, first aid; outside: ambulance
+  person suspended in a harness - level 2
+      on site: site rescue team; outside: ambulance
+  injured person in a nacelle - level 2
+      on site: site rescue team; outside: ambulance
+  fire (any area, lesson C) - level 3
+      on site: alarm, people, isolate; outside: fire service
+  dust storm, lightning, heat wave - level 1
+      on site: stop work, shelter; outside: -
+  wadi flood at the substation - level 2
+      on site: evacuate low ground; outside: civil defence
+  access road blocked - level 1
+      on site: second route, hold work; outside: road authority
+  loss of communications - level 1
+      on site: radio, satellite, stop work; outside: -
+  oil or electrolyte spill - level 1
+      on site: contain, report; outside: environment office
+  intrusion or theft - level 1
+      on site: report, do not confront; outside: police
+  gate blocked by a protest - level 1
+      on site: liaison officer, hold; outside: local authority
+  the site's first response has limits it states: first aid,
+  not treatment; alarm and isolation, not firefighting; report
+  and record, never confront - beyond them, outside services

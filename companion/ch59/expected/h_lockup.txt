@@ -1,0 +1,9 @@
+years with the DSCR below the lock-up (1.10): dividends stop
+  case                     min years  which
+  base                    1.20     0  -
+  P90 one-year energy     1.12     0  -
+  price -10 %             1.06     3  1, 14, 15
+  P90 + price -10 %       0.97     6  1, 11, 12, 13, 14, 15
+  the ch 21 model does not hold dividends in a lock-up year, so
+  the equity IRR of these cases is a little high; ch 54 priced
+  two held years at 10.22 -> 9.90 %

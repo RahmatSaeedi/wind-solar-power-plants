@@ -1,0 +1,5 @@
+fault at bus 1 of chapter 3: I'' = 21.9 kA; peak factor kappa 1.8 (A-054)
+  peak current i_p = kappa sqrt(2) I'' = 55.7 kA
+  two parallel bars 0.3 m apart: F/L = mu0 i_p^2 / (2 pi d) = 2.07 kN/m
+  with supports every 1.2 m: about 2.5 kN per support, for a few milliseconds
+  at normal current (1750 A peak 2475 A): 4.1 N/m

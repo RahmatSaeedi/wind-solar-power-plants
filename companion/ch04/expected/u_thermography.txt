@@ -1,0 +1,9 @@
+peak emission wavelength (Wien): sun 0.50 um, a 80 C joint 8.2 um (long-wave
+    infrared)
+joint truly at 80 C in a 30 C room; camera emissivity set to 0.95 (A-080):
+  black tape or paint  eps 0.95: camera reads  80.0 C
+  oxidised copper      eps 0.60: camera reads  64.1 C
+  dull aluminium       eps 0.20: camera reads  42.6 C
+  bright copper        eps 0.05: camera reads  33.3 C
+  shiny metal reflects the room and hides its own heat: survey on painted or
+    taped spots, or set the emissivity, and record the load at the time

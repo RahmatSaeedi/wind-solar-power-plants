@@ -1,0 +1,17 @@
+% Chapter 41 - a synthetic electroluminescence image of one module as numbers: 24 rows by 6 columns
+% of half cells, 6 x 6 pixels each; three cells have dark (inactive) corners of 36, 11 and 3 per
+% cent (diagrams/data/ch41-el.csv from companion/ch41/examples_v.py, v_el; synthetic).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=46mm, height=104mm, axis equal image, enlargelimits=false,
+      xmin=-0.5, xmax=35.5, ymin=-0.5, ymax=143.5, y dir=reverse,
+      xtick={2.5,8.5,...,32.5}, xticklabels={1,2,3,4,5,6},
+      ytick={2.5,32.5,62.5,92.5,122.5}, yticklabels={1,6,11,16,21},
+      xlabel={ستون}, ylabel={ردیفِ نیم‌سلول},
+      colormap={el}{gray(0cm)=(0.05); gray(1cm)=(1)}, point meta min=0, point meta max=1.15,
+      colorbar, colorbar style={width=3mm, ylabel={شدت}}]
+    \addplot[matrix plot*, mesh/cols=36, point meta=explicit] table[x=x, y=y, meta=z, col sep=comma] {data/ch41-el.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

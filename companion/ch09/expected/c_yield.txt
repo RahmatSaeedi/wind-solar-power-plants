@@ -1,0 +1,11 @@
+first-pass yield of a stack line (A-163, teaching):
+  SMT and reflow, AOI                0.995  cumulative 0.995
+  in-circuit test                    0.990  cumulative 0.985
+  power module and busbar assembly   0.985  cumulative 0.970
+  thermal interface check            0.995  cumulative 0.965
+  enclosure integration              0.990  cumulative 0.956
+  burn-in                            0.990  cumulative 0.946
+  end-of-line function test          0.975  cumulative 0.923
+  7.7 % of stacks need rework somewhere; each
+  escape found on site costs about ten times one found in the
+  factory (chapter 1, the rule of ten): test where it is cheap

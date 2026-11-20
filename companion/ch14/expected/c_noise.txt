@@ -1,0 +1,15 @@
+noise at the dwellings, all turbines at 106 dB(A) (A-234),
+  hemispherical spreading and air absorption (chapter 11 model):
+  W1 ridge (1 row): highest three
+    herders' camp B (seasonal)    34.9 dB(A) at 1,401 m
+    roadside house D              30.5 dB(A) at 1,401 m
+    farmhouse A                   15.2 dB(A) at 3,802 m
+    dwellings above the 40 dB(A) screening level: 0
+  W2 plain (2 rows): highest three
+    herders' camp B (seasonal)    45.4 dB(A) at   412 m
+    farmhouse A                   35.7 dB(A) at   943 m
+    roadside house D              23.2 dB(A) at 2,191 m
+    dwellings above the 40 dB(A) screening level: 1
+  the screening level is a teaching value: the applicable limit,
+  its time of day, the background noise and the propagation
+  method come from the authority and a specialist study

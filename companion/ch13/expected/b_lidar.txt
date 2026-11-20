@@ -1,0 +1,10 @@
+lidar against the mast at 100 m (A-252):
+  records compared 37,565 (both valid, above 4 m/s)
+  slope through the origin 1.0051; r^2 0.9966; MBE +0.042 m/s
+  lidar recovery 92.0 %
+  at 150 m: lidar 7.828 m/s; mast extrapolated with one shear 7.775 m/s
+    (-0.7 %)
+  a lidar checked against a mast at one height can then carry the
+  measurement to heights the mast does not reach; its own
+  calibration (a verification against a reference mast) is part
+  of the evidence

@@ -1,0 +1,19 @@
+% Chapter 8 - winding temperature rise with time at rated current and at 120 % (tau 45 min).
+% Data: diagrams/data/ch08-heat.csv (companion/ch08/examples_c.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=62mm,
+      xlabel={زمان، دقیقه}, ylabel={افزایشِ دما، $\text{K}$},
+      xmin=0, xmax=240, ymin=0, ymax=72, xtick={0,30,...,240}, ytick={0,10,...,70}]
+    \addplot[sInk] table[x=t_min, y=rise100, col sep=comma] {data/ch08-heat.csv};
+    \addlegendentry{جریانِ نامی}
+    \addplot[sLoss] table[x=t_min, y=rise120, col sep=comma] {data/ch08-heat.csv};
+    \addlegendentry{۱۲۰ درصدِ جریان}
+    \node[note, text=cInk, anchor=south] at (axis cs:210,45.0) {$44.4\ \text{K}$};
+    \node[note, text=cInk, anchor=south] at (axis cs:210,64.6) {$64.0\ \text{K}$};
+    \draw[cRule, densely dotted] (axis cs:45,0) -- (axis cs:45,28.1);
+    \node[note, anchor=north west] at (axis cs:47,10) {یک ثابتِ زمانی: $63\,\%$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

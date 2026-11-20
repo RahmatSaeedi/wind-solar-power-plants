@@ -1,0 +1,14 @@
+type and project certification: evidence and who gives it
+  evidence             what                               from
+  design evaluation    loads, control, structures         certification body
+  power performance    power curve test                   accredited test lab
+  mechanical loads     load measurement campaign          accredited test lab
+  acoustic noise       noise measurement                  accredited test lab
+  blade                full-scale static, fatigue tests   blade test lab
+  gearbox              prototype and run-in tests         maker, witnessed
+  manufacturing        factory and quality system         certification body
+  project              site conditions against design     certification body
+  a type certificate says the design was shown to meet its
+  class; the project certificate says this site fits the
+  class; neither says each unit was built right - that is
+  the manufacturing evaluation and the units' own records

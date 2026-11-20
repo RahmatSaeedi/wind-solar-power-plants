@@ -1,0 +1,10 @@
+33 kV bus fault: incomer inverse time against a blocking scheme
+  bus fault 6.4 kA through the incomer: standard-inverse time 0.55 s
+  blocking scheme: the incomer's fast stage trips after 100 ms
+  unless a feeder relay reports 'I see the fault too' (then
+  the fault is on that feeder and the feeder clears it)
+  bus fault cleared in 0.10 s + breaker 0.06 s = 0.16 s
+  arc energy ratio: 0.26 of the inverse-time case
+  the signal travels over hard wire or IEC 61850 messages; a
+  failed signal must not block (the scheme fails safe to the
+  inverse time), and the end-to-end test proves both paths

@@ -1,0 +1,18 @@
+% Chapter 15 - rank histogram of the observation among 20 ensemble members on the test months: the raw
+% (under-dispersive) ensemble and the ensemble with its spread inflated on the training months (A-270).
+% Data: diagrams/data/ch15-rankhist.csv (companion/ch15/forecast2.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=114mm, height=60mm, xmin=-0.7, xmax=20.7, ymin=0, ymax=18,
+      xlabel={رتبهٔ مشاهده میانِ بیست عضو}, ylabel={سهمِ ساعت‌ها، درصد},
+      xtick={0,5,...,20}, ytick={0,3,...,18}, ybar=0.5pt, bar width=1.9mm,
+      legend style={at={(0.5,1.03)}, anchor=south}, legend columns=2]
+    \addplot[draw=cLoss, fill=cLoss!50] table[x=rank, y=raw, col sep=comma] {data/ch15-rankhist.csv};
+    \addlegendentry{همادِ خام}
+    \addplot[draw=cWind, fill=cWind!50] table[x=rank, y=inflated, col sep=comma] {data/ch15-rankhist.csv};
+    \addlegendentry{پراکندگیِ افزوده‌شده}
+    \draw[sLimit] (axis cs:-0.7,4.76) -- (axis cs:20.7,4.76);
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

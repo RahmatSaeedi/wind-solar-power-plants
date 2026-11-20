@@ -1,0 +1,11 @@
+oil-filled and dry-type unit transformers (teaching data):
+                              oil skid        dry in tower
+  rating MVA                       5.5             5.6
+  no-load loss kW                  4.5             7.0
+  load loss kW                    45.0            50.0
+  oil m3                           2.6             0.0
+  site needs: oil skid - bund, outdoor, sampling; dry type -
+  indoor, ventilation, cleaner air, no oil fire load
+  the dry unit costs more loss and money but fits inside a
+  tower where an oil fire would be unacceptable; outdoors on
+  a skid, oil is cheaper and cools better

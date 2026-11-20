@@ -1,0 +1,15 @@
+Iran, topic C (standards and evidence):
+  IR-27 verified
+      INSO is the national standards body
+  IR-28 verified
+      mandatory import list: solar inverters up to 5 kW
+  IR-29 verified
+      mandatory list: no PV module or wind turbine entry
+  IR-30 verified
+      mandatory: power transformers INSO 2620-1, MV cables 3569
+  IR-31 to-confirm
+      national adoptions of IEC 61215/61730/62109/61400 not found
+  IR-32 to-confirm
+      MoE sets criteria for renewable equipment, domestic priority
+  IR-49 verified
+      mandatory: stationary VRLA (4868-22), lithium cells (6618-3)

@@ -1,0 +1,11 @@
+soil stiffness falls with strain (hyperbolic model, T07, teaching)
+  G0 = 75 MPa at very small strain; reference strain 1e-04
+  state                   strain    G/G0   G MPa   K GN m/rad   f1 Hz
+  vibration, small         1e-05   0.91      68          280   0.213
+  operation, typical       2e-04   0.33      25          103   0.209
+  extreme storm            1e-03   0.09       7           28   0.194
+  the operating strain gives lesson B's 25 MPa; a storm
+  softens the ground further and lowers f1 for a while -
+  the frequency check uses the operating strain, the
+  rotation check the extreme one, and the geotechnical
+  report states both, from tests, not from this curve

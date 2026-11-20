@@ -1,0 +1,6 @@
+voltage THD at the POC over the compliance week (1008 ten-minute values)
+  95th percentile 2.63 %, maximum 3.42 %; teaching limit 3.0 % (ch 27)
+  - the week passes on its 95th percentile; the maximum
+  came on day 5 at 23:10 with a capacitor bank switched in the network,
+  not a plant step - the background measured before connection
+  (ch 27) is what separates the two

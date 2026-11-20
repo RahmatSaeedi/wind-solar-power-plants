@@ -1,0 +1,12 @@
+% Chapter 12 - distribution of one-minute GHI steps on the broken-cloud day (synthetic, A-242).
+% Data: diagrams/data/ch12-ramps.csv (companion/ch12/examples_g.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=110mm, height=60mm, ybar, bar width=2.4mm, xmin=0, xmax=250,
+      ymode=log, ymin=0.8, ymax=2000, xlabel={اندازهٔ تغییرِ یک‌دقیقه‌ای، $\text{W/m}^2$},
+      ylabel={شمار در روز}, xtick={0,50,...,250}]
+    \addplot[fill=cPV!45, draw=cPV] table[x=step, y=count, col sep=comma] {data/ch12-ramps.csv};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

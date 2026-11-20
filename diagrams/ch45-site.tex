@@ -1,0 +1,17 @@
+% Chapter 45 - days of rest a site check needs to see a leaking cell against its module (3 mV at a
+% 1 mV resolution), by the leaker's extra K-value (companion/ch45/examples_v.py, site_check ->
+% diagrams/data/ch45-site.csv; teaching values).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[font=\small]
+  \begin{axis}[plantp, width=104mm, height=56mm, xmin=0, xmax=0.28, ymin=0, ymax=200,
+      xlabel={افتِ اضافهٔ ولتاژ در روز (میلی‌ولت)}, ylabel={روزِ استراحتِ لازم},
+      xticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2}]
+    \fill[cWind!8] (axis cs:0,0) rectangle (axis cs:0.28,30);
+    \addplot[sBESS] table[x=k, y=days, col sep=comma] {data/ch45-site.csv};
+    \draw[sLoss] (axis cs:0.034,0) -- (axis cs:0.034,200);
+    \node[note, anchor=west, text=cLoss] at (axis cs:0.037,170) {نشت‌دارِ آزمایشگاه: ۸۸ روز};
+    \node[note, anchor=south east] at (axis cs:0.275,31) {آزمونِ چندهفته‌ای};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

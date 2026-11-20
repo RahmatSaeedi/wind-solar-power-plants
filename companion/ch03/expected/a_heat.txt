@@ -1,0 +1,5 @@
+current rising linearly from 0 to 315 A in one hour through 0.0123 ohm
+    (assumed)
+  Q = integral R (I t/T)^2 dt = R I^2 T / 3 = 1464.6 kJ = 0.407 kWh
+  trapezoid with 6 intervals: 1484.9 kJ (+1.39 %)
+  using the mean current (157.5 A) instead: 1098.4 kJ (-25 %)

@@ -1,0 +1,8 @@
+export meter, one month: 2976 quarter-hour intervals in the profile, 6 missing
+  register difference over the month: 24064.9 MWh
+  sum of the profile as received:     23999.0 MWh
+  gap: 65.9 MWh (0.27%) - the missing intervals' energy
+  the register is the energy, the profile its shape: the gap is
+  filled from the meter's own memory (re-read), not by
+  interpolation, and the six intervals are flagged in the
+  settlement file (ch 35 completeness)

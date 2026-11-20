@@ -1,0 +1,4 @@
+case,eta,U,verdict
+T1,98.400,0.278,inconclusive
+T2,98.800,0.279,accept
+T3,98.100,0.277,reject

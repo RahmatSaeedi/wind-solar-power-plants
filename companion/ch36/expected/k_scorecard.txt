@@ -1,0 +1,12 @@
+supplier scorecard (0-5, teaching weights)
+  supplier  secure_dev  patch_supp      notice  provenance  local_serv   score
+  weight             3           3           2           2           1
+  S-A                4           4           3           4           2    3.64
+  S-B                2           3           2           3           5    2.73
+  S-C                5           2           4           5           3    3.82
+  S-C leads on secure development and provenance though its
+  patch support is short - a gap to close in the contract;
+  S-B has the best local service and the weakest security
+  practice; the weights say what matters more for a plant
+  that must be patched for 25 years, and the scores come
+  from evidence asked for in the tender

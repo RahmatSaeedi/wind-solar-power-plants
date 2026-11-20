@@ -1,0 +1,16 @@
+MPPT step size (educational trackers of lab D): steady at 1000 W/m2 after
+  settling; ramp 300 -> 1000 W/m2 in 100 s, starting with the
+  step going up or down
+  step V   P&O steady  ramp up/down     hold-cmp steady  ramp up/down
+       1    100.000%  99.67% 94.63%      100.000%      99.58% 99.58%
+       2     99.999%  92.28% 89.24%       99.999%      99.96% 99.96%
+       4     99.994%  95.16% 77.28%       99.994%      99.99% 99.99%
+       8     99.977%  93.33% 89.35%       99.977%      99.97% 99.97%
+      16     99.909%  98.49% 98.42%       99.909%      99.88% 99.89%
+  steady: the step costs a little at the top of the curve, and
+  more as it grows (the tracker oscillates around the peak);
+  ramp: plain P&O depends on the way it happens to be going
+  when the ramp starts (up to 18% apart) - one
+  dynamic run proves little; repeat it from several starting
+  points. The hold-compare tracker does not care; its price is
+  a measure and a hold step, so it moves a third as often

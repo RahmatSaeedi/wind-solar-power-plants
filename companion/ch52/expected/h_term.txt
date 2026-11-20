@@ -1,0 +1,9 @@
+33 kV terminations: thermography findings by year (120 inspected)
+  year   found   re-made
+     1       7         1
+     2       3         0
+     3       2         1
+  findings fall after the first year (loose bolts from
+  installation, ch 49 torque) - a falling count is the sign
+  the inspection interval can be stretched, with the record
+  as its justification (lesson A)

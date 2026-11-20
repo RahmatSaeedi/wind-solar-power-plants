@@ -1,0 +1,33 @@
+% Chapter 20 - mode state machine of the plant controller after the fix found by lab C (FALLBACK
+% gets exits to GRID and TRIPPED, dashed). Companion: companion/ch20/lab_c.py (STATES, TRANSITIONS).
+\input{_preamble}
+\begin{document}
+\begin{tikzpicture}[>=Stealth, font=\small,
+    s/.style={blk, minimum width=22mm, minimum height=10mm, align=center},
+    t/.style={-{Stealth[length=2mm]}, line width=0.7pt, draw=cInk},
+    fix/.style={-{Stealth[length=2mm]}, line width=0.9pt, draw=cLoss, dash pattern=on 4pt off 2pt}]
+  \node[s] (off) at (10,0) {خاموش\\OFF};
+  \node[s] (stb) at (6.5,0) {آماده\\STANDBY};
+  \node[s, draw=cWind, fill=cWind!9] (grd) at (3,0) {متصل\\GRID};
+  \node[s, draw=cBESS, fill=cBESS!10] (isl) at (3,2.4) {جزیره\\ISLAND};
+  \node[s, draw=cPV, fill=cPV!9] (lim) at (3,-2.6) {محدود\\LIMITED};
+  \node[s, draw=cLoss, fill=cLoss!7] (fb) at (-0.8,-2.6) {پشتیبان\\FALLBACK};
+  \node[s, draw=cLoss, fill=cLoss!7] (trp) at (10,-2.6) {قطع\\TRIPPED};
+  \draw[t] ([yshift=2mm]off.west) -- ([yshift=2mm]stb.east);
+  \draw[t] ([yshift=-2mm]stb.east) -- ([yshift=-2mm]off.west);
+  \draw[t] (stb.west) -- (grd.east);
+  \draw[t] ([xshift=-3mm]grd.south) -- ([xshift=-3mm]lim.north);
+  \draw[t] ([xshift=3mm]lim.north) -- ([xshift=3mm]grd.south);
+  \draw[t] (grd.north) -- (isl.south);
+  \draw[t] (isl.east) -| (stb.north);
+  \draw[t] ([yshift=2mm]isl.east) -- (11.7,2.6) |- (trp.east);
+  \draw[t] (grd.west) to[bend right=20] (fb.north);
+  \draw[t] (lim.west) -- (fb.east);
+  \draw[t] (lim.east) -- (trp.west);
+  \draw[t] (grd.south east) -- (trp.north west);
+  \draw[t] (trp.north) -- (off.south);
+  \draw[fix] (fb.north east) to[bend right=20] (grd.south west);
+  \draw[fix] (fb.south) -- ++(0,-0.8) -| (trp.south);
+  \node[note, text width=60mm] at (4.6,-4.5) {خط‌چینِ قرمز: گذارهایی که بررسیِ لابِ C افزود};
+\end{tikzpicture}
+\end{document}

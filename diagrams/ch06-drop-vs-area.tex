@@ -1,0 +1,20 @@
+% Chapter 6 — Plant P feeder: voltage drop against conductor cross-section.
+% Data: diagrams/data/ch06-drop-vs-area.csv (companion/ch06/feeder_report.py)
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=118mm, height=68mm,
+      xlabel={سطحِ مقطعِ هادی ($\text{mm}^2$)}, ylabel={افتِ ولتاژ، درصدی از $V_\text{mp}$},
+      xmin=100, xmax=420, ymin=0, ymax=3.2, xtick={120,150,185,240,300,400},
+      legend style={at={(0.5,-0.26)}}]
+    \addplot[sInk, mark=*, mark size=1.6pt] table[x=area_mm2, y=drop_pct_al, col sep=comma] {data/ch06-drop-vs-area.csv};
+    \addlegendentry{آلومینیوم، $50\,^\circ\text{C}$}
+    \addplot[sPV, mark=*, mark size=1.6pt] table[x=area_mm2, y=drop_pct_cu, col sep=comma] {data/ch06-drop-vs-area.csv};
+    \addlegendentry{مس، $50\,^\circ\text{C}$}
+    \addplot[sLimit, domain=100:420, samples=2] {1.0};
+    \addlegendentry{هدفِ طراحیِ فرضی $1\,\%$}
+    \node[font=\footnotesize, text=cInk, anchor=south west] at (axis cs:240,1.45) {آلومینیوم};
+    \node[font=\footnotesize, text=cInk, anchor=north west] at (axis cs:240,0.78) {مس};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

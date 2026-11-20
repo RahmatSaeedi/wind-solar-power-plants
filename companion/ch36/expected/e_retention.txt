@@ -1,0 +1,11 @@
+retention and archive of security records (teaching)
+  record                             kept                      years
+  configurations and their history   plant life + 5 y             30
+  security logs                      1 year online, 3 archived     4
+  access reviews and changes         plant life                   25
+  incident records                   plant life                   25
+  vendor transfers register          plant life                   25
+  an archive is useful only if it can still be read: formats
+  are moved to current ones every 5 years and a sample is
+  read back after each move; the archive is restored in a
+  test like any backup

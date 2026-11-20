@@ -1,0 +1,28 @@
+% Chapter 3 — phasor diagram of 5 km of 33 kV cable carrying 30 MW at pf 0.95 lagging.
+% NOT to scale: the Z I phasor (about 460 V) is drawn 15 times longer so it can be seen.
+% Values: companion/ch03/expected/b_phasor.txt.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\footnotesize, scale=1.0]
+  \draw[cMuted, -{Stealth[length=1.6mm]}] (-0.3,0) -- (9.8,0) node[anchor=west, text=cInkB] {محورِ حقیقی};
+  \draw[cMuted, -{Stealth[length=1.6mm]}] (0,-2.6) -- (0,2.4) node[anchor=south, text=cInkB] {محورِ موهومی};
+  % V_r along the real axis (length 6)
+  \draw[sInk, -{Stealth[length=2.6mm]}, line width=1.3pt] (0,0) -- (6,0);
+  \node[text=cInk, anchor=north] at (4.4,-0.05) {$\mathbf{V}_\text{r} = 19\,053\ \text{V}\angle 0^\circ$};
+  % Z I drawn x15: angle of Z (41.35 deg) + angle of I (-18.19 deg) = 23.16 deg
+  \draw[cLoss, -{Stealth[length=2.6mm]}, line width=1.3pt] (6,0) -- ++(23.16:2.17);
+  \node[text=cInk, anchor=west] at (8.1,0.75) {$\mathbf{Z}\mathbf{I}$ (۱۵ برابر بزرگ‌تر)};
+  % V_s = V_r + Z I
+  \draw[sWind, -{Stealth[length=2.6mm]}, line width=1.3pt] (0,0) -- ($(6,0)+(23.16:2.17)$);
+  \node[text=cInk, anchor=south east] at (3.5,0.55) {$\mathbf{V}_\text{s} = \mathbf{V}_\text{r} + \mathbf{Z}\mathbf{I}$};
+  % current lagging by 18.19 deg (scaled to length 3.5)
+  \draw[cPV, -{Stealth[length=2.6mm]}, line width=1.1pt, dash pattern=on 5pt off 2pt] (0,0) -- (-18.19:3.5);
+  \node[text=cInk, anchor=north west] at (-18.19:3.55) {$\mathbf{I} = 552.5\ \text{A}\angle{-18.19^\circ}$};
+  \draw[cInk] (1.6,0) arc[start angle=0, end angle=-18.19, radius=1.6];
+  \node[text=cInk] at (2.05,-0.32) {$\varphi$};
+  \node[note, anchor=north, text width=100mm] at (4.5,-2.75)
+     {اندازهٔ واقعیِ $\mathbf{Z}\mathbf{I}$ حدودِ دو درصدِ $\mathbf{V}_\text{r}$ است؛ برای دیده شدن بزرگ
+      رسم شده است. افتِ ولتاژ بیشتر از مؤلفه‌ای از $\mathbf{Z}\mathbf{I}$ می‌آید که هم‌جهتِ $\mathbf{V}_\text{r}$
+      است: $(RP + XQ)/V$.};
+\end{tikzpicture}}
+\end{document}

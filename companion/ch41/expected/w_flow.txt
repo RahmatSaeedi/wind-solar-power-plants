@@ -1,0 +1,7 @@
+curing buffer and material flow at a 30 s takt (teaching)
+  sealant and potting need 4 h before handling: 480 modules in the buffer
+  glass in: 120 sheets an hour = 2.5 t an hour
+  frames, boxes, pallets out: one finished pallet every 15.5 min
+  the buffer is floor space and work in progress, not idle
+  stock: shortening the cure moves the line's layout; the
+  glass flow sets the forklift and rack plan (ch 40, layout)

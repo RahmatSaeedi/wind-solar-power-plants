@@ -1,0 +1,13 @@
+132 kV equipment take-off: single bus against double bus (3 bays):
+  item               single   double
+  breakers                3        4
+  disconnectors           6       11
+  earth switches          3        5
+  cts                     9       12
+  vts                     6        9
+  arresters               9        9
+  36 items against 50: the double bus adds a coupler
+  bay, a second set of bus disconnectors per bay, bus VTs and
+  earthing - about two-fifths more equipment for the
+  flexibility of lesson G, which the reliability numbers of
+  lesson G must then justify

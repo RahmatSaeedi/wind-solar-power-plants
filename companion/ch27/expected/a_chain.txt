@@ -1,0 +1,11 @@
+the measuring chain sets what can be trusted (concept):
+  element               at harmonics                     use for harmonics
+  capacitive VT (CVT)   resonant: wrong at harmonics     no
+  inductive VT          good to a few kHz                voltages
+  protection CT core    phase error, saturates           no
+  metering CT core      good to kHz, low burden          currents
+  PQ instrument         class of the method              certificate, sync
+  a 132 kV bay often has only capacitive VTs: harmonic
+  voltages measured through them are wrong at the 5th and
+  beyond - the monitoring plan names the transducer, not only
+  the instrument

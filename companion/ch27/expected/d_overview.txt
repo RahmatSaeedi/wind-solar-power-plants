@@ -1,0 +1,4 @@
+the measurement week at the POC (1,008 ten-minute values, A-338):
+  plant output: mean 32.1 MW, max 82.8 MW
+  power factor while producing (> 5 MW): mean 0.999, lowest 0.936
+  5th-harmonic voltage: mean 1.17 %, 95th percentile 1.83 %

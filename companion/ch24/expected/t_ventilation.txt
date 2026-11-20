@@ -1,0 +1,10 @@
+air for the 33 kV switchgear room (section A, teaching):
+  heat: 9 panels x 0.35 kW + relays 2.0 + other 1.5 = 6.65 kW
+  rise allowed K   air m3/h
+                5       3,970
+               10       1,985
+               15       1,323
+  the switchgear's losses are small but steady; the room's
+  air (or cooling, in a hot climate) is sized for them plus
+  the sun on the walls (ch 23 lesson E) - and the internal-
+  arc vents must not be blocked by the ducts

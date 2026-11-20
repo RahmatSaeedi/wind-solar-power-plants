@@ -1,0 +1,12 @@
+arc-flash: why clearing time matters (concept, no procedure):
+  incident energy grows roughly with arcing current x time
+  clearing time s    relative energy
+             1.00               1.00
+             0.50               0.50
+             0.20               0.20
+             0.08               0.08
+  a fast scheme (bus protection, arc sensors) cuts the energy
+  in proportion; the arc-flash risk assessment by qualified
+  engineers sets boundaries and labels; work on or near live
+  equipment follows the owner's safety rules and permits -
+  this book does not give live-work procedures

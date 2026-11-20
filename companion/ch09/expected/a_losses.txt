@@ -1,0 +1,7 @@
+grid-side converter of a turbine, 5.26 MVA, 690 V,
+  V_dc 1150 V, pf 0.95; one switch position = parallel modules (A-144):
+  current peak 6,224 A, modulation index 0.980
+  per switch position: IGBT 6,311 W + 2,813 W, diode 711 W + 615 W
+  six positions at 2.5 kHz: conduction 42.1 kW, switching 20.6 kW
+  total 62.7 kW = 1.25 % of the active power
+  switching loss grows with f_sw; conduction does not

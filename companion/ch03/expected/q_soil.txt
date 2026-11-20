@@ -1,0 +1,13 @@
+soil diffusivity 5.0e-07 m2/s (A-043, assumed); surface 20 C +- 10 K daily
+    sine
+  explicit scheme: dz = 0.02 m, dt = 300 s, r = alpha dt / dz^2 = 0.375
+    (stable if <= 0.5)
+  damping depth of the daily wave d = sqrt(2 alpha / omega) = 0.117 m
+  depth   amplitude: numeric  analytic   lag (h): numeric  analytic
+   0.1 m             4.27 K     4.26 K            3.2       3.3
+   0.2 m             1.83 K     1.82 K            6.5       6.5
+   0.4 m             0.33 K     0.33 K           13.1      13.0
+annual wave (+- 12 K, assumed): damping depth 2.24 m
+  at 0.8 m (cable depth, A-043): amplitude 8.4 K, lag 21 days; daily wave
+    there 0.0109 K
+  r = 0.6 (guard removed), 60 steps: max |u - 20| = 9.0e+06 K (unstable)

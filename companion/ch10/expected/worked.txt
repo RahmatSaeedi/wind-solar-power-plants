@@ -1,0 +1,51 @@
+E01: photon energy: 1000 nm 1.240 eV, 550 nm 2.25 eV, 400 nm 3.10 eV
+E02: cut-off 1240/Eg: Si 1.12 eV 1107 nm, CdTe 1.45 eV 855 nm, 1.60 eV 775 nm
+E03: thermal voltage at 25 C 25.69 mV;
+     fitted n Vt per cell a/72 = 25.05 mV (n 0.975)
+E04:  600 nm, 1/alpha   2.4 um: 160 um absorbs 100.0 % (100.0 % in 2 passes)
+   :  800 nm, 1/alpha  11.8 um: 160 um absorbs 100.0 % (100.0 % in 2 passes)
+   : 1000 nm, 1/alpha 156.2 um: 160 um absorbs  64.1 % ( 87.1 % in 2 passes)
+E05: double the light: V_oc + a ln 2 = 1.25 V per module (17.4 mV per cell)
+E06: fill factor 41.96 x 13.11 / (49.9 x 13.98) = 0.789
+     efficiency 550 / (1000 x 2.583) = 21.29 %
+E07: loss chain: Eg x collected current / light = 43.6 %
+     x qV_oc/Eg 0.619 -> 27.0 %; x FF 0.789 -> 21.3 % (module)
+E08: V_oc at -15 C: linear 55.29 V, fitted model 55.24 V
+     26 modules: 1438 V / 1436 V
+E09: P_max at 65 C: linear 473.0 W, fitted model 479.9 W
+E10: cell at 1000 W/m2, air 35 C: NOCT rule 66.2 C
+     Faiman, wind 1 m/s 66.4 C; 4 m/s 54.1 C
+E11: bifacial: rear 0.12 x 1000 x 0.70 = 84 W/m2 front-equivalent
+E12: IAM (b0 0.05): 30 deg 0.992, 60 deg 0.950, 75 deg 0.857, 80 deg 0.762
+E13: label 550 W, flash +-3 %: 552 W true range 535 .. 569 W
+E14: W(1) = 0.5671; W(10) = 1.7455; check W e^W = 10.0000
+E15: half-cut cells: interconnect loss ratio 144 (1/2)^2 (1/2) / 72 = 0.25
+E16: 31 per pallet, 620 per container: 109,200 modules ->
+     3,523 pallets, 177 containers
+E17: current bound 1.2 x 13.98 + 0.00671 x 47 = 17.09 A; x 20 = 342 A
+E18: reverse current, 20 strings: 19 x 13.98 x 1.25 = 332 A
+E19: pitch at GCR 0.40, two 2.278 m modules: 11.39 m;
+     table rise L sin 25 = 1.93 m
+E20: shaded share at alpha_p 12 deg, tilt 25 deg, GCR 0.4: 0.136
+E21: no shade above tan a = sin b / (1/GCR - cos b): 14.9 deg
+E22: winter-solstice noon at 34 N: 90 - 34 - 23.44 = 32.6 deg
+E23: DC/AC: 60.06 MWp / 50 MW = 1.201; block 6.006 / 5 = 1.201
+E24: copper at 70 C 0.0206 ohm mm2/m; 4 mm2 x 160 m: 0.823 ohm, 141 W
+E25: T* truck = sqrt(2 x 16380 / (50 x 309 x 0.003 x 0.95)) = 27.3 d
+E26: water per cleaning: 1.0 L x 109,200 = 109.2 m3; 1.5 L: 163.8 m3
+E27: soiling 0.3 %/day for 30 days: mean loss 4.5 %, final 9.0 %
+E28: 109,200 x 72 = 7,862,400 full cells; yields 98 % (cell) x 99.5 % (module)
+     -> 8,063,173 wafers into the cell line (200,773 lost)
+E30: POA year at 25 deg: beam 1,570, sky 562, ground 18 = 2,150 kWh/m2
+   : shares 73.0 / 26.1 / 0.8 %; GHI 1,947
+E31: tower shadow (hub 100 m): 15 deg 373 m, 30 deg 173 m, 60 deg 58 m
+     blade tip at 175 m, sun at 15 deg: 653 m
+E32: string V_mp x 0.97 (aged): min 879 V, median 1009 V
+     hours below 933 V: 159 (new modules: 17)
+E33: clear row gap d - L cos 25 = 11.39 - 4.13 = 7.26 m (access)
+E34: mated connector pairs: 4200 strings x 27 = 113,400;
+     at 0.01 % per pair and year: 11 failures a year
+E35: array insulation: 400 Mohm / 10,920 modules = 36.6 kohm;
+     with dew halving each module: 18.3 kohm
+E36: dust storm +5 %: lost value 773 u/day;
+     one truck pass (16,380 u) pays back in 21.2 days

@@ -1,0 +1,16 @@
+progress review at month 14:
+  done: wind campaign, ESIA baseline and report, land options and access,
+        geotechnical survey, energy yield report
+  late: grid offer due month 9, now forecast 16;
+        land agreements due month 13, now forecast 17
+  financial close forecast: month 28 (plan 28)
+  critical now:
+    grid study and offer
+    permits
+    front-end design
+    PPA negotiation
+    financing and close
+  slack left: land agreements 5 months
+  close holds at 28, but the grid chain has used all its slack
+  and is now critical: one more month on the grid offer moves
+  financial close; a review re-runs the network from today

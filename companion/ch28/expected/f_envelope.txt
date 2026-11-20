@@ -1,0 +1,14 @@
+P-Q envelope at the POC (grid max, source 1.00 pu; units inside 0.90-1.10)
+  P POC MW   S0 25 C give/absorb   S0 45 C give/absorb   S1 25 C give/absorb
+      -1.3      +85.1 /   -87.2      +85.1 /   -87.2      +88.3 /   -89.8
+      18.5      +83.0 /   -89.8      +83.0 /   -89.8      +86.1 /   -92.5
+      38.2      +80.4 /   -92.7      +80.4 /   -92.7      +83.6 /   -94.3
+      58.8      +77.2 /   -96.1      +77.2 /   -96.1      +80.6 /   -95.8
+      78.3      +73.7 /   -99.6      +60.4 /   -97.2      +76.8 /   -96.5
+      97.9      +50.8 /   -97.3      +29.4 /   -63.8      +68.2 /   -95.6
+  at full output the hot day costs 21 Mvar of giving; the battery adds 17
+  least giving from 20 % to 100 % output, Mvar: S0 51, S0 hot 29, S1 68
+  a teaching requirement of +33 Mvar is met at 25 C but NOT
+  on a 45 C day at full output; the battery (S1) or a
+  capacitor bank would close the gap - so the requirement's
+  temperature and the battery's share are study inputs

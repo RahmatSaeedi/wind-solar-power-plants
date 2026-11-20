@@ -1,0 +1,10 @@
+correlation of hourly PV and wind power: -0.124 (daylight hours 07-17 only:
+    -0.097)
+hours with PV + wind above   0.1 MW:  8398 ( 95.9 %)
+hours with PV + wind above  10.0 MW:  6878 ( 78.5 %)
+hours with PV + wind above  50.0 MW:  2493 ( 28.5 %)
+hours with PV + wind above  80.0 MW:   276 (  3.2 %)
+hours with PV + wind above 100.0 MW:     8 (  0.1 %)
+hours below 10 MW: PV alone 5590, wind alone 3465, together 1882
+export capacity factor: PV only 0.111, wind only 0.220, hybrid 0.331 of the
+    100 MW connection

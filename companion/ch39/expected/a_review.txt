@@ -1,0 +1,15 @@
+technical review of an offer: what is checked (teaching)
+  design assumptions       45 C ambient, 1,000 m - as specified
+  standard editions        power transformer parts quoted with years
+  deviations               listed, each with a reason and a price
+  drawings                 outline, rating plate, foundation loads
+  calculations             short-circuit withstand, temperature rise
+  material declarations    fluid, core steel grade, paint
+  certificates             type test report: which unit, which lab
+  test plan                routine, type, witness points
+  spares, tools, training  listed with prices and lead times
+  repair limits            what can be repaired on site
+  life-cycle support       years of spares and service
+  a type test report for another rating, an undated standard
+  or a deviation hidden in a footnote each turn a compliant
+  offer into one that is not

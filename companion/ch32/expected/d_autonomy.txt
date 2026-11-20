@@ -1,0 +1,9 @@
+autonomy of the held reserve (180 m3, placeholder rates)
+  case                                   rate L/min   minutes   +wells
+  main transformer, external cooling           3000        60       61
+  BESS container, exposure protection          1500       120      123
+  both at once (not the design case)           4500        40       40
+  the wells add 39 L/min - about 1 % of a fire flow:
+  the reserve is what there is, and refilling it takes
+  77 h. The strategy states whether one event or
+  two is the design case, and the authority accepts it

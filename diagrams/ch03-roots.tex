@@ -1,0 +1,18 @@
+% Chapter 3 — error of three root-finding methods against iteration number (inverting the
+% farm power curve for 30 MW). Data: diagrams/data/ch03-roots.csv (companion/ch03).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{semilogyaxis}[plantp, width=118mm, height=66mm,
+      xlabel={شمارهٔ تکرار}, ylabel={خطای تخمین (m/s)},
+      xmin=1, xmax=24, ymin=1e-16, ymax=10, xtick={1,4,...,22},
+      ytick={1e-15,1e-12,1e-9,1e-6,1e-3,1}, unbounded coords=jump]
+    \addplot[sLoss, mark=square*, mark size=1.2pt, mark options={solid}] table[x=k, y=bisection, col sep=comma] {data/ch03-roots.csv};
+    \addlegendentry{دوبخشی}
+    \addplot[sPV, mark=triangle*, mark size=1.6pt, mark options={solid}] table[x=k, y=secant, col sep=comma] {data/ch03-roots.csv};
+    \addlegendentry{وتری}
+    \addplot[sWind, mark=*, mark size=1.4pt, mark options={solid}] table[x=k, y=newton, col sep=comma] {data/ch03-roots.csv};
+    \addlegendentry{نیوتن}
+  \end{semilogyaxis}
+\end{tikzpicture}}
+\end{document}

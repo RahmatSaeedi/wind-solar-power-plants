@@ -1,0 +1,9 @@
+fewest accredited laboratories for the inverter's type tests (teaching)
+  tests needed: 7
+  Lab A: 3 of 7
+  Lab B: 3 of 7
+  Lab C: 3 of 7
+  Lab D: 3 of 7
+  smallest set covering all: Lab A, Lab B, Lab C (3 labs)
+  no single lab covers all seven; each report is checked
+  against its own lab's scope, test by test

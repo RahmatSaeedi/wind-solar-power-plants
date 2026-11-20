@@ -1,0 +1,10 @@
+behaviour when the interface itself fails (teaching design intent)
+  failure                              behaviour                        test
+  alarm wire cut                       alarm at the plant (NC opens)    T-32
+  serial link lost                     detail stale, alarm; no action   T-33
+  plant PLC stopped                    fire actions still happen        T-34
+  fire panel power lost                fault contact opens: alarm       T-35
+  plant 'healthy' to fire panel lost   fault shown on fire panel        T-36
+  every failure ends in an alarm someone sees, never in a
+  silent loss; none of them starts or stops generation by
+  itself except the fire panel's own commands

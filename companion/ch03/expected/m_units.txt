@@ -1,0 +1,5 @@
+row pitch computed with quantities: 7.215 m (dimension check passed)
+PV energy of a day with H = 6.2 kWh/m2: 309.9 MWh
+  dividing by G_STC makes the dimension an energy; check(e, 'MWh') would
+    refuse
+  the version without it (chapter 2)

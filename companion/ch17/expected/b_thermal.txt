@@ -1,0 +1,8 @@
+thermal and system-strength screening (teaching values):
+  export at the limit, pf 0.95: 105.3 MVA; line rating 140 MVA: ok
+  short-circuit power at the POC 1500 MVA; ratio to 100 MW: 15.0
+  with the 110 MW installed: 13.6
+  a high ratio means a 'strong' node where inverters behave
+  well; a low one needs studies of control stability; the
+  operator gives the short-circuit power for normal and
+  outage cases (data request)

@@ -1,0 +1,17 @@
+% Chapter 8 - current spectrum of the 30 kW motor near 50 Hz (synthetic, A-127): broken-bar
+% sidebands at (1 -+ 2s) f. Data: diagrams/data/ch08-mcsa.csv (examples_more.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=62mm,
+      xlabel={بسامد، $\text{Hz}$}, ylabel={دامنه نسبت به خطِ اصلی، $\text{dB}$},
+      xmin=45, xmax=55, ymin=-105, ymax=5, xtick={45,46,...,55}, ytick={-100,-80,...,0}]
+    \addplot[sInk, line width=0.6pt] table[x=f, y=db, col sep=comma] {data/ch08-mcsa.csv};
+    \node[note, text=cInk, anchor=south] at (axis cs:48.35,-42) {$(1-2s)f$};
+    \node[note, text=cInk, anchor=south] at (axis cs:51.65,-42) {$(1+2s)f$};
+    \node[note, text=cInk, anchor=west] at (axis cs:50.15,-2) {$50\ \text{Hz}$};
+    \draw[dimline] (axis cs:50,-25) -- (axis cs:51.65,-25);
+    \node[note, anchor=south] at (axis cs:50.83,-25) {$2sf$};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

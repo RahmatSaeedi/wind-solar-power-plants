@@ -1,0 +1,10 @@
+the bend radius a 33 kV cable must keep (teaching 15 x D)
+  cable 75 mm -> minimum bend radius 1.12 m (12 x D once laid)
+  drum barrel m   radius m   ok?
+            1.6       0.84   NO
+            2.0       1.04   NO
+            2.4       1.24   yes
+  a drum too small for the cable damages the insulation
+  before it leaves the yard; the cable maker states the
+  drum, the pulling limits and the bend radius - receiving
+  inspection checks the drum against that sheet (lesson C)

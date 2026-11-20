@@ -1,0 +1,8 @@
+height on the route (loaded height = deck + load)
+  point                       clearance m   nacelle 4.30   section 1 4.50
+  power line at km 205               5.40          +0.80            +0.60
+  overpass at km 214                 4.85          +0.25            +0.05
+  the power line has margin but is live: its owner sets the
+  safe distance and may lift or de-energise it; the overpass
+  leaves 5 cm for the base section (ch 30) - measured, not
+  read from a map, before the first load leaves the port

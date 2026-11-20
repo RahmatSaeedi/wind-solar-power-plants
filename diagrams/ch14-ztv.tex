@@ -1,0 +1,24 @@
+% Chapter 14 - zone of theoretical visibility of layout W2b: number of turbine tips in line of sight
+% from each point (eye at 2 m, bare synthetic terrain, 250 m grid), with the ridge shadow in the west.
+% Data: diagrams/data/ch14-ztv.csv (companion/ch14/examples_i.py), ch14-turbines.csv.
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\scriptsize]
+  \begin{axis}[plantp, width=124mm, height=100mm, xmin=0.125, xmax=8.875, ymin=0.125, ymax=6.875,
+      axis equal image, xlabel={شرق، $\text{km}$}, ylabel={شمال، $\text{km}$},
+      xtick={1,2,...,8}, ytick={1,2,...,6}, ymajorgrids=false, clip=true,
+      colormap={vis}{rgb255=(240,240,236) rgb255=(196,214,236) rgb255=(90,140,210)},
+      point meta min=0, point meta max=12,
+      colorbar, colorbar style={ylabel={توربینِ دیده‌شده}, ytick={0,3,...,12}, width=3mm},
+      clip marker paths=true]
+    \addplot[matrix plot*, mesh/cols=35, point meta=explicit, forget plot]
+      table[x=x, y=y, meta=n, col sep=comma] {data/ch14-ztv.csv};
+    \addplot[only marks, mark=*, mark size=1.4pt, color=cInk,
+      restrict expr to domain={\thisrow{k}}{3:3}, forget plot]
+      table[x=x, y=y, col sep=comma] {data/ch14-turbines.csv};
+    \node[note, fill=white, inner sep=1pt] at (axis cs:1.0,6.3) {سایهٔ یال};
+    \draw[cInkB, line width=0.5pt, densely dashed] (axis cs:1.8,1.4) -- (axis cs:1.8,6.6);
+    \node[note, anchor=west, fill=white, inner sep=1pt] at (axis cs:1.9,6.3) {خط‌الرأسِ یال};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

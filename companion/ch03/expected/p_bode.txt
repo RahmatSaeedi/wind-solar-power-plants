@@ -1,0 +1,10 @@
+cup anemometer as a first-order lag, distance constant 3 m (assumed):
+  at 8 m/s tau = 3 / 8 = 0.375 s
+  gust at 0.05 Hz: amplitude ratio 0.993, lag  6.7 deg
+  gust at 0.20 Hz: amplitude ratio 0.905, lag 25.2 deg
+  gust at 0.50 Hz: amplitude ratio 0.647, lag 49.7 deg
+  gust at 1.00 Hz: amplitude ratio 0.391, lag 67.0 deg
+  gust at 2.00 Hz: amplitude ratio 0.208, lag 78.0 deg
+buried cable, tau = 3 h (A-033 variant), daily load cycle f = 1/24 per hour:
+  amplitude ratio 0.786; lag 38.1 deg = 2.54 h
+  (the temperature swing is damped and the peak comes later than the load)

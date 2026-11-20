@@ -1,0 +1,34 @@
+% Chapter 8 - teaching capability chart of the 200 kVA backup generator (A-113, A-143): stator
+% circle, field circle, engine limit and practical stability limit, with three operating points.
+% Data: diagrams/data/ch08-capab.csv and ch08-capab-pts.csv (companion/ch08/examples_more3.py).
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=116mm, height=78mm,
+      xlabel={توانِ راکتیو، پریونیت}, ylabel={توانِ اکتیو، پریونیت},
+      xmin=-1.05, xmax=1.15, ymin=0, ymax=1.12, xtick={-1,-0.5,0,0.5,1}, ytick={0,0.2,...,1.0},
+      xticklabels={$-1$,$-0.5$,$0$,$0.5$,$1$}]
+    \addplot[draw=none, fill=cInk!10] table[x=q, y=p, col sep=comma] {data/ch08-capab.csv} \closedcycle;
+    \addplot[sInk, line width=0.9pt] table[x=q, y=p, col sep=comma] {data/ch08-capab.csv};
+    \addplot[sLimit, domain=0:180, samples=91, variable=\t] ({cos(t)},{sin(t)});
+    \addplot[sLoss, domain=0:58, samples=40, variable=\t] ({-0.4+1.28*cos(t)},{1.28*sin(t)});
+    \addplot[sLimit, domain=-1.0:1.1, samples=2] {0.8};
+    \addplot[sLimit, domain=0:1.1, samples=2, variable=\p] ({-0.4+0.364*p},{p});
+    \draw[cRule, densely dotted] (axis cs:-0.4,0) -- (axis cs:-0.4,1.1);
+    \draw[cRule, line width=0.6pt] (axis cs:0,0) -- (axis cs:0,1.12);
+    \node[note, anchor=south east] at (axis cs:1.13,0.81) {موتورِ دیزل $0.8$};
+    \node[note, text=cInk, anchor=west] at (axis cs:0.52,1.0) {گرمای میدان};
+    \node[note] at (axis cs:-0.62,0.55) {دایرهٔ استاتور};
+    \node[note, anchor=east] at (axis cs:-0.06,1.07) {پایداری با $\delta \le 70^\circ$};
+    \node[note, text width=16mm, anchor=north east] at (axis cs:-0.42,0.42) {$\delta = 90^\circ$};
+    \fill[cInk] (axis cs:0.320,0.560) circle (1.6pt);
+    \node[note, text=cInk, anchor=east] at (axis cs:0.30,0.56) {بارهای ضروری، روز};
+    \fill[cInk] (axis cs:-0.203,0.115) circle (1.6pt);
+    \node[note, text=cInk, anchor=south] at (axis cs:-0.12,0.14) {شب، فیلترِ $50$};
+    \draw[cInk, line width=0.8pt] (axis cs:-0.453,0.115) circle (2.2pt);
+    \node[note, text=cInk, anchor=east] at (axis cs:-0.48,0.115) {شب، فیلترِ $100$};
+    \node[note] at (axis cs:-0.74,0.27) {می‌گیرد};
+    \node[note] at (axis cs:0.45,0.07) {می‌دهد};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

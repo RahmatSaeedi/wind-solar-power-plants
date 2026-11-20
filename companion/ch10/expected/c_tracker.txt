@@ -1,0 +1,9 @@
+single-axis tracker (north-south axis, +-55 deg) against fixed
+25 deg tables, same sky model (A-206; no backtracking, no shading):
+  fixed 25 deg: POA 2,150 kWh/m2, effective 2,086
+  tracker:      POA 2,703 kWh/m2, effective 2,656
+  gain 27.3 % of effective irradiance before shading,
+  backtracking losses, motor energy and availability; the
+  tracker earns most on clear summer mornings and evenings
+  the choice for Plant P (fixed tables, A-183) is revisited with
+  costs and wind loads in chapters 18 and 30

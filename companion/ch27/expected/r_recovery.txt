@@ -1,0 +1,8 @@
+active-power recovery after a 150 ms grid fault (synthetic, A-339)
+  80 MW before; 5 MW during the fault; recovery after clearing
+  time from clearing to 90 % of the pre-fault power: 0.56 s
+  teaching requirement 1.0 s: met
+  recovery too slow loses energy the grid counts on; too fast
+  can shake a weak grid - the operator sets a window, and
+  the model used in the grid study (ch 28) must reproduce
+  the measured curve (model validation)

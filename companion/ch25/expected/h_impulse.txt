@@ -1,0 +1,13 @@
+initial impulse voltage along a disc winding (neutral earthed):
+  u(x) / U = sinh(a (1 - x)) / sinh(a); first disc gets about a / N
+  80 discs, 650 kV impulse
+  alpha   first disc kV   x uniform   winding type
+   10.0              76         9.4   plain disc
+    5.0              39         4.8   partly interleaved
+    2.5              20         2.5   interleaved
+  a steep impulse first divides by capacitance, not by turns:
+  the line-end discs carry many times their share; interleaving
+  the turns raises the series capacitance and lowers alpha -
+  why the line end of an HV winding is built differently, and
+  why the impulse test (lesson C) is a type and routine
+  evidence the reviewer reads, not a site trial

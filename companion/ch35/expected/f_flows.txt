@@ -1,0 +1,10 @@
+governed data flows across the boundary (teaching)
+  flow                                  update                   direction
+  historian aggregates -> reports       daily                    read only
+  alarms -> CMMS work requests          on event, deduplicated   one way
+  running hours, cycles -> CMMS         daily                    one way
+  asset register -> SCADA tag list      on change, reviewed      one way
+  CMMS -> SCADA control                 never                    no path
+  business systems read from the control side and never
+  write into it; the one flow into SCADA - tag names from
+  the register - passes a review, not an automatic sync

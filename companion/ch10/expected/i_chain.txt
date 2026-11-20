@@ -1,0 +1,13 @@
+array design and energy chain of Plant P (D-012, D-013):
+  10 inverters x 21 combiners x 20 strings x 26 modules = 109,200 modules
+  60.06 MWp, DC/AC 1.20, tilt 25 deg, GCR 0.40, pitch 11.4 m
+  POA irradiation 2,150 kWh/m2 on 28.2 ha of modules
+  energy at STC efficiency                129,147 MWh
+  after IAM, temperature, low light       119,318 MWh (-7.6 %)
+  after DC wiring 2 % and mismatch 1 %    115,738 MWh
+  after inverter and clipping             113,033 MWh
+  after soiling 1.43 % and shading        111,339 MWh
+  specific yield 1,854 kWh/kWp; performance ratio 0.862
+  chapter 9's horizontal model gave 101.4 GWh: the tilted plane
+  adds about a tenth; chapter 15 adds availability, degradation
+  and the uncertainty of each step

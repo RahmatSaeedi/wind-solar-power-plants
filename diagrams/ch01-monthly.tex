@@ -1,0 +1,25 @@
+% Chapter 1 — monthly screening energy of Plant P: sun and wind through the year.
+% Identity is carried by the legend AND the hatch pattern (no direct labels:
+% they would collide with neighbouring bars).
+% Data: diagrams/data/ch01-monthly.csv, written by companion/ch01/screening_report.py
+\input{_preamble}
+\begin{document}
+\babelsublr{\begin{tikzpicture}[>=Stealth, font=\small]
+  \begin{axis}[plantp, width=125mm, height=68mm,
+      ybar, bar width=6.5pt,
+      xlabel={ماهِ سال (شمارهٔ ماهِ میلادی)}, ylabel={انرژی (GWh)},
+      xmin=0.3, xmax=12.7, ymin=0, ymax=26,
+      xtick={1,...,12}, ytick={0,5,...,25},
+      legend image code/.code={\draw[#1, draw=none] (0cm,-0.1cm) rectangle (0.32cm,0.14cm);}]
+    \addplot[fill=cPV, draw=none, bar shift=-4.2pt]
+        table[x=month, y=pv_gwh, col sep=comma] {data/ch01-monthly.csv};
+    \addlegendentry{خورشیدی}
+    \addplot[fill=cWind, draw=none, bar shift=4.2pt,
+             postaction={pattern=north east lines, pattern color=white}]
+        table[x=month, y=wind_gwh, col sep=comma] {data/ch01-monthly.csv};
+    \addlegendentry{بادی}
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:12.25,23.6) {بادی};
+    \node[font=\footnotesize, text=cInk, anchor=south] at (axis cs:6.75,12.7) {خورشیدی};
+  \end{axis}
+\end{tikzpicture}}
+\end{document}

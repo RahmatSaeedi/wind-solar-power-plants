@@ -1,0 +1,19 @@
+product families of this chapter and what governs each (teaching)
+  family                governing input
+    tolerance that matters; evidence of life
+  tower sections        fatigue, buckling, frequency
+    ovality, flange flatness; coating, weld NDT
+  turbine foundation    overturning, soil, stiffness
+    anchor-cage level; concrete cover, strength
+  PV tables (fixed)     wind on modules, soil
+    post plumb, rail line; zinc thickness
+  single-axis tracker   wind stow, torque tube
+    tube straightness; drive backlash, zinc
+  substation steel      line pull, seismic
+    bolt-hole positions; zinc
+  container plinths     battery mass, water
+    level and flatness; concrete cover
+  every family meets the plant through one interface: the
+  anchor cage, the post in the ground, the bolt pattern of a
+  support, the plinth's level - the fabricator's tolerance
+  and the site's tolerance add up there (lesson C)

@@ -1,0 +1,10 @@
+400 bolted joints in one inverter, 2 left untorqued (teaching)
+  torque audit of n random joints with a wrench:
+    n:          10     40    100    200
+    finds:      5%    19%    44%    75%
+    274 joints to find at least one with 90 % chance
+  torque marks checked by eye on all 400, each seen with 95%: 99.8%
+  a mark turns an invisible state into a visible one: the eye
+  checks every joint in minutes, the wrench a sample in hours;
+  the audit then checks the wrench and the record, not the
+  joints one by one

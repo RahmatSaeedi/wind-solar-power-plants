@@ -1,0 +1,9 @@
+DC window over the data-pack year (1.1.0, S0; A-153):
+  string MPP voltage: min 861 V, median 1000 V, max 1103 V
+  AC V   floor V   hours below   energy lost MWh   share of DC
+   600       933           138               1.2       0.001 %
+   630       980          1443             219.1       0.213 %
+   660      1027          2938           2,279.9       2.212 %
+   690      1073          4175           9,415.2       9.136 %
+  with 26-module strings a 690 V inverter would leave a tenth
+  of the energy in the array; 600 V keeps all of it (D-012)

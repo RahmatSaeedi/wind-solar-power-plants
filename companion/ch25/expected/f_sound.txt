@@ -1,0 +1,8 @@
+transformer sound at the site boundary (free field, teaching):
+  each unit 72 dB(A) at 2 m; two units together: 75.0 dB(A) at 2 m
+  at   50 m:  47.1 dB(A)
+  at  150 m:  37.5 dB(A)
+  at  400 m:  29.0 dB(A)
+  the limit at a home and the method come from the authority
+  and the noise study (ch 14, 33); low-noise cores or walls
+  are bought only if the study needs them

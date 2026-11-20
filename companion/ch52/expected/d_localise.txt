@@ -1,0 +1,8 @@
+step 3 - localisation: the 21 combiner currents of PVF2-3 at noon on a clear
+  day (A); median 193 A
+   199  193  198  195  195  193  174  190  194  196  195
+   192  193    0  192  192  191  192  195  190  192
+  below 95 % of the median: CB07 174 A, CB14 0 A
+  CB14 is dead (all 20 strings) and CB07 two strings short:
+  one combiner explains 4.8 % of the block, two strings 0.5 %
+  - together the drop the ratio showed

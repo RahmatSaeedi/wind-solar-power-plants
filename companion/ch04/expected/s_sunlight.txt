@@ -1,0 +1,10 @@
+clear-sky beam: DNI = 1353 x 0.7^(AM^0.678), AM = 1 / sin(elevation)
+  (Meinel's empirical fit; solar constant today about 1361 W/m2)
+  elevation 90 deg: air mass 1.00, model DNI  947 W/m2
+  elevation 60 deg: air mass 1.15, model DNI  913 W/m2
+  elevation 30 deg: air mass 2.00, model DNI  765 W/m2
+  elevation 15 deg: air mass 3.86, model DNI  555 W/m2
+summer subset day (day 174), hour 12: elevation 77.8 deg;
+  model 942 W/m2, data pack 882 W/m2
+  at 1200 m the air above is thinner (p/p0 = 0.866);
+  a pressure-corrected air mass lowers the loss

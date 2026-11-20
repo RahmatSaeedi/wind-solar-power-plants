@@ -1,0 +1,9 @@
+normal model of annual energy: mean 289.8 GWh, standard deviation 10.1 GWh
+  P50  = mean - z sigma, z = 0.0000: 289.8 GWh
+  P75  = mean - z sigma, z = 0.6745: 283.0 GWh
+  P90  = mean - z sigma, z = 1.2816: 276.9 GWh
+  P95  = mean - z sigma, z = 1.6449: 273.2 GWh
+  P99  = mean - z sigma, z = 2.3263: 266.3 GWh
+  probability that a year exceeds 300 GWh: 0.156
+  these numbers inherit every assumption of the 10.1 GWh (teaching values,
+    chapter 2)
